@@ -1,0 +1,35 @@
+{
+  "name": "coh-content-db-homecoming",
+  "version": "0.1.0",
+  "description": "City of Heroes Content Database",
+  "main": "dist/coh-content-db-homecoming.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n15g/coh-content-db-homecoming.git"
+  },
+  "author": "n15g",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/n15g/coh-content-db-homecoming/issues"
+  },
+  "homepage": "https://github.com/n15g/coh-content-db-homecoming#readme",
+  "devDependencies": {
+    "base64-inline-loader": "^1.1.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "unminified-webpack-plugin": "^2.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "coh-content-db": "^0.1.3"
+  }
+}
