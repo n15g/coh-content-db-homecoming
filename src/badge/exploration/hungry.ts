@@ -1,12 +1,12 @@
-import {AlternateNameType, BadgeType, CohContentDbImageLibrary, IBadgeData} from "coh-content-db";
-import {MapKey} from "../../maps";
+import {ALIGNMENT_ANY, AlternateNameType, BadgeType, CohContentDbImageLibrary, IBadgeData} from "coh-content-db";
+import {BloodyBay} from "../../map/bloody-bay";
 
 export const Hungry: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hungry",
     canonicalName: "Hungry",
-    alignment: {h: true, v: true, p: true},
-    mapKey: MapKey.BLOODY_BAY,
+    alignment: ALIGNMENT_ANY,
+    mapKey: BloodyBay.key,
     location: [-1194.0, 0.0, -743.0],
     alternateNames: [
         {type: AlternateNameType.H, value: "Hungry"},
@@ -19,5 +19,5 @@ export const Hungry: IBadgeData = {
         {title: "All Consuming Badge", href: "https://paragonwiki.com/wiki/All_Consuming_Badge"}
     ],
     images: [CohContentDbImageLibrary.badge.exploration.hero, CohContentDbImageLibrary.badge.exploration.villain],
-    vidiotMapNumber: 2
+    vidiotMapKey: "2"
 };

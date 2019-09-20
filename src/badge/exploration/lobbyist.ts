@@ -1,12 +1,12 @@
-import {AlternateNameType, BadgeType, CohContentDbImageLibrary, IBadgeData} from "coh-content-db";
-import {MapKey} from "../../maps";
+import {ALIGNMENT_ANY, AlternateNameType, BadgeType, CohContentDbImageLibrary, IBadgeData} from "coh-content-db";
+import {BloodyBay} from "../../map/bloody-bay";
 
 export const Lobbyist: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "lobbyist",
     canonicalName: "Lobbyist",
-    alignment: {h: true, v: true, p: true},
-    mapKey: MapKey.BLOODY_BAY,
+    alignment: ALIGNMENT_ANY,
+    mapKey: BloodyBay.key,
     location: [2265.0, 137.0, -832.0],
     alternateNames: [
         {type: AlternateNameType.H, value: "Lobbyist"},
@@ -19,5 +19,5 @@ export const Lobbyist: IBadgeData = {
         {title: "Crooked Politician Badge", href: "https://paragonwiki.com/wiki/Crooked_Politician_Badge"}
     ],
     images: [CohContentDbImageLibrary.badge.exploration.hero, CohContentDbImageLibrary.badge.exploration.villain],
-    vidiotMapNumber: 1
+    vidiotMapKey: "1"
 };
