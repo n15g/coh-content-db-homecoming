@@ -1,4 +1,4 @@
-import {ALIGNMENT_HERO, BadgePartialType, BadgeType, CohContentDbImageLibrary, IBadgeData, PlaqueType} from "coh-content-db";
+import {ALIGNMENT_HERO, BadgePartialType, BadgeType, IBadgeData, PlaqueType} from "coh-content-db";
 import {PeregrineIsland} from "../../map/peregrine-island";
 import {RiktiWarZone} from "../../map/rikti-war-zone";
 import {AbandonedSewerNetwork} from "../../map/abandoned-sewer-network";
@@ -6,13 +6,15 @@ import {AbandonedSewerNetwork} from "../../map/abandoned-sewer-network";
 export const Academic: IBadgeData = {
     type: BadgeType.HISTORY,
     key: "academic",
-    canonicalName: "Academic",
+    names: [{value: "Academic"}],
     alignment: ALIGNMENT_HERO,
-    badgeText: "You have learned the history of the successful takeover of Washington, D.C. by Nemesis.",
+    badgeText: [{value: "You have learned the history of the successful takeover of Washington, D.C. by Nemesis."}],
     links: [
         {title: "Academic Badge", href: "https://paragonwiki.com/wiki/Academic_Badge"}
     ],
-    images: [CohContentDbImageLibrary.badge.history],
+    imageKeys: [
+        {value: "core.history.plaque"}
+    ],
     partials: [
         {
             key: "pi-1",
@@ -25,7 +27,7 @@ export const Academic: IBadgeData = {
                 " With only minutes to spare, these six heroes took off across the country carrying large batches of the airborne antidote." +
                 " They managed to get the antidote to each infected city, preventing a disaster of epic proportions.",
             notes: "This plaque is in the Cutlass Isles area of Peregrine Island. It is at the base of a structural pillar near the middle of the area." +
-                "It is 159 yards NW of the Cutlass Isles' marker.",
+                " It is 159 yards NW of the Cutlass Isles' marker.",
             vidiotMapKey: "1"
         },
         {
@@ -38,7 +40,7 @@ export const Academic: IBadgeData = {
                 " The robots' fatal flaw was their inability to adapt to new situations; once events started to transpire differently than Nemesis had envisioned, the robots were next to useless." +
                 " Maiden Justice used her cunning to confound the robots, while Statesman relied on his awesome strength." +
                 " In the end, they had defeated some six hundred robots, freeing Paragon City from Nemesis's grasp.",
-            notes: "This plaque is in the Rikti War Zone. It is wall mounted, facing north west on a building north east of the Rikti ship.It is 382 yds NE of Rikti Crash Site Marker.",
+            notes: "This plaque is in the Rikti War Zone. It is wall mounted, facing north west on a building north east of the Rikti ship. It is 382 yds NE of Rikti Crash Site Marker.",
             vidiotMapKey: "1"
         },
         {

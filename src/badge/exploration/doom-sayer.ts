@@ -1,21 +1,23 @@
-import {ALIGNMENT_VILLAIN, BadgeType, CohContentDbImageLibrary, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 import {CapAuDiable} from "../../map/cap-au-diable";
 
 export const DoomSayer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "doom-sayer",
-    canonicalName: "Doom Sayer",
+    names: [{value: "Doom Sayer"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,
     location: [2234.0, 0.0, -1330.0],
-    badgeText: "The Luddites have taken over this part of the forest and use it as their main gathering place to preach about the evil schemes of Dr. Aeon." +
-        " Sometimes they just theorize the significance of the orange pipes." +
-        " Despite their attempts to malign his character, Dr. Aeon has yet to drive them out of the area.",
+    badgeText: [{
+        value: "The Luddites have taken over this part of the forest and use it as their main gathering place to preach about the evil schemes of Dr. Aeon." +
+            " Sometimes they just theorize the significance of the orange pipes." +
+            " Despite their attempts to malign his character, Dr. Aeon has yet to drive them out of the area."
+    }],
     notes: "The Doom Sayer Badge is located in the Vagabond Hills neighborhood of Cap au Diable." +
         " It is in the construction area 131 yards west of the neighborhood marker near a bulldozer.",
     links: [
         {title: "Doom Sayer Badge", href: "https://paragonwiki.com/wiki/Doom_Sayer_Badge"}
     ],
-    images: [CohContentDbImageLibrary.badge.exploration.villain],
+    imageKeys: [{value: "core.exploration.villain"}],
     vidiotMapKey: "6"
 };

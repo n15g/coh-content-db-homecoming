@@ -1,20 +1,22 @@
-import {ALIGNMENT_VILLAIN, BadgeType, CohContentDbImageLibrary, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 import {CapAuDiable} from "../../map/cap-au-diable";
 
 export const SweetTooth: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sweet-tooth",
-    canonicalName: "Sweet Tooth",
+    names: [{value: "Sweet Tooth"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,
     location: [-222.0, 0.0, -2136.0],
-    badgeText: "Lawrence Langston made his money investing in the things he personally was interested in." +
-        " His penchant for chocolate helped him to strike gold with Gold Brick candy bars.",
+    badgeText: [{
+        value: "Lawrence Langston made his money investing in the things he personally was interested in." +
+            " His penchant for chocolate helped him to strike gold with Gold Brick candy bars."
+    }],
     notes: "The Sweet Tooth Badge is in Cap au Diable. The badge marker is just outside a door in the Gold Brick factory just north of the New Haven marker." +
         " The badge marker is at the northwestern corner of the building, between a garage door and a truck with a yellow cab.",
     links: [
         {title: "Sweet Tooth Badge", href: "https://paragonwiki.com/wiki/Sweet_Tooth_Badge"}
     ],
-    images: [CohContentDbImageLibrary.badge.exploration.villain],
+    imageKeys: [{value: "core.exploration.villain"}],
     vidiotMapKey: "5"
 };
