@@ -1,23 +1,71 @@
 import {IBadgeData} from "coh-content-db";
 
+import {BirdWatcher} from "./bird-watcher";
+import {BlueShield} from "./blue-shield";
+import {BoomtownTroglodyte} from "./boomtown-troglodyte";
+import {Brawler} from "./brawler";
 import {CircleGazer} from "./circle-gazer";
+import {CorpseBox} from "./corpse-box";
+import {DestinedForValhalla} from "./destined-for-valhalla";
 import {DoomSayer} from "./doom-sayer";
 import {Egghead} from "./egghead";
+import {EndOfTheLine} from "./end-of-the-line";
+import {EyeOfTheGemini} from "./eye-of-the-gemini";
+import {GalacticFan} from "./galactic-fan";
 import {Ghoulish} from "./ghoulish";
 import {Globetrotter} from "./globetrotter";
 import {Hungry} from "./hungry";
 import {Imploding} from "./imploding";
+import {LandLocked} from "./land-locked";
 import {LastStand} from "./last-stand";
 import {Lobbyist} from "./lobbyist";
 import {MasterOfScience} from "./master-of-science";
 import {MediaJunky} from "./media-junky";
+import {OrionsBelt} from "./orions-belt";
+import {Phalanxer} from "./phalanxer";
 import {Ragnarok} from "./ragnarok";
+import {Regal} from "./regal";
 import {Sparky} from "./sparky";
 import {Steamed} from "./steamed";
 import {SweetTooth} from "./sweet-tooth";
+import {Tank} from "./tank";
 import {TemporalFighter} from "./temporal-fighter";
 import {ThrillSeeker} from "./thrill-seeker";
+import {ToweringInferno} from "./towering-inferno";
+import {VisionOfDespair} from "./vision-of-despair";
 import {Widower} from "./widower";
+import {AirLifter} from "./air-lifter";
+import {DeadEnd} from "./dead-end";
+import {FamilyPartier} from "./family-partier";
+import {Connector} from "./connector";
+import {Unlucky} from "./unlucky";
+import {CreyHavoc} from "./crey-havoc";
+import {Valorous} from "./valorous";
+import {Vigorous} from "./vigorous";
+import {WentworthHistoryBuff} from "./wentworth-history-buff";
+import {Pwned} from "./pwned";
+import {ManOfVengeance} from "./man-of-vengeance";
+import {Summoned} from "./summoned";
+import {Upgraded} from "./upgraded";
+import {MysticKing} from "./mystic-king";
+import {KeenSighted} from "./keen-sighted";
+import {Smokey} from "./smokey";
+import {BetterDays} from "./better-days";
+import {RoomForExpansion} from "./room-for-expansion";
+import {LeftBehind} from "./left-behind";
+import {BridgeToNowhere} from "./bridge-to-nowhere";
+import {Purifier} from "./purifier";
+import {Solace} from "./solace";
+import {Dauntless} from "./dauntless";
+import {HealingNode} from "./healing-node";
+import {Controversial} from "./controversial";
+import {DanceLegend} from "./dance-legend";
+import {PetProject} from "./pet-project";
+import {DirtyAttorney} from "./dirty-attorney";
+import {SecretAdmirer} from "./secret-admirer";
+import {HeroCorpsRecruit} from "./hero-corps-recruit";
+import {NimbleMynx} from "./nimble-mynx";
+import {BrightStar} from "./bright-star";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -33,5 +81,41 @@ export const ExplorationBadges: IBadgeData[] = [
     Widower,
 
     //AE Buildings
-    ThrillSeeker
+    ThrillSeeker,
+
+    //Echo Galaxy City Pt1
+    GalacticFan, EyeOfTheGemini, OrionsBelt,
+
+    //Kings Row Pt1
+    WentworthHistoryBuff, Pwned, ManOfVengeance,
+
+    //Steel Canyon Pt1
+    DanceLegend, Controversial, PetProject, DirtyAttorney,
+
+    //Skyway City Pt1
+    BetterDays, RoomForExpansion, LeftBehind, BridgeToNowhere,
+
+    //Independence Port Pt1
+    AirLifter, DeadEnd, FamilyPartier, Connector, Unlucky,
+
+    //Boomtown Pt1
+    ToweringInferno, BoomtownTroglodyte, EndOfTheLine, CorpseBox,
+
+    //Boomtown Pt2
+    Phalanxer, Regal, VisionOfDespair, DestinedForValhalla,
+
+    //Echo Galaxy City Pt2
+    BirdWatcher, BlueShield, Brawler, Tank, LandLocked,
+
+    //Independence Port Pt2
+    CreyHavoc, Valorous, Vigorous,
+
+    //Kings Row Pt2
+    Summoned, Upgraded, MysticKing, KeenSighted, Smokey,
+
+    //Skyway City Pt2
+    Purifier, Solace, Dauntless, HealingNode,
+
+    //Steel Canyon Pt2
+    SecretAdmirer, HeroCorpsRecruit, NimbleMynx, BrightStar,
 ];

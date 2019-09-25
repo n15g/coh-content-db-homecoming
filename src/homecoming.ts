@@ -1,13 +1,5 @@
 import {IGameMapData, IServerData, IServerGroupData, ServerGroupStatus} from "coh-content-db";
-import {ArchitectEntertainmentBuildings} from "./map/architect-entertainment-buildings";
-import {AtlasPark} from "./map/atlas-park";
-import {BloodyBay} from "./map/bloody-bay";
-import {CapAuDiable} from "./map/cap-au-diable";
-import {MercyIsland} from "./map/mercy-island";
-import {ReclusesVictory} from "./map/recluses-victory";
-import {RiktiWarZone} from "./map/rikti-war-zone";
-import {AbandonedSewerNetwork} from "./map/abandoned-sewer-network";
-import {PeregrineIsland} from "./map/peregrine-island";
+import {Maps} from "./map/_maps";
 
 export class Homecoming implements IServerGroupData {
     public readonly key: string = "homecoming";
@@ -23,14 +15,6 @@ export class Homecoming implements IServerGroupData {
     ];
     public readonly repository: string = "https://github.com/n15g/coh-content-db-homecoming";
     public readonly maps: IGameMapData[] = [
-        AbandonedSewerNetwork,
-        ArchitectEntertainmentBuildings,
-        AtlasPark,
-        BloodyBay,
-        CapAuDiable,
-        MercyIsland,
-        PeregrineIsland,
-        ReclusesVictory,
-        RiktiWarZone
+        ...Maps
     ];
 }

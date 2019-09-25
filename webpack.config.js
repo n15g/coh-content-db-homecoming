@@ -34,5 +34,8 @@ module.exports = {
     plugins: [
         new UnminifiedWebpackPlugin(),
         new CleanWebpackPlugin()
-    ]
+    ],
+    performance: {
+        hints: false
+    }
 };

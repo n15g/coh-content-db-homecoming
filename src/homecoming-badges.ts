@@ -3,6 +3,8 @@ import {IBadgeData, IServerGroupData} from "coh-content-db";
 import {AccomplishmentBadges} from "./badge/accomplishment/_accomplishment-badges";
 import {HistoryBadges} from "./badge/history/_history-badges";
 import {AchievementBadges} from "./badge/achievement/_achievement-badges";
+import {DefeatBadges} from "./badge/defeat/_defeat-badges";
+import {AccoladeBadges} from "./badge/accolade/_accolade-badges";
 
 export class HomecomingBadges implements IServerGroupData {
     public readonly key: string = "homecoming";
@@ -10,6 +12,8 @@ export class HomecomingBadges implements IServerGroupData {
         ...ExplorationBadges,
         ...HistoryBadges,
         ...AccomplishmentBadges,
-        ...AchievementBadges
+        ...AchievementBadges,
+        ...AccoladeBadges,
+        ...DefeatBadges
     ];
 }

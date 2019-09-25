@@ -1,0 +1,19 @@
+import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
+import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
+
+export const LandLocked: IBadgeData = {
+    type: BadgeType.EXPLORATION,
+    key: "land-locked",
+    names: [{value: "Land Locked"}],
+    alignment: ALIGNMENT_HERO,
+    mapKey: EchoGalaxyCity.key,
+    location: [-2036.0, -43.0, 1000.0],
+    badgeText: [{value: "This lock holds back the waters of Eastgate Bay, and has been the target of many super criminals bent on flooding Galaxy City."}],
+    notes: "The Land Locked Badge is located in the Gemini Park neighborhood in Echo: Galaxy City." +
+        "\n\nIt is in the middle of the large steel doors on the eastern wall of the zone, 270 yards south of the entrance to Perez Park.",
+    links: [
+        {title: "Land Locked Badge", href: "https://paragonwiki.com/wiki/Land_Locked_Badge"}
+    ],
+    imageKeys: [{value: "core.exploration.hero"}],
+    vidiotMapKey: "5"
+};
