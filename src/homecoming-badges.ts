@@ -5,6 +5,10 @@ import {HistoryBadges} from "./badge/history/_history-badges";
 import {AchievementBadges} from "./badge/achievement/_achievement-badges";
 import {DefeatBadges} from "./badge/defeat/_defeat-badges";
 import {AccoladeBadges} from "./badge/accolade/_accolade-badges";
+import {GladiatorBadges} from "./badge/gladiator/_gladiator-badges";
+import {VeteranBadges} from "./badge/veteran/_veteran-badges";
+import {PvpBadges} from "./badge/pvp/_pvp-badges";
+import {InventionBadges} from "./badge/invention/_invention-badges";
 
 export class HomecomingBadges implements IServerGroupData {
     public readonly key: string = "homecoming";
@@ -14,6 +18,10 @@ export class HomecomingBadges implements IServerGroupData {
         ...AccomplishmentBadges,
         ...AchievementBadges,
         ...AccoladeBadges,
-        ...DefeatBadges
+        ...DefeatBadges,
+        ...GladiatorBadges,
+        ...VeteranBadges,
+        ...PvpBadges,
+        ...InventionBadges,
     ];
 }
