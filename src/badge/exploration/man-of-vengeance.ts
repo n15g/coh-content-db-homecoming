@@ -3,7 +3,7 @@ import {KingsRow} from "../../map/kings-row";
 
 export const ManOfVengeance: IBadgeData = {
     type: BadgeType.EXPLORATION,
-    key: "Man of Vengeance",
+    key: "man-of-vengeance",
     names: [
         {type: Alternate.M, value: "Man of Vengeance"},
         {type: Alternate.F, value: "Woman of Vengeance"}
