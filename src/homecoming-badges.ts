@@ -10,6 +10,7 @@ import {VeteranBadges} from "./badge/veteran/_veteran-badges";
 import {PvpBadges} from "./badge/pvp/_pvp-badges";
 import {InventionBadges} from "./badge/invention/_invention-badges";
 import {EventBadges} from "./badge/event/_event-badges";
+import {OuroborosBadges} from "./badge/ouroboros/_event-badges";
 
 export class HomecomingBadges implements IServerGroupData {
     public readonly key: string = "homecoming";
@@ -24,6 +25,7 @@ export class HomecomingBadges implements IServerGroupData {
         ...VeteranBadges,
         ...PvpBadges,
         ...InventionBadges,
-        ...EventBadges
+        ...EventBadges,
+        ...OuroborosBadges
     ];
 }
