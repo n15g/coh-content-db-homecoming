@@ -13,6 +13,7 @@ import {EventBadges} from "./badge/event/_event-badges";
 import {OuroborosBadges} from "./badge/ouroboros/_ouroboros-badges";
 import {ConsignmentBadges} from "./badge/consignment/_consignment-badges";
 import {DayJobBadges} from "./badge/day-job/_day-job-badges";
+import {AEBadges} from "./badge/ae/_ae-badges";
 
 export class HomecomingBadges implements IServerGroupData {
     public readonly key: string = "homecoming";
@@ -30,6 +31,7 @@ export class HomecomingBadges implements IServerGroupData {
         ...EventBadges,
         ...OuroborosBadges,
         ...ConsignmentBadges,
-        ...DayJobBadges
+        ...DayJobBadges,
+        ...AEBadges
     ];
 }
