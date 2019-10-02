@@ -1,6 +1,7 @@
 import {ALIGNMENT_HERO, BadgePartialType, BadgeType, IBadgeData, PlaqueType} from "coh-content-db";
 import {TalosIsland} from "../../map/talos-island";
 import {IndependencePort} from "../../map/independence-port";
+import {EchoDarkAstoria} from "../../map/echo-dark-astoria";
 
 export const Authority: IBadgeData = {
     type: BadgeType.HISTORY,
@@ -55,7 +56,7 @@ export const Authority: IBadgeData = {
         {
             key: "eda-1",
             type: BadgePartialType.PLAQUE,
-            mapKey: IndependencePort.key,
+            mapKey: EchoDarkAstoria.key,
             plaqueType: PlaqueType.MONUMENT,
             location: [3420.0, 46.0, 3038.0],
             inscription: "When the Freedom Phalanx became an officially recognized Super Group in 1953, the hero Vambrace made a pledge." +
@@ -67,7 +68,7 @@ export const Authority: IBadgeData = {
         {
             key: "tv-1",
             type: BadgePartialType.PLAQUE,
-            mapKey: IndependencePort.key,
+            mapKey: TalosIsland.key,
             plaqueType: PlaqueType.WALL_PLAQUE,
             location: [351.0, 196.0, -3605.0],
             inscription: "In 1953, citizens poured into the streets in support of the Freedom Phalanx becoming a legally recognized Super Group." +

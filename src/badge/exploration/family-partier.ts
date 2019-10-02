@@ -4,7 +4,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const FamilyPartier: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "family-partier",
-    names: [{value: "Dead End"}],
+    names: [{value: "Family Partier"}],
     alignment: ALIGNMENT_HERO,
     mapKey: IndependencePort.key,
     location: [-12.0, -21.0, 2376.0],

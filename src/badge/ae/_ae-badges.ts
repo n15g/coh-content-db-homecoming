@@ -1,4 +1,5 @@
 import {IBadgeData} from "coh-content-db";
+
 import {Gamer} from "./gamer";
 import {Admiring} from "./admiring";
 import {Critic} from "./critic";
