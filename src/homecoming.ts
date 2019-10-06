@@ -1,5 +1,6 @@
 import {IGameMapData, IServerData, IServerGroupData, ServerGroupStatus} from "coh-content-db";
 import {Maps} from "./map/_maps";
+import {IArchetypeData} from "coh-content-db/dist/types/archetype";
 
 export class Homecoming implements IServerGroupData {
     public readonly key: string = "homecoming";
@@ -14,6 +15,23 @@ export class Homecoming implements IServerGroupData {
         {name: "Torchbearer"}
     ];
     public readonly repository: string = "https://github.com/n15g/coh-content-db-homecoming";
+
+    public readonly archetypes: IArchetypeData[] = [
+        {key: "arachnos-soldier", name: "Arachnos Soldier"},
+        {key: "arachnos-widow", name: "Arachnos Widow"},
+        {key: "blaster", name: "Blaster"},
+        {key: "brute", name: "Brute"},
+        {key: "controller", name: "Controller"},
+        {key: "corruptor", name: "Corruptor"},
+        {key: "defender", name: "Defender"},
+        {key: "dominator", name: "Dominator"},
+        {key: "mastermind", name: "Mastermind"},
+        {key: "peacebringer", name: "Peacebringer"},
+        {key: "scrapper", name: "Scrapper"},
+        {key: "sentinel", name: "Sentinel"},
+        {key: "warshade", name: "Warshade"},
+    ];
+
     public readonly maps: IGameMapData[] = [
         ...Maps
     ];
