@@ -1,7 +1,7 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const VirtuallyImpulsive: IBadgeData = {
-    type: BadgeType.ACHIEVEMENT,
+    type: BadgeType.AE,
     key: "virtually-impulsive",
     names: [
         {value: "Virtually Impulsive"}

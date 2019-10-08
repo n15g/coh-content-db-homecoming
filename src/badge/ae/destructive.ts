@@ -1,7 +1,7 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Destructive: IBadgeData = {
-    type: BadgeType.ACHIEVEMENT,
+    type: BadgeType.AE,
     key: "destructive",
     names: [
         {value: "Destructive"}

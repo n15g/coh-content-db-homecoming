@@ -1,7 +1,7 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Energized: IBadgeData = {
-    type: BadgeType.ACHIEVEMENT,
+    type: BadgeType.AE,
     key: "energized",
     names: [
         {value: "Energized"}

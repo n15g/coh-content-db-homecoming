@@ -1,7 +1,7 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const VirtualDestruction: IBadgeData = {
-    type: BadgeType.ACHIEVEMENT,
+    type: BadgeType.AE,
     key: "virtual-destruction",
     names: [
         {value: "Virtual Destruction"}

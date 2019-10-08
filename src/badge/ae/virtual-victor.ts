@@ -1,7 +1,7 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const VirtualVictor: IBadgeData = {
-    type: BadgeType.ACHIEVEMENT,
+    type: BadgeType.AE,
     key: "virtual-victor",
     names: [
         {value: "Virtual Victor"}

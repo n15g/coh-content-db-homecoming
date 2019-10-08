@@ -1,7 +1,7 @@
 import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Villainous: IBadgeData = {
-    type: BadgeType.ACHIEVEMENT,
+    type: BadgeType.AE,
     key: "villainous",
     names: [
         {value: "Villainous"}

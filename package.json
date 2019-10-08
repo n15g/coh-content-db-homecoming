@@ -1,6 +1,6 @@
 {
   "name": "coh-content-db-homecoming",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "City of Heroes Content Database",
   "main": "dist/coh-content-db-homecoming.js",
   "files": [

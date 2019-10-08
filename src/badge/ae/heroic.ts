@@ -1,7 +1,7 @@
 import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Heroic: IBadgeData = {
-    type: BadgeType.ACHIEVEMENT,
+    type: BadgeType.AE,
     key: "heroic",
     names: [
         {value: "Heroic"}
