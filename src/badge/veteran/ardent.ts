@@ -8,5 +8,5 @@ export const Ardent: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 39",
-    imageKeys: [{value: "core.veteran.veteran-39"}]
+    icons: [{value: "core.veteran.veteran-39"}]
 };

@@ -26,5 +26,5 @@ export const CityOfficial: IBadgeData = {
         {title: "Ousted Official Badge", href: "https://paragonwiki.com/wiki/Ousted_Official_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.city-official"}]
+    icons: [{value: "core.day-job.city-official"}]
 };

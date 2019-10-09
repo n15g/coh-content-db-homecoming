@@ -23,5 +23,5 @@ export const Gunrunner: IBadgeData = {
         {title: "Smuggler Badge", href: "https://paragonwiki.com/wiki/Smuggler_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.gunrunner"}]
+    icons: [{value: "core.day-job.gunrunner"}]
 };

@@ -13,5 +13,5 @@ export const Trusting: IBadgeData = {
         {title: "Trusting Badge", href: "https://paragonwiki.com/wiki/Trusting_Badge"},
         {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
     ],
-    imageKeys: [{value: "core.event.trusting"}]
+    icons: [{value: "core.event.trusting"}]
 };

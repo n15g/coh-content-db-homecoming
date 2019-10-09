@@ -14,6 +14,6 @@ export const LandLocked: IBadgeData = {
     links: [
         {title: "Land Locked Badge", href: "https://paragonwiki.com/wiki/Land_Locked_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "5"
 };

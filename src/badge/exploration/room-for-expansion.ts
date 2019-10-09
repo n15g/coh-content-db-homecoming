@@ -16,6 +16,6 @@ export const RoomForExpansion: IBadgeData = {
     links: [
         {title: "Room for Expansion Badge", href: "https://paragonwiki.com/wiki/Room_for_Expansion_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "6"
 };

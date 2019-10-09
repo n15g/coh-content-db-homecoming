@@ -14,5 +14,5 @@ export const Hindered: IBadgeData = {
     links: [
         {title: "Hindered Badge", href: "https://paragonwiki.com/wiki/Hindered_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.hindered"}]
+    icons: [{value: "core.ouroboros.hindered"}]
 };

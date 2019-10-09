@@ -22,5 +22,5 @@ export const Patroller: IBadgeData = {
         {title: "Criminal Badge", href: "https://paragonwiki.com/wiki/Criminal_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.patroller"}]
+    icons: [{value: "core.day-job.patroller"}]
 };

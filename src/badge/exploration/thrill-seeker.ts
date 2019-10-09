@@ -14,7 +14,7 @@ export const ThrillSeeker: IBadgeData = {
     links: [
         {title: "Thrill Seeker Badge", href: "https://paragonwiki.com/wiki/Thrill_Seeker_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

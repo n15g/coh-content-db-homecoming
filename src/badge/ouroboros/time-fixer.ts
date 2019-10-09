@@ -14,5 +14,5 @@ export const TimeFixer: IBadgeData = {
     links: [
         {title: "Time Fixer Badge", href: "https://paragonwiki.com/wiki/Time_Fixer_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.time-fixer"}]
+    icons: [{value: "core.ouroboros.time-fixer"}]
 };

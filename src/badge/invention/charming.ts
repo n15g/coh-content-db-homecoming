@@ -10,7 +10,7 @@ export const Charming: IBadgeData = {
     links: [
         {title: "Charming Badge", href: "https://paragonwiki.com/wiki/Charming_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-3"}],
+    icons: [{value: "core.invention.brain-3"}],
     partials: [
         {
             key: "a",

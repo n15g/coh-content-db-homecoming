@@ -13,6 +13,6 @@ export const MasterOfScience: IBadgeData = {
     links: [
         {title: "Master of Science Badge", href: "https://paragonwiki.com/wiki/Master_of_Science_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "7"
 };

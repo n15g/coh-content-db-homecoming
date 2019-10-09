@@ -12,5 +12,5 @@ export const MasterArtisan: IBadgeData = {
     links: [
         {title: "Master Artisan Badge", href: "https://paragonwiki.com/wiki/Master_Artisan_Badge"}
     ],
-    imageKeys: [{value: "core.invention.master-artisan"}]
+    icons: [{value: "core.invention.master-artisan"}]
 };

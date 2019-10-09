@@ -18,6 +18,6 @@ export const PetProject: IBadgeData = {
     links: [
         {title: "Pet Project Badge", href: "https://paragonwiki.com/wiki/Pet_Project_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "7"
 };

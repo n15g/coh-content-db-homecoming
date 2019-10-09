@@ -22,5 +22,5 @@ export const ThePerfectGrifter: IBadgeData = {
     links: [
         {title: "The Perfect Grifter Badge", href: "https://paragonwiki.com/wiki/The_Perfect_Grifter_Badge"}
     ],
-    imageKeys: [{value: "core.event.the-perfect-grifter"}]
+    icons: [{value: "core.event.the-perfect-grifter"}]
 };

@@ -14,5 +14,5 @@ export const Capped: IBadgeData = {
     links: [
         {title: "Capped Badge", href: "https://paragonwiki.com/wiki/Capped_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.capped"}]
+    icons: [{value: "core.ouroboros.capped"}]
 };

@@ -12,5 +12,5 @@ export const Admiring: IBadgeData = {
     links: [
         {title: "Admiring Badge", href: "https://paragonwiki.com/wiki/Admiring_Badge"}
     ],
-    imageKeys: [{value: "core.ae.admiring"}]
+    icons: [{value: "core.ae.admiring"}]
 };

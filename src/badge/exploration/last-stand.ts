@@ -14,7 +14,7 @@ export const LastStand: IBadgeData = {
     links: [
         {title: "Last Stand Badge", href: "https://paragonwiki.com/wiki/Last_Stand_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

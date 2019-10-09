@@ -8,5 +8,5 @@ export const Loyal: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 12",
-    imageKeys: [{value: "core.veteran.veteran-12"}]
+    icons: [{value: "core.veteran.veteran-12"}]
 };

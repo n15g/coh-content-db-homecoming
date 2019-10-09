@@ -9,7 +9,7 @@ export const Armorer: IBadgeData = {
     links: [
         {title: "Armorer Badge", href: "https://paragonwiki.com/wiki/Armorer_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-1"}],
+    icons: [{value: "core.invention.brain-1"}],
     partials: [
         {
             key: "a",

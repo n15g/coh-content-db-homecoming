@@ -14,5 +14,5 @@ export const Heroic: IBadgeData = {
     links: [
         {title: "Heroic Badge", href: "https://paragonwiki.com/wiki/Heroic_Badge"}
     ],
-    imageKeys: [{value: "core.ae.heroic"}]
+    icons: [{value: "core.ae.heroic"}]
 };

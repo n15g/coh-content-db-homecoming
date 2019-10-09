@@ -20,5 +20,5 @@ export const Predator: IBadgeData = {
         {title: "Predator Badge", href: "https://paragonwiki.com/wiki/Predator_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.predator"}]
+    icons: [{value: "core.day-job.predator"}]
 };

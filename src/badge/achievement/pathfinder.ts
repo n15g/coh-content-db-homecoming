@@ -18,7 +18,7 @@ export const Pathfinder: IBadgeData = {
         {title: "Pathfinder Badge", href: "https://paragonwiki.com/wiki/Pathfinder_Badge"},
         {title: "Knows He/She Knows Not Badge", href: "https://paragonwiki.com/wiki/Knows_He_Knows_Not_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-100-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-100-v"}
     ]

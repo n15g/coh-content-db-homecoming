@@ -19,6 +19,6 @@ export const Vigorous: IBadgeData = {
     links: [
         {title: "Vigorous Badge", href: "https://paragonwiki.com/wiki/Vigorous_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "3"
 };

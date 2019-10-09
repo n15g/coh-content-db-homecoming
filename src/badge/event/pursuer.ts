@@ -17,5 +17,5 @@ export const Pursuer: IBadgeData = {
         {title: "Pursuer Badge", href: "https://paragonwiki.com/wiki/Pursuer_Badge"},
         {title: "Elusive Badge", href: "https://paragonwiki.com/wiki/Elusive_Badge"}
     ],
-    imageKeys: [{value: "core.event.pursuer"}]
+    icons: [{value: "core.event.pursuer"}]
 };

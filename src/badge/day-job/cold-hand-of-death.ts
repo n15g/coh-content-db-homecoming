@@ -17,5 +17,5 @@ export const ColdHandOfDeath: IBadgeData = {
         {title: "Cold Hand of Death Badge", href: "https://paragonwiki.com/wiki/Cold_Hand_of_Death_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.cold-hand-of-death"}]
+    icons: [{value: "core.day-job.cold-hand-of-death"}]
 };

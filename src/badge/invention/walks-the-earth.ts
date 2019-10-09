@@ -9,7 +9,7 @@ export const WalksTheEarth: IBadgeData = {
     links: [
         {title: "Walks the Earth Badge", href: "https://paragonwiki.com/wiki/Walks_the_Earth_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-4"}],
+    icons: [{value: "core.invention.brain-4"}],
     partials: [
         {
             key: "a",

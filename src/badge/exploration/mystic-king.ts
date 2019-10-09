@@ -19,6 +19,6 @@ export const MysticKing: IBadgeData = {
         {title: "Mystic King Badge", href: "https://paragonwiki.com/wiki/Mystic_King_Badge"},
         {title: "Mystic Queen Badge", href: "https://paragonwiki.com/wiki/Mystic_Queen_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "3"
 };

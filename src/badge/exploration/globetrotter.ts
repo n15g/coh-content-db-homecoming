@@ -14,7 +14,7 @@ export const Globetrotter: IBadgeData = {
     links: [
         {title: "Globetrotter Badge", href: "https://paragonwiki.com/wiki/Globetrotter_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

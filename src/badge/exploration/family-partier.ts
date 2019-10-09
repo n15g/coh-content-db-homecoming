@@ -17,6 +17,6 @@ export const FamilyPartier: IBadgeData = {
     links: [
         {title: "Family Partier Badge", href: "https://paragonwiki.com/wiki/Family_Partier_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "6"
 };

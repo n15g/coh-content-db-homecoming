@@ -13,6 +13,6 @@ export const Steamed: IBadgeData = {
     links: [
         {title: "Steamed Badge", href: "https://paragonwiki.com/wiki/Steamed_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "4"
 };

@@ -17,5 +17,5 @@ export const Handsome: IBadgeData = {
         {title: "Handsome Badge", href: "https://paragonwiki.com/wiki/Handsome_Badge"},
         {title: "Beautiful Badge", href: "https://paragonwiki.com/wiki/Beautiful_Badge"}
     ],
-    imageKeys: [{value: "core.event.handsome"}]
+    icons: [{value: "core.event.handsome"}]
 };

@@ -15,6 +15,6 @@ export const Brawler: IBadgeData = {
     links: [
         {title: "Brawler Badge", href: "https://paragonwiki.com/wiki/Brawler_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "3"
 };

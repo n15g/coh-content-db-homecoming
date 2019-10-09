@@ -14,5 +14,5 @@ export const MonsterMasher: IBadgeData = {
     links: [
         {title: "Monster Masher Badge", href: "https://paragonwiki.com/wiki/Monster_Masher_Badge"}
     ],
-    imageKeys: [{value: "core.event.monster-masher"}]
+    icons: [{value: "core.event.monster-masher"}]
 };

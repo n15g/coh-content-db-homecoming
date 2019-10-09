@@ -12,5 +12,5 @@ export const TankSmasher: IBadgeData = {
     links: [
         {title: "Tank Smasher Badge", href: "https://paragonwiki.com/wiki/Tank_Smasher_Badge"}
     ],
-    imageKeys: [{value: "core.gladiator.gladiator"}]
+    icons: [{value: "core.gladiator.gladiator"}]
 };

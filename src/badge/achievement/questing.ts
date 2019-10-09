@@ -21,7 +21,7 @@ export const Questing: IBadgeData = {
         {title: "Questing Badge", href: "https://paragonwiki.com/wiki/Questing_Badge"},
         {title: "Prepared Badge", href: "https://paragonwiki.com/wiki/Prepared_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-1000-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-1000-v"}
     ]

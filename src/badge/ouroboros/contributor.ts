@@ -14,5 +14,5 @@ export const Contributor: IBadgeData = {
     links: [
         {title: "Contributor Badge", href: "https://paragonwiki.com/wiki/Contributor_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.contributor"}]
+    icons: [{value: "core.ouroboros.contributor"}]
 };

@@ -14,7 +14,7 @@ export const Inspiring: IBadgeData = {
     links: [
         {title: "Inspiring Badge", href: "https://paragonwiki.com/wiki/Inspiring_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.consignment.broker-h"},
         {type: Alternate.V, value: "core.consignment.broker-v"}
     ]

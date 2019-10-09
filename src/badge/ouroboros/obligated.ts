@@ -14,5 +14,5 @@ export const Obligated: IBadgeData = {
     links: [
         {title: "Obligated Badge", href: "https://paragonwiki.com/wiki/Obligated_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.obligated"}]
+    icons: [{value: "core.ouroboros.obligated"}]
 };

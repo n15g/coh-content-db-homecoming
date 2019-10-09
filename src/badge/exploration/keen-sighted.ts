@@ -15,6 +15,6 @@ export const KeenSighted: IBadgeData = {
     links: [
         {title: "Keen Sighted Badge", href: "https://paragonwiki.com/wiki/Keen_Sighted_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "4"
 };

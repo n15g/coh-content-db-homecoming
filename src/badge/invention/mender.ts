@@ -9,7 +9,7 @@ export const Mender: IBadgeData = {
     links: [
         {title: "Mender Badge", href: "https://paragonwiki.com/wiki/Mender_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-2"}],
+    icons: [{value: "core.invention.brain-2"}],
     partials: [
         {
             key: "a",

@@ -16,5 +16,5 @@ export const Businessman: IBadgeData = {
         {title: "Businessman Badge", href: "https://paragonwiki.com/wiki/Businessman_Badge"},
         {title: "Businesswoman Badge", href: "https://paragonwiki.com/wiki/Businesswoman_Badge"}
     ],
-    imageKeys: [{value: "core.consignment.businessman"}]
+    icons: [{value: "core.consignment.businessman"}]
 };

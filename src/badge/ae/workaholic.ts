@@ -12,5 +12,5 @@ export const Workaholic: IBadgeData = {
     links: [
         {title: "Workaholic Badge", href: "https://paragonwiki.com/wiki/Workaholic_Badge"}
     ],
-    imageKeys: [{value: "core.ae.workaholic"}]
+    icons: [{value: "core.ae.workaholic"}]
 };

@@ -18,7 +18,7 @@ export const TemporalFighter: IBadgeData = {
         {title: "Temporal Fighter Badge", href: "https://paragonwiki.com/wiki/Temporal_Fighter_Badge"},
         {title: "Dark Victory Badge", href: "https://paragonwiki.com/wiki/Dark_Victory_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

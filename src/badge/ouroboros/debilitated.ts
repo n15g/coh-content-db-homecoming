@@ -14,5 +14,5 @@ export const Debilitated: IBadgeData = {
     links: [
         {title: "Debilitated Badge", href: "https://paragonwiki.com/wiki/Debilitated_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.debilitated"}]
+    icons: [{value: "core.ouroboros.debilitated"}]
 };

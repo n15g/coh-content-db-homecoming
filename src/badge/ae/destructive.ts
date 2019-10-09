@@ -12,5 +12,5 @@ export const Destructive: IBadgeData = {
     links: [
         {title: "Destructive Badge", href: "https://paragonwiki.com/wiki/Destructive_Badge"}
     ],
-    imageKeys: [{value: "core.ae.destructive"}]
+    icons: [{value: "core.ae.destructive"}]
 };

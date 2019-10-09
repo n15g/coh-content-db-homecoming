@@ -14,5 +14,5 @@ export const Missionary: IBadgeData = {
     links: [
         {title: "Missionary Badge", href: "https://paragonwiki.com/wiki/Missionary_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.missionary"}]
+    icons: [{value: "core.ouroboros.missionary"}]
 };

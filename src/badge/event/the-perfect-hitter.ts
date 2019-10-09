@@ -20,5 +20,5 @@ export const ThePerfectHitter: IBadgeData = {
     links: [
         {title: "The Perfect Hitter Badge", href: "https://paragonwiki.com/wiki/The_Perfect_Hitter_Badge"}
     ],
-    imageKeys: [{value: "core.event.the-perfect-hitter"}]
+    icons: [{value: "core.event.the-perfect-hitter"}]
 };

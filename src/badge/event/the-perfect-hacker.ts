@@ -20,5 +20,5 @@ export const ThePerfectHacker: IBadgeData = {
     links: [
         {title: "The Perfect Hacker Badge", href: "https://paragonwiki.com/wiki/The_Perfect_Hacker_Badge"}
     ],
-    imageKeys: [{value: "core.event.the-perfect-hacker"}]
+    icons: [{value: "core.event.the-perfect-hacker"}]
 };

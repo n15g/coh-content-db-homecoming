@@ -8,5 +8,5 @@ export const Tenacious: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 87",
-    imageKeys: [{value: "core.veteran.veteran-87"}]
+    icons: [{value: "core.veteran.veteran-87"}]
 };

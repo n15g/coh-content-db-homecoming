@@ -15,6 +15,6 @@ export const Regal: IBadgeData = {
     links: [
         {title: "Regal Badge", href: "https://paragonwiki.com/wiki/Regal_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "2"
 };

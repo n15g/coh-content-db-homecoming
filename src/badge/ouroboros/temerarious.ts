@@ -14,5 +14,5 @@ export const Temerarious: IBadgeData = {
     links: [
         {title: "Temerarious Badge", href: "https://paragonwiki.com/wiki/Temerarious_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.temerarious"}]
+    icons: [{value: "core.ouroboros.temerarious"}]
 };

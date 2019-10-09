@@ -8,5 +8,5 @@ export const Distinguished: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 72",
-    imageKeys: [{value: "core.veteran.veteran-72"}]
+    icons: [{value: "core.veteran.veteran-72"}]
 };

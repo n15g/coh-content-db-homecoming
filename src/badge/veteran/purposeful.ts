@@ -8,5 +8,5 @@ export const Purposeful: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 78",
-    imageKeys: [{value: "core.veteran.veteran-78"}]
+    icons: [{value: "core.veteran.veteran-78"}]
 };

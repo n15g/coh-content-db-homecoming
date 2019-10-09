@@ -26,5 +26,5 @@ export const DimensionalExplorer: IBadgeData = {
         {title: "Dimensional Plunderer Badge", href: "https://paragonwiki.com/wiki/Dimensional_Plunderer_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.dimensional-explorer"}]
+    icons: [{value: "core.day-job.dimensional-explorer"}]
 };

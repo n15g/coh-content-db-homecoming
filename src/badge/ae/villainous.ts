@@ -14,5 +14,5 @@ export const Villainous: IBadgeData = {
     links: [
         {title: "Villainous Badge", href: "https://paragonwiki.com/wiki/Villainous_Badge"}
     ],
-    imageKeys: [{value: "core.ae.villainous"}]
+    icons: [{value: "core.ae.villainous"}]
 };

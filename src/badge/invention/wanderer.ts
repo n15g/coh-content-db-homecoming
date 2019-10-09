@@ -10,7 +10,7 @@ export const Wanderer: IBadgeData = {
     links: [
         {title: "Wanderer Badge", href: "https://paragonwiki.com/wiki/Wanderer_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-3"}],
+    icons: [{value: "core.invention.brain-3"}],
     partials: [
         {
             key: "a",

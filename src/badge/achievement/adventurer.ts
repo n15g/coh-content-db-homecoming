@@ -22,7 +22,7 @@ export const Adventurer: IBadgeData = {
         {title: "Adventurer Badge", href: "https://paragonwiki.com/wiki/Adventurer_Badge"},
         {title: "Doer Badge", href: "https://paragonwiki.com/wiki/Doer_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-750-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-750-v"}
     ]

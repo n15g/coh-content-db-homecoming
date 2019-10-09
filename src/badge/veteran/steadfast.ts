@@ -8,5 +8,5 @@ export const Steadfast: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 21",
-    imageKeys: [{value: "core.veteran.veteran-21"}]
+    icons: [{value: "core.veteran.veteran-21"}]
 };

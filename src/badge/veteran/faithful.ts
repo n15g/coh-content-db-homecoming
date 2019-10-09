@@ -8,5 +8,5 @@ export const Faithful: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 6",
-    imageKeys: [{value: "core.veteran.veteran-6"}]
+    icons: [{value: "core.veteran.veteran-6"}]
 };

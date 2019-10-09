@@ -25,5 +25,5 @@ export const Invictus: IBadgeData = {
     links: [
         {title: "Invictus Badge", href: "https://paragonwiki.com/wiki/Invictus_Badge"}
     ],
-    imageKeys: [{value: "core.event.invictus"}]
+    icons: [{value: "core.event.invictus"}]
 };

@@ -14,5 +14,5 @@ export const Partygoer: IBadgeData = {
     links: [
         {title: "Partygoer Badge", href: "https://paragonwiki.com/wiki/Partygoer_Badge"}
     ],
-    imageKeys: [{value: "core.event.partygoer"}]
+    icons: [{value: "core.event.partygoer"}]
 };

@@ -17,6 +17,6 @@ export const Widower: IBadgeData = {
         {title: "Widower Badge", href: "https://paragonwiki.com/wiki/Widower_Badge"},
         {title: "Widow Badge", href: "https://paragonwiki.com/wiki/Widow_Badge"},
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "6"
 };

@@ -14,6 +14,6 @@ export const CreyHavoc: IBadgeData = {
     links: [
         {title: "Crey Havoc Badge", href: "https://paragonwiki.com/wiki/Crey_Havoc_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "1"
 };

@@ -8,5 +8,5 @@ export const Uncompromising: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 81",
-    imageKeys: [{value: "core.veteran.veteran-81"}]
+    icons: [{value: "core.veteran.veteran-81"}]
 };

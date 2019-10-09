@@ -17,6 +17,6 @@ export const Summoned: IBadgeData = {
     links: [
         {title: "Summoned Badge", href: "https://paragonwiki.com/wiki/Summoned_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "1"
 };

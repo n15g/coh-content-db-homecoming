@@ -9,7 +9,7 @@ export const Declining: IBadgeData = {
     links: [
         {title: "Declining Badge", href: "https://paragonwiki.com/wiki/Declining_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-1"}],
+    icons: [{value: "core.invention.brain-1"}],
     partials: [
         {
             key: "a",

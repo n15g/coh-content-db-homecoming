@@ -16,5 +16,5 @@ export const MissedConnection: IBadgeData = {
     links: [
         {title: "Missed Connection Badge", href: "https://paragonwiki.com/wiki/Missed_Connection_Badge"}
     ],
-    imageKeys: [{value: "core.event.missed-connection"}]
+    icons: [{value: "core.event.missed-connection"}]
 };

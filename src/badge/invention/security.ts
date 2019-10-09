@@ -9,7 +9,7 @@ export const Security: IBadgeData = {
     links: [
         {title: "Security Badge", href: "https://paragonwiki.com/wiki/Security_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-4"}],
+    icons: [{value: "core.invention.brain-4"}],
     partials: [
         {
             key: "a",

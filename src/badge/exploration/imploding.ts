@@ -13,7 +13,7 @@ export const Imploding: IBadgeData = {
     links: [
         {title: "Imploding Badge", href: "https://paragonwiki.com/wiki/Imploding_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

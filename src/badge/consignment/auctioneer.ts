@@ -14,5 +14,5 @@ export const Auctioneer: IBadgeData = {
     links: [
         {title: "Auctioneer Badge", href: "https://paragonwiki.com/wiki/Auctioneer_Badge"}
     ],
-    imageKeys: [{value: "core.consignment.auctioneer"}]
+    icons: [{value: "core.consignment.auctioneer"}]
 };

@@ -14,5 +14,5 @@ export const Merchant: IBadgeData = {
     links: [
         {title: "Merchant Badge", href: "https://paragonwiki.com/wiki/Merchant_Badge"}
     ],
-    imageKeys: [{value: "core.consignment.merchant"}]
+    icons: [{value: "core.consignment.merchant"}]
 };

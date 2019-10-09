@@ -14,5 +14,5 @@ export const AllForOneOneForAll: IBadgeData = {
     links: [
         {title: "All For One, One For All Badge", href: "https://paragonwiki.com/wiki/All_For_One,_One_For_All_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.all-for-one-one-for-all"}]
+    icons: [{value: "core.ouroboros.all-for-one-one-for-all"}]
 };

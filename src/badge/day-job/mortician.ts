@@ -17,5 +17,5 @@ export const Mortician: IBadgeData = {
         {title: "Mortician Badge", href: "https://paragonwiki.com/wiki/Mortician_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.mortician"}]
+    icons: [{value: "core.day-job.mortician"}]
 };

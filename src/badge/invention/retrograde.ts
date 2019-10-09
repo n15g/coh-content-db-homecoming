@@ -9,7 +9,7 @@ export const Retrograde: IBadgeData = {
     links: [
         {title: "Retrograde Badge", href: "https://paragonwiki.com/wiki/Retrograde_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

@@ -17,5 +17,5 @@ export const Toothbreaker: IBadgeData = {
     links: [
         {title: "Toothbreaker Badge", href: "https://paragonwiki.com/wiki/Toothbreaker_Badge"}
     ],
-    imageKeys: [{value: "core.event.toothbreaker"}]
+    icons: [{value: "core.event.toothbreaker"}]
 };

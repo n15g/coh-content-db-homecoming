@@ -17,6 +17,6 @@ export const Tank: IBadgeData = {
     links: [
         {title: "Tank Badge", href: "https://paragonwiki.com/wiki/Tank_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "4"
 };

@@ -14,5 +14,5 @@ export const Festive: IBadgeData = {
     links: [
         {title: "Festive Badge", href: "https://paragonwiki.com/wiki/Festive_Badge"}
     ],
-    imageKeys: [{value: "core.event.festive"}]
+    icons: [{value: "core.event.festive"}]
 };

@@ -14,5 +14,5 @@ export const Fearless: IBadgeData = {
     links: [
         {title: "Fearless Badge", href: "https://paragonwiki.com/wiki/Fearless_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.fearless"}]
+    icons: [{value: "core.ouroboros.fearless"}]
 };

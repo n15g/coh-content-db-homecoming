@@ -10,7 +10,7 @@ export const Nomad: IBadgeData = {
     links: [
         {title: "Nomad Badge", href: "https://paragonwiki.com/wiki/Nomad_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

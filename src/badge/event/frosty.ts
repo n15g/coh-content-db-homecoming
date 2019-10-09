@@ -14,5 +14,5 @@ export const Frosty: IBadgeData = {
     links: [
         {title: "Frosty Badge", href: "https://paragonwiki.com/wiki/Frosty_Badge"}
     ],
-    imageKeys: [{value: "core.event.frosty"}]
+    icons: [{value: "core.event.frosty"}]
 };

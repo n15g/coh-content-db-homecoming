@@ -14,5 +14,5 @@ export const Demarcated: IBadgeData = {
     links: [
         {title: "Demarcated Badge", href: "https://paragonwiki.com/wiki/Demarcated_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.demarcated"}]
+    icons: [{value: "core.ouroboros.demarcated"}]
 };

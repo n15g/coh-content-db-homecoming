@@ -8,5 +8,5 @@ export const Enduring: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 66",
-    imageKeys: [{value: "core.veteran.veteran-66"}]
+    icons: [{value: "core.veteran.veteran-66"}]
 };

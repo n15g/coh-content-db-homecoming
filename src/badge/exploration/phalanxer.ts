@@ -14,6 +14,6 @@ export const Phalanxer: IBadgeData = {
     links: [
         {title: "Phalanxer Badge", href: "https://paragonwiki.com/wiki/Phalanxer_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "1"
 };

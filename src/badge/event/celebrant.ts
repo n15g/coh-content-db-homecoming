@@ -14,5 +14,5 @@ export const Celebrant: IBadgeData = {
     links: [
         {title: "Celebrant Badge", href: "https://paragonwiki.com/wiki/Celebrant_Badge"}
     ],
-    imageKeys: [{value: "core.event.celebrant"}]
+    icons: [{value: "core.event.celebrant"}]
 };

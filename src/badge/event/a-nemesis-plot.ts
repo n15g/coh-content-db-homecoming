@@ -14,5 +14,5 @@ export const ANemesisPlot: IBadgeData = {
     links: [
         {title: "A Nemesis Plot Badge", href: "https://paragonwiki.com/wiki/A_Nemesis_Plot_Badge"}
     ],
-    imageKeys: [{value: "core.event.a-nemesis-plot"}]
+    icons: [{value: "core.event.a-nemesis-plot"}]
 };

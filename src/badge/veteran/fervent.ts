@@ -8,5 +8,5 @@ export const Fervent: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 42",
-    imageKeys: [{value: "core.veteran.veteran-42"}]
+    icons: [{value: "core.veteran.veteran-42"}]
 };

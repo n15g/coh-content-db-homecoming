@@ -10,7 +10,7 @@ export const Reanimator: IBadgeData = {
     links: [
         {title: "Reanimator Badge", href: "https://paragonwiki.com/wiki/Reanimator_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

@@ -8,5 +8,5 @@ export const Dependable: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 9",
-    imageKeys: [{value: "core.veteran.veteran-9"}]
+    icons: [{value: "core.veteran.veteran-9"}]
 };

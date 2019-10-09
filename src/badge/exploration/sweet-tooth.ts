@@ -17,6 +17,6 @@ export const SweetTooth: IBadgeData = {
     links: [
         {title: "Sweet Tooth Badge", href: "https://paragonwiki.com/wiki/Sweet_Tooth_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "5"
 };

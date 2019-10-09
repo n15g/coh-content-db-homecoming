@@ -9,7 +9,7 @@ export const Medicator: IBadgeData = {
     links: [
         {title: "Medicator Badge", href: "https://paragonwiki.com/wiki/Medicator_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-1"}],
+    icons: [{value: "core.invention.brain-1"}],
     partials: [
         {
             key: "a",

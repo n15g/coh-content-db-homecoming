@@ -14,5 +14,5 @@ export const TicketTaker: IBadgeData = {
     links: [
         {title: "Ticket Taker Badge", href: "https://paragonwiki.com/wiki/Ticket_Taker_Badge"}
     ],
-    imageKeys: [{value: "core.ae.ticket-taker"}]
+    icons: [{value: "core.ae.ticket-taker"}]
 };

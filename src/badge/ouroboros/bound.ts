@@ -14,5 +14,5 @@ export const Bound: IBadgeData = {
     links: [
         {title: "Bound Badge", href: "https://paragonwiki.com/wiki/Bound_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.bound"}]
+    icons: [{value: "core.ouroboros.bound"}]
 };

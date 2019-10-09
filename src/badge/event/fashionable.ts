@@ -16,7 +16,7 @@ export const Fashionable: IBadgeData = {
     links: [
         {title: "Fashionable Badge", href: "https://paragonwiki.com/wiki/Fashionable_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.event.costume-h"},
         {type: Alternate.V, value: "core.event.costume-v"}
     ]

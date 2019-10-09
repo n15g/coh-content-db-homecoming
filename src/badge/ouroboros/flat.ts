@@ -14,5 +14,5 @@ export const Flat: IBadgeData = {
     links: [
         {title: "Flat Badge", href: "https://paragonwiki.com/wiki/Flat_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.flat"}]
+    icons: [{value: "core.ouroboros.flat"}]
 };

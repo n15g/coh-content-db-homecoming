@@ -17,5 +17,5 @@ export const Clubber: IBadgeData = {
         {title: "Clubber Badge", href: "https://paragonwiki.com/wiki/Clubber_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.clubber"}]
+    icons: [{value: "core.day-job.clubber"}]
 };

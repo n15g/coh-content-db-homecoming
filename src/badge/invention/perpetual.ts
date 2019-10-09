@@ -10,7 +10,7 @@ export const Perpetual: IBadgeData = {
     links: [
         {title: "Perpetual Badge", href: "https://paragonwiki.com/wiki/Perpetual_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

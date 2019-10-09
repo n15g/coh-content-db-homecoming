@@ -10,7 +10,7 @@ export const Despoiler: IBadgeData = {
     links: [
         {title: "Despoiler Badge", href: "https://paragonwiki.com/wiki/Despoiler_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-3"}],
+    icons: [{value: "core.invention.brain-3"}],
     partials: [
         {
             key: "a",

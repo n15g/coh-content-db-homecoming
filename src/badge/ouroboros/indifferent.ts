@@ -14,5 +14,5 @@ export const Indifferent: IBadgeData = {
     links: [
         {title: "Indifferent Badge", href: "https://paragonwiki.com/wiki/Indifferent_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.indifferent"}]
+    icons: [{value: "core.ouroboros.indifferent"}]
 };

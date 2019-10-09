@@ -14,5 +14,5 @@ export const Stemmed: IBadgeData = {
     links: [
         {title: "Stemmed Badge", href: "https://paragonwiki.com/wiki/Stalled_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.stemmed"}]
+    icons: [{value: "core.ouroboros.stemmed"}]
 };

@@ -14,5 +14,5 @@ export const EvilsResident: IBadgeData = {
     links: [
         {title: "Evil's Resident Badge", href: "https://paragonwiki.com/wiki/Evil%27s_Resident_Badge"}
     ],
-    imageKeys: [{value: "core.event.evils-resident"}]
+    icons: [{value: "core.event.evils-resident"}]
 };

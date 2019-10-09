@@ -17,5 +17,5 @@ export const Architect: IBadgeData = {
         {title: "Architect Badge", href: "https://paragonwiki.com/wiki/Architect_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.architect"}]
+    icons: [{value: "core.day-job.architect"}]
 };

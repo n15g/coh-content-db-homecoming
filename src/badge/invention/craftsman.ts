@@ -12,5 +12,5 @@ export const Craftsman: IBadgeData = {
     links: [
         {title: "Craftsman Badge", href: "https://paragonwiki.com/wiki/Craftsman_Badge"}
     ],
-    imageKeys: [{value: "core.invention.craftsman"}]
+    icons: [{value: "core.invention.craftsman"}]
 };

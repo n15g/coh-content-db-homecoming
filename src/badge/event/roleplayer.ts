@@ -18,7 +18,7 @@ export const Roleplayer: IBadgeData = {
     links: [
         {title: "Roleplayer Badge", href: "https://paragonwiki.com/wiki/Toothbreaker_Badge"}
     ],
-    imageKeys: [{value: "core.event.roleplayer"}],
+    icons: [{value: "core.event.roleplayer"}],
     partials: [
         {key: ThePerfectHitter.key, type: BadgePartialType.BADGE, badgeKey: ThePerfectHitter.key},
         {key: ThePerfectHacker.key, type: BadgePartialType.BADGE, badgeKey: ThePerfectHacker.key},

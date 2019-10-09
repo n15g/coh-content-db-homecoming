@@ -12,5 +12,5 @@ export const WalksTheLine: IBadgeData = {
     links: [
         {title: "Walks the Line Badge", href: "https://paragonwiki.com/wiki/Walks_the_Line_Badge"}
     ],
-    imageKeys: [{value: "core.ae.walks-the-line"}]
+    icons: [{value: "core.ae.walks-the-line"}]
 };

@@ -14,5 +14,5 @@ export const Overhauler: IBadgeData = {
     links: [
         {title: "Overhauler Badge", href: "https://paragonwiki.com/wiki/Overhauler_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.overhauler"}]
+    icons: [{value: "core.ouroboros.overhauler"}]
 };

@@ -8,5 +8,5 @@ export const Discerning: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 60",
-    imageKeys: [{value: "core.veteran.veteran-60"}]
+    icons: [{value: "core.veteran.veteran-60"}]
 };

@@ -16,6 +16,6 @@ export const Upgraded: IBadgeData = {
     links: [
         {title: "Upgraded Badge", href: "https://paragonwiki.com/wiki/Upgraded_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "2"
 };

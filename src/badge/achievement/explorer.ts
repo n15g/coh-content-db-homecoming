@@ -20,7 +20,7 @@ export const Explorer: IBadgeData = {
         {title: "Obsessed Badge", href: "https://paragonwiki.com/wiki/Obsessed_Badge"},
         {title: "Knows the Truth Badge", href: "https://paragonwiki.com/wiki/Knows_the_Truth_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-50-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-50-v"}
     ]

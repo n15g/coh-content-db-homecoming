@@ -15,5 +15,5 @@ export const Secured: IBadgeData = {
         {title: "Secured Badge", href: "https://paragonwiki.com/wiki/Secured_Badge"},
         {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
     ],
-    imageKeys: [{value: "core.event.secured"}]
+    icons: [{value: "core.event.secured"}]
 };

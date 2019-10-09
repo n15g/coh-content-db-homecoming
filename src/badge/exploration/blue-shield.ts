@@ -22,6 +22,6 @@ export const BlueShield: IBadgeData = {
     links: [
         {title: "Blue Shield Badge", href: "https://paragonwiki.com/wiki/Blue_Shield_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "2"
 };

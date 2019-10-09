@@ -15,7 +15,7 @@ export const Ghoulish: IBadgeData = {
     links: [
         {title: "Ghoulish Badge", href: "https://paragonwiki.com/wiki/Ghoulish_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

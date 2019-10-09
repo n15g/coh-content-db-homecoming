@@ -8,5 +8,5 @@ export const Motivated: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 48",
-    imageKeys: [{value: "core.veteran.veteran-48"}]
+    icons: [{value: "core.veteran.veteran-48"}]
 };

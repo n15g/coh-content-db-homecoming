@@ -15,6 +15,6 @@ export const SecretAdmirer: IBadgeData = {
     links: [
         {title: "Secret Admirer Badge", href: "https://paragonwiki.com/wiki/Secret_Admirer_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "1"
 };

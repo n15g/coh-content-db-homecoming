@@ -17,6 +17,6 @@ export const BirdWatcher: IBadgeData = {
     links: [
         {title: "Bird Watcher Badge", href: "https://paragonwiki.com/wiki/Bird_Watcher_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "1"
 };

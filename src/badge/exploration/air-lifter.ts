@@ -13,6 +13,6 @@ export const AirLifter: IBadgeData = {
     links: [
         {title: "Air Lifter Badge", href: "https://paragonwiki.com/wiki/Air_Lifter_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "4"
 };

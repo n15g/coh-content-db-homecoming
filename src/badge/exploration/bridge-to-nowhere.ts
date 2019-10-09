@@ -18,6 +18,6 @@ export const BridgeToNowhere: IBadgeData = {
     links: [
         {title: "Bridge to Nowhere Badge", href: "https://paragonwiki.com/wiki/Bridge_to_Nowhere_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "8"
 };

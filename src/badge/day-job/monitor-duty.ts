@@ -17,5 +17,5 @@ export const MonitorDuty: IBadgeData = {
         {title: "Monitor Duty Badge", href: "https://paragonwiki.com/wiki/Monitor_Duty_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.monitor-duty"}]
+    icons: [{value: "core.day-job.monitor-duty"}]
 };

@@ -12,5 +12,5 @@ export const VirtualVictim: IBadgeData = {
     links: [
         {title: "Virtual Victim Badge", href: "https://paragonwiki.com/wiki/Virtual_Victim_Badge"}
     ],
-    imageKeys: [{value: "core.ae.virtual-victim"}]
+    icons: [{value: "core.ae.virtual-victim"}]
 };

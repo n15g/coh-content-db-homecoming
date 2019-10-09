@@ -14,5 +14,5 @@ export const ShutDown: IBadgeData = {
     links: [
         {title: "Shut Down Badge", href: "https://paragonwiki.com/wiki/Shut_Down_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.shut-down"}]
+    icons: [{value: "core.ouroboros.shut-down"}]
 };

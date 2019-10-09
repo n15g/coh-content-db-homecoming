@@ -17,5 +17,5 @@ export const DUSTRanger: IBadgeData = {
         {title: "D.U.S.T. Ranger Badge", href: "https://paragonwiki.com/wiki/D.U.S.T._Ranger_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.dust-ranger"}]
+    icons: [{value: "core.day-job.dust-ranger"}]
 };

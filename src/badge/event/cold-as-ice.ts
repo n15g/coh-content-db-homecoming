@@ -14,5 +14,5 @@ export const ColdAsIce: IBadgeData = {
     links: [
         {title: "Cold as Ice Badge", href: "https://paragonwiki.com/wiki/Cold_as_Ice_Badge"}
     ],
-    imageKeys: [{value: "core.event.cold-as-ice"}]
+    icons: [{value: "core.event.cold-as-ice"}]
 };

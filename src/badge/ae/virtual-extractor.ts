@@ -12,5 +12,5 @@ export const VirtualExtractor: IBadgeData = {
     links: [
         {title: "Virtual Extractor Badge", href: "https://paragonwiki.com/wiki/Virtual_Extractor_Badge"}
     ],
-    imageKeys: [{value: "core.ae.virtual-extractor"}]
+    icons: [{value: "core.ae.virtual-extractor"}]
 };

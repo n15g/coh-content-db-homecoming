@@ -14,5 +14,5 @@ export const Bold: IBadgeData = {
     links: [
         {title: "Bold Badge", href: "https://paragonwiki.com/wiki/Bold_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.bold"}]
+    icons: [{value: "core.ouroboros.bold"}]
 };

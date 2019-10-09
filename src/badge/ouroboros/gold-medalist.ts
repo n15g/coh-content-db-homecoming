@@ -14,5 +14,5 @@ export const GoldMedalist: IBadgeData = {
     links: [
         {title: "Gold Medalist Badge", href: "https://paragonwiki.com/wiki/Gold_Medalist_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.gold-medalist"}]
+    icons: [{value: "core.ouroboros.gold-medalist"}]
 };

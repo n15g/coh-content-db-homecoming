@@ -17,5 +17,5 @@ export const FashionDesigner: IBadgeData = {
         {title: "Fashion Designer Badge", href: "https://paragonwiki.com/wiki/Fashion_Designer_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.fashion-designer"}]
+    icons: [{value: "core.day-job.fashion-designer"}]
 };

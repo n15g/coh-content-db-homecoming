@@ -14,5 +14,5 @@ export const PowerSeller: IBadgeData = {
     links: [
         {title: "Power Seller Badge", href: "https://paragonwiki.com/wiki/Power_Seller_Badge"}
     ],
-    imageKeys: [{value: "core.consignment.power-seller"}]
+    icons: [{value: "core.consignment.power-seller"}]
 };

@@ -14,6 +14,6 @@ export const Ragnarok: IBadgeData = {
     links: [
         {title: "Ragnaraok Badge", href: "https://paragonwiki.com/wiki/Ragnarok_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "2"
 };

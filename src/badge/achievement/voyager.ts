@@ -24,7 +24,7 @@ export const Voyager: IBadgeData = {
         {title: "Voyager Badge", href: "https://paragonwiki.com/wiki/Voyager_Badge"},
         {title: "No Road Not Taken Badge", href: "https://paragonwiki.com/wiki/No_Road_Not_Taken_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-1250-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-1250-v"}
     ]

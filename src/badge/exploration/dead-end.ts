@@ -18,6 +18,6 @@ export const DeadEnd: IBadgeData = {
     links: [
         {title: "Dead End Badge", href: "https://paragonwiki.com/wiki/Dead_End_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "5"
 };

@@ -14,5 +14,5 @@ export const TrickedOut: IBadgeData = {
     links: [
         {title: "Tricked Out Badge", href: "https://paragonwiki.com/wiki/Tricked_Out_Badge"}
     ],
-    imageKeys: [{value: "core.event.tricked-out"}]
+    icons: [{value: "core.event.tricked-out"}]
 };

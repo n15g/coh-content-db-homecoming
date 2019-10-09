@@ -15,6 +15,6 @@ export const Smokey: IBadgeData = {
     links: [
         {title: "Smokey Badge", href: "https://paragonwiki.com/wiki/Smokey_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "5"
 };

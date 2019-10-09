@@ -23,5 +23,5 @@ export const ProfessionalLiar: IBadgeData = {
         {title: "Demagogue Badge", href: "https://paragonwiki.com/wiki/Demagogue_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.professional-liar"}]
+    icons: [{value: "core.day-job.professional-liar"}]
 };

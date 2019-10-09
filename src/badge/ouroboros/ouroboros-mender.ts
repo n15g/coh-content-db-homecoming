@@ -14,5 +14,5 @@ export const OuroborosMender: IBadgeData = {
     links: [
         {title: "Ouroboros Mender Badge", href: "https://paragonwiki.com/wiki/Ouroboros_Mender_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.ouroboros-mender"}]
+    icons: [{value: "core.ouroboros.ouroboros-mender"}]
 };

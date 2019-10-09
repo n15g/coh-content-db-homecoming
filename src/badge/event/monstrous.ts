@@ -14,5 +14,5 @@ export const Monstrous: IBadgeData = {
     links: [
         {title: "Monstrous Badge", href: "https://paragonwiki.com/wiki/Terror_Badge"}
     ],
-    imageKeys: [{value: "core.event.monstrous"}]
+    icons: [{value: "core.event.monstrous"}]
 };

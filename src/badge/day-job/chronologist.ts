@@ -17,5 +17,5 @@ export const Chronologist: IBadgeData = {
         {title: "Chronologist Badge", href: "https://paragonwiki.com/wiki/Chronologist_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.chronologist"}]
+    icons: [{value: "core.day-job.chronologist"}]
 };

@@ -16,7 +16,7 @@ export const ClothesHorse: IBadgeData = {
     links: [
         {title: "Clothes Horse Badge", href: "https://paragonwiki.com/wiki/Clothes_Horse_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.event.costume-h"},
         {type: Alternate.V, value: "core.event.costume-v"}
     ]

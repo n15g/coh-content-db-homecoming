@@ -14,5 +14,5 @@ export const Professional: IBadgeData = {
     links: [
         {title: "Professional Badge", href: "https://paragonwiki.com/wiki/Professional_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.professional"}]
+    icons: [{value: "core.ouroboros.professional"}]
 };

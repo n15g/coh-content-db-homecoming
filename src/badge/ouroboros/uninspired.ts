@@ -14,5 +14,5 @@ export const Uninspired: IBadgeData = {
     links: [
         {title: "Uninspired Badge", href: "https://paragonwiki.com/wiki/Uninspired_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.uninspired"}]
+    icons: [{value: "core.ouroboros.uninspired"}]
 };

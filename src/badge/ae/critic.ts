@@ -12,5 +12,5 @@ export const Critic: IBadgeData = {
     links: [
         {title: "Critic Badge", href: "https://paragonwiki.com/wiki/Critic_Badge"}
     ],
-    imageKeys: [{value: "core.ae.critic"}]
+    icons: [{value: "core.ae.critic"}]
 };

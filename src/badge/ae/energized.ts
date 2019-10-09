@@ -12,5 +12,5 @@ export const Energized: IBadgeData = {
     links: [
         {title: "Energized Badge", href: "https://paragonwiki.com/wiki/Energized_Badge"}
     ],
-    imageKeys: [{value: "core.ae.energized"}]
+    icons: [{value: "core.ae.energized"}]
 };

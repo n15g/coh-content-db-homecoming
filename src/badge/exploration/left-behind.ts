@@ -17,6 +17,6 @@ export const LeftBehind: IBadgeData = {
     links: [
         {title: "Left Behind Badge", href: "https://paragonwiki.com/wiki/Left_Behind_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "7"
 };

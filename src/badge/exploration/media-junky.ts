@@ -14,6 +14,6 @@ export const MediaJunky: IBadgeData = {
     links: [
         {title: "Media Junky Badge", href: "https://paragonwiki.com/wiki/Media_Junky_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "2"
 };

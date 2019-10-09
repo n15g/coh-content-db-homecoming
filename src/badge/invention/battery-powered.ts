@@ -9,7 +9,7 @@ export const BatteryPowered: IBadgeData = {
     links: [
         {title: "Battery Powered Badge", href: "https://paragonwiki.com/wiki/Battery_Powered_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-2"}],
+    icons: [{value: "core.invention.brain-2"}],
     partials: [
         {
             key: "a",

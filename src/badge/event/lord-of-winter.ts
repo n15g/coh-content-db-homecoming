@@ -16,5 +16,5 @@ export const LordOfWinter: IBadgeData = {
     links: [
         {title: "Lord of Winter Badge", href: "https://paragonwiki.com/wiki/Lord_of_Winter_Badge"}
     ],
-    imageKeys: [{value: "core.event.lord-of-winter"}]
+    icons: [{value: "core.event.lord-of-winter"}]
 };

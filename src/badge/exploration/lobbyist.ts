@@ -17,7 +17,7 @@ export const Lobbyist: IBadgeData = {
         {title: "Lobbyist Badge", href: "https://paragonwiki.com/wiki/Lobbyist_Badge"},
         {title: "Crooked Politician Badge", href: "https://paragonwiki.com/wiki/Crooked_Politician_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

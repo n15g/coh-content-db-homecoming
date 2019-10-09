@@ -19,6 +19,6 @@ export const HealingNode: IBadgeData = {
     links: [
         {title: "Healing Node Badge", href: "https://paragonwiki.com/wiki/Healing_Node_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "4"
 };

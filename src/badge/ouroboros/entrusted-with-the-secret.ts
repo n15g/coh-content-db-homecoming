@@ -22,5 +22,5 @@ export const EntrustedWithTheSecret: IBadgeData = {
     links: [
         {title: "Entrusted with the Secret Badge", href: "https://paragonwiki.com/wiki/Entrusted_with_the_Secret_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.entrusted-with-the-secret"}]
+    icons: [{value: "core.ouroboros.entrusted-with-the-secret"}]
 };

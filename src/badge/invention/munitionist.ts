@@ -9,7 +9,7 @@ export const Munitionist: IBadgeData = {
     links: [
         {title: "Munitionist Badge", href: "https://paragonwiki.com/wiki/Munitionist_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-1"}],
+    icons: [{value: "core.invention.brain-1"}],
     partials: [
         {
             key: "a",

@@ -14,5 +14,5 @@ export const Daredevil: IBadgeData = {
     links: [
         {title: "Daredevil Badge", href: "https://paragonwiki.com/wiki/Daredevil_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.daredevil"}]
+    icons: [{value: "core.ouroboros.daredevil"}]
 };

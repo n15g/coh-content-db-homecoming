@@ -17,5 +17,5 @@ export const HeartOfLight: IBadgeData = {
         {title: "Heart of Light Badge", href: "https://paragonwiki.com/wiki/Heart_of_Light_Badge"},
         {title: "Heart of Darkness Badge", href: "https://paragonwiki.com/wiki/Heart_of_Darkness_Badge"}
     ],
-    imageKeys: [{value: "core.event.heart-of-light"}]
+    icons: [{value: "core.event.heart-of-light"}]
 };

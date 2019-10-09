@@ -14,5 +14,5 @@ export const Stalwart: IBadgeData = {
     links: [
         {title: "Stalwart Badge", href: "https://paragonwiki.com/wiki/Stalwart_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.stalwart"}]
+    icons: [{value: "core.ouroboros.stalwart"}]
 };

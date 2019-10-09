@@ -14,5 +14,5 @@ export const Cliche: IBadgeData = {
     links: [
         {title: "Cliche Badge", href: "https://paragonwiki.com/wiki/Cliche_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.cliche"}]
+    icons: [{value: "core.ouroboros.cliche"}]
 };

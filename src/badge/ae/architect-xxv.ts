@@ -12,5 +12,5 @@ export const ArchitectXXV: IBadgeData = {
     links: [
         {title: "Architect XXV Badge", href: "https://paragonwiki.com/wiki/Architect_XXV_Badge"}
     ],
-    imageKeys: [{value: "core.ae.architect-xxv"}]
+    icons: [{value: "core.ae.architect-xxv"}]
 };

@@ -14,5 +14,5 @@ export const Joyful: IBadgeData = {
     links: [
         {title: "Joyful Badge", href: "https://paragonwiki.com/wiki/Joyful_Badge"}
     ],
-    imageKeys: [{value: "core.event.joyful"}]
+    icons: [{value: "core.event.joyful"}]
 };

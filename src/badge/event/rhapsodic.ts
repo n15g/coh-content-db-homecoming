@@ -14,5 +14,5 @@ export const Rhapsodic: IBadgeData = {
     links: [
         {title: "Rhapsodic Badge", href: "https://paragonwiki.com/wiki/Rhapsodic_Badge"}
     ],
-    imageKeys: [{value: "core.event.rhapsodic"}]
+    icons: [{value: "core.event.rhapsodic"}]
 };

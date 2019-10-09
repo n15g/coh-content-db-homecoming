@@ -14,5 +14,5 @@ export const Jubilant: IBadgeData = {
     links: [
         {title: "Jubilant Badge", href: "https://paragonwiki.com/wiki/Jubilant_Badge"}
     ],
-    imageKeys: [{value: "core.event.jubilant"}]
+    icons: [{value: "core.event.jubilant"}]
 };

@@ -12,7 +12,7 @@ export const Academic: IBadgeData = {
     links: [
         {title: "Academic Badge", href: "https://paragonwiki.com/wiki/Academic_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {value: "core.history.plaque"}
     ],
     partials: [

@@ -14,5 +14,5 @@ export const Buster: IBadgeData = {
     links: [
         {title: "Buster Badge", href: "https://paragonwiki.com/wiki/Buster_Badge"}
     ],
-    imageKeys: [{value: "core.event.buster"}]
+    icons: [{value: "core.event.buster"}]
 };

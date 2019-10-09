@@ -14,5 +14,5 @@ export const DoubleFeature: IBadgeData = {
     links: [
         {title: "Double Feature Badge", href: "https://paragonwiki.com/wiki/Double_Feature_Badge"}
     ],
-    imageKeys: [{value: "core.event.double-feature"}]
+    icons: [{value: "core.event.double-feature"}]
 };

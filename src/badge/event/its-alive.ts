@@ -14,5 +14,5 @@ export const ItsAlive: IBadgeData = {
     links: [
         {title: "It's Alive! Badge", href: "https://paragonwiki.com/wiki/It%27s_Alive!_Badge"}
     ],
-    imageKeys: [{value: "core.event.its-alive"}]
+    icons: [{value: "core.event.its-alive"}]
 };

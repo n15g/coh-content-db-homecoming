@@ -15,5 +15,5 @@ export const Frostbitten: IBadgeData = {
     links: [
         {title: "Frostbitten Badge", href: "https://paragonwiki.com/wiki/Frostbitten_Badge"}
     ],
-    imageKeys: [{value: "core.event.frostbitten"}]
+    icons: [{value: "core.event.frostbitten"}]
 };

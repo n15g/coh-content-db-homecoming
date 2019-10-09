@@ -14,7 +14,7 @@ export const Scrounger: IBadgeData = {
     links: [
         {title: "Scrounger Badge", href: "https://paragonwiki.com/wiki/Scrounger_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.consignment.broker-h"},
         {type: Alternate.V, value: "core.consignment.broker-v"}
     ]

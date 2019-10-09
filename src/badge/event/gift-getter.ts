@@ -14,5 +14,5 @@ export const GiftGetter: IBadgeData = {
     links: [
         {title: "Gift Getter Badge", href: "https://paragonwiki.com/wiki/Gift_Getter_Badge"}
     ],
-    imageKeys: [{value: "core.event.gift-getter"}]
+    icons: [{value: "core.event.gift-getter"}]
 };

@@ -8,5 +8,5 @@ export const Staunch: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 18",
-    imageKeys: [{value: "core.veteran.veteran-18"}]
+    icons: [{value: "core.veteran.veteran-18"}]
 };

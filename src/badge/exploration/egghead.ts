@@ -13,6 +13,6 @@ export const Egghead: IBadgeData = {
     links: [
         {title: "Egghead Badge", href: "https://paragonwiki.com/wiki/Egghead_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "3"
 };

@@ -9,7 +9,7 @@ export const TriggerMan: IBadgeData = {
     links: [
         {title: "Trigger Man Badge", href: "https://paragonwiki.com/wiki/Trigger_Man_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-1"}],
+    icons: [{value: "core.invention.brain-1"}],
     partials: [
         {
             key: "a",

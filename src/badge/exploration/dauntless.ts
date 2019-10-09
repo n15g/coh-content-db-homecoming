@@ -17,6 +17,6 @@ export const Dauntless: IBadgeData = {
     links: [
         {title: "Dauntless Badge", href: "https://paragonwiki.com/wiki/Dauntless_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "3"
 };

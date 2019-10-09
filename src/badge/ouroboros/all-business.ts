@@ -14,5 +14,5 @@ export const AllBusiness: IBadgeData = {
     links: [
         {title: "All Business Badge", href: "https://paragonwiki.com/wiki/All_Business_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.all-business"}]
+    icons: [{value: "core.ouroboros.all-business"}]
 };

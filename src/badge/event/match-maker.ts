@@ -16,5 +16,5 @@ export const MatchMaker: IBadgeData = {
     links: [
         {title: "Match Maker Badge", href: "https://paragonwiki.com/wiki/Match_Maker_Badge"}
     ],
-    imageKeys: [{value: "core.event.match-maker"}]
+    icons: [{value: "core.event.match-maker"}]
 };

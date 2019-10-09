@@ -17,5 +17,5 @@ export const Scavenger: IBadgeData = {
         {title: "Scavenger Badge", href: "https://paragonwiki.com/wiki/Scavenger_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.scavenger"}]
+    icons: [{value: "core.day-job.scavenger"}]
 };

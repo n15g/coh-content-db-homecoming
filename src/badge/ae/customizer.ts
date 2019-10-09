@@ -12,5 +12,5 @@ export const Customizer: IBadgeData = {
     links: [
         {title: "Customizer Badge", href: "https://paragonwiki.com/wiki/Customizer_Badge"}
     ],
-    imageKeys: [{value: "core.ae.customizer"}]
+    icons: [{value: "core.ae.customizer"}]
 };

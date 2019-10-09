@@ -22,7 +22,7 @@ export const Trailblazer: IBadgeData = {
         {title: "Trailblazer Badge", href: "https://paragonwiki.com/wiki/Trailblazer_Badge"},
         {title: "Emissary Badge", href: "https://paragonwiki.com/wiki/Emissary_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-200-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-200-v"}
     ]

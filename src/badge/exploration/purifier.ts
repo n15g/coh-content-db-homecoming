@@ -19,6 +19,6 @@ export const Purifier: IBadgeData = {
         {title: "Purifier Badge", href: "https://paragonwiki.com/wiki/Purifier_Badge"},
         {title: "Defiler Badge", href: "https://paragonwiki.com/wiki/Defiler_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "1"
 };

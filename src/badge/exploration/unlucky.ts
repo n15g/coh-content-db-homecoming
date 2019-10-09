@@ -17,6 +17,6 @@ export const Unlucky: IBadgeData = {
     links: [
         {title: "Unlucky Badge", href: "https://paragonwiki.com/wiki/Unlucky_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "8"
 };

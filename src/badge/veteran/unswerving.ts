@@ -8,5 +8,5 @@ export const Unswerving: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 33",
-    imageKeys: [{value: "core.veteran.veteran-33"}]
+    icons: [{value: "core.veteran.veteran-33"}]
 };

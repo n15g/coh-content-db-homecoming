@@ -9,7 +9,7 @@ export const Pilgrim: IBadgeData = {
     links: [
         {title: "Pilgrim Badge", href: "https://paragonwiki.com/wiki/Pilgrim_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-1"}],
+    icons: [{value: "core.invention.brain-1"}],
     partials: [
         {
             key: "a",

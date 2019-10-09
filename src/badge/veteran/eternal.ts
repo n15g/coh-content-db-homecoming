@@ -8,5 +8,5 @@ export const Eternal: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 45",
-    imageKeys: [{value: "core.veteran.veteran-45"}]
+    icons: [{value: "core.veteran.veteran-45"}]
 };

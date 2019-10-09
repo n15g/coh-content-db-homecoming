@@ -16,5 +16,5 @@ export const Marketer: IBadgeData = {
         {title: "Marketer Badge", href: "https://paragonwiki.com/wiki/Marketer_Badge"},
         {title: "Black Marketeer Badge", href: "https://paragonwiki.com/wiki/Black_Marketeer"}
     ],
-    imageKeys: [{value: "core.consignment.marketer"}]
+    icons: [{value: "core.consignment.marketer"}]
 };

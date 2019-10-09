@@ -12,5 +12,5 @@ export const Assassin: IBadgeData = {
     links: [
         {title: "Assassin Badge", href: "https://paragonwiki.com/wiki/Assassin_Badge"}
     ],
-    imageKeys: [{value: "core.ae.assassin"}]
+    icons: [{value: "core.ae.assassin"}]
 };

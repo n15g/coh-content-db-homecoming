@@ -14,5 +14,5 @@ export const Peddler: IBadgeData = {
     links: [
         {title: "Peddler Badge", href: "https://paragonwiki.com/wiki/Peddler_Badge"}
     ],
-    imageKeys: [{value: "core.consignment.peddler"}]
+    icons: [{value: "core.consignment.peddler"}]
 };

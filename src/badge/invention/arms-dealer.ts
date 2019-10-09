@@ -9,7 +9,7 @@ export const ArmsDealer: IBadgeData = {
     links: [
         {title: "Arms Dealer Badge", href: "https://paragonwiki.com/wiki/Arms_Dealer_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-4"}],
+    icons: [{value: "core.invention.brain-4"}],
     partials: [
         {
             key: "a",

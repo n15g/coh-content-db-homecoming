@@ -17,6 +17,6 @@ export const DanceLegend: IBadgeData = {
     links: [
         {title: "Dance Legend Badge", href: "https://paragonwiki.com/wiki/Dance_Legend_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "5"
 };

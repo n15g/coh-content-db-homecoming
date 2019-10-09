@@ -12,5 +12,5 @@ export const BugFixer: IBadgeData = {
     links: [
         {title: "Bug Fixer Badge", href: "https://paragonwiki.com/wiki/Bug-Fixer_Badge"}
     ],
-    imageKeys: [{value: "core.ae.bug-fixer"}]
+    icons: [{value: "core.ae.bug-fixer"}]
 };

@@ -17,6 +17,6 @@ export const CorpseBox: IBadgeData = {
     links: [
         {title: "Corpse Box Badge", href: "https://paragonwiki.com/wiki/Corpse_Box_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "8"
 };

@@ -10,7 +10,7 @@ export const General: IBadgeData = {
     links: [
         {title: "General Badge", href: "https://paragonwiki.com/wiki/General_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

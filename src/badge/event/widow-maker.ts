@@ -14,5 +14,5 @@ export const WidowMaker: IBadgeData = {
     links: [
         {title: "Widow Maker Badge", href: "https://paragonwiki.com/wiki/Widow_Maker_Badge"}
     ],
-    imageKeys: [{value: "core.event.widow-maker"}]
+    icons: [{value: "core.event.widow-maker"}]
 };

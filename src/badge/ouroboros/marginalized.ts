@@ -14,5 +14,5 @@ export const Marginalized: IBadgeData = {
     links: [
         {title: "Marginalized Badge", href: "https://paragonwiki.com/wiki/Marginalized_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.marginalized"}]
+    icons: [{value: "core.ouroboros.marginalized"}]
 };

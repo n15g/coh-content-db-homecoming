@@ -24,5 +24,5 @@ export const Banker: IBadgeData = {
         {title: "Thief Badge", href: "https://paragonwiki.com/wiki/Thief_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.banker"}]
+    icons: [{value: "core.day-job.banker"}]
 };

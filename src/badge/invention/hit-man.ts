@@ -10,7 +10,7 @@ export const HitMan: IBadgeData = {
     links: [
         {title: "Hit-Man Badge", href: "https://paragonwiki.com/wiki/Hit-Man_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-3"}],
+    icons: [{value: "core.invention.brain-3"}],
     partials: [
         {
             key: "a",

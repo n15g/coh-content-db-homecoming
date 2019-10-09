@@ -18,6 +18,6 @@ export const BoomtownTroglodyte: IBadgeData = {
     links: [
         {title: "Boomtown Troglodyte Badge", href: "https://paragonwiki.com/wiki/Boomtown_Troglodyte_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "6"
 };

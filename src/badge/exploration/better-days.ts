@@ -17,6 +17,6 @@ export const BetterDays: IBadgeData = {
     links: [
         {title: "Better Days Badge", href: "https://paragonwiki.com/wiki/Better_Days_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "5"
 };

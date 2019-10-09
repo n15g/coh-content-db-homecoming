@@ -10,7 +10,7 @@ export const LordOfWar: IBadgeData = {
     links: [
         {title: "Lord of War Badge", href: "https://paragonwiki.com/wiki/Lord_of_War_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

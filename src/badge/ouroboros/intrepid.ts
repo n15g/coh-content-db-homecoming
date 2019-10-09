@@ -14,5 +14,5 @@ export const Intrepid: IBadgeData = {
     links: [
         {title: "Intrepid Badge", href: "https://paragonwiki.com/wiki/Intrepid_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.intrepid"}]
+    icons: [{value: "core.ouroboros.intrepid"}]
 };

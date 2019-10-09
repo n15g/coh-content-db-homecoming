@@ -18,6 +18,6 @@ export const CircleGazer: IBadgeData = {
     links: [
         {title: "Circle Gazer Badge", href: "https://paragonwiki.com/wiki/Circle_Gazer_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "8"
 };

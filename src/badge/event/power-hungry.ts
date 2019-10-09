@@ -15,5 +15,5 @@ export const PowerHungry: IBadgeData = {
         {title: "Power Hungry Badge", href: "https://paragonwiki.com/wiki/Power_Hungry_Badge"},
         {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
     ],
-    imageKeys: [{value: "core.event.power-hungry"}]
+    icons: [{value: "core.event.power-hungry"}]
 };

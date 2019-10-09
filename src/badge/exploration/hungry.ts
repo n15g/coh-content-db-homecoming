@@ -17,7 +17,7 @@ export const Hungry: IBadgeData = {
         {title: "Hungry Badge", href: "https://paragonwiki.com/wiki/Hungry_Badge"},
         {title: "All Consuming Badge", href: "https://paragonwiki.com/wiki/All_Consuming_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.exploration.hero"},
         {type: Alternate.V, value: "core.exploration.villain"}
     ],

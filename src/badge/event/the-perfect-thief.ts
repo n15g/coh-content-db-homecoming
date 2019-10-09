@@ -20,5 +20,5 @@ export const ThePerfectThief: IBadgeData = {
     links: [
         {title: "The Perfect Thief Badge", href: "https://paragonwiki.com/wiki/The_Perfect_Thief_Badge"}
     ],
-    imageKeys: [{value: "core.event.the-perfect-thief"}]
+    icons: [{value: "core.event.the-perfect-thief"}]
 };

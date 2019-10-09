@@ -14,5 +14,5 @@ export const Lucky: IBadgeData = {
     links: [
         {title: "Lucky Badge", href: "https://paragonwiki.com/wiki/Lucky_Badge"}
     ],
-    imageKeys: [{value: "core.event.lucky"}]
+    icons: [{value: "core.event.lucky"}]
 };

@@ -18,7 +18,7 @@ export const Seeker: IBadgeData = {
         {title: "Seeker Badge", href: "https://paragonwiki.com/wiki/Seeker_Badge"},
         {title: "Overachiever Badge", href: "https://paragonwiki.com/wiki/Overachiever_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-500-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-500-v"}
     ]

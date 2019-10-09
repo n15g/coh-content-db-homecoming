@@ -17,6 +17,6 @@ export const ToweringInferno: IBadgeData = {
     links: [
         {title: "Towering Inferno Badge", href: "https://paragonwiki.com/wiki/Towering_Inferno_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "5"
 };

@@ -14,5 +14,5 @@ export const Unveiler: IBadgeData = {
     links: [
         {title: "Unveiler Badge", href: "https://paragonwiki.com/wiki/Unveiler_Badge"}
     ],
-    imageKeys: [{value: "core.defeat.unveiler"}]
+    icons: [{value: "core.defeat.unveiler"}]
 };

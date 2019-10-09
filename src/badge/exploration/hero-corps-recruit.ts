@@ -16,6 +16,6 @@ export const HeroCorpsRecruit: IBadgeData = {
     links: [
         {title: "Hero Corps Recruit Badge", href: "https://paragonwiki.com/wiki/Hero_Corps_Recruit_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "2"
 };

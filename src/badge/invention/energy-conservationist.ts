@@ -9,7 +9,7 @@ export const EnergyConservationist: IBadgeData = {
     links: [
         {title: "Energy Conservationist Badge", href: "https://paragonwiki.com/wiki/Energy_Conservationist_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-1"}],
+    icons: [{value: "core.invention.brain-1"}],
     partials: [
         {
             key: "a",

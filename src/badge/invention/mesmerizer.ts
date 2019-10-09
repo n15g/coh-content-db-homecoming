@@ -10,7 +10,7 @@ export const Mesmerizer: IBadgeData = {
     links: [
         {title: "Mesmerizer Badge", href: "https://paragonwiki.com/wiki/Mesmerizer_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

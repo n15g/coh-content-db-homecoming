@@ -15,5 +15,5 @@ export const ColdWarrior: IBadgeData = {
     links: [
         {title: "Cold Warrior Badge", href: "https://paragonwiki.com/wiki/Cold_Warrior_Badge"}
     ],
-    imageKeys: [{value: "core.event.cold-warrior"}]
+    icons: [{value: "core.event.cold-warrior"}]
 };

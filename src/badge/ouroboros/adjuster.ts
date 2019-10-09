@@ -14,5 +14,5 @@ export const Adjuster: IBadgeData = {
     links: [
         {title: "Adjuster Badge", href: "https://paragonwiki.com/wiki/Adjuster_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.adjuster"}]
+    icons: [{value: "core.ouroboros.adjuster"}]
 };

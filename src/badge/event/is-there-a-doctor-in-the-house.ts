@@ -14,5 +14,5 @@ export const IsThereADoctorInTheHouse: IBadgeData = {
     links: [
         {title: "Is There a Doctor in the House? Badge", href: "https://paragonwiki.com/wiki/Is_There_a_Doctor_in_the_House%3F_Badge"}
     ],
-    imageKeys: [{value: "core.event.is-there-a-doctor-in-the-house"}]
+    icons: [{value: "core.event.is-there-a-doctor-in-the-house"}]
 };

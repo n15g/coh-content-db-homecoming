@@ -8,5 +8,5 @@ export const Radiant: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 84",
-    imageKeys: [{value: "core.veteran.veteran-84"}]
+    icons: [{value: "core.veteran.veteran-84"}]
 };

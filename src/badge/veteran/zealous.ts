@@ -8,5 +8,5 @@ export const Zealous: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 15",
-    imageKeys: [{value: "core.veteran.veteran-15"}]
+    icons: [{value: "core.veteran.veteran-15"}]
 };

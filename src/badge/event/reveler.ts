@@ -14,5 +14,5 @@ export const Reveler: IBadgeData = {
     links: [
         {title: "Reveler Badge", href: "https://paragonwiki.com/wiki/Reveler_Badge"}
     ],
-    imageKeys: [{value: "core.event.reveler"}]
+    icons: [{value: "core.event.reveler"}]
 };

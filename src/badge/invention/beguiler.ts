@@ -9,7 +9,7 @@ export const Beguiler: IBadgeData = {
     links: [
         {title: "Beguiler Badge", href: "https://paragonwiki.com/wiki/Guardian_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-2"}],
+    icons: [{value: "core.invention.brain-2"}],
     partials: [
         {
             key: "a",

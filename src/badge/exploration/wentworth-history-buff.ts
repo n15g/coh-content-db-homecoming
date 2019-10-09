@@ -16,6 +16,6 @@ export const WentworthHistoryBuff: IBadgeData = {
     links: [
         {title: "Wentworth History Buff Badge", href: "https://paragonwiki.com/wiki/Wentworth_History_Buff_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.hero"}],
+    icons: [{value: "core.exploration.hero"}],
     vidiotMapKey: "6"
 };

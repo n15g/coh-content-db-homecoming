@@ -12,5 +12,5 @@ export const Recognized: IBadgeData = {
     links: [
         {title: "Recognized Badge", href: "https://paragonwiki.com/wiki/Recognized_Badge"}
     ],
-    imageKeys: [{value: "core.ae.recognized"}]
+    icons: [{value: "core.ae.recognized"}]
 };

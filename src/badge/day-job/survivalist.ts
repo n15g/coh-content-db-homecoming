@@ -17,5 +17,5 @@ export const Survivalist: IBadgeData = {
         {title: "Survivalist Badge", href: "https://paragonwiki.com/wiki/Survivalist_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.survivalist"}]
+    icons: [{value: "core.day-job.survivalist"}]
 };

@@ -12,5 +12,5 @@ export const Payoff: IBadgeData = {
     links: [
         {title: "Payoff Badge", href: "https://paragonwiki.com/wiki/Payoff_Badge"}
     ],
-    imageKeys: [{value: "core.ae.payoff"}]
+    icons: [{value: "core.ae.payoff"}]
 };

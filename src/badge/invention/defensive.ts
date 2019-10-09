@@ -10,7 +10,7 @@ export const Defensive: IBadgeData = {
     links: [
         {title: "Defensive Badge", href: "https://paragonwiki.com/wiki/Defensive_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-5"}],
+    icons: [{value: "core.invention.brain-5"}],
     partials: [
         {
             key: "a",

@@ -14,5 +14,5 @@ export const Entertainer: IBadgeData = {
     links: [
         {title: "Entertainer Badge", href: "https://paragonwiki.com/wiki/Entertainer_Badge"}
     ],
-    imageKeys: [{value: "core.event.entertainer"}]
+    icons: [{value: "core.event.entertainer"}]
 };

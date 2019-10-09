@@ -14,5 +14,5 @@ export const Still: IBadgeData = {
     links: [
         {title: "Still Badge", href: "https://paragonwiki.com/wiki/Still_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.still"}]
+    icons: [{value: "core.ouroboros.still"}]
 };

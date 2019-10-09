@@ -14,5 +14,5 @@ export const Miraculous: IBadgeData = {
     links: [
         {title: "Miraculous Badge", href: "https://paragonwiki.com/wiki/Miraculous_Badge"}
     ],
-    imageKeys: [{value: "core.event.miraculous"}]
+    icons: [{value: "core.event.miraculous"}]
 };

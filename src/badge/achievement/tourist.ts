@@ -20,7 +20,7 @@ export const Tourist: IBadgeData = {
         {title: "Visitor Badge", href: "https://paragonwiki.com/wiki/Visitor_Badge"},
         {title: "Lead-Follower Badge", href: "https://paragonwiki.com/wiki/Lead-Follower_Badge"},
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.achievement.badge-count-10-h"},
         {type: Alternate.V, value: "core.achievement.badge-count-10-v"}
     ]

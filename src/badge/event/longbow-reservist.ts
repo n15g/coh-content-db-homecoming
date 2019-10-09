@@ -17,5 +17,5 @@ export const LongbowReservist: IBadgeData = {
         {title: "Longbow Reservist Badge", href: "https://paragonwiki.com/wiki/Longbow_Reservist_Badge"},
         {title: "Jet-Setter Badge", href: "https://paragonwiki.com/wiki/Jet-Setter_Badge"}
     ],
-    imageKeys: [{value: "core.event.longbow-reservist"}]
+    icons: [{value: "core.event.longbow-reservist"}]
 };

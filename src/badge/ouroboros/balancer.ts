@@ -14,5 +14,5 @@ export const Balancer: IBadgeData = {
     links: [
         {title: "Balancer Badge", href: "https://paragonwiki.com/wiki/Balancer_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.balancer"}]
+    icons: [{value: "core.ouroboros.balancer"}]
 };

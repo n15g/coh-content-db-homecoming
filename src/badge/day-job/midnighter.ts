@@ -17,5 +17,5 @@ export const Midnighter: IBadgeData = {
         {title: "Midnighter Badge", href: "https://paragonwiki.com/wiki/Midnighter_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    imageKeys: [{value: "core.day-job.midnighter"}]
+    icons: [{value: "core.day-job.midnighter"}]
 };

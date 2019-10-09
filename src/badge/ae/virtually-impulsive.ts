@@ -12,5 +12,5 @@ export const VirtuallyImpulsive: IBadgeData = {
     links: [
         {title: "Virtually Impulsive Badge", href: "https://paragonwiki.com/wiki/Virtually_Impulsive_Badge"}
     ],
-    imageKeys: [{value: "core.ae.virtually-impulsive"}]
+    icons: [{value: "core.ae.virtually-impulsive"}]
 };

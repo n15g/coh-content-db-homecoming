@@ -15,6 +15,6 @@ export const Sparky: IBadgeData = {
     links: [
         {title: "Sparky Badge", href: "https://paragonwiki.com/wiki/Sparky_Badge"}
     ],
-    imageKeys: [{value: "core.exploration.villain"}],
+    icons: [{value: "core.exploration.villain"}],
     vidiotMapKey: "1"
 };

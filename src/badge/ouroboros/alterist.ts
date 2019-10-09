@@ -14,5 +14,5 @@ export const Alterist: IBadgeData = {
     links: [
         {title: "Alterist Badge", href: "https://paragonwiki.com/wiki/Alterist_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.alterist"}]
+    icons: [{value: "core.ouroboros.alterist"}]
 };

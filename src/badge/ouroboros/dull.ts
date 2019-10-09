@@ -14,5 +14,5 @@ export const Dull: IBadgeData = {
     links: [
         {title: "Dull Badge", href: "https://paragonwiki.com/wiki/Dull_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.dull"}]
+    icons: [{value: "core.ouroboros.dull"}]
 };

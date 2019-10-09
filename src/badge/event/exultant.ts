@@ -14,5 +14,5 @@ export const Exultant: IBadgeData = {
     links: [
         {title: "Exultant Badge", href: "https://paragonwiki.com/wiki/Exultant_Badge"}
     ],
-    imageKeys: [{value: "core.event.exultant"}]
+    icons: [{value: "core.event.exultant"}]
 };

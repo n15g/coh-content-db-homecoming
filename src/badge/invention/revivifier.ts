@@ -9,7 +9,7 @@ export const Revivifier: IBadgeData = {
     links: [
         {title: "Revivifier Badge", href: "https://paragonwiki.com/wiki/Revivifier_Badge"}
     ],
-    imageKeys: [{value: "core.invention.brain-4"}],
+    icons: [{value: "core.invention.brain-4"}],
     partials: [
         {
             key: "a",

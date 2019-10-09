@@ -14,5 +14,5 @@ export const ProportionalSupremacy: IBadgeData = {
     links: [
         {title: "Proportional Supremacy Badge", href: "https://paragonwiki.com/wiki/Proportional_Supremacy_Badge"}
     ],
-    imageKeys: [{value: "core.ouroboros.proportional-supremacy"}]
+    icons: [{value: "core.ouroboros.proportional-supremacy"}]
 };

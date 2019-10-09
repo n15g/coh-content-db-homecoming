@@ -14,7 +14,7 @@ export const Broker: IBadgeData = {
     links: [
         {title: "Broker Badge", href: "https://paragonwiki.com/wiki/Broker_Badge"}
     ],
-    imageKeys: [
+    icons: [
         {type: Alternate.H, value: "core.consignment.broker-h"},
         {type: Alternate.V, value: "core.consignment.broker-v"}
     ]
