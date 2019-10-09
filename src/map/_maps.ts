@@ -14,10 +14,12 @@ import {MercyIsland} from "./mercy-island";
 import {PeregrineIsland} from "./peregrine-island";
 import {ReclusesVictory} from "./recluses-victory";
 import {RiktiWarZone} from "./rikti-war-zone";
+import {SirensCall} from "./sirens-call";
 import {SkywayCity} from "./skyway-city";
 import {SteelCanyon} from "./steel-canyon";
 import {TalosIsland} from "./talos-island";
 import {TerraVolta} from "./terra-volta";
+import {Warburg} from "./warburg";
 
 export const Maps: IGameMapData[] = [
     AbandonedSewerNetwork,
@@ -34,8 +36,10 @@ export const Maps: IGameMapData[] = [
     PeregrineIsland,
     ReclusesVictory,
     RiktiWarZone,
+    SirensCall,
     SkywayCity,
     SteelCanyon,
     TalosIsland,
     TerraVolta,
+    Warburg
 ];

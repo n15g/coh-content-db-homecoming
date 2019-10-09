@@ -66,6 +66,23 @@ import {SecretAdmirer} from "./secret-admirer";
 import {HeroCorpsRecruit} from "./hero-corps-recruit";
 import {NimbleMynx} from "./nimble-mynx";
 import {BrightStar} from "./bright-star";
+import {WhatLurksBeyond} from "./what-lurks-beyond";
+import {Restless} from "./restless";
+import {MostlyHarmless} from "./mostly-harmless";
+import {BurgerMeister} from "./burger-meister";
+import {AScarInTime} from "./a-scar-in-time";
+import {TrueNeutral} from "./true-neutral";
+import {WatchYourBack} from "./watch-your-back";
+import {SickOfTimeTravel} from "./sick-of-time-travel";
+import {HotDog} from "./hot-dog";
+import {StillStanding} from "./still-standing";
+import {Volatile} from "./volatile";
+import {WastedResource} from "./wasted-resource";
+import {Nuclear} from "./nuclear";
+import {ForciblyEvicted} from "./forcibly-evicted";
+import {Disassembled} from "./disassembled";
+import {GameOver} from "./game-over";
+import {Herculean} from "./herculean";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -118,4 +135,16 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Steel Canyon Pt2
     SecretAdmirer, HeroCorpsRecruit, NimbleMynx, BrightStar,
+
+    //Bloody Bay I25 Page 3
+    WhatLurksBeyond, Restless, MostlyHarmless, BurgerMeister,
+
+    //Recluses Victory I25 Page 3
+    AScarInTime, TrueNeutral, WatchYourBack, SickOfTimeTravel,
+
+    //Siren's Call I25 Page 3
+    HotDog, StillStanding, Volatile, WastedResource,
+
+    //Warburg I25 Page 3
+    Nuclear, ForciblyEvicted, Disassembled, GameOver, Herculean,
 ];
