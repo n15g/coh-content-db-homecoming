@@ -79,6 +79,7 @@ import {GiftWhichKeepsGiving} from "./gift-which-keeps-giving";
 import {GiftGetter} from "./gift-getter";
 import {Passport} from "./passport";
 import {ANemesisPlot} from "./a-nemesis-plot";
+import {Arriviste} from "./arriviste";
 
 export const EventBadges: IBadgeData[] = [
     Torchbearer,
@@ -129,6 +130,7 @@ export const EventBadges: IBadgeData[] = [
     ArtifactDestroyer,
     Veiled,
     Trusting,
+    Arriviste,
     ColdAsIce,
     ColdWarrior,
     FrozenFury,
