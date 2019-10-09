@@ -12,5 +12,5 @@ export const EarlyBird: IBadgeData = {
     links: [
         {title: "Early Bird Badge", href: "https://paragonwiki.com/wiki/Early_Bird_Badge"}
     ],
-    icons: [{value: "core.ae.early-bird"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/early-bird.png"}]
 };

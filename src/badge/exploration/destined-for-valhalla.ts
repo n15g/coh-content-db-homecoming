@@ -17,6 +17,6 @@ export const DestinedForValhalla: IBadgeData = {
     links: [
         {title: "Destined for Valhalla Badge", href: "https://paragonwiki.com/wiki/Destined_for_Valhalla_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"
 };

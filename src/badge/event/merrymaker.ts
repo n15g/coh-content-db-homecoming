@@ -14,5 +14,5 @@ export const Merrymaker: IBadgeData = {
     links: [
         {title: "Merrymaker Badge", href: "https://paragonwiki.com/wiki/Merrymaker_Badge"}
     ],
-    icons: [{value: "core.event.merrymaker"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/merrymaker.png"}]
 };

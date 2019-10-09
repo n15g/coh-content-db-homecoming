@@ -12,5 +12,5 @@ export const BugFixer: IBadgeData = {
     links: [
         {title: "Bug Fixer Badge", href: "https://paragonwiki.com/wiki/Bug-Fixer_Badge"}
     ],
-    icons: [{value: "core.ae.bug-fixer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/bug-fixer.png"}]
 };

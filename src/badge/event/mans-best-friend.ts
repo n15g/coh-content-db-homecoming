@@ -19,5 +19,5 @@ export const MansBestFriend: IBadgeData = {
         {title: "Man's Best Friend Badge", href: "https://paragonwiki.com/wiki/Man%27s_Best_Friend_Badge"},
         {title: "Woman's Best Friend Badge", href: "https://paragonwiki.com/wiki/Woman%27s_Best_Friend_Badge"}
     ],
-    icons: [{value: "core.event.mans-best-friend"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/mans-best-friend.png"}]
 };

@@ -14,5 +14,5 @@ export const Partygoer: IBadgeData = {
     links: [
         {title: "Partygoer Badge", href: "https://paragonwiki.com/wiki/Partygoer_Badge"}
     ],
-    icons: [{value: "core.event.partygoer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/partygoer.png"}]
 };

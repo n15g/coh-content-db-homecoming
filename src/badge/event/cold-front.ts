@@ -14,5 +14,5 @@ export const ColdFront: IBadgeData = {
     links: [
         {title: "Cold Front Badge", href: "https://paragonwiki.com/wiki/Cold_Front_Badge"}
     ],
-    icons: [{value: "core.event.cold-front"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/cold-front.png"}]
 };

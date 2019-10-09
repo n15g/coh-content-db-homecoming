@@ -24,5 +24,5 @@ export const Banker: IBadgeData = {
         {title: "Thief Badge", href: "https://paragonwiki.com/wiki/Thief_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.banker"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/banker.png"}]
 };

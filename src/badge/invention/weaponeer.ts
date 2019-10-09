@@ -9,7 +9,7 @@ export const Weaponeer: IBadgeData = {
     links: [
         {title: "Weaponeer Badge", href: "https://paragonwiki.com/wiki/Weaponeer_Badge"}
     ],
-    icons: [{value: "core.invention.brain-2"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [
         {
             key: "a",

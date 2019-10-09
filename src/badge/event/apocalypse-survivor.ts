@@ -14,5 +14,5 @@ export const ApocalypseSurvivor: IBadgeData = {
     links: [
         {title: "Apocalypse Survivor Badge", href: "https://paragonwiki.com/wiki/Apocalypse_Survivor_Badge"}
     ],
-    icons: [{value: "core.event.apocalypse-survivor"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/apocalypse-survivor.png"}]
 };

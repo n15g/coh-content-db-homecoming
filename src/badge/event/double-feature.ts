@@ -14,5 +14,5 @@ export const DoubleFeature: IBadgeData = {
     links: [
         {title: "Double Feature Badge", href: "https://paragonwiki.com/wiki/Double_Feature_Badge"}
     ],
-    icons: [{value: "core.event.double-feature"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/double-feature.png"}]
 };

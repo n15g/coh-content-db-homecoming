@@ -14,5 +14,5 @@ export const PhonedItIn: IBadgeData = {
     links: [
         {title: "Phoned it in Badge", href: "https://paragonwiki.com/wiki/Phoned_It_In_Badge"}
     ],
-    icons: [{value: "core.ouroboros.phoned-it-in"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/phoned-it-in.png"}]
 };

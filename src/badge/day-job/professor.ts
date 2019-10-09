@@ -20,5 +20,5 @@ export const Professor: IBadgeData = {
         {title: "Professor Badge", href: "https://paragonwiki.com/wiki/Professor_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.professor"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/professor.png"}]
 };

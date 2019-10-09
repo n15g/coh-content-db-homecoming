@@ -16,5 +16,5 @@ export const Salesman: IBadgeData = {
         {title: "Salesman Badge", href: "https://paragonwiki.com/wiki/Salesman_Badge"},
         {title: "Saleswoman Badge", href: "https://paragonwiki.com/wiki/Saleswoman_Badge"}
     ],
-    icons: [{value: "core.consignment.salesman"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/salesman.png"}]
 };

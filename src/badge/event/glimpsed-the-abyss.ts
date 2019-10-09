@@ -14,5 +14,5 @@ export const GlimpsedTheAbyss: IBadgeData = {
     links: [
         {title: "Glimpsed the Abyss Badge", href: "https://paragonwiki.com/wiki/Glimpsed_the_Abyss_Badge"}
     ],
-    icons: [{value: "core.event.glimpsed-the-abyss"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/glimpsed-the-abyss.png"}]
 };

@@ -23,5 +23,5 @@ export const Grounded: IBadgeData = {
         {title: "Pilot Badge", href: "https://paragonwiki.com/wiki/Pilot_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.grounded"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/grounded.png"}]
 };

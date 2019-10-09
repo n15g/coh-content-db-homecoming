@@ -17,6 +17,6 @@ export const DirtyAttorney: IBadgeData = {
     links: [
         {title: "Dirty Attorney Badge", href: "https://paragonwiki.com/wiki/Dirty_Attorney_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"
 };

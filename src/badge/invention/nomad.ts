@@ -10,7 +10,7 @@ export const Nomad: IBadgeData = {
     links: [
         {title: "Nomad Badge", href: "https://paragonwiki.com/wiki/Nomad_Badge"}
     ],
-    icons: [{value: "core.invention.brain-5"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [
         {
             key: "a",

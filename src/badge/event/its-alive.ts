@@ -14,5 +14,5 @@ export const ItsAlive: IBadgeData = {
     links: [
         {title: "It's Alive! Badge", href: "https://paragonwiki.com/wiki/It%27s_Alive!_Badge"}
     ],
-    icons: [{value: "core.event.its-alive"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/its-alive.png"}]
 };

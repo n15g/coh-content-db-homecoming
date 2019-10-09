@@ -14,5 +14,5 @@ export const Archetypical: IBadgeData = {
     links: [
         {title: "Archetypical Badge", href: "https://paragonwiki.com/wiki/Archetypical_Badge"}
     ],
-    icons: [{value: "core.ouroboros.archetypical"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/archetypical.png"}]
 };

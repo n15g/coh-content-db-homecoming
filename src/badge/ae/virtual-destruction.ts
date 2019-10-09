@@ -13,5 +13,5 @@ export const VirtualDestruction: IBadgeData = {
     links: [
         {title: "Virtual Destruction Badge", href: "https://paragonwiki.com/wiki/Virtual_Destruction_Badge"}
     ],
-    icons: [{value: "core.ae.virtual-destruction"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/virtual-destruction.png"}]
 };

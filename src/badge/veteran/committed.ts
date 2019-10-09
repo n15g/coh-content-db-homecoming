@@ -8,5 +8,5 @@ export const Committed: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 30",
-    icons: [{value: "core.veteran.veteran-30"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-30.png"}]
 };

@@ -14,5 +14,5 @@ export const HallowSpirit: IBadgeData = {
     links: [
         {title: "Hallow Spirit Badge", href: "https://paragonwiki.com/wiki/Hallow_Spirit_Badge"}
     ],
-    icons: [{value: "core.event.hallow-spirit"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hallow-spirit.png"}]
 };

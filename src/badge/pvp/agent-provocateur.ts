@@ -13,5 +13,5 @@ export const AgentProvocateur: IBadgeData = {
     links: [
         {title: "Agent Provocateur Badge", href: "https://paragonwiki.com/wiki/Agent_Provocateur_Badge"},
     ],
-    icons: [{value: "core.pvp.cracked"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png"}]
 };

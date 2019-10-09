@@ -23,7 +23,7 @@ export const Trailblazer: IBadgeData = {
         {title: "Emissary Badge", href: "https://paragonwiki.com/wiki/Emissary_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-200-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-200-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-200-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-200-v.png"}
     ]
 };

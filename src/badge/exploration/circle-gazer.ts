@@ -18,6 +18,6 @@ export const CircleGazer: IBadgeData = {
     links: [
         {title: "Circle Gazer Badge", href: "https://paragonwiki.com/wiki/Circle_Gazer_Badge"}
     ],
-    icons: [{value: "core.exploration.villain"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"
 };

@@ -14,5 +14,5 @@ export const SilverMedalist: IBadgeData = {
     links: [
         {title: "Silver Medalist Badge", href: "https://paragonwiki.com/wiki/Silver_Medalist_Badge"}
     ],
-    icons: [{value: "core.ouroboros.silver-medalist"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/silver-medalist.png"}]
 };

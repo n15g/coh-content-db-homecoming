@@ -17,6 +17,6 @@ export const Solace: IBadgeData = {
     links: [
         {title: "Solace Badge", href: "https://paragonwiki.com/wiki/Solace_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"
 };

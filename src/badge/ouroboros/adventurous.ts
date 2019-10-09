@@ -14,5 +14,5 @@ export const Adventurous: IBadgeData = {
     links: [
         {title: "Adventurous Badge", href: "https://paragonwiki.com/wiki/Adventurous_Badge"}
     ],
-    icons: [{value: "core.ouroboros.adventurous"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/adventurous.png"}]
 };

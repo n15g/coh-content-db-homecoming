@@ -15,7 +15,7 @@ export const Inspiring: IBadgeData = {
         {title: "Inspiring Badge", href: "https://paragonwiki.com/wiki/Inspiring_Badge"}
     ],
     icons: [
-        {type: Alternate.H, value: "core.consignment.broker-h"},
-        {type: Alternate.V, value: "core.consignment.broker-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/broker-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/broker-v.png"}
     ]
 };

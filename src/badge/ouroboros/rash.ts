@@ -14,5 +14,5 @@ export const Rash: IBadgeData = {
     links: [
         {title: "Rash Badge", href: "https://paragonwiki.com/wiki/Rash_Badge"}
     ],
-    icons: [{value: "core.ouroboros.rash"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/rash.png"}]
 };

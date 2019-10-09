@@ -23,7 +23,7 @@ export const Adventurer: IBadgeData = {
         {title: "Doer Badge", href: "https://paragonwiki.com/wiki/Doer_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-750-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-750-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-750-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-750-v.png"}
     ]
 };

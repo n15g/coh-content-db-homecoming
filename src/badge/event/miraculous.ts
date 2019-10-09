@@ -14,5 +14,5 @@ export const Miraculous: IBadgeData = {
     links: [
         {title: "Miraculous Badge", href: "https://paragonwiki.com/wiki/Miraculous_Badge"}
     ],
-    icons: [{value: "core.event.miraculous"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/miraculous.png"}]
 };

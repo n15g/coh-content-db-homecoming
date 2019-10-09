@@ -12,5 +12,5 @@ export const AmongFriends: IBadgeData = {
     links: [
         {title: "Among Friends Badge", href: "https://paragonwiki.com/wiki/Among_Friends_Badge"}
     ],
-    icons: [{value: "core.ae.among-friends"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/among-friends.png"}]
 };

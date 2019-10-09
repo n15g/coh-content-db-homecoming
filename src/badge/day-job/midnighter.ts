@@ -17,5 +17,5 @@ export const Midnighter: IBadgeData = {
         {title: "Midnighter Badge", href: "https://paragonwiki.com/wiki/Midnighter_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.midnighter"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/midnighter.png"}]
 };

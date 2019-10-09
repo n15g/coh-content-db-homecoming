@@ -14,5 +14,5 @@ export const Uninspired: IBadgeData = {
     links: [
         {title: "Uninspired Badge", href: "https://paragonwiki.com/wiki/Uninspired_Badge"}
     ],
-    icons: [{value: "core.ouroboros.uninspired"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/uninspired.png"}]
 };

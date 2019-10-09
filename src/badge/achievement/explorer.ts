@@ -21,7 +21,7 @@ export const Explorer: IBadgeData = {
         {title: "Knows the Truth Badge", href: "https://paragonwiki.com/wiki/Knows_the_Truth_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-50-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-50-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-50-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-50-v.png"}
     ]
 };

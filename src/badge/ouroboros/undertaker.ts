@@ -14,5 +14,5 @@ export const Undertaker: IBadgeData = {
     links: [
         {title: "Undertaker Badge", href: "https://paragonwiki.com/wiki/Undertaker_Badge"}
     ],
-    icons: [{value: "core.ouroboros.undertaker"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/undertaker.png"}]
 };

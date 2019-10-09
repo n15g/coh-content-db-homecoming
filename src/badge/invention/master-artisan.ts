@@ -12,5 +12,5 @@ export const MasterArtisan: IBadgeData = {
     links: [
         {title: "Master Artisan Badge", href: "https://paragonwiki.com/wiki/Master_Artisan_Badge"}
     ],
-    icons: [{value: "core.invention.master-artisan"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/master-artisan.png"}]
 };

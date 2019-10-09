@@ -12,5 +12,5 @@ export const Gearsmasher: IBadgeData = {
     links: [
         {title: "Gearsmasher", href: "https://paragonwiki.com/wiki/Gearsmasher_Badge"}
     ],
-    icons: [{value: "core.defeat.gearsmasher"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/gearsmasher.png"}]
 };

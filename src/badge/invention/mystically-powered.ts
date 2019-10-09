@@ -9,7 +9,7 @@ export const MysticallyPowered: IBadgeData = {
     links: [
         {title: "Mystically Powered Badge", href: "https://paragonwiki.com/wiki/Mystically_Powered_Badge"}
     ],
-    icons: [{value: "core.invention.brain-4"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [
         {
             key: "a",

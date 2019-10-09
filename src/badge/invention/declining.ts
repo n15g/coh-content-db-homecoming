@@ -9,7 +9,7 @@ export const Declining: IBadgeData = {
     links: [
         {title: "Declining Badge", href: "https://paragonwiki.com/wiki/Declining_Badge"}
     ],
-    icons: [{value: "core.invention.brain-1"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [
         {
             key: "a",

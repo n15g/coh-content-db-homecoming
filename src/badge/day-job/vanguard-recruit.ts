@@ -18,5 +18,5 @@ export const VanguardRecruit: IBadgeData = {
         {title: "Vanguard Recruit Badge", href: "https://paragonwiki.com/wiki/Vanguard_Recruit_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.vanguard-recruit"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/vanguard-recruit.png"}]
 };

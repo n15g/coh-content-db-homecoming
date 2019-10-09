@@ -19,7 +19,7 @@ export const Pathfinder: IBadgeData = {
         {title: "Knows He/She Knows Not Badge", href: "https://paragonwiki.com/wiki/Knows_He_Knows_Not_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-100-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-100-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-100-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-100-v.png"}
     ]
 };

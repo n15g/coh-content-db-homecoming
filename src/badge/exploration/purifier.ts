@@ -19,6 +19,6 @@ export const Purifier: IBadgeData = {
         {title: "Purifier Badge", href: "https://paragonwiki.com/wiki/Purifier_Badge"},
         {title: "Defiler Badge", href: "https://paragonwiki.com/wiki/Defiler_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"
 };

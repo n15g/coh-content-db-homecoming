@@ -17,5 +17,5 @@ export const Pursuer: IBadgeData = {
         {title: "Pursuer Badge", href: "https://paragonwiki.com/wiki/Pursuer_Badge"},
         {title: "Elusive Badge", href: "https://paragonwiki.com/wiki/Elusive_Badge"}
     ],
-    icons: [{value: "core.event.pursuer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/pursuer.png"}]
 };

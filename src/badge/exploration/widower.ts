@@ -17,6 +17,6 @@ export const Widower: IBadgeData = {
         {title: "Widower Badge", href: "https://paragonwiki.com/wiki/Widower_Badge"},
         {title: "Widow Badge", href: "https://paragonwiki.com/wiki/Widow_Badge"},
     ],
-    icons: [{value: "core.exploration.villain"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"
 };

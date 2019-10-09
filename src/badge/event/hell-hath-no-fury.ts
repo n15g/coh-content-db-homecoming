@@ -14,5 +14,5 @@ export const HellHathNoFury: IBadgeData = {
     links: [
         {title: "Hell Hath No Fury Badge", href: "https://paragonwiki.com/wiki/Hell_Hath_No_Fury_Badge"}
     ],
-    icons: [{value: "core.event.hell-hath-no-fury"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hell-hath-no-fury.png"}]
 };

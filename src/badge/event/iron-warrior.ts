@@ -14,5 +14,5 @@ export const IronWarrior: IBadgeData = {
     links: [
         {title: "Iron Warrior Badge", href: "https://paragonwiki.com/wiki/Iron_Warrior_Badge"}
     ],
-    icons: [{value: "core.event.iron-warrior"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/iron-warrior.png"}]
 };

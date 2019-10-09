@@ -10,7 +10,7 @@ export const Colonel: IBadgeData = {
     links: [
         {title: "Colonel Badge", href: "https://paragonwiki.com/wiki/Colonel_Badge"}
     ],
-    icons: [{value: "core.invention.brain-3"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [
         {
             key: "a",

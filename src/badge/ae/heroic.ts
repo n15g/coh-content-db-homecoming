@@ -14,5 +14,5 @@ export const Heroic: IBadgeData = {
     links: [
         {title: "Heroic Badge", href: "https://paragonwiki.com/wiki/Heroic_Badge"}
     ],
-    icons: [{value: "core.ae.heroic"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/heroic.png"}]
 };

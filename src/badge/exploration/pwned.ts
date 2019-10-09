@@ -17,6 +17,6 @@ export const Pwned: IBadgeData = {
     links: [
         {title: "Pwned Badge", href: "https://paragonwiki.com/wiki/Pwned_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"
 };

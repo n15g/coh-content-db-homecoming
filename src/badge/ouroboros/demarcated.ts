@@ -14,5 +14,5 @@ export const Demarcated: IBadgeData = {
     links: [
         {title: "Demarcated Badge", href: "https://paragonwiki.com/wiki/Demarcated_Badge"}
     ],
-    icons: [{value: "core.ouroboros.demarcated"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/demarcated.png"}]
 };

@@ -12,5 +12,5 @@ export const Fabricator: IBadgeData = {
     links: [
         {title: "Fabricator Badge", href: "https://paragonwiki.com/wiki/Fabricator_Badge"}
     ],
-    icons: [{value: "core.invention.fabricator"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/fabricator.png"}]
 };

@@ -14,5 +14,5 @@ export const Repairman: IBadgeData = {
     links: [
         {title: "Repairman Badge", href: "https://paragonwiki.com/wiki/Repairman_Badge"}
     ],
-    icons: [{value: "core.ouroboros.repairman"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/repairman.png"}]
 };

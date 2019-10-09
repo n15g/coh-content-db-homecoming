@@ -14,5 +14,5 @@ export const DividedMastery: IBadgeData = {
     links: [
         {title: "Divided Mastery Badge", href: "https://paragonwiki.com/wiki/Divided_Mastery_Badge"}
     ],
-    icons: [{value: "core.ouroboros.divided-mastery"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/divided-mastery.png"}]
 };

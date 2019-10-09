@@ -14,5 +14,5 @@ export const Refrained: IBadgeData = {
     links: [
         {title: "Refrained Badge", href: "https://paragonwiki.com/wiki/Refrained_Badge"}
     ],
-    icons: [{value: "core.ouroboros.refrained"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/refrained.png"}]
 };

@@ -26,5 +26,5 @@ export const LawEnforcer: IBadgeData = {
         {title: "Dirty Cop Badge", href: "https://paragonwiki.com/wiki/Dirty_Cop_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.law-enforcer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/law-enforcer.png"}]
 };

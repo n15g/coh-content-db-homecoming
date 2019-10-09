@@ -15,5 +15,5 @@ export const ArtifactDestroyer: IBadgeData = {
         {title: "Artifact Destroyer Badge", href: "https://paragonwiki.com/wiki/Artifact_Destroyer_Badge"},
         {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
     ],
-    icons: [{value: "core.event.artifact-destroyer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/artifact-destroyer.png"}]
 };

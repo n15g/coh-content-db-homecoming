@@ -20,5 +20,5 @@ export const Cimeroran: IBadgeData = {
         {title: "Cimeroran Badge", href: "https://paragonwiki.com/wiki/Cimeroran_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.cimeroran"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/cimeroran.png"}]
 };

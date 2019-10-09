@@ -22,6 +22,6 @@ export const ManOfVengeance: IBadgeData = {
         {title: "Man of Vengeance Badge", href: "https://paragonwiki.com/wiki/Man_of_Vengeance_Badge"},
         {title: "Woman of Vengeance Badge", href: "https://paragonwiki.com/wiki/Woman_of_Vengeance_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"
 };

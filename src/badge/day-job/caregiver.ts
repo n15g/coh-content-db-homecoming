@@ -28,7 +28,7 @@ export const Caregiver: IBadgeData = {
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
     icons: [
-        {type: Alternate.H, value: "core.day-job.caregiver"},
-        {type: Alternate.V, value: "core.day-job.pain-specialist"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/caregiver.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/pain-specialist.png"}
     ]
 };

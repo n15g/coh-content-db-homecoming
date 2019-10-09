@@ -8,5 +8,5 @@ export const Faithful: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 6",
-    icons: [{value: "core.veteran.veteran-6"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-6.png"}]
 };

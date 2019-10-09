@@ -20,5 +20,5 @@ export const Predator: IBadgeData = {
         {title: "Predator Badge", href: "https://paragonwiki.com/wiki/Predator_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.predator"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/predator.png"}]
 };

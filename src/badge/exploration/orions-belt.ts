@@ -17,6 +17,6 @@ export const OrionsBelt: IBadgeData = {
     links: [
         {title: "Orion's Belt Badge", href: "https://paragonwiki.com/wiki/Orion%27s_Belt_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"
 };

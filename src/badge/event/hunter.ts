@@ -14,5 +14,5 @@ export const Hunter: IBadgeData = {
     links: [
         {title: "Hunter Badge", href: "https://paragonwiki.com/wiki/Hunter_Badge"}
     ],
-    icons: [{value: "core.event.hunter"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hunter.png"}]
 };

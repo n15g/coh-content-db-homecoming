@@ -16,6 +16,6 @@ export const VisionOfDespair: IBadgeData = {
     links: [
         {title: "Vision of Despair Badge", href: "https://paragonwiki.com/wiki/Vision_of_Despair_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"
 };

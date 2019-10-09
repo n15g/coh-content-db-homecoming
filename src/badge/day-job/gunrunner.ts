@@ -10,7 +10,7 @@ export const Gunrunner: IBadgeData = {
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [{
         type: Alternate.H,
-        value: "You've scored the biggest coup of all; smuggling directly into Paragon City. Unfortunately, it's a long round-trip."
+        value: "You've shttps://n15g.github.io/coh-content-db-homecoming/images/badges/ the biggest coup of all; smuggling directly into Paragon City/ Unfortunately, it's a long round-trip..png"
     }, {
         type: Alternate.V,
         value: "You spend your free time smuggling in illicit black market goods earning you the Smuggler Day Job." +
@@ -23,5 +23,5 @@ export const Gunrunner: IBadgeData = {
         {title: "Smuggler Badge", href: "https://paragonwiki.com/wiki/Smuggler_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.gunrunner"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/gunrunner.png"}]
 };

@@ -9,7 +9,7 @@ export const EnergyConservationist: IBadgeData = {
     links: [
         {title: "Energy Conservationist Badge", href: "https://paragonwiki.com/wiki/Energy_Conservationist_Badge"}
     ],
-    icons: [{value: "core.invention.brain-1"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [
         {
             key: "a",

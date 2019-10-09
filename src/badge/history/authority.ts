@@ -13,7 +13,7 @@ export const Authority: IBadgeData = {
         {title: "Authority Badge", href: "https://paragonwiki.com/wiki/Authority_Badge"}
     ],
     icons: [
-        {value: "core.history.plaque"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/plaque.png"}
     ],
     partials: [
         {

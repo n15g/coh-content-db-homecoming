@@ -14,5 +14,5 @@ export const Lionhearted: IBadgeData = {
     links: [
         {title: "Lionhearted Badge", href: "https://paragonwiki.com/wiki/Lionhearted_Badge"}
     ],
-    icons: [{value: "core.ouroboros.lionhearted"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/lionhearted.png"}]
 };

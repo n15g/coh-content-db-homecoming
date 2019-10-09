@@ -31,6 +31,6 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "coh-content-db": "^1.0.1"
+    "coh-content-db": "^1.1.0"
   }
 }

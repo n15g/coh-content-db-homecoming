@@ -12,5 +12,5 @@ export const Gamer: IBadgeData = {
     links: [
         {title: "Gamer Badge", href: "https://paragonwiki.com/wiki/Gamer_Badge"}
     ],
-    icons: [{value: "core.ae.gamer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/gamer.png"}]
 };

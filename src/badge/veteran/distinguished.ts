@@ -8,5 +8,5 @@ export const Distinguished: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 72",
-    icons: [{value: "core.veteran.veteran-72"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-72.png"}]
 };

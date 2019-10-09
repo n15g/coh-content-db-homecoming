@@ -12,5 +12,5 @@ export const Recognized: IBadgeData = {
     links: [
         {title: "Recognized Badge", href: "https://paragonwiki.com/wiki/Recognized_Badge"}
     ],
-    icons: [{value: "core.ae.recognized"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/recognized.png"}]
 };

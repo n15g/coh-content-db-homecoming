@@ -14,5 +14,5 @@ export const Unenhanced: IBadgeData = {
     links: [
         {title: "Unenhanced Badge", href: "https://paragonwiki.com/wiki/Unenhanced_Badge"}
     ],
-    icons: [{value: "core.ouroboros.unenhanced"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unenhanced.png"}]
 };

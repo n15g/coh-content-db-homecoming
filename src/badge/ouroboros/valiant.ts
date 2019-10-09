@@ -14,5 +14,5 @@ export const Valiant: IBadgeData = {
     links: [
         {title: "Valiant Badge", href: "https://paragonwiki.com/wiki/Valiant_Badge"}
     ],
-    icons: [{value: "core.ouroboros.valiant"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/valiant.png"}]
 };

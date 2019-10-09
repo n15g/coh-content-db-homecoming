@@ -14,5 +14,5 @@ export const SafetyInNumbers: IBadgeData = {
     links: [
         {title: "Safety in Numbers Badge", href: "https://paragonwiki.com/wiki/Safety_in_Numbers_Badge"}
     ],
-    icons: [{value: "core.event.safety-in-numbers"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/safety-in-numbers.png"}]
 };

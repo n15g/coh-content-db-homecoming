@@ -12,5 +12,5 @@ export const Cunning: IBadgeData = {
     links: [
         {title: "Cunning Badge", href: "https://paragonwiki.com/wiki/Cunning_Badge"}
     ],
-    icons: [{value: "core.ae.cunning"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/cunning.png"}]
 };

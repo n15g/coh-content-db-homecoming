@@ -14,5 +14,5 @@ export const Troubleshooter: IBadgeData = {
     links: [
         {title: "Troubleshooter Badge", href: "https://paragonwiki.com/wiki/Troubleshooter_Badge"}
     ],
-    icons: [{value: "core.ouroboros.troubleshooter"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/troubleshooter.png"}]
 };

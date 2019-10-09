@@ -13,7 +13,7 @@ export const Academic: IBadgeData = {
         {title: "Academic Badge", href: "https://paragonwiki.com/wiki/Academic_Badge"}
     ],
     icons: [
-        {value: "core.history.plaque"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/plaque.png"}
     ],
     partials: [
         {

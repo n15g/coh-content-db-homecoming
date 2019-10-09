@@ -14,5 +14,5 @@ export const SharedVictory: IBadgeData = {
     links: [
         {title: "Shared Victory Badge", href: "https://paragonwiki.com/wiki/Shared_Victory_Badge"}
     ],
-    icons: [{value: "core.ouroboros.shared-victory"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/shared-victory.png"}]
 };

@@ -22,5 +22,5 @@ export const ThePerfectGrifter: IBadgeData = {
     links: [
         {title: "The Perfect Grifter Badge", href: "https://paragonwiki.com/wiki/The_Perfect_Grifter_Badge"}
     ],
-    icons: [{value: "core.event.the-perfect-grifter"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/the-perfect-grifter.png"}]
 };

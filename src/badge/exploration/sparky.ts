@@ -15,6 +15,6 @@ export const Sparky: IBadgeData = {
     links: [
         {title: "Sparky Badge", href: "https://paragonwiki.com/wiki/Sparky_Badge"}
     ],
-    icons: [{value: "core.exploration.villain"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "1"
 };

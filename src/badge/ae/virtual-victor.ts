@@ -12,5 +12,5 @@ export const VirtualVictor: IBadgeData = {
     links: [
         {title: "Virtual Victor Badge", href: "https://paragonwiki.com/wiki/Virtual_Victor_Badge"}
     ],
-    icons: [{value: "core.ae.virtual-victor"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/virtual-victor.png"}]
 };

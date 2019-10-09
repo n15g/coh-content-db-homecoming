@@ -12,5 +12,5 @@ export const Author: IBadgeData = {
     links: [
         {title: "Author Badge", href: "https://paragonwiki.com/wiki/Author_Badge"}
     ],
-    icons: [{value: "core.ae.author"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/author.png"}]
 };

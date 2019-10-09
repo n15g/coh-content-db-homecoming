@@ -13,6 +13,6 @@ export const MasterOfScience: IBadgeData = {
     links: [
         {title: "Master of Science Badge", href: "https://paragonwiki.com/wiki/Master_of_Science_Badge"}
     ],
-    icons: [{value: "core.exploration.villain"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "7"
 };

@@ -14,5 +14,5 @@ export const Headstrong: IBadgeData = {
     links: [
         {title: "Headstrong Badge", href: "https://paragonwiki.com/wiki/Headstrong_Badge"}
     ],
-    icons: [{value: "core.ouroboros.headstrong"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/headstrong.png"}]
 };

@@ -10,7 +10,7 @@ export const Rebuilder: IBadgeData = {
     links: [
         {title: "Rebuilder Badge", href: "https://paragonwiki.com/wiki/Rebuilder_Badge"}
     ],
-    icons: [{value: "core.invention.brain-3"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [
         {
             key: "a",

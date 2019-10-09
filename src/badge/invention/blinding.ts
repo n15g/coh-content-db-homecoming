@@ -9,7 +9,7 @@ export const Blinding: IBadgeData = {
     links: [
         {title: "Blinding Badge", href: "https://paragonwiki.com/wiki/Blinding_Badge"}
     ],
-    icons: [{value: "core.invention.brain-1"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [
         {
             key: "a",

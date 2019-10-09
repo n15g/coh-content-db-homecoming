@@ -26,5 +26,5 @@ export const Intern: IBadgeData = {
         {title: "Wage Slave Badge", href: "https://paragonwiki.com/wiki/Wage_Slave_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.intern"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/intern.png"}]
 };

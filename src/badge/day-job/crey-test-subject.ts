@@ -23,5 +23,5 @@ export const CreyTestSubject: IBadgeData = {
         {title: "Crey Employee Badge", href: "https://paragonwiki.com/wiki/Crey_Employee_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.crey-test-subject"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/crey-test-subject.png"}]
 };

@@ -18,8 +18,8 @@ export const Lobbyist: IBadgeData = {
         {title: "Crooked Politician Badge", href: "https://paragonwiki.com/wiki/Crooked_Politician_Badge"}
     ],
     icons: [
-        {type: Alternate.H, value: "core.exploration.hero"},
-        {type: Alternate.V, value: "core.exploration.villain"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
     ],
     vidiotMapKey: "1"
 };

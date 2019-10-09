@@ -14,5 +14,5 @@ export const Entertainer: IBadgeData = {
     links: [
         {title: "Entertainer Badge", href: "https://paragonwiki.com/wiki/Entertainer_Badge"}
     ],
-    icons: [{value: "core.event.entertainer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/entertainer.png"}]
 };

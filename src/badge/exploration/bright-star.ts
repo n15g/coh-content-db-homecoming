@@ -16,6 +16,6 @@ export const BrightStar: IBadgeData = {
     links: [
         {title: "Bright Star Badge", href: "https://paragonwiki.com/wiki/Bright_Star_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"
 };

@@ -18,6 +18,6 @@ export const DoomSayer: IBadgeData = {
     links: [
         {title: "Doom Sayer Badge", href: "https://paragonwiki.com/wiki/Doom_Sayer_Badge"}
     ],
-    icons: [{value: "core.exploration.villain"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"
 };

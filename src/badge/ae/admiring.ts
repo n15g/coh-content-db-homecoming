@@ -12,5 +12,5 @@ export const Admiring: IBadgeData = {
     links: [
         {title: "Admiring Badge", href: "https://paragonwiki.com/wiki/Admiring_Badge"}
     ],
-    icons: [{value: "core.ae.admiring"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/admiring.png"}]
 };

@@ -19,7 +19,7 @@ export const Seeker: IBadgeData = {
         {title: "Overachiever Badge", href: "https://paragonwiki.com/wiki/Overachiever_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-500-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-500-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-500-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-500-v.png"}
     ]
 };

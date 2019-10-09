@@ -9,7 +9,7 @@ export const Vagabond: IBadgeData = {
     links: [
         {title: "Vagabond Badge", href: "https://paragonwiki.com/wiki/Vagabond_Badge"}
     ],
-    icons: [{value: "core.invention.brain-2"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [
         {
             key: "a",

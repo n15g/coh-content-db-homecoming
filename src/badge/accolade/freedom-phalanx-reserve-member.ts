@@ -26,7 +26,7 @@ export const FreedomPhalanxReserveMember: IBadgeData = {
         {title: "Freedom Phalanx Reserve Member Badge", href: "https://paragonwiki.com/wiki/Freedom_Phalanx_Reserve_Member_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/freedom-phalanx-reserve-member.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png"}
     ],
     effect: "+10% Max Health",
     partials: [

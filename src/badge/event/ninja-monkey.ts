@@ -14,5 +14,5 @@ export const NinjaMonkey: IBadgeData = {
     links: [
         {title: "Ninja Monkey Badge", href: "https://paragonwiki.com/wiki/Ninja_Monkey_Badge"}
     ],
-    icons: [{value: "core.event.ninja-monkey"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/ninja-monkey.png"}]
 };

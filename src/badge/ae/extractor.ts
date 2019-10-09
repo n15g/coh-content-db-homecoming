@@ -12,5 +12,5 @@ export const Extractor: IBadgeData = {
     links: [
         {title: "Extractor Badge", href: "https://paragonwiki.com/wiki/Extractor_Badge"}
     ],
-    icons: [{value: "core.ae.extractor"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/extractor.png"}]
 };

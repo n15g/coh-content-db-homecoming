@@ -22,7 +22,7 @@ export const Questing: IBadgeData = {
         {title: "Prepared Badge", href: "https://paragonwiki.com/wiki/Prepared_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-1000-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-1000-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-1000-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-1000-v.png"}
     ]
 };

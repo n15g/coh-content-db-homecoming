@@ -14,5 +14,5 @@ export const FrozenFury: IBadgeData = {
     links: [
         {title: "Frozen Fury Badge", href: "https://paragonwiki.com/wiki/Frozen_Fury_Badge"}
     ],
-    icons: [{value: "core.event.frozen-fury"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/frozen-fury.png"}]
 };

@@ -14,5 +14,5 @@ export const Reckless: IBadgeData = {
     links: [
         {title: "Reckless Badge", href: "https://paragonwiki.com/wiki/Reckless_Badge"}
     ],
-    icons: [{value: "core.ouroboros.reckless"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/reckless.png"}]
 };

@@ -14,5 +14,5 @@ export const Audacious: IBadgeData = {
     links: [
         {title: "Audacious Badge", href: "https://paragonwiki.com/wiki/Audacious_Badge"}
     ],
-    icons: [{value: "core.ouroboros.audacious"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/audacious.png"}]
 };

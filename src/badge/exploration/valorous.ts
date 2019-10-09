@@ -14,6 +14,6 @@ export const Valorous: IBadgeData = {
     links: [
         {title: "Valorous Badge", href: "https://paragonwiki.com/wiki/Valorous_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"
 };

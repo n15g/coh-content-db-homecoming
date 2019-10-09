@@ -15,5 +15,5 @@ export const Passport: IBadgeData = {
     links: [
         {title: "Passport Badge", href: "https://paragonwiki.com/wiki/Passport_Badge"}
     ],
-    icons: [{value: "core.event.passport"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/passport.png"}]
 };

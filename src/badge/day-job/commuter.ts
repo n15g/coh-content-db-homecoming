@@ -26,5 +26,5 @@ export const Commuter: IBadgeData = {
         {title: "Fare Jumper Badge", href: "https://paragonwiki.com/wiki/Fare_Jumper_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.commuter"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/commuter.png"}]
 };

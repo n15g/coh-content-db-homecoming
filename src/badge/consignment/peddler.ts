@@ -14,5 +14,5 @@ export const Peddler: IBadgeData = {
     links: [
         {title: "Peddler Badge", href: "https://paragonwiki.com/wiki/Peddler_Badge"}
     ],
-    icons: [{value: "core.consignment.peddler"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/peddler.png"}]
 };

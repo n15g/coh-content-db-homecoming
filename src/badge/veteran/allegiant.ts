@@ -8,5 +8,5 @@ export const Allegiant: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 54",
-    icons: [{value: "core.veteran.veteran-54"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-54.png"}]
 };

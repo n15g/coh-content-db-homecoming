@@ -17,5 +17,5 @@ export const Scavenger: IBadgeData = {
         {title: "Scavenger Badge", href: "https://paragonwiki.com/wiki/Scavenger_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.scavenger"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/scavenger.png"}]
 };

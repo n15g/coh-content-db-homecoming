@@ -14,5 +14,5 @@ export const Anemic: IBadgeData = {
     links: [
         {title: "Anemic Badge", href: "https://paragonwiki.com/wiki/Anemic_Badge"}
     ],
-    icons: [{value: "core.ouroboros.anemic"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/anemic.png"}]
 };

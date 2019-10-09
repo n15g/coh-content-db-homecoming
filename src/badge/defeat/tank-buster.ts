@@ -13,5 +13,5 @@ export const TankBuster: IBadgeData = {
     links: [
         {title: "Tank Buster Badge", href: "https://paragonwiki.com/wiki/Tank_Buster_Badge"}
     ],
-    icons: [{value: "core.defeat.tank-buster"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/tank-buster.png"}]
 };

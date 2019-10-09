@@ -14,5 +14,5 @@ export const GiftWhichKeepsGiving: IBadgeData = {
     links: [
         {title: "Gift Which Keeps Giving Badge", href: "https://paragonwiki.com/wiki/Gift_Which_Keeps_Giving_Badge"}
     ],
-    icons: [{value: "core.event.gift-which-keeps-giving"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/gift-which-keeps-giving.png"}]
 };

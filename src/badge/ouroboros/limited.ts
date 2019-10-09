@@ -14,5 +14,5 @@ export const Limited: IBadgeData = {
     links: [
         {title: "Limited Badge", href: "https://paragonwiki.com/wiki/Limited_Badge"}
     ],
-    icons: [{value: "core.ouroboros.limited"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/limited.png"}]
 };

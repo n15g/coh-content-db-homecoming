@@ -17,6 +17,6 @@ export const EndOfTheLine: IBadgeData = {
     links: [
         {title: "End of the Line Badge", href: "https://paragonwiki.com/wiki/End_of_the_Line_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"
 };

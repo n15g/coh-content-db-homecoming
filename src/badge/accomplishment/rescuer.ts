@@ -18,5 +18,5 @@ export const Rescuer: IBadgeData = {
         {title: "Rescuer Badge", href: "https://paragonwiki.com/wiki/Rescuer_Badge"},
         {title: "Big Softie Badge", href: "https://paragonwiki.com/wiki/Big_Softie_Badge"}
     ],
-    icons: [{value: "core.accomplishment.rescuer"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/rescuer.png"}]
 };

@@ -14,5 +14,5 @@ export const GhostTouched: IBadgeData = {
     links: [
         {title: "Ghost Touched Badge", href: "https://paragonwiki.com/wiki/Ghost_Touched_Badge"}
     ],
-    icons: [{value: "core.event.ghost-touched"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/ghost-touched.png"}]
 };

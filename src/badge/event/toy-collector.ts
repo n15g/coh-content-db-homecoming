@@ -14,5 +14,5 @@ export const ToyCollector: IBadgeData = {
     links: [
         {title: "Toy Collector Badge", href: "https://paragonwiki.com/wiki/Toy_Collector_Badge"}
     ],
-    icons: [{value: "core.event.toy-collector"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/toy-collector.png"}]
 };

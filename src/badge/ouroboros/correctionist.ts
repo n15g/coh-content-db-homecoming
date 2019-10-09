@@ -14,5 +14,5 @@ export const Correctionist: IBadgeData = {
     links: [
         {title: "Correctionist Badge", href: "https://paragonwiki.com/wiki/Correctionist_Badge"}
     ],
-    icons: [{value: "core.ouroboros.correctionist"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/correctionist.png"}]
 };

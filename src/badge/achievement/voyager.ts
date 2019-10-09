@@ -25,7 +25,7 @@ export const Voyager: IBadgeData = {
         {title: "No Road Not Taken Badge", href: "https://paragonwiki.com/wiki/No_Road_Not_Taken_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-1250-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-1250-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-1250-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-1250-v.png"}
     ]
 };

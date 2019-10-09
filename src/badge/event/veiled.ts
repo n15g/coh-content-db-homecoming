@@ -15,5 +15,5 @@ export const Veiled: IBadgeData = {
         {title: "Veiled Badge", href: "https://paragonwiki.com/wiki/Veiled_Badge"},
         {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
     ],
-    icons: [{value: "core.event.veiled"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/veiled.png"}]
 };

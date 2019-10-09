@@ -27,5 +27,5 @@ export const ShopKeeper: IBadgeData = {
         {title: "Price Gouger Badge", href: "https://paragonwiki.com/wiki/Price_Gouger_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.shop-keeper"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/shop-keeper.png"}]
 };

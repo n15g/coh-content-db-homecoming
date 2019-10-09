@@ -14,5 +14,5 @@ export const Shopkeeper: IBadgeData = {
     links: [
         {title: "Shopkeeper Badge", href: "https://paragonwiki.com/wiki/Shopkeeper_Badge"}
     ],
-    icons: [{value: "core.consignment.shopkeeper"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/shopkeeper.png"}]
 };

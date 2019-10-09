@@ -8,5 +8,5 @@ export const Unswerving: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     acquisition: "Reach Veteran level 33",
-    icons: [{value: "core.veteran.veteran-33"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-33.png"}]
 };

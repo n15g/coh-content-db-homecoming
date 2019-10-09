@@ -9,7 +9,7 @@ export const HiredGun: IBadgeData = {
     links: [
         {title: "Hired Gun Badge", href: "https://paragonwiki.com/wiki/Hired_Gun_Badge"}
     ],
-    icons: [{value: "core.invention.brain-2"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [
         {
             key: "a",

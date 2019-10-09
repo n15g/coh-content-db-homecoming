@@ -17,6 +17,6 @@ export const EyeOfTheGemini: IBadgeData = {
     links: [
         {title: "Eye of the Gemini Badge", href: "https://paragonwiki.com/wiki/Eye_of_the_Gemini_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"
 };

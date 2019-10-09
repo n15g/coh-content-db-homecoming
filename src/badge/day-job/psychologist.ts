@@ -17,5 +17,5 @@ export const Psychologist: IBadgeData = {
         {title: "Psychologist Badge", href: "https://paragonwiki.com/wiki/Psychologist_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.psychologist"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/psychologist.png"}]
 };

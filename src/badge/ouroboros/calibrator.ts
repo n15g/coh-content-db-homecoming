@@ -14,5 +14,5 @@ export const Calibrator: IBadgeData = {
     links: [
         {title: "Calibrator Badge", href: "https://paragonwiki.com/wiki/Calibrator_Badge"}
     ],
-    icons: [{value: "core.ouroboros.calibrator"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/calibrator.png"}]
 };

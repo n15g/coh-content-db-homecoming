@@ -15,8 +15,8 @@ export const ThrillSeeker: IBadgeData = {
         {title: "Thrill Seeker Badge", href: "https://paragonwiki.com/wiki/Thrill_Seeker_Badge"}
     ],
     icons: [
-        {type: Alternate.H, value: "core.exploration.hero"},
-        {type: Alternate.V, value: "core.exploration.villain"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
     ],
     vidiotMapKey: "X"
 };

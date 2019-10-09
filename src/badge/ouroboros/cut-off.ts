@@ -14,5 +14,5 @@ export const CutOff: IBadgeData = {
     links: [
         {title: "Cut-Off Badge", href: "https://paragonwiki.com/wiki/Cut-Off_Badge"}
     ],
-    icons: [{value: "core.ouroboros.cut-off"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/cut-off.png"}]
 };

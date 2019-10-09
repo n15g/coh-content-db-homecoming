@@ -17,7 +17,7 @@ export const ClothesHorse: IBadgeData = {
         {title: "Clothes Horse Badge", href: "https://paragonwiki.com/wiki/Clothes_Horse_Badge"}
     ],
     icons: [
-        {type: Alternate.H, value: "core.event.costume-h"},
-        {type: Alternate.V, value: "core.event.costume-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/costume-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/costume-v.png"}
     ]
 };

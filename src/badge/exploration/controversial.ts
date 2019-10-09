@@ -16,6 +16,6 @@ export const Controversial: IBadgeData = {
     links: [
         {title: "Controversial Badge", href: "https://paragonwiki.com/wiki/Controversial_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"
 };

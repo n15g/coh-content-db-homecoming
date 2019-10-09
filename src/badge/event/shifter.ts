@@ -14,5 +14,5 @@ export const Shifter: IBadgeData = {
     links: [
         {title: "Shifter Badge", href: "https://paragonwiki.com/wiki/Shifter_Badge"}
     ],
-    icons: [{value: "core.event.shifter"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/shifter.png"}]
 };

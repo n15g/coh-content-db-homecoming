@@ -16,6 +16,6 @@ export const GalacticFan: IBadgeData = {
     links: [
         {title: "Galactic Fan Badge", href: "https://paragonwiki.com/wiki/Galactic_Fan_Badge"}
     ],
-    icons: [{value: "core.exploration.hero"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"
 };

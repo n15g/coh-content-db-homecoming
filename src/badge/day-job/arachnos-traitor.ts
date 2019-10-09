@@ -23,5 +23,5 @@ export const ArachnosTraitor: IBadgeData = {
         {title: "Arachnos Official Badge", href: "https://paragonwiki.com/wiki/Arachnos_Official_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.arachnos-traitor"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/arachnos-traitor.png"}]
 };

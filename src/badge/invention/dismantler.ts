@@ -9,7 +9,7 @@ export const Dismantler: IBadgeData = {
     links: [
         {title: "Dismantler Badge", href: "https://paragonwiki.com/wiki/Dismantler_Badge"}
     ],
-    icons: [{value: "core.invention.brain-4"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [
         {
             key: "a",

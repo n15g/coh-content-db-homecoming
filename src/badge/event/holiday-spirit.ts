@@ -17,5 +17,5 @@ export const HolidaySpirit: IBadgeData = {
         {title: "Holiday Spirit Badge", href: "https://paragonwiki.com/wiki/Holiday_Spirit_Badge"},
         {title: "Scrooge Badge", href: "https://paragonwiki.com/wiki/Scrooge_Badge"}
     ],
-    icons: [{value: "core.event.holiday-spirit"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/holiday-spirit.png"}]
 };

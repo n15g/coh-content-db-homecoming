@@ -14,5 +14,5 @@ export const Crystallized: IBadgeData = {
     links: [
         {title: "Crystallized Badge", href: "https://paragonwiki.com/wiki/Crystallized_Badge"}
     ],
-    icons: [{value: "core.event.crystallized"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/crystallized.png"}]
 };

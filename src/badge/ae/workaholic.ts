@@ -12,5 +12,5 @@ export const Workaholic: IBadgeData = {
     links: [
         {title: "Workaholic Badge", href: "https://paragonwiki.com/wiki/Workaholic_Badge"}
     ],
-    icons: [{value: "core.ae.workaholic"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/workaholic.png"}]
 };

@@ -10,7 +10,7 @@ export const Sharpshooter: IBadgeData = {
     links: [
         {title: "Sharpshooter Badge", href: "https://paragonwiki.com/wiki/Sharpshooter_Badge"}
     ],
-    icons: [{value: "core.invention.brain-5"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [
         {
             key: "a",

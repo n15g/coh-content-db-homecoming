@@ -10,7 +10,7 @@ export const NuclearPowered: IBadgeData = {
     links: [
         {title: "Nuclear Powered Badge", href: "https://paragonwiki.com/wiki/Nuclear_Powered_Badge"}
     ],
-    icons: [{value: "core.invention.brain-3"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [
         {
             key: "a",

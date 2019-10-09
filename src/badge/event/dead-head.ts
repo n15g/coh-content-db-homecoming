@@ -14,5 +14,5 @@ export const DeadHead: IBadgeData = {
     links: [
         {title: "Dead Head Badge", href: "https://paragonwiki.com/wiki/Dead_Head_Badge"}
     ],
-    icons: [{value: "core.event.dead-head"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/dead-head.png"}]
 };

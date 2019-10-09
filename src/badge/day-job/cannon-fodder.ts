@@ -23,5 +23,5 @@ export const CannonFodder: IBadgeData = {
         {title: "Arachnos Agent Badge", href: "https://paragonwiki.com/wiki/Arachnos_Agent_Badge"},
         {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
     ],
-    icons: [{value: "core.day-job.cannon-fodder"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/cannon-fodder.png"}]
 };

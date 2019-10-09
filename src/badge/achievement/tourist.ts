@@ -21,7 +21,7 @@ export const Tourist: IBadgeData = {
         {title: "Lead-Follower Badge", href: "https://paragonwiki.com/wiki/Lead-Follower_Badge"},
     ],
     icons: [
-        {type: Alternate.H, value: "core.achievement.badge-count-10-h"},
-        {type: Alternate.V, value: "core.achievement.badge-count-10-v"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-10-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/badge-count-10-v.png"}
     ]
 };

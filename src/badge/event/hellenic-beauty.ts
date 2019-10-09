@@ -15,5 +15,5 @@ export const HellenicBeauty: IBadgeData = {
     links: [
         {title: "Hellenic Beauty Badge", href: "https://paragonwiki.com/wiki/Hellenic_Beauty_Badge"}
     ],
-    icons: [{value: "core.event.hellenic-beauty"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hellenic-beauty.png"}]
 };

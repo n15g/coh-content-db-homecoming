@@ -14,5 +14,5 @@ export const DarkFiend: IBadgeData = {
     links: [
         {title: "Dark Fiend Badge", href: "https://paragonwiki.com/wiki/Dark_Fiend_Badge"}
     ],
-    icons: [{value: "core.event.dark-fiend"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/dark-fiend.png"}]
 };

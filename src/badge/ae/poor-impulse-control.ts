@@ -12,5 +12,5 @@ export const PoorImpulseControl: IBadgeData = {
     links: [
         {title: "Poor Impulse Control Badge", href: "https://paragonwiki.com/wiki/Poor_Impulse_Control_Badge"}
     ],
-    icons: [{value: "core.ae.poor-impulse-control"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/poor-impulse-control.png"}]
 };

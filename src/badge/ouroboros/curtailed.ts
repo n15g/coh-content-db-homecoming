@@ -14,5 +14,5 @@ export const Curtailed: IBadgeData = {
     links: [
         {title: "Curtailed Badge", href: "https://paragonwiki.com/wiki/Curtailed_Badge"}
     ],
-    icons: [{value: "core.ouroboros.curtailed"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/curtailed.png"}]
 };

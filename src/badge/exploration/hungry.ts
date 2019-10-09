@@ -18,8 +18,8 @@ export const Hungry: IBadgeData = {
         {title: "All Consuming Badge", href: "https://paragonwiki.com/wiki/All_Consuming_Badge"}
     ],
     icons: [
-        {type: Alternate.H, value: "core.exploration.hero"},
-        {type: Alternate.V, value: "core.exploration.villain"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
     ],
     vidiotMapKey: "2"
 };

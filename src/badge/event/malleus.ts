@@ -14,5 +14,5 @@ export const Malleus: IBadgeData = {
     links: [
         {title: "Malleus Badge", href: "https://paragonwiki.com/wiki/Malleus_Badge"}
     ],
-    icons: [{value: "core.event.malleus"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/malleus.png"}]
 };
