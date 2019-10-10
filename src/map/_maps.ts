@@ -7,13 +7,17 @@ import {AtlasPark} from "./atlas-park";
 import {BloodyBay} from "./bloody-bay";
 import {Boomtown} from "./boomtown";
 import {CapAuDiable} from "./cap-au-diable";
+import {Cimerora} from "./cimerora";
 import {EchoDarkAstoria} from "./echo-dark-astoria";
 import {EchoFaultline} from "./echo-faultline";
 import {EchoGalaxyCity} from "./echo-galaxy-city";
+import {EchoRiktiCrashSite} from "./echo-rikti-crash-site";
 import {Faultline} from "./faultline";
 import {IndependencePort} from "./independence-port";
 import {KingsRow} from "./kings-row";
 import {MercyIsland} from "./mercy-island";
+import {MidnighterClub} from "./midnighter-club";
+import {Ouroboros} from "./ouroboros";
 import {PeregrineIsland} from "./peregrine-island";
 import {PocketD} from "./pocket-d";
 import {ReclusesVictory} from "./recluses-victory";
@@ -42,13 +46,17 @@ export const Maps: IGameMapData[] = [
     BloodyBay,
     Boomtown,
     CapAuDiable,
+    Cimerora,
     EchoDarkAstoria,
     EchoFaultline,
     EchoGalaxyCity,
+    EchoRiktiCrashSite,
     Faultline,
     IndependencePort,
     KingsRow,
     MercyIsland,
+    MidnighterClub,
+    Ouroboros,
     PeregrineIsland,
     PocketD,
     ReclusesVictory,

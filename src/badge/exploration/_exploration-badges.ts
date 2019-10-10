@@ -118,6 +118,26 @@ import {Gatekeeper} from "./gatekeeper";
 import {CageFighter} from "./cage-fighter";
 import {BigTime} from "./big-time";
 import {Trucker} from "./trucker";
+import {VanguardOperative} from "./vanguard-operative";
+import {Trespasser} from "./trespasser";
+import {Lifesaver} from "./lifesaver";
+import {BaseJumper} from "./base-jumper";
+import {Homewrecker} from "./homewrecker";
+import {Luscious} from "./luscious";
+import {JunkyardDog} from "./junkyard-dog";
+import {Unabashed} from "./unabashed";
+import {Powerful} from "./powerful";
+import {Ace} from "./ace";
+import {UnderFire} from "./under-fire";
+import {Scarred} from "./scarred";
+import {Asunder} from "./asunder";
+import {Eyewitness} from "./eyewitness";
+import {CommunicationsSpecialist} from "./communications-specialist";
+import {Shielded} from "./shielded";
+import {Chrononaut} from "./chrononaut";
+import {DepthsOfTime} from "./depths-of-time";
+import {BattleHardened} from "./battle-hardened";
+import {MidnighterClubMember} from "./midnighter-club-member";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -146,6 +166,18 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Pocket D
     BigTime, Trucker,
+
+    //Rikti War Zone
+    VanguardOperative, Trespasser, Lifesaver, BaseJumper, Homewrecker, Luscious, JunkyardDog, Unabashed,
+
+    //Ouroboros
+    Chrononaut,
+
+    //Cimerora
+    DepthsOfTime, BattleHardened,
+
+    //Midnighter Club
+    MidnighterClubMember,
 
     //Mercy Island
     Widower,
@@ -209,4 +241,7 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Echo: Faultline I25
     Newsman, FaultlessMystic, Apex, Forsaken, Pristine, ClaimDenied, SpareParts, DugTooDeep,
+
+    //Echo: Rikti Crash Site I25
+    Ace, Powerful, UnderFire, Scarred, Asunder, Eyewitness, CommunicationsSpecialist, Shielded
 ];
