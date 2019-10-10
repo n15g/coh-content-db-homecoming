@@ -83,6 +83,41 @@ import {ForciblyEvicted} from "./forcibly-evicted";
 import {Disassembled} from "./disassembled";
 import {GameOver} from "./game-over";
 import {Herculean} from "./herculean";
+import {Hangman} from "./hangman";
+import {Politician} from "./politician";
+import {BroadShoulders} from "./broad-shoulders";
+import {Piratical} from "./piratical";
+import {WeaponInspector} from "./weapon-inspector";
+import {TunnelRat} from "./tunnel-rat";
+import {Triumphant} from "./triumphant";
+import {Undammed} from "./undammed";
+import {EscapeArtist} from "./escape-artist";
+import {DrownedRat} from "./drowned-rat";
+import {OldFashioned} from "./old-fashioned";
+import {EggHunter} from "./egg-hunter";
+import {Upcycled} from "./upcycled";
+import {Riveting} from "./riveting";
+import {RockBottom} from "./rock-bottom";
+import {Newsman} from "./newsman";
+import {FaultlessMystic} from "./faultless-mystic";
+import {Apex} from "./apex";
+import {Forsaken} from "./forsaken";
+import {Pristine} from "./pristine";
+import {ClaimDenied} from "./claim-denied";
+import {SpareParts} from "./spare-parts";
+import {DugTooDeep} from "./dug-too-deep";
+import {HeartOfTheCity} from "./heart-of-the-city";
+import {KingsRighteousness} from "./kings-righteousness";
+import {CourageDriven} from "./courage-driven";
+import {FreedomsDefender} from "./freedoms-defender";
+import {HonorableCaptain} from "./honorable-captain";
+import {TalosMight} from "./talos-might";
+import {Cornerstone} from "./cornerstone";
+import {FoundersProtector} from "./founders-protector";
+import {Gatekeeper} from "./gatekeeper";
+import {CageFighter} from "./cage-fighter";
+import {BigTime} from "./big-time";
+import {Trucker} from "./trucker";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -93,6 +128,24 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Recluse's Victory
     Globetrotter, Ragnarok, TemporalFighter, LastStand,
+
+    //Siren's Call
+    Hangman, Politician, BroadShoulders, Piratical,
+
+    //Warburg
+    WeaponInspector, TunnelRat, Triumphant,
+
+    //Faultline Pt1
+    EscapeArtist, DrownedRat, OldFashioned, EggHunter,
+
+    //Safeguard Missions
+    HeartOfTheCity, KingsRighteousness, CourageDriven, FreedomsDefender, HonorableCaptain, TalosMight, Cornerstone, FoundersProtector, Gatekeeper,
+
+    //Arena
+    CageFighter,
+
+    //Pocket D
+    BigTime, Trucker,
 
     //Mercy Island
     Widower,
@@ -121,6 +174,9 @@ export const ExplorationBadges: IBadgeData[] = [
     //Boomtown Pt2
     Phalanxer, Regal, VisionOfDespair, DestinedForValhalla,
 
+    //Faultline Pt2
+    Undammed,
+
     //Echo Galaxy City Pt2
     BirdWatcher, BlueShield, Brawler, Tank, LandLocked,
 
@@ -147,4 +203,10 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Warburg I25 Page 3
     Nuclear, ForciblyEvicted, Disassembled, GameOver, Herculean,
+
+    //Faultline I25
+    Upcycled, Riveting, RockBottom,
+
+    //Echo: Faultline I25
+    Newsman, FaultlessMystic, Apex, Forsaken, Pristine, ClaimDenied, SpareParts, DugTooDeep,
 ];
