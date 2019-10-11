@@ -138,6 +138,24 @@ import {Chrononaut} from "./chrononaut";
 import {DepthsOfTime} from "./depths-of-time";
 import {BattleHardened} from "./battle-hardened";
 import {MidnighterClubMember} from "./midnighter-club-member";
+import {EdgeOfChaos} from "./edge-of-chaos";
+import {Observant} from "./observant";
+import {Undefeated} from "./undefeated";
+import {SilentSentinel} from "./silent-sentinel";
+import {TopDog} from "./top-dog";
+import {HeroCorpsInsider} from "./hero-corps-insider";
+import {Patriot} from "./patriot";
+import {Freedom} from "./freedom";
+import {GraffitiCommunicator} from "./graffiti-communicator";
+import {CircleSeeker} from "./circle-seeker";
+import {Ironic} from "./ironic";
+import {Parapsychologist} from "./parapsychologist";
+import {SeekerOfMonsters} from "./seeker-of-monsters";
+import {Geologist} from "./geologist";
+import {Backwoodsman} from "./backwoodsman";
+import {GanglandFury} from "./gangland-fury";
+import {Multidimensional} from "./multidimensional";
+import {Shrouded} from "./shrouded";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -179,6 +197,9 @@ export const ExplorationBadges: IBadgeData[] = [
     //Midnighter Club
     MidnighterClubMember,
 
+    //Atlas Part Pt1
+    EdgeOfChaos, Observant,
+
     //Mercy Island
     Widower,
 
@@ -203,6 +224,15 @@ export const ExplorationBadges: IBadgeData[] = [
     //Boomtown Pt1
     ToweringInferno, BoomtownTroglodyte, EndOfTheLine, CorpseBox,
 
+    //Atlas Park Pt2
+    Undefeated, SilentSentinel, HeroCorpsInsider, Patriot, TopDog, Freedom,
+
+    //Black Shroud Dimension
+    Shrouded,
+
+    //The Hollows Pt1
+    GraffitiCommunicator, CircleSeeker, Ironic,
+
     //Boomtown Pt2
     Phalanxer, Regal, VisionOfDespair, DestinedForValhalla,
 
@@ -211,6 +241,12 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Echo Galaxy City Pt2
     BirdWatcher, BlueShield, Brawler, Tank, LandLocked,
+
+    //The Hollows Pt2
+    Parapsychologist, SeekerOfMonsters, Geologist, Backwoodsman, GanglandFury,
+
+    //Hydra Map
+    Multidimensional,
 
     //Independence Port Pt2
     CreyHavoc, Valorous, Vigorous,

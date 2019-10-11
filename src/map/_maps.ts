@@ -4,6 +4,7 @@ import {AbandonedSewerNetwork} from "./abandoned-sewer-network";
 import {ArchitectEntertainmentBuildings} from "./architect-entertainment-buildings";
 import {ArenaCageMatch} from "./arena-cage-match";
 import {AtlasPark} from "./atlas-park";
+import {BlackShroudDimension} from "./black-shroud-dimension";
 import {BloodyBay} from "./bloody-bay";
 import {Boomtown} from "./boomtown";
 import {CapAuDiable} from "./cap-au-diable";
@@ -13,6 +14,7 @@ import {EchoFaultline} from "./echo-faultline";
 import {EchoGalaxyCity} from "./echo-galaxy-city";
 import {EchoRiktiCrashSite} from "./echo-rikti-crash-site";
 import {Faultline} from "./faultline";
+import {HydraMissionMap} from "./hydra-missions";
 import {IndependencePort} from "./independence-port";
 import {KingsRow} from "./kings-row";
 import {MercyIsland} from "./mercy-island";
@@ -36,6 +38,7 @@ import {SkywayCity} from "./skyway-city";
 import {SteelCanyon} from "./steel-canyon";
 import {TalosIsland} from "./talos-island";
 import {TerraVolta} from "./terra-volta";
+import {TheHollows} from "./the-hollows";
 import {Warburg} from "./warburg";
 
 export const Maps: IGameMapData[] = [
@@ -43,6 +46,7 @@ export const Maps: IGameMapData[] = [
     ArchitectEntertainmentBuildings,
     ArenaCageMatch,
     AtlasPark,
+    BlackShroudDimension,
     BloodyBay,
     Boomtown,
     CapAuDiable,
@@ -52,6 +56,7 @@ export const Maps: IGameMapData[] = [
     EchoGalaxyCity,
     EchoRiktiCrashSite,
     Faultline,
+    HydraMissionMap,
     IndependencePort,
     KingsRow,
     MercyIsland,
@@ -75,5 +80,6 @@ export const Maps: IGameMapData[] = [
     SteelCanyon,
     TalosIsland,
     TerraVolta,
+    TheHollows,
     Warburg,
 ];
