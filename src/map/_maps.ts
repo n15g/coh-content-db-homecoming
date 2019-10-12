@@ -9,11 +9,13 @@ import {BloodyBay} from "./bloody-bay";
 import {Boomtown} from "./boomtown";
 import {CapAuDiable} from "./cap-au-diable";
 import {Cimerora} from "./cimerora";
+import {Croatoa} from "./croatoa";
 import {EchoDarkAstoria} from "./echo-dark-astoria";
 import {EchoFaultline} from "./echo-faultline";
 import {EchoGalaxyCity} from "./echo-galaxy-city";
 import {EchoRiktiCrashSite} from "./echo-rikti-crash-site";
 import {Faultline} from "./faultline";
+import {FoundersFalls} from "./founders-falls";
 import {HydraMissionMap} from "./hydra-missions";
 import {IndependencePort} from "./independence-port";
 import {KingsRow} from "./kings-row";
@@ -51,11 +53,13 @@ export const Maps: IGameMapData[] = [
     Boomtown,
     CapAuDiable,
     Cimerora,
+    Croatoa,
     EchoDarkAstoria,
     EchoFaultline,
     EchoGalaxyCity,
     EchoRiktiCrashSite,
     Faultline,
+    FoundersFalls,
     HydraMissionMap,
     IndependencePort,
     KingsRow,

@@ -156,6 +156,30 @@ import {Backwoodsman} from "./backwoodsman";
 import {GanglandFury} from "./gangland-fury";
 import {Multidimensional} from "./multidimensional";
 import {Shrouded} from "./shrouded";
+import {BarrierHolder} from "./barrier-holder";
+import {SallySightseer} from "./sally-sightseer";
+import {JacksWrath} from "./jacks-wrath";
+import {WaylonsObserver} from "./waylons-observer";
+import {MidnightersPerseverance} from "./midnighters-perseverance";
+import {GrimWanderer} from "./grim-wanderer";
+import {Spiritual} from "./spiritual";
+import {Ensorcelled} from "./ensorcelled";
+import {LastLineOfDefense} from "./last-line-of-defense";
+import {TheOldMe} from "./the-old-me";
+import {BridgeHolder} from "./bridge-holder";
+import {OvertimeWorker} from "./overtime-worker";
+import {SpankysCompetitor} from "./spankys-competitor";
+import {Minotaur} from "./minotaur";
+import {NatureLover} from "./nature-lover";
+import {Whitecap} from "./whitecap";
+import {Misunderstood} from "./misunderstood";
+import {GuardianAngel} from "./guardian-angel";
+import {LosingParadise} from "./losing-paradise";
+import {WatchfulEyes} from "./watchful-eyes";
+import {HamidonsFury} from "./hamidons-fury";
+import {FoundersHero} from "./founders-hero";
+import {Foggy} from "./foggy";
+import {Chaotician} from "./chaotician";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -197,14 +221,17 @@ export const ExplorationBadges: IBadgeData[] = [
     //Midnighter Club
     MidnighterClubMember,
 
+    //AE Buildings
+    ThrillSeeker,
+
     //Atlas Part Pt1
     EdgeOfChaos, Observant,
 
+    //The Hollows Pt1
+    GraffitiCommunicator, CircleSeeker, Ironic,
+
     //Mercy Island
     Widower,
-
-    //AE Buildings
-    ThrillSeeker,
 
     //Echo Galaxy City Pt1
     GalacticFan, EyeOfTheGemini, OrionsBelt,
@@ -218,8 +245,17 @@ export const ExplorationBadges: IBadgeData[] = [
     //Skyway City Pt1
     BetterDays, RoomForExpansion, LeftBehind, BridgeToNowhere,
 
+    //Croatoa Pt1
+    BarrierHolder, SallySightseer, JacksWrath, WaylonsObserver, MidnightersPerseverance,
+
+    //Talos Island Pt1
+    LastLineOfDefense, TheOldMe, BridgeHolder, OvertimeWorker, SpankysCompetitor,
+
     //Independence Port Pt1
     AirLifter, DeadEnd, FamilyPartier, Connector, Unlucky,
+
+    //Founders' Falls Pt1
+    GuardianAngel, LosingParadise, WatchfulEyes, HamidonsFury, FoundersHero, Misunderstood,
 
     //Boomtown Pt1
     ToweringInferno, BoomtownTroglodyte, EndOfTheLine, CorpseBox,
@@ -230,14 +266,14 @@ export const ExplorationBadges: IBadgeData[] = [
     //Black Shroud Dimension
     Shrouded,
 
-    //The Hollows Pt1
-    GraffitiCommunicator, CircleSeeker, Ironic,
-
     //Boomtown Pt2
     Phalanxer, Regal, VisionOfDespair, DestinedForValhalla,
 
     //Faultline Pt2
     Undammed,
+
+    //Founders' Falls Pt2
+    Foggy, Chaotician,
 
     //Echo Galaxy City Pt2
     BirdWatcher, BlueShield, Brawler, Tank, LandLocked,
@@ -260,6 +296,9 @@ export const ExplorationBadges: IBadgeData[] = [
     //Steel Canyon Pt2
     SecretAdmirer, HeroCorpsRecruit, NimbleMynx, BrightStar,
 
+    //Talos Island Pt2
+    Minotaur, NatureLover, Whitecap,
+
     //Bloody Bay I25 Page 3
     WhatLurksBeyond, Restless, MostlyHarmless, BurgerMeister,
 
@@ -279,5 +318,8 @@ export const ExplorationBadges: IBadgeData[] = [
     Newsman, FaultlessMystic, Apex, Forsaken, Pristine, ClaimDenied, SpareParts, DugTooDeep,
 
     //Echo: Rikti Crash Site I25
-    Ace, Powerful, UnderFire, Scarred, Asunder, Eyewitness, CommunicationsSpecialist, Shielded
+    Ace, Powerful, UnderFire, Scarred, Asunder, Eyewitness, CommunicationsSpecialist, Shielded,
+
+    //Croatoa Pt2
+    GrimWanderer, Spiritual, Ensorcelled,
 ];
