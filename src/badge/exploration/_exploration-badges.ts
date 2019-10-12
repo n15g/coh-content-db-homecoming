@@ -247,6 +247,86 @@ import {Nailbiter} from "./nailbiter";
 import {TheNewBoss} from "./the-new-boss";
 import {RiverRat} from "./river-rat";
 import {RailRider} from "./rail-rider";
+import {NebulasMemory} from "./nebulas-memory";
+import {BloodMoss} from "./blood-moss";
+import {OpheliasFinalScene} from "./ophelias-final-scene";
+import {Territorial} from "./territorial";
+import {Avatar} from "./avatar";
+import {AroundTheBendis} from "./around-the-bendis";
+import {DocWhedon} from "./doc-whedon";
+import {JusticeAvenger} from "./justice-avenger";
+import {WhispererOnWitchburnHill} from "./whisperer-on-witchburn-hill";
+import {PhantomRadio} from "./phantom-radio";
+import {TooDarkPark} from "./too-dark-park";
+import {AstoriasLastStand} from "./astorias-last-stand";
+import {TheSleeperBelow} from "./the-sleeper-below";
+import {DarkMystic} from "./dark-mystic";
+import {SeekerOfTheUnknown} from "./seeker-of-the-unknown";
+import {CairnWarder} from "./cairn-warder";
+import {TheWolfsSnarl} from "./the-wolfs-snarl";
+import {WordsOfTheWarrior} from "./words-of-the-warrior";
+import {TheUnnamed} from "./the-unnamed";
+import {TheWolfsMaw} from "./the-wolfs-maw";
+import {VampyriWatcher} from "./vampyri-watcher";
+import {SuperSpy} from "./super-spy";
+import {SeaDog} from "./sea-dog";
+import {Vulcanologist} from "./vulcanologist";
+import {EyesOfNemesis} from "./eyes-of-nemesis";
+import {HammerOfTheRikti} from "./hammer-of-the-rikti";
+import {VeniVidiVici} from "./veni-vidi-vici";
+import {CreyCares} from "./crey-cares";
+import {FreaksFolly} from "./freaks-folly";
+import {CirqueDuFreak} from "./cirque-du-freak";
+import {CreyWatcher} from "./crey-watcher";
+import {BurningTheMidnightOil} from "./burning-the-midnight-oil";
+import {DefyingGravity} from "./defying-gravity";
+import {DimensionalSojourner} from "./dimensional-sojourner";
+import {Stormwatcher} from "./stormwatcher";
+import {AlphaRanger} from "./alpha-ranger";
+import {ShadowArchitect} from "./shadow-architect";
+import {XRaySpectator} from "./x-ray-spectator";
+import {DancerWithDeath} from "./dancer-with-death";
+import {ShardLeaper} from "./shard-leaper";
+import {Castaway} from "./castaway";
+import {PeaceWalker} from "./peace-walker";
+import {BeingAndNothingness} from "./being-and-nothingness";
+import {HearingVoices} from "./hearing-voices";
+import {LiquidMemory} from "./liquid-memory";
+import {UsurperOfWorlds} from "./usurper-of-worlds";
+import {NoTurningBackNow} from "./no-turning-back-now";
+import {TheHeartOfMemory} from "./the-heart-of-memory";
+import {KingOfPain} from "./king-of-pain";
+import {Unfettered} from "./unfettered";
+import {Penitent} from "./penitent";
+import {Misbegotten} from "./misbegotten";
+import {Bereaved} from "./bereaved";
+import {Dispossessed} from "./dispossessed";
+import {RedFog} from "./red-fog";
+import {Demiurge} from "./demiurge";
+import {BoomtownRefugee} from "./boomtown-refugee";
+import {HadesAspirant} from "./hades-aspirant";
+import {SecretOfTheCity} from "./secret-of-the-city";
+import {SprawlSurvivor} from "./sprawl-survivor";
+import {TheUnderlord} from "./the-underlord";
+import {FromBeneathYou} from "./from-beneath-you";
+import {LivingDark} from "./living-dark";
+import {PersephoneSupplicant} from "./persephone-supplicant";
+import {SpiritOfTheCity} from "./spirit-of-the-city";
+import {Plutonian} from "./plutonian";
+import {BaumtonAvenger} from "./baumton-avenger";
+import {SewerKing} from "./sewer-king";
+import {SewerStalker} from "./sewer-stalker";
+import {DownwardBound} from "./downward-bound";
+import {TerrorOfTheVahzilok} from "./terror-of-the-vahzilok";
+import {SeekerOfTheLost} from "./seeker-of-the-lost";
+import {GuardianOfTheVolts} from "./guardian-of-the-volts";
+import {DangerDanger} from "./danger-danger";
+import {ScrapheapOfHistory} from "./scrapheap-of-history";
+import {PowerWalker} from "./power-walker";
+import {HighVoltage} from "./high-voltage";
+import {ConjunctionJunction} from "./conjunction-junction";
+import {Meltdown} from "./meltdown";
+import {NervousDreck} from "./nervous-dreck";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -354,8 +434,38 @@ export const ExplorationBadges: IBadgeData[] = [
     //Imperial City Pt2
     GoingRouge,
 
+    //Perez Park Pt1
+    NebulasMemory, BloodMoss, OpheliasFinalScene,
+
     //Boomtown Pt1
     ToweringInferno, BoomtownTroglodyte, EndOfTheLine, CorpseBox,
+
+    //Echo: Dark Astoria Pt1
+    WhispererOnWitchburnHill, PhantomRadio, TooDarkPark, AstoriasLastStand, TheSleeperBelow,
+
+    //Striga Isle Pt1
+    TheWolfsSnarl, WordsOfTheWarrior, TheUnnamed, TheWolfsMaw, VampyriWatcher,
+
+    //Crey's Folly Pt1
+    EyesOfNemesis, HammerOfTheRikti, VeniVidiVici, CreyCares, FreaksFolly, CirqueDuFreak,
+
+    //Firebase Zulu
+    DefyingGravity, DimensionalSojourner, Stormwatcher, AlphaRanger, ShadowArchitect, XRaySpectator, DancerWithDeath, ShardLeaper,
+
+    //Cascade Archipelago
+    Castaway, PeaceWalker, BeingAndNothingness, HearingVoices, LiquidMemory, UsurperOfWorlds, NoTurningBackNow, TheHeartOfMemory,
+
+    //The Chantry
+    KingOfPain, Unfettered, Penitent, Misbegotten, Bereaved, Dispossessed, RedFog, Demiurge,
+
+    //Abandoned Sewer Network
+    BoomtownRefugee, HadesAspirant, SecretOfTheCity, SprawlSurvivor, TheUnderlord, FromBeneathYou, LivingDark, PersephoneSupplicant,
+
+    //Sewer Network
+    SpiritOfTheCity, Plutonian, BaumtonAvenger, SewerKing, SewerStalker, DownwardBound, TerrorOfTheVahzilok, SeekerOfTheLost,
+
+    //Terra Volta Pt1
+    GuardianOfTheVolts, DangerDanger, ScrapheapOfHistory, PowerWalker, HighVoltage,
 
     //Atlas Park Pt2
     Undefeated, SilentSentinel, HeroCorpsInsider, Patriot, TopDog, Freedom,
@@ -368,6 +478,12 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Brickstown Pt2
     Mystic, Inmate,
+
+    //Crey's Folly Pt2
+    CreyWatcher, BurningTheMidnightOil,
+
+    //Echo: Dark Astoria Pt2
+    DarkMystic, SeekerOfTheUnknown, CairnWarder,
 
     //Faultline Pt2
     Undammed,
@@ -393,14 +509,23 @@ export const ExplorationBadges: IBadgeData[] = [
     //Peregrine Island Pt2
     PortalParter,
 
+    //Perez Park Pt2
+    Territorial, Avatar, AroundTheBendis, DocWhedon, JusticeAvenger,
+
     //Skyway City Pt2
     Purifier, Solace, Dauntless, HealingNode,
 
     //Steel Canyon Pt2
     SecretAdmirer, HeroCorpsRecruit, NimbleMynx, BrightStar,
 
+    //Striga Isle Pt2
+    SuperSpy, SeaDog, Vulcanologist,
+
     //Talos Island Pt2
     Minotaur, NatureLover, Whitecap,
+
+    //Terra Volta Pt2
+    ConjunctionJunction, Meltdown, NervousDreck,
 
     //Bloody Bay I25 Page 3
     WhatLurksBeyond, Restless, MostlyHarmless, BurgerMeister,
