@@ -1,6 +1,7 @@
 import {IGameMapData} from "coh-content-db";
 
 import {AbandonedSewerNetwork} from "./abandoned-sewer-network";
+import {AbandonedSewersTrial} from "./abandoned-sewers-trial";
 import {ArchitectEntertainmentBuildings} from "./architect-entertainment-buildings";
 import {ArenaCageMatch} from "./arena-cage-match";
 import {AtlasPark} from "./atlas-park";
@@ -13,6 +14,7 @@ import {CascadeArchipelago} from "./cascade-archipelago";
 import {Cimerora} from "./cimerora";
 import {CreysFolly} from "./creys-folly";
 import {Croatoa} from "./croatoa";
+import {DarkAstoria} from "./dark-astoria";
 import {EchoDarkAstoria} from "./echo-dark-astoria";
 import {EchoFaultline} from "./echo-faultline";
 import {EchoGalaxyCity} from "./echo-galaxy-city";
@@ -20,6 +22,7 @@ import {EchoRiktiCrashSite} from "./echo-rikti-crash-site";
 import {Eden} from "./eden";
 import {Faultline} from "./faultline";
 import {FirebaseZulu} from "./firebase-zulu";
+import {FirstWard} from "./first-ward";
 import {FoundersFalls} from "./founders-falls";
 import {HydraMissionMap} from "./hydra-missions";
 import {ImperialCity} from "./imperial-city";
@@ -28,6 +31,7 @@ import {KingsRow} from "./kings-row";
 import {MercyIsland} from "./mercy-island";
 import {MidnighterClub} from "./midnighter-club";
 import {Neutropolis} from "./neutropolis";
+import {NightWard} from "./night-ward";
 import {NovaPraetoria} from "./nova-praetoria";
 import {Ouroboros} from "./ouroboros";
 import {PeregrineIsland} from "./peregrine-island";
@@ -53,7 +57,9 @@ import {StrigaIsle} from "./striga-isle";
 import {TalosIsland} from "./talos-island";
 import {TerraVolta} from "./terra-volta";
 import {TheChantry} from "./the-chantry";
+import {TheHive} from "./the-hive";
 import {TheHollows} from "./the-hollows";
+import {TheStormPalace} from "./the-storm-palace";
 import {UndergroundImperial} from "./underground-imperial";
 import {UndergroundNeutropolis} from "./underground-neutropolis";
 import {UndergroundNova} from "./underground-nova";
@@ -61,6 +67,7 @@ import {Warburg} from "./warburg";
 
 export const Maps: IGameMapData[] = [
     AbandonedSewerNetwork,
+    AbandonedSewersTrial,
     ArchitectEntertainmentBuildings,
     ArenaCageMatch,
     AtlasPark,
@@ -73,6 +80,7 @@ export const Maps: IGameMapData[] = [
     Cimerora,
     CreysFolly,
     Croatoa,
+    DarkAstoria,
     EchoDarkAstoria,
     EchoFaultline,
     EchoGalaxyCity,
@@ -80,6 +88,7 @@ export const Maps: IGameMapData[] = [
     Eden,
     Faultline,
     FirebaseZulu,
+    FirstWard,
     FoundersFalls,
     HydraMissionMap,
     ImperialCity,
@@ -88,6 +97,7 @@ export const Maps: IGameMapData[] = [
     MercyIsland,
     MidnighterClub,
     Neutropolis,
+    NightWard,
     NovaPraetoria,
     Ouroboros,
     PeregrineIsland,
@@ -113,7 +123,9 @@ export const Maps: IGameMapData[] = [
     TalosIsland,
     TerraVolta,
     TheChantry,
+    TheHive,
     TheHollows,
+    TheStormPalace,
     UndergroundImperial,
     UndergroundNeutropolis,
     UndergroundNova,

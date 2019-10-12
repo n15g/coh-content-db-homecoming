@@ -327,13 +327,62 @@ import {HighVoltage} from "./high-voltage";
 import {ConjunctionJunction} from "./conjunction-junction";
 import {Meltdown} from "./meltdown";
 import {NervousDreck} from "./nervous-dreck";
+import {CallOfNature} from "./call-of-nature";
+import {NaturesWrath} from "./natures-wrath";
+import {NaturalLaw} from "./natural-law";
+import {TheDevouringEarthAbides} from "./the-devouring-earth-abides";
+import {HiveMind} from "./hive-mind";
+import {CreyFish} from "./crey-fish";
+import {Unspoiled} from "./unspoiled";
+import {NaturalSelection} from "./natural-selection";
+import {BabeInTheWoods} from "./babe-in-the-woods";
+import {TheWoundedEarth} from "./the-wounded-earth";
+import {WildAtHeart} from "./wild-at-heart";
+import {AmongTheGiants} from "./among-the-giants";
+import {TheSoundOfThunder} from "./the-sound-of-thunder";
+import {ForestOfStone} from "./forest-of-stone";
+import {TimeBandit} from "./time-bandit";
+import {HeartOfTheHamidon} from "./heart-of-the-hamidon";
+import {CourtingMadness} from "./courting-madness";
+import {AcolyteOfAnger} from "./acolyte-of-anger";
+import {MaliceAforethought} from "./malice-aforethought";
+import {Tormented} from "./tormented";
+import {HateMachine} from "./hate-machine";
+import {FistOfFury} from "./fist-of-fury";
+import {EveOfDestruction} from "./eve-of-destruction";
+import {LordOfStorms} from "./lord-of-storms";
+import {HeadOfTheHydra} from "./head-of-the-hydra";
+import {DearlyDeparted} from "./dearly-departed";
+import {EyeOfTheVortex} from "./eye-of-the-vortex";
+import {ShellShocked} from "./shell-shocked";
+import {MayhemsProdigal} from "./mayhems-prodigal";
+import {ShadowWalker} from "./shadow-walker";
+import {VengeanceSeeker} from "./vengeance-seeker";
+import {WitnessForTheFallen} from "./witness-for-the-fallen";
+import {FearlessInsurgent} from "./fearless-insurgent";
+import {FollysVictim} from "./follys-victim";
+import {PalaceOfStoneLeaves} from "./palace-of-stone-leaves";
+import {AuspiceAvernus} from "./auspice-avernus";
+import {DeathsHeadSupplicant} from "./deaths-head-supplicant";
+import {WalkerOnTheProfaneAscent} from "./walker-on-the-profane-ascent";
+import {WitnessOfOaths} from "./witness-of-oaths";
+import {LifeOutOfDeath} from "./life-out-of-death";
+import {OfThingsUnclean} from "./of-things-unclean";
+import {NocturnalPilgrim} from "./nocturnal-pilgrim";
+import {HappyCamper} from "./happy-camper";
+import {HouseHunter} from "./house-hunter";
+import {AbandonedSoul} from "./abandoned-soul";
+import {DeadButDreaming} from "./dead-but-dreaming";
+import {FollowTheLight} from "./follow-the-light";
+import {Monolithic} from "./monolithic";
+import {Stargazer} from "./stargazer";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
     Lobbyist, Hungry, Imploding, Ghoulish,
 
-    //Cap Au Diable
-    Sparky, MediaJunky, Egghead, Steamed, SweetTooth, DoomSayer, MasterOfScience, CircleGazer,
+    //Cap au Diable Pt1
+    Sparky, MediaJunky, Egghead, Steamed, SweetTooth,
 
     //Recluse's Victory
     Globetrotter, Ragnarok, TemporalFighter, LastStand,
@@ -370,6 +419,9 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //AE Buildings
     ThrillSeeker,
+
+    //Cap au Diable Pt2
+    DoomSayer, MasterOfScience, CircleGazer,
 
     //Atlas Part Pt1
     EdgeOfChaos, Observant,
@@ -467,6 +519,18 @@ export const ExplorationBadges: IBadgeData[] = [
     //Terra Volta Pt1
     GuardianOfTheVolts, DangerDanger, ScrapheapOfHistory, PowerWalker, HighVoltage,
 
+    //Eden Pt1
+    CallOfNature, NaturesWrath, NaturalLaw, TheDevouringEarthAbides, HiveMind, NaturalSelection,
+
+    //The Hive Pt1
+    BabeInTheWoods, TheWoundedEarth, WildAtHeart, AmongTheGiants, TheSoundOfThunder, ForestOfStone,
+
+    //The Storm Palace
+    CourtingMadness, AcolyteOfAnger, MaliceAforethought, Tormented, HateMachine, FistOfFury, EveOfDestruction, LordOfStorms,
+
+    //Abandoned Sewers Trial
+    HeadOfTheHydra,
+
     //Atlas Park Pt2
     Undefeated, SilentSentinel, HeroCorpsInsider, Patriot, TopDog, Freedom,
 
@@ -484,6 +548,9 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Echo: Dark Astoria Pt2
     DarkMystic, SeekerOfTheUnknown, CairnWarder,
+
+    //Eden Pt2
+    CreyFish, Unspoiled,
 
     //Faultline Pt2
     Undammed,
@@ -526,6 +593,18 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Terra Volta Pt2
     ConjunctionJunction, Meltdown, NervousDreck,
+
+    //Eden Pt2
+    TimeBandit, HeartOfTheHamidon,
+
+    //First Ward
+    DearlyDeparted, EyeOfTheVortex, FearlessInsurgent, ShellShocked, MayhemsProdigal, ShadowWalker, VengeanceSeeker, WitnessForTheFallen,
+
+    //Dark Astoria
+    FollysVictim, PalaceOfStoneLeaves, AuspiceAvernus, DeathsHeadSupplicant, WalkerOnTheProfaneAscent, WitnessOfOaths, LifeOutOfDeath, OfThingsUnclean,
+
+    //Night Ward
+    NocturnalPilgrim, HappyCamper, HouseHunter, AbandonedSoul, DeadButDreaming, FollowTheLight, Monolithic, Stargazer,
 
     //Bloody Bay I25 Page 3
     WhatLurksBeyond, Restless, MostlyHarmless, BurgerMeister,
