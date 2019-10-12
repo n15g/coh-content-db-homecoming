@@ -180,6 +180,73 @@ import {HamidonsFury} from "./hamidons-fury";
 import {FoundersHero} from "./founders-hero";
 import {Foggy} from "./foggy";
 import {Chaotician} from "./chaotician";
+import {Fugitive} from "./fugitive";
+import {FlyingShark} from "./flying-shark";
+import {SecretPath} from "./secret-path";
+import {SixthPassenger} from "./sixth-passenger";
+import {Unsubtle} from "./unsubtle";
+import {Mystic} from "./mystic";
+import {Inmate} from "./inmate";
+import {ForwardThinker} from "./forward-thinker";
+import {UseMightForRight} from "./use-might-for-right";
+import {CauseForConcern} from "./cause-for-concern";
+import {GeneticallyAltered} from "./genetically-altered";
+import {RiktiGoneWild} from "./rikti-gone-wild";
+import {ShadesOfArachnos} from "./shades-of-arachnos";
+import {AllSeeing} from "./all-seeing";
+import {DarkOmen} from "./dark-omen";
+import {PortalParter} from "./portal-parter";
+import {Ambitious} from "./ambitious";
+import {CitizenCole} from "./citizen-cole";
+import {CivicMinded} from "./civic-minded";
+import {GuardiansOfJustice} from "./guardians-of-justice";
+import {IntoTheWild} from "./into-the-wild";
+import {Technophile} from "./technophile";
+import {UnCivilSociety} from "./un-civil-society";
+import {OnTheWaterfront} from "./on-the-waterfront";
+import {GoldDigger} from "./gold-digger";
+import {Seen} from "./seen";
+import {MercyMissionary} from "./mercy-missionary";
+import {ParkRanger} from "./park-ranger";
+import {PraetorianOfPrivilege} from "./praetorian-of-privilege";
+import {Seer} from "./seer";
+import {TiberianOverseer} from "./tiberian-overseer";
+import {TunedIn} from "./tuned-in";
+import {GoingRouge} from "./going-rouge";
+import {Disappeared} from "./disappeared";
+import {ClockworkMechanic} from "./clockwork-mechanic";
+import {FerrymanOfTheDamned} from "./ferryman-of-the-damned";
+import {Morbid} from "./morbid";
+import {SecretPrisoner} from "./secret-prisoner";
+import {Trainspotter} from "./trainspotter";
+import {UrbanSpelunker} from "./urban-spelunker";
+import {WarriorAtTheGate} from "./warrior-at-the-gate";
+import {Condemning} from "./condemning";
+import {BrokenMind} from "./broken-mind";
+import {Engineer} from "./engineer";
+import {EyesOfTheDark} from "./eyes-of-the-dark";
+import {Hoarder} from "./hoarder";
+import {Lowlife} from "./lowlife";
+import {SilentWitness} from "./silent-witness";
+import {UndergroundExplorer} from "./underground-explorer";
+import {Airlift} from "./airlift";
+import {DontDrinkIt} from "./dont-drink-it";
+import {EyesToTheFuture} from "./eyes-to-the-future";
+import {Longshoreman} from "./longshoreman";
+import {MoarPower} from "./moar-power";
+import {Stockpiling} from "./stockpiling";
+import {StuffOfLife} from "./stuff-of-life";
+import {UrbanRenewal} from "./urban-renewal";
+import {Cluttered} from "./cluttered";
+import {BingeEater} from "./binge-eater";
+import {DrinkEnriche} from "./drink-enriche";
+import {GradeF} from "./grade-f";
+import {KeepingTheLightsOn} from "./keeping-the-lights-on";
+import {ReadyForAnything} from "./ready-for-anything";
+import {Nailbiter} from "./nailbiter";
+import {TheNewBoss} from "./the-new-boss";
+import {RiverRat} from "./river-rat";
+import {RailRider} from "./rail-rider";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -257,6 +324,36 @@ export const ExplorationBadges: IBadgeData[] = [
     //Founders' Falls Pt1
     GuardianAngel, LosingParadise, WatchfulEyes, HamidonsFury, FoundersHero, Misunderstood,
 
+    //Brickstown
+    FlyingShark, Fugitive, ForwardThinker, SecretPath, SixthPassenger, Unsubtle,
+
+    //Peregrine Island
+    UseMightForRight, CauseForConcern, GeneticallyAltered, RiktiGoneWild, ShadesOfArachnos, AllSeeing, DarkOmen,
+
+    //Nova Praetoria
+    Ambitious, CitizenCole, CivicMinded, GuardiansOfJustice, IntoTheWild, Technophile, UnCivilSociety, OnTheWaterfront,
+
+    //Imperial City Pt1
+    GoldDigger, MercyMissionary, ParkRanger, PraetorianOfPrivilege, Seen, Seer, TiberianOverseer, TunedIn,
+
+    //Underground Nova
+    ClockworkMechanic, Disappeared, FerrymanOfTheDamned, Morbid, SecretPrisoner, Trainspotter, UrbanSpelunker, WarriorAtTheGate,
+
+    //Underground Imperial
+    BrokenMind, Condemning, Engineer, EyesOfTheDark, Hoarder, Lowlife, SilentWitness, UndergroundExplorer,
+
+    //Neutropolis
+    Airlift, DontDrinkIt, EyesToTheFuture, Longshoreman, MoarPower, Stockpiling, StuffOfLife, UrbanRenewal,
+
+    //Underground Neutropolis
+    BingeEater, Cluttered, DrinkEnriche, GradeF, KeepingTheLightsOn, ReadyForAnything, Nailbiter, TheNewBoss,
+
+    //Praetoria
+    RiverRat, RailRider,
+
+    //Imperial City Pt2
+    GoingRouge,
+
     //Boomtown Pt1
     ToweringInferno, BoomtownTroglodyte, EndOfTheLine, CorpseBox,
 
@@ -268,6 +365,9 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Boomtown Pt2
     Phalanxer, Regal, VisionOfDespair, DestinedForValhalla,
+
+    //Brickstown Pt2
+    Mystic, Inmate,
 
     //Faultline Pt2
     Undammed,
@@ -289,6 +389,9 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Kings Row Pt2
     Summoned, Upgraded, MysticKing, KeenSighted, Smokey,
+
+    //Peregrine Island Pt2
+    PortalParter,
 
     //Skyway City Pt2
     Purifier, Solace, Dauntless, HealingNode,

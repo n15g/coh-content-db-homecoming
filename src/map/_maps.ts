@@ -7,6 +7,7 @@ import {AtlasPark} from "./atlas-park";
 import {BlackShroudDimension} from "./black-shroud-dimension";
 import {BloodyBay} from "./bloody-bay";
 import {Boomtown} from "./boomtown";
+import {Brickstown} from "./brickstown";
 import {CapAuDiable} from "./cap-au-diable";
 import {Cimerora} from "./cimerora";
 import {Croatoa} from "./croatoa";
@@ -17,13 +18,17 @@ import {EchoRiktiCrashSite} from "./echo-rikti-crash-site";
 import {Faultline} from "./faultline";
 import {FoundersFalls} from "./founders-falls";
 import {HydraMissionMap} from "./hydra-missions";
+import {ImperialCity} from "./imperial-city";
 import {IndependencePort} from "./independence-port";
 import {KingsRow} from "./kings-row";
 import {MercyIsland} from "./mercy-island";
 import {MidnighterClub} from "./midnighter-club";
+import {Neutropolis} from "./neutropolis";
+import {NovaPraetoria} from "./nova-praetoria";
 import {Ouroboros} from "./ouroboros";
 import {PeregrineIsland} from "./peregrine-island";
 import {PocketD} from "./pocket-d";
+import {Praetoria} from "./praetoria";
 import {ReclusesVictory} from "./recluses-victory";
 import {RiktiWarZone} from "./rikti-war-zone";
 import {SafeguardAtlasPark} from "./safeguard-atlas-park";
@@ -41,6 +46,9 @@ import {SteelCanyon} from "./steel-canyon";
 import {TalosIsland} from "./talos-island";
 import {TerraVolta} from "./terra-volta";
 import {TheHollows} from "./the-hollows";
+import {UndergroundImperial} from "./underground-imperial";
+import {UndergroundNeutropolis} from "./underground-neutropolis";
+import {UndergroundNova} from "./underground-nova";
 import {Warburg} from "./warburg";
 
 export const Maps: IGameMapData[] = [
@@ -51,6 +59,7 @@ export const Maps: IGameMapData[] = [
     BlackShroudDimension,
     BloodyBay,
     Boomtown,
+    Brickstown,
     CapAuDiable,
     Cimerora,
     Croatoa,
@@ -61,13 +70,17 @@ export const Maps: IGameMapData[] = [
     Faultline,
     FoundersFalls,
     HydraMissionMap,
+    ImperialCity,
     IndependencePort,
     KingsRow,
     MercyIsland,
     MidnighterClub,
+    Neutropolis,
+    NovaPraetoria,
     Ouroboros,
     PeregrineIsland,
     PocketD,
+    Praetoria,
     ReclusesVictory,
     RiktiWarZone,
     SafeguardAtlasPark,
@@ -85,5 +98,8 @@ export const Maps: IGameMapData[] = [
     TalosIsland,
     TerraVolta,
     TheHollows,
+    UndergroundImperial,
+    UndergroundNeutropolis,
+    UndergroundNova,
     Warburg,
 ];
