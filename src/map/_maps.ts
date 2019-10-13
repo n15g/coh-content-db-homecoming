@@ -8,6 +8,7 @@ import {AtlasPark} from "./atlas-park";
 import {BlackShroudDimension} from "./black-shroud-dimension";
 import {BloodyBay} from "./bloody-bay";
 import {Boomtown} from "./boomtown";
+import {Breakout} from "./breakout";
 import {Brickstown} from "./brickstown";
 import {CapAuDiable} from "./cap-au-diable";
 import {CascadeArchipelago} from "./cascade-archipelago";
@@ -24,12 +25,24 @@ import {Faultline} from "./faultline";
 import {FirebaseZulu} from "./firebase-zulu";
 import {FirstWard} from "./first-ward";
 import {FoundersFalls} from "./founders-falls";
+import {Grandville} from "./grandville";
 import {HydraMissionMap} from "./hydra-missions";
 import {ImperialCity} from "./imperial-city";
 import {IndependencePort} from "./independence-port";
 import {KingsRow} from "./kings-row";
+import {MayhemAtlasPark} from "./mayhem-atlas-park";
+import {MayhemBrickstown} from "./mayhem-brickstown";
+import {MayhemFoundersFalls} from "./mayhem-founders-falls";
+import {MayhemIndependencePort} from "./mayhem-independence-port";
+import {MayhemKingsRow} from "./mayhem-kings-row";
+import {MayhemPeregrineIsland} from "./mayhem-peregrine-island";
+import {MayhemSkywayCity} from "./mayhem-skyway-city";
+import {MayhemSteelCanyon} from "./mayhem-steel-canyon";
+import {MayhemTalosIsland} from "./mayhem-talos-island";
 import {MercyIsland} from "./mercy-island";
 import {MidnighterClub} from "./midnighter-club";
+import {MonsterIsland} from "./monster-island";
+import {NervaArchipelago} from "./nerva-archipelago";
 import {Neutropolis} from "./neutropolis";
 import {NightWard} from "./night-ward";
 import {NovaPraetoria} from "./nova-praetoria";
@@ -37,6 +50,7 @@ import {Ouroboros} from "./ouroboros";
 import {PeregrineIsland} from "./peregrine-island";
 import {PerezPark} from "./perez-park";
 import {PocketD} from "./pocket-d";
+import {PortOakes} from "./port-oakes";
 import {Praetoria} from "./praetoria";
 import {ReclusesVictory} from "./recluses-victory";
 import {RiktiWarZone} from "./rikti-war-zone";
@@ -50,12 +64,15 @@ import {SafeguardSkywayCity} from "./safeguard-skyway-city";
 import {SafeguardSteelCanyon} from "./safeguard-steel-canyon";
 import {SafeguardTalosIsland} from "./safeguard-talos-island";
 import {SewerNetwork} from "./sewer-network";
+import {SharkheadIsle} from "./sharkhead-isle";
 import {SirensCall} from "./sirens-call";
 import {SkywayCity} from "./skyway-city";
 import {SteelCanyon} from "./steel-canyon";
+import {StMartial} from "./st-martial";
 import {StrigaIsle} from "./striga-isle";
 import {TalosIsland} from "./talos-island";
 import {TerraVolta} from "./terra-volta";
+import {TheAbyss} from "./the-abyss";
 import {TheChantry} from "./the-chantry";
 import {TheHive} from "./the-hive";
 import {TheHollows} from "./the-hollows";
@@ -74,6 +91,7 @@ export const Maps: IGameMapData[] = [
     BlackShroudDimension,
     BloodyBay,
     Boomtown,
+    Breakout,
     Brickstown,
     CapAuDiable,
     CascadeArchipelago,
@@ -90,12 +108,24 @@ export const Maps: IGameMapData[] = [
     FirebaseZulu,
     FirstWard,
     FoundersFalls,
+    Grandville,
     HydraMissionMap,
     ImperialCity,
     IndependencePort,
     KingsRow,
+    MayhemAtlasPark,
+    MayhemBrickstown,
+    MayhemFoundersFalls,
+    MayhemIndependencePort,
+    MayhemKingsRow,
+    MayhemPeregrineIsland,
+    MayhemSkywayCity,
+    MayhemSteelCanyon,
+    MayhemTalosIsland,
     MercyIsland,
     MidnighterClub,
+    MonsterIsland,
+    NervaArchipelago,
     Neutropolis,
     NightWard,
     NovaPraetoria,
@@ -103,6 +133,7 @@ export const Maps: IGameMapData[] = [
     PeregrineIsland,
     PerezPark,
     PocketD,
+    PortOakes,
     Praetoria,
     ReclusesVictory,
     RiktiWarZone,
@@ -116,12 +147,15 @@ export const Maps: IGameMapData[] = [
     SafeguardSteelCanyon,
     SafeguardTalosIsland,
     SewerNetwork,
+    SharkheadIsle,
     SirensCall,
     SkywayCity,
     SteelCanyon,
+    StMartial,
     StrigaIsle,
     TalosIsland,
     TerraVolta,
+    TheAbyss,
     TheChantry,
     TheHive,
     TheHollows,

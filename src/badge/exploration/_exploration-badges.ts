@@ -376,6 +376,79 @@ import {DeadButDreaming} from "./dead-but-dreaming";
 import {FollowTheLight} from "./follow-the-light";
 import {Monolithic} from "./monolithic";
 import {Stargazer} from "./stargazer";
+import {Overlord} from "./overlord";
+import {SewerDweller} from "./sewer-dweller";
+import {Guttersnipe} from "./guttersnipe";
+import {MasterOfTheAirwaves} from "./master-of-the-airwaves";
+import {PassingFab} from "./passing-fab";
+import {ImageCrasher} from "./image-crasher";
+import {GutterBait} from "./gutter-bait";
+import {LineHolder} from "./line-holder";
+import {Cesspool} from "./cesspool";
+import {SnakeCharmer} from "./snake-charmer";
+import {Chum} from "./chum";
+import {Fortified} from "./fortified";
+import {TheNextBigThing} from "./the-next-big-thing";
+import {FirstRule} from "./first-rule";
+import {TikiFan} from "./tiki-fan";
+import {WatcherOnTheKnoll} from "./watcher-on-the-knoll";
+import {LockedAndLoaded} from "./locked-and-loaded";
+import {NervaWreck} from "./nerva-wreck";
+import {PrimalInstinct} from "./primal-instinct";
+import {TreeHugger} from "./tree-hugger";
+import {UnethicalTourist} from "./unethical-tourist";
+import {BlindEye} from "./blind-eye";
+import {Soother} from "./soother";
+import {ScurvyDog} from "./scurvy-dog";
+import {WashedUp} from "./washed-up";
+import {PowderMonkey} from "./powder-monkey";
+import {Driller} from "./driller";
+import {LongWalk} from "./long-walk";
+import {BigSpider} from "./big-spider";
+import {CommutersWoe} from "./commuters-woe";
+import {HiddenGetaway} from "./hidden-getaway";
+import {RazorToothed} from "./razor-toothed";
+import {ForgedByHellfire} from "./forged-by-hellfire";
+import {FreakOfNature} from "./freak-of-nature";
+import {PitViper} from "./pit-viper";
+import {SkyChaser} from "./sky-chaser";
+import {UnwelcomeGuest} from "./unwelcome-guest";
+import {SkyTrader} from "./sky-trader";
+import {CarpingTheDiem} from "./carping-the-diem";
+import {DeucesWild} from "./deuces-wild";
+import {Paroled} from "./paroled";
+import {Stonekeeper} from "./stonekeeper";
+import {CamelSnot} from "./camel-snot";
+import {DeadMansTree} from "./dead-mans-tree";
+import {SocialWorker} from "./social-worker";
+import {InfamousRubble} from "./infamous-rubble";
+import {Showstopper} from "./showstopper";
+import {JailBird} from "./jail-bird";
+import {GlobalGuardian} from "./global-guardian";
+import {KingMaker} from "./king-maker";
+import {RoadRaged} from "./road-raged";
+import {SteelWorker} from "./steel-worker";
+import {Revolutionary} from "./revolutionary";
+import {TalonOfTalos} from "./talon-of-talos";
+import {Brickhouse} from "./brickhouse";
+import {Libertarian} from "./libertarian";
+import {GateCloser} from "./gate-closer";
+import {Reborn} from "./reborn";
+import {Geneticist} from "./geneticist";
+import {HereBeDragons} from "./here-be-dragons";
+import {CagedBeast} from "./caged-beast";
+import {NoEscape} from "./no-escape";
+import {HamidonsIre} from "./hamidons-ire";
+import {TheTreeOfWoe} from "./the-tree-of-woe";
+import {AbyssalGaze} from "./abyssal-gaze";
+import {MonsterIslander} from "./monster-islander";
+import {TheRoarOfTheBeast} from "./the-roar-of-the-beast";
+import {RiktiMonkeyIsland} from "./rikti-monkey-island";
+import {MonstersPlaythings} from "./monsters-playthings";
+import {DarkGarden} from "./dark-garden";
+import {GrimFandango} from "./grim-fandango";
+import {MisfitMonstrosity} from "./misfit-monstrosity";
+import {MonsterFactory} from "./monster-factory";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -384,14 +457,38 @@ export const ExplorationBadges: IBadgeData[] = [
     //Cap au Diable Pt1
     Sparky, MediaJunky, Egghead, Steamed, SweetTooth,
 
+    //Grandville Pt1
+    Overlord, SewerDweller, Guttersnipe, MasterOfTheAirwaves,
+
+    //Mercy Island Pt1
+    Cesspool, SnakeCharmer, Chum, Fortified, TheNextBigThing, Widower,
+
+    //Nerva Archipelago
+    WatcherOnTheKnoll, LockedAndLoaded, NervaWreck, PrimalInstinct, TreeHugger,
+
+    //Port Oakes Pt1
+    ScurvyDog, WashedUp, PowderMonkey, Driller,
+
+    //Sharkhead Isle Pt1
+    RazorToothed, ForgedByHellfire, FreakOfNature, PitViper,
+
     //Recluse's Victory
     Globetrotter, Ragnarok, TemporalFighter, LastStand,
 
     //Siren's Call
     Hangman, Politician, BroadShoulders, Piratical,
 
+    //St. Martial Pt1
+    DeucesWild, Paroled, Stonekeeper, CamelSnot,
+
+    //Breakout
+    JailBird,
+
     //Warburg
     WeaponInspector, TunnelRat, Triumphant,
+
+    //Mayhem Missions
+    GlobalGuardian, KingMaker, RoadRaged, SteelWorker, Revolutionary, TalonOfTalos, Brickhouse, Libertarian, GateCloser,
 
     //Faultline Pt1
     EscapeArtist, DrownedRat, OldFashioned, EggHunter,
@@ -404,6 +501,9 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Pocket D
     BigTime, Trucker,
+
+    //The Abyss Pt1
+    Reborn, Geneticist,
 
     //Rikti War Zone
     VanguardOperative, Trespasser, Lifesaver, BaseJumper, Homewrecker, Luscious, JunkyardDog, Unabashed,
@@ -420,17 +520,32 @@ export const ExplorationBadges: IBadgeData[] = [
     //AE Buildings
     ThrillSeeker,
 
+    //Mercy Island Pt2
+    FirstRule, TikiFan,
+
+    //Port Oakes Pt2
+    LongWalk, BigSpider, CommutersWoe, HiddenGetaway,
+
+    //Nerva Archipelago Pt2
+    UnethicalTourist, BlindEye, Soother,
+
+    //St. Martial Pt2
+    DeadMansTree, SocialWorker, InfamousRubble, Showstopper,
+
     //Cap au Diable Pt2
     DoomSayer, MasterOfScience, CircleGazer,
+
+    //Sharkhead Isle Pt2
+    SkyChaser, UnwelcomeGuest, SkyTrader, CarpingTheDiem,
+
+    //Grandville Pt2
+    PassingFab, ImageCrasher, LineHolder, GutterBait,
 
     //Atlas Part Pt1
     EdgeOfChaos, Observant,
 
     //The Hollows Pt1
     GraffitiCommunicator, CircleSeeker, Ironic,
-
-    //Mercy Island
-    Widower,
 
     //Echo Galaxy City Pt1
     GalacticFan, EyeOfTheGemini, OrionsBelt,
@@ -485,6 +600,12 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Imperial City Pt2
     GoingRouge,
+
+    //The Abyss Pt2
+    HereBeDragons, CagedBeast, NoEscape, HamidonsIre, TheTreeOfWoe, AbyssalGaze,
+
+    //Monster Island
+    MonsterIslander, TheRoarOfTheBeast, RiktiMonkeyIsland, MonstersPlaythings, DarkGarden, GrimFandango, MisfitMonstrosity, MonsterFactory,
 
     //Perez Park Pt1
     NebulasMemory, BloodMoss, OpheliasFinalScene,
