@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 import {ReclusesVictory} from "../../map/recluses-victory";
 
 export const Ragnarok: IBadgeData = {
@@ -14,6 +14,9 @@ export const Ragnarok: IBadgeData = {
     links: [
         {title: "Ragnaraok Badge", href: "https://paragonwiki.com/wiki/Ragnarok_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
+    icons: [
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
+    ],
     vidiotMapKey: "2"
 };

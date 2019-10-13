@@ -1,0 +1,24 @@
+import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {MonsterIsland} from "../../map/monster-island";
+
+export const DarkGarden: IBadgeData = {
+    type: BadgeType.EXPLORATION,
+    key: "dark-garden",
+    names: [{value: "Dark Garden"}],
+    alignment: ALIGNMENT_VILLAIN,
+    mapKey: MonsterIsland.key,
+    location: [-2171.0, -1.0, -6446.0],
+    badgeText: [{
+        value: `In this sheltered little corner, someone spent considerable time and effort to cultivate a garden of rare plants known for their reluctance to grow outside of their native soil.
+How many hours must they have spent carefully trimming their boughs, cleaning them of parasites, monitoring their nutrition and water intake?
+Where was this unknown gardener when the island was overrun?
+Did they remain here to await death alongside their leafy charges? Did they give the ultimate sacrifice for them?
+Did their remains provide nourishment for them? The plants do not deign to answer you.`
+    }],
+    notes: `Located in [map:${MonsterIsland.key}], 131 yards due south of the Cutlass Isles marker, near the door on the inside of the walled-in area.`,
+    links: [
+        {title: "Dark Garden Badge", href: "https://paragonwiki.com/wiki/Dark_Garden_Badge"}
+    ],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
+    vidiotMapKey: "5"
+};
