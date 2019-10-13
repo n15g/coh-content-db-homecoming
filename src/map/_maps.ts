@@ -16,6 +16,7 @@ import {Cimerora} from "./cimerora";
 import {CreysFolly} from "./creys-folly";
 import {Croatoa} from "./croatoa";
 import {DarkAstoria} from "./dark-astoria";
+import {EchoAtlasPark} from "./echo-atlas-park";
 import {EchoDarkAstoria} from "./echo-dark-astoria";
 import {EchoFaultline} from "./echo-faultline";
 import {EchoGalaxyCity} from "./echo-galaxy-city";
@@ -99,6 +100,7 @@ export const Maps: IGameMapData[] = [
     CreysFolly,
     Croatoa,
     DarkAstoria,
+    EchoAtlasPark,
     EchoDarkAstoria,
     EchoFaultline,
     EchoGalaxyCity,

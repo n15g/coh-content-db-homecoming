@@ -449,6 +449,15 @@ import {DarkGarden} from "./dark-garden";
 import {GrimFandango} from "./grim-fandango";
 import {MisfitMonstrosity} from "./misfit-monstrosity";
 import {MonsterFactory} from "./monster-factory";
+import {Trustworthy} from "./trustworthy";
+import {Knowledgeable} from "./knowledgeable";
+import {Virtuous} from "./virtuous";
+import {Rookie} from "./rookie";
+import {Condemned} from "./condemned";
+import {Resilient} from "./resilient";
+import {OutOfHarmsWay} from "./out-of-harms-way";
+import {CityTraveler} from "./city-traveler";
+import {TriedAndTrue} from "./tried-and-true";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -750,4 +759,10 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Croatoa Pt2
     GrimWanderer, Spiritual, Ensorcelled,
+
+    //Echo: Atlas Park
+    Trustworthy, Knowledgeable, Virtuous, Rookie, Condemned, Resilient, OutOfHarmsWay, CityTraveler,
+
+    //Hero One Memorial Badge
+    TriedAndTrue
 ];
