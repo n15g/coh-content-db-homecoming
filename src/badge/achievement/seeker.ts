@@ -4,7 +4,7 @@ export const Seeker: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "seeker",
     names: [
-        {value: "Pathfinder"},
+        {value: "Seeker"},
         {type: Alternate.P, value: "Overachiever"},
     ],
     alignment: ALIGNMENT_ANY,
