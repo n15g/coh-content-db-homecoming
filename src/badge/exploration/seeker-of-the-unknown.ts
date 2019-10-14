@@ -4,7 +4,7 @@ import {EchoDarkAstoria} from "../../map/echo-dark-astoria";
 export const SeekerOfTheUnknown: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "seeker-of-the-unknown",
-    names: [{value: "Dark Mystic"}],
+    names: [{value: "Seeker of the Unknown"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoDarkAstoria.key,
     location: [1868.0, -80.0, 1352.0],
