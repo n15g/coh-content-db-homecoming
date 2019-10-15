@@ -14,5 +14,7 @@ export class HomecomingChangelog implements IServerGroupData {
 
         "0.3.2": "* https://github.com/n15g/coh-content-db-homecoming/issues/10 - [Seeker of the Unknown] is listed as [Dark Mystic]\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/11 - [Seeker] is incorrectly listed as [Pathfinder]\n",
+
+        "0.3.3": "* https://github.com/n15g/coh-content-db-homecoming/issues/12 - [Guardian Angel/Barely Contained] has wrong name type\n",
     };
 }

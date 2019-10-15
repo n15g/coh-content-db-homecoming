@@ -6,7 +6,7 @@ export const GuardianAngel: IBadgeData = {
     key: "guardian-angel",
     names: [
         {type: Alternate.H, value: "Guardian Angel"},
-        {type: Alternate.H, value: "Barely Contained"}
+        {type: Alternate.V, value: "Barely Contained"}
     ],
     alignment: ALIGNMENT_HERO,
     mapKey: FoundersFalls.key,
