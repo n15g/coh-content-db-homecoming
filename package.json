@@ -9,7 +9,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "webpack --mode=production",
-    "watch": "webpack --mode=production --watch"
+    "watch": "webpack --mode=production --watch",
+    "upgrade:db": "npm install --save coh-content-db@latest"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,6 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "coh-content-db": "^1.1.1"
+    "coh-content-db": "^1.1.2"
   }
 }
