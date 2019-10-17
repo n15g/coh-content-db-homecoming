@@ -1,0 +1,20 @@
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+
+export const TemporalAgent: IBadgeData = {
+    type: BadgeType.PVP,
+    key: "temporal-agent",
+    names: [
+        {value: "Temporal Agent"}
+    ],
+    alignment: ALIGNMENT_ANY,
+    badgeText: [
+        {value: "You have controlled 10 Heavies in Recluse's Victory."}
+    ],
+    acquisition: "Control 10 Heavies in Recluse's Victory",
+    links: [
+        {title: "Temporal Agent Badge", href: "https://paragonwiki.com/wiki/Temporal_Agent_Badge"}
+    ],
+    icons: [
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/temporal-agent.png"}
+    ],
+};

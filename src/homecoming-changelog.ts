@@ -27,6 +27,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/15 - Accomplishment badges\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/16 - Achievement badges\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/17 - Defeat badges\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/18 - PvP badges\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/14 - [Collector] badge has incorrect badge text and link.\n"
     };
 }
