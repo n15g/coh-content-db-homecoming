@@ -1,0 +1,18 @@
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+
+export const WelcomeToEarth: IBadgeData = {
+    type: BadgeType.DEFEAT,
+    key: "welcome-to-earth",
+    setTitleId: 2389,
+    names: [
+        {value: "Welcome to Earth"}
+    ],
+    alignment: ALIGNMENT_ANY,
+    badgeText: [
+        {value: "You have destroyed a Rikti Drop Ship, proving that it can be done."}
+    ],
+    acquisition: "Destroy a Rikti Drop Ship.",
+    links: [
+        {title: "Welcome to Earth Badge", href: "https://paragonwiki.com/wiki/Welcome_to_Earth_Badge"}
+    ],
+};

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Unveiler: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "unveiler",
+    setTitleId: 47,
     names: [
         {value: "Unveiler"}
     ],
@@ -14,5 +15,7 @@ export const Unveiler: IBadgeData = {
     links: [
         {title: "Unveiler Badge", href: "https://paragonwiki.com/wiki/Unveiler_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/unveiler.png"}]
+    icons: [
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/unveiler.png"}
+    ],
 };
