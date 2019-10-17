@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Rescuer: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "rescuer",
+    setTitleId: 696,
     names: [
         {type: Alternate.H, value: "Rescuer"},
         {type: Alternate.V, value: "Big Softie"}

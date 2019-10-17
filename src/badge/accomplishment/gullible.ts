@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Gullible: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "gullible",
+    setTitleId: 2326,
     names: [{value: "Gullible"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{

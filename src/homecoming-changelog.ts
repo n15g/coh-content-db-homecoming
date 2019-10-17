@@ -24,6 +24,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/12 - [Guardian Angel/Barely Contained] has wrong name type.\n",
 
         "0.4.0":
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/15 - Accomplishment badges\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/14 - [Collector] badge has incorrect badge text and link.\n"
     };
 }
