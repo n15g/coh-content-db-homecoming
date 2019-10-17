@@ -11,7 +11,7 @@ export const ProbationDenied: IBadgeData = {
     badgeText: [
         {value: "You stopped a number of prisoners from escaping from Ziggursky prison."}
     ],
-    acquisition: "Complete the @Prison Break@ zone event in Brickstown",
+    acquisition: "Complete the Prison Break zone event in Brickstown",
     links: [
         {title: "Probation Denied Badge", href: "https://paragonwiki.com/wiki/Probation_Denied_Badge"}
     ],

@@ -12,7 +12,7 @@ export const TakedownArtist: IBadgeData = {
         {value: "You've taken down one of the big guys in the Syndicate.  Hey, is that a bull's-eye on your " +
         "back?"}
     ],
-    acquisition: "Complete the @Syndicate Takedown@ zone event in Imperial City",
+    acquisition: "Complete the Syndicate Takedown zone event in Imperial City",
     links: [
         {title: "Takedown Artist Badge", href: "https://paragonwiki.com/wiki/Takedown_Artist_Badge"}
     ],

@@ -9,9 +9,9 @@ export const Laureate: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have no idea what that @Lucan@ thing was, but he will haunt your dreams forever."}
+        {value: "You have no idea what that Lucan thing was, but he will haunt your dreams forever."}
     ],
-    acquisition: "Complete the @The Great Escape@ zone event in Neutropolis",
+    acquisition: "Complete the The Great Escape zone event in Neutropolis",
     links: [
         {title: "Laureate Badge", href: "https://paragonwiki.com/wiki/Laureate_Badge"}
     ],

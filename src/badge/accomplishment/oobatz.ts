@@ -12,7 +12,7 @@ export const Oobatz: IBadgeData = {
         "Family blind. The goons of the Family have taken to calling you 'Oobatz', crazy, for daring to " +
         "cross them."}
     ],
-    acquisition: "Complete the @The Family Raid@ zone event in St. Martial",
+    acquisition: "Complete the The Family Raid zone event in St. Martial",
     links: [
         {title: "Oobatz Badge", href: "https://paragonwiki.com/wiki/Oobatz_Badge"}
     ],

@@ -3,7 +3,12 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const UntilTheEndOfTheWorld: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "until-the-end-of-the-world",
-    names: [{value: "Until the End of the World"}],
+    names: [
+        {value: "Until the End of the World"}
+    ],
     alignment: ALIGNMENT_ANY,
-    acquisition: "Earn this badge by earning 1500 badges."
+    acquisition: "Collect 1500 badges to earn this badge.",
+    links: [
+        {title: "Until the End of the World Badge", href: "https://paragonwiki.com/wiki/Until_the_End_of_the_World_Badge"}
+    ],
 };
