@@ -4,7 +4,7 @@ export const BackFromTheFuture: IBadgeData = {
     type: BadgeType.PVP,
     key: "back-from-the-future",
     names: [
-        {value: "Back from the Future"}
+        {value: "Back From the Future"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [

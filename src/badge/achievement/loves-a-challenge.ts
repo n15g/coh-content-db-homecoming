@@ -4,12 +4,14 @@ export const LovesAChallenge: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "loves-a-challenge",
     names: [
-        {value: "Loves A Challenge"}
+        {value: "Loves a Challenge"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You successfully faced down Anti-Matter without losing anyone during the fight or destroying " +
-        "his regenerative terminal links during Keyes Island Reactor."}
+        {
+            value: "You successfully faced down Anti-Matter without losing anyone during the fight or destroying " +
+                "his regenerative terminal links during Keyes Island Reactor."
+        }
     ],
     acquisition: "Complete the Keyes Island Reactor Trial without anyone dying or destroying any terminals during the final battle with Anti-Matter",
     links: [

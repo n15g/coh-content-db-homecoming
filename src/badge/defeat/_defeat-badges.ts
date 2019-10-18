@@ -48,7 +48,7 @@ import {HammerDown} from "./hammer-down";
 import {Hammerhead} from "./hammerhead";
 import {Haunted} from "./haunted";
 import {HeatSeeker} from "./heat-seeker";
-import {Hellbane} from "./hellbane";
+import {HellBane} from "./hell-bane";
 import {Hellspawned} from "./hellspawned";
 import {Illusionist} from "./illusionist";
 import {Infiltrator} from "./infiltrator";
@@ -171,7 +171,7 @@ export const DefeatBadges: IBadgeData[] = [
         Hammerhead,
         Haunted,
         HeatSeeker,
-        Hellbane,
+        HellBane,
         Hellspawned,
         Illusionist,
         Infiltrator,

@@ -69,7 +69,7 @@ import {BrightStar} from "./bright-star";
 import {WhatLurksBeyond} from "./what-lurks-beyond";
 import {Restless} from "./restless";
 import {MostlyHarmless} from "./mostly-harmless";
-import {BurgerMeister} from "./burger-meister";
+import {Burgermeister} from "./burgermeister";
 import {AScarInTime} from "./a-scar-in-time";
 import {TrueNeutral} from "./true-neutral";
 import {WatchYourBack} from "./watch-your-back";
@@ -77,7 +77,7 @@ import {SickOfTimeTravel} from "./sick-of-time-travel";
 import {HotDog} from "./hot-dog";
 import {StillStanding} from "./still-standing";
 import {Volatile} from "./volatile";
-import {WastedResource} from "./wasted-resource";
+import {WastedResources} from "./wasted-resources";
 import {Nuclear} from "./nuclear";
 import {ForciblyEvicted} from "./forcibly-evicted";
 import {Disassembled} from "./disassembled";
@@ -737,13 +737,13 @@ export const ExplorationBadges: IBadgeData[] = [
     NocturnalPilgrim, HappyCamper, HouseHunter, AbandonedSoul, DeadButDreaming, FollowTheLight, Monolithic, Stargazer,
 
     //Bloody Bay I25 Page 3
-    WhatLurksBeyond, Restless, MostlyHarmless, BurgerMeister,
+    WhatLurksBeyond, Restless, MostlyHarmless, Burgermeister,
 
     //Recluses Victory I25 Page 3
     AScarInTime, TrueNeutral, WatchYourBack, SickOfTimeTravel,
 
     //Siren's Call I25 Page 3
-    HotDog, StillStanding, Volatile, WastedResource,
+    HotDog, StillStanding, Volatile, WastedResources,
 
     //Warburg I25 Page 3
     Nuclear, ForciblyEvicted, Disassembled, GameOver, Herculean,

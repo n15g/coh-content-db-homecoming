@@ -1,10 +1,10 @@
 import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 import {BloodyBay} from "../../map/bloody-bay";
 
-export const BurgerMeister: IBadgeData = {
+export const Burgermeister: IBadgeData = {
     type: BadgeType.EXPLORATION,
-    key: "burger-meister",
-    names: [{value: "Burger Meister"}],
+    key: "burgermeister",
+    names: [{value: "Burgermeister"}],
     alignment: ALIGNMENT_ANY,
     mapKey: BloodyBay.key,
     location: [1948.0, -15.0, 1806.0],

@@ -4,7 +4,7 @@ export const FaceOfEvil: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "face-of-evil",
     names: [
-        {value: "Face Of Evil"}
+        {value: "Face of Evil"}
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [

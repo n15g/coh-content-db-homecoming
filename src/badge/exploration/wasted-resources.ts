@@ -1,10 +1,10 @@
 import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 import {SirensCall} from "../../map/sirens-call";
 
-export const WastedResource: IBadgeData = {
+export const WastedResources: IBadgeData = {
     type: BadgeType.EXPLORATION,
-    key: "wasted-resource",
-    names: [{value: "Wasted Resource"}],
+    key: "wasted-resources",
+    names: [{value: "Wasted Resources"}],
     alignment: ALIGNMENT_ANY,
     mapKey: SirensCall.key,
     location: [-324.0, 71.0, 1227.0],
