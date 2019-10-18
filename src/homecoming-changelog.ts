@@ -31,6 +31,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/14 - [Collector] badge has incorrect badge text and link.\n",
 
         "0.5.0":
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/20 - History badges.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/19 - Many badges had slightly different names to their in-game counterparts.\n"
     };
 }
