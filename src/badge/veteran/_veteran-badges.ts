@@ -32,6 +32,7 @@ import {Tenacious} from "./tenacious";
 import {Unshakable} from "./unshakable";
 import {Diligent} from "./diligent";
 import {Persistent} from "./persistent";
+import {Overpowered} from "./overpowered";
 
 export const VeteranBadges: IBadgeData[] = [
     Overleveled,
@@ -66,5 +67,5 @@ export const VeteranBadges: IBadgeData[] = [
     Unshakable,
     Diligent,
     Persistent,
-
+    Overpowered
 ];
