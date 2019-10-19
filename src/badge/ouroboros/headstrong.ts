@@ -10,7 +10,7 @@ export const Headstrong: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 15 and 19 while under a constant Debuff."},
     ],
-    acquisition: "Finish a level 15-19 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 16-19 Flashback story arc while debuffed.",
     links: [
         {title: "Headstrong Badge", href: "https://paragonwiki.com/wiki/Headstrong_Badge"}
     ],

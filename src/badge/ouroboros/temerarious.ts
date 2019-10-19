@@ -10,7 +10,7 @@ export const Temerarious: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 46 and 50 while under a constant Debuff."},
     ],
-    acquisition: "Finish a level 46-50 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 46-50 Flashback story arc while debuffed.",
     links: [
         {title: "Temerarious Badge", href: "https://paragonwiki.com/wiki/Temerarious_Badge"}
     ],

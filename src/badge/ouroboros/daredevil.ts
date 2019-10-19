@@ -10,7 +10,7 @@ export const Daredevil: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 25 and 29 while under a constant Debuff."},
     ],
-    acquisition: "Finish a level 25-29 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 25-29 Flashback story arc while debuffed.",
     links: [
         {title: "Daredevil Badge", href: "https://paragonwiki.com/wiki/Daredevil_Badge"}
     ],

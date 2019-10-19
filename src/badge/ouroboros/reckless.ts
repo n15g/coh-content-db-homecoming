@@ -10,7 +10,7 @@ export const Reckless: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 40 and 45 while under a constant Debuff."},
     ],
-    acquisition: "Finish a level 40-45 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 40-45 Flashback story arc while debuffed.",
     links: [
         {title: "Reckless Badge", href: "https://paragonwiki.com/wiki/Reckless_Badge"}
     ],

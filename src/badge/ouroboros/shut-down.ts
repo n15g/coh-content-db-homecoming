@@ -10,7 +10,7 @@ export const ShutDown: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 15 and 19 while not using any Travel Power Pools."},
     ],
-    acquisition: "Complete a level 15-19 Flashback arc using no travel powers.",
+    acquisition: "Complete a level 16-19 Flashback arc using no travel powers.",
     links: [
         {title: "Shut Down Badge", href: "https://paragonwiki.com/wiki/Shut_Down_Badge"}
     ],

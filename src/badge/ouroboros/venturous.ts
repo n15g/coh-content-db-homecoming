@@ -10,7 +10,7 @@ export const Venturous: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 1 and 15 while under a constant Debuff."},
     ],
-    acquisition: "Finish a level 1-15 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 1-15 Flashback story arc while debuffed.",
     links: [
         {title: "Venturous Badge", href: "https://paragonwiki.com/wiki/Venturous_Badge"}
     ],
