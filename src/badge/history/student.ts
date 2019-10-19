@@ -26,7 +26,7 @@ export const Student: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: AtlasPark.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [-1150.0, -8.0, -172.0],
+            location: [-1086.0, -17.0, -198.0],
             inscription: `In 1937, this park was host to many a candlelight vigil in support of Maiden Justice, who was facing down a civil suit brought by some thugs she had apprehended, who claimed her actions were illegal. Citizens from around the city would gather here in support of the proposed Citizen Crime Fighting Act. The candles symbolized the heroes of the city, those bright lights who beat away the darkness.`,
             notes: `This plaque is in [map:${AtlasPark.key}], 107 yards south of the Hyperion Way marker.`,
             vidiotMapKey: "2"
@@ -36,7 +36,7 @@ export const Student: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: AtlasPark.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [1330.0, 9.0, 418.0],
+            location: [1200.0, 4.0, 384.0],
             inscription: `On January 6th, 1937, Maiden Justice of the Freedom Phalanx arrested a group of violent thugs at this location. Although Maiden Justice was able to prevent the thugs from torching the building, the perpetrators were released by policed on the grounds that the arrest had not been legally sanctioned. The public outcry was immediate. Politicians put their heads together and the Citizen Crime Fighting Act was born.`,
             notes: `This plaque is [map:${AtlasPark.key}], 179 yards northeast of the Downside marker.`,
             vidiotMapKey: "3"
