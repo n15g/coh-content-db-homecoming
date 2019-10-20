@@ -463,6 +463,9 @@ export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
     Lobbyist, Hungry, Imploding, Ghoulish,
 
+    //Bloody Bay I25 Page 3
+    WhatLurksBeyond, Burgermeister, MostlyHarmless, Restless,
+
     //Cap au Diable Pt1
     Sparky, MediaJunky, Egghead, Steamed, SweetTooth,
 
@@ -478,14 +481,20 @@ export const ExplorationBadges: IBadgeData[] = [
     //Port Oakes Pt1
     ScurvyDog, WashedUp, PowderMonkey, Driller,
 
-    //Sharkhead Isle Pt1
-    RazorToothed, ForgedByHellfire, FreakOfNature, PitViper,
-
     //Recluse's Victory
     Globetrotter, Ragnarok, TemporalFighter, LastStand,
 
+    //Recluses Victory I25 Page 3
+    AScarInTime, TrueNeutral, SickOfTimeTravel, WatchYourBack,
+
+    //Sharkhead Isle Pt1
+    RazorToothed, ForgedByHellfire, FreakOfNature, PitViper,
+
     //Siren's Call
     Hangman, Politician, BroadShoulders, Piratical,
+
+    //Siren's Call I25 Page 3
+    WastedResources, HotDog, StillStanding, Volatile,
 
     //St. Martial Pt1
     DeucesWild, Paroled, Stonekeeper, CamelSnot,
@@ -496,11 +505,11 @@ export const ExplorationBadges: IBadgeData[] = [
     //Warburg
     WeaponInspector, TunnelRat, Triumphant,
 
+    //Warburg I25 Page 3
+    Disassembled,  ForciblyEvicted, Herculean, Nuclear, GameOver,
+
     //Mayhem Missions
     GlobalGuardian, KingMaker, RoadRaged, SteelWorker, Revolutionary, TalonOfTalos, Brickhouse, Libertarian, GateCloser,
-
-    //Faultline Pt1
-    EscapeArtist, DrownedRat, OldFashioned, EggHunter,
 
     //Safeguard Missions
     HeartOfTheCity, KingsRighteousness, CourageDriven, FreedomsDefender, HonorableCaptain, TalosMight, Cornerstone, FoundersProtector, Gatekeeper,
@@ -514,13 +523,13 @@ export const ExplorationBadges: IBadgeData[] = [
     //The Abyss Pt1
     Reborn, Geneticist,
 
-    //Rikti War Zone
-    VanguardOperative, Trespasser, Lifesaver, BaseJumper, Homewrecker, Luscious, JunkyardDog, Unabashed,
+    //Rikti War Zone & Rikti Crash Site
+    VanguardOperative, Trespasser, Powerful, Lifesaver, UnderFire, BaseJumper, Homewrecker, Luscious, JunkyardDog, Scarred, Asunder, Unabashed, Eyewitness,
 
     //Ouroboros
     Chrononaut,
 
-    //Cimerora
+    //Cimerora Pt 1
     DepthsOfTime, BattleHardened,
 
     //Midnighter Club
@@ -535,23 +544,20 @@ export const ExplorationBadges: IBadgeData[] = [
     //Port Oakes Pt2
     LongWalk, BigSpider, CommutersWoe, HiddenGetaway,
 
-    //Nerva Archipelago Pt2
-    UnethicalTourist, BlindEye, Soother,
-
-    //St. Martial Pt2
-    DeadMansTree, SocialWorker, InfamousRubble, Showstopper,
-
     //Cap au Diable Pt2
     DoomSayer, MasterOfScience, CircleGazer,
 
     //Sharkhead Isle Pt2
     SkyChaser, UnwelcomeGuest, SkyTrader, CarpingTheDiem,
 
+    //Nerva Archipelago Pt2
+    UnethicalTourist, BlindEye, Soother,
+
+    //St. Martial Pt2
+    DeadMansTree, SocialWorker, InfamousRubble, Showstopper,
+
     //Grandville Pt2
     PassingFab, ImageCrasher, LineHolder, GutterBait,
-
-    //Atlas Part Pt1
-    EdgeOfChaos, Observant,
 
     //The Hollows Pt1
     GraffitiCommunicator, CircleSeeker, Ironic,
@@ -586,6 +592,9 @@ export const ExplorationBadges: IBadgeData[] = [
     //Peregrine Island
     UseMightForRight, CauseForConcern, GeneticallyAltered, RiktiGoneWild, ShadesOfArachnos, AllSeeing, DarkOmen,
 
+    //Hero One Memorial Badge
+    TriedAndTrue,
+
     //Nova Praetoria
     Ambitious, CitizenCole, CivicMinded, GuardiansOfJustice, IntoTheWild, Technophile, UnCivilSociety, OnTheWaterfront,
 
@@ -609,12 +618,6 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Imperial City Pt2
     GoingRouge,
-
-    //The Abyss Pt2
-    HereBeDragons, CagedBeast, NoEscape, HamidonsIre, TheTreeOfWoe, AbyssalGaze,
-
-    //Monster Island
-    MonsterIslander, TheRoarOfTheBeast, RiktiMonkeyIsland, MonstersPlaythings, DarkGarden, GrimFandango, MisfitMonstrosity, MonsterFactory,
 
     //Perez Park Pt1
     NebulasMemory, BloodMoss, OpheliasFinalScene,
@@ -658,11 +661,20 @@ export const ExplorationBadges: IBadgeData[] = [
     //The Storm Palace
     CourtingMadness, AcolyteOfAnger, MaliceAforethought, Tormented, HateMachine, FistOfFury, EveOfDestruction, LordOfStorms,
 
+    //The Abyss Pt2
+    HereBeDragons, CagedBeast, NoEscape, HamidonsIre, TheTreeOfWoe, AbyssalGaze,
+
+    //Monster Island
+    MonsterIslander, TheRoarOfTheBeast, RiktiMonkeyIsland, MonstersPlaythings, DarkGarden, GrimFandango, MisfitMonstrosity, MonsterFactory,
+
     //Abandoned Sewers Trial
     HeadOfTheHydra,
 
-    //Atlas Park Pt2
-    Undefeated, SilentSentinel, HeroCorpsInsider, Patriot, TopDog, Freedom,
+    //Atlas Park
+    Undefeated, SilentSentinel, HeroCorpsInsider, Patriot, TopDog, Freedom, EdgeOfChaos, Observant,
+
+    //Echo: Atlas Park
+    Rookie, Trustworthy, Knowledgeable, CityTraveler, OutOfHarmsWay, Condemned, Resilient, Virtuous,
 
     //Black Shroud Dimension
     Shrouded,
@@ -683,7 +695,16 @@ export const ExplorationBadges: IBadgeData[] = [
     CreyFish, Unspoiled,
 
     //Faultline Pt2
-    Undammed,
+    Undammed, EscapeArtist, DrownedRat, OldFashioned,
+
+    //Faultline I25
+    Riveting, Upcycled, RockBottom,
+
+    //Faultline Pt3
+    EggHunter,
+
+    //Echo: Faultline I25
+    Newsman, FaultlessMystic, Apex, Forsaken, Pristine, ClaimDenied, SpareParts, DugTooDeep,
 
     //Founders' Falls Pt2
     Foggy, Chaotician,
@@ -708,6 +729,9 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Perez Park Pt2
     Territorial, Avatar, AroundTheBendis, DocWhedon, JusticeAvenger,
+
+    //Echo: Rikti Crash Site, Pt 2
+    Ace,
 
     //Skyway City Pt2
     Purifier, Solace, Dauntless, HealingNode,
@@ -736,33 +760,10 @@ export const ExplorationBadges: IBadgeData[] = [
     //Night Ward
     NocturnalPilgrim, HappyCamper, HouseHunter, AbandonedSoul, DeadButDreaming, FollowTheLight, Monolithic, Stargazer,
 
-    //Bloody Bay I25 Page 3
-    WhatLurksBeyond, Restless, MostlyHarmless, Burgermeister,
-
-    //Recluses Victory I25 Page 3
-    AScarInTime, TrueNeutral, WatchYourBack, SickOfTimeTravel,
-
-    //Siren's Call I25 Page 3
-    HotDog, StillStanding, Volatile, WastedResources,
-
-    //Warburg I25 Page 3
-    Nuclear, ForciblyEvicted, Disassembled, GameOver, Herculean,
-
-    //Faultline I25
-    Upcycled, Riveting, RockBottom,
-
-    //Echo: Faultline I25
-    Newsman, FaultlessMystic, Apex, Forsaken, Pristine, ClaimDenied, SpareParts, DugTooDeep,
-
     //Echo: Rikti Crash Site I25
-    Ace, Powerful, UnderFire, Scarred, Asunder, Eyewitness, CommunicationsSpecialist, Shielded,
+    CommunicationsSpecialist, Shielded,
 
     //Croatoa Pt2
     GrimWanderer, Spiritual, Ensorcelled,
 
-    //Echo: Atlas Park
-    Trustworthy, Knowledgeable, Virtuous, Rookie, Condemned, Resilient, OutOfHarmsWay, CityTraveler,
-
-    //Hero One Memorial Badge
-    TriedAndTrue
 ];
