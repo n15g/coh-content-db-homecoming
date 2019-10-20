@@ -47,8 +47,6 @@ export const AEBadges: IBadgeData[] = [
     AmongFriends,
     Heroic,
     Villainous,
-    Cunning,
-    WalksTheLine,
     Workaholic,
     VirtualVictim,
     Payoff,
@@ -58,5 +56,7 @@ export const AEBadges: IBadgeData[] = [
     VirtualExtractor,
     Destructive,
     VirtualDestruction,
-    Assassin
+    Assassin,
+    WalksTheLine,
+    Cunning
 ];
