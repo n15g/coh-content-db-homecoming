@@ -7,7 +7,7 @@ export const AScarInTime: IBadgeData = {
     names: [{value: "A Scar in Time"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ReclusesVictory.key,
-    location: [552.3, 74.3, 1415.9],
+    location: [552.3, 74.3, -1415.9],
     links: [
         {title: "New PvP Exploration Badge List", href: "https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/"}
     ],
