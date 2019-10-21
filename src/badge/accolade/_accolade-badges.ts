@@ -154,7 +154,6 @@ export const AccoladeBadges: IBadgeData[] = [
     Watchman,
     HellAndBack,
     Traveler,
-    Vigilant,
     PoliceChief,
     SecurityChief,
     Traveler,
@@ -174,7 +173,6 @@ export const AccoladeBadges: IBadgeData[] = [
     AntiArachnosActivist,
     BlockadeRunner,
     MasterArchitect,
-    FashionVictim,
     MissionEngineer,
     TheConstant,
     VivaPraetoria,
@@ -250,10 +248,8 @@ export const AccoladeBadges: IBadgeData[] = [
     AgentOfChaos,
     TemperedThroughFire,
     Meticulous,
+    FashionVictim,
     ArenaAllStar,
-
-    //Tailor 50m
-
     BugHunter,
     VIP,
     ReceivedTheAtlasMedallion,
