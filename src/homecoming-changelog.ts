@@ -41,5 +41,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/24 - Pursuer / Elusive is not actually obtainable at present\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/27 - [Epicenter] and [Master Plumber] have incorrect map references.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/25 - [A Scar in Time] has the wrong location.\n",
+
+        "1.0.0":
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/4 - Correct in-game badge ordering.\n"
     };
 }
