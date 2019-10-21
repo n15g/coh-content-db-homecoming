@@ -80,8 +80,6 @@ import {BronzeMedalist} from "./bronze-medalist";
 
 
 export const OuroborosBadges: IBadgeData[] = [
-    PraetorianTourist,
-
     AllForOneOneForAll,
     DividedMastery,
     ProportionalSupremacy,
@@ -168,5 +166,7 @@ export const OuroborosBadges: IBadgeData[] = [
     Repairman,
     Overhauler,
     TimeFixer,
-    OuroborosMender
+    OuroborosMender,
+
+    PraetorianTourist
 ];
