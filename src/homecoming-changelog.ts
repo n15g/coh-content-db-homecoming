@@ -43,6 +43,9 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/25 - [A Scar in Time] has the wrong location.\n",
 
         "1.0.0":
-            "* https://github.com/n15g/coh-content-db-homecoming/issues/4 - Correct in-game badge ordering.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/4 - Correct in-game badge ordering.\n",
+
+        "1.0.1":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/29 - A couple of accolades were out of order.\n"
     };
 }
