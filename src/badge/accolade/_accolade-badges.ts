@@ -52,7 +52,6 @@ import {FalseImage} from "./false-image";
 import {FashionVictim} from "./fashion-victim";
 import {FaultlineFinder} from "./faultline-finder";
 import {FieldCrafter} from "./field-crafter";
-import {FlamesOfPrometheus} from "./flames-of-prometheus";
 import {ForceOfJustice} from "./force-of-justice";
 import {FreeAmongTheDead} from "./free-among-the-dead";
 import {Fwoosh} from "./fwoosh";
@@ -266,6 +265,5 @@ export const AccoladeBadges: IBadgeData[] = [
     ThornUsurper,
     DestroyerOfDespair,
     GeasOfTheKindOnes,
-    Chronomaster,
-    FlamesOfPrometheus,
+    Chronomaster
 ];
