@@ -47,6 +47,7 @@ export class HomecomingChangelog implements IServerGroupData {
 
         "1.0.1":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/29 - A couple of accolades were out of order.\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/issues/30 - Begone FoP - The not-actually-a-real-badge [Flames of Prometheus] has been removed."
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/30 - Begone FoP - The not-actually-a-real-badge [Flames of Prometheus] has been removed." +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/31 - Tanker is missing from AT list."
     };
 }

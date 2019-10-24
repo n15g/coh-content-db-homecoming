@@ -29,6 +29,7 @@ export class Homecoming implements IServerGroupData {
         {key: "peacebringer", name: "Peacebringer"},
         {key: "scrapper", name: "Scrapper"},
         {key: "sentinel", name: "Sentinel"},
+        {key: "tanker", name: "Tanker"},
         {key: "warshade", name: "Warshade"},
     ];
 
