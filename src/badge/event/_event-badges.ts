@@ -80,7 +80,6 @@ import {GiftGetter} from "./gift-getter";
 import {Passport} from "./passport";
 import {ANemesisPlot} from "./a-nemesis-plot";
 import {Arriviste} from "./arriviste";
-import {DefenderOfPrimalEarth} from "../achievement/defender-of-primal-earth";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -163,6 +162,5 @@ export const EventBadges: IBadgeData[] = [
     ThePerfectThief,
     Roleplayer,
     Passport,
-    DefenderOfPrimalEarth,
     ANemesisPlot,
 ];
