@@ -152,7 +152,6 @@ export const AccoladeBadges: IBadgeData[] = [
     FieldCrafter,
     Watchman,
     HellAndBack,
-    Traveler,
     PoliceChief,
     SecurityChief,
     Traveler,
