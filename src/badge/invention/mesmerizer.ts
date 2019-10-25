@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Mesmerizer: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "mesmerizer",
+    setTitleId: 779,
     names: [{value: "Mesmerizer"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],

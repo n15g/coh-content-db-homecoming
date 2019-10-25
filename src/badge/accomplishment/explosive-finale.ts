@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const ExplosiveFinale: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "explosive-finale",
+    setTitleId: 1586,
     names: [
         {value: "Explosive Finale"}
     ],

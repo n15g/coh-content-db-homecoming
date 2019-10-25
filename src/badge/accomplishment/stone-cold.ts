@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const StoneCold: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "stone-cold",
+    setTitleId: 330,
     names: [
         {value: "Stone Cold"}
     ],

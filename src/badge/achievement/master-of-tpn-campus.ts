@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterofTPNCampus: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-tpn-campus",
+    setTitleId: 2077,
     names: [
         {value: "Master of TPN Campus"}
     ],

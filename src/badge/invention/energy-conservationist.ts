@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const EnergyConservationist: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "energy-conservationist",
+    setTitleId: 780,
     names: [{value: "Energy Conservationist"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Endurance Modification and Endurance Reduction."}],

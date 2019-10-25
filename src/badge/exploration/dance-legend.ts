@@ -4,6 +4,7 @@ import {SteelCanyon} from "../../map/steel-canyon";
 export const DanceLegend: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "dance-legend",
+    setTitleId: 1530,
     names: [{value: "Dance Legend"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SteelCanyon.key,

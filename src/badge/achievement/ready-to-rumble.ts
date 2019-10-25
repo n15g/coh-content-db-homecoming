@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ReadyToRumble: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "ready-to-rumble",
+    setTitleId: 2222,
     names: [
         {value: "Ready to Rumble"}
     ],

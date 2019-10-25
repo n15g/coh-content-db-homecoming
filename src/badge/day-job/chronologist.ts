@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Chronologist: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "chronologist",
+    setTitleId: 1041,
     names: [
         {value: "Chronologist"},
     ],

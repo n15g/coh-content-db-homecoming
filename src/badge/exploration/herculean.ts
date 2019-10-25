@@ -4,8 +4,10 @@ import {Warburg} from "../../map/warburg";
 export const Herculean: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "herculean",
+    setTitleId: 2428,
     names: [{value: "Herculean"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `From this vantage point you can observe Malta's Hercules Titans as they prepare for deployment.`}],
     mapKey: Warburg.key,
     location: [1955.0, 120.0, -338.0],
     links: [

@@ -4,6 +4,7 @@ import {PeregrineIsland} from "../../map/peregrine-island";
 export const GeneticallyAltered: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "genetically-altered",
+    setTitleId: 1574,
     names: [{value: "Genetically Altered"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PeregrineIsland.key,

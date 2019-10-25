@@ -4,6 +4,7 @@ import {TheStormPalace} from "../../map/the-storm-palace";
 export const CourtingMadness: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "courting-madness",
+    setTitleId: 1854,
     names: [{value: "Courting Madness"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheStormPalace.key,

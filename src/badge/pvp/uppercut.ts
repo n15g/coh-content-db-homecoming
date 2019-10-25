@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Uppercut: IBadgeData = {
     type: BadgeType.PVP,
     key: "uppercut",
+    setTitleId: 579,
     names: [
         {value: "Uppercut"}
     ],

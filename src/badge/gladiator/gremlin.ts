@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Gremlin: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "gremlin",
+    setTitleId: 447,
     names: [
         {value: "Gremlin"}
     ],

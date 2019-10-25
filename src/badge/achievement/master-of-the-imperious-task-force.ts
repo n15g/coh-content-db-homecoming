@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfTheImperiousTaskForce: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-the-imperious-task-force",
+    setTitleId: 1375,
     names: [
         {value: "Master of the Imperious Task Force"}
     ],

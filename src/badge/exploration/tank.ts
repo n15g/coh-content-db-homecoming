@@ -4,6 +4,7 @@ import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
 export const Tank: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "tank",
+    setTitleId: 94,
     names: [{value: "Tank"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoGalaxyCity.key,

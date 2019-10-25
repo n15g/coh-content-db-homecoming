@@ -48,8 +48,11 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/29 - A couple of accolades were out of order.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/30 - Begone FoP - The not-actually-a-real-badge [Flames of Prometheus] has been removed.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/31 - Tanker is missing from AT list.\n",
-        "1.0.3":
+
+        "1.1.0":
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/22 - Missing settitle ids.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/21 - Missing Issue 25 badge icons.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/32 - [Defender of Primal Earth] was being loaded twice.\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/issues/34 - [Traveler] was being loaded twice.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/34 - [Traveler] was being loaded twice.\n",
     };
 }

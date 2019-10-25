@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const JusticeAvenger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "justice-avenger",
+    setTitleId: 105,
     names: [
         {type: Alternate.H, value: "Justice Avenger"},
         {type: Alternate.V, value: "Social Climber"}

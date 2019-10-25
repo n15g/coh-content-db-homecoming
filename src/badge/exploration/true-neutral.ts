@@ -4,8 +4,10 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 export const TrueNeutral: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "true-neutral",
+    setTitleId: 2423,
     names: [{value: "True Neutral"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `Vanguard abandoned its Atlas Park outpost in this timeline, not willing to take sides between Freedom Corps and Arachnos. They continue to recruit metahumans of all alignments in their fight against alien threats.`}],
     mapKey: ReclusesVictory.key,
     location: [-0.3, 16.3, 511.9],
     links: [

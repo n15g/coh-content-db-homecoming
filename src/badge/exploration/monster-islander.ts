@@ -5,6 +5,7 @@ import {Grandville} from "../../map/grandville";
 export const MonsterIslander: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "monster-islander",
+    setTitleId: 1868,
     names: [{value: "Monster Islander"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MonsterIsland.key,

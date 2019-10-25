@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfThe5thColumnTaskForce: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-the-5th-column-task-force",
+    setTitleId: 1374,
     names: [
         {value: "Master of the 5th Column Task Force"}
     ],

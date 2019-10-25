@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const SlagPile: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "slag-pile",
+    setTitleId: 468,
     names: [
         {value: "Slag Pile"}
     ],

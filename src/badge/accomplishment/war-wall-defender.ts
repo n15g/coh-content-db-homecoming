@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const WarWallDefender: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "war-wall-defender",
+    setTitleId: 79,
     names: [
         {type: Alternate.H, value: "War Wall Defender"},
         {type: Alternate.V, value: "Saboteur"}

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const BoundForGlory: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "bound-for-glory",
+    setTitleId: 2195,
     names: [
         {value: "Bound for Glory"}
     ],

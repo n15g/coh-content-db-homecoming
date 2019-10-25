@@ -4,6 +4,7 @@ import {FirstWard} from "../../map/first-ward";
 export const ShadowWalker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "shadow-walker",
+    setTitleId: 2053,
     names: [{value: "Shadow Walker"}],
     alignment: ALIGNMENT_ANY,
     mapKey: FirstWard.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const FreedomCracker: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "freedom-cracker",
+    setTitleId: 2013,
     names: [
         {value: "Freedom Cracker"}
     ],

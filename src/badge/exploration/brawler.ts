@@ -4,6 +4,7 @@ import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
 export const Brawler: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "brawler",
+    setTitleId: 93,
     names: [{value: "Brawler"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoGalaxyCity.key,

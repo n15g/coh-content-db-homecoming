@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const TimeFixer: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "time-fixer",
+    setTitleId: 942,
     names: [
         {value: "Time Fixer"},
     ],

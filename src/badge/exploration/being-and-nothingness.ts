@@ -4,6 +4,7 @@ import {CascadeArchipelago} from "../../map/cascade-archipelago";
 export const BeingAndNothingness: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "being-and-nothingness",
+    setTitleId: 1807,
     names: [{value: "Being and Nothingness"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CascadeArchipelago.key,

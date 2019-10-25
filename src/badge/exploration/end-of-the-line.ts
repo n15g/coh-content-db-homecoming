@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const EndOfTheLine: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "end-of-the-line",
+    setTitleId: 1779,
     names: [{value: "End of the Line"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

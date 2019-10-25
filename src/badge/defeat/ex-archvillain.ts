@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const ExArchvillain: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "ex-archvillain",
+    setTitleId: 572,
     names: [
         {type: Alternate.H, value: "Ex-Archvillain"},
         {type: Alternate.V, value: "Archvillain"}

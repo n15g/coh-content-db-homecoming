@@ -4,6 +4,7 @@ import {NervaArchipelago} from "../../map/nerva-archipelago";
 export const PrimalInstinct: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "primal-instinct",
+    setTitleId: 277,
     names: [{value: "Primal Instinct"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: NervaArchipelago.key,

@@ -5,6 +5,7 @@ import {Boomtown} from "../../map/boomtown";
 export const BaumtonAvenger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "baumton-avenger",
+    setTitleId: 1831,
     names: [{value: "Baumton Avenger"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SewerNetwork.key,

@@ -4,6 +4,7 @@ import {KingsRow} from "../../map/kings-row";
 export const WentworthHistoryBuff: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "wentworth-history-buff",
+    setTitleId: 1526,
     names: [{value: "Wentworth History Buff"}],
     alignment: ALIGNMENT_HERO,
     mapKey: KingsRow.key,

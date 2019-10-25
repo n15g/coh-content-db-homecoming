@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const WellInformed: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "well-informed",
+    setTitleId: 1444,
     names: [
         {value: "Well Informed"}
     ],

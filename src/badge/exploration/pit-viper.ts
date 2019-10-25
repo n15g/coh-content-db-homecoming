@@ -4,6 +4,7 @@ import {SharkheadIsle} from "../../map/sharkhead-isle";
 export const PitViper: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "pit-viper",
+    setTitleId: 298,
     names: [{value: "Pit Viper"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: SharkheadIsle.key,

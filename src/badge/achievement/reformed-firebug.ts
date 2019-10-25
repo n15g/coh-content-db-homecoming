@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const ReformedFirebug: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "reformed-firebug",
+    setTitleId: 547,
     names: [
         {type: Alternate.H, value: "Reformed Firebug"},
         {type: Alternate.V, value: "Firebug"}

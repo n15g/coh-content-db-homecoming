@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const SwiftSteel: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "swift-steel",
+    setTitleId: 494,
     names: [
         {value: "Swift Steel"}
     ],

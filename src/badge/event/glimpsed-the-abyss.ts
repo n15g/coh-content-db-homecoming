@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const GlimpsedTheAbyss: IBadgeData = {
     type: BadgeType.EVENT,
     key: "glimpsed-the-abyss",
+    setTitleId: 1020,
     names: [
         {value: "Glimpsed the Abyss"},
     ],

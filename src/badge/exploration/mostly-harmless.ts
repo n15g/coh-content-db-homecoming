@@ -4,8 +4,10 @@ import {BloodyBay} from "../../map/bloody-bay";
 export const MostlyHarmless: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "mostly-harmless",
+    setTitleId: 2413,
     names: [{value: "Mostly Harmless"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `The Shiva fragments that crashed here created little collateral damage. This refinery is completely intact around the impact zone.`}],
     mapKey: BloodyBay.key,
     location: [-192.0, 96.0, 2064.0],
     links: [

@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const Dauntless: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "dauntless",
+    setTitleId: 112,
     names: [{value: "Dauntless"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SkywayCity.key,

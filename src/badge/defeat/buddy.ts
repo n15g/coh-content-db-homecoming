@@ -8,6 +8,8 @@ export const Buddy: IBadgeData = {
         {value: "Buddy"}
     ],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `Even in defeat, Hamidon is a force to contend with. You have cleaned up the mess left behind after Hamidon's demise.`}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/buddy.png"}],
     acquisition: "Defeat 100 Hamidon Buds",
     links: [
         {title: "Buddy Badge", href: "https://paragonwiki.com/wiki/Buddy_Badge"}

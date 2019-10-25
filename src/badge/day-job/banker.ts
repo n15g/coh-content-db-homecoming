@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Banker: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "banker",
+    setTitleId: 1037,
     names: [
         {type: Alternate.H, value: "Banker"},
         {type: Alternate.V, value: "Thief"}

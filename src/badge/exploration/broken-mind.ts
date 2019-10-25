@@ -4,6 +4,7 @@ import {UndergroundImperial} from "../../map/underground-imperial";
 export const BrokenMind: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "broken-mind",
+    setTitleId: 1645,
     names: [{value: "Broken Mind"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundImperial.key,

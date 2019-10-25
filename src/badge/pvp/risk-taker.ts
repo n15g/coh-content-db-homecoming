@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const RiskTaker: IBadgeData = {
     type: BadgeType.PVP,
     key: "risk-taker",
+    setTitleId: 368,
     names: [
         {type: Alternate.H, value: "Risk Taker"},
         {type: Alternate.V, value: "Most Wanted"}

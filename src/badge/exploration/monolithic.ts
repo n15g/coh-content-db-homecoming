@@ -4,6 +4,7 @@ import {NightWard} from "../../map/night-ward";
 export const Monolithic: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "monolithic",
+    setTitleId: 2232,
     names: [{value: "Monolithic"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NightWard.key,

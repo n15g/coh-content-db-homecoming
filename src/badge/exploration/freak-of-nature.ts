@@ -4,6 +4,7 @@ import {SharkheadIsle} from "../../map/sharkhead-isle";
 export const FreakOfNature: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "freak-of-nature",
+    setTitleId: 297,
     names: [{value: "Freak of Nature"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: SharkheadIsle.key,

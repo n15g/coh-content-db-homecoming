@@ -3,12 +3,14 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Enhancer: IBadgeData = {
     type: BadgeType.CONSIGNMENT,
     key: "enhancer",
+    setTitleId: 809,
     names: [
         {value: "Enhancer"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've sold 50 Enhancements on the Auction House."},
+        {type: Alternate.H, value: `You've sold 50 Enhancements on the Consignment House.`},
+        {type: Alternate.V, value: `You've sold 50 Enhancements on the Black Market.`}
     ],
     acquisition: "Sell 50 Enhancements at either Wentworths or the Black Market.",
     links: [

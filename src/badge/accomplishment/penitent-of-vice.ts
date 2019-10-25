@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const PenitentOfVice: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "penitent-of-vice",
+    setTitleId: 334,
     names: [
         {type: Alternate.H, value: "Penitent of Vice"},
         {type: Alternate.V, value: "Paragon of Vice"}

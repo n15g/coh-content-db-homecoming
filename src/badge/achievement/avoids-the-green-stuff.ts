@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const AvoidsTheGreenStuff: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "avoids-the-green-stuff",
+    setTitleId: 1993,
     names: [
         {value: "Avoids the Green Stuff"}
     ],

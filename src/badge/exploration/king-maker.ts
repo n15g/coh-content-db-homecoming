@@ -5,6 +5,7 @@ import {MayhemKingsRow} from "../../map/mayhem-kings-row";
 export const KingMaker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "king-maker",
+    setTitleId: 556,
     names: [{value: "King Maker"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MayhemKingsRow.key,

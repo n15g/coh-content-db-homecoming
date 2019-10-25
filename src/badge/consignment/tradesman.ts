@@ -3,13 +3,15 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Tradesman: IBadgeData = {
     type: BadgeType.CONSIGNMENT,
     key: "tradesman",
+    setTitleId: 812,
     names: [
         {type: Alternate.M, value: "Tradesman"},
         {type: Alternate.F, value: "Tradeswoman"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've sold 100 items on the Auction House."},
+        {type: Alternate.H, value: `You've sold 100 items on the Consignment House.`},
+        {type: Alternate.V, value: `You've sold 100 items on the Black Market.`}
     ],
     acquisition: "100 total sales of any kind on the consignment houses.",
     links: [

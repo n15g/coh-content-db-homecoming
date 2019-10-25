@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const DestroyerOfStrength: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "destroyer-of-strength",
+    setTitleId: 424,
     names: [
         {value: "Destroyer of Strength"}
     ],

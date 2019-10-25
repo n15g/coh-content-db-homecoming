@@ -4,6 +4,7 @@ import {PortOakes} from "../../map/port-oakes";
 export const WashedUp: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "washed-up",
+    setTitleId: 252,
     names: [{value: "Washed Up"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: PortOakes.key,

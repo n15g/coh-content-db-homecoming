@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const VirtualVictim: IBadgeData = {
     type: BadgeType.AE,
     key: "virtual-victim",
+    setTitleId: 1233,
     names: [
         {value: "Virtual Victim"}
     ],

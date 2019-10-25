@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const TheThiefOfMidnight: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "the-thief-of-midnight",
+    setTitleId: 986,
     names: [
         {value: "The Thief of Midnight"}
     ],

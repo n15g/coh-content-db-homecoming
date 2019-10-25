@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const GiftedSpeaker: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "gifted-speaker",
+    setTitleId: 2095,
     names: [
         {value: "Gifted Speaker"}
     ],

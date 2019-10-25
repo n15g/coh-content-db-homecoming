@@ -5,6 +5,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const SewerStalker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sewer-stalker",
+    setTitleId: 1833,
     names: [{value: "Sewer Stalker"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SewerNetwork.key,

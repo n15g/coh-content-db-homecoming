@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Strikebreaker: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "strikebreaker",
+    setTitleId: 336,
     names: [
         {value: "Strikebreaker"}
     ],

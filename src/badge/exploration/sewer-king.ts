@@ -5,6 +5,7 @@ import {KingsRow} from "../../map/kings-row";
 export const SewerKing: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sewer-king",
+    setTitleId: 1832,
     names: [
         {type: Alternate.M, value: "Sewer King"},
         {type: Alternate.F, value: "Sewer Queen"},

@@ -4,6 +4,7 @@ import {RiktiWarZone} from "../../map/rikti-war-zone";
 export const Unabashed: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "unabashed",
+    setTitleId: 758,
     names: [{value: "Unabashed"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,

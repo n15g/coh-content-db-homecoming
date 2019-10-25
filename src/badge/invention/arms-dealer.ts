@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const ArmsDealer: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "arms-dealer",
+    setTitleId: 798,
     names: [{value: "Arms Dealer"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Damage and Knockback."}],

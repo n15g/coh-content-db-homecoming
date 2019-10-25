@@ -4,6 +4,7 @@ import {Faultline} from "../../map/faultline";
 export const Undammed: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "undammed",
+    setTitleId: 118,
     names: [{value: "Undammed"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Faultline.key,

@@ -4,6 +4,7 @@ import {NightWard} from "../../map/night-ward";
 export const HappyCamper: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "happy-camper",
+    setTitleId: 2227,
     names: [{value: "Happy Camper"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NightWard.key,

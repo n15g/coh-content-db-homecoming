@@ -4,6 +4,7 @@ import {Eden} from "../../map/eden";
 export const Unspoiled: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "unspoiled",
+    setTitleId: 141,
     names: [{value: "Unspoiled"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Eden.key,

@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const WalkerOnTheProfaneAscent: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "walker-on-the-profane-ascent",
+    setTitleId: 2183,
     names: [{value: "Walker on the Profane Ascent"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

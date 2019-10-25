@@ -4,6 +4,7 @@ import {CreysFolly} from "../../map/creys-folly";
 export const FreaksFolly: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "freaks-folly",
+    setTitleId: 1795,
     names: [{value: "Freak's Folly"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CreysFolly.key,

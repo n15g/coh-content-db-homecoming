@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const ShardLeaper: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "shard-leaper",
+    setTitleId: 1804,
     names: [{value: "Shard Leaper"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

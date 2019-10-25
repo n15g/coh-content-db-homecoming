@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Troubleshooter: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "troubleshooter",
+    setTitleId: 934,
     names: [
         {value: "Troubleshooter"},
     ],

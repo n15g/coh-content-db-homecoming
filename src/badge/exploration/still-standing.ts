@@ -4,8 +4,10 @@ import {SirensCall} from "../../map/sirens-call";
 export const StillStanding: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "still-standing",
+    setTitleId: 2417,
     names: [{value: "Still Standing"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `This building was shaken to its foundations, but it is still standing... and so are you.`}],
     mapKey: SirensCall.key,
     location: [-325.0, 191.0, -105.0],
     links: [

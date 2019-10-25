@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const WitnessOfOaths: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "witness-of-oaths",
+    setTitleId: 2184,
     names: [{value: "Witness of Oaths"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

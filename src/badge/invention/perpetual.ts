@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Perpetual: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "perpetual",
+    setTitleId: 784,
     names: [{value: "Perpetual"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Endurance Modification and Endurance Reduction."}],

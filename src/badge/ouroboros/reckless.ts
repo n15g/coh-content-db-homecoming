@@ -1,14 +1,16 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Reckless: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "reckless",
+    setTitleId: 875,
     names: [
         {value: "Reckless"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have completed a Task Force/Flashback between level 40 and 45 while under a constant Debuff."},
+        {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 40 and 45 while under a constant Debuff.`},
+        {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 40 and 45 while under a constant Debuff.`}
     ],
     acquisition: "Complete a level 40-45 Flashback story arc while debuffed.",
     links: [

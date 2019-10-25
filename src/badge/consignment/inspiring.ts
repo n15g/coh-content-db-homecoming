@@ -3,12 +3,14 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Inspiring: IBadgeData = {
     type: BadgeType.CONSIGNMENT,
     key: "inspiring",
+    setTitleId: 807,
     names: [
         {value: "Inspiring"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've sold 50 Inspirations on the Auction House."},
+        {type: Alternate.H, value: `You've sold 50 Inspirations on the Consignment House.`},
+        {type: Alternate.V, value: `You've sold 50 Inspirations on the Black Market.`}
     ],
     acquisition: "Sell 50 Inspirations at either Wentworths or the Black Market.",
     links: [

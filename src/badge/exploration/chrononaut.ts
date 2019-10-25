@@ -4,6 +4,7 @@ import {Ouroboros} from "../../map/ouroboros";
 export const Chrononaut: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "chrononaut",
+    setTitleId: 947,
     names: [{value: "Chrononaut"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Ouroboros.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const LordOfWar: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "lord-of-war",
+    setTitleId: 799,
     names: [{value: "Lord of War"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Damage and Knockback."}],

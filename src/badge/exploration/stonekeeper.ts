@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const Stonekeeper: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "stonekeeper",
+    setTitleId: 281,
     names: [{value: "Stonekeeper"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: StMartial.key,

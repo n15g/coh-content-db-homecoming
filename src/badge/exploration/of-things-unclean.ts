@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const OfThingsUnclean: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "of-things-unclean",
+    setTitleId: 2186,
     names: [{value: "Of Things Unclean"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

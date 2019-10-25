@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const TemporalSoldier: IBadgeData = {
     type: BadgeType.PVP,
     key: "temporal-soldier",
+    setTitleId: 569,
     names: [
         {value: "Temporal Soldier"}
     ],

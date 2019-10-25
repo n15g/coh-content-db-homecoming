@@ -4,6 +4,7 @@ import {FoundersFalls} from "../../map/founders-falls";
 export const HamidonsFury: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hamidons-fury",
+    setTitleId: 1561,
     names: [{value: "Hamidon's Fury"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FoundersFalls.key,

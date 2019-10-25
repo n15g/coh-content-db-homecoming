@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const RoomForExpansion: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "room-for-expansion",
+    setTitleId: 1536,
     names: [{value: "Room for Expansion"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SkywayCity.key,

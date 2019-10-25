@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Synchronized: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "synchronized",
+    setTitleId: 1984,
     names: [
         {value: "Synchronized"}
     ],

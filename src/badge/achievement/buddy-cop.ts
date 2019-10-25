@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const BuddyCop: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "buddy-cop",
+    setTitleId: 2203,
     names: [
         {value: "Buddy Cop"}
     ],

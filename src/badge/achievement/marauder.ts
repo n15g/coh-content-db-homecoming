@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Marauder: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
@@ -8,6 +8,10 @@ export const Marauder: IBadgeData = {
         {value: "Marauder"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/deal-damage-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/deal-damage-v.png"}
+    ],
     badgeText: [
         {value: "You have inflicted one hundred thousand points of damage upon your foes."}
     ],

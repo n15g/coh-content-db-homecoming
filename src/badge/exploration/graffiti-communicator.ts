@@ -4,6 +4,7 @@ import {TheHollows} from "../../map/the-hollows";
 export const GraffitiCommunicator: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "graffiti-communicator",
+    setTitleId: 1518,
     names: [{value: "Graffiti Communicator"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHollows.key,

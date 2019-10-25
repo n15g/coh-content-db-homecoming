@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Destroyer: IBadgeData = {
     type: BadgeType.PVP,
     key: "destroyer",
+    setTitleId: 575,
     names: [
         {value: "Destroyer"}
     ],

@@ -4,6 +4,7 @@ import {MercyIsland} from "../../map/mercy-island";
 export const FirstRule: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "first-rule",
+    setTitleId: 1484,
     names: [{value: "First Rule"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MercyIsland.key,

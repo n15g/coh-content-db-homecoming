@@ -4,6 +4,7 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 export const Globetrotter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "globetrotter",
+    setTitleId: 287,
     names: [{value: "Globetrotter"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ReclusesVictory.key,

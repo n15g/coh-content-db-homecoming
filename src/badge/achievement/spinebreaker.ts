@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Spinebreaker: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "spinebreaker",
+    setTitleId: 2164,
     names: [
         {value: "Spinebreaker"}
     ],

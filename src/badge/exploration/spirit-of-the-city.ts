@@ -5,6 +5,7 @@ import {SteelCanyon} from "../../map/steel-canyon";
 export const SpiritOfTheCity: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "spirit-of-the-city",
+    setTitleId: 1829,
     names: [{value: "Spirit of the City"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SewerNetwork.key,

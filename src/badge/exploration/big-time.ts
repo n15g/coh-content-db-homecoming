@@ -4,6 +4,7 @@ import {PocketD} from "../../map/pocket-d";
 export const BigTime: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "big-time",
+    setTitleId: 717,
     names: [{value: "Big Time"}],
     alignment: ALIGNMENT_ANY,
     mapKey: PocketD.key,

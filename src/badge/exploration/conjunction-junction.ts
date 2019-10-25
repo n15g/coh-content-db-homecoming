@@ -5,6 +5,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const ConjunctionJunction: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "conjunction-junction",
+    setTitleId: 131,
     names: [{value: "Conjunction Junction"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TerraVolta.key,

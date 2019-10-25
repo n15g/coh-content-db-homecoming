@@ -4,6 +4,7 @@ import {EchoRiktiCrashSite} from "../../map/echo-rikti-crash-site";
 export const UnderFire: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "under-fire",
+    setTitleId: 751,
     names: [{value: "Under Fire"}],
     alignment: ALIGNMENT_ANY,
     mapKey: EchoRiktiCrashSite.key,

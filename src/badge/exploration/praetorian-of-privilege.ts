@@ -4,6 +4,7 @@ import {ImperialCity} from "../../map/imperial-city";
 export const PraetorianOfPrivilege: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "praetorian-of-privilege",
+    setTitleId: 1633,
     names: [{value: "Praetorian of Privilege"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ImperialCity.key,

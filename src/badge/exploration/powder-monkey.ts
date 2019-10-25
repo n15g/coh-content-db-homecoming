@@ -4,6 +4,7 @@ import {PortOakes} from "../../map/port-oakes";
 export const PowderMonkey: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "powder-monkey",
+    setTitleId: 253,
     names: [{value: "Powder Monkey"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: PortOakes.key,

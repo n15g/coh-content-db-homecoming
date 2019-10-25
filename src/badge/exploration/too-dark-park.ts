@@ -4,6 +4,7 @@ import {EchoDarkAstoria} from "../../map/echo-dark-astoria";
 export const TooDarkPark: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "too-dark-park",
+    setTitleId: 1783,
     names: [{value: "Too Dark Park"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoDarkAstoria.key,

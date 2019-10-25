@@ -8,7 +8,6 @@ import {MercyMissionary} from "../exploration/mercy-missionary";
 import {ParkRanger} from "../exploration/park-ranger";
 import {Seen} from "../exploration/seen";
 import {Seer} from "../exploration/seer";
-import {GoingRouge} from "../exploration/going-rouge";
 
 export const EmperorForADay: IBadgeData = {
     type: BadgeType.ACCOLADE,
@@ -36,7 +35,6 @@ export const EmperorForADay: IBadgeData = {
             {key: MercyMissionary.key, type: BadgePartialType.BADGE, badgeKey: MercyMissionary.key},
             {key: ParkRanger.key, type: BadgePartialType.BADGE, badgeKey: ParkRanger.key},
             {key: Seen.key, type: BadgePartialType.BADGE, badgeKey: Seen.key},
-            {key: Seer.key, type: BadgePartialType.BADGE, badgeKey: Seer.key},
-            {key: GoingRouge.key, type: BadgePartialType.BADGE, badgeKey: GoingRouge.key}
+            {key: Seer.key, type: BadgePartialType.BADGE, badgeKey: Seer.key}
     ]
 };

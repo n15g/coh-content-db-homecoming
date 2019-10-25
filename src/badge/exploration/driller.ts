@@ -4,6 +4,7 @@ import {PortOakes} from "../../map/port-oakes";
 export const Driller: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "driller",
+    setTitleId: 254,
     names: [{value: "Driller"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: PortOakes.key,

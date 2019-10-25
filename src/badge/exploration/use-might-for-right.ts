@@ -4,6 +4,7 @@ import {PeregrineIsland} from "../../map/peregrine-island";
 export const UseMightForRight: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "use-might-for-right",
+    setTitleId: 1572,
     names: [
         {type: Alternate.H, value: "Use Might for Right"},
         {type: Alternate.V, value: "Rookie's Mistake"}

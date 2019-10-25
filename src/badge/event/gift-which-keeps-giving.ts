@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const GiftWhichKeepsGiving: IBadgeData = {
     type: BadgeType.EVENT,
     key: "gift-which-keeps-giving",
+    setTitleId: 2088,
     names: [
         {value: "Gift Which Keeps Giving"},
     ],

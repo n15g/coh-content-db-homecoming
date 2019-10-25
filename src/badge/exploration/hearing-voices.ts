@@ -4,6 +4,7 @@ import {CascadeArchipelago} from "../../map/cascade-archipelago";
 export const HearingVoices: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hearing-voices",
+    setTitleId: 1808,
     names: [{value: "Hearing Voices"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CascadeArchipelago.key,

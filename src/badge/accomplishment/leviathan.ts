@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Leviathan: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "leviathan",
+    setTitleId: 514,
     names: [
         {value: "Leviathan"}
     ],

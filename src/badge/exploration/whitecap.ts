@@ -4,6 +4,7 @@ import {TalosIsland} from "../../map/talos-island";
 export const Whitecap: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "whitecap",
+    setTitleId: 127,
     names: [{value: "Whitecap"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TalosIsland.key,

@@ -4,6 +4,7 @@ import {BloodyBay} from "../../map/bloody-bay";
 export const Hungry: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hungry",
+    setTitleId: 256,
     names: [
         {type: Alternate.H, value: "Hungry"},
         {type: Alternate.V, value: "All Consuming"}

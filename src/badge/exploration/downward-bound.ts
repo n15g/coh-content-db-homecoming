@@ -5,6 +5,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const DownwardBound: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "downward-bound",
+    setTitleId: 1834,
     names: [{value: "Downward Bound"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SewerNetwork.key,

@@ -4,6 +4,7 @@ import {TerraVolta} from "../../map/terra-volta";
 export const Meltdown: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "meltdown",
+    setTitleId: 132,
     names: [{value: "Meltdown"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TerraVolta.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Apocalyptic: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "apocalyptic",
+    setTitleId: 837,
     names: [
         {value: "Apocalyptic"}
     ],

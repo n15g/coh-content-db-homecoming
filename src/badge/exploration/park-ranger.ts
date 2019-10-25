@@ -4,6 +4,7 @@ import {ImperialCity} from "../../map/imperial-city";
 export const ParkRanger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "park-ranger",
+    setTitleId: 1632,
     names: [{value: "Park Ranger"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ImperialCity.key,

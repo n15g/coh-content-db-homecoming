@@ -8,6 +8,7 @@ export const Bounty: IBadgeData = {
         {value: "Bounty"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/bounty.png"}],
     badgeText: [
         {value: "You have held on to a few souvenirs that remind you of your interesting adventures."}
     ],

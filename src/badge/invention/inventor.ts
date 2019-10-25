@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Inventor: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "inventor",
+    setTitleId: 732,
     names: [{value: "Inventor"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have proven your skills as an Inventor at the University."}],

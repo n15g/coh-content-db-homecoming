@@ -5,6 +5,7 @@ import {Grandville} from "../../map/grandville";
 export const HamidonsIre: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hamidons-ire",
+    setTitleId: 1865,
     names: [{value: "Hamidon's Ire"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: TheAbyss.key,

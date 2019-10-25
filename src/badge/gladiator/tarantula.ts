@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Tarantula: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "tarantula",
+    setTitleId: 446,
     names: [
         {value: "Tarantula"}
     ],

@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const WaylonsObserver: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "waylons-observer",
+    setTitleId: 1543,
     names: [{value: "Waylon's Observer"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

@@ -4,6 +4,7 @@ import {UndergroundNeutropolis} from "../../map/underground-neutropolis";
 export const KeepingTheLightsOn: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "keeping-the-lights-on",
+    setTitleId: 1745,
     names: [{value: "Keeping the Lights On"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNeutropolis.key,

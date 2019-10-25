@@ -4,12 +4,14 @@ import {EchoFaultline} from "../../map/echo-faultline";
 export const Newsman: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "newsman",
+    setTitleId: 119,
     names: [
         {type: Alternate.M, value: "Newsman"},
         {type: Alternate.F, value: "Newswoman"},
 
     ],
     alignment: ALIGNMENT_HERO,
+    badgeText: [{value: `The Theodore Knight building was home to many Super Groups in the years before the Rikti War.`}],
     mapKey: EchoFaultline.key,
     location: [1125.0, -26.9, 1296.7],
     notes: "**Moved from [map:faultline] in Issue 25.**\n" +

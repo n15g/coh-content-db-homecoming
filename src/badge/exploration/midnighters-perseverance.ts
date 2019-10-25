@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const MidnightersPerseverance: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "midnighters-perseverance",
+    setTitleId: 1544,
     names: [{value: "Midnighter's Perseverance"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

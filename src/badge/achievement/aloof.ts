@@ -8,6 +8,7 @@ export const Aloof: IBadgeData = {
         {value: "Aloof"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-insp.png"}],
     badgeText: [
         {value: "Word of your accomplishments is spreading, but you don't seem to care much about it."}
     ],

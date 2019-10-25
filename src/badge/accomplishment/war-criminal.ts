@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const WarCriminal: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "war-criminal",
+    setTitleId: 2258,
     names: [
         {value: "War Criminal"}
     ],

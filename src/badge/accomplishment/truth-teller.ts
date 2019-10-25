@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const TruthTeller: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "truth-teller",
+    setTitleId: 2199,
     names: [
         {value: "Truth Teller"}
     ],

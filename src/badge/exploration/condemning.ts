@@ -4,6 +4,7 @@ import {UndergroundImperial} from "../../map/underground-imperial";
 export const Condemning: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "condemning",
+    setTitleId: 1646,
     names: [{value: "Condemning"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundImperial.key,

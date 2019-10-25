@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const InfamousRubble: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "infamous-rubble",
+    setTitleId: 1507,
     names: [{value: "Infamous Rubble"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: StMartial.key,

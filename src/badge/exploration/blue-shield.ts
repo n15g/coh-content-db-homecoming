@@ -4,6 +4,7 @@ import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
 export const BlueShield: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "blue-shield",
+    setTitleId: 92,
     names: [{value: "Blue Shield"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoGalaxyCity.key,

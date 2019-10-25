@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const MayhemsCreator: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "mayhems-creator",
+    setTitleId: 2260,
     names: [
         {value: "Mayhem's Creator"}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const EntrustedWithTheSecret: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "entrusted-with-the-secret",
+    setTitleId: 933,
     names: [
         {value: "Entrusted with the Secret"},
     ],

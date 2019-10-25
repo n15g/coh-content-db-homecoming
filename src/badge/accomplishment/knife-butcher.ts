@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const KnifeButcher: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "knife-butcher",
+    setTitleId: 2190,
     names: [
         {value: "Knife Butcher"}
     ],

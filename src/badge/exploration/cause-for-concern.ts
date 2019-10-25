@@ -4,6 +4,7 @@ import {PeregrineIsland} from "../../map/peregrine-island";
 export const CauseForConcern: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "cause-for-concern",
+    setTitleId: 1573,
     names: [{value: "Cause for Concern"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PeregrineIsland.key,

@@ -4,6 +4,7 @@ import {SewerNetwork} from "../../map/sewer-network";
 export const Plutonian: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "plutonian",
+    setTitleId: 1830,
     names: [{value: "Plutonian"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SewerNetwork.key,

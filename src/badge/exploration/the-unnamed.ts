@@ -4,6 +4,7 @@ import {StrigaIsle} from "../../map/striga-isle";
 export const TheUnnamed: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-unnamed",
+    setTitleId: 1788,
     names: [{value: "The Unnamed"}],
     alignment: ALIGNMENT_HERO,
     mapKey: StrigaIsle.key,

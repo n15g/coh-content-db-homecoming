@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Villainous: IBadgeData = {
     type: BadgeType.AE,
     key: "villainous",
+    setTitleId: 1222,
     names: [
         {value: "Villainous"}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const AvatarSmasher: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "avatar-smasher",
+    setTitleId: 2270,
     names: [
         {value: "Avatar Smasher"}
     ],

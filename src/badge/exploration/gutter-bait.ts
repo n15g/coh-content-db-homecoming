@@ -4,6 +4,7 @@ import {Grandville} from "../../map/grandville";
 export const GutterBait: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "gutter-bait",
+    setTitleId: 1513,
     names: [{value: "Gutter Bait"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: Grandville.key,

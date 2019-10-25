@@ -4,6 +4,7 @@ import {TheAbyss} from "../../map/the-abyss";
 export const HereBeDragons: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "here-be-dragons",
+    setTitleId: 1862,
     names: [{value: "Here Be Dragons"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: TheAbyss.key,

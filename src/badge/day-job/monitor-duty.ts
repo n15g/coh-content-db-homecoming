@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MonitorDuty: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "monitor-duty",
+    setTitleId: 1048,
     names: [
         {value: "Monitor Duty"},
     ],

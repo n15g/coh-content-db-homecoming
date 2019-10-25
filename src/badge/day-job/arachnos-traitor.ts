@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const ArachnosTraitor: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "arachnos-traitor",
+    setTitleId: 1051,
     names: [
         {type: Alternate.H, value: "Arachnos Traitor"},
         {type: Alternate.V, value: "Arachnos Official"}

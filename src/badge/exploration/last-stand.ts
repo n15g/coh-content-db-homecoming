@@ -4,6 +4,7 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 export const LastStand: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "last-stand",
+    setTitleId: 290,
     names: [{value: "Last Stand"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ReclusesVictory.key,

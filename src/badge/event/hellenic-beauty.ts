@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const HellenicBeauty: IBadgeData = {
     type: BadgeType.EVENT,
     key: "hellenic-beauty",
+    setTitleId: 2243,
     names: [
         {value: "Hellenic Beauty"},
     ],

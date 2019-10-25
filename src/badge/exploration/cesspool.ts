@@ -4,6 +4,7 @@ import {MercyIsland} from "../../map/mercy-island";
 export const Cesspool: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "cesspool",
+    setTitleId: 263,
     names: [{value: "Cesspool"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MercyIsland.key,

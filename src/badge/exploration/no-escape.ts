@@ -4,6 +4,7 @@ import {TheAbyss} from "../../map/the-abyss";
 export const NoEscape: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "no-escape",
+    setTitleId: 1864,
     names: [{value: "No Escape"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: TheAbyss.key,

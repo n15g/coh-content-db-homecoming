@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Despoiler: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "despoiler",
+    setTitleId: 762,
     names: [{value: "Despoiler"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],

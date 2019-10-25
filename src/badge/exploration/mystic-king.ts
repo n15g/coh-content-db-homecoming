@@ -4,6 +4,7 @@ import {KingsRow} from "../../map/kings-row";
 export const MysticKing: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "mystic-king",
+    setTitleId: 98,
     names: [
         {type: Alternate.M, value: "Mystic King"},
         {type: Alternate.F, value: "Mystic Queen"}

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const IsThereADoctorInTheHouse: IBadgeData = {
     type: BadgeType.EVENT,
     key: "is-there-a-doctor-in-the-house",
+    setTitleId: 2085,
     names: [
         {value: "Is There a Doctor in the House?"},
     ],

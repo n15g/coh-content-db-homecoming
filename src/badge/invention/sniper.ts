@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Sniper: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "sniper",
+    setTitleId: 788,
     names: [{value: "Sniper"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Recharge Rate and Interrupt Time."}],

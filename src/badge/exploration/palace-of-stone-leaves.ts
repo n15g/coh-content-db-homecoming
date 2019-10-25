@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const PalaceOfStoneLeaves: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "palace-of-stone-leaves",
+    setTitleId: 2180,
     names: [{value: "Palace of Stone Leaves"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

@@ -4,6 +4,7 @@ import {RiktiWarZone} from "../../map/rikti-war-zone";
 export const Homewrecker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "homewrecker",
+    setTitleId: 753,
     names: [{value: "Homewrecker"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,

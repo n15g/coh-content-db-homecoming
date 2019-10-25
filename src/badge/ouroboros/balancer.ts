@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Balancer: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "balancer",
+    setTitleId: 938,
     names: [
         {value: "Balancer"},
     ],

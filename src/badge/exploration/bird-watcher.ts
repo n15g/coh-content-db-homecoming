@@ -4,6 +4,7 @@ import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
 export const BirdWatcher: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "bird-watcher",
+    setTitleId: 91,
     names: [{value: "Bird Watcher"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoGalaxyCity.key,

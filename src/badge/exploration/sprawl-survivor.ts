@@ -5,6 +5,7 @@ import {SewerNetwork} from "../../map/sewer-network";
 export const SprawlSurvivor: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sprawl-survivor",
+    setTitleId: 1824,
     names: [{value: "Sprawl Survivor"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AbandonedSewerNetwork.key,

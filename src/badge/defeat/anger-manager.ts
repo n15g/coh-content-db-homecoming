@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const AngerManager: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "anger-manager",
+    setTitleId: 554,
     names: [
         {type: Alternate.H, value: "Anger Manager"},
         {type: Alternate.V, value: "Vandal"}

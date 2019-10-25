@@ -4,6 +4,7 @@ import {MercyIsland} from "../../map/mercy-island";
 export const Chum: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "chum",
+    setTitleId: 265,
     names: [{value: "Chum"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MercyIsland.key,

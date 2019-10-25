@@ -4,6 +4,7 @@ import {Cimerora} from "../../map/cimerora";
 export const DepthsOfTime: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "depths-of-time",
+    setTitleId: 990,
     names: [{value: "Depths of Time"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Cimerora.key,

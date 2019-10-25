@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const HydraProtean: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "hydra-protean",
+    setTitleId: 480,
     names: [
         {value: "Hydra Protean"}
     ],

@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const WarriorAtTheGate: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "warrior-at-the-gate",
+    setTitleId: 1643,
     names: [{value: "Warrior at the Gate"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNova.key,

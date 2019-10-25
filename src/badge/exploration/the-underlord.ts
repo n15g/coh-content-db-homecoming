@@ -5,6 +5,7 @@ import {SewerNetwork} from "../../map/sewer-network";
 export const TheUnderlord: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-underlord",
+    setTitleId: 1825,
     names: [
         {type: Alternate.M, value: "The Underlord"},
         {type: Alternate.F, value: "The Underlady"},

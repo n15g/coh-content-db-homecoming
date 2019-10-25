@@ -4,6 +4,7 @@ import {NightWard} from "../../map/night-ward";
 export const AbandonedSoul: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "abandoned-soul",
+    setTitleId: 2229,
     names: [{value: "Abandoned Soul"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NightWard.key,

@@ -4,6 +4,7 @@ import {PortOakes} from "../../map/port-oakes";
 export const HiddenGetaway: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hidden-getaway",
+    setTitleId: 1490,
     names: [{value: "Hidden Getaway"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: PortOakes.key,

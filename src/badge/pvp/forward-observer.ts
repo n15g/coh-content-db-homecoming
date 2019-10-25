@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ForwardObserver: IBadgeData = {
     type: BadgeType.PVP,
     key: "forward-observer",
+    setTitleId: 365,
     names: [
         {value: "Forward Observer"}
     ],

@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const BarrierHolder: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "barrier-holder",
+    setTitleId: 1540,
     names: [{value: "Barrier Holder"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Frenzied: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "frenzied",
+    setTitleId: 1457,
     names: [
         {value: "Frenzied"}
     ],

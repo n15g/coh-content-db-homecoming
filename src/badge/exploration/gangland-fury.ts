@@ -4,6 +4,7 @@ import {TheHollows} from "../../map/the-hollows";
 export const GanglandFury: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "gangland-fury",
+    setTitleId: 199,
     names: [{value: "Gangland Fury"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHollows.key,

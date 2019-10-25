@@ -4,6 +4,7 @@ import {TerraVolta} from "../../map/terra-volta";
 export const HighVoltage: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "high-voltage",
+    setTitleId: 1841,
     names: [{value: "High Voltage!"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TerraVolta.key,

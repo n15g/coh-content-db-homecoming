@@ -4,6 +4,7 @@ import {SharkheadIsle} from "../../map/sharkhead-isle";
 export const UnwelcomeGuest: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "unwelcome-guest",
+    setTitleId: 1497,
     names: [{value: "Unwelcome Guest"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: SharkheadIsle.key,

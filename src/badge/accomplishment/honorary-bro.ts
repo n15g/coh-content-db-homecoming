@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const HonoraryBro: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "honorary-bro",
+    setTitleId: 2267,
     names: [
         {type: Alternate.M, value: "Honorary Bro"},
         {type: Alternate.F, value: "Honorary Sis"}

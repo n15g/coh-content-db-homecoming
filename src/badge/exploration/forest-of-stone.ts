@@ -5,6 +5,7 @@ import {Eden} from "../../map/eden";
 export const ForestOfStone: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "forest-of-stone",
+    setTitleId: 1853,
     names: [{value: "Forest of Stone"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

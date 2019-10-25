@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const MysticallyPowered: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "mystically-powered",
+    setTitleId: 783,
     names: [{value: "Mystically Powered"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Endurance Modification and Endurance Reduction."}],

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const HolidaySpirit: IBadgeData = {
     type: BadgeType.EVENT,
     key: "holiday-spirit",
+    setTitleId: 521,
     names: [
         {type: Alternate.H, value: "Holiday Spirit"},
         {type: Alternate.V, value: "Scrooge"}

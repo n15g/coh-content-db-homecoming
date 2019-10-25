@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const Charmer: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "charmer",
+    setTitleId: 69,
     names: [
         {value: "Charmer"}
     ],

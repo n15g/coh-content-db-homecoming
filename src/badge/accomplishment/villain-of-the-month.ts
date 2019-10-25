@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const VillainOfTheMonth: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "villain-of-the-month",
+    setTitleId: 2259,
     names: [
         {value: "Villain of the Month"}
     ],

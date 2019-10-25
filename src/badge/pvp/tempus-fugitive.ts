@@ -9,6 +9,11 @@ export const TempusFugitive: IBadgeData = {
         {type: Alternate.V, value: "Destroyer of Worlds"}
     ],
     alignment: ALIGNMENT_ANY,
+    badgeText: [
+        {type: Alternate.H, value: `You have battled Arachnos in a possible future and prevented Recluse's Victory.`},
+        {type: Alternate.V, value: `You have fought the future and won, making Recluse's Victory that much more likely.`}
+    ],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/tempus-fugitive.png"}],
     acquisition: "(Issue 25) Win Recluse's Victory with 1000 temporal points.",
     links: [
         {title: "Tempus Fugitive Badge", href: "https://paragonwiki.com/wiki/Tempus_Fugitive_Badge"},

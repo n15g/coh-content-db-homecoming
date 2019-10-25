@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Justiciar: IBadgeData = {
     type: BadgeType.PVP,
     key: "justiciar",
+    setTitleId: 586,
     names: [
         {type: Alternate.H, value: "Justiciar"},
         {type: Alternate.V, value: "Fallen Justiciar"}

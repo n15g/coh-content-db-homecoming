@@ -4,6 +4,7 @@ import {UndergroundNeutropolis} from "../../map/underground-neutropolis";
 export const ReadyForAnything: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ready-for-anything",
+    setTitleId: 1746,
     names: [{value: "Ready for Anything"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNeutropolis.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfLadyGreysTaskForce: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-lady-greys-task-force",
+    setTitleId: 1584,
     names: [
         {value: "Master of Lady Grey's Task Force"}
     ],

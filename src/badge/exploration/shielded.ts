@@ -4,8 +4,10 @@ import {EchoRiktiCrashSite} from "../../map/echo-rikti-crash-site";
 export const Shielded: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "shielded",
+    setTitleId: 2329,
     names: [{value: "Shielded"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `Despite its crash landing, the Rikti mother ship's shields continue to function, providing the stranded Rikti with a relatively safe haven.`}],
     mapKey: EchoRiktiCrashSite.key,
     location: [2934.4, -10.3, -6249.4],
     notes: "Around 11:57 on the clock if the ship is the clock face, right up against the shield.",

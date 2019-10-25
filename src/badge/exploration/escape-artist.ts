@@ -1,15 +1,19 @@
-import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 import {Faultline} from "../../map/faultline";
 
 export const EscapeArtist: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "escape-artist",
+    setTitleId: 636,
     names: [{value: "Escape Artist"}],
     alignment: ALIGNMENT_HERO,
+    badgeText: [
+        {type: Alternate.H, value: `Dr. Hank Neville, foremost geologist, was attacked by Arachnos, but escaped with the help of Freedom Corps troops.`},
+        {type: Alternate.V, value: `This is the spot where geologist Dr. Hank Neville narrowly escaped Arachnos capture, aided by interfering Freedom Corps troops.`}
+    ],
     mapKey: Faultline.key,
     location: [-679.0, -167.0, -208.0],
-    badgeText: [{value: "The dread pirate Randall set up this lighthouse to lure ships to their demise."}],
-    notes: "The Piratical Badge marker is located in a grassy area close the water on the villain base island west of the base in Siren's Call.",
+    notes: "In [map:${Faultline.key}], halfway between Freight Lifts B and C, there is a crevasse to the north. The badge marker is at the end of the bottom of that crevasse.",
     links: [
         {title: "Escape Artist Badge", href: "https://paragonwiki.com/wiki/Escape_Artist_Badge"},
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}

@@ -4,6 +4,7 @@ import {SharkheadIsle} from "../../map/sharkhead-isle";
 export const RazorToothed: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "razor-toothed",
+    setTitleId: 295,
     names: [{value: "Razor Toothed"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: SharkheadIsle.key,

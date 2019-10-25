@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Alterist: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "alterist",
+    setTitleId: 937,
     names: [
         {value: "Alterist"},
     ],

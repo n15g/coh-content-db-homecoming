@@ -4,6 +4,7 @@ import {Brickstown} from "../../map/brickstown";
 export const Mystic: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "mystic",
+    setTitleId: 136,
     names: [{value: "Mystic"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Brickstown.key,

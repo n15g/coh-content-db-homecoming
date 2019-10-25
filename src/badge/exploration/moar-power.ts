@@ -4,6 +4,7 @@ import {Neutropolis} from "../../map/neutropolis";
 export const MoarPower: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "moar-power",
+    setTitleId: 1727,
     names: [{value: "Moar Power"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Neutropolis.key,

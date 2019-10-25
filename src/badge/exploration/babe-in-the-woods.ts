@@ -4,6 +4,7 @@ import {TheHive} from "../../map/the-hive";
 export const BabeInTheWoods: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "babe-in-the-woods",
+    setTitleId: 1848,
     names: [{value: "Babe in the Woods"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

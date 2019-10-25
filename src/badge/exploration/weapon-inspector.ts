@@ -4,6 +4,7 @@ import {Warburg} from "../../map/warburg";
 export const WeaponInspector: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "weapon-inspector",
+    setTitleId: 291,
     names: [
         {type: Alternate.H, value: "Weapon Inspector"},
         {type: Alternate.V, value: "Weapon of Mass Destruction"}

@@ -4,6 +4,7 @@ import {BlackShroudDimension} from "../../map/black-shroud-dimension";
 export const Shrouded: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "shrouded",
+    setTitleId: 173,
     names: [
         {type: Alternate.H, value: "Shrouded"},
         {type: Alternate.V, value: "Shady"}

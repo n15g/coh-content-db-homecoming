@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Recognized: IBadgeData = {
     type: BadgeType.AE,
     key: "recognized",
+    setTitleId: 1304,
     names: [
         {value: "Recognized"}
     ],

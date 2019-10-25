@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const Ensorcelled: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ensorcelled",
+    setTitleId: 410,
     names: [{value: "Ensorcelled"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

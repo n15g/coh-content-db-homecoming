@@ -4,6 +4,7 @@ import {Grandville} from "../../map/grandville";
 export const PassingFab: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "passing-fab",
+    setTitleId: 1510,
     names: [{value: "Passing Fab"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: Grandville.key,

@@ -4,8 +4,10 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 export const SickOfTimeTravel: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sick-of-time-travel",
+    setTitleId: 2424,
     names: [{value: "Sick of Time Travel"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `Several investigations into food poisoning at this restaurant found no problem with the food. It was eventually discovered that the frequent dimensional reversions caused by the nearby Temporal Anchor were to blame.`}],
     mapKey: ReclusesVictory.key,
     location: [-653.2, 0.3, 63.7],
     links: [

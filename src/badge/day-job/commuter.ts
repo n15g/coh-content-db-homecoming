@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Commuter: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "commuter",
+    setTitleId: 1030,
     names: [
         {type: Alternate.H, value: "Commuter"},
         {type: Alternate.V, value: "Fare Jumper"}

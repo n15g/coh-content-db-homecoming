@@ -4,6 +4,7 @@ import {Eden} from "../../map/eden";
 export const CreyFish: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "crey-fish",
+    setTitleId: 140,
     names: [{value: "Crey Fish"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Eden.key,

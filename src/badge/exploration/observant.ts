@@ -4,6 +4,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const Observant: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "observant",
+    setTitleId: 1516,
     names: [{value: "Observant"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AtlasPark.key,

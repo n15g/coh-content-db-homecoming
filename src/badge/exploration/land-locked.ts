@@ -4,6 +4,7 @@ import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
 export const LandLocked: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "land-locked",
+    setTitleId: 95,
     names: [{value: "Land Locked"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoGalaxyCity.key,

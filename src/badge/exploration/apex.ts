@@ -4,8 +4,10 @@ import {EchoFaultline} from "../../map/echo-faultline";
 export const Apex: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "apex",
+    setTitleId: 121,
     names: [{value: "Apex"}],
     alignment: ALIGNMENT_HERO,
+    badgeText: [{value: `Apex tracked Dr. Vahzilok down to this location, but interference from the Circle of Thorns prevented him from capturing the mad scientist.`}],
     mapKey: EchoFaultline.key,
     location: [277.7, 57.1, -2257.8],
     notes: "**Moved from [map:faultline] in Issue 25.**\n" +

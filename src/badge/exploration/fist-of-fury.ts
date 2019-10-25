@@ -4,6 +4,7 @@ import {TheStormPalace} from "../../map/the-storm-palace";
 export const FistOfFury: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "fist-of-fury",
+    setTitleId: 1859,
     names: [{value: "Fist of Fury"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheStormPalace.key,

@@ -5,6 +5,7 @@ import {Eden} from "../../map/eden";
 export const AmongTheGiants: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "among-the-giants",
+    setTitleId: 1851,
     names: [{value: "Among the Giants"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

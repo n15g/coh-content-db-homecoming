@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfKeyesIslandReactor: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-keyes-island-reactor",
+    setTitleId: 1994,
     names: [
         {value: "Master of Keyes Island Reactor"}
     ],

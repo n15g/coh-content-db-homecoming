@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const AuspiceAvernus: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "auspice-avernus",
+    setTitleId: 2181,
     names: [{value: "Auspice Avernus"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

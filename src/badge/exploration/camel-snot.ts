@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const CamelSnot: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "camel-snot",
+    setTitleId: 282,
     names: [{value: "Camel Snot"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: StMartial.key,

@@ -4,6 +4,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const AirLifter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "air-lifter",
+    setTitleId: 1552,
     names: [{value: "Air Lifter"}],
     alignment: ALIGNMENT_HERO,
     mapKey: IndependencePort.key,

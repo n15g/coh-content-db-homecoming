@@ -5,6 +5,7 @@ import {MayhemFoundersFalls} from "../../map/mayhem-founders-falls";
 export const Libertarian: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "libertarian",
+    setTitleId: 562,
     names: [
         {type: Alternate.H, value: "Libertarian"},
         {type: Alternate.V, value: "Anarchist"},

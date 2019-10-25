@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const EmbodimentOfLaw: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "embodiment-of-law",
+    setTitleId: 2218,
     names: [
         {value: "Embodiment of Law"}
     ],

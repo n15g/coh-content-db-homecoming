@@ -4,6 +4,7 @@ import {SirensCall} from "../../map/sirens-call";
 export const Politician: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "politician",
+    setTitleId: 260,
     names: [{value: "Politician"}],
     alignment: ALIGNMENT_ANY,
     mapKey: SirensCall.key,

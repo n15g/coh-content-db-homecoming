@@ -4,6 +4,7 @@ import {NightWard} from "../../map/night-ward";
 export const Stargazer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "stargazer",
+    setTitleId: 2233,
     names: [{value: "Stargazer"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NightWard.key,

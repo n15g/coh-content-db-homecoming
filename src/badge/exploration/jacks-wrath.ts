@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const JacksWrath: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "jacks-wrath",
+    setTitleId: 1542,
     names: [{value: "Jack's Wrath"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

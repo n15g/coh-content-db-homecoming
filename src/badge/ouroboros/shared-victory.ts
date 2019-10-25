@@ -1,14 +1,16 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const SharedVictory: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "shared-victory",
+    setTitleId: 858,
     names: [
         {value: "Shared Victory"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have completed a Task Force/Flashback under the parameter of \"5 Defeats Allowed\" for the team."},
+        {type: Alternate.H, value: `You have completed a Task Force/Flashback under the parameter of "5 Defeats Allowed" for the team.`},
+        {type: Alternate.V, value: `You have completed a Strike Force/Flashback under the parameter of "5 Defeats Allowed" for the team.`}
     ],
     acquisition: "Complete a Flashback arc with five or fewer defeats.",
     links: [

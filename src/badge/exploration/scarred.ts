@@ -4,6 +4,7 @@ import {EchoRiktiCrashSite} from "../../map/echo-rikti-crash-site";
 export const Scarred: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "scarred",
+    setTitleId: 756,
     names: [{value: "Scarred"}],
     alignment: ALIGNMENT_ANY,
     mapKey: EchoRiktiCrashSite.key,

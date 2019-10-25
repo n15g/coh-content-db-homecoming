@@ -4,6 +4,7 @@ import {MercyIsland} from "../../map/mercy-island";
 export const TikiFan: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "tiki-fan",
+    setTitleId: 1485,
     names: [{value: "Tiki Fan"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MercyIsland.key,

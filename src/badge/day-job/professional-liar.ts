@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const ProfessionalLiar: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "professional-liar",
+    setTitleId: 1054,
     names: [
         {type: Alternate.H, value: "Professional Liar"},
         {type: Alternate.V, value: "Demagogue"}

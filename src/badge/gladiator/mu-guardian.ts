@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MuGuardian: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "mu-guardian",
+    setTitleId: 442,
     names: [
         {value: "Mu Guardian"}
     ],

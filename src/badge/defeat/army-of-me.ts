@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const ArmyOfMe: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "army-of-me",
+    setTitleId: 1591,
     names: [
         {value: "Army of Me"}
     ],

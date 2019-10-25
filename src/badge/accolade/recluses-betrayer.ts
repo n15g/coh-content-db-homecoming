@@ -10,8 +10,10 @@ export const ReclusesBetrayer: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: `Lord Recluse was wrong to place his trust in you.`}
+        {type: Alternate.H, value: `Lord Recluse was wrong to place his trust in you.`},
+        {type: Alternate.V, value: `You are the most villainous of villains and I, Lord Recluse, am proud of you!`}
     ],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/recluses-betrayer.png"}],
     notes: `Complete every story arc from Black Scorpion, Captain Mako, Ghost Widow, Scirocco and Lord Recluse to earn this badge. [Rewards 20 Merits]`,
     links: [
         {title: "Recluse's Betrayer Badge", href: "https://paragonwiki.com/wiki/Recluse%27s_Betrayer_Badge"},

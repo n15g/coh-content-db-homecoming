@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const VisionOfDespair: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "vision-of-despair",
+    setTitleId: 116,
     names: [{value: "Vision of Despair"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

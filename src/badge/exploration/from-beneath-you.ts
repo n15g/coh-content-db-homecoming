@@ -5,6 +5,7 @@ import {SewerNetwork} from "../../map/sewer-network";
 export const FromBeneathYou: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "from-beneath-you",
+    setTitleId: 1826,
     names: [{value: "From Beneath You"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AbandonedSewerNetwork.key,

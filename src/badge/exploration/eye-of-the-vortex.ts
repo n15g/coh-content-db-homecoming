@@ -4,6 +4,7 @@ import {FirstWard} from "../../map/first-ward";
 export const EyeOfTheVortex: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "eye-of-the-vortex",
+    setTitleId: 2049,
     names: [{value: "Eye of the Vortex"}],
     alignment: ALIGNMENT_ANY,
     mapKey: FirstWard.key,

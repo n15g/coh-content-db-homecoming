@@ -8,6 +8,7 @@ export const Unconcerned: IBadgeData = {
         {value: "Unconcerned"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-insp.png"}],
     badgeText: [
         {value: "Your skill and ability is recognized far and wide, but you appear quite indifferent."}
     ],

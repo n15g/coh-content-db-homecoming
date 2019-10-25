@@ -4,6 +4,7 @@ import {AbandonedSewerNetwork} from "../../map/abandoned-sewer-network";
 export const LivingDark: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "living-dark",
+    setTitleId: 1827,
     names: [{value: "Living Dark"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AbandonedSewerNetwork.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const SkipTracer: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "skip-tracer",
+    setTitleId: 342,
     names: [
         {value: "Skip Tracer"}
     ],

@@ -4,6 +4,7 @@ import {PortOakes} from "../../map/port-oakes";
 export const ScurvyDog: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "scurvy-dog",
+    setTitleId: 251,
     names: [{value: "Scurvy Dog"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: PortOakes.key,

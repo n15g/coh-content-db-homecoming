@@ -4,6 +4,7 @@ import {SteelCanyon} from "../../map/steel-canyon";
 export const NimbleMynx: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "nimble-mynx",
+    setTitleId: 108,
     names: [{value: "Nimble Mynx"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SteelCanyon.key,

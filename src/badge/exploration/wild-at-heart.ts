@@ -4,6 +4,7 @@ import {TheHive} from "../../map/the-hive";
 export const WildAtHeart: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "wild-at-heart",
+    setTitleId: 1850,
     names: [{value: "Wild At Heart"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const AgentOfDiscord: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "agent-of-discord",
+    setTitleId: 338,
     names: [
         {value: "Agent of Discord"}
     ],

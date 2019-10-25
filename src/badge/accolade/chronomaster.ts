@@ -8,6 +8,7 @@ export const Chronomaster: IBadgeData = {
         {value: "Chronomaster"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/chronomaster.png"}],
     badgeText: [
         {value: `You are a proven master of Time Travel.`}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ArmyOfNeu: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "army-of-neu",
+    setTitleId: 1766,
     names: [
         {value: "Army of Neu"}
     ],

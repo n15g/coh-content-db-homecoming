@@ -4,6 +4,7 @@ import {TheStormPalace} from "../../map/the-storm-palace";
 export const MaliceAforethought: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "malice-aforethought",
+    setTitleId: 1856,
     names: [{value: "Malice Aforethought"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheStormPalace.key,

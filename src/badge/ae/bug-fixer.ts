@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const BugFixer: IBadgeData = {
     type: BadgeType.AE,
     key: "bug-fixer",
+    setTitleId: 1203,
     names: [
         {value: "Bug Fixer"}
     ],

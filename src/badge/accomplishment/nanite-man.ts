@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const NaniteMan: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "nanite-man",
+    setTitleId: 2196,
     names: [
         {type: Alternate.M, value: "Nanite Man"},
         {type: Alternate.F, value: "Nanite Woman"}

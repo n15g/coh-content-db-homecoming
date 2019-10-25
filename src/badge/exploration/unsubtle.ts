@@ -4,6 +4,7 @@ import {Brickstown} from "../../map/brickstown";
 export const Unsubtle: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "unsubtle",
+    setTitleId: 1570,
     names: [{value: "Unsubtle"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Brickstown.key,

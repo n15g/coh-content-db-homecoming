@@ -4,6 +4,7 @@ import {FoundersFalls} from "../../map/founders-falls";
 export const Chaotician: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "chaotician",
+    setTitleId: 135,
     names: [{value: "Chaotician"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FoundersFalls.key,

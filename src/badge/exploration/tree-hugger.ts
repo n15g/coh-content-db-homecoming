@@ -4,6 +4,7 @@ import {NervaArchipelago} from "../../map/nerva-archipelago";
 export const TreeHugger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "tree-hugger",
+    setTitleId: 278,
     names: [{value: "Tree Hugger"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: NervaArchipelago.key,

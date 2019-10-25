@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfTinMagesTaskForce: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-tin-mages-task-force",
+    setTitleId: 1940,
     names: [
         {value: "Master of Tin Mage's Task Force"}
     ],

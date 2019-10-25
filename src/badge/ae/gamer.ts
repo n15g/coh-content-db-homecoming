@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Gamer: IBadgeData = {
     type: BadgeType.AE,
     key: "gamer",
+    setTitleId: 1106,
     names: [
         {value: "Gamer"}
     ],

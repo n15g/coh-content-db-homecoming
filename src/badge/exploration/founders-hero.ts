@@ -4,6 +4,7 @@ import {FoundersFalls} from "../../map/founders-falls";
 export const FoundersHero: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "founders-hero",
+    setTitleId: 1562,
     names: [
         {type: Alternate.H, value: "Founders' Hero"},
         {type: Alternate.V, value: "Founders' Loss"}

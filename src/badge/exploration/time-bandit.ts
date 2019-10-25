@@ -4,6 +4,7 @@ import {TheHive} from "../../map/the-hive";
 export const TimeBandit: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "time-bandit",
+    setTitleId: 142,
     names: [{value: "Time Bandit"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

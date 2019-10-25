@@ -4,6 +4,7 @@ import {SirensCall} from "../../map/sirens-call";
 export const Piratical: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "piratical",
+    setTitleId: 262,
     names: [{value: "Piratical"}],
     alignment: ALIGNMENT_ANY,
     mapKey: SirensCall.key,

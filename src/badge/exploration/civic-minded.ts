@@ -4,6 +4,7 @@ import {NovaPraetoria} from "../../map/nova-praetoria";
 export const CivicMinded: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "civic-minded",
+    setTitleId: 1402,
     names: [{value: "Civic Minded"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NovaPraetoria.key,

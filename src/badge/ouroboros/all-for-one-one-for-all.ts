@@ -1,14 +1,16 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const AllForOneOneForAll: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "all-for-one-one-for-all",
+    setTitleId: 855,
     names: [
         {value: "All For One, One For All"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have completed a Task Force/Flashback under the parameter of \"0 Defeats Allowed\" for the team."},
+        {type: Alternate.H, value: `You have completed a Task Force/Flashback under the parameter of "0 Defeats Allowed" for the team.`},
+        {type: Alternate.V, value: `You have completed a Strike Force/Flashback under the parameter of "0 Defeats Allowed" for the team.`}
     ],
     acquisition: "Complete a Flashback arc with zero defeats.",
     links: [

@@ -5,6 +5,7 @@ import {Eden} from "../../map/eden";
 export const TheSoundOfThunder: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-sound-of-thunder",
+    setTitleId: 1852,
     names: [{value: "The Sound of Thunder"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

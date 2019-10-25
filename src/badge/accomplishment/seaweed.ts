@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Seaweed: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "seaweed",
+    setTitleId: 335,
     names: [
         {value: "Seaweed"}
     ],

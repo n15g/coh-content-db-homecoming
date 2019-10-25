@@ -4,6 +4,7 @@ import {FirstWard} from "../../map/first-ward";
 export const FearlessInsurgent: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "fearless-insurgent",
+    setTitleId: 2050,
     names: [{value: "Fearless Insurgent"}],
     alignment: ALIGNMENT_ANY,
     mapKey: FirstWard.key,

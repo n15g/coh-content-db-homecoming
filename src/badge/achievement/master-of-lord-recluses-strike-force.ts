@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfLordReclusesStrikeForce: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-lord-recluses-strike-force",
+    setTitleId: 945,
     names: [
         {value: "Master of Lord Recluse's Strike Force"}
     ],

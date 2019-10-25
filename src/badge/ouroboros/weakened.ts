@@ -1,14 +1,16 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Weakened: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "weakened",
+    setTitleId: 928,
     names: [
         {value: "Weakened"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have completed a Task Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements."},
+        {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.`},
+        {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.`}
     ],
     acquisition: "Complete a level 25-29 Flashback arc using no enhancements.",
     links: [

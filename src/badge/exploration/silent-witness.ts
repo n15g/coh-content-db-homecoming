@@ -4,6 +4,7 @@ import {UndergroundImperial} from "../../map/underground-imperial";
 export const SilentWitness: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "silent-witness",
+    setTitleId: 1651,
     names: [{value: "Silent Witness"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundImperial.key,

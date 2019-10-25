@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const AroundTheBendis: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "around-the-bendis",
+    setTitleId: 103,
     names: [{value: "Around the Bendis"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PerezPark.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const SacrificialLamb: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "sacrificial-lamb",
+    setTitleId: 2166,
     names: [
         {value: "Sacrificial Lamb"}
     ],

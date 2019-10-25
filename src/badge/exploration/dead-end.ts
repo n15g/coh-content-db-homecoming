@@ -4,6 +4,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const DeadEnd: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "dead-end",
+    setTitleId: 1553,
     names: [{value: "Dead End"}],
     alignment: ALIGNMENT_HERO,
     mapKey: IndependencePort.key,

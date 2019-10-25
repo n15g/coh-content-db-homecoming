@@ -4,6 +4,7 @@ import {Eden} from "../../map/eden";
 export const CallOfNature: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "call-of-nature",
+    setTitleId: 1842,
     names: [{value: "Call of Nature"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Eden.key,

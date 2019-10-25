@@ -4,6 +4,7 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 export const Ragnarok: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ragnarok",
+    setTitleId: 288,
     names: [{value: "Ragnarok"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ReclusesVictory.key,

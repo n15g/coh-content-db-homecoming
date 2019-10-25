@@ -4,6 +4,7 @@ import {TalosIsland} from "../../map/talos-island";
 export const BridgeHolder: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "bridge-holder",
+    setTitleId: 1548,
     names: [{value: "Bridge Holder"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TalosIsland.key,

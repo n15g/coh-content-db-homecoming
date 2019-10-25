@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const BaneOfAjax: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "bane-of-ajax",
+    setTitleId: 1585,
     names: [
         {value: "Bane of Ajax"}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const GottaKeepEmSeparated: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "gotta-keep-em-separated",
+    setTitleId: 1977,
     names: [
         {value: "Gotta Keep 'Em Separated"}
     ],

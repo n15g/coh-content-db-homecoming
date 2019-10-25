@@ -4,6 +4,7 @@ import {Praetoria} from "../../map/praetoria";
 export const RiverRat: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "river-rat",
+    setTitleId: 1405,
     names: [{value: "River Rat"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Praetoria.key,

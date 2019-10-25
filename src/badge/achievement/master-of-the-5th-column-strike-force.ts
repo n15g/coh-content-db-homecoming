@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfThe5thColumnStrikeForce: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-the-5th-column-strike-force",
+    setTitleId: 1373,
     names: [
         {value: "Master of the 5th Column Strike Force"}
     ],

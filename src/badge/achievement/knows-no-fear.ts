@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const KnowsNoFear: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "knows-no-fear",
+    setTitleId: 2201,
     names: [
         {value: "Knows No Fear"}
     ],

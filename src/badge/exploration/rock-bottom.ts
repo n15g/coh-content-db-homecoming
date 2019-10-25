@@ -4,8 +4,10 @@ import {Faultline} from "../../map/faultline";
 export const RockBottom: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "rock-bottom",
+    setTitleId: 2406,
     names: [{value: "Rock Bottom"}],
     alignment: ALIGNMENT_HERO,
+    badgeText: [{value: `This dumping ground is also a hideout for The Lost, within the mounds of refuse. Freakshow have been known to make their way over, looking for spare parts and causing trouble for the ranks of the poor and the homeless, forcing them to accept further mutations to protect themselves.`}],
     mapKey: Faultline.key,
     location: [-706.6, -87.8, 1757.0],
     notes: "NW corner of the map. Outside the Rusty Rivet.",

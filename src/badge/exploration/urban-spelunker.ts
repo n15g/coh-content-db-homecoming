@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const UrbanSpelunker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "urban-spelunker",
+    setTitleId: 1642,
     names: [{value: "Urban Spelunker"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNova.key,

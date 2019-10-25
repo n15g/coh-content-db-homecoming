@@ -5,6 +5,7 @@ import {MayhemPeregrineIsland} from "../../map/mayhem-peregrine-island";
 export const GateCloser: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "gate-closer",
+    setTitleId: 563,
     names: [
         {type: Alternate.H, value: "Gate Closer"},
         {type: Alternate.V, value: "Gate Crasher"},

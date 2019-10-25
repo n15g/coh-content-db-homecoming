@@ -4,8 +4,10 @@ import {EchoFaultline} from "../../map/echo-faultline";
 export const Forsaken: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "forsaken",
+    setTitleId: 2399,
     names: [{value: "Forsaken"}],
     alignment: ALIGNMENT_HERO,
+    badgeText: [{value: `Once a technological pride and joy of the city of Overbrook, the city's hydroelectric power plant was largely abandoned after the Rikti attack. It now languishes in disrepair.`}],
     mapKey: EchoFaultline.key,
     location: [332.4, -90.8, 3489.0],
     notes: "On the platform between the southeast and southwest turbine towers in the dam section.",

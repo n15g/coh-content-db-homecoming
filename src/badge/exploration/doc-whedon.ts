@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const DocWhedon: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "doc-whedon",
+    setTitleId: 104,
     names: [{value: "Doc Whedon"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PerezPark.key,

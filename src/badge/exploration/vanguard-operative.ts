@@ -4,6 +4,7 @@ import {RiktiWarZone} from "../../map/rikti-war-zone";
 export const VanguardOperative: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "vanguard-operative",
+    setTitleId: 747,
     names: [{value: "Vanguard Operative"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,

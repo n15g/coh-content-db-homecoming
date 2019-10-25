@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const WhipCracker: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "whip-cracker",
+    setTitleId: 1436,
     names: [
         {value: "Whip Cracker"}
     ],

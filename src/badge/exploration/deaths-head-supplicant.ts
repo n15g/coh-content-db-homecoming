@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const DeathsHeadSupplicant: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "deaths-head-supplicant",
+    setTitleId: 2182,
     names: [{value: "Death's Head Supplicant"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

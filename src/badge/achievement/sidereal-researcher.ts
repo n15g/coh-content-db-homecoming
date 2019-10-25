@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const SiderealResearcher: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "sidereal-researcher",
+    setTitleId: 2177,
     names: [
         {value: "Sidereal Researcher"}
     ],

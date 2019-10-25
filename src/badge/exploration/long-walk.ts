@@ -4,6 +4,7 @@ import {PortOakes} from "../../map/port-oakes";
 export const LongWalk: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "long-walk",
+    setTitleId: 1487,
     names: [{value: "Long Walk"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: PortOakes.key,

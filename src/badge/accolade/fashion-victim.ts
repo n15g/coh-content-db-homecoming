@@ -8,6 +8,7 @@ export const FashionVictim: IBadgeData = {
         {value: "Fashion Victim"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/fashion-victim.png"}],
     badgeText: [
         {value: `The road of excess leads to the palace of... fabulousness!`}
     ],

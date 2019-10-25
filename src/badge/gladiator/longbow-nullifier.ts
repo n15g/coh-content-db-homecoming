@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const LongbowNullifier: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "longbow-nullifier",
+    setTitleId: 459,
     names: [
         {value: "Longbow Nullifier"}
     ],

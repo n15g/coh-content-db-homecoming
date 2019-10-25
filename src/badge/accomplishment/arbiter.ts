@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Arbiter: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "arbiter",
+    setTitleId: 1294,
     names: [
         {value: "Arbiter"}
     ],

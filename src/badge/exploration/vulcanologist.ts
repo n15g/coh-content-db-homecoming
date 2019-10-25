@@ -4,6 +4,7 @@ import {StrigaIsle} from "../../map/striga-isle";
 export const Vulcanologist: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "vulcanologist",
+    setTitleId: 198,
     names: [{value: "Vulcanologist"}],
     alignment: ALIGNMENT_HERO,
     mapKey: StrigaIsle.key,

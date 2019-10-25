@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Usurper: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "usurper",
+    setTitleId: 571,
     names: [
         {value: "Usurper"}
     ],

@@ -4,8 +4,10 @@ import {SirensCall} from "../../map/sirens-call";
 export const Volatile: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "volatile",
+    setTitleId: 2418,
     names: [{value: "Volatile"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `This refinery was already under investigation for its poor handling of explosive gases when the shockwave from the Sunburst incident created a chain reaction that leveled the entire complex.`}],
     mapKey: SirensCall.key,
     location: [-634.0, -132.0, 300.0],
     links: [

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfTheBAF: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-the-baf",
+    setTitleId: 1979,
     names: [
         {value: "Master of the B.A.F."}
     ],

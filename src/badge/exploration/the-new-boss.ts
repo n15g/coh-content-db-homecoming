@@ -4,6 +4,7 @@ import {UndergroundNeutropolis} from "../../map/underground-neutropolis";
 export const TheNewBoss: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-new-boss",
+    setTitleId: 1748,
     names: [{value: "The New Boss"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNeutropolis.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Exterminator: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "exterminator",
+    setTitleId: 341,
     names: [
         {value: "Exterminator"}
     ],

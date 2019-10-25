@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const AgentProvocateur: IBadgeData = {
     type: BadgeType.PVP,
     key: "agent-provocateur",
+    setTitleId: 369,
     names: [
         {value: "Agent Provocateur"}
     ],

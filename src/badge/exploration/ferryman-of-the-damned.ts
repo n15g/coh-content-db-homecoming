@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const FerrymanOfTheDamned: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ferryman-of-the-damned",
+    setTitleId: 1638,
     names: [
         {type: Alternate.M, value: "Ferryman of the Damned"},
         {type: Alternate.F, value: "Ferrywoman of the Damned"}

@@ -4,8 +4,10 @@ import {BloodyBay} from "../../map/bloody-bay";
 export const Burgermeister: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "burgermeister",
+    setTitleId: 2412,
     names: [{value: "Burgermeister"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `Hero Burgers was once the best fast-food restaurant in Oceanview, before the island was evacuated and abandoned.`}],
     mapKey: BloodyBay.key,
     location: [1948.0, -15.0, 1806.0],
     links: [

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const GhostTouched: IBadgeData = {
     type: BadgeType.EVENT,
     key: "ghost-touched",
+    setTitleId: 697,
     names: [
         {value: "Ghost Touched"},
     ],

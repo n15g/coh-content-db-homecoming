@@ -5,6 +5,7 @@ import {MayhemAtlasPark} from "../../map/mayhem-atlas-park";
 export const GlobalGuardian: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "global-guardian",
+    setTitleId: 555,
     names: [
         {type: Alternate.H, value: "Global Guardian"},
         {type: Alternate.V, value: "Global Threat"},

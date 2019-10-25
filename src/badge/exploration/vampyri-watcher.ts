@@ -4,6 +4,7 @@ import {StrigaIsle} from "../../map/striga-isle";
 export const VampyriWatcher: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "vampyri-watcher",
+    setTitleId: 1790,
     names: [{value: "Vampyri Watcher"}],
     alignment: ALIGNMENT_HERO,
     mapKey: StrigaIsle.key,

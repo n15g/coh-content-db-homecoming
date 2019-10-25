@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ColdHandOfDeath: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "cold-hand-of-death",
+    setTitleId: 2178,
     names: [
         {value: "Cold Hand of Death"},
     ],

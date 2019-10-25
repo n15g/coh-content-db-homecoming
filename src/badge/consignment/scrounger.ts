@@ -3,12 +3,14 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Scrounger: IBadgeData = {
     type: BadgeType.CONSIGNMENT,
     key: "scrounger",
+    setTitleId: 808,
     names: [
         {value: "Scrounger"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've sold 50 Salvage on the Auction House."},
+        {type: Alternate.H, value: `You've sold 50 Salvage on the Consignment House.`},
+        {type: Alternate.V, value: `You've sold 50 Salvage on the Black Market.`}
     ],
     acquisition: "Sell 50 Salvage at either Wentworths or the Black Market.",
     links: [

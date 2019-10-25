@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const IncarnateRival: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "incarnate-rival",
+    setTitleId: 2204,
     names: [
         {value: "Incarnate Rival"}
     ],

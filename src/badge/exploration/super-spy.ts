@@ -4,6 +4,7 @@ import {StrigaIsle} from "../../map/striga-isle";
 export const SuperSpy: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "super-spy",
+    setTitleId: 196,
     names: [{value: "Super Spy"}],
     alignment: ALIGNMENT_HERO,
     mapKey: StrigaIsle.key,

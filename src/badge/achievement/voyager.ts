@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Voyager: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "voyager",
+    setTitleId: 1583,
     names: [
         {value: "Voyager"},
         {type: Alternate.P, value: "No Road Not Taken"}

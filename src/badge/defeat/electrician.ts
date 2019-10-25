@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Electrician: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "electrician",
+    setTitleId: 299,
     names: [
         {value: "Electrician"}
     ],

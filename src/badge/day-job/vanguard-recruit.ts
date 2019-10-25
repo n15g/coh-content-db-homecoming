@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const VanguardRecruit: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "vanguard-recruit",
+    setTitleId: 1040,
     names: [
         {value: "Vanguard Recruit"},
     ],

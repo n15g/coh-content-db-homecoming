@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const NewsFlash: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "news-flash",
+    setTitleId: 2073,
     names: [
         {value: "News Flash"}
     ],

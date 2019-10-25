@@ -4,6 +4,7 @@ import {NervaArchipelago} from "../../map/nerva-archipelago";
 export const UnethicalTourist: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "unethical-tourist",
+    setTitleId: 1501,
     names: [{value: "Unethical Tourist"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: NervaArchipelago.key,

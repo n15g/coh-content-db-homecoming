@@ -4,6 +4,7 @@ import {Warburg} from "../../map/warburg";
 export const TunnelRat: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "tunnel-rat",
+    setTitleId: 292,
     names: [{value: "Tunnel Rat"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Warburg.key,

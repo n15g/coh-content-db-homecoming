@@ -4,6 +4,7 @@ import {CapAuDiable} from "../../map/cap-au-diable";
 export const DoomSayer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "doom-sayer",
+    setTitleId: 1492,
     names: [{value: "Doom Sayer"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,

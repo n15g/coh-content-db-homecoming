@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const PortalSmasher: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "portal-smasher",
+    setTitleId: 423,
     names: [
         {value: "Portal Smasher"}
     ],

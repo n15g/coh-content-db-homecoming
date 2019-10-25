@@ -6,6 +6,7 @@ import {Boomtown} from "../../map/boomtown";
 export const SeekerOfTheLost: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "seeker-of-the-lost",
+    setTitleId: 1836,
     names: [{value: "Seeker of the Lost"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SewerNetwork.key,

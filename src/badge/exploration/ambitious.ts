@@ -4,6 +4,7 @@ import {NovaPraetoria} from "../../map/nova-praetoria";
 export const Ambitious: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ambitious",
+    setTitleId: 1400,
     names: [{value: "Ambitious"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NovaPraetoria.key,

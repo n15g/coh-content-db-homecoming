@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const BackFromTheFuture: IBadgeData = {
     type: BadgeType.PVP,
     key: "back-from-the-future",
+    setTitleId: 566,
     names: [
         {value: "Back From the Future"}
     ],

@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const Spiritual: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "spiritual",
+    setTitleId: 409,
     names: [{value: "Spiritual"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

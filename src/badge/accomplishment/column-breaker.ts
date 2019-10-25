@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const ColumnBreaker: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "column-breaker",
+    setTitleId: 1293,
     names: [
         {value: "Column Breaker"}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const SingularVision: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "singular-vision",
+    setTitleId: 1588,
     names: [
         {value: "Singular Vision"}
     ],

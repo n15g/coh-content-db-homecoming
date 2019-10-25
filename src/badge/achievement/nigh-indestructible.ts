@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const NighIndestructible: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "nigh-indestructible",
+    setTitleId: 230,
     names: [
         {value: "Nigh Indestructible"},
         {type: Alternate.P, value: "Concussed"}

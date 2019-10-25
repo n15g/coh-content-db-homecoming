@@ -4,6 +4,7 @@ import {AbandonedSewersTrial} from "../../map/abandoned-sewers-trial";
 export const HeadOfTheHydra: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "head-of-the-hydra",
+    setTitleId: 146,
     names: [{value: "Head of the Hydra"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AbandonedSewersTrial.key,

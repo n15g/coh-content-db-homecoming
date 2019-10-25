@@ -4,6 +4,7 @@ import {TheChantry} from "../../map/the-chantry";
 export const RedFog: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "red-fog",
+    setTitleId: 1819,
     names: [{value: "Red Fog"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheChantry.key,

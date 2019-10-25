@@ -4,6 +4,7 @@ import {MonsterIsland} from "../../map/monster-island";
 export const GrimFandango: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "grim-fandango",
+    setTitleId: 1873,
     names: [{value: "Grim Fandango"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MonsterIsland.key,

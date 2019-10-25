@@ -4,6 +4,7 @@ import {TheHive} from "../../map/the-hive";
 export const TheWoundedEarth: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-wounded-earth",
+    setTitleId: 1849,
     names: [{value: "The Wounded Earth"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

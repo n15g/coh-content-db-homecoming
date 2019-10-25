@@ -5,6 +5,7 @@ import {SafeguardTalosIsland} from "../../map/safeguard-talos-island";
 export const TalosMight: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "talos-might",
+    setTitleId: 653,
     names: [
         {type: Alternate.H, value: "Talos' Might"},
         {type: Alternate.V, value: "Talos' Blight"},

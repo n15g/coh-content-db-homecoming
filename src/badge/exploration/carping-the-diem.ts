@@ -4,6 +4,7 @@ import {SharkheadIsle} from "../../map/sharkhead-isle";
 export const CarpingTheDiem: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "carping-the-diem",
+    setTitleId: 1499,
     names: [{value: "Carping the Diem"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: SharkheadIsle.key,

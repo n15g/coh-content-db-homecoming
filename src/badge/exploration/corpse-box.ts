@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const CorpseBox: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "corpse-box",
+    setTitleId: 1780,
     names: [{value: "Corpse Box"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

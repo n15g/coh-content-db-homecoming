@@ -1,14 +1,16 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Hindered: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "hindered",
+    setTitleId: 909,
     names: [
         {value: "Hindered"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have completed a Task Force/Flashback between level 30 and 34 while not using any Temporary Powers."},
+        {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 30 and 34 while not using any Temporary Powers.`},
+        {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 30 and 34 while not using any Temporary Powers.`}
     ],
     acquisition: "Complete a level 30-34 Flashback arc using no temp powers.",
     links: [

@@ -5,6 +5,7 @@ import {MayhemIndependencePort} from "../../map/mayhem-independence-port";
 export const Revolutionary: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "revolutionary",
+    setTitleId: 559,
     names: [
         {type: Alternate.H, value: "Revolutionary"},
         {type: Alternate.V, value: "Tyrannical"},

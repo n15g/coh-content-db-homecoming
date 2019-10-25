@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const ToweringInferno: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "towering-inferno",
+    setTitleId: 1777,
     names: [{value: "Towering Inferno"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

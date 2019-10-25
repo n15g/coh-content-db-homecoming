@@ -4,6 +4,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const Undefeated: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "undefeated",
+    setTitleId: 86,
     names: [{value: "Undefeated"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AtlasPark.key,

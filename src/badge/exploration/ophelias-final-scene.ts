@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const OpheliasFinalScene: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ophelias-final-scene",
+    setTitleId: 1776,
     names: [{value: "Ophelia's Final Scene"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PerezPark.key,

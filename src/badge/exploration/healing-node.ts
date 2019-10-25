@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const HealingNode: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "healing-node",
+    setTitleId: 113,
     names: [{value: "Healing Node"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SkywayCity.key,

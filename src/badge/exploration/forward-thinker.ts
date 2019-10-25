@@ -4,6 +4,7 @@ import {Brickstown} from "../../map/brickstown";
 export const ForwardThinker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "forward-thinker",
+    setTitleId: 1567,
     names: [{value: "Forward Thinker"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Brickstown.key,

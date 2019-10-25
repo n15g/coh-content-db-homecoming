@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const MaskMaker: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "mask-maker",
+    setTitleId: 333,
     names: [
         {value: "Mask Maker"}
     ],

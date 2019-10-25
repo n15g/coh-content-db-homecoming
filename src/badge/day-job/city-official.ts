@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const CityOfficial: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "city-official",
+    setTitleId: 1028,
     names: [
         {type: Alternate.H, value: "City Official"},
         {type: Alternate.V, value: "Ousted Official"}

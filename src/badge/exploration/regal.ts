@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const Regal: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "regal",
+    setTitleId: 115,
     names: [{value: "Regal"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

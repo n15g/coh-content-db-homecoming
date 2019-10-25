@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfApexsTaskForce: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-apexs-task-force",
+    setTitleId: 1939,
     names: [
         {value: "Master of Apex's Task Force"}
     ],

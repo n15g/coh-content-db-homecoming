@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Antacid: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "antacid",
+    setTitleId: 1986,
     names: [
         {value: "Antacid"}
     ],

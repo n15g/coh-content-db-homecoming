@@ -8,6 +8,8 @@ export const Apathetic: IBadgeData = {
         {value: "Apathetic"}
     ],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `The world looks at your achievements in awe, but you remain impassive.`}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-insp.png"}],
     acquisition: "Reject 500 inspiration drops.",
     links: [
         {title: "Apathetic Badge", href: "https://paragonwiki.com/wiki/Apathetic_Badge"}

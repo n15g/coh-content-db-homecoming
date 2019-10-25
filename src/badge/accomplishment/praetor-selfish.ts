@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const PraetorSelfish: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "praetor-selfish",
+    setTitleId: 2197,
     names: [
         {value: "Praetor Selfish"}
     ],

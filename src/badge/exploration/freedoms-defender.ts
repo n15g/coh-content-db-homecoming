@@ -5,6 +5,7 @@ import {SafeguardSteelCanyon} from "../../map/safeguard-steel-canyon";
 export const FreedomsDefender: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "freedoms-defender",
+    setTitleId: 651,
     names: [
         {type: Alternate.H, value: "Freedom's Defender"},
         {type: Alternate.V, value: "Freedom's Crusher"},

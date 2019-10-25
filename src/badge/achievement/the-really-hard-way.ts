@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const TheReallyHardWay: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "the-really-hard-way",
+    setTitleId: 2238,
     names: [
         {value: "The Really Hard Way"}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const Warhulk: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "warhulk",
+    setTitleId: 502,
     names: [
         {value: "Warhulk"}
     ],

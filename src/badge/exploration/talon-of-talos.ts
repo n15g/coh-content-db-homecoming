@@ -5,6 +5,7 @@ import {MayhemTalosIsland} from "../../map/mayhem-talos-island";
 export const TalonOfTalos: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "talon-of-talos",
+    setTitleId: 560,
     names: [{value: "Talon of Talos"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MayhemTalosIsland.key,

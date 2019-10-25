@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const TheTimelessAdventurer: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "the-timeless-adventurer",
+    setTitleId: 2192,
     names: [
         {value: "The Timeless Adventurer"}
     ],

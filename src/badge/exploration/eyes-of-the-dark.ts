@@ -4,6 +4,7 @@ import {UndergroundImperial} from "../../map/underground-imperial";
 export const EyesOfTheDark: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "eyes-of-the-dark",
+    setTitleId: 1648,
     names: [{value: "Eyes of the Dark"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundImperial.key,

@@ -4,6 +4,7 @@ import {StrigaIsle} from "../../map/striga-isle";
 export const SeaDog: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sea-dog",
+    setTitleId: 197,
     names: [{value: "Sea Dog"}],
     alignment: ALIGNMENT_HERO,
     mapKey: StrigaIsle.key,

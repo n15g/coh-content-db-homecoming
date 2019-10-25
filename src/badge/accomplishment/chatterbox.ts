@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const Chatterbox: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "chatterbox",
+    setTitleId: 2263,
     names: [
         {value: "Chatterbox"}
     ],

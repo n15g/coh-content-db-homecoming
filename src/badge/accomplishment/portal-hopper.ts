@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const PortalHopper: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "portal-hopper",
+    setTitleId: 343,
     names: [
         {value: "Portal Hopper"}
     ],

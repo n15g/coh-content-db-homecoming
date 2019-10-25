@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const RedeemedBlackguard: IBadgeData = {
     type: BadgeType.PVP,
     key: "redeemed-blackguard",
+    setTitleId: 585,
     names: [
         {type: Alternate.H, value: "Redeemed Blackguard"},
         {type: Alternate.V, value: "Blackguard"}

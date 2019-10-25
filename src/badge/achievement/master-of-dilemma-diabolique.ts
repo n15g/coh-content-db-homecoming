@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfDilemmaDiabolique: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-dilemma-diabolique",
+    setTitleId: 2168,
     names: [
         {value: "Master of Dilemma Diabolique"}
     ],

@@ -8,6 +8,7 @@ export const WelcomeToEarth: IBadgeData = {
         {value: "Welcome to Earth"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/welcome-to-earth.png"}],
     badgeText: [
         {value: "You have destroyed a Rikti Drop Ship, proving that it can be done."}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const BurkholdersBane: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "burkholders-bane",
+    setTitleId: 202,
     names: [
         {value: "Burkholder's Bane"}
     ],

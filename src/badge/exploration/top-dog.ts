@@ -4,6 +4,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const TopDog: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "top-dog",
+    setTitleId: 90,
     names: [{value: "Top Dog"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AtlasPark.key,

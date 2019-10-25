@@ -4,6 +4,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const EdgeOfChaos: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "edge-of-chaos",
+    setTitleId: 1515,
     names: [{value: "Edge of Chaos"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AtlasPark.key,

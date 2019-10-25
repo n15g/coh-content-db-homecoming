@@ -4,6 +4,7 @@ import {PeregrineIsland} from "../../map/peregrine-island";
 export const DarkOmen: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "dark-omen",
+    setTitleId: 1578,
     names: [{value: "Dark Omen"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PeregrineIsland.key,

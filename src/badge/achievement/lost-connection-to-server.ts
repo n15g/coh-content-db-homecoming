@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const LostConnectionToServer: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "lost-connection-to-server",
+    setTitleId: 2082,
     names: [
         {value: "Lost Connection to Server"}
     ],

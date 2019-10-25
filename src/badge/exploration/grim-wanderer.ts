@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const GrimWanderer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "grim-wanderer",
+    setTitleId: 408,
     names: [{value: "Grim Wanderer"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

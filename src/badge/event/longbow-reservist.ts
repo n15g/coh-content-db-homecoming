@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const LongbowReservist: IBadgeData = {
     type: BadgeType.EVENT,
     key: "longbow-reservist",
+    setTitleId: 520,
     names: [
         {type: Alternate.H, value: "Longbow Reservist"},
         {type: Alternate.V, value: "Jet-Setter"},

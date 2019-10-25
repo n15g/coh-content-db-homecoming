@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Declining: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "declining",
+    setTitleId: 760,
     names: [{value: "Declining"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],

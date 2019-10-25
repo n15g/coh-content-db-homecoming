@@ -5,6 +5,7 @@ import {MayhemSkywayCity} from "../../map/mayhem-skyway-city";
 export const RoadRaged: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "road-raged",
+    setTitleId: 557,
     names: [{value: "Road Raged"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MayhemSkywayCity.key,

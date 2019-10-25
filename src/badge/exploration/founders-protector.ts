@@ -5,6 +5,7 @@ import {SafeguardFoundersFalls} from "../../map/safeguard-founders-falls";
 export const FoundersProtector: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "founders-protector",
+    setTitleId: 655,
     names: [
         {type: Alternate.H, value: "Founders' Protector"},
         {type: Alternate.V, value: "Founders' Invader"},

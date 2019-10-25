@@ -5,6 +5,7 @@ import {SewerNetwork} from "../../map/sewer-network";
 export const SecretOfTheCity: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "secret-of-the-city",
+    setTitleId: 1823,
     names: [{value: "Secret of the City"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AbandonedSewerNetwork.key,

@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const Purifier: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "purifier",
+    setTitleId: 110,
     names: [
         {type: Alternate.H, value: "Purifier"},
         {type: Alternate.V, value: "Defiler"}

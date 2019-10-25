@@ -4,6 +4,7 @@ import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
 export const GalacticFan: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "galactic-fan",
+    setTitleId: 1522,
     names: [{value: "Galactic Fan"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoGalaxyCity.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MidnightDodgerWhatDodgesAtMidnight: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "midnight-dodger-what-dodges-at-midnight",
+    setTitleId: 1762,
     names: [
         {value: "Midnight Dodger What Dodges At Midnight"}
     ],

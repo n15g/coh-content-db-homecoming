@@ -4,6 +4,7 @@ import {ArchitectEntertainmentBuildings} from "../../map/architect-entertainment
 export const ThrillSeeker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "thrill-seeker",
+    setTitleId: 1080,
     names: [{value: "Thrill Seeker"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ArchitectEntertainmentBuildings.key,

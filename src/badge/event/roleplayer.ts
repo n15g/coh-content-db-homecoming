@@ -7,6 +7,7 @@ import {ThePerfectThief} from "./the-perfect-thief";
 export const Roleplayer: IBadgeData = {
     type: BadgeType.EVENT,
     key: "roleplayer",
+    setTitleId: 2251,
     names: [
         {value: "Roleplayer"},
     ],

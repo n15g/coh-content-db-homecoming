@@ -5,6 +5,7 @@ import {TheHive} from "../../map/the-hive";
 export const NaturalSelection: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "natural-selection",
+    setTitleId: 1847,
     names: [{value: "Natural Selection"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Eden.key,

@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const DimensionalSojourner: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "dimensional-sojourner",
+    setTitleId: 1798,
     names: [{value: "Dimensional Sojourner"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

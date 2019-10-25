@@ -4,6 +4,7 @@ import {MonsterIsland} from "../../map/monster-island";
 export const MisfitMonstrosity: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "misfit-monstrosity",
+    setTitleId: 1874,
     names: [{value: "Misfit Monstrosity"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MonsterIsland.key,

@@ -4,6 +4,7 @@ import {UndergroundImperial} from "../../map/underground-imperial";
 export const UndergroundExplorer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "underground-explorer",
+    setTitleId: 1652,
     names: [{value: "Underground Explorer"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundImperial.key,

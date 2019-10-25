@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Sorcerer: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "sorcerer",
+    setTitleId: 470,
     names: [
         {value: "Sorcerer"}
     ],

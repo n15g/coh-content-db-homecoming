@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const MookCapo: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "mook-capo",
+    setTitleId: 456,
     names: [
         {value: "Mook Capo"}
     ],

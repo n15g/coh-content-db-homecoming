@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Immortal: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "immortal",
+    setTitleId: 232,
     names: [
         {value: "Immortal"},
         {type: Alternate.P, value: "Challenger of Gods"}

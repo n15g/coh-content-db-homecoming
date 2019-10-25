@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const ClockworkMechanic: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "clockwork-mechanic",
+    setTitleId: 1636,
     names: [{value: "Clockwork Mechanic"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNova.key,

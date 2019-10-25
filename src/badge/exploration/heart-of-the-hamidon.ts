@@ -4,6 +4,7 @@ import {TheHive} from "../../map/the-hive";
 export const HeartOfTheHamidon: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "heart-of-the-hamidon",
+    setTitleId: 143,
     names: [{value: "Heart of the Hamidon"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHive.key,

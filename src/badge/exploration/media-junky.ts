@@ -4,6 +4,7 @@ import {CapAuDiable} from "../../map/cap-au-diable";
 export const MediaJunky: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "media-junky",
+    setTitleId: 270,
     names: [{value: "Media Junky"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,

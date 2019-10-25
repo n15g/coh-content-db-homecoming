@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const Morbid: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "morbid",
+    setTitleId: 1639,
     names: [{value: "Morbid"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNova.key,

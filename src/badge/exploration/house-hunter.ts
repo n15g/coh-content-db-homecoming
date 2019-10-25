@@ -4,6 +4,7 @@ import {NightWard} from "../../map/night-ward";
 export const HouseHunter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "house-hunter",
+    setTitleId: 2228,
     names: [{value: "House Hunter"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NightWard.key,

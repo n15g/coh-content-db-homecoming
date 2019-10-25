@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const PartyCrasher: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "party-crasher",
+    setTitleId: 344,
     names: [
         {value: "Party Crasher"}
     ],

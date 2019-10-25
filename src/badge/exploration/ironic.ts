@@ -4,6 +4,7 @@ import {TheHollows} from "../../map/the-hollows";
 export const Ironic: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ironic",
+    setTitleId: 1520,
     names: [{value: "Ironic"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHollows.key,

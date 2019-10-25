@@ -1,14 +1,16 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Stalled: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "stalled",
+    setTitleId: 901,
     names: [
         {value: "Stalled"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have completed a Task Force/Flashback between level 35 and 39 while not using any Travel Power Pools."},
+        {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 35 and 39 while not using any Travel Power Power Pools.`},
+        {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 35 and 39 while not using any Travel Power Power Pools.`}
     ],
     acquisition: "Complete a level 35-39 Flashback arc using no travel powers.",
     links: [

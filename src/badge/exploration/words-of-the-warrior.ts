@@ -4,6 +4,7 @@ import {StrigaIsle} from "../../map/striga-isle";
 export const WordsOfTheWarrior: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "words-of-the-warrior",
+    setTitleId: 1787,
     names: [{value: "Words of the Warrior"}],
     alignment: ALIGNMENT_HERO,
     mapKey: StrigaIsle.key,

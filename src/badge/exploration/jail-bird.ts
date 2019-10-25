@@ -4,6 +4,7 @@ import {Breakout} from "../../map/breakout";
 export const JailBird: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "jail-bird",
+    setTitleId: 437,
     names: [{value: "Jail Bird"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: Breakout.key,

@@ -4,6 +4,7 @@ import {Grandville} from "../../map/grandville";
 export const MasterOfTheAirwaves: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "master-of-the-airwaves",
+    setTitleId: 286,
     names: [
         {type: Alternate.M, value: "Master of the Airwaves"},
         {type: Alternate.F, value: "Mistress of the Airwaves"}

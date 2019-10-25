@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const CannonFodder: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "cannon-fodder",
+    setTitleId: 1052,
     names: [
         {type: Alternate.H, value: "Cannon Fodder"},
         {type: Alternate.V, value: "Arachnos Agent"}

@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const SharkHunter: IBadgeData = {
     type: BadgeType.PVP,
     key: "shark-hunter",
+    setTitleId: 584,
     names: [
         {value: "Shark Hunter"}
     ],

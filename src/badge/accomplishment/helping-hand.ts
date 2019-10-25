@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const HelpingHand: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "helping-hand",
+    setTitleId: 1893,
     names: [
         {value: "Helping Hand"}
     ],

@@ -4,6 +4,7 @@ import {Brickstown} from "../../map/brickstown";
 export const SecretPath: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "secret-path",
+    setTitleId: 1568,
     names: [{value: "Secret Path"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Brickstown.key,

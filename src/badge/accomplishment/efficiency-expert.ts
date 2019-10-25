@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const EfficiencyExpert: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "efficiency-expert",
+    setTitleId: 346,
     names: [
         {value: "Efficiency Expert"}
     ],

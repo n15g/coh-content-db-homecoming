@@ -4,6 +4,7 @@ import {UndergroundNeutropolis} from "../../map/underground-neutropolis";
 export const Cluttered: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "cluttered",
+    setTitleId: 1742,
     names: [{value: "Cluttered"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNeutropolis.key,

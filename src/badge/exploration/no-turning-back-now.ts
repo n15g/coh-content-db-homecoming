@@ -4,6 +4,7 @@ import {CascadeArchipelago} from "../../map/cascade-archipelago";
 export const NoTurningBackNow: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "no-turning-back-now",
+    setTitleId: 1811,
     names: [{value: "No Turning Back Now"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CascadeArchipelago.key,

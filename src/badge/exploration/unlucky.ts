@@ -4,6 +4,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const Unlucky: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "unlucky",
+    setTitleId: 1556,
     names: [{value: "Unlucky"}],
     alignment: ALIGNMENT_HERO,
     mapKey: IndependencePort.key,

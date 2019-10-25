@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Charming: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "charming",
+    setTitleId: 777,
     names: [{value: "Charming"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],

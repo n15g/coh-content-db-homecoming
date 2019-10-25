@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfLambdaSector: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-lambda-sector",
+    setTitleId: 1988,
     names: [
         {value: "Master of Lambda Sector"}
     ],

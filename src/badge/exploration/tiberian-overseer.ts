@@ -4,6 +4,7 @@ import {ImperialCity} from "../../map/imperial-city";
 export const TiberianOverseer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "tiberian-overseer",
+    setTitleId: 1634,
     names: [{value: "Tiberian Overseer"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ImperialCity.key,

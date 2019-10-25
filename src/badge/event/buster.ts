@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Buster: IBadgeData = {
     type: BadgeType.EVENT,
     key: "buster",
+    setTitleId: 186,
     names: [
         {value: "Buster"},
     ],

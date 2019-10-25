@@ -4,6 +4,7 @@ import {TheStormPalace} from "../../map/the-storm-palace";
 export const HateMachine: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hate-machine",
+    setTitleId: 1858,
     names: [{value: "Hate Machine"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheStormPalace.key,

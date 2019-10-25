@@ -4,6 +4,7 @@ import {PortOakes} from "../../map/port-oakes";
 export const BigSpider: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "big-spider",
+    setTitleId: 1488,
     names: [{value: "Big Spider"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: PortOakes.key,

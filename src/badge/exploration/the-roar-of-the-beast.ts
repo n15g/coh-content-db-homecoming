@@ -5,6 +5,7 @@ import {Grandville} from "../../map/grandville";
 export const TheRoarOfTheBeast: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-roar-of-the-beast",
+    setTitleId: 1869,
     names: [{value: "The Roar of the Beast"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MonsterIsland.key,

@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const LifeOutOfDeath: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "life-out-of-death",
+    setTitleId: 2185,
     names: [{value: "Life out of Death"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

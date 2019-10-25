@@ -4,6 +4,7 @@ import {Croatoa} from "../../map/croatoa";
 export const SallySightseer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sally-sightseer",
+    setTitleId: 1541,
     names: [{value: "Sally Sightseer"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Croatoa.key,

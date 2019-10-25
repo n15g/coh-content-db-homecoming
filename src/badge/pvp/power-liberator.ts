@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const PowerLiberator: IBadgeData = {
     type: BadgeType.PVP,
     key: "power-liberator",
+    setTitleId: 375,
     names: [
         {type: Alternate.H, value: "Power Liberator"},
         {type: Alternate.V, value: "Master Thief"}

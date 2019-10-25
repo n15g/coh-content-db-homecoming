@@ -4,6 +4,7 @@ import {CapAuDiable} from "../../map/cap-au-diable";
 export const SweetTooth: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sweet-tooth",
+    setTitleId: 273,
     names: [{value: "Sweet Tooth"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,

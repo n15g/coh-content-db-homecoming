@@ -4,6 +4,7 @@ import {HydraMissionMap} from "../../map/hydra-missions";
 export const Multidimensional: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "multidimensional",
+    setTitleId: 172,
     names: [{value: "Multidimensional"}],
     alignment: ALIGNMENT_ANY,
     mapKey: HydraMissionMap.key,

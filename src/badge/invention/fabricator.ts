@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Fabricator: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "fabricator",
+    setTitleId: 744,
     names: [{value: "Fabricator"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "Your ingenuity knows no bounds, and after 2,000 inventions you are now a Fabricator."}],

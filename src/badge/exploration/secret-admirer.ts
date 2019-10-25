@@ -4,6 +4,7 @@ import {SteelCanyon} from "../../map/steel-canyon";
 export const SecretAdmirer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "secret-admirer",
+    setTitleId: 106,
     names: [{value: "Secret Admirer"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SteelCanyon.key,

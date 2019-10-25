@@ -4,6 +4,7 @@ import {CapAuDiable} from "../../map/cap-au-diable";
 export const Egghead: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "egghead",
+    setTitleId: 271,
     names: [{value: "Egghead"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,

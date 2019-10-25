@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MiddleweightChampion: IBadgeData = {
     type: BadgeType.PVP,
     key: "middleweight-champion",
+    setTitleId: 226,
     names: [
         {value: "Middleweight Champion"}
     ],

@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const Disappeared: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "disappeared",
+    setTitleId: 1637,
     names: [{value: "Disappeared"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNova.key,

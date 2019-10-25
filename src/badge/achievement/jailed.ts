@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Jailed: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "jailed",
+    setTitleId: 241,
     names: [
         {value: "Jailed"},
         {type: Alternate.P, value: "Lagged"}

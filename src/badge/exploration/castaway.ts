@@ -4,6 +4,7 @@ import {CascadeArchipelago} from "../../map/cascade-archipelago";
 export const Castaway: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "castaway",
+    setTitleId: 1805,
     names: [{value: "Castaway"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CascadeArchipelago.key,

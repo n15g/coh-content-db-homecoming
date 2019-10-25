@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const GoonSquad: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "goon-squad",
+    setTitleId: 406,
     names: [
         {value: "Goon Squad"}
     ],

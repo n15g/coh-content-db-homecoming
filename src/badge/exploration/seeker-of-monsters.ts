@@ -4,6 +4,7 @@ import {TheHollows} from "../../map/the-hollows";
 export const SeekerOfMonsters: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "seeker-of-monsters",
+    setTitleId: 193,
     names: [{value: "Seeker of Monsters"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHollows.key,

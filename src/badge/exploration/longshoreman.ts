@@ -4,6 +4,7 @@ import {Neutropolis} from "../../map/neutropolis";
 export const Longshoreman: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "longshoreman",
+    setTitleId: 1726,
     names: [
         {type: Alternate.M, value: "Longshoreman"},
         {type: Alternate.F, value: "Longshorewoman"}

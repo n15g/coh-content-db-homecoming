@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Vagabond: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "vagabond",
+    setTitleId: 801,
     names: [{value: "Vagabond"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Run Speed, Jump, Fly Speed, and Range."}],

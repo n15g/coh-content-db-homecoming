@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const RemembersTheirFriends: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "remembers-their-friends",
+    setTitleId: 2268,
     names: [
         {value: "Remembers Their Friends"}
     ],

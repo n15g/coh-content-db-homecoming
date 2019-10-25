@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Defensive: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "defensive",
+    setTitleId: 774,
     names: [{value: "Defensive"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Defense Buff, Resist Damage, Intangible."}],

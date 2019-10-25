@@ -4,6 +4,7 @@ import {Grandville} from "../../map/grandville";
 export const LineHolder: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "line-holder",
+    setTitleId: 1512,
     names: [{value: "Line Holder"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: Grandville.key,

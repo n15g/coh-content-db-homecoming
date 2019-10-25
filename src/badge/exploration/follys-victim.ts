@@ -4,6 +4,7 @@ import {DarkAstoria} from "../../map/dark-astoria";
 export const FollysVictim: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "follys-victim",
+    setTitleId: 2179,
     names: [{value: "Folly's Victim"}],
     alignment: ALIGNMENT_ANY,
     mapKey: DarkAstoria.key,

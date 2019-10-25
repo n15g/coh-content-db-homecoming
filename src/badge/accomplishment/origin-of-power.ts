@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const OriginOfPower: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "origin-of-power",
+    setTitleId: 989,
     names: [
         {value: "Origin of Power"}
     ],

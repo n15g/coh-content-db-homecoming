@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const WailerQueen: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "wailer-queen",
+    setTitleId: 458,
     names: [
         {value: "Wailer Queen"}
     ],

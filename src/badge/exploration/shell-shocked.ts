@@ -4,6 +4,7 @@ import {FirstWard} from "../../map/first-ward";
 export const ShellShocked: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "shell-shocked",
+    setTitleId: 2051,
     names: [{value: "Shell Shocked"}],
     alignment: ALIGNMENT_ANY,
     mapKey: FirstWard.key,

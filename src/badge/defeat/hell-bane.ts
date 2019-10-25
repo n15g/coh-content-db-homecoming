@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const HellBane: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "hell-bane",
+    setTitleId: 307,
     names: [
         {value: "Hell Bane"}
     ],

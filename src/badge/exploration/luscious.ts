@@ -4,6 +4,7 @@ import {RiktiWarZone} from "../../map/rikti-war-zone";
 export const Luscious: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "luscious",
+    setTitleId: 754,
     names: [{value: "Luscious"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,

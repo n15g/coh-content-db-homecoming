@@ -7,6 +7,7 @@ import {KingsRow} from "../../map/kings-row";
 export const TerrorOfTheVahzilok: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "terror-of-the-vahzilok",
+    setTitleId: 1835,
     names: [{value: "Terror of the Vahzilok"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SewerNetwork.key,

@@ -4,6 +4,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const HeroCorpsInsider: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hero-corps-insider",
+    setTitleId: 88,
     names: [
         {type: Alternate.H, value: "Hero Corps Insider"},
         {type: Alternate.V, value: "Hero Corps Infiltrator"}

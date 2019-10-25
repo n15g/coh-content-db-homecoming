@@ -4,6 +4,7 @@ import {PeregrineIsland} from "../../map/peregrine-island";
 export const PortalParter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "portal-parter",
+    setTitleId: 144,
     names: [{value: "Portal Parter"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PeregrineIsland.key,

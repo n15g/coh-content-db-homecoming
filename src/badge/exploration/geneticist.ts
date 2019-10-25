@@ -4,6 +4,7 @@ import {TheAbyss} from "../../map/the-abyss";
 export const Geneticist: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "geneticist",
+    setTitleId: 746,
     names: [{value: "Geneticist"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: TheAbyss.key,

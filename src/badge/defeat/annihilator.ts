@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const Annihilator: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "annihilator",
+    setTitleId: 305,
     names: [
         {value: "Annihilator"}
     ],

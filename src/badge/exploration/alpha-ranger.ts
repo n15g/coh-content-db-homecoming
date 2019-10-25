@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const AlphaRanger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "alpha-ranger",
+    setTitleId: 1800,
     names: [{value: "Alpha Ranger"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

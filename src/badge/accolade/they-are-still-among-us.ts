@@ -1,5 +1,13 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
 import {RiktiWarZone} from "../../map/rikti-war-zone";
+import {VanguardOperative} from "../exploration/vanguard-operative";
+import {Trespasser} from "../exploration/trespasser";
+import {Lifesaver} from "../exploration/lifesaver";
+import {BaseJumper} from "../exploration/base-jumper";
+import {Homewrecker} from "../exploration/homewrecker";
+import {Luscious} from "../exploration/luscious";
+import {JunkyardDog} from "../exploration/junkyard-dog";
+import {Unabashed} from "../exploration/unabashed";
 
 export const TheyAreStillAmongUs: IBadgeData = {
     type: BadgeType.ACCOLADE,
@@ -18,5 +26,15 @@ export const TheyAreStillAmongUs: IBadgeData = {
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
+    ],
+    partials: [
+			{key: VanguardOperative.key, type: BadgePartialType.BADGE, badgeKey: VanguardOperative.key},
+			{key: Trespasser.key, type: BadgePartialType.BADGE, badgeKey: Trespasser.key},
+			{key: Lifesaver.key, type: BadgePartialType.BADGE, badgeKey: Lifesaver.key},
+			{key: BaseJumper.key, type: BadgePartialType.BADGE, badgeKey: BaseJumper.key},
+			{key: Homewrecker.key, type: BadgePartialType.BADGE, badgeKey: Homewrecker.key},
+			{key: Luscious.key, type: BadgePartialType.BADGE, badgeKey: Luscious.key},
+			{key: JunkyardDog.key, type: BadgePartialType.BADGE, badgeKey: JunkyardDog.key},
+			{key: Unabashed.key, type: BadgePartialType.BADGE, badgeKey: Unabashed.key},
     ]
 };

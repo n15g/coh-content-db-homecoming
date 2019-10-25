@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const GrandLanista: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "grand-lanista",
+    setTitleId: 474,
     names: [
         {value: "Grand Lanista"}
     ],

@@ -4,6 +4,7 @@ import {SirensCall} from "../../map/sirens-call";
 export const Hangman: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hangman",
+    setTitleId: 259,
     names: [
         {type: Alternate.M, value: "Hangman"},
         {type: Alternate.M, value: "Hangwoman"}

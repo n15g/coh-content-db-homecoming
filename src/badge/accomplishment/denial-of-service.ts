@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const DenialOfService: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "denial-of-service",
+    setTitleId: 1421,
     names: [
         {value: "Denial of Service"}
     ],

@@ -8,6 +8,8 @@ export const Survivor: IBadgeData = {
         {value: "Survivor"}
     ],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `You helped the Praetorian Resistance to reach their goals with as little loss of life as possible.`}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_resist.png"}],
     acquisition: "Complete every story arc in the Praetorian Warden storyline to earn this badge.",
     links: [
         {title: "Survivor Badge", href: "https://paragonwiki.com/wiki/Survivor_Badge"}

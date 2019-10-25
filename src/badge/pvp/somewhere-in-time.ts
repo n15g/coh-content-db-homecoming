@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const SomewhereInTime: IBadgeData = {
     type: BadgeType.PVP,
     key: "somewhere-in-time",
+    setTitleId: 565,
     names: [
         {value: "Somewhere in Time"}
     ],

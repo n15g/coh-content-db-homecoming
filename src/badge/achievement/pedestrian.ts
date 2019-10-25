@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const Pedestrian: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "pedestrian",
+    setTitleId: 550,
     names: [
         {type: Alternate.H, value: "Pedestrian"},
         {type: Alternate.V, value: "Impounder"}

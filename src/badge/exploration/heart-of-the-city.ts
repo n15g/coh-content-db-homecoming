@@ -5,6 +5,7 @@ import {SAFEGUARD_MAYHEM_CONTACT} from "../_badge-misc";
 export const HeartOfTheCity: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "heart-of-the-city",
+    setTitleId: 648,
     names: [
         {type: Alternate.H, value: "Heart of the City"},
         {type: Alternate.V, value: "Hate of the City"},

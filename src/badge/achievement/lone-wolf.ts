@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const LoneWolf: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "lone-wolf",
+    setTitleId: 2202,
     names: [
         {value: "Lone Wolf"}
     ],

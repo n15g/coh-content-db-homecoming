@@ -5,6 +5,7 @@ import {SafeguardBrickstown} from "../../map/safeguard-brickstown";
 export const Cornerstone: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "cornerstone",
+    setTitleId: 654,
     names: [
         {type: Alternate.H, value: "Cornerstone"},
         {type: Alternate.V, value: "Weak Point"},

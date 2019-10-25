@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Warhead: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "warhead",
+    setTitleId: 797,
     names: [{value: "Warhead"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Damage and Knockback."}],

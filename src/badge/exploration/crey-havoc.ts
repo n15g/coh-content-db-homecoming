@@ -4,6 +4,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const CreyHavoc: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "crey-havoc",
+    setTitleId: 122,
     names: [{value: "Crey Havoc"}],
     alignment: ALIGNMENT_HERO,
     mapKey: IndependencePort.key,

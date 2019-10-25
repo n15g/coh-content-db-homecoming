@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const Showstopper: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "showstopper",
+    setTitleId: 1508,
     names: [{value: "Showstopper"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: StMartial.key,

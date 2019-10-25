@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const HunterOfSpecters: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "hunter-of-specters",
+    setTitleId: 2191,
     names: [
         {value: "Hunter of Specters"}
     ],

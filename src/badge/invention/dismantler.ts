@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Dismantler: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "dismantler",
+    setTitleId: 763,
     names: [{value: "Dismantler"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],

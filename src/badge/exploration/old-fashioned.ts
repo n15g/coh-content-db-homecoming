@@ -1,14 +1,18 @@
-import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 import {Faultline} from "../../map/faultline";
 
 export const OldFashioned: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "old-fashioned",
+    setTitleId: 638,
     names: [{value: "Old Fashioned"}],
     alignment: ALIGNMENT_HERO,
+    badgeText: [
+        {type: Alternate.H, value: `Best doughnuts in all of Paragon City! You picked the ultimate bragging rights location.`},
+        {type: Alternate.V, value: `Who doesn't like donuts? Even Lord Recluse likes donuts.`}
+    ],
     mapKey: Faultline.key,
     location: [-170.0, 74.0, -1504.0],
-    badgeText: [{value: "Best doughnuts in all of Paragon City! You picked the ultimate bragging rights location."}],
     notes: "The Old Fashioned Badge is located inside the doughnut hole of the large inflatable doughnut on top of the Drenched Donuts shop just inside the entrance to Faultline.",
     links: [
         {title: "Old Fashioned Badge", href: "https://paragonwiki.com/wiki/Old_Fashioned_Badge"},

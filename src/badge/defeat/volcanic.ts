@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const Volcanic: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "volcanic",
+    setTitleId: 203,
     names: [
         {value: "Volcanic"}
     ],

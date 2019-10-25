@@ -4,6 +4,7 @@ import {TerraVolta} from "../../map/terra-volta";
 export const NervousDreck: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "nervous-dreck",
+    setTitleId: 133,
     names: [{value: "Nervous Dreck"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TerraVolta.key,

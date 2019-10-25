@@ -4,6 +4,7 @@ import {NervaArchipelago} from "../../map/nerva-archipelago";
 export const NervaWreck: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "nerva-wreck",
+    setTitleId: 276,
     names: [{value: "Nerva Wreck"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: NervaArchipelago.key,

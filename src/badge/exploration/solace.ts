@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const Solace: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "solace",
+    setTitleId: 111,
     names: [{value: "Solace"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SkywayCity.key,

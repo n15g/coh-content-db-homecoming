@@ -17,6 +17,7 @@ export const AnsweredTheCall: IBadgeData = {
         {value: "Answered the Call"}
     ],
     alignment: ALIGNMENT_ANY,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png"}],
     badgeText: [
         {value: `You've obtained this Accolade by earning every Exploration badge within Siren's Call.`}
     ],

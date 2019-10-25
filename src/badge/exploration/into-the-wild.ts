@@ -4,6 +4,7 @@ import {NovaPraetoria} from "../../map/nova-praetoria";
 export const IntoTheWild: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "into-the-wild",
+    setTitleId: 1596,
     names: [{value: "Into the Wild"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NovaPraetoria.key,

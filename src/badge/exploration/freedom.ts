@@ -4,6 +4,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const Freedom: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "freedom",
+    setTitleId: 182,
     names: [
         {type: Alternate.H, value: "Freedom"},
         {type: Alternate.V, value: "Covert Operator"},

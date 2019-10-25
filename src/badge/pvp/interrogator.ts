@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Interrogator: IBadgeData = {
     type: BadgeType.PVP,
     key: "interrogator",
+    setTitleId: 577,
     names: [
         {value: "Interrogator"}
     ],

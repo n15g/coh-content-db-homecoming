@@ -4,6 +4,7 @@ import {CascadeArchipelago} from "../../map/cascade-archipelago";
 export const LiquidMemory: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "liquid-memory",
+    setTitleId: 1809,
     names: [{value: "Liquid Memory"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CascadeArchipelago.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const Grounded: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "grounded",
+    setTitleId: 1043,
     names: [
         {type: Alternate.H, value: "Grounded"},
         {type: Alternate.V, value: "Pilot"}

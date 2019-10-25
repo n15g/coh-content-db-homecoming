@@ -4,6 +4,7 @@ import {KingsRow} from "../../map/kings-row";
 export const Upgraded: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "upgraded",
+    setTitleId: 97,
     names: [{value: "Upgraded"}],
     alignment: ALIGNMENT_HERO,
     mapKey: KingsRow.key,

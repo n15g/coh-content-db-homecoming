@@ -4,6 +4,7 @@ import {TerraVolta} from "../../map/terra-volta";
 export const PowerWalker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "power-walker",
+    setTitleId: 1840,
     names: [{value: "Power Walker"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TerraVolta.key,

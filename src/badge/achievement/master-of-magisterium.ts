@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfMagisterium: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-magisterium",
+    setTitleId: 2225,
     names: [
         {value: "Master of Magisterium"}
     ],

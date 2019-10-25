@@ -4,6 +4,7 @@ import {Neutropolis} from "../../map/neutropolis";
 export const UrbanRenewal: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "urban-renewal",
+    setTitleId: 1730,
     names: [{value: "Urban Renewal"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Neutropolis.key,

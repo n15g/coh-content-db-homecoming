@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const BetterDays: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "better-days",
+    setTitleId: 1535,
     names: [{value: "Better Days"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SkywayCity.key,

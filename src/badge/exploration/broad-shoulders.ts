@@ -4,6 +4,7 @@ import {SirensCall} from "../../map/sirens-call";
 export const BroadShoulders: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "broad-shoulders",
+    setTitleId: 261,
     names: [{value: "Broad Shoulders"}],
     alignment: ALIGNMENT_ANY,
     mapKey: SirensCall.key,

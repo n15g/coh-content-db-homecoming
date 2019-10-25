@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const BatteryPowered: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "battery-powered",
+    setTitleId: 781,
     names: [{value: "Battery Powered"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Endurance Modification and Endurance Reduction."}],

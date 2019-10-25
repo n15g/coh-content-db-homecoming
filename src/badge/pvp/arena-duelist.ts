@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ArenaDuelist: IBadgeData = {
     type: BadgeType.PVP,
     key: "arena-duelist",
+    setTitleId: 1341,
     names: [
         {value: "Arena Duelist"}
     ],

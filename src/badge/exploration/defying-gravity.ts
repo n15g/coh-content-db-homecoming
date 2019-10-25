@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const DefyingGravity: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "defying-gravity",
+    setTitleId: 1797,
     names: [{value: "Defying Gravity"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

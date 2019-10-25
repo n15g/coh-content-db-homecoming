@@ -8,6 +8,7 @@ export const WarMachine: IBadgeData = {
         {value: "War Machine"}
     ],
     alignment: ALIGNMENT_HERO,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/council-war-walker.png"}],
     badgeText: [
         {value: "The Council Goliath War Walker was no match for you."}
     ],

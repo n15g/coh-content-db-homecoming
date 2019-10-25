@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const TriggerMan: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "trigger-man",
+    setTitleId: 785,
     names: [{value: "Trigger Man"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Recharge Rate and Interrupt Time."}],

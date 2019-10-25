@@ -5,6 +5,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const DangerDanger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "danger-danger",
+    setTitleId: 1838,
     names: [{value: "Danger! Danger!"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TerraVolta.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const CreyTestSubject: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "crey-test-subject",
+    setTitleId: 1050,
     names: [
         {type: Alternate.H, value: "Crey Test Subject"},
         {type: Alternate.V, value: "Crey Employee"}

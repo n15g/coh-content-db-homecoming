@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const DeadMansTree: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "dead-mans-tree",
+    setTitleId: 1505,
     names: [{value: "Dead Man's Tree"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: StMartial.key,

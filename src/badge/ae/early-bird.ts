@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const EarlyBird: IBadgeData = {
     type: BadgeType.AE,
     key: "early-bird",
+    setTitleId: 1151,
     names: [
         {value: "Early Bird"}
     ],

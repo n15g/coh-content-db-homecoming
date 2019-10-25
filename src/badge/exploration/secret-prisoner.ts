@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const SecretPrisoner: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "secret-prisoner",
+    setTitleId: 1640,
     names: [{value: "Secret Prisoner"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNova.key,

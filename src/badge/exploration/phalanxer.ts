@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const Phalanxer: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "phalanxer",
+    setTitleId: 114,
     names: [{value: "Phalanxer"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

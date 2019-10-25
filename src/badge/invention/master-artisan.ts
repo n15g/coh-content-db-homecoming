@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterArtisan: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "master-artisan",
+    setTitleId: 741,
     names: [{value: "Master Artisan"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have created 100 inventions, justifying your title of Master Artisan."}],

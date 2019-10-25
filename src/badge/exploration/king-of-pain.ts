@@ -4,6 +4,7 @@ import {TheChantry} from "../../map/the-chantry";
 export const KingOfPain: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "king-of-pain",
+    setTitleId: 1813,
     names: [
         {type: Alternate.M, value: "King of Pain"},
         {type: Alternate.F, value: "Queen of Pain"}

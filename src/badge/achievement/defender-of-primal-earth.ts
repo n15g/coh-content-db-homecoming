@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const DefenderOfPrimalEarth: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "defender-of-primal-earth",
+    setTitleId: 2024,
     names: [
         {value: "Defender of Primal Earth"}
     ],

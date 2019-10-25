@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const MageHunter: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "mage-hunter",
+    setTitleId: 345,
     names: [
         {value: "Mage Hunter"}
     ],

@@ -4,6 +4,7 @@ import {TheHollows} from "../../map/the-hollows";
 export const CircleSeeker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "circle-seeker",
+    setTitleId: 1519,
     names: [{value: "Circle Seeker"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheHollows.key,

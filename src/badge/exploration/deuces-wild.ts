@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const DeucesWild: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "deuces-wild",
+    setTitleId: 279,
     names: [{value: "Deuces Wild"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: StMartial.key,

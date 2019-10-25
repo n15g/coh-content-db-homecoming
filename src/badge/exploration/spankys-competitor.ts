@@ -4,6 +4,7 @@ import {TalosIsland} from "../../map/talos-island";
 export const SpankysCompetitor: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "spankys-competitor",
+    setTitleId: 1550,
     names: [{value: "Spanky's Competitor"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TalosIsland.key,

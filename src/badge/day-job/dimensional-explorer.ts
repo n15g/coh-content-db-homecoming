@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const DimensionalExplorer: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "dimensional-explorer",
+    setTitleId: 1032,
     names: [
         {type: Alternate.H, value: "Dimensional Explorer"},
         {type: Alternate.V, value: "Dimensional Plunderer"}

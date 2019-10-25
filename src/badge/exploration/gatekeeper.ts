@@ -5,6 +5,7 @@ import {SafeguardPeregrineIsland} from "../../map/safeguard-peregrine-island";
 export const Gatekeeper: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "gatekeeper",
+    setTitleId: 656,
     names: [
         {type: Alternate.H, value: "Gatekeeper"},
         {type: Alternate.V, value: "Keymaster"},

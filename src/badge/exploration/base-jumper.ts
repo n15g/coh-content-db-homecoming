@@ -4,6 +4,7 @@ import {RiktiWarZone} from "../../map/rikti-war-zone";
 export const BaseJumper: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "base-jumper",
+    setTitleId: 752,
     names: [{value: "Base Jumper"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,

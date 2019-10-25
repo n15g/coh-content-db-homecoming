@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Disruptor: IBadgeData = {
     type: BadgeType.PVP,
     key: "disruptor",
+    setTitleId: 366,
     names: [
         {value: "Disruptor"}
     ],

@@ -5,6 +5,7 @@ import {MayhemBrickstown} from "../../map/mayhem-brickstown";
 export const Brickhouse: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "brickhouse",
+    setTitleId: 561,
     names: [{value: "Brickhouse"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MayhemBrickstown.key,

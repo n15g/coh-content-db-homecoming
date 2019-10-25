@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Breakneck: IBadgeData = {
     type: BadgeType.PVP,
     key: "breakneck",
+    setTitleId: 578,
     names: [
         {value: "Breakneck"}
     ],

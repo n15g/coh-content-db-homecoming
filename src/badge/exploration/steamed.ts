@@ -4,6 +4,7 @@ import {CapAuDiable} from "../../map/cap-au-diable";
 export const Steamed: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "steamed",
+    setTitleId: 272,
     names: [{value: "Steamed"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,

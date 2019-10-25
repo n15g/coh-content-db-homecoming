@@ -4,6 +4,7 @@ import {SteelCanyon} from "../../map/steel-canyon";
 export const BrightStar: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "bright-star",
+    setTitleId: 109,
     names: [{value: "Bright Star"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SteelCanyon.key,

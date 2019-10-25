@@ -4,6 +4,7 @@ import {Neutropolis} from "../../map/neutropolis";
 export const EyesToTheFuture: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "eyes-to-the-future",
+    setTitleId: 1404,
     names: [{value: "Eyes to the Future"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Neutropolis.key,

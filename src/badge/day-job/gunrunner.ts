@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const Gunrunner: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "gunrunner",
+    setTitleId: 1140,
     names: [
         {type: Alternate.H, value: "Gunrunner"},
         {type: Alternate.V, value: "Smuggler"}
@@ -10,7 +11,7 @@ export const Gunrunner: IBadgeData = {
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [{
         type: Alternate.H,
-        value: "You've shttps://n15g.github.io/coh-content-db-homecoming/images/badges/ the biggest coup of all; smuggling directly into Paragon City/ Unfortunately, it's a long round-trip..png"
+        value: `You've scored the biggest coup of all: smuggling directly into Paragon City. Unfortunately, it's a long round trip.`
     }, {
         type: Alternate.V,
         value: "You spend your free time smuggling in illicit black market goods earning you the Smuggler Day Job." +

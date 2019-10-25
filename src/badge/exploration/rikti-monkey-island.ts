@@ -4,6 +4,7 @@ import {MonsterIsland} from "../../map/monster-island";
 export const RiktiMonkeyIsland: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "rikti-monkey-island",
+    setTitleId: 1870,
     names: [{value: "Rikti Monkey Island"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MonsterIsland.key,

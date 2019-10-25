@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const TemporalAgent: IBadgeData = {
     type: BadgeType.PVP,
     key: "temporal-agent",
+    setTitleId: 567,
     names: [
         {value: "Temporal Agent"}
     ],

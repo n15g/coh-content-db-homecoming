@@ -5,6 +5,7 @@ import {SafeguardSkywayCity} from "../../map/safeguard-skyway-city";
 export const CourageDriven: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "courage-driven",
+    setTitleId: 650,
     names: [
         {type: Alternate.H, value: "Courage Driven"},
         {type: Alternate.V, value: "Rage Driven"},

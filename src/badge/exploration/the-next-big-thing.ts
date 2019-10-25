@@ -4,6 +4,7 @@ import {MercyIsland} from "../../map/mercy-island";
 export const TheNextBigThing: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-next-big-thing",
+    setTitleId: 267,
     names: [{value: "The Next Big Thing"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MercyIsland.key,

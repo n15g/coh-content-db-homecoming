@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ApocalypseSurvivor: IBadgeData = {
     type: BadgeType.EVENT,
     key: "apocalypse-survivor",
+    setTitleId: 1023,
     names: [
         {value: "Apocalypse Survivor"},
     ],

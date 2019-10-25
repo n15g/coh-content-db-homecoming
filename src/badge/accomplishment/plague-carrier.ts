@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const PlagueCarrier: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "plague-carrier",
+    setTitleId: 332,
     names: [
         {value: "Plague Carrier"}
     ],

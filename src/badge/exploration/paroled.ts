@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const Paroled: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "paroled",
+    setTitleId: 280,
     names: [
         {type: Alternate.H, value: "Paroled"},
         {type: Alternate.V, value: "Crimelord"},

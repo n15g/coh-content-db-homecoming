@@ -4,6 +4,7 @@ import {TerraVolta} from "../../map/terra-volta";
 export const ScrapheapOfHistory: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "scrapheap-of-history",
+    setTitleId: 1839,
     names: [{value: "Scrapheap of History"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TerraVolta.key,

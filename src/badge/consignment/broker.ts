@@ -3,12 +3,14 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Broker: IBadgeData = {
     type: BadgeType.CONSIGNMENT,
     key: "broker",
+    setTitleId: 806,
     names: [
         {value: "Broker"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've sold 50 Recipes on the Auction House."},
+        {type: Alternate.H, value: `You've sold 50 Recipes on the Consignment House.`},
+        {type: Alternate.V, value: `You've sold 50 Recipes on the Black Market.`}
     ],
     acquisition: "Sell 50 Recipes at either Wentworths or the Black Market.",
     links: [

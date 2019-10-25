@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const ThinLine: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "thin-line",
+    setTitleId: 552,
     names: [
         {type: Alternate.H, value: "Thin Line"},
         {type: Alternate.V, value: "Outlaw"}

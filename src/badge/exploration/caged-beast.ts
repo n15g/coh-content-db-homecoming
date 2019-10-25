@@ -4,6 +4,7 @@ import {TheAbyss} from "../../map/the-abyss";
 export const CagedBeast: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "caged-beast",
+    setTitleId: 1863,
     names: [{value: "Caged Beast"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: TheAbyss.key,

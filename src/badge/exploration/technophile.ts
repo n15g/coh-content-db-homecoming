@@ -4,6 +4,7 @@ import {NovaPraetoria} from "../../map/nova-praetoria";
 export const Technophile: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "technophile",
+    setTitleId: 1592,
     names: [{value: "Technophile"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NovaPraetoria.key,

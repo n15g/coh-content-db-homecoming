@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const LucentLegacyOfLight: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "lucent-legacy-of-light",
+    setTitleId: 465,
     names: [
         {value: "Lucent Legacy of Light"}
     ],

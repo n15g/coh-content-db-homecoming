@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const ShadowArchitect: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "shadow-architect",
+    setTitleId: 1801,
     names: [{value: "Shadow Architect"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

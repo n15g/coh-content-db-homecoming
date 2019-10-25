@@ -4,6 +4,7 @@ import {RiktiWarZone} from "../../map/rikti-war-zone";
 export const JunkyardDog: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "junkyard-dog",
+    setTitleId: 755,
     names: [{value: "Junkyard Dog"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,

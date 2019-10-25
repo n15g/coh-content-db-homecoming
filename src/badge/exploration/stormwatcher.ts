@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const Stormwatcher: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "stormwatcher",
+    setTitleId: 1799,
     names: [{value: "Stormwatcher"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

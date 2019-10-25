@@ -4,6 +4,7 @@ import {Praetoria} from "../../map/praetoria";
 export const RailRider: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "rail-rider",
+    setTitleId: 1411,
     names: [{value: "Rail Rider"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Praetoria.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Visionary: IBadgeData = {
     type: BadgeType.DEFEAT,
     key: "visionary",
+    setTitleId: 204,
     names: [
         {value: "Visionary"}
     ],

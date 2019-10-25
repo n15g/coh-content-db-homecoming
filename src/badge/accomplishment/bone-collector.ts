@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const BoneCollector: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "bone-collector",
+    setTitleId: 331,
     names: [
         {value: "Bone Collector"}
     ],

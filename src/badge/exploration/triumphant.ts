@@ -4,6 +4,7 @@ import {Warburg} from "../../map/warburg";
 export const Triumphant: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "triumphant",
+    setTitleId: 293,
     names: [{value: "Triumphant"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Warburg.key,

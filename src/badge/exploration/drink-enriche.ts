@@ -4,6 +4,7 @@ import {UndergroundNeutropolis} from "../../map/underground-neutropolis";
 export const DrinkEnriche: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "drink-enriche",
+    setTitleId: 1743,
     names: [{value: "Drink Enriche!"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNeutropolis.key,

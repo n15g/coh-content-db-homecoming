@@ -4,6 +4,7 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 export const TemporalFighter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "temporal-fighter",
+    setTitleId: 289,
     names: [
         {type: Alternate.H, value: "Temporal Fighter"},
         {type: Alternate.V, value: "Dark Victory"},

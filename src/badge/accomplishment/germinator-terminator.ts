@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const GerminatorTerminator: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "germinator-terminator",
+    setTitleId: 2062,
     names: [
         {value: "Germinator Terminator"}
     ],

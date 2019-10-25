@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const Arachnobot: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "arachnobot",
+    setTitleId: 453,
     names: [
         {value: "Arachnobot"}
     ],

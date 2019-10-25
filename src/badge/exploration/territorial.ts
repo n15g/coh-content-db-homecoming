@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const Territorial: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "territorial",
+    setTitleId: 101,
     names: [{value: "Territorial"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PerezPark.key,

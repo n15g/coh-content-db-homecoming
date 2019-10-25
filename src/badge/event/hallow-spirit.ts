@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const HallowSpirit: IBadgeData = {
     type: BadgeType.EVENT,
     key: "hallow-spirit",
+    setTitleId: 184,
     names: [
         {value: "Hallow Spirit"},
     ],

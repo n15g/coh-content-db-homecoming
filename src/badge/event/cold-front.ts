@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ColdFront: IBadgeData = {
     type: BadgeType.EVENT,
     key: "cold-front",
+    setTitleId: 705,
     names: [
         {value: "Cold Front"},
     ],

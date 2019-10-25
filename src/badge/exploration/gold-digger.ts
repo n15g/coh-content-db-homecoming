@@ -4,6 +4,7 @@ import {ImperialCity} from "../../map/imperial-city";
 export const GoldDigger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "gold-digger",
+    setTitleId: 1630,
     names: [{value: "Gold Digger"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ImperialCity.key,

@@ -4,8 +4,10 @@ import {BloodyBay} from "../../map/bloody-bay";
 export const Restless: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "restless",
+    setTitleId: 2414,
     names: [{value: "Restless"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `Graveyards litter the Bay, but Shivans and Banished Pantheon alike keep mourners from visiting their passed loved ones.`}],
     mapKey: BloodyBay.key,
     location: [-792.0, 2.0, 459.0],
     links: [

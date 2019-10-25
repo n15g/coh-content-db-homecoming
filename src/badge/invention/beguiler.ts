@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Beguiler: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "beguiler",
+    setTitleId: 776,
     names: [{value: "Beguiler"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],

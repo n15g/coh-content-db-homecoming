@@ -4,6 +4,7 @@ import {RiktiWarZone} from "../../map/rikti-war-zone";
 export const Lifesaver: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "lifesaver",
+    setTitleId: 750,
     names: [{value: "Lifesaver"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,

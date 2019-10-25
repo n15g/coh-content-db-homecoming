@@ -4,6 +4,7 @@ import {FoundersFalls} from "../../map/founders-falls";
 export const GuardianAngel: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "guardian-angel",
+    setTitleId: 1558,
     names: [
         {type: Alternate.H, value: "Guardian Angel"},
         {type: Alternate.V, value: "Barely Contained"}

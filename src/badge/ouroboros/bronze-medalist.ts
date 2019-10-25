@@ -1,14 +1,16 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const BronzeMedalist: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "bronze-medalist",
+    setTitleId: 864,
     names: [
         {value: "Bronze Medalist"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have completed a Task Force/Flashback within the Bronze time allowed."},
+        {type: Alternate.H, value: `You have completed a Task Force/Flashback within the Bronze time allowed.`},
+        {type: Alternate.V, value: `You have completed a Strike Force/Flashback within the Bronze time allowed.`}
     ],
     acquisition: "Complete a Flashback arc in under 120 minutes.",
     links: [

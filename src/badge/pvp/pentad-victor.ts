@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const PentadVictor: IBadgeData = {
     type: BadgeType.PVP,
     key: "pentad-victor",
+    setTitleId: 1356,
     names: [
         {value: "Pentad Victor"}
     ],

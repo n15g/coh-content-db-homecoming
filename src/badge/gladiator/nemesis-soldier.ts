@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const NemesisSoldier: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "nemesis-soldier",
+    setTitleId: 495,
     names: [
         {value: "Nemesis Soldier"}
     ],

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const TonightsTopStory: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "tonights-top-story",
+    setTitleId: 2076,
     names: [
         {value: "Tonight's Top Story"}
     ],

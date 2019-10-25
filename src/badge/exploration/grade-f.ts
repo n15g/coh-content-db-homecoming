@@ -4,6 +4,7 @@ import {UndergroundNeutropolis} from "../../map/underground-neutropolis";
 export const GradeF: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "grade-f",
+    setTitleId: 1744,
     names: [{value: "Grade F"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNeutropolis.key,

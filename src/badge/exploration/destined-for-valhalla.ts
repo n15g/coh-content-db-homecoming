@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const DestinedForValhalla: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "destined-for-valhalla",
+    setTitleId: 117,
     names: [{value: "Destined for Valhalla"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

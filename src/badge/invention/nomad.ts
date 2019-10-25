@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Nomad: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "nomad",
+    setTitleId: 804,
     names: [{value: "Nomad"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Run Speed, Jump, Fly Speed, and Range."}],

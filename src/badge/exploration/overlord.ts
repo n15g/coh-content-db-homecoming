@@ -4,6 +4,7 @@ import {Grandville} from "../../map/grandville";
 export const Overlord: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "overlord",
+    setTitleId: 283,
     names: [{value: "Overlord"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: Grandville.key,

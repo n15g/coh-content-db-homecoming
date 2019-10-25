@@ -4,6 +4,7 @@ import {ArenaCageMatch} from "../../map/arena-cage-match";
 export const CageFighter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "cage-fighter",
+    setTitleId: 716,
     names: [{value: "Cage Fighter"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ArenaCageMatch.key,

@@ -4,6 +4,7 @@ import {SharkheadIsle} from "../../map/sharkhead-isle";
 export const ForgedByHellfire: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "forged-by-hellfire",
+    setTitleId: 296,
     names: [{value: "Forged by Hellfire"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: SharkheadIsle.key,

@@ -4,6 +4,7 @@ import {FoundersFalls} from "../../map/founders-falls";
 export const WatchfulEyes: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "watchful-eyes",
+    setTitleId: 1560,
     names: [{value: "Watchful Eyes"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FoundersFalls.key,

@@ -4,6 +4,7 @@ import {UndergroundNova} from "../../map/underground-nova";
 export const Trainspotter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "trainspotter",
+    setTitleId: 1641,
     names: [{value: "Trainspotter"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundNova.key,

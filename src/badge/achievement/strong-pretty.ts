@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const StrongPretty: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "strong-pretty",
+    setTitleId: 1978,
     names: [
         {value: "Strong & Pretty"}
     ],

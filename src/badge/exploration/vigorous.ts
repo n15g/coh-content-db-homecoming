@@ -4,6 +4,7 @@ import {IndependencePort} from "../../map/independence-port";
 export const Vigorous: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "vigorous",
+    setTitleId: 124,
     names: [{value: "Vigorous"}],
     alignment: ALIGNMENT_HERO,
     mapKey: IndependencePort.key,

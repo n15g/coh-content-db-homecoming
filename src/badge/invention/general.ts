@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const General: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "general",
+    setTitleId: 794,
     names: [{value: "General"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Accuracy and To Hit Buff."}],

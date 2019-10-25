@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const TriedAndTrue: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "tried-and-true",
+    setTitleId: 2370,
     names: [{value: "Tried and True"}],
     alignment: ALIGNMENT_HERO,
     badgeText: [{

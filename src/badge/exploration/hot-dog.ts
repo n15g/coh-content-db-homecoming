@@ -4,8 +4,10 @@ import {SirensCall} from "../../map/sirens-call";
 export const HotDog: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hot-dog",
+    setTitleId: 2416,
     names: [{value: "Hot Dog"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `Although Nick has since set up shop at a new location on Talos Island, many former residents of Siren's Call still miss the atmosphere of the old stand.`}],
     mapKey: SirensCall.key,
     location: [1472.0, 0.0, -149.0],
     links: [

@@ -4,6 +4,7 @@ import {StMartial} from "../../map/st-martial";
 export const SocialWorker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "social-worker",
+    setTitleId: 1506,
     names: [
         {type: Alternate.H, value: "Social Worker"},
         {type: Alternate.V, value: "Slumlord"},

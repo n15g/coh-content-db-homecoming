@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const ProtectorOfKindness: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "protector-of-kindness",
+    setTitleId: 425,
     names: [
         {type: Alternate.H, value: "Protector of Kindness"},
         {type: Alternate.V, value: "Thorn Crusher"}

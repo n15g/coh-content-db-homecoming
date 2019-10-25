@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Revivifier: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "revivifier",
+    setTitleId: 768,
     names: [{value: "Revivifier"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Heal."}],

@@ -4,6 +4,7 @@ import {EchoDarkAstoria} from "../../map/echo-dark-astoria";
 export const CairnWarder: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "cairn-warder",
+    setTitleId: 130,
     names: [{value: "Cairn Warder"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoDarkAstoria.key,

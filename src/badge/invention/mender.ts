@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Mender: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "mender",
+    setTitleId: 766,
     names: [{value: "Mender"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Heal."}],

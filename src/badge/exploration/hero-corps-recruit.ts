@@ -4,6 +4,7 @@ import {SteelCanyon} from "../../map/steel-canyon";
 export const HeroCorpsRecruit: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hero-corps-recruit",
+    setTitleId: 107,
     names: [
         {type: Alternate.H, value: "Hero Corps Recruit"},
         {type: Alternate.V, value: "Hero Corps Reject"},

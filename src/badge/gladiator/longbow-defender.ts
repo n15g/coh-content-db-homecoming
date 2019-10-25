@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const LongbowDefender: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "longbow-defender",
+    setTitleId: 460,
     names: [
         {value: "Longbow Defender"}
     ],

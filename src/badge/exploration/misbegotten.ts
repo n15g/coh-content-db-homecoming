@@ -4,6 +4,7 @@ import {TheChantry} from "../../map/the-chantry";
 export const Misbegotten: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "misbegotten",
+    setTitleId: 1816,
     names: [{value: "Misbegotten"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TheChantry.key,

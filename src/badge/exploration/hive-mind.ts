@@ -5,6 +5,7 @@ import {TheHive} from "../../map/the-hive";
 export const HiveMind: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "hive-mind",
+    setTitleId: 1846,
     names: [{value: "Hive Mind"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Eden.key,

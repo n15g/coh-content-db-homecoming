@@ -4,6 +4,7 @@ import {ImperialCity} from "../../map/imperial-city";
 export const GoingRouge: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "going-rouge",
+    setTitleId: 1731,
     names: [{value: "Going Rouge"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ImperialCity.key,

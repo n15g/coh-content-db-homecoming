@@ -5,6 +5,7 @@ import {MayhemSteelCanyon} from "../../map/mayhem-steel-canyon";
 export const SteelWorker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "steel-worker",
+    setTitleId: 558,
     names: [{value: "Steel Worker"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MayhemSteelCanyon.key,

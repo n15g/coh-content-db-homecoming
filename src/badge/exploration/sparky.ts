@@ -4,6 +4,7 @@ import {CapAuDiable} from "../../map/cap-au-diable";
 export const Sparky: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sparky",
+    setTitleId: 269,
     names: [{value: "Sparky"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,

@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const Avatar: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "avatar",
+    setTitleId: 102,
     names: [{value: "Avatar"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PerezPark.key,

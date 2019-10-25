@@ -4,6 +4,7 @@ import {Neutropolis} from "../../map/neutropolis";
 export const Stockpiling: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "stockpiling",
+    setTitleId: 1728,
     names: [{value: "Stockpiling"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Neutropolis.key,

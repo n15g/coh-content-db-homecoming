@@ -5,6 +5,7 @@ import {SafeguardKingsRow} from "../../map/safeguard-kings-row";
 export const KingsRighteousness: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "kings-righteousness",
+    setTitleId: 649,
     names: [
         {type: Alternate.H, value: "King's Righteousness"},
         {type: Alternate.V, value: "King's Capriciousness"},

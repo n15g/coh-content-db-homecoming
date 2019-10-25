@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const XRaySpectator: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "x-ray-spectator",
+    setTitleId: 1802,
     names: [{value: "X-Ray Spectator"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

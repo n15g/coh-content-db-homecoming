@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const CimeroranHero: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "cimeroran-hero",
+    setTitleId: 2198,
     names: [
         {type: Alternate.M, value: "Cimeroran Hero"},
         {type: Alternate.F, value: "Cimeroran Heroine"}

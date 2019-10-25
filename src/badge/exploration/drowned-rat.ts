@@ -1,14 +1,18 @@
-import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 import {Faultline} from "../../map/faultline";
 
 export const DrownedRat: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "drowned-rat",
+    setTitleId: 637,
     names: [{value: "Drowned Rat"}],
     alignment: ALIGNMENT_HERO,
+    badgeText: [
+        {type: Alternate.H, value: `The dam burst here due to exceptionally strong seismic activity.`},
+        {type: Alternate.V, value: `This marks the location that the dam burst due to exceptionally strong seismic activity.`}
+    ],
     mapKey: Faultline.key,
     location: [150.0, -51.0, 2360.0],
-    badgeText: [{value: "The dam burst here due to exceptionally strong seismic activity."}],
     notes: "The Drowned Rat Badge is in the Overflow neighborhood of Faultline located on scaffolding against the dam just above a large leak in its face.",
     links: [
         {title: "Drowned Rat Badge", href: "https://paragonwiki.com/wiki/Drowned_Rat_Badge"},

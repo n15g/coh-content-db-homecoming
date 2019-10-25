@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const _5thColumnist: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "5th-columnist",
+    setTitleId: 612,
     names: [
         {value: "5th Columnist"}
     ],

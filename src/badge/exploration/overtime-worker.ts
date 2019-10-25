@@ -4,6 +4,7 @@ import {TalosIsland} from "../../map/talos-island";
 export const OvertimeWorker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "overtime-worker",
+    setTitleId: 1549,
     names: [{value: "Overtime Worker"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TalosIsland.key,

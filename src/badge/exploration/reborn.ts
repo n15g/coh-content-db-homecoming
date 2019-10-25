@@ -4,6 +4,7 @@ import {TheAbyss} from "../../map/the-abyss";
 export const Reborn: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "reborn",
+    setTitleId: 745,
     names: [{value: "Reborn"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: TheAbyss.key,

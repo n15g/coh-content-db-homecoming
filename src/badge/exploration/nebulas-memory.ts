@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const NebulasMemory: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "nebulas-memory",
+    setTitleId: 1774,
     names: [{value: "Nebula's Memory"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PerezPark.key,

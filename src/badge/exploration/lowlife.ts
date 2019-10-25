@@ -4,6 +4,7 @@ import {UndergroundImperial} from "../../map/underground-imperial";
 export const Lowlife: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "lowlife",
+    setTitleId: 1650,
     names: [{value: "Lowlife"}],
     alignment: ALIGNMENT_ANY,
     mapKey: UndergroundImperial.key,

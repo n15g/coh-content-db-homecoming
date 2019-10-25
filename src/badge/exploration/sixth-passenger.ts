@@ -4,6 +4,7 @@ import {Brickstown} from "../../map/brickstown";
 export const SixthPassenger: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sixth-passenger",
+    setTitleId: 1569,
     names: [{value: "Sixth Passenger"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Brickstown.key,

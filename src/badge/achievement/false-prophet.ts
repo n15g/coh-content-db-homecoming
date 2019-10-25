@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const FalseProphet: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "false-prophet",
+    setTitleId: 2096,
     names: [
         {value: "False Prophet"}
     ],

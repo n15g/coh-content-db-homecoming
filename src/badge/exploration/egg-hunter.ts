@@ -4,6 +4,7 @@ import {Faultline} from "../../map/faultline";
 export const EggHunter: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "egg-hunter",
+    setTitleId: 639,
     names: [{value: "Egg Hunter"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Faultline.key,

@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const Poltergeist: IBadgeData = {
     type: BadgeType.PVP,
     key: "poltergeist",
+    setTitleId: 582,
     names: [
         {value: "Poltergeist"}
     ],

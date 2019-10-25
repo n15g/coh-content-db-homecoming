@@ -4,6 +4,7 @@ import {TheStormPalace} from "../../map/the-storm-palace";
 export const LordOfStorms: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "lord-of-storms",
+    setTitleId: 1861,
     names: [
         {type: Alternate.M, value: "Lord of Storms"},
         {type: Alternate.F, value: "Lady of Storms"}

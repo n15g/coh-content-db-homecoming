@@ -3,10 +3,12 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const BeyondReasonableDoubt: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "beyond-reasonable-doubt",
+    setTitleId: 2408,
     names: [
         {value: "Beyond Reasonable Doubt"}
     ],
     alignment: ALIGNMENT_HERO,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/beyond-reasonable-doubt.png"}],
     badgeText: [
         {value: "It is better that ten guilty persons escape than that one innocent suffer."}
     ],

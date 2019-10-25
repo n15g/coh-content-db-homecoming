@@ -4,6 +4,7 @@ import {Eden} from "../../map/eden";
 export const NaturalLaw: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "natural-law",
+    setTitleId: 1844,
     names: [{value: "Natural Law"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Eden.key,

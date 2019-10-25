@@ -4,6 +4,7 @@ import {Brickstown} from "../../map/brickstown";
 export const FlyingShark: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "flying-shark",
+    setTitleId: 1565,
     names: [{value: "Flying Shark"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Brickstown.key,

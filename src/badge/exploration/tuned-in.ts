@@ -4,6 +4,7 @@ import {ImperialCity} from "../../map/imperial-city";
 export const TunedIn: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "tuned-in",
+    setTitleId: 1409,
     names: [{value: "Tuned In"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ImperialCity.key,

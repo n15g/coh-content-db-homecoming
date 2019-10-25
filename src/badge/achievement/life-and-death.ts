@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const LifeAndDeath: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "life-and-death",
+    setTitleId: 2167,
     names: [
         {value: "Life and Death"}
     ],

@@ -4,6 +4,7 @@ import {CascadeArchipelago} from "../../map/cascade-archipelago";
 export const UsurperOfWorlds: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "usurper-of-worlds",
+    setTitleId: 1810,
     names: [{value: "Usurper of Worlds"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CascadeArchipelago.key,

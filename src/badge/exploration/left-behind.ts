@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const LeftBehind: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "left-behind",
+    setTitleId: 1537,
     names: [{value: "Left Behind"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SkywayCity.key,

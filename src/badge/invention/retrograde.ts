@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Retrograde: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "retrograde",
+    setTitleId: 764,
     names: [{value: "Retrograde"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],

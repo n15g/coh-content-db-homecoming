@@ -5,6 +5,7 @@ import {SafeguardIndependencePort} from "../../map/safeguard-independence-port";
 export const HonorableCaptain: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "honorable-captain",
+    setTitleId: 652,
     names: [
         {type: Alternate.H, value: "Honorable Captain"},
         {type: Alternate.V, value: "Dishonorable Captain"},

@@ -4,6 +4,7 @@ import {EchoGalaxyCity} from "../../map/echo-galaxy-city";
 export const EyeOfTheGemini: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "eye-of-the-gemini",
+    setTitleId: 1523,
     names: [{value: "Eye of the Gemini"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoGalaxyCity.key,

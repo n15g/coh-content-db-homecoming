@@ -4,6 +4,7 @@ import {NovaPraetoria} from "../../map/nova-praetoria";
 export const GuardiansOfJustice: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "guardians-of-justice",
+    setTitleId: 1593,
     names: [{value: "Guardians of Justice"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NovaPraetoria.key,

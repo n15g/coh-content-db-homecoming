@@ -4,6 +4,7 @@ import {FirebaseZulu} from "../../map/firebase-zulu";
 export const DancerWithDeath: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "dancer-with-death",
+    setTitleId: 1803,
     names: [{value: "Dancer with Death"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FirebaseZulu.key,

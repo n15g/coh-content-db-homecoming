@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const HamidonsEnemy: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "hamidons-enemy",
+    setTitleId: 2266,
     names: [
         {value: "Hamidon's Enemy"}
     ],

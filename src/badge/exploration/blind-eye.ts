@@ -4,6 +4,7 @@ import {NervaArchipelago} from "../../map/nerva-archipelago";
 export const BlindEye: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "blind-eye",
+    setTitleId: 1502,
     names: [{value: "Blind Eye"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: NervaArchipelago.key,

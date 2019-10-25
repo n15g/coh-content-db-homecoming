@@ -4,6 +4,7 @@ import {CapAuDiable} from "../../map/cap-au-diable";
 export const MasterOfScience: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "master-of-science",
+    setTitleId: 1493,
     names: [{value: "Master of Science"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: CapAuDiable.key,

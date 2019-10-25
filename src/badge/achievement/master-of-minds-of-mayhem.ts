@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const MasterOfMindsOfMayhem: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-minds-of-mayhem",
+    setTitleId: 2083,
     names: [
         {value: "Master of Minds of Mayhem"}
     ],

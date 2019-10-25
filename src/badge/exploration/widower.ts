@@ -4,6 +4,7 @@ import {MercyIsland} from "../../map/mercy-island";
 export const Widower: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "widower",
+    setTitleId: 268,
     names: [
         {type: Alternate.M, value: "Widower"},
         {type: Alternate.F, value: "Widow"},

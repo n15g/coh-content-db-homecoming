@@ -4,6 +4,7 @@ import {MercyIsland} from "../../map/mercy-island";
 export const Fortified: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "fortified",
+    setTitleId: 266,
     names: [{value: "Fortified"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: MercyIsland.key,

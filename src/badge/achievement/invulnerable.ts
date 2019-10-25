@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Invulnerable: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "invulnerable",
+    setTitleId: 231,
     names: [
         {value: "Invulnerable"},
         {type: Alternate.P, value: "Marvel of Modern Medicine"}

@@ -4,6 +4,7 @@ import {BloodyBay} from "../../map/bloody-bay";
 export const Lobbyist: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "lobbyist",
+    setTitleId: 255,
     names: [
         {type: Alternate.H, value: "Lobbyist"},
         {type: Alternate.V, value: "Crooked Politician"}

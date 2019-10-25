@@ -3,6 +3,7 @@ import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const TheFairest: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "the-fairest",
+    setTitleId: 1587,
     names: [
         {type: Alternate.H, value: "The Fairest"},
         {type: Alternate.V, value: "Turf Protector"}

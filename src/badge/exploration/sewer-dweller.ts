@@ -4,6 +4,7 @@ import {Grandville} from "../../map/grandville";
 export const SewerDweller: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sewer-dweller",
+    setTitleId: 284,
     names: [{value: "Sewer Dweller"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: Grandville.key,

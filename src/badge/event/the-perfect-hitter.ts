@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ThePerfectHitter: IBadgeData = {
     type: BadgeType.EVENT,
     key: "the-perfect-hitter",
+    setTitleId: 2247,
     names: [
         {value: "The Perfect Hitter"},
     ],

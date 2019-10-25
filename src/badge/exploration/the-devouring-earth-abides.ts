@@ -4,6 +4,7 @@ import {Eden} from "../../map/eden";
 export const TheDevouringEarthAbides: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-devouring-earth-abides",
+    setTitleId: 1845,
     names: [{value: "The Devouring Earth Abides"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Eden.key,

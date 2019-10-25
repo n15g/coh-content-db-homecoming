@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const KeeperOfCoralLore: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "keeper-of-coral-lore",
+    setTitleId: 1894,
     names: [
         {value: "Keeper of Coral Lore"}
     ],

@@ -4,6 +4,7 @@ import {PerezPark} from "../../map/perez-park";
 export const BloodMoss: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "blood-moss",
+    setTitleId: 1775,
     names: [{value: "Blood Moss"}],
     alignment: ALIGNMENT_HERO,
     mapKey: PerezPark.key,

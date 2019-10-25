@@ -4,6 +4,7 @@ import {MidnighterClub} from "../../map/midnighter-club";
 export const MidnighterClubMember: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "midnighter-club-member",
+    setTitleId: 992,
     names: [{value: "Midnighter Club Member"}],
     alignment: ALIGNMENT_ANY,
     mapKey: MidnighterClub.key,

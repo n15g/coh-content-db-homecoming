@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Confined: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "confined",
+    setTitleId: 239,
     names: [
         {value: "Confined"},
         {type: Alternate.P, value: "Stuck"}

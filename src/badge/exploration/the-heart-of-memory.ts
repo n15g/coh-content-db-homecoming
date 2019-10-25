@@ -4,6 +4,7 @@ import {CascadeArchipelago} from "../../map/cascade-archipelago";
 export const TheHeartOfMemory: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-heart-of-memory",
+    setTitleId: 1812,
     names: [{value: "The Heart of Memory"}],
     alignment: ALIGNMENT_HERO,
     mapKey: CascadeArchipelago.key,

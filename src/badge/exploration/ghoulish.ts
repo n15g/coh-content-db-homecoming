@@ -4,6 +4,7 @@ import {BloodyBay} from "../../map/bloody-bay";
 export const Ghoulish: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "ghoulish",
+    setTitleId: 258,
     names: [{value: "Ghoulish"}],
     alignment: ALIGNMENT_ANY,
     mapKey: BloodyBay.key,

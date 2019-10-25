@@ -4,6 +4,7 @@ import {SkywayCity} from "../../map/skyway-city";
 export const BridgeToNowhere: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "bridge-to-nowhere",
+    setTitleId: 1538,
     names: [{value: "Bridge to Nowhere"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SkywayCity.key,

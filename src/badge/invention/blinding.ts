@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Blinding: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "blinding",
+    setTitleId: 775,
     names: [{value: "Blinding"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],

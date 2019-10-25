@@ -4,6 +4,7 @@ import {EchoDarkAstoria} from "../../map/echo-dark-astoria";
 export const TheSleeperBelow: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-sleeper-below",
+    setTitleId: 1785,
     names: [{value: "The Sleeper Below"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoDarkAstoria.key,

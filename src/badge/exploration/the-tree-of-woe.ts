@@ -4,6 +4,7 @@ import {TheAbyss} from "../../map/the-abyss";
 export const TheTreeOfWoe: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "the-tree-of-woe",
+    setTitleId: 1866,
     names: [{value: "The Tree of Woe"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: TheAbyss.key,

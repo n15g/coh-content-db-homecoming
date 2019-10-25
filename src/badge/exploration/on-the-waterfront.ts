@@ -4,6 +4,7 @@ import {NovaPraetoria} from "../../map/nova-praetoria";
 export const OnTheWaterfront: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "on-the-waterfront",
+    setTitleId: 1594,
     names: [{value: "On the Waterfront"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NovaPraetoria.key,

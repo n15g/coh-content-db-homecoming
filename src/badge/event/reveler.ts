@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Reveler: IBadgeData = {
     type: BadgeType.EVENT,
     key: "reveler",
+    setTitleId: 611,
     names: [
         {value: "Reveler"},
     ],

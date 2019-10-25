@@ -4,6 +4,7 @@ import {FoundersFalls} from "../../map/founders-falls";
 export const Misunderstood: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "misunderstood",
+    setTitleId: 1563,
     names: [{value: "Misunderstood"}],
     alignment: ALIGNMENT_HERO,
     mapKey: FoundersFalls.key,

@@ -4,6 +4,7 @@ import {EchoDarkAstoria} from "../../map/echo-dark-astoria";
 export const WhispererOnWitchburnHill: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "whisperer-on-witchburn-hill",
+    setTitleId: 1781,
     names: [{value: "Whisperer on Witchburn Hill"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoDarkAstoria.key,

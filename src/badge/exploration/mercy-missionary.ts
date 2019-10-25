@@ -4,6 +4,7 @@ import {ImperialCity} from "../../map/imperial-city";
 export const MercyMissionary: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "mercy-missionary",
+    setTitleId: 1631,
     names: [{value: "Mercy Missionary"}],
     alignment: ALIGNMENT_ANY,
     mapKey: ImperialCity.key,

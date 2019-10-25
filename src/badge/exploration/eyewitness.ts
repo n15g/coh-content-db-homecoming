@@ -4,6 +4,7 @@ import {EchoRiktiCrashSite} from "../../map/echo-rikti-crash-site";
 export const Eyewitness: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "eyewitness",
+    setTitleId: 759,
     names: [{value: "Eyewitness"}],
     alignment: ALIGNMENT_ANY,
     mapKey: EchoRiktiCrashSite.key,

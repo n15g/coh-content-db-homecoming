@@ -4,8 +4,10 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 export const WatchYourBack: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "watch-your-back",
+    setTitleId: 2425,
     names: [{value: "Watch Your Back"}],
     alignment: ALIGNMENT_ANY,
+    badgeText: [{value: `This tunnel leads directly to the Arachnos base. Freedom Corps used it as a staging area for surprise attacks until they were finally driven off and the tunnel entrance closed.`}],
     mapKey: ReclusesVictory.key,
     location: [-1343.7, -41.7, -1539.7],
     links: [

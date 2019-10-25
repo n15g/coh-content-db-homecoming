@@ -4,6 +4,7 @@ import {Grandville} from "../../map/grandville";
 export const ImageCrasher: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "image-crasher",
+    setTitleId: 1511,
     names: [{value: "Image Crasher"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: Grandville.key,

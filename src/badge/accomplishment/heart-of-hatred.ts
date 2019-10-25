@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const HeartOfHatred: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "heart-of-hatred",
+    setTitleId: 2193,
     names: [
         {value: "Heart of Hatred"}
     ],

@@ -3,10 +3,12 @@ import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 export const Avenger: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "avenger",
+    setTitleId: 2407,
     names: [
         {value: "Avenger"}
     ],
     alignment: ALIGNMENT_HERO,
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/avenger.png"}],
     badgeText: [
         {value: "When the law fails to serve us, we must serve as the law."}
     ],

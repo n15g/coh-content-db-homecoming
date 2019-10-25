@@ -4,6 +4,7 @@ import {AtlasPark} from "../../map/atlas-park";
 export const SilentSentinel: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "silent-sentinel",
+    setTitleId: 87,
     names: [{value: "Silent Sentinel"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AtlasPark.key,

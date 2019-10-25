@@ -4,6 +4,7 @@ import {SharkheadIsle} from "../../map/sharkhead-isle";
 export const SkyTrader: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "sky-trader",
+    setTitleId: 1498,
     names: [{value: "Sky Trader"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: SharkheadIsle.key,

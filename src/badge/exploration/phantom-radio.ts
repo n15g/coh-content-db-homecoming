@@ -4,6 +4,7 @@ import {EchoDarkAstoria} from "../../map/echo-dark-astoria";
 export const PhantomRadio: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "phantom-radio",
+    setTitleId: 1782,
     names: [{value: "Phantom Radio"}],
     alignment: ALIGNMENT_HERO,
     mapKey: EchoDarkAstoria.key,

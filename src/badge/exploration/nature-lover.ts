@@ -4,6 +4,7 @@ import {TalosIsland} from "../../map/talos-island";
 export const NatureLover: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "nature-lover",
+    setTitleId: 126,
     names: [
         {type: Alternate.H, value: "Nature Lover"},
         {type: Alternate.V, value: "Eco-warrior"},

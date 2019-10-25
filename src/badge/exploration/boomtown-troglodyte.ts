@@ -4,6 +4,7 @@ import {Boomtown} from "../../map/boomtown";
 export const BoomtownTroglodyte: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "boomtown-troglodyte",
+    setTitleId: 1778,
     names: [{value: "Boomtown Troglodyte"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Boomtown.key,

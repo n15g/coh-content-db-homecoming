@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Sharpshooter: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "sharpshooter",
+    setTitleId: 789,
     names: [{value: "Sharpshooter"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Recharge Rate and Interrupt Time."}],

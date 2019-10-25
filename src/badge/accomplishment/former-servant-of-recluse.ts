@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-d
 export const FormerServantOfRecluse: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "former-servant-of-recluse",
+    setTitleId: 323,
     names: [
         {type: Alternate.H, value: "Former Servant of Recluse"},
         {type: Alternate.V, value: "Servant of Recluse"}

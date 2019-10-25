@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const Dreamwalker: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "dreamwalker",
+    setTitleId: 2079,
     names: [
         {type: Alternate.H, value: "Dreamwalker"},
         {type: Alternate.V, value: "Dreamkiller"}

@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgePartialType, BadgeType, EnhancementCategory, IBadgeD
 export const Rebuilder: IBadgeData = {
     type: BadgeType.INVENTION,
     key: "rebuilder",
+    setTitleId: 767,
     names: [{value: "Rebuilder"}],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Heal."}],

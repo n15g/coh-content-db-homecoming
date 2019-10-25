@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const LambdaLooter: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "lambda-looter",
+    setTitleId: 1987,
     names: [
         {value: "Lambda Looter"}
     ],

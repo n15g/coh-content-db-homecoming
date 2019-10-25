@@ -4,6 +4,7 @@ import {TalosIsland} from "../../map/talos-island";
 export const LastLineOfDefense: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "last-line-of-defense",
+    setTitleId: 1546,
     names: [{value: "Last Line of Defense"}],
     alignment: ALIGNMENT_HERO,
     mapKey: TalosIsland.key,

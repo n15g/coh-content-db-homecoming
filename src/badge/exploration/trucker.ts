@@ -4,6 +4,7 @@ import {PocketD} from "../../map/pocket-d";
 export const Trucker: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "trucker",
+    setTitleId: 731,
     names: [{value: "Trucker"}],
     alignment: ALIGNMENT_ANY,
     mapKey: PocketD.key,

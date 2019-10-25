@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const SlagReaper: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "slag-reaper",
+    setTitleId: 337,
     names: [
         {value: "Slag Reaper"}
     ],
