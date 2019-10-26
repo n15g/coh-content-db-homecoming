@@ -133,6 +133,9 @@ import {YesterdaysNews} from "./yesterdays-news";
 import {ZigWarden} from "./zig-warden";
 
 export const AccoladeBadges: IBadgeData[] = [
+    ThornRobber,
+    ThornThief,
+    ThornUsurper,
     FalseImage,
     SharkBait,
     AntiVenom,
@@ -260,9 +263,6 @@ export const AccoladeBadges: IBadgeData[] = [
     ReceivedTheStalwartMedallion,
     EarnedTheStatesmanStar,
     AwardedTheFreedomCross,
-    ThornRobber,
-    ThornThief,
-    ThornUsurper,
     DestroyerOfDespair,
     GeasOfTheKindOnes,
     Chronomaster

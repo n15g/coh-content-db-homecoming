@@ -300,7 +300,6 @@ export const AchievementBadges: IBadgeData[] = [
     GuardianOfForever,
     DeadlyCombatant,
     DignifiedCombatant,
-    BailoutHero,
     Avenger,
     DiamondInTheRough,
     BeyondReasonableDoubt,
@@ -311,6 +310,7 @@ export const AchievementBadges: IBadgeData[] = [
     LoneWolf,
     BuddyCop,
     IncarnateRival,
+    BailoutHero,
 
     //Incarnate Taskforces
     DroneProtector,
