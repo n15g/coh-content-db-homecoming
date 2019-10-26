@@ -10,7 +10,7 @@ export const SilverMedalist: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback within the Silver time allowed."},
     ],
-    acquisition: "Complete a Flashback arc in under 60 minutes.",
+    acquisition: "Complete a Flashback story arc in under 60 minutes.",
     links: [
         {title: "Silver Medalist Badge", href: "https://paragonwiki.com/wiki/Silver_Medalist_Badge"}
     ],

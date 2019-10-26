@@ -10,7 +10,7 @@ export const Lessened: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 1 and 15 while not gaining bonuses from slotted Enhancements."},
     ],
-    acquisition: "Complete a level 1-15 Flashback arc using no enhancements.",
+    acquisition: "Complete a level 1-15 Flashback story arc using no enhancements.",
     links: [
         {title: "Lessened Badge", href: "https://paragonwiki.com/wiki/Lessened_Badge"}
     ],

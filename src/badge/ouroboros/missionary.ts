@@ -10,7 +10,7 @@ export const Missionary: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 40 and 45 while only using your Primary and Secondary powersets."},
     ],
-    acquisition: "Complete a level 40-45 Flashback arc using no pool powers.",
+    acquisition: "Complete a level 41-45 Flashback story arc using no pool powers.",
     links: [
         {title: "Missionary Badge", href: "https://paragonwiki.com/wiki/Missionary_Badge"}
     ],

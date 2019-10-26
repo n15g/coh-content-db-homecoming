@@ -10,7 +10,7 @@ export const Unenhanced: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 46 and 50 while not gaining bonuses from slotted Enhancements."},
     ],
-    acquisition: "Complete a level 46-50 Flashback arc using no enhancements.",
+    acquisition: "Complete a level 46-50 Flashback story arc using no enhancements.",
     links: [
         {title: "Unenhanced Badge", href: "https://paragonwiki.com/wiki/Unenhanced_Badge"}
     ],

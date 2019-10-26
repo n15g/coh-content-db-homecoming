@@ -10,7 +10,7 @@ export const DividedMastery: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback under the parameter of \"1 Defeat Allowed\" for the team."},
     ],
-    acquisition: "Complete a Flashback arc with one or fewer defeats.",
+    acquisition: "Complete a Flashback story arc with one or fewer defeats.",
     links: [
         {title: "Divided Mastery Badge", href: "https://paragonwiki.com/wiki/Divided_Mastery_Badge"}
     ],

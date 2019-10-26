@@ -10,7 +10,7 @@ export const Stalled: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 35 and 39 while not using any Travel Power Pools."},
     ],
-    acquisition: "Complete a level 35-39 Flashback arc using no travel powers.",
+    acquisition: "Complete a level 36-40 Flashback story arc using no travel powers.",
     links: [
         {title: "Stalled Badge", href: "https://paragonwiki.com/wiki/Stalled_Badge"}
     ],

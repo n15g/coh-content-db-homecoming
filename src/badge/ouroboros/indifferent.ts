@@ -10,7 +10,7 @@ export const Indifferent: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 40 and 45 while not using Inspirations."},
     ],
-    acquisition: "Complete a level 40-45 Flashback arc using no inspirations.",
+    acquisition: "Complete a level 41-45 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Indifferent Badge", href: "https://paragonwiki.com/wiki/Indifferent_Badge"}
     ],

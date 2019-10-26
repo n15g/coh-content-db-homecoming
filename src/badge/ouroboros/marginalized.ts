@@ -10,7 +10,7 @@ export const Marginalized: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 46 and 50 while not using any Epic Power Pools."},
     ],
-    acquisition: "Complete a level 46-50 Flashback arc using no Ancillary powers.",
+    acquisition: "Complete a level 46-50 Flashback story arc using no Ancillary powers.",
     links: [
         {title: "Marginalized Badge", href: "https://paragonwiki.com/wiki/Marginalized_Badge"}
     ],

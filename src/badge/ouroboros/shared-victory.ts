@@ -10,7 +10,7 @@ export const SharedVictory: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback under the parameter of \"5 Defeats Allowed\" for the team."},
     ],
-    acquisition: "Complete a Flashback arc with five or fewer defeats.",
+    acquisition: "Complete a Flashback story arc with five or fewer defeats.",
     links: [
         {title: "Shared Victory Badge", href: "https://paragonwiki.com/wiki/Shared_Victory_Badge"}
     ],

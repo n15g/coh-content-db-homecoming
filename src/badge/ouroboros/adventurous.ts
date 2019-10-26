@@ -10,7 +10,7 @@ export const Adventurous: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 20 and 24 while under a constant Debuff."},
     ],
-    acquisition: "Complete a level 20-24 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 21-25 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Adventurous Badge", href: "https://paragonwiki.com/wiki/Adventurous_Badge"}
     ],

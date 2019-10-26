@@ -10,7 +10,7 @@ export const Unimaginative: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 15 and 19 while not using Inspirations."},
     ],
-    acquisition: "Complete a level 16-19 Flashback arc using no inspirations.",
+    acquisition: "Complete a level 16-20 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Unimaginative Badge", href: "https://paragonwiki.com/wiki/Unimaginative_Badge"}
     ],

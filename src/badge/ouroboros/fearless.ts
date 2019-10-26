@@ -10,7 +10,7 @@ export const Fearless: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 25 and 29 while the enemies were Buffed."},
     ],
-    acquisition: "Complete a level 25-29 Flashback arc with enemies buffed.",
+    acquisition: "Complete a level 26-30 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Fearless Badge", href: "https://paragonwiki.com/wiki/Fearless_Badge"}
     ],

@@ -10,7 +10,7 @@ export const Limited: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 40 and 45 while not using any Temporary Powers."},
     ],
-    acquisition: "Complete a level 40-45 Flashback arc using no temp powers.",
+    acquisition: "Complete a level 41-45 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Limited Badge", href: "https://paragonwiki.com/wiki/Limited_Badge"}
     ],

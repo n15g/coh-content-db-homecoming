@@ -10,7 +10,7 @@ export const Capped: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 20 and 24 while not using any Temporary Powers."},
     ],
-    acquisition: "Complete a level 20-24 Flashback arc using no temp powers.",
+    acquisition: "Complete a level 21-25 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Capped Badge", href: "https://paragonwiki.com/wiki/Capped_Badge"}
     ],

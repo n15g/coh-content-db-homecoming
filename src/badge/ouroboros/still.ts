@@ -10,7 +10,7 @@ export const Still: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 30 and 34 while not using any Travel Power Pools."},
     ],
-    acquisition: "Complete a level 30-34 Flashback arc using no travel powers.",
+    acquisition: "Complete a level 31-35 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Still Badge", href: "https://paragonwiki.com/wiki/Still_Badge"}
     ],

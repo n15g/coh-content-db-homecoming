@@ -10,7 +10,7 @@ export const Undertaker: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 46 and 50 while only using your Primary and Secondary powersets."},
     ],
-    acquisition: "Complete a level 46-50 Flashback arc using no pool powers.",
+    acquisition: "Complete a level 46-50 Flashback story arc using no pool powers.",
     links: [
         {title: "Undertaker Badge", href: "https://paragonwiki.com/wiki/Undertaker_Badge"}
     ],

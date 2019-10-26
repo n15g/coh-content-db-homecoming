@@ -10,7 +10,7 @@ export const CutOff: IBadgeData = {
     badgeText: [
         {value: "You have completed a Task Force/Flashback between level 40 and 44 while not using any Epic Power Pools."},
     ],
-    acquisition: "Complete a level 40-45 Flashback arc using no Ancillary powers.",
+    acquisition: "Complete a level 41-45 Flashback story arc using no Ancillary powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Cut-Off Badge", href: "https://paragonwiki.com/wiki/Cut-Off_Badge"}
     ],
