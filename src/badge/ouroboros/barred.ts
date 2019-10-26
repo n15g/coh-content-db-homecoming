@@ -12,7 +12,7 @@ export const Barred: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 25 and 29 while not using any Travel Power Power Pools.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 25 and 29 while not using any Travel Power Power Pools.`}
     ],
-    acquisition: "Complete a level 25-29 Flashback arc using no travel powers.",
+    acquisition: "Complete a level 26-30 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Barred Badge", href: "https://paragonwiki.com/wiki/Barred_Badge"}
     ],

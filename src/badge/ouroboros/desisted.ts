@@ -12,7 +12,7 @@ export const Desisted: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.`}
     ],
-    acquisition: "Complete a level 20-24 Flashback arc using no travel powers.",
+    acquisition: "Complete a level 21-25 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Desisted Badge", href: "https://paragonwiki.com/wiki/Desisted_Badge"}
     ],

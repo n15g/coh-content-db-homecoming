@@ -12,7 +12,7 @@ export const Cliche: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 1 and 15 while not using Inspirations.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 1 and 15 while not using Inspirations.`}
     ],
-    acquisition: "Complete a level 1-15 Flashback arc using no inspirations.",
+    acquisition: "Complete a level 1-15 Flashback story arc using no inspirations.",
     links: [
         {title: "Cliche Badge", href: "https://paragonwiki.com/wiki/Cliche_Badge"}
     ],

@@ -12,7 +12,7 @@ export const Curtailed: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 15 and 19 while not using any Temporary Powers.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 15 and 19 while not using any Temporary Powers.`}
     ],
-    acquisition: "Complete a level 16-19 Flashback arc using no temp powers.",
+    acquisition: "Complete a level 16-20 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Curtailed Badge", href: "https://paragonwiki.com/wiki/Curtailed_Badge"}
     ],

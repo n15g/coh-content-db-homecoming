@@ -12,7 +12,7 @@ export const Uninspired: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 46 and 50 while not using Inspirations.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 46 and 50 while not using Inspirations.`}
     ],
-    acquisition: "Complete a level 46-50 Flashback arc using no inspirations.",
+    acquisition: "Complete a level 46-50 Flashback story arc using no inspirations.",
     links: [
         {title: "Uninspired Badge", href: "https://paragonwiki.com/wiki/Uninspired_Badge"}
     ],

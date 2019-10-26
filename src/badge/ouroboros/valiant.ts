@@ -12,7 +12,7 @@ export const Valiant: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 30 and 34 while the enemies were Buffed.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 30 and 34 while the enemies were Buffed.`}
     ],
-    acquisition: "Complete a level 30-34 Flashback arc with enemies buffed.",
+    acquisition: "Complete a level 31-35 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Valiant Badge", href: "https://paragonwiki.com/wiki/Valiant_Badge"}
     ],

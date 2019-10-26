@@ -12,7 +12,7 @@ export const Rash: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 30 and 34 while under a constant Debuff.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 30 and 34 while under a constant Debuff.`}
     ],
-    acquisition: "Complete a level 30-34 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 31-35 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Rash Badge", href: "https://paragonwiki.com/wiki/Rash_Badge"}
     ],

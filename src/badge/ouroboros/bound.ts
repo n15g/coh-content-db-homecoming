@@ -12,7 +12,7 @@ export const Bound: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 35 and 39 while not using any Temporary Powers.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 35 and 39 while not using any Temporary Powers.`}
     ],
-    acquisition: "Complete a level 35-39 Flashback arc using no temp powers.",
+    acquisition: "Complete a level 36-40 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Bound Badge", href: "https://paragonwiki.com/wiki/Bound_Badge"}
     ],

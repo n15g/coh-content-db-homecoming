@@ -12,7 +12,7 @@ export const Archetypical: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 30 and 34 while only using your Primary and Secondary powersets.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 30 and 34 while only using your Primary and Secondary powersets.`}
     ],
-    acquisition: "Complete a level 30-34 Flashback arc using no pool powers.",
+    acquisition: "Complete a level 31-35 Flashback story arc using no pool powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Archetypical Badge", href: "https://paragonwiki.com/wiki/Archetypical_Badge"}
     ],

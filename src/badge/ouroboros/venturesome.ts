@@ -12,7 +12,7 @@ export const Venturesome: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 35 and 39 while under a constant Debuff.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 35 and 39 while under a constant Debuff.`}
     ],
-    acquisition: "Complete a level 35-39 Flashback story arc while debuffed.",
+    acquisition: "Complete a level 36-40 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Venturesome Badge", href: "https://paragonwiki.com/wiki/Venturesome_Badge"}
     ],

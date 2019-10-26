@@ -12,7 +12,7 @@ export const Stemmed: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 40 and 45 while not using any Travel Power Power Pools.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 40 and 45 while not using any Travel Power Power Pools.`}
     ],
-    acquisition: "Complete a level 40-45 Flashback arc using no travel powers.",
+    acquisition: "Complete a level 41-45 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Stemmed Badge", href: "https://paragonwiki.com/wiki/Stalled_Badge"}
     ],

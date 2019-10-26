@@ -12,7 +12,7 @@ export const Refrained: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Travel Power Power Pools.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 1 and 15 while not using any Travel Power Power Pools.`}
     ],
-    acquisition: "Complete a level 1-15 Flashback arc using no travel powers.",
+    acquisition: "Complete a level 1-15 Flashback story arc using no travel powers.",
     links: [
         {title: "Refrained Badge", href: "https://paragonwiki.com/wiki/Refrained_Badge"}
     ],

@@ -12,7 +12,7 @@ export const Bold: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 20 and 24 while the enemies were Buffed.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 20 and 24 while the enemies were Buffed.`}
     ],
-    acquisition: "Complete a level 20-24 Flashback arc with enemies buffed.",
+    acquisition: "Complete a level 21-25 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Bold Badge", href: "https://paragonwiki.com/wiki/Bold_Badge"}
     ],

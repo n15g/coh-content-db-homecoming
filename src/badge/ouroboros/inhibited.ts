@@ -12,7 +12,7 @@ export const Inhibited: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 25 and 29 while not using any Temporary Powers.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 25 and 29 while not using any Temporary Powers.`}
     ],
-    acquisition: "Complete a level 25-29 Flashback arc using no temp powers.",
+    acquisition: "Complete a level 26-30 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Inhibited Badge", href: "https://paragonwiki.com/wiki/Inhibited_Badge"}
     ],

@@ -12,7 +12,7 @@ export const Dull: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 30 and 34 while not using Inspirations.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 30 and 34 while not using Inspirations.`}
     ],
-    acquisition: "Complete a level 30-34 Flashback arc using no inspirations.",
+    acquisition: "Complete a level 31-35 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Dull Badge", href: "https://paragonwiki.com/wiki/Dull_Badge"}
     ],

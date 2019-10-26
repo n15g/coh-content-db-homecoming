@@ -12,7 +12,7 @@ export const Weakened: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.`}
     ],
-    acquisition: "Complete a level 25-29 Flashback arc using no enhancements.",
+    acquisition: "Complete a level 26-30 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Weakened Badge", href: "https://paragonwiki.com/wiki/Weakened_Badge"}
     ],

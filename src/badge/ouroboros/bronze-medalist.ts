@@ -12,7 +12,7 @@ export const BronzeMedalist: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback within the Bronze time allowed.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback within the Bronze time allowed.`}
     ],
-    acquisition: "Complete a Flashback arc in under 120 minutes.",
+    acquisition: "Complete a Flashback story arc in under 120 minutes.",
     links: [
         {title: "Bronze Medalist Badge", href: "https://paragonwiki.com/wiki/Bronze_Medalist_Badge"}
     ],

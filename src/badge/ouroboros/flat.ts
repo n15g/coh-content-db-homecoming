@@ -12,7 +12,7 @@ export const Flat: IBadgeData = {
         {type: Alternate.H, value: `You have completed a Task Force/Flashback between level 20 and 24 while not using Inspirations.`},
         {type: Alternate.V, value: `You have completed a Strike Force/Flashback between level 20 and 24 while not using Inspirations.`}
     ],
-    acquisition: "Complete a level 20-24 Flashback arc using no inspirations.",
+    acquisition: "Complete a level 21-25 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
         {title: "Flat Badge", href: "https://paragonwiki.com/wiki/Flat_Badge"}
     ],
