@@ -54,5 +54,10 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/21 - Missing Issue 25 badge icons.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/32 - [Defender of Primal Earth] was being loaded twice.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/34 - [Traveler] was being loaded twice.\n",
+
+        "1.1.1":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/36 - [Bailout Hero] and treespec badges were out of place.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/37 - PVP badges should be closer to correct order now.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/2 - Ouroboros badge level ranges.\n",
     };
 }
