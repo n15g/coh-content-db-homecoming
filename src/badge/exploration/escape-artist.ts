@@ -18,6 +18,8 @@ export const EscapeArtist: IBadgeData = {
         {title: "Escape Artist Badge", href: "https://paragonwiki.com/wiki/Escape_Artist_Badge"},
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
-    vidiotMapKey: "5"
+    icons: [
+		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+	],
+    vidiotMapKey: "2"
 };

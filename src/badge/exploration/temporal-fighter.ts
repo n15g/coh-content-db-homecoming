@@ -13,7 +13,7 @@ export const TemporalFighter: IBadgeData = {
     mapKey: ReclusesVictory.key,
     location: [1027.0, 42.0, -1420.0],
     badgeText: [{value: "The Meinhoff Building was created in our current timeline to serve as an Arachnos base in this possible future."}],
-    notes: "The Temporal Fighter Badge is located in the Recluse's Victory zone in Sector 1." +
+    notes: "The Temporal Fighter Badge is located in the [map:${ReclusesVictory.key}] zone in Sector 1." +
         " It is due west of the ramp leading out of the monorail station in a narrow alleyway between two buildings.",
     links: [
         {title: "Temporal Fighter Badge", href: "https://paragonwiki.com/wiki/Temporal_Fighter_Badge"},

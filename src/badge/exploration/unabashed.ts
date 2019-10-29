@@ -10,7 +10,7 @@ export const Unabashed: IBadgeData = {
     mapKey: RiktiWarZone.key,
     location: [2947.0, -18.0, -5638.0],
     badgeText: [{value: "If you've made it onto the Rikti Ship, under the defensive shields, you're either very brave or....."}],
-    notes: "The Unabashed Badge is located in the center of the Rikti ship in the Rikti War Zone.\n" +
+    notes: "The Unabashed Badge is located in the center of the Rikti ship in the [map:${RiktiWarZone.key}].\n" +
         "\n" +
         "The badge marker only be found when the shields have been taken down by destroying all 18 Rikti Pylons.",
     links: [

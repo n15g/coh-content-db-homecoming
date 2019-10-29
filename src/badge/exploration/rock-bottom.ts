@@ -10,9 +10,12 @@ export const RockBottom: IBadgeData = {
     badgeText: [{value: `This dumping ground is also a hideout for The Lost, within the mounds of refuse. Freakshow have been known to make their way over, looking for spare parts and causing trouble for the ranks of the poor and the homeless, forcing them to accept further mutations to protect themselves.`}],
     mapKey: Faultline.key,
     location: [-706.6, -87.8, 1757.0],
-    notes: "NW corner of the map. Outside the Rusty Rivet.",
+    notes: "Along the east zone wall, in the junkyard with the Lost. It is down a dirt ramp under the building.",
     links: [
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}]
+    icons: [
+		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+	],
+    vidiotMapKey: "7"
 };

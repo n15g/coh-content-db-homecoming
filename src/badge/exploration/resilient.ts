@@ -15,5 +15,8 @@ Climb those boxes and the badge sits on the topmost box.`,
     links: [
         {title: "Echo: Atlas Park Badge Guide", href: "https://forums.homecomingservers.com/topic/881-echo-atlas-park-badge-guide/"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}]
+    icons: [
+		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+	],
+    vidiotMapKey: "8"
 };

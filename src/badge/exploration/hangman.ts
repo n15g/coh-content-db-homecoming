@@ -13,7 +13,7 @@ export const Hangman: IBadgeData = {
     mapKey: SirensCall.key,
     location: [-1193.0, -165.0, 1133.0],
     badgeText: [{value: "This cargo ship was left hanging on what is left of the war wall when Sunburst died in the huge explosion."}],
-    notes: "The Hangman Badge marker is located on a small rock outcropping at the very base of the eastern wall of the zone, just off the northern shore of the villain base in Siren's Call." +
+    notes: "The Hangman Badge marker is located on a small rock outcropping at the very base of the eastern wall of the zone, just off the northern shore of the villain base in [map:${SirensCall.key}]." +
         "\n\nIt is about 190 yards north of the Sharkhead Isle marker.",
     links: [
         {title: "Hangman Badge", href: "https://paragonwiki.com/wiki/Hangman_Badge"},

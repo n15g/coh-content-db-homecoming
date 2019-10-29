@@ -10,7 +10,7 @@ export const JunkyardDog: IBadgeData = {
     mapKey: RiktiWarZone.key,
     location: [1474.0, 0.0, -3722.0],
     badgeText: [{value: "This is where some military vehicles went to die."}],
-    notes: "The Junkyard Dog Badge is located in Heartbreak Ridge neighborhood of the Rikti War Zone. It can be found 118 east of the Heartbreak Ridge zone marker.",
+    notes: "The Junkyard Dog Badge is located in Heartbreak Ridge neighborhood of the [map:${RiktiWarZone.key}]. It can be found 118 east of the Heartbreak Ridge zone marker.",
     links: [
         {title: "Junkyard Dog Badge", href: "https://paragonwiki.com/wiki/Junkyard_Dog_Badge"},
         {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}

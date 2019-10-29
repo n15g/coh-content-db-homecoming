@@ -13,5 +13,6 @@ export const BattleHardened: IBadgeData = {
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},
         {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"},
-    ]
+    ],
+    vidiotMapKey: "2"
 };

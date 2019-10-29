@@ -25,5 +25,8 @@ export const FoundersProtector: IBadgeData = {
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}]
+    icons: [
+		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+	],
+    vidiotMapKey: "1"
 };

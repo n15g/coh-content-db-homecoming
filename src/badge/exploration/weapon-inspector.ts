@@ -13,7 +13,7 @@ export const WeaponInspector: IBadgeData = {
     mapKey: Warburg.key,
     location: [-768.0, 144.0, 0.0],
     badgeText: [{value: "Warburg is home to many a nefarious ploy. Recluse's VENOM rocket is one of the most blatant."}],
-    notes: "The Weapon Inspector Badge is located in Warburg. The badge marker is located in the center of the top of the western scaffolding surrounding the missile silo.",
+    notes: "The Weapon Inspector badge is located in [map:${Warburg.key}], in the center of the top of the western scaffolding surrounding the missile silo.",
     links: [
         {title: "Weapon Inspector Badge", href: "https://paragonwiki.com/wiki/Weapon_Inspector_Badge"},
         {title: "Weapon of Mass Destruction Badge", href: "https://paragonwiki.com/wiki/Weapon_of_Mass_Destruction_Badge"}

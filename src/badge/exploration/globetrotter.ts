@@ -10,7 +10,7 @@ export const Globetrotter: IBadgeData = {
     mapKey: ReclusesVictory.key,
     location: [128.0, 16.0, -249.0],
     badgeText: [{value: "Lord Recluse targeted the statue of Atlas first, knowing it was an important symbol to Paragon's 'heroes.'"}],
-    notes: "The Globetrotter Badge is located in the Recluse's Victory zone in Sector 5." +
+    notes: "The Globetrotter Badge is located in the [map:${ReclusesVictory.key}] zone in Sector 5." +
         " It is in front of the Atlas Statue, just behind the dais that Ms. Liberty stands on in the hero's version of Atlas Park.",
     links: [
         {title: "Globetrotter Badge", href: "https://paragonwiki.com/wiki/Globetrotter_Badge"}

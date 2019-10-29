@@ -13,11 +13,13 @@ export const DrownedRat: IBadgeData = {
     ],
     mapKey: Faultline.key,
     location: [150.0, -51.0, 2360.0],
-    notes: "The Drowned Rat Badge is in the Overflow neighborhood of Faultline located on scaffolding against the dam just above a large leak in its face.",
+    notes: "The Drowned Rat Badge is in the Overflow neighborhood of [map:${Faultline.key}] located on scaffolding against the dam just above a large leak in its face.",
     links: [
         {title: "Drowned Rat Badge", href: "https://paragonwiki.com/wiki/Drowned_Rat_Badge"},
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
-    vidiotMapKey: "6"
+    icons: [
+		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+	],
+    vidiotMapKey: "3"
 };

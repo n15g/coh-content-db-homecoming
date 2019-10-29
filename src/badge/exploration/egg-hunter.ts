@@ -10,7 +10,7 @@ export const EggHunter: IBadgeData = {
     mapKey: Faultline.key,
     location: [-908.0, -183.0, 109.0],
     badgeText: [{value: "Perseverance and downright determination brought you this badge. Only the most devout egg hunters will find this spot. Lucky you."}],
-    notes: "The Egg Hunter Badge is inside a small room under Freight Lift C in Faultline.\n" +
+    notes: "The Egg Hunter Badge is inside a small room under Freight Lift C in [map:${Faultline.key}].\n" +
         "\n" +
         "1. take Freight Lift C to the bottom. When exiting the lift, you will be facing south.\n" +
         "2. Walk down the east-facing ramp at the bottom of Freight Lift C.\n" +
@@ -23,6 +23,8 @@ export const EggHunter: IBadgeData = {
         {title: "Egg Hunter Badge", href: "https://paragonwiki.com/wiki/Egg_Hunter_Badge"},
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [
+		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+	],
     vidiotMapKey: "8"
 };

@@ -10,7 +10,7 @@ export const Trespasser: IBadgeData = {
     mapKey: RiktiWarZone.key,
     location: [978.0, 2.0, -737.0],
     badgeText: [{value: "You have managed to get into the Crey base of operations. Nice work. Now how do you plan to get out?"}],
-    notes: "The Trespasser Badge is located in the The Bulge neighborhood of the Rikti War Zone.\n" +
+    notes: "The Trespasser Badge is located in the The Bulge neighborhood of the [map:${RiktiWarZone.key}].\n" +
         "\n" +
         "It is 290 yards southwest of the Bulge marker.\n" +
         "\n" +

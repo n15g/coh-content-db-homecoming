@@ -10,7 +10,7 @@ export const Homewrecker: IBadgeData = {
     mapKey: RiktiWarZone.key,
     location: [3566.0, 0.0, -759.0],
     badgeText: [{value: "This is the base Malta likes to call home. Your name wasn't exactly on the welcome mat."}],
-    notes: "The Homewrecker Badge is located in the Southwest corner of the Little Round Top neighborhood of the Rikti War Zone.\n" +
+    notes: "The Homewrecker Badge is located in the Southwest corner of the Little Round Top neighborhood of the [map:${RiktiWarZone.key}].\n" +
         "\n" +
         "345 yards south-west of the Little Round Top zone marker.",
     links: [
