@@ -6,7 +6,7 @@ export class Homecoming implements IServerGroupData {
     public readonly key: string = "homecoming";
     public readonly name: string = "Homecoming";
     public readonly description: string = "City of Heroes: Homecoming - [Forums](https://forums.homecomingservers.com/)";
-    public readonly status: ServerGroupStatus[] = [ServerGroupStatus.WORK_IN_PROGRESS];
+    public readonly status: ServerGroupStatus[] = [];
     public readonly servers: IServerData[] = [
         {name: "Everlasting"},
         {name: "Excelsior"},
