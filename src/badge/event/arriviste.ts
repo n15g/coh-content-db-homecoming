@@ -1,4 +1,4 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Arriviste: IBadgeData = {
     type: BadgeType.EVENT,
@@ -9,7 +9,10 @@ export const Arriviste: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/arriviste.png"}],
-    badgeText: [{value: "Selling the Malleus Mundi to the highest bidder is a choice that may come back to haunt you."}],
+    badgeText: [
+        {type: Alternate.H, value: "Selling the Malleus Mundi to the highest bidder is a choice that may come back to haunt you."},
+        {type: Alternate.V, value: "You never knew that a simple unreadable book could fetch such a price."}
+    ],
     acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Sell the Malleus Mundi to the highest bidder' (Villains).",
     links: [
         {title: "Arriviste Badge", href: "https://paragonwiki.com/wiki/Arriviste_Badge"},
