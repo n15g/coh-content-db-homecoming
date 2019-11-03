@@ -62,6 +62,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/39 - Added a bunch of vidiot map numbers for exploration badges.\n",
         "1.1.3":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/43 - Added villain badge text to [Trusting].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/42 - Added villain badge text to [Arriviste].\n",
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/42 - Added villain badge text to [Arriviste].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/41 - Changed [Chronomaster] requirements.\n",
     };
 }
