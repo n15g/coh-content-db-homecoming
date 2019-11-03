@@ -13,7 +13,7 @@ export const Arriviste: IBadgeData = {
         {type: Alternate.H, value: "Selling the Malleus Mundi to the highest bidder is a choice that may come back to haunt you."},
         {type: Alternate.V, value: "You never knew that a simple unreadable book could fetch such a price."}
     ],
-    acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Sell the Malleus Mundi to the highest bidder'.",
+    acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Sell the Malleus Mundi to the highest bidder' (Villains).",
     links: [
         {title: "Arriviste Badge", href: "https://paragonwiki.com/wiki/Arriviste_Badge"},
         {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
