@@ -12,7 +12,7 @@ export const Trusting: IBadgeData = {
         {type: Alternate.H, value: "You've handed the Malleus Mundi over to MAGI for safekeeping. You Hope."},
         {type: Alternate.V, value: "Unfortunately MAGI didn't hold onto the Malleus Mundi for long, or you'd know just where to make a quick score."}
     ],
-    acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Send the Malleus Mundi to MAGI' (Heroes)'.",
+    acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Send the Malleus Mundi to MAGI' (Heroes).",
     links: [
         {title: "Trusting Badge", href: "https://paragonwiki.com/wiki/Trusting_Badge"},
         {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
