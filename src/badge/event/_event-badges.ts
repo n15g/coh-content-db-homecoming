@@ -84,7 +84,6 @@ import {Arriviste} from "./arriviste";
 export const EventBadges: IBadgeData[] = [
     Celebrant,
     Reveler,
-    Pursuer,
     Merrymaker,
     Entertainer,
     Jubilant,
@@ -98,6 +97,7 @@ export const EventBadges: IBadgeData[] = [
     Timeless,
     Everlasting,
     Excelsior,
+    Pursuer,
     HallowSpirit,
     IronWarrior,
     Hunter,
