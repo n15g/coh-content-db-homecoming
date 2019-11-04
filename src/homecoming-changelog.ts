@@ -66,5 +66,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/41 - Changed [Chronomaster] requirements.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/40 - Updated [Pursuer] position and acquisition.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/44 - Fixed [Craftsman] acquisition text.\n",
+        "1.1.5":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/45 - Updated winter event badge order.\n"
     };
 }
