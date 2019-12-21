@@ -1,4 +1,4 @@
-import {ALIGNMENT_VILLAIN, Alternate, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const BloodyHands: IBadgeData = {
     type: BadgeType.DEFEAT,
@@ -8,7 +8,7 @@ export const BloodyHands: IBadgeData = {
         {type: Alternate.H, value: "Bloody Hands"},
         {type: Alternate.V, value: "Hero Slayer"}
     ],
-    alignment: ALIGNMENT_VILLAIN,
+    alignment: ALIGNMENT_ANY,
     badgeText: [
         {type: Alternate.H, value: "The memory of the heroes you defeated haunts you throughout Paragon."},
         {type: Alternate.V, value: "Not even the best of the best can stop you!"}
