@@ -1,4 +1,4 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 import {TheAbyss} from "../../map/the-abyss";
 
 export const Reborn: IBadgeData = {
@@ -6,7 +6,7 @@ export const Reborn: IBadgeData = {
     key: "reborn",
     setTitleId: 745,
     names: [{value: "Reborn"}],
-    alignment: ALIGNMENT_VILLAIN,
+    alignment: ALIGNMENT_ANY,
     mapKey: TheAbyss.key,
     location: [679.0, -544.0, -3189.0],
     badgeText: [{
