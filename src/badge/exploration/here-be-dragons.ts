@@ -1,4 +1,4 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 import {TheAbyss} from "../../map/the-abyss";
 
 export const HereBeDragons: IBadgeData = {
@@ -6,7 +6,7 @@ export const HereBeDragons: IBadgeData = {
     key: "here-be-dragons",
     setTitleId: 1862,
     names: [{value: "Here Be Dragons"}],
-    alignment: ALIGNMENT_VILLAIN,
+    alignment: ALIGNMENT_ANY,
     mapKey: TheAbyss.key,
     location: [-236.0, -43.0, 352.0],
     badgeText: [{
