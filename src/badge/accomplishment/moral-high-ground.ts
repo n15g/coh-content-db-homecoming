@@ -1,4 +1,4 @@
-import {ALIGNMENT_PRAETORIAN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const MoralHighGround: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
@@ -7,7 +7,7 @@ export const MoralHighGround: IBadgeData = {
     names: [
         {value: "Moral High Ground"}
     ],
-    alignment: ALIGNMENT_PRAETORIAN,
+    alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: "You've decided to ally yourself with either the Praetorian Resistance or the Praetorian " +
         "Loyalists on five separate occassions. Regardless of where your true morals lie, you've proven " +
