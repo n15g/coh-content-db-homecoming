@@ -7,7 +7,7 @@ export const Newsman: IBadgeData = {
     setTitleId: 119,
     names: [
         {type: Alternate.M, value: "Newsman"},
-        {type: Alternate.F, value: "Newswoman"},
+        {type: Alternate.F, value: "Newsgirl"},
 
     ],
     alignment: ALIGNMENT_HERO,
