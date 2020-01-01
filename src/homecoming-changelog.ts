@@ -69,5 +69,11 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.1.5":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/45 - Updated winter event badge order.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/46 - Stalker is missing from the archetype list.\n",
+        "1.1.6":
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/52 - [Newswoman] is actually [Newsgirl].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/51 - [Repairman] is missing female badge name.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/65 - [Bloody Hands] can also be earned by Heroes.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/50 - [Moral High Ground], [Resistance Member], and [Loyalist] can be earned by non-Praetorians through Ouroboros.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/49 - The exploration (and accolade) badges for The Abyss can be earned by a hero, using the sub in PI.\n",
     };
 }
