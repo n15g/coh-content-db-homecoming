@@ -1,4 +1,4 @@
-import {ALIGNMENT_PRAETORIAN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const ResistanceMember: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
@@ -7,7 +7,7 @@ export const ResistanceMember: IBadgeData = {
     names: [
         {value: "Resistance Member"}
     ],
-    alignment: ALIGNMENT_PRAETORIAN,
+    alignment: ALIGNMENT_ANY,
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_resist.png"}],
     badgeText: [
         {value: "You have lent your support to the Praetorian Resistance to overthrow Emperor Cole, or at least " +
