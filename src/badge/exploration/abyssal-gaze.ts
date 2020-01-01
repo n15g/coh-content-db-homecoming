@@ -1,4 +1,4 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 import {TheAbyss} from "../../map/the-abyss";
 
 export const AbyssalGaze: IBadgeData = {
@@ -6,7 +6,7 @@ export const AbyssalGaze: IBadgeData = {
     key: "abyssal-gaze",
     setTitleId: 1867,
     names: [{value: "Abyssal Gaze"}],
-    alignment: ALIGNMENT_VILLAIN,
+    alignment: ALIGNMENT_ANY,
     mapKey: TheAbyss.key,
     location: [1061.0, -48.0, -2222.0],
     badgeText: [{
