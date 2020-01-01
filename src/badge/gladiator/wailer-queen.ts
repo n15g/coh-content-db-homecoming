@@ -1,4 +1,5 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, badgeReference, BadgeType, IBadgeData} from "coh-content-db";
+import {Imprisoned} from "../achievement/imprisoned";
 
 export const WailerQueen: IBadgeData = {
     type: BadgeType.GLADIATOR,
@@ -11,7 +12,7 @@ export const WailerQueen: IBadgeData = {
     badgeText: [
         {value: "What does this creature see in you?"}
     ],
-    acquisition: "Earn the [badge:dazed-and-confused] Badge (Wailers)",
+    acquisition: `Earn the ${badgeReference(Imprisoned)} Badge (Wailers)`,
     links: [
         {title: "Wailer Queen Badge", href: "https://paragonwiki.com/wiki/Wailer_Queen_Badge"}
     ],

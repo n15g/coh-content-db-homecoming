@@ -1,4 +1,5 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, badgeReference, BadgeType, IBadgeData} from "coh-content-db";
+import {ProtectorOfInnocents} from "../achievement/protector-of-innocents";
 
 export const WolfSpiderEnforcer: IBadgeData = {
     type: BadgeType.GLADIATOR,
@@ -11,7 +12,7 @@ export const WolfSpiderEnforcer: IBadgeData = {
     badgeText: [
         {value: "These soldiers will fight for you."}
     ],
-    acquisition: "Earn the [badge:soldier] Badge (Arachnos)",
+    acquisition: `Earn the ${badgeReference(ProtectorOfInnocents)} Badge (Arachnos)`,
     links: [
         {title: "Wolf Spider Enforcer Badge", href: "https://paragonwiki.com/wiki/Wolf_Spider_Enforcer_Badge"}
     ],

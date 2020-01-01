@@ -1,4 +1,5 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, badgeReference, BadgeType, IBadgeData} from "coh-content-db";
+import {DefenderOfTruth} from "../achievement/defender-of-truth";
 
 export const NightWidow: IBadgeData = {
     type: BadgeType.GLADIATOR,
@@ -11,7 +12,7 @@ export const NightWidow: IBadgeData = {
     badgeText: [
         {value: "Night Widows fight for those they deem worthy."}
     ],
-    acquisition: "Earn the [badge:wiseguy] Badge (Arachnos)",
+    acquisition: `Earn the ${badgeReference(DefenderOfTruth)} Badge (Arachnos)`,
     links: [
         {title: "Night Widow Badge", href: "https://paragonwiki.com/wiki/Night_Widow_Badge"}
     ],

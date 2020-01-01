@@ -1,4 +1,5 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, badgeReference, BadgeType, IBadgeData} from "coh-content-db";
+import {KeeperOfPeace} from "../achievement/keeper-of-peace";
 
 export const WolfSpiderTacOps: IBadgeData = {
     type: BadgeType.GLADIATOR,
@@ -11,7 +12,7 @@ export const WolfSpiderTacOps: IBadgeData = {
     badgeText: [
         {value: "Your leadership skills are recognized."}
     ],
-    acquisition: "Earn the [badge:insider] Badge (Arachnos)",
+    acquisition: `Earn the ${badgeReference(KeeperOfPeace)} Badge (Arachnos)`,
     links: [
         {title: "Wolf Spider Tac Ops Badge", href: "https://paragonwiki.com/wiki/Wolf_Spider_Tac_Ops_Badge"}
     ],
