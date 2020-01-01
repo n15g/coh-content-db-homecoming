@@ -1,11 +1,12 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Repairman: IBadgeData = {
     type: BadgeType.OUROBOROS,
     key: "repairman",
     setTitleId: 940,
     names: [
-        {value: "Repairman"},
+        {type: Alternate.M, value: "Repairman"},
+        {type: Alternate.F, value: "Repairwoman"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
@@ -13,7 +14,8 @@ export const Repairman: IBadgeData = {
     ],
     acquisition: "Complete 35 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Repairman Badge", href: "https://paragonwiki.com/wiki/Repairman_Badge"}
+        {title: "Repairman Badge", href: "https://paragonwiki.com/wiki/Repairman_Badge"},
+        {title: "Repairwoman Badge", href: "https://paragonwiki.com/wiki/Repairwoman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/repairman.png"}]
 };
