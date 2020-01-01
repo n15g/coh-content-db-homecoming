@@ -1,4 +1,4 @@
-import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 import {TheAbyss} from "../../map/the-abyss";
 
 export const NoEscape: IBadgeData = {
@@ -6,7 +6,7 @@ export const NoEscape: IBadgeData = {
     key: "no-escape",
     setTitleId: 1864,
     names: [{value: "No Escape"}],
-    alignment: ALIGNMENT_VILLAIN,
+    alignment: ALIGNMENT_ANY,
     mapKey: TheAbyss.key,
     location: [-291.0, -29.0, -687.0],
     badgeText: [{
