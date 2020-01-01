@@ -1,4 +1,4 @@
-import {ALIGNMENT_VILLAIN, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
 import {TheAbyss} from "../../map/the-abyss";
 import {AbyssalGaze} from "../exploration/abyssal-gaze";
 import {CagedBeast} from "../exploration/caged-beast";
@@ -16,7 +16,7 @@ export const TouchedBottom: IBadgeData = {
     names: [
         {value: "Touched Bottom"}
     ],
-    alignment: ALIGNMENT_VILLAIN,
+    alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: `You've obtained this Accolade by earning every Exploration badge within the Abyss.`}
     ],
