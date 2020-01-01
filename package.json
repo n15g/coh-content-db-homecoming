@@ -10,6 +10,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack --mode=production --watch",
+    "link:db": "npm link coh-content-db",
     "upgrade:db": "npm install --save coh-content-db@latest"
   },
   "repository": {
@@ -32,6 +33,6 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "coh-content-db": "^1.1.4"
+    "coh-content-db": "^1.2.0"
   }
 }

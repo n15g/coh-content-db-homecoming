@@ -10,11 +10,14 @@ export const BugHunter: IBadgeData = {
     badgeText: [
         {value: `Your stalwart efforts in tracking down and eradicating evil bugs have been recognized by the Paragon City authorities. Thanks to you, the City of Heroes has its pests firmly under control.`}
     ],
-    notes: `Have a Developer recognize a game-breaking bug that you discovered and reported`,
+    notes: `Have a Developer recognize a game-breaking bug that you discovered and reported.
+
+**Note: This badge is not included in badge totals.**`,
     links: [
         {title: "Bug Hunter Badge", href: "https://paragonwiki.com/wiki/Bug_Hunter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/bug-hunter.png"}
-    ]
+    ],
+    ignoreInTotals: true
 };

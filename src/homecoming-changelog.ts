@@ -70,6 +70,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/45 - Updated winter event badge order.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/46 - Stalker is missing from the archetype list.\n",
         "1.1.6":
+            "* Update to `coh-content-db@1.2.0`.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/48 - [Bug Hunter] and [Flames of Prometheus] no longer count in badge totals.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/52 - [Newswoman] is actually [Newsgirl].\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/51 - [Repairman] is missing female badge name.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/65 - [Bloody Hands] can also be earned by Heroes.\n" +
