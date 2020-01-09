@@ -78,5 +78,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/50 - [Moral High Ground], [Resistance Member], and [Loyalist] can be earned by non-Praetorians through Ouroboros.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/49 - The exploration (and accolade) badges for The Abyss can be earned by a hero, using the sub in PI.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/issues/47 - A bunch of Villain gladiator badges had invalid references to their required badges.\n",
+        "1.1.7":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/68 - [Summoned] has wrong co-ordinates.\n"
     };
 }
