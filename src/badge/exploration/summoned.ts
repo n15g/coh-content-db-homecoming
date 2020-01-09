@@ -8,7 +8,7 @@ export const Summoned: IBadgeData = {
     names: [{value: "Summoned"}],
     alignment: ALIGNMENT_HERO,
     mapKey: KingsRow.key,
-    location: [-496.0, 101.0, 768.0],
+    location: [-940.5, -41.7, 2977.4],
     badgeText: [{
         value: "Statesman broke up a ritual by the Circle of Thorn members that would have bolstered their ranks exponentially."
     }],
