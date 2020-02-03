@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const WidowMaker: IBadgeData = {
     type: BadgeType.EVENT,
     key: "widow-maker",
+    setTitleId: 2169,
     names: [
         {value: "Widow Maker"},
     ],
