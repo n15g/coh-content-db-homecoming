@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const LordOfWinter: IBadgeData = {
     type: BadgeType.EVENT,
     key: "lord-of-winter",
+    setTitleId: 1377,
     names: [
         {type: Alternate.M, value: "Lord of Winter"},
         {type: Alternate.F, value: "Lady of Winter"}
