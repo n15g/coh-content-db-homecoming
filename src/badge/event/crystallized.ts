@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Crystallized: IBadgeData = {
     type: BadgeType.EVENT,
     key: "crystallized",
+    setTitleId: 704,
     names: [
         {value: "Crystallized"},
     ],
