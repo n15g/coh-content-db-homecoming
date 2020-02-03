@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const Snowbeast: IBadgeData = {
     type: BadgeType.GLADIATOR,
     key: "snowbeast",
+    setTitleId: 530,
     names: [
         {value: "Snowbeast"}
     ],
@@ -17,4 +18,4 @@ export const Snowbeast: IBadgeData = {
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}
     ],
-};
+}
