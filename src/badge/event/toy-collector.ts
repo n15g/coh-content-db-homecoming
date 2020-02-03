@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ToyCollector: IBadgeData = {
     type: BadgeType.EVENT,
     key: "toy-collector",
+    setTitleId: 522,
     names: [
         {value: "Toy Collector"},
     ],
