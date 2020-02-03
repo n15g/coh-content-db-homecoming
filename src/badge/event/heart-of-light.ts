@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 export const HeartOfLight: IBadgeData = {
     type: BadgeType.EVENT,
     key: "heart-of-light",
+    setTitleId: 524,
     names: [
         {type: Alternate.H, value: "Heart of Light"},
         {type: Alternate.V, value: "Heart of Darkness"},
