@@ -4,8 +4,8 @@ CoH Content DB - Homecoming data
 ### Build
 `npm run build`
 
-### Deploy
-`npm package`
+### Publish
+`npm publish`
 
 Initialize the database, then load the homecoming data pack:
 ```
