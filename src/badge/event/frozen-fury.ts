@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const FrozenFury: IBadgeData = {
     type: BadgeType.EVENT,
     key: "frozen-fury",
+    setTitleId: 210,
     names: [
         {value: "Frozen Fury"},
     ],
