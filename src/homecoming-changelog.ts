@@ -81,6 +81,8 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.1.7":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/68 - [Summoned] has wrong co-ordinates.\n",
         "1.1.8":
-            "* Added settitle ids for a bunch of badges.\n"
+            "* Added settitle ids for a bunch of badges.\n",
+        "1.1.9":
+            "* Fixed some typos in [Exterminator] and [Mage Hunter].\n"
     };
 }
