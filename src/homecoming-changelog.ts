@@ -83,6 +83,8 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.1.8":
             "* Added settitle ids for a bunch of badges.\n",
         "1.1.9":
-            "* Fixed some typos in [Exterminator] and [Mage Hunter].\n"
+            "* Fixed some typos in [Exterminator] and [Mage Hunter].\n",
+        "1.1.10":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/87 - Fixed [Task Force Commander] requirements.\n"
     };
 }
