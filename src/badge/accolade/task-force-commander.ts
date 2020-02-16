@@ -2,8 +2,8 @@ import {ALIGNMENT_HERO, Alternate, BadgePartialType, BadgeType, IBadgeData} from
 import {CitadelsAssistant} from "../accomplishment/citadels-assistant";
 import {ManticoresAssociate} from "../accomplishment/manticores-associate";
 import {NuminasCompatriot} from "../accomplishment/numinas-compatriot";
+import {PenelopeYinsFriend} from "../accomplishment/penelope-yins-friend";
 import {PositronsAlly} from "../accomplishment/positrons-ally";
-import {SisterPsychesComrade} from "../accomplishment/sister-psyches-comrade";
 import {SynapsesCohort} from "../accomplishment/synapses-cohort";
 
 export const TaskForceCommander: IBadgeData = {
@@ -27,13 +27,15 @@ export const TaskForceCommander: IBadgeData = {
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/task-force-commander.png"}
     ],
-    effect: `+5% Max Health`,
+    effect: `+5% Max Health
+
+Alternately [badge:sister-psyches-comrade], available only via Ouroboros, counts in lieu of [badge:penelope-yins-friend]`,
     partials: [
             {key: CitadelsAssistant.key, type: BadgePartialType.BADGE, badgeKey: CitadelsAssistant.key},
             {key: ManticoresAssociate.key, type: BadgePartialType.BADGE, badgeKey: ManticoresAssociate.key},
             {key: NuminasCompatriot.key, type: BadgePartialType.BADGE, badgeKey: NuminasCompatriot.key},
+            {key: PenelopeYinsFriend.key, type: BadgePartialType.BADGE, badgeKey: PenelopeYinsFriend.key},
             {key: PositronsAlly.key, type: BadgePartialType.BADGE, badgeKey: PositronsAlly.key},
-            {key: SisterPsychesComrade.key, type: BadgePartialType.BADGE, badgeKey: SisterPsychesComrade.key},
             {key: SynapsesCohort.key, type: BadgePartialType.BADGE, badgeKey: SynapsesCohort.key}
     ]
 };
