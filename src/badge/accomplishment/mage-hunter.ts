@@ -11,7 +11,7 @@ export const MageHunter: IBadgeData = {
     badgeText: [
         {value: "That's one less creepy mystic to get in your way."}
     ],
-    acquisition: "Complete the Defeat Selestarmission from Mage-Killer Zuhkara",
+    acquisition: "Complete the Defeat Selestar mission from Mage-Killer Zuhkara",
     links: [
         {title: "Mage Hunter Badge", href: "https://paragonwiki.com/wiki/Mage_Hunter_Badge"}
     ],
