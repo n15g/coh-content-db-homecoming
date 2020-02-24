@@ -19,6 +19,6 @@ export const FormerServantOfRecluse: IBadgeData = {
         {title: "Servant of Recluse Badge", href: "https://paragonwiki.com/wiki/Servant_of_Recluse_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/former-servant-of-recluse.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/recluses-betrayer.png"}
     ],
 };
