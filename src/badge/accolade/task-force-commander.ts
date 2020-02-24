@@ -19,7 +19,8 @@ export const TaskForceCommander: IBadgeData = {
         {type: Alternate.H, value: `You have successfully completed each of the Task Forces given out by the Freedom Phalanx. This gives you +5% Hit Points, and access to military epaulets at the Tailor.`},
         {type: Alternate.V, value: `Your perks for serving the Freedom Phalanx have been stripped due to your descent into villainy. You can keep the epaulets, though.`}
     ],
-    notes: `Awards +5% Max Health`,
+    notes: `Awards +5% Max Health\n
+Alternately [badge:sister-psyches-comrade], available only via Ouroboros, counts in lieu of [badge:penelope-yins-friend]`,
     links: [
         {title: "Task Force Commander Badge", href: "https://paragonwiki.com/wiki/Task_Force_Commander_Badge"},
         {title: "Task Force Abandoner Badge", href: "https://paragonwiki.com/wiki/Task_Force_Abandoner_Badge"}
@@ -27,9 +28,7 @@ export const TaskForceCommander: IBadgeData = {
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/task-force-commander.png"}
     ],
-    effect: `+5% Max Health
-
-Alternately [badge:sister-psyches-comrade], available only via Ouroboros, counts in lieu of [badge:penelope-yins-friend]`,
+    effect: `+5% Max Health`,
     partials: [
             {key: CitadelsAssistant.key, type: BadgePartialType.BADGE, badgeKey: CitadelsAssistant.key},
             {key: ManticoresAssociate.key, type: BadgePartialType.BADGE, badgeKey: ManticoresAssociate.key},
