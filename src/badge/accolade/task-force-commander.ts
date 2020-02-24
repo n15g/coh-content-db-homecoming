@@ -20,7 +20,7 @@ export const TaskForceCommander: IBadgeData = {
         {type: Alternate.V, value: `Your perks for serving the Freedom Phalanx have been stripped due to your descent into villainy. You can keep the epaulets, though.`}
     ],
     notes: `Awards +5% Max Health\n
-Alternately [badge:sister-psyches-comrade], available only via Ouroboros, counts in lieu of [badge:penelope-yins-friend]`,
+Alternatively [badge:sister-psyches-comrade], available only via Ouroboros, counts in lieu of [badge:penelope-yins-friend].`,
     links: [
         {title: "Task Force Commander Badge", href: "https://paragonwiki.com/wiki/Task_Force_Commander_Badge"},
         {title: "Task Force Abandoner Badge", href: "https://paragonwiki.com/wiki/Task_Force_Abandoner_Badge"}
