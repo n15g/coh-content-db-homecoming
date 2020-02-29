@@ -89,5 +89,7 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.1.11":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/88 - Fixed [Task Force Commander] requirements, again.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/89 - Replaced icon for [Servant of Recluse] and [Avid Reader].\n",
+        "1.1.12":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/90 - Fixed craft count for [Rebuilder].\n",
     };
 }
