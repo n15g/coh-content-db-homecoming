@@ -91,5 +91,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/89 - Replaced icon for [Servant of Recluse] and [Avid Reader].\n",
         "1.1.12":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/90 - Fixed craft count for [Rebuilder].\n",
+        "1.1.13":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/91 - Added hypen to [Do-Gooder].\n",
     };
 }
