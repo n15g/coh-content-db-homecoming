@@ -7,7 +7,7 @@ export const Medic: IBadgeData = {
     names: [
         {type: Alternate.H, value: "Medic"},
         {type: Alternate.V, value: "Fixer"},
-        {type: Alternate.P, value: "Do Gooder"}
+        {type: Alternate.P, value: "Do-Gooder"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
