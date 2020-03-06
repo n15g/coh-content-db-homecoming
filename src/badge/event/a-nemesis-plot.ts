@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const ANemesisPlot: IBadgeData = {
     type: BadgeType.EVENT,
     key: "a-nemesis-plot",
+    setTitleId: 2210,
     names: [
         {value: "A Nemesis Plot"},
     ],
