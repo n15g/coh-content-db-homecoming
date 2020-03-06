@@ -12,7 +12,7 @@ export const Bounty: IBadgeData = {
     badgeText: [
         {value: "You have held on to a few souvenirs that remind you of your interesting adventures."}
     ],
-    acquisition: "Colllect 10 Souvenirs",
+    acquisition: "Collect 10 Souvenirs",
     links: [
         {title: "Bounty Badge", href: "https://paragonwiki.com/wiki/Bounty_Badge"}
     ],
