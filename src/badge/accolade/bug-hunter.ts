@@ -3,6 +3,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 export const BugHunter: IBadgeData = {
     type: BadgeType.ACCOLADE,
     key: "bug-hunter",
+    setTitleId: 215,
     names: [
         {value: "Bug Hunter"}
     ],
