@@ -3,6 +3,7 @@ import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 export const FlamesOfPrometheus: IBadgeData = {
     type: BadgeType.ACCOLADE,
     key: "flames-of-prometheus",
+    setTitleId: 2003,
     names: [
         {value: "Flames of Prometheus"}
     ],
