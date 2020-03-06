@@ -13,7 +13,7 @@ export const Pickpocket: IBadgeData = {
         {value: "Not content with grabbing a few mementos in the course of your adventures, you've started " +
         "going through the pockets of your defeated foes for souvenirs."}
     ],
-    acquisition: "Colllect 25 Souvenirs",
+    acquisition: "Collect 25 Souvenirs",
     links: [
         {title: "Pickpocket Badge", href: "https://paragonwiki.com/wiki/Pickpocket_Badge"}
     ],
