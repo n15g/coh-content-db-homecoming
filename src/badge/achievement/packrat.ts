@@ -10,7 +10,7 @@ export const Packrat: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `The more souvenirs you gather, the more you want. This is starting to become an obsession.`}],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/packrat.png"}],
-    acquisition: "Colllect 100 Souvenirs",
+    acquisition: "Collect 100 Souvenirs",
     links: [
         {title: "Packrat Badge", href: "https://paragonwiki.com/wiki/Packrat_Badge"}
     ],
