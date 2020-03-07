@@ -98,15 +98,16 @@ export class HomecomingChangelog implements IServerGroupData {
 
         "1.2.0":
             "* https://github.com/n15g/coh-content-db/issues/7 - Added support for Praetorian settitle ids.\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/101 - Added settitle id to [A Nemesis Plot].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/100 - Added settitle id to [Bug Hunter].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/99 - Added settitle id to [Flames of Prometheus].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/98 - Fixed typo in [Pickpocket].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/97 - Fixed typo in [Packrat].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/96 - Fixed typo in [Kleptomaniac].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/95 - Fixed typo in [Curator].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/94 - Fixed typo in [Bounty].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/92 - [Hangwoman] was tagged as M, not F.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/93 - Fixed typo in [Saved the World].\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/92 - [Hangwoman] was tagged as M, not F.",
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/94 - Fixed typo in [Bounty].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/95 - Fixed typo in [Curator].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/96 - Fixed typo in [Kleptomaniac].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/97 - Fixed typo in [Packrat].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/98 - Fixed typo in [Pickpocket].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/99 - Added settitle id to [Flames of Prometheus].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/100 - Added settitle id to [Bug Hunter].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/101 - Added settitle id to [A Nemesis Plot].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/102 - [Chameleon] is now Hero-only.\n",
     };
 }
