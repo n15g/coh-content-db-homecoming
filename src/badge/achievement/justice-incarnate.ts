@@ -4,6 +4,7 @@ export const JusticeIncarnate: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "justice-incarnate",
     setTitleId: 24,
+    setTitleIdPraetorian: 1672,
     names: [
         {type: Alternate.H, value: "Justice Incarnate"},
         {type: Alternate.V, value: "Captain"},

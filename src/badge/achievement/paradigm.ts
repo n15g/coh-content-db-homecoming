@@ -4,6 +4,7 @@ export const Paradigm: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "paradigm",
     setTitleId: 247,
+    setTitleIdPraetorian: 1710,
     names: [
         {value: "Paradigm"},
         {type: Alternate.P, value: "Old-Timer"}

@@ -4,6 +4,7 @@ export const Trailblazer: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "trailblazer",
     setTitleId: 407,
+    setTitleIdPraetorian: 1664,
     names: [
         {value: "Trailblazer"},
         {type: Alternate.P, value: "Emissary"}

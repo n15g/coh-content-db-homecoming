@@ -4,6 +4,7 @@ export const Caged: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "caged",
     setTitleId: 240,
+    setTitleIdPraetorian: 1697,
     names: [
         {value: "Caged"},
         {type: Alternate.P, value: "Can't Do That"}

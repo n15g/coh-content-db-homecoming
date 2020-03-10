@@ -4,6 +4,7 @@ export const Trendsetter: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "trendsetter",
     setTitleId: 242,
+    setTitleIdPraetorian: 1702,
     names: [
         {value: "Trendsetter"},
         {type: Alternate.P, value: "Renowned"}

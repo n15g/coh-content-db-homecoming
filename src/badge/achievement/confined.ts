@@ -4,6 +4,7 @@ export const Confined: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "confined",
     setTitleId: 239,
+    setTitleIdPraetorian: 1696,
     names: [
         {value: "Confined"},
         {type: Alternate.P, value: "Stuck"}

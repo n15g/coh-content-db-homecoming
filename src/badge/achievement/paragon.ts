@@ -4,6 +4,7 @@ export const Paragon: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "paragon",
     setTitleId: 14,
+    setTitleIdPraetorian: 1707,
     names: [
         {type: Alternate.H, value: "Paragon"},
         {type: Alternate.V, value: "Svengali"},

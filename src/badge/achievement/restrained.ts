@@ -4,6 +4,7 @@ export const Restrained: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "restrained",
     setTitleId: 18,
+    setTitleIdPraetorian: 1693,
     names: [
         {type: Alternate.H, value: "Restrained"},
         {type: Alternate.V, value: "Slacker"},

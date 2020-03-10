@@ -4,6 +4,7 @@ export const Deathless: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "deathless",
     setTitleId: 233,
+    setTitleIdPraetorian: 1684,
     names: [
         {value: "Deathless"},
         {type: Alternate.P, value: "Impulsive"}
