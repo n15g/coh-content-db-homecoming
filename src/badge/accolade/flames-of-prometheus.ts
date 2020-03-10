@@ -16,5 +16,8 @@ Can be redeemed for a Notice of the Well at 50
     links: [
         {title: "Flames of Prometheus Badge", href: "https://paragonwiki.com/wiki/Flames_of_Prometheus"}
     ],
+    icons: [
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/flames-of-prometheus.png"}
+    ],
     ignoreInTotals: true
 };

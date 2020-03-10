@@ -109,5 +109,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/100 - Added settitle id to [Bug Hunter].\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/101 - Added settitle id to [A Nemesis Plot].\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/102 - [Chameleon] is now Hero-only.\n",
+
+        "1.2.1":
+            " * https://github.com/n15g/coh-content-db-homecoming/issues/103 - Icon for [Flames of Prometheus].\n"
     };
 }
