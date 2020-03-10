@@ -1,4 +1,5 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
+import {Brickstown} from "../../map/brickstown";
 
 export const DoNoHarm: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
@@ -7,10 +8,11 @@ export const DoNoHarm: IBadgeData = {
     names: [
         {value: "Do No Harm"}
     ],
-    alignment: ALIGNMENT_ANY,
+    alignment: ALIGNMENT_HERO,
     badgeText: [{value: `You have delivered medical supplies to the Rikti.`}],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_stature_11.png"}],
-    acquisition: "Complete the task set `Hippocratic Oath`.",
+    acquisition: `Complete the task set 'Hippocratic Oath'.`,
+    notes: `The task set 'Hippocratic Oath' begins with the 'Rescue the doctors from the Rikti' mission from level 35-39 contact Steven Sheridan in [map:${Brickstown.key}]. It is also available via Ouroboros, level 35-39, mission 0.35 'Hippocratic Oath'.`,
     links: [
         {title: "Do No Harm Badge", href: "https://paragonwiki.com/wiki/Do_No_Harm_Badge"}
     ],

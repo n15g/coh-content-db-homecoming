@@ -9,9 +9,9 @@ export const SafetyInNumbers: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've taken down 33 Zombie Minions, showing you have Glimpsed the Abyss."},
+        {value: "You've taken out 33 Zombie Lieutenants, proving that there is Safety in Numbers."},
     ],
-    acquisition: "Defeat 33 Zombie minions during Zombie Apocalypses.",
+    acquisition: "Defeat 33 Zombie lieutenants during Zombie Apocalypses.",
     links: [
         {title: "Safety in Numbers Badge", href: "https://paragonwiki.com/wiki/Safety_in_Numbers_Badge"}
     ],
