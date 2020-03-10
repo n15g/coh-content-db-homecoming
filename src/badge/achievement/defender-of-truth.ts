@@ -4,6 +4,7 @@ export const DefenderOfTruth: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "defender-of-truth",
     setTitleId: 23,
+    setTitleIdPraetorian: 1671,
     names: [
         {type: Alternate.H, value: "Defender of Truth"},
         {type: Alternate.MV, value: "Wiseguy"},

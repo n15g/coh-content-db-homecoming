@@ -4,6 +4,7 @@ export const Doctor: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "doctor",
     setTitleId: 4,
+    setTitleIdPraetorian: 1689,
     names: [
         {type: Alternate.H, value: "Doctor"},
         {type: Alternate.V, value: "Mad Scientist"},

@@ -4,6 +4,7 @@ export const MedicineMan: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "medicine-man",
     setTitleId: 237,
+    setTitleIdPraetorian: 1691,
     names: [
         {type: Alternate.MH, value: "Medicine Man"},
         {type: Alternate.FH, value: "Medicine Woman"},

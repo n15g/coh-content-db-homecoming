@@ -4,6 +4,7 @@ export const KeeperOfPeace: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "keeper-of-peace",
     setTitleId: 22,
+    setTitleIdPraetorian: 1670,
     names: [
         {type: Alternate.H, value: "Keeper of Peace"},
         {type: Alternate.V, value: "Insider"},

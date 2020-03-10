@@ -4,6 +4,7 @@ export const Entangled: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "entangled",
     setTitleId: 19,
+    setTitleIdPraetorian: 1694,
     names: [
         {type: Alternate.H, value: "Entangled"},
         {type: Alternate.V, value: "Sleepy"},
