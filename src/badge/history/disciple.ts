@@ -39,7 +39,7 @@ export const Disciple: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [734.0, -121.0, -3747.0],
             inscription: `On this site in March of 1999, the hero Luminary gave a demonstration of his powers. Though public sentiment was against the fledgling company Hero Corps, Luminary was convinced he could turn that sentiment around. When he brought forth an aura of healing light, each person on the street felt touched. Still, some were unmoved. Eliza McCaffrey, one of the spectators remarked, 'Sure, his powers are amazing. That makes me all the more nervous that they're for sale!'`,
-            notes: `This plaque is [map:${SkywayCity.key}], 221 yds WNW of the marker for The Gruff.`,
+            notes: `This plaque is in [map:${SkywayCity.key}], 221 yds WNW of the marker for The Gruff.`,
             vidiotMapKey: "1"
         },
         {

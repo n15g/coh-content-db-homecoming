@@ -37,7 +37,7 @@ export const Scholastic: IBadgeData = {
             plaqueType: PlaqueType.WALL_PLAQUE,
             location: [-229.0, 8.0, -370.0],
             inscription: `This building was once the lab of Dr. Brian Webb, the brilliant scientist who broke the dimensional barrier and opened up whole new worlds to science. His notes reveal that his findings were linked to previous scientists' research on the effects of the drug Superadine. Much has been made of this discovery, but the link between the drug and the dimensional barrier remains a mystery.`,
-            notes: `This plaque is [map:${Brickstown.key}]. It is on the east side of a building 430 yards due south of the Paragon City Monorail station and 67 yards east-northeast of Detective Fish.`,
+            notes: `This plaque is in [map:${Brickstown.key}]. It is on the east side of a building 430 yards due south of the Paragon City Monorail station and 67 yards east-northeast of Detective Fish.`,
             vidiotMapKey: "1"
         },
         {

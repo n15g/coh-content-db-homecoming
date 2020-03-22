@@ -37,7 +37,7 @@ export const Alumnus: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [541.0, 0.0, -1095.0],
             inscription: `These ruins are all that remains of the original village of Salamanca, established in 1641. Since their arrival, the Cabal have taken over the ruins and made them their home. It has been theorized that they feel most at home among these poor ashes.`,
-            notes: `This plaque is [map:${Croatoa.key}], 167 yards northeast of the Sunset Ridge neighborhood marker.`,
+            notes: `This plaque is in [map:${Croatoa.key}], 167 yards northeast of the Sunset Ridge neighborhood marker.`,
             vidiotMapKey: "1"
         },
         {

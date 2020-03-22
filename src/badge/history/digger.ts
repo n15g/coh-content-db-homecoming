@@ -47,7 +47,7 @@ export const Digger: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [-2250.0, 5.0, -2365.0],
             inscription: `This building once housed the lab of Dr. Calvin Stewart, who pioneered Eastgate Bay's Seaview project. Since the Hollowing, Dr. Stewart has been forced to abandon the lab, and communication with the Seaview project has been erratic. Very little is known by the public about the scientists' activities in Eastgate Bay.`,
-            notes: `This plaque is [map:${TheHollows.key}], 740 yards southeast of the Four Seasons neighborhood marker.`,
+            notes: `This plaque is in [map:${TheHollows.key}], 740 yards southeast of the Four Seasons neighborhood marker.`,
             vidiotMapKey: "2"
         },
         {

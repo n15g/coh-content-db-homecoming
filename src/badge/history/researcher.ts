@@ -39,7 +39,7 @@ export const Researcher: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [-1147.0, 228.0, 5688.0],
             inscription: `Mayor 'Spanky' Rabinowitz was born on this very street, in 1878 to Aaron and Maria Rabinowitz. Those who knew the mayor well say that he often returned to this area when troubled, to walk the streets he grew up on and contemplate the city's future.`,
-            notes: `This plaque is [map:${TalosIsland.key}], 118 yds due east of the New Corinth marker.`,
+            notes: `This plaque is in [map:${TalosIsland.key}], 118 yds due east of the New Corinth marker.`,
             vidiotMapKey: "3"
         },
         {

@@ -39,7 +39,7 @@ export const Scholar: IBadgeData = {
             plaqueType: PlaqueType.WALL_PLAQUE,
             location: [-1468.0, 24.0, -2346.0],
             inscription: `This was the site of one of the Regulators' first major victories in their War on Drugs. Led by the Back Alley Brawler, the Regulators surprised a group of thugs who were dealing in heavy narcotics. One of the villains, Harry Frost, later said, 'They may have got the best of me. But mark my words, my Family will rule this town.'`,
-            notes: `This plaque is [map:${SkywayCity.key}] at a rest stop just west of the Talos Island gate. It is on the wall, facing north, hidden in the shadows next to the restrooms. It is 158 yards west-southwest of the Talos Island gate.`,
+            notes: `This plaque is in [map:${SkywayCity.key}] at a rest stop just west of the Talos Island gate. It is on the wall, facing north, hidden in the shadows next to the restrooms. It is 158 yards west-southwest of the Talos Island gate.`,
             vidiotMapKey: "3"
         },
         {
