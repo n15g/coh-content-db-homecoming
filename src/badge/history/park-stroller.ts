@@ -36,7 +36,7 @@ export const ParkStroller: IBadgeData = {
             plaqueType: PlaqueType.WALL_PLAQUE,
             location: [-2368.0, -7.0, -479.0],
             inscription: `To Justin Sinclair the Ziggurat is a thing by which the citizens of Brickstown should feel empowered. It is not a symbol of fear, but one of hope. Sentinel Park admirably looks upon this grand monument knowing that it's not only what keeps Brickstown safe from villainy, but the entirety of Paragon City. Sentinel Park was proudly built with these values in mind.`,
-            notes: `This plaque is [map:${Brickstown.key}], 316 yards east of the Prison Power Station neighborhood marker.`,
+            notes: `This plaque is in [map:${Brickstown.key}], 316 yards east of the Prison Power Station neighborhood marker.`,
             vidiotMapKey: "4"
         },
         {

@@ -39,7 +39,7 @@ export const JustSaidNoToSuperadine: IBadgeData = {
             plaqueType: PlaqueType.WALL_PLAQUE,
             location: [-2178.0, 8.0, 751.0],
             inscription: `This was the site of the first Superadine drug bust. Michael White, otherwise known as the Back Alley Brawler, was patrolling the area when he discovered a pair of thugs haggling over a strange green liquid. He arrested the villains, confiscated the drug, and brought it to the Freedom Phalanx for analysis. The Phalanx's top researcher, Dr. Brian Webb, confirmed the Brawler's worst fears: a new drug had been discovered, and its potency was unprecedented.`,
-            notes: `This plaque is [map:${SteelCanyon.key}] and is wall mounted facing north on the side of a building. It is just east of the Magic Store, 129 yards.`,
+            notes: `This plaque is in [map:${SteelCanyon.key}] and is wall mounted facing north on the side of a building. It is just east of the Magic Store, 129 yards.`,
             vidiotMapKey: "3"
         },
         {

@@ -4,9 +4,11 @@ export const Patroller: IBadgeData = {
     type: BadgeType.DAY_JOB,
     key: "patroller",
     setTitleId: 1036,
+    setTitleIdPraetorian: 1757,
     names: [
         {type: Alternate.H, value: "Patroller"},
-        {type: Alternate.V, value: "Criminal"}
+        {type: Alternate.V, value: "Criminal"},
+        {type: Alternate.P, value: "Patroller"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [{
@@ -15,6 +17,9 @@ export const Patroller: IBadgeData = {
     }, {
         type: Alternate.V,
         value: "You spent your free time causing havoc in the Rogue Isles and bring terror to its citizens earning the Criminal Day Job."
+    }, {
+        type: Alternate.P,
+        value: "You have spent your free time on the streets, Praetorian or otherwise, earning the Patroller Day Job."
     }],
     acquisition: "Log out anywhere for 100 hours.",
     effect: "Day Job: Patrol XP",
