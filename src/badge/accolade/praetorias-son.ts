@@ -5,8 +5,8 @@ export const VIP: IBadgeData = {
     key: "praetorias-son",
     setTitleId: 1658,
     names: [
-        {type: Alternate.MP, value: "Praetoria's Son"},
-        {type: Alternate.FP, value: "Praetoria's Daughter"}
+        {type: Alternate.M, value: "Praetoria's Son"},
+        {type: Alternate.F, value: "Praetoria's Daughter"}
     ],
     alignment: ALIGNMENT_PRAETORIAN,
     badgeText: [
