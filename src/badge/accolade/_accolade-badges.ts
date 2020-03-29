@@ -90,6 +90,7 @@ import {PortAuthority} from "./port-authority";
 import {PortalCorpAnalyst} from "./portal-corp-analyst";
 import {PortalJockey} from "./portal-jockey";
 import {PPDInformant} from "./ppd-informant";
+import {PraetoriasSon} from "./praetorias-son";
 import {PrimeWarden} from "./prime-warden";
 import {PurePraetorian} from "./pure-praetorian";
 import {RapidResponseMember} from "./rapid-response-member";
@@ -248,6 +249,7 @@ export const AccoladeBadges: IBadgeData[] = [
     Vigilant,
     Determined,
     AgentOfChaos,
+    PraetoriasSon,
     TemperedThroughFire,
     Meticulous,
     FashionVictim,
