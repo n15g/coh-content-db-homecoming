@@ -4,6 +4,7 @@ export const Imprisoned: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "imprisoned",
     setTitleId: 20,
+    setTitleIdPraetorian: 1695,
     names: [
         {type: Alternate.H, value: "Imprisoned"},
         {type: Alternate.V, value: "Dazed and Confused"},

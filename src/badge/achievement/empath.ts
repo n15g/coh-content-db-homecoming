@@ -4,6 +4,7 @@ export const Empath: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "empath",
     setTitleId: 238,
+    setTitleIdPraetorian: 1692,
     names: [
         {value: "Empath"},
         {type: Alternate.P, value: "Death's Jailer"}

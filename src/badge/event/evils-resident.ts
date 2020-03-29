@@ -9,9 +9,9 @@ export const EvilsResident: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've taken down 25 Zombie Minions, showing you have Glimpsed the Abyss."},
+        {value: "You've defeated 25 Zombie Bosses, making your place of occupation a Home of the Dead."},
     ],
-    acquisition: "Defeat 25 Zombie minions during Zombie Apocalypses.",
+    acquisition: "Defeat 25 Zombie bosses during Zombie Apocalypses.",
     links: [
         {title: "Evil's Resident Badge", href: "https://paragonwiki.com/wiki/Evil%27s_Resident_Badge"}
     ],

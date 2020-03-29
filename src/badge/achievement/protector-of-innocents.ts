@@ -4,6 +4,7 @@ export const ProtectorOfInnocents: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "protector-of-innocents",
     setTitleId: 21,
+    setTitleIdPraetorian: 1669,
     names: [
         {type: Alternate.H, value: "Protector of Innocents"},
         {type: Alternate.V, value: "Soldier"},

@@ -38,7 +38,7 @@ export const Student: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [1200.0, 4.0, 384.0],
             inscription: `On January 6th, 1937, Maiden Justice of the Freedom Phalanx arrested a group of violent thugs at this location. Although Maiden Justice was able to prevent the thugs from torching the building, the perpetrators were released by policed on the grounds that the arrest had not been legally sanctioned. The public outcry was immediate. Politicians put their heads together and the Citizen Crime Fighting Act was born.`,
-            notes: `This plaque is [map:${AtlasPark.key}], 179 yards northeast of the Downside marker.`,
+            notes: `This plaque is in [map:${AtlasPark.key}], 179 yards northeast of the Downside marker.`,
             vidiotMapKey: "3"
         },
         {

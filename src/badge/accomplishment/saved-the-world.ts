@@ -6,7 +6,7 @@ export const SavedTheWorld: IBadgeData = {
     setTitleId: 733,
     names: [
         {type: Alternate.H, value: "Saved the World"},
-        {type: Alternate.V, value: "Saved the World... For Later"}
+        {type: Alternate.V, value: "Saved the World... for Later"}
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [

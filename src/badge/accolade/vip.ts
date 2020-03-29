@@ -4,6 +4,7 @@ export const VIP: IBadgeData = {
     type: BadgeType.ACCOLADE,
     key: "vip",
     setTitleId: 183,
+    setTitleIdPraetorian: 1658,
     names: [
         {type: Alternate.H, value: "V.I.P."},
         {type: Alternate.V, value: "Destined One"},

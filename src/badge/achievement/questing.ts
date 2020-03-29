@@ -4,6 +4,7 @@ export const Questing: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "questing",
     setTitleId: 1582,
+    setTitleIdPraetorian: 1667,
     names: [
         {value: "Questing"},
         {type: Alternate.P, value: "Prepared"}

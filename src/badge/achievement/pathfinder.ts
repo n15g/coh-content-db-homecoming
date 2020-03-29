@@ -4,6 +4,7 @@ export const Pathfinder: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "pathfinder",
     setTitleId: 29,
+    setTitleIdPraetorian: 1663,
     names: [
         {value: "Pathfinder"},
         {type: Alternate.MP, value: "Knows He Knows Not"},

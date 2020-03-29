@@ -4,6 +4,7 @@ export const TheUnwavering: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "the-unwavering",
     setTitleId: 15,
+    setTitleIdPraetorian: 1681,
     names: [
         {type: Alternate.H, value: "The Unwavering"},
         {type: Alternate.V, value: "Punch Drunk"},

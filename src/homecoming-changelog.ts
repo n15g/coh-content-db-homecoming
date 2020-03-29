@@ -89,5 +89,33 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.1.11":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/88 - Fixed [Task Force Commander] requirements, again.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/89 - Replaced icon for [Servant of Recluse] and [Avid Reader].\n",
+        "1.1.12":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/90 - Fixed craft count for [Rebuilder].\n",
+        "1.1.13":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/91 - Added hypen to [Do-Gooder].\n",
+        "1.1.14":
+            "* Fixed some bidirectional dependency issues in test VidiotMap data.\n",
+
+        "1.2.0":
+            "* https://github.com/n15g/coh-content-db/issues/7 - Added support for Praetorian settitle ids.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/92 - [Hangwoman] was tagged as M, not F.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/93 - Fixed typo in [Saved the World].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/94 - Fixed typo in [Bounty].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/95 - Fixed typo in [Curator].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/96 - Fixed typo in [Kleptomaniac].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/97 - Fixed typo in [Packrat].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/98 - Fixed typo in [Pickpocket].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/99 - Added settitle id to [Flames of Prometheus].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/100 - Added settitle id to [Bug Hunter].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/101 - Added settitle id to [A Nemesis Plot].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/102 - [Chameleon] is now Hero-only.\n",
+        "1.2.1":
+            " * https://github.com/n15g/coh-content-db-homecoming/issues/103 - Icon for [Flames of Prometheus].\n" +
+            " * https://github.com/n15g/coh-content-db-homecoming/pull/104 - Added praetorian ids for a bunch of badges.\n" +
+            " * https://github.com/n15g/coh-content-db-homecoming/pull/104 - Fixed badge text for a few badges.\n" +
+            " * https://github.com/n15g/coh-content-db-homecoming/pull/104 - Fixed alignment for a few badges.\n",
+        "1.2.2":
+            " * https://github.com/n15g/coh-content-db-homecoming/pull/105 - Praetorian settitle id for [Patroller].\n" +
+            " * https://github.com/n15g/coh-content-db-homecoming/pull/105 - Fixed typo in a bunch of history badges.\n",
     };
 }

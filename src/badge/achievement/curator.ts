@@ -10,7 +10,7 @@ export const Curator: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `You never throw anything away, lest it be the clue that unravels the next mystery of the universe. Your collection of souvenirs makes museums jealous, and you wouldn't get rid of any of them.`}],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/curator.png"}],
-    acquisition: "Colllect 200 Souvenirs",
+    acquisition: "Collect 200 Souvenirs",
     links: [
         {title: "Curator Badge", href: "https://paragonwiki.com/wiki/Curator_Badge"}
     ],

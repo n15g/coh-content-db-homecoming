@@ -4,6 +4,7 @@ export const TheUnyielding: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "the-unyielding",
     setTitleId: 16,
+    setTitleIdPraetorian: 1682,
     names: [
         {type: Alternate.H, value: "The Unyielding"},
         {type: Alternate.V, value: "Unbroken"},

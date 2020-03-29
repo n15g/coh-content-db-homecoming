@@ -38,7 +38,7 @@ export const Savant: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [7227.0, 37.0, -554.0],
             inscription: `This plaque commemorates the last meeting of Statesman and Hero 1. They were the heroes slated to lead the Alpha and Omega Teams, and they knew they would probably not meet again. 'We had only a minute to say goodbye,' Statesman said later. 'So we didn't say anything.' Although Statesman survived Alpha Team's strike on the entrenched Rikti troops, Hero 1 and Omega Team never returned from the Rikti dimension.`,
-            notes: `This plaque is [map:${CreysFolly.key}], 148 yds NNE of Carnival Town.`,
+            notes: `This plaque is in [map:${CreysFolly.key}], 148 yds NNE of Carnival Town.`,
             vidiotMapKey: "1"
         },
         {

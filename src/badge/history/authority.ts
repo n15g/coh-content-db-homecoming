@@ -49,7 +49,7 @@ export const Authority: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [-1035.0, 36.0, -2441.0],
             inscription: `In 1953, the Freedom Phalanx prevented a ship bearing copious amounts of explosives from docking at this harbor. When the captain was interrogated, it became clear that he was on a mission of sabotage. Public sentiment for the Freedom Phalanx swelled, and Mayor Kyle Legretsky proposed that the Citizens Crime Fighting Act be expanded. He proposed that groups such as the Freedom Phalanx be officially sanctioned fighting forces.`,
-            notes: `This plaque is [map:${IndependencePort.key}], along the road west of Icon, 188 yards due west of the Tailor shop.`,
+            notes: `This plaque is in [map:${IndependencePort.key}], along the road west of Icon, 188 yards due west of the Tailor shop.`,
             vidiotMapKey: "2"
         },
         {

@@ -4,6 +4,7 @@ export const Collector: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "collector",
     setTitleId: 27,
+    setTitleIdPraetorian: 1661,
     names: [
         {type: Alternate.H, value: "Collector"},
         {type: Alternate.V, value: "Native"},

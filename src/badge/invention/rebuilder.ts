@@ -26,7 +26,6 @@ export const Rebuilder: IBadgeData = {
             inventionLevel: 30,
             inventionTypes: [EnhancementCategory.HEALING],
             count: 6
-        },
-        {key: "c", type: BadgePartialType.INVENTION_PLUS_ONE}
+        }
     ]
 };

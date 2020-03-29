@@ -4,6 +4,7 @@ export const HeroOfTheCity: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "hero-of-the-city",
     setTitleId: 25,
+    setTitleIdPraetorian: 1673,
     names: [
         {type: Alternate.H, value: "Hero of the City"},
         {type: Alternate.V, value: "Made"},

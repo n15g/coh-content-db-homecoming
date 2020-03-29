@@ -4,6 +4,7 @@ export const Seeker: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "seeker",
     setTitleId: 1580,
+    setTitleIdPraetorian: 1665,
     names: [
         {value: "Seeker"},
         {type: Alternate.P, value: "Overachiever"}

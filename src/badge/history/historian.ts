@@ -29,7 +29,7 @@ export const Historian: IBadgeData = {
             plaqueType: PlaqueType.WALL_PLAQUE,
             location: [-1528.0, 168.0, 7554.0],
             inscription: `After the devastating 1999 terrorist attack on the Midnight Squad, Rebecca Foss spoke here in favor of the creation of a United Nations Special Council on Super Human Activities. She said, 'Paragon City has suffered a great loss. Someone must step up to take the reins. Hero Corps puts its faith firmly in the proposed U.N. council, and pledges to support all its actions.'`,
-            notes: `This plaque is [map:${TalosIsland.key}], 226 yards East of the Paragon City Monorail marker.`,
+            notes: `This plaque is in [map:${TalosIsland.key}], 226 yards East of the Paragon City Monorail marker.`,
             vidiotMapKey: "4"
         },
         {

@@ -4,6 +4,7 @@ export const RoleModel: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "role-model",
     setTitleId: 245,
+    setTitleIdPraetorian: 1708,
     names: [
         {value: "Role Model"},
         {type: Alternate.P, value: "Dean of Hard Knocks"}

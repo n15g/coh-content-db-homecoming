@@ -7,7 +7,7 @@ export const Hangman: IBadgeData = {
     setTitleId: 259,
     names: [
         {type: Alternate.M, value: "Hangman"},
-        {type: Alternate.M, value: "Hangwoman"}
+        {type: Alternate.F, value: "Hangwoman"}
     ],
     alignment: ALIGNMENT_ANY,
     mapKey: SirensCall.key,

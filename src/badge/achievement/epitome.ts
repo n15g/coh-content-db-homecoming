@@ -4,6 +4,7 @@ export const Epitome: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "epitome",
     setTitleId: 246,
+    setTitleIdPraetorian: 1709,
     names: [
         {value: "Epitome"},
         {type: Alternate.P, value: "Philosopher"}
