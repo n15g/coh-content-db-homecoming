@@ -1,6 +1,6 @@
 import {ALIGNMENT_PRAETORIAN, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
-export const VIP: IBadgeData = {
+export const PraetoriasSon: IBadgeData = {
     type: BadgeType.ACCOLADE,
     key: "praetorias-son",
     setTitleId: 1658,

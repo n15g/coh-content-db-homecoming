@@ -117,5 +117,7 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.2.2":
             " * https://github.com/n15g/coh-content-db-homecoming/pull/105 - Praetorian settitle id for [Patroller].\n" +
             " * https://github.com/n15g/coh-content-db-homecoming/pull/105 - Fixed typo in a bunch of history badges.\n",
+        "1.2.3":
+            " * https://github.com/n15g/coh-content-db-homecoming/pull/107 - Split Praetoria's Son from V.I.P.\n",
     };
 }
