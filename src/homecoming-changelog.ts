@@ -110,12 +110,14 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/101 - Added settitle id to [A Nemesis Plot].\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/102 - [Chameleon] is now Hero-only.\n",
         "1.2.1":
-            " * https://github.com/n15g/coh-content-db-homecoming/issues/103 - Icon for [Flames of Prometheus].\n" +
-            " * https://github.com/n15g/coh-content-db-homecoming/pull/104 - Added praetorian ids for a bunch of badges.\n" +
-            " * https://github.com/n15g/coh-content-db-homecoming/pull/104 - Fixed badge text for a few badges.\n" +
-            " * https://github.com/n15g/coh-content-db-homecoming/pull/104 - Fixed alignment for a few badges.\n",
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/103 - Icon for [Flames of Prometheus].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/104 - Added praetorian ids for a bunch of badges.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/104 - Fixed badge text for a few badges.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/104 - Fixed alignment for a few badges.\n",
         "1.2.2":
-            " * https://github.com/n15g/coh-content-db-homecoming/pull/105 - Praetorian settitle id for [Patroller].\n" +
-            " * https://github.com/n15g/coh-content-db-homecoming/pull/105 - Fixed typo in a bunch of history badges.\n",
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/105 - Praetorian settitle id for [Patroller].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/105 - Fixed typo in a bunch of history badges.\n",
+        "1.2.3":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/107 - Split Praetoria's Son from V.I.P.\n",
     };
 }
