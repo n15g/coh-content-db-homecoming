@@ -281,6 +281,9 @@ export const AchievementBadges: IBadgeData[] = [
     PPDDeputy,
     SecurityExpert,
     Interceptor,
+    
+    //Market Crash
+    Valet,
 
     //DFB
     TheCleanser,
@@ -301,8 +304,8 @@ export const AchievementBadges: IBadgeData[] = [
     DeadlyCombatant,
     DignifiedCombatant,
     Avenger,
-    DiamondInTheRough,
     BeyondReasonableDoubt,
+    DiamondInTheRough,
 
     //Dark Astoria
     TimeSaver,
@@ -380,7 +383,6 @@ export const AchievementBadges: IBadgeData[] = [
     //Other
     DefenderOfPrimalEarth,
     PocketDVipGoldClubMember,
-    Valet,
 
     //Time in Zone
     TrollTaskForceMember,
