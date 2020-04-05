@@ -9,7 +9,7 @@ export const ANemesisPlot: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've tangled with Nemesis himself (at least, you think so...) during the Nemesis Plot event."},
+        {value: "You've tangled with Nemesis himself (at least, you think so) during the Nemesis Plot event."},
     ],
     acquisition: "Be in the zone when Nemesis is defeated during the Nemesis Plot event.",
     links: [
