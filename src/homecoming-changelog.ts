@@ -119,5 +119,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/105 - Fixed typo in a bunch of history badges.\n",
         "1.2.3":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/107 - Split Praetoria's Son from V.I.P.\n",
+        "1.2.4":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/108 - Fixed order for [Valet] and [Beyond Reasonable Doubt].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/109 - Fixed typo in [A Nemesis Plot].\n"
     };
 }
