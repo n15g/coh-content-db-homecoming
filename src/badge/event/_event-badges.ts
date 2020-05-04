@@ -80,6 +80,7 @@ import {GiftGetter} from "./gift-getter";
 import {Passport} from "./passport";
 import {ANemesisPlot} from "./a-nemesis-plot";
 import {Arriviste} from "./arriviste";
+import {Resurgent} from "./resurgent";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -97,6 +98,7 @@ export const EventBadges: IBadgeData[] = [
     Timeless,
     Everlasting,
     Excelsior,
+    Resurgent,
     Pursuer,
     HallowSpirit,
     IronWarrior,
