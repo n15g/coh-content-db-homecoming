@@ -6,8 +6,8 @@ export const MedicineMan: IBadgeData = {
     setTitleId: 237,
     setTitleIdPraetorian: 1691,
     names: [
-        {type: Alternate.MH, value: "Medicine Man"},
-        {type: Alternate.FH, value: "Medicine Woman"},
+        {type: Alternate.M, value: "Medicine Man"},
+        {type: Alternate.F, value: "Medicine Woman"},
         {type: Alternate.P, value: "Savior"}
     ],
     alignment: ALIGNMENT_ANY,
