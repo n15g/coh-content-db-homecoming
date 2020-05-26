@@ -21,6 +21,7 @@ export const FirebaseZuluSecurityDetail: IBadgeData = {
         {title: "Firebase Zulu Deserter Badge", href: "https://paragonwiki.com/wiki/Firebase_Zulu_Deserter_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time.png"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-v.png"}
     ],
 };
