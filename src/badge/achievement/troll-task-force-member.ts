@@ -1,4 +1,4 @@
-import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const TrollTaskForceMember: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
@@ -17,6 +17,7 @@ export const TrollTaskForceMember: IBadgeData = {
         {title: "Troll Task Force Member Badge", href: "https://paragonwiki.com/wiki/Troll_Task_Force_Member_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time.png"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-v.png"}
     ],
 };
