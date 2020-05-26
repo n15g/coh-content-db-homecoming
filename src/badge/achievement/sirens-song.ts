@@ -10,7 +10,7 @@ export const SirensSong: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "Siren's Call must call to you. You've spent over 5 hours here."}
+        {value: "Siren's Call must call to you. You've spent over one hour there."}
     ],
     acquisition: "Spend 1 hours in Siren's Call",
     links: [
@@ -18,6 +18,7 @@ export const SirensSong: IBadgeData = {
         {title: "Raider Badge", href: "https://paragonwiki.com/wiki/Raider_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time.png"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-v.png"}
     ],
 };
