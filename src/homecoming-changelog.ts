@@ -125,6 +125,8 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.2.5":
             "* https://github.com/n15g/coh-content-db-homecoming/issues/110 - Added [Resurgent] badge.\n",
         "1.2.6":
-            " * https://github.com/n15g/coh-content-db-homecoming/pull/111 - [Medicine Man] male and female names were tagged as hero-only, changed to make them hero and villain.\n",
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/111 - [Medicine Man] male and female names were tagged as hero-only, changed to make them hero and villain.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/114 - Split hero and villain icons on several badges.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/114 - Updated time requirement for several PvP badges from 5 hours to 1 hour.\n",
     };
 }
