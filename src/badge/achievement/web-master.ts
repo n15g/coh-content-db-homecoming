@@ -9,9 +9,9 @@ export const WebMaster: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {type: Alternate.H, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over 5 hours " +
+        {type: Alternate.H, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over one hour " +
         "fighting Arachnos."},
-        {type: Alternate.V, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over 5 hours " +
+        {type: Alternate.V, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over one hour " +
         "fighting Longbow."}
     ],
     acquisition: "Spend 1 hour in Warburg",
@@ -19,6 +19,7 @@ export const WebMaster: IBadgeData = {
         {title: "Web Master Badge", href: "https://paragonwiki.com/wiki/Web_Master_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time.png"}
+        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},
+        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-v.png"}
     ],
 };
