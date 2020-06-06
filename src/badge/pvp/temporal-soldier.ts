@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const TemporalSoldier: IBadgeData = {
     type: BadgeType.PVP,
@@ -9,8 +9,7 @@ export const TemporalSoldier: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {type: Alternate.H, value: "250 Heavies have been at your disposal in Recluse's Victory."},
-        {type: Alternate.V, value: "250 Heavies have been at your disposal in Recluse's Victory"}
+        {value: "50 Heavies have been at your disposal in Recluse's Victory"}
     ],
     acquisition: "Control 50 Heavies in Recluse's Victory",
     links: [
