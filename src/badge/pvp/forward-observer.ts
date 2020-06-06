@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const ForwardObserver: IBadgeData = {
     type: BadgeType.PVP,
@@ -9,9 +9,10 @@ export const ForwardObserver: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've achieved a PvP Reputation of 100"}
+        {type: Alternate.H, value: "You've taken down 10 Villains in PvP."},
+        {type: Alternate.V, value: "You've taken down 10 Heroes in PvP."}
     ],
-    acquisition: "Achieve 20 kills in a PvP zone",
+    acquisition: "Achieve 10 kills in a PvP zone",
     links: [
         {title: "Forward Observer Badge", href: "https://paragonwiki.com/wiki/Forward_Observer_Badge"}
     ],
