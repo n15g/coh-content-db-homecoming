@@ -12,7 +12,7 @@ export const ForwardObserver: IBadgeData = {
         {type: Alternate.H, value: "You've taken down 10 villains in PvP."},
         {type: Alternate.V, value: "You've taken down 10 heroes in PvP."}
     ],
-    acquisition: "Defeat 10 player characters in a PvP zone by your own hand.",
+    acquisition: "Defeat 10 player characters in a PvP zone by your own hand",
     links: [
         {title: "Forward Observer Badge", href: "https://paragonwiki.com/wiki/Forward_Observer_Badge"}
     ],
