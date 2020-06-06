@@ -12,7 +12,7 @@ export const Reinforcement: IBadgeData = {
         {type: Alternate.H, value: "You've taken down 20 villains in PvP."},
         {type: Alternate.V, value: "You've taken down 20 heroes in PvP."}
     ],
-    acquisition: "Defeat 20 player characters in a PvP zone by your own hand.",
+    acquisition: "Defeat 20 player characters in a PvP zone by your own hand",
     links: [
         {title: "Reinforcement Badge", href: "https://paragonwiki.com/wiki/Reinforcement_Badge"}
     ],
