@@ -10,7 +10,7 @@ export const Valet: IBadgeData = {
     alignment: ALIGNMENT_HERO,
     badgeText: [{value: `You have kept Paragon City's vehicles safe during a Freakshow rampage.`}],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/valet.png"}],
-    acquisition: "Keep Paragon City's vehicles safe during a freakshow rampage.",
+    acquisition: "Prevent destruction of vehicles around Wentworth's building during the Market Crash Task Force.",
     links: [
         {title: "Valet Badge", href: "https://paragonwiki.com/wiki/Valet_Badge"}
     ],
