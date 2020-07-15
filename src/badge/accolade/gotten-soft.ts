@@ -1,6 +1,6 @@
 import {ALIGNMENT_VILLAIN, Alternate, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
 import {BadLuck} from "../accomplishment/bad-luck";
-import {Deathless} from "../achievement/deathless";
+import {TheUnbrokenSpirit} from "../achievement/the-unbroken-spirit";
 import {FreakOfNature} from "../exploration/freak-of-nature";
 import {Gangbuster} from "../defeat/gangbuster";
 import {LockedAndLoaded} from "../exploration/locked-and-loaded";
@@ -18,7 +18,7 @@ export const GottenSoft: IBadgeData = {
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
         {type: Alternate.H, value: `You once had a incredibly High Pain Threshold, but it seems you've grown a little soft after coming to Paragon City.`},
-        {type: Alternate.V, value: `You've got an incredibly High Pain Threshold, an after effect of which is that your Hit Points are 10% greater than normal.`}
+        {type: Alternate.V, value: `You've got an incredibly High Pain Threshold, an aftereffect of which is that your Hit Points are 10% greater than normal.`}
     ],
     notes: `Awards +10% Max Health`,
     links: [
@@ -31,7 +31,7 @@ export const GottenSoft: IBadgeData = {
     effect: `+10% Max Health`,
     partials: [
             {key: BadLuck.key, type: BadgePartialType.BADGE, badgeKey: BadLuck.key},
-            {key: Deathless.key, type: BadgePartialType.BADGE, badgeKey: Deathless.key},
+            {key: TheUnbrokenSpirit.key, type: BadgePartialType.BADGE, badgeKey: TheUnbrokenSpirit.key},
             {key: FreakOfNature.key, type: BadgePartialType.BADGE, badgeKey: FreakOfNature.key},
             {key: Gangbuster.key, type: BadgePartialType.BADGE, badgeKey: Gangbuster.key},
             {key: LockedAndLoaded.key, type: BadgePartialType.BADGE, badgeKey: LockedAndLoaded.key},
