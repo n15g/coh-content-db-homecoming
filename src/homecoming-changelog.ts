@@ -128,5 +128,9 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/111 - [Medicine Man] male and female names were tagged as hero-only, changed to make them hero and villain.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/114 - Split hero and villain icons on several badges.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/114 - Updated time requirement for several PvP badges from 5 hours to 1 hour.\n",
+        "1.2.7":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/115 - Fixed typo in [Siren's Song].\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/116 - Added a bunch of corrections to badge text, acquisition text, and/or icons.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/116 - Added a couple of commits to correct some issues involving the [High Pain Threshold] badge."
     };
 }
