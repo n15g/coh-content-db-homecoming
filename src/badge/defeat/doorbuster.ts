@@ -9,7 +9,7 @@ export const Doorbuster: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You took part in the City of Heroes Freedom VIP Head Start!"}
+        {value: "No magical or mechanical barrier can keep you contained."}
     ],
     acquisition: "Destroy 100 Force Field Doors, Magical Barriers or Reinforced doors",
     links: [

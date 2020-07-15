@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Disruptor: IBadgeData = {
     type: BadgeType.PVP,
@@ -9,9 +9,10 @@ export const Disruptor: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You've achieved a PvP Reputation of 400."}
+        {type: Alternate.H, value: "You've taken down 50 villains in PvP."},
+        {type: Alternate.V, value: "You've taken down 50 heroes in PvP."}
     ],
-    acquisition: "Achieve 50 kills in a PvP zone",
+    acquisition: "Defeat 50 player characters in a PvP zone by your own hand",
     links: [
         {title: "Disruptor Badge", href: "https://paragonwiki.com/wiki/Disruptor_Badge"}
     ],

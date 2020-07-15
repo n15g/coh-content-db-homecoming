@@ -13,7 +13,7 @@ export const TheUnbrokenSpirit: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "Your spirit can not be shattered. Though you have often been defeated, you continue to fight " +
         "the good fight."},
-        {type: Alternate.V, value: "Those lousy heroes win a lot of battles, but the war ain't over yet."},
+        {type: Alternate.V, value: "Your spirit can't be shattered. Those lousy heroes win a lot of battles, but the war ain't over yet."},
         {type: Alternate.P, value: "You remain Undaunted by defeat. You're not even sure Praetoria had any daunts..."}
     ],
     acquisition: "Pay off 200,000 debt",

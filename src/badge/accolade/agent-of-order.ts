@@ -18,7 +18,6 @@ export const AgentOfOrder: IBadgeData = {
         {title: "Agent of Order Badge", href: "https://paragonwiki.com/wiki/Agent_of_Order_Badge"}
     ],
     icons: [
-        {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png"},
-        {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-v.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}
     ]
 };

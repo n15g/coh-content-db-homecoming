@@ -9,7 +9,7 @@ export const TemporalSpy: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have commanded 50 Heavies in Recluse's Victory."}
+        {value: "You have commanded 25 Heavies in Recluse's Victory."}
     ],
     acquisition: "Control 25 Heavies in Recluse's Victory",
     links: [

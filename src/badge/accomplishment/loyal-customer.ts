@@ -9,10 +9,9 @@ export const LoyalCustomer: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "Your diligence hasn't gone without notice and is appreciated.  This badge has been granted to " +
-        "you for earning twenty nine Reward Tokens."}
+        {value: "You have stopped the Sky Raiders from ransacking Wentworth's Fine Consignments."}
     ],
-    acquisition: "Complete the Market Crash Task Force in Kallisti Warf.",
+    acquisition: "Complete the Market Crash Task Force in Kallisti Wharf.",
     links: [
         {title: "Loyal Customer Badge", href: "https://paragonwiki.com/wiki/Loyal_Customer_Badge"}
     ],

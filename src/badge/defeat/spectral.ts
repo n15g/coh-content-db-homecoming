@@ -9,7 +9,7 @@ export const Spectral: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You have trapped 100 Ghosts.  You are now Spectral."}
+        {value: "You have trapped many Spectral Pirates and they will not forget your treachery."}
     ],
     acquisition: "Trap 100 ghosts in Fort Hades, Port Oakes",
     links: [

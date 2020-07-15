@@ -9,7 +9,7 @@ export const Pirate: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have trapped 10 Ghosts.  You are now an honorary Pirate."}
+        {value: "You have bested the Spectral Pirates in battle and command their respect."}
     ],
     acquisition: "Defeat 100 Spectral Pirates.",
     links: [
