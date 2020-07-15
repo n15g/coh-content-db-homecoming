@@ -12,7 +12,7 @@ export const SirensSong: IBadgeData = {
     badgeText: [
         {value: "Siren's Call must call to you. You've spent over one hour there."}
     ],
-    acquisition: "Spend 1 hours in Siren's Call",
+    acquisition: "Spend 1 hour in Siren's Call",
     links: [
         {title: "Siren's Song Badge", href: "https://paragonwiki.com/wiki/Siren%27s_Song_Badge"},
         {title: "Raider Badge", href: "https://paragonwiki.com/wiki/Raider_Badge"}
