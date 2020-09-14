@@ -27,7 +27,7 @@ export const Lorekeeper: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: MercyIsland.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [-902.0, 96.0, -378.0],
+            location: [-907.0, 97.0, -380.0],
             inscription: `It is said that the snake-like beings that live in the rotting warrens of this island were cast-offs of the 'Children of Enos,' a bizarre cult that settled these islands in the 1600s. Rumors persist that the original snake-beings who sired the creatures visible today are still alive, writhing somewhere within their labyrinthine lairs.`,
             notes: `This monument is in [map:${MercyIsland.key}] right up against the Mercy wall that splits the zone between Darwin's Landing and Mercy. It is 90 yards west of Mongoose.`,
             vidiotMapKey: "1"
@@ -57,7 +57,7 @@ export const Lorekeeper: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: SharkheadIsle.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [-832.0, 0.0, -402.0],
+            location: [-832.0, 0.0, -403.0],
             inscription: `Sharkhead Isle was given its name by the free traders who first mapped and settled it in the early 1600s. For many years it served as a hub for the rest of the Isles, with its naturally protected bay as a home port for explorers, entrepreneurs, and pirates. Sharkhead Isle also acted as a central hub for many of the mystics and witchdoctors of the era, who sought the rare shards of red crystal coral. Even in the modern day, would-be practitioners of magic like the cultists of the Circle of Thorns still attempt to illegally acquire shards of Red Coral Crystal, believing in its supernatural power. This had made it necessary for trade in the Red Crystal to be declared illegal. Any shards of Red Coral Crystal must be turned over to Arachnos to prevent this illegal practice from causing trouble again.`,
             notes: `This monument is located at the south end of the parking lot just west of the Rogue Isles Ferry in [map:${SharkheadIsle.key}].`,
             vidiotMapKey: "1"
