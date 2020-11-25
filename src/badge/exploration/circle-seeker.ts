@@ -20,6 +20,6 @@ export const CircleSeeker: IBadgeData = {
     links: [
         {title: "Circle Seeker Badge", href: "https://paragonwiki.com/wiki/Circle_Seeker_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"
 };
