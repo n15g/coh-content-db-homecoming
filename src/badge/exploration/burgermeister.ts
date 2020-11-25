@@ -5,7 +5,10 @@ export const Burgermeister: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "burgermeister",
     setTitleId: 2412,
-    names: [{value: "Burgermeister"}],
+    names: [
+        {type: Alternate.M, value: "Burgermeister"},
+        {type: Alternate.F, value: "Burgermeisterin"}
+    ],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `Hero Burgers was once the best fast-food restaurant in Oceanview, before the island was evacuated and abandoned.`}],
     mapKey: BloodyBay.key,

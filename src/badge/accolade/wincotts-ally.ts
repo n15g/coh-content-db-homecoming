@@ -27,7 +27,7 @@ export const WincottsAlly: IBadgeData = {
         {title: "Wincott's Betrayer Badge", href: "https://paragonwiki.com/wiki/Wincott%27s_Betrayer_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
             {key: Parapsychologist.key, type: BadgePartialType.BADGE, badgeKey: Parapsychologist.key},

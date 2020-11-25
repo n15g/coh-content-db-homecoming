@@ -17,6 +17,6 @@ export const GraffitiCommunicator: IBadgeData = {
     links: [
         {title: "Graffiti Communicator Badge", href: "https://paragonwiki.com/wiki/Graffiti_Communicator_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"
 };

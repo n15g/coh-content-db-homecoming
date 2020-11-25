@@ -16,6 +16,6 @@ export const Geologist: IBadgeData = {
     links: [
         {title: "Geologist Badge", href: "https://paragonwiki.com/wiki/Geologist_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"
 };

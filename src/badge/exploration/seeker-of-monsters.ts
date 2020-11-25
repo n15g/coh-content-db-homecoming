@@ -16,6 +16,6 @@ export const SeekerOfMonsters: IBadgeData = {
     links: [
         {title: "Seeker of Monsters Badge", href: "https://paragonwiki.com/wiki/Seeker of Monsters_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"
 };
