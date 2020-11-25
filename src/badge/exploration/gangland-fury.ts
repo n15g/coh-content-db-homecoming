@@ -17,6 +17,6 @@ export const GanglandFury: IBadgeData = {
     links: [
         {title: "Gangland Fury Badge", href: "https://paragonwiki.com/wiki/Gangland Fury_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"
 };
