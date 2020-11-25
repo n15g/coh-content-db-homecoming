@@ -17,6 +17,6 @@ export const Backwoodsman: IBadgeData = {
     links: [
         {title: "Backwoodsman Badge", href: "https://paragonwiki.com/wiki/Backwoodsman_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"
 };
