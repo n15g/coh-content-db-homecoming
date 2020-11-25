@@ -10,7 +10,7 @@ export const MonitorDuty: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{
         value: "Your time spent protecting your Supergroup's base has earned you the Monitor Duty Day Job." +
-            " Logging out in your Supergroup base will earn you a Prestige bonus, when you log back in, each time you complete a mission for a short time."
+            " Logging out in your Supergroup base will earn you charges for your Base Teleporter power."
     }],
     acquisition: "Log out inside your Supergroup Base for 100 hours.",
     effect: "Day Job: Base Teleporter",
