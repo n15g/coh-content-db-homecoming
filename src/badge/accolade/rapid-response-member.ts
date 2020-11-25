@@ -12,8 +12,8 @@ export const RapidResponseMember: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {type: Alternate.H, value: `Your reputation of your work with your Super Group and in the field has earned you the Rapid Response Member Accolade.  While logged out near a Super Group Base portal you will earn time towards your Base Teleporter power.`},
-        {type: Alternate.V, value: `Your reputation of your work with your Super Group and causing havok in the streets of the Rogue Isles has earned you the Trouble Maker Accolade.  While logged out near a Super Group Base portal you will earn time towards your Base Teleporter power.`}
+        {type: Alternate.H, value: `Your reputation of your work with your Super Group and in the field has earned you the Rapid Response Member Accolade.  While logged out near a Super Group Base portal you will earn charges of your Rapid Response Portal power.`},
+        {type: Alternate.V, value: `Your reputation of your work with your Super Group and causing havok in the streets of the Rogue Isles has earned you the Trouble Maker Accolade.  While logged out near a Super Group Base portal you will earn charges of your Rapid Response Portal power.`}
     ],
     notes: `Earn the [badge:monitor-duty] and [badge:patroller] Day Jobs`,
     links: [
