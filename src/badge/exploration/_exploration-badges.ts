@@ -590,7 +590,7 @@ export const ExplorationBadges: IBadgeData[] = [
     FlyingShark, Fugitive, ForwardThinker, SecretPath, SixthPassenger, Unsubtle,
 
     //Peregrine Island
-    UseMightForRight, CauseForConcern, GeneticallyAltered, RiktiGoneWild, ShadesOfArachnos, AllSeeing, DarkOmen,
+    PortalParter, UseMightForRight, CauseForConcern, GeneticallyAltered, RiktiGoneWild, ShadesOfArachnos, AllSeeing, DarkOmen,
 
     //Hero One Memorial Badge
     TriedAndTrue,
@@ -723,9 +723,6 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Kings Row Pt2
     Summoned, Upgraded, MysticKing, KeenSighted, Smokey,
-
-    //Peregrine Island Pt2
-    PortalParter,
 
     //Perez Park Pt2
     Territorial, Avatar, AroundTheBendis, DocWhedon, JusticeAvenger,
