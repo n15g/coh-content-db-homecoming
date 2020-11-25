@@ -19,6 +19,6 @@ export const Ironic: IBadgeData = {
     links: [
         {title: "Ironic Badge", href: "https://paragonwiki.com/wiki/Ironic_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"
 };
