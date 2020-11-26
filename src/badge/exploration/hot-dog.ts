@@ -9,7 +9,7 @@ export const HotDog: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `Although Nick has since set up shop at a new location on Talos Island, many former residents of Siren's Call still miss the atmosphere of the old stand.`}],
     mapKey: SirensCall.key,
-    location: [1472.0, 0.0, -149.0],
+    location: [149.0, 0.0, 1473.0],
     links: [
         {title: "New PvP Exploration Badge List", href: "https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/"}
     ],
