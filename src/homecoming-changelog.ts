@@ -135,6 +135,7 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.2.8":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/118 - Updated coordinates for [Lorekeeper], and acquisition text for [Avid Reader].\n",
         "1.3.0":
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/120 - i27 updates to old badges.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/120 - i27 updates to old badges.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/121 - Siren's Call rotation (i27)\n"
     };
 }
