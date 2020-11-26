@@ -9,7 +9,7 @@ export const Volatile: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `This refinery was already under investigation for its poor handling of explosive gases when the shockwave from the Sunburst incident created a chain reaction that leveled the entire complex.`}],
     mapKey: SirensCall.key,
-    location: [-634.0, -132.0, 300.0],
+    location: [-300.5, -132.5, -635.0],
     links: [
         {title: "New PvP Exploration Badge List", href: "https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/"}
     ],
