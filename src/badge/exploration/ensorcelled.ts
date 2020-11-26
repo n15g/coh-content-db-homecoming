@@ -17,5 +17,5 @@ export const Ensorcelled: IBadgeData = {
         {title: "Ensorcelled Badge", href: "https://paragonwiki.com/wiki/Ensorcelled_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
-    vidiotMapKey: "2"
+    vidiotMapKey: "3"
 };
