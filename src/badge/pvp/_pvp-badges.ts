@@ -43,6 +43,7 @@ import {Uppercut} from "./uppercut";
 import {Vigilante} from "./vigilante";
 import {WelterweightChampion} from "./welterweight-champion";
 import {Wrangler} from "./wrangler";
+import {BehindEnemyLines} from "./behind-enemy-lines";
 
 
 export const PvpBadges: IBadgeData[] = [
@@ -90,4 +91,5 @@ export const PvpBadges: IBadgeData[] = [
     CruiserweightChampion,
     HeavyweightChampion,
     SuperHeavyweightChampion,
+    BehindEnemyLines
 ];

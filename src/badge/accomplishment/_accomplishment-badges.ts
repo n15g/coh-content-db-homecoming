@@ -179,6 +179,12 @@ import {WeaponMaster} from "./weapon-master";
 import {WellDrinker} from "./well-drinker";
 import {WellInformed} from "./well-informed";
 import {YouShouldSeeTheOtherGuy} from "./you-should-see-the-other-guy";
+import {ContainmentSpecialist} from "./containment-specialist";
+import {PatientZero} from "./patient-zero";
+import {TarnishedStar} from "./tarnished-star";
+import {TheGreaterGood} from "./the-greater-good";
+import {UncivilWar} from "./uncivil-war";
+import {WentOffScript} from "./went-off-script";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -362,4 +368,12 @@ export const AccomplishmentBadges: IBadgeData[] = [
     SlayerOfMadness,
     Cabalist,
     TenTimesTheVictor,
+
+    //I27 - unsorted
+    ContainmentSpecialist,
+    PatientZero,
+    TarnishedStar,
+    TheGreaterGood,
+    UncivilWar,
+    WentOffScript
 ];
