@@ -30,6 +30,7 @@ import {Grandville} from "./grandville";
 import {HydraMissionMap} from "./hydra-missions";
 import {ImperialCity} from "./imperial-city";
 import {IndependencePort} from "./independence-port";
+import {KallistiWharf} from "./kallisti-wharf";
 import {KingsRow} from "./kings-row";
 import {MayhemAtlasPark} from "./mayhem-atlas-park";
 import {MayhemBrickstown} from "./mayhem-brickstown";
@@ -114,6 +115,7 @@ export const Maps: IGameMapData[] = [
     HydraMissionMap,
     ImperialCity,
     IndependencePort,
+    KallistiWharf,
     KingsRow,
     MayhemAtlasPark,
     MayhemBrickstown,

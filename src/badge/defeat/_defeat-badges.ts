@@ -119,6 +119,13 @@ import {WeedWhacker} from "./weed-whacker";
 import {WelcomeToEarth} from "./welcome-to-earth";
 import {WhipCracker} from "./whip-cracker";
 import {Zookeeper} from "./zookeeper";
+import {AssaultAndBattery} from "./assault-and-battery";
+import {BrassHunter} from "./brass-hunter";
+import {BruteForced} from "./brute-forced";
+import {GreenMachine} from "./green-machine";
+import {RunningOnEmpty} from "./running-on-empty";
+import {WingNuisance} from "./wing-nuisance";
+import {WompWomp} from "./womp-womp";
 
 export const DefeatBadges: IBadgeData[] = [
     SpiderSmasher,
@@ -241,5 +248,11 @@ export const DefeatBadges: IBadgeData[] = [
     MasterOfOlympus,
     MasterAtArms,
     WelcomeToEarth,
-    ]
-;
+    AssaultAndBattery,
+    BrassHunter,
+    BruteForced,
+    GreenMachine,
+    RunningOnEmpty,
+    WingNuisance,
+    WompWomp
+];

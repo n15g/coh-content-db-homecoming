@@ -458,6 +458,7 @@ import {Resilient} from "./resilient";
 import {OutOfHarmsWay} from "./out-of-harms-way";
 import {CityTraveler} from "./city-traveler";
 import {TriedAndTrue} from "./tried-and-true";
+import {OnTheShouldersOfGiants} from "./on-the-shoulders-of-giants";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -506,7 +507,7 @@ export const ExplorationBadges: IBadgeData[] = [
     WeaponInspector, TunnelRat, Triumphant,
 
     //Warburg I25 Page 3
-    Disassembled,  ForciblyEvicted, Herculean, Nuclear, GameOver,
+    Disassembled, ForciblyEvicted, Herculean, Nuclear, GameOver,
 
     //Mayhem Missions
     GlobalGuardian, KingMaker, RoadRaged, SteelWorker, Revolutionary, TalonOfTalos, Brickhouse, Libertarian, GateCloser,
@@ -763,4 +764,6 @@ export const ExplorationBadges: IBadgeData[] = [
     //Croatoa Pt2
     GrimWanderer, Spiritual, Ensorcelled,
 
+    //Kallisti Warf
+    OnTheShouldersOfGiants
 ];
