@@ -9,7 +9,7 @@ export const StillStanding: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `This building was shaken to its foundations, but it is still standing... and so are you.`}],
     mapKey: SirensCall.key,
-    location: [-325.0, 191.0, -105.0],
+    location: [105.0, 190.8, -324.0],
     links: [
         {title: "New PvP Exploration Badge List", href: "https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/"}
     ],

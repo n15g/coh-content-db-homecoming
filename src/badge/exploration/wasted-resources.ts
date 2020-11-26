@@ -9,7 +9,7 @@ export const WastedResources: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `These rigs stand derelict still, waiting for the area to be secured and the great War Walls to be repaired.`}],
     mapKey: SirensCall.key,
-    location: [-324.0, 71.0, 1227.0],
+    location: [-1227.4, 71.0, -324.5],
     links: [
         {title: "New PvP Exploration Badge List", href: "https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/"}
     ],
