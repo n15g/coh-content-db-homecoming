@@ -2,7 +2,7 @@ import {ALIGNMENT_HERO, BadgePartialType, BadgeType, IBadgeData, PlaqueType} fro
 import {SteelCanyon} from "../../map/steel-canyon";
 import {SkywayCity} from "../../map/skyway-city";
 import {Boomtown} from "../../map/boomtown";
-import {Faultline} from "../../map/faultline";
+import {EchoFaultline} from "../../map/echo-faultline";
 
 export const Scholar: IBadgeData = {
     type: BadgeType.HISTORY,
@@ -65,11 +65,11 @@ export const Scholar: IBadgeData = {
         {
             key: "schr-4",
             type: BadgePartialType.PLAQUE,
-            mapKey: Faultline.key,
+            mapKey: EchoFaultline.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [866.0, 31.0, -1673.0],
+            location: [-21.0, -577.0, 359.0],
             inscription: `This plaque commemorates the death of Mina Horne, known to her comrades as the Illustrated Woman. She was killed when the Frost drug cartel, otherwise known as the Family, ambushed the Regulators as revenge for the brief imprisonment of Harry Frost. At her funeral, a shaken Back Alley Brawler said, 'Mina was a person who believed in the human spirit. We can best honor her by living the life she fought for.'`,
-            notes: `This plaque is in [map:${Faultline.key}], 436 yards West of the Overbrook Medical Center.`,
+            notes: `This plaque is in [map:${EchoFaultline.key}], 425 yards south-southeast of the Aftershock neighborhood marker.`,
             vidiotMapKey: "4"
         }
     ]
