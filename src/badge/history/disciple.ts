@@ -2,7 +2,7 @@ import {ALIGNMENT_HERO, BadgePartialType, BadgeType, IBadgeData, PlaqueType} fro
 import {SteelCanyon} from "../../map/steel-canyon";
 import {SkywayCity} from "../../map/skyway-city";
 import {Boomtown} from "../../map/boomtown";
-import {Faultline} from "../../map/faultline";
+import {EchoFaultline} from "../../map/echo-faultline";
 
 export const Disciple: IBadgeData = {
     type: BadgeType.HISTORY,
@@ -75,21 +75,21 @@ export const Disciple: IBadgeData = {
         {
             key: "disc-5",
             type: BadgePartialType.PLAQUE,
-            mapKey: Faultline.key,
+            mapKey: EchoFaultline.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [-245.0, -44.0, -423.0],
+            location: [-75.0, -613.0, -14.0],
             inscription: `In May of 1999, following the destruction of Hero Corps' original Paragon City headquarters, Countess Crey held a conference at this site to announce her sponsorship of the ill-fated company. She joined hands with Rebecca Foss, Hero Corps' founder, and said, 'A new world of heroes is upon us. Crey Technologies will not be left behind.'`,
-            notes: `This plaque is in [map:${Faultline.key}], 180 yds north of the Aftershock marker.`,
+            notes: `This plaque is in [map:${EchoFaultline.key}], 325 yds southwest of the Aftershock marker.`,
             vidiotMapKey: "1"
         },
         {
             key: "disc-6",
             type: BadgePartialType.PLAQUE,
-            mapKey: Faultline.key,
+            mapKey: EchoFaultline.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [631.0, -103.0, 21.0],
+            location: [135.0, -868.0, 1011.0],
             inscription: `This plaque marks the site of the original Hero Corps headquarters, which was destroyed by a gang of mysterious soldiers clad in power armor. Although Hero Corps' employees made it out alive, Hero Corps was devastated by the loss. Its founder, Rebecca Foss, spoke tearfully the next morning on the radio program 'Wake up Paragons.' 'Who could hate us so much?' she asked, 'We only want to help!'`,
-            notes: `This plaque is in [map:${Faultline.key}], 227 yds due west of the Aftershock marker.`,
+            notes: `This plaque is in [map:${EchoFaultline.key}], 227 yds north-northwest of the Reservoir marker.`,
             vidiotMapKey: "2"
         }
     ]
