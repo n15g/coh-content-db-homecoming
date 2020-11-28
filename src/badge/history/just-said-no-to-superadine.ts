@@ -2,7 +2,7 @@ import {ALIGNMENT_HERO, BadgePartialType, BadgeType, IBadgeData, PlaqueType} fro
 import {SteelCanyon} from "../../map/steel-canyon";
 import {SkywayCity} from "../../map/skyway-city";
 import {Boomtown} from "../../map/boomtown";
-import {Faultline} from "../../map/faultline";
+import {EchoFaultline} from "../../map/echo-faultline";
 
 export const JustSaidNoToSuperadine: IBadgeData = {
     type: BadgeType.HISTORY,
@@ -65,11 +65,11 @@ export const JustSaidNoToSuperadine: IBadgeData = {
         {
             key: "just-4",
             type: BadgePartialType.PLAQUE,
-            mapKey: Faultline.key,
-            plaqueType: PlaqueType.WALL_PLAQUE,
-            location: [-920.0, 7.0, -640.0],
+            mapKey: EchoFaultline.key,
+            plaqueType: PlaqueType.MONUMENT,
+            location: [-904.0, 17.0, -1983.0],
             inscription: `In late 1982, the Back Alley Brawler and his Regulators were trying to mop up the last traces of Superadine on the city streets. A tip led them to this building, a front company for the Family. During the raid, Harry Frost, the Family's leader, was accidentally killed, leaving his young son Sebastian to oversee his business. Since then, Superadine sales have inexplicably increased, despite the best efforts of the Brawler and his comrades.`,
-            notes: `This plaque is in [map:${Faultline.key}]. It is wall mounted facing east just north of Yin's Market, 78 yards Southeast of Freight Lift A.`,
+            notes: `This plaque is in [map:${EchoFaultline.key}], 325 yards due east of the Downfall neighborhood marker.`,
             vidiotMapKey: "3"
         }
     ]
