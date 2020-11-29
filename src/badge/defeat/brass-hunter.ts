@@ -13,7 +13,7 @@ export const BrassHunter: IBadgeData = {
     ],
     acquisition: "Defeat 1000 Nemesis Jaegers.",
     links: [
-	    {title: "Brass Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brass_Hunter_Badge"}
+	{title: "Brass Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brass_Hunter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/brass-hunter.png"}
