@@ -124,8 +124,8 @@ import {BrassHunter} from "./brass-hunter";
 import {BruteForced} from "./brute-forced";
 import {GreenMachine} from "./green-machine";
 import {RunningOnEmpty} from "./running-on-empty";
-import {WingNuisance} from "./wing-nuisance";
 import {WompWomp} from "./womp-womp";
+import {FlyingNuisance} from "./flying-nuisance";
 
 export const DefeatBadges: IBadgeData[] = [
     SpiderSmasher,
@@ -253,6 +253,6 @@ export const DefeatBadges: IBadgeData[] = [
     BruteForced,
     GreenMachine,
     RunningOnEmpty,
-    WingNuisance,
+    FlyingNuisance,
     WompWomp
 ];

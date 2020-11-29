@@ -183,8 +183,8 @@ import {ContainmentSpecialist} from "./containment-specialist";
 import {PatientZero} from "./patient-zero";
 import {TarnishedStar} from "./tarnished-star";
 import {TheGreaterGood} from "./the-greater-good";
-import {UncivilWar} from "./uncivil-war";
 import {WentOffScript} from "./went-off-script";
+import {UncivilWarrior} from "./uncivil-warrior";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -374,6 +374,6 @@ export const AccomplishmentBadges: IBadgeData[] = [
     PatientZero,
     TarnishedStar,
     TheGreaterGood,
-    UncivilWar,
+    UncivilWarrior,
     WentOffScript
 ];

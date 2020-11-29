@@ -139,6 +139,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/121 - Siren's Call rotation (i27).\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/122 - New i27 badge basics.\n",
         "1.3.1":
-            "* https://github.com/n15g/coh-content-db-homecoming/issues/123 - [Ensorcelled] badge has wrong Vidiot id.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/123 - [Ensorcelled] badge has wrong Vidiot id.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/125 - More i27 updates.\n",
     };
 }
