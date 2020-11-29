@@ -9,13 +9,13 @@ export const TheGreaterGood: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-		{value: `You chose to sit tight and quarantine yourself, rather than jeopardize Paragon with the diseases from Pathogen's warehouse.`}
-	],
+	{value: `You chose to sit tight and quarantine yourself, rather than jeopardize Paragon with the diseases from Pathogen's warehouse.`}
+    ],
     acquisition: "Quarantine during The Graveyard Shift story arc.",
     links: [
-		{title: "The Greater Good Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Greater_Good_Badge"}
-	],
-	icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-greater-good.png"}
-	],
+	{title: "The Greater Good Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Greater_Good_Badge"}
+    ],
+    icons: [
+	{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-greater-good.png"}
+    ],
 };
