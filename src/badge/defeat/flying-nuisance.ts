@@ -9,13 +9,13 @@ export const FlyingNuisance: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-		{value: `You have dispersed hundreds of scavenging Natterlings and sent them back empty handed to the Factory Cubes.`}
-	],
+	{value: `You have dispersed hundreds of scavenging Natterlings and sent them back empty handed to the Factory Cubes.`}
+    ],
     acquisition: "Defeat 500 Rularuu Natterlings.",
     links: [
-		{title: "Flying Nuisance Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flying_Nuisance_Badge"}
-	],
-	icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/flying-nuisance.png"}
-	],
+	{title: "Flying Nuisance Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flying_Nuisance_Badge"}
+    ],
+    icons: [
+	{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/flying-nuisance.png"}
+    ],
 };
