@@ -11,7 +11,7 @@ export const BruteForced: IBadgeData = {
     badgeText: [
 	{value: `You have brought eternal dishonor to Rularuu's Brutes by besting them in combat and tearing out their gems.`}
     ],
-    acquisition: "Defeat 500 Points worth of Rularuu Brutes (Boss = 5, Others = 1).",
+    acquisition: "Defeat 500 points worth of Rularuu Brutes (Brute and Noble Brute are worth 1 point, Honored Brute are worth 5 points).",
     links: [
 	{title: "Brute Forced Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brute_Forced_Badge"}
     ],
