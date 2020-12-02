@@ -11,7 +11,7 @@ export const Visionary: IBadgeData = {
     badgeText: [
         {value: "You have been successful in a campaign to blind the Overseers in the Shadow Shard."}
     ],
-    acquisition: "Defeat 100 Rularuu Overseers",
+    acquisition: "Defeat 500 points worth of Rularuu Sentries (Watchers and Observers are worth 1 point, Overseers are worth 5 points).",
     links: [
         {title: "Visionary Badge", href: "https://paragonwiki.com/wiki/Visionary_Badge"}
     ],
