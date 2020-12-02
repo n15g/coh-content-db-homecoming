@@ -77,10 +77,10 @@ import {Joyful} from "./joyful";
 import {Miraculous} from "./miraculous";
 import {GiftWhichKeepsGiving} from "./gift-which-keeps-giving";
 import {GiftGetter} from "./gift-getter";
-import {Passport} from "./passport";
 import {ANemesisPlot} from "./a-nemesis-plot";
 import {Arriviste} from "./arriviste";
 import {Resurgent} from "./resurgent";
+import {Snowbound} from "./snowbound";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -163,6 +163,6 @@ export const EventBadges: IBadgeData[] = [
     ThePerfectGrifter,
     ThePerfectThief,
     Roleplayer,
-    Passport,
     ANemesisPlot,
+    Snowbound,
 ];

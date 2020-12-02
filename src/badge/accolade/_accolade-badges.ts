@@ -133,6 +133,7 @@ import {Whistleblower} from "./whistleblower";
 import {WincottsAlly} from "./wincotts-ally";
 import {YesterdaysNews} from "./yesterdays-news";
 import {ZigWarden} from "./zig-warden";
+import {Passport} from "./passport";
 
 export const AccoladeBadges: IBadgeData[] = [
     ThornRobber,
@@ -269,4 +270,5 @@ export const AccoladeBadges: IBadgeData[] = [
     GeasOfTheKindOnes,
     Chronomaster,
     FlamesOfPrometheus,
+    Passport,
 ];

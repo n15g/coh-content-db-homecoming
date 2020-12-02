@@ -1,7 +1,7 @@
 import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const PowerLiberator: IBadgeData = {
-    type: BadgeType.PVP,
+    type: BadgeType.ACCOMPLISHMENT,
     key: "power-liberator",
     setTitleId: 375,
     names: [
@@ -20,6 +20,6 @@ export const PowerLiberator: IBadgeData = {
         {title: "Master Thief Badge", href: "https://paragonwiki.com/wiki/Master_Thief_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/power-liberator.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/power-liberator.png"}
     ],
 };
