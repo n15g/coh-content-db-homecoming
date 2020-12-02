@@ -23,7 +23,6 @@ import {MiddleweightChampion} from "./middleweight-champion";
 import {Oppressor} from "./oppressor";
 import {PentadVictor} from "./pentad-victor";
 import {Poltergeist} from "./poltergeist";
-import {PowerLiberator} from "./power-liberator";
 import {RedeemedBlackguard} from "./redeemed-blackguard";
 import {Reinforcement} from "./reinforcement";
 import {RiskTaker} from "./risk-taker";
@@ -52,7 +51,6 @@ export const PvpBadges: IBadgeData[] = [
     Gunner,
     Disruptor,
     ForwardObserver,
-    PowerLiberator,
     RiskTaker,
     Rocketman,
     Vigilante,

@@ -185,6 +185,7 @@ import {TarnishedStar} from "./tarnished-star";
 import {TheGreaterGood} from "./the-greater-good";
 import {WentOffScript} from "./went-off-script";
 import {UncivilWarrior} from "./uncivil-warrior";
+import {PowerLiberator} from "../accolade/power-liberator";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -375,5 +376,6 @@ export const AccomplishmentBadges: IBadgeData[] = [
     TarnishedStar,
     TheGreaterGood,
     UncivilWarrior,
-    WentOffScript
+    WentOffScript,
+    PowerLiberator
 ];

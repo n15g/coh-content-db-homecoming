@@ -141,5 +141,8 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.3.1":
             "* https://github.com/n15g/coh-content-db-homecoming/issues/123 - [Ensorcelled] badge has wrong Vidiot id.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/125 - More i27 updates.\n",
+        "1.3.2":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/126 - i27 updates part 1.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/127 - i27 updates part 2.\n",
     };
 }
