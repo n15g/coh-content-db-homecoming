@@ -47,7 +47,7 @@ export const Swashbuckler: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: SirensCall.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [-942.0, -157.0, 200.0],
+            location: [-200.0, -157.0, -942.0],
             inscription: `One of the cruelest pirates to roam these seas was Jean L'Olonnais. L'Olonnais hated the Spanish and murdered and tortured them every chance he got, even forcing one prisoner to eat another's heart. The pirate even commanded massive field armies and raided entire towns in the Caribbean and Rogue Isles. Eventually, the black-hearted fiend was captured by cannibals, and met a fitting end.`,
             notes: `Go to the eastern wall of the zone, in the middle of the northern section, right in the space between the Randall's Ruins and the Fossburg neighborhood boundaries. Look just west of the wall for the tallest, brown, thin smokestack that points the straightest upwards. The plaque is located right at the bottom of that smokestack, 255 yards south-south-east of the Fossburg marker.`,
             vidiotMapKey: "1"
