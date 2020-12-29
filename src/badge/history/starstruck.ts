@@ -1,4 +1,4 @@
-import {ALIGNMENT_PRAETORIAN, BadgePartialType, BadgeType, IBadgeData, PlaqueType} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgePartialType, BadgeType, IBadgeData, PlaqueType} from "coh-content-db";
 import {NovaPraetoria} from "../../map/nova-praetoria";
 
 export const Starstruck: IBadgeData = {
@@ -8,7 +8,7 @@ export const Starstruck: IBadgeData = {
     names: [
         {value: "Starstruck"}
     ],
-    alignment: ALIGNMENT_PRAETORIAN,
+    alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: `Seeing the statues of the rulers of Praetoria is awe-inspiring, truly a must for any loyal citizen.`}
     ],

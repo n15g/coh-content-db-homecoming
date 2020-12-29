@@ -1,4 +1,4 @@
-import {ALIGNMENT_PRAETORIAN, BadgePartialType, BadgeType, IBadgeData, PlaqueType} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgePartialType, BadgeType, IBadgeData, PlaqueType} from "coh-content-db";
 import {NovaPraetoria} from "../../map/nova-praetoria";
 import {ImperialCity} from "../../map/imperial-city";
 import {Neutropolis} from "../../map/neutropolis";
@@ -13,7 +13,7 @@ export const Headjuiced: IBadgeData = {
     names: [
         {value: "Headjuiced"}
     ],
-    alignment: ALIGNMENT_PRAETORIAN,
+    alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: `You followed all the fruity crumbs and peeped the 20 lessons brought to you by the letter 'Resistance.' Whether or not you chomp-a-chomp on this tasty knowing is up to you, but now you know it's time for the other half of the battle.`}
     ],
