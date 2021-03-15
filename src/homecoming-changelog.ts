@@ -146,6 +146,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/127 - i27 updates part 2.\n",
         "1.3.3":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/128 - Updated [Headjuiced] and [Starstruck] history badges to Any alignment to reflect fact that they can be earned by any alignment.\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/128 - Updated [Swashbuckler] history badge to correct coordinates of plaque in Siren's Call after that zone was rotated in i27.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/128 - Updated [Swashbuckler] history badge to correct coordinates of plaque in Siren's Call after that zone was rotated in i27.\n",
+        "1.3.4":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/129 - Updated requirements for [Ink Man].\n"
     };
 }
