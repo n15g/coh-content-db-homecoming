@@ -11,7 +11,7 @@ export const InkMan: IBadgeData = {
     badgeText: [
         {value: "You have allowed these Tsoo to fight for you."}
     ],
-    acquisition: "Defeat 125 Blue Ink Men (Tsoo)",
+    acquisition: "Defeat 100 Blue Ink Men (Tsoo) other than level 30-40 Dragon Blue Ink Men",
     links: [
         {title: "Ink Man Badge", href: "https://paragonwiki.com/wiki/Ink_Man_Badge"}
     ],
