@@ -256,6 +256,7 @@ export const AccomplishmentBadges: IBadgeData[] = [
     Survivor,
     Escapist,
     PainKiller,
+    PowerLiberator,
     ColumnBreaker,
     Arbiter,
     WeaponMaster,
@@ -369,13 +370,10 @@ export const AccomplishmentBadges: IBadgeData[] = [
     SlayerOfMadness,
     Cabalist,
     TenTimesTheVictor,
-
-    //I27 - unsorted
     ContainmentSpecialist,
-    PatientZero,
-    TarnishedStar,
     TheGreaterGood,
-    UncivilWarrior,
     WentOffScript,
-    PowerLiberator
+    UncivilWarrior,
+    TarnishedStar,
+    PatientZero
 ];
