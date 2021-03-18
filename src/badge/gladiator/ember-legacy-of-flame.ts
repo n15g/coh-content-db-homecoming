@@ -12,7 +12,8 @@ export const EmberLegacyOfFlame: IBadgeData = {
         {type: Alternate.H, value: "The Legacy Chain respects you."},
         {type: Alternate.V, value: "These do-gooders are trapped in your power."}
     ],
-    acquisition: "Defeat 100 Legacy Chain Minions (Legacy Chain)",
+    acquisition: "Defeat 200 Legacy Chain Minions (Legacy Chain)",
+    notes: "The in-game hint text says 100 minions, but 200 are required.",
     links: [
         {title: "Ember Legacy of Flame Badge", href: "https://paragonwiki.com/wiki/Ember_Legacy_of_Flame_Badge"}
     ],
