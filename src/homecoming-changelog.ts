@@ -150,6 +150,10 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.3.4":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/129 - Updated requirements for [Ink Man].\n",
         "1.3.5":
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/130 - Issue 27 defeat badge order.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/130 - Issue 27 defeat badge order.\n",
+        "1.3.6":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/131 - Event badge order update for i27.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/132 - Accomplishment badge order update for i27.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/133 - Ember Legacy of Flame is 200 minions.\n"
     };
 }
