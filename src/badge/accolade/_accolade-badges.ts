@@ -136,6 +136,7 @@ import {ZigWarden} from "./zig-warden";
 import {Passport} from "./passport";
 
 export const AccoladeBadges: IBadgeData[] = [
+    Passport,
     ThornRobber,
     ThornThief,
     ThornUsurper,
@@ -270,5 +271,4 @@ export const AccoladeBadges: IBadgeData[] = [
     GeasOfTheKindOnes,
     Chronomaster,
     FlamesOfPrometheus,
-    Passport,
 ];
