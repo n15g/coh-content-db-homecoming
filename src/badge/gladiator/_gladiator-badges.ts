@@ -76,8 +76,8 @@ import {WolfSpiderEnforcer} from "./wolf-spider-enforcer";
 import {Juicer} from "./juicer";
 
 export const GladiatorBadges: IBadgeData[] = [
-    GrandLanista,
     Lanista,
+    GrandLanista,
     Abomination,
     Anathema,
     PariahAnchorite,
