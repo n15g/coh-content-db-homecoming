@@ -154,6 +154,10 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.3.6":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/131 - Event badge order update for i27.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/132 - Accomplishment badge order update for i27.\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/133 - Ember Legacy of Flame is 200 minions.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/133 - Ember Legacy of Flame is 200 minions.\n",
+        "1.3.7":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/134 - Issue 27 moved Passport from the bottom of the accolade list to the top.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/135 - [Lanista], [Grand Lanista] list order.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/136 - Issue 27 pvp badge list order.\n"
     };
 }
