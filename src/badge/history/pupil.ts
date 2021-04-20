@@ -27,7 +27,7 @@ export const Pupil: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: AtlasPark.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [511.0, 5.0, -1151.0],
+            location: [495.2, 4.3, -1132.9],
             inscription: `On this spot the titanic hero Atlas was posthumously awarded a key to the city for his many valiant efforts on behalf of its citizens.`,
             notes: `This plaque is in [map:${AtlasPark.key}], at the northwest corner of Atlas Plaza and just south of the Paragon City Monorail.`,
             vidiotMapKey: "1"
