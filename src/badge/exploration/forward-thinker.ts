@@ -8,7 +8,7 @@ export const ForwardThinker: IBadgeData = {
     names: [{value: "Forward Thinker"}],
     alignment: ALIGNMENT_HERO,
     mapKey: Brickstown.key,
-    location: [395.0, 32.0, -1344.0],
+    location: [254.0, 31.8, -1343.5],
     badgeText: [{
         value: "The Mashu bridge was built in Brickstown long before construction on the Zig began." +
             " Traffic was heavy in Brickstown, causing a need for this bridge to be constructed." +
