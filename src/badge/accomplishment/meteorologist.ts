@@ -8,7 +8,7 @@ export const Meteorologist: IBadgeData = {
         {value: "Meteorologist"}
     ],
     alignment: ALIGNMENT_HERO,
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_stature_13.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/meteorologist.png"}],
     badgeText: [
         {value: "You have crushed Nemesis' weather controlling equipment."}
     ],
