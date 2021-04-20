@@ -16,6 +16,6 @@ export const MaskMaker: IBadgeData = {
         {title: "Mask Maker Badge", href: "https://paragonwiki.com/wiki/Mask_Maker_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-1.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-2.png"}
     ],
 };
