@@ -27,7 +27,7 @@ export const Intellectual: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: AtlasPark.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [2547.0, 5.0, -1182.0],
+            location: [2380.5, 4.1, -1254.0],
             inscription: `The warehouse you see before you was instrumental in the Lost's plan to psychically dominate the city. After the Grimm Fairy apprehended the group's ringleader, Ishmael, she discovered that the Lost had kept many citizens imprisoned here for months in order to practice their mental techniques on live subjects. Horrified, the Grimm Fairy appealed for help to the Freedom Phalanx, and Positron dispatched a Task Force to rescue the imprisoned civilians.`,
             notes: `This plaque is in [map:${AtlasPark.key}], 72 yards north and slightly west of the Argosy Industrial neighborhood marker.`,
             vidiotMapKey: "5"
