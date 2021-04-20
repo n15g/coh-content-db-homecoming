@@ -8,7 +8,7 @@ export const VanguardOperative: IBadgeData = {
     names: [{value: "Vanguard Operative"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,
-    location: [388.0, -1188.0, -2418.0],
+    location: [328.0, -1188.2, -2444.5],
     badgeText: [{value: "You have entered the Vanguard base where all your efforts will now go towards fighting the Rikti. The Vanguard and your natural enemies are now your allies."}],
     notes: "The Vanguard Operative Badge is located in Vanguard Base in the [map:${RiktiWarZone.key}].\n" +
         "\n" +

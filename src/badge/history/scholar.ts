@@ -57,7 +57,7 @@ export const Scholar: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: Boomtown.key,
             plaqueType: PlaqueType.WALL_PLAQUE,
-            location: [-1668.0, 64.0, 4522.0],
+            location: [-1667.1, 5.6, 4522.5],
             inscription: `It was here that the Back Alley Brawler arrested Harry Frost for the second time. Frost was peddling a strange substance to a group of street thugs. After a lengthy court battle, the charges stuck. It seemed that the War on Drugs had achieved a critical victory.`,
             notes: `This plaque is in [map:${Boomtown.key}], 195 yards due east of the The Fuse neighborhood marker.`,
             vidiotMapKey: "5"

@@ -8,7 +8,7 @@ export const Frontline: IBadgeData = {
         {value: "Frontline"}
     ],
     alignment: ALIGNMENT_HERO,
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_stature_11.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/frontline.png"}],
     badgeText: [
         {value: "You stopped a battle between the Circle of Thorns and the Oranbegans from another dimension."}
     ],

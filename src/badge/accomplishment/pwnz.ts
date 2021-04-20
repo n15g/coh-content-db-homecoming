@@ -8,7 +8,7 @@ export const Pwnz: IBadgeData = {
         {value: "Pwnz"}
     ],
     alignment: ALIGNMENT_HERO,
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_stature_05.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/pwnz.png"}],
     badgeText: [
         {value: "You have arrested one of the higher ranking members of the Freakshow."}
     ],

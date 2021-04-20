@@ -11,7 +11,7 @@ export const Freedom: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     mapKey: AtlasPark.key,
-    location: [128.0, 122.0, -641.0],
+    location: [126.1, 170.6, -652.4],
     badgeText: [{
         value: "This flag was crafted from Statesman's cape and was donated to Paragon City to replace the flag destroyed by the invading Rikti." +
             " It now flies over Paragon City Hall to honor the sacrifice made by Hero 1 and the rest of Omega Team."

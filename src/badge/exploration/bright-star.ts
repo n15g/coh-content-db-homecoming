@@ -8,7 +8,7 @@ export const BrightStar: IBadgeData = {
     names: [{value: "Bright Star"}],
     alignment: ALIGNMENT_HERO,
     mapKey: SteelCanyon.key,
-    location: [-2987.0, -36.0, 1820.0],
+    location: [-3001.3, -26.2, 1830.0],
     badgeText: [{
         value: "The first Luminary used her light-based powers to disrupt the formation of a large portal to the Rikti homeworld on this spot."
     }],

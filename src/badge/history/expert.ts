@@ -26,7 +26,7 @@ export const Expert: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: AtlasPark.key,
             plaqueType: PlaqueType.WALL_PLAQUE,
-            location: [631.0, 8.0, 961.0],
+            location: [634.0, 6.4, 826.4],
             inscription: `This statue honors Georgia Reynolds, one of the first heroes to publicly challenge the Might for Right Act. Although she fought the conscription of heroes under this act, she later joined the armed forces and performed many services for her country under the code name Nimbus. She is best remembered for her service during the Rikti War, when she and the rest of Alpha Team assaulted the Rikti's entrenched positions, buying Omega Team time to sneak into the Rikti barracks and enter the portal to the Rikti homeworld.`,
             notes: `This plaque is in [map:${AtlasPark.key}], beneath the statue 182 yards west of the Sewer Network entrance or 166 yards east of the Skyway City entrance.`,
             vidiotMapKey: "4"

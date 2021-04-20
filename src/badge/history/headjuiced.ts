@@ -79,7 +79,7 @@ export const Headjuiced: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: ImperialCity.key,
             plaqueType: PlaqueType.WALL_PLAQUE,
-            location: [-2100.0, -36.0, -1655.0],
+            location: [-2109.7, -28.3, -1656.1],
             inscription: `This is the Cage and You're the Guinea Pig - Praetor Berry is the best propeller-head Praetoria has ever seen. And you're the best test subject he's ever seen, too. Welcome to your new life as a technologically assimilated lab mouse, chomper!`,
             notes: `Located 38 yards N of Underground Access C.`,
             vidiotMapKey: "1"

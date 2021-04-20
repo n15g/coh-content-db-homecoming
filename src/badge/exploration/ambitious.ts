@@ -8,7 +8,7 @@ export const Ambitious: IBadgeData = {
     names: [{value: "Ambitious"}],
     alignment: ALIGNMENT_ANY,
     mapKey: NovaPraetoria.key,
-    location: [-5398.0, 190.0, -255.0],
+    location: [-5420.9, 1088.6, -255.3],
     badgeText: [{
         value: "Even in these strange and uncertain times there are those who still reach for the sky."
     }],

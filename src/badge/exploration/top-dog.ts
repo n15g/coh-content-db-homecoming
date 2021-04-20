@@ -8,7 +8,7 @@ export const TopDog: IBadgeData = {
     names: [{value: "Top Dog"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AtlasPark.key,
-    location: [134.0, 314.0, -340.0],
+    location: [131.0, 320.0, -319.5],
     badgeText: [{
         value: "The top of Atlas' statue is the first place many flying heroes will go."
     }],
