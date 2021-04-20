@@ -8,7 +8,7 @@ export const Stonekeeper: IBadgeData = {
     names: [{value: "Stonekeeper"}],
     alignment: ALIGNMENT_VILLAIN,
     mapKey: StMartial.key,
-    location: [-2560.0, 116.0, 3009.0],
+    location: [-2566.0, 119.8, 3000.5],
     badgeText: [{
         value: `What strange purpose do these glyphs serve?`
     }],
