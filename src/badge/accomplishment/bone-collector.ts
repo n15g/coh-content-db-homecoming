@@ -16,6 +16,6 @@ export const BoneCollector: IBadgeData = {
         {title: "Bone Collector Badge", href: "https://paragonwiki.com/wiki/Bone_Collector_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-2.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-1.png"}
     ],
 };
