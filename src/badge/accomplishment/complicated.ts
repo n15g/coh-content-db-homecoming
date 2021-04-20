@@ -1,6 +1,6 @@
 import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
 
-export const Negotiator: IBadgeData = {
+export const Complicated: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
     key: "complicated",
     setTitleId: 2459,

@@ -158,6 +158,9 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.3.7":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/134 - Issue 27 moved Passport from the bottom of the accolade list to the top.\n" +
             "* https://github.com/n15g/coh-content-db-homecoming/pull/135 - [Lanista], [Grand Lanista] list order.\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/136 - Issue 27 pvp badge list order.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/136 - Issue 27 pvp badge list order.\n",
+        "1.3.8":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/137 - Issue 27 page 2 update 1.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/138 - Issue 27 page 2 update 2.\n",
     };
 }
