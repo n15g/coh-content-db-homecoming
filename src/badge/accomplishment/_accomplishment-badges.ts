@@ -186,6 +186,7 @@ import {TheGreaterGood} from "./the-greater-good";
 import {WentOffScript} from "./went-off-script";
 import {UncivilWarrior} from "./uncivil-warrior";
 import {PowerLiberator} from "../accolade/power-liberator";
+import {Complicated} from "./complicated";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -194,10 +195,10 @@ export const AccomplishmentBadges: IBadgeData[] = [
     PirateHunter,
     Leviathan,
     CrystalKeeper,
-    PlagueCarrier,
-    MaskMaker,
     StoneCold,
     BoneCollector,
+    PlagueCarrier,
+    MaskMaker,
     PenitentOfVice,
     Seaweed,
     Strikebreaker,
@@ -314,6 +315,7 @@ export const AccomplishmentBadges: IBadgeData[] = [
     DarkHeart,
     BlackenedSoul,
     FaceOfEvil,
+    Complicated,
     HydraStomper,
     GerminatorTerminator,
     SpinDoctor,
