@@ -25,7 +25,7 @@ export const Alumnus: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: AtlasPark.key,
             plaqueType: PlaqueType.WALL_PLAQUE,
-            location: [-640.0, 18.0, 943.0],
+            location: [-640.0, 19.1, 1021.4],
             inscription: `On October 31, 2004, a creature known as Eochai was defeated on this spot. Although the creature and its minions were thought to be vanquished by Paragon City's heroes, it appears they have simply relocated. The northern village of Salamanca is beset by the creatures and is in grave need of heroic assistance.`,
             notes: `This plaque is in [map:${AtlasPark.key}], 326 yards due east of the entrance to the Sewer Network.`,
             vidiotMapKey: "7"
