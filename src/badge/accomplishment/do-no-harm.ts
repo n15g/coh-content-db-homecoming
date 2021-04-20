@@ -10,7 +10,7 @@ export const DoNoHarm: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [{value: `You have delivered medical supplies to the Rikti.`}],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_stature_11.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/do_no_harm.png"}],
     acquisition: `Complete the task set 'Hippocratic Oath'.`,
     notes: `The task set 'Hippocratic Oath' begins with the 'Rescue the doctors from the Rikti' mission from level 35-39 contact Steven Sheridan in [map:${Brickstown.key}]. It is also available via Ouroboros, level 35-39, mission 0.35 'Hippocratic Oath'.`,
     links: [
