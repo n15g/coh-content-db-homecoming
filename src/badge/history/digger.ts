@@ -25,7 +25,7 @@ export const Digger: IBadgeData = {
             type: BadgePartialType.PLAQUE,
             mapKey: AtlasPark.key,
             plaqueType: PlaqueType.MONUMENT,
-            location: [1155.0, 47.0, -776.0],
+            location: [1155.3, 46.1, -812.1],
             inscription: `On this site, the Trolls Task Force was formed in response to the devastating event known as the Hollowing. Police Chief James Wilson said 'The police department will not stop until the residents of Eastgate can go home again.'`,
             notes: `This plaque is in [map:${AtlasPark.key}], 7 feet north of the Prometheus Park neighborhood marker, on the overpass overlooking a lake. It is also 112 feet west and slightly north of the Fort Trident marker.`,
             vidiotMapKey: "6"
