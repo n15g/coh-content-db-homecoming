@@ -81,6 +81,7 @@ import {ANemesisPlot} from "./a-nemesis-plot";
 import {Arriviste} from "./arriviste";
 import {Resurgent} from "./resurgent";
 import {Snowbound} from "./snowbound";
+import {Legendary} from "./legendary";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -99,6 +100,7 @@ export const EventBadges: IBadgeData[] = [
     Everlasting,
     Excelsior,
     Resurgent,
+    Legendary,
     Pursuer,
     HallowSpirit,
     IronWarrior,
