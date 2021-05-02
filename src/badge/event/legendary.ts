@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const Celebrant: IBadgeData = {
+export const Legendary: IBadgeData = {
     type: BadgeType.EVENT,
     key: "legendary",
     setTitleId: 2460,
