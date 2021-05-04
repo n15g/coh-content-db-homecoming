@@ -8,7 +8,7 @@ export const LivingDark: IBadgeData = {
     names: [{value: "Living Dark"}],
     alignment: ALIGNMENT_HERO,
     mapKey: AbandonedSewerNetwork.key,
-    location: [576.0, -576.0, -1536.0],
+    location: [-896.0, -890.3, -1018.0],
     badgeText: [{
         value: `Far away from the light of civilization and the life of normal people, darkness can take on a life of its own.
 It flows into every corner, irresistible and tireless, as silent as death. It is the natural state of things down here where your presence is a violation.
@@ -17,10 +17,9 @@ to it as so many others down here have.`
     }],
     notes: `Located in [map:abandoned-sewer-network]
 
-On the map, the Living Dark badge is roughly equidistant from the Steel Canyon Sector, Boomtown Sector and Underworld markers.
-It is in the middle of the junction connecting those three neighborhoods.`,
+The Living Dark badge is in Dr. Vahilok's lab in the Underworld area. It is toward the back of the room, on a raised area of metal grating.`,
     links: [
-        {title: "Living Dark Badge", href: "https://paragonwiki.com/wiki/Living_Dark_Badge"}
+        {title: "Living Dark Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Living_Dark_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"
