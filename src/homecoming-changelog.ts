@@ -164,6 +164,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/138 - Issue 27 page 2 update 2.\n",
         "1.3.9":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/139 - Added [Legendary] badge.\n" +
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/140 - [Resurgent] acquisition notes updated.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/140 - [Resurgent] acquisition notes updated.\n",
+        "1.3.10":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/141 - Update [Living-dark] badge.\n",
     };
 }
