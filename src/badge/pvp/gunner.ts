@@ -13,7 +13,7 @@ export const Gunner: IBadgeData = {
     ],
     acquisition: "Deactivate a firebase in Bloody Bay",
     links: [
-        {title: "Gunner Badge", href: "https://paragonwiki.com/wiki/Gunner_Badge"}
+        {title: "Gunner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gunner_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/gunner.png"}

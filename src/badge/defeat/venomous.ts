@@ -13,7 +13,7 @@ export const Venomous: IBadgeData = {
     ],
     acquisition: "Defeat 50 Arachnos Toxic Tarantulas",
     links: [
-        {title: "Venomous Badge", href: "https://paragonwiki.com/wiki/Venomous_Badge"}
+        {title: "Venomous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Venomous_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/arachnos.png"}

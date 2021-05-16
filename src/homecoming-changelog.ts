@@ -168,6 +168,7 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.3.10":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/141 - Update [Living-dark] badge.\n",
         "1.3.11":
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/142 - Update [Battle-Hardened] badge.\n",
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/142 - Update [Battle-Hardened] badge.\n" +
+            "* https://github.com/n15g/coh-content-db-homecoming/issues/113 - Switch links from ParagonWiki to Homecoming Wiki.\n",
     };
 }

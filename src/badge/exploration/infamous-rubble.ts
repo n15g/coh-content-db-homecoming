@@ -19,7 +19,7 @@ It is on top of the large pile of rubble 217 yards east of the neighborhood mark
 
 Note: The texture of the rubble can make it hard to see the badge marker.`,
     links: [
-        {title: "Infamous Rubble Badge", href: "https://paragonwiki.com/wiki/Infamous_Rubble_Badge"}
+        {title: "Infamous Rubble Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Infamous_Rubble_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "7"

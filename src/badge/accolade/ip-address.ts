@@ -22,19 +22,19 @@ export const IPAddress: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${IndependencePort.key}]`,
     links: [
-        {title: "IP Address Badge", href: "https://paragonwiki.com/wiki/IP_Address_Badge"}
+        {title: "IP Address Badge", href: "https://hcwiki.cityofheroes.dev/wiki/IP_Address_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: CreyHavoc.key, type: BadgePartialType.BADGE, badgeKey: CreyHavoc.key},
-            {key: Valorous.key, type: BadgePartialType.BADGE, badgeKey: Valorous.key},
-            {key: Vigorous.key, type: BadgePartialType.BADGE, badgeKey: Vigorous.key},
-            {key: AirLifter.key, type: BadgePartialType.BADGE, badgeKey: AirLifter.key},
-            {key: DeadEnd.key, type: BadgePartialType.BADGE, badgeKey: DeadEnd.key},
-            {key: FamilyPartier.key, type: BadgePartialType.BADGE, badgeKey: FamilyPartier.key},
-            {key: Connector.key, type: BadgePartialType.BADGE, badgeKey: Connector.key},
-            {key: Unlucky.key, type: BadgePartialType.BADGE, badgeKey: Unlucky.key}
+        {key: CreyHavoc.key, type: BadgePartialType.BADGE, badgeKey: CreyHavoc.key},
+        {key: Valorous.key, type: BadgePartialType.BADGE, badgeKey: Valorous.key},
+        {key: Vigorous.key, type: BadgePartialType.BADGE, badgeKey: Vigorous.key},
+        {key: AirLifter.key, type: BadgePartialType.BADGE, badgeKey: AirLifter.key},
+        {key: DeadEnd.key, type: BadgePartialType.BADGE, badgeKey: DeadEnd.key},
+        {key: FamilyPartier.key, type: BadgePartialType.BADGE, badgeKey: FamilyPartier.key},
+        {key: Connector.key, type: BadgePartialType.BADGE, badgeKey: Connector.key},
+        {key: Unlucky.key, type: BadgePartialType.BADGE, badgeKey: Unlucky.key}
     ]
 };

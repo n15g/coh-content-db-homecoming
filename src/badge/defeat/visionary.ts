@@ -13,7 +13,7 @@ export const Visionary: IBadgeData = {
     ],
     acquisition: "Defeat 500 points worth of Rularuu Sentries (Watchers and Observers are worth 1 point, Overseers are worth 5 points).",
     links: [
-        {title: "Visionary Badge", href: "https://paragonwiki.com/wiki/Visionary_Badge"}
+        {title: "Visionary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Visionary_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/visionary.png"}

@@ -20,13 +20,13 @@ export const Cornerstone: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Cornerstone Badge", href: "https://paragonwiki.com/wiki/Cornerstone_Badge"},
-        {title: "Weak Point Badge", href: "https://paragonwiki.com/wiki/Weak_Point_Badge"},
+        {title: "Cornerstone Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cornerstone_Badge"},
+        {title: "Weak Point Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Weak_Point_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+    ],
     vidiotMapKey: "1"
 };

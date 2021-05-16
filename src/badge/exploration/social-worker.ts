@@ -19,8 +19,8 @@ export const SocialWorker: IBadgeData = {
 
 It is at the entrance of the underground slums 185 yards northeast of the neighborhood marker.`,
     links: [
-        {title: "Social Worker Badge", href: "https://paragonwiki.com/wiki/Social_Worker_Badge"},
-        {title: "Slumlord Badge", href: "https://paragonwiki.com/wiki/Slumlord_Badge"}
+        {title: "Social Worker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Social_Worker_Badge"},
+        {title: "Slumlord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Slumlord_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"

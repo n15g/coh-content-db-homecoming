@@ -13,7 +13,7 @@ export const Unleasher: IBadgeData = {
     ],
     acquisition: "Defeat the Kraken, a monster that spawns in Perez Park",
     links: [
-        {title: "Unleasher Badge", href: "https://paragonwiki.com/wiki/Unleasher_Badge"}
+        {title: "Unleasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unleasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/unleasher.png"}

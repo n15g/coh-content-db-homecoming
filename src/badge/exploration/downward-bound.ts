@@ -18,7 +18,7 @@ You are determined to keep those dangers contained lest they stain Paragon City'
     }],
     notes: `Located in [map:${SewerNetwork.key}] 272 yards southwest of the [map:${AtlasPark.key}] Sector marker, in the middle of the metal walkway.`,
     links: [
-        {title: "Downward Bound Badge", href: "https://paragonwiki.com/wiki/Downward_Bound_Badge"}
+        {title: "Downward Bound Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Downward_Bound_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

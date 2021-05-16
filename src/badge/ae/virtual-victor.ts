@@ -11,7 +11,7 @@ export const VirtualVictor: IBadgeData = {
     badgeText: [{value: "You've defeated your first enemy in Test Mode earning yourself the Virtual Victor badge."}],
     acquisition: "Defeat one enemy while testing your Architect missions.",
     links: [
-        {title: "Virtual Victor Badge", href: "https://paragonwiki.com/wiki/Virtual_Victor_Badge"}
+        {title: "Virtual Victor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Virtual_Victor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/virtual-victor.png"}]
 };

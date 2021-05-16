@@ -18,7 +18,7 @@ export const LiquidMemory: IBadgeData = {
     }],
     notes: "Located in [map:cascade-archipelago] 492 yards west of the Crimson Falls marker, at the base of the waterfall.",
     links: [
-        {title: "Liquid Memory Badge", href: "https://paragonwiki.com/wiki/Liquid_Memory_Badge"}
+        {title: "Liquid Memory Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Liquid_Memory_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

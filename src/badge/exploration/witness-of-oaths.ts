@@ -17,7 +17,7 @@ Screaming and pleading, many have been dragged into the ruined city by the Talon
 
 Note: There are two identical statues a few hundred yards apart. One faces southeast and is closer to the eastern wall; the badge is on the one further west, facing southwest.`,
     links: [
-        {title: "Witness of Oaths Badge", href: "https://paragonwiki.com/wiki/Witness_of_Oaths_Badge"}
+        {title: "Witness of Oaths Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Witness_of_Oaths_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

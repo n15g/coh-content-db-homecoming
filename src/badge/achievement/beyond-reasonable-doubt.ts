@@ -14,6 +14,6 @@ export const BeyondReasonableDoubt: IBadgeData = {
     ],
     acquisition: "Spare Rider in the story arc `Dirty Work` from Shauna Braun (Level 25-29, Arc 26.01 in Ouro, Vigilante)",
     links: [
-        {title: "Beyond Reasonable Doubt Badge", href: "https://paragonwiki.com/wiki/Beyond_Reasonable_Doubt_Badge"}
+        {title: "Beyond Reasonable Doubt Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Beyond_Reasonable_Doubt_Badge"}
     ],
 };

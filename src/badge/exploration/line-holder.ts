@@ -17,7 +17,7 @@ Arachnoids foolish enough to attempt an attack from above ground never succeed, 
 
 It is at the gate between the North and East Wards, 64 yards ENE of the East Ward 2 Lift marker.`,
     links: [
-        {title: "Line Holder Badge", href: "https://paragonwiki.com/wiki/Line_Holder_Badge"}
+        {title: "Line Holder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Line_Holder_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "7"

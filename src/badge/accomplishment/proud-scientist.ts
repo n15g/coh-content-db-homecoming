@@ -13,7 +13,7 @@ export const ProudScientist: IBadgeData = {
     ],
     acquisition: "Complete the personal story from Anti-Matter",
     links: [
-        {title: "Proud Scientist Badge", href: "https://paragonwiki.com/wiki/Proud_Scientist_Badge"}
+        {title: "Proud Scientist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Proud_Scientist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/proud-scientist.png"}

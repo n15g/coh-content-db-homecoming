@@ -15,7 +15,7 @@ Even after its fall, Mot's shadow has terrorized the dreams of mankind through a
     }],
     notes: `Located in [map:${DarkAstoria.key}], in the Dido's View neighborhood, 324 yards SE of the Dido's View marker.`,
     links: [
-        {title: "Of Things Unclean Badge", href: "https://paragonwiki.com/wiki/Of_Things_Unclean_Badge"}
+        {title: "Of Things Unclean Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Of_Things_Unclean_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

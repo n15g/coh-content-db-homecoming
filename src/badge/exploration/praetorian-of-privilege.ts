@@ -14,7 +14,7 @@ export const PraetorianOfPrivilege: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] 151 yards NNW of the Four Gables marker.",
     links: [
-        {title: "Praetorian of Privilege Badge", href: "https://paragonwiki.com/wiki/Praetorian_of_Privilege_Badge"}
+        {title: "Praetorian of Privilege Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetorian_of_Privilege_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

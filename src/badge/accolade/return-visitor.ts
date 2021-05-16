@@ -24,8 +24,8 @@ export const ReturnVisitor: IBadgeData = {
     ],
     notes: `Awards +5% Max Health`,
     links: [
-        {title: "Return Visitor Badge", href: "https://paragonwiki.com/wiki/Return_Visitor_Badge"},
-        {title: "Invader Badge", href: "https://paragonwiki.com/wiki/Invader_Badge"}
+        {title: "Return Visitor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Return_Visitor_Badge"},
+        {title: "Invader Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Invader_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/return-visitor.png"}

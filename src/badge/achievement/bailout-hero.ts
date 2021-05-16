@@ -13,7 +13,7 @@ export const BailoutHero: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png"}],
     acquisition: "Awarded after completing the Dream Doctor mission to complete the Dilemma Diabolique trial.",
     links: [
-        {title: "Bailout Hero Badge", href: "https://paragonwiki.com/wiki/Bailout_Hero_Badge"},
-        {title: "Bailout Villain Badge", href: "https://paragonwiki.com/wiki/Bailout_Villain_Badge"}
+        {title: "Bailout Hero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bailout_Hero_Badge"},
+        {title: "Bailout Villain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bailout_Villain_Badge"}
     ],
 };

@@ -13,7 +13,7 @@ export const Balancer: IBadgeData = {
     ],
     acquisition: "Complete 25 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Balancer Badge", href: "https://paragonwiki.com/wiki/Balancer_Badge"}
+        {title: "Balancer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Balancer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/balancer.png"}]
 };

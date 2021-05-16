@@ -18,7 +18,7 @@ export const SallySightseer: IBadgeData = {
         "\n" +
         "It is under the easternmost umbrella on the beach, 246 yards northeast of the neighborhood marker.",
     links: [
-        {title: "Sally Sightseer Badge", href: "https://paragonwiki.com/wiki/Sally_Sightseer_Badge"}
+        {title: "Sally Sightseer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sally_Sightseer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

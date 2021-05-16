@@ -8,7 +8,7 @@ export const Armorer: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Defense Buff, Resist Damage, Intangible."}],
     links: [
-        {title: "Armorer Badge", href: "https://paragonwiki.com/wiki/Armorer_Badge"}
+        {title: "Armorer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Armorer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

@@ -13,7 +13,7 @@ export const Incarnate: IBadgeData = {
     ],
     acquisition: "Craft a very rare Incarnate Ability",
     links: [
-        {title: "Incarnate Badge", href: "https://paragonwiki.com/wiki/Incarnate_Badge"}
+        {title: "Incarnate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Incarnate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/incarnate.png"}

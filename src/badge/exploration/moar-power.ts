@@ -16,7 +16,7 @@ export const MoarPower: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] on the top platform of the westernmost reactor 112 yards NW of the Keyes Island marker.",
     links: [
-        {title: "Moar Power Badge", href: "https://paragonwiki.com/wiki/Moar_Power_Badge"}
+        {title: "Moar Power Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Moar_Power_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

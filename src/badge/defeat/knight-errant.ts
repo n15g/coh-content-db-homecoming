@@ -14,8 +14,8 @@ export const KnightErrant: IBadgeData = {
     ],
     acquisition: "Stop a Paladin Construction",
     links: [
-        {title: "Knight Errant Badge", href: "https://paragonwiki.com/wiki/Knight_Errant_Badge"},
-        {title: "Black Knight Badge", href: "https://paragonwiki.com/wiki/Black_Knight_Badge"}
+        {title: "Knight Errant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knight_Errant_Badge"},
+        {title: "Black Knight Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Black_Knight_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/knight-errant.png"}

@@ -22,19 +22,19 @@ export const KnowsNovasNooks: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${UndergroundNova.key}]`,
     links: [
-        {title: "Knows Nova's Nooks Badge", href: "https://paragonwiki.com/wiki/Knows_Nova%27s_Nooks_Badge"}
+        {title: "Knows Nova's Nooks Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_Nova%27s_Nooks_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}
     ],
     partials: [
-            {key: ClockworkMechanic.key, type: BadgePartialType.BADGE, badgeKey: ClockworkMechanic.key},
-            {key: Disappeared.key, type: BadgePartialType.BADGE, badgeKey: Disappeared.key},
-            {key: FerrymanOfTheDamned.key, type: BadgePartialType.BADGE, badgeKey: FerrymanOfTheDamned.key},
-            {key: Morbid.key, type: BadgePartialType.BADGE, badgeKey: Morbid.key},
-            {key: SecretPrisoner.key, type: BadgePartialType.BADGE, badgeKey: SecretPrisoner.key},
-            {key: Trainspotter.key, type: BadgePartialType.BADGE, badgeKey: Trainspotter.key},
-            {key: UrbanSpelunker.key, type: BadgePartialType.BADGE, badgeKey: UrbanSpelunker.key},
-            {key: WarriorAtTheGate.key, type: BadgePartialType.BADGE, badgeKey: WarriorAtTheGate.key}
+        {key: ClockworkMechanic.key, type: BadgePartialType.BADGE, badgeKey: ClockworkMechanic.key},
+        {key: Disappeared.key, type: BadgePartialType.BADGE, badgeKey: Disappeared.key},
+        {key: FerrymanOfTheDamned.key, type: BadgePartialType.BADGE, badgeKey: FerrymanOfTheDamned.key},
+        {key: Morbid.key, type: BadgePartialType.BADGE, badgeKey: Morbid.key},
+        {key: SecretPrisoner.key, type: BadgePartialType.BADGE, badgeKey: SecretPrisoner.key},
+        {key: Trainspotter.key, type: BadgePartialType.BADGE, badgeKey: Trainspotter.key},
+        {key: UrbanSpelunker.key, type: BadgePartialType.BADGE, badgeKey: UrbanSpelunker.key},
+        {key: WarriorAtTheGate.key, type: BadgePartialType.BADGE, badgeKey: WarriorAtTheGate.key}
     ]
 };

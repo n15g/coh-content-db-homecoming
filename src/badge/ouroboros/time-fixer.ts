@@ -13,7 +13,7 @@ export const TimeFixer: IBadgeData = {
     ],
     acquisition: "Complete 45 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Time Fixer Badge", href: "https://paragonwiki.com/wiki/Time_Fixer_Badge"}
+        {title: "Time Fixer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Fixer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/time-fixer.png"}]
 };

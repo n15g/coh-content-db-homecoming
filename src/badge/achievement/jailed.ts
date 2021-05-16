@@ -12,14 +12,16 @@ export const Jailed: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: "Enemies no longer regard you as a threat."},
-        {type: Alternate.P, value: "You've spent so much time held, slept, immobilized, encased in goo, et cetera, that it now " +
-        "seems to take you two seconds to do something it takes others only one. Perhaps you should see " +
-        "someone about it?"}
+        {
+            type: Alternate.P, value: "You've spent so much time held, slept, immobilized, encased in goo, et cetera, that it now " +
+                "seems to take you two seconds to do something it takes others only one. Perhaps you should see " +
+                "someone about it?"
+        }
     ],
     acquisition: "Be held for 12 hours",
     links: [
-        {title: "Jailed Badge", href: "https://paragonwiki.com/wiki/Jailed_Badge"},
-        {title: "Lagged Badge", href: "https://paragonwiki.com/wiki/Lagged_Badge"}
+        {title: "Jailed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jailed_Badge"},
+        {title: "Lagged Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lagged_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hold-h.png"},

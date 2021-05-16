@@ -12,6 +12,6 @@ export const Obliterator: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_resist.png"}],
     acquisition: "Complete every story arc in the Praetorian Crusader storyline to earn this badge.",
     links: [
-        {title: "Obliterator Badge", href: "https://paragonwiki.com/wiki/Obliterator_Badge"}
+        {title: "Obliterator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Obliterator_Badge"}
     ],
 };

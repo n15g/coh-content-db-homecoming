@@ -9,12 +9,14 @@ export const PreservationSpecialist: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "The Demolition Charges sent by the IDF to take out the Underground didn't pose a threat to " +
-        "your league, and you were able to take all of them out without a single detonation."}
+        {
+            value: "The Demolition Charges sent by the IDF to take out the Underground didn't pose a threat to " +
+                "your league, and you were able to take all of them out without a single detonation."
+        }
     ],
     acquisition: "Don't let any of the IDF bombs detonate in The Underground Trial",
     links: [
-        {title: "Preservation Specialist Badge", href: "https://paragonwiki.com/wiki/Preservation_Specialist_Badge"}
+        {title: "Preservation Specialist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Preservation_Specialist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-ug.png"}

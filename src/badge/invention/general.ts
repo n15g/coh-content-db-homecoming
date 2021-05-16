@@ -9,7 +9,7 @@ export const General: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Accuracy and To Hit Buff."}],
     effect: "+1 to Recipe capacity",
     links: [
-        {title: "General Badge", href: "https://paragonwiki.com/wiki/General_Badge"}
+        {title: "General Badge", href: "https://hcwiki.cityofheroes.dev/wiki/General_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

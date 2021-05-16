@@ -13,7 +13,7 @@ export const JudgementUnlocked: IBadgeData = {
     ],
     notes: `Unlock your Judgement Incarnate slot`,
     links: [
-        {title: "Judgement Unlocked Badge", href: "https://paragonwiki.com/wiki/Judgement_Unlocked_Badge"}
+        {title: "Judgement Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Judgement_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/judgement-unlocked.png"}

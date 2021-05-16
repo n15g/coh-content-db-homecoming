@@ -23,16 +23,16 @@ export const ShatteredTime: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${ReclusesVictory.key}]`,
     links: [
-        {title: "Shattered Time Badge", href: "https://paragonwiki.com/wiki/Shattered_Time_Badge"}
+        {title: "Shattered Time Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shattered_Time_Badge"}
     ],
     partials: [
-            {key: Globetrotter.key, type: BadgePartialType.BADGE, badgeKey: Globetrotter.key},
-            {key: Ragnarok.key, type: BadgePartialType.BADGE, badgeKey: Ragnarok.key},
-            {key: TemporalFighter.key, type: BadgePartialType.BADGE, badgeKey: TemporalFighter.key},
-            {key: LastStand.key, type: BadgePartialType.BADGE, badgeKey: LastStand.key},
-            {key: AScarInTime.key, type: BadgePartialType.BADGE, badgeKey: AScarInTime.key},
-            {key: TrueNeutral.key, type: BadgePartialType.BADGE, badgeKey: TrueNeutral.key},
-            {key: WatchYourBack.key, type: BadgePartialType.BADGE, badgeKey: WatchYourBack.key},
-            {key: SickOfTimeTravel.key, type: BadgePartialType.BADGE, badgeKey: SickOfTimeTravel.key}
+        {key: Globetrotter.key, type: BadgePartialType.BADGE, badgeKey: Globetrotter.key},
+        {key: Ragnarok.key, type: BadgePartialType.BADGE, badgeKey: Ragnarok.key},
+        {key: TemporalFighter.key, type: BadgePartialType.BADGE, badgeKey: TemporalFighter.key},
+        {key: LastStand.key, type: BadgePartialType.BADGE, badgeKey: LastStand.key},
+        {key: AScarInTime.key, type: BadgePartialType.BADGE, badgeKey: AScarInTime.key},
+        {key: TrueNeutral.key, type: BadgePartialType.BADGE, badgeKey: TrueNeutral.key},
+        {key: WatchYourBack.key, type: BadgePartialType.BADGE, badgeKey: WatchYourBack.key},
+        {key: SickOfTimeTravel.key, type: BadgePartialType.BADGE, badgeKey: SickOfTimeTravel.key}
     ]
 };

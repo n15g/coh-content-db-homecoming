@@ -21,9 +21,9 @@ export const DayTrader: IBadgeData = {
     acquisition: "Log out at a Consignment House for 100 hours.",
     effect: "Day Job: Bonus Brain Storm Idea upon mission completion",
     links: [
-        {title: "Day Trader Badge", href: "https://paragonwiki.com/wiki/Day Trader_Badge"},
-        {title: "Marketeer Badge", href: "https://paragonwiki.com/wiki/Marketeer_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Day Trader Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Day Trader_Badge"},
+        {title: "Marketeer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marketeer_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/day-trader.png"}]
 };

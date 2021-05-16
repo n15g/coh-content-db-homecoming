@@ -14,7 +14,7 @@ export const AllBusiness: IBadgeData = {
     ],
     acquisition: "Complete a level 26-30 Flashback story arc using no pool powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "All Business Badge", href: "https://paragonwiki.com/wiki/All_Business_Badge"}
+        {title: "All Business Badge", href: "https://hcwiki.cityofheroes.dev/wiki/All_Business_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/all-business.png"}]
 };

@@ -14,7 +14,7 @@ export const Demarcated: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc using no temp powers.",
     links: [
-        {title: "Demarcated Badge", href: "https://paragonwiki.com/wiki/Demarcated_Badge"}
+        {title: "Demarcated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Demarcated_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/demarcated.png"}]
 };

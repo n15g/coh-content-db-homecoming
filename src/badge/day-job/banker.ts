@@ -21,9 +21,9 @@ export const Banker: IBadgeData = {
     acquisition: "Log out at a Vault Reserve for 100 hours.",
     effect: "Day Job: Bonus Influence upon mission completion",
     links: [
-        {title: "Banker Badge", href: "https://paragonwiki.com/wiki/Banker_Badge"},
-        {title: "Thief Badge", href: "https://paragonwiki.com/wiki/Thief_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Banker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Banker_Badge"},
+        {title: "Thief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thief_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/banker.png"}]
 };

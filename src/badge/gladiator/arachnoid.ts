@@ -13,7 +13,7 @@ export const Arachnoid: IBadgeData = {
     ],
     acquisition: "Earn the [badge:sewer-dweller] Badge (Arachnoids)",
     links: [
-        {title: "Arachnoid Badge", href: "https://paragonwiki.com/wiki/Arachnoid_Badge"}
+        {title: "Arachnoid Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnoid_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -13,7 +13,7 @@ export const SpeedDemon: IBadgeData = {
     ],
     acquisition: "Complete a ski run on the Expert slope in under 25 seconds during a Winter Event",
     links: [
-        {title: "Speed Demon Badge", href: "https://paragonwiki.com/wiki/Speed_Demon_Badge"}
+        {title: "Speed Demon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Speed_Demon_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ski-gold.png"}

@@ -13,7 +13,7 @@ export const Terror: IBadgeData = {
     ],
     acquisition: "Defeat the Banner of Terror during a Deadly Apocalypse.",
     links: [
-        {title: "Terror Badge", href: "https://paragonwiki.com/wiki/Terror_Badge"}
+        {title: "Terror Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Terror_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/terror.png"}]
 };

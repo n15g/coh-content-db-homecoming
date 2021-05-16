@@ -9,12 +9,14 @@ export const TheSolution: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You have bested Jurassik, the personification of the ideals of the Devouring Earth. The world " +
-        "sleeps safer at night due to your actions."}
+        {
+            value: "You have bested Jurassik, the personification of the ideals of the Devouring Earth. The world " +
+                "sleeps safer at night due to your actions."
+        }
     ],
     acquisition: "Defeat Jurassik, a monster that spawns in Crey's Folly",
     links: [
-        {title: "The Solution Badge", href: "https://paragonwiki.com/wiki/The_Solution_Badge"}
+        {title: "The Solution Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Solution_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/devouring.png"}

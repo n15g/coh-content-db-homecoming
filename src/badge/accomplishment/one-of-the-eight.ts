@@ -9,12 +9,14 @@ export const OneOfTheEight: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You tamed the chaos and magic which ran unchecked in the Night Ward, saving the world from the " +
-        "would-be rampages of Sorceress Serene and the Mother of all Monsters."}
+        {
+            value: "You tamed the chaos and magic which ran unchecked in the Night Ward, saving the world from the " +
+                "would-be rampages of Sorceress Serene and the Mother of all Monsters."
+        }
     ],
     acquisition: "Complete the story arc from The Magician",
     links: [
-        {title: "One of the Eight Badge", href: "https://paragonwiki.com/wiki/One_of_the_Eight_Badge"}
+        {title: "One of the Eight Badge", href: "https://hcwiki.cityofheroes.dev/wiki/One_of_the_Eight_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/one-of-the-eight.png"}

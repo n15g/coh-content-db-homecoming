@@ -15,6 +15,6 @@ export const Terminator: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/terminator.png"}],
     acquisition: "Kill 1000 citizens in mayhem missions",
     links: [
-        {title: "Terminator Badge", href: "https://paragonwiki.com/wiki/Terminator_Badge"}
+        {title: "Terminator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Terminator_Badge"}
     ],
 };

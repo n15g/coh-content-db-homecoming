@@ -11,7 +11,7 @@ export const Extractor: IBadgeData = {
     badgeText: [{value: "You've rescued or kidnapped your first hostage during an Architect mission, earning yourself the Extractor badge."}],
     acquisition: "Rescue one required captive while on a Mission Architect mission.",
     links: [
-        {title: "Extractor Badge", href: "https://paragonwiki.com/wiki/Extractor_Badge"}
+        {title: "Extractor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Extractor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/extractor.png"}]
 };

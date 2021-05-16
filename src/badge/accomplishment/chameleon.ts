@@ -15,6 +15,6 @@ export const Chameleon: IBadgeData = {
     acquisition: `Complete the task set 'The Chameleon Suit'`,
     notes: `The task set 'The Chameleon Suit' begins with the 'Infiltrate the Freakshow and recover the stolen Chameleon Suit' mission from any one of the level 20-24 contacts Andrew Fiore or Lt. Col. Hugh McDougal in [map:${TalosIsland.key}], or Jake Kim or Wilma Peterson in [map:${IndependencePort.key}]. It is also available via Ouroboros, level 20-24, mission 0.12 'The Chameleon Suit'.`,
     links: [
-        {title: "Chameleon Badge", href: "https://paragonwiki.com/wiki/Chameleon_Badge"}
+        {title: "Chameleon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chameleon_Badge"}
     ],
 };

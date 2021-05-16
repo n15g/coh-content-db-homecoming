@@ -13,7 +13,7 @@ export const DestinyUnlocked: IBadgeData = {
     ],
     notes: `Unlock your Destiny Incarnate slot`,
     links: [
-        {title: "Destiny Unlocked Badge", href: "https://paragonwiki.com/wiki/Destiny_Unlocked_Badge"}
+        {title: "Destiny Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destiny_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/destiny-unlocked.png"}

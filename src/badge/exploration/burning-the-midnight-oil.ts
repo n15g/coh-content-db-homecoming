@@ -16,7 +16,7 @@ export const BurningTheMidnightOil: IBadgeData = {
         "\n" +
         "It is on the western side of the second silo rising out of the sludge, from left (north) to right (south).",
     links: [
-        {title: "Burning the Midnight Oil Badge", href: "https://paragonwiki.com/wiki/Burning_the_Midnight_Oil_Badge"}
+        {title: "Burning the Midnight Oil Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Burning_the_Midnight_Oil_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

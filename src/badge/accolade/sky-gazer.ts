@@ -22,19 +22,19 @@ export const SkyGazer: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SkywayCity.key}]`,
     links: [
-        {title: "Sky Gazer Badge", href: "https://paragonwiki.com/wiki/Sky_Gazer_Badge"}
+        {title: "Sky Gazer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sky_Gazer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: Purifier.key, type: BadgePartialType.BADGE, badgeKey: Purifier.key},
-            {key: Solace.key, type: BadgePartialType.BADGE, badgeKey: Solace.key},
-            {key: Dauntless.key, type: BadgePartialType.BADGE, badgeKey: Dauntless.key},
-            {key: HealingNode.key, type: BadgePartialType.BADGE, badgeKey: HealingNode.key},
-            {key: BetterDays.key, type: BadgePartialType.BADGE, badgeKey: BetterDays.key},
-            {key: RoomForExpansion.key, type: BadgePartialType.BADGE, badgeKey: RoomForExpansion.key},
-            {key: LeftBehind.key, type: BadgePartialType.BADGE, badgeKey: LeftBehind.key},
-            {key: BridgeToNowhere.key, type: BadgePartialType.BADGE, badgeKey: BridgeToNowhere.key}
+        {key: Purifier.key, type: BadgePartialType.BADGE, badgeKey: Purifier.key},
+        {key: Solace.key, type: BadgePartialType.BADGE, badgeKey: Solace.key},
+        {key: Dauntless.key, type: BadgePartialType.BADGE, badgeKey: Dauntless.key},
+        {key: HealingNode.key, type: BadgePartialType.BADGE, badgeKey: HealingNode.key},
+        {key: BetterDays.key, type: BadgePartialType.BADGE, badgeKey: BetterDays.key},
+        {key: RoomForExpansion.key, type: BadgePartialType.BADGE, badgeKey: RoomForExpansion.key},
+        {key: LeftBehind.key, type: BadgePartialType.BADGE, badgeKey: LeftBehind.key},
+        {key: BridgeToNowhere.key, type: BadgePartialType.BADGE, badgeKey: BridgeToNowhere.key}
     ]
 };

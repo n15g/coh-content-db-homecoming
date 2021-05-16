@@ -16,7 +16,7 @@ export const SilentSentinel: IBadgeData = {
         "\n" +
         "The badge sits on the ledge of a rooftop close to a water tower.",
     links: [
-        {title: "Silent Sentinel Badge", href: "https://paragonwiki.com/wiki/Silent_Sentinel_Badge"}
+        {title: "Silent Sentinel Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Silent_Sentinel_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

@@ -9,13 +9,15 @@ export const ChippedTalon: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "Sorceress Serene herself has spread word that you are to be slain on sight, as vengeance for " +
-        "your attacks on her coven. Always vengeance with this lot... You defeated several Talons of " +
-        "Vengeance to earn this badge."}
+        {
+            value: "Sorceress Serene herself has spread word that you are to be slain on sight, as vengeance for " +
+                "your attacks on her coven. Always vengeance with this lot... You defeated several Talons of " +
+                "Vengeance to earn this badge."
+        }
     ],
     acquisition: "Defeat 100 points worth of Talons of Vengeance",
     links: [
-        {title: "Chipped Talon Badge", href: "https://paragonwiki.com/wiki/Chipped_Talon_Badge"}
+        {title: "Chipped Talon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chipped_Talon_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/chipped-talon.png"}

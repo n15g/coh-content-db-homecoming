@@ -9,12 +9,14 @@ export const Transmogrified: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You have succeeded in preventing the destruction of the Terra Volta reactor... but at what " +
-        "price?"}
+        {
+            value: "You have succeeded in preventing the destruction of the Terra Volta reactor... but at what " +
+                "price?"
+        }
     ],
     acquisition: "Complete the Terra Volta respec trial and choose the respec reward for the first time",
     links: [
-        {title: "Transmogrified Badge", href: "https://paragonwiki.com/wiki/Transmogrified_Badge"}
+        {title: "Transmogrified Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Transmogrified_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png"}

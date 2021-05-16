@@ -17,7 +17,7 @@ export const FreaksFolly: IBadgeData = {
     }],
     notes: "Located in [map:creys-folly] 254 yards NW of the Carnival Town marker, inside the Freakshow fortress.",
     links: [
-        {title: "Freak's Folly Badge", href: "https://paragonwiki.com/wiki/Freak%27s_Folly_Badge"}
+        {title: "Freak's Folly Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freak%27s_Folly_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

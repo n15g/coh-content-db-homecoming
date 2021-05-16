@@ -9,12 +9,14 @@ export const GiftedSpeaker: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You know how to work a crowd when you need to. With the help of a psychic suggestion device, " +
-        "of course."}
+        {
+            value: "You know how to work a crowd when you need to. With the help of a psychic suggestion device, " +
+                "of course."
+        }
     ],
     acquisition: "Complete the story arc from Bane Spider Ruben",
     links: [
-        {title: "Gifted Speaker Badge", href: "https://paragonwiki.com/wiki/Gifted_Speaker_Badge"}
+        {title: "Gifted Speaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gifted_Speaker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/gifted-speaker.png"}

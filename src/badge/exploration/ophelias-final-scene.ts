@@ -16,7 +16,7 @@ export const OpheliasFinalScene: IBadgeData = {
     }],
     notes: "Located in [map:perez-park] 215 yards northeast of the Everett Lake marker on the map, on the extreme northeast coast of the lake.",
     links: [
-        {title: "Ophelia's Final Scene Badge", href: "https://paragonwiki.com/wiki/Ophelia%27s_Final_Scene_Badge"}
+        {title: "Ophelia's Final Scene Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ophelia%27s_Final_Scene_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

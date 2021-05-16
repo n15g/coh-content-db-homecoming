@@ -22,19 +22,19 @@ export const PurePraetorian: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${NovaPraetoria.key}]`,
     links: [
-        {title: "Pure Praetorian Badge", href: "https://paragonwiki.com/wiki/Pure_Praetorian_Badge"}
+        {title: "Pure Praetorian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pure_Praetorian_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}
     ],
     partials: [
-            {key: Ambitious.key, type: BadgePartialType.BADGE, badgeKey: Ambitious.key},
-            {key: CitizenCole.key, type: BadgePartialType.BADGE, badgeKey: CitizenCole.key},
-            {key: CivicMinded.key, type: BadgePartialType.BADGE, badgeKey: CivicMinded.key},
-            {key: GuardiansOfJustice.key, type: BadgePartialType.BADGE, badgeKey: GuardiansOfJustice.key},
-            {key: IntoTheWild.key, type: BadgePartialType.BADGE, badgeKey: IntoTheWild.key},
-            {key: Technophile.key, type: BadgePartialType.BADGE, badgeKey: Technophile.key},
-            {key: UnCivilSociety.key, type: BadgePartialType.BADGE, badgeKey: UnCivilSociety.key},
-            {key: OnTheWaterfront.key, type: BadgePartialType.BADGE, badgeKey: OnTheWaterfront.key}
+        {key: Ambitious.key, type: BadgePartialType.BADGE, badgeKey: Ambitious.key},
+        {key: CitizenCole.key, type: BadgePartialType.BADGE, badgeKey: CitizenCole.key},
+        {key: CivicMinded.key, type: BadgePartialType.BADGE, badgeKey: CivicMinded.key},
+        {key: GuardiansOfJustice.key, type: BadgePartialType.BADGE, badgeKey: GuardiansOfJustice.key},
+        {key: IntoTheWild.key, type: BadgePartialType.BADGE, badgeKey: IntoTheWild.key},
+        {key: Technophile.key, type: BadgePartialType.BADGE, badgeKey: Technophile.key},
+        {key: UnCivilSociety.key, type: BadgePartialType.BADGE, badgeKey: UnCivilSociety.key},
+        {key: OnTheWaterfront.key, type: BadgePartialType.BADGE, badgeKey: OnTheWaterfront.key}
     ]
 };

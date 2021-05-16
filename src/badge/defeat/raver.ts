@@ -14,7 +14,7 @@ export const Raver: IBadgeData = {
     ],
     acquisition: "Defeat 50 Glowing Trolls during a Troll Rave",
     links: [
-        {title: "Raver Badge", href: "https://paragonwiki.com/wiki/Raver_Badge"}
+        {title: "Raver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Raver_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/raver.png"}

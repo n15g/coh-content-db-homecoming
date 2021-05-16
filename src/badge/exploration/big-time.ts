@@ -16,7 +16,7 @@ export const BigTime: IBadgeData = {
     }],
     notes: "In Pocket D, the badge is in the top left (northwestern) corner on the top floor of the Monkey Fight Club, located in the hero alcove off the main dance floor.",
     links: [
-        {title: "Big Time Badge", href: "https://paragonwiki.com/wiki/Big_Time_Badge"}
+        {title: "Big Time Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Big_Time_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

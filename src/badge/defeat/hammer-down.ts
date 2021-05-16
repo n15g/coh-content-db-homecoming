@@ -13,7 +13,7 @@ export const HammerDown: IBadgeData = {
     ],
     acquisition: "Defeat the Ghost of Scrapyard, a monster that spawns in Sharkhead Isle",
     links: [
-        {title: "Hammer Down Badge", href: "https://paragonwiki.com/wiki/Hammer_Down_Badge"}
+        {title: "Hammer Down Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hammer_Down_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/scrapyarder.png"}

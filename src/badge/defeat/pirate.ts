@@ -13,7 +13,7 @@ export const Pirate: IBadgeData = {
     ],
     acquisition: "Defeat 100 Spectral Pirates.",
     links: [
-        {title: "Pirate Badge", href: "https://paragonwiki.com/wiki/Pirate_Badge"}
+        {title: "Pirate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pirate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/ghosts.png"}

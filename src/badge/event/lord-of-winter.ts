@@ -15,7 +15,7 @@ export const LordOfWinter: IBadgeData = {
     ],
     acquisition: "Defeat Lord Winter during the Winter event.",
     links: [
-        {title: "Lord of Winter Badge", href: "https://paragonwiki.com/wiki/Lord_of_Winter_Badge"}
+        {title: "Lord of Winter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lord_of_Winter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/lord-of-winter.png"}]
 };

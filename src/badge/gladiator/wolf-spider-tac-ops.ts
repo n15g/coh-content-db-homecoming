@@ -14,7 +14,7 @@ export const WolfSpiderTacOps: IBadgeData = {
     ],
     acquisition: `Earn the ${badgeReference(KeeperOfPeace)} Badge (Arachnos)`,
     links: [
-        {title: "Wolf Spider Tac Ops Badge", href: "https://paragonwiki.com/wiki/Wolf_Spider_Tac_Ops_Badge"}
+        {title: "Wolf Spider Tac Ops Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wolf_Spider_Tac_Ops_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

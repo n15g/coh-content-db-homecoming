@@ -17,7 +17,7 @@ export const JacksWrath: IBadgeData = {
         "\n" +
         "It is in the middle of a ruined building 214 yards NNE of the neighborhood marker.",
     links: [
-        {title: "Jack's Wrath Badge", href: "https://paragonwiki.com/wiki/Jack%27s_Wrath_Badge"}
+        {title: "Jack's Wrath Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jack%27s_Wrath_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

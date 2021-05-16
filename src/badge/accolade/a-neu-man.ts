@@ -23,20 +23,20 @@ export const ANeuMan: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Neutropolis.key}]`,
     links: [
-        {title: "A Neu Man Badge", href: "https://paragonwiki.com/wiki/A_Neu_Man_Badge"},
-        {title: "A Neu Woman Badge", href: "https://paragonwiki.com/wiki/A_Neu_Woman_Badge"}
+        {title: "A Neu Man Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Neu_Man_Badge"},
+        {title: "A Neu Woman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Neu_Woman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}
     ],
     partials: [
-            {key: Airlift.key, type: BadgePartialType.BADGE, badgeKey: Airlift.key},
-            {key: DontDrinkIt.key, type: BadgePartialType.BADGE, badgeKey: DontDrinkIt.key},
-            {key: EyesToTheFuture.key, type: BadgePartialType.BADGE, badgeKey: EyesToTheFuture.key},
-            {key: MoarPower.key, type: BadgePartialType.BADGE, badgeKey: MoarPower.key},
-            {key: Longshoreman.key, type: BadgePartialType.BADGE, badgeKey: Longshoreman.key},
-            {key: Stockpiling.key, type: BadgePartialType.BADGE, badgeKey: Stockpiling.key},
-            {key: StuffOfLife.key, type: BadgePartialType.BADGE, badgeKey: StuffOfLife.key},
-            {key: UrbanRenewal.key, type: BadgePartialType.BADGE, badgeKey: UrbanRenewal.key}
+        {key: Airlift.key, type: BadgePartialType.BADGE, badgeKey: Airlift.key},
+        {key: DontDrinkIt.key, type: BadgePartialType.BADGE, badgeKey: DontDrinkIt.key},
+        {key: EyesToTheFuture.key, type: BadgePartialType.BADGE, badgeKey: EyesToTheFuture.key},
+        {key: MoarPower.key, type: BadgePartialType.BADGE, badgeKey: MoarPower.key},
+        {key: Longshoreman.key, type: BadgePartialType.BADGE, badgeKey: Longshoreman.key},
+        {key: Stockpiling.key, type: BadgePartialType.BADGE, badgeKey: Stockpiling.key},
+        {key: StuffOfLife.key, type: BadgePartialType.BADGE, badgeKey: StuffOfLife.key},
+        {key: UrbanRenewal.key, type: BadgePartialType.BADGE, badgeKey: UrbanRenewal.key}
     ]
 };

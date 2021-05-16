@@ -14,7 +14,7 @@ export const Geneticist: IBadgeData = {
     }],
     notes: `Located in [map:${TheAbyss.key}], at the front door of the DE Gen building located on the eastern side of the southern landmass.`,
     links: [
-        {title: "Geneticist Badge", href: "https://paragonwiki.com/wiki/Geneticist_Badge"}
+        {title: "Geneticist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Geneticist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

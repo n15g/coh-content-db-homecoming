@@ -15,7 +15,7 @@ export const BugHunter: IBadgeData = {
 
 **Note: This badge is not included in badge totals.**`,
     links: [
-        {title: "Bug Hunter Badge", href: "https://paragonwiki.com/wiki/Bug_Hunter_Badge"}
+        {title: "Bug Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bug_Hunter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/bug-hunter.png"}

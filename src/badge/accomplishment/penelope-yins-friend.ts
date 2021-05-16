@@ -15,8 +15,8 @@ export const PenelopeYinsFriend: IBadgeData = {
     ],
     acquisition: "Complete the Penelope Yin Task Force",
     links: [
-        {title: "Penelope Yin's Friend Badge", href: "https://paragonwiki.com/wiki/Penelope_Yin%27s_Friend_Badge"},
-        {title: "Penelope Yin's Betrayer Badge", href: "https://paragonwiki.com/wiki/Penelope_Yin%27s_Betrayer_Badge"}
+        {title: "Penelope Yin's Friend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Penelope_Yin%27s_Friend_Badge"},
+        {title: "Penelope Yin's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Penelope_Yin%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/tf-3.png"}

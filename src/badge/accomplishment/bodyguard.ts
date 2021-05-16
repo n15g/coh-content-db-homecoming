@@ -13,7 +13,7 @@ export const Bodyguard: IBadgeData = {
     ],
     acquisition: "Complete the Rescue Rikti negotiator quickly mission from Crimson",
     links: [
-        {title: "Bodyguard Badge", href: "https://paragonwiki.com/wiki/Bodyguard_Badge"}
+        {title: "Bodyguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bodyguard_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/bodyguard.png"}

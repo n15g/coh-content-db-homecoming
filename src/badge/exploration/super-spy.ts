@@ -14,7 +14,7 @@ export const SuperSpy: IBadgeData = {
     }],
     notes: "Located in [map:striga-isle] on the hinge of a large set of steel doors along the NW short of the island.",
     links: [
-        {title: "Super Spy Badge", href: "https://paragonwiki.com/wiki/Super_Spy_Badge"}
+        {title: "Super Spy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Super_Spy_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

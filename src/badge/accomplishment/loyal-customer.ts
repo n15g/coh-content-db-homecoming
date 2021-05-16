@@ -13,7 +13,7 @@ export const LoyalCustomer: IBadgeData = {
     ],
     acquisition: "Complete the Market Crash Task Force in Kallisti Wharf.",
     links: [
-        {title: "Loyal Customer Badge", href: "https://paragonwiki.com/wiki/Loyal_Customer_Badge"}
+        {title: "Loyal Customer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Loyal_Customer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/loyal-customer.png"}

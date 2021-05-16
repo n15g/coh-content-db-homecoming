@@ -22,19 +22,19 @@ export const PortalCorpAnalyst: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${PeregrineIsland.key}]`,
     links: [
-        {title: "Portal Corp Analyst Badge", href: "https://paragonwiki.com/wiki/Portal_Corp_Analyst_Badge"}
+        {title: "Portal Corp Analyst Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Portal_Corp_Analyst_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: PortalParter.key, type: BadgePartialType.BADGE, badgeKey: PortalParter.key},
-            {key: UseMightForRight.key, type: BadgePartialType.BADGE, badgeKey: UseMightForRight.key},
-            {key: CauseForConcern.key, type: BadgePartialType.BADGE, badgeKey: CauseForConcern.key},
-            {key: GeneticallyAltered.key, type: BadgePartialType.BADGE, badgeKey: GeneticallyAltered.key},
-            {key: RiktiGoneWild.key, type: BadgePartialType.BADGE, badgeKey: RiktiGoneWild.key},
-            {key: ShadesOfArachnos.key, type: BadgePartialType.BADGE, badgeKey: ShadesOfArachnos.key},
-            {key: AllSeeing.key, type: BadgePartialType.BADGE, badgeKey: AllSeeing.key},
-            {key: DarkOmen.key, type: BadgePartialType.BADGE, badgeKey: DarkOmen.key}
+        {key: PortalParter.key, type: BadgePartialType.BADGE, badgeKey: PortalParter.key},
+        {key: UseMightForRight.key, type: BadgePartialType.BADGE, badgeKey: UseMightForRight.key},
+        {key: CauseForConcern.key, type: BadgePartialType.BADGE, badgeKey: CauseForConcern.key},
+        {key: GeneticallyAltered.key, type: BadgePartialType.BADGE, badgeKey: GeneticallyAltered.key},
+        {key: RiktiGoneWild.key, type: BadgePartialType.BADGE, badgeKey: RiktiGoneWild.key},
+        {key: ShadesOfArachnos.key, type: BadgePartialType.BADGE, badgeKey: ShadesOfArachnos.key},
+        {key: AllSeeing.key, type: BadgePartialType.BADGE, badgeKey: AllSeeing.key},
+        {key: DarkOmen.key, type: BadgePartialType.BADGE, badgeKey: DarkOmen.key}
     ]
 };

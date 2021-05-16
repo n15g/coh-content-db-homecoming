@@ -17,7 +17,7 @@ Members of the Resistance who have made the trek out to this flooded region mock
     notes: `Located in [map:${FirstWard.key}] in the Sunken City neighborhood, 163 yards NNW of the Westerman Building marker.
 It is on the shoulder of a partially submerged statue of the emperor.`,
     links: [
-        {title: "Witness for the Fallen Badge", href: "https://paragonwiki.com/wiki/Witness_for_the_Fallen_Badge"}
+        {title: "Witness for the Fallen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Witness_for_the_Fallen_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "8"

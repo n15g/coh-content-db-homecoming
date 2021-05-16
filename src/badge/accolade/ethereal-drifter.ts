@@ -22,19 +22,19 @@ export const EtherealDrifter: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${NightWard.key}]`,
     links: [
-        {title: "Ethereal Drifter Badge", href: "https://paragonwiki.com/wiki/Ethereal_Drifter_Badge"}
+        {title: "Ethereal Drifter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ethereal_Drifter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}
     ],
     partials: [
-            {key: NocturnalPilgrim.key, type: BadgePartialType.BADGE, badgeKey: NocturnalPilgrim.key},
-            {key: HappyCamper.key, type: BadgePartialType.BADGE, badgeKey: HappyCamper.key},
-            {key: HouseHunter.key, type: BadgePartialType.BADGE, badgeKey: HouseHunter.key},
-            {key: AbandonedSoul.key, type: BadgePartialType.BADGE, badgeKey: AbandonedSoul.key},
-            {key: DeadButDreaming.key, type: BadgePartialType.BADGE, badgeKey: DeadButDreaming.key},
-            {key: FollowTheLight.key, type: BadgePartialType.BADGE, badgeKey: FollowTheLight.key},
-            {key: Monolithic.key, type: BadgePartialType.BADGE, badgeKey: Monolithic.key},
-            {key: Stargazer.key, type: BadgePartialType.BADGE, badgeKey: Stargazer.key}
+        {key: NocturnalPilgrim.key, type: BadgePartialType.BADGE, badgeKey: NocturnalPilgrim.key},
+        {key: HappyCamper.key, type: BadgePartialType.BADGE, badgeKey: HappyCamper.key},
+        {key: HouseHunter.key, type: BadgePartialType.BADGE, badgeKey: HouseHunter.key},
+        {key: AbandonedSoul.key, type: BadgePartialType.BADGE, badgeKey: AbandonedSoul.key},
+        {key: DeadButDreaming.key, type: BadgePartialType.BADGE, badgeKey: DeadButDreaming.key},
+        {key: FollowTheLight.key, type: BadgePartialType.BADGE, badgeKey: FollowTheLight.key},
+        {key: Monolithic.key, type: BadgePartialType.BADGE, badgeKey: Monolithic.key},
+        {key: Stargazer.key, type: BadgePartialType.BADGE, badgeKey: Stargazer.key}
     ]
 };

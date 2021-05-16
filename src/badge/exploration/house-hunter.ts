@@ -18,7 +18,7 @@ Despite the gloomy facade of this old Victorian house you feel eerily at home wi
 To get into the mansion you have to enter through another entrance to obtain the badge.
 The coordinates for the entrance is 1797.9 109.6 -2416.4 (It's a greenish colored building on top of a hill 94 yards from the Tunnel entry on your map).`,
     links: [
-        {title: "House Hunter Badge", href: "https://paragonwiki.com/wiki/House_Hunter_Badge"}
+        {title: "House Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/House_Hunter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

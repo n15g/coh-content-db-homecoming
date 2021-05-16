@@ -14,6 +14,6 @@ export const Meteorologist: IBadgeData = {
     ],
     acquisition: "Complete the Defeat all foes in weather lab mission from Maxwell Christopher",
     links: [
-        {title: "Meteorologist Badge", href: "https://paragonwiki.com/wiki/Meteorologist_Badge"}
+        {title: "Meteorologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Meteorologist_Badge"}
     ]
 };

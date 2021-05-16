@@ -16,7 +16,7 @@ You've gazed into the abyss, and it's gazed into you too; you're both well acqua
     }],
     notes: `Located in [map:${TheAbyss.key}], 0.60 miles from the Grandville transfer point, on the lip of the cliff dropping into the crater. It is in the southern edge, just west of center.`,
     links: [
-        {title: "Abyssal Gaze Badge", href: "https://paragonwiki.com/wiki/Abyssal_Gaze_Badge"}
+        {title: "Abyssal Gaze Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Abyssal_Gaze_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

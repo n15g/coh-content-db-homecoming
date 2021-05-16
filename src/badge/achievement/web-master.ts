@@ -9,14 +9,18 @@ export const WebMaster: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {type: Alternate.H, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over one hour " +
-        "fighting Arachnos."},
-        {type: Alternate.V, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over one hour " +
-        "fighting Longbow."}
+        {
+            type: Alternate.H, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over one hour " +
+                "fighting Arachnos."
+        },
+        {
+            type: Alternate.V, value: "You are a well-known threat in the chaotic district of Warburg, having spent well over one hour " +
+                "fighting Longbow."
+        }
     ],
     acquisition: "Spend 1 hour in Warburg",
     links: [
-        {title: "Web Master Badge", href: "https://paragonwiki.com/wiki/Web_Master_Badge"}
+        {title: "Web Master Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Web_Master_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},

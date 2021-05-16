@@ -13,7 +13,7 @@ export const Doorbuster: IBadgeData = {
     ],
     acquisition: "Destroy 100 Force Field Doors, Magical Barriers or Reinforced doors",
     links: [
-        {title: "Doorbuster Badge", href: "https://paragonwiki.com/wiki/Doorbuster_Badge"}
+        {title: "Doorbuster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Doorbuster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/doorbuster.png"}

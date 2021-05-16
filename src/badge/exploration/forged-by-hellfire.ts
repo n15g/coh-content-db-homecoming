@@ -17,7 +17,7 @@ export const ForgedByHellfire: IBadgeData = {
 Just west of the Hell Forge marker, there are three large silo tanks.
  The badge marker is on the ground just north of the northernmost tank.`,
     links: [
-        {title: "Forged by Hellfire Badge", href: "https://paragonwiki.com/wiki/Forged_by_Hellfire_Badge"}
+        {title: "Forged by Hellfire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Forged_by_Hellfire_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "2"

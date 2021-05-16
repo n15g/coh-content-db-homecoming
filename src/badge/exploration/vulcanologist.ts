@@ -16,7 +16,7 @@ export const Vulcanologist: IBadgeData = {
         "\n" +
         "It is approximately 46 yards from the Council Base marker.",
     links: [
-        {title: "Vulcanologist Badge", href: "https://paragonwiki.com/wiki/Vulcanologist_Badge"}
+        {title: "Vulcanologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vulcanologist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

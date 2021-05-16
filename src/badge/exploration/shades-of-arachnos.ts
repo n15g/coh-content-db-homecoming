@@ -16,7 +16,7 @@ export const ShadesOfArachnos: IBadgeData = {
         "\n" +
         "Be Careful: Approaching this badge will bring you into close proximity of Devouring Earth Monsters.",
     links: [
-        {title: "Shades of Arachnos Badge", href: "https://paragonwiki.com/wiki/Shades_of_Arachnos_Badge"}
+        {title: "Shades of Arachnos Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shades_of_Arachnos_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

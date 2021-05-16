@@ -9,12 +9,14 @@ export const LandSeaAir: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You shut down the alliance between the Sky Raiders and the Praetorian Imperial Defense Force, " +
-        "halting an assault on Skyway City in the process."}
+        {
+            value: "You shut down the alliance between the Sky Raiders and the Praetorian Imperial Defense Force, " +
+                "halting an assault on Skyway City in the process."
+        }
     ],
     acquisition: "Complete the Admiral Sutter Task Force",
     links: [
-        {title: "Land, Sea & Air Badge", href: "https://paragonwiki.com/wiki/Land%2C_Sea_%26_Air_Badge"}
+        {title: "Land, Sea & Air Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Land%2C_Sea_%26_Air_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/land-sea-air.png"}

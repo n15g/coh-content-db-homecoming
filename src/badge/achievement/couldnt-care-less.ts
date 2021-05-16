@@ -12,6 +12,6 @@ export const CouldntCareLess: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-insp.png"}],
     acquisition: "Reject 1000 inspiration drops.",
     links: [
-        {title: "Couldn't Care Less Badge", href: "https://paragonwiki.com/wiki/Couldn%27t_Care_Less_Badge"}
+        {title: "Couldn't Care Less Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Couldn%27t_Care_Less_Badge"}
     ],
 };

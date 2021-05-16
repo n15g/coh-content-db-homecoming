@@ -22,19 +22,19 @@ export const MarconeInsider: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${PortOakes.key}]`,
     links: [
-        {title: "Marcone Insider Badge", href: "https://paragonwiki.com/wiki/Marcone_Insider_Badge"}
+        {title: "Marcone Insider Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marcone_Insider_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}
     ],
     partials: [
-            {key: ScurvyDog.key, type: BadgePartialType.BADGE, badgeKey: ScurvyDog.key},
-            {key: WashedUp.key, type: BadgePartialType.BADGE, badgeKey: WashedUp.key},
-            {key: PowderMonkey.key, type: BadgePartialType.BADGE, badgeKey: PowderMonkey.key},
-            {key: Driller.key, type: BadgePartialType.BADGE, badgeKey: Driller.key},
-            {key: LongWalk.key, type: BadgePartialType.BADGE, badgeKey: LongWalk.key},
-            {key: BigSpider.key, type: BadgePartialType.BADGE, badgeKey: BigSpider.key},
-            {key: CommutersWoe.key, type: BadgePartialType.BADGE, badgeKey: CommutersWoe.key},
-            {key: HiddenGetaway.key, type: BadgePartialType.BADGE, badgeKey: HiddenGetaway.key}
+        {key: ScurvyDog.key, type: BadgePartialType.BADGE, badgeKey: ScurvyDog.key},
+        {key: WashedUp.key, type: BadgePartialType.BADGE, badgeKey: WashedUp.key},
+        {key: PowderMonkey.key, type: BadgePartialType.BADGE, badgeKey: PowderMonkey.key},
+        {key: Driller.key, type: BadgePartialType.BADGE, badgeKey: Driller.key},
+        {key: LongWalk.key, type: BadgePartialType.BADGE, badgeKey: LongWalk.key},
+        {key: BigSpider.key, type: BadgePartialType.BADGE, badgeKey: BigSpider.key},
+        {key: CommutersWoe.key, type: BadgePartialType.BADGE, badgeKey: CommutersWoe.key},
+        {key: HiddenGetaway.key, type: BadgePartialType.BADGE, badgeKey: HiddenGetaway.key}
     ]
 };

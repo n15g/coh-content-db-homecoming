@@ -20,18 +20,18 @@ export const ConspiracyTheorist: IBadgeData = {
     ],
     notes: `Awards the Crey CBX-9 Pistol power`,
     links: [
-        {title: "Conspiracy Theorist Badge", href: "https://paragonwiki.com/wiki/Conspiracy_Theorist_Badge"}
+        {title: "Conspiracy Theorist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Conspiracy_Theorist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conspiracy-theorist.png"}
     ],
     effect: `Crey CBX-9 Pistol`,
     partials: [
-            {key: BirdWatcher.key, type: BadgePartialType.BADGE, badgeKey: BirdWatcher.key},
-            {key: CreyFish.key, type: BadgePartialType.BADGE, badgeKey: CreyFish.key},
-            {key: CreyHavoc.key, type: BadgePartialType.BADGE, badgeKey: CreyHavoc.key},
-            {key: CreyWatcher.key, type: BadgePartialType.BADGE, badgeKey: CreyWatcher.key},
-            {key: Infiltrator.key, type: BadgePartialType.BADGE, badgeKey: Infiltrator.key},
-            {key: TheDoctorsAlly.key, type: BadgePartialType.BADGE, badgeKey: TheDoctorsAlly.key}
+        {key: BirdWatcher.key, type: BadgePartialType.BADGE, badgeKey: BirdWatcher.key},
+        {key: CreyFish.key, type: BadgePartialType.BADGE, badgeKey: CreyFish.key},
+        {key: CreyHavoc.key, type: BadgePartialType.BADGE, badgeKey: CreyHavoc.key},
+        {key: CreyWatcher.key, type: BadgePartialType.BADGE, badgeKey: CreyWatcher.key},
+        {key: Infiltrator.key, type: BadgePartialType.BADGE, badgeKey: Infiltrator.key},
+        {key: TheDoctorsAlly.key, type: BadgePartialType.BADGE, badgeKey: TheDoctorsAlly.key}
     ]
 };

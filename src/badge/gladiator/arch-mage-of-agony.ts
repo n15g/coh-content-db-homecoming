@@ -13,7 +13,7 @@ export const ArchMageOfAgony: IBadgeData = {
     ],
     acquisition: "Earn the [badge:archmage] Badge (Circle of Thorns)",
     links: [
-        {title: "Arch-Mage of Agony Badge", href: "https://paragonwiki.com/wiki/Arch-Mage_of_Agony_Badge"}
+        {title: "Arch-Mage of Agony Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arch-Mage_of_Agony_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

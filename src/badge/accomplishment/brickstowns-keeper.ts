@@ -13,7 +13,7 @@ export const BrickstownsKeeper: IBadgeData = {
     ],
     acquisition: "Complete the second story arc from Provost Marchand (Primal Earth)",
     links: [
-        {title: "Brickstown's Keeper Badge", href: "https://paragonwiki.com/wiki/Brickstown%27s_Keeper_Badge"}
+        {title: "Brickstown's Keeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brickstown%27s_Keeper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png"}

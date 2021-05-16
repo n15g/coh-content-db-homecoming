@@ -15,8 +15,8 @@ export const RiskTaker: IBadgeData = {
     ],
     acquisition: "Complete a patrol mission in a PvP zone (Bloody Bay, Siren's Call, or Warburg)",
     links: [
-        {title: "Risk Taker Badge", href: "https://paragonwiki.com/wiki/Risk_Taker_Badge"},
-        {title: "Most Wanted Badge", href: "https://paragonwiki.com/wiki/Most_Wanted_Badge"}
+        {title: "Risk Taker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Risk_Taker_Badge"},
+        {title: "Most Wanted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Most_Wanted_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png"}

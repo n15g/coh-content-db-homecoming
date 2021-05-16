@@ -9,12 +9,14 @@ export const MayhemsCreator: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You were personally responsible for the creation of a new villainess, Penelope Mayhem. What " +
-        "she will do now is anyone's guess."}
+        {
+            value: "You were personally responsible for the creation of a new villainess, Penelope Mayhem. What " +
+                "she will do now is anyone's guess."
+        }
     ],
     acquisition: "Complete the third story arc from Mr. G (Primal Earth)",
     links: [
-        {title: "Mayhem's Creator Badge", href: "https://paragonwiki.com/wiki/Mayhem%27s_Creator_Badge"}
+        {title: "Mayhem's Creator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mayhem%27s_Creator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-arc.png"}

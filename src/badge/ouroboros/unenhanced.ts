@@ -14,7 +14,7 @@ export const Unenhanced: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc using no enhancements.",
     links: [
-        {title: "Unenhanced Badge", href: "https://paragonwiki.com/wiki/Unenhanced_Badge"}
+        {title: "Unenhanced Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unenhanced_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unenhanced.png"}]
 };

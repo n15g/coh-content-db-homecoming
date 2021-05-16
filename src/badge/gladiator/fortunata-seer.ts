@@ -13,7 +13,7 @@ export const FortunataSeer: IBadgeData = {
     ],
     acquisition: "Defeat 100 Fortunata Seers (Arachnos)",
     links: [
-        {title: "Fortunata Seer Badge", href: "https://paragonwiki.com/wiki/Fortunata_Seer_Badge"}
+        {title: "Fortunata Seer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fortunata_Seer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

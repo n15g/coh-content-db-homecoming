@@ -16,7 +16,7 @@ export const Dauntless: IBadgeData = {
         " Halfway along the southeastern north-south wall, there is a large statue of Dauntless flexing his arms." +
         " The badge marker is sixty feet in front of that statue.",
     links: [
-        {title: "Dauntless Badge", href: "https://paragonwiki.com/wiki/Dauntless_Badge"}
+        {title: "Dauntless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dauntless_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

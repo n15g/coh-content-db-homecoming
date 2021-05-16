@@ -9,7 +9,7 @@ export const Nomad: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Run Speed, Jump, Fly Speed, and Range."}],
     effect: "+1 to Recipe capacity",
     links: [
-        {title: "Nomad Badge", href: "https://paragonwiki.com/wiki/Nomad_Badge"}
+        {title: "Nomad Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nomad_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

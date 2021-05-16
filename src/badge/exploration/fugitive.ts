@@ -16,7 +16,7 @@ export const Fugitive: IBadgeData = {
     }],
     notes: "Located at the north entrance of the Dark Waters neighborhood in [map:brickstown], 196 yards north of the neighborhood marker.",
     links: [
-        {title: "Fugitive Badge", href: "https://paragonwiki.com/wiki/Fugitive_Badge"}
+        {title: "Fugitive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fugitive_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

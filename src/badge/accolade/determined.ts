@@ -14,7 +14,7 @@ export const Determined: IBadgeData = {
     ],
     notes: `Complete every story arc in [map:${DarkAstoria.key}] to earn this badge. [Rewards 20 Merits]`,
     links: [
-        {title: "Determined Badge", href: "https://paragonwiki.com/wiki/Determined_Badge"}
+        {title: "Determined Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Determined_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"},

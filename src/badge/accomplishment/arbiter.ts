@@ -9,12 +9,14 @@ export const Arbiter: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "Taking down Reichsman and making fools out of Lord Recluse's lieutenants might just be the " +
-        "most profitable and satisfying job you've ever pulled."}
+        {
+            value: "Taking down Reichsman and making fools out of Lord Recluse's lieutenants might just be the " +
+                "most profitable and satisfying job you've ever pulled."
+        }
     ],
     acquisition: "Complete the Barracuda Strike Force: Thus Spoke the Reichsman",
     links: [
-        {title: "Arbiter Badge", href: "https://paragonwiki.com/wiki/Arbiter_Badge"}
+        {title: "Arbiter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arbiter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/arbiter.png"}

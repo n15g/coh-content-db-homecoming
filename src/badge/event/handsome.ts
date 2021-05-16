@@ -15,8 +15,8 @@ export const Handsome: IBadgeData = {
     acquisition: "This badge is awarded for receiving mission completion rewards for both retrieving the Girdle of Aphrodite for Ganymede" +
         " and destroying the mystical cauldron for Scratch once during a Valentine's Day Event.",
     links: [
-        {title: "Handsome Badge", href: "https://paragonwiki.com/wiki/Handsome_Badge"},
-        {title: "Beautiful Badge", href: "https://paragonwiki.com/wiki/Beautiful_Badge"}
+        {title: "Handsome Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Handsome_Badge"},
+        {title: "Beautiful Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Beautiful_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/handsome.png"}]
 };

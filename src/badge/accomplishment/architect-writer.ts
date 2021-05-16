@@ -9,12 +9,14 @@ export const ArchitectWriter: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You played through Heather Townshend's personal story, witnessing the event where she joined " +
-        "the Letter Writer's team."}
+        {
+            value: "You played through Heather Townshend's personal story, witnessing the event where she joined " +
+                "the Letter Writer's team."
+        }
     ],
     acquisition: "Complete the personal story mission from Heather Townshend",
     links: [
-        {title: "Architect Writer Badge", href: "https://paragonwiki.com/wiki/Architect_Writer_Badge"}
+        {title: "Architect Writer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Architect_Writer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png"}

@@ -19,17 +19,17 @@ export const Vanguard: IBadgeData = {
     ],
     notes: `Awards the Vanguard Medal power`,
     links: [
-        {title: "Vanguard Badge", href: "https://paragonwiki.com/wiki/Vanguard_Badge"}
+        {title: "Vanguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vanguard_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/vanguard.png"}
     ],
     effect: `Vanguard Medal`,
     partials: [
-            {key: Ace.key, type: BadgePartialType.BADGE, badgeKey: Ace.key},
-            {key: Finder.key, type: BadgePartialType.BADGE, badgeKey: Finder.key},
-            {key: PortalParter.key, type: BadgePartialType.BADGE, badgeKey: PortalParter.key},
-            {key: Savant.key, type: BadgePartialType.BADGE, badgeKey: Savant.key},
-            {key: Zookeeper.key, type: BadgePartialType.BADGE, badgeKey: Zookeeper.key}
+        {key: Ace.key, type: BadgePartialType.BADGE, badgeKey: Ace.key},
+        {key: Finder.key, type: BadgePartialType.BADGE, badgeKey: Finder.key},
+        {key: PortalParter.key, type: BadgePartialType.BADGE, badgeKey: PortalParter.key},
+        {key: Savant.key, type: BadgePartialType.BADGE, badgeKey: Savant.key},
+        {key: Zookeeper.key, type: BadgePartialType.BADGE, badgeKey: Zookeeper.key}
     ]
 };

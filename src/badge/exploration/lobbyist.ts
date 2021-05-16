@@ -15,8 +15,8 @@ export const Lobbyist: IBadgeData = {
     badgeText: [{value: "Spanky Rabinowitz' cousin Charlie 'Big Buck' Rabinowitz owned Big Bucks Casino. It is said much of Spanky's campaign money came from the take here."}],
     notes: "The Crooked Politician Badge is located in Bloody Bay on top of the casino building 120 yards due east of Meteor Do.",
     links: [
-        {title: "Lobbyist Badge", href: "https://paragonwiki.com/wiki/Lobbyist_Badge"},
-        {title: "Crooked Politician Badge", href: "https://paragonwiki.com/wiki/Crooked_Politician_Badge"}
+        {title: "Lobbyist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lobbyist_Badge"},
+        {title: "Crooked Politician Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crooked_Politician_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

@@ -20,7 +20,7 @@ export const TheHeartOfMemory: IBadgeData = {
     }],
     notes: "Located in [map:cascade-archipelago] 544 yards NE of the Crimson Falls marker, in the middle of a lake.",
     links: [
-        {title: "The Heart of Memory Badge", href: "https://paragonwiki.com/wiki/The_Heart_of_Memory_Badge"}
+        {title: "The Heart of Memory Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Heart_of_Memory_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

@@ -14,7 +14,7 @@ export const Decreased: IBadgeData = {
     ],
     acquisition: "Complete a level 36-40 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Decreased Badge", href: "https://paragonwiki.com/wiki/Decreased_Badge"}
+        {title: "Decreased Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Decreased_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/decreased.png"}]
 };

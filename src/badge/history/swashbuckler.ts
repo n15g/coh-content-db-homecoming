@@ -16,7 +16,7 @@ export const Swashbuckler: IBadgeData = {
         {value: `Arrgh, matey! You be a mighty scholar o' piracy!`}
     ],
     links: [
-        {title: "Swashbuckler Badge", href: "https://paragonwiki.com/wiki/Swashbuckler_Badge"}
+        {title: "Swashbuckler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Swashbuckler_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png"}

@@ -9,7 +9,7 @@ export const NuclearPowered: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Endurance Modification and Endurance Reduction."}],
     effect: "+2 to Invention Salvage capacity",
     links: [
-        {title: "Nuclear Powered Badge", href: "https://paragonwiki.com/wiki/Nuclear_Powered_Badge"}
+        {title: "Nuclear Powered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nuclear_Powered_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [

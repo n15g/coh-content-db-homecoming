@@ -14,7 +14,7 @@ export const Curtailed: IBadgeData = {
     ],
     acquisition: "Complete a level 16-20 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Curtailed Badge", href: "https://paragonwiki.com/wiki/Curtailed_Badge"}
+        {title: "Curtailed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Curtailed_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/curtailed.png"}]
 };

@@ -22,19 +22,19 @@ export const StormingThePalace: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TheStormPalace.key}]`,
     links: [
-        {title: "Storming the Palace Badge", href: "https://paragonwiki.com/wiki/Storming_the_Palace_Badge"}
+        {title: "Storming the Palace Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Storming_the_Palace_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: AcolyteOfAnger.key, type: BadgePartialType.BADGE, badgeKey: AcolyteOfAnger.key},
-            {key: CourtingMadness.key, type: BadgePartialType.BADGE, badgeKey: CourtingMadness.key},
-            {key: EveOfDestruction.key, type: BadgePartialType.BADGE, badgeKey: EveOfDestruction.key},
-            {key: FistOfFury.key, type: BadgePartialType.BADGE, badgeKey: FistOfFury.key},
-            {key: HateMachine.key, type: BadgePartialType.BADGE, badgeKey: HateMachine.key},
-            {key: LordOfStorms.key, type: BadgePartialType.BADGE, badgeKey: LordOfStorms.key},
-            {key: MaliceAforethought.key, type: BadgePartialType.BADGE, badgeKey: MaliceAforethought.key},
-            {key: Tormented.key, type: BadgePartialType.BADGE, badgeKey: Tormented.key}
+        {key: AcolyteOfAnger.key, type: BadgePartialType.BADGE, badgeKey: AcolyteOfAnger.key},
+        {key: CourtingMadness.key, type: BadgePartialType.BADGE, badgeKey: CourtingMadness.key},
+        {key: EveOfDestruction.key, type: BadgePartialType.BADGE, badgeKey: EveOfDestruction.key},
+        {key: FistOfFury.key, type: BadgePartialType.BADGE, badgeKey: FistOfFury.key},
+        {key: HateMachine.key, type: BadgePartialType.BADGE, badgeKey: HateMachine.key},
+        {key: LordOfStorms.key, type: BadgePartialType.BADGE, badgeKey: LordOfStorms.key},
+        {key: MaliceAforethought.key, type: BadgePartialType.BADGE, badgeKey: MaliceAforethought.key},
+        {key: Tormented.key, type: BadgePartialType.BADGE, badgeKey: Tormented.key}
     ]
 };

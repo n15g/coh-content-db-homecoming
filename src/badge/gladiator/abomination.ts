@@ -13,7 +13,7 @@ export const Abomination: IBadgeData = {
     ],
     acquisition: "Earn the [badge:synapses-cohort] Badge (Vahzilok)",
     links: [
-        {title: "Abomination Badge", href: "https://paragonwiki.com/wiki/Abomination_Badge"}
+        {title: "Abomination Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Abomination_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

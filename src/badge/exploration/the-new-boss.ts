@@ -16,7 +16,7 @@ export const TheNewBoss: IBadgeData = {
     }],
     notes: "Located in [map:underground-neutropolis] 263 yards NW of the Resistance Surface Access.",
     links: [
-        {title: "The New Boss Badge", href: "https://paragonwiki.com/wiki/The_New_Boss_Badge"}
+        {title: "The New Boss Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_New_Boss_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "8"

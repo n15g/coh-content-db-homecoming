@@ -20,8 +20,8 @@ export const FoundersHero: IBadgeData = {
     }],
     notes: "Located 114 yards NNE of the hospital in [map:founders-falls], directly in front of Janet Kellum and Maxwell Christopher.",
     links: [
-        {title: "Founders' Hero Badge", href: "https://paragonwiki.com/wiki/Founders%27_Hero_Badge"},
-        {title: "Founders' Loss Badge", href: "https://paragonwiki.com/wiki/Founders%27_Loss_Badge"}
+        {title: "Founders' Hero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Founders%27_Hero_Badge"},
+        {title: "Founders' Loss Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Founders%27_Loss_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

@@ -22,19 +22,19 @@ export const CitizenOfSalamanca: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Croatoa.key}]`,
     links: [
-        {title: "Citizen of Salamanca Badge", href: "https://paragonwiki.com/wiki/Citizen_of_Salamanca_Badge"}
+        {title: "Citizen of Salamanca Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Citizen_of_Salamanca_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: GrimWanderer.key, type: BadgePartialType.BADGE, badgeKey: GrimWanderer.key},
-            {key: Spiritual.key, type: BadgePartialType.BADGE, badgeKey: Spiritual.key},
-            {key: Ensorcelled.key, type: BadgePartialType.BADGE, badgeKey: Ensorcelled.key},
-            {key: BarrierHolder.key, type: BadgePartialType.BADGE, badgeKey: BarrierHolder.key},
-            {key: SallySightseer.key, type: BadgePartialType.BADGE, badgeKey: SallySightseer.key},
-            {key: JacksWrath.key, type: BadgePartialType.BADGE, badgeKey: JacksWrath.key},
-            {key: WaylonsObserver.key, type: BadgePartialType.BADGE, badgeKey: WaylonsObserver.key},
-            {key: MidnightersPerseverance.key, type: BadgePartialType.BADGE, badgeKey: MidnightersPerseverance.key}
+        {key: GrimWanderer.key, type: BadgePartialType.BADGE, badgeKey: GrimWanderer.key},
+        {key: Spiritual.key, type: BadgePartialType.BADGE, badgeKey: Spiritual.key},
+        {key: Ensorcelled.key, type: BadgePartialType.BADGE, badgeKey: Ensorcelled.key},
+        {key: BarrierHolder.key, type: BadgePartialType.BADGE, badgeKey: BarrierHolder.key},
+        {key: SallySightseer.key, type: BadgePartialType.BADGE, badgeKey: SallySightseer.key},
+        {key: JacksWrath.key, type: BadgePartialType.BADGE, badgeKey: JacksWrath.key},
+        {key: WaylonsObserver.key, type: BadgePartialType.BADGE, badgeKey: WaylonsObserver.key},
+        {key: MidnightersPerseverance.key, type: BadgePartialType.BADGE, badgeKey: MidnightersPerseverance.key}
     ]
 };

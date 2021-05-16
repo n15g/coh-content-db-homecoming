@@ -16,8 +16,8 @@ export const VanguardRecruit: IBadgeData = {
     effect: "Day Job: Bonus Vanguard Merits upon mission completion",
     notes: "You must be level 35 before this badge will unlock, however you can earn credit toward this badge before then.",
     links: [
-        {title: "Vanguard Recruit Badge", href: "https://paragonwiki.com/wiki/Vanguard_Recruit_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Vanguard Recruit Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vanguard_Recruit_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/vanguard-recruit.png"}]
 };

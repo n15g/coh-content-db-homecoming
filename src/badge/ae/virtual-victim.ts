@@ -11,7 +11,7 @@ export const VirtualVictim: IBadgeData = {
     badgeText: [{value: "You've been defeated within a virtual environment earning yourself the Virtual Victim badge."}],
     acquisition: "Be defeated in a Mission Architect mission while in Test Mode.",
     links: [
-        {title: "Virtual Victim Badge", href: "https://paragonwiki.com/wiki/Virtual_Victim_Badge"}
+        {title: "Virtual Victim Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Virtual_Victim_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/virtual-victim.png"}]
 };

@@ -13,7 +13,7 @@ export const WarCriminal: IBadgeData = {
     ],
     acquisition: "Complete the first story arc from Mr. G (Primal Earth)",
     links: [
-        {title: "War Criminal Badge", href: "https://paragonwiki.com/wiki/War_Criminal_Badge"}
+        {title: "War Criminal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/War_Criminal_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-arc.png"}

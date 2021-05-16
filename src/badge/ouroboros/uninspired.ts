@@ -14,7 +14,7 @@ export const Uninspired: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc using no inspirations.",
     links: [
-        {title: "Uninspired Badge", href: "https://paragonwiki.com/wiki/Uninspired_Badge"}
+        {title: "Uninspired Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Uninspired_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/uninspired.png"}]
 };

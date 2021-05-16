@@ -14,7 +14,7 @@ export const LongbowDefender: IBadgeData = {
     ],
     acquisition: "Earn the [badge:disruptor] Badge (Longbow)",
     links: [
-        {title: "Longbow Defender Badge", href: "https://paragonwiki.com/wiki/Longbow_Warden_2_Badge"}
+        {title: "Longbow Defender Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longbow_Warden_2_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

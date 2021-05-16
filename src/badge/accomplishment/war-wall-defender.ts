@@ -14,8 +14,8 @@ export const WarWallDefender: IBadgeData = {
     ],
     acquisition: "Complete the Rescue the engineers and prevent the Rikti from bringing down the force fields mission from Phillipa Meraux",
     links: [
-        {title: "War Wall Defender Badge", href: "https://paragonwiki.com/wiki/War_Wall_Defender_Badge"},
-        {title: "Saboteur Badge", href: "https://paragonwiki.com/wiki/Saboteur_Badge"}
+        {title: "War Wall Defender Badge", href: "https://hcwiki.cityofheroes.dev/wiki/War_Wall_Defender_Badge"},
+        {title: "Saboteur Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Saboteur_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/war-wall-defender.png"}

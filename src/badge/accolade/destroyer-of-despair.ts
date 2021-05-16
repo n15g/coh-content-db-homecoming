@@ -14,7 +14,7 @@ export const DestroyerOfDespair: IBadgeData = {
     ],
     notes: `Collect all six story arc completion badges, all six personal mission completion badges, and all five mission achievement badges in [map:${DarkAstoria.key}]`,
     links: [
-        {title: "Destroyer of Despair Badge", href: "https://paragonwiki.com/wiki/Destroyer_of_Despair_Badge"}
+        {title: "Destroyer of Despair Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destroyer_of_Despair_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/destroyer-of-despair.png"}

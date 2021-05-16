@@ -17,7 +17,7 @@ You represent what they fear the most: a dedicated, powerful, fearless insurgent
     }],
     notes: `Located in [map:${FirstWard.key}] in the Free-Fire Zone neighborhood, 90 yards due west of the map marker; east of the CTA building.`,
     links: [
-        {title: "Fearless Insurgent Badge", href: "https://paragonwiki.com/wiki/Fearless_Insurgent_Badge"}
+        {title: "Fearless Insurgent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fearless_Insurgent_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

@@ -10,13 +10,15 @@ export const JudgeJury: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You defeated one of the signature \"Rogues Gallery\" characters in an Alignment or Morality " +
-        "mission earning yourself this badge."}
+        {
+            value: "You defeated one of the signature \"Rogues Gallery\" characters in an Alignment or Morality " +
+                "mission earning yourself this badge."
+        }
     ],
     acquisition: "Defeat a Rogue's Gallery character in an Alignment Mission or a Morality Mission",
     links: [
-        {title: "Judge & Jury Badge", href: "https://paragonwiki.com/wiki/Judge_%26_Jury_Badge"},
-        {title: "Merciless Badge", href: "https://paragonwiki.com/wiki/Merciless_Badge"}
+        {title: "Judge & Jury Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Judge_%26_Jury_Badge"},
+        {title: "Merciless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Merciless_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/judge-jury.png"}

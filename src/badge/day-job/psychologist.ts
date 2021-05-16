@@ -15,8 +15,8 @@ export const Psychologist: IBadgeData = {
     acquisition: "Log out inside the Mother of Mercy Hospital in First Ward for 100 hours.",
     effect: "Day Job: +Res (Psi), +Def (Psi)",
     links: [
-        {title: "Psychologist Badge", href: "https://paragonwiki.com/wiki/Psychologist_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Psychologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Psychologist_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/psychologist.png"}]
 };

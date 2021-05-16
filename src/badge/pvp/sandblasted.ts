@@ -13,7 +13,7 @@ export const Sandblasted: IBadgeData = {
     ],
     acquisition: "Defeat Scirocco in Recluse's Victory",
     links: [
-        {title: "Sandblasted Badge", href: "https://paragonwiki.com/wiki/Sandblasted_Badge"}
+        {title: "Sandblasted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sandblasted_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/sandblasted.png"}

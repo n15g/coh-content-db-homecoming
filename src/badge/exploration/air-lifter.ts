@@ -12,7 +12,7 @@ export const AirLifter: IBadgeData = {
     badgeText: [{value: "This is where workers in Terra Volta are air lifted in. From here, they're taken by several Longbow skiffs into the heart of the reactor."}],
     notes: "The Air Lifter Badge is in the Power Island neighborhood of Independence Port.\n\nIt is 38 yards slightly northeast of the Terra Volta gate.",
     links: [
-        {title: "Air Lifter Badge", href: "https://paragonwiki.com/wiki/Air_Lifter_Badge"}
+        {title: "Air Lifter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Air_Lifter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

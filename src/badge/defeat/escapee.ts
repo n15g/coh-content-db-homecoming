@@ -9,12 +9,14 @@ export const Escapee: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "Despite all of their genetic modifications and cybernetics, the Failed Experiments were no " +
-        "match for you. You defeated several waves of Failed Experiments to earn this badge."}
+        {
+            value: "Despite all of their genetic modifications and cybernetics, the Failed Experiments were no " +
+                "match for you. You defeated several waves of Failed Experiments to earn this badge."
+        }
     ],
     acquisition: "Defeat 100 points worth of Failed Experiments",
     links: [
-        {title: "Escapee Badge", href: "https://paragonwiki.com/wiki/Escapee_Badge"}
+        {title: "Escapee Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Escapee_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/escapee.png"}

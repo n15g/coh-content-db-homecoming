@@ -13,7 +13,7 @@ export const Agent: IBadgeData = {
     ],
     acquisition: "Complete the Eliminate Marauder's Cell mission from Maria Jenkins",
     links: [
-        {title: "Agent Badge", href: "https://paragonwiki.com/wiki/Agent_Badge"}
+        {title: "Agent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agent_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/agent.png"}

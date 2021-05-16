@@ -16,7 +16,7 @@ export const BirdWatcher: IBadgeData = {
         " Though not directly accessible, there is a fire escape that leads up the eastern side of the building." +
         " A non-airborne hero may access the badge by climbing up the fire escape and jumping to the ledge from a higher height.",
     links: [
-        {title: "Bird Watcher Badge", href: "https://paragonwiki.com/wiki/Bird_Watcher_Badge"}
+        {title: "Bird Watcher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bird_Watcher_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

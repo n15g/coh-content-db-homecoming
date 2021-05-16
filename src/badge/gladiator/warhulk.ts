@@ -13,7 +13,7 @@ export const Warhulk: IBadgeData = {
     ],
     acquisition: "Earn the [badge:meteorologist] Badge (Nemesis)",
     links: [
-        {title: "Warhulk Badge", href: "https://paragonwiki.com/wiki/Warhulk_Badge"}
+        {title: "Warhulk Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Warhulk_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

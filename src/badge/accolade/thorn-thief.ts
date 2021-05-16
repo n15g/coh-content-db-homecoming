@@ -13,7 +13,7 @@ export const ThornThief: IBadgeData = {
     ],
     notes: `Complete the level 34-43 Tree of Thorns Respecification Trial from Trepsarciel`,
     links: [
-        {title: "Thorn Thief Badge", href: "https://paragonwiki.com/wiki/Thorn_Thief_Badge"}
+        {title: "Thorn Thief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Thief_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/thorn-thief.png"}

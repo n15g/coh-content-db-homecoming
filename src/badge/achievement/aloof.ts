@@ -14,6 +14,6 @@ export const Aloof: IBadgeData = {
     ],
     acquisition: "Reject 50 inspiration drops.",
     links: [
-        {title: "Aloof Badge", href: "https://paragonwiki.com/wiki/Aloof_Badge"}
+        {title: "Aloof Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Aloof_Badge"}
     ],
 };

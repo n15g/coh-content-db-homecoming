@@ -13,7 +13,7 @@ export const Silencer: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Incarnate-level Knives of Vengeance",
     links: [
-        {title: "Silencer Badge", href: "https://paragonwiki.com/wiki/Silencer_Badge"}
+        {title: "Silencer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Silencer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/silencer.png"}

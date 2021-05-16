@@ -14,7 +14,7 @@ export const Asunder: IBadgeData = {
         "\n" +
         "On top of the pillbox.",
     links: [
-        {title: "Asunder Badge", href: "https://paragonwiki.com/wiki/Asunder_Badge"},
+        {title: "Asunder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Asunder_Badge"},
         {title: "Echo: Rikti Crash Site Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

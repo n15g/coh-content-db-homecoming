@@ -23,16 +23,16 @@ export const Warlord: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Warburg.key}]`,
     links: [
-        {title: "Warlord Badge", href: "https://paragonwiki.com/wiki/Warlord_Badge"}
+        {title: "Warlord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Warlord_Badge"}
     ],
     partials: [
-            {key: WeaponInspector.key, type: BadgePartialType.BADGE, badgeKey: WeaponInspector.key},
-            {key: TunnelRat.key, type: BadgePartialType.BADGE, badgeKey: TunnelRat.key},
-            {key: Triumphant.key, type: BadgePartialType.BADGE, badgeKey: Triumphant.key},
-            {key: Nuclear.key, type: BadgePartialType.BADGE, badgeKey: Nuclear.key},
-            {key: ForciblyEvicted.key, type: BadgePartialType.BADGE, badgeKey: ForciblyEvicted.key},
-            {key: Disassembled.key, type: BadgePartialType.BADGE, badgeKey: Disassembled.key},
-            {key: GameOver.key, type: BadgePartialType.BADGE, badgeKey: GameOver.key},
-            {key: Herculean.key, type: BadgePartialType.BADGE, badgeKey: Herculean.key}
+        {key: WeaponInspector.key, type: BadgePartialType.BADGE, badgeKey: WeaponInspector.key},
+        {key: TunnelRat.key, type: BadgePartialType.BADGE, badgeKey: TunnelRat.key},
+        {key: Triumphant.key, type: BadgePartialType.BADGE, badgeKey: Triumphant.key},
+        {key: Nuclear.key, type: BadgePartialType.BADGE, badgeKey: Nuclear.key},
+        {key: ForciblyEvicted.key, type: BadgePartialType.BADGE, badgeKey: ForciblyEvicted.key},
+        {key: Disassembled.key, type: BadgePartialType.BADGE, badgeKey: Disassembled.key},
+        {key: GameOver.key, type: BadgePartialType.BADGE, badgeKey: GameOver.key},
+        {key: Herculean.key, type: BadgePartialType.BADGE, badgeKey: Herculean.key}
     ]
 };

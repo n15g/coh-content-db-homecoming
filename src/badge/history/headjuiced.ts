@@ -18,7 +18,7 @@ export const Headjuiced: IBadgeData = {
         {value: `You followed all the fruity crumbs and peeped the 20 lessons brought to you by the letter 'Resistance.' Whether or not you chomp-a-chomp on this tasty knowing is up to you, but now you know it's time for the other half of the battle.`}
     ],
     links: [
-        {title: "Headjuiced Badge", href: "https://paragonwiki.com/wiki/Headjuiced_Badge"}
+        {title: "Headjuiced Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Headjuiced_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png"}

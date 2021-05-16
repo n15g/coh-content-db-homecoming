@@ -9,12 +9,14 @@ export const TimeTraveler: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "It seems you have mastered the recursive time flux of Lord Recluse's victory. You've spent one " +
-        "hour here, though it seems like much longer."}
+        {
+            value: "It seems you have mastered the recursive time flux of Lord Recluse's victory. You've spent one " +
+                "hour here, though it seems like much longer."
+        }
     ],
     acquisition: "Spend 1 hour in Recluse's Victory",
     links: [
-        {title: "Time Traveler Badge", href: "https://paragonwiki.com/wiki/Time_Traveler_Badge"}
+        {title: "Time Traveler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Traveler_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},

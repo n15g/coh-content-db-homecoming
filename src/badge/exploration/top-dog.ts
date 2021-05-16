@@ -18,7 +18,7 @@ export const TopDog: IBadgeData = {
         "\n" +
         "Requires fly, superjump, or teleport, or to arrange to have another hero transport them to the badge marker.",
     links: [
-        {title: "Top Dog Badge", href: "https://paragonwiki.com/wiki/Top_Dog_Badge"}
+        {title: "Top Dog Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Top_Dog_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

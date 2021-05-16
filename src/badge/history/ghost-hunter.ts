@@ -14,7 +14,7 @@ export const GhostHunter: IBadgeData = {
         {value: `You have learned the rumors behind the fabled Ghost Ship.`}
     ],
     links: [
-        {title: "Ghost Hunter Badge", href: "https://paragonwiki.com/wiki/Ghost_Hunter_Badge"}
+        {title: "Ghost Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ghost_Hunter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

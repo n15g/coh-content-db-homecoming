@@ -13,7 +13,7 @@ export const AlphaUnlocked: IBadgeData = {
     ],
     notes: `Unlock your Alpha Incarnate slot`,
     links: [
-        {title: "Alpha Unlocked Badge", href: "https://paragonwiki.com/wiki/Alpha_Unlocked_Badge"}
+        {title: "Alpha Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alpha_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/alpha-unlocked.png"}

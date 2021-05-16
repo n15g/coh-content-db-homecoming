@@ -16,7 +16,7 @@ export const WashedUp: IBadgeData = {
 
 From the Fort Hades marker, head due east until you reach the water. There is an old rusted blue car on your left. The badge marker is on top of that car.`,
     links: [
-        {title: "Washed Up Badge", href: "https://paragonwiki.com/wiki/Washed_Up_Badge"}
+        {title: "Washed Up Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Washed_Up_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "2"

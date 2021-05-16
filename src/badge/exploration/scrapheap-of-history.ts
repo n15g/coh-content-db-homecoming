@@ -18,7 +18,7 @@ Since its destruction, that new technique the Number 6 plant was designed to tes
     }],
     notes: `194 yards SSW of the Carter Engineering marker, between two destroyed walls in the southeast corner of the zone.`,
     links: [
-        {title: "Scrapheap of History Badge", href: "https://paragonwiki.com/wiki/Scrapheap_of_History_Badge"}
+        {title: "Scrapheap of History Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scrapheap_of_History_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

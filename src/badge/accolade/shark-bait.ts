@@ -15,8 +15,8 @@ export const SharkBait: IBadgeData = {
     ],
     notes: `Complete Captain Mako's patron story arc`,
     links: [
-        {title: "Shark Bait Badge", href: "https://paragonwiki.com/wiki/Shark_Bait_Badge"},
-        {title: "Bloodletter Badge", href: "https://paragonwiki.com/wiki/Bloodletter_Badge"}
+        {title: "Shark Bait Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shark_Bait_Badge"},
+        {title: "Bloodletter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bloodletter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/shark-bait.png"}

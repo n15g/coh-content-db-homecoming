@@ -13,7 +13,7 @@ export const NinjaMonkey: IBadgeData = {
     ],
     acquisition: "In the Summer Blockbuster, defeat a total of 75 ninjas and monkeys during a single \"Time Gladiator\" match.",
     links: [
-        {title: "Ninja Monkey Badge", href: "https://paragonwiki.com/wiki/Ninja_Monkey_Badge"}
+        {title: "Ninja Monkey Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ninja_Monkey_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/ninja-monkey.png"}]
 };

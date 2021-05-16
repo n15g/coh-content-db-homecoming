@@ -9,12 +9,14 @@ export const Promethean: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You manipulated Mortimer Kal into helping you acquire some of the Flames of Prometheus from " +
-        "Positron!"}
+        {
+            value: "You manipulated Mortimer Kal into helping you acquire some of the Flames of Prometheus from " +
+                "Positron!"
+        }
     ],
     acquisition: "Complete the Mortimer Kal Strike Force",
     links: [
-        {title: "Promethean Badge", href: "https://paragonwiki.com/wiki/Promethean_Badge"}
+        {title: "Promethean Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Promethean_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/promethean.png"}

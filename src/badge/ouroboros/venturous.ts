@@ -14,7 +14,7 @@ export const Venturous: IBadgeData = {
     ],
     acquisition: "Complete a level 1-15 Flashback story arc while debuffed.",
     links: [
-        {title: "Venturous Badge", href: "https://paragonwiki.com/wiki/Venturous_Badge"}
+        {title: "Venturous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Venturous_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/venturous.png"}]
 };

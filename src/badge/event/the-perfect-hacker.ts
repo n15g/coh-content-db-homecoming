@@ -19,7 +19,7 @@ export const ThePerfectHacker: IBadgeData = {
         "\n" +
         "A character with high defense may be able to click the terminals while under fire, others should try to use stealth and timing.",
     links: [
-        {title: "The Perfect Hacker Badge", href: "https://paragonwiki.com/wiki/The_Perfect_Hacker_Badge"}
+        {title: "The Perfect Hacker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Perfect_Hacker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/the-perfect-hacker.png"}]
 };

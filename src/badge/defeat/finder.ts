@@ -13,7 +13,7 @@ export const Finder: IBadgeData = {
     ],
     acquisition: "Defeat 100 The Lost bosses",
     links: [
-        {title: "Finder Badge", href: "https://paragonwiki.com/wiki/Finder_Badge"}
+        {title: "Finder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Finder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/finder.png"}

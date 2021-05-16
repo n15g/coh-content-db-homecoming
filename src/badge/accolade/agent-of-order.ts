@@ -15,7 +15,7 @@ export const AgentOfOrder: IBadgeData = {
     ],
     notes: `Complete every story arc in [map:${AtlasPark.key}] to earn this badge. [Rewards 20 Merits]`,
     links: [
-        {title: "Agent of Order Badge", href: "https://paragonwiki.com/wiki/Agent_of_Order_Badge"}
+        {title: "Agent of Order Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agent_of_Order_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}

@@ -11,13 +11,15 @@ export const Justiciar: IBadgeData = {
     alignment: ALIGNMENT_HERO,
     badgeText: [
         {type: Alternate.H, value: "You have helped defeat all the Signature Villains in Recluse's Victory, making you a Justiciar."},
-        {type: Alternate.V, value: "Defeating all the Signature Villains in Recluse's Victory has made your fall to villainy only " +
-        "that much sweeter. Now Recluse and his group won't even think about crossing you."}
+        {
+            type: Alternate.V, value: "Defeating all the Signature Villains in Recluse's Victory has made your fall to villainy only " +
+                "that much sweeter. Now Recluse and his group won't even think about crossing you."
+        }
     ],
     acquisition: "Defeat all five Signature Villains in Recluse's Victory",
     links: [
-        {title: "Justiciar Badge", href: "https://paragonwiki.com/wiki/Justiciar_Badge"},
-        {title: "Fallen Justiciar Badge", href: "https://paragonwiki.com/wiki/Fallen_Justiciar_Badge"}
+        {title: "Justiciar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Justiciar_Badge"},
+        {title: "Fallen Justiciar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fallen_Justiciar_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatrecluse.png"}

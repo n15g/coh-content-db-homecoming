@@ -13,7 +13,7 @@ export const NemesisSoldier: IBadgeData = {
     ],
     acquisition: "Earn the [badge:corrupter] Badge (Nemesis)",
     links: [
-        {title: "Nemesis Soldier Badge", href: "https://paragonwiki.com/wiki/Nemesis_Soldier_Badge"}
+        {title: "Nemesis Soldier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nemesis_Soldier_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

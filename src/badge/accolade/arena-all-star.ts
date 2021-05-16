@@ -18,16 +18,16 @@ export const ArenaAllStar: IBadgeData = {
     ],
     notes: `Earn the five arena match badges`,
     links: [
-        {title: "Arena All-Star Badge", href: "https://paragonwiki.com/wiki/Arena_All-Star_Badge"}
+        {title: "Arena All-Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arena_All-Star_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/arena-all-star.png"}
     ],
     partials: [
-            {key: ArenaVictor.key, type: BadgePartialType.BADGE, badgeKey: ArenaVictor.key},
-            {key: ArenaDuelist.key, type: BadgePartialType.BADGE, badgeKey: ArenaDuelist.key},
-            {key: TournamentVictor.key, type: BadgePartialType.BADGE, badgeKey: TournamentVictor.key},
-            {key: ArenaSurvivalist.key, type: BadgePartialType.BADGE, badgeKey: ArenaSurvivalist.key},
-            {key: PentadVictor.key, type: BadgePartialType.BADGE, badgeKey: PentadVictor.key}
+        {key: ArenaVictor.key, type: BadgePartialType.BADGE, badgeKey: ArenaVictor.key},
+        {key: ArenaDuelist.key, type: BadgePartialType.BADGE, badgeKey: ArenaDuelist.key},
+        {key: TournamentVictor.key, type: BadgePartialType.BADGE, badgeKey: TournamentVictor.key},
+        {key: ArenaSurvivalist.key, type: BadgePartialType.BADGE, badgeKey: ArenaSurvivalist.key},
+        {key: PentadVictor.key, type: BadgePartialType.BADGE, badgeKey: PentadVictor.key}
     ]
 };

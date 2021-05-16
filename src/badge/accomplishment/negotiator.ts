@@ -13,7 +13,7 @@ export const Negotiator: IBadgeData = {
     ],
     acquisition: "Complete the Get the Clockwork out of the warehouse before the Skulls get involved mission from Tony Kord, Paula Dempsey, or Maurice Feldon",
     links: [
-        {title: "Negotiator Badge", href: "https://paragonwiki.com/wiki/Negotiator_Badge"}
+        {title: "Negotiator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Negotiator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/negotiator.png"}

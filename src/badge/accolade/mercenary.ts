@@ -16,13 +16,13 @@ export const Mercenary: IBadgeData = {
     ],
     notes: `Earn the [badge:vanguard-recruit] and [badge:patroller] Day Jobs`,
     links: [
-        {title: "Mercenary Badge", href: "https://paragonwiki.com/wiki/Mercenary_Badge"}
+        {title: "Mercenary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mercenary_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mercenary.png"}
     ],
     partials: [
-            {key: VanguardRecruit.key, type: BadgePartialType.BADGE, badgeKey: VanguardRecruit.key},
-            {key: Patroller.key, type: BadgePartialType.BADGE, badgeKey: Patroller.key}
+        {key: VanguardRecruit.key, type: BadgePartialType.BADGE, badgeKey: VanguardRecruit.key},
+        {key: Patroller.key, type: BadgePartialType.BADGE, badgeKey: Patroller.key}
     ]
 };

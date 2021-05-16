@@ -13,7 +13,7 @@ export const Heroic: IBadgeData = {
     notes: "This badge is only awarded to characters of the hero or vigilante alignments." +
         " Although credit for this badge may be earned by villains or rogues, the badge will not be awarded to a character until they change alignment.",
     links: [
-        {title: "Heroic Badge", href: "https://paragonwiki.com/wiki/Heroic_Badge"}
+        {title: "Heroic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heroic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/heroic.png"}]
 };

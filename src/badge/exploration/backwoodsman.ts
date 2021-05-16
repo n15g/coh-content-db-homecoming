@@ -15,7 +15,7 @@ export const Backwoodsman: IBadgeData = {
     }],
     notes: "Roughly 697 yards S-SE from the Eastgate Heights' marker.",
     links: [
-        {title: "Backwoodsman Badge", href: "https://paragonwiki.com/wiki/Backwoodsman_Badge"}
+        {title: "Backwoodsman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Backwoodsman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

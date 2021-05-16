@@ -14,7 +14,7 @@ export const Excavator: IBadgeData = {
     ],
     notes: `Complete every story arc in [map:${TheHollows.key}]. [Rewards 20 Merits]`,
     links: [
-        {title: "Excavator Badge", href: "https://paragonwiki.com/wiki/Excavator_Badge"}
+        {title: "Excavator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Excavator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}

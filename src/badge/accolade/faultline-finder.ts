@@ -22,19 +22,19 @@ export const FaultlineFinder: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Faultline.key}]`,
     links: [
-        {title: "Faultline Finder Badge", href: "https://paragonwiki.com/wiki/Faultline_Finder_Badge"}
+        {title: "Faultline Finder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Faultline_Finder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: EscapeArtist.key, type: BadgePartialType.BADGE, badgeKey: EscapeArtist.key},
-            {key: DrownedRat.key, type: BadgePartialType.BADGE, badgeKey: DrownedRat.key},
-            {key: OldFashioned.key, type: BadgePartialType.BADGE, badgeKey: OldFashioned.key},
-            {key: EggHunter.key, type: BadgePartialType.BADGE, badgeKey: EggHunter.key},
-            {key: Undammed.key, type: BadgePartialType.BADGE, badgeKey: Undammed.key},
-            {key: Upcycled.key, type: BadgePartialType.BADGE, badgeKey: Upcycled.key},
-            {key: Riveting.key, type: BadgePartialType.BADGE, badgeKey: Riveting.key},
-            {key: RockBottom.key, type: BadgePartialType.BADGE, badgeKey: RockBottom.key}
+        {key: EscapeArtist.key, type: BadgePartialType.BADGE, badgeKey: EscapeArtist.key},
+        {key: DrownedRat.key, type: BadgePartialType.BADGE, badgeKey: DrownedRat.key},
+        {key: OldFashioned.key, type: BadgePartialType.BADGE, badgeKey: OldFashioned.key},
+        {key: EggHunter.key, type: BadgePartialType.BADGE, badgeKey: EggHunter.key},
+        {key: Undammed.key, type: BadgePartialType.BADGE, badgeKey: Undammed.key},
+        {key: Upcycled.key, type: BadgePartialType.BADGE, badgeKey: Upcycled.key},
+        {key: Riveting.key, type: BadgePartialType.BADGE, badgeKey: Riveting.key},
+        {key: RockBottom.key, type: BadgePartialType.BADGE, badgeKey: RockBottom.key}
     ]
 };

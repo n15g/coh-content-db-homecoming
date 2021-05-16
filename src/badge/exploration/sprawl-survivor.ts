@@ -17,7 +17,7 @@ export const SprawlSurvivor: IBadgeData = {
     }],
     notes: `Located in [map:abandoned-sewer-network] 79 feet northwest of the [${SewerNetwork.key}] transfer point in Skyway City Network, right at the exit of the room.`,
     links: [
-        {title: "Sprawl Survivor Badge", href: "https://paragonwiki.com/wiki/Sprawl_Survivor_Badge"}
+        {title: "Sprawl Survivor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sprawl_Survivor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

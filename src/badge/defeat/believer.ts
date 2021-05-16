@@ -13,7 +13,7 @@ export const Believer: IBadgeData = {
     ],
     acquisition: "Defeat Sally, a monster that spawns in Croatoa, twice",
     links: [
-        {title: "Believer Badge", href: "https://paragonwiki.com/wiki/Believer_Badge"}
+        {title: "Believer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Believer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/believer.png"}

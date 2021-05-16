@@ -13,7 +13,7 @@ export const MidnighterArchivist: IBadgeData = {
         {value: `You have learned the secrets of the Midnighter Club.`}
     ],
     links: [
-        {title: "Midnighter Archivist Badge", href: "https://paragonwiki.com/wiki/Midnighter_Archivist_Badge"}
+        {title: "Midnighter Archivist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Midnighter_Archivist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/midnighter-archivist.png"}

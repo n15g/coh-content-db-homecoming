@@ -16,7 +16,7 @@ Their massive size blots out the sun and the roars they emit rattle the teeth an
     }],
     notes: `Located in [map:${TheHive.key}] 868 yards northwest of the [map:${Eden.key}] transfer point, between a cliff and spire beyond the northeast edge of the crater.`,
     links: [
-        {title: "Among the Giants Badge", href: "https://paragonwiki.com/wiki/Among_the_Giants_Badge"}
+        {title: "Among the Giants Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Among_the_Giants_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

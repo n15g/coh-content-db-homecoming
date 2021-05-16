@@ -17,7 +17,7 @@ It was supposed to be fixed, but progress kept halting as workers became too dis
 
 It is 230 yards northeast of the Tangle marker on the ledge where you can find both Shadow Spider and Viridian, approximately halfway up the tower..`,
     links: [
-        {title: "Image Crasher Badge", href: "https://paragonwiki.com/wiki/Image_Crasher_Badge"}
+        {title: "Image Crasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Image_Crasher_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"

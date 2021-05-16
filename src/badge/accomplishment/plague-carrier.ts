@@ -13,7 +13,7 @@ export const PlagueCarrier: IBadgeData = {
     ],
     acquisition: "Complete the Steal Outbreak from Lost mission from The Radio",
     links: [
-        {title: "Plague Carrier Badge", href: "https://paragonwiki.com/wiki/Plague_Carrier_Badge"}
+        {title: "Plague Carrier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Plague_Carrier_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-2.png"}

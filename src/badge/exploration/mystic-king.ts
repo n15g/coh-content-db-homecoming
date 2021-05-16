@@ -17,8 +17,8 @@ export const MysticKing: IBadgeData = {
     }],
     notes: "The Mystic King Badge is located in Kings Row on a rooftop in the SW part of the Gish neighborhood, 144 yards NNW of the Pocket D entrance.",
     links: [
-        {title: "Mystic King Badge", href: "https://paragonwiki.com/wiki/Mystic_King_Badge"},
-        {title: "Mystic Queen Badge", href: "https://paragonwiki.com/wiki/Mystic_Queen_Badge"}
+        {title: "Mystic King Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mystic_King_Badge"},
+        {title: "Mystic Queen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mystic_Queen_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

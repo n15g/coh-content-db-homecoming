@@ -20,13 +20,13 @@ export const CourageDriven: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Courage Driven Badge", href: "https://paragonwiki.com/wiki/Courage_Driven_Badge"},
-        {title: "Rage Driven Badge", href: "https://paragonwiki.com/wiki/Rage_Driven_Badge"},
+        {title: "Courage Driven Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Courage_Driven_Badge"},
+        {title: "Rage Driven Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rage_Driven_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+    ],
     vidiotMapKey: "1"
 };

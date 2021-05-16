@@ -14,7 +14,7 @@ export const Flat: IBadgeData = {
     ],
     acquisition: "Complete a level 21-25 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Flat Badge", href: "https://paragonwiki.com/wiki/Flat_Badge"}
+        {title: "Flat Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flat_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/flat.png"}]
 };

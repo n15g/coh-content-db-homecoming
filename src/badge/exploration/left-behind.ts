@@ -16,7 +16,7 @@ export const LeftBehind: IBadgeData = {
     }],
     notes: "The Left Behind Badge is in the Hide Park neighborhood of Skyway City. It is in the middle of a small courtyard 238 yards west of the Talos Island zone connection.",
     links: [
-        {title: "Left Behind Badge", href: "https://paragonwiki.com/wiki/Left_Behind_Badge"}
+        {title: "Left Behind Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Left_Behind_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

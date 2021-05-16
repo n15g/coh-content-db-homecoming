@@ -13,7 +13,7 @@ export const ImperialCitysSavior: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Belladonna Vetrano",
     links: [
-        {title: "Imperial City's Savior Badge", href: "https://paragonwiki.com/wiki/Imperial_City%27s_Savior_Badge"}
+        {title: "Imperial City's Savior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Imperial_City%27s_Savior_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/imperial-citys-savior.png"}

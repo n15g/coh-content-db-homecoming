@@ -15,7 +15,7 @@ Here, scattered spirits soar overhead like shooting stars in the night sky, fore
     }],
     notes: `Located in [map:${NightWard.key}], in the City of Souls neighborhood, 433 yards NE of the map marker; at the top of the Night Ward version of the Westerman Building.`,
     links: [
-        {title: "Stargazer Badge", href: "https://paragonwiki.com/wiki/Stargazer_Badge"}
+        {title: "Stargazer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stargazer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "8"

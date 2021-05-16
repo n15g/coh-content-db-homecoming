@@ -13,7 +13,7 @@ export const RedHand: IBadgeData = {
     ],
     acquisition: "Earn the [badge:spectral] Badge (Spectral Pirates)",
     links: [
-        {title: "Red Hand Badge", href: "https://paragonwiki.com/wiki/Red_Hand_Badge"}
+        {title: "Red Hand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Red_Hand_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

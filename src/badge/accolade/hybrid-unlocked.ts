@@ -13,7 +13,7 @@ export const HybridUnlocked: IBadgeData = {
     ],
     notes: `Unlock your Hybrid Incarnate slot`,
     links: [
-        {title: "Hybrid Unlocked Badge", href: "https://paragonwiki.com/wiki/Hybrid_Unlocked_Badge"}
+        {title: "Hybrid Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hybrid_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hybrid-unlocked.png"}

@@ -26,7 +26,7 @@ It is possible to reach the badge marker without flying or teleporting.
  (Note: You must leap onto the diagonal northwest-southeast wall, not the east-west wall.)
  From there, look over the edge of the wall for the outside support, and the badge marker is visible on the tip of it.`,
     links: [
-        {title: "Fortified Badge", href: "https://paragonwiki.com/wiki/Fortified_Badge"}
+        {title: "Fortified Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fortified_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "4"

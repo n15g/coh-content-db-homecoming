@@ -9,15 +9,19 @@ export const CivilizationsSavior: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {type: Alternate.H, value: "You held the line in the last bastion for civilization in Praetoria. You're considered a hero " +
-        "now to these people, who can now establish the beginnings of a new civilization in Praetoria."},
-        {type: Alternate.V, value: "You held the line in the last bastion for civilization in Praetoria. You're considered a hero " +
-        "now to these people, who can now establish the beginnings of a new civilization in Praetoria. " +
-        "All according to your plan, of course."}
+        {
+            type: Alternate.H, value: "You held the line in the last bastion for civilization in Praetoria. You're considered a hero " +
+                "now to these people, who can now establish the beginnings of a new civilization in Praetoria."
+        },
+        {
+            type: Alternate.V, value: "You held the line in the last bastion for civilization in Praetoria. You're considered a hero " +
+                "now to these people, who can now establish the beginnings of a new civilization in Praetoria. " +
+                "All according to your plan, of course."
+        }
     ],
     acquisition: "Complete the story arc from Number Six",
     links: [
-        {title: "Civilization's Savior Badge", href: "https://paragonwiki.com/wiki/Civilization%27s_Savior_Badge"}
+        {title: "Civilization's Savior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Civilization%27s_Savior_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/civilizations-savior.png"}

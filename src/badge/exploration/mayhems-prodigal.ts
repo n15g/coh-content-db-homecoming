@@ -18,7 +18,7 @@ So close to Mother Mayhem now, you can feel the weight of her psyche pressing do
     }],
     notes: `Located in [map:${FirstWard.key}] in the Mother of Mecy Hospital neighborhood, about 3 feet away from the map marker.`,
     links: [
-        {title: "Mayhem's Prodigal Badge", href: "https://paragonwiki.com/wiki/Mayhem%27s_Prodigal_Badge"}
+        {title: "Mayhem's Prodigal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mayhem%27s_Prodigal_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

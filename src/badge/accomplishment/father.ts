@@ -9,12 +9,14 @@ export const Father: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You played Wu Yin's personal story and saw the plan that has been set in motion to try and " +
-        "save Penelope Mayhem."}
+        {
+            value: "You played Wu Yin's personal story and saw the plan that has been set in motion to try and " +
+                "save Penelope Mayhem."
+        }
     ],
     acquisition: "Complete the personal story from Wu Yin",
     links: [
-        {title: "Father Badge", href: "https://paragonwiki.com/wiki/Father_Badge"}
+        {title: "Father Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Father_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-parc.png"}

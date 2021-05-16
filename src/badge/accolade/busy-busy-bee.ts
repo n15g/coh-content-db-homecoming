@@ -22,19 +22,19 @@ export const BusyBusyBee: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TheHive.key}]`,
     links: [
-        {title: "Busy, Busy Bee Badge", href: "https://paragonwiki.com/wiki/Busy%2C_Busy_Bee_Badge"}
+        {title: "Busy, Busy Bee Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Busy%2C_Busy_Bee_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: AmongTheGiants.key, type: BadgePartialType.BADGE, badgeKey: AmongTheGiants.key},
-            {key: BabeInTheWoods.key, type: BadgePartialType.BADGE, badgeKey: BabeInTheWoods.key},
-            {key: ForestOfStone.key, type: BadgePartialType.BADGE, badgeKey: ForestOfStone.key},
-            {key: HeartOfTheHamidon.key, type: BadgePartialType.BADGE, badgeKey: HeartOfTheHamidon.key},
-            {key: TheSoundOfThunder.key, type: BadgePartialType.BADGE, badgeKey: TheSoundOfThunder.key},
-            {key: TheWoundedEarth.key, type: BadgePartialType.BADGE, badgeKey: TheWoundedEarth.key},
-            {key: TimeBandit.key, type: BadgePartialType.BADGE, badgeKey: TimeBandit.key},
-            {key: WildAtHeart.key, type: BadgePartialType.BADGE, badgeKey: WildAtHeart.key}
+        {key: AmongTheGiants.key, type: BadgePartialType.BADGE, badgeKey: AmongTheGiants.key},
+        {key: BabeInTheWoods.key, type: BadgePartialType.BADGE, badgeKey: BabeInTheWoods.key},
+        {key: ForestOfStone.key, type: BadgePartialType.BADGE, badgeKey: ForestOfStone.key},
+        {key: HeartOfTheHamidon.key, type: BadgePartialType.BADGE, badgeKey: HeartOfTheHamidon.key},
+        {key: TheSoundOfThunder.key, type: BadgePartialType.BADGE, badgeKey: TheSoundOfThunder.key},
+        {key: TheWoundedEarth.key, type: BadgePartialType.BADGE, badgeKey: TheWoundedEarth.key},
+        {key: TimeBandit.key, type: BadgePartialType.BADGE, badgeKey: TimeBandit.key},
+        {key: WildAtHeart.key, type: BadgePartialType.BADGE, badgeKey: WildAtHeart.key}
     ]
 };

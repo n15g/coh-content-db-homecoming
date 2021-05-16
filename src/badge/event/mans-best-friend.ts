@@ -17,8 +17,8 @@ export const MansBestFriend: IBadgeData = {
         "\n\n1. **Find Snaptooth and take him out** from DJ Zero during the Valentine's Day Event" +
         "\n2. **Rescue Baby New Year from Snaptooth!** from Father Time during the Winter Events.",
     links: [
-        {title: "Man's Best Friend Badge", href: "https://paragonwiki.com/wiki/Man%27s_Best_Friend_Badge"},
-        {title: "Woman's Best Friend Badge", href: "https://paragonwiki.com/wiki/Woman%27s_Best_Friend_Badge"}
+        {title: "Man's Best Friend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Man%27s_Best_Friend_Badge"},
+        {title: "Woman's Best Friend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Woman%27s_Best_Friend_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/mans-best-friend.png"}]
 };

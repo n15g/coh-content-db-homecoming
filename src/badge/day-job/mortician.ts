@@ -15,8 +15,8 @@ export const Mortician: IBadgeData = {
     acquisition: "Log out a Graveyard for 100 hours.",
     effect: "Day Job: XP Debt protection",
     links: [
-        {title: "Mortician Badge", href: "https://paragonwiki.com/wiki/Mortician_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Mortician Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mortician_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/mortician.png"}]
 };

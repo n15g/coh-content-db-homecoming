@@ -13,7 +13,7 @@ export const Gremlin: IBadgeData = {
     ],
     acquisition: "Earn the [badge:electrician] Badge (Cap au Diable Demons)",
     links: [
-        {title: "Gremlin Badge", href: "https://paragonwiki.com/wiki/Gremlin_Badge"}
+        {title: "Gremlin Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gremlin_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

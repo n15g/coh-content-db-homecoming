@@ -13,7 +13,7 @@ export const FireThornCaster: IBadgeData = {
     ],
     acquisition: "Earn the [badge:defender-of-truth] Badge (Circle of Thorns)",
     links: [
-        {title: "Fire Thorn Caster Badge", href: "https://paragonwiki.com/wiki/Fire_Thorn_Caster_Badge"}
+        {title: "Fire Thorn Caster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fire_Thorn_Caster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

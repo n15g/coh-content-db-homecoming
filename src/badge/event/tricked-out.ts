@@ -13,7 +13,7 @@ export const TrickedOut: IBadgeData = {
     ],
     acquisition: "Complete Dr. Kane's House of Horror in a Halloween costume during the Halloween event.",
     links: [
-        {title: "Tricked Out Badge", href: "https://paragonwiki.com/wiki/Tricked_Out_Badge"}
+        {title: "Tricked Out Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tricked_Out_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/tricked-out.png"}]
 };

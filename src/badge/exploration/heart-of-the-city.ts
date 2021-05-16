@@ -20,13 +20,13 @@ export const HeartOfTheCity: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Heart of the City Badge", href: "https://paragonwiki.com/wiki/Heart_of_the_City_Badge"},
-        {title: "Hate of the City Badge", href: "https://paragonwiki.com/wiki/Hate_of_the_City_Badge"},
+        {title: "Heart of the City Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heart_of_the_City_Badge"},
+        {title: "Hate of the City Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hate_of_the_City_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+    ],
     vidiotMapKey: "1"
 };

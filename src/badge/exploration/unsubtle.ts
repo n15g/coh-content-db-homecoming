@@ -18,7 +18,7 @@ export const Unsubtle: IBadgeData = {
         "\n" +
         "The best way to reach it is to enter the underneath section of the neighborhood from the east side. The badge is in front of the first building on your left.",
     links: [
-        {title: "Unsubtle Badge", href: "https://paragonwiki.com/wiki/Unsubtle_Badge"}
+        {title: "Unsubtle Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unsubtle_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

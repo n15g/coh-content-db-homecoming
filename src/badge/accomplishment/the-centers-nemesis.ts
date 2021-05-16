@@ -9,12 +9,14 @@ export const TheCentersNemesis: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You stopped Calvin Scott and the Center's plans for Paragon City. The public of Paragon " +
-        "consider you to be the one hero who can stop the Council."}
+        {
+            value: "You stopped Calvin Scott and the Center's plans for Paragon City. The public of Paragon " +
+                "consider you to be the one hero who can stop the Council."
+        }
     ],
     acquisition: "Complete the third story arc from Provost Marchand (Primal Earth)",
     links: [
-        {title: "The Center's Nemesis Badge", href: "https://paragonwiki.com/wiki/The_Center%27s_Nemesis_Badge"}
+        {title: "The Center's Nemesis Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Center%27s_Nemesis_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png"}

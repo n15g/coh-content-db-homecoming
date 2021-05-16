@@ -9,12 +9,14 @@ export const Untouchable: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have shown that no matter the bribe or threat, you will stand before organized criminals " +
-        "and take them on."}
+        {
+            value: "You have shown that no matter the bribe or threat, you will stand before organized criminals " +
+                "and take them on."
+        }
     ],
     acquisition: "Defeat 100 bosses of The Family, of any kind.",
     links: [
-        {title: "Untouchable Badge", href: "https://paragonwiki.com/wiki/Untouchable_Badge"}
+        {title: "Untouchable Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Untouchable_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/untouchable.png"}

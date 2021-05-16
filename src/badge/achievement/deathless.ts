@@ -13,13 +13,15 @@ export const Deathless: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "You have proven that you are Deathless in your pursuit against evil."},
         {type: Alternate.V, value: "You have proven that you are Deathless in your pursuit of evil."},
-        {type: Alternate.P, value: "Perhaps TPN was right when they said Praetoria would never die. At least when it comes to you, " +
-        "it's holding up."}
+        {
+            type: Alternate.P, value: "Perhaps TPN was right when they said Praetoria would never die. At least when it comes to you, " +
+                "it's holding up."
+        }
     ],
     acquisition: "Pay off 400,000 debt",
     links: [
-        {title: "Deathless Badge", href: "https://paragonwiki.com/wiki/Deathless_Badge"},
-        {title: "Impulsive Badge", href: "https://paragonwiki.com/wiki/Impulsive_Badge"}
+        {title: "Deathless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Deathless_Badge"},
+        {title: "Impulsive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Impulsive_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

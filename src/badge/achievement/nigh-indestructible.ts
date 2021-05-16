@@ -11,15 +11,19 @@ export const NighIndestructible: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have proven yourself Indestructible. You have survived twenty five million points of " +
-        "damage."},
-        {type: Alternate.P, value: "At some point, your ability to take a pounding may lead to delusions of grandeur. Well, are " +
-        "they really delusions if they're true?"}
+        {
+            value: "You have proven yourself Indestructible. You have survived twenty five million points of " +
+                "damage."
+        },
+        {
+            type: Alternate.P, value: "At some point, your ability to take a pounding may lead to delusions of grandeur. Well, are " +
+                "they really delusions if they're true?"
+        }
     ],
     acquisition: "Endure 25,000,000 points of damage",
     links: [
-        {title: "Nigh Indestructible Badge", href: "https://paragonwiki.com/wiki/Nigh_Indestructible_Badge"},
-        {title: "Concussed Badge", href: "https://paragonwiki.com/wiki/Concussed_Badge"}
+        {title: "Nigh Indestructible Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nigh_Indestructible_Badge"},
+        {title: "Concussed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Concussed_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

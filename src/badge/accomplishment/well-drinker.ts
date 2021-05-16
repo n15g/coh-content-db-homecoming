@@ -13,7 +13,7 @@ export const WellDrinker: IBadgeData = {
     ],
     acquisition: "Craft a rare Incarnate Ability",
     links: [
-        {title: "Well Drinker Badge", href: "https://paragonwiki.com/wiki/Well_Drinker_Badge"}
+        {title: "Well Drinker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Well_Drinker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/well-drinker.png"}

@@ -16,7 +16,7 @@ export const Historian: IBadgeData = {
         {value: `You have learned the history of the U.N. Special Council on Superhuman Activities.`}
     ],
     links: [
-        {title: "Historian Badge", href: "https://paragonwiki.com/wiki/Historian_Badge"}
+        {title: "Historian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Historian_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

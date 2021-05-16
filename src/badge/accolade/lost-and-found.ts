@@ -22,19 +22,19 @@ export const LostAndFound: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${FoundersFalls.key}]`,
     links: [
-        {title: "Lost and Found Badge", href: "https://paragonwiki.com/wiki/Lost_and_Found_Badge"}
+        {title: "Lost and Found Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lost_and_Found_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: Foggy.key, type: BadgePartialType.BADGE, badgeKey: Foggy.key},
-            {key: Chaotician.key, type: BadgePartialType.BADGE, badgeKey: Chaotician.key},
-            {key: GuardianAngel.key, type: BadgePartialType.BADGE, badgeKey: GuardianAngel.key},
-            {key: LosingParadise.key, type: BadgePartialType.BADGE, badgeKey: LosingParadise.key},
-            {key: WatchfulEyes.key, type: BadgePartialType.BADGE, badgeKey: WatchfulEyes.key},
-            {key: HamidonsFury.key, type: BadgePartialType.BADGE, badgeKey: HamidonsFury.key},
-            {key: FoundersHero.key, type: BadgePartialType.BADGE, badgeKey: FoundersHero.key},
-            {key: Misunderstood.key, type: BadgePartialType.BADGE, badgeKey: Misunderstood.key}
+        {key: Foggy.key, type: BadgePartialType.BADGE, badgeKey: Foggy.key},
+        {key: Chaotician.key, type: BadgePartialType.BADGE, badgeKey: Chaotician.key},
+        {key: GuardianAngel.key, type: BadgePartialType.BADGE, badgeKey: GuardianAngel.key},
+        {key: LosingParadise.key, type: BadgePartialType.BADGE, badgeKey: LosingParadise.key},
+        {key: WatchfulEyes.key, type: BadgePartialType.BADGE, badgeKey: WatchfulEyes.key},
+        {key: HamidonsFury.key, type: BadgePartialType.BADGE, badgeKey: HamidonsFury.key},
+        {key: FoundersHero.key, type: BadgePartialType.BADGE, badgeKey: FoundersHero.key},
+        {key: Misunderstood.key, type: BadgePartialType.BADGE, badgeKey: Misunderstood.key}
     ]
 };

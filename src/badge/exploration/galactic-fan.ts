@@ -15,7 +15,7 @@ export const GalacticFan: IBadgeData = {
     }],
     notes: "The Galactic Fan Badge is located in the Freedom Court neighborhood of Echo: Galaxy City. It is at the base of the statue of Galaxy Girl directly behind Freedom Corps Headquarters.",
     links: [
-        {title: "Galactic Fan Badge", href: "https://paragonwiki.com/wiki/Galactic_Fan_Badge"}
+        {title: "Galactic Fan Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Galactic_Fan_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

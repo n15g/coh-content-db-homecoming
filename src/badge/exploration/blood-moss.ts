@@ -20,7 +20,7 @@ export const BloodMoss: IBadgeData = {
         "This can be tricky to find since it's hidden in the trees, but there's a clearing 194 yards north and a little to the west of the Perez Park marker." +
         " Drop into this clearing from above, then take the path to the east to reach the badge.",
     links: [
-        {title: "Blood Moss Badge", href: "https://paragonwiki.com/wiki/Blood_Moss_Badge"}
+        {title: "Blood Moss Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blood_Moss_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

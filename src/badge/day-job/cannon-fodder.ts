@@ -20,9 +20,9 @@ export const CannonFodder: IBadgeData = {
     acquisition: "Log out at Arachnos Bases with no hostile critters for 100 hours.",
     effect: "Day Job: Bonus XP upon mission completion",
     links: [
-        {title: "Cannon Fodder Badge", href: "https://paragonwiki.com/wiki/Cannon_Fodder_Badge"},
-        {title: "Arachnos Agent Badge", href: "https://paragonwiki.com/wiki/Arachnos_Agent_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Cannon Fodder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cannon_Fodder_Badge"},
+        {title: "Arachnos Agent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnos_Agent_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/cannon-fodder.png"}]
 };

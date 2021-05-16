@@ -14,8 +14,8 @@ export const Redeemer: IBadgeData = {
     ],
     acquisition: "Complete the Speak to Alexander mini-arc from Ashwin Lannister or Laurie Pennington",
     links: [
-        {title: "Redeemer Badge", href: "https://paragonwiki.com/wiki/Redeemer_Badge"},
-        {title: "Conqueror Badge", href: "https://paragonwiki.com/wiki/Conqueror_Badge"}
+        {title: "Redeemer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Redeemer_Badge"},
+        {title: "Conqueror Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Conqueror_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/redeemer.png"}

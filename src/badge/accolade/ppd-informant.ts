@@ -23,8 +23,8 @@ export const PPDInformant: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${KingsRow.key}]`,
     links: [
-        {title: "PPD Informant Badge", href: "https://paragonwiki.com/wiki/PPD_Informant_Badge"},
-        {title: "Former PPD Stoolie Badge", href: "https://paragonwiki.com/wiki/Former_PPD_Stoolie_Badge"}
+        {title: "PPD Informant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/PPD_Informant_Badge"},
+        {title: "Former PPD Stoolie Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Former_PPD_Stoolie_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

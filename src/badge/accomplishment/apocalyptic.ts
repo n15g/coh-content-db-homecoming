@@ -13,7 +13,7 @@ export const Apocalyptic: IBadgeData = {
     ],
     acquisition: "Complete The Lady Grey Task Force",
     links: [
-        {title: "Apocalyptic Badge", href: "https://paragonwiki.com/wiki/Apocalyptic_Badge"}
+        {title: "Apocalyptic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Apocalyptic_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/apocalyptic.png"}

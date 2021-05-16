@@ -13,7 +13,7 @@ export const Mook: IBadgeData = {
     ],
     acquisition: "Earn the [badge:washed-up] Badge (Mooks)",
     links: [
-        {title: "Mook Badge", href: "https://paragonwiki.com/wiki/Mook_Badge"}
+        {title: "Mook Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mook_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -17,6 +17,6 @@ export const Eliminator: IBadgeData = {
     ],
     acquisition: "Deal 500,000 damage to earn this badge.",
     links: [
-        {title: "Eliminator Badge", href: "https://paragonwiki.com/wiki/Eliminator_Badge"}
+        {title: "Eliminator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eliminator_Badge"}
     ],
 };

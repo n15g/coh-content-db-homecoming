@@ -9,12 +9,14 @@ export const Regenerator: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have shown tenaciousness in taking down the leadership of the Trolls... over and over " +
-        "again."}
+        {
+            value: "You have shown tenaciousness in taking down the leadership of the Trolls... over and over " +
+                "again."
+        }
     ],
     acquisition: "Defeat 100 Trolls bosses",
     links: [
-        {title: "Regenerator Badge", href: "https://paragonwiki.com/wiki/Regenerator_Badge"}
+        {title: "Regenerator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Regenerator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/regenerator.png"}

@@ -9,12 +9,14 @@ export const LostSavior: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "With the help of the Midnight Squad, Dawn Patrol and even a Rikti scientist, you've done the " +
-        "impossible. You've found a cure for the Lost."}
+        {
+            value: "With the help of the Midnight Squad, Dawn Patrol and even a Rikti scientist, you've done the " +
+                "impossible. You've found a cure for the Lost."
+        }
     ],
     acquisition: "Complete the Cure Lost mission from Montague Castanella",
     links: [
-        {title: "Lost Savior Badge", href: "https://paragonwiki.com/wiki/Lost_Savior_Badge"}
+        {title: "Lost Savior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lost_Savior_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/lost-savior.png"}

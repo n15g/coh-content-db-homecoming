@@ -13,7 +13,7 @@ export const Legionnaire: IBadgeData = {
     ],
     acquisition: "Defeat 100 Warrior bosses",
     links: [
-        {title: "Legionnaire Badge", href: "https://paragonwiki.com/wiki/Legionnaire_Badge"}
+        {title: "Legionnaire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Legionnaire_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/legionnaire.png"}

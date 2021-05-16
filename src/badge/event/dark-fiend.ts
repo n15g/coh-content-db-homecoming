@@ -13,7 +13,7 @@ export const DarkFiend: IBadgeData = {
     ],
     acquisition: "Defeat the Banner of Fiends during a Deadly Apocalypse.",
     links: [
-        {title: "Dark Fiend Badge", href: "https://paragonwiki.com/wiki/Dark_Fiend_Badge"}
+        {title: "Dark Fiend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dark_Fiend_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/dark-fiend.png"}]
 };

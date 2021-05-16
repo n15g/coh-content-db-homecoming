@@ -22,19 +22,19 @@ export const EmperorForADay: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${ImperialCity.key}]`,
     links: [
-        {title: "Emperor for a Day Badge", href: "https://paragonwiki.com/wiki/Emperor_for_a_Day_Badge"}
+        {title: "Emperor for a Day Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Emperor_for_a_Day_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}
     ],
     partials: [
-            {key: TiberianOverseer.key, type: BadgePartialType.BADGE, badgeKey: TiberianOverseer.key},
-            {key: PraetorianOfPrivilege.key, type: BadgePartialType.BADGE, badgeKey: PraetorianOfPrivilege.key},
-            {key: GoldDigger.key, type: BadgePartialType.BADGE, badgeKey: GoldDigger.key},
-            {key: TunedIn.key, type: BadgePartialType.BADGE, badgeKey: TunedIn.key},
-            {key: MercyMissionary.key, type: BadgePartialType.BADGE, badgeKey: MercyMissionary.key},
-            {key: ParkRanger.key, type: BadgePartialType.BADGE, badgeKey: ParkRanger.key},
-            {key: Seen.key, type: BadgePartialType.BADGE, badgeKey: Seen.key},
-            {key: Seer.key, type: BadgePartialType.BADGE, badgeKey: Seer.key}
+        {key: TiberianOverseer.key, type: BadgePartialType.BADGE, badgeKey: TiberianOverseer.key},
+        {key: PraetorianOfPrivilege.key, type: BadgePartialType.BADGE, badgeKey: PraetorianOfPrivilege.key},
+        {key: GoldDigger.key, type: BadgePartialType.BADGE, badgeKey: GoldDigger.key},
+        {key: TunedIn.key, type: BadgePartialType.BADGE, badgeKey: TunedIn.key},
+        {key: MercyMissionary.key, type: BadgePartialType.BADGE, badgeKey: MercyMissionary.key},
+        {key: ParkRanger.key, type: BadgePartialType.BADGE, badgeKey: ParkRanger.key},
+        {key: Seen.key, type: BadgePartialType.BADGE, badgeKey: Seen.key},
+        {key: Seer.key, type: BadgePartialType.BADGE, badgeKey: Seer.key}
     ]
 };

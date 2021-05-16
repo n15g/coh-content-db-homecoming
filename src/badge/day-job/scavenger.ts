@@ -15,8 +15,8 @@ export const Scavenger: IBadgeData = {
     acquisition: "Log out anywhere in First Ward for 100 hours.",
     effect: "Day Job: Bonus Inspirations upon mission completion",
     links: [
-        {title: "Scavenger Badge", href: "https://paragonwiki.com/wiki/Scavenger_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Scavenger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scavenger_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/scavenger.png"}]
 };

@@ -16,7 +16,7 @@ export const Authority: IBadgeData = {
         {value: `You have learned the history of Freedom Phalanx.`}
     ],
     links: [
-        {title: "Authority Badge", href: "https://paragonwiki.com/wiki/Authority_Badge"}
+        {title: "Authority Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Authority_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

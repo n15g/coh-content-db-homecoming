@@ -19,7 +19,7 @@ export const NatureLover: IBadgeData = {
         "\n" +
         "\nThe island it is on is the island that is cut by the western war wall, and the badge marker is just east of the tall rock outcropping in the center of the island.",
     links: [
-        {title: "Nature Lover Badge", href: "https://paragonwiki.com/wiki/Nature_Lover_Badge"}
+        {title: "Nature Lover Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nature_Lover_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

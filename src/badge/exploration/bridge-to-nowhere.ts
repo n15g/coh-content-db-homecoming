@@ -17,7 +17,7 @@ export const BridgeToNowhere: IBadgeData = {
     notes: "The Bridge to Nowhere Badge is in The Gruff neighborhood of Skyway City." +
         "\n\nIt is in the middle of a free-standing section of bridge 490 yards SSE of the north Paragon City Monorail station.",
     links: [
-        {title: "Bridge to Nowhere Badge", href: "https://paragonwiki.com/wiki/Bridge_to_Nowhere_Badge"}
+        {title: "Bridge to Nowhere Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bridge_to_Nowhere_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

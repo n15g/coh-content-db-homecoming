@@ -13,7 +13,7 @@ export const SiblingRivalry: IBadgeData = {
     ],
     acquisition: "Complete the Drowning in Blood trial",
     links: [
-        {title: "Sibling Rivalry Badge", href: "https://paragonwiki.com/wiki/Sibling_Rivalry_Badge"}
+        {title: "Sibling Rivalry Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sibling_Rivalry_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/sibling-rivalry.png"}

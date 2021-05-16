@@ -14,7 +14,7 @@ export const Desisted: IBadgeData = {
     ],
     acquisition: "Complete a level 21-25 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Desisted Badge", href: "https://paragonwiki.com/wiki/Desisted_Badge"}
+        {title: "Desisted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Desisted_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/desisted.png"}]
 };

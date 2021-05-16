@@ -12,7 +12,7 @@ export const VirtualDestruction: IBadgeData = {
     acquisition: "Destroy a destructible object while running an Architect mission in test mode.",
     notes: "The Destructible Object must be a Required Mission Objective, or you won't get the badge.",
     links: [
-        {title: "Virtual Destruction Badge", href: "https://paragonwiki.com/wiki/Virtual_Destruction_Badge"}
+        {title: "Virtual Destruction Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Virtual_Destruction_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/virtual-destruction.png"}]
 };

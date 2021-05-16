@@ -18,7 +18,7 @@ export const DancerWithDeath: IBadgeData = {
     }],
     notes: "Located in [map:firebase-zulu] 83 yards NE of Point Tango, at the base of the lookout tower.",
     links: [
-        {title: "Dancer with Death Badge", href: "https://paragonwiki.com/wiki/Dancer_with_Death_Badge"}
+        {title: "Dancer with Death Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dancer_with_Death_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

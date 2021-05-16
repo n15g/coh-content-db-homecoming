@@ -16,7 +16,7 @@ export const OrionsBelt: IBadgeData = {
     }],
     notes: "Located in the Orion Beltway neighborhood of [map:echo-galaxy-city], at the base of the statue 269 yards ESE of the neighborhood marker.",
     links: [
-        {title: "Orion's Belt Badge", href: "https://paragonwiki.com/wiki/Orion%27s_Belt_Badge"}
+        {title: "Orion's Belt Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Orion%27s_Belt_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

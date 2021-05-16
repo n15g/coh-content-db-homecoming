@@ -13,8 +13,8 @@ export const ArtifactDestroyer: IBadgeData = {
     ],
     acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Attempt to destroy the Malleus Mundi'.",
     links: [
-        {title: "Artifact Destroyer Badge", href: "https://paragonwiki.com/wiki/Artifact_Destroyer_Badge"},
-        {title: "Whispered Rumour", href: "https://paragonwiki.com/wiki/Mission:Tip_-_Whispered_Rumor"}
+        {title: "Artifact Destroyer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Artifact_Destroyer_Badge"},
+        {title: "Whispered Rumour", href: "https://hcwiki.cityofheroes.dev/wiki/Mission:Tip_-_Whispered_Rumor"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/artifact-destroyer.png"}]
 };

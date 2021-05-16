@@ -16,7 +16,7 @@ export const IntoTheWild: IBadgeData = {
         "\n" +
         "It's tucked into the corner of the rail by the water.",
     links: [
-        {title: "Into the Wild Badge", href: "https://paragonwiki.com/wiki/Into_the_Wild_Badge"}
+        {title: "Into the Wild Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Into_the_Wild_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

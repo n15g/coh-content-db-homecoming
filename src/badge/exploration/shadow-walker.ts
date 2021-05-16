@@ -17,7 +17,7 @@ Tread carefully.`
     }],
     notes: `Located in [map:${FirstWard.key}] in the Free-Fire Zone neighborhood, 346 yards southwest of the map marker; at the bottom of a ditch along one of the Twilight World paths.`,
     links: [
-        {title: "Shadow Walker Badge", href: "https://paragonwiki.com/wiki/Shadow_Walker_Badge"}
+        {title: "Shadow Walker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shadow_Walker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

@@ -15,8 +15,8 @@ export const DUSTRanger: IBadgeData = {
     acquisition: "Log out at the D.U.S.T. Training Facility in First Ward for 100 hours.",
     effect: "Day Job: Auto: +Dmg (All), +ToHit, +Range",
     links: [
-        {title: "D.U.S.T. Ranger Badge", href: "https://paragonwiki.com/wiki/D.U.S.T._Ranger_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "D.U.S.T. Ranger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/D.U.S.T._Ranger_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/dust-ranger.png"}]
 };

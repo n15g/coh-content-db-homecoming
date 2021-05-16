@@ -16,7 +16,7 @@ export const Toothbreaker: IBadgeData = {
         "\n\n1. **Find Snaptooth and take him out** from DJ Zero during the Valentine's Day Event" +
         "\n2. **Rescue Baby New Year from Snaptooth!** from Father Time during the Winter Events.",
     links: [
-        {title: "Toothbreaker Badge", href: "https://paragonwiki.com/wiki/Toothbreaker_Badge"}
+        {title: "Toothbreaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Toothbreaker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/toothbreaker.png"}]
 };

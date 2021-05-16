@@ -9,12 +9,14 @@ export const ColumnBreaker: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "Even though Reichsman managed to escape, you know you've stopped his plans to form an " +
-        "unstoppable allegiance of evil."}
+        {
+            value: "Even though Reichsman managed to escape, you know you've stopped his plans to form an " +
+                "unstoppable allegiance of evil."
+        }
     ],
     acquisition: "Complete the Dr. Kahn Task Force: Return of the Reichsman",
     links: [
-        {title: "Column Breaker Badge", href: "https://paragonwiki.com/wiki/Column_Breaker_Badge"}
+        {title: "Column Breaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Column_Breaker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/column-breaker.png"}

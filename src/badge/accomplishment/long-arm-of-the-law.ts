@@ -13,7 +13,7 @@ export const LongArmOfTheLaw: IBadgeData = {
     ],
     acquisition: "Properly assign the New Praetorians to handle the side missions in the first mission of the second story arc from Provost Marchand",
     links: [
-        {title: "Long Arm of the Law Badge", href: "https://paragonwiki.com/wiki/Long_Arm_of_the_Law_Badge"}
+        {title: "Long Arm of the Law Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Long_Arm_of_the_Law_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-challenge.png"}

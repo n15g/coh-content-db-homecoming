@@ -13,7 +13,7 @@ export const HallowSpirit: IBadgeData = {
     ],
     acquisition: "Defeat the manifestation of Eochai during the Halloween event.",
     links: [
-        {title: "Hallow Spirit Badge", href: "https://paragonwiki.com/wiki/Hallow_Spirit_Badge"}
+        {title: "Hallow Spirit Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hallow_Spirit_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hallow-spirit.png"}]
 };

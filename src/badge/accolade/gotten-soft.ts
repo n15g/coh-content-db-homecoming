@@ -22,20 +22,20 @@ export const GottenSoft: IBadgeData = {
     ],
     notes: `Awards +10% Max Health`,
     links: [
-        {title: "Gotten Soft Badge", href: "https://paragonwiki.com/wiki/Gotten_Soft_Badge"},
-        {title: "High Pain Threshold Badge", href: "https://paragonwiki.com/wiki/High_Pain_Threshold_Badge"}
+        {title: "Gotten Soft Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gotten_Soft_Badge"},
+        {title: "High Pain Threshold Badge", href: "https://hcwiki.cityofheroes.dev/wiki/High_Pain_Threshold_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gotten-soft.png"}
     ],
     effect: `+10% Max Health`,
     partials: [
-            {key: BadLuck.key, type: BadgePartialType.BADGE, badgeKey: BadLuck.key},
-            {key: TheUnbrokenSpirit.key, type: BadgePartialType.BADGE, badgeKey: TheUnbrokenSpirit.key},
-            {key: FreakOfNature.key, type: BadgePartialType.BADGE, badgeKey: FreakOfNature.key},
-            {key: Gangbuster.key, type: BadgePartialType.BADGE, badgeKey: Gangbuster.key},
-            {key: LockedAndLoaded.key, type: BadgePartialType.BADGE, badgeKey: LockedAndLoaded.key},
-            {key: SpiderSmasher.key, type: BadgePartialType.BADGE, badgeKey: SpiderSmasher.key},
-            {key: Technofreak.key, type: BadgePartialType.BADGE, badgeKey: Technofreak.key}
+        {key: BadLuck.key, type: BadgePartialType.BADGE, badgeKey: BadLuck.key},
+        {key: TheUnbrokenSpirit.key, type: BadgePartialType.BADGE, badgeKey: TheUnbrokenSpirit.key},
+        {key: FreakOfNature.key, type: BadgePartialType.BADGE, badgeKey: FreakOfNature.key},
+        {key: Gangbuster.key, type: BadgePartialType.BADGE, badgeKey: Gangbuster.key},
+        {key: LockedAndLoaded.key, type: BadgePartialType.BADGE, badgeKey: LockedAndLoaded.key},
+        {key: SpiderSmasher.key, type: BadgePartialType.BADGE, badgeKey: SpiderSmasher.key},
+        {key: Technofreak.key, type: BadgePartialType.BADGE, badgeKey: Technofreak.key}
     ]
 };

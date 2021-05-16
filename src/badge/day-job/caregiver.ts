@@ -24,9 +24,9 @@ export const Caregiver: IBadgeData = {
     acquisition: "Log out inside Hospitals for 100 hours.",
     effect: "Day Job: Out of combat Regeneration boost",
     links: [
-        {title: "Caregiver Badge", href: "https://paragonwiki.com/wiki/Caregiver_Badge"},
-        {title: "Pain Specialist Badge", href: "https://paragonwiki.com/wiki/Pain_Specialist_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Caregiver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Caregiver_Badge"},
+        {title: "Pain Specialist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pain_Specialist_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/caregiver.png"},

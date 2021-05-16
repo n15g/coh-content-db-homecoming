@@ -10,11 +10,13 @@ export const ResistanceMember: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_resist.png"}],
     badgeText: [
-        {value: "You have lent your support to the Praetorian Resistance to overthrow Emperor Cole, or at least " +
-        "appeared to do so."}
+        {
+            value: "You have lent your support to the Praetorian Resistance to overthrow Emperor Cole, or at least " +
+                "appeared to do so."
+        }
     ],
     acquisition: "Choose a Resistance outcome in a moral choice mission",
     links: [
-        {title: "Resistance Member Badge", href: "https://paragonwiki.com/wiki/Resistance_Member_Badge"}
+        {title: "Resistance Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Resistance_Member_Badge"}
     ]
 };

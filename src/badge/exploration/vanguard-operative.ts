@@ -14,7 +14,7 @@ export const VanguardOperative: IBadgeData = {
         "\n" +
         "The badge marker is invisible, located directly under the feet of the contact Borea.",
     links: [
-        {title: "Vanguard Operative Badge", href: "https://paragonwiki.com/wiki/Vanguard_Operative_Badge"},
+        {title: "Vanguard Operative Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vanguard_Operative_Badge"},
         {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

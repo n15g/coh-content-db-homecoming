@@ -12,19 +12,22 @@ export const Traveler: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {type: Alternate.H, value: `Your travels around both Paragon City and the Shadow Shard have become a full time job for you and have earned you the title of Traveler.  While logged out in either a Train Station or the Shadow Shard you will earn fuel for your Traveler's Jet Pack at an accelerated rate.`},
+        {
+            type: Alternate.H,
+            value: `Your travels around both Paragon City and the Shadow Shard have become a full time job for you and have earned you the title of Traveler.  While logged out in either a Train Station or the Shadow Shard you will earn fuel for your Traveler's Jet Pack at an accelerated rate.`
+        },
         {type: Alternate.V, value: `You've made a breakthrough in getting to new places, heading all the way to the Rogue Isles for more travel opportunities.`}
     ],
     notes: `Earn the [badge:dimensional-explorer] and [badge:commuter] Day Jobs`,
     links: [
-        {title: "Traveler Badge", href: "https://paragonwiki.com/wiki/Traveler_Badge"},
-        {title: "Border Crosser Badge", href: "https://paragonwiki.com/wiki/Border_Crosser_Badge"}
+        {title: "Traveler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Traveler_Badge"},
+        {title: "Border Crosser Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Border_Crosser_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/traveler.png"}
     ],
     partials: [
-            {key: DimensionalExplorer.key, type: BadgePartialType.BADGE, badgeKey: DimensionalExplorer.key},
-            {key: Commuter.key, type: BadgePartialType.BADGE, badgeKey: Commuter.key}
+        {key: DimensionalExplorer.key, type: BadgePartialType.BADGE, badgeKey: DimensionalExplorer.key},
+        {key: Commuter.key, type: BadgePartialType.BADGE, badgeKey: Commuter.key}
     ]
 };

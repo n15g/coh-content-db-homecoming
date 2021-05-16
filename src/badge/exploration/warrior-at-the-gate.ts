@@ -16,7 +16,7 @@ export const WarriorAtTheGate: IBadgeData = {
     }],
     notes: "Located in [map:underground-nova] immediately in front of the door to the Resistance Hub.",
     links: [
-        {title: "Warrior at the Gate Badge", href: "https://paragonwiki.com/wiki/Warrior_at_the_Gate_Badge"}
+        {title: "Warrior at the Gate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Warrior_at_the_Gate_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "8"

@@ -14,7 +14,7 @@ export const Vendor: IBadgeData = {
     ],
     acquisition: "10 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Vendor Badge", href: "https://paragonwiki.com/wiki/Vendor_Badge"}
+        {title: "Vendor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vendor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/vendor.png"}]
 };

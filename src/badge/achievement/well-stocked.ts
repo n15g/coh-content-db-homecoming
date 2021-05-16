@@ -9,12 +9,14 @@ export const WellStocked: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "Demonstrating a dogged persistence, you wore Marauder down in Lambda Sector without using a " +
-        "single Pacification Grenade despite having a full set."}
+        {
+            value: "Demonstrating a dogged persistence, you wore Marauder down in Lambda Sector without using a " +
+                "single Pacification Grenade despite having a full set."
+        }
     ],
     acquisition: "Complete the Lambda Sector Incarnate Trial having destroyed all the Weapons Caches in sabotage, but using no Pacification Grenades",
     links: [
-        {title: "Well-Stocked Badge", href: "https://paragonwiki.com/wiki/Well-Stocked_Badge"}
+        {title: "Well-Stocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Well-Stocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-lambda.png"}

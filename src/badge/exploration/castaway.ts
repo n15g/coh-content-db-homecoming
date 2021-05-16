@@ -17,7 +17,7 @@ export const Castaway: IBadgeData = {
     }],
     notes: "Located in [map:cascade-archipelago] 588 yards south of The Marooned Shores marker, at the base of the hills on the island's southern edge.",
     links: [
-        {title: "Castaway Badge", href: "https://paragonwiki.com/wiki/Castaway_Badge"}
+        {title: "Castaway Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Castaway_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

@@ -14,7 +14,7 @@ export const Bound: IBadgeData = {
     ],
     acquisition: "Complete a level 36-40 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Bound Badge", href: "https://paragonwiki.com/wiki/Bound_Badge"}
+        {title: "Bound Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bound_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/bound.png"}]
 };

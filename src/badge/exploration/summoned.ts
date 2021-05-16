@@ -16,7 +16,7 @@ export const Summoned: IBadgeData = {
         "\n\nIt is in the middle of the Industrial Avenue neighborhood, next to a broken pipe in the ground that leaks steam." +
         " It is approximately 182 yards east of the Industrial Avenue neighborhood marker.",
     links: [
-        {title: "Summoned Badge", href: "https://paragonwiki.com/wiki/Summoned_Badge"}
+        {title: "Summoned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Summoned_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

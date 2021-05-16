@@ -20,13 +20,13 @@ export const TalosMight: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Talos' Might Badge", href: "https://paragonwiki.com/wiki/Talos%27_Might_Badge"},
-        {title: "Talos' Blight Badge", href: "https://paragonwiki.com/wiki/Talos%27_Blight_Badge"},
+        {title: "Talos' Might Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Talos%27_Might_Badge"},
+        {title: "Talos' Blight Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Talos%27_Blight_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+    ],
     vidiotMapKey: "1"
 };

@@ -15,7 +15,7 @@ Gaining control of this building places one within ideal striking distance to an
     }],
     notes: `174 yards NE of the Gordon Trench marker, on the roof of the building.`,
     links: [
-        {title: "Power Walker Badge", href: "https://paragonwiki.com/wiki/Power_Walker_Badge"}
+        {title: "Power Walker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Power_Walker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

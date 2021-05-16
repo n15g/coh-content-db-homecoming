@@ -15,7 +15,7 @@ export const Trainspotter: IBadgeData = {
     }],
     notes: "Located in [map:underground-nova] 565 yards SE of the Imperial Tunnel point.",
     links: [
-        {title: "Trainspotter Badge", href: "https://paragonwiki.com/wiki/Trainspotter_Badge"}
+        {title: "Trainspotter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trainspotter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

@@ -14,6 +14,6 @@ export const WelcomeToEarth: IBadgeData = {
     ],
     acquisition: "Destroy a Rikti Drop Ship.",
     links: [
-        {title: "Welcome to Earth Badge", href: "https://paragonwiki.com/wiki/Welcome_to_Earth_Badge"}
+        {title: "Welcome to Earth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Welcome_to_Earth_Badge"}
     ],
 };

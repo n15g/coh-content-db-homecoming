@@ -13,7 +13,7 @@ export const Accelerated: IBadgeData = {
     ],
     acquisition: "Complete a ski run on the Expert slope in under 35 seconds during a Winter Event",
     links: [
-        {title: "Accelerated Badge", href: "https://paragonwiki.com/wiki/Accelerated_Badge"}
+        {title: "Accelerated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Accelerated_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ski-silver.png"}

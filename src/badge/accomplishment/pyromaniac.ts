@@ -9,12 +9,14 @@ export const Pyromaniac: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You set fire to one of the nicer parts of Faultline while Penelope Yin and Penelope Mayhem " +
-        "were still fighting elsewhere."}
+        {
+            value: "You set fire to one of the nicer parts of Faultline while Penelope Yin and Penelope Mayhem " +
+                "were still fighting elsewhere."
+        }
     ],
     acquisition: "Arm all five bombs before Penelope Yin and Penelope Mayhem finish their fight in the fourth mission of the third story arc from Mr. G (Primal Earth)",
     links: [
-        {title: "Pyromaniac Badge", href: "https://paragonwiki.com/wiki/Pyromaniac_Badge"}
+        {title: "Pyromaniac Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pyromaniac_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-challenge.png"}

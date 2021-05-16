@@ -18,16 +18,16 @@ export const HellAndBack: IBadgeData = {
     ],
     notes: `Available during Halloween Events`,
     links: [
-        {title: "Hell and Back Badge", href: "https://paragonwiki.com/wiki/Hell_and_Back_Badge"}
+        {title: "Hell and Back Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hell_and_Back_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hell-and-back.png"}
     ],
     partials: [
-            {key: DarkFiend.key, type: BadgePartialType.BADGE, badgeKey: DarkFiend.key},
-            {key: HellHathNoFury.key, type: BadgePartialType.BADGE, badgeKey: HellHathNoFury.key},
-            {key: Terror.key, type: BadgePartialType.BADGE, badgeKey: Terror.key},
-            {key: MonsterMasher.key, type: BadgePartialType.BADGE, badgeKey: MonsterMasher.key},
-            {key: Monstrous.key, type: BadgePartialType.BADGE, badgeKey: Monstrous.key}
+        {key: DarkFiend.key, type: BadgePartialType.BADGE, badgeKey: DarkFiend.key},
+        {key: HellHathNoFury.key, type: BadgePartialType.BADGE, badgeKey: HellHathNoFury.key},
+        {key: Terror.key, type: BadgePartialType.BADGE, badgeKey: Terror.key},
+        {key: MonsterMasher.key, type: BadgePartialType.BADGE, badgeKey: MonsterMasher.key},
+        {key: Monstrous.key, type: BadgePartialType.BADGE, badgeKey: Monstrous.key}
     ]
 };

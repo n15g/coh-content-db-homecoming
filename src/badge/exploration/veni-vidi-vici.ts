@@ -16,7 +16,7 @@ export const VeniVidiVici: IBadgeData = {
     }],
     notes: "Located in [map:creys-folly] 310 yards West of the Tangle Town marker, next to the aircraft warning light on the roof of the building.",
     links: [
-        {title: "Veni, Vidi, Vici Badge", href: "https://paragonwiki.com/wiki/Veni,_Vidi,_Vici_Badge"}
+        {title: "Veni, Vidi, Vici Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Veni,_Vidi,_Vici_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

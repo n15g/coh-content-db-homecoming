@@ -20,8 +20,8 @@ export const BroodLeaver: IBadgeData = {
     ],
     notes: `Earn the ${badgeReference(Grounded)} and ${badgeReference(ArachnosTraitor)} Day Jobs`,
     links: [
-        {title: "Brood Leaver Badge", href: "https://paragonwiki.com/wiki/Brood_Leaver_Badge"},
-        {title: "Brood Leader Badge", href: "https://paragonwiki.com/wiki/Brood_Leader_Badge"}
+        {title: "Brood Leaver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brood_Leaver_Badge"},
+        {title: "Brood Leader Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brood_Leader_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/brood-leaver.png"}

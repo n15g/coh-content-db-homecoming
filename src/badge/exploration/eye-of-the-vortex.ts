@@ -17,7 +17,7 @@ You may feel as though you could fall upwards into it, be absorbed into it, beco
     notes: `Located in [map:${FirstWard.key}] in the Sunken City neighborhood, slightly west of the Westerman Building marker,
 though at the top of the building; on the ledge directly behind Diabolique.`,
     links: [
-        {title: "Eye of the Vortex Badge", href: "https://paragonwiki.com/wiki/Eye_of_the_Vortex_Badge"}
+        {title: "Eye of the Vortex Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eye_of_the_Vortex_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

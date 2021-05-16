@@ -13,7 +13,7 @@ export const PendragonsAlly: IBadgeData = {
     ],
     acquisition: "Complete all objectives in the first mission of the third story arc from Provost Marchand before Pendragon is defeated",
     links: [
-        {title: "Pendragon's Ally Badge", href: "https://paragonwiki.com/wiki/Pendragon%27s_Ally_Badge"}
+        {title: "Pendragon's Ally Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pendragon%27s_Ally_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-challenge.png"}

@@ -20,8 +20,8 @@ export const Whistleblower: IBadgeData = {
     ],
     notes: `Earn the [badge:crey-employee] and [badge:professor] Day Jobs`,
     links: [
-        {title: "Whistleblower Badge", href: "https://paragonwiki.com/wiki/Whistleblower_Badge"},
-        {title: "Crey Scientist Badge", href: "https://paragonwiki.com/wiki/Crey_Scientist_Badge"}
+        {title: "Whistleblower Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Whistleblower_Badge"},
+        {title: "Crey Scientist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Scientist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/whistleblower.png"}

@@ -20,9 +20,9 @@ export const ArachnosTraitor: IBadgeData = {
     acquisition: "Log out within Grandville for 100 hours.",
     effect: "Day Job: Jetpack",
     links: [
-        {title: "Arachnos Traitor Badge", href: "https://paragonwiki.com/wiki/Arachnos_Traitor_Badge"},
-        {title: "Arachnos Official Badge", href: "https://paragonwiki.com/wiki/Arachnos_Official_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Arachnos Traitor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnos_Traitor_Badge"},
+        {title: "Arachnos Official Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnos_Official_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/arachnos-traitor.png"}]
 };

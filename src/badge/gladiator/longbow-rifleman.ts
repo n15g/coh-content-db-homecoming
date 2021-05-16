@@ -14,7 +14,7 @@ export const LongbowRifleman: IBadgeData = {
     ],
     acquisition: "Earn the [badge:locked-and-loaded] Badge (Longbow)",
     links: [
-        {title: "Longbow Rifleman Badge", href: "https://paragonwiki.com/wiki/Longbow_Rifleman_Badge"}
+        {title: "Longbow Rifleman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longbow_Rifleman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

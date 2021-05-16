@@ -18,16 +18,16 @@ export const Meticulous: IBadgeData = {
     ],
     notes: `Available during Halloween Events`,
     links: [
-        {title: "Meticulous Badge", href: "https://paragonwiki.com/wiki/Meticulous_Badge"}
+        {title: "Meticulous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Meticulous_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/meticulous.png"}
     ],
     partials: [
-            {key: Secured.key, type: BadgePartialType.BADGE, badgeKey: Secured.key},
-            {key: PowerHungry.key, type: BadgePartialType.BADGE, badgeKey: PowerHungry.key},
-            {key: ArtifactDestroyer.key, type: BadgePartialType.BADGE, badgeKey: ArtifactDestroyer.key},
-            {key: Veiled.key, type: BadgePartialType.BADGE, badgeKey: Veiled.key},
-            {key: Trusting.key, type: BadgePartialType.BADGE, badgeKey: Trusting.key}
+        {key: Secured.key, type: BadgePartialType.BADGE, badgeKey: Secured.key},
+        {key: PowerHungry.key, type: BadgePartialType.BADGE, badgeKey: PowerHungry.key},
+        {key: ArtifactDestroyer.key, type: BadgePartialType.BADGE, badgeKey: ArtifactDestroyer.key},
+        {key: Veiled.key, type: BadgePartialType.BADGE, badgeKey: Veiled.key},
+        {key: Trusting.key, type: BadgePartialType.BADGE, badgeKey: Trusting.key}
     ]
 };

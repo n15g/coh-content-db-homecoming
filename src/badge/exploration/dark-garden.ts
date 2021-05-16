@@ -18,7 +18,7 @@ Did their remains provide nourishment for them? The plants do not deign to answe
     }],
     notes: `Located in [map:${MonsterIsland.key}], 131 yards due south of the Cutlass Isles marker, near the door on the inside of the walled-in area.`,
     links: [
-        {title: "Dark Garden Badge", href: "https://paragonwiki.com/wiki/Dark_Garden_Badge"}
+        {title: "Dark Garden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dark_Garden_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

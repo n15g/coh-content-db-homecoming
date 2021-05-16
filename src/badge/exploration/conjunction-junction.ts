@@ -17,7 +17,7 @@ Statesman and the rest of the Freedom Phalanx were able to stop their plan befor
     notes: `Located in the Northwest corner of Coroman Manufacturing in a culvert.
 Head west from the entrance to [map:${IndependencePort}] and it can be located under pipes along the north war wall.`,
     links: [
-        {title: "Conjunction Junction Badge", href: "https://paragonwiki.com/wiki/Conjunction_Junction_Badge"}
+        {title: "Conjunction Junction Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Conjunction_Junction_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

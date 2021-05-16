@@ -14,7 +14,7 @@ export const Cliche: IBadgeData = {
     ],
     acquisition: "Complete a level 1-15 Flashback story arc using no inspirations.",
     links: [
-        {title: "Cliche Badge", href: "https://paragonwiki.com/wiki/Cliche_Badge"}
+        {title: "Cliche Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cliche_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/cliche.png"}]
 };

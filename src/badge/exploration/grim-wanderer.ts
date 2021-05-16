@@ -14,7 +14,7 @@ export const GrimWanderer: IBadgeData = {
     }],
     notes: "Located on the floor of the Grim Vale between the three standing stones.",
     links: [
-        {title: "Grim Wanderer Badge", href: "https://paragonwiki.com/wiki/Grim_Wanderer_Badge"}
+        {title: "Grim Wanderer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grim_Wanderer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

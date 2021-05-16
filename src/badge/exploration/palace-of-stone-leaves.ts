@@ -18,7 +18,7 @@ Now a refuge protected vigorously by its living Tsoo guardians, it houses the fe
     }],
     notes: `Located in [map:${DarkAstoria.key}] in the Barca Plaza neighborhood. Located 212 yards north of the Barca marker, in the middle of the area behind the skyscraper.`,
     links: [
-        {title: "Palace of Stone Leaves Badge", href: "https://paragonwiki.com/wiki/Palace_of_Stone_Leaves_Badge"}
+        {title: "Palace of Stone Leaves Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Palace_of_Stone_Leaves_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

@@ -17,7 +17,7 @@ Marks on the wall indicate a major brawl between Scirocco and Black Scorpion (mo
 
 It is in a cave behind the waterfall 240 yards east of the neighborhood marker.`,
     links: [
-        {title: "Soother Badge", href: "https://paragonwiki.com/wiki/Soother_Badge"}
+        {title: "Soother Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Soother_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"

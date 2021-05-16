@@ -13,7 +13,7 @@ export const MasterofTPNCampus: IBadgeData = {
     ],
     acquisition: "Earn the Spin Doctor, News Flash, Fair & Balanced, Television Addict, and Tonight's Top Story badges",
     links: [
-        {title: "Master of TPN Campus Badge", href: "https://paragonwiki.com/wiki/Master_of_TPN_Campus_Badge"}
+        {title: "Master of TPN Campus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_TPN_Campus_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-tpn-campus.png"}

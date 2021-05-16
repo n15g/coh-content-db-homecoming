@@ -13,7 +13,7 @@ export const MasterOfMagisterium: IBadgeData = {
     ],
     acquisition: "Earn the Triple Threat, Ready to Rumble, Shadow Master, and The Hard Way badges",
     links: [
-        {title: "Master of Magisterium Badge", href: "https://paragonwiki.com/wiki/Master_of_Magisterium_Badge"}
+        {title: "Master of Magisterium Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Magisterium_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-magisterium.png"}

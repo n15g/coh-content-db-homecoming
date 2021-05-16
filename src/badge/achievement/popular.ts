@@ -13,13 +13,15 @@ export const Popular: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "The citizens of Paragon City have begun a petition to make a statue in your name."},
         {type: Alternate.V, value: "The citizens of the Rogue Isles have begun a petition to make a statue in your name."},
-        {type: Alternate.P, value: "There is an urban legend floating around Praetoria that one day you will return, and on that " +
-        "day Praetoria will change forever. You're kind of flattered."}
+        {
+            type: Alternate.P, value: "There is an urban legend floating around Praetoria that one day you will return, and on that " +
+                "day Praetoria will change forever. You're kind of flattered."
+        }
     ],
     acquisition: "Earn 250,000,000 influence",
     links: [
-        {title: "Popular Badge", href: "https://paragonwiki.com/wiki/Popular_Badge"},
-        {title: "Living Legend Badge", href: "https://paragonwiki.com/wiki/Living_Legend_Badge"}
+        {title: "Popular Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Popular_Badge"},
+        {title: "Living Legend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Living_Legend_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/inf-h.png"},

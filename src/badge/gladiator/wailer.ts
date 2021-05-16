@@ -13,7 +13,7 @@ export const Wailer: IBadgeData = {
     ],
     acquisition: "Earn the [badge:stonekeeper] Badge (Wailers)",
     links: [
-        {title: "Wailer Badge", href: "https://paragonwiki.com/wiki/Wailer_Badge"}
+        {title: "Wailer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wailer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

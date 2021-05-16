@@ -14,6 +14,6 @@ export const Bounty: IBadgeData = {
     ],
     acquisition: "Collect 10 Souvenirs",
     links: [
-        {title: "Bounty Badge", href: "https://paragonwiki.com/wiki/Bounty_Badge"}
+        {title: "Bounty Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bounty_Badge"}
     ],
 };

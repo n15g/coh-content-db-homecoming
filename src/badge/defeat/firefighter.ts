@@ -10,15 +10,19 @@ export const Firefighter: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {type: Alternate.H, value: "Once again, you have risen to the call of duty and put an end to the evil arsonists that " +
-        "plague Paragon City.  Smokey would be proud!"},
-        {type: Alternate.V, value: "Once again, the Hellions have tried to set the town ablaze and you have stepped in to stomp " +
-        "them and the fires out. Killjoy."}
+        {
+            type: Alternate.H, value: "Once again, you have risen to the call of duty and put an end to the evil arsonists that " +
+                "plague Paragon City.  Smokey would be proud!"
+        },
+        {
+            type: Alternate.V, value: "Once again, the Hellions have tried to set the town ablaze and you have stepped in to stomp " +
+                "them and the fires out. Killjoy."
+        }
     ],
     acquisition: "Defeat 25 Fires and 25 Hellion Arsonists during a Hellion Arson event",
     links: [
-        {title: "Firefighter Badge", href: "https://paragonwiki.com/wiki/Firefighter_Badge"},
-        {title: "Firestomper Badge", href: "https://paragonwiki.com/wiki/Firestomper_Badge"}
+        {title: "Firefighter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Firefighter_Badge"},
+        {title: "Firestomper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Firestomper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/firefighter.png"}

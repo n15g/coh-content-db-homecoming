@@ -16,7 +16,7 @@ export const TheNextBigThing: IBadgeData = {
 
 If you take the elevator up from Mongoose's location and walk straight towards Arbiter Richard, the badge marker is about halfway to the Arbiter.`,
     links: [
-        {title: "The Next Big Thing Badge", href: "https://paragonwiki.com/wiki/The_Next_Big_Thing_Badge"}
+        {title: "The Next Big Thing Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Next_Big_Thing_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "5"

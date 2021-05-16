@@ -14,7 +14,7 @@ export const UnCivilSociety: IBadgeData = {
     }],
     notes: "Located in [map:nova-praetoria] 116 yards W of the Magisterium marker.",
     links: [
-        {title: "Un-Civil Society Badge", href: "https://paragonwiki.com/wiki/Un-Civil_Society_Badge"}
+        {title: "Un-Civil Society Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Un-Civil_Society_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

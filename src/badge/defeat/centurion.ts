@@ -13,7 +13,7 @@ export const Centurion: IBadgeData = {
     ],
     acquisition: "Defeat 100 Cimeroran Traitors",
     links: [
-        {title: "Centurion Badge", href: "https://paragonwiki.com/wiki/Centurion_Badge"}
+        {title: "Centurion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Centurion_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/centurion.png"}

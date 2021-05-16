@@ -17,7 +17,7 @@ Not all who have been abducted have met their end, surviving against all odds.`
     notes: `Located in [map:${DarkAstoria.key}], in the St. Elegius neighborhood, southwest of Romero Heights, and near The Bulwark.
 78 yards north of the neighborhood marker, on top of the hospital.`,
     links: [
-        {title: "Life out of Death Badge", href: "https://paragonwiki.com/wiki/Life_Out_of_Death_Badge"}
+        {title: "Life out of Death Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Life_Out_of_Death_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

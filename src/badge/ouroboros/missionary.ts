@@ -14,7 +14,7 @@ export const Missionary: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc using no pool powers.",
     links: [
-        {title: "Missionary Badge", href: "https://paragonwiki.com/wiki/Missionary_Badge"}
+        {title: "Missionary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Missionary_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/missionary.png"}]
 };

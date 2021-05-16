@@ -17,7 +17,7 @@ export const Ironic: IBadgeData = {
         "\n" +
         "It is on top of the building 433 yards ESE of the neighborhood marker.",
     links: [
-        {title: "Ironic Badge", href: "https://paragonwiki.com/wiki/Ironic_Badge"}
+        {title: "Ironic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ironic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

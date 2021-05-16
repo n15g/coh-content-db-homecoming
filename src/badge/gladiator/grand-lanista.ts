@@ -14,7 +14,7 @@ export const GrandLanista: IBadgeData = {
     ],
     acquisition: "Win ten Gladiator matches in the Arena (Arena)",
     links: [
-        {title: "Grand Lanista Badge", href: "https://paragonwiki.com/wiki/Grand_Lanista_Badge"}
+        {title: "Grand Lanista Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grand_Lanista_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

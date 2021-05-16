@@ -20,7 +20,7 @@ export const UsurperOfWorlds: IBadgeData = {
     }],
     notes: "Located in [map:cascade-archipelago] 134 yards NW of the Tyrant's Rock marker, in the NW section of the island.",
     links: [
-        {title: "Usurper of Worlds Badge", href: "https://paragonwiki.com/wiki/Usurper_of_Worlds_Badge"}
+        {title: "Usurper of Worlds Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Usurper_of_Worlds_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

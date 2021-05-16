@@ -16,7 +16,7 @@ export const ToweringInferno: IBadgeData = {
     }],
     notes: "The Towering Inferno badge is atop a smoldering skyscraper 597 yards NNE of the entrance.",
     links: [
-        {title: "Towering Inferno Badge", href: "https://paragonwiki.com/wiki/Towering_Inferno_Badge"}
+        {title: "Towering Inferno Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Towering_Inferno_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

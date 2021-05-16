@@ -17,7 +17,7 @@ You can't help but put yourself in the monsters' place; you'd have smashed and d
     }],
     notes: `Located in [map:${TheAbyss.key}], 195 yards northeast of the Grandville transfer point, at the base of the large gate along the path leading from the submarine.`,
     links: [
-        {title: "Here Be Dragons Badge", href: "https://paragonwiki.com/wiki/Here_Be_Dragons_Badge"}
+        {title: "Here Be Dragons Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Here_Be_Dragons_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

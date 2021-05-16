@@ -14,7 +14,7 @@ export const Chrononaut: IBadgeData = {
     }],
     notes: "The Chrononaut Badge is located at the very top of the building structure in Ouroboros.",
     links: [
-        {title: "Chrononaut Badge", href: "https://paragonwiki.com/wiki/Chrononaut_Badge"}
+        {title: "Chrononaut Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chrononaut_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

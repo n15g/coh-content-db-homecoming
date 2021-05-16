@@ -23,8 +23,8 @@ export const EyeOnArachnos: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Grandville.key}]`,
     links: [
-        {title: "Eye on Arachnos Badge", href: "https://paragonwiki.com/wiki/Eye_on_Arachnos_Badge"},
-        {title: "Arachnos Spymaster Badge", href: "https://paragonwiki.com/wiki/Arachnos_Spymaster_Badge"}
+        {title: "Eye on Arachnos Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eye_on_Arachnos_Badge"},
+        {title: "Arachnos Spymaster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnos_Spymaster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}

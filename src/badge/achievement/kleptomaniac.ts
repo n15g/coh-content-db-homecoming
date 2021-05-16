@@ -12,6 +12,6 @@ export const Kleptomaniac: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/kleptomaniac.png"}],
     acquisition: "Collect 50 Souvenirs",
     links: [
-        {title: "Kleptomaniac Badge", href: "https://paragonwiki.com/wiki/Kleptomaniac_Badge"}
+        {title: "Kleptomaniac Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Kleptomaniac_Badge"}
     ],
 };

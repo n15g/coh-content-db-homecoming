@@ -16,7 +16,7 @@ export const CorpseBox: IBadgeData = {
     }],
     notes: "This badge is in a cargo crate in the extreme northeast corner of the map.",
     links: [
-        {title: "Corpse Box Badge", href: "https://paragonwiki.com/wiki/Corpse_Box_Badge"}
+        {title: "Corpse Box Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Corpse_Box_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

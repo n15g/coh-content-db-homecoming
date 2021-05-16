@@ -13,7 +13,7 @@ export const Reveler: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Reveler Badge", href: "https://paragonwiki.com/wiki/Reveler_Badge"}
+        {title: "Reveler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Reveler_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/reveler.png"}]
 };

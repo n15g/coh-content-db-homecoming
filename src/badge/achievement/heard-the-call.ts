@@ -9,12 +9,14 @@ export const HeardTheCall: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You completed a Hero Morality Mission and then maintained your Hero alignment for 7 days " +
-        "earning yourself this badge."}
+        {
+            value: "You completed a Hero Morality Mission and then maintained your Hero alignment for 7 days " +
+                "earning yourself this badge."
+        }
     ],
     acquisition: "Maintain a Hero alignment for 7 days",
     links: [
-        {title: "Heard the Call Badge", href: "https://paragonwiki.com/wiki/Heard_the_Call_Badge"}
+        {title: "Heard the Call Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heard_the_Call_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heard-the-call.png"}

@@ -16,7 +16,7 @@ export const HamidonsFury: IBadgeData = {
     }],
     notes: "Located in the Blackstone Hills neighborhood of [map:founders-falls], 33 yards east of the neighborhood marker.",
     links: [
-        {title: "Hamidon's Fury Badge", href: "https://paragonwiki.com/wiki/Hamidon%27s_Fury_Badge"}
+        {title: "Hamidon's Fury Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hamidon%27s_Fury_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

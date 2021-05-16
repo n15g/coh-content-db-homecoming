@@ -18,7 +18,7 @@ Arachnos uses the disappearances as a valuable lesson on being alert during patr
 
 It is on a catwalk overlooking the North Ward of the Gutter, 154 yards east of the Gutter neighborhood marker.`,
     links: [
-        {title: "Gutter Bait Badge", href: "https://paragonwiki.com/wiki/Gutter_Bait_Badge"}
+        {title: "Gutter Bait Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gutter_Bait_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"

@@ -22,19 +22,19 @@ export const ALightInDarkAstorias: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoDarkAstoria.key}]`,
     links: [
-        {title: "A Light in Dark Astorias Badge", href: "https://paragonwiki.com/wiki/A_Light_in_Dark_Astorias_Badge"}
+        {title: "A Light in Dark Astorias Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Light_in_Dark_Astorias_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: AstoriasLastStand.key, type: BadgePartialType.BADGE, badgeKey: AstoriasLastStand.key},
-            {key: CairnWarder.key, type: BadgePartialType.BADGE, badgeKey: CairnWarder.key},
-            {key: DarkMystic.key, type: BadgePartialType.BADGE, badgeKey: DarkMystic.key},
-            {key: PhantomRadio.key, type: BadgePartialType.BADGE, badgeKey: PhantomRadio.key},
-            {key: SeekerOfTheUnknown.key, type: BadgePartialType.BADGE, badgeKey: SeekerOfTheUnknown.key},
-            {key: TheSleeperBelow.key, type: BadgePartialType.BADGE, badgeKey: TheSleeperBelow.key},
-            {key: TooDarkPark.key, type: BadgePartialType.BADGE, badgeKey: TooDarkPark.key},
-            {key: WhispererOnWitchburnHill.key, type: BadgePartialType.BADGE, badgeKey: WhispererOnWitchburnHill.key}
+        {key: AstoriasLastStand.key, type: BadgePartialType.BADGE, badgeKey: AstoriasLastStand.key},
+        {key: CairnWarder.key, type: BadgePartialType.BADGE, badgeKey: CairnWarder.key},
+        {key: DarkMystic.key, type: BadgePartialType.BADGE, badgeKey: DarkMystic.key},
+        {key: PhantomRadio.key, type: BadgePartialType.BADGE, badgeKey: PhantomRadio.key},
+        {key: SeekerOfTheUnknown.key, type: BadgePartialType.BADGE, badgeKey: SeekerOfTheUnknown.key},
+        {key: TheSleeperBelow.key, type: BadgePartialType.BADGE, badgeKey: TheSleeperBelow.key},
+        {key: TooDarkPark.key, type: BadgePartialType.BADGE, badgeKey: TooDarkPark.key},
+        {key: WhispererOnWitchburnHill.key, type: BadgePartialType.BADGE, badgeKey: WhispererOnWitchburnHill.key}
     ]
 };

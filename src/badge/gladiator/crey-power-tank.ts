@@ -13,7 +13,7 @@ export const CreyPowerTank: IBadgeData = {
     ],
     acquisition: "Defeat 100 Crey Tanks (Crey)",
     links: [
-        {title: "Crey Power Tank Badge", href: "https://paragonwiki.com/wiki/Crey_Power_Tank_Badge"}
+        {title: "Crey Power Tank Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Power_Tank_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

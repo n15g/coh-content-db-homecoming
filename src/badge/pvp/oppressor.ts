@@ -13,7 +13,7 @@ export const Oppressor: IBadgeData = {
     ],
     acquisition: "Defeat Ms. Liberty in Recluse's Victory",
     links: [
-        {title: "Oppressor Badge", href: "https://paragonwiki.com/wiki/Oppressor_Badge"}
+        {title: "Oppressor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Oppressor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatstatesman.png"}

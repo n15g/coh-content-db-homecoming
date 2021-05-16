@@ -13,7 +13,7 @@ export const ExplosiveFinale: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Leonard",
     links: [
-        {title: "Explosive Finale Badge", href: "https://paragonwiki.com/wiki/Explosive_Finale_Badge"}
+        {title: "Explosive Finale Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Explosive_Finale_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/explosive-finale.png"}

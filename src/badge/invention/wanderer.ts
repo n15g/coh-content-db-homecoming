@@ -9,7 +9,7 @@ export const Wanderer: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Run Speed, Jump, Fly Speed, and Range."}],
     effect: "+2 to Invention Salvage capacity",
     links: [
-        {title: "Wanderer Badge", href: "https://paragonwiki.com/wiki/Wanderer_Badge"}
+        {title: "Wanderer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wanderer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [

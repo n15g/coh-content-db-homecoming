@@ -15,8 +15,8 @@ export const FormerServantOfRecluse: IBadgeData = {
     ],
     acquisition: "Complete the Lord Recluse Strike Force: Future of Freedom",
     links: [
-        {title: "Former Servant of Recluse Badge", href: "https://paragonwiki.com/wiki/Former_Servant_of_Recluse_Badge"},
-        {title: "Servant of Recluse Badge", href: "https://paragonwiki.com/wiki/Servant_of_Recluse_Badge"}
+        {title: "Former Servant of Recluse Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Former_Servant_of_Recluse_Badge"},
+        {title: "Servant of Recluse Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Servant_of_Recluse_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/former-servant-of-recluse.png"}

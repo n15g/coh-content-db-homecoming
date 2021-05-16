@@ -15,8 +15,8 @@ export const ColdHandOfDeath: IBadgeData = {
     acquisition: "Log out inside Dark Astoria for 100 hours.",
     effect: "Day Job: +Res (Cold/Negative Energy), +Def (Cold/Negative Energy)",
     links: [
-        {title: "Cold Hand of Death Badge", href: "https://paragonwiki.com/wiki/Cold_Hand_of_Death_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Cold Hand of Death Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cold_Hand_of_Death_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/cold-hand-of-death.png"}]
 };

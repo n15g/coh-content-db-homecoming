@@ -9,12 +9,14 @@ export const Erasure: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have washed away the memories of the ancestors, who have no place in the world of the " +
-        "living."}
+        {
+            value: "You have washed away the memories of the ancestors, who have no place in the world of the " +
+                "living."
+        }
     ],
     acquisition: "Defeat 100 points worth of Incarnate-level Tsoo",
     links: [
-        {title: "Erasure Badge", href: "https://paragonwiki.com/wiki/Erasure_Badge"}
+        {title: "Erasure Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Erasure_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/erasure.png"}

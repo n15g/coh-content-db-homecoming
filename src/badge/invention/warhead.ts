@@ -9,7 +9,7 @@ export const Warhead: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Damage and Knockback."}],
     effect: "+2 to Invention Salvage capacity",
     links: [
-        {title: "Warhead Badge", href: "https://paragonwiki.com/wiki/Warhead_Badge"}
+        {title: "Warhead Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Warhead_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [

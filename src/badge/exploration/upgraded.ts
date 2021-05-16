@@ -15,7 +15,7 @@ export const Upgraded: IBadgeData = {
     notes: "The Upgraded Badge is located in Kings Row in the middle of a helicopter landing pad on a rooftop just N of Freedom Plaza." +
         "\n\nIt is located 67 Yards south of the pocket D entrance.",
     links: [
-        {title: "Upgraded Badge", href: "https://paragonwiki.com/wiki/Upgraded_Badge"}
+        {title: "Upgraded Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Upgraded_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

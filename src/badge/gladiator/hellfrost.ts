@@ -13,7 +13,7 @@ export const Hellfrost: IBadgeData = {
     ],
     acquisition: "Earn the [badge:coldblooded] Badge (Circle of Thorns)",
     links: [
-        {title: "Hellfrost Badge", href: "https://paragonwiki.com/wiki/Hellfrost_Badge"}
+        {title: "Hellfrost Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hellfrost_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

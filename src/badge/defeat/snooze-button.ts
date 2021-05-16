@@ -9,12 +9,14 @@ export const SnoozeButton: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "The rejects from the Seer program could have used more training if they wanted to stand up to " +
-        "you. You defeated several Awakened to earn this badge."}
+        {
+            value: "The rejects from the Seer program could have used more training if they wanted to stand up to " +
+                "you. You defeated several Awakened to earn this badge."
+        }
     ],
     acquisition: "Defeat 100 points worth of The Awakened",
     links: [
-        {title: "Snooze Button Badge", href: "https://paragonwiki.com/wiki/Snooze_Button_Badge"}
+        {title: "Snooze Button Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Snooze_Button_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/snooze-button.png"}

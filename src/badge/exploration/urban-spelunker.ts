@@ -16,7 +16,7 @@ export const UrbanSpelunker: IBadgeData = {
         "\n" +
         "Its coordinates are (-3094, 704, 1616), (-2976, 704, -323) and (-3839, 704, -2135). It is necessary to visit only one location to earn this badge.",
     links: [
-        {title: "Urban Spelunker Badge", href: "https://paragonwiki.com/wiki/Urban_Spelunker_Badge"}
+        {title: "Urban Spelunker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Urban_Spelunker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

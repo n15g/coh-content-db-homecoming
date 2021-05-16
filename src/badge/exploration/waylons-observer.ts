@@ -17,7 +17,7 @@ export const WaylonsObserver: IBadgeData = {
         "\n" +
         "It is on the porch of the house 562 yards WNW of the Paragon City Monorail station.",
     links: [
-        {title: "Waylon's Observer Badge", href: "https://paragonwiki.com/wiki/Waylon%27s_Observer_Badge"}
+        {title: "Waylon's Observer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Waylon%27s_Observer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

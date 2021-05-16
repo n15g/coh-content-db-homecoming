@@ -9,12 +9,14 @@ export const DimensionalWarder: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You have made yourself legend by defeating the Praetorians, an evil version of the Freedom " +
-        "Phalanx from an alternate dimension."}
+        {
+            value: "You have made yourself legend by defeating the Praetorians, an evil version of the Freedom " +
+                "Phalanx from an alternate dimension."
+        }
     ],
     acquisition: "Defeat all fifteen Praetorian Archvillains",
     links: [
-        {title: "Dimensional Warder Badge", href: "https://paragonwiki.com/wiki/Dimensional_Warder_Badge"}
+        {title: "Dimensional Warder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dimensional_Warder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/praetorians.png"}

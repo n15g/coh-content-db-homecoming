@@ -14,8 +14,8 @@ export const AwardedTheFreedomCross: IBadgeData = {
     ],
     notes: `Complete the level 44-50 Terra Volta Respecification Trial from Major Richard Flagg`,
     links: [
-        {title: "Awarded the Freedom Cross Badge", href: "https://paragonwiki.com/wiki/Awarded_the_Freedom_Cross_Badge"},
-        {title: "Stripped of the Freedom Cross Badge", href: "https://paragonwiki.com/wiki/Stripped_of_the_Freedom_Cross_Badge"}
+        {title: "Awarded the Freedom Cross Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Awarded_the_Freedom_Cross_Badge"},
+        {title: "Stripped of the Freedom Cross Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stripped_of_the_Freedom_Cross_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/awarded-the-freedom-cross.png"}

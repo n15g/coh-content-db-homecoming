@@ -26,24 +26,24 @@ export const FreedomPhalanxReserveMember: IBadgeData = {
     ],
     notes: `Awards +10% Max Health`,
     links: [
-        {title: "Freedom Phalanx Reserve Member Badge", href: "https://paragonwiki.com/wiki/Freedom_Phalanx_Reserve_Member_Badge"},
-        {title: "Freedom Phalanx Fallen Badge", href: "https://paragonwiki.com/wiki/Freedom_Phalanx_Fallen_Badge"}
+        {title: "Freedom Phalanx Reserve Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom_Phalanx_Reserve_Member_Badge"},
+        {title: "Freedom Phalanx Fallen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom_Phalanx_Fallen_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png"}
     ],
     effect: `+10% Max Health`,
     partials: [
-            {key: Authority.key, type: BadgePartialType.BADGE, badgeKey: Authority.key},
-            {key: Brawler.key, type: BadgePartialType.BADGE, badgeKey: Brawler.key},
-            {key: Gearsmasher.key, type: BadgePartialType.BADGE, badgeKey: Gearsmasher.key},
-            {key: KeenSighted.key, type: BadgePartialType.BADGE, badgeKey: KeenSighted.key},
-            {key: NimbleMynx.key, type: BadgePartialType.BADGE, badgeKey: NimbleMynx.key},
-            {key: Purifier.key, type: BadgePartialType.BADGE, badgeKey: Purifier.key},
-            {key: Regal.key, type: BadgePartialType.BADGE, badgeKey: Regal.key},
-            {key: Summoned.key, type: BadgePartialType.BADGE, badgeKey: Summoned.key},
-            {key: TankBuster.key, type: BadgePartialType.BADGE, badgeKey: TankBuster.key},
-            {key: Unveiler.key, type: BadgePartialType.BADGE, badgeKey: Unveiler.key},
-            {key: Vigorous.key, type: BadgePartialType.BADGE, badgeKey: Vigorous.key}
+        {key: Authority.key, type: BadgePartialType.BADGE, badgeKey: Authority.key},
+        {key: Brawler.key, type: BadgePartialType.BADGE, badgeKey: Brawler.key},
+        {key: Gearsmasher.key, type: BadgePartialType.BADGE, badgeKey: Gearsmasher.key},
+        {key: KeenSighted.key, type: BadgePartialType.BADGE, badgeKey: KeenSighted.key},
+        {key: NimbleMynx.key, type: BadgePartialType.BADGE, badgeKey: NimbleMynx.key},
+        {key: Purifier.key, type: BadgePartialType.BADGE, badgeKey: Purifier.key},
+        {key: Regal.key, type: BadgePartialType.BADGE, badgeKey: Regal.key},
+        {key: Summoned.key, type: BadgePartialType.BADGE, badgeKey: Summoned.key},
+        {key: TankBuster.key, type: BadgePartialType.BADGE, badgeKey: TankBuster.key},
+        {key: Unveiler.key, type: BadgePartialType.BADGE, badgeKey: Unveiler.key},
+        {key: Vigorous.key, type: BadgePartialType.BADGE, badgeKey: Vigorous.key}
     ]
 };

@@ -9,12 +9,14 @@ export const NoAuthority: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You're a wanted criminal according to the Praetorian Police. You defeated enough Praetorian " +
-        "Police Department members to earn this badge."}
+        {
+            value: "You're a wanted criminal according to the Praetorian Police. You defeated enough Praetorian " +
+                "Police Department members to earn this badge."
+        }
     ],
     acquisition: "Defeat 100 points worth of Praetorian PD",
     links: [
-        {title: "No Authority Badge", href: "https://paragonwiki.com/wiki/No_Authority_Badge"}
+        {title: "No Authority Badge", href: "https://hcwiki.cityofheroes.dev/wiki/No_Authority_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/no-authority.png"}

@@ -17,7 +17,7 @@ export const CircleGazer: IBadgeData = {
     notes: "The Circle Gazer Badge is located in the New Haven neighborhood of Cap au Diable." +
         " It is on top of the easternmost Circle of Thorns monument, 261 yards NNW of the neighborhood marker.",
     links: [
-        {title: "Circle Gazer Badge", href: "https://paragonwiki.com/wiki/Circle_Gazer_Badge"}
+        {title: "Circle Gazer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Circle_Gazer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"

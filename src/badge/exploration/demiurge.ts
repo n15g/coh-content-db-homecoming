@@ -18,7 +18,7 @@ export const Demiurge: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] at The Chantry marker, directly atop the Chantry itself.",
     links: [
-        {title: "Demiurge Badge", href: "https://paragonwiki.com/wiki/Demiurge_Badge"}
+        {title: "Demiurge Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Demiurge_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

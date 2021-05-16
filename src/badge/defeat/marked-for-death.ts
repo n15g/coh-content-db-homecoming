@@ -9,12 +9,14 @@ export const MarkedForDeath: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "The Syndicate has marked you for death, but if they're smart they won't get anywhere near you. " +
-        "You defeated several Syndicate members to earn this badge."}
+        {
+            value: "The Syndicate has marked you for death, but if they're smart they won't get anywhere near you. " +
+                "You defeated several Syndicate members to earn this badge."
+        }
     ],
     acquisition: "Defeat 100 points worth of Syndicate",
     links: [
-        {title: "Marked for Death Badge", href: "https://paragonwiki.com/wiki/Marked_for_Death_Badge"}
+        {title: "Marked for Death Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marked_for_Death_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/marked-for-death.png"}

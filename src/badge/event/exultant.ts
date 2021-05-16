@@ -13,7 +13,7 @@ export const Exultant: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Exultant Badge", href: "https://paragonwiki.com/wiki/Exultant_Badge"}
+        {title: "Exultant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Exultant_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/exultant.png"}]
 };

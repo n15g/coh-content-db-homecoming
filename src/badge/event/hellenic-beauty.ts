@@ -14,7 +14,7 @@ export const HellenicBeauty: IBadgeData = {
     acquisition: "In the Summer Blockbuster, defeat Cornutus, but leave both Camilla and Claudia alive.",
     notes: "(It is not necessary to refrain from damaging the two angels, just don't kill them.)",
     links: [
-        {title: "Hellenic Beauty Badge", href: "https://paragonwiki.com/wiki/Hellenic_Beauty_Badge"}
+        {title: "Hellenic Beauty Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hellenic_Beauty_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hellenic-beauty.png"}]
 };

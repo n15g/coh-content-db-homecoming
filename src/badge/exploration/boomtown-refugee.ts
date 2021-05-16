@@ -19,7 +19,7 @@ export const BoomtownRefugee: IBadgeData = {
     }],
     notes: "Located in [map:abandoned-sewer-network] 111 yards south of the Sewer Network transfer point in Boomtown Sector, in the middle of the metal walkway.",
     links: [
-        {title: "Boomtown Refugee Badge", href: "https://paragonwiki.com/wiki/Boomtown_Refugee_Badge"}
+        {title: "Boomtown Refugee Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Boomtown_Refugee_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

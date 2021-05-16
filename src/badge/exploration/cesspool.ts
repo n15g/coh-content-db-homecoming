@@ -17,7 +17,7 @@ export const Cesspool: IBadgeData = {
 The marker is on a ledge between two large tanks in a pool of greenish water.
 The tanks are in the far northwestern part of the island, and the badge marker is 602 yards west-northwest of the Darwin's Landing marker.`,
     links: [
-        {title: "Cesspool Badge", href: "https://paragonwiki.com/wiki/Cesspool_Badge"}
+        {title: "Cesspool Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cesspool_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "1"

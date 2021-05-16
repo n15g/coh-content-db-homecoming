@@ -12,6 +12,6 @@ export const Escapist: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_align_mission.png"}],
     acquisition: "Leave Praetoria through the Rift Enclosure after completing the Crusader, Warden, Responsibility or Power story arc.",
     links: [
-        {title: "Escapist Badge", href: "https://paragonwiki.com/wiki/Escapist_Badge"}
+        {title: "Escapist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Escapist_Badge"}
     ],
 };

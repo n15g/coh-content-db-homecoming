@@ -11,7 +11,7 @@ export const Gamer: IBadgeData = {
     badgeText: [{value: "You've experienced your first player created story arc in the Mission Architect."}],
     acquisition: "Play one Mission Architect story arc.",
     links: [
-        {title: "Gamer Badge", href: "https://paragonwiki.com/wiki/Gamer_Badge"}
+        {title: "Gamer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gamer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/gamer.png"}]
 };

@@ -16,8 +16,8 @@ export const Hangman: IBadgeData = {
     notes: "The Hangman Badge marker is located on a small rock outcropping at the very base of the northern wall of the zone, just off the western shore of the villain base in [map:${SirensCall.key}]." +
         "\n\nIt is about 190 yards west of the Sharkhead Isle marker.",
     links: [
-        {title: "Hangman Badge", href: "https://paragonwiki.com/wiki/Hangman_Badge"},
-        {title: "Hangwoman Badge", href: "https://paragonwiki.com/wiki/Hangwoman_Badge"}
+        {title: "Hangman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hangman_Badge"},
+        {title: "Hangwoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hangwoman_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

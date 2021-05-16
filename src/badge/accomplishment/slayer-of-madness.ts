@@ -9,12 +9,14 @@ export const SlayerOfMadness: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You defeated the being known as Lanaru the Mad, sparing the people of the Shadow Shard from " +
-        "total destruction."}
+        {
+            value: "You defeated the being known as Lanaru the Mad, sparing the people of the Shadow Shard from " +
+                "total destruction."
+        }
     ],
     acquisition: "Complete the Faathim the Kind Task Force: The Saga of Lanaru",
     links: [
-        {title: "Slayer of Madness Badge", href: "https://paragonwiki.com/wiki/Slayer_of_Madness_Badge"}
+        {title: "Slayer of Madness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Slayer_of_Madness_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/slayer-of-madness.png"}

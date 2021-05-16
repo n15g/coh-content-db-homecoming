@@ -21,7 +21,7 @@ export const EntrustedWithTheSecret: IBadgeData = {
         "See the Paragon Wiki link for a detailed list of badges and missions that will grant this badge.",
     effect: "Ouroboros Portal",
     links: [
-        {title: "Entrusted with the Secret Badge", href: "https://paragonwiki.com/wiki/Entrusted_with_the_Secret_Badge"}
+        {title: "Entrusted with the Secret Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Entrusted_with_the_Secret_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/entrusted-with-the-secret.png"}]
 };

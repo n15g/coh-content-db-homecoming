@@ -14,14 +14,16 @@ export const TheUnyielding: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "Continued defeats mean nothing to you."},
         {type: Alternate.V, value: "They can knock you down, but they can't keep you down."},
-        {type: Alternate.P, value: "Because those Hospitals can be pretty far away sometimes... Despite your many, many defeats, " +
-        "you press on."}
+        {
+            type: Alternate.P, value: "Because those Hospitals can be pretty far away sometimes... Despite your many, many defeats, " +
+                "you press on."
+        }
     ],
     acquisition: "Pay off 100,000 debt",
     links: [
-        {title: "The Unyielding Badge", href: "https://paragonwiki.com/wiki/The_Unyielding_Badge"},
-        {title: "Unbroken Badge", href: "https://paragonwiki.com/wiki/Unbroken_Badge"},
-        {title: "Went the Extra Mile Badge", href: "https://paragonwiki.com/wiki/Went_the_Extra_Mile_Badge"}
+        {title: "The Unyielding Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Unyielding_Badge"},
+        {title: "Unbroken Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unbroken_Badge"},
+        {title: "Went the Extra Mile Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Went_the_Extra_Mile_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

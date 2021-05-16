@@ -15,8 +15,8 @@ export const FalseImage: IBadgeData = {
     ],
     notes: `Complete Scirocco's patron story arc`,
     links: [
-        {title: "False Image Badge", href: "https://paragonwiki.com/wiki/False_Image_Badge"},
-        {title: "Mirage Badge", href: "https://paragonwiki.com/wiki/Mirage_Badge"}
+        {title: "False Image Badge", href: "https://hcwiki.cityofheroes.dev/wiki/False_Image_Badge"},
+        {title: "Mirage Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mirage_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/false-image.png"}

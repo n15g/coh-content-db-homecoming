@@ -17,7 +17,7 @@ export const SkyChaser: IBadgeData = {
 
 It is on the one upper platform that doesn't have a turret on it.`,
     links: [
-        {title: "Sky Chaser Badge", href: "https://paragonwiki.com/wiki/Sky_Chaser_Badge"}
+        {title: "Sky Chaser Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sky_Chaser_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "5"

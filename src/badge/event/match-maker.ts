@@ -15,7 +15,7 @@ export const MatchMaker: IBadgeData = {
     notes: "To get this badge and/or the Missed Connection badge you must run the missions from Scratch for villains or Ganymede for heroes and then talk to DJ Zero." +
         "\n\nDJ Zero will ask you if you want to deliver Valentines and once you say yes the valentines will drop like tip missions.",
     links: [
-        {title: "Match Maker Badge", href: "https://paragonwiki.com/wiki/Match_Maker_Badge"}
+        {title: "Match Maker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Match_Maker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/match-maker.png"}]
 };

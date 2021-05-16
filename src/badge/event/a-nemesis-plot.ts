@@ -13,7 +13,7 @@ export const ANemesisPlot: IBadgeData = {
     ],
     acquisition: "Be in the zone when Nemesis is defeated during the Nemesis Plot event.",
     links: [
-        {title: "A Nemesis Plot Badge", href: "https://paragonwiki.com/wiki/A_Nemesis_Plot_Badge"}
+        {title: "A Nemesis Plot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Nemesis_Plot_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/a-nemesis-plot.png"}]
 };

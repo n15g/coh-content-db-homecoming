@@ -15,8 +15,8 @@ export const HolidaySpirit: IBadgeData = {
     ],
     acquisition: "Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
-        {title: "Holiday Spirit Badge", href: "https://paragonwiki.com/wiki/Holiday_Spirit_Badge"},
-        {title: "Scrooge Badge", href: "https://paragonwiki.com/wiki/Scrooge_Badge"}
+        {title: "Holiday Spirit Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Holiday_Spirit_Badge"},
+        {title: "Scrooge Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scrooge_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/holiday-spirit.png"}]
 };

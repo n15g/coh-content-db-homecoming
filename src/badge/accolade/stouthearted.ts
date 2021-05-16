@@ -24,21 +24,21 @@ export const Stouthearted: IBadgeData = {
     ],
     notes: `Visit all Safeguard exploration badges`,
     links: [
-        {title: "Stouthearted Badge", href: "https://paragonwiki.com/wiki/Stouthearted_Badge"},
-        {title: "Stonehearted Badge", href: "https://paragonwiki.com/wiki/Stonehearted_Badge"}
+        {title: "Stouthearted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stouthearted_Badge"},
+        {title: "Stonehearted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stonehearted_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/stouthearted.png"}
     ],
     partials: [
-            {key: HeartOfTheCity.key, type: BadgePartialType.BADGE, badgeKey: HeartOfTheCity.key},
-            {key: KingsRighteousness.key, type: BadgePartialType.BADGE, badgeKey: KingsRighteousness.key},
-            {key: CourageDriven.key, type: BadgePartialType.BADGE, badgeKey: CourageDriven.key},
-            {key: FreedomsDefender.key, type: BadgePartialType.BADGE, badgeKey: FreedomsDefender.key},
-            {key: HonorableCaptain.key, type: BadgePartialType.BADGE, badgeKey: HonorableCaptain.key},
-            {key: TalosMight.key, type: BadgePartialType.BADGE, badgeKey: TalosMight.key},
-            {key: Cornerstone.key, type: BadgePartialType.BADGE, badgeKey: Cornerstone.key},
-            {key: FoundersProtector.key, type: BadgePartialType.BADGE, badgeKey: FoundersProtector.key},
-            {key: Gatekeeper.key, type: BadgePartialType.BADGE, badgeKey: Gatekeeper.key}
+        {key: HeartOfTheCity.key, type: BadgePartialType.BADGE, badgeKey: HeartOfTheCity.key},
+        {key: KingsRighteousness.key, type: BadgePartialType.BADGE, badgeKey: KingsRighteousness.key},
+        {key: CourageDriven.key, type: BadgePartialType.BADGE, badgeKey: CourageDriven.key},
+        {key: FreedomsDefender.key, type: BadgePartialType.BADGE, badgeKey: FreedomsDefender.key},
+        {key: HonorableCaptain.key, type: BadgePartialType.BADGE, badgeKey: HonorableCaptain.key},
+        {key: TalosMight.key, type: BadgePartialType.BADGE, badgeKey: TalosMight.key},
+        {key: Cornerstone.key, type: BadgePartialType.BADGE, badgeKey: Cornerstone.key},
+        {key: FoundersProtector.key, type: BadgePartialType.BADGE, badgeKey: FoundersProtector.key},
+        {key: Gatekeeper.key, type: BadgePartialType.BADGE, badgeKey: Gatekeeper.key}
     ]
 };

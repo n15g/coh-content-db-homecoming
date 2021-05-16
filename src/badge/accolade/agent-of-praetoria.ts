@@ -14,7 +14,7 @@ export const AgentOfPraetoria: IBadgeData = {
     ],
     notes: `Complete every story arc in [map:${NovaPraetoria.key}] to earn this badge. [Rewards 20 Merits]`,
     links: [
-        {title: "Agent of Praetoria Badge", href: "https://paragonwiki.com/wiki/Agent_of_Praetoria_Badge"}
+        {title: "Agent of Praetoria Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agent_of_Praetoria_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png"},

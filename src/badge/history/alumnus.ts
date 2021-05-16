@@ -14,7 +14,7 @@ export const Alumnus: IBadgeData = {
         {value: `You have learned the history of Croatoa.`}
     ],
     links: [
-        {title: "Alumnus Badge", href: "https://paragonwiki.com/wiki/Alumnus_Badge"}
+        {title: "Alumnus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alumnus_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

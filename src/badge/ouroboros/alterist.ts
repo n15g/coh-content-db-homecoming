@@ -13,7 +13,7 @@ export const Alterist: IBadgeData = {
     ],
     acquisition: "Complete 20 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Alterist Badge", href: "https://paragonwiki.com/wiki/Alterist_Badge"}
+        {title: "Alterist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alterist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/alterist.png"}]
 };

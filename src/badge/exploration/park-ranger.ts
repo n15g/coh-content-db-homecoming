@@ -14,7 +14,7 @@ export const ParkRanger: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] 144 yards NW of the People's Park marker.",
     links: [
-        {title: "Park Ranger Badge", href: "https://paragonwiki.com/wiki/Park_Ranger_Badge"}
+        {title: "Park Ranger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Park_Ranger_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

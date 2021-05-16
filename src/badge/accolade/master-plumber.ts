@@ -22,7 +22,7 @@ export const MasterPlumber: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${AbandonedSewerNetwork.key}]`,
     links: [
-        {title: "Master Plumber Badge", href: "https://paragonwiki.com/wiki/Master_Plumber_Badge"}
+        {title: "Master Plumber Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_Plumber_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

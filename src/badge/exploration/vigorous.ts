@@ -18,7 +18,7 @@ export const Vigorous: IBadgeData = {
     notes: "The Vigorous Badge is located in the Crey Cove neighborhood of Independence Port." +
         "\n\nThe badge marker is in the center of the roof of a large warehouse approximately 310 yards southwest of the Kings Row tunnel and directly south of Icon at 187 yards.",
     links: [
-        {title: "Vigorous Badge", href: "https://paragonwiki.com/wiki/Vigorous_Badge"}
+        {title: "Vigorous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vigorous_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

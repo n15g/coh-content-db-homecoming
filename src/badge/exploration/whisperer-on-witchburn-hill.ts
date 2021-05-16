@@ -17,7 +17,7 @@ export const WhispererOnWitchburnHill: IBadgeData = {
     }],
     notes: "Located in [map:echo-dark-astoria] 222 yards SSE of the Moth Cemetery marker, at the top of a steep hill.",
     links: [
-        {title: "Whisperer on Witchburn Hill Badge", href: "https://paragonwiki.com/wiki/Whisperer_on_Witchburn_Hill_Badge"}
+        {title: "Whisperer on Witchburn Hill Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Whisperer_on_Witchburn_Hill_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

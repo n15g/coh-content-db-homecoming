@@ -13,7 +13,7 @@ export const Blindsider: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Seers",
     links: [
-        {title: "Blindsider Badge", href: "https://paragonwiki.com/wiki/Blindsider_Badge"}
+        {title: "Blindsider Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blindsider_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/blindsider.png"}

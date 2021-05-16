@@ -17,7 +17,7 @@ You summon images of Rularuu's minions running rampant upon your beloved homewor
     }],
     notes: `Located in [map:${TheStormPalace.key}] 272 yards NNW of the Lock of Fury marker, on the larger island in the corner closest to the smaller island.`,
     links: [
-        {title: "Fist of Fury Badge", href: "https://paragonwiki.com/wiki/Fist_of_Fury_Badge"}
+        {title: "Fist of Fury Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fist_of_Fury_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

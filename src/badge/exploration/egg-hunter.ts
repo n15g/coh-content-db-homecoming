@@ -20,11 +20,11 @@ export const EggHunter: IBadgeData = {
         "6. Walk forward and a small doorway is on the north side, opening into a room with a Cryptic Lounge sign on the wall.\n" +
         "7. The badge is in the middle of that room.",
     links: [
-        {title: "Egg Hunter Badge", href: "https://paragonwiki.com/wiki/Egg_Hunter_Badge"},
+        {title: "Egg Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Egg_Hunter_Badge"},
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+    ],
     vidiotMapKey: "8"
 };

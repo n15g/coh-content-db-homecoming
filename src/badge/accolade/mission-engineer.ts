@@ -21,20 +21,20 @@ export const MissionEngineer: IBadgeData = {
     ],
     notes: `Awards usage of the Architect Comlink macro`,
     links: [
-        {title: "Mission Engineer Badge", href: "https://paragonwiki.com/wiki/Mission_Engineer_Badge"}
+        {title: "Mission Engineer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mission_Engineer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mission-engineer.png"}
     ],
     effect: `Architect Comlink`,
     partials: [
-            {key: ThrillSeeker.key, type: BadgePartialType.BADGE, badgeKey: ThrillSeeker.key},
-            {key: Gamer.key, type: BadgePartialType.BADGE, badgeKey: Gamer.key},
-            {key: TicketTaker.key, type: BadgePartialType.BADGE, badgeKey: TicketTaker.key},
-            {key: Author.key, type: BadgePartialType.BADGE, badgeKey: Author.key},
-            {key: Recognized.key, type: BadgePartialType.BADGE, badgeKey: Recognized.key},
-            {key: EarlyBird.key, type: BadgePartialType.BADGE, badgeKey: EarlyBird.key},
-            {key: Customizer.key, type: BadgePartialType.BADGE, badgeKey: Customizer.key},
-            {key: BugFixer.key, type: BadgePartialType.BADGE, badgeKey: BugFixer.key}
+        {key: ThrillSeeker.key, type: BadgePartialType.BADGE, badgeKey: ThrillSeeker.key},
+        {key: Gamer.key, type: BadgePartialType.BADGE, badgeKey: Gamer.key},
+        {key: TicketTaker.key, type: BadgePartialType.BADGE, badgeKey: TicketTaker.key},
+        {key: Author.key, type: BadgePartialType.BADGE, badgeKey: Author.key},
+        {key: Recognized.key, type: BadgePartialType.BADGE, badgeKey: Recognized.key},
+        {key: EarlyBird.key, type: BadgePartialType.BADGE, badgeKey: EarlyBird.key},
+        {key: Customizer.key, type: BadgePartialType.BADGE, badgeKey: Customizer.key},
+        {key: BugFixer.key, type: BadgePartialType.BADGE, badgeKey: BugFixer.key}
     ]
 };

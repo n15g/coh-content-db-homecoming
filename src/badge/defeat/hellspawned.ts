@@ -13,7 +13,7 @@ export const Hellspawned: IBadgeData = {
     ],
     acquisition: "Defeat 50 Hellions Damned",
     links: [
-        {title: "Hellspawned Badge", href: "https://paragonwiki.com/wiki/Hellspawned_Badge"}
+        {title: "Hellspawned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hellspawned_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/hellspawned.png"}

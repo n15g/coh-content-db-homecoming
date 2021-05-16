@@ -14,7 +14,7 @@ export const TiberianOverseer: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] 185 yards N of the Tiberian Bluff marker.",
     links: [
-        {title: "Tiberian Overseer Badge", href: "https://paragonwiki.com/wiki/Tiberian_Overseer_Badge"}
+        {title: "Tiberian Overseer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tiberian_Overseer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

@@ -8,7 +8,7 @@ export const Major: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Accuracy and To Hit Buff."}],
     links: [
-        {title: "Major Badge", href: "https://paragonwiki.com/wiki/Major_Badge"}
+        {title: "Major Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Major_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

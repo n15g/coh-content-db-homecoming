@@ -17,14 +17,14 @@ export const PoliceChief: IBadgeData = {
     ],
     notes: `Earn the [badge:law-enforcer] and [badge:city-official] Day Jobs`,
     links: [
-        {title: "Police Chief Badge", href: "https://paragonwiki.com/wiki/Police_Chief_Badge"},
-        {title: "Corrupt Commissioner Badge", href: "https://paragonwiki.com/wiki/Corrupt_Commissioner_Badge"}
+        {title: "Police Chief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Police_Chief_Badge"},
+        {title: "Corrupt Commissioner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Corrupt_Commissioner_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/police-chief.png"}
     ],
     partials: [
-            {key: LawEnforcer.key, type: BadgePartialType.BADGE, badgeKey: LawEnforcer.key},
-            {key: CityOfficial.key, type: BadgePartialType.BADGE, badgeKey: CityOfficial.key}
+        {key: LawEnforcer.key, type: BadgePartialType.BADGE, badgeKey: LawEnforcer.key},
+        {key: CityOfficial.key, type: BadgePartialType.BADGE, badgeKey: CityOfficial.key}
     ]
 };

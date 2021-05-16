@@ -14,7 +14,7 @@ export const Contributor: IBadgeData = {
     ],
     acquisition: "Complete a level 1-15 Flashback story arc using no pool powers.",
     links: [
-        {title: "Contributor Badge", href: "https://paragonwiki.com/wiki/Contributor_Badge"}
+        {title: "Contributor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Contributor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/contributor.png"}]
 };

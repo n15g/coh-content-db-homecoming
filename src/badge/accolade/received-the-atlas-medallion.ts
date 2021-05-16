@@ -20,18 +20,18 @@ export const ReceivedTheAtlasMedallion: IBadgeData = {
     ],
     notes: `Awards +5 Max Endurance`,
     links: [
-        {title: "Received the Atlas Medallion Badge", href: "https://paragonwiki.com/wiki/Received_the_Atlas_Medallion_Badge"},
-        {title: "Atlas Shrugged Badge", href: "https://paragonwiki.com/wiki/Atlas_Shrugged_Badge"}
+        {title: "Received the Atlas Medallion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Received_the_Atlas_Medallion_Badge"},
+        {title: "Atlas Shrugged Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Atlas_Shrugged_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-atlas-medallion.png"}
     ],
     effect: `+5 Max Endurance`,
     partials: [
-            {key: Pupil.key, type: BadgePartialType.BADGE, badgeKey: Pupil.key},
-            {key: Spelunker.key, type: BadgePartialType.BADGE, badgeKey: Spelunker.key},
-            {key: TheSilverBullet.key, type: BadgePartialType.BADGE, badgeKey: TheSilverBullet.key},
-            {key: TheSlayer.key, type: BadgePartialType.BADGE, badgeKey: TheSlayer.key},
-            {key: TopDog.key, type: BadgePartialType.BADGE, badgeKey: TopDog.key}
+        {key: Pupil.key, type: BadgePartialType.BADGE, badgeKey: Pupil.key},
+        {key: Spelunker.key, type: BadgePartialType.BADGE, badgeKey: Spelunker.key},
+        {key: TheSilverBullet.key, type: BadgePartialType.BADGE, badgeKey: TheSilverBullet.key},
+        {key: TheSlayer.key, type: BadgePartialType.BADGE, badgeKey: TheSlayer.key},
+        {key: TopDog.key, type: BadgePartialType.BADGE, badgeKey: TopDog.key}
     ]
 };

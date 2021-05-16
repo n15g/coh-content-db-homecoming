@@ -14,7 +14,7 @@ export const Disappeared: IBadgeData = {
     }],
     notes: "Located in [map:underground-nova] approximately 345 yards NNW of City Access B.",
     links: [
-        {title: "Disappeared Badge", href: "https://paragonwiki.com/wiki/Disappeared_Badge"}
+        {title: "Disappeared Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Disappeared_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

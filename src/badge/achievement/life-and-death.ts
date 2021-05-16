@@ -9,15 +9,17 @@ export const LifeAndDeath: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "For a woman so obsessed with becoming Death Incarnate, Diabolique sure spent a lot of energy " +
-        "making sure that she had a ready supply of Lifegiving Essences to keep her alive during your " +
-        "final battle in Dilemma Diabolique. In the end, though, they proved to be little more than an " +
-        "inconvenience for your league, as you did not allow a single one to successfully be used to " +
-        "heal her."}
+        {
+            value: "For a woman so obsessed with becoming Death Incarnate, Diabolique sure spent a lot of energy " +
+                "making sure that she had a ready supply of Lifegiving Essences to keep her alive during your " +
+                "final battle in Dilemma Diabolique. In the end, though, they proved to be little more than an " +
+                "inconvenience for your league, as you did not allow a single one to successfully be used to " +
+                "heal her."
+        }
     ],
     acquisition: "Defeat Diabolique without allowing her to heal from a single Lifegiving Essence during the final battle of the Dilemma Diabolique Trial",
     links: [
-        {title: "Life and Death Badge", href: "https://paragonwiki.com/wiki/Life_and_Death_Badge"}
+        {title: "Life and Death Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Life_and_Death_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-dea.png"}

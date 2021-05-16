@@ -13,7 +13,7 @@ export const HydraProtean: IBadgeData = {
     ],
     acquisition: "Earn the [badge:charmer] Badge (Hydra)",
     links: [
-        {title: "Hydra Protean Badge", href: "https://paragonwiki.com/wiki/Hydra_Protean_Badge"}
+        {title: "Hydra Protean Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hydra_Protean_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

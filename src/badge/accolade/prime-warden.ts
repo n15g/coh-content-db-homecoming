@@ -22,19 +22,19 @@ export const PrimeWarden: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${FirstWard.key}]`,
     links: [
-        {title: "Prime Warden Badge", href: "https://paragonwiki.com/wiki/Prime_Warden_Badge"}
+        {title: "Prime Warden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Prime_Warden_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}
     ],
     partials: [
-            {key: DearlyDeparted.key, type: BadgePartialType.BADGE, badgeKey: DearlyDeparted.key},
-            {key: EyeOfTheVortex.key, type: BadgePartialType.BADGE, badgeKey: EyeOfTheVortex.key},
-            {key: FearlessInsurgent.key, type: BadgePartialType.BADGE, badgeKey: FearlessInsurgent.key},
-            {key: ShellShocked.key, type: BadgePartialType.BADGE, badgeKey: ShellShocked.key},
-            {key: MayhemsProdigal.key, type: BadgePartialType.BADGE, badgeKey: MayhemsProdigal.key},
-            {key: ShadowWalker.key, type: BadgePartialType.BADGE, badgeKey: ShadowWalker.key},
-            {key: VengeanceSeeker.key, type: BadgePartialType.BADGE, badgeKey: VengeanceSeeker.key},
-            {key: WitnessForTheFallen.key, type: BadgePartialType.BADGE, badgeKey: WitnessForTheFallen.key}
+        {key: DearlyDeparted.key, type: BadgePartialType.BADGE, badgeKey: DearlyDeparted.key},
+        {key: EyeOfTheVortex.key, type: BadgePartialType.BADGE, badgeKey: EyeOfTheVortex.key},
+        {key: FearlessInsurgent.key, type: BadgePartialType.BADGE, badgeKey: FearlessInsurgent.key},
+        {key: ShellShocked.key, type: BadgePartialType.BADGE, badgeKey: ShellShocked.key},
+        {key: MayhemsProdigal.key, type: BadgePartialType.BADGE, badgeKey: MayhemsProdigal.key},
+        {key: ShadowWalker.key, type: BadgePartialType.BADGE, badgeKey: ShadowWalker.key},
+        {key: VengeanceSeeker.key, type: BadgePartialType.BADGE, badgeKey: VengeanceSeeker.key},
+        {key: WitnessForTheFallen.key, type: BadgePartialType.BADGE, badgeKey: WitnessForTheFallen.key}
     ]
 };

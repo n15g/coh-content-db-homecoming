@@ -13,7 +13,7 @@ export const TournamentVictor: IBadgeData = {
     ],
     acquisition: "Win a rated or unrated Swiss Draw match in the Arena",
     links: [
-        {title: "Tournament Victor Badge", href: "https://paragonwiki.com/wiki/Tournament_Victor_Badge"}
+        {title: "Tournament Victor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tournament_Victor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/tournament-victor.png"}

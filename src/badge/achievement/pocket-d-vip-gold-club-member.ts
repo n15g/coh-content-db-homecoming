@@ -13,7 +13,7 @@ export const PocketDVipGoldClubMember: IBadgeData = {
     ],
     acquisition: "Spend an hour in Pocket D",
     links: [
-        {title: "Pocket D VIP Gold Club Member Badge", href: "https://paragonwiki.com/wiki/Pocket_D_VIP_Gold_Club_Member_Badge"}
+        {title: "Pocket D VIP Gold Club Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pocket_D_VIP_Gold_Club_Member_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/pocket-d-vip-gold-club-member.png"}

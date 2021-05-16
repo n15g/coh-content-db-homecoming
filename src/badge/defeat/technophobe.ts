@@ -9,12 +9,14 @@ export const Technophobe: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "If the Praetorian Clockwork felt any emotion, they would learn to fear you. You defeated your " +
-        "fair share of Praetorian Clockwork to earn this badge."}
+        {
+            value: "If the Praetorian Clockwork felt any emotion, they would learn to fear you. You defeated your " +
+                "fair share of Praetorian Clockwork to earn this badge."
+        }
     ],
     acquisition: "Defeat 100 points worth of Praetorian Clockwork",
     links: [
-        {title: "Technophobe Badge", href: "https://paragonwiki.com/wiki/Technophobe_Badge"}
+        {title: "Technophobe Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Technophobe_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/technophobe.png"}

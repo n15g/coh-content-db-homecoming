@@ -10,14 +10,16 @@ export const ThinLine: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {type: Alternate.H, value: "The Paragon Police Department has an entire squad tracking you. They've let you know that you " +
-        "walk a Thin Line here in Paragon."},
+        {
+            type: Alternate.H, value: "The Paragon Police Department has an entire squad tracking you. They've let you know that you " +
+                "walk a Thin Line here in Paragon."
+        },
         {type: Alternate.V, value: "The Paragon Police Department can't come close to keeping you behind bars."}
     ],
     acquisition: "Defeat 1000 Paragon Police (all kinds) in Mayhem Missions",
     links: [
-        {title: "Thin Line Badge", href: "https://paragonwiki.com/wiki/Thin_Line_Badge"},
-        {title: "Outlaw Badge", href: "https://paragonwiki.com/wiki/Outlaw_Badge"}
+        {title: "Thin Line Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thin_Line_Badge"},
+        {title: "Outlaw Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Outlaw_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/thin-line.png"}

@@ -13,7 +13,7 @@ export const Uppercut: IBadgeData = {
     ],
     acquisition: "Defeat Back Alley Brawler in Recluse's Victory",
     links: [
-        {title: "Uppercut Badge", href: "https://paragonwiki.com/wiki/Uppercut_Badge"}
+        {title: "Uppercut Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Uppercut_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/uppercut.png"}

@@ -13,7 +13,7 @@ export const LastStand: IBadgeData = {
     notes: "The Last Stand Badge is located in the [map:${ReclusesVictory.key}] zone in Sector 2." +
         " It is under the monorail track behind a store approximately halfway between the Foxtrot and Golf pillboxes (but slightly closer to Foxtrot).",
     links: [
-        {title: "Last Stand Badge", href: "https://paragonwiki.com/wiki/Last_Stand_Badge"}
+        {title: "Last Stand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Last_Stand_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

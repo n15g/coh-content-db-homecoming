@@ -12,6 +12,6 @@ export const Magistrate: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_loyal.png"}],
     acquisition: "Complete every story arc in the Praetorian Responsibility storyline to earn this badge.",
     links: [
-        {title: "Magistrate Badge", href: "https://paragonwiki.com/wiki/Magistrate_Badge"}
+        {title: "Magistrate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Magistrate_Badge"}
     ],
 };

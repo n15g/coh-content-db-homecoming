@@ -9,13 +9,15 @@ export const MadeAStand: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {type: Alternate.H, value: "Your morality has been demonstrated to all, at least for today. You completed a Morality " +
-        "Mission to earn this badge."},
+        {
+            type: Alternate.H, value: "Your morality has been demonstrated to all, at least for today. You completed a Morality " +
+                "Mission to earn this badge."
+        },
         {type: Alternate.V, value: "You strove for what you believe in and, against all odds, came out on top."}
     ],
     acquisition: "Complete a Morality Mission through Tips  Requires Going Rogue.",
     links: [
-        {title: "Made a Stand Badge", href: "https://paragonwiki.com/wiki/Made_a_Stand_Badge"}
+        {title: "Made a Stand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Made_a_Stand_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/made-a-stand-h.png"},

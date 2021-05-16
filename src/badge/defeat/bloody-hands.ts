@@ -15,8 +15,8 @@ export const BloodyHands: IBadgeData = {
     ],
     acquisition: "Defeat 25 Heroes in Mayhem Missions",
     links: [
-        {title: "Bloody Hands Badge", href: "https://paragonwiki.com/wiki/Bloody_Hands_Badge"},
-        {title: "Hero Slayer Badge", href: "https://paragonwiki.com/wiki/Hero_Slayer_Badge"}
+        {title: "Bloody Hands Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bloody_Hands_Badge"},
+        {title: "Hero Slayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hero_Slayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/bloody-hands.png"}

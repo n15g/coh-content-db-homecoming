@@ -17,6 +17,6 @@ export const Relentless: IBadgeData = {
     ],
     acquisition: "Deal 1,000,000 damage to earn this badge.",
     links: [
-        {title: "Relentless Badge", href: "https://paragonwiki.com/wiki/Relentless_Badge"}
+        {title: "Relentless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Relentless_Badge"}
     ],
 };

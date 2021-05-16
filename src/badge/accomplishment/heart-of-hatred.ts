@@ -9,12 +9,14 @@ export const HeartOfHatred: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You fought against Mot, the essence of hatred, and managed to win, saving the world from being " +
-        "devoured whole by the creature."}
+        {
+            value: "You fought against Mot, the essence of hatred, and managed to win, saving the world from being " +
+                "devoured whole by the creature."
+        }
     ],
     acquisition: "Complete the final story arc from Dream Doctor",
     links: [
-        {title: "Heart of Hatred Badge", href: "https://paragonwiki.com/wiki/Heart_of_Hatred_Badge"}
+        {title: "Heart of Hatred Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heart_of_Hatred_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png"}

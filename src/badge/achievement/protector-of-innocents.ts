@@ -14,14 +14,16 @@ export const ProtectorOfInnocents: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "Positron has awarded you this badge for achieving Security Level 10."},
         {type: Alternate.V, value: "Arachnos has awarded you the Soldier Badge for reaching Level 10."},
-        {type: Alternate.P, value: "Working your way through the ins-and-outs of Praetoria's political landscape has become second " +
-        "nature to you."}
+        {
+            type: Alternate.P, value: "Working your way through the ins-and-outs of Praetoria's political landscape has become second " +
+                "nature to you."
+        }
     ],
     acquisition: "Reach level 10",
     links: [
-        {title: "Protector of Innocents Badge", href: "https://paragonwiki.com/wiki/Protector_of_Innocents_Badge"},
-        {title: "Soldier Badge", href: "https://paragonwiki.com/wiki/Soldier_Badge"},
-        {title: "Praetorian Professional Badge", href: "https://paragonwiki.com/wiki/Praetorian_Professional_Badge"}
+        {title: "Protector of Innocents Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Protector_of_Innocents_Badge"},
+        {title: "Soldier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Soldier_Badge"},
+        {title: "Praetorian Professional Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetorian_Professional_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/protector-of-innocents-h.png"},

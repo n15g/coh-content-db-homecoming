@@ -14,7 +14,7 @@ export const PortAuthority: IBadgeData = {
     ],
     notes: `Complete every story arc in [map:${StrigaIsle.key}]. [Rewards 20 Merits]`,
     links: [
-        {title: "Port Authority Badge", href: "https://paragonwiki.com/wiki/Port_Authority_Badge"}
+        {title: "Port Authority Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Port_Authority_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}

@@ -13,7 +13,7 @@ export const EvilsResident: IBadgeData = {
     ],
     acquisition: "Defeat 25 Zombie bosses during Zombie Apocalypses.",
     links: [
-        {title: "Evil's Resident Badge", href: "https://paragonwiki.com/wiki/Evil%27s_Resident_Badge"}
+        {title: "Evil's Resident Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Evil%27s_Resident_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/evils-resident.png"}]
 };

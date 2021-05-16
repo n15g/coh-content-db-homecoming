@@ -13,7 +13,7 @@ export const IronWarrior: IBadgeData = {
     ],
     acquisition: "Defeat Jack in Irons during the Halloween event.",
     links: [
-        {title: "Iron Warrior Badge", href: "https://paragonwiki.com/wiki/Iron_Warrior_Badge"}
+        {title: "Iron Warrior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Iron_Warrior_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/iron-warrior.png"}]
 };

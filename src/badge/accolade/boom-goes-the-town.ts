@@ -22,19 +22,19 @@ export const BoomGoesTheTown: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Boomtown.key}]`,
     links: [
-        {title: "Boom... Goes the Town Badge", href: "https://paragonwiki.com/wiki/Boom..._Goes_the_Town_Badge"}
+        {title: "Boom... Goes the Town Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Boom..._Goes_the_Town_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: BoomtownTroglodyte.key, type: BadgePartialType.BADGE, badgeKey: BoomtownTroglodyte.key},
-            {key: CorpseBox.key, type: BadgePartialType.BADGE, badgeKey: CorpseBox.key},
-            {key: DestinedForValhalla.key, type: BadgePartialType.BADGE, badgeKey: DestinedForValhalla.key},
-            {key: EndOfTheLine.key, type: BadgePartialType.BADGE, badgeKey: EndOfTheLine.key},
-            {key: Phalanxer.key, type: BadgePartialType.BADGE, badgeKey: Phalanxer.key},
-            {key: Regal.key, type: BadgePartialType.BADGE, badgeKey: Regal.key},
-            {key: ToweringInferno.key, type: BadgePartialType.BADGE, badgeKey: ToweringInferno.key},
-            {key: VisionOfDespair.key, type: BadgePartialType.BADGE, badgeKey: VisionOfDespair.key}
+        {key: BoomtownTroglodyte.key, type: BadgePartialType.BADGE, badgeKey: BoomtownTroglodyte.key},
+        {key: CorpseBox.key, type: BadgePartialType.BADGE, badgeKey: CorpseBox.key},
+        {key: DestinedForValhalla.key, type: BadgePartialType.BADGE, badgeKey: DestinedForValhalla.key},
+        {key: EndOfTheLine.key, type: BadgePartialType.BADGE, badgeKey: EndOfTheLine.key},
+        {key: Phalanxer.key, type: BadgePartialType.BADGE, badgeKey: Phalanxer.key},
+        {key: Regal.key, type: BadgePartialType.BADGE, badgeKey: Regal.key},
+        {key: ToweringInferno.key, type: BadgePartialType.BADGE, badgeKey: ToweringInferno.key},
+        {key: VisionOfDespair.key, type: BadgePartialType.BADGE, badgeKey: VisionOfDespair.key}
     ]
 };

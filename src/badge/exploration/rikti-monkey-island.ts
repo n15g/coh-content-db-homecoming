@@ -18,7 +18,7 @@ You're going to enjoy pulping their little bodies.`
     }],
     notes: `Located in [map:${MonsterIsland.key}], 535 yards southeast of the Cutlass Isles marker, near the tallest tree on the small island in the southeast portion of the zone.`,
     links: [
-        {title: "Rikti Monkey Island Badge", href: "https://paragonwiki.com/wiki/Rikti_Monkey_Island_Badge"}
+        {title: "Rikti Monkey Island Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rikti_Monkey_Island_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

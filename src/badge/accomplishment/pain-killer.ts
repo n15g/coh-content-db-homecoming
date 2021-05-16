@@ -13,7 +13,7 @@ export const PainKiller: IBadgeData = {
     ],
     acquisition: "Complete the Cathedral of Pain trial.",
     links: [
-        {title: "Pain Killer Badge", href: "https://paragonwiki.com/wiki/Pain_Killer_Badge"}
+        {title: "Pain Killer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pain_Killer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/pain-killer.png"}

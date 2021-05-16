@@ -13,7 +13,7 @@ export const DarkHeart: IBadgeData = {
     ],
     acquisition: "Complete the Level 5-9 Ongoing Training story arc from Dr. Graves",
     links: [
-        {title: "Dark Heart Badge", href: "https://paragonwiki.com/wiki/Dark_Heart_Badge"}
+        {title: "Dark Heart Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dark_Heart_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/dark-heart.png"}

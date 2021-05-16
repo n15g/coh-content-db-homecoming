@@ -15,7 +15,7 @@ export const GoingRouge: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] 365 yards E of the Industry Avenue marker, and directly in front of Rita Mayfair.",
     links: [
-        {title: "Going Rouge Badge", href: "https://paragonwiki.com/wiki/Going_Rouge_Badge"}
+        {title: "Going Rouge Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Going_Rouge_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "9"

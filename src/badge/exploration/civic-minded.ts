@@ -14,7 +14,7 @@ export const CivicMinded: IBadgeData = {
     }],
     notes: "Located in [map:nova-praetoria] in the center of the plaza between Praetor Duncan and Praetor White.",
     links: [
-        {title: "Civic Minded Badge", href: "https://paragonwiki.com/wiki/Civic_Minded_Badge"}
+        {title: "Civic Minded Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Civic_Minded_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

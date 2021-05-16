@@ -13,7 +13,7 @@ export const MasterOfDilemmaDiabolique: IBadgeData = {
     ],
     acquisition: "Earn the Spinebreaker, Sentinel Smasher, Sacrificial Lamb, and Life and Death badges",
     links: [
-        {title: "Master of Dilemma Diabolique Badge", href: "https://paragonwiki.com/wiki/Master_of_Dilemma_Diabolique_Badge"}
+        {title: "Master of Dilemma Diabolique Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Dilemma_Diabolique_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-dilemma-diabolique.png"}

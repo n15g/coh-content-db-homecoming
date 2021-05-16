@@ -21,7 +21,7 @@ export const BornInBattle: IBadgeData = {
     ],
     notes: `Awards +5% Max Health and +5 Max Endurance`,
     links: [
-        {title: "Born in Battle Badge", href: "https://paragonwiki.com/wiki/Born_in_Battle_Badge"}
+        {title: "Born in Battle Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Born_in_Battle_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/born-in-battle.png"}

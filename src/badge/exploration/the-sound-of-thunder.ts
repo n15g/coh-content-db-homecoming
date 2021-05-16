@@ -17,7 +17,7 @@ The closer your approach, the more excited they seem to grow and the louder thei
     notes: `Located in [map:${TheHive.key}] 558 yards west and a bit north of the [map:${Eden.key}] transfer point, in the middle of a valley guarded
 by two barricades of monsters off the southeast edge of the crater.`,
     links: [
-        {title: "The Sound of Thunder Badge", href: "https://paragonwiki.com/wiki/The_Sound_of_Thunder_Badge"}
+        {title: "The Sound of Thunder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Sound_of_Thunder_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

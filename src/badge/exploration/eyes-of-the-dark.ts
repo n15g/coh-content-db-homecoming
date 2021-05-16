@@ -16,7 +16,7 @@ export const EyesOfTheDark: IBadgeData = {
     }],
     notes: "Located in [map:underground-imperial] 95 feet from the door to the Resistance Hub.",
     links: [
-        {title: "Eyes of the Dark Badge", href: "https://paragonwiki.com/wiki/Eyes_of_the_Dark_Badge"}
+        {title: "Eyes of the Dark Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eyes_of_the_Dark_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

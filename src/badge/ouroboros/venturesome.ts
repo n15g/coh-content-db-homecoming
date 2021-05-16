@@ -14,7 +14,7 @@ export const Venturesome: IBadgeData = {
     ],
     acquisition: "Complete a level 36-40 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Venturesome Badge", href: "https://paragonwiki.com/wiki/Venturesome_Badge"}
+        {title: "Venturesome Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Venturesome_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/venturesome.png"}]
 };

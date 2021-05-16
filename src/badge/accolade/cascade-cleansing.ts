@@ -22,19 +22,19 @@ export const CascadeCleansing: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${CascadeArchipelago.key}]`,
     links: [
-        {title: "Cascade Cleansing Badge", href: "https://paragonwiki.com/wiki/Cascade_Cleansing_Badge"}
+        {title: "Cascade Cleansing Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cascade_Cleansing_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: BeingAndNothingness.key, type: BadgePartialType.BADGE, badgeKey: BeingAndNothingness.key},
-            {key: Castaway.key, type: BadgePartialType.BADGE, badgeKey: Castaway.key},
-            {key: HearingVoices.key, type: BadgePartialType.BADGE, badgeKey: HearingVoices.key},
-            {key: LiquidMemory.key, type: BadgePartialType.BADGE, badgeKey: LiquidMemory.key},
-            {key: NoTurningBackNow.key, type: BadgePartialType.BADGE, badgeKey: NoTurningBackNow.key},
-            {key: PeaceWalker.key, type: BadgePartialType.BADGE, badgeKey: PeaceWalker.key},
-            {key: TheHeartOfMemory.key, type: BadgePartialType.BADGE, badgeKey: TheHeartOfMemory.key},
-            {key: UsurperOfWorlds.key, type: BadgePartialType.BADGE, badgeKey: UsurperOfWorlds.key}
+        {key: BeingAndNothingness.key, type: BadgePartialType.BADGE, badgeKey: BeingAndNothingness.key},
+        {key: Castaway.key, type: BadgePartialType.BADGE, badgeKey: Castaway.key},
+        {key: HearingVoices.key, type: BadgePartialType.BADGE, badgeKey: HearingVoices.key},
+        {key: LiquidMemory.key, type: BadgePartialType.BADGE, badgeKey: LiquidMemory.key},
+        {key: NoTurningBackNow.key, type: BadgePartialType.BADGE, badgeKey: NoTurningBackNow.key},
+        {key: PeaceWalker.key, type: BadgePartialType.BADGE, badgeKey: PeaceWalker.key},
+        {key: TheHeartOfMemory.key, type: BadgePartialType.BADGE, badgeKey: TheHeartOfMemory.key},
+        {key: UsurperOfWorlds.key, type: BadgePartialType.BADGE, badgeKey: UsurperOfWorlds.key}
     ]
 };

@@ -13,7 +13,7 @@ export const Wrangler: IBadgeData = {
     ],
     acquisition: "Defeat Black Scorpion in Recluse's Victory",
     links: [
-        {title: "Wrangler Badge", href: "https://paragonwiki.com/wiki/Wrangler_Badge"}
+        {title: "Wrangler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wrangler_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/wrangler.png"}

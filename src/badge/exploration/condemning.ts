@@ -16,7 +16,7 @@ export const Condemning: IBadgeData = {
     }],
     notes: "Located in [map:underground-imperial] on the ferry barge in the furthest north room, just east of the crates.",
     links: [
-        {title: "Condemning Badge", href: "https://paragonwiki.com/wiki/Condemning_Badge"}
+        {title: "Condemning Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Condemning_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

@@ -15,8 +15,8 @@ export const Marketer: IBadgeData = {
     ],
     acquisition: "5000 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Marketer Badge", href: "https://paragonwiki.com/wiki/Marketer_Badge"},
-        {title: "Black Marketeer Badge", href: "https://paragonwiki.com/wiki/Black_Marketeer"}
+        {title: "Marketer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marketer_Badge"},
+        {title: "Black Marketeer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Black_Marketeer"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/marketer.png"}]
 };

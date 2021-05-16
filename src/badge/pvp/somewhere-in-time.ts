@@ -13,7 +13,7 @@ export const SomewhereInTime: IBadgeData = {
     ],
     acquisition: "Capture 50 pillboxes in Recluse's Victory",
     links: [
-        {title: "Somewhere in Time Badge", href: "https://paragonwiki.com/wiki/Somewhere_in_Time_Badge"}
+        {title: "Somewhere in Time Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Somewhere_in_Time_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/somewhere-in-time.png"}

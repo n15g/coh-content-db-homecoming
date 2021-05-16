@@ -23,9 +23,9 @@ export const Commuter: IBadgeData = {
     acquisition: "Log out inside Train Stations for 100 hours.",
     effect: "Day Job: +Movement Speed",
     links: [
-        {title: "Commuter Badge", href: "https://paragonwiki.com/wiki/Commuter_Badge"},
-        {title: "Fare Jumper Badge", href: "https://paragonwiki.com/wiki/Fare_Jumper_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Commuter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Commuter_Badge"},
+        {title: "Fare Jumper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fare_Jumper_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/commuter.png"}]
 };

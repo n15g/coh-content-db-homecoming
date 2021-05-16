@@ -14,7 +14,7 @@ export const UnderFire: IBadgeData = {
         "\n" +
         "Next to the road.",
     links: [
-        {title: "Under Fire Badge", href: "https://paragonwiki.com/wiki/Under_Fire_Badge"},
+        {title: "Under Fire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Under_Fire_Badge"},
         {title: "Echo: Rikti Crash Site Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

@@ -12,13 +12,15 @@ export const MedicalSpecialist: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: "You have helped your fellow heroes by healing them for three million hit points."},
-        {type: Alternate.P, value: "Your allies are renewed in spirit and body whenever you arrive. Always in time, and always To " +
-        "The Rescue."}
+        {
+            type: Alternate.P, value: "Your allies are renewed in spirit and body whenever you arrive. Always in time, and always To " +
+                "The Rescue."
+        }
     ],
     acquisition: "Heal others for 3,000,000 hit points",
     links: [
-        {title: "Medical Specialist Badge", href: "https://paragonwiki.com/wiki/Medical_Specialist_Badge"},
-        {title: "To the Rescue Badge", href: "https://paragonwiki.com/wiki/To_the_Rescue_Badge"}
+        {title: "Medical Specialist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Medical_Specialist_Badge"},
+        {title: "To the Rescue Badge", href: "https://hcwiki.cityofheroes.dev/wiki/To_the_Rescue_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heal-h.png"},

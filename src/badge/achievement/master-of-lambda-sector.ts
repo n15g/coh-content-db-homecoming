@@ -13,7 +13,7 @@ export const MasterOfLambdaSector: IBadgeData = {
     ],
     acquisition: "Earn the Synchronized, Well-Stocked, Antacid, and Lambda Looter badges",
     links: [
-        {title: "Master of Lambda Sector Badge", href: "https://paragonwiki.com/wiki/Master_of_Lambda_Sector_Badge"}
+        {title: "Master of Lambda Sector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Lambda_Sector_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-lambda-sector.png"}

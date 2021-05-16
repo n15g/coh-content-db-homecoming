@@ -14,7 +14,7 @@ export const TunedIn: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] 41 yards NW of the Logos marker.",
     links: [
-        {title: "Tuned In Badge", href: "https://paragonwiki.com/wiki/Tuned_In_Badge"}
+        {title: "Tuned In Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tuned_In_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "8"

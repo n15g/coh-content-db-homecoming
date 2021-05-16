@@ -15,7 +15,7 @@ export const Vigilant: IBadgeData = {
     ],
     notes: `Complete every story arc in the [map:${RiktiWarZone.key}] to earn this badge. [Rewards 20 Merits]`,
     links: [
-        {title: "Vigilant Badge", href: "https://paragonwiki.com/wiki/Vigilant_Badge"}
+        {title: "Vigilant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vigilant_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"},

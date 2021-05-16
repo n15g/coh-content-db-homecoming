@@ -13,7 +13,7 @@ export const ProbationDenied: IBadgeData = {
     ],
     acquisition: "Complete the Prison Break zone event in Brickstown",
     links: [
-        {title: "Probation Denied Badge", href: "https://paragonwiki.com/wiki/Probation_Denied_Badge"}
+        {title: "Probation Denied Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Probation_Denied_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png"}

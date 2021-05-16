@@ -17,7 +17,7 @@ export const Chaotician: IBadgeData = {
         "\n" +
         "The marker is halfway into the tunnel entrance closest to The Gaspee marker.",
     links: [
-        {title: "Chaotician Badge", href: "https://paragonwiki.com/wiki/Chaotician_Badge"}
+        {title: "Chaotician Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chaotician_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

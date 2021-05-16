@@ -8,7 +8,7 @@ export const Decaying: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],
     links: [
-        {title: "Decaying Badge", href: "https://paragonwiki.com/wiki/Decaying_Badge"}
+        {title: "Decaying Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Decaying_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [

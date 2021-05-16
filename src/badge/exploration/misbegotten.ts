@@ -17,7 +17,7 @@ export const Misbegotten: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] 250 yards ENE of the Bastion of Shame marker, on the NE edge of the island.",
     links: [
-        {title: "Misbegotten Badge", href: "https://paragonwiki.com/wiki/Misbegotten_Badge"}
+        {title: "Misbegotten Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Misbegotten_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

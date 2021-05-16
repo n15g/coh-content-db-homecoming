@@ -16,7 +16,7 @@ export const Misunderstood: IBadgeData = {
     }],
     notes: "Located directly in front of Agent Six, the Natural store in [map:founders-falls].",
     links: [
-        {title: "Misunderstood Badge", href: "https://paragonwiki.com/wiki/Misunderstood_Badge"}
+        {title: "Misunderstood Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Misunderstood_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

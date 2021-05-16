@@ -23,20 +23,20 @@ export const AdamInWaiting: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Eden.key}]`,
     links: [
-        {title: "Adam in Waiting Badge", href: "https://paragonwiki.com/wiki/Adam_in_Waiting_Badge"},
-        {title: "Eve in Waiting Badge", href: "https://paragonwiki.com/wiki/Eve_in_Waiting_Badge"}
+        {title: "Adam in Waiting Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Adam_in_Waiting_Badge"},
+        {title: "Eve in Waiting Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eve_in_Waiting_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: CallOfNature.key, type: BadgePartialType.BADGE, badgeKey: CallOfNature.key},
-            {key: CreyFish.key, type: BadgePartialType.BADGE, badgeKey: CreyFish.key},
-            {key: HiveMind.key, type: BadgePartialType.BADGE, badgeKey: HiveMind.key},
-            {key: NaturalLaw.key, type: BadgePartialType.BADGE, badgeKey: NaturalLaw.key},
-            {key: NaturalSelection.key, type: BadgePartialType.BADGE, badgeKey: NaturalSelection.key},
-            {key: NaturesWrath.key, type: BadgePartialType.BADGE, badgeKey: NaturesWrath.key},
-            {key: TheDevouringEarthAbides.key, type: BadgePartialType.BADGE, badgeKey: TheDevouringEarthAbides.key},
-            {key: Unspoiled.key, type: BadgePartialType.BADGE, badgeKey: Unspoiled.key}
+        {key: CallOfNature.key, type: BadgePartialType.BADGE, badgeKey: CallOfNature.key},
+        {key: CreyFish.key, type: BadgePartialType.BADGE, badgeKey: CreyFish.key},
+        {key: HiveMind.key, type: BadgePartialType.BADGE, badgeKey: HiveMind.key},
+        {key: NaturalLaw.key, type: BadgePartialType.BADGE, badgeKey: NaturalLaw.key},
+        {key: NaturalSelection.key, type: BadgePartialType.BADGE, badgeKey: NaturalSelection.key},
+        {key: NaturesWrath.key, type: BadgePartialType.BADGE, badgeKey: NaturesWrath.key},
+        {key: TheDevouringEarthAbides.key, type: BadgePartialType.BADGE, badgeKey: TheDevouringEarthAbides.key},
+        {key: Unspoiled.key, type: BadgePartialType.BADGE, badgeKey: Unspoiled.key}
     ]
 };

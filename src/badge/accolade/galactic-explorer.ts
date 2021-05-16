@@ -22,19 +22,19 @@ export const GalacticExplorer: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoGalaxyCity.key}]`,
     links: [
-        {title: "Galactic Explorer Badge", href: "https://paragonwiki.com/wiki/Galactic_Explorer_Badge"}
+        {title: "Galactic Explorer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Galactic_Explorer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: BirdWatcher.key, type: BadgePartialType.BADGE, badgeKey: BirdWatcher.key},
-            {key: BlueShield.key, type: BadgePartialType.BADGE, badgeKey: BlueShield.key},
-            {key: Brawler.key, type: BadgePartialType.BADGE, badgeKey: Brawler.key},
-            {key: Tank.key, type: BadgePartialType.BADGE, badgeKey: Tank.key},
-            {key: LandLocked.key, type: BadgePartialType.BADGE, badgeKey: LandLocked.key},
-            {key: GalacticFan.key, type: BadgePartialType.BADGE, badgeKey: GalacticFan.key},
-            {key: EyeOfTheGemini.key, type: BadgePartialType.BADGE, badgeKey: EyeOfTheGemini.key},
-            {key: OrionsBelt.key, type: BadgePartialType.BADGE, badgeKey: OrionsBelt.key}
+        {key: BirdWatcher.key, type: BadgePartialType.BADGE, badgeKey: BirdWatcher.key},
+        {key: BlueShield.key, type: BadgePartialType.BADGE, badgeKey: BlueShield.key},
+        {key: Brawler.key, type: BadgePartialType.BADGE, badgeKey: Brawler.key},
+        {key: Tank.key, type: BadgePartialType.BADGE, badgeKey: Tank.key},
+        {key: LandLocked.key, type: BadgePartialType.BADGE, badgeKey: LandLocked.key},
+        {key: GalacticFan.key, type: BadgePartialType.BADGE, badgeKey: GalacticFan.key},
+        {key: EyeOfTheGemini.key, type: BadgePartialType.BADGE, badgeKey: EyeOfTheGemini.key},
+        {key: OrionsBelt.key, type: BadgePartialType.BADGE, badgeKey: OrionsBelt.key}
     ]
 };

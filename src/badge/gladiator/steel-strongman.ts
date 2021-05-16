@@ -13,7 +13,7 @@ export const SteelStrongman: IBadgeData = {
     ],
     acquisition: "Earn the [badge:illusionist] Badge (Carnival of Shadows)",
     links: [
-        {title: "Steel Strongman Badge", href: "https://paragonwiki.com/wiki/Steel_Strongman_Badge"}
+        {title: "Steel Strongman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Steel_Strongman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

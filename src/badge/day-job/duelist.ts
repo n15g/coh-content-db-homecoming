@@ -15,8 +15,8 @@ export const Duelist: IBadgeData = {
     acquisition: "Log out inside Arena buildings for 100 hours.",
     effect: "Day Job: +Max Endurance",
     links: [
-        {title: "Duelist Badge", href: "https://paragonwiki.com/wiki/Duelist_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Duelist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Duelist_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/duelist.png"}]
 };

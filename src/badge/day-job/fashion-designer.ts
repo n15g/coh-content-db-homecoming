@@ -15,8 +15,8 @@ export const FashionDesigner: IBadgeData = {
     acquisition: "Log out inside Tailor buildings for 100 hours.",
     effect: "Day Job: Tailor discount tokens",
     links: [
-        {title: "Fashion Designer Badge", href: "https://paragonwiki.com/wiki/Fashion_Designer_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Fashion Designer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fashion_Designer_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/fashion-designer.png"}]
 };

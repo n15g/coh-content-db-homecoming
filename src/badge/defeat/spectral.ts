@@ -13,7 +13,7 @@ export const Spectral: IBadgeData = {
     ],
     acquisition: "Trap 100 ghosts in Fort Hades, Port Oakes",
     links: [
-        {title: "Spectral Badge", href: "https://paragonwiki.com/wiki/Spectral_Badge"}
+        {title: "Spectral Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spectral_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/ghosts.png"}

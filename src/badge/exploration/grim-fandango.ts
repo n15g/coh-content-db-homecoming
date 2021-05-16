@@ -17,7 +17,7 @@ and what your skull would look like smeared with Rikti Monkey dung.`
     }],
     notes: `Located in [map:${MonsterIsland.key}], 280 yards southwest of the Cutlass Isles marker, next to a large pile of bones.`,
     links: [
-        {title: "Grim Fandango Badge", href: "https://paragonwiki.com/wiki/Grim_Fandango_Badge"}
+        {title: "Grim Fandango Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grim_Fandango_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

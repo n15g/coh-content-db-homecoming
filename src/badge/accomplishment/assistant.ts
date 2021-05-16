@@ -10,13 +10,15 @@ export const Assistant: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You helped a team complete a Weekly Strike Target even though you already received the bonus " +
-        "for the week."}
+        {
+            value: "You helped a team complete a Weekly Strike Target even though you already received the bonus " +
+                "for the week."
+        }
     ],
     acquisition: "Complete a Weekly Strike Target after you've already completed one for the week",
     links: [
-        {title: "Assistant Badge", href: "https://paragonwiki.com/wiki/Assistant_Badge"},
-        {title: "Accomplice Badge", href: "https://paragonwiki.com/wiki/Accomplice_Badge"}
+        {title: "Assistant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Assistant_Badge"},
+        {title: "Accomplice Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Accomplice_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/assistant.png"}

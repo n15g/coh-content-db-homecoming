@@ -22,19 +22,19 @@ export const AtlasTourGuide: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${AtlasPark.key}]`,
     links: [
-        {title: "Atlas Tour Guide Badge", href: "https://paragonwiki.com/wiki/Atlas_Tour_Guide_Badge"}
+        {title: "Atlas Tour Guide Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Atlas_Tour_Guide_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: Undefeated.key, type: BadgePartialType.BADGE, badgeKey: Undefeated.key},
-            {key: SilentSentinel.key, type: BadgePartialType.BADGE, badgeKey: SilentSentinel.key},
-            {key: HeroCorpsInsider.key, type: BadgePartialType.BADGE, badgeKey: HeroCorpsInsider.key},
-            {key: Patriot.key, type: BadgePartialType.BADGE, badgeKey: Patriot.key},
-            {key: TopDog.key, type: BadgePartialType.BADGE, badgeKey: TopDog.key},
-            {key: Freedom.key, type: BadgePartialType.BADGE, badgeKey: Freedom.key},
-            {key: EdgeOfChaos.key, type: BadgePartialType.BADGE, badgeKey: EdgeOfChaos.key},
-            {key: Observant.key, type: BadgePartialType.BADGE, badgeKey: Observant.key}
+        {key: Undefeated.key, type: BadgePartialType.BADGE, badgeKey: Undefeated.key},
+        {key: SilentSentinel.key, type: BadgePartialType.BADGE, badgeKey: SilentSentinel.key},
+        {key: HeroCorpsInsider.key, type: BadgePartialType.BADGE, badgeKey: HeroCorpsInsider.key},
+        {key: Patriot.key, type: BadgePartialType.BADGE, badgeKey: Patriot.key},
+        {key: TopDog.key, type: BadgePartialType.BADGE, badgeKey: TopDog.key},
+        {key: Freedom.key, type: BadgePartialType.BADGE, badgeKey: Freedom.key},
+        {key: EdgeOfChaos.key, type: BadgePartialType.BADGE, badgeKey: EdgeOfChaos.key},
+        {key: Observant.key, type: BadgePartialType.BADGE, badgeKey: Observant.key}
     ]
 };

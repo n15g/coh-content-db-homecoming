@@ -14,7 +14,7 @@ export const RisingStar: IBadgeData = {
     ],
     notes: `Complete every story arc in [map:${ImperialCity.key}] to earn this badge. [Rewards 20 Merits]`,
     links: [
-        {title: "Rising Star Badge", href: "https://paragonwiki.com/wiki/Rising_Star_Badge"}
+        {title: "Rising Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rising_Star_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png"},

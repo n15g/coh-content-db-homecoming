@@ -19,7 +19,7 @@ The survivors believed too that one day they would return and reclaim First Ward
     notes: `Located in [map:${FirstWard.key}] 83 yards NNE of the map marker; at the base of a small mausoleum..
 It is on the west side of the eastern-most island of Lock of Torment.`,
     links: [
-        {title: "Dearly Departed Badge", href: "https://paragonwiki.com/wiki/Dearly_Departed_Badge"}
+        {title: "Dearly Departed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dearly_Departed_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

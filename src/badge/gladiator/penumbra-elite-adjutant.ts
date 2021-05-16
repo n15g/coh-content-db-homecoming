@@ -13,7 +13,7 @@ export const PenumbraEliteAdjutant: IBadgeData = {
     ],
     acquisition: "Earn the [badge:super-spy] Badge (Council)",
     links: [
-        {title: "Penumbra Elite Adjutant Badge", href: "https://paragonwiki.com/wiki/Penumbra_Elite_Adjutant_Badge"}
+        {title: "Penumbra Elite Adjutant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Penumbra_Elite_Adjutant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

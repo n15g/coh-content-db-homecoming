@@ -9,12 +9,14 @@ export const LoneWolf: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You fought against the armies of the Banished Pantheon by yourself, choosing to have the other " +
-        "Incarnates support the rest of Astoria."}
+        {
+            value: "You fought against the armies of the Banished Pantheon by yourself, choosing to have the other " +
+                "Incarnates support the rest of Astoria."
+        }
     ],
     acquisition: "Refuse help from other Incarnate NPCs in the final mission from Dream Doctor",
     links: [
-        {title: "Lone Wolf Badge", href: "https://paragonwiki.com/wiki/Lone_Wolf_Badge"}
+        {title: "Lone Wolf Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lone_Wolf_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png"}

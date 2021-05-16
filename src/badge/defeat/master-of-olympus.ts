@@ -10,14 +10,16 @@ export const MasterOfOlympus: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {type: Alternate.H, value: "You have destroyed the Kronos Titan, showing Malta that the Heroes of Paragon City defend " +
-        "their turf."},
+        {
+            type: Alternate.H, value: "You have destroyed the Kronos Titan, showing Malta that the Heroes of Paragon City defend " +
+                "their turf."
+        },
         {type: Alternate.V, value: "You have destroyed the Kronos Titan, showing Malta that you are a force to be reckoned with."}
     ],
     acquisition: "Defeat Kronos Class Titan, a monster in an ambush in a Crimson mission",
     links: [
-        {title: "Master of Olympus Badge", href: "https://paragonwiki.com/wiki/Master_of_Olympus_Badge"},
-        {title: "Mistress of Olympus Badge", href: "https://paragonwiki.com/wiki/Mistress_of_Olympus_Badge"}
+        {title: "Master of Olympus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Olympus_Badge"},
+        {title: "Mistress of Olympus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mistress_of_Olympus_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/malta.png"}

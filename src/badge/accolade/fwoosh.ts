@@ -15,8 +15,8 @@ export const Fwoosh: IBadgeData = {
     ],
     notes: `Complete Black Scorpion's patron story arc`,
     links: [
-        {title: "Fwoosh Badge", href: "https://paragonwiki.com/wiki/Fwoosh_Badge"},
-        {title: "The Stinger Badge", href: "https://paragonwiki.com/wiki/The_Stinger_Badge"}
+        {title: "Fwoosh Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fwoosh_Badge"},
+        {title: "The Stinger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Stinger_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/fwoosh.png"}

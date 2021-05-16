@@ -14,7 +14,7 @@ export const Aftershock: IBadgeData = {
     ],
     notes: `Complete every story arc in [map:${Faultline.key}]. [Rewards 20 Merits]`,
     links: [
-        {title: "Aftershock Badge", href: "https://paragonwiki.com/wiki/Aftershock_Badge"}
+        {title: "Aftershock Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Aftershock_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}

@@ -16,7 +16,7 @@ export const AstoriasLastStand: IBadgeData = {
     }],
     notes: "Located in [map:echo-dark-astoria] 325 yards NW of the Barca Plaza marker, atop a building with delivery trucks parked outside.",
     links: [
-        {title: "Astoria's Last Stand Badge", href: "https://paragonwiki.com/wiki/Astoria%27s_Last_Stand_Badge"}
+        {title: "Astoria's Last Stand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Astoria%27s_Last_Stand_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

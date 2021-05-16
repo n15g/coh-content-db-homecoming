@@ -11,7 +11,7 @@ export const Payoff: IBadgeData = {
     badgeText: [{value: "I spent 1000 Mission Architect tickets and all I got was this stupid badge!"}],
     acquisition: "Purchase from the ticket vendor.",
     links: [
-        {title: "Payoff Badge", href: "https://paragonwiki.com/wiki/Payoff_Badge"}
+        {title: "Payoff Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Payoff_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/payoff.png"}]
 };

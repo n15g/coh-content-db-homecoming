@@ -20,8 +20,8 @@ export const InTherapy: IBadgeData = {
     ],
     notes: `Awards the Megalomaniac power`,
     links: [
-        {title: "In Therapy Badge", href: "https://paragonwiki.com/wiki/In_Therapy_Badge"},
-        {title: "Megalomaniac Badge", href: "https://paragonwiki.com/wiki/Megalomaniac_Badge"}
+        {title: "In Therapy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/In_Therapy_Badge"},
+        {title: "Megalomaniac Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Megalomaniac_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/in-therapy.png"}

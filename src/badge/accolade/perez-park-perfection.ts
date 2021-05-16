@@ -22,20 +22,20 @@ export const PerezParkPerfection: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${PerezPark.key}]`,
     links: [
-        {title: "Perez Park Perfection Badge", href: "https://paragonwiki.com/wiki/Perez_Park_Perfection_Badge"}
+        {title: "Perez Park Perfection Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Perez_Park_Perfection_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: AroundTheBendis.key, type: BadgePartialType.BADGE, badgeKey: AroundTheBendis.key},
-            {key: Avatar.key, type: BadgePartialType.BADGE, badgeKey: Avatar.key},
-            {key: BloodMoss.key, type: BadgePartialType.BADGE, badgeKey: BloodMoss.key},
-            {key: DocWhedon.key, type: BadgePartialType.BADGE, badgeKey: DocWhedon.key},
-            {key: JusticeAvenger.key, type: BadgePartialType.BADGE, badgeKey: JusticeAvenger.key},
-            {key: NebulasMemory.key, type: BadgePartialType.BADGE, badgeKey: NebulasMemory.key},
-            {key: OpheliasFinalScene.key, type: BadgePartialType.BADGE, badgeKey: OpheliasFinalScene.key},
-            {key: JusticeAvenger.key, type: BadgePartialType.BADGE, badgeKey: JusticeAvenger.key},
-            {key: Territorial.key, type: BadgePartialType.BADGE, badgeKey: Territorial.key}
+        {key: AroundTheBendis.key, type: BadgePartialType.BADGE, badgeKey: AroundTheBendis.key},
+        {key: Avatar.key, type: BadgePartialType.BADGE, badgeKey: Avatar.key},
+        {key: BloodMoss.key, type: BadgePartialType.BADGE, badgeKey: BloodMoss.key},
+        {key: DocWhedon.key, type: BadgePartialType.BADGE, badgeKey: DocWhedon.key},
+        {key: JusticeAvenger.key, type: BadgePartialType.BADGE, badgeKey: JusticeAvenger.key},
+        {key: NebulasMemory.key, type: BadgePartialType.BADGE, badgeKey: NebulasMemory.key},
+        {key: OpheliasFinalScene.key, type: BadgePartialType.BADGE, badgeKey: OpheliasFinalScene.key},
+        {key: JusticeAvenger.key, type: BadgePartialType.BADGE, badgeKey: JusticeAvenger.key},
+        {key: Territorial.key, type: BadgePartialType.BADGE, badgeKey: Territorial.key}
     ]
 };

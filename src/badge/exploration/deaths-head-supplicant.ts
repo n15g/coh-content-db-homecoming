@@ -18,7 +18,7 @@ Only one has fully extended to its full voraciousness, but that one is enough to
     }],
     notes: `Located in [map:${DarkAstoria.key}] in the Moth Cemetery neighborhood, approximately 191 yards northwest of the Moth Cemetery marker.`,
     links: [
-        {title: "Death's Head Supplicant Badge", href: "https://paragonwiki.com/wiki/Death%27s_Head_Supplicant_Badge"}
+        {title: "Death's Head Supplicant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Death%27s_Head_Supplicant_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

@@ -22,19 +22,19 @@ export const ApprenticePlumber: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SewerNetwork.key}]`,
     links: [
-        {title: "Apprentice Plumber Badge", href: "https://paragonwiki.com/wiki/Apprentice_Plumber_Badge"}
+        {title: "Apprentice Plumber Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Apprentice_Plumber_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: BaumtonAvenger.key, type: BadgePartialType.BADGE, badgeKey: BaumtonAvenger.key},
-            {key: DownwardBound.key, type: BadgePartialType.BADGE, badgeKey: DownwardBound.key},
-            {key: Plutonian.key, type: BadgePartialType.BADGE, badgeKey: Plutonian.key},
-            {key: SeekerOfTheLost.key, type: BadgePartialType.BADGE, badgeKey: SeekerOfTheLost.key},
-            {key: SewerKing.key, type: BadgePartialType.BADGE, badgeKey: SewerKing.key},
-            {key: SewerStalker.key, type: BadgePartialType.BADGE, badgeKey: SewerStalker.key},
-            {key: SpiritOfTheCity.key, type: BadgePartialType.BADGE, badgeKey: SpiritOfTheCity.key},
-            {key: TerrorOfTheVahzilok.key, type: BadgePartialType.BADGE, badgeKey: TerrorOfTheVahzilok.key}
+        {key: BaumtonAvenger.key, type: BadgePartialType.BADGE, badgeKey: BaumtonAvenger.key},
+        {key: DownwardBound.key, type: BadgePartialType.BADGE, badgeKey: DownwardBound.key},
+        {key: Plutonian.key, type: BadgePartialType.BADGE, badgeKey: Plutonian.key},
+        {key: SeekerOfTheLost.key, type: BadgePartialType.BADGE, badgeKey: SeekerOfTheLost.key},
+        {key: SewerKing.key, type: BadgePartialType.BADGE, badgeKey: SewerKing.key},
+        {key: SewerStalker.key, type: BadgePartialType.BADGE, badgeKey: SewerStalker.key},
+        {key: SpiritOfTheCity.key, type: BadgePartialType.BADGE, badgeKey: SpiritOfTheCity.key},
+        {key: TerrorOfTheVahzilok.key, type: BadgePartialType.BADGE, badgeKey: TerrorOfTheVahzilok.key}
     ]
 };

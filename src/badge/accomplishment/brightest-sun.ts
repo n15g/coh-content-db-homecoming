@@ -9,12 +9,14 @@ export const BrightestSun: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You and your friends have uncovered a Praetorian plot in Galaxy City, which may strike closer " +
-        "to home than you thought."}
+        {
+            value: "You and your friends have uncovered a Praetorian plot in Galaxy City, which may strike closer " +
+                "to home than you thought."
+        }
     ],
     acquisition: "Complete the Level 10-14 Ongoing Training story arc from Twinshot",
     links: [
-        {title: "Brightest Sun Badge", href: "https://paragonwiki.com/wiki/Brightest_Sun_Badge"}
+        {title: "Brightest Sun Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brightest_Sun_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brightest-sun.png"}

@@ -20,9 +20,9 @@ export const Grounded: IBadgeData = {
     acquisition: "Log out at the Black Helicopter Line for 100 hours.",
     effect: "Day Job: +Movement Speed",
     links: [
-        {title: "Grounded Badge", href: "https://paragonwiki.com/wiki/Grounded_Badge"},
-        {title: "Pilot Badge", href: "https://paragonwiki.com/wiki/Pilot_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Grounded Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grounded_Badge"},
+        {title: "Pilot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pilot_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/grounded.png"}]
 };

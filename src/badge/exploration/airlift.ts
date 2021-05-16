@@ -15,7 +15,7 @@ export const Airlift: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] at the end of the runway 677 yards SW of the Lambda Sector marker.",
     links: [
-        {title: "Airlift Badge", href: "https://paragonwiki.com/wiki/Airlift_Badge"}
+        {title: "Airlift Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Airlift_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

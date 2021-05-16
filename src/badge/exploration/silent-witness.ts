@@ -15,7 +15,7 @@ export const SilentWitness: IBadgeData = {
     }],
     notes: "Located in [map:underground-imperial] in the red area 256 yds. NNE of Underground Transit.",
     links: [
-        {title: "Silent Witness Badge", href: "https://paragonwiki.com/wiki/Silent_Witness_Badge"}
+        {title: "Silent Witness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Silent_Witness_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

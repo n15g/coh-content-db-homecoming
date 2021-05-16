@@ -16,7 +16,7 @@ export const Unlucky: IBadgeData = {
     }],
     notes: "The Unlucky Badge is in the Industry Pier neighborhood of Independence Port, directly in front of the Freedom Corps store.",
     links: [
-        {title: "Unlucky Badge", href: "https://paragonwiki.com/wiki/Unlucky_Badge"}
+        {title: "Unlucky Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unlucky_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

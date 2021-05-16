@@ -16,7 +16,7 @@ export const SecretPrisoner: IBadgeData = {
         "\n" +
         "Its coordinates are either (-1424, 511, 1957) or (-2192, 511, -2888) (534 yds NE of the Imperial Tunnel access). It is necessary to visit only one location to earn this badge.",
     links: [
-        {title: "Secret Prisoner Badge", href: "https://paragonwiki.com/wiki/Secret_Prisoner_Badge"}
+        {title: "Secret Prisoner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Secret_Prisoner_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

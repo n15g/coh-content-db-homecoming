@@ -13,7 +13,7 @@ export const CrabSpiderLongfang: IBadgeData = {
     ],
     acquisition: "Complete a Patron's story arc. (Arachnos)",
     links: [
-        {title: "Crab Spider Longfang Badge", href: "https://paragonwiki.com/wiki/Crab_Spider_Longfang_Badge"}
+        {title: "Crab Spider Longfang Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crab_Spider_Longfang_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

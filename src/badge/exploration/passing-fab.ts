@@ -17,7 +17,7 @@ They are used as both an emergency exit from the Fab and as a method of sending 
 
 It is at the bottom of the ramp leading into the Fab, in the entrance room to the underground tunnels. Specifically, it is just south of the Fab marker in a covered area.`,
     links: [
-        {title: "Passing Fab Badge", href: "https://paragonwiki.com/wiki/Passing_Fab_Badge"}
+        {title: "Passing Fab Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Passing_Fab_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "5"

@@ -13,7 +13,7 @@ export const KillSkuls: IBadgeData = {
     ],
     acquisition: "Defeat 500 Skulls of any type",
     links: [
-        {title: "Kill Skuls Badge", href: "https://paragonwiki.com/wiki/Kill_Skuls_Badge"}
+        {title: "Kill Skuls Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Kill_Skuls_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/skulls.png"}

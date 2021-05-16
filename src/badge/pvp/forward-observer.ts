@@ -14,7 +14,7 @@ export const ForwardObserver: IBadgeData = {
     ],
     acquisition: "Defeat 10 player characters in a PvP zone by your own hand",
     links: [
-        {title: "Forward Observer Badge", href: "https://paragonwiki.com/wiki/Forward_Observer_Badge"}
+        {title: "Forward Observer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Forward_Observer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png"}

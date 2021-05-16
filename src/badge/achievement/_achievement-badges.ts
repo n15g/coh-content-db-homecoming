@@ -281,7 +281,7 @@ export const AchievementBadges: IBadgeData[] = [
     PPDDeputy,
     SecurityExpert,
     Interceptor,
-    
+
     //Market Crash
     Valet,
 

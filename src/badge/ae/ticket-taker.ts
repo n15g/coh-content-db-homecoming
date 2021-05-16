@@ -13,7 +13,7 @@ export const TicketTaker: IBadgeData = {
     notes: "Tickets earned from other players running your arcs count toward this badge for all characters on the account." +
         " So, while not technically an account level badge, this badge can effectively become account level when you have earned one ticket this way.",
     links: [
-        {title: "Ticket Taker Badge", href: "https://paragonwiki.com/wiki/Ticket_Taker_Badge"}
+        {title: "Ticket Taker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ticket_Taker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/ticket-taker.png"}]
 };

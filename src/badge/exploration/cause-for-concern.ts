@@ -15,7 +15,7 @@ export const CauseForConcern: IBadgeData = {
     }],
     notes: "Located under the metal detector in the lobby of the center Portal Corp building in [map:peregrine-island].",
     links: [
-        {title: "Cause for Concern Badge", href: "https://paragonwiki.com/wiki/Cause_for_Concern_Badge"}
+        {title: "Cause for Concern Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cause_for_Concern_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

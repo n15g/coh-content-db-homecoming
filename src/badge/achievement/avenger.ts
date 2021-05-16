@@ -14,6 +14,6 @@ export const Avenger: IBadgeData = {
     ],
     acquisition: "Kill Rider in the story arc `Dirty Work` from Shauna Braun (Level 25-29, Arc 26.01 in Ouro, Vigilante)",
     links: [
-        {title: "Avenger Badge", href: "https://paragonwiki.com/wiki/Avenger_Badge"}
+        {title: "Avenger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Avenger_Badge"}
     ],
 };

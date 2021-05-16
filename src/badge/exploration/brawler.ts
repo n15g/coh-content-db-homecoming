@@ -14,7 +14,7 @@ export const Brawler: IBadgeData = {
         "\n\nNon-airborne heroes can get to the badge by climbing up a fire escape on the City of Gyros building, two buildings behind (east of) the Mighty Mart building, and jumping across rooftops." +
         " The buildings in question are immediately east of the Arena.",
     links: [
-        {title: "Brawler Badge", href: "https://paragonwiki.com/wiki/Brawler_Badge"}
+        {title: "Brawler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brawler_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

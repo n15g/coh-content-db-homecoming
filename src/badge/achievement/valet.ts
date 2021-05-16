@@ -12,6 +12,6 @@ export const Valet: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/valet.png"}],
     acquisition: "Prevent destruction of vehicles around Wentworth's building during the Market Crash Task Force.",
     links: [
-        {title: "Valet Badge", href: "https://paragonwiki.com/wiki/Valet_Badge"}
+        {title: "Valet Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Valet_Badge"}
     ],
 };

@@ -17,7 +17,7 @@ export const LosingParadise: IBadgeData = {
     }],
     notes: "Located in the Hutchinson Park neighborhood of [map:founders-falls], 82 feet east of the Eden gate.",
     links: [
-        {title: "Losing Paradise Badge", href: "https://paragonwiki.com/wiki/Losing_Paradise_Badge"}
+        {title: "Losing Paradise Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Losing_Paradise_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

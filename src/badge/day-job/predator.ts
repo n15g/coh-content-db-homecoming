@@ -18,8 +18,8 @@ export const Predator: IBadgeData = {
     acquisition: "Log out inside PvP Zones for 100 hours.",
     effect: "Day Job: +Recharge",
     links: [
-        {title: "Predator Badge", href: "https://paragonwiki.com/wiki/Predator_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Predator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Predator_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/predator.png"}]
 };

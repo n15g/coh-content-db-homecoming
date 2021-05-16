@@ -16,7 +16,7 @@ export const DestinedForValhalla: IBadgeData = {
     notes: "The Destined for Valhalla Badge is located in the Powderkeg neighborhood of Boomtown." +
         "\n\nIt can be found approximately 560 yards east and slightly south of the Powderkeg marker, on top of a small landing where a tall builing is leaning into another.",
     links: [
-        {title: "Destined for Valhalla Badge", href: "https://paragonwiki.com/wiki/Destined_for_Valhalla_Badge"}
+        {title: "Destined for Valhalla Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destined_for_Valhalla_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

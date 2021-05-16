@@ -20,13 +20,13 @@ export const FoundersProtector: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Founders' Protector Badge", href: "https://paragonwiki.com/wiki/Founders%27_Protector_Badge"},
-        {title: "Founders' Invader Badge", href: "https://paragonwiki.com/wiki/Founders%27_Invader_Badge"},
+        {title: "Founders' Protector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Founders%27_Protector_Badge"},
+        {title: "Founders' Invader Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Founders%27_Invader_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+    ],
     vidiotMapKey: "1"
 };

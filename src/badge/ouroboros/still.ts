@@ -14,7 +14,7 @@ export const Still: IBadgeData = {
     ],
     acquisition: "Complete a level 31-35 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Still Badge", href: "https://paragonwiki.com/wiki/Still_Badge"}
+        {title: "Still Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Still_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/still.png"}]
 };

@@ -17,7 +17,7 @@ It seems that even in death the Seed continues to spread its influence.`
     }],
     notes: `Located in [map:${NightWard.key}], in the The Sleeping Beast neighborhood, 403 yards NNE of the Howling Vale map marker; inside the husk of the fallen Seed of Hamidon.`,
     links: [
-        {title: "Dead But Dreaming Badge", href: "https://paragonwiki.com/wiki/Dead_But_Dreaming_Badge"}
+        {title: "Dead But Dreaming Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dead_But_Dreaming_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

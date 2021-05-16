@@ -24,21 +24,21 @@ export const ZigWarden: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Brickstown.key}]`,
     links: [
-        {title: "Zig Warden Badge", href: "https://paragonwiki.com/wiki/Zig_Warden_Badge"},
-        {title: "King of the Zig Badge", href: "https://paragonwiki.com/wiki/King_of_the_Zig_Badge"},
-        {title: "Queen of the Zig Badge", href: "https://paragonwiki.com/wiki/Queen_of_the_Zig_Badge"}
+        {title: "Zig Warden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Zig_Warden_Badge"},
+        {title: "King of the Zig Badge", href: "https://hcwiki.cityofheroes.dev/wiki/King_of_the_Zig_Badge"},
+        {title: "Queen of the Zig Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Queen_of_the_Zig_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: Mystic.key, type: BadgePartialType.BADGE, badgeKey: Mystic.key},
-            {key: Inmate.key, type: BadgePartialType.BADGE, badgeKey: Inmate.key},
-            {key: FlyingShark.key, type: BadgePartialType.BADGE, badgeKey: FlyingShark.key},
-            {key: Fugitive.key, type: BadgePartialType.BADGE, badgeKey: Fugitive.key},
-            {key: ForwardThinker.key, type: BadgePartialType.BADGE, badgeKey: ForwardThinker.key},
-            {key: SecretPath.key, type: BadgePartialType.BADGE, badgeKey: SecretPath.key},
-            {key: SixthPassenger.key, type: BadgePartialType.BADGE, badgeKey: SixthPassenger.key},
-            {key: Unsubtle.key, type: BadgePartialType.BADGE, badgeKey: Unsubtle.key}
+        {key: Mystic.key, type: BadgePartialType.BADGE, badgeKey: Mystic.key},
+        {key: Inmate.key, type: BadgePartialType.BADGE, badgeKey: Inmate.key},
+        {key: FlyingShark.key, type: BadgePartialType.BADGE, badgeKey: FlyingShark.key},
+        {key: Fugitive.key, type: BadgePartialType.BADGE, badgeKey: Fugitive.key},
+        {key: ForwardThinker.key, type: BadgePartialType.BADGE, badgeKey: ForwardThinker.key},
+        {key: SecretPath.key, type: BadgePartialType.BADGE, badgeKey: SecretPath.key},
+        {key: SixthPassenger.key, type: BadgePartialType.BADGE, badgeKey: SixthPassenger.key},
+        {key: Unsubtle.key, type: BadgePartialType.BADGE, badgeKey: Unsubtle.key}
     ]
 };

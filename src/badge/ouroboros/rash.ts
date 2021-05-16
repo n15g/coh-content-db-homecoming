@@ -14,7 +14,7 @@ export const Rash: IBadgeData = {
     ],
     acquisition: "Complete a level 31-35 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Rash Badge", href: "https://paragonwiki.com/wiki/Rash_Badge"}
+        {title: "Rash Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rash_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/rash.png"}]
 };

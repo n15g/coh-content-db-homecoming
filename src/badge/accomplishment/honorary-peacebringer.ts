@@ -14,8 +14,8 @@ export const HonoraryPeacebringer: IBadgeData = {
     ],
     acquisition: "Complete the Moonfire Task Force: The Kheldian War",
     links: [
-        {title: "Honorary Peacebringer Badge", href: "https://paragonwiki.com/wiki/Honorary_Peacebringer_Badge"},
-        {title: "Alien Fighter Badge", href: "https://paragonwiki.com/wiki/Alien_Fighter_Badge"}
+        {title: "Honorary Peacebringer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Honorary_Peacebringer_Badge"},
+        {title: "Alien Fighter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alien_Fighter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/honorary-peacebringer.png"}

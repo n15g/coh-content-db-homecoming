@@ -15,8 +15,8 @@ export const MonitorDuty: IBadgeData = {
     acquisition: "Log out inside your Supergroup Base for 100 hours.",
     effect: "Day Job: Base Teleporter",
     links: [
-        {title: "Monitor Duty Badge", href: "https://paragonwiki.com/wiki/Monitor_Duty_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Monitor Duty Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Monitor_Duty_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/monitor-duty.png"}]
 };

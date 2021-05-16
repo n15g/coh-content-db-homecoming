@@ -9,12 +9,14 @@ export const Gearsmasher: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have learned that the smallest gear can power the greatest threat, and have taken steps to " +
-        "stop the Clockwork menace."}
+        {
+            value: "You have learned that the smallest gear can power the greatest threat, and have taken steps to " +
+                "stop the Clockwork menace."
+        }
     ],
     acquisition: "Defeat 100 Clockwork gears",
     links: [
-        {title: "Gearsmasher Badge", href: "https://paragonwiki.com/wiki/Gearsmasher_Badge"}
+        {title: "Gearsmasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gearsmasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/clockwork.png"}

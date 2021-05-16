@@ -13,7 +13,7 @@ export const ParkStroller: IBadgeData = {
         {value: `You have visited all of Brickstown's parks!`}
     ],
     links: [
-        {title: "Park Stroller Badge", href: "https://paragonwiki.com/wiki/Park_Stroller_Badge"}
+        {title: "Park Stroller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Park_Stroller_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/park-stroller.png"}

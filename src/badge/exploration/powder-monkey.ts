@@ -16,7 +16,7 @@ export const PowderMonkey: IBadgeData = {
 
 The badge marker is approximately 154 yards east and slightly south of the Fort Hades marker.`,
     links: [
-        {title: "Powder Monkey Badge", href: "https://paragonwiki.com/wiki/Powder_Monkey_Badge"}
+        {title: "Powder Monkey Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Powder_Monkey_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "3"

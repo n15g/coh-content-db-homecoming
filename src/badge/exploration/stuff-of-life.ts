@@ -14,7 +14,7 @@ export const StuffOfLife: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] next to the DNA sculpture in the Neuron's Reach neighborhood, 74 yards west of Battle Maiden.",
     links: [
-        {title: "Stuff of Life Badge", href: "https://paragonwiki.com/wiki/Stuff_of_Life_Badge"}
+        {title: "Stuff of Life Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stuff_of_Life_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

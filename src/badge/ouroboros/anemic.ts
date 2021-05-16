@@ -14,7 +14,7 @@ export const Anemic: IBadgeData = {
     ],
     acquisition: "Complete a level 21-25 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Anemic Badge", href: "https://paragonwiki.com/wiki/Anemic_Badge"}
+        {title: "Anemic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anemic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/anemic.png"}]
 };

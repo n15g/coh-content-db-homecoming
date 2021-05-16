@@ -13,7 +13,7 @@ export const MasterOfTheUnderground: IBadgeData = {
     ],
     acquisition: "Earn the Regenerate This, Tour Guide, Preservation Specialist, and Avatar Assassin badges",
     links: [
-        {title: "Master of the Underground Badge", href: "https://paragonwiki.com/wiki/Master_of_the_Underground_Badge"}
+        {title: "Master of the Underground Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_the_Underground_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-underground.png"}

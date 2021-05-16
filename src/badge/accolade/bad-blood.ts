@@ -23,7 +23,7 @@ export const BadBlood: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${BloodyBay.key}]`,
     links: [
-        {title: "Bad Blood Badge", href: "https://paragonwiki.com/wiki/Bad_Blood_Badge"}
+        {title: "Bad Blood Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bad_Blood_Badge"}
     ],
     partials: [
         {key: Lobbyist.key, type: BadgePartialType.BADGE, badgeKey: Lobbyist.key},

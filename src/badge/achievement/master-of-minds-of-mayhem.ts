@@ -13,7 +13,7 @@ export const MasterOfMindsOfMayhem: IBadgeData = {
     ],
     acquisition: "Earn the Mental Voyager, Dreamwalker, A Perfect Storm, Daylight Saver, and Lost Connection to Server badges",
     links: [
-        {title: "Master of Minds of Mayhem Badge", href: "https://paragonwiki.com/wiki/Master_of_Minds_of_Mayhem_Badge"}
+        {title: "Master of Minds of Mayhem Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Minds_of_Mayhem_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-minds-of-mayhem.png"}

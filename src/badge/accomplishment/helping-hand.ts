@@ -9,12 +9,14 @@ export const HelpingHand: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You've helped to solve the Medi-Porter crisis in Paragon and get the devices distributed to " +
-        "those who need them."}
+        {
+            value: "You've helped to solve the Medi-Porter crisis in Paragon and get the devices distributed to " +
+                "those who need them."
+        }
     ],
     acquisition: "Complete the story arc from Roy Cooling",
     links: [
-        {title: "Helping Hand Badge", href: "https://paragonwiki.com/wiki/Helping_Hand_Badge"}
+        {title: "Helping Hand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Helping_Hand_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/helping-hand.png"}

@@ -15,7 +15,7 @@ export const LastLineOfDefense: IBadgeData = {
     }],
     notes: "Located on top of the large hill in [map:talos-island], just northwest of the Ouroboros teleport beacon, 169 yards north of the Green Line station.",
     links: [
-        {title: "Last Line of Defense Badge", href: "https://paragonwiki.com/wiki/Last_Line_of_Defense_Badge"}
+        {title: "Last Line of Defense Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Last_Line_of_Defense_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

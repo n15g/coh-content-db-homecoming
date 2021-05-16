@@ -11,7 +11,7 @@ export const TankSmasher: IBadgeData = {
     badgeText: [{value: "Tank smash!"}],
     acquisition: "Collect the [badge:tank-buster] Badge.",
     links: [
-        {title: "Tank Smasher Badge", href: "https://paragonwiki.com/wiki/Tank_Smasher_Badge"}
+        {title: "Tank Smasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tank_Smasher_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}]
-}
+};

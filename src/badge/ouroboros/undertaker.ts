@@ -14,7 +14,7 @@ export const Undertaker: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc using no pool powers.",
     links: [
-        {title: "Undertaker Badge", href: "https://paragonwiki.com/wiki/Undertaker_Badge"}
+        {title: "Undertaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Undertaker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/undertaker.png"}]
 };

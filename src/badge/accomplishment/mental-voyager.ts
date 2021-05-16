@@ -13,7 +13,7 @@ export const MentalVoyager: IBadgeData = {
     ],
     acquisition: "Complete the Minds of Mayhem Trial",
     links: [
-        {title: "Mental Voyager Badge", href: "https://paragonwiki.com/wiki/Mental_Voyager_Badge"}
+        {title: "Mental Voyager Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mental_Voyager_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/mental-voyager.png"}

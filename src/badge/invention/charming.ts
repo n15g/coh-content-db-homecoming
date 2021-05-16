@@ -9,7 +9,7 @@ export const Charming: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],
     effect: "+2 to Invention Salvage capacity",
     links: [
-        {title: "Charming Badge", href: "https://paragonwiki.com/wiki/Charming_Badge"}
+        {title: "Charming Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Charming_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [

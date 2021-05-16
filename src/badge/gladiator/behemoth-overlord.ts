@@ -13,7 +13,7 @@ export const BehemothOverlord: IBadgeData = {
     ],
     acquisition: "Earn the [badge:demon-slayer] Badge (Circle of Thorns)",
     links: [
-        {title: "Behemoth Overlord Badge", href: "https://paragonwiki.com/wiki/Behemoth_Overlord_Badge"}
+        {title: "Behemoth Overlord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Behemoth_Overlord_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -19,7 +19,7 @@ Most heroes flee the Abandoned Sewer Network before they can be tested, while pe
     notes: `Located in [map:abandoned-sewer-network] 362 yards northwest of the Skyway City marker, in the middle of the junction that connects
 Atlas Park Sector, Kings Row Sector, Skyway City Sector and Underworld.`,
     links: [
-        {title: "Persephone Supplicant Badge", href: "https://paragonwiki.com/wiki/Persephone_Supplicant_Badge"}
+        {title: "Persephone Supplicant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Persephone_Supplicant_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

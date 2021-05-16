@@ -16,7 +16,7 @@ export const FirstRule: IBadgeData = {
 
 It is in the middle of the triangular fight club arena 612 yards WSW of the neighborhood marker.`,
     links: [
-        {title: "First Rule Badge", href: "https://paragonwiki.com/wiki/First_Rule_Badge"}
+        {title: "First Rule Badge", href: "https://hcwiki.cityofheroes.dev/wiki/First_Rule_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "7"

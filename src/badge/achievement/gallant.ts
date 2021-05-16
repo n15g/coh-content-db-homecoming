@@ -9,12 +9,14 @@ export const Gallant: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You've proven time and time again that Paragon City can rely on you. You have completed a Hero " +
-        "Morality Mission earning yourself this badge."}
+        {
+            value: "You've proven time and time again that Paragon City can rely on you. You have completed a Hero " +
+                "Morality Mission earning yourself this badge."
+        }
     ],
     acquisition: "Complete a Hero Morality mission",
     links: [
-        {title: "Gallant Badge", href: "https://paragonwiki.com/wiki/Gallant_Badge"}
+        {title: "Gallant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gallant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/gallant.png"}

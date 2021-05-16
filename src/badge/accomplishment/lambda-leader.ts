@@ -13,7 +13,7 @@ export const LambdaLeader: IBadgeData = {
     ],
     acquisition: "Complete the Lambda Sector Incarnate Trial",
     links: [
-        {title: "Lambda Leader Badge", href: "https://paragonwiki.com/wiki/Lambda_Leader_Badge"}
+        {title: "Lambda Leader Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lambda_Leader_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/lambda-leader.png"}

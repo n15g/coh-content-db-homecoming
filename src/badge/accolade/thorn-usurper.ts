@@ -13,7 +13,7 @@ export const ThornUsurper: IBadgeData = {
     ],
     notes: `Complete the level 44-50 Tree of Thorns Respecification Trial from Ractespriel`,
     links: [
-        {title: "Thorn Usurper Badge", href: "https://paragonwiki.com/wiki/Thorn_Usurper_Badge"}
+        {title: "Thorn Usurper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Usurper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/thorn-usurper.png"}

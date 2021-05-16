@@ -13,7 +13,7 @@ export const Cabalist: IBadgeData = {
     ],
     acquisition: "Complete the Katie Hannon Task Force: A Tangled Plot",
     links: [
-        {title: "Cabalist Badge", href: "https://paragonwiki.com/wiki/Cabalist_Badge"}
+        {title: "Cabalist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cabalist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/cabalist.png"}

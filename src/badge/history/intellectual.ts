@@ -16,7 +16,7 @@ export const Intellectual: IBadgeData = {
         {value: `You have learned the history of the Lost's attempt to control the minds of Paragon City's people.`}
     ],
     links: [
-        {title: "Intellectual Badge", href: "https://paragonwiki.com/wiki/Intellectual_Badge"}
+        {title: "Intellectual Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Intellectual_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

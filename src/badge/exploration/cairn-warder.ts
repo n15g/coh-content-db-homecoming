@@ -14,7 +14,7 @@ export const CairnWarder: IBadgeData = {
     }],
     notes: "Located in [map:echo-dark-astoria] in the far northeast corner of the zone under the northern side of a stone archway.",
     links: [
-        {title: "Cairn Warder Badge", href: "https://paragonwiki.com/wiki/Cairn_Warder_Badge"}
+        {title: "Cairn Warder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cairn_Warder_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

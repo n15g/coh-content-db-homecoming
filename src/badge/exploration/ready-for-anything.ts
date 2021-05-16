@@ -15,7 +15,7 @@ export const ReadyForAnything: IBadgeData = {
     }],
     notes: "Located in [map:underground-neutropolis] in the square at the far north of the map.",
     links: [
-        {title: "Ready for Anything Badge", href: "https://paragonwiki.com/wiki/Ready_for_Anything_Badge"}
+        {title: "Ready for Anything Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ready_for_Anything_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

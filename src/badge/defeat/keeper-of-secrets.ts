@@ -9,12 +9,14 @@ export const KeeperOfSecrets: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have defeated the demon, Adamastor, brought forth by the Banished Pantheon to destroy the " +
-        "world."}
+        {
+            value: "You have defeated the demon, Adamastor, brought forth by the Banished Pantheon to destroy the " +
+                "world."
+        }
     ],
     acquisition: "Defeat Adamastor, a monster who can be summoned in Echo: Dark Astoria",
     links: [
-        {title: "Keeper of Secrets Badge", href: "https://paragonwiki.com/wiki/Keeper_of_Secrets_Badge"}
+        {title: "Keeper of Secrets Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Keeper_of_Secrets_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/banished.png"}

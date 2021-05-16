@@ -15,13 +15,13 @@ export const TimeLord: IBadgeData = {
     ],
     notes: `Earn the [badge:cimeroran] and [badge:chronologist] Day Jobs`,
     links: [
-        {title: "Time Lord Badge", href: "https://paragonwiki.com/wiki/Time_Lord_Badge"}
+        {title: "Time Lord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Lord_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/time-lord.png"}
     ],
     partials: [
-            {key: Cimeroran.key, type: BadgePartialType.BADGE, badgeKey: Cimeroran.key},
-            {key: Chronologist.key, type: BadgePartialType.BADGE, badgeKey: Chronologist.key}
+        {key: Cimeroran.key, type: BadgePartialType.BADGE, badgeKey: Cimeroran.key},
+        {key: Chronologist.key, type: BadgePartialType.BADGE, badgeKey: Chronologist.key}
     ]
 };

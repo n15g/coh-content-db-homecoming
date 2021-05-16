@@ -13,7 +13,7 @@ export const GiftWhichKeepsGiving: IBadgeData = {
     ],
     acquisition: "Give a Duplicating Gift to another player who doesn't already have one during the Winter event.",
     links: [
-        {title: "Gift Which Keeps Giving Badge", href: "https://paragonwiki.com/wiki/Gift_Which_Keeps_Giving_Badge"}
+        {title: "Gift Which Keeps Giving Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gift_Which_Keeps_Giving_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/gift-which-keeps-giving.png"}]
 };

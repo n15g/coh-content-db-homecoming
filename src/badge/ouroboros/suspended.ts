@@ -14,7 +14,7 @@ export const Suspended: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc using no travel powers.",
     links: [
-        {title: "Suspended Badge", href: "https://paragonwiki.com/wiki/Suspended_Badge"}
+        {title: "Suspended Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Suspended_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/suspended.png"}]
 };

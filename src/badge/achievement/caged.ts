@@ -12,13 +12,15 @@ export const Caged: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: "In your efforts to be a perfect statue, your skills are unmatched."},
-        {type: Alternate.P, value: "For most, each day brings a million new things they can do. In your case, it seems to be the " +
-        "opposite."}
+        {
+            type: Alternate.P, value: "For most, each day brings a million new things they can do. In your case, it seems to be the " +
+                "opposite."
+        }
     ],
     acquisition: "Be held for 6 hours",
     links: [
-        {title: "Caged Badge", href: "https://paragonwiki.com/wiki/Caged_Badge"},
-        {title: "Can't Do That Badge", href: "https://paragonwiki.com/wiki/Can%27t_Do_That_Badge"}
+        {title: "Caged Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Caged_Badge"},
+        {title: "Can't Do That Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Can%27t_Do_That_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hold-h.png"},

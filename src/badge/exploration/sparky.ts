@@ -14,7 +14,7 @@ export const Sparky: IBadgeData = {
         " There is a building with two large electrical quad-towers on it." +
         " The badge marker is on top of the building right in the middle of those two towers.",
     links: [
-        {title: "Sparky Badge", href: "https://paragonwiki.com/wiki/Sparky_Badge"}
+        {title: "Sparky Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sparky_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "1"

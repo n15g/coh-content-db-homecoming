@@ -13,7 +13,7 @@ export const DeadlyCombatant: IBadgeData = {
     ],
     acquisition: "Choose to kill Sun Xiong after you defeat him in the story arc from Graham Easton",
     links: [
-        {title: "Deadly Combatant Badge", href: "https://paragonwiki.com/wiki/Deadly_Combatant_Badge"}
+        {title: "Deadly Combatant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Deadly_Combatant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/deadly-combatant.png"}

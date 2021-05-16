@@ -17,7 +17,7 @@ export const FlyingShark: IBadgeData = {
     }],
     notes: "Located on the roof of the Zig in [map:brickstown], 36 yards northwest of the neighborhood marker.",
     links: [
-        {title: "Flying Shark Badge", href: "https://paragonwiki.com/wiki/Flying_Shark_Badge"}
+        {title: "Flying Shark Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flying_Shark_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

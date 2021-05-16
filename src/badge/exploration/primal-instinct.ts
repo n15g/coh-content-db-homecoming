@@ -22,7 +22,7 @@ It is 266 yards north-northwest of the Primeva marker.
  Just past the pyramid, there are two large columns.
  The badge marker is within a fern just past and to the left of the left (southern) column.`,
     links: [
-        {title: "Primal Instinct Badge", href: "https://paragonwiki.com/wiki/Primal_Instinct_Badge"}
+        {title: "Primal Instinct Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Primal_Instinct_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "4"

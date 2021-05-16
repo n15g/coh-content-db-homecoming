@@ -14,7 +14,7 @@ export const Powerful: IBadgeData = {
         "\n" +
         "Eastern side of the power substation, on the ground.",
     links: [
-        {title: "Powerful Badge", href: "https://paragonwiki.com/wiki/Powerful_Badge"},
+        {title: "Powerful Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Powerful_Badge"},
         {title: "Echo: Rikti Crash Site Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

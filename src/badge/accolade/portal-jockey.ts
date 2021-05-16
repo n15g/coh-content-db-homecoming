@@ -18,16 +18,16 @@ export const PortalJockey: IBadgeData = {
     ],
     notes: `Awards +5% Max Health and +5 Max Endurance`,
     links: [
-        {title: "Portal Jockey Badge", href: "https://paragonwiki.com/wiki/Portal_Jockey_Badge"}
+        {title: "Portal Jockey Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Portal_Jockey_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/portal-jockey.png"}
     ],
     effect: `+5% Max Health and +5 Max Endurance`,
     partials: [
-            {key: DimensionalWarder.key, type: BadgePartialType.BADGE, badgeKey: DimensionalWarder.key},
-            {key: Multidimensional.key, type: BadgePartialType.BADGE, badgeKey: Multidimensional.key},
-            {key: Scholastic.key, type: BadgePartialType.BADGE, badgeKey: Scholastic.key},
-            {key: Shrouded.key, type: BadgePartialType.BADGE, badgeKey: Shrouded.key}
+        {key: DimensionalWarder.key, type: BadgePartialType.BADGE, badgeKey: DimensionalWarder.key},
+        {key: Multidimensional.key, type: BadgePartialType.BADGE, badgeKey: Multidimensional.key},
+        {key: Scholastic.key, type: BadgePartialType.BADGE, badgeKey: Scholastic.key},
+        {key: Shrouded.key, type: BadgePartialType.BADGE, badgeKey: Shrouded.key}
     ]
 };

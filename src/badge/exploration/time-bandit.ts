@@ -15,7 +15,7 @@ This forced them to move their headquarters to Peregrine Island.`
     }],
     notes: `Located in [map:${TheHive.key}] in the middle of the road leading north into the abandoned structures, just before it breaks up into the grassy area.`,
     links: [
-        {title: "Time Bandit Badge", href: "https://paragonwiki.com/wiki/Time_Bandit_Badge"}
+        {title: "Time Bandit Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Bandit_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

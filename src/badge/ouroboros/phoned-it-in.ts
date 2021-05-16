@@ -14,7 +14,7 @@ export const PhonedItIn: IBadgeData = {
     ],
     acquisition: "Complete a level 36-40 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Phoned it in Badge", href: "https://paragonwiki.com/wiki/Phoned_It_In_Badge"}
+        {title: "Phoned it in Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Phoned_It_In_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/phoned-it-in.png"}]
 };

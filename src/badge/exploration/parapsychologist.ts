@@ -14,7 +14,7 @@ export const Parapsychologist: IBadgeData = {
     }],
     notes: "Roughtly 293 yards NW of the Eastgate Heights' marker.",
     links: [
-        {title: "Parapsychologist Badge", href: "https://paragonwiki.com/wiki/Parapsychologist_Badge"}
+        {title: "Parapsychologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Parapsychologist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

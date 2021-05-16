@@ -13,7 +13,7 @@ export const PentadVictor: IBadgeData = {
     ],
     acquisition: "Win a rated or unrated Pentad or Septad match in the Arena",
     links: [
-        {title: "Pentad Victor Badge", href: "https://paragonwiki.com/wiki/Pentad_Victor_Badge"}
+        {title: "Pentad Victor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pentad_Victor_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pentad-victor-h.png"},

@@ -15,8 +15,8 @@ export const Businessman: IBadgeData = {
     ],
     acquisition: "4000 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Businessman Badge", href: "https://paragonwiki.com/wiki/Businessman_Badge"},
-        {title: "Businesswoman Badge", href: "https://paragonwiki.com/wiki/Businesswoman_Badge"}
+        {title: "Businessman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Businessman_Badge"},
+        {title: "Businesswoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Businesswoman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/businessman.png"}]
 };

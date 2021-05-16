@@ -12,6 +12,6 @@ export const PickyEater: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-recipe.png"}],
     acquisition: "Reject 50 recipe drops.",
     links: [
-        {title: "Picky Eater Badge", href: "https://paragonwiki.com/wiki/Picky_Eater_Badge"}
+        {title: "Picky Eater Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Picky_Eater_Badge"}
     ],
 };

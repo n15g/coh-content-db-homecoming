@@ -14,7 +14,7 @@ export const Seen: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] 241 yards SE of Aureas, or 401 yards W of the People's Park marker.",
     links: [
-        {title: "Seen Badge", href: "https://paragonwiki.com/wiki/Seen_Badge"}
+        {title: "Seen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Seen_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

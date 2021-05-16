@@ -17,14 +17,14 @@ export const SecurityChief: IBadgeData = {
     ],
     notes: `Earn the [badge:law-enforcer] and [badge:banker] Day Jobs`,
     links: [
-        {title: "Security Chief Badge", href: "https://paragonwiki.com/wiki/Security_Chief_Badge"},
-        {title: "Security Breach Badge", href: "https://paragonwiki.com/wiki/Security_Breach_Badge"}
+        {title: "Security Chief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Security_Chief_Badge"},
+        {title: "Security Breach Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Security_Breach_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/security-chief.png"}
     ],
     partials: [
-            {key: LawEnforcer.key, type: BadgePartialType.BADGE, badgeKey: LawEnforcer.key},
-            {key: Banker.key, type: BadgePartialType.BADGE, badgeKey: Banker.key}
+        {key: LawEnforcer.key, type: BadgePartialType.BADGE, badgeKey: LawEnforcer.key},
+        {key: Banker.key, type: BadgePartialType.BADGE, badgeKey: Banker.key}
     ]
 };

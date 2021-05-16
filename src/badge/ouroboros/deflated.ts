@@ -14,7 +14,7 @@ export const Deflated: IBadgeData = {
     ],
     acquisition: "Complete a level 31-35 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Deflated Badge", href: "https://paragonwiki.com/wiki/Deflated_Badge"}
+        {title: "Deflated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Deflated_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/deflated.png"}]
 };

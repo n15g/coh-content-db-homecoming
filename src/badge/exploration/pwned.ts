@@ -16,7 +16,7 @@ export const Pwned: IBadgeData = {
     }],
     notes: "The Pwned Badge is at the entrance of the pawn shop 52 yards north of the High Park neighborhood marker in Kings Row.",
     links: [
-        {title: "Pwned Badge", href: "https://paragonwiki.com/wiki/Pwned_Badge"}
+        {title: "Pwned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pwned_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

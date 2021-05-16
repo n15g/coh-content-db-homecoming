@@ -16,7 +16,7 @@ export const Whitecap: IBadgeData = {
         "\n" +
         "The ship is about 630 yards east of the Ithaca Island marker, and the badge marker is on top of the cabin.",
     links: [
-        {title: "Whitecap Badge", href: "https://paragonwiki.com/wiki/Whitecap_Badge"}
+        {title: "Whitecap Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Whitecap_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

@@ -22,19 +22,19 @@ export const IslandHopper: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TalosIsland.key}]`,
     links: [
-        {title: "Island Hopper Badge", href: "https://paragonwiki.com/wiki/Island_Hopper_Badge"}
+        {title: "Island Hopper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Island_Hopper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: Minotaur.key, type: BadgePartialType.BADGE, badgeKey: Minotaur.key},
-            {key: NatureLover.key, type: BadgePartialType.BADGE, badgeKey: NatureLover.key},
-            {key: Whitecap.key, type: BadgePartialType.BADGE, badgeKey: Whitecap.key},
-            {key: LastLineOfDefense.key, type: BadgePartialType.BADGE, badgeKey: LastLineOfDefense.key},
-            {key: TheOldMe.key, type: BadgePartialType.BADGE, badgeKey: TheOldMe.key},
-            {key: BridgeHolder.key, type: BadgePartialType.BADGE, badgeKey: BridgeHolder.key},
-            {key: OvertimeWorker.key, type: BadgePartialType.BADGE, badgeKey: OvertimeWorker.key},
-            {key: SpankysCompetitor.key, type: BadgePartialType.BADGE, badgeKey: SpankysCompetitor.key}
+        {key: Minotaur.key, type: BadgePartialType.BADGE, badgeKey: Minotaur.key},
+        {key: NatureLover.key, type: BadgePartialType.BADGE, badgeKey: NatureLover.key},
+        {key: Whitecap.key, type: BadgePartialType.BADGE, badgeKey: Whitecap.key},
+        {key: LastLineOfDefense.key, type: BadgePartialType.BADGE, badgeKey: LastLineOfDefense.key},
+        {key: TheOldMe.key, type: BadgePartialType.BADGE, badgeKey: TheOldMe.key},
+        {key: BridgeHolder.key, type: BadgePartialType.BADGE, badgeKey: BridgeHolder.key},
+        {key: OvertimeWorker.key, type: BadgePartialType.BADGE, badgeKey: OvertimeWorker.key},
+        {key: SpankysCompetitor.key, type: BadgePartialType.BADGE, badgeKey: SpankysCompetitor.key}
     ]
 };

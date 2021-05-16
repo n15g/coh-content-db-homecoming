@@ -13,7 +13,7 @@ export const CraneEnforcer: IBadgeData = {
     ],
     acquisition: "Earn the [badge:tracer] Badge (Tsoo)",
     links: [
-        {title: "Crane Enforcer Badge", href: "https://paragonwiki.com/wiki/Crane_Enforcer_Badge"}
+        {title: "Crane Enforcer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crane_Enforcer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

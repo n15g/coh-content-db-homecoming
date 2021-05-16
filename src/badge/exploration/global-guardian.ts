@@ -22,13 +22,13 @@ export const GlobalGuardian: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Global Guardian Badge", href: "https://paragonwiki.com/wiki/Global_Guardian_Badge"},
-        {title: "Global Threat Badge", href: "https://paragonwiki.com/wiki/Global_Threat_Badge"},
+        {title: "Global Guardian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Global_Guardian_Badge"},
+        {title: "Global Threat Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Global_Threat_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
+    ],
     vidiotMapKey: "1"
 };

@@ -18,7 +18,7 @@ export const RiktiGoneWild: IBadgeData = {
         "\n" +
         "It is at a section of ruined gate 241 yards ENE of the neighborhood marker.",
     links: [
-        {title: "Rikti Gone Wild Badge", href: "https://paragonwiki.com/wiki/Rikti_Gone_Wild_Badge"}
+        {title: "Rikti Gone Wild Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rikti_Gone_Wild_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

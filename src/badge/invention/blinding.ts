@@ -8,7 +8,7 @@ export const Blinding: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],
     links: [
-        {title: "Blinding Badge", href: "https://paragonwiki.com/wiki/Blinding_Badge"}
+        {title: "Blinding Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blinding_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

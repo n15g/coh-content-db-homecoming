@@ -13,7 +13,7 @@ export const Sorcerer: IBadgeData = {
     ],
     acquisition: "Earn the [badge:mage-hunter] Badge (Tsoo)",
     links: [
-        {title: "Sorcerer Badge", href: "https://paragonwiki.com/wiki/Sorcerer_Badge"}
+        {title: "Sorcerer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sorcerer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

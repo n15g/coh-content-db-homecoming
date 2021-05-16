@@ -22,19 +22,19 @@ export const CanyonCarver: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SteelCanyon.key}]`,
     links: [
-        {title: "Canyon Carver Badge", href: "https://paragonwiki.com/wiki/Canyon_Carver_Badge"}
+        {title: "Canyon Carver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Canyon_Carver_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: SecretAdmirer.key, type: BadgePartialType.BADGE, badgeKey: SecretAdmirer.key},
-            {key: HeroCorpsRecruit.key, type: BadgePartialType.BADGE, badgeKey: HeroCorpsRecruit.key},
-            {key: NimbleMynx.key, type: BadgePartialType.BADGE, badgeKey: NimbleMynx.key},
-            {key: BrightStar.key, type: BadgePartialType.BADGE, badgeKey: BrightStar.key},
-            {key: DanceLegend.key, type: BadgePartialType.BADGE, badgeKey: DanceLegend.key},
-            {key: Controversial.key, type: BadgePartialType.BADGE, badgeKey: Controversial.key},
-            {key: PetProject.key, type: BadgePartialType.BADGE, badgeKey: PetProject.key},
-            {key: DirtyAttorney.key, type: BadgePartialType.BADGE, badgeKey: DirtyAttorney.key}
+        {key: SecretAdmirer.key, type: BadgePartialType.BADGE, badgeKey: SecretAdmirer.key},
+        {key: HeroCorpsRecruit.key, type: BadgePartialType.BADGE, badgeKey: HeroCorpsRecruit.key},
+        {key: NimbleMynx.key, type: BadgePartialType.BADGE, badgeKey: NimbleMynx.key},
+        {key: BrightStar.key, type: BadgePartialType.BADGE, badgeKey: BrightStar.key},
+        {key: DanceLegend.key, type: BadgePartialType.BADGE, badgeKey: DanceLegend.key},
+        {key: Controversial.key, type: BadgePartialType.BADGE, badgeKey: Controversial.key},
+        {key: PetProject.key, type: BadgePartialType.BADGE, badgeKey: PetProject.key},
+        {key: DirtyAttorney.key, type: BadgePartialType.BADGE, badgeKey: DirtyAttorney.key}
     ]
 };

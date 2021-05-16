@@ -13,7 +13,7 @@ export const Agile: IBadgeData = {
     ],
     acquisition: "Complete a ski run on the Advanced slope in under 1 minute during a Winter Event",
     links: [
-        {title: "Agile Badge", href: "https://paragonwiki.com/wiki/Agile_Badge"}
+        {title: "Agile Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agile_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ski-silver.png"}

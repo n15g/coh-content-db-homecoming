@@ -13,7 +13,7 @@ export const Hunter: IBadgeData = {
     ],
     acquisition: "Defeat 20 Nefarious Vampires during the Halloween event.",
     links: [
-        {title: "Hunter Badge", href: "https://paragonwiki.com/wiki/Hunter_Badge"}
+        {title: "Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hunter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hunter.png"}]
 };

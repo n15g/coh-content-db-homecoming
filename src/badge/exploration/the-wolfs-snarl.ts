@@ -17,7 +17,7 @@ export const TheWolfsSnarl: IBadgeData = {
     }],
     notes: "Located in [map:striga-isle] SSW from the Wolf's Throat marker, inside the tunnel.",
     links: [
-        {title: "The Wolf's Snarl Badge", href: "https://paragonwiki.com/wiki/The_Wolf%27s_Snarl_Badge"}
+        {title: "The Wolf's Snarl Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Wolf%27s_Snarl_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

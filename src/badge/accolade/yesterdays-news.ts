@@ -22,20 +22,20 @@ export const YesterdaysNews: IBadgeData = {
     ],
     notes: `Awards the Stolen Immobilizer Ray power`,
     links: [
-        {title: "Yesterday's News Badge", href: "https://paragonwiki.com/wiki/Yesterday%27s_News_Badge"},
-        {title: "Headline Stealer Badge", href: "https://paragonwiki.com/wiki/Headline_Stealer_Badge"}
+        {title: "Yesterday's News Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Yesterday%27s_News_Badge"},
+        {title: "Headline Stealer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Headline_Stealer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/yesterdays-news.png"}
     ],
     effect: `Stolen Immobilizer Ray`,
     partials: [
-            {key: CouchPotato.key, type: BadgePartialType.BADGE, badgeKey: CouchPotato.key},
-            {key: Paroled.key, type: BadgePartialType.BADGE, badgeKey: Paroled.key},
-            {key: Lobbyist.key, type: BadgePartialType.BADGE, badgeKey: Lobbyist.key},
-            {key: Electrician.key, type: BadgePartialType.BADGE, badgeKey: Electrician.key},
-            {key: MasterOfTheAirwaves.key, type: BadgePartialType.BADGE, badgeKey: MasterOfTheAirwaves.key},
-            {key: StrikeBuster.key, type: BadgePartialType.BADGE, badgeKey: StrikeBuster.key},
-            {key: Surging.key, type: BadgePartialType.BADGE, badgeKey: Surging.key}
+        {key: CouchPotato.key, type: BadgePartialType.BADGE, badgeKey: CouchPotato.key},
+        {key: Paroled.key, type: BadgePartialType.BADGE, badgeKey: Paroled.key},
+        {key: Lobbyist.key, type: BadgePartialType.BADGE, badgeKey: Lobbyist.key},
+        {key: Electrician.key, type: BadgePartialType.BADGE, badgeKey: Electrician.key},
+        {key: MasterOfTheAirwaves.key, type: BadgePartialType.BADGE, badgeKey: MasterOfTheAirwaves.key},
+        {key: StrikeBuster.key, type: BadgePartialType.BADGE, badgeKey: StrikeBuster.key},
+        {key: Surging.key, type: BadgePartialType.BADGE, badgeKey: Surging.key}
     ]
 };

@@ -22,19 +22,19 @@ export const UtilitiesCommission: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TerraVolta.key}]`,
     links: [
-        {title: "Utilities Commission Badge", href: "https://paragonwiki.com/wiki/Utilities_Commission_Badge"}
+        {title: "Utilities Commission Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Utilities_Commission_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: ConjunctionJunction.key, type: BadgePartialType.BADGE, badgeKey: ConjunctionJunction.key},
-            {key: DangerDanger.key, type: BadgePartialType.BADGE, badgeKey: DangerDanger.key},
-            {key: GuardianOfTheVolts.key, type: BadgePartialType.BADGE, badgeKey: GuardianOfTheVolts.key},
-            {key: HighVoltage.key, type: BadgePartialType.BADGE, badgeKey: HighVoltage.key},
-            {key: Meltdown.key, type: BadgePartialType.BADGE, badgeKey: Meltdown.key},
-            {key: NervousDreck.key, type: BadgePartialType.BADGE, badgeKey: NervousDreck.key},
-            {key: PowerWalker.key, type: BadgePartialType.BADGE, badgeKey: PowerWalker.key},
-            {key: ScrapheapOfHistory.key, type: BadgePartialType.BADGE, badgeKey: ScrapheapOfHistory.key}
+        {key: ConjunctionJunction.key, type: BadgePartialType.BADGE, badgeKey: ConjunctionJunction.key},
+        {key: DangerDanger.key, type: BadgePartialType.BADGE, badgeKey: DangerDanger.key},
+        {key: GuardianOfTheVolts.key, type: BadgePartialType.BADGE, badgeKey: GuardianOfTheVolts.key},
+        {key: HighVoltage.key, type: BadgePartialType.BADGE, badgeKey: HighVoltage.key},
+        {key: Meltdown.key, type: BadgePartialType.BADGE, badgeKey: Meltdown.key},
+        {key: NervousDreck.key, type: BadgePartialType.BADGE, badgeKey: NervousDreck.key},
+        {key: PowerWalker.key, type: BadgePartialType.BADGE, badgeKey: PowerWalker.key},
+        {key: ScrapheapOfHistory.key, type: BadgePartialType.BADGE, badgeKey: ScrapheapOfHistory.key}
     ]
 };

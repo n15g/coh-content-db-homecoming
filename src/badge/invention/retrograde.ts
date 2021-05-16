@@ -8,7 +8,7 @@ export const Retrograde: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],
     links: [
-        {title: "Retrograde Badge", href: "https://paragonwiki.com/wiki/Retrograde_Badge"}
+        {title: "Retrograde Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Retrograde_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

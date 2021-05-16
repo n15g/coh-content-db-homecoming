@@ -18,7 +18,7 @@ Here, Mot's followers flock, intoxicating themselves on the potent fumes and ecs
     notes: `Located in [map:${DarkAstoria.key}] in the Moth Cemetery neighborhood. Found at 379 yards south (and slightly east) of the Moth marker (or about 389 yards east and slightly
  north of the Illuminous marker) in a lake of water. In the lower-right-hand corner of the red area of the Moth Cemetery boundaries right up next to the wall.`,
     links: [
-        {title: "Auspice Avernus Badge", href: "https://paragonwiki.com/wiki/Auspice_Avernus_Badge"}
+        {title: "Auspice Avernus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Auspice_Avernus_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

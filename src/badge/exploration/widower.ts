@@ -15,8 +15,8 @@ export const Widower: IBadgeData = {
     badgeText: [{value: "They say that lonely tower is the home of Ghost Widow, Lord Recluse's phantom servant."}],
     notes: `Located on [map:${MercyIsland.key}], outside the door of the very tall tower in the northeast corner of Fort Cerberus.`,
     links: [
-        {title: "Widower Badge", href: "https://paragonwiki.com/wiki/Widower_Badge"},
-        {title: "Widow Badge", href: "https://paragonwiki.com/wiki/Widow_Badge"},
+        {title: "Widower Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Widower_Badge"},
+        {title: "Widow Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Widow_Badge"},
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"

@@ -15,13 +15,13 @@ export const Socialite: IBadgeData = {
     ],
     notes: `Earn the [badge:clubber] and [badge:fashion-designer] Day Jobs`,
     links: [
-        {title: "Socialite Badge", href: "https://paragonwiki.com/wiki/Socialite_Badge"}
+        {title: "Socialite Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Socialite_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/socialite.png"}
     ],
     partials: [
-            {key: Clubber.key, type: BadgePartialType.BADGE, badgeKey: Clubber.key},
-            {key: FashionDesigner.key, type: BadgePartialType.BADGE, badgeKey: FashionDesigner.key}
+        {key: Clubber.key, type: BadgePartialType.BADGE, badgeKey: Clubber.key},
+        {key: FashionDesigner.key, type: BadgePartialType.BADGE, badgeKey: FashionDesigner.key}
     ]
 };

@@ -22,19 +22,19 @@ export const AllYourFirebase: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${FirebaseZulu.key}]`,
     links: [
-        {title: "All Your Firebase... Badge", href: "https://paragonwiki.com/wiki/All_Your_Firebase..._Badge"}
+        {title: "All Your Firebase... Badge", href: "https://hcwiki.cityofheroes.dev/wiki/All_Your_Firebase..._Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: AlphaRanger.key, type: BadgePartialType.BADGE, badgeKey: AlphaRanger.key},
-            {key: DancerWithDeath.key, type: BadgePartialType.BADGE, badgeKey: DancerWithDeath.key},
-            {key: DefyingGravity.key, type: BadgePartialType.BADGE, badgeKey: DefyingGravity.key},
-            {key: DimensionalSojourner.key, type: BadgePartialType.BADGE, badgeKey: DimensionalSojourner.key},
-            {key: ShadowArchitect.key, type: BadgePartialType.BADGE, badgeKey: ShadowArchitect.key},
-            {key: ShardLeaper.key, type: BadgePartialType.BADGE, badgeKey: ShardLeaper.key},
-            {key: Stormwatcher.key, type: BadgePartialType.BADGE, badgeKey: Stormwatcher.key},
-            {key: XRaySpectator.key, type: BadgePartialType.BADGE, badgeKey: XRaySpectator.key}
+        {key: AlphaRanger.key, type: BadgePartialType.BADGE, badgeKey: AlphaRanger.key},
+        {key: DancerWithDeath.key, type: BadgePartialType.BADGE, badgeKey: DancerWithDeath.key},
+        {key: DefyingGravity.key, type: BadgePartialType.BADGE, badgeKey: DefyingGravity.key},
+        {key: DimensionalSojourner.key, type: BadgePartialType.BADGE, badgeKey: DimensionalSojourner.key},
+        {key: ShadowArchitect.key, type: BadgePartialType.BADGE, badgeKey: ShadowArchitect.key},
+        {key: ShardLeaper.key, type: BadgePartialType.BADGE, badgeKey: ShardLeaper.key},
+        {key: Stormwatcher.key, type: BadgePartialType.BADGE, badgeKey: Stormwatcher.key},
+        {key: XRaySpectator.key, type: BadgePartialType.BADGE, badgeKey: XRaySpectator.key}
     ]
 };

@@ -17,7 +17,7 @@ export const SecretOfTheCity: IBadgeData = {
     }],
     notes: `Located in [map:abandoned-sewer-network] 66 yards west of the [map:${SewerNetwork.key}] transfer point in Steel Canyon Sector, on the path leading into the sewers.`,
     links: [
-        {title: "Secret of the City Badge", href: "https://paragonwiki.com/wiki/Secret_of_the_City_Badge"}
+        {title: "Secret of the City Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Secret_of_the_City_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

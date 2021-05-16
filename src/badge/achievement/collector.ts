@@ -14,14 +14,16 @@ export const Collector: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "You have collected 25 badges."},
         {type: Alternate.V, value: "You've earned enough badges to be called a Native."},
-        {type: Alternate.P, value: "25 badges later, it's clear now nothing will keep you from uncovering the secrets of Praetoria " +
-        "and beyond."}
+        {
+            type: Alternate.P, value: "25 badges later, it's clear now nothing will keep you from uncovering the secrets of Praetoria " +
+                "and beyond."
+        }
     ],
     acquisition: "Earn 25 badges",
     links: [
-        {title: "Collector Badge", href: "https://paragonwiki.com/wiki/Collector_Badge"},
-        {title: "Native Badge", href: "https://paragonwiki.com/wiki/Native_Badge"},
-        {title: "Extractor of Secrets Badge", href: "https://paragonwiki.com/wiki/Extractor_of_Secrets_Badge"}
+        {title: "Collector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Collector_Badge"},
+        {title: "Native Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Native_Badge"},
+        {title: "Extractor of Secrets Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Extractor_of_Secrets_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/collector-h.png"},

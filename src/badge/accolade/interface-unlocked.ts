@@ -13,7 +13,7 @@ export const InterfaceUnlocked: IBadgeData = {
     ],
     notes: `Unlock your Interface Incarnate slot`,
     links: [
-        {title: "Interface Unlocked Badge", href: "https://paragonwiki.com/wiki/Interface_Unlocked_Badge"}
+        {title: "Interface Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Interface_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/interface-unlocked.png"}

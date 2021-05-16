@@ -9,12 +9,14 @@ export const FalseProphet: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You're not above using others' beliefs to your own advantage, especially when they're as " +
-        "gullible as the Luddites."}
+        {
+            value: "You're not above using others' beliefs to your own advantage, especially when they're as " +
+                "gullible as the Luddites."
+        }
     ],
     acquisition: "Complete the story arc from Brother Hammond",
     links: [
-        {title: "False Prophet Badge", href: "https://paragonwiki.com/wiki/False_Prophet_Badge"}
+        {title: "False Prophet Badge", href: "https://hcwiki.cityofheroes.dev/wiki/False_Prophet_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/false-prophet.png"}

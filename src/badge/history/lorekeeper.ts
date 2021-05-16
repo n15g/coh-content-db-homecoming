@@ -16,7 +16,7 @@ export const Lorekeeper: IBadgeData = {
         {value: `You have learned much that is hidden from the eyes of mortal men.`}
     ],
     links: [
-        {title: "Lorekeeper Badge", href: "https://paragonwiki.com/wiki/Lorekeeper_Badge"}
+        {title: "Lorekeeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lorekeeper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png"}

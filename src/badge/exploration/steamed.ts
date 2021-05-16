@@ -12,7 +12,7 @@ export const Steamed: IBadgeData = {
     badgeText: [{value: "Volcanic activity around Mount Diable causes a lot of steamy venting. Watch out or it's lobster time."}],
     notes: "The badge marker is 88 feet southeast of the Mount Diable marker. It is located just east of a couple of towers holding up large pipes.",
     links: [
-        {title: "Steamed Badge", href: "https://paragonwiki.com/wiki/Steamed_Badge"}
+        {title: "Steamed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Steamed_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "4"

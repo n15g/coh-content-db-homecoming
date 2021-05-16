@@ -14,7 +14,7 @@ export const Scrounger: IBadgeData = {
     ],
     acquisition: "Sell 50 Salvage at either Wentworths or the Black Market.",
     links: [
-        {title: "Scrounger Badge", href: "https://paragonwiki.com/wiki/Scrounger_Badge"}
+        {title: "Scrounger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scrounger_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/broker-h.png"},

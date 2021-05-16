@@ -21,8 +21,8 @@ The thugs and beasts who call this place home know to fear you, for you are a fo
     }],
     notes: `Located in [map:${SewerNetwork.key}] 50 yards east of the [map:${KingsRow.key}] transfer point, on the path leading into the sewers.`,
     links: [
-        {title: "Sewer King Badge", href: "https://paragonwiki.com/wiki/Sewer_King_Badge"},
-        {title: "Sewer Queen Badge", href: "https://paragonwiki.com/wiki/Sewer_Queen_Badge"}
+        {title: "Sewer King Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sewer_King_Badge"},
+        {title: "Sewer Queen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sewer_Queen_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

@@ -13,7 +13,7 @@ export const SiderealResearcher: IBadgeData = {
     ],
     acquisition: "Collect 4 meteor samples during a single run of the Drowning in Blood trial",
     links: [
-        {title: "Sidereal Researcher Badge", href: "https://paragonwiki.com/wiki/Sidereal_Researcher_Badge"}
+        {title: "Sidereal Researcher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sidereal_Researcher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/sidereal-researcher.png"}

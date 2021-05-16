@@ -14,7 +14,7 @@ export const Shopkeeper: IBadgeData = {
     ],
     acquisition: "6000 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Shopkeeper Badge", href: "https://paragonwiki.com/wiki/Shopkeeper_Badge"}
+        {title: "Shopkeeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shopkeeper_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/shopkeeper.png"}]
 };

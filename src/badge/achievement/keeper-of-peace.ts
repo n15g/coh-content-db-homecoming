@@ -18,9 +18,9 @@ export const KeeperOfPeace: IBadgeData = {
     ],
     acquisition: "Reach level 20",
     links: [
-        {title: "Keeper of Peace Badge", href: "https://paragonwiki.com/wiki/Keeper_of_Peace_Badge"},
-        {title: "Insider Badge", href: "https://paragonwiki.com/wiki/Insider_Badge"},
-        {title: "Survivor of Praetoria Badge", href: "https://paragonwiki.com/wiki/Survivor_of_Praetoria_Badge"}
+        {title: "Keeper of Peace Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Keeper_of_Peace_Badge"},
+        {title: "Insider Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Insider_Badge"},
+        {title: "Survivor of Praetoria Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Survivor_of_Praetoria_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/keeper-of-peace-h.png"},

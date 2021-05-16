@@ -15,8 +15,8 @@ export const Midnighter: IBadgeData = {
     acquisition: "Log out inside the Midnight Club building for 100 hours.",
     effect: "Day Job: Bonus Arcane Salvage upon mission completion",
     links: [
-        {title: "Midnighter Badge", href: "https://paragonwiki.com/wiki/Midnighter_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Midnighter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Midnighter_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/midnighter.png"}]
 };

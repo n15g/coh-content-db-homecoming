@@ -14,6 +14,6 @@ export const TrueNemesis: IBadgeData = {
     acquisition: `Complete the task set 'Nemesis Rex'.`,
     notes: `The task set 'Nemesis Rex' begins with the 'Stop the battle between Nemesis Army factions and make sure no innocents get hurt' mission from level 40-44 contact Maxwell Christopher in [map:${FoundersFalls.key}]. It is also available via Ouroboros, level 40-49, mission 1.07 'Nemesis Rex'.`,
     links: [
-        {title: "True Nemesis Badge", href: "https://paragonwiki.com/wiki/True_Nemesis_Badge"}
+        {title: "True Nemesis Badge", href: "https://hcwiki.cityofheroes.dev/wiki/True_Nemesis_Badge"}
     ],
 };

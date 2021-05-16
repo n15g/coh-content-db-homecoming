@@ -15,7 +15,7 @@ export const DarkMystic: IBadgeData = {
     }],
     notes: "Located in [map:echo-dark-astoria] 309 yards due north of the Dido's View marker.",
     links: [
-        {title: "Dark Mystic Badge", href: "https://paragonwiki.com/wiki/Dark_Mystic_Badge"}
+        {title: "Dark Mystic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dark_Mystic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

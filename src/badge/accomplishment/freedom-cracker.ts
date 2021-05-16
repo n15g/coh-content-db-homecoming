@@ -9,12 +9,14 @@ export const FreedomCracker: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You've kicked Longbow out of Fort Darwin, showing them that they don't belong in the Rogue " +
-        "Isles!"}
+        {
+            value: "You've kicked Longbow out of Fort Darwin, showing them that they don't belong in the Rogue " +
+                "Isles!"
+        }
     ],
     acquisition: "Complete Lt. Harris' story arc in Mercy Island",
     links: [
-        {title: "Freedom Cracker Badge", href: "https://paragonwiki.com/wiki/Freedom_Cracker_Badge"}
+        {title: "Freedom Cracker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom_Cracker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/freedom-cracker.png"}

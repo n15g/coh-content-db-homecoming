@@ -20,13 +20,13 @@ export const Libertarian: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Libertarian Badge", href: "https://paragonwiki.com/wiki/Libertarian_Badge"},
-        {title: "Anarchist Badge", href: "https://paragonwiki.com/wiki/Anarchist_Badge"},
+        {title: "Libertarian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Libertarian_Badge"},
+        {title: "Anarchist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anarchist_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
+    ],
     vidiotMapKey: "1"
 };

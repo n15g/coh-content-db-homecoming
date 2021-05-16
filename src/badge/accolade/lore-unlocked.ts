@@ -13,7 +13,7 @@ export const LoreUnlocked: IBadgeData = {
     ],
     notes: `Unlock your Lore Incarnate slot`,
     links: [
-        {title: "Lore Unlocked Badge", href: "https://paragonwiki.com/wiki/Lore_Unlocked_Badge"}
+        {title: "Lore Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lore_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/lore-unlocked.png"}

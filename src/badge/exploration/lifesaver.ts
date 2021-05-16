@@ -12,7 +12,7 @@ export const Lifesaver: IBadgeData = {
     badgeText: [{value: "Rikti's continuous attacks on this hospital prompted Paragon City officials to shut it down."}],
     notes: "The Lifesaver Badge is located in the northeast corner of the Pavia neighborhood of the [map:${RiktiWarZone.key}].",
     links: [
-        {title: "Lifesaver Badge", href: "https://paragonwiki.com/wiki/Lifesaver_Badge"},
+        {title: "Lifesaver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lifesaver_Badge"},
         {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

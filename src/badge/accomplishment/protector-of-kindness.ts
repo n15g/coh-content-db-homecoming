@@ -14,8 +14,8 @@ export const ProtectorOfKindness: IBadgeData = {
     ],
     acquisition: "Complete the Justin Augustine Task Force: The Saga of Faathim",
     links: [
-        {title: "Protector of Kindness Badge", href: "https://paragonwiki.com/wiki/Protector_of_Kindness_Badge"},
-        {title: "Thorn Crusher Badge", href: "https://paragonwiki.com/wiki/Thorn_Crusher_Badge"}
+        {title: "Protector of Kindness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Protector_of_Kindness_Badge"},
+        {title: "Thorn Crusher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Crusher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/protector-of-kindness.png"}

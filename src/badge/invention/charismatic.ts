@@ -8,7 +8,7 @@ export const Charismatic: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],
     links: [
-        {title: "Charismatic Badge", href: "https://paragonwiki.com/wiki/Charismatic_Badge"}
+        {title: "Charismatic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Charismatic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [

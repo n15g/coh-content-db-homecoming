@@ -12,6 +12,6 @@ export const Survivor: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_resist.png"}],
     acquisition: "Complete every story arc in the Praetorian Warden storyline to earn this badge.",
     links: [
-        {title: "Survivor Badge", href: "https://paragonwiki.com/wiki/Survivor_Badge"}
+        {title: "Survivor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Survivor_Badge"}
     ],
 };

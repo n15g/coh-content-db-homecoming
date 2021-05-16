@@ -12,6 +12,6 @@ export const Curator: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/curator.png"}],
     acquisition: "Collect 200 Souvenirs",
     links: [
-        {title: "Curator Badge", href: "https://paragonwiki.com/wiki/Curator_Badge"}
+        {title: "Curator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Curator_Badge"}
     ],
 };

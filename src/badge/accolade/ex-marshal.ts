@@ -21,8 +21,8 @@ export const ExMarshal: IBadgeData = {
     ],
     notes: `Awards +5 Max Endurance`,
     links: [
-        {title: "Ex-Marshal Badge", href: "https://paragonwiki.com/wiki/Ex-Marshal_Badge"},
-        {title: "Marshal Badge", href: "https://paragonwiki.com/wiki/Marshal_Badge"}
+        {title: "Ex-Marshal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ex-Marshal_Badge"},
+        {title: "Marshal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marshal_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/ex-marshal.png"}

@@ -13,7 +13,7 @@ export const TippedOff: IBadgeData = {
     ],
     acquisition: "Receive your first tip",
     links: [
-        {title: "Tipped Off Badge", href: "https://paragonwiki.com/wiki/Tipped_Off_Badge"}
+        {title: "Tipped Off Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tipped_Off_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/tipped-off.png"}

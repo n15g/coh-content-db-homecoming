@@ -18,7 +18,7 @@ export const Bereaved: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] 538 SSE of the Bastion of Sorrow marker, on the south edge of the small island to the south of the neighborhood's main island.",
     links: [
-        {title: "Bereaved Badge", href: "https://paragonwiki.com/wiki/Bereaved_Badge"}
+        {title: "Bereaved Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bereaved_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

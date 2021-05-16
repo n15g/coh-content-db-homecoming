@@ -16,7 +16,7 @@ export const HellBane: IBadgeData = {
     ],
     acquisition: "Defeat Caleb, a monster that spawns in Nerva Archipelago",
     links: [
-        {title: "Hell Bane Badge", href: "https://paragonwiki.com/wiki/HellBane_Badge"}
+        {title: "Hell Bane Badge", href: "https://hcwiki.cityofheroes.dev/wiki/HellBane_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/circle.png"}

@@ -15,8 +15,8 @@ export const Hungry: IBadgeData = {
     badgeText: [{value: "The Shiva Shard fed on the dead here, causing the trees to grow larger and stronger around the old graveyard."}],
     notes: "The All Consuming Badge is in the Forgotten Forest neighborhood of Bloody Bay. The badge marker is located about 100 feet south of Meteor Panch.",
     links: [
-        {title: "Hungry Badge", href: "https://paragonwiki.com/wiki/Hungry_Badge"},
-        {title: "All Consuming Badge", href: "https://paragonwiki.com/wiki/All_Consuming_Badge"}
+        {title: "Hungry Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hungry_Badge"},
+        {title: "All Consuming Badge", href: "https://hcwiki.cityofheroes.dev/wiki/All_Consuming_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

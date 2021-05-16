@@ -16,7 +16,7 @@ export const BridgeHolder: IBadgeData = {
     }],
     notes: "Located on the main bridge leading into the New Thebes neighborhood of [map:talos-island], 187 yards NNW of the Hero Corps Field Analyst.",
     links: [
-        {title: "Bridge Holder Badge", href: "https://paragonwiki.com/wiki/Bridge_Holder_Badge"}
+        {title: "Bridge Holder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bridge_Holder_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

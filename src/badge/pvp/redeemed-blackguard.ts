@@ -10,14 +10,16 @@ export const RedeemedBlackguard: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {type: Alternate.H, value: "Despite defeating all the Signature Heroes in Recluse's Victory, you are now considered a " +
-        "Redeemed Blackguard."},
+        {
+            type: Alternate.H, value: "Despite defeating all the Signature Heroes in Recluse's Victory, you are now considered a " +
+                "Redeemed Blackguard."
+        },
         {type: Alternate.V, value: "You have helped defeat all the Signature Heroes in Recluse's Victory, making you a Blackguard."}
     ],
     acquisition: "Defeat all six Signature Heroes in Recluse's Victory",
     links: [
-        {title: "Redeemed Blackguard Badge", href: "https://paragonwiki.com/wiki/Redeemed_Blackguard_Badge"},
-        {title: "Blackguard Badge", href: "https://paragonwiki.com/wiki/Blackguard_Badge"}
+        {title: "Redeemed Blackguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Redeemed_Blackguard_Badge"},
+        {title: "Blackguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blackguard_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatstatesman.png"}

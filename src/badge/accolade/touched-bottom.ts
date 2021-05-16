@@ -22,19 +22,19 @@ export const TouchedBottom: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TheAbyss.key}]`,
     links: [
-        {title: "Touched Bottom Badge", href: "https://paragonwiki.com/wiki/Touched_Bottom_Badge"}
+        {title: "Touched Bottom Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Touched_Bottom_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: AbyssalGaze.key, type: BadgePartialType.BADGE, badgeKey: AbyssalGaze.key},
-            {key: CagedBeast.key, type: BadgePartialType.BADGE, badgeKey: CagedBeast.key},
-            {key: Geneticist.key, type: BadgePartialType.BADGE, badgeKey: Geneticist.key},
-            {key: HamidonsIre.key, type: BadgePartialType.BADGE, badgeKey: HamidonsIre.key},
-            {key: HereBeDragons.key, type: BadgePartialType.BADGE, badgeKey: HereBeDragons.key},
-            {key: NoEscape.key, type: BadgePartialType.BADGE, badgeKey: NoEscape.key},
-            {key: Reborn.key, type: BadgePartialType.BADGE, badgeKey: Reborn.key},
-            {key: TheTreeOfWoe.key, type: BadgePartialType.BADGE, badgeKey: TheTreeOfWoe.key}
+        {key: AbyssalGaze.key, type: BadgePartialType.BADGE, badgeKey: AbyssalGaze.key},
+        {key: CagedBeast.key, type: BadgePartialType.BADGE, badgeKey: CagedBeast.key},
+        {key: Geneticist.key, type: BadgePartialType.BADGE, badgeKey: Geneticist.key},
+        {key: HamidonsIre.key, type: BadgePartialType.BADGE, badgeKey: HamidonsIre.key},
+        {key: HereBeDragons.key, type: BadgePartialType.BADGE, badgeKey: HereBeDragons.key},
+        {key: NoEscape.key, type: BadgePartialType.BADGE, badgeKey: NoEscape.key},
+        {key: Reborn.key, type: BadgePartialType.BADGE, badgeKey: Reborn.key},
+        {key: TheTreeOfWoe.key, type: BadgePartialType.BADGE, badgeKey: TheTreeOfWoe.key}
     ]
 };

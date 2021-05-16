@@ -14,7 +14,7 @@ export const GoldMedalist: IBadgeData = {
     ],
     acquisition: "Complete a Flashback story arc in under 30 minutes.",
     links: [
-        {title: "Gold Medalist Badge", href: "https://paragonwiki.com/wiki/Gold_Medalist_Badge"}
+        {title: "Gold Medalist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gold_Medalist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/gold-medalist.png"}]
 };

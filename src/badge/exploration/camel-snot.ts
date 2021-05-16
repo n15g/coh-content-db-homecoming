@@ -16,7 +16,7 @@ export const CamelSnot: IBadgeData = {
 
 The marker is on the top balcony (the last one before you reach the top of the pyramid). It is just west of the centerline of the slope.`,
     links: [
-        {title: "Camel Snot Badge", href: "https://paragonwiki.com/wiki/Camel_Snot_Badge"}
+        {title: "Camel Snot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Camel_Snot_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "4"

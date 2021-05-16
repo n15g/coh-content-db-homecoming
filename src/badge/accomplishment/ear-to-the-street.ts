@@ -13,7 +13,7 @@ export const EarToTheStreet: IBadgeData = {
     ],
     acquisition: "Complete a Hero Alignment mission",
     links: [
-        {title: "Ear to the Street Badge", href: "https://paragonwiki.com/wiki/Ear_to_the_Street_Badge"}
+        {title: "Ear to the Street Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ear_to_the_Street_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ear-to-the-street.png"}

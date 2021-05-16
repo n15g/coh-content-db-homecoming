@@ -18,7 +18,7 @@ export const Unfettered: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] 0.50 miles SSW of the Bastion of Denial marker, east of the geyser on the floating island.",
     links: [
-        {title: "Unfettered Badge", href: "https://paragonwiki.com/wiki/Unfettered_Badge"}
+        {title: "Unfettered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unfettered_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

@@ -17,7 +17,7 @@ anywhere else on this world.`
     }],
     notes: `Located in [map:${Eden.key}] 155 yards east of The Pit marker, in a grassy patch covering the road leading to the east.`,
     links: [
-        {title: "Call of Nature Badge", href: "https://paragonwiki.com/wiki/Call_of_Nature_Badge"}
+        {title: "Call of Nature Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Call_of_Nature_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

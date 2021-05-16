@@ -9,12 +9,14 @@ export const CouchPotato: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You destroyed a shipment of books on the word of the Television, and then blamed it all on " +
-        "video games."}
+        {
+            value: "You destroyed a shipment of books on the word of the Television, and then blamed it all on " +
+                "video games."
+        }
     ],
     acquisition: "Complete the Destroy books for Television mission from Television",
     links: [
-        {title: "Couch Potato Badge", href: "https://paragonwiki.com/wiki/Couch_Potato_Badge"}
+        {title: "Couch Potato Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Couch_Potato_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-9.png"}

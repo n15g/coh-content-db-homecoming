@@ -14,7 +14,7 @@ export const Capped: IBadgeData = {
     ],
     acquisition: "Complete a level 21-25 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Capped Badge", href: "https://paragonwiki.com/wiki/Capped_Badge"}
+        {title: "Capped Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Capped_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/capped.png"}]
 };

@@ -19,7 +19,7 @@ export const FromBeneathYou: IBadgeData = {
     }],
     notes: `Located in [map:abandoned-sewer-network] 80 feet southwest of the [${SewerNetwork.key}] transfer point in Atlas Park Sector, right at the exit of the room.`,
     links: [
-        {title: "From Beneath You Badge", href: "https://paragonwiki.com/wiki/From_Beneath_You_Badge"}
+        {title: "From Beneath You Badge", href: "https://hcwiki.cityofheroes.dev/wiki/From_Beneath_You_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

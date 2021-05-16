@@ -14,7 +14,7 @@ export const Stemmed: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Stemmed Badge", href: "https://paragonwiki.com/wiki/Stalled_Badge"}
+        {title: "Stemmed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stalled_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/stemmed.png"}]
 };

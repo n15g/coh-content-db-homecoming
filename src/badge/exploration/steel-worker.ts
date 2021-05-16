@@ -22,12 +22,12 @@ export const SteelWorker: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Steel Worker Badge", href: "https://paragonwiki.com/wiki/Steel_Worker_Badge"},
+        {title: "Steel Worker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Steel_Worker_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
+    ],
     vidiotMapKey: "1"
 };

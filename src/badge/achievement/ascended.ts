@@ -9,12 +9,14 @@ export const Ascended: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "Despite your villainous beginnings you managed to redeem yourself. You have shifted your " +
-        "alignment from Villain to Hero earning yourself the Ascended badge."}
+        {
+            value: "Despite your villainous beginnings you managed to redeem yourself. You have shifted your " +
+                "alignment from Villain to Hero earning yourself the Ascended badge."
+        }
     ],
     acquisition: "Shift alignment from Villain to Hero",
     links: [
-        {title: "Ascended Badge", href: "https://paragonwiki.com/wiki/Ascended_Badge"}
+        {title: "Ascended Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ascended_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/ascended.png"}

@@ -23,9 +23,9 @@ export const Intern: IBadgeData = {
     acquisition: "Log out inside Portal Corps for 100 hours.",
     effect: "Day Job: Bonus Large Inspiration upon mission completion",
     links: [
-        {title: "Intern Badge", href: "https://paragonwiki.com/wiki/Intern_Badge"},
-        {title: "Wage Slave Badge", href: "https://paragonwiki.com/wiki/Wage_Slave_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Intern Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Intern_Badge"},
+        {title: "Wage Slave Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wage_Slave_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/intern.png"}]
 };

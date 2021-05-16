@@ -19,8 +19,8 @@ export const Longshoreman: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] on the docks 575 yards SSW of the Neuron's Reach marker.",
     links: [
-        {title: "Longshoreman Badge", href: "https://paragonwiki.com/wiki/Longshoreman_Badge"},
-        {title: "Longshorewoman Badge", href: "https://paragonwiki.com/wiki/Longshorewoman_Badge"},
+        {title: "Longshoreman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longshoreman_Badge"},
+        {title: "Longshorewoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longshorewoman_Badge"},
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

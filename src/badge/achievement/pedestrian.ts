@@ -15,8 +15,8 @@ export const Pedestrian: IBadgeData = {
     ],
     acquisition: "Destroy 100 Cars in Mayhem Missions",
     links: [
-        {title: "Pedestrian Badge", href: "https://paragonwiki.com/wiki/Pedestrian_Badge"},
-        {title: "Impounder Badge", href: "https://paragonwiki.com/wiki/Impounder_Badge"}
+        {title: "Pedestrian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pedestrian_Badge"},
+        {title: "Impounder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Impounder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/pedestrian.png"}

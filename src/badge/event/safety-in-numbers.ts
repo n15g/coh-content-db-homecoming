@@ -13,7 +13,7 @@ export const SafetyInNumbers: IBadgeData = {
     ],
     acquisition: "Defeat 33 Zombie lieutenants during Zombie Apocalypses.",
     links: [
-        {title: "Safety in Numbers Badge", href: "https://paragonwiki.com/wiki/Safety_in_Numbers_Badge"}
+        {title: "Safety in Numbers Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Safety_in_Numbers_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/safety-in-numbers.png"}]
 };

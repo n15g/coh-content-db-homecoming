@@ -15,8 +15,8 @@ export const VolunteerFirefighter: IBadgeData = {
     ],
     acquisition: "Defeat 10 Hellion Arsonists during a Hellion Arson event",
     links: [
-        {title: "Volunteer Firefighter Badge", href: "https://paragonwiki.com/wiki/Volunteer_Firefighter_Badge"},
-        {title: "Fire Bane Badge", href: "https://paragonwiki.com/wiki/Fire_Bane_Badge"}
+        {title: "Volunteer Firefighter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Volunteer_Firefighter_Badge"},
+        {title: "Fire Bane Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fire_Bane_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/firefighter.png"}

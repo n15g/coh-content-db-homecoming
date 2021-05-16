@@ -13,7 +13,7 @@ export const Initiate: IBadgeData = {
     ],
     acquisition: "Craft a common Incarnate Ability",
     links: [
-        {title: "Initiate Badge", href: "https://paragonwiki.com/wiki/Initiate_Badge"}
+        {title: "Initiate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Initiate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/initiate.png"}

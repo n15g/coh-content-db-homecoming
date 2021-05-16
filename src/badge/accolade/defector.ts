@@ -23,8 +23,8 @@ export const Defector: IBadgeData = {
     ],
     notes: `Earn the ${badgeReference(CannonFodder)} and ${badgeReference(Banker)} Day Jobs`,
     links: [
-        {title: "Defector Badge", href: "https://paragonwiki.com/wiki/Defector_Badge"},
-        {title: "Black Ops Badge", href: "https://paragonwiki.com/wiki/Black_Ops_Badge"}
+        {title: "Defector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Defector_Badge"},
+        {title: "Black Ops Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Black_Ops_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/defector.png"}

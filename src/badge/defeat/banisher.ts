@@ -13,7 +13,7 @@ export const Banisher: IBadgeData = {
     ],
     acquisition: "Defeat 200 Banished Pantheon Spirit Masks",
     links: [
-        {title: "Banisher Badge", href: "https://paragonwiki.com/wiki/Banisher_Badge"}
+        {title: "Banisher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Banisher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/banished.png"}

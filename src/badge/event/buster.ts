@@ -13,7 +13,7 @@ export const Buster: IBadgeData = {
     ],
     acquisition: "Defeat 20 Spirits during the Halloween event.",
     links: [
-        {title: "Buster Badge", href: "https://paragonwiki.com/wiki/Buster_Badge"}
+        {title: "Buster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Buster_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/buster.png"}]
 };

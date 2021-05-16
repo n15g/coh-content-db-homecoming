@@ -15,11 +15,11 @@ export const EscapeArtist: IBadgeData = {
     location: [-679.0, -167.0, -208.0],
     notes: "In [map:${Faultline.key}], halfway between Freight Lifts B and C, there is a crevasse to the north. The badge marker is at the end of the bottom of that crevasse.",
     links: [
-        {title: "Escape Artist Badge", href: "https://paragonwiki.com/wiki/Escape_Artist_Badge"},
+        {title: "Escape Artist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Escape_Artist_Badge"},
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}
+    ],
     vidiotMapKey: "2"
 };

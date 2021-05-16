@@ -15,6 +15,6 @@ export const UntilTheEndOfTheWorld: IBadgeData = {
     ],
     acquisition: "Collect 1500 badges to earn this badge.",
     links: [
-        {title: "Until the End of the World Badge", href: "https://paragonwiki.com/wiki/Until_the_End_of_the_World_Badge"}
+        {title: "Until the End of the World Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Until_the_End_of_the_World_Badge"}
     ],
 };

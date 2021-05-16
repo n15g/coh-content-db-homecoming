@@ -13,7 +13,7 @@ export const Caliban: IBadgeData = {
     ],
     acquisition: "Earn the [badge:regenerator] Badge (Trolls)",
     links: [
-        {title: "Caliban Badge", href: "https://paragonwiki.com/wiki/Caliban_Badge"}
+        {title: "Caliban Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Caliban_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

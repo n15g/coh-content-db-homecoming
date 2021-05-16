@@ -9,12 +9,14 @@ export const Trickster: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: "You completed a Rogue Morality Mission and then maintained your Rogue alignment for 7 days " +
-        "earning yourself this badge."}
+        {
+            value: "You completed a Rogue Morality Mission and then maintained your Rogue alignment for 7 days " +
+                "earning yourself this badge."
+        }
     ],
     acquisition: "Maintain a Rogue alignment for 7 days",
     links: [
-        {title: "Trickster Badge", href: "https://paragonwiki.com/wiki/Trickster_Badge"}
+        {title: "Trickster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trickster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/trickster.png"}

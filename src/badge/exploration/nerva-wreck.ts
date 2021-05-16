@@ -17,7 +17,7 @@ export const NervaWreck: IBadgeData = {
 It is located on the lowest rock outcropping next to the shipwreck in the mouth of the river that runs into the largest island of Primeva.
  It is approximately 533 yrds SE of the Primeva marker and/or the northernmost Quartermaster.`,
     links: [
-        {title: "Nerva Wreck Badge", href: "https://paragonwiki.com/wiki/Nerva_Wreck_Badge"}
+        {title: "Nerva Wreck Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nerva_Wreck_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "3"

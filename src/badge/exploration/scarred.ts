@@ -14,7 +14,7 @@ export const Scarred: IBadgeData = {
         "\n" +
         "On a broken fragment of road next to a destroyed building. A wrecked car is pointed at it.",
     links: [
-        {title: "Scarred Badge", href: "https://paragonwiki.com/wiki/Scarred_Badge"},
+        {title: "Scarred Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scarred_Badge"},
         {title: "Echo: Rikti Crash Site Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

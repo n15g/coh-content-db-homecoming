@@ -13,7 +13,7 @@ export const Complicated: IBadgeData = {
     ],
     acquisition: "Complete the Defeat Frostfire mission from Flux",
     links: [
-        {title: "Negotiator Badge", href: "https://paragonwiki.com/wiki/Complicated_Badge"}
+        {title: "Negotiator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Complicated_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/complicated.png"}

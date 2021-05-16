@@ -15,7 +15,7 @@ export const Savant: IBadgeData = {
         {value: `You have learned the history of the Rikti War.`}
     ],
     links: [
-        {title: "Savant Badge", href: "https://paragonwiki.com/wiki/Savant_Badge"}
+        {title: "Savant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Savant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

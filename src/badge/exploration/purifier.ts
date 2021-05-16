@@ -17,8 +17,8 @@ export const Purifier: IBadgeData = {
     }],
     notes: "In the extreme northeast corner of Skyway City, between the two basketball courts.",
     links: [
-        {title: "Purifier Badge", href: "https://paragonwiki.com/wiki/Purifier_Badge"},
-        {title: "Defiler Badge", href: "https://paragonwiki.com/wiki/Defiler_Badge"}
+        {title: "Purifier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Purifier_Badge"},
+        {title: "Defiler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Defiler_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

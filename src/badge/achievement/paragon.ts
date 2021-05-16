@@ -14,14 +14,16 @@ export const Paragon: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "The time spent as a mentor has earned you the right to call yourself paragon."},
         {type: Alternate.V, value: "You've spent time recruiting others to Arachnos' cause."},
-        {type: Alternate.P, value: "Teaching those who want to learn the ways of Praetoria is more than a hobby to you. It's a " +
-        "mission."}
+        {
+            type: Alternate.P, value: "Teaching those who want to learn the ways of Praetoria is more than a hobby to you. It's a " +
+                "mission."
+        }
     ],
     acquisition: "Sidekick another hero for 12 hours",
     links: [
-        {title: "Paragon Badge", href: "https://paragonwiki.com/wiki/Paragon_Badge"},
-        {title: "Svengali Badge", href: "https://paragonwiki.com/wiki/Svengali_Badge"},
-        {title: "Teacher Badge", href: "https://paragonwiki.com/wiki/Teacher_Badge"}
+        {title: "Paragon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Paragon_Badge"},
+        {title: "Svengali Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Svengali_Badge"},
+        {title: "Teacher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Teacher_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png"},

@@ -22,19 +22,19 @@ export const Epicenter: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoFaultline.key}]`,
     links: [
-        {title: "Epicenter Badge", href: "https://paragonwiki.com/wiki/Epicenter_Badge"}
+        {title: "Epicenter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Epicenter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: Newsman.key, type: BadgePartialType.BADGE, badgeKey: Newsman.key},
-            {key: FaultlessMystic.key, type: BadgePartialType.BADGE, badgeKey: FaultlessMystic.key},
-            {key: Apex.key, type: BadgePartialType.BADGE, badgeKey: Apex.key},
-            {key: Forsaken.key, type: BadgePartialType.BADGE, badgeKey: Forsaken.key},
-            {key: Pristine.key, type: BadgePartialType.BADGE, badgeKey: Pristine.key},
-            {key: ClaimDenied.key, type: BadgePartialType.BADGE, badgeKey: ClaimDenied.key},
-            {key: SpareParts.key, type: BadgePartialType.BADGE, badgeKey: SpareParts.key},
-            {key: DugTooDeep.key, type: BadgePartialType.BADGE, badgeKey: DugTooDeep.key}
+        {key: Newsman.key, type: BadgePartialType.BADGE, badgeKey: Newsman.key},
+        {key: FaultlessMystic.key, type: BadgePartialType.BADGE, badgeKey: FaultlessMystic.key},
+        {key: Apex.key, type: BadgePartialType.BADGE, badgeKey: Apex.key},
+        {key: Forsaken.key, type: BadgePartialType.BADGE, badgeKey: Forsaken.key},
+        {key: Pristine.key, type: BadgePartialType.BADGE, badgeKey: Pristine.key},
+        {key: ClaimDenied.key, type: BadgePartialType.BADGE, badgeKey: ClaimDenied.key},
+        {key: SpareParts.key, type: BadgePartialType.BADGE, badgeKey: SpareParts.key},
+        {key: DugTooDeep.key, type: BadgePartialType.BADGE, badgeKey: DugTooDeep.key}
     ]
 };

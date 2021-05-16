@@ -12,6 +12,6 @@ export const GrandGourmet: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-recipe.png"}],
     acquisition: "Reject 500 recipe drops.",
     links: [
-        {title: "Grand Gourmet Badge", href: "https://paragonwiki.com/wiki/Grand_Gourmet_Badge"}
+        {title: "Grand Gourmet Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grand_Gourmet_Badge"}
     ],
 };

@@ -13,7 +13,7 @@ export const SlagPile: IBadgeData = {
     ],
     acquisition: "Earn the [badge:slag-reaper] Badge (Slag Golems)",
     links: [
-        {title: "Slag Pile Badge", href: "https://paragonwiki.com/wiki/Slag_Pile_Badge"}
+        {title: "Slag Pile Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Slag_Pile_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

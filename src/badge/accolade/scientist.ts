@@ -17,14 +17,14 @@ export const Scientist: IBadgeData = {
     ],
     notes: `Earn the [badge:professor] and [badge:intern] Day Jobs`,
     links: [
-        {title: "Scientist Badge", href: "https://paragonwiki.com/wiki/Scientist_Badge"},
-        {title: "Crackpot Badge", href: "https://paragonwiki.com/wiki/Crackpot_Badge"}
+        {title: "Scientist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scientist_Badge"},
+        {title: "Crackpot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crackpot_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/scientist.png"}
     ],
     partials: [
-            {key: Professor.key, type: BadgePartialType.BADGE, badgeKey: Professor.key},
-            {key: Intern.key, type: BadgePartialType.BADGE, badgeKey: Intern.key}
+        {key: Professor.key, type: BadgePartialType.BADGE, badgeKey: Professor.key},
+        {key: Intern.key, type: BadgePartialType.BADGE, badgeKey: Intern.key}
     ]
 };

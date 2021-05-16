@@ -17,12 +17,12 @@ export const RoadRaged: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Road Raged Badge", href: "https://paragonwiki.com/wiki/Road_Raged_Badge"},
+        {title: "Road Raged Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Road_Raged_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
+    ],
     vidiotMapKey: "1"
 };

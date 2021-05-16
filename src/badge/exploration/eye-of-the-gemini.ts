@@ -16,7 +16,7 @@ export const EyeOfTheGemini: IBadgeData = {
     }],
     notes: "The Eye of the Gemini Badge is located in the Gemini Park neighborhood of Echo: Galaxy City. It is near a set of three picnic tables 67 yards west of the neighborhood marker.",
     links: [
-        {title: "Eye of the Gemini Badge", href: "https://paragonwiki.com/wiki/Eye_of_the_Gemini_Badge"}
+        {title: "Eye of the Gemini Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eye_of_the_Gemini_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

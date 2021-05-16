@@ -17,7 +17,7 @@ export const DeadEnd: IBadgeData = {
     notes: "The Dead End Badge is in the Liberty Quay neighborhood of Independence Port, 458 yards SSW of the neighborhood marker." +
         "\n\n\The easiest way to find it is to go to the south end of the zone and head due north from the western tree along the security fence of the storage yard.",
     links: [
-        {title: "Dead End Badge", href: "https://paragonwiki.com/wiki/Dead_End_Badge"}
+        {title: "Dead End Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dead_End_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

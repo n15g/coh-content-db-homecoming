@@ -13,7 +13,7 @@ export const NightHaunt: IBadgeData = {
     ],
     acquisition: "Earn the [badge:pirate] Badge (Spectral Pirates)",
     links: [
-        {title: "Night Haunt Badge", href: "https://paragonwiki.com/wiki/Night_Haunt_Badge"}
+        {title: "Night Haunt Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Night_Haunt_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

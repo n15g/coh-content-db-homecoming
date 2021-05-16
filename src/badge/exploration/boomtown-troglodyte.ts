@@ -17,7 +17,7 @@ export const BoomtownTroglodyte: IBadgeData = {
     notes: "The Boomtown Troglodyte badge is in a tunnel 448 yards east of the Grenadier Village marker." +
         "\n\nFrom the Grenadier Village marker, face east and slightly north and you will see the entrance to the tunnel.",
     links: [
-        {title: "Boomtown Troglodyte Badge", href: "https://paragonwiki.com/wiki/Boomtown_Troglodyte_Badge"}
+        {title: "Boomtown Troglodyte Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Boomtown_Troglodyte_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

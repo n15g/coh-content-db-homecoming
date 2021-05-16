@@ -14,7 +14,7 @@ export const Workaholic: IBadgeData = {
     ],
     acquisition: "Earn this badge by completing one non-required mission objective in an Architect mission.",
     links: [
-        {title: "Workaholic Badge", href: "https://paragonwiki.com/wiki/Workaholic_Badge"}
+        {title: "Workaholic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Workaholic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/workaholic.png"}]
 };

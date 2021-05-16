@@ -19,7 +19,7 @@ export const PeaceWalker: IBadgeData = {
     }],
     notes: "Located in [map:cascade-archipelago] 167 yards SW of The Marooned Shores marker, in the middle of an area surrounded by hills.",
     links: [
-        {title: "Peace Walker Badge", href: "https://paragonwiki.com/wiki/Peace_Walker_Badge"}
+        {title: "Peace Walker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Peace_Walker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

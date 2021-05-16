@@ -14,7 +14,7 @@ export const Refrained: IBadgeData = {
     ],
     acquisition: "Complete a level 1-15 Flashback story arc using no travel powers.",
     links: [
-        {title: "Refrained Badge", href: "https://paragonwiki.com/wiki/Refrained_Badge"}
+        {title: "Refrained Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Refrained_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/refrained.png"}]
 };

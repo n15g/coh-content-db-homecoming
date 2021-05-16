@@ -22,19 +22,19 @@ export const NervaNavigator: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${NervaArchipelago.key}]`,
     links: [
-        {title: "Nerva Navigator Badge", href: "https://paragonwiki.com/wiki/Nerva_Navigator_Badge"}
+        {title: "Nerva Navigator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nerva_Navigator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}
     ],
     partials: [
-            {key: WatcherOnTheKnoll.key, type: BadgePartialType.BADGE, badgeKey: WatcherOnTheKnoll.key},
-            {key: LockedAndLoaded.key, type: BadgePartialType.BADGE, badgeKey: LockedAndLoaded.key},
-            {key: NervaWreck.key, type: BadgePartialType.BADGE, badgeKey: NervaWreck.key},
-            {key: PrimalInstinct.key, type: BadgePartialType.BADGE, badgeKey: PrimalInstinct.key},
-            {key: TreeHugger.key, type: BadgePartialType.BADGE, badgeKey: TreeHugger.key},
-            {key: UnethicalTourist.key, type: BadgePartialType.BADGE, badgeKey: UnethicalTourist.key},
-            {key: BlindEye.key, type: BadgePartialType.BADGE, badgeKey: BlindEye.key},
-            {key: Soother.key, type: BadgePartialType.BADGE, badgeKey: Soother.key}
+        {key: WatcherOnTheKnoll.key, type: BadgePartialType.BADGE, badgeKey: WatcherOnTheKnoll.key},
+        {key: LockedAndLoaded.key, type: BadgePartialType.BADGE, badgeKey: LockedAndLoaded.key},
+        {key: NervaWreck.key, type: BadgePartialType.BADGE, badgeKey: NervaWreck.key},
+        {key: PrimalInstinct.key, type: BadgePartialType.BADGE, badgeKey: PrimalInstinct.key},
+        {key: TreeHugger.key, type: BadgePartialType.BADGE, badgeKey: TreeHugger.key},
+        {key: UnethicalTourist.key, type: BadgePartialType.BADGE, badgeKey: UnethicalTourist.key},
+        {key: BlindEye.key, type: BadgePartialType.BADGE, badgeKey: BlindEye.key},
+        {key: Soother.key, type: BadgePartialType.BADGE, badgeKey: Soother.key}
     ]
 };

@@ -17,7 +17,7 @@ export const LongWalk: IBadgeData = {
 
 It is in the middle of the northern parking tunnel 73 yards south of the hospital.`,
     links: [
-        {title: "Long Walk Badge", href: "https://paragonwiki.com/wiki/Long_Walk_Badge"}
+        {title: "Long Walk Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Long_Walk_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "5"

@@ -14,7 +14,7 @@ export const Debilitated: IBadgeData = {
     ],
     acquisition: "Complete a level 16-20 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Debilitated Badge", href: "https://paragonwiki.com/wiki/Debilitated_Badge"}
+        {title: "Debilitated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Debilitated_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/debilitated.png"}]
 };

@@ -22,19 +22,19 @@ export const WalkedDownMemoryLane: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoAtlasPark.key}]`,
     links: [
-        {title: "Walked Down Memory Lane Badge", href: "https://paragonwiki.com/wiki/Walked_Down_Memory_Lane_Badge"}
+        {title: "Walked Down Memory Lane Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Walked_Down_Memory_Lane_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}
     ],
     partials: [
-            {key: Trustworthy.key, type: BadgePartialType.BADGE, badgeKey: Trustworthy.key},
-            {key: Knowledgeable.key, type: BadgePartialType.BADGE, badgeKey: Knowledgeable.key},
-            {key: Virtuous.key, type: BadgePartialType.BADGE, badgeKey: Virtuous.key},
-            {key: Rookie.key, type: BadgePartialType.BADGE, badgeKey: Rookie.key},
-            {key: Condemned.key, type: BadgePartialType.BADGE, badgeKey: Condemned.key},
-            {key: Resilient.key, type: BadgePartialType.BADGE, badgeKey: Resilient.key},
-            {key: OutOfHarmsWay.key, type: BadgePartialType.BADGE, badgeKey: OutOfHarmsWay.key},
-            {key: CityTraveler.key, type: BadgePartialType.BADGE, badgeKey: CityTraveler.key}
+        {key: Trustworthy.key, type: BadgePartialType.BADGE, badgeKey: Trustworthy.key},
+        {key: Knowledgeable.key, type: BadgePartialType.BADGE, badgeKey: Knowledgeable.key},
+        {key: Virtuous.key, type: BadgePartialType.BADGE, badgeKey: Virtuous.key},
+        {key: Rookie.key, type: BadgePartialType.BADGE, badgeKey: Rookie.key},
+        {key: Condemned.key, type: BadgePartialType.BADGE, badgeKey: Condemned.key},
+        {key: Resilient.key, type: BadgePartialType.BADGE, badgeKey: Resilient.key},
+        {key: OutOfHarmsWay.key, type: BadgePartialType.BADGE, badgeKey: OutOfHarmsWay.key},
+        {key: CityTraveler.key, type: BadgePartialType.BADGE, badgeKey: CityTraveler.key}
     ]
 };

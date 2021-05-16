@@ -9,7 +9,7 @@ export const Mesmerizer: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Sleep, Snare, Hold, Stun, Immobilize, and Fear."}],
     effect: "+1 to Recipe capacity",
     links: [
-        {title: "Mesmerizer Badge", href: "https://paragonwiki.com/wiki/Mesmerizer_Badge"}
+        {title: "Mesmerizer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mesmerizer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

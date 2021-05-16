@@ -15,8 +15,8 @@ export const WeaponInspector: IBadgeData = {
     badgeText: [{value: "Warburg is home to many a nefarious ploy. Recluse's VENOM rocket is one of the most blatant."}],
     notes: "The Weapon Inspector badge is located in [map:${Warburg.key}], in the center of the top of the western scaffolding surrounding the missile silo.",
     links: [
-        {title: "Weapon Inspector Badge", href: "https://paragonwiki.com/wiki/Weapon_Inspector_Badge"},
-        {title: "Weapon of Mass Destruction Badge", href: "https://paragonwiki.com/wiki/Weapon_of_Mass_Destruction_Badge"}
+        {title: "Weapon Inspector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Weapon_Inspector_Badge"},
+        {title: "Weapon of Mass Destruction Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Weapon_of_Mass_Destruction_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

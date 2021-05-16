@@ -8,7 +8,7 @@ export const HiredGun: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Recharge Rate and Interrupt Time."}],
     links: [
-        {title: "Hired Gun Badge", href: "https://paragonwiki.com/wiki/Hired_Gun_Badge"}
+        {title: "Hired Gun Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hired_Gun_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [

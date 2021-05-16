@@ -12,6 +12,6 @@ export const ItsyBitsy: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/arachnos.png"}],
     acquisition: "Defeat the Jade Spider in Trading Places (Hero version).",
     links: [
-        {title: "Itsy Bitsy Badge", href: "https://paragonwiki.com/wiki/Itsy_Bitsy_Badge"}
+        {title: "Itsy Bitsy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Itsy_Bitsy_Badge"}
     ],
 };

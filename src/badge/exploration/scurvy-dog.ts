@@ -17,7 +17,7 @@ export const ScurvyDog: IBadgeData = {
 The pub is approximately 190 yeard south and slightly east of the Dockside marker, and the badge marker is on the southwest side of the building,
  on top of a small landing supported by corrugated metal..`,
     links: [
-        {title: "Scurvy Dog Badge", href: "https://paragonwiki.com/wiki/Scurvy_Dog_Badge"}
+        {title: "Scurvy Dog Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scurvy_Dog_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "1"

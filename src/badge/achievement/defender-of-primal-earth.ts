@@ -13,7 +13,7 @@ export const DefenderOfPrimalEarth: IBadgeData = {
     ],
     acquisition: "Earn both the Master of Apex and Master of Tin Mage task force badges",
     links: [
-        {title: "Defender of Primal Earth Badge", href: "https://paragonwiki.com/wiki/Defender_of_Primal_Earth_Badge"}
+        {title: "Defender of Primal Earth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Defender_of_Primal_Earth_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/defender-of-primal-earth.png"}

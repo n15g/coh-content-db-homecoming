@@ -13,7 +13,7 @@ export const Speeder: IBadgeData = {
     ],
     acquisition: "Complete a ski run on the Advanced slope in under 50 seconds during a Winter Event",
     links: [
-        {title: "Speeder Badge", href: "https://paragonwiki.com/wiki/Speeder_Badge"}
+        {title: "Speeder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Speeder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ski-gold.png"}

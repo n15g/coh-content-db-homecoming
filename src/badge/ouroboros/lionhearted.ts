@@ -14,7 +14,7 @@ export const Lionhearted: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Lionhearted Badge", href: "https://paragonwiki.com/wiki/Lionhearted_Badge"}
+        {title: "Lionhearted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lionhearted_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/lionhearted.png"}]
 };

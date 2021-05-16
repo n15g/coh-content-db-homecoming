@@ -17,7 +17,7 @@ They challenge you to join them and dance among the volts that skitter across th
     }],
     notes: `230 yards SSW of the Walker Energy marker, in a square-shaped building just northeast of the reactor.`,
     links: [
-        {title: "High Voltage! Badge", href: "https://paragonwiki.com/wiki/High_Voltage!_Badge"}
+        {title: "High Voltage! Badge", href: "https://hcwiki.cityofheroes.dev/wiki/High_Voltage!_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

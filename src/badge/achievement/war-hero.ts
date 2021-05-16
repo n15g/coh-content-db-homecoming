@@ -9,12 +9,14 @@ export const WarHero: IBadgeData = {
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
-        {value: "You stood in the middle of a war between the Council and the 5th Column, and emerged the " +
-        "victor."}
+        {
+            value: "You stood in the middle of a war between the Council and the 5th Column, and emerged the " +
+                "victor."
+        }
     ],
     acquisition: "Complete the story arc from Laura Lockhart",
     links: [
-        {title: "War Hero Badge", href: "https://paragonwiki.com/wiki/War_Hero_Badge"}
+        {title: "War Hero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/War_Hero_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/war-hero.png"}

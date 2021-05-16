@@ -14,7 +14,7 @@ export const Scholastic: IBadgeData = {
         {value: `You have learned the history of Dr. Webb smashing the Dimensional Barrier.`}
     ],
     links: [
-        {title: "Scholastic Badge", href: "https://paragonwiki.com/wiki/Scholastic_Badge"}
+        {title: "Scholastic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scholastic_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

@@ -15,8 +15,8 @@ export const Reformed: IBadgeData = {
     ],
     acquisition: "Defeat 1000 Longbow",
     links: [
-        {title: "Reformed Badge", href: "https://paragonwiki.com/wiki/Reformed_Badge"},
-        {title: "Villain Badge", href: "https://paragonwiki.com/wiki/Villain_Badge"}
+        {title: "Reformed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Reformed_Badge"},
+        {title: "Villain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Villain_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/reformed.png"}

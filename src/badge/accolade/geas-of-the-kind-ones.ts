@@ -23,21 +23,21 @@ export const GeasOfTheKindOnes: IBadgeData = {
     ],
     notes: `Awards the Geas of the Kind Ones power`,
     links: [
-        {title: "Geas of the Kind Ones Badge", href: "https://paragonwiki.com/wiki/Geas_of_the_Kind_Ones_Badge"}
+        {title: "Geas of the Kind Ones Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Geas_of_the_Kind_Ones_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/geas-of-the-kind-ones.png"}
     ],
     effect: `Geas of the Kind Ones`,
     partials: [
-            {key: BaneOfDannan.key, type: BadgePartialType.BADGE, badgeKey: BaneOfDannan.key},
-            {key: Believer.key, type: BadgePartialType.BADGE, badgeKey: Believer.key},
-            {key: Cabalist.key, type: BadgePartialType.BADGE, badgeKey: Cabalist.key},
-            {key: CapBuster.key, type: BadgePartialType.BADGE, badgeKey: CapBuster.key},
-            {key: GiantKiller.key, type: BadgePartialType.BADGE, badgeKey: GiantKiller.key},
-            {key: Haunted.key, type: BadgePartialType.BADGE, badgeKey: Haunted.key},
-            {key: PumpkinKing.key, type: BadgePartialType.BADGE, badgeKey: PumpkinKing.key},
-            {key: PumpkinMaster.key, type: BadgePartialType.BADGE, badgeKey: PumpkinMaster.key},
-            {key: Spellbinding.key, type: BadgePartialType.BADGE, badgeKey: Spellbinding.key}
+        {key: BaneOfDannan.key, type: BadgePartialType.BADGE, badgeKey: BaneOfDannan.key},
+        {key: Believer.key, type: BadgePartialType.BADGE, badgeKey: Believer.key},
+        {key: Cabalist.key, type: BadgePartialType.BADGE, badgeKey: Cabalist.key},
+        {key: CapBuster.key, type: BadgePartialType.BADGE, badgeKey: CapBuster.key},
+        {key: GiantKiller.key, type: BadgePartialType.BADGE, badgeKey: GiantKiller.key},
+        {key: Haunted.key, type: BadgePartialType.BADGE, badgeKey: Haunted.key},
+        {key: PumpkinKing.key, type: BadgePartialType.BADGE, badgeKey: PumpkinKing.key},
+        {key: PumpkinMaster.key, type: BadgePartialType.BADGE, badgeKey: PumpkinMaster.key},
+        {key: Spellbinding.key, type: BadgePartialType.BADGE, badgeKey: Spellbinding.key}
     ]
 };

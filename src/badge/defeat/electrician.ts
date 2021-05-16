@@ -13,7 +13,7 @@ export const Electrician: IBadgeData = {
     ],
     acquisition: "Defeat 100 Gremlins",
     links: [
-        {title: "Electrician Badge", href: "https://paragonwiki.com/wiki/Electrician_Badge"}
+        {title: "Electrician Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Electrician_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/electrician.png"}

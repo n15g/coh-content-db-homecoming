@@ -17,7 +17,7 @@ export const DimensionalSojourner: IBadgeData = {
     }],
     notes: "Located in [map:firebase-zulu] 179 yards NE of the Firebase Zulu marker, in the middle of the portals that provide transport to the other Shard zones.",
     links: [
-        {title: "Dimensional Sojourner Badge", href: "https://paragonwiki.com/wiki/Dimensional_Sojourner_Badge"}
+        {title: "Dimensional Sojourner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dimensional_Sojourner_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

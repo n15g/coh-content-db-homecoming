@@ -14,6 +14,6 @@ export const Pwnz: IBadgeData = {
     ],
     acquisition: "Complete the Retrieve Weapons From The Freakshow mission from Wilma Peterson, Andrew Fiore, Claire Childress, Hugh McDougal, Jake Kim, or Vic Garland",
     links: [
-        {title: "Pwnz Badge", href: "https://paragonwiki.com/wiki/Pwnz_Badge"}
+        {title: "Pwnz Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pwnz_Badge"}
     ]
 };

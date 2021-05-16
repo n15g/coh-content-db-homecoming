@@ -14,7 +14,7 @@ export const Spiritual: IBadgeData = {
     }],
     notes: "Located under the wall of trees, 300 yds NE from the Misty Wood waypoint. It is to the NE of the small round pond.",
     links: [
-        {title: "Spiritual Badge", href: "https://paragonwiki.com/wiki/Spiritual_Badge"}
+        {title: "Spiritual Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spiritual_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

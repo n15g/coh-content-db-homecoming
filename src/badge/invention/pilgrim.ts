@@ -8,7 +8,7 @@ export const Pilgrim: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Run Speed, Jump, Fly Speed, and Range."}],
     links: [
-        {title: "Pilgrim Badge", href: "https://paragonwiki.com/wiki/Pilgrim_Badge"}
+        {title: "Pilgrim Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pilgrim_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

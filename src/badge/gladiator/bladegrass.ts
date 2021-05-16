@@ -13,7 +13,7 @@ export const Bladegrass: IBadgeData = {
     ],
     acquisition: "Defeat 300 Devouring Earth tree-creatures (Devouring Earth)",
     links: [
-        {title: "Bladegrass Badge", href: "https://paragonwiki.com/wiki/Bladegrass_Badge"}
+        {title: "Bladegrass Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bladegrass_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

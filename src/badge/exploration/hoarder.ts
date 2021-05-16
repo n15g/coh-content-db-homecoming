@@ -15,7 +15,7 @@ export const Hoarder: IBadgeData = {
     }],
     notes: "Located in [map:underground-imperial] in a small room 225 yds. WNW of City Access B.",
     links: [
-        {title: "Hoarder Badge", href: "https://paragonwiki.com/wiki/Hoarder_Badge"}
+        {title: "Hoarder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hoarder_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

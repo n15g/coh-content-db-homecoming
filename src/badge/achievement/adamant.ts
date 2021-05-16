@@ -15,15 +15,17 @@ export const Adamant: IBadgeData = {
     badgeText: [
         {type: Alternate.H, value: "You have endured one million points of damage."},
         {type: Alternate.V, value: "Never let 'em see you bleed. That's a cool million points of damage."},
-        {type: Alternate.P, value: "One million damage? Nothing to you, it seems. Though you probably wouldn't want to take it in " +
-        "one blow..."}
+        {
+            type: Alternate.P, value: "One million damage? Nothing to you, it seems. Though you probably wouldn't want to take it in " +
+                "one blow..."
+        }
     ],
     acquisition: "Endure 1,000,000 points of damage",
     links: [
-        {title: "Adamant Badge", href: "https://paragonwiki.com/wiki/Adamant_Badge"},
-        {title: "Ironman Badge", href: "https://paragonwiki.com/wiki/Ironman_Badge"},
-        {title: "Ironwoman Badge", href: "https://paragonwiki.com/wiki/Ironwoman_Badge"},
-        {title: "Laughs it Off Badge", href: "https://paragonwiki.com/wiki/Laughs_it_Off_Badge"}
+        {title: "Adamant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Adamant_Badge"},
+        {title: "Ironman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ironman_Badge"},
+        {title: "Ironwoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ironwoman_Badge"},
+        {title: "Laughs it Off Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Laughs_it_Off_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

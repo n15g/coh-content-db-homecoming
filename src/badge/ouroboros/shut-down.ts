@@ -14,7 +14,7 @@ export const ShutDown: IBadgeData = {
     ],
     acquisition: "Complete a level 16-20 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Shut Down Badge", href: "https://paragonwiki.com/wiki/Shut_Down_Badge"}
+        {title: "Shut Down Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shut_Down_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/shut-down.png"}]
 };

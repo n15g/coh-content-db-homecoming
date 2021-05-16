@@ -19,8 +19,8 @@ export const GuardianAngel: IBadgeData = {
     }],
     notes: "Located in the Williams Square neighborhood of [map:founders-falls], on the north side of the fountain in the main plaza.",
     links: [
-        {title: "Guardian Angel Badge", href: "https://paragonwiki.com/wiki/Guardian_Angel_Badge"},
-        {title: "Barely Contained Badge", href: "https://paragonwiki.com/wiki/Barely_Contained_Badge"}
+        {title: "Guardian Angel Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Guardian_Angel_Badge"},
+        {title: "Barely Contained Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Barely_Contained_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

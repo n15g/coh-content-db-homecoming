@@ -15,7 +15,7 @@ export const EyesOfNemesis: IBadgeData = {
     }],
     notes: "Located in [map:creys-folly] 105 yards SW of the [map:brickstown] gate, on top of the ducting that runs between the holding tanks.",
     links: [
-        {title: "Eyes of Nemesis Badge", href: "https://paragonwiki.com/wiki/Eyes_of_Nemesis_Badge"}
+        {title: "Eyes of Nemesis Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eyes_of_Nemesis_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

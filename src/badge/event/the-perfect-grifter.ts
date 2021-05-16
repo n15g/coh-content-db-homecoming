@@ -21,7 +21,7 @@ export const ThePerfectGrifter: IBadgeData = {
         "## Phase 2\n" +
         "Navigate through all the options for any magazine.",
     links: [
-        {title: "The Perfect Grifter Badge", href: "https://paragonwiki.com/wiki/The_Perfect_Grifter_Badge"}
+        {title: "The Perfect Grifter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Perfect_Grifter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/the-perfect-grifter.png"}]
 };

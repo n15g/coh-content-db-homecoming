@@ -14,7 +14,7 @@ export const Ambitious: IBadgeData = {
     }],
     notes: "Located in [map:nova-praetoria] on top of Emperor Cole's tower in Magisterium.",
     links: [
-        {title: "Ambitious Badge", href: "https://paragonwiki.com/wiki/Ambitious_Badge"}
+        {title: "Ambitious Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ambitious_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

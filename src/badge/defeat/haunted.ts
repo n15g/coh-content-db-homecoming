@@ -13,7 +13,7 @@ export const Haunted: IBadgeData = {
     ],
     acquisition: "Defeat 333 Croatoan Ghosts",
     links: [
-        {title: "Haunted Badge", href: "https://paragonwiki.com/wiki/Haunted_Badge"}
+        {title: "Haunted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Haunted_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/haunted.png"}

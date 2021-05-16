@@ -14,8 +14,8 @@ export const ManInBlack: IBadgeData = {
     ],
     acquisition: "Defeat 200 Shivans",
     links: [
-        {title: "Man in Black Badge", href: "https://paragonwiki.com/wiki/Man_in_Black_Badge"},
-        {title: "Woman in Black Badge", href: "https://paragonwiki.com/wiki/Woman_in_Black_Badge"}
+        {title: "Man in Black Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Man_in_Black_Badge"},
+        {title: "Woman in Black Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Woman_in_Black_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/man-in-black.png"}

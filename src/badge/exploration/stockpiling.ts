@@ -15,7 +15,7 @@ export const Stockpiling: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] 217 yards NE of the Lambda Sector marker.",
     links: [
-        {title: "Stockpiling Badge", href: "https://paragonwiki.com/wiki/Stockpiling_Badge"}
+        {title: "Stockpiling Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stockpiling_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

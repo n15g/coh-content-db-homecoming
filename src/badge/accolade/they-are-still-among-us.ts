@@ -22,19 +22,19 @@ export const TheyAreStillAmongUs: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${RiktiWarZone.key}]`,
     links: [
-        {title: "They Are Still Among Us Badge", href: "https://paragonwiki.com/wiki/They_Are_Still_Among_Us_Badge"}
+        {title: "They Are Still Among Us Badge", href: "https://hcwiki.cityofheroes.dev/wiki/They_Are_Still_Among_Us_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-			{key: VanguardOperative.key, type: BadgePartialType.BADGE, badgeKey: VanguardOperative.key},
-			{key: Trespasser.key, type: BadgePartialType.BADGE, badgeKey: Trespasser.key},
-			{key: Lifesaver.key, type: BadgePartialType.BADGE, badgeKey: Lifesaver.key},
-			{key: BaseJumper.key, type: BadgePartialType.BADGE, badgeKey: BaseJumper.key},
-			{key: Homewrecker.key, type: BadgePartialType.BADGE, badgeKey: Homewrecker.key},
-			{key: Luscious.key, type: BadgePartialType.BADGE, badgeKey: Luscious.key},
-			{key: JunkyardDog.key, type: BadgePartialType.BADGE, badgeKey: JunkyardDog.key},
-			{key: Unabashed.key, type: BadgePartialType.BADGE, badgeKey: Unabashed.key},
+        {key: VanguardOperative.key, type: BadgePartialType.BADGE, badgeKey: VanguardOperative.key},
+        {key: Trespasser.key, type: BadgePartialType.BADGE, badgeKey: Trespasser.key},
+        {key: Lifesaver.key, type: BadgePartialType.BADGE, badgeKey: Lifesaver.key},
+        {key: BaseJumper.key, type: BadgePartialType.BADGE, badgeKey: BaseJumper.key},
+        {key: Homewrecker.key, type: BadgePartialType.BADGE, badgeKey: Homewrecker.key},
+        {key: Luscious.key, type: BadgePartialType.BADGE, badgeKey: Luscious.key},
+        {key: JunkyardDog.key, type: BadgePartialType.BADGE, badgeKey: JunkyardDog.key},
+        {key: Unabashed.key, type: BadgePartialType.BADGE, badgeKey: Unabashed.key},
     ]
 };

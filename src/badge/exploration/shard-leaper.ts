@@ -16,7 +16,7 @@ export const ShardLeaper: IBadgeData = {
     }],
     notes: "Located in [map:firebase-zulu] 423 yards NW of the Point Sierra marker, on the north side of the small island.",
     links: [
-        {title: "Shard Leaper Badge", href: "https://paragonwiki.com/wiki/Shard_Leaper_Badge"}
+        {title: "Shard Leaper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shard_Leaper_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

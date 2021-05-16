@@ -17,7 +17,7 @@ export const DarkOmen: IBadgeData = {
         "\n" +
         "Be Careful: Approaching this badge will bring you into close proximity of Devouring Earth Monsters.",
     links: [
-        {title: "Dark Omen Badge", href: "https://paragonwiki.com/wiki/Dark_Omen_Badge"}
+        {title: "Dark Omen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dark_Omen_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

@@ -14,7 +14,7 @@ export const DepthsOfTime: IBadgeData = {
     }],
     notes: "The Depths of Time Badge is located in Cimerora. The marker is by the fountain in the central square, just in front of Marcus Valerius.",
     links: [
-        {title: "Depths of Time Badge", href: "https://paragonwiki.com/wiki/Depths_of_Time_Badge"}
+        {title: "Depths of Time Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Depths_of_Time_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

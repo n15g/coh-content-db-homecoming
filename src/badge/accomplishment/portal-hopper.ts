@@ -13,7 +13,7 @@ export const PortalHopper: IBadgeData = {
     ],
     acquisition: "Complete the Attack Longbow portal base mission from Technician Naylor",
     links: [
-        {title: "Portal Hopper Badge", href: "https://paragonwiki.com/wiki/Portal_Hopper_Badge"}
+        {title: "Portal Hopper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Portal_Hopper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-7.png"}

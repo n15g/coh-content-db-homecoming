@@ -21,8 +21,8 @@ export const Paroled: IBadgeData = {
 
 The marker is 138 yards west of the Fortune's Wheel marker, at the base of a tree in the middle of a broken road leading out of the Black Mariah neighborhood.`,
     links: [
-        {title: "Paroled Badge", href: "https://paragonwiki.com/wiki/Paroled_Badge"},
-        {title: "Crimelord Badge", href: "https://paragonwiki.com/wiki/Crimelord_Badge"},
+        {title: "Paroled Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Paroled_Badge"},
+        {title: "Crimelord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crimelord_Badge"},
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "2"

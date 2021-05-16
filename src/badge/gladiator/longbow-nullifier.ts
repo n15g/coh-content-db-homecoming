@@ -13,7 +13,7 @@ export const LongbowNullifier: IBadgeData = {
     ],
     acquisition: "Earn the [badge:lanista] Badge (Longbow)",
     links: [
-        {title: "Longbow Nullifier Badge", href: "https://paragonwiki.com/wiki/Longbow_Nullifier_Badge"}
+        {title: "Longbow Nullifier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longbow_Nullifier_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

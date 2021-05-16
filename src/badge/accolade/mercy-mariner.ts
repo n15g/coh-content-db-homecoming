@@ -22,7 +22,7 @@ export const MercyMariner: IBadgeData = {
     ],
     notes: `Visit all exploration badges in ${mapReference(MercyIsland)}`,
     links: [
-        {title: "Mercy Mariner Badge", href: "https://paragonwiki.com/wiki/Mercy_Mariner_Badge"}
+        {title: "Mercy Mariner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mercy_Mariner_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}

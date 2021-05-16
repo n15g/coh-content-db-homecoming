@@ -17,7 +17,7 @@ export const UnwelcomeGuest: IBadgeData = {
 
 It is at the entrance of the Council base 270 yards east of the neighborhood marker.`,
     links: [
-        {title: "Unwelcome Guest Badge", href: "https://paragonwiki.com/wiki/Unwelcome_Guest_Badge"}
+        {title: "Unwelcome Guest Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unwelcome_Guest_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"

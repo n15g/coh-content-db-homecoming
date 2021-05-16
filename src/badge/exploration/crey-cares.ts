@@ -16,7 +16,7 @@ export const CreyCares: IBadgeData = {
     }],
     notes: "Located in [map:creys-folly] 160 yards WSW of the Paragon Water Works marker, on top of the ducts running between the cooling towers.",
     links: [
-        {title: "Crey Cares Badge", href: "https://paragonwiki.com/wiki/Crey_Cares_Badge"}
+        {title: "Crey Cares Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Cares_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

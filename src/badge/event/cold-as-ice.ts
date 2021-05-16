@@ -13,7 +13,7 @@ export const ColdAsIce: IBadgeData = {
     ],
     acquisition: "Complete the Defeat Lady Winter! mission from Father Time during the Winter event.",
     links: [
-        {title: "Cold as Ice Badge", href: "https://paragonwiki.com/wiki/Cold_as_Ice_Badge"}
+        {title: "Cold as Ice Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cold_as_Ice_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/cold-as-ice.png"}]
 };

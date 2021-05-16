@@ -13,7 +13,7 @@ export const MasterOfLordReclusesStrikeForce: IBadgeData = {
     ],
     acquisition: "Complete the Lord Recluse Strike Force with No Temporary Powers, and Zero Team Defeats",
     links: [
-        {title: "Master of Lord Recluse's Strike Force Badge", href: "https://paragonwiki.com/wiki/Master_of_Lord_Recluse%27s_Strike_Force_Badge"}
+        {title: "Master of Lord Recluse's Strike Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Lord_Recluse%27s_Strike_Force_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-lord-recluses-strike-force.png"}

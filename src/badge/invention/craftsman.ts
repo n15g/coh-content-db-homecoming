@@ -11,7 +11,7 @@ export const Craftsman: IBadgeData = {
     notes: "This includes anything craftable on Invention Worktables, Base Worktables, and Empowerment Stations (including Empowerment Buffs), as well as special crafting such as the" +
         " Vanguard Crafting Table and Candy Keeper.",
     links: [
-        {title: "Craftsman Badge", href: "https://paragonwiki.com/wiki/Craftsman_Badge"}
+        {title: "Craftsman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Craftsman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/craftsman.png"}]
 };

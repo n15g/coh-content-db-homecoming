@@ -18,7 +18,7 @@ But then you realize that this is merely another seduction perpetrated by Hamido
     }],
     notes: `Located in [map:${Eden.key}] 392 yards SSW of [map:${TheHive.key}] marker, at the base of a spire on a cliff in the southwest corner of the zone.`,
     links: [
-        {title: "Natural Selection Badge", href: "https://paragonwiki.com/wiki/Natural_Selection_Badge"}
+        {title: "Natural Selection Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Natural_Selection_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

@@ -22,19 +22,19 @@ export const StraightThroughStriga: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${StrigaIsle.key}]`,
     links: [
-        {title: "Straight Through Striga Badge", href: "https://paragonwiki.com/wiki/Straight_Through_Striga_Badge"}
+        {title: "Straight Through Striga Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Straight_Through_Striga_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
     ],
     partials: [
-            {key: SeaDog.key, type: BadgePartialType.BADGE, badgeKey: SeaDog.key},
-            {key: SuperSpy.key, type: BadgePartialType.BADGE, badgeKey: SuperSpy.key},
-            {key: TheUnnamed.key, type: BadgePartialType.BADGE, badgeKey: TheUnnamed.key},
-            {key: TheWolfsSnarl.key, type: BadgePartialType.BADGE, badgeKey: TheWolfsSnarl.key},
-            {key: TheWolfsMaw.key, type: BadgePartialType.BADGE, badgeKey: TheWolfsMaw.key},
-            {key: VampyriWatcher.key, type: BadgePartialType.BADGE, badgeKey: VampyriWatcher.key},
-            {key: Vulcanologist.key, type: BadgePartialType.BADGE, badgeKey: Vulcanologist.key},
-            {key: WordsOfTheWarrior.key, type: BadgePartialType.BADGE, badgeKey: WordsOfTheWarrior.key}
+        {key: SeaDog.key, type: BadgePartialType.BADGE, badgeKey: SeaDog.key},
+        {key: SuperSpy.key, type: BadgePartialType.BADGE, badgeKey: SuperSpy.key},
+        {key: TheUnnamed.key, type: BadgePartialType.BADGE, badgeKey: TheUnnamed.key},
+        {key: TheWolfsSnarl.key, type: BadgePartialType.BADGE, badgeKey: TheWolfsSnarl.key},
+        {key: TheWolfsMaw.key, type: BadgePartialType.BADGE, badgeKey: TheWolfsMaw.key},
+        {key: VampyriWatcher.key, type: BadgePartialType.BADGE, badgeKey: VampyriWatcher.key},
+        {key: Vulcanologist.key, type: BadgePartialType.BADGE, badgeKey: Vulcanologist.key},
+        {key: WordsOfTheWarrior.key, type: BadgePartialType.BADGE, badgeKey: WordsOfTheWarrior.key}
     ]
 };

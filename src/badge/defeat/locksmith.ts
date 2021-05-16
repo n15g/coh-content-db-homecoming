@@ -15,8 +15,8 @@ export const Locksmith: IBadgeData = {
     ],
     acquisition: "Destroy 10 Vault Doors in Mayhem Missions",
     links: [
-        {title: "Locksmith Badge", href: "https://paragonwiki.com/wiki/Locksmith_Badge"},
-        {title: "Safecracker Badge", href: "https://paragonwiki.com/wiki/Safecracker_Badge"}
+        {title: "Locksmith Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Locksmith_Badge"},
+        {title: "Safecracker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Safecracker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/locksmith.png"}

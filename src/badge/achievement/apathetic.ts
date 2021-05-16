@@ -12,6 +12,6 @@ export const Apathetic: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-insp.png"}],
     acquisition: "Reject 500 inspiration drops.",
     links: [
-        {title: "Apathetic Badge", href: "https://paragonwiki.com/wiki/Apathetic_Badge"}
+        {title: "Apathetic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Apathetic_Badge"}
     ],
 };

@@ -14,6 +14,6 @@ export const Unconcerned: IBadgeData = {
     ],
     acquisition: "Reject 100 inspiration drops.",
     links: [
-        {title: "Unconcerned Badge", href: "https://paragonwiki.com/wiki/Unconcerned_Badge"}
+        {title: "Unconcerned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unconcerned_Badge"}
     ],
 };

@@ -14,7 +14,7 @@ export const Audacious: IBadgeData = {
     ],
     acquisition: "Complete a level 1-15 Flashback story arc with enemies buffed.",
     links: [
-        {title: "Audacious Badge", href: "https://paragonwiki.com/wiki/Audacious_Badge"}
+        {title: "Audacious Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Audacious_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/audacious.png"}]
 };

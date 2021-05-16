@@ -16,7 +16,7 @@ export const SewerDweller: IBadgeData = {
 
 It is on top of a sewer pipe located 216 yards northeast of The Gutter marker.`,
     links: [
-        {title: "Sewer Dweller Badge", href: "https://paragonwiki.com/wiki/Sewer_Dweller_Badge"}
+        {title: "Sewer Dweller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sewer_Dweller_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "2"

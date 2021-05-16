@@ -8,7 +8,7 @@ export const LtColonel: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Accuracy and To Hit Buff."}],
     links: [
-        {title: "Lt. Colonel Badge", href: "https://paragonwiki.com/wiki/Lt._Colonel_Badge"}
+        {title: "Lt. Colonel Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lt._Colonel_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [

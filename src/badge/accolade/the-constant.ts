@@ -17,7 +17,7 @@ export const TheConstant: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${AtlasPark.key}] and [map:${EchoAtlasPark.key}]`,
     links: [
-        {title: "The Constant Badge", href: "https://paragonwiki.com/wiki/The_Constant_Badge"}
+        {title: "The Constant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Constant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/the-constant.png"}

@@ -15,7 +15,7 @@ But a new law rules here, one with rules as ancient as the planet's core, and in
     }],
     notes: `Located in [map:${Eden.key}] 200 yards south of The Serpentine marker, in the grass in front of a building in a small clearing in the trees.`,
     links: [
-        {title: "Natural Law Badge", href: "https://paragonwiki.com/wiki/Natural_Law_Badge"}
+        {title: "Natural Law Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Natural_Law_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

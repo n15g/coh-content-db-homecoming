@@ -15,8 +15,8 @@ export const Tradesman: IBadgeData = {
     ],
     acquisition: "100 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Tradesman Badge", href: "https://paragonwiki.com/wiki/Tradesman_Badge"},
-        {title: "Tradeswoman Badge", href: "https://paragonwiki.com/wiki/Tradeswoman_Badge"}
+        {title: "Tradesman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tradesman_Badge"},
+        {title: "Tradeswoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tradeswoman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/tradesman.png"}]
 };

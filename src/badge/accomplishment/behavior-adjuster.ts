@@ -13,7 +13,7 @@ export const BehaviorAdjuster: IBadgeData = {
     ],
     acquisition: "Complete the Behavioral Adjustment Facility Incarnate Trial",
     links: [
-        {title: "Behavior Adjuster Badge", href: "https://paragonwiki.com/wiki/Behavior_Adjuster_Badge"}
+        {title: "Behavior Adjuster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Behavior_Adjuster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/behavior-adjuster.png"}

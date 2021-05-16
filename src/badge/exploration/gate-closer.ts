@@ -22,13 +22,13 @@ export const GateCloser: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Gate Closer Badge", href: "https://paragonwiki.com/wiki/Gate_Closer_Badge"},
-        {title: "Gate Crasher Badge", href: "https://paragonwiki.com/wiki/Gate_Crasher_Badge"},
+        {title: "Gate Closer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gate_Closer_Badge"},
+        {title: "Gate Crasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gate_Crasher_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],
     icons: [
-		{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
-	],
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}
+    ],
     vidiotMapKey: "1"
 };

@@ -22,19 +22,19 @@ export const JumpedTheShark: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SharkheadIsle.key}]`,
     links: [
-        {title: "Jumped the Shark Badge", href: "https://paragonwiki.com/wiki/Jumped_the_Shark_Badge"}
+        {title: "Jumped the Shark Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jumped_the_Shark_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}
     ],
     partials: [
-            {key: RazorToothed.key, type: BadgePartialType.BADGE, badgeKey: RazorToothed.key},
-            {key: ForgedByHellfire.key, type: BadgePartialType.BADGE, badgeKey: ForgedByHellfire.key},
-            {key: FreakOfNature.key, type: BadgePartialType.BADGE, badgeKey: FreakOfNature.key},
-            {key: PitViper.key, type: BadgePartialType.BADGE, badgeKey: PitViper.key},
-            {key: SkyChaser.key, type: BadgePartialType.BADGE, badgeKey: SkyChaser.key},
-            {key: UnwelcomeGuest.key, type: BadgePartialType.BADGE, badgeKey: UnwelcomeGuest.key},
-            {key: SkyTrader.key, type: BadgePartialType.BADGE, badgeKey: SkyTrader.key},
-            {key: CarpingTheDiem.key, type: BadgePartialType.BADGE, badgeKey: CarpingTheDiem.key}
+        {key: RazorToothed.key, type: BadgePartialType.BADGE, badgeKey: RazorToothed.key},
+        {key: ForgedByHellfire.key, type: BadgePartialType.BADGE, badgeKey: ForgedByHellfire.key},
+        {key: FreakOfNature.key, type: BadgePartialType.BADGE, badgeKey: FreakOfNature.key},
+        {key: PitViper.key, type: BadgePartialType.BADGE, badgeKey: PitViper.key},
+        {key: SkyChaser.key, type: BadgePartialType.BADGE, badgeKey: SkyChaser.key},
+        {key: UnwelcomeGuest.key, type: BadgePartialType.BADGE, badgeKey: UnwelcomeGuest.key},
+        {key: SkyTrader.key, type: BadgePartialType.BADGE, badgeKey: SkyTrader.key},
+        {key: CarpingTheDiem.key, type: BadgePartialType.BADGE, badgeKey: CarpingTheDiem.key}
     ]
 };

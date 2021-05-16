@@ -13,7 +13,7 @@ export const Celebrant: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Celebrant Badge", href: "https://paragonwiki.com/wiki/Celebrant_Badge"}
+        {title: "Celebrant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Celebrant_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/celebrant.png"}]
 };

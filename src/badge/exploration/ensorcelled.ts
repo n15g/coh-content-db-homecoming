@@ -14,7 +14,7 @@ export const Ensorcelled: IBadgeData = {
     }],
     notes: "Located on a low branch of the large leafless tree 360 yards to the west of War Witch and 76 yards north of the Sunset Ridge marker.",
     links: [
-        {title: "Ensorcelled Badge", href: "https://paragonwiki.com/wiki/Ensorcelled_Badge"}
+        {title: "Ensorcelled Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ensorcelled_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

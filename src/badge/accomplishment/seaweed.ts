@@ -13,7 +13,7 @@ export const Seaweed: IBadgeData = {
     ],
     acquisition: "Complete the Take Down Sea Witch mission from the Lorenz Ansaldo",
     links: [
-        {title: "Seaweed Badge", href: "https://paragonwiki.com/wiki/Seaweed_Badge"}
+        {title: "Seaweed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Seaweed_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-3.png"}

@@ -13,14 +13,16 @@ export const Pathfinder: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: "Your eye for exploration and achievement is recognized. You have earned 100 badges."},
-        {type: Alternate.P, value: "The secrets of all dimensions lie before you. You realize 100 badges is but a step in the " +
-        "right direction."}
+        {
+            type: Alternate.P, value: "The secrets of all dimensions lie before you. You realize 100 badges is but a step in the " +
+                "right direction."
+        }
     ],
     acquisition: "Earn 100 badges",
     links: [
-        {title: "Pathfinder Badge", href: "https://paragonwiki.com/wiki/Pathfinder_Badge"},
-        {title: "Knows He Knows Not Badge", href: "https://paragonwiki.com/wiki/Knows_He_Knows_Not_Badge"},
-        {title: "Knows She Knows Not Badge", href: "https://paragonwiki.com/wiki/Knows_She_Knows_Not_Badge"}
+        {title: "Pathfinder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pathfinder_Badge"},
+        {title: "Knows He Knows Not Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_He_Knows_Not_Badge"},
+        {title: "Knows She Knows Not Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_She_Knows_Not_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/pathfinder-h.png"},

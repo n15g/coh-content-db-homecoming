@@ -13,7 +13,7 @@ export const Devilfish: IBadgeData = {
     ],
     acquisition: "Defeat Lusca, a monster that spawns in Independence Port",
     links: [
-        {title: "Devilfish Badge", href: "https://paragonwiki.com/wiki/Devilfish_Badge"}
+        {title: "Devilfish Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Devilfish_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/devilfish.png"}

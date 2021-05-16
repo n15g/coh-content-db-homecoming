@@ -15,8 +15,8 @@ export const AntiVenom: IBadgeData = {
     ],
     notes: `Complete Ghost Widow's patron story arc`,
     links: [
-        {title: "Anti-Venom Badge", href: "https://paragonwiki.com/wiki/Anti-Venom_Badge"},
-        {title: "Spider's Kiss Badge", href: "https://paragonwiki.com/wiki/Spider%27s_Kiss_Badge"}
+        {title: "Anti-Venom Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anti-Venom_Badge"},
+        {title: "Spider's Kiss Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spider%27s_Kiss_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-venom.png"}

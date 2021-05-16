@@ -15,7 +15,7 @@ export const Expert: IBadgeData = {
         {value: `You have learned the history of the Might for Right Act.`}
     ],
     links: [
-        {title: "Expert Badge", href: "https://paragonwiki.com/wiki/Expert_Badge"}
+        {title: "Expert Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Expert_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

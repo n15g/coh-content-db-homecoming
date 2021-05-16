@@ -17,14 +17,14 @@ export const RapidResponseMember: IBadgeData = {
     ],
     notes: `Earn the [badge:monitor-duty] and [badge:patroller] Day Jobs`,
     links: [
-        {title: "Rapid Response Member Badge", href: "https://paragonwiki.com/wiki/Rapid_Response_Member_Badge"},
-        {title: "Trouble Maker Badge", href: "https://paragonwiki.com/wiki/Trouble_Maker_Badge"}
+        {title: "Rapid Response Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rapid_Response_Member_Badge"},
+        {title: "Trouble Maker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trouble_Maker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/rapid-response-member.png"}
     ],
     partials: [
-            {key: Patroller.key, type: BadgePartialType.BADGE, badgeKey: Patroller.key},
-            {key: MonitorDuty.key, type: BadgePartialType.BADGE, badgeKey: MonitorDuty.key}
+        {key: Patroller.key, type: BadgePartialType.BADGE, badgeKey: Patroller.key},
+        {key: MonitorDuty.key, type: BadgePartialType.BADGE, badgeKey: MonitorDuty.key}
     ]
 };

@@ -18,7 +18,7 @@ export const CircleSeeker: IBadgeData = {
         "\n" +
         "It is on top of the northernmost Circle of Thorns structure, 260 yards north of the neighborhood marker.",
     links: [
-        {title: "Circle Seeker Badge", href: "https://paragonwiki.com/wiki/Circle_Seeker_Badge"}
+        {title: "Circle Seeker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Circle_Seeker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

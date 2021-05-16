@@ -16,7 +16,7 @@ export const Solace: IBadgeData = {
         " the small space between the store wall and the wall with the road on top. Follow the wall on your left along the border of the Astral District until you see a red truck." +
         "\n\nThe badge marker is behind and just to the right of the truck, 116 yards due west of the Freedom Corp Basic Training store.",
     links: [
-        {title: "Solace Badge", href: "https://paragonwiki.com/wiki/Solace_Badge"}
+        {title: "Solace Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Solace_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

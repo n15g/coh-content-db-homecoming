@@ -15,8 +15,8 @@ export const Clubber: IBadgeData = {
     acquisition: "Log out inside Pocket D for 100 hours.",
     effect: "Day Job: Out of combat Regeneration bonus",
     links: [
-        {title: "Clubber Badge", href: "https://paragonwiki.com/wiki/Clubber_Badge"},
-        {title: "Day Jobs", href: "https://paragonwiki.com/wiki/Day_Jobs"}
+        {title: "Clubber Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Clubber_Badge"},
+        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/clubber.png"}]
 };

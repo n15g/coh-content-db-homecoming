@@ -13,7 +13,7 @@ export const Starstruck: IBadgeData = {
         {value: `Seeing the statues of the rulers of Praetoria is awe-inspiring, truly a must for any loyal citizen.`}
     ],
     links: [
-        {title: "Starstruck Badge", href: "https://paragonwiki.com/wiki/Starstruck_Badge"}
+        {title: "Starstruck Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Starstruck_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png"}

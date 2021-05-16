@@ -14,7 +14,7 @@ export const Reckless: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Reckless Badge", href: "https://paragonwiki.com/wiki/Reckless_Badge"}
+        {title: "Reckless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Reckless_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/reckless.png"}]
 };

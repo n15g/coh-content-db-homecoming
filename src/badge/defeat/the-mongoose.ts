@@ -13,7 +13,7 @@ export const TheMongoose: IBadgeData = {
     ],
     acquisition: "Defeat 50 Snakes",
     links: [
-        {title: "The Mongoose Badge", href: "https://paragonwiki.com/wiki/The_Mongoose_Badge"}
+        {title: "The Mongoose Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Mongoose_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/the-mongoose.png"}

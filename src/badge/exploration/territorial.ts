@@ -16,7 +16,7 @@ export const Territorial: IBadgeData = {
         "\n" +
         "To find it, enter the tree maze from the east side almost straight west of the Atlas Park entrance.",
     links: [
-        {title: "Territorial Badge", href: "https://paragonwiki.com/wiki/Territorial_Badge"}
+        {title: "Territorial Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Territorial_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

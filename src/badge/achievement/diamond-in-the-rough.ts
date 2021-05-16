@@ -14,6 +14,6 @@ export const DiamondInTheRough: IBadgeData = {
     ],
     acquisition: "Complete the story arc Gone in a Flash from Bobby Curtin (Level 25-29, Arc 26.02 in Ouro, Rogue)",
     links: [
-        {title: "Diamond in the Rough Badge", href: "https://paragonwiki.com/wiki/Diamond_in_the_Rough_Badge"}
+        {title: "Diamond in the Rough Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Diamond_in_the_Rough_Badge"}
     ]
 };

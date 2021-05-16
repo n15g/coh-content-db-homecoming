@@ -16,7 +16,7 @@ The Talons must be stopped, they must be punished for their actions, and you sha
     }],
     notes: `Located in [map:${FirstWard.key}] in the Forbidden Crags neighborhood, 149 yards southwest of the map marker atop a large hill.`,
     links: [
-        {title: "Vengeance Seeker Badge", href: "https://paragonwiki.com/wiki/Vengeance_Seeker_Badge"}
+        {title: "Vengeance Seeker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vengeance_Seeker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

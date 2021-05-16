@@ -17,7 +17,7 @@ export const EdgeOfChaos: IBadgeData = {
         "\n" +
         "It is just before you reach the elevator that takes you to the portal to [map:recluses-victory]",
     links: [
-        {title: "Edge of Chaos Badge", href: "https://paragonwiki.com/wiki/Edge_of_Chaos_Badge"}
+        {title: "Edge of Chaos Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Edge_of_Chaos_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

@@ -9,7 +9,7 @@ export const LordOfWar: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Damage and Knockback."}],
     effect: "+1 to Recipe capacity",
     links: [
-        {title: "Lord of War Badge", href: "https://paragonwiki.com/wiki/Lord_of_War_Badge"}
+        {title: "Lord of War Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lord_of_War_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

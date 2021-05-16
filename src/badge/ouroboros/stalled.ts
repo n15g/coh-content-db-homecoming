@@ -14,7 +14,7 @@ export const Stalled: IBadgeData = {
     ],
     acquisition: "Complete a level 36-40 Flashback story arc using no travel powers.",
     links: [
-        {title: "Stalled Badge", href: "https://paragonwiki.com/wiki/Stalled_Badge"}
+        {title: "Stalled Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stalled_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/stalled.png"}]
 };
