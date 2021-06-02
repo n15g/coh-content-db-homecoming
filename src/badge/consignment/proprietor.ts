@@ -1,11 +1,11 @@
 import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
-export const Shopkeeper: IBadgeData = {
+export const Proprietor: IBadgeData = {
     type: BadgeType.CONSIGNMENT,
-    key: "shopkeeper",
+    key: "proprietor",
     setTitleId: 820,
     names: [
-        {value: "Shopkeeper"},
+        {value: "Proprietor"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
@@ -14,7 +14,7 @@ export const Shopkeeper: IBadgeData = {
     ],
     acquisition: "6000 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Shopkeeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shopkeeper_Badge"}
+        {title: "Proprietor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Proprietor_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/shopkeeper.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/proprietor.png"}]
 };
