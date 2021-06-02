@@ -14,7 +14,7 @@ import {Dealer} from "./dealer";
 import {Auctioneer} from "./auctioneer";
 import {Businessman} from "./businessman";
 import {Marketer} from "./marketer";
-import {Shopkeeper} from "./shopkeeper";
+import {Proprietor} from "./proprietor";
 import {PowerSeller} from "./power-seller";
 
 
@@ -34,6 +34,6 @@ export const ConsignmentBadges: IBadgeData[] = [
     Auctioneer,
     Businessman,
     Marketer,
-    Shopkeeper,
+    Proprietor,
     PowerSeller
 ];
