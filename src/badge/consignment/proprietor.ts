@@ -2,7 +2,7 @@ import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Proprietor: IBadgeData = {
     type: BadgeType.CONSIGNMENT,
-    key: "proprietor",
+    key: "shopkeeper",
     setTitleId: 820,
     names: [
         {value: "Proprietor"},
