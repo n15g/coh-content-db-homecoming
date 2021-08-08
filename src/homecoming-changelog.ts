@@ -172,5 +172,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/113 - Switch links from ParagonWiki to Homecoming Wiki.\n",
         "1.3.12":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/143 - Rename [Shopkeeper] tp [Proprietor].\n",
+        "1.3.13":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/144 - Move On the Shoulders of Giants before PI badges.\n",
     };
 }
