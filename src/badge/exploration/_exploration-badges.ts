@@ -590,6 +590,9 @@ export const ExplorationBadges: IBadgeData[] = [
     //Brickstown
     FlyingShark, Fugitive, ForwardThinker, SecretPath, SixthPassenger, Unsubtle,
 
+    //Kallisti Wharf
+    OnTheShouldersOfGiants,
+
     //Peregrine Island
     PortalParter, UseMightForRight, CauseForConcern, GeneticallyAltered, RiktiGoneWild, ShadesOfArachnos, AllSeeing, DarkOmen,
 
@@ -762,8 +765,5 @@ export const ExplorationBadges: IBadgeData[] = [
     CommunicationsSpecialist, Shielded,
 
     //Croatoa Pt2
-    GrimWanderer, Spiritual, Ensorcelled,
-
-    //Kallisti Warf
-    OnTheShouldersOfGiants
+    GrimWanderer, Spiritual, Ensorcelled
 ];
