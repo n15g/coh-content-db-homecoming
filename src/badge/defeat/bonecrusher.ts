@@ -11,7 +11,7 @@ export const Bonecrusher: IBadgeData = {
     badgeText: [
         {value: "You're all about knocking heads and beating Skulls."}
     ],
-    acquisition: "Defeat 50 Skulls Bone Daddies",
+    acquisition: "Defeat 50 Skulls Bone Daddies, Death Dolls, or Death Walkers",
     links: [
         {title: "Bonecrusher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bonecrusher_Badge"}
     ],
