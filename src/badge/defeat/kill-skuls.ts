@@ -11,7 +11,7 @@ export const KillSkuls: IBadgeData = {
     badgeText: [
         {value: "Go. Hunt. Kill Skuls."}
     ],
-    acquisition: "Defeat 500 Skulls of any type",
+    acquisition: "Defeat 500 Skulls minions, lieutenants, or bosses (excluding some female Skulls)",
     links: [
         {title: "Kill Skuls Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Kill_Skuls_Badge"}
     ],
