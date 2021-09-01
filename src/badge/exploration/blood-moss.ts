@@ -22,6 +22,6 @@ export const BloodMoss: IBadgeData = {
     links: [
         {title: "Blood Moss Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blood_Moss_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"
 };
