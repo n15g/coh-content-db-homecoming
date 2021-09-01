@@ -18,6 +18,6 @@ export const EndOfTheLine: IBadgeData = {
     links: [
         {title: "End of the Line Badge", href: "https://hcwiki.cityofheroes.dev/wiki/End_of_the_Line_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"
 };
