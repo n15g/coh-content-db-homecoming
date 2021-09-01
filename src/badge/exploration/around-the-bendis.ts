@@ -16,6 +16,6 @@ export const AroundTheBendis: IBadgeData = {
     links: [
         {title: "Around the Bendis Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Around_the_Bendis_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"
 };
