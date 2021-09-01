@@ -18,6 +18,6 @@ export const OpheliasFinalScene: IBadgeData = {
     links: [
         {title: "Ophelia's Final Scene Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ophelia%27s_Final_Scene_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"
 };
