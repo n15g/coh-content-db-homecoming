@@ -18,6 +18,6 @@ export const DestinedForValhalla: IBadgeData = {
     links: [
         {title: "Destined for Valhalla Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destined_for_Valhalla_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"
 };
