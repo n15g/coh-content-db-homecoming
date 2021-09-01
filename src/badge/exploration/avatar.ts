@@ -16,6 +16,6 @@ export const Avatar: IBadgeData = {
     links: [
         {title: "Avatar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Avatar_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"
 };
