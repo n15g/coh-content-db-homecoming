@@ -18,6 +18,6 @@ export const NebulasMemory: IBadgeData = {
     links: [
         {title: "Nebula's Memory Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nebula%27s_Memory_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"
 };

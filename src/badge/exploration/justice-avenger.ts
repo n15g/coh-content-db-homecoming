@@ -23,6 +23,6 @@ export const JusticeAvenger: IBadgeData = {
         {title: "Justice Avenger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Justice_Avenger_Badge"},
         {title: "Social Climber Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Social_Climber_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"
 };
