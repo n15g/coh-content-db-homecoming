@@ -175,6 +175,8 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.3.13":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/144 - Move [On the Shoulders of Giants] before PI badges.\n",
         "1.3.14":
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/145 - Specify which Skulls count for [Bonecrusher], [Kill Skuls].\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/145 - Specify which Skulls count for [Bonecrusher], [Kill Skuls].\n",
+        "1.3.15":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/146 - Category sort and hazard zone badge icons.\n"
     };
 }
