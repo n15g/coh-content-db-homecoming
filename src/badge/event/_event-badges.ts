@@ -60,6 +60,7 @@ import {Trusting} from "./trusting";
 import {IsThereADoctorInTheHouse} from "./is-there-a-doctor-in-the-house";
 import {TrickedOut} from "./tricked-out";
 import {ItsAlive} from "./its-alive";
+import {SinisterSummoner} from "./sinister-summoner";
 import {FrozenFury} from "./frozen-fury";
 import {ColdAsIce} from "./cold-as-ice";
 import {ColdWarrior} from "./cold-warrior";
@@ -156,6 +157,7 @@ export const EventBadges: IBadgeData[] = [
     IsThereADoctorInTheHouse,
     TrickedOut,
     ItsAlive,
+    SinisterSummoner,
     DoubleFeature,
     HellenicBeauty,
     MansBestFriend,
