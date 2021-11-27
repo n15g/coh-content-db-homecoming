@@ -459,6 +459,12 @@ import {OutOfHarmsWay} from "./out-of-harms-way";
 import {CityTraveler} from "./city-traveler";
 import {TriedAndTrue} from "./tried-and-true";
 import {OnTheShouldersOfGiants} from "./on-the-shoulders-of-giants";
+import {DarknessUnleashed} from "./darkness-unleashed";
+import {HumanNature} from "./human-nature";
+import {OutOfBounds} from "./out-of-bounds";
+import {Sanctuary} from "./sanctuary";
+import {VisionOfAmbition} from "./vision-of-ambition";
+import {VoiceOfTheOracle} from "./voice-of-the-oracle";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -532,6 +538,12 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Cimerora Pt 1
     DepthsOfTime, BattleHardened,
+    DarknessUnleashed,
+    HumanNature,
+    OutOfBounds,
+    Sanctuary,
+    VisionOfAmbition,
+    VoiceOfTheOracle,
 
     //Midnighter Club
     MidnighterClubMember,
