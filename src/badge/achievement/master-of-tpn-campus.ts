@@ -5,7 +5,7 @@ export const MasterofTPNCampus: IBadgeData = {
     key: "master-of-tpn-campus",
     setTitleId: 2077,
     names: [
-        {value: "Master of TPN Campus"}
+        {value: "Master of the TPN Campus"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
