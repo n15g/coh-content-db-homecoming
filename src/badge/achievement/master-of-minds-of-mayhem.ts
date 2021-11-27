@@ -5,7 +5,7 @@ export const MasterOfMindsOfMayhem: IBadgeData = {
     key: "master-of-minds-of-mayhem",
     setTitleId: 2083,
     names: [
-        {value: "Master of Minds of Mayhem"}
+        {value: "Master of the Minds of Mayhem"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
