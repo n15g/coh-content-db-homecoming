@@ -5,7 +5,7 @@ export const MasterOfKeyesIslandReactor: IBadgeData = {
     key: "master-of-keyes-island-reactor",
     setTitleId: 1994,
     names: [
-        {value: "Master of Keyes Island Reactor"}
+        {value: "Master of the Keyes Island Reactor"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
