@@ -179,6 +179,8 @@ export class HomecomingChangelog implements IServerGroupData {
         "1.3.15":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/146 - Category sort and hazard zone badge icons.\n",
         "1.3.16":
-            "* https://github.com/n15g/coh-content-db-homecoming/pull/147 - Added [Sinister Summoner] badge.\n"
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/147 - Added [Sinister Summoner] badge.\n",
+        "1.3.17":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/148 - Updates for issue 27 page 3.\n"
     };
 }

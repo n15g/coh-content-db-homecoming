@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const MasterOfKeyesIslandReactor: IBadgeData = {
+export const MasterOfTheKeyesIslandReactor: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-keyes-island-reactor",
     setTitleId: 1994,
@@ -16,6 +16,6 @@ export const MasterOfKeyesIslandReactor: IBadgeData = {
         {title: "Master of Keyes Island Reactor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Keyes_Island_Reactor_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-keyes-island-reactor.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-keyes-island-reactor.png"}
     ],
 };

@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const MasterofTPNCampus: IBadgeData = {
+export const MasterOfTheTpnCampus: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-tpn-campus",
     setTitleId: 2077,
@@ -16,6 +16,6 @@ export const MasterofTPNCampus: IBadgeData = {
         {title: "Master of TPN Campus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_TPN_Campus_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-tpn-campus.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-tpn-campus.png"}
     ],
 };

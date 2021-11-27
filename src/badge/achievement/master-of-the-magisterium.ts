@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const MasterOfMagisterium: IBadgeData = {
+export const MasterOfTheMagisterium: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-magisterium",
     setTitleId: 2225,
@@ -16,6 +16,6 @@ export const MasterOfMagisterium: IBadgeData = {
         {title: "Master of Magisterium Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Magisterium_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-magisterium.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-magisterium.png"}
     ],
 };

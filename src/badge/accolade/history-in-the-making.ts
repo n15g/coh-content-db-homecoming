@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, Alternate, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, Alternate, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
 import {Cimerora} from "../../map/cimerora";
 import {DepthsOfTime} from "../exploration/depths-of-time";
 import {BattleHardened} from "../exploration/battle-hardened";
@@ -28,7 +28,7 @@ export const HistoryInTheMaking: IBadgeData = {
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"},
         {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}
     ],
-	partials: [
+    partials: [
         {key: DepthsOfTime.key, type: BadgePartialType.BADGE, badgeKey: DepthsOfTime.key},
         {key: BattleHardened.key, type: BadgePartialType.BADGE, badgeKey: BattleHardened.key},
         {key: Sanctuary.key, type: BadgePartialType.BADGE, badgeKey: Sanctuary.key},

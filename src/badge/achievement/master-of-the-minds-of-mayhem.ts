@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const MasterOfMindsOfMayhem: IBadgeData = {
+export const MasterOfTheMindsOfMayhem: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-minds-of-mayhem",
     setTitleId: 2083,
@@ -16,6 +16,6 @@ export const MasterOfMindsOfMayhem: IBadgeData = {
         {title: "Master of Minds of Mayhem Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Minds_of_Mayhem_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-minds-of-mayhem.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-minds-of-mayhem.png"}
     ],
 };

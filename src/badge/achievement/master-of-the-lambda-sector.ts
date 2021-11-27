@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const MasterOfLambdaSector: IBadgeData = {
+export const MasterOfTheLambdaSector: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
     key: "master-of-lambda-sector",
     setTitleId: 1988,
@@ -16,6 +16,6 @@ export const MasterOfLambdaSector: IBadgeData = {
         {title: "Master of Lambda Sector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Lambda_Sector_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-lambda-sector.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-lambda-sector.png"}
     ],
 };

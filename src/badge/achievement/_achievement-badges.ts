@@ -102,12 +102,12 @@ import {LovesAChallenge} from "./loves-a-challenge";
 import {Marauder} from "./marauder";
 import {MasterOfApexsTaskForce} from "./master-of-apexs-task-force";
 import {MasterOfDilemmaDiabolique} from "./master-of-dilemma-diabolique";
-import {MasterOfKeyesIslandReactor} from "./master-of-keyes-island-reactor";
+import {MasterOfTheKeyesIslandReactor} from "./master-of-the-keyes-island-reactor";
 import {MasterOfLadyGreysTaskForce} from "./master-of-lady-greys-task-force";
-import {MasterOfLambdaSector} from "./master-of-lambda-sector";
+import {MasterOfTheLambdaSector} from "./master-of-the-lambda-sector";
 import {MasterOfLordReclusesStrikeForce} from "./master-of-lord-recluses-strike-force";
-import {MasterOfMagisterium} from "./master-of-magisterium";
-import {MasterOfMindsOfMayhem} from "./master-of-minds-of-mayhem";
+import {MasterOfTheMagisterium} from "./master-of-the-magisterium";
+import {MasterOfTheMindsOfMayhem} from "./master-of-the-minds-of-mayhem";
 import {MasterOfMsLibertysTaskForce} from "./master-of-ms-libertys-task-force";
 import {MasterOfThe5thColumnStrikeForce} from "./master-of-the-5th-column-strike-force";
 import {MasterOfThe5thColumnTaskForce} from "./master-of-the-5th-column-task-force";
@@ -115,7 +115,7 @@ import {MasterOfTheBAF} from "./master-of-the-baf";
 import {MasterOfTheImperiousTaskForce} from "./master-of-the-imperious-task-force";
 import {MasterOfTheUnderground} from "./master-of-the-underground";
 import {MasterOfTinMagesTaskForce} from "./master-of-tin-mages-task-force";
-import {MasterofTPNCampus} from "./master-of-tpn-campus";
+import {MasterOfTheTpnCampus} from "./master-of-the-tpn-campus";
 import {Medic} from "./medic";
 import {MedicalSpecialist} from "./medical-specialist";
 import {MedicineMan} from "./medicine-man";
@@ -387,13 +387,13 @@ export const AchievementBadges: IBadgeData[] = [
     MasterOfApexsTaskForce,
     MasterOfTinMagesTaskForce,
     MasterOfTheBAF,
-    MasterOfLambdaSector,
-    MasterOfKeyesIslandReactor,
+    MasterOfTheLambdaSector,
+    MasterOfTheKeyesIslandReactor,
     MasterOfTheUnderground,
-    MasterofTPNCampus,
-    MasterOfMindsOfMayhem,
+    MasterOfTheTpnCampus,
+    MasterOfTheMindsOfMayhem,
     MasterOfDilemmaDiabolique,
-    MasterOfMagisterium,
+    MasterOfTheMagisterium,
     MasterOfDrAeonsStrikeForce,
     MasterOfTheDescentToTheHydra,
     MasterOfTheMarketCrash,
