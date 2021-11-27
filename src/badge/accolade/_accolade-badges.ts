@@ -134,6 +134,7 @@ import {WincottsAlly} from "./wincotts-ally";
 import {YesterdaysNews} from "./yesterdays-news";
 import {ZigWarden} from "./zig-warden";
 import {Passport} from "./passport";
+import {HistoryInTheMaking} from "./history-in-the-making";
 
 export const AccoladeBadges: IBadgeData[] = [
     Passport,
@@ -195,6 +196,7 @@ export const AccoladeBadges: IBadgeData[] = [
     LostAndFound,
     ZigWarden,
     PortalCorpAnalyst,
+    HistoryInTheMaking,
     MercyMariner,
     MarconeInsider,
     MadScienceSupporter,

@@ -5,7 +5,7 @@ export const MasterOfMagisterium: IBadgeData = {
     key: "master-of-magisterium",
     setTitleId: 2225,
     names: [
-        {value: "Master of Magisterium"}
+        {value: "Master of the Magisterium"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [

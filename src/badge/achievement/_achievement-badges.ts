@@ -178,6 +178,15 @@ import {Valet} from "./valet";
 import {WarHero} from "./war-hero";
 import {WebMaster} from "./web-master";
 import {WellStocked} from "./well-stocked";
+import {CantTouchThis} from "./cant-touch-this";
+import {MasterOfDrAeonsStrikeForce} from "./master-of-dr-aeons-strike-force";
+import {MasterOfTheDescentToTheHydra} from "./master-of-the-descent-to-the-hydra";
+import {MasterOfTheMarketCrash} from "./master-of-the-market-crash";
+import {MasterOfThePrisonersOfEden} from "./master-of-the-prisoners-of-eden";
+import {PowerOverwhelming} from "./power-overwhelming";
+import {RippleRaider} from "./ripple-raider";
+import {UnfriendlyFire} from "./unfriendly-fire";
+
 
 export const AchievementBadges: IBadgeData[] = [
     //Levels
@@ -359,6 +368,12 @@ export const AchievementBadges: IBadgeData[] = [
     TheHardWay,
     TheReallyHardWay,
 
+    //DrAeonSF
+    CantTouchThis,
+    PowerOverwhelming,
+    RippleRaider,
+    UnfriendlyFire,
+    
     //Mothership Raid
     Demolitionist,
 
@@ -379,6 +394,10 @@ export const AchievementBadges: IBadgeData[] = [
     MasterOfMindsOfMayhem,
     MasterOfDilemmaDiabolique,
     MasterOfMagisterium,
+    MasterOfDrAeonsStrikeForce,
+    MasterOfTheDescentToTheHydra,
+    MasterOfTheMarketCrash,
+    MasterOfThePrisonersOfEden,
 
     //Other
     DefenderOfPrimalEarth,

@@ -77,7 +77,8 @@ import {TimeFixer} from "./time-fixer";
 import {OuroborosMender} from "./ouroboros-mender";
 import {PraetorianTourist} from "./praetorian-tourist";
 import {BronzeMedalist} from "./bronze-medalist";
-
+import {AlphaNotOmega} from "./alpha-not-omega";
+import {Deincarnated} from "./deincarnated";
 
 export const OuroborosBadges: IBadgeData[] = [
     EntrustedWithTheSecret,
@@ -156,6 +157,9 @@ export const OuroborosBadges: IBadgeData[] = [
     Decreased,
     Devalued,
     Unenhanced,
+    
+    AlphaNotOmega,
+    Deincarnated,
 
     Troubleshooter,
     Adjuster,

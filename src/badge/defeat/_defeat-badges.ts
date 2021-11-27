@@ -126,6 +126,16 @@ import {GreenMachine} from "./green-machine";
 import {RunningOnEmpty} from "./running-on-empty";
 import {WompWomp} from "./womp-womp";
 import {FlyingNuisance} from "./flying-nuisance";
+import {CallOfTheVoid} from "./call-of-the-void";
+import {CoolCustomer} from "./cool-customer";
+import {Epidemiologist} from "./epidemiologist";
+import {Fabled} from "./fabled";
+import {Legatus} from "./legatus";
+import {Mythical} from "./mythical";
+import {Rearguard} from "./rearguard";
+import {TheBeastWithin} from "./the-beast-within";
+import {TotallyRadical} from "./totally-radical";
+import {WhoSmeltItDealtIt} from "./who-smelt-it-dealt-it";
 
 export const DefeatBadges: IBadgeData[] = [
     SpiderSmasher,
@@ -219,6 +229,15 @@ export const DefeatBadges: IBadgeData[] = [
     Castigator,
     Exorcist,
     Doorbuster,
+    CallOfTheVoid,
+    CoolCustomer,
+    Fabled,
+    Legatus,
+    Mythical,
+    Rearguard,
+    TheBeastWithin,
+    TotallyRadical,
+    WhoSmeltItDealtIt,
     BloodyHands,
     ThinLine,
     Locksmith,
@@ -229,6 +248,7 @@ export const DefeatBadges: IBadgeData[] = [
     EyeOfTheStorm,
     Roman,
     ItsyBitsy,
+    Epidemiologist,
     DimensionalWarder,
     PositronsPal,
     StatesmansPal,

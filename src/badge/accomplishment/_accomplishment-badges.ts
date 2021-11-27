@@ -187,6 +187,9 @@ import {WentOffScript} from "./went-off-script";
 import {UncivilWarrior} from "./uncivil-warrior";
 import {PowerLiberator} from "../accolade/power-liberator";
 import {Complicated} from "./complicated";
+import {BestFriendsForever} from "./best-friends-forever";
+import {GoldStandard} from "./gold-standard";
+import {WorthyOpponent} from "./worthy-opponent";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -377,5 +380,8 @@ export const AccomplishmentBadges: IBadgeData[] = [
     WentOffScript,
     UncivilWarrior,
     TarnishedStar,
-    PatientZero
+    PatientZero,
+    BestFriendsForever,
+    GoldStandard,
+    WorthyOpponent
 ];
