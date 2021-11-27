@@ -5,7 +5,7 @@ export const MasterOfLambdaSector: IBadgeData = {
     key: "master-of-lambda-sector",
     setTitleId: 1988,
     names: [
-        {value: "Master of Lambda Sector"}
+        {value: "Master of the Lambda Sector"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
