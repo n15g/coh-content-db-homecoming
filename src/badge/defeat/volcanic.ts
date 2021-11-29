@@ -11,7 +11,7 @@ export const Volcanic: IBadgeData = {
     badgeText: [
         {value: "You have cracked the Igneous bosses, earning you the right to call yourself Volcanic."}
     ],
-    acquisition: "Defeat 100 Magmite Lords",
+    acquisition: "Defeat 100 Magmite Lords or Pumicite Lords",
     links: [
         {title: "Volcanic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Volcanic_Badge"}
     ],
