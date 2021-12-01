@@ -14,7 +14,7 @@ export const ALightInDarkAstorias: IBadgeData = {
     key: "a-light-in-dark-astorias",
     setTitleId: 1878,
     names: [
-        {value: "A Light in Dark Astorias"}
+        {value: "A Light in Dark Astoria"}
     ],
     alignment: ALIGNMENT_HERO,
     badgeText: [
@@ -22,7 +22,7 @@ export const ALightInDarkAstorias: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoDarkAstoria.key}]`,
     links: [
-        {title: "A Light in Dark Astorias Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Light_in_Dark_Astorias_Badge"}
+        {title: "A Light in Dark Astoria Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Light_in_Dark_Astoria_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}
