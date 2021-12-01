@@ -83,6 +83,7 @@ import {Arriviste} from "./arriviste";
 import {Resurgent} from "./resurgent";
 import {Snowbound} from "./snowbound";
 import {Legendary} from "./legendary";
+import {LicenseToChill} from "./license-to-chill";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -138,6 +139,7 @@ export const EventBadges: IBadgeData[] = [
     GiftGetter,
     GiftWhichKeepsGiving,
     Snowbound,
+    LicenseToChill,
     HeartOfLight,
     Handsome,
     Toothbreaker,
