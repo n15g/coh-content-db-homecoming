@@ -15,5 +15,5 @@ export const LicenseToChill: IBadgeData = {
     links: [
         {title: "License to Chill Badge", href: "https://hcwiki.cityofheroes.dev/wiki/License_to_Chill_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter_login.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png"}]
 };
