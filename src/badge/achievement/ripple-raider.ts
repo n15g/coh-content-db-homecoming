@@ -11,7 +11,20 @@ export const RippleRaider: IBadgeData = {
     badgeText: [
         {value: `You've shown yourself to be incredibly adaptable by overcoming every threat found in the familiar-yet-different dimensional ripples Golden Roller tossed your team into without a single defeat being suffered by your team.`}
     ],
-    acquisition: `Conquer all three challenge encounters (including all 12 AVs) within Golden Roller's dimensional ripples in a single attempt, with no deaths on the team in Dr. Aeon's Strike Force.`,
+    acquisition: `Conquer all three challenge encounters within Golden Roller's dimensional ripples in a single attempt in Dr. Aeon's Strike Force. This includes defeating the specifc archvillains listed below:
+
+* Nosferatu
+* Arakhn
+* Maestro
+* Protean
+* Emperor Requiem
+* Gale
+* Tundra
+* Slate
+* Quill
+* Terra, the All-Mother
+* Hero 1
+* Incandescent`,
     links: [
         {title: "Ripple Raider Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ripple_Raider_Badge"}
     ],
