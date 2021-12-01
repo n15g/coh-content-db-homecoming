@@ -11,7 +11,7 @@ export const Festive: IBadgeData = {
     badgeText: [
         {value: "You celebrated the winter season during the annual Winter Event."},
     ],
-    acquisition: "Log in during the Winter Event.",
+    acquisition: `Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.`,
     links: [
         {title: "Festive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Festive_Badge"}
     ],
