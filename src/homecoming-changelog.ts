@@ -184,5 +184,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/148 - Updates for issue 27 page 3.\n",
         "1.3.18":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/149 - Pumicite Lords count for Volcanic.\n",
+        "1.3.19":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/150 - Dec 01 Tweaks.\n",
     };
 }

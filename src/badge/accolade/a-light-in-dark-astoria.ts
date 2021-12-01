@@ -9,7 +9,7 @@ import {TheSleeperBelow} from "../exploration/the-sleeper-below";
 import {TooDarkPark} from "../exploration/too-dark-park";
 import {WhispererOnWitchburnHill} from "../exploration/whisperer-on-witchburn-hill";
 
-export const ALightInDarkAstorias: IBadgeData = {
+export const ALightInDarkAstoria: IBadgeData = {
     type: BadgeType.ACCOLADE,
     key: "a-light-in-dark-astorias",
     setTitleId: 1878,

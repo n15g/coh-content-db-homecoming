@@ -1,6 +1,6 @@
 import {IBadgeData} from "coh-content-db";
 import {FreedomPhalanxReserveMember} from "./freedom-phalanx-reserve-member";
-import {ALightInDarkAstorias} from "./a-light-in-dark-astorias";
+import {ALightInDarkAstoria} from "./a-light-in-dark-astoria";
 import {ANeuMan} from "./a-neu-man";
 import {AdamInWaiting} from "./adam-in-waiting";
 import {Aftershock} from "./aftershock";
@@ -216,7 +216,7 @@ export const AccoladeBadges: IBadgeData[] = [
     PerezParkPerfection,
     BoomGoesTheTown,
     FreeAmongTheDead,
-    ALightInDarkAstorias,
+    ALightInDarkAstoria,
     StraightThroughStriga,
     CrazyForCreysFolly,
     TheyAreStillAmongUs,

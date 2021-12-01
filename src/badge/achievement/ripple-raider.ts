@@ -11,7 +11,9 @@ export const RippleRaider: IBadgeData = {
     badgeText: [
         {value: `You've shown yourself to be incredibly adaptable by overcoming every threat found in the familiar-yet-different dimensional ripples Golden Roller tossed your team into without a single defeat being suffered by your team.`}
     ],
-    acquisition: `Conquer all three challenge encounters within Golden Roller's dimensional ripples in a single attempt in Dr. Aeon's Strike Force. This includes defeating the specifc archvillains listed below:
+    acquisition: `Conquer all three challenge encounters within Golden Roller's dimensional ripples in a single attempt in Dr. Aeon's Strike Force.`,
+    notes: `
+This includes defeating the specifc archvillains listed below:
 
 * Nosferatu
 * Arakhn
