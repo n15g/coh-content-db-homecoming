@@ -15,5 +15,5 @@ export const Snowbound: IBadgeData = {
     links: [
         {title: "Snowbound Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Snowbound_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/snowbound.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter_login.png"}]
 };
