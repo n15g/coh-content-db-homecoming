@@ -11,7 +11,7 @@ export const Snowbound: IBadgeData = {
     badgeText: [
         {value: "The snow outside made it very cozy inside during the annual Winter Event."},
     ],
-    acquisition: "Login during the Winter event.",
+    acquisition: `Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.`,
     links: [
         {title: "Snowbound Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Snowbound_Badge"}
     ],
