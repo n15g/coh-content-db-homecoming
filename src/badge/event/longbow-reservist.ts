@@ -13,7 +13,7 @@ export const LongbowReservist: IBadgeData = {
         {type: Alternate.H, value: "You have been made an honorary Longbow Eagle, temporarily issued a Longbow jetpack."},
         {type: Alternate.V, value: "You have received a Jetpack from an anonymous benefactor."}
     ],
-    acquisition: "Purchase from the Candy Keeper for 10 Candy Canes and 10,000 inf.",
+    acquisition: "Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
         {title: "Longbow Reservist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longbow_Reservist_Badge"},
         {title: "Jet-Setter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jet-Setter_Badge"}
