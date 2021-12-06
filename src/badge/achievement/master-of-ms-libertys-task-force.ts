@@ -11,7 +11,7 @@ export const MasterOfMsLibertysTaskForce: IBadgeData = {
     badgeText: [
         {value: "You have proven yourself Master of Ms. Liberty's Task Force."}
     ],
-    acquisition: `Complete the Master of Ms. Liberty's Task Force challenge (zero deaths, temporary and incarnate powers disabled)`,
+    acquisition: `Complete the Master of Ms. Liberty's Task Force challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of Ms. Liberty's Task Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Ms._Liberty%27s_Task_Force_Badge"}
     ],
