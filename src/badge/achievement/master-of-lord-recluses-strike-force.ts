@@ -11,7 +11,7 @@ export const MasterOfLordReclusesStrikeForce: IBadgeData = {
     badgeText: [
         {value: "You have proven yourself Master of Lord Recluse's Strike Force."}
     ],
-    acquisition: `Complete the Master of Lord Recluse's Strike Force challenge (zero deaths, temporary and incarnate powers disabled)`,
+    acquisition: `Complete the Master of Lord Recluse's Strike Force challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of Lord Recluse's Strike Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Lord_Recluse%27s_Strike_Force_Badge"}
     ],
