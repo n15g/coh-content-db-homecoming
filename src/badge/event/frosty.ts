@@ -11,7 +11,7 @@ export const Frosty: IBadgeData = {
     badgeText: [
         {value: "A chill down your spine makes you feel Frosty."},
     ],
-    acquisition: "Select as a reward for completing Father Time's mission during the Winter Event or purchase from the Candy Keeper during the Winter Event for 10 Candy Canes and 500 inf.",
+    acquisition: `Select as a reward for completing Father Time's mission during the Winter Event.`,
     links: [
         {title: "Frosty Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Frosty_Badge"}
     ],

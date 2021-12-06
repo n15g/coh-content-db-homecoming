@@ -137,6 +137,7 @@ import {Passport} from "./passport";
 import {HistoryInTheMaking} from "./history-in-the-making";
 
 export const AccoladeBadges: IBadgeData[] = [
+    BugHunter,
     Passport,
     ThornRobber,
     ThornThief,
@@ -258,7 +259,6 @@ export const AccoladeBadges: IBadgeData[] = [
     Meticulous,
     FashionVictim,
     ArenaAllStar,
-    BugHunter,
     VIP,
     ReceivedTheAtlasMedallion,
     ConspiracyTheorist,
@@ -271,6 +271,6 @@ export const AccoladeBadges: IBadgeData[] = [
     AwardedTheFreedomCross,
     DestroyerOfDespair,
     GeasOfTheKindOnes,
-    Chronomaster,
     FlamesOfPrometheus,
+    Chronomaster,
 ];

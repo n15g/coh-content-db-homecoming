@@ -11,7 +11,7 @@ export const MasterOfThe5thColumnTaskForce: IBadgeData = {
     badgeText: [
         {value: "You have proven yourself Master of the 5th Column Task Force"}
     ],
-    acquisition: "Complete the Dr. Kahn Task Force with No Temporary Powers and Zero Team Defeats",
+    acquisition: `Complete the Master of the 5th Column Task Force challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of the 5th Column Task Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_the_5th_Column_Task_Force_Badge"}
     ],

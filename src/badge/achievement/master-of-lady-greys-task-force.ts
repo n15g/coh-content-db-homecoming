@@ -11,7 +11,7 @@ export const MasterOfLadyGreysTaskForce: IBadgeData = {
     badgeText: [
         {value: "You have proven yourself Master of Lady Grey's Task Force."}
     ],
-    acquisition: "Complete the Lady Grey Task Force with No Temporary Powers and Zero Team Defeats",
+    acquisition: `Complete the Master of Lady Grey's Task Force challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of Lady Grey's Task Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Lady_Grey%27s_Task_Force_Badge"}
     ],
