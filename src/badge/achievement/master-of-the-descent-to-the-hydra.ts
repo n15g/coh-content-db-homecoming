@@ -11,7 +11,7 @@ export const MasterOfTheDescentToTheHydra: IBadgeData = {
     badgeText: [
         {value: `You have proven yourself Master of the Descent to the Hydra Trial.`}
     ],
-    acquisition: `Complete the Master of the Descent to the Hydra challenge (zero deaths, temporary and incarnate powers disabled)`,
+    acquisition: `Complete the Master of the Descent to the Hydra challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of the Descent to the Hydra Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_the_Descent_to_the_Hydra_Badge"}
     ],
