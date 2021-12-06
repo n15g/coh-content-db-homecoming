@@ -369,10 +369,10 @@ export const AchievementBadges: IBadgeData[] = [
     TheReallyHardWay,
 
     //DrAeonSF
-    CantTouchThis,
-    PowerOverwhelming,
-    RippleRaider,
     UnfriendlyFire,
+    RippleRaider,
+    PowerOverwhelming,
+    CantTouchThis,
     
     //Mothership Raid
     Demolitionist,
@@ -384,8 +384,12 @@ export const AchievementBadges: IBadgeData[] = [
     MasterOfLordReclusesStrikeForce,
     MasterOfThe5thColumnTaskForce,
     MasterOfThe5thColumnStrikeForce,
+    MasterOfDrAeonsStrikeForce,
     MasterOfApexsTaskForce,
     MasterOfTinMagesTaskForce,
+    MasterOfThePrisonersOfEden,
+    MasterOfTheDescentToTheHydra,
+    MasterOfTheMarketCrash,
     MasterOfTheBAF,
     MasterOfTheLambdaSector,
     MasterOfTheKeyesIslandReactor,
@@ -394,10 +398,6 @@ export const AchievementBadges: IBadgeData[] = [
     MasterOfTheMindsOfMayhem,
     MasterOfDilemmaDiabolique,
     MasterOfTheMagisterium,
-    MasterOfDrAeonsStrikeForce,
-    MasterOfTheDescentToTheHydra,
-    MasterOfTheMarketCrash,
-    MasterOfThePrisonersOfEden,
 
     //Other
     DefenderOfPrimalEarth,
