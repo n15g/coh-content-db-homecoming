@@ -537,13 +537,7 @@ export const ExplorationBadges: IBadgeData[] = [
     Chrononaut,
 
     //Cimerora Pt 1
-    DepthsOfTime, BattleHardened,
-    DarknessUnleashed,
-    HumanNature,
-    OutOfBounds,
-    Sanctuary,
-    VisionOfAmbition,
-    VoiceOfTheOracle,
+    DepthsOfTime, BattleHardened, Sanctuary, VoiceOfTheOracle, OutOfBounds, HumanNature, VisionOfAmbition, DarknessUnleashed,
 
     //Midnighter Club
     MidnighterClubMember,
