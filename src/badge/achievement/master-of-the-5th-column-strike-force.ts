@@ -11,7 +11,7 @@ export const MasterOfThe5thColumnStrikeForce: IBadgeData = {
     badgeText: [
         {value: "You have proven yourself Master of the 5th Column Strike Force"}
     ],
-    acquisition: `Complete the Master of the 5th Column Strike Force challenge (zero deaths, temporary and incarnate powers disabled)`,
+    acquisition: `Complete the Master of the 5th Column Strike Force challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of the 5th Column Strike Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_the_5th_Column_Strike_Force_Badge"}
     ],
