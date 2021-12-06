@@ -198,6 +198,8 @@ export const AccomplishmentBadges: IBadgeData[] = [
     PirateHunter,
     Leviathan,
     CrystalKeeper,
+    GoldStandard,
+    WorthyOpponent,
     StoneCold,
     BoneCollector,
     PlagueCarrier,
@@ -382,6 +384,4 @@ export const AccomplishmentBadges: IBadgeData[] = [
     TarnishedStar,
     PatientZero,
     BestFriendsForever,
-    GoldStandard,
-    WorthyOpponent
 ];
