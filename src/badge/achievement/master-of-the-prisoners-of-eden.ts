@@ -11,7 +11,7 @@ export const MasterOfThePrisonersOfEden: IBadgeData = {
     badgeText: [
         {value: `You have proven yourself Master of the Prisoners of Eden Trial.`}
     ],
-    acquisition: `Complete the Master of the Prisoners of Eden challenge (no deaths, no temp powers, no incarnate powers)`,
+    acquisition: `Complete the Master of the Prisoners of Eden challenge (zero deaths, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of the Prisoners of Eden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_the_Prisoners_of_Eden_Badge"}
     ],
