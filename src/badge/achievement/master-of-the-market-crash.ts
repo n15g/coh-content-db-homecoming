@@ -11,7 +11,7 @@ export const MasterOfTheMarketCrash: IBadgeData = {
     badgeText: [
         {value: `You have proven yourself Master of the Market Crash Trial.`}
     ],
-    acquisition: `Complete the Master of the Market Crash challenge (no deaths, no temp powers, no incarnate powers)`,
+    acquisition: `Complete the Master of the Market Crash challenge (zero deaths, temporary and incarnate powers disabled)`,
     links: [
         {title: "Master of the Market Crash Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_the_Market_Crash_Badge"}
     ],
