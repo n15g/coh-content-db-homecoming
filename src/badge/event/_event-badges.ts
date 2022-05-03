@@ -84,6 +84,7 @@ import {Resurgent} from "./resurgent";
 import {Snowbound} from "./snowbound";
 import {Legendary} from "./legendary";
 import {LicenseToChill} from "./license-to-chill";
+import {Unquenchable} from "./unquenchable";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -103,6 +104,7 @@ export const EventBadges: IBadgeData[] = [
     Excelsior,
     Resurgent,
     Legendary,
+    Unquenchable,
     Pursuer,
     HallowSpirit,
     IronWarrior,
