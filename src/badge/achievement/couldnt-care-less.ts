@@ -10,7 +10,7 @@ export const CouldntCareLess: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `No matter how amazing, stunning or incredible your actions, nothing seems to inspire you.`}],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-insp.png"}],
-    acquisition: "Reject 1000 inspiration drops.",
+    acquisition: "Reject 1000 inspiration drops",
     links: [
         {title: "Couldn't Care Less Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Couldn%27t_Care_Less_Badge"}
     ],
