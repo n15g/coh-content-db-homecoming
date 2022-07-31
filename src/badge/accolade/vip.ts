@@ -13,7 +13,7 @@ export const VIP: IBadgeData = {
         {type: Alternate.H, value: `Being a V.I.P. in Paragon City has many advantages associated with it.`},
         {type: Alternate.V, value: `Being one of Kalinda's Destined Ones brings with it many perks, and just as many enemies.`},
     ],
-    notes: `Awarded on any character creation`,
+    notes: `Awarded on creation of a Primal-origin character`,
     links: [
         {title: "V.I.P. Badge", href: "https://hcwiki.cityofheroes.dev/wiki/V.I.P._Badge"},
         {title: "Destined One Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destined_One_Badge"},
