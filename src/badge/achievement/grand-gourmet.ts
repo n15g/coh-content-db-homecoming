@@ -10,7 +10,7 @@ export const GrandGourmet: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `The commonplace is not for you. Only the finest recipes will do!`}],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-recipe.png"}],
-    acquisition: "Reject 500 recipe drops.",
+    acquisition: "Reject 500 recipe drops",
     links: [
         {title: "Grand Gourmet Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grand_Gourmet_Badge"}
     ],
