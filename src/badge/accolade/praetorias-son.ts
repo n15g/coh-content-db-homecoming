@@ -18,6 +18,6 @@ export const PraetoriasSon: IBadgeData = {
         {title: "Praetoria's Daughter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetoria%27s_Daughter_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/vip.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/char-creation.png"}
     ]
 };
