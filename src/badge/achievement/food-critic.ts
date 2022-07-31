@@ -10,7 +10,7 @@ export const FoodCritic: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: `You don't want the same old recipes, you want something exotic.`}],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reject-recipe.png"}],
-    acquisition: "Reject 100 recipe drops.",
+    acquisition: "Reject 100 recipe drops",
     links: [
         {title: "Food Critic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Food_Critic_Badge"}
     ],
