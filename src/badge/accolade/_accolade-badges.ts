@@ -135,6 +135,8 @@ import {YesterdaysNews} from "./yesterdays-news";
 import {ZigWarden} from "./zig-warden";
 import {Passport} from "./passport";
 import {HistoryInTheMaking} from "./history-in-the-making";
+import {TemporalWarrior} from "./temporal-warrior";
+import {Hologram} from "./hologram";
 
 export const AccoladeBadges: IBadgeData[] = [
     BugHunter,
@@ -255,6 +257,7 @@ export const AccoladeBadges: IBadgeData[] = [
     Determined,
     AgentOfChaos,
     PraetoriasSon,
+    TemporalWarrior,
     TemperedThroughFire,
     Meticulous,
     FashionVictim,
@@ -273,4 +276,5 @@ export const AccoladeBadges: IBadgeData[] = [
     GeasOfTheKindOnes,
     FlamesOfPrometheus,
     Chronomaster,
+    Hologram,
 ];
