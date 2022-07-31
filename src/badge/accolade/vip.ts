@@ -19,6 +19,6 @@ export const VIP: IBadgeData = {
         {title: "Destined One Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destined_One_Badge"},
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/vip.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/char-creation.png"}
     ]
 };
