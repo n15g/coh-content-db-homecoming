@@ -12,7 +12,7 @@ export const Unconcerned: IBadgeData = {
     badgeText: [
         {value: "Your skill and ability is recognized far and wide, but you appear quite indifferent."}
     ],
-    acquisition: "Reject 100 inspiration drops.",
+    acquisition: "Reject 100 inspiration drops",
     links: [
         {title: "Unconcerned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unconcerned_Badge"}
     ],
