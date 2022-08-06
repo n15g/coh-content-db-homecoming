@@ -11,7 +11,7 @@ export const Shapeshifter: IBadgeData = {
     badgeText: [
         {value: `You've purchased ten costume powers using the Prismatic Aether you amassed from overcoming an enormous number of challenges.`}
     ],
-    acquisition: `Use Prismatic Aether salvage to purchase a total of ten permanent costume power from BenevoLabs vendors in any Vault Reserve location`,
+    acquisition: `Use Prismatic Aether salvage to purchase a total of ten permanent costume powers from BenevoLabs vendors in any Vault Reserve location`,
     links: [
         {title: "Shapeshifter Badge", href: "https://homecoming.wiki/wiki/Shapeshifter_Badge"}
     ],
