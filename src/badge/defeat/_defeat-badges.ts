@@ -136,6 +136,8 @@ import {Rearguard} from "./rearguard";
 import {TheBeastWithin} from "./the-beast-within";
 import {TotallyRadical} from "./totally-radical";
 import {WhoSmeltItDealtIt} from "./who-smelt-it-dealt-it";
+import {BrotherOfCorruption} from "./brother-of-corruption";
+import {FreezerBurn} from "./freezer-burn";
 
 export const DefeatBadges: IBadgeData[] = [
     SpiderSmasher,
@@ -145,6 +147,7 @@ export const DefeatBadges: IBadgeData[] = [
     GoonSquad,
     Electrician,
     Centurion,
+    BrotherOfCorruption,
     Fabled,
     Mythical,
     Terminator,
@@ -263,6 +266,7 @@ export const DefeatBadges: IBadgeData[] = [
     Surging,
     DemonSlayer,
     HellBane,
+    FreezerBurn,
     WarMachine,
     Devilfish,
     Believer,

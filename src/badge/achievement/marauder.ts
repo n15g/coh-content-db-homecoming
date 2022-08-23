@@ -15,7 +15,7 @@ export const Marauder: IBadgeData = {
     badgeText: [
         {value: "You have inflicted one hundred thousand points of damage upon your foes."}
     ],
-    acquisition: "Deal 100,000 damage to earn this badge.",
+    acquisition: "Deal 100,000 damage to earn this badge",
     links: [
         {title: "Marauder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marauder_Badge"}
     ],

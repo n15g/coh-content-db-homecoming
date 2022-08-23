@@ -15,7 +15,7 @@ export const Eliminator: IBadgeData = {
     badgeText: [
         {value: "You have inflicted five hundred thousand points of damage upon your foes."}
     ],
-    acquisition: "Deal 500,000 damage to earn this badge.",
+    acquisition: "Deal 500,000 damage to earn this badge",
     links: [
         {title: "Eliminator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eliminator_Badge"}
     ],

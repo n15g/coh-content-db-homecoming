@@ -15,7 +15,7 @@ export const Relentless: IBadgeData = {
     badgeText: [
         {value: "You have inflicted one million points of damage upon your foes."}
     ],
-    acquisition: "Deal 1,000,000 damage to earn this badge.",
+    acquisition: "Deal 1,000,000 damage to earn this badge",
     links: [
         {title: "Relentless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Relentless_Badge"}
     ],

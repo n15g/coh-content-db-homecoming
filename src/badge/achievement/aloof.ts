@@ -12,7 +12,7 @@ export const Aloof: IBadgeData = {
     badgeText: [
         {value: "Word of your accomplishments is spreading, but you don't seem to care much about it."}
     ],
-    acquisition: "Reject 50 inspiration drops.",
+    acquisition: "Reject 50 inspiration drops",
     links: [
         {title: "Aloof Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Aloof_Badge"}
     ],

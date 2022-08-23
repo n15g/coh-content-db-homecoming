@@ -186,6 +186,9 @@ import {MasterOfThePrisonersOfEden} from "./master-of-the-prisoners-of-eden";
 import {PowerOverwhelming} from "./power-overwhelming";
 import {RippleRaider} from "./ripple-raider";
 import {UnfriendlyFire} from "./unfriendly-fire";
+import {Mimic} from "./mimic";
+import {Doppelganger} from "./doppelganger";
+import {Shapeshifter} from "./shapeshifter";
 
 
 export const AchievementBadges: IBadgeData[] = [
@@ -279,6 +282,11 @@ export const AchievementBadges: IBadgeData[] = [
     FoodCritic,
     GrandGourmet,
     IronChef,
+    
+    //Costume Power Purchases
+    Mimic,
+    Doppelganger,
+    Shapeshifter,
 
     //Mayhem
     ReformedFirebug,

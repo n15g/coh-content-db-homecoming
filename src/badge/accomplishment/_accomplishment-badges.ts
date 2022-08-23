@@ -190,6 +190,9 @@ import {Complicated} from "./complicated";
 import {BestFriendsForever} from "./best-friends-forever";
 import {GoldStandard} from "./gold-standard";
 import {WorthyOpponent} from "./worthy-opponent";
+import {PeckingOrder} from "./pecking-order";
+import {TheShadowOutOfTime} from "./the-shadow-out-of-time";
+import {TraditionalistFoil} from "./traditionalist-foil";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -296,11 +299,13 @@ export const AccomplishmentBadges: IBadgeData[] = [
     Chameleon,
     Redeemer,
     MysticalSavior,
+    PeckingOrder,
     Corrupter,
     WarWallDefender,
     TheDoctorsAlly,
     Frontline,
     DoNoHarm,
+    TraditionalistFoil,
     Emancipator,
     Meteorologist,
     TrueNemesis,
@@ -384,4 +389,5 @@ export const AccomplishmentBadges: IBadgeData[] = [
     TarnishedStar,
     PatientZero,
     BestFriendsForever,
+    TheShadowOutOfTime,
 ];

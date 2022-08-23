@@ -13,7 +13,7 @@ export const Eradicator: IBadgeData = {
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/deal-damage-h.png"},
         {type: Alternate.V, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/deal-damage-v.png"}
     ],
-    acquisition: "Deal 50,000,000 damage to earn this badge.",
+    acquisition: "Deal 50,000,000 damage to earn this badge",
     links: [
         {title: "Eradicator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eradicator_Badge"}
     ],
