@@ -15,6 +15,7 @@ export const AgentOfChaos: IBadgeData = {
     acquisition: `Complete every story arc in [map:${MercyIsland.key}]`,
     notes: `
 This badge rewards 20 reward merits for completing the following story arcs (contact in parentheses):
+
 * Earning Arachnos' Favor (Kalinda)
 * The Origins of the Snakes (Matthew Burke)
 * Snake Uprising (Mongoose)
