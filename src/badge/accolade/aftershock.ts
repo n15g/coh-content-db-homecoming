@@ -12,7 +12,15 @@ export const Aftershock: IBadgeData = {
     badgeText: [
         {value: `You've obtained this accolade by completing every story arc within Faultline.`}
     ],
-    notes: `Complete every story arc in [map:${Faultline.key}]. [Rewards 20 Merits]`,
+    acquisition: `Complete every story arc in [map:${Faultline.key}]`,
+    notes: `
+This badge rewards 20 reward merits for completing the following story arcs:
+
+* Jim Temblor - Rumblings of the Past
+* Penelope Yin - I Lost My Daddy!
+* Doc Delilah - The Buried Past
+* Agent G - A Faultline in the Sands of Time
+`,
     links: [
         {title: "Aftershock Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Aftershock_Badge"}
     ],
