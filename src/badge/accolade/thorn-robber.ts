@@ -10,8 +10,9 @@ export const ThornRobber: IBadgeData = {
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
         {value: `You have stolen the power of the Nexus of Thorns with the knowledge from the demon Sparcetriel.`}
-    ],
-    notes: `Complete the level 24-33 Tree of Thorns Respecification Trial from Sparcetriel`,
+    ],   
+    acquisition: `Complete the first Tree of Thorns Respecification Trial`,
+    notes: `The first (level 24-33) Tree of Thorns Respecification Trial is available from Sparcetriel in Nerva Archipelago.`,
     links: [
         {title: "Thorn Robber Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Robber_Badge"}
     ],
