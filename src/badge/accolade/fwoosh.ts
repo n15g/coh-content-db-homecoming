@@ -13,7 +13,8 @@ export const Fwoosh: IBadgeData = {
         {type: Alternate.H, value: `This is the sound Black Scorpion's arm cannon will make when you run into him next. Didn't you learn not to peeve the guy in powered armor?`},
         {type: Alternate.V, value: `Pretty soon, nobody's gonna be able to touch me. Stick with me and you'll go places,' Black Scorpion said approvingly.`}
     ],
-    notes: `Complete Black Scorpion's patron story arc`,
+    acquisition: `Complete Black Scorpion's patron story arc`,
+    notes: `Completing the patron story arc 'Armor Wars' from Black Scorpion in Grandville unlocks the Mace Mastery patron power pool as well as awarding this badge.`,
     links: [
         {title: "Fwoosh Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fwoosh_Badge"},
         {title: "The Stinger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Stinger_Badge"}
