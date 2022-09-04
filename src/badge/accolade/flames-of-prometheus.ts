@@ -11,7 +11,7 @@ export const FlamesOfPrometheus: IBadgeData = {
     acquisition: `Complete the Mortimer Kal Strike Force`,
     notes: `The Mortimer Kal Strike Force is available from Mortimer Kal in Sharkhead Island.
     
-This badge can be redeemed for a Notice of the Well at 50.
+This badge can be redeemed for a Notice of the Well at level 50.
 
 **Once redeemed, this badge is no longer obtainable. This badge is not included in badge totals.**`,
     links: [
