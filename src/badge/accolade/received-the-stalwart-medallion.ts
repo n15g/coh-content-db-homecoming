@@ -12,7 +12,8 @@ export const ReceivedTheStalwartMedallion: IBadgeData = {
     badgeText: [
         {value: `Your battle in the reactor of Terra Volta altered your powers in a permanent way.`}
     ],
-    notes: `Complete the level 24-33 Terra Volta Respecification Trial from Jane Hallaway`,
+    acquisition: `Complete the first Terra Volta Respecification Trial`,
+    notes: `The first (level 24-33) Terra Volta Respecification Trial is available from Jane Hallaway in Independence Port.`,
     links: [
         {title: "Received the Stalwart Medallion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Received_the_Stalwart_Medallion_Badge"},
         {title: "Lost the Stalwart Medallion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lost_the_Stalwart_Medallion_Badge"}
