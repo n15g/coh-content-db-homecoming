@@ -13,7 +13,7 @@ export const Excavator: IBadgeData = {
         {value: `You've obtained this accolade by completing every story arc within The Hollows.`}
     ],
     acquisition: `Complete every story arc in [map:${TheHollows.key}]`,
-    notes: `This badge rewards 20 reward merits`,
+    notes: `This badge rewards 20 reward merits.`,
     links: [
         {title: "Excavator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Excavator_Badge"}
     ],
