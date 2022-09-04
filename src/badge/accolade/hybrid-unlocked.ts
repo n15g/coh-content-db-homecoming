@@ -11,7 +11,8 @@ export const HybridUnlocked: IBadgeData = {
     badgeText: [
         {value: `You unlocked your Hybrid Incarnate slot allowing you to create powerful new abilities that can be slotted there.`}
     ],
-    notes: `Unlock your Hybrid Incarnate slot`,
+    acquisition: `Unlock the Hybrid Incarnate slot`,
+    notes: `Unlock the Hybrid Incarnate slot by earning Incarnate Experience through normal play.`,
     links: [
         {title: "Hybrid Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hybrid_Unlocked_Badge"}
     ],
