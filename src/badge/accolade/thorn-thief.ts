@@ -11,7 +11,8 @@ export const ThornThief: IBadgeData = {
     badgeText: [
         {value: `You have stolen the power of the Nexus of Thorns with the knowledge from the demon Trepsarciel.`}
     ],
-    notes: `Complete the level 34-43 Tree of Thorns Respecification Trial from Trepsarciel`,
+    acquisition: `Complete the second Tree of Thorns Respecification Trial`,
+    notes: `The second (level 34-43) Tree of Thorns Respecification Trial is available from Trepsarciel in Nerva Archipelago.`,
     links: [
         {title: "Thorn Thief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Thief_Badge"}
     ],
