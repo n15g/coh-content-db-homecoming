@@ -11,7 +11,8 @@ export const ThornUsurper: IBadgeData = {
     badgeText: [
         {value: `You have stolen the power of the Nexus of Thorns with the knowledge from the demon Ractespriel.`}
     ],
-    notes: `Complete the level 44-50 Tree of Thorns Respecification Trial from Ractespriel`,
+    acquisition: `Complete the third Tree of Thorns Respecification Trial`,
+    notes: `The third (level 44-50) Tree of Thorns Respecification Trial is available from Ractespriel in Nerva Archipelago.`,
     links: [
         {title: "Thorn Usurper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Usurper_Badge"}
     ],
