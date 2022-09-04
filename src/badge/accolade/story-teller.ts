@@ -12,7 +12,8 @@ export const StoryTeller: IBadgeData = {
     badgeText: [
         {value: `You've obtained this accolade by completing every story arc within Croatoa.`}
     ],
-    notes: `Complete every story arc in [map:${Croatoa.key}]. [Rewards 20 Merits]`,
+    acquisition: `Complete every story arc in [map:${Croatoa.key}]`,
+    notes: `This badge rewards 20 reward merits.`,
     links: [
         {title: "Story Teller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Story_Teller_Badge"}
     ],
