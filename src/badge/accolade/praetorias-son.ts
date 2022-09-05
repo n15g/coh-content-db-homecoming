@@ -12,7 +12,7 @@ export const PraetoriasSon: IBadgeData = {
     badgeText: [
         {value: `Praetoria is your world, for better or worse.`}
     ],
-    notes: `Awarded on creation of a Praetorian-origin character`,
+    acquisition: `Awarded on initial login of a Praetorian-origin character`,
     links: [
         {title: "Praetoria's Son Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetoria%27s_Son_Badge"},
         {title: "Praetoria's Daughter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetoria%27s_Daughter_Badge"}

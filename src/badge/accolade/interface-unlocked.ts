@@ -11,7 +11,8 @@ export const InterfaceUnlocked: IBadgeData = {
     badgeText: [
         {value: `You unlocked your Interface Incarnate slot allowing you to create powerful new abilities that can be slotted there.`}
     ],
-    notes: `Unlock your Interface Incarnate slot`,
+    acquisition: `Unlock the Interface Incarnate slot`,
+    notes: `Unlock the Interface Incarnate slot by earning Incarnate Experience through normal play.`,
     links: [
         {title: "Interface Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Interface_Unlocked_Badge"}
     ],

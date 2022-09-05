@@ -13,7 +13,8 @@ export const SharkBait: IBadgeData = {
         {type: Alternate.H, value: `Captain Mako once called you an ally. Now he calls you a snack.`},
         {type: Alternate.V, value: `You're deadly and cold-blooded. Captain Mako appreciates that.`}
     ],
-    notes: `Complete Captain Mako's patron story arc`,
+    acquisition: `Complete Captain Mako's patron story arc`,
+    notes: `Completing the patron story arc 'Killer Instinct' from Captain Mako in Grandville unlocks the Leviathan Mastery patron power pool as well as awarding this badge.`,
     links: [
         {title: "Shark Bait Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shark_Bait_Badge"},
         {title: "Bloodletter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bloodletter_Badge"}

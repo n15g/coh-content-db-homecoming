@@ -8,11 +8,12 @@ export const FlamesOfPrometheus: IBadgeData = {
         {value: "Flames of Prometheus"}
     ],
     alignment: ALIGNMENT_VILLAIN,
-    notes: `Complete the Mortimer Kal Strike Force.
+    acquisition: `Complete the Mortimer Kal Strike Force`,
+    notes: `The Mortimer Kal Strike Force is available from Mortimer Kal in Sharkhead Island.
+    
+This badge can be redeemed for a Notice of the Well at level 50.
 
-Can be redeemed for a Notice of the Well at 50
-
-**Note: once redeemed, this badge is no longer obtainable. This badge is also not included in badge totals.**`,
+**Once redeemed, this badge is no longer obtainable. This badge is not included in badge totals.**`,
     links: [
         {title: "Flames of Prometheus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flames_of_Prometheus"}
     ],

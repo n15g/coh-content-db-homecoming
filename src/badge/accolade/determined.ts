@@ -11,8 +11,9 @@ export const Determined: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [
         {value: `You've obtained this accolade by completing every story arc within Dark Astoria.`}
-    ],
-    notes: `Complete every story arc in [map:${DarkAstoria.key}] to earn this badge. [Rewards 20 Merits]`,
+    ],   
+    acquisition: `Complete every story arc in [map:${DarkAstoria.key}]`,
+    notes: `This badge rewards 20 reward merits.`,
     links: [
         {title: "Determined Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Determined_Badge"}
     ],

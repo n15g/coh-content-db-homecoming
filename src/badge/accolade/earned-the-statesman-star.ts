@@ -12,7 +12,8 @@ export const EarnedTheStatesmanStar: IBadgeData = {
     badgeText: [
         {value: `Your Terra Volta experience has altered your powers in ways no one could imagine.`}
     ],
-    notes: `Complete the level 34-43 Terra Volta Respecification Trial from Captain James Harlan`,
+    acquisition: `Complete the second Terra Volta Respecification Trial`,
+    notes: `The second (level 34-43) Terra Volta Respecification Trial is available from Captain James Harlan in Founders' Falls.`,
     links: [
         {title: "Earned the Statesman Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Earned_the_Statesman_Star_Badge"},
         {title: "Denied the Statesman Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Denied_the_Statesman_Star_Badge"}

@@ -11,7 +11,8 @@ export const AlphaUnlocked: IBadgeData = {
     badgeText: [
         {value: `You unlocked your Alpha Incarnate slot allowing you to create powerful new abilities that can be slotted there.`}
     ],
-    notes: `Unlock your Alpha Incarnate slot`,
+    acquisition: `Unlock the Alpha Incarnate slot`,
+    notes: `Unlock the Alpha Incarnate slot by reaching level 50 and completing Mender Ramiel's story arc, or by earning Incarnate Experience through normal play.`,
     links: [
         {title: "Alpha Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alpha_Unlocked_Badge"}
     ],

@@ -13,7 +13,8 @@ export const AntiVenom: IBadgeData = {
         {type: Alternate.H, value: `You've broken your ties with Ghost Widow, but you can never tell for sure. Be careful, or your former Patron may claim your spirit from afar.`},
         {type: Alternate.V, value: `In a world of treachery who can you trust but Ghost Widow?`}
     ],
-    notes: `Complete Ghost Widow's patron story arc`,
+    acquisition: `Complete Ghost Widow's patron story arc`,
+    notes: `Completing the patron story arc 'Mystic Mayhem' from Ghost Widow in Grandville unlocks the Soul Mastery patron power pool as well as awarding this badge.`,
     links: [
         {title: "Anti-Venom Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anti-Venom_Badge"},
         {title: "Spider's Kiss Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spider%27s_Kiss_Badge"}

@@ -13,7 +13,8 @@ export const FalseImage: IBadgeData = {
         {type: Alternate.H, value: `Perhaps Scirocco is secretly envious of your break to the side of honor, but he still cannot brook your betrayal.`},
         {type: Alternate.V, value: `You have chosen Scirocco's cause. He will not forget your noble gesture.`}
     ],
-    notes: `Complete Scirocco's patron story arc`,
+    acquisition: `Complete Scirocco's patron story arc`,
+    notes: `Completing the patron story arc 'A Wind Called Serafina' from Scirocco in Grandville unlocks the Mu Mastery patron power pool as well as awarding this badge.`,
     links: [
         {title: "False Image Badge", href: "https://hcwiki.cityofheroes.dev/wiki/False_Image_Badge"},
         {title: "Mirage Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mirage_Badge"}

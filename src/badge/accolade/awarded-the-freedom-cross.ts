@@ -12,7 +12,8 @@ export const AwardedTheFreedomCross: IBadgeData = {
     badgeText: [
         {value: `Powerful energies of the Terra Volta reactor have permanently fused with your own, modifying them in dramatic ways.`}
     ],
-    notes: `Complete the level 44-50 Terra Volta Respecification Trial from Major Richard Flagg`,
+    acquisition: `Complete the third Terra Volta Respecification Trial`,
+    notes: `The third (level 44-50) Terra Volta Respecification Trial is available from Major Richard Flagg in Peregrine Island.`,
     links: [
         {title: "Awarded the Freedom Cross Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Awarded_the_Freedom_Cross_Badge"},
         {title: "Stripped of the Freedom Cross Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stripped_of_the_Freedom_Cross_Badge"}
