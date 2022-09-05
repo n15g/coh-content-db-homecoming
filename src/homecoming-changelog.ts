@@ -192,5 +192,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/153 - Added [Unquenchable] badge.\n",
         "1.3.22":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/154 - New badges for Issue 27 Page 4.\n",
+        "1.3.23":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/157 - New acquisition text for accolades.\n",
     };
 }
