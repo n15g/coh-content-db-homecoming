@@ -85,6 +85,11 @@ import {Snowbound} from "./snowbound";
 import {Legendary} from "./legendary";
 import {LicenseToChill} from "./license-to-chill";
 import {Unquenchable} from "./unquenchable";
+import {VampiricHeritage} from "./vampiric-heritage";
+import {SpectralAnomaly} from "./spectral-anomaly";
+import {MummysCurse} from "./mummys-curse";
+import {UnholyCoven} from "./unholy-coven";
+import {ReaperOfSouls} from "./reaper-of-souls";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -114,6 +119,11 @@ export const EventBadges: IBadgeData[] = [
     DeadHead,
     Malleus,
     GhostTouched,
+    VampiricHeritage,
+    SpectralAnomaly,
+    MummysCurse,
+    UnholyCoven,
+    ReaperOfSouls,
     DarkFiend,
     HellHathNoFury,
     Terror,
