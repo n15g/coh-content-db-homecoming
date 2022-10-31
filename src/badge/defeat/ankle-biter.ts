@@ -1,11 +1,11 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const WompWomp: IBadgeData = {
+export const AnkleBiter: IBadgeData = {
     type: BadgeType.DEFEAT,
-    key: "womp-womp",
+    key: "ankle-biter",
     setTitleId: 2440,
     names: [
-        {value: "Womp Womp"}
+        {value: "Ankle Biter"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
@@ -13,9 +13,9 @@ export const WompWomp: IBadgeData = {
     ],
     acquisition: "Defeat 100 Immature Paragon Protectors.",
     links: [
-        {title: "Womp Womp Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Womp_Womp_Badge"}
+        {title: "Ankle Biter Badge", href: "https://homecoming.wiki/wiki/Ankle_Biter_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/womp-womp.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/ankle-biter.png"}
     ],
 };
