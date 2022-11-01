@@ -124,7 +124,7 @@ import {BrassHunter} from "./brass-hunter";
 import {BruteForced} from "./brute-forced";
 import {GreenMachine} from "./green-machine";
 import {RunningOnEmpty} from "./running-on-empty";
-import {WompWomp} from "./womp-womp";
+import {AnkleBiter} from "./ankle-biter";
 import {FlyingNuisance} from "./flying-nuisance";
 import {CallOfTheVoid} from "./call-of-the-void";
 import {CoolCustomer} from "./cool-customer";
@@ -164,7 +164,7 @@ export const DefeatBadges: IBadgeData[] = [
     Infiltrator,
     CoolCustomer,
     TotallyRadical,
-    WompWomp,
+    AnkleBiter,
     Protectorate,
     Buddy,
     Gangbuster,
