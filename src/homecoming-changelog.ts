@@ -196,5 +196,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/157 - New acquisition text for accolades.\n",
         "1.3.24":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/158 - Halloween 2022.\n",
+        "1.3.25":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/159 - [Womp Womp] renamed to [Ankle Biter].\n",
     };
 }

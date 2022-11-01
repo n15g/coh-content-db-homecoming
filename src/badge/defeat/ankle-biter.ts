@@ -2,7 +2,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const AnkleBiter: IBadgeData = {
     type: BadgeType.DEFEAT,
-    key: "ankle-biter",
+    key: "womp-womp",
     setTitleId: 2440,
     names: [
         {value: "Ankle Biter"}
