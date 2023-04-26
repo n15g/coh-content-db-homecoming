@@ -90,6 +90,7 @@ import {SpectralAnomaly} from "./spectral-anomaly";
 import {MummysCurse} from "./mummys-curse";
 import {UnholyCoven} from "./unholy-coven";
 import {ReaperOfSouls} from "./reaper-of-souls";
+import {Unforgettable} from "./unforgettable";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -110,6 +111,7 @@ export const EventBadges: IBadgeData[] = [
     Resurgent,
     Legendary,
     Unquenchable,
+    Unforgettable,
     Pursuer,
     HallowSpirit,
     IronWarrior,
