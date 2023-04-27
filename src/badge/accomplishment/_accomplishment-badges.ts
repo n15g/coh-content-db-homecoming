@@ -193,6 +193,9 @@ import {WorthyOpponent} from "./worthy-opponent";
 import {PeckingOrder} from "./pecking-order";
 import {TheShadowOutOfTime} from "./the-shadow-out-of-time";
 import {TraditionalistFoil} from "./traditionalist-foil";
+import {LoopHero} from "./loop-hero";
+import {Pollster} from "./pollster";
+import {Underdog} from "./underdog";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -390,4 +393,7 @@ export const AccomplishmentBadges: IBadgeData[] = [
     PatientZero,
     BestFriendsForever,
     TheShadowOutOfTime,
+    Underdog,
+    Pollster,
+    LoopHero,
 ];
