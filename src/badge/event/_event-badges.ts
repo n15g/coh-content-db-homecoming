@@ -91,6 +91,7 @@ import {MummysCurse} from "./mummys-curse";
 import {UnholyCoven} from "./unholy-coven";
 import {ReaperOfSouls} from "./reaper-of-souls";
 import {Unforgettable} from "./unforgettable";
+import {HomeForTheHolidays} from "./home-for-the-holidays";
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -154,6 +155,7 @@ export const EventBadges: IBadgeData[] = [
     GiftWhichKeepsGiving,
     Snowbound,
     LicenseToChill,
+    HomeForTheHolidays,
     HeartOfLight,
     Handsome,
     Toothbreaker,
