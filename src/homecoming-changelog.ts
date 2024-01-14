@@ -200,5 +200,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/159 - [Womp Womp] renamed to [Ankle Biter].\n",
         "1.3.26":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/161 - Issue 27 p6\n",
+        "1.3.27":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/162 - Winter 2023\n"
     };
 }
