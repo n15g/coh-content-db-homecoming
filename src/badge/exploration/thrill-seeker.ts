@@ -13,7 +13,7 @@ export const ThrillSeeker: IBadgeData = {
         " The coordinates of this Exploration Badge vary with each zone, but its relative location within the AE building is constant." +
         " The badge is clearly visible on the floor between, and just off to the side of, the hologram contacts and Architect Entertainment Stations.",
     links: [
-        {title: "Thrill Seeker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thrill_Seeker_Badge"}
+        {title: "Thrill Seeker Badge", href: "https://homecoming.wiki/wiki/Thrill_Seeker_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

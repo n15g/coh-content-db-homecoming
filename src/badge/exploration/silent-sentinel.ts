@@ -1,5 +1,5 @@
 import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
-import {AtlasPark} from "../../map/atlas-park";
+import {EchoAtlasPark} from "../../map/echo-atlas-park";
 
 export const SilentSentinel: IBadgeData = {
     type: BadgeType.EXPLORATION,
@@ -7,16 +7,14 @@ export const SilentSentinel: IBadgeData = {
     setTitleId: 87,
     names: [{value: "Silent Sentinel"}],
     alignment: ALIGNMENT_HERO,
-    mapKey: AtlasPark.key,
-    location: [-1169.0, 108.0, -1586.0],
+    mapKey: EchoAtlasPark.key,
+    location: [-608.0, 70.3, -1890.0],
     badgeText: [{
-        value: "In the 1950's the hero called 'Gargoyle' would stand watch over the city from this spot."
+        value: `In the 1950's the hero called 'Gargoyle' would stand watch over the city from this spot.`
     }],
-    notes: "Located 389 yards east of the Chiron Medical Center hospital, 361 yards north of the Hyperion Way marker.\n" +
-        "\n" +
-        "The badge sits on the ledge of a rooftop close to a water tower.",
+    notes: "Located 216 yards east-southeast of The Promenade neighborhood marker. The badge sits on the first ledge up from ground level on the north side of a high-rise building",
     links: [
-        {title: "Silent Sentinel Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Silent_Sentinel_Badge"}
+        {title: "Silent Sentinel Badge", href: "https://homecoming.wiki/wiki/Silent_Sentinel_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

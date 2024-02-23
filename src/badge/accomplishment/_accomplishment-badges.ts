@@ -196,6 +196,8 @@ import {TraditionalistFoil} from "./traditionalist-foil";
 import {LoopHero} from "./loop-hero";
 import {Pollster} from "./pollster";
 import {Underdog} from "./underdog";
+import {DoesntLookAtExplosions} from "./doesnt-look-at-explosions";
+import {FaceTurn} from "./face-turn";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -396,4 +398,6 @@ export const AccomplishmentBadges: IBadgeData[] = [
     Underdog,
     Pollster,
     LoopHero,
+    DoesntLookAtExplosions,
+    FaceTurn
 ];

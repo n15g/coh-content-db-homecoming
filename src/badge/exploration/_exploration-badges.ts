@@ -465,6 +465,7 @@ import {OutOfBounds} from "./out-of-bounds";
 import {Sanctuary} from "./sanctuary";
 import {VisionOfAmbition} from "./vision-of-ambition";
 import {VoiceOfTheOracle} from "./voice-of-the-oracle";
+import {PartyAnimal} from "./party-animal";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -771,5 +772,8 @@ export const ExplorationBadges: IBadgeData[] = [
     CommunicationsSpecialist, Shielded,
 
     //Croatoa Pt2
-    GrimWanderer, Spiritual, Ensorcelled
+    GrimWanderer, Spiritual, Ensorcelled,
+
+    //Pocket D, PDP, Studio 55
+    PartyAnimal
 ];

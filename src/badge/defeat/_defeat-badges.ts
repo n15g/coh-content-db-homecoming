@@ -138,6 +138,7 @@ import {TotallyRadical} from "./totally-radical";
 import {WhoSmeltItDealtIt} from "./who-smelt-it-dealt-it";
 import {BrotherOfCorruption} from "./brother-of-corruption";
 import {FreezerBurn} from "./freezer-burn";
+import {ZookeeperOmega} from "./zookeeper-omega";
 
 export const DefeatBadges: IBadgeData[] = [
     SpiderSmasher,
@@ -188,6 +189,7 @@ export const DefeatBadges: IBadgeData[] = [
     Chief,
     Sentry,
     Zookeeper,
+    ZookeeperOmega,
     Rearguard,
     FlyingNuisance,
     BruteForced,

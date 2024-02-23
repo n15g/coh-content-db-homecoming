@@ -8,14 +8,13 @@ export const VanguardOperative: IBadgeData = {
     names: [{value: "Vanguard Operative"}],
     alignment: ALIGNMENT_ANY,
     mapKey: RiktiWarZone.key,
-    location: [328.0, -1188.2, -2444.5],
+    location: [328.0, -69.0, -2444.5],
     badgeText: [{value: "You have entered the Vanguard base where all your efforts will now go towards fighting the Rikti. The Vanguard and your natural enemies are now your allies."}],
-    notes: "The Vanguard Operative Badge is located in Vanguard Base in the [map:${RiktiWarZone.key}].\n" +
-        "\n" +
-        "The badge marker is invisible, located directly under the feet of the contact Borea.",
+    notes: `The Vanguard Operative Badge is located in Vanguard Base in the [map:${RiktiWarZone.key}].
+    
+    The badge marker is invisible, located about 25 feet in front of the contact Borea.`,
     links: [
-        {title: "Vanguard Operative Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vanguard_Operative_Badge"},
-        {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
+        {title: "Vanguard Operative Badge", href: "hhttps://homecoming.wiki/wiki/Vanguard_Operative_Badge"},
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}

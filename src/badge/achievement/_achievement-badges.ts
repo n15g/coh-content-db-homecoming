@@ -189,6 +189,8 @@ import {UnfriendlyFire} from "./unfriendly-fire";
 import {Mimic} from "./mimic";
 import {Doppelganger} from "./doppelganger";
 import {Shapeshifter} from "./shapeshifter";
+import {VarietyAct} from "./variety-act";
+import {MirrorImage} from "./mirror-image";
 
 
 export const AchievementBadges: IBadgeData[] = [
@@ -287,6 +289,10 @@ export const AchievementBadges: IBadgeData[] = [
     Mimic,
     Doppelganger,
     Shapeshifter,
+
+    //TF/SF team composition
+    VarietyAct,
+    MirrorImage,
 
     //Mayhem
     ReformedFirebug,
