@@ -137,6 +137,7 @@ import {Passport} from "./passport";
 import {HistoryInTheMaking} from "./history-in-the-making";
 import {TemporalWarrior} from "./temporal-warrior";
 import {Hologram} from "./hologram";
+import {Stowaway} from "./stowaway";
 
 export const AccoladeBadges: IBadgeData[] = [
     BugHunter,
@@ -256,6 +257,7 @@ export const AccoladeBadges: IBadgeData[] = [
     Vigilant,
     Determined,
     AgentOfChaos,
+    Stowaway,
     PraetoriasSon,
     TemporalWarrior,
     TemperedThroughFire,
