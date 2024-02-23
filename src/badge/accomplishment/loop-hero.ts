@@ -25,7 +25,7 @@ Once each of the above outcomes have been achieved, run the arc a 5th time. Mend
 This is an abridged version of the steps to complete this badge. A more detailed walkthough can be found on the HC forums at https://forums.homecomingservers.com/topic/42619-loop-hero-badge-guide/
  `,
     links: [
-        {title: "Loop Hero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Loop_Hero_Badge"}
+        {title: "Loop Hero Badge", href: "https://homecoming.wiki/wiki/Loop_Hero_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/loop-hero.png"}
