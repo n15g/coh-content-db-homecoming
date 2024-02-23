@@ -13,7 +13,7 @@ export const TotallyRadical: IBadgeData = {
     ],
     acquisition: `Defeat 200 of Crey's Gamma Tank minions.`,
     links: [
-        {title: "Totally Radical Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Totally_Radical_Badge"}
+        {title: "Totally Radical Badge", href: "https://homecoming.wiki/wiki/Totally_Radical_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/totally-radical.png"}

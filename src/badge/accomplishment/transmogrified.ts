@@ -16,7 +16,7 @@ export const Transmogrified: IBadgeData = {
     ],
     acquisition: "Complete the Terra Volta respec trial and choose the respec reward for the first time",
     links: [
-        {title: "Transmogrified Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Transmogrified_Badge"}
+        {title: "Transmogrified Badge", href: "https://homecoming.wiki/wiki/Transmogrified_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png"}

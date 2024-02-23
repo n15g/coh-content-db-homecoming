@@ -20,9 +20,9 @@ export const Pathfinder: IBadgeData = {
     ],
     acquisition: "Earn 100 badges",
     links: [
-        {title: "Pathfinder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pathfinder_Badge"},
-        {title: "Knows He Knows Not Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_He_Knows_Not_Badge"},
-        {title: "Knows She Knows Not Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_She_Knows_Not_Badge"}
+        {title: "Pathfinder Badge", href: "https://homecoming.wiki/wiki/Pathfinder_Badge"},
+        {title: "Knows He Knows Not Badge", href: "https://homecoming.wiki/wiki/Knows_He_Knows_Not_Badge"},
+        {title: "Knows She Knows Not Badge", href: "https://homecoming.wiki/wiki/Knows_She_Knows_Not_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/pathfinder-h.png"},

@@ -15,7 +15,7 @@ export const WatchfulEyes: IBadgeData = {
     }],
     notes: "Located in the Hutchinson Park neighborhood of [map:founders-falls], right next to where Indigo is standing, 325 yards east of the Eden gate.",
     links: [
-        {title: "Watchful Eyes Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Watchful_Eyes_Badge"}
+        {title: "Watchful Eyes Badge", href: "https://homecoming.wiki/wiki/Watchful_Eyes_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

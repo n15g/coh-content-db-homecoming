@@ -22,7 +22,7 @@ export const IslandHopper: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TalosIsland.key}]`,
     links: [
-        {title: "Island Hopper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Island_Hopper_Badge"}
+        {title: "Island Hopper Badge", href: "https://homecoming.wiki/wiki/Island_Hopper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

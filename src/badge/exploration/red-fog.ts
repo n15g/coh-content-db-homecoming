@@ -20,7 +20,7 @@ export const RedFog: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] 240 yards NW of the Path of Rage marker, just west of the geyser.",
     links: [
-        {title: "Red Fog Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Red_Fog_Badge"}
+        {title: "Red Fog Badge", href: "https://homecoming.wiki/wiki/Red_Fog_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

@@ -13,7 +13,7 @@ export const GlimpsedTheAbyss: IBadgeData = {
     ],
     acquisition: "Defeat 100 Zombie minions during Zombie Apocalypses.",
     links: [
-        {title: "Glimpsed the Abyss Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Glimpsed_the_Abyss_Badge"}
+        {title: "Glimpsed the Abyss Badge", href: "https://homecoming.wiki/wiki/Glimpsed_the_Abyss_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/glimpsed-the-abyss.png"}]
 };

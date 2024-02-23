@@ -13,7 +13,7 @@ export const SaviorOfAtlasPark: IBadgeData = {
     ],
     acquisition: "Complete Aaron Thiery's story arc in Atlas Park",
     links: [
-        {title: "Savior of Atlas Park Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Savior_of_Atlas_Park_Badge"}
+        {title: "Savior of Atlas Park Badge", href: "https://homecoming.wiki/wiki/Savior_of_Atlas_Park_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/savior-of-atlas-park.png"}

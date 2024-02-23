@@ -14,8 +14,8 @@ export const Repairman: IBadgeData = {
     ],
     acquisition: "Complete 35 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Repairman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Repairman_Badge"},
-        {title: "Repairwoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Repairwoman_Badge"}
+        {title: "Repairman Badge", href: "https://homecoming.wiki/wiki/Repairman_Badge"},
+        {title: "Repairwoman Badge", href: "https://homecoming.wiki/wiki/Repairwoman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/repairman.png"}]
 };

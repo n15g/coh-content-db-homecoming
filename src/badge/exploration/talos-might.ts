@@ -20,8 +20,8 @@ export const TalosMight: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Talos' Might Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Talos%27_Might_Badge"},
-        {title: "Talos' Blight Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Talos%27_Blight_Badge"},
+        {title: "Talos' Might Badge", href: "https://homecoming.wiki/wiki/Talos%27_Might_Badge"},
+        {title: "Talos' Blight Badge", href: "https://homecoming.wiki/wiki/Talos%27_Blight_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

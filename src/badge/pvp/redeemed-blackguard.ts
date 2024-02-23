@@ -18,8 +18,8 @@ export const RedeemedBlackguard: IBadgeData = {
     ],
     acquisition: "Defeat all six Signature Heroes in Recluse's Victory",
     links: [
-        {title: "Redeemed Blackguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Redeemed_Blackguard_Badge"},
-        {title: "Blackguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blackguard_Badge"}
+        {title: "Redeemed Blackguard Badge", href: "https://homecoming.wiki/wiki/Redeemed_Blackguard_Badge"},
+        {title: "Blackguard Badge", href: "https://homecoming.wiki/wiki/Blackguard_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatstatesman.png"}

@@ -8,7 +8,7 @@ export const BatteryPowered: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Endurance Modification and Endurance Reduction."}],
     links: [
-        {title: "Battery Powered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Battery_Powered_Badge"}
+        {title: "Battery Powered Badge", href: "https://homecoming.wiki/wiki/Battery_Powered_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [

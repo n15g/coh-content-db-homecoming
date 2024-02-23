@@ -13,7 +13,7 @@ export const TheBeastWithin: IBadgeData = {
     ],
     acquisition: `Defeat 50 of the 5th Column's lycanthrope soldiers after they have transformed.`,
     links: [
-        {title: "The Beast Within Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Beast_Within_Badge"}
+        {title: "The Beast Within Badge", href: "https://homecoming.wiki/wiki/The_Beast_Within_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/the-beast-within.png"}

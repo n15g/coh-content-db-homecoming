@@ -22,7 +22,7 @@ export const BeneathTheEmpire: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${UndergroundImperial.key}]`,
     links: [
-        {title: "Beneath the Empire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Beneath_the_Empire_Badge"}
+        {title: "Beneath the Empire Badge", href: "https://homecoming.wiki/wiki/Beneath_the_Empire_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

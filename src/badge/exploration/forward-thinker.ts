@@ -17,7 +17,7 @@ export const ForwardThinker: IBadgeData = {
     }],
     notes: "Located on the Mashu Bridge in [map:brickstown], 97 feet east of the neighborhood marker.",
     links: [
-        {title: "Forward Thinker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Forward_Thinker_Badge"}
+        {title: "Forward Thinker Badge", href: "https://homecoming.wiki/wiki/Forward_Thinker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

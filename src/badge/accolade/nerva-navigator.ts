@@ -22,7 +22,7 @@ export const NervaNavigator: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${NervaArchipelago.key}]`,
     links: [
-        {title: "Nerva Navigator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nerva_Navigator_Badge"}
+        {title: "Nerva Navigator Badge", href: "https://homecoming.wiki/wiki/Nerva_Navigator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}

@@ -19,8 +19,8 @@ export const Unbreakable: IBadgeData = {
     ],
     acquisition: "Endure 10,000,000 points of damage",
     links: [
-        {title: "Unbreakable Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unbreakable_Badge"},
-        {title: "Iron Willed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Iron_Willed_Badge"}
+        {title: "Unbreakable Badge", href: "https://homecoming.wiki/wiki/Unbreakable_Badge"},
+        {title: "Iron Willed Badge", href: "https://homecoming.wiki/wiki/Iron_Willed_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

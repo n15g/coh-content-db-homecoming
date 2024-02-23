@@ -13,7 +13,7 @@ export const PariahAnchorite: IBadgeData = {
     ],
     acquisition: "Earn the [badge:intellectual] Badge (The Lost)",
     links: [
-        {title: "Pariah Anchorite Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pariah_Anchorite_Badge"}
+        {title: "Pariah Anchorite Badge", href: "https://homecoming.wiki/wiki/Pariah_Anchorite_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

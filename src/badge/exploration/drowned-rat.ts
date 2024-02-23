@@ -15,7 +15,7 @@ export const DrownedRat: IBadgeData = {
     location: [150.0, -51.0, 2360.0],
     notes: "The Drowned Rat Badge is in the Overflow neighborhood of [map:${Faultline.key}] located on scaffolding against the dam just above a large leak in its face.",
     links: [
-        {title: "Drowned Rat Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Drowned_Rat_Badge"},
+        {title: "Drowned Rat Badge", href: "https://homecoming.wiki/wiki/Drowned_Rat_Badge"},
         {title: "I25 Faultline badge changes", href: "https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/"}
     ],
     icons: [

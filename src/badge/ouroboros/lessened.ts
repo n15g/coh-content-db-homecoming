@@ -14,7 +14,7 @@ export const Lessened: IBadgeData = {
     ],
     acquisition: "Complete a level 1-15 Flashback story arc using no enhancements.",
     links: [
-        {title: "Lessened Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lessened_Badge"}
+        {title: "Lessened Badge", href: "https://homecoming.wiki/wiki/Lessened_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/lessened.png"}]
 };

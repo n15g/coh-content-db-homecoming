@@ -22,7 +22,7 @@ export const EtherealDrifter: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${NightWard.key}]`,
     links: [
-        {title: "Ethereal Drifter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ethereal_Drifter_Badge"}
+        {title: "Ethereal Drifter Badge", href: "https://homecoming.wiki/wiki/Ethereal_Drifter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

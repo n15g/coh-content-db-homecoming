@@ -18,7 +18,7 @@ Remaining here risks making these emotions part of yourself; or worse, you risk 
     notes: `Located in [map:${TheStormPalace.key}] 0.59 miles SSE of the Lock of Hatred marker and 0.69 miles NE of the Lock of Malice marker.
 It is on the west side of the eastern-most island of Lock of Torment.`,
     links: [
-        {title: "Tormented Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tormented_Badge"}
+        {title: "Tormented Badge", href: "https://homecoming.wiki/wiki/Tormented_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

@@ -13,7 +13,7 @@ export const GreenMachine: IBadgeData = {
     ],
     acquisition: "Defeat 100 Nemesis Warhulks.",
     links: [
-        {title: "Green Machine Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Green_Machine_Badge"}
+        {title: "Green Machine Badge", href: "https://homecoming.wiki/wiki/Green_Machine_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/green-machine.png"}

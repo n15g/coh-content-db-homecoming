@@ -28,7 +28,7 @@ This includes defeating the specific archvillains listed below:
 * Hero 1
 * Incandescent`,
     links: [
-        {title: "Ripple Raider Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ripple_Raider_Badge"}
+        {title: "Ripple Raider Badge", href: "https://homecoming.wiki/wiki/Ripple_Raider_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/sf-aeon.png"}

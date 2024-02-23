@@ -22,7 +22,7 @@ export const EmperorForADay: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${ImperialCity.key}]`,
     links: [
-        {title: "Emperor for a Day Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Emperor_for_a_Day_Badge"}
+        {title: "Emperor for a Day Badge", href: "https://homecoming.wiki/wiki/Emperor_for_a_Day_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

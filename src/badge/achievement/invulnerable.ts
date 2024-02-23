@@ -22,8 +22,8 @@ export const Invulnerable: IBadgeData = {
     ],
     acquisition: "Endure 50,000,000 points of damage",
     links: [
-        {title: "Invulnerable Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Invulnerable_Badge"},
-        {title: "Marvel of Modern Medicine Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marvel_of_Modern_Medicine_Badge"}
+        {title: "Invulnerable Badge", href: "https://homecoming.wiki/wiki/Invulnerable_Badge"},
+        {title: "Marvel of Modern Medicine Badge", href: "https://homecoming.wiki/wiki/Marvel_of_Modern_Medicine_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

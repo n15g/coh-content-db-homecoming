@@ -19,8 +19,8 @@ export const Undying: IBadgeData = {
     ],
     acquisition: "Pay off 600,000 debt",
     links: [
-        {title: "Undying Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Undying_Badge"},
-        {title: "Never Learns Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Never_Learns_Badge"}
+        {title: "Undying Badge", href: "https://homecoming.wiki/wiki/Undying_Badge"},
+        {title: "Never Learns Badge", href: "https://homecoming.wiki/wiki/Never_Learns_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

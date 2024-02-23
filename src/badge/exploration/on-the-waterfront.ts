@@ -14,7 +14,7 @@ export const OnTheWaterfront: IBadgeData = {
     }],
     notes: "Located in [map:nova-praetoria] on the lower ledge along the river, 211 yards south of Underground Access B.",
     links: [
-        {title: "On the Waterfront Badge", href: "https://hcwiki.cityofheroes.dev/wiki/On_the_Waterfront_Badge"}
+        {title: "On the Waterfront Badge", href: "https://homecoming.wiki/wiki/On_the_Waterfront_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "8"

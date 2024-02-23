@@ -17,6 +17,6 @@ export const Pickpocket: IBadgeData = {
     ],
     acquisition: "Collect 25 Souvenirs",
     links: [
-        {title: "Pickpocket Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pickpocket_Badge"}
+        {title: "Pickpocket Badge", href: "https://homecoming.wiki/wiki/Pickpocket_Badge"}
     ],
 };

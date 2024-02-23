@@ -21,8 +21,8 @@ export const FirebaseZuluSecurityDetail: IBadgeData = {
     ],
     acquisition: "Spend 3 minutes in the Shadow Shard",
     links: [
-        {title: "Firebase Zulu Security Detail Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Firebase_Zulu_Security_Detail_Badge"},
-        {title: "Firebase Zulu Deserter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Firebase_Zulu_Deserter_Badge"}
+        {title: "Firebase Zulu Security Detail Badge", href: "https://homecoming.wiki/wiki/Firebase_Zulu_Security_Detail_Badge"},
+        {title: "Firebase Zulu Deserter Badge", href: "https://homecoming.wiki/wiki/Firebase_Zulu_Deserter_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},

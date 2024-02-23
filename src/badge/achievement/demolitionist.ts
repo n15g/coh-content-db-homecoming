@@ -13,7 +13,7 @@ export const Demolitionist: IBadgeData = {
     ],
     acquisition: "Plant a bomb on the Rikti Mothership 10 times during Rikti Ship Raids",
     links: [
-        {title: "Demolitionist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Demolitionist_Badge"}
+        {title: "Demolitionist Badge", href: "https://homecoming.wiki/wiki/Demolitionist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/demolitionist.png"}

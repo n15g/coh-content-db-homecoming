@@ -20,8 +20,8 @@ export const Seeker: IBadgeData = {
     ],
     acquisition: "Earn 500 badges",
     links: [
-        {title: "Seeker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Seeker_Badge"},
-        {title: "Overachiever Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Overachiever_Badge"}
+        {title: "Seeker Badge", href: "https://homecoming.wiki/wiki/Seeker_Badge"},
+        {title: "Overachiever Badge", href: "https://homecoming.wiki/wiki/Overachiever_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/seeker-h.png"},

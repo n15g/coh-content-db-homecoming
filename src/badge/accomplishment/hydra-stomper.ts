@@ -16,7 +16,7 @@ export const HydraStomper: IBadgeData = {
     ],
     acquisition: "Complete the Death from Below Sewer Trial",
     links: [
-        {title: "Hydra Stomper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hydra_Stomper_Badge"}
+        {title: "Hydra Stomper Badge", href: "https://homecoming.wiki/wiki/Hydra_Stomper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/hydra-stomper.png"}

@@ -19,7 +19,7 @@ export const TheWolfsMaw: IBadgeData = {
     }],
     notes: "Located in [map:striga-isle] 212 yards east of the Wolf's Throat marker, in the middle of the gated entrance to the Council base.",
     links: [
-        {title: "The Wolf's Maw Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Wolf%27s_Maw_Badge"}
+        {title: "The Wolf's Maw Badge", href: "https://homecoming.wiki/wiki/The_Wolf%27s_Maw_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

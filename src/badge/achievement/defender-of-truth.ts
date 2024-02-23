@@ -23,10 +23,10 @@ export const DefenderOfTruth: IBadgeData = {
     ],
     acquisition: "Reach level 30",
     links: [
-        {title: "Defender of Truth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Defender_of_Truth_Badge"},
-        {title: "Wiseguy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wiseguy_Badge"},
-        {title: "Wisegal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wisegal_Badge"},
-        {title: "Rift Traveler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rift_Traveler_Badge"}
+        {title: "Defender of Truth Badge", href: "https://homecoming.wiki/wiki/Defender_of_Truth_Badge"},
+        {title: "Wiseguy Badge", href: "https://homecoming.wiki/wiki/Wiseguy_Badge"},
+        {title: "Wisegal Badge", href: "https://homecoming.wiki/wiki/Wisegal_Badge"},
+        {title: "Rift Traveler Badge", href: "https://homecoming.wiki/wiki/Rift_Traveler_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/defender-of-truth-h.png"},

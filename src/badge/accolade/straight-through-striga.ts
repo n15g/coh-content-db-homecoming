@@ -22,7 +22,7 @@ export const StraightThroughStriga: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${StrigaIsle.key}]`,
     links: [
-        {title: "Straight Through Striga Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Straight_Through_Striga_Badge"}
+        {title: "Straight Through Striga Badge", href: "https://homecoming.wiki/wiki/Straight_Through_Striga_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

@@ -13,7 +13,7 @@ export const Interrogator: IBadgeData = {
     ],
     acquisition: "Defeat Penelope Yin in Recluse's Victory",
     links: [
-        {title: "Interrogator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Interrogator_Badge"}
+        {title: "Interrogator Badge", href: "https://homecoming.wiki/wiki/Interrogator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/interrogator.png"}

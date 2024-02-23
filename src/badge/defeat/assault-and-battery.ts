@@ -13,7 +13,7 @@ export const AssaultAndBattery: IBadgeData = {
     ],
     acquisition: "Defeat 50 Freakshow Super Stunners.",
     links: [
-        {title: "Assault and Battery Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Assault_and_Battery_Badge"}
+        {title: "Assault and Battery Badge", href: "https://homecoming.wiki/wiki/Assault_and_Battery_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/assault-and-battery.png"}

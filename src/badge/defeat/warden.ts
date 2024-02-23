@@ -21,8 +21,8 @@ export const Warden: IBadgeData = {
     ],
     acquisition: "Defeat 500 Prisoners",
     links: [
-        {title: "Warden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Warden_Badge"},
-        {title: "Cruel Warden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cruel_Warden_Badge"}
+        {title: "Warden Badge", href: "https://homecoming.wiki/wiki/Warden_Badge"},
+        {title: "Cruel Warden Badge", href: "https://homecoming.wiki/wiki/Cruel_Warden_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/warden.png"}

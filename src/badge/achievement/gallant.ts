@@ -16,7 +16,7 @@ export const Gallant: IBadgeData = {
     ],
     acquisition: "Complete a Hero Morality mission",
     links: [
-        {title: "Gallant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gallant_Badge"}
+        {title: "Gallant Badge", href: "https://homecoming.wiki/wiki/Gallant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/gallant.png"}

@@ -18,7 +18,7 @@ When the Demon-Prince was broken and devoured, the ranks of his minions broke an
     }],
     notes: `Located in [map:${DarkAstoria.key}] in the Raimi Arcade neighborhood of Dark Astoria. It is located 176 yards south of the marker for Flicker.`,
     links: [
-        {title: "Folly's Victim Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Folly%27s_Victim_Badge"}
+        {title: "Folly's Victim Badge", href: "https://homecoming.wiki/wiki/Folly%27s_Victim_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

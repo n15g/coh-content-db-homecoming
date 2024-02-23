@@ -13,7 +13,7 @@ export const Technofreak: IBadgeData = {
         {value: `Let's all welcome a better future through the wonders of technology!`}
     ],
     links: [
-        {title: "Technofreak Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Technofreak_Badge"}
+        {title: "Technofreak Badge", href: "https://homecoming.wiki/wiki/Technofreak_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png"}

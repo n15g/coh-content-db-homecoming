@@ -18,7 +18,7 @@ export const ArenaAllStar: IBadgeData = {
     ],
     notes: `Earn the five arena match badges`,
     links: [
-        {title: "Arena All-Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arena_All-Star_Badge"}
+        {title: "Arena All-Star Badge", href: "https://homecoming.wiki/wiki/Arena_All-Star_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/arena-all-star.png"}

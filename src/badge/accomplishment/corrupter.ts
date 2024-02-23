@@ -13,7 +13,7 @@ export const Corrupter: IBadgeData = {
     ],
     acquisition: "Complete the Rescue the O'Gaffney law firm from the Circle of Thorns mini-arc from Neal Kendrick or Tina Chung",
     links: [
-        {title: "Corrupter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Corrupter_Badge"}
+        {title: "Corrupter Badge", href: "https://homecoming.wiki/wiki/Corrupter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/corrupter.png"}

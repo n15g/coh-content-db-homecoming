@@ -16,7 +16,7 @@ export const HeardTheCall: IBadgeData = {
     ],
     acquisition: "Maintain a Hero alignment for 7 days",
     links: [
-        {title: "Heard the Call Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heard_the_Call_Badge"}
+        {title: "Heard the Call Badge", href: "https://homecoming.wiki/wiki/Heard_the_Call_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heard-the-call.png"}

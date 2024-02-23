@@ -16,7 +16,7 @@ export const Regenerator: IBadgeData = {
     ],
     acquisition: "Defeat 100 Trolls bosses",
     links: [
-        {title: "Regenerator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Regenerator_Badge"}
+        {title: "Regenerator Badge", href: "https://homecoming.wiki/wiki/Regenerator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/regenerator.png"}

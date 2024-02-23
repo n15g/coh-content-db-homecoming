@@ -17,7 +17,7 @@ export const Stormwatcher: IBadgeData = {
     }],
     notes: "Located in [map:firebase-zulu] 133 yards SW of the Tempest Sector marker, at the base of the ramp leading into the base.",
     links: [
-        {title: "Stormwatcher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stormwatcher_Badge"}
+        {title: "Stormwatcher Badge", href: "https://homecoming.wiki/wiki/Stormwatcher_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

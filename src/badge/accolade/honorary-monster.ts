@@ -22,7 +22,7 @@ export const HonoraryMonster: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${MonsterIsland.key}]`,
     links: [
-        {title: "Honorary Monster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Honorary_Monster_Badge"}
+        {title: "Honorary Monster Badge", href: "https://homecoming.wiki/wiki/Honorary_Monster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

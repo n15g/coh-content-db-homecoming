@@ -13,7 +13,7 @@ export const StrikeBuster: IBadgeData = {
     ],
     acquisition: "Defeat 200 Scrapyarders (Sharkhead Isle)",
     links: [
-        {title: "Strike Buster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Strike_Buster_Badge"}
+        {title: "Strike Buster Badge", href: "https://homecoming.wiki/wiki/Strike_Buster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/scrapyarder.png"}

@@ -13,7 +13,7 @@ export const RedCap: IBadgeData = {
     ],
     acquisition: "Earn the [badge:toothbreaker] Badge (Red Caps)",
     links: [
-        {title: "Red Cap Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Red_Cap_Badge"}
+        {title: "Red Cap Badge", href: "https://homecoming.wiki/wiki/Red_Cap_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

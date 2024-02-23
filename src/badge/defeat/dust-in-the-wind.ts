@@ -17,7 +17,7 @@ export const DUSTInTheWind: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of D.U.S.T.",
     links: [
-        {title: "D.U.S.T. in the Wind Badge", href: "https://hcwiki.cityofheroes.dev/wiki/D.U.S.T._In_The_Wind_Badge"}
+        {title: "D.U.S.T. in the Wind Badge", href: "https://homecoming.wiki/wiki/D.U.S.T._In_The_Wind_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/dust-in-the-wind.png"}

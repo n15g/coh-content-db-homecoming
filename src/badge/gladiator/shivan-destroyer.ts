@@ -13,7 +13,7 @@ export const ShivanDestroyer: IBadgeData = {
     ],
     acquisition: "Earn the [badge:irradiated] Badge (Shivans)",
     links: [
-        {title: "Shivan Destroyer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shivan_Destroyer_Badge"}
+        {title: "Shivan Destroyer Badge", href: "https://homecoming.wiki/wiki/Shivan_Destroyer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

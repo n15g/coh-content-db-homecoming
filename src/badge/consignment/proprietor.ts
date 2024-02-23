@@ -14,7 +14,7 @@ export const Proprietor: IBadgeData = {
     ],
     acquisition: "6000 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Proprietor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Proprietor_Badge"}
+        {title: "Proprietor Badge", href: "https://homecoming.wiki/wiki/Proprietor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/proprietor.png"}]
 };

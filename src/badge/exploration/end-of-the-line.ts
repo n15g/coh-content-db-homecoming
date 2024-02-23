@@ -16,7 +16,7 @@ export const EndOfTheLine: IBadgeData = {
     }],
     notes: "The End of the Line badge is on the tip of a twisted light rail track 522 yards due east of the The Fuse marker.",
     links: [
-        {title: "End of the Line Badge", href: "https://hcwiki.cityofheroes.dev/wiki/End_of_the_Line_Badge"}
+        {title: "End of the Line Badge", href: "https://homecoming.wiki/wiki/End_of_the_Line_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

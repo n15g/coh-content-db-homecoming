@@ -15,7 +15,7 @@ export const MissedConnection: IBadgeData = {
     notes: "To get this badge and/or the Missed Connection badge you must run the missions from Scratch for villains or Ganymede for heroes and then talk to DJ Zero." +
         "\n\nDJ Zero will ask you if you want to deliver Valentines and once you say yes the valentines will drop like tip missions.",
     links: [
-        {title: "Missed Connection Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Missed_Connection_Badge"}
+        {title: "Missed Connection Badge", href: "https://homecoming.wiki/wiki/Missed_Connection_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/missed-connection.png"}]
 };

@@ -23,6 +23,6 @@ Repeat the story arc via Ouroboros
  - Before entering the second mission, travel to Ouroboros and speak to Mender Valen
  - Agree to rescue Laura according to Mender Valen's instructions, and if successful, the Guardian of Forever badge will be awarded during the fifth mission`,
     links: [
-        {title: "Guardian of Forever Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Guardian_of_Forever_Badge"}
+        {title: "Guardian of Forever Badge", href: "https://homecoming.wiki/wiki/Guardian_of_Forever_Badge"}
     ],
 };

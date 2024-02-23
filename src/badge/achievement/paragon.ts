@@ -21,9 +21,9 @@ export const Paragon: IBadgeData = {
     ],
     acquisition: "Sidekick another hero for 12 hours",
     links: [
-        {title: "Paragon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Paragon_Badge"},
-        {title: "Svengali Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Svengali_Badge"},
-        {title: "Teacher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Teacher_Badge"}
+        {title: "Paragon Badge", href: "https://homecoming.wiki/wiki/Paragon_Badge"},
+        {title: "Svengali Badge", href: "https://homecoming.wiki/wiki/Svengali_Badge"},
+        {title: "Teacher Badge", href: "https://homecoming.wiki/wiki/Teacher_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png"},

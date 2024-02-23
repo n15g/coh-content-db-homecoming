@@ -15,7 +15,7 @@ export const BeingAndNothingness: IBadgeData = {
     }],
     notes: "Located in [map:cascade-archipelago] 247 yards SSW of The Air Shoals marker, in the middle of a floating rock.",
     links: [
-        {title: "Being and Nothingness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Being_and_Nothingness_Badge"}
+        {title: "Being and Nothingness Badge", href: "https://homecoming.wiki/wiki/Being_and_Nothingness_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

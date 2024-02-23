@@ -20,7 +20,7 @@ export const Dispossessed: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] 362 yards WNW from the Bastion of Regret marker, under the floating rock with the circling tablets.",
     links: [
-        {title: "Dispossessed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dispossessed_Badge"}
+        {title: "Dispossessed Badge", href: "https://homecoming.wiki/wiki/Dispossessed_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

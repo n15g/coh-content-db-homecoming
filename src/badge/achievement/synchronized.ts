@@ -16,7 +16,7 @@ export const Synchronized: IBadgeData = {
     ],
     acquisition: "Destroy a Weapons Cache and a Containment Canister within 2 seconds of each other during the Lambda Sector Incarnate Trial",
     links: [
-        {title: "Synchronized Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Synchronized_Badge"}
+        {title: "Synchronized Badge", href: "https://homecoming.wiki/wiki/Synchronized_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-lambda.png"}

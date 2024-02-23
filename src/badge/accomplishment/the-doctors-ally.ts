@@ -13,7 +13,7 @@ export const TheDoctorsAlly: IBadgeData = {
     ],
     acquisition: "Complete the Investigate the hacker known as The Doctor mission from Gordon Stacy",
     links: [
-        {title: "The Doctor's Ally Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Doctor%27s_Ally_Badge"}
+        {title: "The Doctor's Ally Badge", href: "https://homecoming.wiki/wiki/The_Doctor%27s_Ally_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-doctors-ally.png"}

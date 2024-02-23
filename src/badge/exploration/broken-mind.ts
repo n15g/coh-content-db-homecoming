@@ -16,7 +16,7 @@ export const BrokenMind: IBadgeData = {
     }],
     notes: "Located in [map:underground-imperial] in the set of hallways furthest south, just north of the middle dead end.",
     links: [
-        {title: "Broken Mind Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Broken_Mind_Badge"}
+        {title: "Broken Mind Badge", href: "https://homecoming.wiki/wiki/Broken_Mind_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

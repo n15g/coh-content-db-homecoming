@@ -18,7 +18,7 @@ export const HealingNode: IBadgeData = {
         " The badge marker is located just to the right of Vitaly Cherenko, a contact in the Land of the Lost neighborhood of Skyway City." +
         "\n\nThe marker is approximately 280 yards due west of the midpoint between the Land of the Lost marker and the helicopter to Bloody Bay.",
     links: [
-        {title: "Healing Node Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Healing_Node_Badge"}
+        {title: "Healing Node Badge", href: "https://homecoming.wiki/wiki/Healing_Node_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

@@ -13,7 +13,7 @@ export const Troubleshooter: IBadgeData = {
     ],
     acquisition: "Complete 5 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Troubleshooter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Troubleshooter_Badge"}
+        {title: "Troubleshooter Badge", href: "https://homecoming.wiki/wiki/Troubleshooter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/troubleshooter.png"}]
 };

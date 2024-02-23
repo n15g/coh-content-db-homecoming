@@ -20,8 +20,8 @@ export const BlockadeRunner: IBadgeData = {
     ],
     notes: `Earn the [badge:marketeer] and [badge:smuggler] Day Jobs`,
     links: [
-        {title: "Blockade Runner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blockade_Runner_Badge"},
-        {title: "Profiteer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Profiteer_Badge"}
+        {title: "Blockade Runner Badge", href: "https://homecoming.wiki/wiki/Blockade_Runner_Badge"},
+        {title: "Profiteer Badge", href: "https://homecoming.wiki/wiki/Profiteer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png"}

@@ -16,7 +16,7 @@ export const SorcerersApprentice: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Animus Arcana",
     links: [
-        {title: "Sorcerer's Apprentice Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sorcerer%27s_Apprentice_Badge"}
+        {title: "Sorcerer's Apprentice Badge", href: "https://homecoming.wiki/wiki/Sorcerer%27s_Apprentice_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/sorcerers-apprentice.png"}

@@ -13,7 +13,7 @@ export const CantTouchThis: IBadgeData = {
     ],
     acquisition: `Defeat King Midas in Challenge Mode without any members of the team being hit by a Ripple Singularity during the length of the fight in Dr. Aeon's Strike Force.`,
     links: [
-        {title: "Can't Touch This Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Can%27t_Touch_This_Badge"}
+        {title: "Can't Touch This Badge", href: "https://homecoming.wiki/wiki/Can%27t_Touch_This_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/sf-aeon.png"}

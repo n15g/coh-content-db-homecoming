@@ -17,7 +17,7 @@ export const ChippedTalon: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Talons of Vengeance",
     links: [
-        {title: "Chipped Talon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chipped_Talon_Badge"}
+        {title: "Chipped Talon Badge", href: "https://homecoming.wiki/wiki/Chipped_Talon_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/chipped-talon.png"}

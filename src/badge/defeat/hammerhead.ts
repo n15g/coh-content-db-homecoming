@@ -13,7 +13,7 @@ export const Hammerhead: IBadgeData = {
     ],
     acquisition: "Defeat 200 Ghost of Scrapyard's followers",
     links: [
-        {title: "Hammerhead Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hammerhead_Badge"}
+        {title: "Hammerhead Badge", href: "https://homecoming.wiki/wiki/Hammerhead_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/hammerhead.png"}

@@ -17,7 +17,7 @@ export const DeadMansTree: IBadgeData = {
 
 It is just a few yards south of the tree in the northwest corner of the neighborhood.`,
     links: [
-        {title: "Dead Man's Tree Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dead_Man%27s_Tree_Badge"}
+        {title: "Dead Man's Tree Badge", href: "https://homecoming.wiki/wiki/Dead_Man%27s_Tree_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "5"

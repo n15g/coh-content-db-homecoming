@@ -17,8 +17,8 @@ export const Protectorate: IBadgeData = {
     ],
     acquisition: "Defeat 100 Devouring Earth emanators",
     links: [
-        {title: "Protectorate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Protectorate_Badge"},
-        {title: "Devourer of Earth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Devourer_of_Earth_Badge"}
+        {title: "Protectorate Badge", href: "https://homecoming.wiki/wiki/Protectorate_Badge"},
+        {title: "Devourer of Earth Badge", href: "https://homecoming.wiki/wiki/Devourer_of_Earth_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/devouring.png"}

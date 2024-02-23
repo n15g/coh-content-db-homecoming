@@ -16,7 +16,7 @@ export const TimeTraveler: IBadgeData = {
     ],
     acquisition: "Spend 1 hour in Recluse's Victory",
     links: [
-        {title: "Time Traveler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Traveler_Badge"}
+        {title: "Time Traveler Badge", href: "https://homecoming.wiki/wiki/Time_Traveler_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},

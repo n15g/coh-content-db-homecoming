@@ -13,7 +13,7 @@ export const EfficiencyExpert: IBadgeData = {
     ],
     acquisition: "Complete all of Efficiency Expert Pither's timed missions successfully",
     links: [
-        {title: "Efficiency Expert Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Efficiency_Expert_Badge"}
+        {title: "Efficiency Expert Badge", href: "https://homecoming.wiki/wiki/Efficiency_Expert_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-9.png"}

@@ -16,7 +16,7 @@ export const Tank: IBadgeData = {
         " right leg." +
         "\n\nIt is 233 yds south east of the arena.",
     links: [
-        {title: "Tank Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tank_Badge"}
+        {title: "Tank Badge", href: "https://homecoming.wiki/wiki/Tank_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

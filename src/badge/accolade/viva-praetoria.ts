@@ -21,7 +21,7 @@ export const VivaPraetoria: IBadgeData = {
     ],
     notes: `Visit all exploration badges in Praetoria`,
     links: [
-        {title: "Viva Praetoria Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Viva_Praetoria_Badge"}
+        {title: "Viva Praetoria Badge", href: "https://homecoming.wiki/wiki/Viva_Praetoria_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/viva-praetoria.png"}

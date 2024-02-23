@@ -16,8 +16,8 @@ export const Fwoosh: IBadgeData = {
     acquisition: `Complete Black Scorpion's patron story arc`,
     notes: `Completing the patron story arc 'Armor Wars' from Black Scorpion in Grandville unlocks the Mace Mastery patron power pool as well as awarding this badge.`,
     links: [
-        {title: "Fwoosh Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fwoosh_Badge"},
-        {title: "The Stinger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Stinger_Badge"}
+        {title: "Fwoosh Badge", href: "https://homecoming.wiki/wiki/Fwoosh_Badge"},
+        {title: "The Stinger Badge", href: "https://homecoming.wiki/wiki/The_Stinger_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/fwoosh.png"}

@@ -14,7 +14,7 @@ export const Frostbitten: IBadgeData = {
     ],
     acquisition: "Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
-        {title: "Frostbitten Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Frostbitten_Badge"}
+        {title: "Frostbitten Badge", href: "https://homecoming.wiki/wiki/Frostbitten_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/frostbitten.png"}]
 };

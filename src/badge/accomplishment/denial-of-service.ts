@@ -13,7 +13,7 @@ export const DenialOfService: IBadgeData = {
     ],
     acquisition: "Attempt to penetrate the sonic barrier surrounding the Praetorian zones",
     links: [
-        {title: "Denial of Service Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Denial_of_Service_Badge"}
+        {title: "Denial of Service Badge", href: "https://homecoming.wiki/wiki/Denial_of_Service_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/denial-of-service.png"}

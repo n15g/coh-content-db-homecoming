@@ -16,7 +16,7 @@ export const ShowsOver: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Carnival of Light, Vengeance, or War",
     links: [
-        {title: "Show's Over Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Show%27s_Over_Badge"}
+        {title: "Show's Over Badge", href: "https://homecoming.wiki/wiki/Show%27s_Over_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/shows-over.png"}

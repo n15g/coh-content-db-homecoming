@@ -8,7 +8,7 @@ export const Weaponeer: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Damage and Knockback."}],
     links: [
-        {title: "Weaponeer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Weaponeer_Badge"}
+        {title: "Weaponeer Badge", href: "https://homecoming.wiki/wiki/Weaponeer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [

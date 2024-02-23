@@ -13,7 +13,7 @@ export const Partygoer: IBadgeData = {
     ],
     acquisition: "Complete DJ Zero's mission once during a Valentine's Day Event.",
     links: [
-        {title: "Partygoer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Partygoer_Badge"}
+        {title: "Partygoer Badge", href: "https://homecoming.wiki/wiki/Partygoer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/partygoer.png"}]
 };

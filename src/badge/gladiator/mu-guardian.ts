@@ -13,7 +13,7 @@ export const MuGuardian: IBadgeData = {
     ],
     acquisition: "Defeat 100 Mu Guardians (Arachnos)",
     links: [
-        {title: "Mu Guardian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mu_Guardian_Badge"}
+        {title: "Mu Guardian Badge", href: "https://homecoming.wiki/wiki/Mu_Guardian_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

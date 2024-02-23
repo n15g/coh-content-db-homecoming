@@ -15,7 +15,7 @@ export const Engineer: IBadgeData = {
     }],
     notes: "Located in [map:underground-imperial] NNW of Underground Transit. Its coordinates are (-2015, 464, -193).",
     links: [
-        {title: "Engineer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Engineer_Badge"}
+        {title: "Engineer Badge", href: "https://homecoming.wiki/wiki/Engineer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

@@ -15,8 +15,8 @@ export const PPDDeputy: IBadgeData = {
     ],
     acquisition: "Save 20 hostage PPD agents in Safeguard Missions",
     links: [
-        {title: "PPD Deputy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/PPD_Deputy_Badge"},
-        {title: "Disgraced Deputy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Disgraced_Deputy_Badge"}
+        {title: "PPD Deputy Badge", href: "https://homecoming.wiki/wiki/PPD_Deputy_Badge"},
+        {title: "Disgraced Deputy Badge", href: "https://homecoming.wiki/wiki/Disgraced_Deputy_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/ppd-deputy.png"}

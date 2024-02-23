@@ -15,8 +15,8 @@ export const Chronologist: IBadgeData = {
     acquisition: "Log out inside Ouroboros for 100 hours.",
     effect: "Day Job: Bonus Recipe upon mission completion",
     links: [
-        {title: "Chronologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chronologist_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Chronologist Badge", href: "https://homecoming.wiki/wiki/Chronologist_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/chronologist.png"}]
 };

@@ -17,8 +17,8 @@ export const Rocketman: IBadgeData = {
     ],
     acquisition: "Launch the Warburg rocket ten times",
     links: [
-        {title: "Rocketman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rocketman_Badge"},
-        {title: "Rocketwoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rocketwoman_Badge"}
+        {title: "Rocketman Badge", href: "https://homecoming.wiki/wiki/Rocketman_Badge"},
+        {title: "Rocketwoman Badge", href: "https://homecoming.wiki/wiki/Rocketwoman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/rocketman.png"}

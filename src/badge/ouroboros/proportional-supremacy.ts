@@ -14,7 +14,7 @@ export const ProportionalSupremacy: IBadgeData = {
     ],
     acquisition: "Complete a Flashback story arc with three or fewer defeats.",
     links: [
-        {title: "Proportional Supremacy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Proportional_Supremacy_Badge"}
+        {title: "Proportional Supremacy Badge", href: "https://homecoming.wiki/wiki/Proportional_Supremacy_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/proportional-supremacy.png"}]
 };

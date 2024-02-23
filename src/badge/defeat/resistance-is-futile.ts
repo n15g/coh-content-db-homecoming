@@ -16,7 +16,7 @@ export const ResistanceIsFutile: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of The Resistance",
     links: [
-        {title: "Resistance is Futile Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Resistance_Is_Futile_Badge"}
+        {title: "Resistance is Futile Badge", href: "https://homecoming.wiki/wiki/Resistance_Is_Futile_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/resistance-is-futile.png"}

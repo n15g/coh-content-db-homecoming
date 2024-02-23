@@ -17,7 +17,7 @@ export const NewsFlash: IBadgeData = {
     ],
     acquisition: "Complete all three 500-point Public Opinion challenges, taking no more than 8 minutes per challenge, and then finish the TPN Campus Trial",
     links: [
-        {title: "News Flash Badge", href: "https://hcwiki.cityofheroes.dev/wiki/News_Flash_Badge"}
+        {title: "News Flash Badge", href: "https://homecoming.wiki/wiki/News_Flash_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-tpn.png"}

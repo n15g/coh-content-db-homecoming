@@ -16,7 +16,7 @@ export const StrawweightChampion: IBadgeData = {
     ],
     acquisition: "Win an Arena event in the Strawweight division",
     links: [
-        {title: "Strawweight Champion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Strawweight_Champion_Badge"}
+        {title: "Strawweight Champion Badge", href: "https://homecoming.wiki/wiki/Strawweight_Champion_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/strawweight-champion.png"}

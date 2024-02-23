@@ -13,7 +13,7 @@ export const ContainmentSpecialist: IBadgeData = {
     ],
     acquisition: "Turn off the sprinklers before the timer runs out during The Graveyard Shift story arc.",
     links: [
-        {title: "Containment Specialist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Containment_Specialist_Badge"}
+        {title: "Containment Specialist Badge", href: "https://homecoming.wiki/wiki/Containment_Specialist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/containment-specialist.png"}

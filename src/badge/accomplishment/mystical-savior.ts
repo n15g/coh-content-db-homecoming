@@ -14,8 +14,8 @@ export const MysticalSavior: IBadgeData = {
     ],
     acquisition: "Complete the Track down the Pantheon and rescue the mystics mission from Laura Brunetti or Miriam Bloechl",
     links: [
-        {title: "Mystical Savior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mystical_Savior_Badge"},
-        {title: "Mystical Adept Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mystical_Adept_Badge"}
+        {title: "Mystical Savior Badge", href: "https://homecoming.wiki/wiki/Mystical_Savior_Badge"},
+        {title: "Mystical Adept Badge", href: "https://homecoming.wiki/wiki/Mystical_Adept_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/mystical-savior.png"}

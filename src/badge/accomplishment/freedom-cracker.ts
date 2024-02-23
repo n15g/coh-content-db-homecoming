@@ -16,7 +16,7 @@ export const FreedomCracker: IBadgeData = {
     ],
     acquisition: "Complete Lt. Harris' story arc in Mercy Island",
     links: [
-        {title: "Freedom Cracker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom_Cracker_Badge"}
+        {title: "Freedom Cracker Badge", href: "https://homecoming.wiki/wiki/Freedom_Cracker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/freedom-cracker.png"}

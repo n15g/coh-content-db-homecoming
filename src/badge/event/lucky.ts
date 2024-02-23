@@ -13,7 +13,7 @@ export const Lucky: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Lucky Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lucky_Badge"}
+        {title: "Lucky Badge", href: "https://homecoming.wiki/wiki/Lucky_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/lucky.png"}]
 };

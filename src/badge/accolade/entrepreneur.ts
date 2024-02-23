@@ -20,8 +20,8 @@ export const Entrepreneur: IBadgeData = {
     ],
     notes: `Earn the [badge:shop-keeper] and [badge:day-trader] Day Jobs`,
     links: [
-        {title: "Entrepreneur Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Entrepreneur_Badge"},
-        {title: "Free Trade Advocate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Free_Trade_Advocate_Badge"}
+        {title: "Entrepreneur Badge", href: "https://homecoming.wiki/wiki/Entrepreneur_Badge"},
+        {title: "Free Trade Advocate Badge", href: "https://homecoming.wiki/wiki/Free_Trade_Advocate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png"}

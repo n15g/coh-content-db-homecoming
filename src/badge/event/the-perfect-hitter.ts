@@ -19,7 +19,7 @@ export const ThePerfectHitter: IBadgeData = {
         "## Phase 2\n" +
         "Teach **The Disheveled Drifter** how to count cards.",
     links: [
-        {title: "The Perfect Hitter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Perfect_Hitter_Badge"}
+        {title: "The Perfect Hitter Badge", href: "https://homecoming.wiki/wiki/The_Perfect_Hitter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/the-perfect-hitter.png"}]
 };

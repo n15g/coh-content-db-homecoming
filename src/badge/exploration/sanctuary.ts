@@ -12,7 +12,7 @@ export const Sanctuary: IBadgeData = {
     location: [1633.5, -55.3, 5206.5],
     notes: `Located in [map:cimerora] in front of the temple entrance along the beach, 182 yards southwest of the Phoebas Point neighborhood marker.`,
     links: [
-        {title: "Sanctuary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sanctuary_Badge"}
+        {title: "Sanctuary Badge", href: "https://homecoming.wiki/wiki/Sanctuary_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

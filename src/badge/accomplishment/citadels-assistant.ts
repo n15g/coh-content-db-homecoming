@@ -21,8 +21,8 @@ export const CitadelsAssistant: IBadgeData = {
     ],
     acquisition: "Complete the Citadel Task Force: Citadel's Children",
     links: [
-        {title: "Citadel's Assistant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Citadel%27s_Assistant_Badge"},
-        {title: "Citadel's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Citadel%27s_Betrayer_Badge"}
+        {title: "Citadel's Assistant Badge", href: "https://homecoming.wiki/wiki/Citadel%27s_Assistant_Badge"},
+        {title: "Citadel's Betrayer Badge", href: "https://homecoming.wiki/wiki/Citadel%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/citadels-assistant.png"}

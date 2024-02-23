@@ -16,7 +16,7 @@ export const LandSeaAir: IBadgeData = {
     ],
     acquisition: "Complete the Admiral Sutter Task Force",
     links: [
-        {title: "Land, Sea & Air Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Land%2C_Sea_%26_Air_Badge"}
+        {title: "Land, Sea & Air Badge", href: "https://homecoming.wiki/wiki/Land%2C_Sea_%26_Air_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/land-sea-air.png"}

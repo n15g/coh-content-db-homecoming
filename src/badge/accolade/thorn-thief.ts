@@ -14,7 +14,7 @@ export const ThornThief: IBadgeData = {
     acquisition: `Complete the second Tree of Thorns Respecification Trial`,
     notes: `The second (level 34-43) Tree of Thorns Respecification Trial is available from Trepsarciel in Nerva Archipelago.`,
     links: [
-        {title: "Thorn Thief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Thief_Badge"}
+        {title: "Thorn Thief Badge", href: "https://homecoming.wiki/wiki/Thorn_Thief_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/thorn-thief.png"}

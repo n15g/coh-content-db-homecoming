@@ -17,7 +17,7 @@ export const DefyingGravity: IBadgeData = {
     }],
     notes: "Located in [map:firebase-zulu] 225 yards WNW of the Firebase Zulu marker, at the top of rock on the western edge of the floating island.",
     links: [
-        {title: "Defying Gravity Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Defying_Gravity_Badge"}
+        {title: "Defying Gravity Badge", href: "https://homecoming.wiki/wiki/Defying_Gravity_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

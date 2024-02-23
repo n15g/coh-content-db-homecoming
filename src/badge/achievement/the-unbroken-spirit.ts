@@ -20,8 +20,8 @@ export const TheUnbrokenSpirit: IBadgeData = {
     ],
     acquisition: "Pay off 200,000 debt",
     links: [
-        {title: "The Unbroken Spirit Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Unbroken_Spirit_Badge"},
-        {title: "Undaunted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Undaunted_Badge"}
+        {title: "The Unbroken Spirit Badge", href: "https://homecoming.wiki/wiki/The_Unbroken_Spirit_Badge"},
+        {title: "Undaunted Badge", href: "https://homecoming.wiki/wiki/Undaunted_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

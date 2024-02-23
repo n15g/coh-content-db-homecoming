@@ -16,7 +16,7 @@ export const _5thColumnist: IBadgeData = {
     ],
     acquisition: "Earn the [badge:celebrant] and [badge:reveler] badges, or earn the [badge:column-breaker] Badge. (5th Column)",
     links: [
-        {title: "5th Columnist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/5th_Columnist_Badge"}
+        {title: "5th Columnist Badge", href: "https://homecoming.wiki/wiki/5th_Columnist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -22,9 +22,9 @@ You will hunt them down and extract your vengeance upon every Reaper and Mortifi
 You will make them know fear.`
     }],
     notes: `Located in [map:${SewerNetwork.key}] 362 yards northwest of the [map:${SkywayCity.key}] marker, in the middle of the junction that connects [map:${AtlasPark.key}] Sector,
-     [map:${KingsRow}] Sector, [map:${SkywayCity.key}] Sector and Underworld.`,
+     [map:${KingsRow.key}] Sector, [map:${SkywayCity.key}] Sector and Underworld.`,
     links: [
-        {title: "Terror of the Vahzilok Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Terror_of_the_Vahzilok_Badge"}
+        {title: "Terror of the Vahzilok Badge", href: "https://homecoming.wiki/wiki/Terror_of_the_Vahzilok_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

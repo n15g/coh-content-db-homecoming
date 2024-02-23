@@ -17,7 +17,7 @@ export const GerminatorTerminator: IBadgeData = {
     ],
     acquisition: "Defeat The Seed of Hamidon in First Ward",
     links: [
-        {title: "Germinator Terminator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Germinator_Terminator_Badge"}
+        {title: "Germinator Terminator Badge", href: "https://homecoming.wiki/wiki/Germinator_Terminator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/germinator-terminator.png"}

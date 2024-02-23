@@ -15,7 +15,7 @@ export const Determined: IBadgeData = {
     acquisition: `Complete every story arc in [map:${DarkAstoria.key}]`,
     notes: `This badge rewards 20 reward merits.`,
     links: [
-        {title: "Determined Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Determined_Badge"}
+        {title: "Determined Badge", href: "https://homecoming.wiki/wiki/Determined_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"},

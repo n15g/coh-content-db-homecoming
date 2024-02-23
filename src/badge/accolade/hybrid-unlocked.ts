@@ -14,7 +14,7 @@ export const HybridUnlocked: IBadgeData = {
     acquisition: `Unlock the Hybrid Incarnate slot`,
     notes: `Unlock the Hybrid Incarnate slot by earning Incarnate Experience through normal play.`,
     links: [
-        {title: "Hybrid Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hybrid_Unlocked_Badge"}
+        {title: "Hybrid Unlocked Badge", href: "https://homecoming.wiki/wiki/Hybrid_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hybrid-unlocked.png"}

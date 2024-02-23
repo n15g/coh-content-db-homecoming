@@ -21,9 +21,9 @@ export const Advisor: IBadgeData = {
     ],
     acquisition: "Sidekick another hero for 4 hours",
     links: [
-        {title: "Advisor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Advisor_Badge"},
-        {title: "Comrade Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Comrade_Badge"},
-        {title: "Encourager Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Encourager_Badge"}
+        {title: "Advisor Badge", href: "https://homecoming.wiki/wiki/Advisor_Badge"},
+        {title: "Comrade Badge", href: "https://homecoming.wiki/wiki/Comrade_Badge"},
+        {title: "Encourager Badge", href: "https://homecoming.wiki/wiki/Encourager_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png"},

@@ -8,7 +8,7 @@ export const Dismantler: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],
     links: [
-        {title: "Dismantler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dismantler_Badge"}
+        {title: "Dismantler Badge", href: "https://homecoming.wiki/wiki/Dismantler_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [

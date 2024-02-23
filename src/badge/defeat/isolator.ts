@@ -20,7 +20,7 @@ export const Isolator: IBadgeData = {
     ],
     acquisition: "Defeat 100 Contaminated",
     links: [
-        {title: "Isolator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Isolator_Badge"}
+        {title: "Isolator Badge", href: "https://homecoming.wiki/wiki/Isolator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/isolator.png"}

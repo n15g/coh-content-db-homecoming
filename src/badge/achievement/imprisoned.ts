@@ -21,9 +21,9 @@ export const Imprisoned: IBadgeData = {
     ],
     acquisition: "Be held for 60 minutes",
     links: [
-        {title: "Imprisoned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Imprisoned_Badge"},
-        {title: "Dazed and Confused Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dazed_and_Confused_Badge"},
-        {title: "Trapped Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trapped_Badge"}
+        {title: "Imprisoned Badge", href: "https://homecoming.wiki/wiki/Imprisoned_Badge"},
+        {title: "Dazed and Confused Badge", href: "https://homecoming.wiki/wiki/Dazed_and_Confused_Badge"},
+        {title: "Trapped Badge", href: "https://homecoming.wiki/wiki/Trapped_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hold-h.png"},

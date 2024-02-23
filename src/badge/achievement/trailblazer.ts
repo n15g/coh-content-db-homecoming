@@ -27,8 +27,8 @@ export const Trailblazer: IBadgeData = {
     ],
     acquisition: "Earn 200 badges",
     links: [
-        {title: "Trailblazer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trailblazer_Badge"},
-        {title: "Emissary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Emissary_Badge"}
+        {title: "Trailblazer Badge", href: "https://homecoming.wiki/wiki/Trailblazer_Badge"},
+        {title: "Emissary Badge", href: "https://homecoming.wiki/wiki/Emissary_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/trailblazer-h.png"},

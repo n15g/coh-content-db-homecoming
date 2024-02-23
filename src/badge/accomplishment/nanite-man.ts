@@ -17,8 +17,8 @@ export const NaniteMan: IBadgeData = {
     ],
     acquisition: "Complete the personal story mission from Max",
     links: [
-        {title: "Nanite Man Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nanite_Man_Badge"},
-        {title: "Nanite Woman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nanite_Woman_Badge"}
+        {title: "Nanite Man Badge", href: "https://homecoming.wiki/wiki/Nanite_Man_Badge"},
+        {title: "Nanite Woman Badge", href: "https://homecoming.wiki/wiki/Nanite_Woman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png"}

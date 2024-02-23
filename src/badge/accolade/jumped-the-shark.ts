@@ -22,7 +22,7 @@ export const JumpedTheShark: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SharkheadIsle.key}]`,
     links: [
-        {title: "Jumped the Shark Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jumped_the_Shark_Badge"}
+        {title: "Jumped the Shark Badge", href: "https://homecoming.wiki/wiki/Jumped_the_Shark_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}

@@ -14,7 +14,7 @@ export const BestFriendsForever: IBadgeData = {
     ],
     acquisition: `Take Becky, the Tarantula Secretary hostage in the first mission, ensure she has a fun time, and then accept her help and complete the final mission without her being defeated in Dr. Aeon's Strike Force.`,
     links: [
-        {title: "Best Friends Forever Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Best_Friends_Forever_Badge"}
+        {title: "Best Friends Forever Badge", href: "https://homecoming.wiki/wiki/Best_Friends_Forever_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/best-friends-forever.png"}

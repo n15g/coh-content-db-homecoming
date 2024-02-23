@@ -14,7 +14,7 @@ export const Meltdown: IBadgeData = {
     }],
     notes: `Located on top of the main reactor, on the northeast sector of the dome just before the dropoff.`,
     links: [
-        {title: "Meltdown Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Meltdown_Badge"}
+        {title: "Meltdown Badge", href: "https://homecoming.wiki/wiki/Meltdown_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

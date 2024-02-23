@@ -16,7 +16,7 @@ export const Technophobe: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Praetorian Clockwork",
     links: [
-        {title: "Technophobe Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Technophobe_Badge"}
+        {title: "Technophobe Badge", href: "https://homecoming.wiki/wiki/Technophobe_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/technophobe.png"}

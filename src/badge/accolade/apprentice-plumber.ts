@@ -22,7 +22,7 @@ export const ApprenticePlumber: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SewerNetwork.key}]`,
     links: [
-        {title: "Apprentice Plumber Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Apprentice_Plumber_Badge"}
+        {title: "Apprentice Plumber Badge", href: "https://homecoming.wiki/wiki/Apprentice_Plumber_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

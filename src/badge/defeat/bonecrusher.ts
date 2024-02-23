@@ -13,7 +13,7 @@ export const Bonecrusher: IBadgeData = {
     ],
     acquisition: "Defeat 50 Skulls Bone Daddies, Death Dolls, or Death Walkers",
     links: [
-        {title: "Bonecrusher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bonecrusher_Badge"}
+        {title: "Bonecrusher Badge", href: "https://homecoming.wiki/wiki/Bonecrusher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/skulls.png"}

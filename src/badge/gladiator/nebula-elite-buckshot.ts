@@ -13,7 +13,7 @@ export const NebulaEliteBuckshot: IBadgeData = {
     ],
     acquisition: "Earn the [badge:protector-of-innocents] Badge (Council)",
     links: [
-        {title: "Nebula Elite Buckshot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nebula_Elite_Buckshot_Badge"}
+        {title: "Nebula Elite Buckshot Badge", href: "https://homecoming.wiki/wiki/Nebula_Elite_Buckshot_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

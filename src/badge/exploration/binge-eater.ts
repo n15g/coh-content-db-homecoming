@@ -15,7 +15,7 @@ export const BingeEater: IBadgeData = {
     }],
     notes: "Located in [map:underground-neutropolis] in the green segment in the NW corner of the map, 99 yards East of City Access C.",
     links: [
-        {title: "Binge Eater Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Binge_Eater_Badge"}
+        {title: "Binge Eater Badge", href: "https://homecoming.wiki/wiki/Binge_Eater_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

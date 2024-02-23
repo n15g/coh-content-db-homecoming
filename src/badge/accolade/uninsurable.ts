@@ -21,8 +21,8 @@ export const Uninsurable: IBadgeData = {
     ],
     notes: `Awards the Force of Nature power`,
     links: [
-        {title: "Uninsurable Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Uninsurable_Badge"},
-        {title: "Force of Nature Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Force_of_Nature_Badge"}
+        {title: "Uninsurable Badge", href: "https://homecoming.wiki/wiki/Uninsurable_Badge"},
+        {title: "Force of Nature Badge", href: "https://homecoming.wiki/wiki/Force_of_Nature_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/uninsurable.png"}

@@ -22,7 +22,7 @@ export const PurePraetorian: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${NovaPraetoria.key}]`,
     links: [
-        {title: "Pure Praetorian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pure_Praetorian_Badge"}
+        {title: "Pure Praetorian Badge", href: "https://homecoming.wiki/wiki/Pure_Praetorian_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

@@ -11,7 +11,7 @@ export const VirtuallyImpulsive: IBadgeData = {
     badgeText: [{value: "You've clicked on your first mission objective in Test Mode earning yourself the Virtually Impulsive badge."}],
     acquisition: "Earn this badge by interacting with any mission objective while in Test Mode.",
     links: [
-        {title: "Virtually Impulsive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Virtually_Impulsive_Badge"}
+        {title: "Virtually Impulsive Badge", href: "https://homecoming.wiki/wiki/Virtually_Impulsive_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/virtually-impulsive.png"}]
 };

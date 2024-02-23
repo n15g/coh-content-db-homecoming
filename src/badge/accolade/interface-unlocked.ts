@@ -14,7 +14,7 @@ export const InterfaceUnlocked: IBadgeData = {
     acquisition: `Unlock the Interface Incarnate slot`,
     notes: `Unlock the Interface Incarnate slot by earning Incarnate Experience through normal play.`,
     links: [
-        {title: "Interface Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Interface_Unlocked_Badge"}
+        {title: "Interface Unlocked Badge", href: "https://homecoming.wiki/wiki/Interface_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/interface-unlocked.png"}

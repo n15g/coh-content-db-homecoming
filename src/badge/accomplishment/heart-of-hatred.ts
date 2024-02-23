@@ -16,7 +16,7 @@ export const HeartOfHatred: IBadgeData = {
     ],
     acquisition: "Complete the final story arc from Dream Doctor",
     links: [
-        {title: "Heart of Hatred Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heart_of_Hatred_Badge"}
+        {title: "Heart of Hatred Badge", href: "https://homecoming.wiki/wiki/Heart_of_Hatred_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png"}

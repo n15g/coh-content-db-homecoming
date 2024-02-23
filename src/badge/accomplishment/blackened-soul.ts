@@ -16,7 +16,7 @@ export const BlackenedSoul: IBadgeData = {
     ],
     acquisition: "Complete the Level 10-14 Ongoing Training story arc from Dr. Graves",
     links: [
-        {title: "Blackened Soul Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blackened_Soul_Badge"}
+        {title: "Blackened Soul Badge", href: "https://homecoming.wiki/wiki/Blackened_Soul_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/blackened-soul.png"}

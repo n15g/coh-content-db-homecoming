@@ -13,7 +13,7 @@ export const OmegaWolf: IBadgeData = {
     ],
     acquisition: "Earn the [badge:the-silver-bullet] Badge (Council)",
     links: [
-        {title: "Omega Wolf Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Omega_Wolf_Badge"}
+        {title: "Omega Wolf Badge", href: "https://homecoming.wiki/wiki/Omega_Wolf_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

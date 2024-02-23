@@ -17,7 +17,7 @@ export const MidnightSquad: IBadgeData = {
     ],
     acquisition: "Complete the Lost and Found story arc from Montague Castanella, or visit the House Hunter exploration badge",
     links: [
-        {title: "Midnight Squad Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Midnight_Squad_Badge"}
+        {title: "Midnight Squad Badge", href: "https://homecoming.wiki/wiki/Midnight_Squad_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/midnight-squad.png"}

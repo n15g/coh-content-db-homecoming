@@ -13,7 +13,7 @@ export const Castigator: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Incarnate-level Talons of Vengeance",
     links: [
-        {title: "Castigator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Castigator_Badge"}
+        {title: "Castigator Badge", href: "https://homecoming.wiki/wiki/Castigator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/castigator.png"}

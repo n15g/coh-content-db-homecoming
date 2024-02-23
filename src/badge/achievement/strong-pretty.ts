@@ -17,7 +17,7 @@ export const StrongPretty: IBadgeData = {
     ],
     acquisition: "Defeat Siege & Nightstar while none of their reinforcements are alive during a Behavioral Adjustment Facility Incarnate Trial",
     links: [
-        {title: "Strong & Pretty Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Strong_%26_Pretty_Badge"}
+        {title: "Strong & Pretty Badge", href: "https://homecoming.wiki/wiki/Strong_%26_Pretty_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-baf.png"}

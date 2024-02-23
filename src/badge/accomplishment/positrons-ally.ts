@@ -15,8 +15,8 @@ export const PositronsAlly: IBadgeData = {
     ],
     acquisition: "Complete both parts of the Positron Task Force: The Rule of Three",
     links: [
-        {title: "Positron's Ally Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Positron%27s_Ally_Badge"},
-        {title: "Positron's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Positron%27s_Betrayer_Badge"}
+        {title: "Positron's Ally Badge", href: "https://homecoming.wiki/wiki/Positron%27s_Ally_Badge"},
+        {title: "Positron's Betrayer Badge", href: "https://homecoming.wiki/wiki/Positron%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/positrons-ally.png"}

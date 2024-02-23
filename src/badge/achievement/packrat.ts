@@ -12,6 +12,6 @@ export const Packrat: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/packrat.png"}],
     acquisition: "Collect 100 Souvenirs",
     links: [
-        {title: "Packrat Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Packrat_Badge"}
+        {title: "Packrat Badge", href: "https://homecoming.wiki/wiki/Packrat_Badge"}
     ],
 };

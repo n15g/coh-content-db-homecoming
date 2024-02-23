@@ -16,7 +16,7 @@ export const TheSolution: IBadgeData = {
     ],
     acquisition: "Defeat Jurassik, a monster that spawns in Crey's Folly",
     links: [
-        {title: "The Solution Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Solution_Badge"}
+        {title: "The Solution Badge", href: "https://homecoming.wiki/wiki/The_Solution_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/devouring.png"}

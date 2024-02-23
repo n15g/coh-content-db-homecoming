@@ -15,8 +15,8 @@ export const Salesman: IBadgeData = {
     ],
     acquisition: "50 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Salesman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Salesman_Badge"},
-        {title: "Saleswoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Saleswoman_Badge"}
+        {title: "Salesman Badge", href: "https://homecoming.wiki/wiki/Salesman_Badge"},
+        {title: "Saleswoman Badge", href: "https://homecoming.wiki/wiki/Saleswoman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/salesman.png"}]
 };

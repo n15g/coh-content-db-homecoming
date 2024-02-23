@@ -22,7 +22,7 @@ export const IPAddress: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${IndependencePort.key}]`,
     links: [
-        {title: "IP Address Badge", href: "https://hcwiki.cityofheroes.dev/wiki/IP_Address_Badge"}
+        {title: "IP Address Badge", href: "https://homecoming.wiki/wiki/IP_Address_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

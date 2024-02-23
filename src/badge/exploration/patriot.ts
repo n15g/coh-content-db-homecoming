@@ -19,8 +19,8 @@ export const Patriot: IBadgeData = {
         "\n" +
         "The badge marker is inside City Hall, just in front of the statue located just left (west) of the supergroup registration desk.",
     links: [
-        {title: "Patriot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Patriot_Badge"},
-        {title: "International Spy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/International_Spy_Badge"}
+        {title: "Patriot Badge", href: "https://homecoming.wiki/wiki/Patriot_Badge"},
+        {title: "International Spy Badge", href: "https://homecoming.wiki/wiki/International_Spy_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

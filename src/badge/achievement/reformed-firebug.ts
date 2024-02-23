@@ -18,8 +18,8 @@ export const ReformedFirebug: IBadgeData = {
     ],
     acquisition: "Complete 10 Arson side missions in Mayhem Missions",
     links: [
-        {title: "Reformed Firebug Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Reformed_Firebug_Badge"},
-        {title: "Firebug Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Firebug_Badge"}
+        {title: "Reformed Firebug Badge", href: "https://homecoming.wiki/wiki/Reformed_Firebug_Badge"},
+        {title: "Firebug Badge", href: "https://homecoming.wiki/wiki/Firebug_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/reformed-firebug.png"}

@@ -22,7 +22,7 @@ export const LostAndFound: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${FoundersFalls.key}]`,
     links: [
-        {title: "Lost and Found Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lost_and_Found_Badge"}
+        {title: "Lost and Found Badge", href: "https://homecoming.wiki/wiki/Lost_and_Found_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

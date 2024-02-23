@@ -21,9 +21,9 @@ export const Indestructible: IBadgeData = {
     ],
     acquisition: "Endure 500,000 points of damage",
     links: [
-        {title: "Indestructible Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Indestructible_Badge"},
-        {title: "Hard Case Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hard_Case_Badge"},
-        {title: "Big Dog Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Big_Dog_Badge"}
+        {title: "Indestructible Badge", href: "https://homecoming.wiki/wiki/Indestructible_Badge"},
+        {title: "Hard Case Badge", href: "https://homecoming.wiki/wiki/Hard_Case_Badge"},
+        {title: "Big Dog Badge", href: "https://homecoming.wiki/wiki/Big_Dog_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

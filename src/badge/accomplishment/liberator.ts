@@ -14,8 +14,8 @@ export const Liberator: IBadgeData = {
     ],
     acquisition: "Complete the Eden Spire Trial",
     links: [
-        {title: "Liberator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Liberator_Badge"},
-        {title: "Destroyer of Earth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destroyer_of_Earth_Badge"}
+        {title: "Liberator Badge", href: "https://homecoming.wiki/wiki/Liberator_Badge"},
+        {title: "Destroyer of Earth Badge", href: "https://homecoming.wiki/wiki/Destroyer_of_Earth_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png"}

@@ -17,7 +17,7 @@ Between the many villains who prowl the streets here there lies the danger of el
     }],
     notes: `168 yards south of the [map:${IndependencePort.key}] gate, on the roof of the building.`,
     links: [
-        {title: "Danger! Danger! Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Danger!_Danger!_Badge"}
+        {title: "Danger! Danger! Badge", href: "https://homecoming.wiki/wiki/Danger!_Danger!_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

@@ -12,6 +12,6 @@ export const Tyrant: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_loyal.png"}],
     acquisition: "Complete every story arc in the Praetorian Power storyline to earn this badge.",
     links: [
-        {title: "Tyrant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tyrant_Badge"}
+        {title: "Tyrant Badge", href: "https://homecoming.wiki/wiki/Tyrant_Badge"}
     ],
 };

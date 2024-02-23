@@ -16,7 +16,7 @@ export const SlayerOfMadness: IBadgeData = {
     ],
     acquisition: "Complete the Faathim the Kind Task Force: The Saga of Lanaru",
     links: [
-        {title: "Slayer of Madness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Slayer_of_Madness_Badge"}
+        {title: "Slayer of Madness Badge", href: "https://homecoming.wiki/wiki/Slayer_of_Madness_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/slayer-of-madness.png"}

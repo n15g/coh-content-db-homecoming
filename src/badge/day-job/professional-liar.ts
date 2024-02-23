@@ -20,9 +20,9 @@ export const ProfessionalLiar: IBadgeData = {
     acquisition: "Log out at the Arachnos Building in Marconeville for 100 hours.",
     effect: "Day Job: Bonus Infamy upon mission completion",
     links: [
-        {title: "Professional Liar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Professional_Liar_Badge"},
-        {title: "Demagogue Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Demagogue_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Professional Liar Badge", href: "https://homecoming.wiki/wiki/Professional_Liar_Badge"},
+        {title: "Demagogue Badge", href: "https://homecoming.wiki/wiki/Demagogue_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/professional-liar.png"}]
 };

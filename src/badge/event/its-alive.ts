@@ -13,7 +13,7 @@ export const ItsAlive: IBadgeData = {
     ],
     acquisition: "Defeat 99 zombies in the graveyard while the Abomination is alive, and then defeat the Abomination in under 12 minutes during the Halloween event.",
     links: [
-        {title: "It's Alive! Badge", href: "https://hcwiki.cityofheroes.dev/wiki/It%27s_Alive!_Badge"}
+        {title: "It's Alive! Badge", href: "https://homecoming.wiki/wiki/It%27s_Alive!_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/its-alive.png"}]
 };

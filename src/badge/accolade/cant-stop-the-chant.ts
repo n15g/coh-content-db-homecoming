@@ -22,7 +22,7 @@ export const CantStopTheChant: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TheChantry.key}]`,
     links: [
-        {title: "Can't Stop the Chant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Can%27t_Stop_the_Chant_Badge"}
+        {title: "Can't Stop the Chant Badge", href: "https://homecoming.wiki/wiki/Can%27t_Stop_the_Chant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

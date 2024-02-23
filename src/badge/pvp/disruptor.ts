@@ -14,7 +14,7 @@ export const Disruptor: IBadgeData = {
     ],
     acquisition: "Defeat 50 player characters in a PvP zone by your own hand",
     links: [
-        {title: "Disruptor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Disruptor_Badge"}
+        {title: "Disruptor Badge", href: "https://homecoming.wiki/wiki/Disruptor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png"}

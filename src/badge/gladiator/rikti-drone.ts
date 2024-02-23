@@ -13,7 +13,7 @@ export const RiktiDrone: IBadgeData = {
     ],
     acquisition: "Earn the [badge:savant] Badge (Rikti)",
     links: [
-        {title: "Rikti Drone Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rikti_Drone_Badge"}
+        {title: "Rikti Drone Badge", href: "https://homecoming.wiki/wiki/Rikti_Drone_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

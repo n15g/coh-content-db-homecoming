@@ -13,7 +13,7 @@ export const SwiftSteel: IBadgeData = {
     ],
     acquisition: "Defeat 300 Ancestor Spirits (Tsoo)",
     links: [
-        {title: "Swift Steel Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Swift_Steel_Badge"}
+        {title: "Swift Steel Badge", href: "https://homecoming.wiki/wiki/Swift_Steel_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

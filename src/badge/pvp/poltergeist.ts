@@ -13,7 +13,7 @@ export const Poltergeist: IBadgeData = {
     ],
     acquisition: "Defeat Ghost Widow in Recluse's Victory",
     links: [
-        {title: "Poltergeist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Poltergeist_Badge"}
+        {title: "Poltergeist Badge", href: "https://homecoming.wiki/wiki/Poltergeist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/poltergeist.png"}

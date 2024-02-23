@@ -16,7 +16,7 @@ export const Frenzied: IBadgeData = {
     ],
     acquisition: "Maintain a Villain alignment for 7 days",
     links: [
-        {title: "Frenzied Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Frenzied_Badge"}
+        {title: "Frenzied Badge", href: "https://homecoming.wiki/wiki/Frenzied_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/frenzied.png"}

@@ -13,7 +13,7 @@ export const TheSilverBullet: IBadgeData = {
     ],
     acquisition: "Defeat 200 Council Warwolves",
     links: [
-        {title: "The Silver Bullet Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Silver_Bullet_Badge"}
+        {title: "The Silver Bullet Badge", href: "https://homecoming.wiki/wiki/The_Silver_Bullet_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/council.png"}

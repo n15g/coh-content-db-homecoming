@@ -18,8 +18,8 @@ export const SynapsesCohort: IBadgeData = {
     ],
     acquisition: "Complete the Synapse Task Force: The Fall of the Clockwork King",
     links: [
-        {title: "Synapse's Cohort Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Synapse%27s_Cohort_Badge"},
-        {title: "Synapse's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Synapse%27s_Betrayer_Badge"}
+        {title: "Synapse's Cohort Badge", href: "https://homecoming.wiki/wiki/Synapse%27s_Cohort_Badge"},
+        {title: "Synapse's Betrayer Badge", href: "https://homecoming.wiki/wiki/Synapse%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/synapses-cohort.png"}

@@ -18,7 +18,7 @@ export const TonightsTopStory: IBadgeData = {
     ],
     acquisition: "Defeat Maelstrom within four minutes during each of his three encounters",
     links: [
-        {title: "Tonight's Top Story Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tonight%27s_Top_Story_Badge"}
+        {title: "Tonight's Top Story Badge", href: "https://homecoming.wiki/wiki/Tonight%27s_Top_Story_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-tpn.png"}

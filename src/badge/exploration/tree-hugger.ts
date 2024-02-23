@@ -16,7 +16,7 @@ export const TreeHugger: IBadgeData = {
 
 It is at the northwestern base of the large thorn tree in the center of the neighborhood.`,
     links: [
-        {title: "Tree Hugger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tree_Hugger_Badge"}
+        {title: "Tree Hugger Badge", href: "https://homecoming.wiki/wiki/Tree_Hugger_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "5"

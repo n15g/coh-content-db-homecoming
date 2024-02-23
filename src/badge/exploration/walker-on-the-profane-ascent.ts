@@ -18,7 +18,7 @@ As appropriate offerings to the all-consuming manifestation of Death, the vaingl
     }],
     notes: `Located in [map:${DarkAstoria.key}] in the Moth Cemetery neighborhood, 516 yards west-northwest of the Moth marker, between the two mausoleums at the end of the ridge.`,
     links: [
-        {title: "Walker on the Profane Ascent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Walker_on_the_Profane_Ascent_Badge"}
+        {title: "Walker on the Profane Ascent Badge", href: "https://homecoming.wiki/wiki/Walker_on_the_Profane_Ascent_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

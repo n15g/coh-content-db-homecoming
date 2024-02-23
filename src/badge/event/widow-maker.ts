@@ -14,7 +14,7 @@ export const WidowMaker: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Jessica Megan Duncan or Arbiter Hawk during the Spring Event.",
     links: [
-        {title: "Widow Maker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Widow_Maker_Badge"}
+        {title: "Widow Maker Badge", href: "https://homecoming.wiki/wiki/Widow_Maker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/widow-maker.png"}]
 };

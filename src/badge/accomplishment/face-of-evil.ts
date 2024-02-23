@@ -16,7 +16,7 @@ export const FaceOfEvil: IBadgeData = {
     ],
     acquisition: "Complete the Level 15-19 Ongoing Training story arc from Dr. Graves",
     links: [
-        {title: "Face Of Evil Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Face_Of_Evil_Badge"}
+        {title: "Face Of Evil Badge", href: "https://homecoming.wiki/wiki/Face_Of_Evil_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/face-of-evil.png"}

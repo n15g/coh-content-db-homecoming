@@ -16,7 +16,7 @@ export const RiptidesComrade: IBadgeData = {
     ],
     acquisition: "Complete all objectives in the second mission of the third story arc from Provost Marchand before Riptide is defeated",
     links: [
-        {title: "Riptide's Comrade Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Riptide%27s_Comrade_Badge"}
+        {title: "Riptide's Comrade Badge", href: "https://homecoming.wiki/wiki/Riptide%27s_Comrade_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-challenge.png"}

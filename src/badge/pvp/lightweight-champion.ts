@@ -16,7 +16,7 @@ export const LightweightChampion: IBadgeData = {
     ],
     acquisition: "Win an Arena event in the Lightweight division",
     links: [
-        {title: "Lightweight Champion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lightweight_Champion_Badge"}
+        {title: "Lightweight Champion Badge", href: "https://homecoming.wiki/wiki/Lightweight_Champion_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/lightweight-champion.png"}

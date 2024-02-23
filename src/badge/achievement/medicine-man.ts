@@ -20,9 +20,9 @@ export const MedicineMan: IBadgeData = {
     ],
     acquisition: "Heal others for 5,000,000 hit points",
     links: [
-        {title: "Medicine Man Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Medicine_Man_Badge"},
-        {title: "Medicine Woman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Medicine_Woman_Badge"},
-        {title: "Savior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Savior_Badge"}
+        {title: "Medicine Man Badge", href: "https://homecoming.wiki/wiki/Medicine_Man_Badge"},
+        {title: "Medicine Woman Badge", href: "https://homecoming.wiki/wiki/Medicine_Woman_Badge"},
+        {title: "Savior Badge", href: "https://homecoming.wiki/wiki/Savior_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heal-h.png"},

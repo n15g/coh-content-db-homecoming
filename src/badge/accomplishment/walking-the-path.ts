@@ -17,6 +17,6 @@ export const WalkingThePath: IBadgeData = {
     ],
     acquisition: "Complete an Alignment mission",
     links: [
-        {title: "Walking the Path Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Walking_the_Path_Badge"}
+        {title: "Walking the Path Badge", href: "https://homecoming.wiki/wiki/Walking_the_Path_Badge"}
     ]
 };

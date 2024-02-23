@@ -24,9 +24,9 @@ export const JohnnysExBestFriend: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${StMartial.key}]`,
     links: [
-        {title: "Johnny's Ex-Best Friend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Johnny%27s_Ex-Best_Friend_Badge"},
-        {title: "Johnny's Go To Guy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Johnny%27s_Go_To_Guy_Badge"},
-        {title: "Johnny's Go To Gal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Johnny%27s_Go_To_Gal_Badge"}
+        {title: "Johnny's Ex-Best Friend Badge", href: "https://homecoming.wiki/wiki/Johnny%27s_Ex-Best_Friend_Badge"},
+        {title: "Johnny's Go To Guy Badge", href: "https://homecoming.wiki/wiki/Johnny%27s_Go_To_Guy_Badge"},
+        {title: "Johnny's Go To Gal Badge", href: "https://homecoming.wiki/wiki/Johnny%27s_Go_To_Gal_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}

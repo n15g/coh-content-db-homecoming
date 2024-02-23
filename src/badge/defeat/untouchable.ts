@@ -16,7 +16,7 @@ export const Untouchable: IBadgeData = {
     ],
     acquisition: "Defeat 100 bosses of The Family, of any kind.",
     links: [
-        {title: "Untouchable Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Untouchable_Badge"}
+        {title: "Untouchable Badge", href: "https://homecoming.wiki/wiki/Untouchable_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/untouchable.png"}

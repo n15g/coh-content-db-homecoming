@@ -14,7 +14,7 @@ export const NightWidow: IBadgeData = {
     ],
     acquisition: `Earn the ${badgeReference(DefenderOfTruth)} Badge (Arachnos)`,
     links: [
-        {title: "Night Widow Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Night_Widow_Badge"}
+        {title: "Night Widow Badge", href: "https://homecoming.wiki/wiki/Night_Widow_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

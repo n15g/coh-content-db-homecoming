@@ -16,7 +16,7 @@ export const ArachnosRising: IBadgeData = {
         {value: `Know your friends -- but know your rivals even better.`}
     ],
     links: [
-        {title: "Arachnos Rising Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnos_Rising_Badge"}
+        {title: "Arachnos Rising Badge", href: "https://homecoming.wiki/wiki/Arachnos_Rising_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png"}

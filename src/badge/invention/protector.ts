@@ -9,7 +9,7 @@ export const Protector: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Defense Buff, Resist Damage, Intangible."}],
     effect: "+2 to Invention Salvage capacity",
     links: [
-        {title: "Protector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Protector_Badge"}
+        {title: "Protector Badge", href: "https://homecoming.wiki/wiki/Protector_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [

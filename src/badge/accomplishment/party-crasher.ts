@@ -13,7 +13,7 @@ export const PartyCrasher: IBadgeData = {
     ],
     acquisition: "Complete the Steal Alloy from Silver Mantis mission from Dr. Forrester",
     links: [
-        {title: "Party Crasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Party_Crasher_Badge"}
+        {title: "Party Crasher Badge", href: "https://homecoming.wiki/wiki/Party_Crasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-8.png"}

@@ -23,7 +23,7 @@ export const ShatteredTime: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${ReclusesVictory.key}]`,
     links: [
-        {title: "Shattered Time Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shattered_Time_Badge"}
+        {title: "Shattered Time Badge", href: "https://homecoming.wiki/wiki/Shattered_Time_Badge"}
     ],
     partials: [
         {key: Globetrotter.key, type: BadgePartialType.BADGE, badgeKey: Globetrotter.key},

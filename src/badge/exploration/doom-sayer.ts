@@ -17,7 +17,7 @@ export const DoomSayer: IBadgeData = {
     notes: "The Doom Sayer Badge is located in the Vagabond Hills neighborhood of Cap au Diable." +
         " It is in the construction area 131 yards west of the neighborhood marker near a bulldozer.",
     links: [
-        {title: "Doom Sayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Doom_Sayer_Badge"}
+        {title: "Doom Sayer Badge", href: "https://homecoming.wiki/wiki/Doom_Sayer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"

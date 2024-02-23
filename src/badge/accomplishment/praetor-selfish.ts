@@ -16,7 +16,7 @@ export const PraetorSelfish: IBadgeData = {
     ],
     acquisition: "Complete the personal story mission from Praetor Duncan",
     links: [
-        {title: "Praetor Selfish Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetor_Selfish_Badge"}
+        {title: "Praetor Selfish Badge", href: "https://homecoming.wiki/wiki/Praetor_Selfish_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png"}

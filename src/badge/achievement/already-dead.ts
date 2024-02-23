@@ -16,7 +16,7 @@ export const AlreadyDead: IBadgeData = {
     ],
     acquisition: "Defeat Battle Maiden within 15 minutes in the Apex Task Force",
     links: [
-        {title: "Already Dead Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Already_Dead_Badge"}
+        {title: "Already Dead Badge", href: "https://homecoming.wiki/wiki/Already_Dead_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-tinmage.png"}

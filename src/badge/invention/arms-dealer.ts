@@ -8,7 +8,7 @@ export const ArmsDealer: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Damage and Knockback."}],
     links: [
-        {title: "Arms Dealer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arms_Dealer_Badge"}
+        {title: "Arms Dealer Badge", href: "https://homecoming.wiki/wiki/Arms_Dealer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [

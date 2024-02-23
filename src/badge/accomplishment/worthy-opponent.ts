@@ -14,7 +14,7 @@ export const WorthyOpponent: IBadgeData = {
     ],
     acquisition: `Complete the original Lord Recluse's Strike Force in Ouroboros (called 'Future of Freedom') using the Old School Challenge (enhancement set bonuses, incarnate powers, and super inspirations disabled).`,
     links: [
-        {title: "Worthy Opponent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Worthy_Opponent_Badge"}
+        {title: "Worthy Opponent Badge", href: "https://homecoming.wiki/wiki/Worthy_Opponent_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/worthy-opponent.png"}

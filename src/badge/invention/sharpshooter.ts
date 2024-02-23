@@ -9,7 +9,7 @@ export const Sharpshooter: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Recharge Rate and Interrupt Time."}],
     effect: "+1 to Recipe capacity",
     links: [
-        {title: "Sharpshooter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sharpshooter_Badge"}
+        {title: "Sharpshooter Badge", href: "https://homecoming.wiki/wiki/Sharpshooter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

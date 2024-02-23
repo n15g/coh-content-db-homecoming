@@ -13,7 +13,7 @@ export const UncivilWarrior: IBadgeData = {
     ],
     acquisition: "Complete Agent Watkins' arc, The Graveyard Shift.",
     links: [
-        {title: "Uncivil Warrior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Uncivil_Warrior_Badge"}
+        {title: "Uncivil Warrior Badge", href: "https://homecoming.wiki/wiki/Uncivil_Warrior_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/uncivil-warrior.png"}

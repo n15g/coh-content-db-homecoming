@@ -20,8 +20,8 @@ export const KingOfPain: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] 463 yards SE of the Bastion of Pain marker, on a rock on the shore of the red lake.",
     links: [
-        {title: "King of Pain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/King_of_Pain_Badge"},
-        {title: "Queen of Pain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Queen_of_Pain_Badge"}
+        {title: "King of Pain Badge", href: "https://homecoming.wiki/wiki/King_of_Pain_Badge"},
+        {title: "Queen of Pain Badge", href: "https://homecoming.wiki/wiki/Queen_of_Pain_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

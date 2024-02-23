@@ -9,7 +9,7 @@ export const Rebuilder: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Heal."}],
     effect: "+2 to Invention Salvage capacity",
     links: [
-        {title: "Rebuilder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rebuilder_Badge"}
+        {title: "Rebuilder Badge", href: "https://homecoming.wiki/wiki/Rebuilder_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [

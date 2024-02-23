@@ -19,7 +19,7 @@ export const Vanguard: IBadgeData = {
     ],
     notes: `Awards the Vanguard Medal power`,
     links: [
-        {title: "Vanguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vanguard_Badge"}
+        {title: "Vanguard Badge", href: "https://homecoming.wiki/wiki/Vanguard_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/vanguard.png"}

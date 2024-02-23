@@ -16,7 +16,7 @@ export const ArmyOfNeu: IBadgeData = {
     ],
     acquisition: "Defeat 40 of Neuron's clones in the third mission of the Tin Mage Mark II Task Force",
     links: [
-        {title: "Army of Neu Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Army_of_Neu_Badge"}
+        {title: "Army of Neu Badge", href: "https://homecoming.wiki/wiki/Army_of_Neu_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-alpha.png"}

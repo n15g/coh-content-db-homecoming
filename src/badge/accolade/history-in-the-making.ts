@@ -22,7 +22,7 @@ export const HistoryInTheMaking: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Cimerora.key}] [Rewards 5 Merits]`,
     links: [
-        {title: "History in the Making Badge", href: "https://hcwiki.cityofheroes.dev/wiki/History_in_the_Making_Badge"}
+        {title: "History in the Making Badge", href: "https://homecoming.wiki/wiki/History_in_the_Making_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"},

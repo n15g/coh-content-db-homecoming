@@ -16,7 +16,7 @@ export const WarHero: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Laura Lockhart",
     links: [
-        {title: "War Hero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/War_Hero_Badge"}
+        {title: "War Hero Badge", href: "https://homecoming.wiki/wiki/War_Hero_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/war-hero.png"}

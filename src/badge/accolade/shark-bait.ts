@@ -16,8 +16,8 @@ export const SharkBait: IBadgeData = {
     acquisition: `Complete Captain Mako's patron story arc`,
     notes: `Completing the patron story arc 'Killer Instinct' from Captain Mako in Grandville unlocks the Leviathan Mastery patron power pool as well as awarding this badge.`,
     links: [
-        {title: "Shark Bait Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shark_Bait_Badge"},
-        {title: "Bloodletter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bloodletter_Badge"}
+        {title: "Shark Bait Badge", href: "https://homecoming.wiki/wiki/Shark_Bait_Badge"},
+        {title: "Bloodletter Badge", href: "https://homecoming.wiki/wiki/Bloodletter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/shark-bait.png"}

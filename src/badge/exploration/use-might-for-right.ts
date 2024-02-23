@@ -20,8 +20,8 @@ export const UseMightForRight: IBadgeData = {
     notes: "Located in the Bayside Docks neighborhood of [map:peregrine-island], 33 yards northeast of Ghost Falcon, 360 yards Southwest of the Bayside Docks marker," +
         " and behind the Recluse's Victory PvP Recruiter.",
     links: [
-        {title: "Use Might for Right Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Use_Might_for_Right_Badge"},
-        {title: "Rookie's Mistake", href: "https://hcwiki.cityofheroes.dev/wiki/Rookie%27s_Mistake_Badge"}
+        {title: "Use Might for Right Badge", href: "https://homecoming.wiki/wiki/Use_Might_for_Right_Badge"},
+        {title: "Rookie's Mistake", href: "https://homecoming.wiki/wiki/Rookie%27s_Mistake_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

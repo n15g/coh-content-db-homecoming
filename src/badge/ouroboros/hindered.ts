@@ -14,7 +14,7 @@ export const Hindered: IBadgeData = {
     ],
     acquisition: "Complete a level 31-35 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Hindered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hindered_Badge"}
+        {title: "Hindered Badge", href: "https://homecoming.wiki/wiki/Hindered_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/hindered.png"}]
 };

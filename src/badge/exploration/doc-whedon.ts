@@ -14,7 +14,7 @@ export const DocWhedon: IBadgeData = {
     }],
     notes: "Located in [map:perez-park] 292 yards due east of the Everett Lake and 216 yards north of the Gaiman Woods neighborhood markers. It is also about 145 yards southeast of the Amphitheater.",
     links: [
-        {title: "Doc Whedon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Doc_Whedon_Badge"}
+        {title: "Doc Whedon Badge", href: "https://homecoming.wiki/wiki/Doc_Whedon_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

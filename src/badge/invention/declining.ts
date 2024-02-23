@@ -8,7 +8,7 @@ export const Declining: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Defense Debuff, To Hit Debuff, Taunt, and Confuse."}],
     links: [
-        {title: "Declining Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Declining_Badge"}
+        {title: "Declining Badge", href: "https://homecoming.wiki/wiki/Declining_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

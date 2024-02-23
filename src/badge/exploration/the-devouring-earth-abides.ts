@@ -17,7 +17,7 @@ How does one reckon time when they are immortal? What is "soon" to something wit
     }],
     notes: `Located in [map:${Eden.key}] 170 yards north of The Serpentine marker, in the grassy area within a small clearing in the trees.`,
     links: [
-        {title: "The Devouring Earth Abides Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Devouring_Earth_Abides_Badge"}
+        {title: "The Devouring Earth Abides Badge", href: "https://homecoming.wiki/wiki/The_Devouring_Earth_Abides_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

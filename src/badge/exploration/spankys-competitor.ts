@@ -16,7 +16,7 @@ export const SpankysCompetitor: IBadgeData = {
     }],
     notes: "Located in in the New Troy neighborhood of [map:talos-island]. It is in the top landing of the boardwalk steps 152 yards southeast of the Tech store.",
     links: [
-        {title: "Spanky's Competitor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spanky%27s_Competitor_Badge"}
+        {title: "Spanky's Competitor Badge", href: "https://homecoming.wiki/wiki/Spanky%27s_Competitor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

@@ -20,9 +20,9 @@ export const CreyTestSubject: IBadgeData = {
     acquisition: "Log out in the Crey building in Nerva Archipelago for 100 hours.",
     effect: "Day Job: Bonus Large Inspiration upon mission completion",
     links: [
-        {title: "Crey Test Subject Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Test_Subject_Badge"},
-        {title: "Crey Employee Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Employee_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Crey Test Subject Badge", href: "https://homecoming.wiki/wiki/Crey_Test_Subject_Badge"},
+        {title: "Crey Employee Badge", href: "https://homecoming.wiki/wiki/Crey_Employee_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/crey-test-subject.png"}]
 };

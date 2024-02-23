@@ -20,8 +20,8 @@ Go now and strike the final blow that will confirm, once and for all, that the d
     }],
     notes: `Located in [map:${TheStormPalace.key}] at the Storm Palace marker, at the highest point atop the Palace itself.`,
     links: [
-        {title: "Lord of Storms Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lord_of_Storms_Badge"},
-        {title: "Lady of Storms Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lady_of_Storms_Badge"}
+        {title: "Lord of Storms Badge", href: "https://homecoming.wiki/wiki/Lord_of_Storms_Badge"},
+        {title: "Lady of Storms Badge", href: "https://homecoming.wiki/wiki/Lady_of_Storms_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

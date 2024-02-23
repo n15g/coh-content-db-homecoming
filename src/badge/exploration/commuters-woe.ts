@@ -17,7 +17,7 @@ export const CommutersWoe: IBadgeData = {
 
 It is at the blocked off tunnel 194 yards west of the Quartermaster.`,
     links: [
-        {title: "Commuter's Woe Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Commuter%27s_Woe_Badge"}
+        {title: "Commuter's Woe Badge", href: "https://homecoming.wiki/wiki/Commuter%27s_Woe_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "7"

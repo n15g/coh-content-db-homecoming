@@ -14,7 +14,7 @@ export const Foggy: IBadgeData = {
     }],
     notes: "Located in The Gaspee neighborhood of [map:founders-falls]. It is located by a fountain in front (east) of a tall building 100 yards south of The Gaspee marker.",
     links: [
-        {title: "Foggy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Foggy_Badge"}
+        {title: "Foggy Badge", href: "https://homecoming.wiki/wiki/Foggy_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

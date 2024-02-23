@@ -13,7 +13,7 @@ export const UndergroundSeeker: IBadgeData = {
     ],
     acquisition: "Complete The Underground Trial",
     links: [
-        {title: "Underground Seeker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Underground_Seeker_Badge"}
+        {title: "Underground Seeker Badge", href: "https://homecoming.wiki/wiki/Underground_Seeker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/underground-seeker.png"}

@@ -16,7 +16,7 @@ export const GottaKeepEmSeparated: IBadgeData = {
     ],
     acquisition: "Defeat Siege & Nightstar without moving them from their initial locations during a Behavioral Adjustment Facility Incarnate Trial",
     links: [
-        {title: "Gotta Keep 'Em Separated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gotta_Keep_%27Em_Separated_Badge"}
+        {title: "Gotta Keep 'Em Separated Badge", href: "https://homecoming.wiki/wiki/Gotta_Keep_%27Em_Separated_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-baf.png"}

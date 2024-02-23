@@ -13,7 +13,7 @@ export const BadLuck: IBadgeData = {
     ],
     acquisition: "Complete the The Unlucky Artifacts mission from Hard Luck",
     links: [
-        {title: "Bad Luck Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bad_Luck_Badge"}
+        {title: "Bad Luck Badge", href: "https://homecoming.wiki/wiki/Bad_Luck_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-6.png"}

@@ -25,7 +25,7 @@ export const Archmage: IBadgeData = {
     ],
     notes: `Awards the Eye of the Magus power`,
     links: [
-        {title: "Archmage Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Archmage_Badge"}
+        {title: "Archmage Badge", href: "https://homecoming.wiki/wiki/Archmage_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archmage.png"}

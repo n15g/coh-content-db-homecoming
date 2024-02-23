@@ -13,7 +13,7 @@ export const CallOfTheVoid: IBadgeData = {
     ],
     acquisition: `Defeat 100 Void Hunters.`,
     links: [
-        {title: "Call of the Void Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Call_of_the_Void_Badge"}
+        {title: "Call of the Void Badge", href: "https://homecoming.wiki/wiki/Call_of_the_Void_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/call-of-the-void.png"}

@@ -14,7 +14,7 @@ export const Marginalized: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc using no Ancillary powers.",
     links: [
-        {title: "Marginalized Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marginalized_Badge"}
+        {title: "Marginalized Badge", href: "https://homecoming.wiki/wiki/Marginalized_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/marginalized.png"}]
 };

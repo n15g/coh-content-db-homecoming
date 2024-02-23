@@ -18,7 +18,7 @@ Rularuu has engineered his minions into an engine geared towards releasing him f
     }],
     notes: `Located in [map:${TheStormPalace.key}] 444 yards due west of the Lock of Hatred marker, in the middle of the small island on the west side of the neighborhood.`,
     links: [
-        {title: "Hate Machine Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hate_Machine_Badge"}
+        {title: "Hate Machine Badge", href: "https://homecoming.wiki/wiki/Hate_Machine_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

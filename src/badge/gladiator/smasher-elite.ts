@@ -13,7 +13,7 @@ export const SmasherElite: IBadgeData = {
     ],
     acquisition: "Earn the [badge:legionnaire] Badge (Warriors)",
     links: [
-        {title: "Smasher Elite Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Smasher_Elite_Badge"}
+        {title: "Smasher Elite Badge", href: "https://homecoming.wiki/wiki/Smasher_Elite_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

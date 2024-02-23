@@ -14,7 +14,7 @@ export const CreyFish: IBadgeData = {
     }],
     notes: `Located in [map:${Eden.key}] 26 feet to the east of The Utopia Complex marker.`,
     links: [
-        {title: "Crey Fish Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Fish_Badge"}
+        {title: "Crey Fish Badge", href: "https://homecoming.wiki/wiki/Crey_Fish_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

@@ -13,7 +13,7 @@ export const ColdFront: IBadgeData = {
     ],
     acquisition: "Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
-        {title: "Cold Front Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cold_Front_Badge"}
+        {title: "Cold Front Badge", href: "https://homecoming.wiki/wiki/Cold_Front_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/cold-front.png"}]
 };

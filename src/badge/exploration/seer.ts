@@ -14,7 +14,7 @@ export const Seer: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] 347 yards ENE of the Four Gables marker.",
     links: [
-        {title: "Seer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Seer_Badge"}
+        {title: "Seer Badge", href: "https://homecoming.wiki/wiki/Seer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

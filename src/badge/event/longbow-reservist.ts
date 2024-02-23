@@ -15,8 +15,8 @@ export const LongbowReservist: IBadgeData = {
     ],
     acquisition: "Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
-        {title: "Longbow Reservist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longbow_Reservist_Badge"},
-        {title: "Jet-Setter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jet-Setter_Badge"}
+        {title: "Longbow Reservist Badge", href: "https://homecoming.wiki/wiki/Longbow_Reservist_Badge"},
+        {title: "Jet-Setter Badge", href: "https://homecoming.wiki/wiki/Jet-Setter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/longbow-reservist.png"}]
 };

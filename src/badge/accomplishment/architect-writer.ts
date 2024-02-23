@@ -16,7 +16,7 @@ export const ArchitectWriter: IBadgeData = {
     ],
     acquisition: "Complete the personal story mission from Heather Townshend",
     links: [
-        {title: "Architect Writer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Architect_Writer_Badge"}
+        {title: "Architect Writer Badge", href: "https://homecoming.wiki/wiki/Architect_Writer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png"}

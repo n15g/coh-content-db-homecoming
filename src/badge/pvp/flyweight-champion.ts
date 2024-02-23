@@ -16,7 +16,7 @@ export const FlyweightChampion: IBadgeData = {
     ],
     acquisition: "Win an Arena event in the Flyweight division",
     links: [
-        {title: "Flyweight Champion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flyweight_Champion_Badge"}
+        {title: "Flyweight Champion Badge", href: "https://homecoming.wiki/wiki/Flyweight_Champion_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/flyweight-champion.png"}

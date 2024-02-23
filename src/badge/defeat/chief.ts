@@ -13,7 +13,7 @@ export const Chief: IBadgeData = {
     ],
     acquisition: "Defeat 10 Rikti Heavy Assault Suits during a Rikti World Invasion",
     links: [
-        {title: "Chief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chief_Badge"}
+        {title: "Chief Badge", href: "https://homecoming.wiki/wiki/Chief_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/new-rikti.png"}

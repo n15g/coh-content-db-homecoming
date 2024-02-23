@@ -22,7 +22,7 @@ export const MadScienceSupporter: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${CapAuDiable.key}]`,
     links: [
-        {title: "Mad Science Supporter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mad_Science_Supporter_Badge"}
+        {title: "Mad Science Supporter Badge", href: "https://homecoming.wiki/wiki/Mad_Science_Supporter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png"}

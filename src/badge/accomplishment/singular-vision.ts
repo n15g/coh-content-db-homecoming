@@ -16,7 +16,7 @@ export const SingularVision: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Special Agent Jenni Adair",
     links: [
-        {title: "Singular Vision Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Singular_Vision_Badge"}
+        {title: "Singular Vision Badge", href: "https://homecoming.wiki/wiki/Singular_Vision_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/singular-vision.png"}

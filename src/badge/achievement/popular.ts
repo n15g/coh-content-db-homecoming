@@ -20,8 +20,8 @@ export const Popular: IBadgeData = {
     ],
     acquisition: "Earn 250,000,000 influence",
     links: [
-        {title: "Popular Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Popular_Badge"},
-        {title: "Living Legend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Living_Legend_Badge"}
+        {title: "Popular Badge", href: "https://homecoming.wiki/wiki/Popular_Badge"},
+        {title: "Living Legend Badge", href: "https://homecoming.wiki/wiki/Living_Legend_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/inf-h.png"},

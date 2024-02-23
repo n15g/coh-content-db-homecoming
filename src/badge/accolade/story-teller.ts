@@ -15,7 +15,7 @@ export const StoryTeller: IBadgeData = {
     acquisition: `Complete every story arc in [map:${Croatoa.key}]`,
     notes: `This badge rewards 20 reward merits.`,
     links: [
-        {title: "Story Teller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Story_Teller_Badge"}
+        {title: "Story Teller Badge", href: "https://homecoming.wiki/wiki/Story_Teller_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}

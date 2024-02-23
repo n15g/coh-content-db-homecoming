@@ -17,7 +17,7 @@ export const EyeOfTheStorm: IBadgeData = {
     ],
     acquisition: "Defeat Maelstrom in an Alignment Mission or a Morality Mission",
     links: [
-        {title: "Eye of the Storm Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eye_of_the_Storm_Badge"}
+        {title: "Eye of the Storm Badge", href: "https://homecoming.wiki/wiki/Eye_of_the_Storm_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/eye-of-the-storm.png"}

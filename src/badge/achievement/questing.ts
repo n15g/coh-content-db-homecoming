@@ -23,8 +23,8 @@ export const Questing: IBadgeData = {
     ],
     acquisition: "Earn 1000 badges",
     links: [
-        {title: "Questing Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Questing_Badge"},
-        {title: "Prepared Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Prepared_Badge"}
+        {title: "Questing Badge", href: "https://homecoming.wiki/wiki/Questing_Badge"},
+        {title: "Prepared Badge", href: "https://homecoming.wiki/wiki/Prepared_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/questing-h.png"},

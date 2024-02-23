@@ -15,8 +15,8 @@ export const Pursuer: IBadgeData = {
     ],
     acquisition: "Awarded for logging in to the game during November.",
     links: [
-        {title: "Pursuer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pursuer_Badge"},
-        {title: "Elusive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Elusive_Badge"}
+        {title: "Pursuer Badge", href: "https://homecoming.wiki/wiki/Pursuer_Badge"},
+        {title: "Elusive Badge", href: "https://homecoming.wiki/wiki/Elusive_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/pursuer.png"}]
 };

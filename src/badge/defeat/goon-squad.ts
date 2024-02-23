@@ -13,7 +13,7 @@ export const GoonSquad: IBadgeData = {
     ],
     acquisition: "Defeat 333 Cage Consortium Guards",
     links: [
-        {title: "Goon Squad Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Goon_Squad_Badge"}
+        {title: "Goon Squad Badge", href: "https://homecoming.wiki/wiki/Goon_Squad_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/goon-squad.png"}

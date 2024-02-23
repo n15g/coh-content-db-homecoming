@@ -13,7 +13,7 @@ export const ZenithWarcryMkI: IBadgeData = {
     ],
     acquisition: "Earn the [badge:burkholders-bane] Badge (Council)",
     links: [
-        {title: "Zenith Warcry Mk I Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Zenith_Warcry_Mk_I_Badge"}
+        {title: "Zenith Warcry Mk I Badge", href: "https://homecoming.wiki/wiki/Zenith_Warcry_Mk_I_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

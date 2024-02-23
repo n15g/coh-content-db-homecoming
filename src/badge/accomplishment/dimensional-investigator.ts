@@ -16,7 +16,7 @@ export const DimensionalInvestigator: IBadgeData = {
     ],
     acquisition: "Find all the Easter eggs in each of missions from Number Six",
     links: [
-        {title: "Dimensional Investigator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dimensional_Investigator_Badge"}
+        {title: "Dimensional Investigator Badge", href: "https://homecoming.wiki/wiki/Dimensional_Investigator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/incarnate-challenge.png"}

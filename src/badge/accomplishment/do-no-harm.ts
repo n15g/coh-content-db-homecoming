@@ -14,6 +14,6 @@ export const DoNoHarm: IBadgeData = {
     acquisition: `Complete the task set 'Hippocratic Oath'.`,
     notes: `The task set 'Hippocratic Oath' begins with the 'Rescue the doctors from the Rikti' mission from level 35-39 contact Steven Sheridan in [map:${Brickstown.key}]. It is also available via Ouroboros, level 35-39, mission 0.35 'Hippocratic Oath'.`,
     links: [
-        {title: "Do No Harm Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Do_No_Harm_Badge"}
+        {title: "Do No Harm Badge", href: "https://homecoming.wiki/wiki/Do_No_Harm_Badge"}
     ],
 };

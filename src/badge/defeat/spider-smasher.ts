@@ -14,7 +14,7 @@ export const SpiderSmasher: IBadgeData = {
     ],
     acquisition: "Defeat 200 Arachnos Wolf Spiders",
     links: [
-        {title: "Spider Smasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spider_Smasher_Badge"}
+        {title: "Spider Smasher Badge", href: "https://homecoming.wiki/wiki/Spider_Smasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/arachnos.png"}

@@ -13,7 +13,7 @@ export const Surging: IBadgeData = {
     ],
     acquisition: "Defeat Deathsurge, a monster that spawns in Cap au Diable",
     links: [
-        {title: "Surging Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Surging_Badge"}
+        {title: "Surging Badge", href: "https://homecoming.wiki/wiki/Surging_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/surging.png"}

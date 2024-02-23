@@ -16,7 +16,7 @@ export const Mercenary: IBadgeData = {
     ],
     notes: `Earn the [badge:vanguard-recruit] and [badge:patroller] Day Jobs`,
     links: [
-        {title: "Mercenary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mercenary_Badge"}
+        {title: "Mercenary Badge", href: "https://homecoming.wiki/wiki/Mercenary_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mercenary.png"}

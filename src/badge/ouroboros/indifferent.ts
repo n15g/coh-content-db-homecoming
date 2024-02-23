@@ -14,7 +14,7 @@ export const Indifferent: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Indifferent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Indifferent_Badge"}
+        {title: "Indifferent Badge", href: "https://homecoming.wiki/wiki/Indifferent_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/indifferent.png"}]
 };

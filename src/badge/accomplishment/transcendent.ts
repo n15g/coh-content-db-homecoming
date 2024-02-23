@@ -13,7 +13,7 @@ export const Transcendent: IBadgeData = {
     ],
     acquisition: "Complete the The Cavern of Transcendence Trial",
     links: [
-        {title: "Transcendent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Transcendent_Badge"}
+        {title: "Transcendent Badge", href: "https://homecoming.wiki/wiki/Transcendent_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png"}

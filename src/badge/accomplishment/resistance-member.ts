@@ -17,6 +17,6 @@ export const ResistanceMember: IBadgeData = {
     ],
     acquisition: "Choose a Resistance outcome in a moral choice mission",
     links: [
-        {title: "Resistance Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Resistance_Member_Badge"}
+        {title: "Resistance Member Badge", href: "https://homecoming.wiki/wiki/Resistance_Member_Badge"}
     ]
 };

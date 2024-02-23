@@ -17,7 +17,7 @@ export const ReadyToRumble: IBadgeData = {
     ],
     acquisition: "Defeat Black Swan sooner than 8 minutes after entering the Magisterium",
     links: [
-        {title: "Ready to Rumble Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ready_to_Rumble_Badge"}
+        {title: "Ready to Rumble Badge", href: "https://homecoming.wiki/wiki/Ready_to_Rumble_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/ready-to-rumble.png"}

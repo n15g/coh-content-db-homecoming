@@ -17,7 +17,7 @@ export const BigSpider: IBadgeData = {
 
 It is at the base of the stairs in front of the Supergroup building, 54 yards north of the neighborhood marker.`,
     links: [
-        {title: "Big Spider Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Big_Spider_Badge"}
+        {title: "Big Spider Badge", href: "https://homecoming.wiki/wiki/Big_Spider_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"

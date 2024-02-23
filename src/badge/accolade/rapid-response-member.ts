@@ -17,8 +17,8 @@ export const RapidResponseMember: IBadgeData = {
     ],
     notes: `Earn the [badge:monitor-duty] and [badge:patroller] Day Jobs`,
     links: [
-        {title: "Rapid Response Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rapid_Response_Member_Badge"},
-        {title: "Trouble Maker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trouble_Maker_Badge"}
+        {title: "Rapid Response Member Badge", href: "https://homecoming.wiki/wiki/Rapid_Response_Member_Badge"},
+        {title: "Trouble Maker Badge", href: "https://homecoming.wiki/wiki/Trouble_Maker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/rapid-response-member.png"}

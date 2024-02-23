@@ -13,7 +13,7 @@ export const CreyHavoc: IBadgeData = {
     notes: "The Crey Havoc Badge is located on the Power Island neighborhood of Independence Port. It is just north of a ruined building east of the Terra Volta entrance." +
         " It is also located 256 yards northeast from the Terra Volta entrance.",
     links: [
-        {title: "Crey Havoc Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Havoc_Badge"}
+        {title: "Crey Havoc Badge", href: "https://homecoming.wiki/wiki/Crey_Havoc_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

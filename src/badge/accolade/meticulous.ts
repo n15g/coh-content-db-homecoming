@@ -18,7 +18,7 @@ export const Meticulous: IBadgeData = {
     ],
     notes: `Available during Halloween Events`,
     links: [
-        {title: "Meticulous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Meticulous_Badge"}
+        {title: "Meticulous Badge", href: "https://homecoming.wiki/wiki/Meticulous_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/meticulous.png"}

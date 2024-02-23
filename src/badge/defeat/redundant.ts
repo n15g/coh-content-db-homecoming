@@ -17,7 +17,7 @@ export const Redundant: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Destroyers",
     links: [
-        {title: "Redundant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Redundant_Badge"}
+        {title: "Redundant Badge", href: "https://homecoming.wiki/wiki/Redundant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/redundant.png"}

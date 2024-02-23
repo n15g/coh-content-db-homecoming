@@ -18,7 +18,7 @@ export const DaylightSaver: IBadgeData = {
     ],
     acquisition: "Defeat Mother Mayhem without allowing Aurora Borealis' health to drop below 75%, and then complete the trial",
     links: [
-        {title: "Daylight Saver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Daylight_Saver_Badge"}
+        {title: "Daylight Saver Badge", href: "https://homecoming.wiki/wiki/Daylight_Saver_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-mom.png"}

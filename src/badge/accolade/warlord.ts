@@ -23,7 +23,7 @@ export const Warlord: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Warburg.key}]`,
     links: [
-        {title: "Warlord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Warlord_Badge"}
+        {title: "Warlord Badge", href: "https://homecoming.wiki/wiki/Warlord_Badge"}
     ],
     partials: [
         {key: WeaponInspector.key, type: BadgePartialType.BADGE, badgeKey: WeaponInspector.key},

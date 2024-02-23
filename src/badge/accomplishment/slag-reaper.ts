@@ -13,7 +13,7 @@ export const SlagReaper: IBadgeData = {
     ],
     acquisition: "Complete the Retrieve the shipment for Crash mission from Vince Dubrowski",
     links: [
-        {title: "Slag Reaper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Slag_Reaper_Badge"}
+        {title: "Slag Reaper Badge", href: "https://homecoming.wiki/wiki/Slag_Reaper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-4.png"}

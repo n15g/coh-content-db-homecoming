@@ -15,7 +15,7 @@ Whether you stormed through with guns blazing or stealthily slinked past its man
     }],
     notes: `Located in [map:${NightWard.key}], in the Howling Vale neighborhood, 514 yards NE of the map marker; near the center of the Black Knight's tent encampment.`,
     links: [
-        {title: "Happy Camper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Happy_Camper_Badge"}
+        {title: "Happy Camper Badge", href: "https://homecoming.wiki/wiki/Happy_Camper_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

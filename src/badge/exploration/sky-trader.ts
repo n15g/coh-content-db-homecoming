@@ -17,7 +17,7 @@ export const SkyTrader: IBadgeData = {
 
 It is in front of the eastern mansion, 14 feet east of the neighborhood marker.`,
     links: [
-        {title: "Sky Trader Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sky_Trader_Badge"}
+        {title: "Sky Trader Badge", href: "https://homecoming.wiki/wiki/Sky_Trader_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "7"

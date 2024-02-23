@@ -21,7 +21,7 @@ From where you start outside your cell, turn right, walking away from H.T. When 
 
 This badge is also available while revisiting the Zig during the Ouroboros Initiation Story Arc.`,
     links: [
-        {title: "Jail Bird Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jail_Bird_Badge"}
+        {title: "Jail Bird Badge", href: "https://homecoming.wiki/wiki/Jail_Bird_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "1"

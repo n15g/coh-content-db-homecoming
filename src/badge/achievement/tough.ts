@@ -24,9 +24,9 @@ export const Tough: IBadgeData = {
     ],
     acquisition: "Endure 100,000 points of damage",
     links: [
-        {title: "Tough Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tough_Badge"},
-        {title: "Stoic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stoic_Badge"},
-        {title: "Slammer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Slammer_Badge"}
+        {title: "Tough Badge", href: "https://homecoming.wiki/wiki/Tough_Badge"},
+        {title: "Stoic Badge", href: "https://homecoming.wiki/wiki/Stoic_Badge"},
+        {title: "Slammer Badge", href: "https://homecoming.wiki/wiki/Slammer_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

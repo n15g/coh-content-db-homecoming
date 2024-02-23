@@ -21,8 +21,8 @@ export const GrassIsMeaner: IBadgeData = {
     ],
     acquisition: "Travel to the Rogue Isles as a Vigilante / Travel to Paragon City as a Rogue",
     links: [
-        {title: "Grass Is Meaner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grass_Is_Meaner_Badge"},
-        {title: "Grass Is Greener Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grass_Is_Greener_Badge"}
+        {title: "Grass Is Meaner Badge", href: "https://homecoming.wiki/wiki/Grass_Is_Meaner_Badge"},
+        {title: "Grass Is Greener Badge", href: "https://homecoming.wiki/wiki/Grass_Is_Greener_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/grass-is-meaner.png"}

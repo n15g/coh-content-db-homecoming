@@ -13,7 +13,7 @@ export const ChiefSwiper: IBadgeData = {
     ],
     acquisition: "Earn the [badge:pwnz] Badge (Freakshow)",
     links: [
-        {title: "Chief Swiper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chief_Swiper_Badge"}
+        {title: "Chief Swiper Badge", href: "https://homecoming.wiki/wiki/Chief_Swiper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

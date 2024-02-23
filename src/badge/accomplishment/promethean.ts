@@ -16,7 +16,7 @@ export const Promethean: IBadgeData = {
     ],
     acquisition: "Complete the Mortimer Kal Strike Force",
     links: [
-        {title: "Promethean Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Promethean_Badge"}
+        {title: "Promethean Badge", href: "https://homecoming.wiki/wiki/Promethean_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/promethean.png"}

@@ -16,7 +16,7 @@ export const Descended: IBadgeData = {
     ],
     acquisition: "Shift alignment from Hero to Villain",
     links: [
-        {title: "Descended Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Descended_Badge"}
+        {title: "Descended Badge", href: "https://homecoming.wiki/wiki/Descended_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/descended.png"}

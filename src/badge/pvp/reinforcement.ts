@@ -14,7 +14,7 @@ export const Reinforcement: IBadgeData = {
     ],
     acquisition: "Defeat 20 player characters in a PvP zone by your own hand",
     links: [
-        {title: "Reinforcement Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Reinforcement_Badge"}
+        {title: "Reinforcement Badge", href: "https://homecoming.wiki/wiki/Reinforcement_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png"}

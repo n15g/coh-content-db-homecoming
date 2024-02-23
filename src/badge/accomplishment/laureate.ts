@@ -13,7 +13,7 @@ export const Laureate: IBadgeData = {
     ],
     acquisition: "Complete the The Great Escape zone event in Neutropolis",
     links: [
-        {title: "Laureate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Laureate_Badge"}
+        {title: "Laureate Badge", href: "https://homecoming.wiki/wiki/Laureate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/laureate.png"}

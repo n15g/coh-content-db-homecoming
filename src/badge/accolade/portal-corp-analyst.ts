@@ -22,7 +22,7 @@ export const PortalCorpAnalyst: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${PeregrineIsland.key}]`,
     links: [
-        {title: "Portal Corp Analyst Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Portal_Corp_Analyst_Badge"}
+        {title: "Portal Corp Analyst Badge", href: "https://homecoming.wiki/wiki/Portal_Corp_Analyst_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

@@ -16,7 +16,7 @@ export const BunkerBuster: IBadgeData = {
     ],
     acquisition: "During the Keyes Island Reactor Trial, bust down all three doors on a bunker within three seconds, and then repeat for all bunkers near Reactor Infinity",
     links: [
-        {title: "Bunker Buster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bunker_Buster_Badge"}
+        {title: "Bunker Buster Badge", href: "https://homecoming.wiki/wiki/Bunker_Buster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-keyes.png"}

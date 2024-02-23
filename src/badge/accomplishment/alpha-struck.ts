@@ -16,7 +16,7 @@ export const AlphaStruck: IBadgeData = {
     ],
     acquisition: "Complete the Tin Mage Task Force",
     links: [
-        {title: "Alpha Struck Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alpha_Struck_Badge"}
+        {title: "Alpha Struck Badge", href: "https://homecoming.wiki/wiki/Alpha_Struck_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/alpha-struck.png"}

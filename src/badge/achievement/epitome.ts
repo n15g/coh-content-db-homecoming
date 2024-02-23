@@ -21,8 +21,8 @@ export const Epitome: IBadgeData = {
     ],
     acquisition: "Sidekick another hero for 20 hours",
     links: [
-        {title: "Epitome Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Epitome_Badge"},
-        {title: "Philosopher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Philosopher_Badge"}
+        {title: "Epitome Badge", href: "https://homecoming.wiki/wiki/Epitome_Badge"},
+        {title: "Philosopher Badge", href: "https://homecoming.wiki/wiki/Philosopher_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png"},

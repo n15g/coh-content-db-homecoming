@@ -16,7 +16,7 @@ export const DisappearingAct: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Apparitions",
     links: [
-        {title: "Disappearing Act Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Disappearing_Act_Badge"}
+        {title: "Disappearing Act Badge", href: "https://homecoming.wiki/wiki/Disappearing_Act_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/disappearing-act.png"}

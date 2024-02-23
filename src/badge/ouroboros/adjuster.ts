@@ -13,7 +13,7 @@ export const Adjuster: IBadgeData = {
     ],
     acquisition: "Complete 10 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Adjuster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Adjuster_Badge"}
+        {title: "Adjuster Badge", href: "https://homecoming.wiki/wiki/Adjuster_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/adjuster.png"}]
 };

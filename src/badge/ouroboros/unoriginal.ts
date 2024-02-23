@@ -14,7 +14,7 @@ export const Unoriginal: IBadgeData = {
     ],
     acquisition: "Complete a level 26-30 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Unoriginal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unoriginal_Badge"}
+        {title: "Unoriginal Badge", href: "https://homecoming.wiki/wiki/Unoriginal_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unoriginal.png"}]
 };

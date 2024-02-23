@@ -14,7 +14,7 @@ export const GoldStandard: IBadgeData = {
     ],
     acquisition: `Complete Dr. Aeon's Strike Force.`,
     links: [
-        {title: "Gold Standard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gold_Standard_Badge"}
+        {title: "Gold Standard Badge", href: "https://homecoming.wiki/wiki/Gold_Standard_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/gold-standard.png"}

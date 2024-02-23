@@ -18,7 +18,7 @@ Night Ward can be a cruel mistress.`
     }],
     notes: `Located in [map:${NightWard.key}], in the The Digs neighborhood, 263 yards NNE of the map marker; near the merit vendor.`,
     links: [
-        {title: "Nocturnal Pilgrim Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nocturnal_Pilgrim_Badge"}
+        {title: "Nocturnal Pilgrim Badge", href: "https://homecoming.wiki/wiki/Nocturnal_Pilgrim_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

@@ -15,6 +15,6 @@ export const Cataclysmic: IBadgeData = {
     ],
     acquisition: "Deal 100,000,000 damage to earn this badge",
     links: [
-        {title: "Cataclysmic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cataclysmic_Badge"}
+        {title: "Cataclysmic Badge", href: "https://homecoming.wiki/wiki/Cataclysmic_Badge"}
     ],
 };

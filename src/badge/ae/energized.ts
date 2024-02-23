@@ -11,7 +11,7 @@ export const Energized: IBadgeData = {
     badgeText: [{value: "You've earned your first Inspiration while playing an Architect Mission, earning yourself the Energized badge."}],
     acquisition: "Earn one inspiration drop while playing a published Mission Architect mission.",
     links: [
-        {title: "Energized Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Energized_Badge"}
+        {title: "Energized Badge", href: "https://homecoming.wiki/wiki/Energized_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/energized.png"}]
 };

@@ -18,8 +18,8 @@ export const NuminasCompatriot: IBadgeData = {
     ],
     acquisition: "Complete the Numina Task Force: Soul of the Woodsman",
     links: [
-        {title: "Numina's Compatriot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Numina%27s_Compatriot_Badge"},
-        {title: "Numina's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Numina%27s_Betrayer_Badge"}
+        {title: "Numina's Compatriot Badge", href: "https://homecoming.wiki/wiki/Numina%27s_Compatriot_Badge"},
+        {title: "Numina's Betrayer Badge", href: "https://homecoming.wiki/wiki/Numina%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/numinas-compatriot.png"}

@@ -16,7 +16,7 @@ export const DirtyAttorney: IBadgeData = {
     }],
     notes: "The Dirty Attorney Badge is in the Platinum Lake neighborhood of Steel Canyon 52 feet south of the neighborhood marker.",
     links: [
-        {title: "Dirty Attorney Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dirty_Attorney_Badge"}
+        {title: "Dirty Attorney Badge", href: "https://homecoming.wiki/wiki/Dirty_Attorney_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

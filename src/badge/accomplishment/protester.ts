@@ -13,7 +13,7 @@ export const Protester: IBadgeData = {
     ],
     acquisition: "Complete the The Protest zone event in Nova Praetoria",
     links: [
-        {title: "Protester Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Protester_Badge"}
+        {title: "Protester Badge", href: "https://homecoming.wiki/wiki/Protester_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/protester.png"}

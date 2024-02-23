@@ -16,7 +16,7 @@ export const Researcher: IBadgeData = {
         {value: `You have learned the sordid history of former mayor of Paragon City, Spanky Rabinowitz.`}
     ],
     links: [
-        {title: "Researcher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Researcher_Badge"}
+        {title: "Researcher Badge", href: "https://homecoming.wiki/wiki/Researcher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

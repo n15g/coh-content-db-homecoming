@@ -13,7 +13,7 @@ export const AgentOfDiscord: IBadgeData = {
     ],
     acquisition: "Complete the Take out negotiator and witnesses mission from Operative Kirkland",
     links: [
-        {title: "Agent of Discord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agent_of_Discord_Badge"}
+        {title: "Agent of Discord Badge", href: "https://homecoming.wiki/wiki/Agent_of_Discord_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-5.png"}

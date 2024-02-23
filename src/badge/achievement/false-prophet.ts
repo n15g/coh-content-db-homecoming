@@ -16,7 +16,7 @@ export const FalseProphet: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Brother Hammond",
     links: [
-        {title: "False Prophet Badge", href: "https://hcwiki.cityofheroes.dev/wiki/False_Prophet_Badge"}
+        {title: "False Prophet Badge", href: "https://homecoming.wiki/wiki/False_Prophet_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/false-prophet.png"}

@@ -17,7 +17,7 @@ export const BuddyCop: IBadgeData = {
     ],
     acquisition: "Save Detective Hopp at least once in Dark Astoria before your final meeting in Dream Doctor's story arc",
     links: [
-        {title: "Buddy Cop Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Buddy_Cop_Badge"}
+        {title: "Buddy Cop Badge", href: "https://homecoming.wiki/wiki/Buddy_Cop_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png"}

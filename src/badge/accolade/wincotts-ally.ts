@@ -23,8 +23,8 @@ export const WincottsAlly: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TheHollows.key}]`,
     links: [
-        {title: "Wincott's Ally Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wincott%27s_Ally_Badge"},
-        {title: "Wincott's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wincott%27s_Betrayer_Badge"}
+        {title: "Wincott's Ally Badge", href: "https://homecoming.wiki/wiki/Wincott%27s_Ally_Badge"},
+        {title: "Wincott's Betrayer Badge", href: "https://homecoming.wiki/wiki/Wincott%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

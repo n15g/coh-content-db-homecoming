@@ -20,8 +20,8 @@ export const ManOfVengeance: IBadgeData = {
     }],
     notes: "The Man of Vengeance Badge is at the entrance of the vacant/rubble lot 110 yards west of the PPD building (Detective Becktrees or Detective Freitag markers) in Kings Row.",
     links: [
-        {title: "Man of Vengeance Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Man_of_Vengeance_Badge"},
-        {title: "Woman of Vengeance Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Woman_of_Vengeance_Badge"}
+        {title: "Man of Vengeance Badge", href: "https://homecoming.wiki/wiki/Man_of_Vengeance_Badge"},
+        {title: "Woman of Vengeance Badge", href: "https://homecoming.wiki/wiki/Woman_of_Vengeance_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

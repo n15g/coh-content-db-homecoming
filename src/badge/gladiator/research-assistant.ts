@@ -13,7 +13,7 @@ export const ResearchAssistant: IBadgeData = {
     ],
     acquisition: "Earn the [badge:crey-havoc] Badge (Crey)",
     links: [
-        {title: "Research Assistant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Research_Assistant_Badge"}
+        {title: "Research Assistant Badge", href: "https://homecoming.wiki/wiki/Research_Assistant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

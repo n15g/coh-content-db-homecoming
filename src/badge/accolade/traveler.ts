@@ -20,8 +20,8 @@ export const Traveler: IBadgeData = {
     ],
     notes: `Earn the [badge:dimensional-explorer] and [badge:commuter] Day Jobs`,
     links: [
-        {title: "Traveler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Traveler_Badge"},
-        {title: "Border Crosser Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Border_Crosser_Badge"}
+        {title: "Traveler Badge", href: "https://homecoming.wiki/wiki/Traveler_Badge"},
+        {title: "Border Crosser Badge", href: "https://homecoming.wiki/wiki/Border_Crosser_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/traveler.png"}

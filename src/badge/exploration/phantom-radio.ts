@@ -17,7 +17,7 @@ export const PhantomRadio: IBadgeData = {
     }],
     notes: "Located in [map:echo-dark-astoria] 430 yards SE of the Toffet Terrace marker, at the base of the radio tower on top the building.",
     links: [
-        {title: "Phantom Radio Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Phantom_Radio_Badge"}
+        {title: "Phantom Radio Badge", href: "https://homecoming.wiki/wiki/Phantom_Radio_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

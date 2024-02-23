@@ -16,7 +16,7 @@ export const Trespasser: IBadgeData = {
         "\n" +
         "Look for two Crey logos on a building. It's on the ground in the open on the left hand side of that building, and usually has Crey mobs on top of it or near by it.",
     links: [
-        {title: "Trespasser Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trespasser_Badge"},
+        {title: "Trespasser Badge", href: "https://homecoming.wiki/wiki/Trespasser_Badge"},
         {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

@@ -13,7 +13,7 @@ export const MasterOfMsLibertysTaskForce: IBadgeData = {
     ],
     acquisition: `Complete the Master of Ms. Liberty's Task Force challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
-        {title: "Master of Ms. Liberty's Task Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Ms._Liberty%27s_Task_Force_Badge"}
+        {title: "Master of Ms. Liberty's Task Force Badge", href: "https://homecoming.wiki/wiki/Master_of_Ms._Liberty%27s_Task_Force_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-ms-libertys-task-force.png"}

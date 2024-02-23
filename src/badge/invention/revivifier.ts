@@ -8,7 +8,7 @@ export const Revivifier: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Heal."}],
     links: [
-        {title: "Revivifier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Revivifier_Badge"}
+        {title: "Revivifier Badge", href: "https://homecoming.wiki/wiki/Revivifier_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [

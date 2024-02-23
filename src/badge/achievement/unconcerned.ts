@@ -14,6 +14,6 @@ export const Unconcerned: IBadgeData = {
     ],
     acquisition: "Reject 100 inspiration drops",
     links: [
-        {title: "Unconcerned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unconcerned_Badge"}
+        {title: "Unconcerned Badge", href: "https://homecoming.wiki/wiki/Unconcerned_Badge"}
     ],
 };

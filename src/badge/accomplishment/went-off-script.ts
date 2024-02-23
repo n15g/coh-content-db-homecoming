@@ -13,7 +13,7 @@ export const WentOffScript: IBadgeData = {
     ],
     acquisition: "Refuse to quarantine during The Graveyard Shift story arc.",
     links: [
-        {title: "Went Off Script Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Went_Off_Script_Badge"}
+        {title: "Went Off Script Badge", href: "https://homecoming.wiki/wiki/Went_Off_Script_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/went-off-script.png"}

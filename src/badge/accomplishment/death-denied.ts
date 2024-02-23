@@ -13,7 +13,7 @@ export const DeathDenied: IBadgeData = {
     ],
     acquisition: "Complete the Dilemma Diabolique Trial",
     links: [
-        {title: "Death Denied Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Death_Denied_Badge"}
+        {title: "Death Denied Badge", href: "https://homecoming.wiki/wiki/Death_Denied_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/death-denied.png"}

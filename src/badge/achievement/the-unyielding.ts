@@ -21,9 +21,9 @@ export const TheUnyielding: IBadgeData = {
     ],
     acquisition: "Pay off 100,000 debt",
     links: [
-        {title: "The Unyielding Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Unyielding_Badge"},
-        {title: "Unbroken Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unbroken_Badge"},
-        {title: "Went the Extra Mile Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Went_the_Extra_Mile_Badge"}
+        {title: "The Unyielding Badge", href: "https://homecoming.wiki/wiki/The_Unyielding_Badge"},
+        {title: "Unbroken Badge", href: "https://homecoming.wiki/wiki/Unbroken_Badge"},
+        {title: "Went the Extra Mile Badge", href: "https://homecoming.wiki/wiki/Went_the_Extra_Mile_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

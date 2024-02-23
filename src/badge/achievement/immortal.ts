@@ -19,8 +19,8 @@ export const Immortal: IBadgeData = {
     ],
     acquisition: "Endure 100,000,000 points of damage",
     links: [
-        {title: "Immortal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Immortal_Badge"},
-        {title: "Challenger of Gods Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Challenger_of_Gods_Badge"}
+        {title: "Immortal Badge", href: "https://homecoming.wiki/wiki/Immortal_Badge"},
+        {title: "Challenger of Gods Badge", href: "https://homecoming.wiki/wiki/Challenger_of_Gods_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

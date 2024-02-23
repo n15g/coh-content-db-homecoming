@@ -18,7 +18,7 @@ export const HellAndBack: IBadgeData = {
     ],
     notes: `Available during Halloween Events`,
     links: [
-        {title: "Hell and Back Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hell_and_Back_Badge"}
+        {title: "Hell and Back Badge", href: "https://homecoming.wiki/wiki/Hell_and_Back_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hell-and-back.png"}

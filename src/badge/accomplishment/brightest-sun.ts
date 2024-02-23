@@ -16,7 +16,7 @@ export const BrightestSun: IBadgeData = {
     ],
     acquisition: "Complete the Level 10-14 Ongoing Training story arc from Twinshot",
     links: [
-        {title: "Brightest Sun Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brightest_Sun_Badge"}
+        {title: "Brightest Sun Badge", href: "https://homecoming.wiki/wiki/Brightest_Sun_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brightest-sun.png"}

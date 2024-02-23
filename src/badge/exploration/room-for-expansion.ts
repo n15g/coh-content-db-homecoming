@@ -15,7 +15,7 @@ export const RoomForExpansion: IBadgeData = {
     }],
     notes: "The Room for Expansion Badge is at the entrance of the parking lot between the Faultline and Bloody Bay zone connections in Skyway City.",
     links: [
-        {title: "Room for Expansion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Room_for_Expansion_Badge"}
+        {title: "Room for Expansion Badge", href: "https://homecoming.wiki/wiki/Room_for_Expansion_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

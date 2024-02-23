@@ -14,7 +14,7 @@ export const AgentProvocateur: IBadgeData = {
     ],
     acquisition: "Complete a buff mission in a PvP zone (Bloody Bay, Siren's Call, or Warburg)",
     links: [
-        {title: "Agent Provocateur Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agent_Provocateur_Badge"}
+        {title: "Agent Provocateur Badge", href: "https://homecoming.wiki/wiki/Agent_Provocateur_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png"}

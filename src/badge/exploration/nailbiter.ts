@@ -15,7 +15,7 @@ export const Nailbiter: IBadgeData = {
     }],
     notes: "Located in [map:underground-neutropolis] 415 yards south of City Access C.",
     links: [
-        {title: "Nailbiter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nailbiter_Badge"}
+        {title: "Nailbiter Badge", href: "https://homecoming.wiki/wiki/Nailbiter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

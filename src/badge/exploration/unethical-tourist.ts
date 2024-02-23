@@ -17,7 +17,7 @@ They justify their actions by claiming the research is to better understand the 
 
 It is in the middle of the southwestern specimen hangar, 597 yards east of the neighborhood marker.`,
     links: [
-        {title: "Unethical Tourist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unethical_Tourist_Badge"}
+        {title: "Unethical Tourist Badge", href: "https://homecoming.wiki/wiki/Unethical_Tourist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "6"

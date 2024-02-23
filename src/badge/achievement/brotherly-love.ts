@@ -16,7 +16,7 @@ export const BrotherlyLove: IBadgeData = {
     ],
     acquisition: "Defeat both Neo-Shivan Obliterators within 30 seconds of each other in the Drowning in Blood trial",
     links: [
-        {title: "Brotherly Love Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brotherly_Love_Badge"}
+        {title: "Brotherly Love Badge", href: "https://homecoming.wiki/wiki/Brotherly_Love_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/brotherly-love.png"}

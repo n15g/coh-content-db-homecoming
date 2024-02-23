@@ -20,8 +20,8 @@ export const TheUnderlord: IBadgeData = {
     }],
     notes: `Located in [map:abandoned-sewer-network] 84 feet northeast of the [${SewerNetwork.key}] transfer point in Kings Row Sector, right at the exit of the room.`,
     links: [
-        {title: "The Underlord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Underlord_Badge"},
-        {title: "The Underlady Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Underlady_Badge"}
+        {title: "The Underlord Badge", href: "https://homecoming.wiki/wiki/The_Underlord_Badge"},
+        {title: "The Underlady Badge", href: "https://homecoming.wiki/wiki/The_Underlady_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

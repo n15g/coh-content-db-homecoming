@@ -14,7 +14,7 @@ export const Avatar: IBadgeData = {
     }],
     notes: "Located in [map:perez-park] 358 yards north of the Skyway City entrance.",
     links: [
-        {title: "Avatar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Avatar_Badge"}
+        {title: "Avatar Badge", href: "https://homecoming.wiki/wiki/Avatar_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

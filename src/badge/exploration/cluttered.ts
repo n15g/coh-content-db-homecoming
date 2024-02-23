@@ -15,7 +15,7 @@ export const Cluttered: IBadgeData = {
     }],
     notes: "Located in [map:underground-neutropolis] approximately 105 yds north of the Loyalist Sewer Access.",
     links: [
-        {title: "Cluttered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cluttered_Badge"}
+        {title: "Cluttered Badge", href: "https://homecoming.wiki/wiki/Cluttered_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

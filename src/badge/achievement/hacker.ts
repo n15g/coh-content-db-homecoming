@@ -16,7 +16,7 @@ export const Hacker: IBadgeData = {
     ],
     acquisition: "Click all 8 devices within 30 seconds of entering the warehouse in the first mission of the Tin Mage Mark II Task Force",
     links: [
-        {title: "Hacker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hacker_Badge"}
+        {title: "Hacker Badge", href: "https://homecoming.wiki/wiki/Hacker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-alpha.png"}

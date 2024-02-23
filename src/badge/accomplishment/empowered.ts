@@ -13,7 +13,7 @@ export const Empowered: IBadgeData = {
     ],
     acquisition: "Craft an uncommon Incarnate Ability",
     links: [
-        {title: "Empowered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Empowered_Badge"}
+        {title: "Empowered Badge", href: "https://homecoming.wiki/wiki/Empowered_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/empowered.png"}

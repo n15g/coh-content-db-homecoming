@@ -24,8 +24,8 @@ export const Stouthearted: IBadgeData = {
     ],
     notes: `Visit all Safeguard exploration badges`,
     links: [
-        {title: "Stouthearted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stouthearted_Badge"},
-        {title: "Stonehearted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stonehearted_Badge"}
+        {title: "Stouthearted Badge", href: "https://homecoming.wiki/wiki/Stouthearted_Badge"},
+        {title: "Stonehearted Badge", href: "https://homecoming.wiki/wiki/Stonehearted_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/stouthearted.png"}

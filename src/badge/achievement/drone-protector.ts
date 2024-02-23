@@ -18,7 +18,7 @@ export const DroneProtector: IBadgeData = {
     ],
     acquisition: "Ensure no drones are defeated in the first mission of the Apex Task Force",
     links: [
-        {title: "Drone Protector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Drone_Protector_Badge"}
+        {title: "Drone Protector Badge", href: "https://homecoming.wiki/wiki/Drone_Protector_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-tinmage.png"}

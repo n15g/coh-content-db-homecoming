@@ -17,6 +17,6 @@ export const Loyalist: IBadgeData = {
     ],
     acquisition: "Choose a Loyalist outcome in a moral choice mission",
     links: [
-        {title: "Loyalist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Loyalist_Badge"}
+        {title: "Loyalist Badge", href: "https://homecoming.wiki/wiki/Loyalist_Badge"}
     ]
 };

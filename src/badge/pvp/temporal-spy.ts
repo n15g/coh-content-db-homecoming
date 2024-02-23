@@ -13,7 +13,7 @@ export const TemporalSpy: IBadgeData = {
     ],
     acquisition: "Control 25 Heavies in Recluse's Victory",
     links: [
-        {title: "Temporal Spy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Temporal_Spy_Badge"}
+        {title: "Temporal Spy Badge", href: "https://homecoming.wiki/wiki/Temporal_Spy_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/temporal-spy.png"}

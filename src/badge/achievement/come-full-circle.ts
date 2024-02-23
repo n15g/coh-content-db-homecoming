@@ -20,7 +20,7 @@ export const ComeFullCircle: IBadgeData = {
     ],
     acquisition: "Return to your original alignment (Hero or Villain)",
     links: [
-        {title: "Come Full Circle Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Come_Full_Circle_Badge"}
+        {title: "Come Full Circle Badge", href: "https://homecoming.wiki/wiki/Come_Full_Circle_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/come-full-circle-h.png"},

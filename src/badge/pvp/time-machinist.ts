@@ -13,7 +13,7 @@ export const TimeMachinist: IBadgeData = {
     ],
     acquisition: "Capture 10 pillboxes in Recluse's Victory",
     links: [
-        {title: "Time Machinist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Machinist_Badge"}
+        {title: "Time Machinist Badge", href: "https://homecoming.wiki/wiki/Time_Machinist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/time-machinist.png"}

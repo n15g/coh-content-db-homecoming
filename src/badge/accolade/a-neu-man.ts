@@ -23,8 +23,8 @@ export const ANeuMan: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Neutropolis.key}]`,
     links: [
-        {title: "A Neu Man Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Neu_Man_Badge"},
-        {title: "A Neu Woman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/A_Neu_Woman_Badge"}
+        {title: "A Neu Man Badge", href: "https://homecoming.wiki/wiki/A_Neu_Man_Badge"},
+        {title: "A Neu Woman Badge", href: "https://homecoming.wiki/wiki/A_Neu_Woman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

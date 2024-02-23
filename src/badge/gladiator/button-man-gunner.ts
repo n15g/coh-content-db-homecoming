@@ -13,7 +13,7 @@ export const ButtonManGunner: IBadgeData = {
     ],
     acquisition: "Earn the [badge:keeper-of-peace] Badge (The Family)",
     links: [
-        {title: "Button Man Gunner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Button_Man_Gunner_Badge"}
+        {title: "Button Man Gunner Badge", href: "https://homecoming.wiki/wiki/Button_Man_Gunner_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

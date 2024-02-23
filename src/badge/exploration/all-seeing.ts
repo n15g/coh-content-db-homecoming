@@ -18,7 +18,7 @@ export const AllSeeing: IBadgeData = {
         "\n" +
         "It is on the top of a fire escape 138 yards southwest of the neighborhood marker.",
     links: [
-        {title: "All-Seeing Badge", href: "https://hcwiki.cityofheroes.dev/wiki/All-Seeing_Badge"}
+        {title: "All-Seeing Badge", href: "https://homecoming.wiki/wiki/All-Seeing_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

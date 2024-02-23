@@ -17,7 +17,7 @@ export const Showstopper: IBadgeData = {
 
 It is at the eastern entrance of the Carnival, 328 yards ENE of the neighborhood marker.`,
     links: [
-        {title: "Showstopper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Showstopper_Badge"}
+        {title: "Showstopper Badge", href: "https://homecoming.wiki/wiki/Showstopper_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"

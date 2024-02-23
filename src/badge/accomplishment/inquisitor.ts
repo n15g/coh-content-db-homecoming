@@ -13,7 +13,7 @@ export const Inquisitor: IBadgeData = {
     ],
     acquisition: "Complete a Villain Alignment mission",
     links: [
-        {title: "Inquisitor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Inquisitor_Badge"}
+        {title: "Inquisitor Badge", href: "https://homecoming.wiki/wiki/Inquisitor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/inquisitor.png"}

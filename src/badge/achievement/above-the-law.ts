@@ -16,7 +16,7 @@ export const AboveTheLaw: IBadgeData = {
     ],
     acquisition: "Complete a Vigilante Morality mission",
     links: [
-        {title: "Above the Law Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Above_the_Law_Badge"}
+        {title: "Above the Law Badge", href: "https://homecoming.wiki/wiki/Above_the_Law_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/above-the-law.png"}

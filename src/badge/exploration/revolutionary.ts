@@ -22,8 +22,8 @@ export const Revolutionary: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Revolutionary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Revolutionary_Badge"},
-        {title: "Tyrannical Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tyrannical_Badge"},
+        {title: "Revolutionary Badge", href: "https://homecoming.wiki/wiki/Revolutionary_Badge"},
+        {title: "Tyrannical Badge", href: "https://homecoming.wiki/wiki/Tyrannical_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

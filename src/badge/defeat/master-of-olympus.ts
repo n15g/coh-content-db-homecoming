@@ -18,8 +18,8 @@ export const MasterOfOlympus: IBadgeData = {
     ],
     acquisition: "Defeat Kronos Class Titan, a monster in an ambush in a Crimson mission",
     links: [
-        {title: "Master of Olympus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Olympus_Badge"},
-        {title: "Mistress of Olympus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mistress_of_Olympus_Badge"}
+        {title: "Master of Olympus Badge", href: "https://homecoming.wiki/wiki/Master_of_Olympus_Badge"},
+        {title: "Mistress of Olympus Badge", href: "https://homecoming.wiki/wiki/Mistress_of_Olympus_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/malta.png"}

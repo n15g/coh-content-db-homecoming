@@ -14,7 +14,7 @@ export const SecretAdmirer: IBadgeData = {
     }],
     notes: "119 yards south of the Wentworth Consignment House.",
     links: [
-        {title: "Secret Admirer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Secret_Admirer_Badge"}
+        {title: "Secret Admirer Badge", href: "https://homecoming.wiki/wiki/Secret_Admirer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

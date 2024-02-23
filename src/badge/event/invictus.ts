@@ -24,7 +24,7 @@ export const Invictus: IBadgeData = {
         "As the God-Champion is injured he will spawn Elite Boss versions of the Challengers from the previous fights. Once he reaches 30% health, he will go invulnerable and" +
         " untargetable until the EB's are defeated.",
     links: [
-        {title: "Invictus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Invictus_Badge"}
+        {title: "Invictus Badge", href: "https://homecoming.wiki/wiki/Invictus_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/invictus.png"}]
 };

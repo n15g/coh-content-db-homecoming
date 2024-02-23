@@ -13,7 +13,7 @@ export const Breakneck: IBadgeData = {
     ],
     acquisition: "Defeat Synapse in Recluse's Victory",
     links: [
-        {title: "Breakneck Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Breakneck_Badge"}
+        {title: "Breakneck Badge", href: "https://homecoming.wiki/wiki/Breakneck_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/breakneck.png"}

@@ -20,7 +20,7 @@ export const ConspiracyTheorist: IBadgeData = {
     ],
     notes: `Awards the Crey CBX-9 Pistol power`,
     links: [
-        {title: "Conspiracy Theorist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Conspiracy_Theorist_Badge"}
+        {title: "Conspiracy Theorist Badge", href: "https://homecoming.wiki/wiki/Conspiracy_Theorist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conspiracy-theorist.png"}

@@ -17,8 +17,8 @@ export const Partner: IBadgeData = {
     ],
     acquisition: "Complete 50 Weekly Strike Targets after you've already completed one for the week",
     links: [
-        {title: "Partner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Partner_Badge"},
-        {title: "Conspirator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Conspirator_Badge"}
+        {title: "Partner Badge", href: "https://homecoming.wiki/wiki/Partner_Badge"},
+        {title: "Conspirator Badge", href: "https://homecoming.wiki/wiki/Conspirator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/partner.png"}

@@ -13,7 +13,7 @@ export const BurkholdersBane: IBadgeData = {
     ],
     acquisition: "Complete the Ernesto Hess Task Force: The MegaMech Cometh",
     links: [
-        {title: "Burkholder's Bane Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Burkholder%27s_Bane_Badge"}
+        {title: "Burkholder's Bane Badge", href: "https://homecoming.wiki/wiki/Burkholder%27s_Bane_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/burkholders-bane.png"}

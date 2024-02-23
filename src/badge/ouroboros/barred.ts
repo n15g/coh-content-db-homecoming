@@ -14,7 +14,7 @@ export const Barred: IBadgeData = {
     ],
     acquisition: "Complete a level 26-30 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Barred Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Barred_Badge"}
+        {title: "Barred Badge", href: "https://homecoming.wiki/wiki/Barred_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/barred.png"}]
 };

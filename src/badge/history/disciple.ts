@@ -16,7 +16,7 @@ export const Disciple: IBadgeData = {
         {value: `You have learned the history behind the founding of Hero Corps.`}
     ],
     links: [
-        {title: "Disciple Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Disciple_Badge"}
+        {title: "Disciple Badge", href: "https://homecoming.wiki/wiki/Disciple_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

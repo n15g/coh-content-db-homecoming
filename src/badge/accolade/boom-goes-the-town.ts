@@ -22,7 +22,7 @@ export const BoomGoesTheTown: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Boomtown.key}]`,
     links: [
-        {title: "Boom... Goes the Town Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Boom..._Goes_the_Town_Badge"}
+        {title: "Boom... Goes the Town Badge", href: "https://homecoming.wiki/wiki/Boom..._Goes_the_Town_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

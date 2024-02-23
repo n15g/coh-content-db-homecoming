@@ -13,7 +13,7 @@ export const TheGreaterGood: IBadgeData = {
     ],
     acquisition: "Quarantine during The Graveyard Shift story arc.",
     links: [
-        {title: "The Greater Good Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Greater_Good_Badge"}
+        {title: "The Greater Good Badge", href: "https://homecoming.wiki/wiki/The_Greater_Good_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-greater-good.png"}

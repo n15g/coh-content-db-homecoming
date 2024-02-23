@@ -17,8 +17,8 @@ export const Backup: IBadgeData = {
     ],
     acquisition: "Complete 10 Weekly Strike Targets after you've already completed one for the week",
     links: [
-        {title: "Backup Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Backup_Badge"},
-        {title: "Confederate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Confederate_Badge"}
+        {title: "Backup Badge", href: "https://homecoming.wiki/wiki/Backup_Badge"},
+        {title: "Confederate Badge", href: "https://homecoming.wiki/wiki/Confederate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/backup.png"}

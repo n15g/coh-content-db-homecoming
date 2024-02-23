@@ -13,7 +13,7 @@ export const FortKnox: IBadgeData = {
     ],
     acquisition: "Defeat 200 Gold Bricker Rocketmen",
     links: [
-        {title: "Fort Knox Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fort_Knox_Badge"}
+        {title: "Fort Knox Badge", href: "https://homecoming.wiki/wiki/Fort_Knox_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/fort-knox.png"}

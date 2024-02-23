@@ -14,7 +14,7 @@ export const LongbowWarden: IBadgeData = {
     ],
     acquisition: "Earn the [badge:politician] Badge (Longbow)",
     links: [
-        {title: "Longbow Warden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Longbow_Warden_1_Badge"}
+        {title: "Longbow Warden Badge", href: "https://homecoming.wiki/wiki/Longbow_Warden_1_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

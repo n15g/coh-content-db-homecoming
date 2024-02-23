@@ -16,7 +16,7 @@ export const Leviathan: IBadgeData = {
     ],
     acquisition: "Complete the Operative Renault Strike Force: The Temple of the Waters",
     links: [
-        {title: "Leviathan Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Leviathan_Badge"}
+        {title: "Leviathan Badge", href: "https://homecoming.wiki/wiki/Leviathan_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/leviathan.png"}

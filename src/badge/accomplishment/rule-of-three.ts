@@ -20,7 +20,7 @@ export const RuleOfThree: IBadgeData = {
     ],
     acquisition: "Complete the first part of the new Positron Task Force",
     links: [
-        {title: "Rule of Three Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rule_of_Three_Badge"}
+        {title: "Rule of Three Badge", href: "https://homecoming.wiki/wiki/Rule_of_Three_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/rule-of-three.png"}

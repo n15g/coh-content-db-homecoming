@@ -22,7 +22,7 @@ export const BusyBusyBee: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TheHive.key}]`,
     links: [
-        {title: "Busy, Busy Bee Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Busy%2C_Busy_Bee_Badge"}
+        {title: "Busy, Busy Bee Badge", href: "https://homecoming.wiki/wiki/Busy%2C_Busy_Bee_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

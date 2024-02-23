@@ -15,7 +15,7 @@ export const KeepingTheLightsOn: IBadgeData = {
     }],
     notes: "Located in [map:underground-neutropolis] 256 yards west of City Access A.",
     links: [
-        {title: "Keeping the Lights On Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Keeping_the_Lights_On_Badge"}
+        {title: "Keeping the Lights On Badge", href: "https://homecoming.wiki/wiki/Keeping_the_Lights_On_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "5"

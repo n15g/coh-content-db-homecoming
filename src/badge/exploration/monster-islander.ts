@@ -18,7 +18,7 @@ Squaring your shoulders, you set out; it is time you showed them that a new mons
     }],
     notes: `Located in [map:${MonsterIsland.key}], 68 yards southwest of the [map:${Grandville.key}] transfer point, in the center of the hospital island next to the submarine.`,
     links: [
-        {title: "Monster Islander Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Monster_Islander_Badge"}
+        {title: "Monster Islander Badge", href: "https://homecoming.wiki/wiki/Monster_Islander_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

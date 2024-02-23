@@ -14,7 +14,7 @@ export const Professional: IBadgeData = {
     ],
     acquisition: "Complete a level 21-25 Flashback story arc using no pool powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Professional Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Professional_Badge"}
+        {title: "Professional Badge", href: "https://homecoming.wiki/wiki/Professional_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/professional.png"}]
 };

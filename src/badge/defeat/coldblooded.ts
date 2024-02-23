@@ -15,8 +15,8 @@ export const Coldblooded: IBadgeData = {
     ],
     acquisition: "Defeat 100 Circle of Thorns cold demons, including Hordelings, Hellfrosts and Blade Princes",
     links: [
-        {title: "Coldblooded Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Coldblooded_Badge"},
-        {title: "Coldhearted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Coldhearted_Badge"}
+        {title: "Coldblooded Badge", href: "https://homecoming.wiki/wiki/Coldblooded_Badge"},
+        {title: "Coldhearted Badge", href: "https://homecoming.wiki/wiki/Coldhearted_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/coldblooded.png"}

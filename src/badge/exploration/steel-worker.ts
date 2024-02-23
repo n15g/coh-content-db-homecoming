@@ -22,7 +22,7 @@ export const SteelWorker: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Steel Worker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Steel_Worker_Badge"},
+        {title: "Steel Worker Badge", href: "https://homecoming.wiki/wiki/Steel_Worker_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

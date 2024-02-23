@@ -18,8 +18,8 @@ export const ThinLine: IBadgeData = {
     ],
     acquisition: "Defeat 1000 Paragon Police (all kinds) in Mayhem Missions",
     links: [
-        {title: "Thin Line Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thin_Line_Badge"},
-        {title: "Outlaw Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Outlaw_Badge"}
+        {title: "Thin Line Badge", href: "https://homecoming.wiki/wiki/Thin_Line_Badge"},
+        {title: "Outlaw Badge", href: "https://homecoming.wiki/wiki/Outlaw_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/thin-line.png"}

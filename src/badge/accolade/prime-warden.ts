@@ -22,7 +22,7 @@ export const PrimeWarden: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${FirstWard.key}]`,
     links: [
-        {title: "Prime Warden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Prime_Warden_Badge"}
+        {title: "Prime Warden Badge", href: "https://homecoming.wiki/wiki/Prime_Warden_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

@@ -26,8 +26,8 @@ export const Leader: IBadgeData = {
     ],
     acquisition: "Earn 500,000,000 influence",
     links: [
-        {title: "Leader Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Leader_Badge"},
-        {title: "The Chosen One Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Chosen_One_Badge"}
+        {title: "Leader Badge", href: "https://homecoming.wiki/wiki/Leader_Badge"},
+        {title: "The Chosen One Badge", href: "https://homecoming.wiki/wiki/The_Chosen_One_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/inf-h.png"},

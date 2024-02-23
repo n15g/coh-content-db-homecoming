@@ -18,7 +18,7 @@ Some take the trek down into these tunnels to exact some retribution against the
     }],
     notes: `Located in [map:${SewerNetwork.key}] 107 yards south of the [map:${Boomtown.key}] transfer point, in the middle of the metal walkway.`,
     links: [
-        {title: "Baumton Avenger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Baumton_Avenger_Badge"}
+        {title: "Baumton Avenger Badge", href: "https://homecoming.wiki/wiki/Baumton_Avenger_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

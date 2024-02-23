@@ -18,7 +18,7 @@ export const WordsOfTheWarrior: IBadgeData = {
     }],
     notes: "Located in [map:striga-isle] 551 yards west of the Bonny Morass marker, at the base of the radio tower.",
     links: [
-        {title: "Words of the Warrior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Words_of_the_Warrior_Badge"}
+        {title: "Words of the Warrior Badge", href: "https://homecoming.wiki/wiki/Words_of_the_Warrior_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

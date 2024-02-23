@@ -13,7 +13,7 @@ export const Globetrotter: IBadgeData = {
     notes: "The Globetrotter Badge is located in the [map:${ReclusesVictory.key}] zone in Sector 5." +
         " It is in front of the Atlas Statue, just behind the dais that Ms. Liberty stands on in the hero's version of Atlas Park.",
     links: [
-        {title: "Globetrotter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Globetrotter_Badge"}
+        {title: "Globetrotter Badge", href: "https://homecoming.wiki/wiki/Globetrotter_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

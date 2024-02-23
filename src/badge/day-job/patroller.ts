@@ -24,9 +24,9 @@ export const Patroller: IBadgeData = {
     acquisition: "Log out anywhere for 100 hours.",
     effect: "Day Job: Patrol XP",
     links: [
-        {title: "Patroller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Patroller_Badge"},
-        {title: "Criminal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Criminal_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Patroller Badge", href: "https://homecoming.wiki/wiki/Patroller_Badge"},
+        {title: "Criminal Badge", href: "https://homecoming.wiki/wiki/Criminal_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/patroller.png"}]
 };

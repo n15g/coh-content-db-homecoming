@@ -13,7 +13,7 @@ export const Legatus: IBadgeData = {
     ],
     acquisition: `Defeat 100 Incarnate-level Cimeroran Traitors.`,
     links: [
-        {title: "Legatus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Legatus_Badge"}
+        {title: "Legatus Badge", href: "https://homecoming.wiki/wiki/Legatus_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/legatus.png"}

@@ -14,7 +14,7 @@ export const OnTheShouldersOfGiants: IBadgeData = {
     }],
     notes: `Located on the left shoulder of the statue of Statesman in the center of [map:kallisti-wharf], within 100 ft of the One Statesman Plaza neighborhood marker.`,
     links: [
-        {title: "On the Shoulders of Giants", href: "https://hcwiki.cityofheroes.dev/wiki/On_the_Shoulders_of_Giants_Badge"}
+        {title: "On the Shoulders of Giants", href: "https://homecoming.wiki/wiki/On_the_Shoulders_of_Giants_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}]
 };

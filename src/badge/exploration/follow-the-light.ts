@@ -16,7 +16,7 @@ With the light as your guide you are free to traverse Night Ward's darkest corne
     }],
     notes: `Located in [map:${NightWard.key}], in the The Arcane Quarter neighborhood, 99 yards S of the map marker; near the Mistress of Fate.`,
     links: [
-        {title: "Follow the Light Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Follow_the_Light_Badge"}
+        {title: "Follow the Light Badge", href: "https://homecoming.wiki/wiki/Follow_the_Light_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

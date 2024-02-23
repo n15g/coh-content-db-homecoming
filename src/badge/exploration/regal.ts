@@ -14,7 +14,7 @@ export const Regal: IBadgeData = {
         " 600 yards due west of the Powderkeg marker, there is a road. Directly north of that location, one level down, is a tunnel entrance." +
         "\n\nThe badge marker is located in the middle of that tunnel along the center divider, 682 yards west of the Powderkeg marker.",
     links: [
-        {title: "Regal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Regal_Badge"}
+        {title: "Regal Badge", href: "https://homecoming.wiki/wiki/Regal_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

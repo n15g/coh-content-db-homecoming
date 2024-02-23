@@ -16,7 +16,7 @@ export const KittysGotClaws: IBadgeData = {
     ],
     acquisition: "In the third mission of the Tin Mage Mark II Task Force, defeat Neuron before Bobcat reaches 50% health, then defeat Bobcat",
     links: [
-        {title: "Kitty's Got Claws Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Kitty%27s_Got_Claws_Badge"}
+        {title: "Kitty's Got Claws Badge", href: "https://homecoming.wiki/wiki/Kitty%27s_Got_Claws_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-alpha.png"}

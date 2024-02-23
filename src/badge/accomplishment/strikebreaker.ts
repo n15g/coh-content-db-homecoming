@@ -13,7 +13,7 @@ export const Strikebreaker: IBadgeData = {
     ],
     acquisition: "Complete the Bust the Dockworkers Strike mission from Lorenz Ansaldo",
     links: [
-        {title: "Strikebreaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Strikebreaker_Badge"}
+        {title: "Strikebreaker Badge", href: "https://homecoming.wiki/wiki/Strikebreaker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-4.png"}

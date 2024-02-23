@@ -17,7 +17,7 @@ Rularuu is a being who consumes and destroys and now you shall show him that suc
     }],
     notes: `Located in [map:${TheStormPalace.key}] 78 yards west of the Lock of Destruction marker, in a small passage between rocks.`,
     links: [
-        {title: "Eve of Destruction Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eve_of_Destruction_Badge"}
+        {title: "Eve of Destruction Badge", href: "https://homecoming.wiki/wiki/Eve_of_Destruction_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

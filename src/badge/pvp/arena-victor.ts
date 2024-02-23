@@ -13,7 +13,7 @@ export const ArenaVictor: IBadgeData = {
     ],
     acquisition: "Win any rated or unrated match in the Arena",
     links: [
-        {title: "Arena Victor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arena_Victor_Badge"}
+        {title: "Arena Victor Badge", href: "https://homecoming.wiki/wiki/Arena_Victor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/arena-victor.png"}

@@ -16,7 +16,7 @@ export const Trickster: IBadgeData = {
     ],
     acquisition: "Maintain a Rogue alignment for 7 days",
     links: [
-        {title: "Trickster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trickster_Badge"}
+        {title: "Trickster Badge", href: "https://homecoming.wiki/wiki/Trickster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/trickster.png"}

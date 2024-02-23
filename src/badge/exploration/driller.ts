@@ -17,7 +17,7 @@ export const Driller: IBadgeData = {
 
 The marker is almost where the water comes over the deck.`,
     links: [
-        {title: "Driller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Driller_Badge"}
+        {title: "Driller Badge", href: "https://homecoming.wiki/wiki/Driller_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "4"

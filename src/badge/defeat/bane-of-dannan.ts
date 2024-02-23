@@ -13,7 +13,7 @@ export const BaneOfDannan: IBadgeData = {
     ],
     acquisition: "Defeat 333 Tuatha de Dannan",
     links: [
-        {title: "Bane of Dannan Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bane_of_Dannan_Badge"}
+        {title: "Bane of Dannan Badge", href: "https://homecoming.wiki/wiki/Bane_of_Dannan_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/bane-of-dannan.png"}

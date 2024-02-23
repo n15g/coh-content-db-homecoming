@@ -13,7 +13,7 @@ export const Monstrous: IBadgeData = {
     ],
     acquisition: "Defeat the Greater Mystic Aspect during a Deadly Apocalypse.",
     links: [
-        {title: "Monstrous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Terror_Badge"}
+        {title: "Monstrous Badge", href: "https://homecoming.wiki/wiki/Terror_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/monstrous.png"}]
 };

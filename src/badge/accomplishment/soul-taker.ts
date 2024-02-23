@@ -13,7 +13,7 @@ export const SoulTaker: IBadgeData = {
     ],
     acquisition: "Complete the Offer soul of Akarist mission from Archmage Tarixus",
     links: [
-        {title: "Soul Taker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Soul_Taker_Badge"}
+        {title: "Soul Taker Badge", href: "https://homecoming.wiki/wiki/Soul_Taker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-5.png"}

@@ -22,7 +22,7 @@ export const CitizenOfSalamanca: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Croatoa.key}]`,
     links: [
-        {title: "Citizen of Salamanca Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Citizen_of_Salamanca_Badge"}
+        {title: "Citizen of Salamanca Badge", href: "https://homecoming.wiki/wiki/Citizen_of_Salamanca_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

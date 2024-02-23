@@ -16,7 +16,7 @@ export const SeekerOfTheUnknown: IBadgeData = {
         "\n" +
         "At the bottom of that chasm is a doorway that leads into a tunnel. The badge marker is outside the second (middle) crypt in that tunnel.",
     links: [
-        {title: "Seeker of the Unknown Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Seeker_of_the_Unknown_Badge"}
+        {title: "Seeker of the Unknown Badge", href: "https://homecoming.wiki/wiki/Seeker_of_the_Unknown_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

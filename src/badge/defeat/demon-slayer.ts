@@ -20,7 +20,7 @@ export const DemonSlayer: IBadgeData = {
     ],
     acquisition: "Defeat Baphomet, a villain found in the Faathim the Kind Task Force and an Angus McQueen mission",
     links: [
-        {title: "Demon Slayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Demon_Slayer_Badge"}
+        {title: "Demon Slayer Badge", href: "https://homecoming.wiki/wiki/Demon_Slayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/cot.png"}

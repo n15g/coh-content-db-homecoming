@@ -19,7 +19,7 @@ It matters not, they seem just as interested in grinding you underfoot as any ot
     }],
     notes: `Located in [map:${MonsterIsland.key}], 249 yards northwest of the Tempest Quay marker, near the northern edge of the small island.`,
     links: [
-        {title: "Misfit Monstrosity Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Misfit_Monstrosity_Badge"}
+        {title: "Misfit Monstrosity Badge", href: "https://homecoming.wiki/wiki/Misfit_Monstrosity_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

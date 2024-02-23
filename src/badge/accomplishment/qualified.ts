@@ -13,7 +13,7 @@ export const Qualified: IBadgeData = {
     ],
     acquisition: "Complete a ski run on the Expert slope in under 45 seconds during a Winter Event",
     links: [
-        {title: "Qualified Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Qualified_Badge"}
+        {title: "Qualified Badge", href: "https://homecoming.wiki/wiki/Qualified_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ski-bronze.png"}

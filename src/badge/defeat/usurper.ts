@@ -13,7 +13,7 @@ export const Usurper: IBadgeData = {
     ],
     acquisition: "Defeat Lord Recluse in the second Patron story arc",
     links: [
-        {title: "Usurper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Usurper_Badge"}
+        {title: "Usurper Badge", href: "https://homecoming.wiki/wiki/Usurper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/defeatrecluse.png"}

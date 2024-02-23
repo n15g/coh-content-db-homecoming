@@ -16,7 +16,7 @@ export const Dastardly: IBadgeData = {
     ],
     acquisition: "Complete a Villain Morality mission",
     links: [
-        {title: "Dastardly Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dastardly_Badge"}
+        {title: "Dastardly Badge", href: "https://homecoming.wiki/wiki/Dastardly_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dastardly.png"}

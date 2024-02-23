@@ -18,7 +18,7 @@ export const SacrificialLamb: IBadgeData = {
     ],
     acquisition: "Defeat Diabolique without defeating the two heroes under her control during the final battle of the Dilemma Diabolique Trial",
     links: [
-        {title: "Sacrificial Lamb Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sacrificial_Lamb_Badge"}
+        {title: "Sacrificial Lamb Badge", href: "https://homecoming.wiki/wiki/Sacrificial_Lamb_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-dea.png"}

@@ -16,7 +16,7 @@ export const WellStocked: IBadgeData = {
     ],
     acquisition: "Complete the Lambda Sector Incarnate Trial having destroyed all the Weapons Caches in sabotage, but using no Pacification Grenades",
     links: [
-        {title: "Well-Stocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Well-Stocked_Badge"}
+        {title: "Well-Stocked Badge", href: "https://homecoming.wiki/wiki/Well-Stocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-lambda.png"}

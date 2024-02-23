@@ -17,7 +17,7 @@ export const KingMaker: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "King Maker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/King_Maker_Badge"},
+        {title: "King Maker Badge", href: "https://homecoming.wiki/wiki/King_Maker_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

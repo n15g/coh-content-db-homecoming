@@ -14,7 +14,7 @@ export const AroundTheBendis: IBadgeData = {
     }],
     notes: "Located in [map:perez-park] 343 yards northwest of the [map:skyway-city] entrance.",
     links: [
-        {title: "Around the Bendis Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Around_the_Bendis_Badge"}
+        {title: "Around the Bendis Badge", href: "https://homecoming.wiki/wiki/Around_the_Bendis_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

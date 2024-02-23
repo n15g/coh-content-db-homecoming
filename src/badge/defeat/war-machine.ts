@@ -14,6 +14,6 @@ export const WarMachine: IBadgeData = {
     ],
     acquisition: "Defeat the Council War Walker in Boomtown",
     links: [
-        {title: "War Machine Badge", href: "https://hcwiki.cityofheroes.dev/wiki/War_Machine_Badge"}
+        {title: "War Machine Badge", href: "https://homecoming.wiki/wiki/War_Machine_Badge"}
     ],
 };

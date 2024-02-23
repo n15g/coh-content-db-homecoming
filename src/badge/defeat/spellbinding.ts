@@ -13,7 +13,7 @@ export const Spellbinding: IBadgeData = {
     ],
     acquisition: "Defeat 333 Cabal",
     links: [
-        {title: "Spellbinding Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spellbinding_Badge"}
+        {title: "Spellbinding Badge", href: "https://homecoming.wiki/wiki/Spellbinding_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/spellbinding.png"}

@@ -21,9 +21,9 @@ export const Restrained: IBadgeData = {
     ],
     acquisition: "Be held for 10 minutes",
     links: [
-        {title: "Restrained Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Restrained_Badge"},
-        {title: "Slacker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Slacker_Badge"},
-        {title: "Waiting Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Waiting_Badge"}
+        {title: "Restrained Badge", href: "https://homecoming.wiki/wiki/Restrained_Badge"},
+        {title: "Slacker Badge", href: "https://homecoming.wiki/wiki/Slacker_Badge"},
+        {title: "Waiting Badge", href: "https://homecoming.wiki/wiki/Waiting_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hold-h.png"},

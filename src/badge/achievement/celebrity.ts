@@ -21,9 +21,9 @@ export const Celebrity: IBadgeData = {
     ],
     acquisition: "Earn 500,000 influence",
     links: [
-        {title: "Celebrity Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Celebrity_Badge"},
-        {title: "Bling Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bling_Badge"},
-        {title: "Who's Who Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Who%27s_Who_Badge"}
+        {title: "Celebrity Badge", href: "https://homecoming.wiki/wiki/Celebrity_Badge"},
+        {title: "Bling Badge", href: "https://homecoming.wiki/wiki/Bling_Badge"},
+        {title: "Who's Who Badge", href: "https://homecoming.wiki/wiki/Who%27s_Who_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/inf-h.png"},

@@ -21,8 +21,8 @@ export const Adventurer: IBadgeData = {
     ],
     acquisition: "Earn 750 badges",
     links: [
-        {title: "Adventurer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Adventurer_Badge"},
-        {title: "Doer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Doer_Badge"}
+        {title: "Adventurer Badge", href: "https://homecoming.wiki/wiki/Adventurer_Badge"},
+        {title: "Doer Badge", href: "https://homecoming.wiki/wiki/Doer_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/adventurer-h.png"},

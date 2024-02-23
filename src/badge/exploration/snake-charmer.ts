@@ -14,7 +14,7 @@ export const SnakeCharmer: IBadgeData = {
     }],
     notes: `Located on [map:${MercyIsland.key}], in a snake pit approximately 507 yards due west of the Darwin's Landing marker in Mercy Island. It is in the Darwin's Landing neighborhood.`,
     links: [
-        {title: "Snake Charmer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Snake_Charmer_Badge"}
+        {title: "Snake Charmer Badge", href: "https://homecoming.wiki/wiki/Snake_Charmer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "2"

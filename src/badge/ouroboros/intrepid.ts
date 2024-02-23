@@ -14,7 +14,7 @@ export const Intrepid: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc with enemies buffed.",
     links: [
-        {title: "Intrepid Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Intrepid_Badge"}
+        {title: "Intrepid Badge", href: "https://homecoming.wiki/wiki/Intrepid_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/intrepid.png"}]
 };

@@ -14,8 +14,8 @@ export const PumpkinKing: IBadgeData = {
     ],
     acquisition: "Defeat Eochai, a monster that spawns in Croatoa",
     links: [
-        {title: "Pumpkin King Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pumpkin_King_Badge"},
-        {title: "Pumpkin Queen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pumpkin_Queen_Badge"}
+        {title: "Pumpkin King Badge", href: "https://homecoming.wiki/wiki/Pumpkin_King_Badge"},
+        {title: "Pumpkin Queen Badge", href: "https://homecoming.wiki/wiki/Pumpkin_Queen_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/pumpkin-king.png"}

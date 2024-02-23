@@ -15,7 +15,7 @@ export const Controversial: IBadgeData = {
     }],
     notes: "The Controversial Badge is at feet of the statue 129 yards east of the Royal Overlook neighborhood in Steel Canyon, or just in front of the base telepad location.",
     links: [
-        {title: "Controversial Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Controversial_Badge"}
+        {title: "Controversial Badge", href: "https://homecoming.wiki/wiki/Controversial_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

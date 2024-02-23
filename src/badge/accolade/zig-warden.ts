@@ -24,9 +24,9 @@ export const ZigWarden: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${Brickstown.key}]`,
     links: [
-        {title: "Zig Warden Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Zig_Warden_Badge"},
-        {title: "King of the Zig Badge", href: "https://hcwiki.cityofheroes.dev/wiki/King_of_the_Zig_Badge"},
-        {title: "Queen of the Zig Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Queen_of_the_Zig_Badge"}
+        {title: "Zig Warden Badge", href: "https://homecoming.wiki/wiki/Zig_Warden_Badge"},
+        {title: "King of the Zig Badge", href: "https://homecoming.wiki/wiki/King_of_the_Zig_Badge"},
+        {title: "Queen of the Zig Badge", href: "https://homecoming.wiki/wiki/Queen_of_the_Zig_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

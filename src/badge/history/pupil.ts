@@ -16,7 +16,7 @@ export const Pupil: IBadgeData = {
         {value: `You have learned the history of the fallen hero, Atlas.`}
     ],
     links: [
-        {title: "Pupil Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pupil_Badge"}
+        {title: "Pupil Badge", href: "https://homecoming.wiki/wiki/Pupil_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

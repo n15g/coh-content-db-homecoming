@@ -16,7 +16,7 @@ If you like your hair dryers, your video games, your mass-spectrometers, or your
     }],
     notes: `210 yards South of the Coroman Manufacturing marker on top of the first right hand Pylon in Gordon Trench.`,
     links: [
-        {title: "Guardian of the Volts Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Guardian_of_the_Volts_Badge"}
+        {title: "Guardian of the Volts Badge", href: "https://homecoming.wiki/wiki/Guardian_of_the_Volts_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

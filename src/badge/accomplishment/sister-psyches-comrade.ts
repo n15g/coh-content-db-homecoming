@@ -15,8 +15,8 @@ export const SisterPsychesComrade: IBadgeData = {
     ],
     acquisition: "Complete the Sister Psyche Task Force: Clamor and Destruction in Flashback",
     links: [
-        {title: "Sister Psyche's Comrade Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sister_Psyche%27s_Comrade_Badge"},
-        {title: "Sister Psyche's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sister_Psyche%27s_Betrayer_Badge"}
+        {title: "Sister Psyche's Comrade Badge", href: "https://homecoming.wiki/wiki/Sister_Psyche%27s_Comrade_Badge"},
+        {title: "Sister Psyche's Betrayer Badge", href: "https://homecoming.wiki/wiki/Sister_Psyche%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/tf-3.png"}

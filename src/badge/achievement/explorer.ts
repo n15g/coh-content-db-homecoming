@@ -21,9 +21,9 @@ export const Explorer: IBadgeData = {
     ],
     acquisition: "Earn 50 badges",
     links: [
-        {title: "Explorer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Explorer_Badge"},
-        {title: "Obsessed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Obsessed_Badge"},
-        {title: "Knows the Truth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_the_Truth_Badge"}
+        {title: "Explorer Badge", href: "https://homecoming.wiki/wiki/Explorer_Badge"},
+        {title: "Obsessed Badge", href: "https://homecoming.wiki/wiki/Obsessed_Badge"},
+        {title: "Knows the Truth Badge", href: "https://homecoming.wiki/wiki/Knows_the_Truth_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/explorer-h.png"},

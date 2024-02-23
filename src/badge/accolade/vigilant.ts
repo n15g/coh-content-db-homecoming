@@ -23,7 +23,7 @@ This badge rewards 20 reward merits for completing the following story arcs (con
 * The Horror of War (The Dark Watcher)
 `,
     links: [
-        {title: "Vigilant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vigilant_Badge"}
+        {title: "Vigilant Badge", href: "https://homecoming.wiki/wiki/Vigilant_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"},

@@ -13,7 +13,7 @@ export const Merrymaker: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Merrymaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Merrymaker_Badge"}
+        {title: "Merrymaker Badge", href: "https://homecoming.wiki/wiki/Merrymaker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/merrymaker.png"}]
 };

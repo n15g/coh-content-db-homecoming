@@ -18,7 +18,7 @@ True understanding lies in part with becoming what you wish to understand, and d
     }],
     notes: `Located in [map:${SewerNetwork.key}] 179 yards west of the [map:${SteelCanyon.key}] marker, straight back from the entrance.`,
     links: [
-        {title: "Spirit of the City Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spirit_of_the_City_Badge"}
+        {title: "Spirit of the City Badge", href: "https://homecoming.wiki/wiki/Spirit_of_the_City_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

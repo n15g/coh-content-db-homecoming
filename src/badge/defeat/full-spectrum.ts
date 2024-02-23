@@ -18,7 +18,7 @@ export const FullSpectrum: IBadgeData = {
     ],
     acquisition: "Defeat one of each variety of Seedling spawned by The Seed of Hamidon",
     links: [
-        {title: "Full Spectrum Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Full_Spectrum_Badge"}
+        {title: "Full Spectrum Badge", href: "https://homecoming.wiki/wiki/Full_Spectrum_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/full-spectrum.png"}

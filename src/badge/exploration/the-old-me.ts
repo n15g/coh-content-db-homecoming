@@ -15,7 +15,7 @@ export const TheOldMe: IBadgeData = {
     }],
     notes: "Located on the southwestern shore of the beach inside Circe Island in [map:talos-island], 73 yards west of the neighborhood marker.",
     links: [
-        {title: "The Old Me Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Old_Me_Badge"}
+        {title: "The Old Me Badge", href: "https://homecoming.wiki/wiki/The_Old_Me_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

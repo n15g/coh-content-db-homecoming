@@ -16,7 +16,7 @@ export const FreakOfNature: IBadgeData = {
 
 There is a metal grate bridge leading to a lookout point. The marker is at the start of that metal grate bridge.`,
     links: [
-        {title: "Freak of Nature Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freak_of_Nature_Badge"}
+        {title: "Freak of Nature Badge", href: "https://homecoming.wiki/wiki/Freak_of_Nature_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "3"

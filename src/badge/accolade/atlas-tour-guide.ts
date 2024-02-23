@@ -22,7 +22,7 @@ export const AtlasTourGuide: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${AtlasPark.key}]`,
     links: [
-        {title: "Atlas Tour Guide Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Atlas_Tour_Guide_Badge"}
+        {title: "Atlas Tour Guide Badge", href: "https://homecoming.wiki/wiki/Atlas_Tour_Guide_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

@@ -22,7 +22,7 @@ export const Archaeologist: IBadgeData = {
     ],
     notes: `Earn the [badge:mortician] and [badge:midnighter] Day Jobs`,
     links: [
-        {title: "Archaeologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Archaeologist_Badge"}
+        {title: "Archaeologist Badge", href: "https://homecoming.wiki/wiki/Archaeologist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archaeologist.png"}

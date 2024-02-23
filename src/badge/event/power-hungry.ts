@@ -13,8 +13,8 @@ export const PowerHungry: IBadgeData = {
     ],
     acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Use the Malleus Mundi to gain personal power'.",
     links: [
-        {title: "Power Hungry Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Power_Hungry_Badge"},
-        {title: "Whispered Rumour", href: "https://hcwiki.cityofheroes.dev/wiki/Mission:Tip_-_Whispered_Rumor"}
+        {title: "Power Hungry Badge", href: "https://homecoming.wiki/wiki/Power_Hungry_Badge"},
+        {title: "Whispered Rumour", href: "https://homecoming.wiki/wiki/Mission:Tip_-_Whispered_Rumor"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/power-hungry.png"}]
 };

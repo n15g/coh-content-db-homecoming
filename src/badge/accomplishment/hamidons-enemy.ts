@@ -16,7 +16,7 @@ export const HamidonsEnemy: IBadgeData = {
     ],
     acquisition: "Defeat a total combination of 40 Devouring Earth or The Infestedin the Inside Information mission",
     links: [
-        {title: "Hamidon's Enemy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hamidon%27s_Enemy_Badge"}
+        {title: "Hamidon's Enemy Badge", href: "https://homecoming.wiki/wiki/Hamidon%27s_Enemy_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-challenge.png"}

@@ -14,7 +14,7 @@ export const Inspiring: IBadgeData = {
     ],
     acquisition: "Sell 50 Inspirations at either Wentworths or the Black Market.",
     links: [
-        {title: "Inspiring Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Inspiring_Badge"}
+        {title: "Inspiring Badge", href: "https://homecoming.wiki/wiki/Inspiring_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/broker-h.png"},

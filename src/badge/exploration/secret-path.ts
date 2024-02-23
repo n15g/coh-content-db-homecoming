@@ -16,7 +16,7 @@ export const SecretPath: IBadgeData = {
     }],
     notes: "Located in the Seven Gates neighborhood in [map:brickstown]. The path to it starts at the basketball courts approximately 250 yards south of the hospital.",
     links: [
-        {title: "Secret Path Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Secret_Path_Badge"}
+        {title: "Secret Path Badge", href: "https://homecoming.wiki/wiki/Secret_Path_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

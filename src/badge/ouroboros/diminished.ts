@@ -14,7 +14,7 @@ export const Diminished: IBadgeData = {
     ],
     acquisition: "Complete a level 1-15 Flashback story arc using no temp powers.",
     links: [
-        {title: "Diminished Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Diminished_Badge"}
+        {title: "Diminished Badge", href: "https://homecoming.wiki/wiki/Diminished_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/diminished.png"}]
 };

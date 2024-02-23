@@ -12,7 +12,7 @@ export const DarknessUnleashed: IBadgeData = {
     location: [-170.0, 192.3, 1490.0],
     notes: `Located in [map:cimerora] in the northwest corner of Castellum Quarter, between two trees along the cliffs, 501 yards northwest of the Castellum Quarter neighborhood marker.`,
     links: [
-        {title: "Darkness Unleashed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Darkness_Unleashed_Badge"}
+        {title: "Darkness Unleashed Badge", href: "https://homecoming.wiki/wiki/Darkness_Unleashed_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

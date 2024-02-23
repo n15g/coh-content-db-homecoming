@@ -13,7 +13,7 @@ export const GiantKiller: IBadgeData = {
     ],
     acquisition: "Defeat Jack in Irons, a monster that spawns in Croatoa",
     links: [
-        {title: "Giant Killer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Giant_Killer_Badge"}
+        {title: "Giant Killer Badge", href: "https://homecoming.wiki/wiki/Giant_Killer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/giant-killer.png"}

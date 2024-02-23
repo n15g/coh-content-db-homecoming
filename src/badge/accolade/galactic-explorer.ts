@@ -22,7 +22,7 @@ export const GalacticExplorer: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoGalaxyCity.key}]`,
     links: [
-        {title: "Galactic Explorer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Galactic_Explorer_Badge"}
+        {title: "Galactic Explorer Badge", href: "https://homecoming.wiki/wiki/Galactic_Explorer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

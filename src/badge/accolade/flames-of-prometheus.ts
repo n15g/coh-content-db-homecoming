@@ -15,7 +15,7 @@ This badge can be redeemed for a Notice of the Well at level 50.
 
 **Once redeemed, this badge is no longer obtainable. This badge is not included in badge totals.**`,
     links: [
-        {title: "Flames of Prometheus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flames_of_Prometheus"}
+        {title: "Flames of Prometheus Badge", href: "https://homecoming.wiki/wiki/Flames_of_Prometheus"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/flames-of-prometheus.png"}

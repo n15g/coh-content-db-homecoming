@@ -16,7 +16,7 @@ export const DestroyerOfStrength: IBadgeData = {
     ],
     acquisition: "Complete the Sara Moore Task Force: The Legend of Ruladak",
     links: [
-        {title: "Destroyer of Strength Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destroyer_of_Strength_Badge"}
+        {title: "Destroyer of Strength Badge", href: "https://homecoming.wiki/wiki/Destroyer_of_Strength_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/destroyer-of-strength.png"}

@@ -16,7 +16,7 @@ export const Privateer: IBadgeData = {
     ],
     acquisition: "Defeat 100 Sky Raiders Sky Skiffs",
     links: [
-        {title: "Privateer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Privateer_Badge"}
+        {title: "Privateer Badge", href: "https://homecoming.wiki/wiki/Privateer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/privateer.png"}

@@ -16,7 +16,7 @@ export const Physician: IBadgeData = {
     ],
     notes: `Earn the [badge:professor] and [badge:caregiver] Day Jobs`,
     links: [
-        {title: "Physician Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Physician_Badge"}
+        {title: "Physician Badge", href: "https://homecoming.wiki/wiki/Physician_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/physician.png"}

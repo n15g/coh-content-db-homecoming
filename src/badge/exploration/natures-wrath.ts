@@ -18,7 +18,7 @@ But such thoughts are borderline insane and likely planted there by some trick o
     }],
     notes: `Located in [map:${Eden.key}] 206 yards west of The Pit marker, atop a hill next to a light rail track.`,
     links: [
-        {title: "Nature's Wrath Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nature%27s_Wrath_Badge"}
+        {title: "Nature's Wrath Badge", href: "https://homecoming.wiki/wiki/Nature%27s_Wrath_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

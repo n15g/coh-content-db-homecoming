@@ -14,7 +14,7 @@ export const Devalued: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Devalued Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Devalued_Badge"}
+        {title: "Devalued Badge", href: "https://homecoming.wiki/wiki/Devalued_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/devalued.png"}]
 };

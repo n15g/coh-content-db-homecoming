@@ -16,7 +16,7 @@ export const KnowsNoFear: IBadgeData = {
     ],
     acquisition: "Refuse help from the Cimerorans in the final mission from Sister Solaris",
     links: [
-        {title: "Knows No Fear Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_No_Fear_Badge"}
+        {title: "Knows No Fear Badge", href: "https://homecoming.wiki/wiki/Knows_No_Fear_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png"}

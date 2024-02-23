@@ -8,7 +8,7 @@ export const Munitionist: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Damage and Knockback."}],
     links: [
-        {title: "Munitionist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Munitionist_Badge"}
+        {title: "Munitionist Badge", href: "https://homecoming.wiki/wiki/Munitionist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

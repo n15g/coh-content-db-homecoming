@@ -14,7 +14,7 @@ export const SilverMedalist: IBadgeData = {
     ],
     acquisition: "Complete a Flashback story arc in under 60 minutes.",
     links: [
-        {title: "Silver Medalist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Silver_Medalist_Badge"}
+        {title: "Silver Medalist Badge", href: "https://homecoming.wiki/wiki/Silver_Medalist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/silver-medalist.png"}]
 };

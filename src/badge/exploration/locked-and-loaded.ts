@@ -17,7 +17,7 @@ export const LockedAndLoaded: IBadgeData = {
 
 It is located under a shed with mesh-net walls 120 yards north-northeast of the Agincourt marker.`,
     links: [
-        {title: "Locked and Loaded Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Locked_and_Loaded_Badge"}
+        {title: "Locked and Loaded Badge", href: "https://homecoming.wiki/wiki/Locked_and_Loaded_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "2"

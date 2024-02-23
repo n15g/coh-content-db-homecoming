@@ -13,7 +13,7 @@ export const RunningOnEmpty: IBadgeData = {
     ],
     acquisition: "Defeat 200 Malta Sappers.",
     links: [
-        {title: "Running on Empty Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Running_on_Empty_Badge"}
+        {title: "Running on Empty Badge", href: "https://homecoming.wiki/wiki/Running_on_Empty_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/running-on-empty.png"}

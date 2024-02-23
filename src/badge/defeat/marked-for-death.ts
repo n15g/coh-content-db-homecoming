@@ -16,7 +16,7 @@ export const MarkedForDeath: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Syndicate",
     links: [
-        {title: "Marked for Death Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marked_for_Death_Badge"}
+        {title: "Marked for Death Badge", href: "https://homecoming.wiki/wiki/Marked_for_Death_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/marked-for-death.png"}

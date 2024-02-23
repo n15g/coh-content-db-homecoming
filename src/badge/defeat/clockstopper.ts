@@ -13,7 +13,7 @@ export const Clockstopper: IBadgeData = {
     ],
     acquisition: "Defeat Babbage, a monster that spawns in Boomtown or in an ambush in the Synapse Task Force",
     links: [
-        {title: "Clockstopper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Clockstopper_Badge"}
+        {title: "Clockstopper Badge", href: "https://homecoming.wiki/wiki/Clockstopper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/clockwork.png"}

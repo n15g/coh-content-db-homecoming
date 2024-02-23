@@ -16,7 +16,7 @@ export const Undefeated: IBadgeData = {
         "\n" +
         "It sits on a lower ledge on the east side of a building, 70 yards SE of the [map:steel-canyon] gate.",
     links: [
-        {title: "Undefeated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Undefeated_Badge"}
+        {title: "Undefeated Badge", href: "https://homecoming.wiki/wiki/Undefeated_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

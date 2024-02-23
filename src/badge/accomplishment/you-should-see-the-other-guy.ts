@@ -16,7 +16,7 @@ export const YouShouldSeeTheOtherGuy: IBadgeData = {
     ],
     acquisition: "Complete the personal story from Deadlock",
     links: [
-        {title: "You should see the other guy. Badge", href: "https://hcwiki.cityofheroes.dev/wiki/You_should_see_the_other_guy_Badge"}
+        {title: "You should see the other guy. Badge", href: "https://homecoming.wiki/wiki/You_should_see_the_other_guy_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-parc.png"}

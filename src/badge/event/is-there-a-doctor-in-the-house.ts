@@ -13,7 +13,7 @@ export const IsThereADoctorInTheHouse: IBadgeData = {
     ],
     acquisition: "Complete Dr. Kane's House of Horror during the Halloween event.",
     links: [
-        {title: "Is There a Doctor in the House? Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Is_There_a_Doctor_in_the_House%3F_Badge"}
+        {title: "Is There a Doctor in the House? Badge", href: "https://homecoming.wiki/wiki/Is_There_a_Doctor_in_the_House%3F_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/is-there-a-doctor-in-the-house.png"}]
 };

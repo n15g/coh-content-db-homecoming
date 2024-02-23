@@ -16,7 +16,7 @@ export const Illusionist: IBadgeData = {
     ],
     acquisition: "Defeat 100 Illusionists, Phantasms, and Dark Servants summoned by Master Illusionists",
     links: [
-        {title: "Illusionist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Illusionist_Badge"}
+        {title: "Illusionist Badge", href: "https://homecoming.wiki/wiki/Illusionist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/illusionist.png"}

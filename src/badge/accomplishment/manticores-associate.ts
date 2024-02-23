@@ -18,8 +18,8 @@ export const ManticoresAssociate: IBadgeData = {
     ],
     acquisition: "Complete the Manticore Task Force: Following Countess Crey",
     links: [
-        {title: "Manticore's Associate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Manticore%27s_Associate_Badge"},
-        {title: "Manticore's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Manticore%27s_Betrayer_Badge"}
+        {title: "Manticore's Associate Badge", href: "https://homecoming.wiki/wiki/Manticore%27s_Associate_Badge"},
+        {title: "Manticore's Betrayer Badge", href: "https://homecoming.wiki/wiki/Manticore%27s_Betrayer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/manticores-associate.png"}

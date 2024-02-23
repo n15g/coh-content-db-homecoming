@@ -17,7 +17,7 @@ To merely be counted among those touched by her radiance is in itself a humbling
     }],
     notes: `Located in [map:${NightWard.key}], in the The Digs neighborhood, 464 yards SSE of the map marker; near the capsized boat.`,
     links: [
-        {title: "Monolithic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Monolithic_Badge"}
+        {title: "Monolithic Badge", href: "https://homecoming.wiki/wiki/Monolithic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "7"

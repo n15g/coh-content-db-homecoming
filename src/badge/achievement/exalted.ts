@@ -19,8 +19,8 @@ export const Exalted: IBadgeData = {
     ],
     acquisition: "Pay off 1,000,000 debt",
     links: [
-        {title: "Exalted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Exalted_Badge"},
-        {title: "Infinite Lives Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Infinite_Lives_Badge"}
+        {title: "Exalted Badge", href: "https://homecoming.wiki/wiki/Exalted_Badge"},
+        {title: "Infinite Lives Badge", href: "https://homecoming.wiki/wiki/Infinite_Lives_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

@@ -9,7 +9,7 @@ export const HitMan: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 25 and 30: Recharge Rate and Interrupt Time."}],
     effect: "+2 to Invention Salvage capacity",
     links: [
-        {title: "Hit-Man Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hit-Man_Badge"}
+        {title: "Hit-Man Badge", href: "https://homecoming.wiki/wiki/Hit-Man_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png"}],
     partials: [

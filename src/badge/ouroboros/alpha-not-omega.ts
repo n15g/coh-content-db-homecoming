@@ -13,7 +13,7 @@ export const AlphaNotOmega: IBadgeData = {
     ],
     acquisition: `Complete a Flashback at level 50 with a challenge setting of "Alpha Slot Only"`,
     links: [
-        {title: "Alpha Not Omega Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alpha_Not_Omega_Badge"}
+        {title: "Alpha Not Omega Badge", href: "https://homecoming.wiki/wiki/Alpha_Not_Omega_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/alpha-not-omega.png"}]
 };

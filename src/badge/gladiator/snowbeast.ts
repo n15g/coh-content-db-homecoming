@@ -13,7 +13,7 @@ export const Snowbeast: IBadgeData = {
     ],
     acquisition: "Earn the [badge:toy-collector] Badge (Winter Horde)",
     links: [
-        {title: "Snowbeast Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Snowbeast_Badge"}
+        {title: "Snowbeast Badge", href: "https://homecoming.wiki/wiki/Snowbeast_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -19,7 +19,7 @@ export const LostConnectionToServer: IBadgeData = {
     ],
     acquisition: "Defeat Shalice Tilman without missing any opportunity to sever her connection to the Seer Network, and then complete the trial",
     links: [
-        {title: "Lost Connection to Server Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lost_Connection_to_Server_Badge"}
+        {title: "Lost Connection to Server Badge", href: "https://homecoming.wiki/wiki/Lost_Connection_to_Server_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-mom.png"}

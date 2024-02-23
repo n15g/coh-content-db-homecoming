@@ -15,7 +15,7 @@ export const RisingStar: IBadgeData = {
     acquisition: `Complete every story arc in [map:${ImperialCity.key}]`,
     notes: `This badge rewards 20 reward merits.`,
     links: [
-        {title: "Rising Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rising_Star_Badge"}
+        {title: "Rising Star Badge", href: "https://homecoming.wiki/wiki/Rising_Star_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png"},

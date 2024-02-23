@@ -16,7 +16,7 @@ export const TrollTaskForceMember: IBadgeData = {
     ],
     acquisition: "Spend 1 hour in The Hollows",
     links: [
-        {title: "Troll Task Force Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Troll_Task_Force_Member_Badge"}
+        {title: "Troll Task Force Member Badge", href: "https://homecoming.wiki/wiki/Troll_Task_Force_Member_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},

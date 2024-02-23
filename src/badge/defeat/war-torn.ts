@@ -12,6 +12,6 @@ export const WarTorn: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/council-war-walker.png"}],
     acquisition: "Defeat 100 Council War Walkers in Boomtown",
     links: [
-        {title: "War Torn Badge", href: "https://hcwiki.cityofheroes.dev/wiki/War_Torn_Badge"}
+        {title: "War Torn Badge", href: "https://homecoming.wiki/wiki/War_Torn_Badge"}
     ],
 };

@@ -19,9 +19,9 @@ export const SecurityExpert: IBadgeData = {
     ],
     acquisition: "Stop 5 vault break-ins in Safeguard Missions",
     links: [
-        {title: "Security Expert Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Security_Expert_Badge"},
-        {title: "Inside Man Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Inside_Man_Badge"},
-        {title: "Inside Woman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Inside_Woman_Badge"}
+        {title: "Security Expert Badge", href: "https://homecoming.wiki/wiki/Security_Expert_Badge"},
+        {title: "Inside Man Badge", href: "https://homecoming.wiki/wiki/Inside_Man_Badge"},
+        {title: "Inside Woman Badge", href: "https://homecoming.wiki/wiki/Inside_Woman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/security-expert.png"}

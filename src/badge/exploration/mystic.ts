@@ -14,7 +14,7 @@ export const Mystic: IBadgeData = {
     }],
     notes: "Located in Seven Gates neighborhood of [map:brickstown]. It can be found 330 yards east of the Crey's Folly exit on top of a circular grated catwalk.",
     links: [
-        {title: "Mystic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mystic_Badge"}
+        {title: "Mystic Badge", href: "https://homecoming.wiki/wiki/Mystic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

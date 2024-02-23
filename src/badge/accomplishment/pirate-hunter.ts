@@ -17,8 +17,8 @@ export const PirateHunter: IBadgeData = {
     ],
     acquisition: "Complete the Silver Mantis Strike Force: Pirates of the Sky",
     links: [
-        {title: "Pirate Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pirate_Hunter_Badge"},
-        {title: "Air Pirate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Air_Pirate_Badge"}
+        {title: "Pirate Hunter Badge", href: "https://homecoming.wiki/wiki/Pirate_Hunter_Badge"},
+        {title: "Air Pirate Badge", href: "https://homecoming.wiki/wiki/Air_Pirate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/pirate-hunter.png"}

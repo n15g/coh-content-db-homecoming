@@ -13,7 +13,7 @@ export const Meson: IBadgeData = {
     ],
     acquisition: "Earn the [badge:dimensional-warder] Badge (Praetorians)",
     links: [
-        {title: "Meson Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Meson_Badge"}
+        {title: "Meson Badge", href: "https://homecoming.wiki/wiki/Meson_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

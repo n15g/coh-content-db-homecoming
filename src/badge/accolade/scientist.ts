@@ -17,8 +17,8 @@ export const Scientist: IBadgeData = {
     ],
     notes: `Earn the [badge:professor] and [badge:intern] Day Jobs`,
     links: [
-        {title: "Scientist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scientist_Badge"},
-        {title: "Crackpot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crackpot_Badge"}
+        {title: "Scientist Badge", href: "https://homecoming.wiki/wiki/Scientist_Badge"},
+        {title: "Crackpot Badge", href: "https://homecoming.wiki/wiki/Crackpot_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/scientist.png"}

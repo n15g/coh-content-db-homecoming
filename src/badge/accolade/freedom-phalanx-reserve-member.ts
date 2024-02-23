@@ -26,8 +26,8 @@ export const FreedomPhalanxReserveMember: IBadgeData = {
     ],
     notes: `Awards +10% Max Health`,
     links: [
-        {title: "Freedom Phalanx Reserve Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom_Phalanx_Reserve_Member_Badge"},
-        {title: "Freedom Phalanx Fallen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom_Phalanx_Fallen_Badge"}
+        {title: "Freedom Phalanx Reserve Member Badge", href: "https://homecoming.wiki/wiki/Freedom_Phalanx_Reserve_Member_Badge"},
+        {title: "Freedom Phalanx Fallen Badge", href: "https://homecoming.wiki/wiki/Freedom_Phalanx_Fallen_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png"}

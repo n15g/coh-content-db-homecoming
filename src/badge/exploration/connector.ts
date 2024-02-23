@@ -15,7 +15,7 @@ export const Connector: IBadgeData = {
     }],
     notes: "The Connector Badge is in the Bell Point neighborhood of Independence Port.\n\nIt is on the bridge 285 yards west of the Architect Entertainment building.",
     links: [
-        {title: "Connector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Connector_Badge"}
+        {title: "Connector Badge", href: "https://homecoming.wiki/wiki/Connector_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

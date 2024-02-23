@@ -15,7 +15,7 @@ export const Morbid: IBadgeData = {
     }],
     notes: "Located in [map:underground-nova] approximately 348 yards NNE of the Imperial Tunnel access point.",
     links: [
-        {title: "Morbid Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Morbid_Badge"}
+        {title: "Morbid Badge", href: "https://homecoming.wiki/wiki/Morbid_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

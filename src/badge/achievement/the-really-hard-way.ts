@@ -17,7 +17,7 @@ export const TheReallyHardWay: IBadgeData = {
     ],
     acquisition: "Defeat Tyrant during the final battle of the Magisterium Trial without destroying any Lights of the Well",
     links: [
-        {title: "The Really Hard Way Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Really_Hard_Way_Badge"}
+        {title: "The Really Hard Way Badge", href: "https://homecoming.wiki/wiki/The_Really_Hard_Way_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/magisterium-3.png"}

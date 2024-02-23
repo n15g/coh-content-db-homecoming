@@ -15,7 +15,7 @@ export const Arriviste: IBadgeData = {
     ],
     acquisition: "Complete the Whispered Rumor tip mission during the Halloween event and choose the option to 'Sell the Malleus Mundi to the highest bidder' (Villains).",
     links: [
-        {title: "Arriviste Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arriviste_Badge"},
-        {title: "Whispered Rumour", href: "https://hcwiki.cityofheroes.dev/wiki/Mission:Tip_-_Whispered_Rumor"}
+        {title: "Arriviste Badge", href: "https://homecoming.wiki/wiki/Arriviste_Badge"},
+        {title: "Whispered Rumour", href: "https://homecoming.wiki/wiki/Mission:Tip_-_Whispered_Rumor"}
     ]
 };

@@ -23,8 +23,8 @@ export const Exorcised: IBadgeData = {
     ],
     notes: `Awards the Demonic Aura power`,
     links: [
-        {title: "Exorcised Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Exorcised_Badge"},
-        {title: "Demonic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Demonic_Badge"}
+        {title: "Exorcised Badge", href: "https://homecoming.wiki/wiki/Exorcised_Badge"},
+        {title: "Demonic Badge", href: "https://homecoming.wiki/wiki/Demonic_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/exorcised.png"}

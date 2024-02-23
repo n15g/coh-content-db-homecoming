@@ -13,7 +13,7 @@ export const WhoSmeltItDealtIt: IBadgeData = {
     ],
     acquisition: `Defeat 50 Gold Bricker Smelter bosses.`,
     links: [
-        {title: "Who Smelt It, Dealt It Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Who_Smelt_It,_Dealt_It_Badge"}
+        {title: "Who Smelt It, Dealt It Badge", href: "https://homecoming.wiki/wiki/Who_Smelt_It,_Dealt_It_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/who-smelt-it-dealt-it.png"}

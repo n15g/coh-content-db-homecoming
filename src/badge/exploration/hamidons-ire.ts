@@ -19,7 +19,7 @@ The people who died here deserved what they got.`
     }],
     notes: `Located in [map:${TheAbyss.key}], 735 yards northeast of the [map:${Grandville.key}] transfer point, in a fenced pen of barrels in the northeast portion of the developed island.`,
     links: [
-        {title: "Hamidon's Ire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hamidon%27s_Ire_Badge"}
+        {title: "Hamidon's Ire Badge", href: "https://homecoming.wiki/wiki/Hamidon%27s_Ire_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

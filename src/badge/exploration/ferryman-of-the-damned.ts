@@ -18,8 +18,8 @@ export const FerrymanOfTheDamned: IBadgeData = {
     }],
     notes: "Located in [map:underground-nova] approximately 271 yds SE of the Imperial Tunnel point.",
     links: [
-        {title: "Ferryman of the Damned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ferryman_of_the_Damned_Badge"},
-        {title: "Ferrywoman of the Damned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ferrywoman_of_the_Damned_Badge"}
+        {title: "Ferryman of the Damned Badge", href: "https://homecoming.wiki/wiki/Ferryman_of_the_Damned_Badge"},
+        {title: "Ferrywoman of the Damned Badge", href: "https://homecoming.wiki/wiki/Ferrywoman_of_the_Damned_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

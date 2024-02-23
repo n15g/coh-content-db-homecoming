@@ -15,7 +15,7 @@ export const WentworthHistoryBuff: IBadgeData = {
     }],
     notes: "The Wentworth History Buff Badge is at the entrance of the construction site 155 yards north of Wentworth's.",
     links: [
-        {title: "Wentworth History Buff Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wentworth_History_Buff_Badge"}
+        {title: "Wentworth History Buff Badge", href: "https://homecoming.wiki/wiki/Wentworth_History_Buff_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

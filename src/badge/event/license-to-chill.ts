@@ -13,7 +13,7 @@ export const LicenseToChill: IBadgeData = {
     ],
     acquisition: "Login during the 2021 Winter event.",
     links: [
-        {title: "License to Chill Badge", href: "https://hcwiki.cityofheroes.dev/wiki/License_to_Chill_Badge"}
+        {title: "License to Chill Badge", href: "https://homecoming.wiki/wiki/License_to_Chill_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png"}]
 };

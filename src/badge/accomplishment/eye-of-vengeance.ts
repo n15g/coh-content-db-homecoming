@@ -17,7 +17,7 @@ export const EyeOfVengeance: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Heather Townshend",
     links: [
-        {title: "Eye of Vengeance Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eye_of_Vengeance_Badge"}
+        {title: "Eye of Vengeance Badge", href: "https://homecoming.wiki/wiki/Eye_of_Vengeance_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png"}

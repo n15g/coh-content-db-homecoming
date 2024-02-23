@@ -16,7 +16,7 @@ export const LoneWolf: IBadgeData = {
     ],
     acquisition: "Refuse help from other Incarnate NPCs in the final mission from Dream Doctor",
     links: [
-        {title: "Lone Wolf Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lone_Wolf_Badge"}
+        {title: "Lone Wolf Badge", href: "https://homecoming.wiki/wiki/Lone_Wolf_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png"}

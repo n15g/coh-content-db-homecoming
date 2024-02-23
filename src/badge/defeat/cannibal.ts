@@ -16,7 +16,7 @@ export const Cannibal: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Ghouls",
     links: [
-        {title: "Cannibal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cannibal_Badge"}
+        {title: "Cannibal Badge", href: "https://homecoming.wiki/wiki/Cannibal_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/cannibal.png"}

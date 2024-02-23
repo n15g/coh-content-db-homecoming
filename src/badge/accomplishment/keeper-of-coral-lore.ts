@@ -16,7 +16,7 @@ export const KeeperOfCoralLore: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Vincent Ross",
     links: [
-        {title: "Keeper of Coral Lore Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Keeper_of_Coral_Lore_Badge"}
+        {title: "Keeper of Coral Lore Badge", href: "https://homecoming.wiki/wiki/Keeper_of_Coral_Lore_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/keeper-of-coral-lore.png"}

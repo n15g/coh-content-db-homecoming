@@ -16,8 +16,8 @@ export const FalseImage: IBadgeData = {
     acquisition: `Complete Scirocco's patron story arc`,
     notes: `Completing the patron story arc 'A Wind Called Serafina' from Scirocco in Grandville unlocks the Mu Mastery patron power pool as well as awarding this badge.`,
     links: [
-        {title: "False Image Badge", href: "https://hcwiki.cityofheroes.dev/wiki/False_Image_Badge"},
-        {title: "Mirage Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mirage_Badge"}
+        {title: "False Image Badge", href: "https://homecoming.wiki/wiki/False_Image_Badge"},
+        {title: "Mirage Badge", href: "https://homecoming.wiki/wiki/Mirage_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/false-image.png"}

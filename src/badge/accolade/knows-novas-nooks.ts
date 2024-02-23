@@ -22,7 +22,7 @@ export const KnowsNovasNooks: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${UndergroundNova.key}]`,
     links: [
-        {title: "Knows Nova's Nooks Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knows_Nova%27s_Nooks_Badge"}
+        {title: "Knows Nova's Nooks Badge", href: "https://homecoming.wiki/wiki/Knows_Nova%27s_Nooks_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

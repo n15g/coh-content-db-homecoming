@@ -22,7 +22,7 @@ export const FreeAmongTheDead: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${DarkAstoria.key}]`,
     links: [
-        {title: "Free Among the Dead Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Free_Among_the_Dead_Badge"}
+        {title: "Free Among the Dead Badge", href: "https://homecoming.wiki/wiki/Free_Among_the_Dead_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

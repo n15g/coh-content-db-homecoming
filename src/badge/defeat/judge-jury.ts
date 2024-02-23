@@ -17,8 +17,8 @@ export const JudgeJury: IBadgeData = {
     ],
     acquisition: "Defeat a Rogue's Gallery character in an Alignment Mission or a Morality Mission",
     links: [
-        {title: "Judge & Jury Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Judge_%26_Jury_Badge"},
-        {title: "Merciless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Merciless_Badge"}
+        {title: "Judge & Jury Badge", href: "https://homecoming.wiki/wiki/Judge_%26_Jury_Badge"},
+        {title: "Merciless Badge", href: "https://homecoming.wiki/wiki/Merciless_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/judge-jury.png"}

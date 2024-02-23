@@ -14,7 +14,7 @@ export const DestinyUnlocked: IBadgeData = {
     acquisition: `Unlock the Destiny Incarnate slot`,
     notes: `Unlock the Destiny Incarnate slot by earning Incarnate Experience through normal play.`,
     links: [
-        {title: "Destiny Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destiny_Unlocked_Badge"}
+        {title: "Destiny Unlocked Badge", href: "https://homecoming.wiki/wiki/Destiny_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/destiny-unlocked.png"}

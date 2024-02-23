@@ -13,7 +13,7 @@ export const Arachnophobic: IBadgeData = {
     ],
     acquisition: "Defeat Lord Recluse in Recluse's Victory",
     links: [
-        {title: "Arachnophobic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnophobic_Badge"}
+        {title: "Arachnophobic Badge", href: "https://homecoming.wiki/wiki/Arachnophobic_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatrecluse.png"}

@@ -22,7 +22,7 @@ export const CrazyForCreysFolly: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${CreysFolly.key}]`,
     links: [
-        {title: "Crazy for Crey's Folly Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crazy_for_Crey%27s_Folly_Badge"}
+        {title: "Crazy for Crey's Folly Badge", href: "https://homecoming.wiki/wiki/Crazy_for_Crey%27s_Folly_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

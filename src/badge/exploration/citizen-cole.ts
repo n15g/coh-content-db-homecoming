@@ -15,7 +15,7 @@ export const CitizenCole: IBadgeData = {
     location: [-3090.0, -4.0, -255.0],
     notes: "Located in [map:nova-praetoria] between two bridges to Imperial City in the W part of the Elyssian Avenue neighborhood, 592 yards W of the Magisterium marker.",
     links: [
-        {title: "Citizen Cole Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Citizen_Cole_Badge"}
+        {title: "Citizen Cole Badge", href: "https://homecoming.wiki/wiki/Citizen_Cole_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

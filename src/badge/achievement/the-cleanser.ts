@@ -16,7 +16,7 @@ export const TheCleanser: IBadgeData = {
     ],
     acquisition: "Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost Leader",
     links: [
-        {title: "The Cleanser Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Cleanser_Badge"}
+        {title: "The Cleanser Badge", href: "https://homecoming.wiki/wiki/The_Cleanser_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/sewer-trial.png"}

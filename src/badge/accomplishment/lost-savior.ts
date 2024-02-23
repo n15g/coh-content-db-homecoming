@@ -16,7 +16,7 @@ export const LostSavior: IBadgeData = {
     ],
     acquisition: "Complete the Cure Lost mission from Montague Castanella",
     links: [
-        {title: "Lost Savior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lost_Savior_Badge"}
+        {title: "Lost Savior Badge", href: "https://homecoming.wiki/wiki/Lost_Savior_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/lost-savior.png"}

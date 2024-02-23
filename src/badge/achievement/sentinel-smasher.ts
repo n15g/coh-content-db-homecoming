@@ -19,7 +19,7 @@ export const SentinelSmasher: IBadgeData = {
     ],
     acquisition: "Defeat the Sentinel after rescuing four specific heroes during the Dilemma Diabolique Trial",
     links: [
-        {title: "Sentinel Smasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sentinel_Smasher_Badge"}
+        {title: "Sentinel Smasher Badge", href: "https://homecoming.wiki/wiki/Sentinel_Smasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-dea.png"}

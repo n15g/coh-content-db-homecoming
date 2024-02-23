@@ -18,8 +18,8 @@ export const CimeroranHero: IBadgeData = {
     ],
     acquisition: "Complete the personal story mission from Sister Solaris",
     links: [
-        {title: "Cimeroran Hero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cimeroran_Hero_Badge"},
-        {title: "Cimeroran Heroine Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cimeroran_Heroine_Badge"}
+        {title: "Cimeroran Hero Badge", href: "https://homecoming.wiki/wiki/Cimeroran_Hero_Badge"},
+        {title: "Cimeroran Heroine Badge", href: "https://homecoming.wiki/wiki/Cimeroran_Heroine_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png"}

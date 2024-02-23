@@ -14,7 +14,7 @@ export const WailerQueen: IBadgeData = {
     ],
     acquisition: `Earn the ${badgeReference(Imprisoned)} Badge (Wailers)`,
     links: [
-        {title: "Wailer Queen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wailer_Queen_Badge"}
+        {title: "Wailer Queen Badge", href: "https://homecoming.wiki/wiki/Wailer_Queen_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -18,7 +18,7 @@ export const PortalJockey: IBadgeData = {
     ],
     notes: `Awards +5% Max Health and +5 Max Endurance`,
     links: [
-        {title: "Portal Jockey Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Portal_Jockey_Badge"}
+        {title: "Portal Jockey Badge", href: "https://homecoming.wiki/wiki/Portal_Jockey_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/portal-jockey.png"}

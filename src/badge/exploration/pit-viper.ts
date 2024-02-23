@@ -16,7 +16,7 @@ export const PitViper: IBadgeData = {
 
 The badge marker is located 70 feet west of The Pit marker.`,
     links: [
-        {title: "Pit Viper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pit_Viper_Badge"}
+        {title: "Pit Viper Badge", href: "https://homecoming.wiki/wiki/Pit_Viper_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "4"

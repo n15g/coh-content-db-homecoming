@@ -16,7 +16,7 @@ export const WatchesTheWatchers: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of The Black Knights",
     links: [
-        {title: "Watches the Watchers Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Watches_the_Watchers_Badge"}
+        {title: "Watches the Watchers Badge", href: "https://homecoming.wiki/wiki/Watches_the_Watchers_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/watches-the-watchers.png"}

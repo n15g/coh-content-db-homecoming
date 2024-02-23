@@ -22,9 +22,9 @@ export const JusticeIncarnate: IBadgeData = {
     ],
     acquisition: "Reach level 40",
     links: [
-        {title: "Justice Incarnate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Justice_Incarnate_Badge"},
-        {title: "Captain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Captain_Badge"},
-        {title: "Primal Praetorian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Primal_Praetorian_Badge"}
+        {title: "Justice Incarnate Badge", href: "https://homecoming.wiki/wiki/Justice_Incarnate_Badge"},
+        {title: "Captain Badge", href: "https://homecoming.wiki/wiki/Captain_Badge"},
+        {title: "Primal Praetorian Badge", href: "https://homecoming.wiki/wiki/Primal_Praetorian_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/justice-incarnate-h.png"},

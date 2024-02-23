@@ -14,7 +14,7 @@ export const Gifted: IBadgeData = {
     ],
     acquisition: "Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
-        {title: "Gifted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gifted_Badge"}
+        {title: "Gifted Badge", href: "https://homecoming.wiki/wiki/Gifted_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/gifted.png"}]
 };

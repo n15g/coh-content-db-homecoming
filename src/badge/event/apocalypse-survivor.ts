@@ -13,7 +13,7 @@ export const ApocalypseSurvivor: IBadgeData = {
     ],
     acquisition: "Defeat a Zombie Elite Boss during a Zombie Apocalypse.",
     links: [
-        {title: "Apocalypse Survivor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Apocalypse_Survivor_Badge"}
+        {title: "Apocalypse Survivor Badge", href: "https://homecoming.wiki/wiki/Apocalypse_Survivor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/apocalypse-survivor.png"}]
 };

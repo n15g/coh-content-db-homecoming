@@ -14,7 +14,7 @@ export const Temerarious: IBadgeData = {
     ],
     acquisition: "Complete a level 46-50 Flashback story arc while debuffed.",
     links: [
-        {title: "Temerarious Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Temerarious_Badge"}
+        {title: "Temerarious Badge", href: "https://homecoming.wiki/wiki/Temerarious_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/temerarious.png"}]
 };

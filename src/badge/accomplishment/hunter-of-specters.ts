@@ -16,7 +16,7 @@ export const HunterOfSpecters: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Praetor Duncan",
     links: [
-        {title: "Hunter of Specters Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hunter_of_Specters_Badge"}
+        {title: "Hunter of Specters Badge", href: "https://homecoming.wiki/wiki/Hunter_of_Specters_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png"}

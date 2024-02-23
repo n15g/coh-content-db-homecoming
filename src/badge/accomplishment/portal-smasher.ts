@@ -16,7 +16,7 @@ export const PortalSmasher: IBadgeData = {
     ],
     acquisition: "Complete the Dr. Quaterfield Task Force: Explorers and Exploiters",
     links: [
-        {title: "Portal Smasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Portal_Smasher_Badge"}
+        {title: "Portal Smasher Badge", href: "https://homecoming.wiki/wiki/Portal_Smasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/portal-smasher.png"}

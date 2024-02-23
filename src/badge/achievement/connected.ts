@@ -16,7 +16,7 @@ export const Connected: IBadgeData = {
     ],
     acquisition: "Work with one of the helping contacts in the story arc from Vincent Ross",
     links: [
-        {title: "Connected Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Connected_Badge"}
+        {title: "Connected Badge", href: "https://homecoming.wiki/wiki/Connected_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/connected.png"}

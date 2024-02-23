@@ -14,7 +14,7 @@ export const CreyWatcher: IBadgeData = {
     }],
     notes: "Located in [map:creys-folly] 230 yards west of the Crey Factories marker along the south side of a ditch.",
     links: [
-        {title: "Crey Watcher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crey_Watcher_Badge"}
+        {title: "Crey Watcher Badge", href: "https://homecoming.wiki/wiki/Crey_Watcher_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

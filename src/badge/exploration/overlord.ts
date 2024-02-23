@@ -19,7 +19,7 @@ On the other side of the door, head due east until you reach a small concrete bu
 If you reach the sand, you've got too far—turn around and you will see the bunker.
 The badge marker is located on top of the bunker, just above the door.`,
     links: [
-        {title: "Overlord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Overlord_Badge"}
+        {title: "Overlord Badge", href: "https://homecoming.wiki/wiki/Overlord_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "1"

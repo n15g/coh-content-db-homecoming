@@ -15,8 +15,8 @@ export const EarnedTheStatesmanStar: IBadgeData = {
     acquisition: `Complete the second Terra Volta Respecification Trial`,
     notes: `The second (level 34-43) Terra Volta Respecification Trial is available from Captain James Harlan in Founders' Falls.`,
     links: [
-        {title: "Earned the Statesman Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Earned_the_Statesman_Star_Badge"},
-        {title: "Denied the Statesman Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Denied_the_Statesman_Star_Badge"}
+        {title: "Earned the Statesman Star Badge", href: "https://homecoming.wiki/wiki/Earned_the_Statesman_Star_Badge"},
+        {title: "Denied the Statesman Star Badge", href: "https://homecoming.wiki/wiki/Denied_the_Statesman_Star_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/earned-the-statesman-star.png"}

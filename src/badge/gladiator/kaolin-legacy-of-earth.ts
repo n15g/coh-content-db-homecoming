@@ -14,7 +14,7 @@ export const KaolinLegacyOfEarth: IBadgeData = {
     ],
     acquisition: "Earn the [badge:collector] Badge (Legacy Chain)",
     links: [
-        {title: "Kaolin Legacy of Earth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Kaolin_Legacy_of_Earth_Badge"}
+        {title: "Kaolin Legacy of Earth Badge", href: "https://homecoming.wiki/wiki/Kaolin_Legacy_of_Earth_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

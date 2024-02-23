@@ -16,7 +16,7 @@ export const OriginOfPower: IBadgeData = {
     ],
     acquisition: "Complete the Origin of Power story arc from Percy Winkley",
     links: [
-        {title: "Origin of Power Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Origin_of_Power_Badge"}
+        {title: "Origin of Power Badge", href: "https://homecoming.wiki/wiki/Origin_of_Power_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/origin-of-power.png"}

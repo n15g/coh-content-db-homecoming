@@ -11,7 +11,7 @@ export const Fabricator: IBadgeData = {
     notes: "This includes anything craftable on Invention Worktables, Base Worktables, and Empowerment Stations (including Empowerment Buffs), as well as special crafting such as the" +
         " Vanguard Crafting Table and Candy Keeper.",
     links: [
-        {title: "Fabricator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fabricator_Badge"}
+        {title: "Fabricator Badge", href: "https://homecoming.wiki/wiki/Fabricator_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/fabricator.png"}]
 };

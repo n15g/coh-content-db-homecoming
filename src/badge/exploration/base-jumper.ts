@@ -15,7 +15,7 @@ export const BaseJumper: IBadgeData = {
 The badge is located in the foyer of a Council-owned building just southwest of the Pork Chop Hill neighborhood marker.
 The building is marked with two large Council banners, with a cream colored foyer, and the marker is located inside behind the reception desk.`,
     links: [
-        {title: "Base Jumper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Base_Jumper_Badge"},
+        {title: "Base Jumper Badge", href: "https://homecoming.wiki/wiki/Base_Jumper_Badge"},
         {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

@@ -13,7 +13,7 @@ export const MasterAtArms: IBadgeData = {
     ],
     acquisition: "Defeat the Rikti Master at Arms U'Kon Gr'ai 10 times during Rikti Ship Raids",
     links: [
-        {title: "Master at Arms Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_At_Arms_Badge"}
+        {title: "Master at Arms Badge", href: "https://homecoming.wiki/wiki/Master_At_Arms_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/master-at-arms.png"}

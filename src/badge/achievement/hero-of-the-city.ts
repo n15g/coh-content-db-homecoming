@@ -21,9 +21,9 @@ export const HeroOfTheCity: IBadgeData = {
     ],
     acquisition: "Reach level 50",
     links: [
-        {title: "Hero of the City Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hero_of_the_City_Badge"},
-        {title: "Made Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Made_Badge"},
-        {title: "Praetor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetor_Badge"}
+        {title: "Hero of the City Badge", href: "https://homecoming.wiki/wiki/Hero_of_the_City_Badge"},
+        {title: "Made Badge", href: "https://homecoming.wiki/wiki/Made_Badge"},
+        {title: "Praetor Badge", href: "https://homecoming.wiki/wiki/Praetor_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hero-of-the-city-h.png"},

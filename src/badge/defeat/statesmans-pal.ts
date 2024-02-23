@@ -18,8 +18,8 @@ export const StatesmansPal: IBadgeData = {
     ],
     acquisition: "Defeat Tyrant in the Free Statesman mission from Maria Jenkins' A Hero's Hero arc",
     links: [
-        {title: "Statesman's Pal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Statesman%27s_Pal_Badge"},
-        {title: "Praetoria's Bane Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetoria%27s_Bane_Badge"}
+        {title: "Statesman's Pal Badge", href: "https://homecoming.wiki/wiki/Statesman%27s_Pal_Badge"},
+        {title: "Praetoria's Bane Badge", href: "https://homecoming.wiki/wiki/Praetoria%27s_Bane_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/praetorians.png"}

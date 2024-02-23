@@ -18,8 +18,8 @@ export const Justiciar: IBadgeData = {
     ],
     acquisition: "Defeat all five Signature Villains in Recluse's Victory",
     links: [
-        {title: "Justiciar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Justiciar_Badge"},
-        {title: "Fallen Justiciar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fallen_Justiciar_Badge"}
+        {title: "Justiciar Badge", href: "https://homecoming.wiki/wiki/Justiciar_Badge"},
+        {title: "Fallen Justiciar Badge", href: "https://homecoming.wiki/wiki/Fallen_Justiciar_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatrecluse.png"}

@@ -16,7 +16,7 @@ export const Pyromaniac: IBadgeData = {
     ],
     acquisition: "Arm all five bombs before Penelope Yin and Penelope Mayhem finish their fight in the fourth mission of the third story arc from Mr. G (Primal Earth)",
     links: [
-        {title: "Pyromaniac Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pyromaniac_Badge"}
+        {title: "Pyromaniac Badge", href: "https://homecoming.wiki/wiki/Pyromaniac_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-challenge.png"}

@@ -17,7 +17,7 @@ export const Lawbreaker: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Drudges",
     links: [
-        {title: "Lawbreaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lawbreaker_Badge"}
+        {title: "Lawbreaker Badge", href: "https://homecoming.wiki/wiki/Lawbreaker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/lawbreaker.png"}

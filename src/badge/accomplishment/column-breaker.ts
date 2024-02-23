@@ -16,7 +16,7 @@ export const ColumnBreaker: IBadgeData = {
     ],
     acquisition: "Complete the Dr. Kahn Task Force: Return of the Reichsman",
     links: [
-        {title: "Column Breaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Column_Breaker_Badge"}
+        {title: "Column Breaker Badge", href: "https://homecoming.wiki/wiki/Column_Breaker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/column-breaker.png"}

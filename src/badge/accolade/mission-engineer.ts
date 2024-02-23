@@ -21,7 +21,7 @@ export const MissionEngineer: IBadgeData = {
     ],
     notes: `Awards usage of the Architect Comlink macro`,
     links: [
-        {title: "Mission Engineer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mission_Engineer_Badge"}
+        {title: "Mission Engineer Badge", href: "https://homecoming.wiki/wiki/Mission_Engineer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mission-engineer.png"}

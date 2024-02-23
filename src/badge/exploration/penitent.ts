@@ -19,7 +19,7 @@ export const Penitent: IBadgeData = {
     }],
     notes: "Located in [map:the-chantry] 421 yards east of the Bastion of Guilt marker, on the northern edge of the island.",
     links: [
-        {title: "Penitent Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Penitent_Badge"}
+        {title: "Penitent Badge", href: "https://homecoming.wiki/wiki/Penitent_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

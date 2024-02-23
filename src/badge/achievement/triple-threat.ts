@@ -17,7 +17,7 @@ export const TripleThreat: IBadgeData = {
     ],
     acquisition: "Defeat all three Archvillains during the Battle Royale stage of the Magisterium Trial within 5 seconds of the first one's defeat",
     links: [
-        {title: "Triple Threat Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Triple_Threat_Badge"}
+        {title: "Triple Threat Badge", href: "https://homecoming.wiki/wiki/Triple_Threat_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/triple-threat.png"}

@@ -13,7 +13,7 @@ export const BackFromTheFuture: IBadgeData = {
     ],
     acquisition: "Capture 100 pillboxes in Recluse's Victory",
     links: [
-        {title: "Back from the Future Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Back_from_the_Future_Badge"}
+        {title: "Back from the Future Badge", href: "https://homecoming.wiki/wiki/Back_from_the_Future_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/back-from-the-future.png"}

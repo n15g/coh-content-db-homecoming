@@ -16,7 +16,7 @@ export const NoAuthority: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Praetorian PD",
     links: [
-        {title: "No Authority Badge", href: "https://hcwiki.cityofheroes.dev/wiki/No_Authority_Badge"}
+        {title: "No Authority Badge", href: "https://homecoming.wiki/wiki/No_Authority_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/no-authority.png"}

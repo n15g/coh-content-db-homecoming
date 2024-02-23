@@ -16,7 +16,7 @@ export const TheCentersNemesis: IBadgeData = {
     ],
     acquisition: "Complete the third story arc from Provost Marchand (Primal Earth)",
     links: [
-        {title: "The Center's Nemesis Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Center%27s_Nemesis_Badge"}
+        {title: "The Center's Nemesis Badge", href: "https://homecoming.wiki/wiki/The_Center%27s_Nemesis_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png"}

@@ -13,7 +13,7 @@ export const Calibrator: IBadgeData = {
     ],
     acquisition: "Complete 15 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Calibrator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Calibrator_Badge"}
+        {title: "Calibrator Badge", href: "https://homecoming.wiki/wiki/Calibrator_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/calibrator.png"}]
 };

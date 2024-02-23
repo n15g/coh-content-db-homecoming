@@ -16,7 +16,7 @@ export const HelpingHand: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Roy Cooling",
     links: [
-        {title: "Helping Hand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Helping_Hand_Badge"}
+        {title: "Helping Hand Badge", href: "https://homecoming.wiki/wiki/Helping_Hand_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/helping-hand.png"}

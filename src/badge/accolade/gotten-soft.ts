@@ -22,8 +22,8 @@ export const GottenSoft: IBadgeData = {
     ],
     notes: `Awards +10% Max Health`,
     links: [
-        {title: "Gotten Soft Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gotten_Soft_Badge"},
-        {title: "High Pain Threshold Badge", href: "https://hcwiki.cityofheroes.dev/wiki/High_Pain_Threshold_Badge"}
+        {title: "Gotten Soft Badge", href: "https://homecoming.wiki/wiki/Gotten_Soft_Badge"},
+        {title: "High Pain Threshold Badge", href: "https://homecoming.wiki/wiki/High_Pain_Threshold_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gotten-soft.png"}

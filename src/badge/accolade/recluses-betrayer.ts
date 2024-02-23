@@ -17,7 +17,7 @@ export const ReclusesBetrayer: IBadgeData = {
     notes: `This badge rewards 20 reward merits.`,
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/recluses-betrayer.png"}],
     links: [
-        {title: "Recluse's Betrayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Recluse%27s_Betrayer_Badge"},
-        {title: "Recluse's Right Hand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Recluse%27s_Right_Hand_Badge"}
+        {title: "Recluse's Betrayer Badge", href: "https://homecoming.wiki/wiki/Recluse%27s_Betrayer_Badge"},
+        {title: "Recluse's Right Hand Badge", href: "https://homecoming.wiki/wiki/Recluse%27s_Right_Hand_Badge"}
     ]
 };

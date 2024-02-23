@@ -14,7 +14,7 @@ export const Technophile: IBadgeData = {
     }],
     notes: "Located in [map:nova-praetoria] in the City Maintenance Facility 210 yards N of the SE Elyssian Avenue marker (There are two markers for Elyssian Avenue).",
     links: [
-        {title: "Technophile Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Technophile_Badge"}
+        {title: "Technophile Badge", href: "https://homecoming.wiki/wiki/Technophile_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

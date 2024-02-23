@@ -22,7 +22,7 @@ export const SkyGazer: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SkywayCity.key}]`,
     links: [
-        {title: "Sky Gazer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sky_Gazer_Badge"}
+        {title: "Sky Gazer Badge", href: "https://homecoming.wiki/wiki/Sky_Gazer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

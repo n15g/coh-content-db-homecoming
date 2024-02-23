@@ -16,7 +16,7 @@ You've felt it and been the source of it for others. That last fifteen seconds a
     }],
     notes: `Located in [map:${TheAbyss.key}], 515 yards northeast of the Grandville transfer point, in the center of the helipad which in turn is in roughly the center of the developed island.`,
     links: [
-        {title: "No Escape Badge", href: "https://hcwiki.cityofheroes.dev/wiki/No_Escape_Badge"}
+        {title: "No Escape Badge", href: "https://homecoming.wiki/wiki/No_Escape_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

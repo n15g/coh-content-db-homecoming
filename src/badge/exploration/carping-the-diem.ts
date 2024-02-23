@@ -17,7 +17,7 @@ export const CarpingTheDiem: IBadgeData = {
 
 It is in front of the cabin door of the ship in dry dock, 412 yards northwest of the neighborhood marker.`,
     links: [
-        {title: "Carping the Diem Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Carping_the_Diem_Badge"}
+        {title: "Carping the Diem Badge", href: "https://homecoming.wiki/wiki/Carping_the_Diem_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"

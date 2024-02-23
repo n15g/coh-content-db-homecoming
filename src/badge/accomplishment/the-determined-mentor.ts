@@ -17,7 +17,7 @@ export const TheDeterminedMentor: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Mu'Vorkan",
     links: [
-        {title: "The Determined Mentor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Determined_Mentor_Badge"}
+        {title: "The Determined Mentor Badge", href: "https://homecoming.wiki/wiki/The_Determined_Mentor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png"}

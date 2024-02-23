@@ -14,8 +14,8 @@ export const PumpkinMaster: IBadgeData = {
     ],
     acquisition: "Defeat 333 Fir Bolg",
     links: [
-        {title: "Pumpkin Master Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pumpkin_Master_Badge"},
-        {title: "Pumpkin Mistress Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pumpkin_Mistress_Badge"}
+        {title: "Pumpkin Master Badge", href: "https://homecoming.wiki/wiki/Pumpkin_Master_Badge"},
+        {title: "Pumpkin Mistress Badge", href: "https://homecoming.wiki/wiki/Pumpkin_Mistress_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/pumpkin-master.png"}

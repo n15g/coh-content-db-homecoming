@@ -13,7 +13,7 @@ export const Monkeywrencher: IBadgeData = {
     ],
     acquisition: "Defeat 50 Malta Group Zeus Titan robots",
     links: [
-        {title: "Monkeywrencher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Monkeywrencher_Badge"}
+        {title: "Monkeywrencher Badge", href: "https://homecoming.wiki/wiki/Monkeywrencher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/malta.png"}

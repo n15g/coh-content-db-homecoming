@@ -14,7 +14,7 @@ export const Digger: IBadgeData = {
         {value: `You have learned the history behind the Hollowing.`}
     ],
     links: [
-        {title: "Digger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Digger_Badge"}
+        {title: "Digger Badge", href: "https://homecoming.wiki/wiki/Digger_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

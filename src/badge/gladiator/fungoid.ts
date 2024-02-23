@@ -13,7 +13,7 @@ export const Fungoid: IBadgeData = {
     ],
     acquisition: "Earn the [badge:protectorate] Badge (Devouring Earth)",
     links: [
-        {title: "Fungoid Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fungoid_Badge"}
+        {title: "Fungoid Badge", href: "https://homecoming.wiki/wiki/Fungoid_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -16,7 +16,7 @@ export const Arbiter: IBadgeData = {
     ],
     acquisition: "Complete the Barracuda Strike Force: Thus Spoke the Reichsman",
     links: [
-        {title: "Arbiter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arbiter_Badge"}
+        {title: "Arbiter Badge", href: "https://homecoming.wiki/wiki/Arbiter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/arbiter.png"}

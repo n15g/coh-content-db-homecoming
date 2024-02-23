@@ -14,7 +14,7 @@ export const TankBuster: IBadgeData = {
     acquisition: "Defeat 100 Freakshow tanks",
     notes: "This is one of the badges needed to unlock Viridian as a contact for villains level 45-50.",
     links: [
-        {title: "Tank Buster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tank_Buster_Badge"}
+        {title: "Tank Buster Badge", href: "https://homecoming.wiki/wiki/Tank_Buster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/tank-buster.png"}

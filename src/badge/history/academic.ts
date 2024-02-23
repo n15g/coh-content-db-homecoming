@@ -15,7 +15,7 @@ export const Academic: IBadgeData = {
         {value: `You have learned the history of the successful takeover of Washington, D.C. by Nemesis.`}
     ],
     links: [
-        {title: "Academic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Academic_Badge"}
+        {title: "Academic Badge", href: "https://homecoming.wiki/wiki/Academic_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

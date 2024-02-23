@@ -21,9 +21,9 @@ export const ProtectorOfInnocents: IBadgeData = {
     ],
     acquisition: "Reach level 10",
     links: [
-        {title: "Protector of Innocents Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Protector_of_Innocents_Badge"},
-        {title: "Soldier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Soldier_Badge"},
-        {title: "Praetorian Professional Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetorian_Professional_Badge"}
+        {title: "Protector of Innocents Badge", href: "https://homecoming.wiki/wiki/Protector_of_Innocents_Badge"},
+        {title: "Soldier Badge", href: "https://homecoming.wiki/wiki/Soldier_Badge"},
+        {title: "Praetorian Professional Badge", href: "https://homecoming.wiki/wiki/Praetorian_Professional_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/protector-of-innocents-h.png"},

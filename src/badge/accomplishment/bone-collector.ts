@@ -13,7 +13,7 @@ export const BoneCollector: IBadgeData = {
     ],
     acquisition: "Complete the Retrieve Loa Bonemission from Mr. Bocor",
     links: [
-        {title: "Bone Collector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bone_Collector_Badge"}
+        {title: "Bone Collector Badge", href: "https://homecoming.wiki/wiki/Bone_Collector_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-1.png"}

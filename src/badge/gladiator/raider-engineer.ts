@@ -13,7 +13,7 @@ export const RaiderEngineer: IBadgeData = {
     ],
     acquisition: "Destroy 100 Force Field Generators summoned by Sky Raider Engineers (Sky Raiders)",
     links: [
-        {title: "Raider Engineer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Raider_Engineer_Badge"}
+        {title: "Raider Engineer Badge", href: "https://homecoming.wiki/wiki/Raider_Engineer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

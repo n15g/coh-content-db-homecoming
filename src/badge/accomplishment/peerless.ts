@@ -21,8 +21,8 @@ export const Peerless: IBadgeData = {
     ],
     acquisition: "Defeat Lord Recluse within the Ms. Liberty Task Force",
     links: [
-        {title: "Peerless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Peerless_Badge"},
-        {title: "Recluse's Rival Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Recluse%27s_Rival_Badge"}
+        {title: "Peerless Badge", href: "https://homecoming.wiki/wiki/Peerless_Badge"},
+        {title: "Recluse's Rival Badge", href: "https://homecoming.wiki/wiki/Recluse%27s_Rival_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/defeatrecluse.png"}

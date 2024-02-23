@@ -18,7 +18,7 @@ export const HearingVoices: IBadgeData = {
     }],
     notes: "Located in [map:cascade-archipelago] 441 yards NNW of The Chanting Island marker, just west of the bunker embedded in rock.",
     links: [
-        {title: "Hearing Voices Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hearing_Voices_Badge"}
+        {title: "Hearing Voices Badge", href: "https://homecoming.wiki/wiki/Hearing_Voices_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

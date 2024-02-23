@@ -16,7 +16,7 @@ export const Exorcist: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Incarnate-level Circle of Thorns",
     links: [
-        {title: "Exorcist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Exorcist_Badge"}
+        {title: "Exorcist Badge", href: "https://homecoming.wiki/wiki/Exorcist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/exorcist.png"}

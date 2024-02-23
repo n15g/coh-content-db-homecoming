@@ -21,7 +21,7 @@ export const CivilizationsSavior: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Number Six",
     links: [
-        {title: "Civilization's Savior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Civilization%27s_Savior_Badge"}
+        {title: "Civilization's Savior Badge", href: "https://homecoming.wiki/wiki/Civilization%27s_Savior_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/civilizations-savior.png"}

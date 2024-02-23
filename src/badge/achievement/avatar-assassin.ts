@@ -16,7 +16,7 @@ export const AvatarAssassin: IBadgeData = {
     ],
     acquisition: "Defeat the Avatar of Hamidon at the same time as a Detonating Seedling in The Underground Trial",
     links: [
-        {title: "Avatar Assassin Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Avatar_Assassin_Badge"}
+        {title: "Avatar Assassin Badge", href: "https://homecoming.wiki/wiki/Avatar_Assassin_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-ug.png"}

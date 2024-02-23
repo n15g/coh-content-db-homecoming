@@ -12,7 +12,7 @@ export const BattleHardened: IBadgeData = {
     location: [-1084.0, 172.2, 4690.0],
     notes: `Located in [map:cimerora] on a rampart overlooking the location where Imperious stands, 140 yards south of the Cimerora neighborhood marker.`,
     links: [
-        {title: "Battle-Hardened Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Battle-Hardened_Badge"}
+        {title: "Battle-Hardened Badge", href: "https://homecoming.wiki/wiki/Battle-Hardened_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

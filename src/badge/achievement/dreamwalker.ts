@@ -17,8 +17,8 @@ export const Dreamwalker: IBadgeData = {
     ],
     acquisition: "Defeat all of Malaise's possible nightmares at least once during the Minds of Mayhem Trial",
     links: [
-        {title: "Dreamwalker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dreamwalker_Badge"},
-        {title: "Dreamkiller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dreamkiller_Badge"}
+        {title: "Dreamwalker Badge", href: "https://homecoming.wiki/wiki/Dreamwalker_Badge"},
+        {title: "Dreamkiller Badge", href: "https://homecoming.wiki/wiki/Dreamkiller_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-mom.png"}

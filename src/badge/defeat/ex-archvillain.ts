@@ -18,8 +18,8 @@ export const ExArchvillain: IBadgeData = {
     ],
     acquisition: "Defeat the Freedom Phalanx during the Lord Recluse Strike Force",
     links: [
-        {title: "Ex-Archvillain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ex-Archvillain_Badge"},
-        {title: "Archvillain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Archvillain_Badge"}
+        {title: "Ex-Archvillain Badge", href: "https://homecoming.wiki/wiki/Ex-Archvillain_Badge"},
+        {title: "Archvillain Badge", href: "https://homecoming.wiki/wiki/Archvillain_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/ex-archvillain.png"}

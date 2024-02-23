@@ -14,7 +14,7 @@ export const EyesToTheFuture: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] 400 yards NE of the Neuron's Reach marker, at the very top of Neuron's tower.",
     links: [
-        {title: "Eyes to the Future Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Eyes_to_the_Future_Badge"}
+        {title: "Eyes to the Future Badge", href: "https://homecoming.wiki/wiki/Eyes_to_the_Future_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

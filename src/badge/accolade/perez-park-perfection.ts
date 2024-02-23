@@ -22,7 +22,7 @@ export const PerezParkPerfection: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${PerezPark.key}]`,
     links: [
-        {title: "Perez Park Perfection Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Perez_Park_Perfection_Badge"}
+        {title: "Perez Park Perfection Badge", href: "https://homecoming.wiki/wiki/Perez_Park_Perfection_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

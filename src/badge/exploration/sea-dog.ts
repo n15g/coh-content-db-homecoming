@@ -15,7 +15,7 @@ export const SeaDog: IBadgeData = {
     }],
     notes: "Located in [map:striga-isle] at the end of a dock 440 yards east of the ferry.",
     links: [
-        {title: "Sea Dog Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sea_Dog_Badge"}
+        {title: "Sea Dog Badge", href: "https://homecoming.wiki/wiki/Sea_Dog_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

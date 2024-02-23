@@ -21,9 +21,9 @@ export const TheUnwavering: IBadgeData = {
     ],
     acquisition: "Pay off 50,000 debt",
     links: [
-        {title: "The Unwavering Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Unwavering_Badge"},
-        {title: "Punch Drunk Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Punch_Drunk_Badge"},
-        {title: "Repaired Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Repaired_Badge"}
+        {title: "The Unwavering Badge", href: "https://homecoming.wiki/wiki/The_Unwavering_Badge"},
+        {title: "Punch Drunk Badge", href: "https://homecoming.wiki/wiki/Punch_Drunk_Badge"},
+        {title: "Repaired Badge", href: "https://homecoming.wiki/wiki/Repaired_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

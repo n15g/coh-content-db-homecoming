@@ -8,7 +8,7 @@ export const Mender: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 15 and 20: Heal."}],
     links: [
-        {title: "Mender Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mender_Badge"}
+        {title: "Mender Badge", href: "https://homecoming.wiki/wiki/Mender_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png"}],
     partials: [

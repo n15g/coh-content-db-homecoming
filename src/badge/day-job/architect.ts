@@ -15,8 +15,8 @@ export const Architect: IBadgeData = {
     acquisition: "Log out inside Architect Entertainment buildings for 100 hours.",
     effect: "Day Job: Bonus Mission Architect tickets upon mission completion",
     links: [
-        {title: "Architect Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Architect_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Architect Badge", href: "https://homecoming.wiki/wiki/Architect_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/architect.png"}]
 };

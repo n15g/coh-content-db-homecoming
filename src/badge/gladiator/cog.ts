@@ -13,7 +13,7 @@ export const Cog: IBadgeData = {
     ],
     acquisition: "Earn the [badge:gearsmasher] Badge (Clockwork)",
     links: [
-        {title: "Cog Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cog_Badge"}
+        {title: "Cog Badge", href: "https://homecoming.wiki/wiki/Cog_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

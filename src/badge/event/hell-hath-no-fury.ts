@@ -13,7 +13,7 @@ export const HellHathNoFury: IBadgeData = {
     ],
     acquisition: "Defeat the Banner of Fiends during a Deadly Apocalypse.",
     links: [
-        {title: "Hell Hath No Fury Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hell_Hath_No_Fury_Badge"}
+        {title: "Hell Hath No Fury Badge", href: "https://homecoming.wiki/wiki/Hell_Hath_No_Fury_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hell-hath-no-fury.png"}]
 };

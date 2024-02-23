@@ -17,7 +17,7 @@ export const Roleplayer: IBadgeData = {
     ],
     acquisition: "Acquire all 4 Summer Blockbuster perfect role badges.",
     links: [
-        {title: "Roleplayer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Toothbreaker_Badge"}
+        {title: "Roleplayer Badge", href: "https://homecoming.wiki/wiki/Toothbreaker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/roleplayer.png"}],
     partials: [

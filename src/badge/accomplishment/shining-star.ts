@@ -13,7 +13,7 @@ export const ShiningStar: IBadgeData = {
     ],
     acquisition: "Complete the Level 5-9 Ongoing Training story arc from Twinshot",
     links: [
-        {title: "Shining Star Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shining_Star_Badge"}
+        {title: "Shining Star Badge", href: "https://homecoming.wiki/wiki/Shining_Star_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/shining-star.png"}

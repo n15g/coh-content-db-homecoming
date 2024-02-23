@@ -15,7 +15,7 @@ export const DrinkEnriche: IBadgeData = {
     }],
     notes: "Located in [map:underground-neutropolis] approximately 337 yards SSE of the Resistance Surface Access, near the bottom left corner of the series of red tunnels on the map.",
     links: [
-        {title: "Drink Enriche! Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Drink_Enriche!_Badge"}
+        {title: "Drink Enriche! Badge", href: "https://homecoming.wiki/wiki/Drink_Enriche!_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "3"

@@ -17,7 +17,7 @@ export const MoralHighGround: IBadgeData = {
     ],
     acquisition: "Choose Loyalist or Resistance morality five times",
     links: [
-        {title: "Moral High Ground Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Moral_High_Ground_Badge"}
+        {title: "Moral High Ground Badge", href: "https://homecoming.wiki/wiki/Moral_High_Ground_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/moral-high-ground.png"}

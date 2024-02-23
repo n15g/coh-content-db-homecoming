@@ -14,7 +14,7 @@ export const Enhancer: IBadgeData = {
     ],
     acquisition: "Sell 50 Enhancements at either Wentworths or the Black Market.",
     links: [
-        {title: "Enhancer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Enhancer_Badge"}
+        {title: "Enhancer Badge", href: "https://homecoming.wiki/wiki/Enhancer_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/broker-h.png"},

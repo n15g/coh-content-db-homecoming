@@ -15,7 +15,7 @@ export const UrbanRenewal: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] 438 yards NW of the Lambda Sector marker.",
     links: [
-        {title: "Urban Renewal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Urban_Renewal_Badge"}
+        {title: "Urban Renewal Badge", href: "https://homecoming.wiki/wiki/Urban_Renewal_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "8"

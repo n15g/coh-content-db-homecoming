@@ -13,7 +13,7 @@ export const EnemyOfTheState: IBadgeData = {
     ],
     acquisition: "Complete the Magisterium Trial",
     links: [
-        {title: "Enemy of the State Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Enemy_of_the_State_Badge"}
+        {title: "Enemy of the State Badge", href: "https://homecoming.wiki/wiki/Enemy_of_the_State_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/enemy-of-the-state.png"}

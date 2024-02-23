@@ -16,7 +16,7 @@ export const OneOfTheEight: IBadgeData = {
     ],
     acquisition: "Complete the story arc from The Magician",
     links: [
-        {title: "One of the Eight Badge", href: "https://hcwiki.cityofheroes.dev/wiki/One_of_the_Eight_Badge"}
+        {title: "One of the Eight Badge", href: "https://homecoming.wiki/wiki/One_of_the_Eight_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/one-of-the-eight.png"}

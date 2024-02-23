@@ -14,7 +14,7 @@ export const WolfSpiderEnforcer: IBadgeData = {
     ],
     acquisition: `Earn the ${badgeReference(ProtectorOfInnocents)} Badge (Arachnos)`,
     links: [
-        {title: "Wolf Spider Enforcer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wolf_Spider_Enforcer_Badge"}
+        {title: "Wolf Spider Enforcer Badge", href: "https://homecoming.wiki/wiki/Wolf_Spider_Enforcer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

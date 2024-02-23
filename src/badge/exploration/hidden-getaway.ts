@@ -17,7 +17,7 @@ export const HiddenGetaway: IBadgeData = {
 
 It is at the front door of the remote house in the NW corner of the neighborhood, 590 yards west of the marker.`,
     links: [
-        {title: "Hidden Getaway Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hidden_Getaway_Badge"}
+        {title: "Hidden Getaway Badge", href: "https://homecoming.wiki/wiki/Hidden_Getaway_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"

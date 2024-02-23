@@ -16,7 +16,7 @@ export const MidnightDodgerWhatDodgesAtMidnight: IBadgeData = {
     ],
     acquisition: "Set off zero proximity mines during the warehouse battle in the first mission of the Tin Mage Mark II Task Force",
     links: [
-        {title: "Midnight Dodger What Dodges At Midnight Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Midnight_Dodger_What_Dodges_at_Midnight_Badge"}
+        {title: "Midnight Dodger What Dodges At Midnight Badge", href: "https://homecoming.wiki/wiki/Midnight_Dodger_What_Dodges_at_Midnight_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-alpha.png"}

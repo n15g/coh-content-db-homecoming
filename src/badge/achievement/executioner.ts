@@ -15,6 +15,6 @@ export const Executioner: IBadgeData = {
     ],
     acquisition: "Deal 25,000,000 damage to earn this badge",
     links: [
-        {title: "Executioner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Executioner_Badge"}
+        {title: "Executioner Badge", href: "https://homecoming.wiki/wiki/Executioner_Badge"}
     ],
 };

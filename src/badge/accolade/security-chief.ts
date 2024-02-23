@@ -17,8 +17,8 @@ export const SecurityChief: IBadgeData = {
     ],
     notes: `Earn the [badge:law-enforcer] and [badge:banker] Day Jobs`,
     links: [
-        {title: "Security Chief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Security_Chief_Badge"},
-        {title: "Security Breach Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Security_Breach_Badge"}
+        {title: "Security Chief Badge", href: "https://homecoming.wiki/wiki/Security_Chief_Badge"},
+        {title: "Security Breach Badge", href: "https://homecoming.wiki/wiki/Security_Breach_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/security-chief.png"}

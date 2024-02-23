@@ -16,7 +16,7 @@ You overcome a sudden feeling of insignificance as you gaze upon Hamidon's creat
     }],
     notes: `Located in [map:${TheHive.key}] 144 yards west and a bit north of the Eden transfer point, near the middle of the valley leading into the zone.`,
     links: [
-        {title: "Babe in the Woods Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Babe_in_the_Woods_Badge"}
+        {title: "Babe in the Woods Badge", href: "https://homecoming.wiki/wiki/Babe_in_the_Woods_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

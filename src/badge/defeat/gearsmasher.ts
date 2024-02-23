@@ -16,7 +16,7 @@ export const Gearsmasher: IBadgeData = {
     ],
     acquisition: "Defeat 100 Clockwork gears",
     links: [
-        {title: "Gearsmasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gearsmasher_Badge"}
+        {title: "Gearsmasher Badge", href: "https://homecoming.wiki/wiki/Gearsmasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/clockwork.png"}

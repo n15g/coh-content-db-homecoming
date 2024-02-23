@@ -16,7 +16,7 @@ export const Emancipator: IBadgeData = {
     ],
     acquisition: "Complete the Investigate the psychic signal mission from Tina Macintyre",
     links: [
-        {title: "Emancipator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Emancipator_Badge"}
+        {title: "Emancipator Badge", href: "https://homecoming.wiki/wiki/Emancipator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/emancipator.png"}

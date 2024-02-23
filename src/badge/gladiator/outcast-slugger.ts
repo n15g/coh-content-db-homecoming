@@ -13,7 +13,7 @@ export const OutcastSlugger: IBadgeData = {
     ],
     acquisition: "Earn the [badge:weatherman] Badge (Outcasts)",
     links: [
-        {title: "Outcast Slugger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Outcast_Slugger_Badge"}
+        {title: "Outcast Slugger Badge", href: "https://homecoming.wiki/wiki/Outcast_Slugger_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

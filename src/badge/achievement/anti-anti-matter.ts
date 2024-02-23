@@ -16,7 +16,7 @@ export const AntiAntiMatter: IBadgeData = {
     ],
     acquisition: "Complete the Keyes Island Reactor Trial after having brought Anti-Matter below 10% of his health while attempting to take control of Reactor Hope",
     links: [
-        {title: "Anti-Anti-Matter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anti-Anti-Matter_Badge"}
+        {title: "Anti-Anti-Matter Badge", href: "https://homecoming.wiki/wiki/Anti-Anti-Matter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-keyes.png"}

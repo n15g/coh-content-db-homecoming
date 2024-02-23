@@ -20,8 +20,8 @@ export const ReceivedTheAtlasMedallion: IBadgeData = {
     ],
     notes: `Awards +5 Max Endurance`,
     links: [
-        {title: "Received the Atlas Medallion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Received_the_Atlas_Medallion_Badge"},
-        {title: "Atlas Shrugged Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Atlas_Shrugged_Badge"}
+        {title: "Received the Atlas Medallion Badge", href: "https://homecoming.wiki/wiki/Received_the_Atlas_Medallion_Badge"},
+        {title: "Atlas Shrugged Badge", href: "https://homecoming.wiki/wiki/Atlas_Shrugged_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-atlas-medallion.png"}

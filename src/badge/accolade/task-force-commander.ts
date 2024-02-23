@@ -22,8 +22,8 @@ export const TaskForceCommander: IBadgeData = {
     notes: `Awards +5% Max Health\n
 Alternatively [badge:sister-psyches-comrade], available only via Ouroboros, counts in lieu of [badge:penelope-yins-friend].`,
     links: [
-        {title: "Task Force Commander Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Task_Force_Commander_Badge"},
-        {title: "Task Force Abandoner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Task_Force_Abandoner_Badge"}
+        {title: "Task Force Commander Badge", href: "https://homecoming.wiki/wiki/Task_Force_Commander_Badge"},
+        {title: "Task Force Abandoner Badge", href: "https://homecoming.wiki/wiki/Task_Force_Abandoner_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/task-force-commander.png"}

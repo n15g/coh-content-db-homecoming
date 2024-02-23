@@ -17,7 +17,7 @@ Arching your back you add your roar to theirs and for a moment they are quiet. W
     }],
     notes: `Located in [map:${MonsterIsland.key}], 265 yards southwest of the [map: ${Grandville.key}] transfer point, on the northernmost beach of the Cutlass Isles.`,
     links: [
-        {title: "The Roar of the Beast Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Roar_of_the_Beast_Badge"}
+        {title: "The Roar of the Beast Badge", href: "https://homecoming.wiki/wiki/The_Roar_of_the_Beast_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

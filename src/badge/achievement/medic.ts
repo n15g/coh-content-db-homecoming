@@ -27,9 +27,9 @@ export const Medic: IBadgeData = {
     ],
     acquisition: "Heal others for 250,000 hit points",
     links: [
-        {title: "Medic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Medic_Badge"},
-        {title: "Fixer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fixer_Badge"},
-        {title: "Do Gooder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Do_Gooder_Badge"}
+        {title: "Medic Badge", href: "https://homecoming.wiki/wiki/Medic_Badge"},
+        {title: "Fixer Badge", href: "https://homecoming.wiki/wiki/Fixer_Badge"},
+        {title: "Do Gooder Badge", href: "https://homecoming.wiki/wiki/Do_Gooder_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heal-h.png"},

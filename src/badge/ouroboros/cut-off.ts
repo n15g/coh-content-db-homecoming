@@ -14,7 +14,7 @@ export const CutOff: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc using no Ancillary powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Cut-Off Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cut-Off_Badge"}
+        {title: "Cut-Off Badge", href: "https://homecoming.wiki/wiki/Cut-Off_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/cut-off.png"}]
 };

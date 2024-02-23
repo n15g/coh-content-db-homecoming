@@ -17,6 +17,6 @@ export const Marauder: IBadgeData = {
     ],
     acquisition: "Deal 100,000 damage to earn this badge",
     links: [
-        {title: "Marauder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Marauder_Badge"}
+        {title: "Marauder Badge", href: "https://homecoming.wiki/wiki/Marauder_Badge"}
     ],
 };

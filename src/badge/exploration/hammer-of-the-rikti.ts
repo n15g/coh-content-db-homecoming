@@ -17,7 +17,7 @@ export const HammerOfTheRikti: IBadgeData = {
     }],
     notes: "Located in [map:creys-folly] 140 yards SSE of The Blight marker, on top of the destroyed building.",
     links: [
-        {title: "Hammer of the Rikti Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hammer_of_the_Rikti_Badge"}
+        {title: "Hammer of the Rikti Badge", href: "https://homecoming.wiki/wiki/Hammer_of_the_Rikti_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

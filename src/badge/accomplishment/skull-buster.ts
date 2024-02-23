@@ -17,7 +17,7 @@ export const SkullBuster: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Eagle Eye",
     links: [
-        {title: "Skull Buster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Skull_Buster_Badge"}
+        {title: "Skull Buster Badge", href: "https://homecoming.wiki/wiki/Skull_Buster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/skull-buster.png"}

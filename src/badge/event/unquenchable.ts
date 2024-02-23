@@ -13,7 +13,7 @@ export const Unquenchable: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Unquenchable Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unquenchable_Badge"}
+        {title: "Unquenchable Badge", href: "https://homecoming.wiki/wiki/Unquenchable_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/unquenchable.png"}]
 };

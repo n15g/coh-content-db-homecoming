@@ -20,8 +20,8 @@ export const ForceOfJustice: IBadgeData = {
     ],
     notes: `Earn the six Safeguard side mission badges`,
     links: [
-        {title: "Force of Justice Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Force_of_Justice_Badge"},
-        {title: "Force of Injustice Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Force_of_Injustice_Badge"}
+        {title: "Force of Justice Badge", href: "https://homecoming.wiki/wiki/Force_of_Justice_Badge"},
+        {title: "Force of Injustice Badge", href: "https://homecoming.wiki/wiki/Force_of_Injustice_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/force-of-justice.png"}

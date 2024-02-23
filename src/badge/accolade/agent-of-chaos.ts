@@ -28,7 +28,7 @@ This badge rewards 20 reward merits for completing the following story arcs (con
 * Oh, Wretched Man! (Seer Marino)
 `,
     links: [
-        {title: "Agent of Chaos Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agent_of_Chaos_Badge"}
+        {title: "Agent of Chaos Badge", href: "https://homecoming.wiki/wiki/Agent_of_Chaos_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png"}

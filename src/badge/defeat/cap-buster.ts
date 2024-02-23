@@ -13,7 +13,7 @@ export const CapBuster: IBadgeData = {
     ],
     acquisition: "Defeat 333 Red Caps",
     links: [
-        {title: "Cap Buster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cap_Buster_Badge"}
+        {title: "Cap Buster Badge", href: "https://homecoming.wiki/wiki/Cap_Buster_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/cap-buster.png"}

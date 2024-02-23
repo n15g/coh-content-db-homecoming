@@ -13,7 +13,7 @@ export const Supernova: IBadgeData = {
     ],
     acquisition: "Complete the Level 15-19 Ongoing Training story arc from Twinshot",
     links: [
-        {title: "Supernova Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Supernova_Badge"}
+        {title: "Supernova Badge", href: "https://homecoming.wiki/wiki/Supernova_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/supernova.png"}

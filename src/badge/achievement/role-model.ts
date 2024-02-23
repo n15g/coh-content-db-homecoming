@@ -20,8 +20,8 @@ export const RoleModel: IBadgeData = {
     ],
     acquisition: "Sidekick another hero for 16 hours",
     links: [
-        {title: "Role Model Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Role_Model_Badge"},
-        {title: "Dean of Hard Knocks Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dean_of_Hard_Knocks_Badge"}
+        {title: "Role Model Badge", href: "https://homecoming.wiki/wiki/Role_Model_Badge"},
+        {title: "Dean of Hard Knocks Badge", href: "https://homecoming.wiki/wiki/Dean_of_Hard_Knocks_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png"},

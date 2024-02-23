@@ -17,7 +17,7 @@ export const CageFighter: IBadgeData = {
         "\n" +
         "Note that it is possible to brute-force a character into the cage in the actual Pocket D zone, but the badge is not available there. It is only present on the Arena map.",
     links: [
-        {title: "Cage Fighter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cage_Fighter_Badge"}
+        {title: "Cage Fighter Badge", href: "https://homecoming.wiki/wiki/Cage_Fighter_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

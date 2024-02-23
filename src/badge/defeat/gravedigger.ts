@@ -13,7 +13,7 @@ export const Gravedigger: IBadgeData = {
     ],
     acquisition: "Defeat 100 Vahzilok embalmed corpses",
     links: [
-        {title: "Gravedigger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gravedigger_Badge"}
+        {title: "Gravedigger Badge", href: "https://homecoming.wiki/wiki/Gravedigger_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/gravedigger.png"}

@@ -13,7 +13,7 @@ export const Ragnarok: IBadgeData = {
     notes: "The Ragnarok Badge is located in the [map:${ReclusesVictory.key}] zone in Sector 3." +
         " It is at the north end of a cobblestone walkway on the western side of a small park, 418 yards due south of the Echo pillbox.",
     links: [
-        {title: "Ragnaraok Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ragnarok_Badge"}
+        {title: "Ragnaraok Badge", href: "https://homecoming.wiki/wiki/Ragnarok_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

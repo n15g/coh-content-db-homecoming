@@ -12,7 +12,7 @@ export const MidnighterClubMember: IBadgeData = {
     badgeText: [{value: "Within these walls rests the greatest minds of mystic, occult, and arcane magics."}],
     notes: "The Midnighter Club Member Badge is located just inside the circular chamber at the North end of the Midnighter Club between the inner columns.",
     links: [
-        {title: "Midnighter Club Member Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Midnighter_Club_Member_Badge"}
+        {title: "Midnighter Club Member Badge", href: "https://homecoming.wiki/wiki/Midnighter_Club_Member_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

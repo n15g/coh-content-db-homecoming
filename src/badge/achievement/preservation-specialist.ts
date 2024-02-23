@@ -16,7 +16,7 @@ export const PreservationSpecialist: IBadgeData = {
     ],
     acquisition: "Don't let any of the IDF bombs detonate in The Underground Trial",
     links: [
-        {title: "Preservation Specialist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Preservation_Specialist_Badge"}
+        {title: "Preservation Specialist Badge", href: "https://homecoming.wiki/wiki/Preservation_Specialist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-ug.png"}

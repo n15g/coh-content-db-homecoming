@@ -15,7 +15,7 @@ export const Socialite: IBadgeData = {
     ],
     notes: `Earn the [badge:clubber] and [badge:fashion-designer] Day Jobs`,
     links: [
-        {title: "Socialite Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Socialite_Badge"}
+        {title: "Socialite Badge", href: "https://homecoming.wiki/wiki/Socialite_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/socialite.png"}

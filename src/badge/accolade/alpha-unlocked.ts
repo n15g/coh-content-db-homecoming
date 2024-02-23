@@ -14,7 +14,7 @@ export const AlphaUnlocked: IBadgeData = {
     acquisition: `Unlock the Alpha Incarnate slot`,
     notes: `Unlock the Alpha Incarnate slot by reaching level 50 and completing Mender Ramiel's story arc, or by earning Incarnate Experience through normal play.`,
     links: [
-        {title: "Alpha Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Alpha_Unlocked_Badge"}
+        {title: "Alpha Unlocked Badge", href: "https://homecoming.wiki/wiki/Alpha_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/alpha-unlocked.png"}

@@ -16,7 +16,7 @@ When you look at the green sward blanketing the land around you, it is hard not 
     }],
     notes: `Located in [map:${TheHive.key}] 1.02 miles from the Eden transfer point, in the center of the southern edge of the elongated building.`,
     links: [
-        {title: "The Wounded Earth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Wounded_Earth_Badge"}
+        {title: "The Wounded Earth Badge", href: "https://homecoming.wiki/wiki/The_Wounded_Earth_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

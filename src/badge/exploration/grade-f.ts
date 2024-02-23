@@ -18,7 +18,7 @@ export const GradeF: IBadgeData = {
         "\n" +
         "The route from the Sector B marker is not direct and the badge is more easily found by travelling 285 yards SE from the Loyalist Surface Access marker.",
     links: [
-        {title: "Grade F Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Grade_F_Badge"}
+        {title: "Grade F Badge", href: "https://homecoming.wiki/wiki/Grade_F_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

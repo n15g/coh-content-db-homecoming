@@ -14,7 +14,7 @@ export const Limited: IBadgeData = {
     ],
     acquisition: "Complete a level 41-45 Flashback story arc using no temp powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Limited Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Limited_Badge"}
+        {title: "Limited Badge", href: "https://homecoming.wiki/wiki/Limited_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/limited.png"}]
 };

@@ -20,8 +20,8 @@ export const JusticeAvenger: IBadgeData = {
         "Enter from [map:skyway-city] and turn left, then follow the road to where it ends in a loop around a fountain." +
         " The badge is in the fountain. Its coordinates are (-1034, 1, 3976). It is 246 yards from the [map:skyway-city] entrance.",
     links: [
-        {title: "Justice Avenger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Justice_Avenger_Badge"},
-        {title: "Social Climber Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Social_Climber_Badge"}
+        {title: "Justice Avenger Badge", href: "https://homecoming.wiki/wiki/Justice_Avenger_Badge"},
+        {title: "Social Climber Badge", href: "https://homecoming.wiki/wiki/Social_Climber_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

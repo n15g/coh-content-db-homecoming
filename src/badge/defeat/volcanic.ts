@@ -13,7 +13,7 @@ export const Volcanic: IBadgeData = {
     ],
     acquisition: "Defeat 100 Magmite Lords or Pumicite Lords",
     links: [
-        {title: "Volcanic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Volcanic_Badge"}
+        {title: "Volcanic Badge", href: "https://homecoming.wiki/wiki/Volcanic_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/volcanic.png"}

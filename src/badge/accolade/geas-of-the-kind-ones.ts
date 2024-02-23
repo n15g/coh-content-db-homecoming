@@ -23,7 +23,7 @@ export const GeasOfTheKindOnes: IBadgeData = {
     ],
     notes: `Awards the Geas of the Kind Ones power`,
     links: [
-        {title: "Geas of the Kind Ones Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Geas_of_the_Kind_Ones_Badge"}
+        {title: "Geas of the Kind Ones Badge", href: "https://homecoming.wiki/wiki/Geas_of_the_Kind_Ones_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/geas-of-the-kind-ones.png"}

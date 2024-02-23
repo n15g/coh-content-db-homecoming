@@ -21,8 +21,8 @@ export const DamHero: IBadgeData = {
     ],
     acquisition: "Complete the second part of the new Positron Task Force",
     links: [
-        {title: "Dam Hero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dam_Hero_Badge"},
-        {title: "Dam Villain Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dam_Villain_Badge"}
+        {title: "Dam Hero Badge", href: "https://homecoming.wiki/wiki/Dam_Hero_Badge"},
+        {title: "Dam Villain Badge", href: "https://homecoming.wiki/wiki/Dam_Villain_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/dam-hero.png"}

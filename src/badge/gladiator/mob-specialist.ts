@@ -13,7 +13,7 @@ export const MobSpecialist: IBadgeData = {
     ],
     acquisition: "Defeat 200 Prisoner Bosses (Prisoners)",
     links: [
-        {title: "Mob Specialist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mob_Specialist_Badge"}
+        {title: "Mob Specialist Badge", href: "https://homecoming.wiki/wiki/Mob_Specialist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

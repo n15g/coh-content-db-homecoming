@@ -22,7 +22,7 @@ export const Epicenter: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoFaultline.key}]`,
     links: [
-        {title: "Epicenter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Epicenter_Badge"}
+        {title: "Epicenter Badge", href: "https://homecoming.wiki/wiki/Epicenter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

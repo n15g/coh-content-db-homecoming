@@ -14,7 +14,7 @@ export const Homewrecker: IBadgeData = {
         "\n" +
         "345 yards south-west of the Little Round Top zone marker.",
     links: [
-        {title: "Homewrecker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Homewrecker_Badge"},
+        {title: "Homewrecker Badge", href: "https://homecoming.wiki/wiki/Homewrecker_Badge"},
         {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

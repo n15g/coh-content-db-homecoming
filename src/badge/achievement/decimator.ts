@@ -15,6 +15,6 @@ export const Decimator: IBadgeData = {
     ],
     acquisition: "Deal 10,000,000 damage to earn this badge",
     links: [
-        {title: "Decimator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Decimator_Badge"}
+        {title: "Decimator Badge", href: "https://homecoming.wiki/wiki/Decimator_Badge"}
     ],
 };

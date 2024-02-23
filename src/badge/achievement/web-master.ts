@@ -20,7 +20,7 @@ export const WebMaster: IBadgeData = {
     ],
     acquisition: "Spend 1 hour in Warburg",
     links: [
-        {title: "Web Master Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Web_Master_Badge"}
+        {title: "Web Master Badge", href: "https://homecoming.wiki/wiki/Web_Master_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},

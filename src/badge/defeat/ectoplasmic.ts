@@ -16,7 +16,7 @@ export const Ectoplasmic: IBadgeData = {
     ],
     acquisition: "Defeat 50 Ghosts that spawn from the Ghost Ship",
     links: [
-        {title: "Ectoplasmic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ectoplasmic_Badge"}
+        {title: "Ectoplasmic Badge", href: "https://homecoming.wiki/wiki/Ectoplasmic_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/ectoplasmic.png"}

@@ -15,7 +15,7 @@ export const MidnightersPerseverance: IBadgeData = {
     }],
     notes: "The Midnighter's Perseverence Badge is in the middle of the bridge 60 yards south of Buck Salinger in Croatoa.",
     links: [
-        {title: "Midnighter's Perseverance Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Midnighter%27s_Perseverance_Badge"}
+        {title: "Midnighter's Perseverance Badge", href: "https://homecoming.wiki/wiki/Midnighter%27s_Perseverance_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

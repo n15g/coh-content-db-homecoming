@@ -26,7 +26,7 @@ export const Chronomaster: IBadgeData = {
     ],
     notes: `Earn the following Ouroboros badges to earn this badge: [badge:ouroboros-mender], [badge:praetorian-tourist], [badge:demarcated], [badge:intrepid], [badge:marginalized], [badge:suspended], [badge:temerarious], [badge:undertaker], [badge:unenhanced], [badge:uninspired], [badge:gold-medalist] and [badge:all-for-one-one-for-all].`,
     links: [
-        {title: "Chronomaster Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chronomaster_Badge"}
+        {title: "Chronomaster Badge", href: "https://homecoming.wiki/wiki/Chronomaster_Badge"}
     ],
     partials: [
         {key: OuroborosMender.key, type: BadgePartialType.BADGE, badgeKey: OuroborosMender.key},

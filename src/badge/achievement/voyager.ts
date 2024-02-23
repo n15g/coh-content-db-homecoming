@@ -25,8 +25,8 @@ export const Voyager: IBadgeData = {
     ],
     acquisition: "Collect 1250 badges",
     links: [
-        {title: "Voyager Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Voyager_Badge"},
-        {title: "No Road Not Taken Badge", href: "https://hcwiki.cityofheroes.dev/wiki/No_Road_Not_Taken_Badge"}
+        {title: "Voyager Badge", href: "https://homecoming.wiki/wiki/Voyager_Badge"},
+        {title: "No Road Not Taken Badge", href: "https://homecoming.wiki/wiki/No_Road_Not_Taken_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/voyager-h.png"},

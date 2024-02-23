@@ -15,7 +15,7 @@ export const GraffitiCommunicator: IBadgeData = {
     }],
     notes: "Located near one of the buildings on top of the mountain in the Eastgate Heights neighborhood.",
     links: [
-        {title: "Graffiti Communicator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Graffiti_Communicator_Badge"}
+        {title: "Graffiti Communicator Badge", href: "https://homecoming.wiki/wiki/Graffiti_Communicator_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

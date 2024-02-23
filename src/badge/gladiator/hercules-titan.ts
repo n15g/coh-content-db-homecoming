@@ -13,7 +13,7 @@ export const HerculesTitan: IBadgeData = {
     ],
     acquisition: "Earn the [badge:grand-lanista] Badge (Malta Operatives)",
     links: [
-        {title: "Hercules Titan Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hercules_Titan_Badge"}
+        {title: "Hercules Titan Badge", href: "https://homecoming.wiki/wiki/Hercules_Titan_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

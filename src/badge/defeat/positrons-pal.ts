@@ -15,8 +15,8 @@ export const PositronsPal: IBadgeData = {
     ],
     acquisition: "Complete the A Hero's Epic story arc from Maria Jenkins",
     links: [
-        {title: "Positron's Pal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Positron%27s_Pal_Badge"},
-        {title: "Positron's Nemesis Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Positron%27s_Nemesis_Badge"}
+        {title: "Positron's Pal Badge", href: "https://homecoming.wiki/wiki/Positron%27s_Pal_Badge"},
+        {title: "Positron's Nemesis Badge", href: "https://homecoming.wiki/wiki/Positron%27s_Nemesis_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/praetorians.png"}

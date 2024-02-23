@@ -17,7 +17,7 @@ export const FairBalanced: IBadgeData = {
     ],
     acquisition: "Do not allow a single Telepathist to convert 4 or more citizens for the duration of TPN Campus, and then finish the trial",
     links: [
-        {title: "Fair & Balanced Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fair_%26_Balanced_Badge"}
+        {title: "Fair & Balanced Badge", href: "https://homecoming.wiki/wiki/Fair_%26_Balanced_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-tpn.png"}

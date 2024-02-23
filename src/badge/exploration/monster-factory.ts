@@ -20,7 +20,7 @@ This island is a living testimony to Hamidon's power to transcend human limitati
     }],
     notes: `Located in [map:${MonsterIsland.key}], 239 yards northwest of the Cutlass Isles marker, roughly in the center of the rooftop of the southern elongated building.`,
     links: [
-        {title: "Monster Factory Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Monster_Factory_Badge"}
+        {title: "Monster Factory Badge", href: "https://homecoming.wiki/wiki/Monster_Factory_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

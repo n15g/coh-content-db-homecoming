@@ -16,7 +16,7 @@ export const Roman: IBadgeData = {
     ],
     acquisition: "Defeat Nictus Romulus, a villain in the Imperious Task Force",
     links: [
-        {title: "Roman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Roman_Badge"}
+        {title: "Roman Badge", href: "https://homecoming.wiki/wiki/Roman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/roman.png"}

@@ -14,7 +14,7 @@ export const Headstrong: IBadgeData = {
     ],
     acquisition: "Complete a level 16-20 Flashback story arc while debuffed.",
     links: [
-        {title: "Headstrong Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Headstrong_Badge"}
+        {title: "Headstrong Badge", href: "https://homecoming.wiki/wiki/Headstrong_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/headstrong.png"}]
 };

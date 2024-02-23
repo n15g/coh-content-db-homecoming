@@ -14,7 +14,7 @@ export const Geologist: IBadgeData = {
     }],
     notes: "Roughly 80 yards NE-E from the Grendel's Gulch's marker.",
     links: [
-        {title: "Geologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Geologist_Badge"}
+        {title: "Geologist Badge", href: "https://homecoming.wiki/wiki/Geologist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

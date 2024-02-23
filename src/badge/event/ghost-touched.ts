@@ -13,7 +13,7 @@ export const GhostTouched: IBadgeData = {
     ],
     acquisition: "Defeat 20 Unseelie Court during the Halloween event.",
     links: [
-        {title: "Ghost Touched Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ghost_Touched_Badge"}
+        {title: "Ghost Touched Badge", href: "https://homecoming.wiki/wiki/Ghost_Touched_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/ghost-touched.png"}]
 };

@@ -16,7 +16,7 @@ export const NotOnMyWatch: IBadgeData = {
     ],
     acquisition: "Allow no Mindwashed Prisoners to escape during a Behavioral Adjustment Facility Incarnate Trial",
     links: [
-        {title: "Not On My Watch Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Not_On_My_Watch_Badge"}
+        {title: "Not On My Watch Badge", href: "https://homecoming.wiki/wiki/Not_On_My_Watch_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-baf.png"}

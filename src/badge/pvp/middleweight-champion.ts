@@ -16,7 +16,7 @@ export const MiddleweightChampion: IBadgeData = {
     ],
     acquisition: "Win an Arena event in the Middleweight division",
     links: [
-        {title: "Middleweight Champion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Middleweight_Champion_Badge"}
+        {title: "Middleweight Champion Badge", href: "https://homecoming.wiki/wiki/Middleweight_Champion_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/middleweight-champion.png"}

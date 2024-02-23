@@ -18,7 +18,7 @@ There is a power here, one that will give itself to you if you have the will to 
     }],
     notes: `Located in [map:${SewerNetwork.key}] 389 yards southeast of the Underworld marker, behind a winch in the trial room in the center of the map.`,
     links: [
-        {title: "Plutonian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Plutonian_Badge"}
+        {title: "Plutonian Badge", href: "https://homecoming.wiki/wiki/Plutonian_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

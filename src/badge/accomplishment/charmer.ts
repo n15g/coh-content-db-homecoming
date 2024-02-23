@@ -13,7 +13,7 @@ export const Charmer: IBadgeData = {
     ],
     acquisition: "Complete the Abandoned Sewers Trial",
     links: [
-        {title: "Charmer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Charmer_Badge"}
+        {title: "Charmer Badge", href: "https://homecoming.wiki/wiki/Charmer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png"}

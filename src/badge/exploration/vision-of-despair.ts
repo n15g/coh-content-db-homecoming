@@ -15,7 +15,7 @@ export const VisionOfDespair: IBadgeData = {
         "\n\nLooking east from the Grenadier marker, one can see a tunnel with a road over it. Left (north) of the tunnel, there is a long wall that leads into a dead-end pit at the bottom of" +
         " three high walls. The badge marker is at the end of that pit next to an old dumpster. The marker is in that pit.",
     links: [
-        {title: "Vision of Despair Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vision_of_Despair_Badge"}
+        {title: "Vision of Despair Badge", href: "https://homecoming.wiki/wiki/Vision_of_Despair_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

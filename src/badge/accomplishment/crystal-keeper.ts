@@ -16,7 +16,7 @@ export const CrystalKeeper: IBadgeData = {
     ],
     acquisition: "Complete the Ice Mistral Strike Force: The Crystal of Serafina",
     links: [
-        {title: "Crystal Keeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crystal_Keeper_Badge"}
+        {title: "Crystal Keeper Badge", href: "https://homecoming.wiki/wiki/Crystal_Keeper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/crystal-keeper.png"}

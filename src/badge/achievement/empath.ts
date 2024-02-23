@@ -19,8 +19,8 @@ export const Empath: IBadgeData = {
     ],
     acquisition: "Heal others for 10,000,000 hit points",
     links: [
-        {title: "Empath Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Empath_Badge"},
-        {title: "Death's Jailer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Death%27s_Jailer_Badge"}
+        {title: "Empath Badge", href: "https://homecoming.wiki/wiki/Empath_Badge"},
+        {title: "Death's Jailer Badge", href: "https://homecoming.wiki/wiki/Death%27s_Jailer_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heal-h.png"},

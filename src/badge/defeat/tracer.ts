@@ -16,7 +16,7 @@ export const Tracer: IBadgeData = {
     ],
     acquisition: "Defeat 200 Tsoo sorcerers",
     links: [
-        {title: "Tracer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tracer_Badge"}
+        {title: "Tracer Badge", href: "https://homecoming.wiki/wiki/Tracer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/tracer.png"}

@@ -13,7 +13,7 @@ export const CoralaxBlueHybrid: IBadgeData = {
     ],
     acquisition: "Defeat 100 Coralax (Coralax)",
     links: [
-        {title: "Coralax Blue Hybrid Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Coralax_Blue_Hybrid_Badge"}
+        {title: "Coralax Blue Hybrid Badge", href: "https://homecoming.wiki/wiki/Coralax_Blue_Hybrid_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

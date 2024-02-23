@@ -13,7 +13,7 @@ export const Overhauler: IBadgeData = {
     ],
     acquisition: "Complete 40 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Overhauler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Overhauler_Badge"}
+        {title: "Overhauler Badge", href: "https://homecoming.wiki/wiki/Overhauler_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/overhauler.png"}]
 };

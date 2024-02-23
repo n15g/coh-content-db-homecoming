@@ -15,7 +15,7 @@ export const TimeLord: IBadgeData = {
     ],
     notes: `Earn the [badge:cimeroran] and [badge:chronologist] Day Jobs`,
     links: [
-        {title: "Time Lord Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Lord_Badge"}
+        {title: "Time Lord Badge", href: "https://homecoming.wiki/wiki/Time_Lord_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/time-lord.png"}

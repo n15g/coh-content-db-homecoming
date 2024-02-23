@@ -13,7 +13,7 @@ export const Apostate: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Incarnate-level Banished Pantheon",
     links: [
-        {title: "Apostate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Apostate_Badge"}
+        {title: "Apostate Badge", href: "https://homecoming.wiki/wiki/Apostate_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/apostate.png"}

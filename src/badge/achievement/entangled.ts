@@ -18,9 +18,9 @@ export const Entangled: IBadgeData = {
     ],
     acquisition: "Be held for 30 minutes",
     links: [
-        {title: "Entangled Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Entangled_Badge"},
-        {title: "Sleepy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sleepy_Badge"},
-        {title: "Locked Out Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Locked_Out_Badge"}
+        {title: "Entangled Badge", href: "https://homecoming.wiki/wiki/Entangled_Badge"},
+        {title: "Sleepy Badge", href: "https://homecoming.wiki/wiki/Sleepy_Badge"},
+        {title: "Locked Out Badge", href: "https://homecoming.wiki/wiki/Locked_Out_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hold-h.png"},

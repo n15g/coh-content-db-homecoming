@@ -16,7 +16,7 @@ export const TemporalStrife: IBadgeData = {
     ],
     acquisition: "Complete the Imperious Task Force: Time's Arrow",
     links: [
-        {title: "Temporal Strife Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Temporal_Strife_Badge"}
+        {title: "Temporal Strife Badge", href: "https://homecoming.wiki/wiki/Temporal_Strife_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/temporal-strife.png"}

@@ -23,9 +23,9 @@ export const CityOfficial: IBadgeData = {
     acquisition: "Log out inside City Hall or the Freedom Corps headquarters for 100 hours.",
     effect: "Day Job: Bonus Influence upon mission completion",
     links: [
-        {title: "City Official Badge", href: "https://hcwiki.cityofheroes.dev/wiki/City_Official_Badge"},
-        {title: "Ousted Official Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ousted_Official_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "City Official Badge", href: "https://homecoming.wiki/wiki/City_Official_Badge"},
+        {title: "Ousted Official Badge", href: "https://homecoming.wiki/wiki/Ousted_Official_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/city-official.png"}]
 };

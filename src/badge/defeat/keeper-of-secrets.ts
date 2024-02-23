@@ -16,7 +16,7 @@ export const KeeperOfSecrets: IBadgeData = {
     ],
     acquisition: "Defeat Adamastor, a monster who can be summoned in Echo: Dark Astoria",
     links: [
-        {title: "Keeper of Secrets Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Keeper_of_Secrets_Badge"}
+        {title: "Keeper of Secrets Badge", href: "https://homecoming.wiki/wiki/Keeper_of_Secrets_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/banished.png"}

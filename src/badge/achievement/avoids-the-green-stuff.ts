@@ -16,7 +16,7 @@ export const AvoidsTheGreenStuff: IBadgeData = {
     ],
     acquisition: "Don't let anyone be caught by an Obliteration Beam in the final battle with Anti-Matter during the Keyes Island Reactor Trial",
     links: [
-        {title: "Avoids the Green Stuff Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Avoids_the_Green_Stuff_Badge"}
+        {title: "Avoids the Green Stuff Badge", href: "https://homecoming.wiki/wiki/Avoids_the_Green_Stuff_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-keyes.png"}

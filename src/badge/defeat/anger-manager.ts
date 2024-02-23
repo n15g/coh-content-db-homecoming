@@ -15,8 +15,8 @@ export const AngerManager: IBadgeData = {
     ],
     acquisition: "Destroying 25 Hydrants, 25 Mailboxes, 25 Newspaper stands, and 25 Pay Phones in Mayhem Missions",
     links: [
-        {title: "Anger Manager Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anger_Manager_Badge"},
-        {title: "Vandal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vandal_Badge"}
+        {title: "Anger Manager Badge", href: "https://homecoming.wiki/wiki/Anger_Manager_Badge"},
+        {title: "Vandal Badge", href: "https://homecoming.wiki/wiki/Vandal_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/anger-manager.png"}

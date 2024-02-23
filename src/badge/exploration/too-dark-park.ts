@@ -17,7 +17,7 @@ export const TooDarkPark: IBadgeData = {
     }],
     notes: "Located in [map:echo-dark-astoria] 323 yards SE of Dido's View, at the base of the tree near the southernmost point of the eastern war wall.",
     links: [
-        {title: "Too Dark Park Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Too_Dark_Park_Badge"}
+        {title: "Too Dark Park Badge", href: "https://homecoming.wiki/wiki/Too_Dark_Park_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

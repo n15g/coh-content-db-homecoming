@@ -16,7 +16,7 @@ You can only imagine what they did to the island's former masters. You vow to no
     }],
     notes: `Located in [map:${MonsterIsland.key}], 388 yards northwest of the Cutlass Isles marker, between the cluster of boxes just off the northwest corner of the two elongated buildings.`,
     links: [
-        {title: "Monsters' Playthings Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Monsters%27_Playthings_Badge"}
+        {title: "Monsters' Playthings Badge", href: "https://homecoming.wiki/wiki/Monsters%27_Playthings_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "4"

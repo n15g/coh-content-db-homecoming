@@ -17,7 +17,7 @@ export const MadeAStand: IBadgeData = {
     ],
     acquisition: "Complete a Morality Mission through Tips  Requires Going Rogue.",
     links: [
-        {title: "Made a Stand Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Made_a_Stand_Badge"}
+        {title: "Made a Stand Badge", href: "https://homecoming.wiki/wiki/Made_a_Stand_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/made-a-stand-h.png"},

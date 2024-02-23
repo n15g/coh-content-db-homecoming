@@ -13,7 +13,7 @@ export const Exterminator: IBadgeData = {
     ],
     acquisition: "Complete the Eliminate Kit'Vul mission from Timothy Raymond",
     links: [
-        {title: "Exterminator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Exterminator_Badge"}
+        {title: "Exterminator Badge", href: "https://homecoming.wiki/wiki/Exterminator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-6.png"}

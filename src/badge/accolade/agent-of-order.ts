@@ -24,7 +24,7 @@ This badge rewards 20 reward merits for completing the following story arcs (con
 * The Shining Stars Chapters 1, 2, and 3 (Twinshot)
 `,
     links: [
-        {title: "Agent of Order Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Agent_of_Order_Badge"}
+        {title: "Agent of Order Badge", href: "https://homecoming.wiki/wiki/Agent_of_Order_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}

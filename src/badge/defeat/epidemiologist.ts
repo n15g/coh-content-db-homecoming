@@ -13,7 +13,7 @@ export const Epidemiologist: IBadgeData = {
     ],
     acquisition: `Defeat Pathogen & Malady, Salamander & Newt, Cortex & Grey Matter (Abandoned Sewer Network), Dr. Vahzilok, Doc Buzzsaw, and Dr. Meinst (various missions).`,
     links: [
-        {title: "Epidemiologist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Epidemiologist_Badge"}
+        {title: "Epidemiologist Badge", href: "https://homecoming.wiki/wiki/Epidemiologist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/epidemiologist.png"}

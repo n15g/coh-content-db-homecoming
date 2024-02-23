@@ -14,7 +14,7 @@ export const DividedMastery: IBadgeData = {
     ],
     acquisition: "Complete a Flashback story arc with one or fewer defeats.",
     links: [
-        {title: "Divided Mastery Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Divided_Mastery_Badge"}
+        {title: "Divided Mastery Badge", href: "https://homecoming.wiki/wiki/Divided_Mastery_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/divided-mastery.png"}]
 };

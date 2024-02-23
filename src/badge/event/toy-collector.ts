@@ -13,7 +13,7 @@ export const ToyCollector: IBadgeData = {
     ],
     acquisition: "Open a total of 200 presents spread throughout Paragon City and the Rogue Isles during the Winter Event.",
     links: [
-        {title: "Toy Collector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Toy_Collector_Badge"}
+        {title: "Toy Collector Badge", href: "https://homecoming.wiki/wiki/Toy_Collector_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/toy-collector.png"}]
 };

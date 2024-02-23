@@ -20,7 +20,7 @@ If your attacks can convince even a small number to quit and seek out legitimate
     notes: `On the map, the badge is roughly equidistant from the [map:${SteelCanyon.key}] Sector, [map:${Boomtown.key}] Sector and Underworld markers.
 It is in the middle of the junction connecting those three neighborhoods.`,
     links: [
-        {title: "Seeker of the Lost Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Seeker_of_the_Lost_Badge"}
+        {title: "Seeker of the Lost Badge", href: "https://homecoming.wiki/wiki/Seeker_of_the_Lost_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

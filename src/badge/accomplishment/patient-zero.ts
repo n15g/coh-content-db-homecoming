@@ -13,7 +13,7 @@ export const PatientZero: IBadgeData = {
     ],
     acquisition: "Complete Doc Buzzsaw's arc, The Freakish Lab of Dr. Vahzilok.",
     links: [
-        {title: "Patient Zero Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Patient_Zero_Badge"}
+        {title: "Patient Zero Badge", href: "https://homecoming.wiki/wiki/Patient_Zero_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/patient-zero.png"}

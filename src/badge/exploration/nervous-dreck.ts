@@ -16,7 +16,7 @@ export const NervousDreck: IBadgeData = {
 
 It can be found along the west war wall near a dumpster on the ground, west and slightly south of the Coroman Manufacturing marker.`,
     links: [
-        {title: "Nervous Dreck Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nervous_Dreck_Badge"}
+        {title: "Nervous Dreck Badge", href: "https://homecoming.wiki/wiki/Nervous_Dreck_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

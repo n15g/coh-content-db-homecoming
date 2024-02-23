@@ -13,7 +13,7 @@ export const Juicer: IBadgeData = {
     ],
     acquisition: "Earn the [badge:watcher-on-the-knoll] Badge (Freakshow)",
     links: [
-        {title: "Juicer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Juicer_Badge"}
+        {title: "Juicer Badge", href: "https://homecoming.wiki/wiki/Juicer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

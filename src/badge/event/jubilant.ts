@@ -13,7 +13,7 @@ export const Jubilant: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Jubilant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jubilant_Badge"}
+        {title: "Jubilant Badge", href: "https://homecoming.wiki/wiki/Jubilant_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/jubilant.png"}]
 };

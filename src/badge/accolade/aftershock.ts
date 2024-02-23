@@ -22,7 +22,7 @@ This badge rewards 20 reward merits for completing the following story arcs (con
 * A Faultline in the Sands of Time (Agent G)
 `,
     links: [
-        {title: "Aftershock Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Aftershock_Badge"}
+        {title: "Aftershock Badge", href: "https://homecoming.wiki/wiki/Aftershock_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png"}

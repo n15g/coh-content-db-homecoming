@@ -13,7 +13,7 @@ export const MageHunter: IBadgeData = {
     ],
     acquisition: "Complete the Defeat Selestar mission from Mage-Killer Zuhkara",
     links: [
-        {title: "Mage Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mage_Hunter_Badge"}
+        {title: "Mage Hunter Badge", href: "https://homecoming.wiki/wiki/Mage_Hunter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-8.png"}

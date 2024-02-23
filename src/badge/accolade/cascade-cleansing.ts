@@ -22,7 +22,7 @@ export const CascadeCleansing: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${CascadeArchipelago.key}]`,
     links: [
-        {title: "Cascade Cleansing Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cascade_Cleansing_Badge"}
+        {title: "Cascade Cleansing Badge", href: "https://homecoming.wiki/wiki/Cascade_Cleansing_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

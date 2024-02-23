@@ -21,9 +21,9 @@ export const Doctor: IBadgeData = {
     ],
     acquisition: "Heal others for 2,000,000 hit points",
     links: [
-        {title: "Doctor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Doctor_Badge"},
-        {title: "Mad Scientist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mad_Scientist_Badge"},
-        {title: "Clutch Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Clutch_Badge"}
+        {title: "Doctor Badge", href: "https://homecoming.wiki/wiki/Doctor_Badge"},
+        {title: "Mad Scientist Badge", href: "https://homecoming.wiki/wiki/Mad_Scientist_Badge"},
+        {title: "Clutch Badge", href: "https://homecoming.wiki/wiki/Clutch_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heal-h.png"},

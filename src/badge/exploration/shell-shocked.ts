@@ -18,7 +18,7 @@ more powerful creature waiting just beyond the walls....`
     notes: `Located in [map:${FirstWard.key}] in the The Fallen Seed neighborhood, almost perfectly equidistant between the Forbidden Crags and Sunken City markers.
 It is on the north end of a series of biomass beneath the shell of the destroyed Seed of Hamidon.`,
     links: [
-        {title: "Shell Shocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shell_Shocked_Badge"}
+        {title: "Shell Shocked Badge", href: "https://homecoming.wiki/wiki/Shell_Shocked_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

@@ -24,9 +24,9 @@ export const ShopKeeper: IBadgeData = {
     acquisition: "Log out inside Stores for 100 hours.",
     effect: "Day Job: Bonus enhancement upon mission completion",
     links: [
-        {title: "Shop Keeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shop_Keeper_Badge"},
-        {title: "Price Gouger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Price_Gouger_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Shop Keeper Badge", href: "https://homecoming.wiki/wiki/Shop_Keeper_Badge"},
+        {title: "Price Gouger Badge", href: "https://homecoming.wiki/wiki/Price_Gouger_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/shop-keeper.png"}]
 };

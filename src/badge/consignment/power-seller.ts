@@ -14,7 +14,7 @@ export const PowerSeller: IBadgeData = {
     ],
     acquisition: "7000 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Power Seller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Power_Seller_Badge"}
+        {title: "Power Seller Badge", href: "https://homecoming.wiki/wiki/Power_Seller_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/power-seller.png"}]
 };

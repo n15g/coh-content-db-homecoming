@@ -19,8 +19,8 @@ export const Confined: IBadgeData = {
     ],
     acquisition: "Be held for 3 hours",
     links: [
-        {title: "Confined Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Confined_Badge"},
-        {title: "Stuck Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stuck_Badge"}
+        {title: "Confined Badge", href: "https://homecoming.wiki/wiki/Confined_Badge"},
+        {title: "Stuck Badge", href: "https://homecoming.wiki/wiki/Stuck_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hold-h.png"},

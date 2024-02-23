@@ -15,7 +15,7 @@ Unlike the dead, however this does little to faze you. After all, if creatures k
     }],
     notes: `Located in [map:${NightWard.key}], in the Lamplight Junction neighborhood, 161 yards W of the map marker; near the entrance to the CTA terminal.`,
     links: [
-        {title: "Abandoned Soul Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Abandoned_Soul_Badge"}
+        {title: "Abandoned Soul Badge", href: "https://homecoming.wiki/wiki/Abandoned_Soul_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

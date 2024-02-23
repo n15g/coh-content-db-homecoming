@@ -13,7 +13,7 @@ export const DeeJay: IBadgeData = {
     ],
     acquisition: "Defeat 50 Supa Trolls during a Troll Rave",
     links: [
-        {title: "Dee Jay Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dee_Jay_Badge"}
+        {title: "Dee Jay Badge", href: "https://homecoming.wiki/wiki/Dee_Jay_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/dee-jay.png"}

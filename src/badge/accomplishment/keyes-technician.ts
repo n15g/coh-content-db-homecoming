@@ -13,7 +13,7 @@ export const KeyesTechnician: IBadgeData = {
     ],
     acquisition: "Complete the Keyes Island Reactor Trial",
     links: [
-        {title: "Keyes Technician Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Keyes_Technician_Badge"}
+        {title: "Keyes Technician Badge", href: "https://homecoming.wiki/wiki/Keyes_Technician_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/keyes-technician.png"}

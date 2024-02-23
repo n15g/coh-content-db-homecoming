@@ -20,8 +20,8 @@ export const Libertarian: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Libertarian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Libertarian_Badge"},
-        {title: "Anarchist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anarchist_Badge"},
+        {title: "Libertarian Badge", href: "https://homecoming.wiki/wiki/Libertarian_Badge"},
+        {title: "Anarchist Badge", href: "https://homecoming.wiki/wiki/Anarchist_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

@@ -16,7 +16,7 @@ export const TikiFan: IBadgeData = {
 
 It is directly in front of Larry's Tiki Lounge 133 yards SE of the neighborhood marker.`,
     links: [
-        {title: "Tiki Fan Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tiki_Fan_Badge"}
+        {title: "Tiki Fan Badge", href: "https://homecoming.wiki/wiki/Tiki_Fan_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "8"

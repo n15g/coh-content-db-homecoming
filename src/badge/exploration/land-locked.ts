@@ -13,7 +13,7 @@ export const LandLocked: IBadgeData = {
     notes: "The Land Locked Badge is located in the Gemini Park neighborhood in Echo: Galaxy City." +
         "\n\nIt is in the middle of the large steel doors on the eastern wall of the zone, 270 yards south of the entrance to Perez Park.",
     links: [
-        {title: "Land Locked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Land_Locked_Badge"}
+        {title: "Land Locked Badge", href: "https://homecoming.wiki/wiki/Land_Locked_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

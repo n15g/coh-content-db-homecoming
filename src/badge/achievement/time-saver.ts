@@ -16,7 +16,7 @@ export const TimeSaver: IBadgeData = {
     ],
     acquisition: "Save both Sigil and Kadabra Kill within two minutes of starting the final fight in the final mission from Heather Townshend",
     links: [
-        {title: "Time Saver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Time_Saver_Badge"}
+        {title: "Time Saver Badge", href: "https://homecoming.wiki/wiki/Time_Saver_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png"}

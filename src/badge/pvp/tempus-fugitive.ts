@@ -16,7 +16,7 @@ export const TempusFugitive: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/tempus-fugitive.png"}],
     acquisition: "(Issue 25) Win Recluse's Victory with 1000 temporal points.",
     links: [
-        {title: "Tempus Fugitive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tempus_Fugitive_Badge"},
-        {title: "Destroyer of Worlds Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destroyer_of_Worlds_Badge"}
+        {title: "Tempus Fugitive Badge", href: "https://homecoming.wiki/wiki/Tempus_Fugitive_Badge"},
+        {title: "Destroyer of Worlds Badge", href: "https://homecoming.wiki/wiki/Destroyer_of_Worlds_Badge"}
     ],
 };

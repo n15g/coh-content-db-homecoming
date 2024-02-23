@@ -13,7 +13,7 @@ export const Entertainer: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Entertainer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Entertainer_Badge"}
+        {title: "Entertainer Badge", href: "https://homecoming.wiki/wiki/Entertainer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/entertainer.png"}]
 };

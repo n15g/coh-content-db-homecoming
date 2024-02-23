@@ -16,7 +16,7 @@ export const Zookeeper: IBadgeData = {
     ],
     acquisition: "Defeat 1000 Rikti monkeys",
     links: [
-        {title: "Zookeeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Zookeeper_Badge"}
+        {title: "Zookeeper Badge", href: "https://homecoming.wiki/wiki/Zookeeper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/zookeeper.png"}

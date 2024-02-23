@@ -13,7 +13,7 @@ export const BaneOfAjax: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Dean MacArthur",
     links: [
-        {title: "Bane of Ajax Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bane_of_Ajax_Badge"}
+        {title: "Bane of Ajax Badge", href: "https://homecoming.wiki/wiki/Bane_of_Ajax_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/bane-of-ajax.png"}

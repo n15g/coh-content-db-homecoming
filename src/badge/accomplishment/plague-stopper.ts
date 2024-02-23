@@ -14,8 +14,8 @@ export const PlagueStopper: IBadgeData = {
     ],
     acquisition: "Complete the Destroy Plague Containers mission from Olivia Chung, Dr. Ann-Marie Engles, Juliana Nehring, or Pavel Garnier",
     links: [
-        {title: "Plague Stopper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Plague_Stopper_Badge"},
-        {title: "Deadly Virus Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Deadly_Virus_Badge"}
+        {title: "Plague Stopper Badge", href: "https://homecoming.wiki/wiki/Plague_Stopper_Badge"},
+        {title: "Deadly Virus Badge", href: "https://homecoming.wiki/wiki/Deadly_Virus_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/plague-stopper.png"}

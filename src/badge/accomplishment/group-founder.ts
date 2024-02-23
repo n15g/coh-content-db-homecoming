@@ -13,7 +13,7 @@ export const GroupFounder: IBadgeData = {
     ],
     acquisition: "Complete the first story arc from Provost Marchand (Primal Earth)",
     links: [
-        {title: "Group Founder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Group_Founder_Badge"}
+        {title: "Group Founder Badge", href: "https://homecoming.wiki/wiki/Group_Founder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png"}

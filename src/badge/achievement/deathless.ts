@@ -20,8 +20,8 @@ export const Deathless: IBadgeData = {
     ],
     acquisition: "Pay off 400,000 debt",
     links: [
-        {title: "Deathless Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Deathless_Badge"},
-        {title: "Impulsive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Impulsive_Badge"}
+        {title: "Deathless Badge", href: "https://homecoming.wiki/wiki/Deathless_Badge"},
+        {title: "Impulsive Badge", href: "https://homecoming.wiki/wiki/Impulsive_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/debt-h.png"},

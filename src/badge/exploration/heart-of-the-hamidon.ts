@@ -14,7 +14,7 @@ export const HeartOfTheHamidon: IBadgeData = {
     }],
     notes: `Located in the dead center of [map:${TheHive.key}], where Hamidon appears.`,
     links: [
-        {title: "Heart of the Hamidon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heart_of_the_Hamidon_Badge"}
+        {title: "Heart of the Hamidon Badge", href: "https://homecoming.wiki/wiki/Heart_of_the_Hamidon_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

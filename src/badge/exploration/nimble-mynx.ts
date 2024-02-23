@@ -15,7 +15,7 @@ export const NimbleMynx: IBadgeData = {
     notes: "The Nimble Mynx Badge is in the Silver Lake neighborhood of Steel Canyon." +
         "\n\nIt is located on the back right (northeastern) side of the building just west of the entrance to Boomtown.",
     links: [
-        {title: "Nimble Mynx Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nimble_Mynx_Badge"}
+        {title: "Nimble Mynx Badge", href: "https://homecoming.wiki/wiki/Nimble_Mynx_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "3"

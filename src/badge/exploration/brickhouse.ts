@@ -17,7 +17,7 @@ export const Brickhouse: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Brickhouse Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Brickhouse_Badge"},
+        {title: "Brickhouse Badge", href: "https://homecoming.wiki/wiki/Brickhouse_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

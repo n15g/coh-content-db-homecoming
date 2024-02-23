@@ -14,7 +14,7 @@ export const KeenSighted: IBadgeData = {
     }],
     notes: "The Keen Sighted Badge is located in Kings Row on a high voltage tower 230 yards to the SE of the Monorail.",
     links: [
-        {title: "Keen Sighted Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Keen_Sighted_Badge"}
+        {title: "Keen Sighted Badge", href: "https://homecoming.wiki/wiki/Keen_Sighted_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

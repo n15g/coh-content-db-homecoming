@@ -14,7 +14,7 @@ export const Courageous: IBadgeData = {
     ],
     acquisition: "Complete a level 16-20 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Courageous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Courageous_Badge"}
+        {title: "Courageous Badge", href: "https://homecoming.wiki/wiki/Courageous_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/courageous.png"}]
 };

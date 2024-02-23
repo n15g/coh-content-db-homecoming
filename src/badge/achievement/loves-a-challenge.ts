@@ -16,7 +16,7 @@ export const LovesAChallenge: IBadgeData = {
     ],
     acquisition: "Complete the Keyes Island Reactor Trial without anyone dying or destroying any terminals during the final battle with Anti-Matter",
     links: [
-        {title: "Loves A Challenge Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Loves_A_Challenge_Badge"}
+        {title: "Loves A Challenge Badge", href: "https://homecoming.wiki/wiki/Loves_A_Challenge_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-keyes.png"}

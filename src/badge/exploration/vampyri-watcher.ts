@@ -17,7 +17,7 @@ export const VampyriWatcher: IBadgeData = {
     }],
     notes: "Located in [map:striga-isle] 464 yards NNE of The Wolf's Throat marker, at the top of the hill.",
     links: [
-        {title: "Vampyri Watcher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vampyri_Watcher_Badge"}
+        {title: "Vampyri Watcher Badge", href: "https://homecoming.wiki/wiki/Vampyri_Watcher_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

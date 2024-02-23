@@ -16,7 +16,7 @@ export const BantamweightChampion: IBadgeData = {
     ],
     acquisition: "Win an Arena event in the Bantamweight division",
     links: [
-        {title: "Bantamweight Champion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bantamweight_Champion_Badge"}
+        {title: "Bantamweight Champion Badge", href: "https://homecoming.wiki/wiki/Bantamweight_Champion_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/bantamweight-champion.png"}

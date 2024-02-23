@@ -18,7 +18,7 @@ export const GeneticallyAltered: IBadgeData = {
         "\n" +
         "It is under the large skeleton 277 yards southwest of the neighborhood marker.",
     links: [
-        {title: "Genetically Altered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Genetically_Altered_Badge"}
+        {title: "Genetically Altered Badge", href: "https://homecoming.wiki/wiki/Genetically_Altered_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

@@ -13,7 +13,7 @@ export const Arachnobot: IBadgeData = {
     ],
     acquisition: "Earn the [badge:agent-of-discord] Badge (Arachnos)",
     links: [
-        {title: "Arachnobot Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arachnobot_Badge"}
+        {title: "Arachnobot Badge", href: "https://homecoming.wiki/wiki/Arachnobot_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

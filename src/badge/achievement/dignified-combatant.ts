@@ -16,7 +16,7 @@ export const DignifiedCombatant: IBadgeData = {
     ],
     acquisition: "Choose to spare Sun Xiong after you defeat him in the story arc from Graham Easton",
     links: [
-        {title: "Dignified Combatant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dignified_Combatant_Badge"}
+        {title: "Dignified Combatant Badge", href: "https://homecoming.wiki/wiki/Dignified_Combatant_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dignified-combatant.png"}

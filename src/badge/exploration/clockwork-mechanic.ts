@@ -15,7 +15,7 @@ export const ClockworkMechanic: IBadgeData = {
     }],
     notes: "Located in [map:underground-nova] approximately 240 yards NE of City Access B.",
     links: [
-        {title: "Clockwork Mechanic Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Clockwork_Mechanic_Badge"}
+        {title: "Clockwork Mechanic Badge", href: "https://homecoming.wiki/wiki/Clockwork_Mechanic_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

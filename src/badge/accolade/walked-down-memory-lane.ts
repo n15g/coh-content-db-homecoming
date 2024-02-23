@@ -22,7 +22,7 @@ export const WalkedDownMemoryLane: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoAtlasPark.key}]`,
     links: [
-        {title: "Walked Down Memory Lane Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Walked_Down_Memory_Lane_Badge"}
+        {title: "Walked Down Memory Lane Badge", href: "https://homecoming.wiki/wiki/Walked_Down_Memory_Lane_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

@@ -17,7 +17,7 @@ export const BarrierHolder: IBadgeData = {
         "\n" +
         "It is in the middle of a small pond 135 yards west of the neighborhood marker.",
     links: [
-        {title: "Barrier Holder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Barrier_Holder_Badge"}
+        {title: "Barrier Holder Badge", href: "https://homecoming.wiki/wiki/Barrier_Holder_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "4"

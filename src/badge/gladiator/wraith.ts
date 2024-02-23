@@ -13,7 +13,7 @@ export const Wraith: IBadgeData = {
     ],
     acquisition: "Earn the [badge:haunted] Badge (Croatoa Ghosts)",
     links: [
-        {title: "Wraith Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wraith_Badge"}
+        {title: "Wraith Badge", href: "https://homecoming.wiki/wiki/Wraith_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

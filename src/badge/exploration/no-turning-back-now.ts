@@ -19,7 +19,7 @@ export const NoTurningBackNow: IBadgeData = {
         "\n" +
         "To reach it, go approximately 367 yards NNE of the Tyrant's Rock marker, and then straight down.",
     links: [
-        {title: "No Turning Back Now Badge", href: "https://hcwiki.cityofheroes.dev/wiki/No_Turning_Back_Now_Badge"}
+        {title: "No Turning Back Now Badge", href: "https://homecoming.wiki/wiki/No_Turning_Back_Now_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

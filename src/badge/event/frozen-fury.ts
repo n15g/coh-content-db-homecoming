@@ -13,7 +13,7 @@ export const FrozenFury: IBadgeData = {
     ],
     acquisition: "Defeat a Winter Lord during the Winter Event.",
     links: [
-        {title: "Frozen Fury Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Frozen_Fury_Badge"}
+        {title: "Frozen Fury Badge", href: "https://homecoming.wiki/wiki/Frozen_Fury_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/frozen-fury.png"}]
 };

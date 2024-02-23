@@ -18,7 +18,7 @@ export const XRaySpectator: IBadgeData = {
     }],
     notes: "Located in [map:firebase-zulu] 208 yards NW of the Point X-Ray marker, on top of the base's outer wall.",
     links: [
-        {title: "X-Ray Spectator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/X-Ray_Spectator_Badge"}
+        {title: "X-Ray Spectator Badge", href: "https://homecoming.wiki/wiki/X-Ray_Spectator_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

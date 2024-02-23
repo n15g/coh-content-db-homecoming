@@ -15,7 +15,7 @@ export const Student: IBadgeData = {
         {value: `You have learned the history of the Citizen Crime Fighting Act.`}
     ],
     links: [
-        {title: "Student Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Student_Badge"}
+        {title: "Student Badge", href: "https://homecoming.wiki/wiki/Student_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png"}

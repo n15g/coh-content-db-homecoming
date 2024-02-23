@@ -15,8 +15,8 @@ export const HeartOfLight: IBadgeData = {
     ],
     acquisition: "Defeat Snaptooth once during the Valentine's Day Event.",
     links: [
-        {title: "Heart of Light Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heart_of_Light_Badge"},
-        {title: "Heart of Darkness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heart_of_Darkness_Badge"}
+        {title: "Heart of Light Badge", href: "https://homecoming.wiki/wiki/Heart_of_Light_Badge"},
+        {title: "Heart of Darkness Badge", href: "https://homecoming.wiki/wiki/Heart_of_Darkness_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/heart-of-light.png"}]
 };

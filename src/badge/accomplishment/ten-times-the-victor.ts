@@ -17,7 +17,7 @@ export const TenTimesTheVictor: IBadgeData = {
     ],
     acquisition: "Defeat Mary MacComber ten times during the Katie Hannon Task Force",
     links: [
-        {title: "Ten Times the Victor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ten_Times_the_Victor_Badge"}
+        {title: "Ten Times the Victor Badge", href: "https://homecoming.wiki/wiki/Ten_Times_the_Victor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ten-times-the-victor.png"}

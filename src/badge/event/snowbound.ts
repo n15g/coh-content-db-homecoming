@@ -13,7 +13,7 @@ export const Snowbound: IBadgeData = {
     ],
     acquisition: `Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.`,
     links: [
-        {title: "Snowbound Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Snowbound_Badge"}
+        {title: "Snowbound Badge", href: "https://homecoming.wiki/wiki/Snowbound_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png"}]
 };

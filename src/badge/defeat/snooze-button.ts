@@ -16,7 +16,7 @@ export const SnoozeButton: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of The Awakened",
     links: [
-        {title: "Snooze Button Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Snooze_Button_Badge"}
+        {title: "Snooze Button Badge", href: "https://homecoming.wiki/wiki/Snooze_Button_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/snooze-button.png"}

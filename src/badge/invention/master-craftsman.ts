@@ -11,7 +11,7 @@ export const MasterCraftsman: IBadgeData = {
     notes: "This includes anything craftable on Invention Worktables, Base Worktables, and Empowerment Stations (including Empowerment Buffs), as well as special crafting such as the" +
         " Vanguard Crafting Table and Candy Keeper.",
     links: [
-        {title: "Master Craftsman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_Craftsman_Badge"}
+        {title: "Master Craftsman Badge", href: "https://homecoming.wiki/wiki/Master_Craftsman_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/master-craftsman.png"}]
 };

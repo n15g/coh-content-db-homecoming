@@ -19,7 +19,7 @@ export const TheSleeperBelow: IBadgeData = {
         "\n" +
         "You'll find the entrance to the ramp on the south-west side, in the deep trench surrounding the ziggurat, at (1470.1, -80.0, 851.7).",
     links: [
-        {title: "The Sleeper Below Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Sleeper_Below_Badge"}
+        {title: "The Sleeper Below Badge", href: "https://homecoming.wiki/wiki/The_Sleeper_Below_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

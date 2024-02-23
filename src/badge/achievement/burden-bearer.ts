@@ -22,8 +22,8 @@ export const BurdenBearer: IBadgeData = {
     ],
     acquisition: "Don't activate any drones in the first mission of the Apex Task Force",
     links: [
-        {title: "Burden Bearer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Burden_Bearer_Badge"},
-        {title: "Arm's Length Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arm%27s_Length_Badge"}
+        {title: "Burden Bearer Badge", href: "https://homecoming.wiki/wiki/Burden_Bearer_Badge"},
+        {title: "Arm's Length Badge", href: "https://homecoming.wiki/wiki/Arm%27s_Length_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-tinmage.png"}

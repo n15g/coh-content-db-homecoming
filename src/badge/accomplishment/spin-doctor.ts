@@ -13,7 +13,7 @@ export const SpinDoctor: IBadgeData = {
     ],
     acquisition: "Complete the TPN Campus Trial",
     links: [
-        {title: "Spin Doctor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spin_Doctor_Badge"}
+        {title: "Spin Doctor Badge", href: "https://homecoming.wiki/wiki/Spin_Doctor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/spin-doctor.png"}

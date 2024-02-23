@@ -20,7 +20,7 @@ export const TemperedThroughFire: IBadgeData = {
     ],
     notes: `Earn the following badges to earn this badge: [badge:loyalist], [badge:magistrate], [badge:tyrant], [badge:resistance-member], [badge:obliterator], [badge:survivor] and [badge:escapist]. [Rewards 20 Merits]`,
     links: [
-        {title: "Tempered Through Fire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tempered_Through_Fire_Badge"}
+        {title: "Tempered Through Fire Badge", href: "https://homecoming.wiki/wiki/Tempered_Through_Fire_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/tempered-through-fire.png"}

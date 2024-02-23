@@ -19,7 +19,7 @@ You are the predator that they now fear, it is the stories of your exploits they
     }],
     notes: `Located in [map:${SewerNetwork.key}] 49 yards north of the [map:${SkywayCity.key}] transfer point, straight back from the entrance.`,
     links: [
-        {title: "Sewer Stalker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sewer_Stalker_Badge"}
+        {title: "Sewer Stalker Badge", href: "https://homecoming.wiki/wiki/Sewer_Stalker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

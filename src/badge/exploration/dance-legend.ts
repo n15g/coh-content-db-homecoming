@@ -16,7 +16,7 @@ export const DanceLegend: IBadgeData = {
     }],
     notes: "The Dance Legend Badge is at the back entrance of the building 170 yards northwest of the south Paragon City Monorail station.",
     links: [
-        {title: "Dance Legend Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dance_Legend_Badge"}
+        {title: "Dance Legend Badge", href: "https://homecoming.wiki/wiki/Dance_Legend_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

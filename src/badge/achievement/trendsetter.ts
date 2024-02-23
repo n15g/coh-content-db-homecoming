@@ -19,8 +19,8 @@ export const Trendsetter: IBadgeData = {
     ],
     acquisition: "Earn 50,000,000 influence",
     links: [
-        {title: "Trendsetter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trendsetter_Badge"},
-        {title: "Renowned Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Renowned_Badge"}
+        {title: "Trendsetter Badge", href: "https://homecoming.wiki/wiki/Trendsetter_Badge"},
+        {title: "Renowned Badge", href: "https://homecoming.wiki/wiki/Renowned_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/inf-h.png"},

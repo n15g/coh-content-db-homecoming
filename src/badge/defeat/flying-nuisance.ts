@@ -13,7 +13,7 @@ export const FlyingNuisance: IBadgeData = {
     ],
     acquisition: "Defeat 500 Rularuu Natterlings.",
     links: [
-        {title: "Flying Nuisance Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Flying_Nuisance_Badge"}
+        {title: "Flying Nuisance Badge", href: "https://homecoming.wiki/wiki/Flying_Nuisance_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/flying-nuisance.png"}

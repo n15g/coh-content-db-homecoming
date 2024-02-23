@@ -14,7 +14,7 @@ export const Ace: IBadgeData = {
         "\n" +
         "On the outstretched hand of the statue of Mustang.",
     links: [
-        {title: "Ace Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ace_Badge"},
+        {title: "Ace Badge", href: "https://homecoming.wiki/wiki/Ace_Badge"},
         {title: "Echo: Rikti Crash Site Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

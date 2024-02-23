@@ -16,7 +16,7 @@ export const NebulasMemory: IBadgeData = {
     }],
     notes: "Located in [map:perez-park] 82 yards east of the Everett Lake marker on the map, beneath the statue of Nebula herself.",
     links: [
-        {title: "Nebula's Memory Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Nebula%27s_Memory_Badge"}
+        {title: "Nebula's Memory Badge", href: "https://homecoming.wiki/wiki/Nebula%27s_Memory_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

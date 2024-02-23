@@ -17,7 +17,7 @@ The devastation they wreak is extensive, as they thrust upward from the ground t
     }],
     notes: `Located in [map:${TheHive.key}] 0.78 miles northwest of the [map:${Eden.key}] transfer point, in a valley close to a barricade of monsters just off the northwest edge of the crater.`,
     links: [
-        {title: "Forest of Stone Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Forest_of_Stone_Badge"}
+        {title: "Forest of Stone Badge", href: "https://homecoming.wiki/wiki/Forest_of_Stone_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

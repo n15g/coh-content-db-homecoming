@@ -13,7 +13,7 @@ export const Shifter: IBadgeData = {
     ],
     acquisition: "Defeat 15 Werewolves during the Halloween event.",
     links: [
-        {title: "Shifter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shifter_Badge"}
+        {title: "Shifter Badge", href: "https://homecoming.wiki/wiki/Shifter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/shifter.png"}]
 };

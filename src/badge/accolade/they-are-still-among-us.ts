@@ -22,7 +22,7 @@ export const TheyAreStillAmongUs: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${RiktiWarZone.key}]`,
     links: [
-        {title: "They Are Still Among Us Badge", href: "https://hcwiki.cityofheroes.dev/wiki/They_Are_Still_Among_Us_Badge"}
+        {title: "They Are Still Among Us Badge", href: "https://homecoming.wiki/wiki/They_Are_Still_Among_Us_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

@@ -17,7 +17,7 @@ export const IncarnateRival: IBadgeData = {
     ],
     acquisition: "Save Madame Bellerose at least once in Dark Astoria before your final meeting in Dream Doctor's story arc",
     links: [
-        {title: "Incarnate Rival Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Incarnate_Rival_Badge"}
+        {title: "Incarnate Rival Badge", href: "https://homecoming.wiki/wiki/Incarnate_Rival_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png"}

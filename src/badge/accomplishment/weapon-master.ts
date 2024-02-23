@@ -17,8 +17,8 @@ export const WeaponMaster: IBadgeData = {
     ],
     acquisition: "Complete the Apex Task Force",
     links: [
-        {title: "Weapon Master Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Weapon_Master_Badge"},
-        {title: "Warrior Princess Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Warrior_Princess_Badge"}
+        {title: "Weapon Master Badge", href: "https://homecoming.wiki/wiki/Weapon_Master_Badge"},
+        {title: "Warrior Princess Badge", href: "https://homecoming.wiki/wiki/Warrior_Princess_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/weapon-master.png"}

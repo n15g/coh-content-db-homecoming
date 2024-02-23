@@ -13,7 +13,7 @@ export const Deincarnated: IBadgeData = {
     ],
     acquisition: `Complete a Flashback at level 50 without using any Incarnate Powers.`,
     links: [
-        {title: "Deincarnated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Deincarnated_Badge"}
+        {title: "Deincarnated Badge", href: "https://homecoming.wiki/wiki/Deincarnated_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/deincarnated.png"}]
 };

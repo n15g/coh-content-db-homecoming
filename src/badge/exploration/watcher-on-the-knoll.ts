@@ -16,7 +16,7 @@ export const WatcherOnTheKnoll: IBadgeData = {
 
 The marker is located between the feet of the statue on the right (south) of the large building, on top of the plinth.`,
     links: [
-        {title: "Watcher on the Knoll Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Watcher_on_the_Knoll_Badge"}
+        {title: "Watcher on the Knoll Badge", href: "https://homecoming.wiki/wiki/Watcher_on_the_Knoll_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "1"

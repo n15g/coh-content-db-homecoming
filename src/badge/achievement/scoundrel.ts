@@ -17,7 +17,7 @@ export const Scoundrel: IBadgeData = {
     ],
     acquisition: "Complete a Rogue Morality mission",
     links: [
-        {title: "Scoundrel Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Scoundrel_Badge"}
+        {title: "Scoundrel Badge", href: "https://homecoming.wiki/wiki/Scoundrel_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/rogue-align.png"}

@@ -13,7 +13,7 @@ export const Rearguard: IBadgeData = {
     ],
     acquisition: `Defeat 200 Vanguard Sword or Vanguard Shield.`,
     links: [
-        {title: "Rearguard Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rearguard_Badge"}
+        {title: "Rearguard Badge", href: "https://homecoming.wiki/wiki/Rearguard_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/rearguard.png"}

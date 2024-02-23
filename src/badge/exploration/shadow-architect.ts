@@ -18,7 +18,7 @@ export const ShadowArchitect: IBadgeData = {
     }],
     notes: "Located in [map:firebase-zulu] 181 yards NNW of the Point Foxtrot marker, on top of the west end of the arm on top of the crane.",
     links: [
-        {title: "Shadow Architect Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shadow Architect_Badge"}
+        {title: "Shadow Architect Badge", href: "https://homecoming.wiki/wiki/Shadow Architect_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"

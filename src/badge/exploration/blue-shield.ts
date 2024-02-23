@@ -21,7 +21,7 @@ export const BlueShield: IBadgeData = {
         " next to the billboard." +
         "\n\nFrom the roof of that building, it is an easy jump onto the back ledge of the billboard, where the badge marker is.",
     links: [
-        {title: "Blue Shield Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blue_Shield_Badge"}
+        {title: "Blue Shield Badge", href: "https://homecoming.wiki/wiki/Blue_Shield_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

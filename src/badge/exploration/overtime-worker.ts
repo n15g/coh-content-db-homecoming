@@ -16,7 +16,7 @@ export const OvertimeWorker: IBadgeData = {
     }],
     notes: "Located in the Argo Highway neighborhood of [map:talos-island], 218 yards west of the Dark Astoria gate.",
     links: [
-        {title: "Overtime Worker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Overtime_Worker_Badge"}
+        {title: "Overtime Worker Badge", href: "https://homecoming.wiki/wiki/Overtime_Worker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

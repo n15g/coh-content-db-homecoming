@@ -19,7 +19,7 @@ that has claimed lesser minds.`
     }],
     notes: `Located in [map:${TheStormPalace.key}] 34 feet north of the Path of Madness marker.`,
     links: [
-        {title: "Courting Madness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Courting_Madness_Badge"}
+        {title: "Courting Madness Badge", href: "https://homecoming.wiki/wiki/Courting_Madness_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

@@ -16,7 +16,7 @@ export const DimensionalWarder: IBadgeData = {
     ],
     acquisition: "Defeat all fifteen Praetorian Archvillains",
     links: [
-        {title: "Dimensional Warder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dimensional_Warder_Badge"}
+        {title: "Dimensional Warder Badge", href: "https://homecoming.wiki/wiki/Dimensional_Warder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/praetorians.png"}

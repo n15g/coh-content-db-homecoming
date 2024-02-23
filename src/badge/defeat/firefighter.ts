@@ -21,8 +21,8 @@ export const Firefighter: IBadgeData = {
     ],
     acquisition: "Defeat 25 Fires and 25 Hellion Arsonists during a Hellion Arson event",
     links: [
-        {title: "Firefighter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Firefighter_Badge"},
-        {title: "Firestomper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Firestomper_Badge"}
+        {title: "Firefighter Badge", href: "https://homecoming.wiki/wiki/Firefighter_Badge"},
+        {title: "Firestomper Badge", href: "https://homecoming.wiki/wiki/Firestomper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/firefighter.png"}

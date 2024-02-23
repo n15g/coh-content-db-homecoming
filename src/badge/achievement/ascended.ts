@@ -16,7 +16,7 @@ export const Ascended: IBadgeData = {
     ],
     acquisition: "Shift alignment from Villain to Hero",
     links: [
-        {title: "Ascended Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ascended_Badge"}
+        {title: "Ascended Badge", href: "https://homecoming.wiki/wiki/Ascended_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/ascended.png"}

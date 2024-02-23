@@ -14,7 +14,7 @@ export const Guttersnipe: IBadgeData = {
     }],
     notes: `Located in [map:${Grandville.key}], 228 yards south-southwest of the Spider City marker.`,
     links: [
-        {title: "Guttersnipe Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Guttersnipe_Badge"}
+        {title: "Guttersnipe Badge", href: "https://homecoming.wiki/wiki/Guttersnipe_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "3"

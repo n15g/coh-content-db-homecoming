@@ -16,7 +16,7 @@ export const AvatarSmasher: IBadgeData = {
     ],
     acquisition: "Defeat the three Avatars of Hamidon in the final mission from Number Six after refusing help from the Imperial Defense Force",
     links: [
-        {title: "Avatar Smasher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Avatar_Smasher_Badge"}
+        {title: "Avatar Smasher Badge", href: "https://homecoming.wiki/wiki/Avatar_Smasher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/incarnate-challenge.png"}

@@ -17,7 +17,7 @@ export const LambdaLooter: IBadgeData = {
     ],
     acquisition: "Complete the Lambda Sector Incarnate Trial having destroyed all containers in sabotage, but using no Pacification Grenades or Molecular Acids",
     links: [
-        {title: "Lambda Looter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lambda_Looter_Badge"}
+        {title: "Lambda Looter Badge", href: "https://homecoming.wiki/wiki/Lambda_Looter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-lambda.png"}

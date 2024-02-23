@@ -21,9 +21,9 @@ export const Surgeon: IBadgeData = {
     ],
     acquisition: "Heal others for 1,000,000 hit points",
     links: [
-        {title: "Surgeon Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Surgeon_Badge"},
-        {title: "Doc Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Doc_Badge"},
-        {title: "Safekeeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Safekeeper_Badge"}
+        {title: "Surgeon Badge", href: "https://homecoming.wiki/wiki/Surgeon_Badge"},
+        {title: "Doc Badge", href: "https://homecoming.wiki/wiki/Doc_Badge"},
+        {title: "Safekeeper Badge", href: "https://homecoming.wiki/wiki/Safekeeper_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/heal-h.png"},

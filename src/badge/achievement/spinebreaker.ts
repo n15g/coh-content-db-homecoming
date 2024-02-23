@@ -18,7 +18,7 @@ export const Spinebreaker: IBadgeData = {
     ],
     acquisition: "Destroy all four Repulsive Spines (maintaining the protective barrier around Mot) within one minute of each other during the Dilemma Diabolique Trial",
     links: [
-        {title: "Spinebreaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spinebreaker_Badge"}
+        {title: "Spinebreaker Badge", href: "https://homecoming.wiki/wiki/Spinebreaker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-dea.png"}

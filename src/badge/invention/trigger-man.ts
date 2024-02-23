@@ -8,7 +8,7 @@ export const TriggerMan: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Recharge Rate and Interrupt Time."}],
     links: [
-        {title: "Trigger Man Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trigger_Man_Badge"}
+        {title: "Trigger Man Badge", href: "https://homecoming.wiki/wiki/Trigger_Man_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

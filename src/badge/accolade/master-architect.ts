@@ -19,7 +19,7 @@ export const MasterArchitect: IBadgeData = {
     ],
     notes: `Earn the [badge:architect] and [badge:professor] Day Jobs`,
     links: [
-        {title: "Master Architect Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_Architect_Badge"}
+        {title: "Master Architect Badge", href: "https://homecoming.wiki/wiki/Master_Architect_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/master-architect.png"}

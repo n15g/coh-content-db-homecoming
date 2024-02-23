@@ -16,7 +16,7 @@ export const GiftedSpeaker: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Bane Spider Ruben",
     links: [
-        {title: "Gifted Speaker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gifted_Speaker_Badge"}
+        {title: "Gifted Speaker Badge", href: "https://homecoming.wiki/wiki/Gifted_Speaker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/gifted-speaker.png"}

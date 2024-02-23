@@ -20,9 +20,9 @@ export const Gunrunner: IBadgeData = {
     acquisition: "Log out at a Ferry for 100 hours.",
     effect: "Day Job: Bonus Enhancement upon mission completion",
     links: [
-        {title: "Gunrunner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gunrunner_Badge"},
-        {title: "Smuggler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Smuggler_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Gunrunner Badge", href: "https://homecoming.wiki/wiki/Gunrunner_Badge"},
+        {title: "Smuggler Badge", href: "https://homecoming.wiki/wiki/Smuggler_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/gunrunner.png"}]
 };

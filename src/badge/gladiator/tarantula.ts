@@ -13,7 +13,7 @@ export const Tarantula: IBadgeData = {
     ],
     acquisition: "Earn the [badge:venomous] Badge (Arachnos)",
     links: [
-        {title: "Tarantula Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tarantula_Badge"}
+        {title: "Tarantula Badge", href: "https://homecoming.wiki/wiki/Tarantula_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

@@ -17,7 +17,7 @@ export const VillainDisruptor: IBadgeData = {
     ],
     acquisition: "Defeat 25 named bank heist or jailbreak villains during Safeguard missions",
     links: [
-        {title: "Villain Disruptor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Villain_Disruptor_Badge"}
+        {title: "Villain Disruptor Badge", href: "https://homecoming.wiki/wiki/Villain_Disruptor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/villain-disruptor.png"}

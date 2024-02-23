@@ -14,7 +14,7 @@ export const GuardiansOfJustice: IBadgeData = {
     }],
     notes: "Located in [map:nova-praetoria] on top of the PPD headquarters building, 223 yards north of the Magisterium marker.",
     links: [
-        {title: "Guardians of Justice Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Guardians_of_Justice_Badge"}
+        {title: "Guardians of Justice Badge", href: "https://homecoming.wiki/wiki/Guardians_of_Justice_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "4"

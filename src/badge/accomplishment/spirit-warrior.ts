@@ -13,7 +13,7 @@ export const SpiritWarrior: IBadgeData = {
     ],
     acquisition: "Complete the Stop both Groups of Mystic Madmen mission from Andrea Mitchell, Cain Royce, Dr. Cheng, Piper Irving, Oliver Haak, or Josef Keller",
     links: [
-        {title: "Spirit Warrior Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Spirit_Warrior_Badge"}
+        {title: "Spirit Warrior Badge", href: "https://homecoming.wiki/wiki/Spirit_Warrior_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/spirit-warrior.png"}

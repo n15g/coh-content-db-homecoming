@@ -13,7 +13,7 @@ export const TemporalSoldier: IBadgeData = {
     ],
     acquisition: "Control 50 Heavies in Recluse's Victory",
     links: [
-        {title: "Temporal Soldier Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Temporal_Soldier_Badge"}
+        {title: "Temporal Soldier Badge", href: "https://homecoming.wiki/wiki/Temporal_Soldier_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/temporal-soldier.png"}

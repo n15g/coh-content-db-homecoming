@@ -11,7 +11,7 @@ export const Inventor: IBadgeData = {
     notes: "For Heroes, this is awarded by completing the mission from Guidance Counselor Jones." +
         "\n\nfor Villains, this is awarded by completing the mission from James Bright at the Cap au Diable university.",
     links: [
-        {title: "Inventor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Inventor_Badge"}
+        {title: "Inventor Badge", href: "https://homecoming.wiki/wiki/Inventor_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/inventor.png"}]
 };

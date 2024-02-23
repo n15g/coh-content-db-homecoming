@@ -12,6 +12,6 @@ export const Buddy: IBadgeData = {
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/buddy.png"}],
     acquisition: "Defeat 100 Hamidon Buds",
     links: [
-        {title: "Buddy Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Buddy_Badge"}
+        {title: "Buddy Badge", href: "https://homecoming.wiki/wiki/Buddy_Badge"}
     ],
 };

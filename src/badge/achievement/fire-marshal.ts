@@ -18,8 +18,8 @@ export const FireMarshal: IBadgeData = {
     ],
     acquisition: "Stop 5 arson side missions in Safeguard Missions",
     links: [
-        {title: "Fire Marshal Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fire_Marshal_Badge"},
-        {title: "Fired Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fired_Badge"}
+        {title: "Fire Marshal Badge", href: "https://homecoming.wiki/wiki/Fire_Marshal_Badge"},
+        {title: "Fired Badge", href: "https://homecoming.wiki/wiki/Fired_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/fire-marshal.png"}

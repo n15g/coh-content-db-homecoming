@@ -15,8 +15,8 @@ export const AwardedTheFreedomCross: IBadgeData = {
     acquisition: `Complete the third Terra Volta Respecification Trial`,
     notes: `The third (level 44-50) Terra Volta Respecification Trial is available from Major Richard Flagg in Peregrine Island.`,
     links: [
-        {title: "Awarded the Freedom Cross Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Awarded_the_Freedom_Cross_Badge"},
-        {title: "Stripped of the Freedom Cross Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stripped_of_the_Freedom_Cross_Badge"}
+        {title: "Awarded the Freedom Cross Badge", href: "https://homecoming.wiki/wiki/Awarded_the_Freedom_Cross_Badge"},
+        {title: "Stripped of the Freedom Cross Badge", href: "https://homecoming.wiki/wiki/Stripped_of_the_Freedom_Cross_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/awarded-the-freedom-cross.png"}

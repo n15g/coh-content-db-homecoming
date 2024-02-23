@@ -14,8 +14,8 @@ export const PraetoriasSon: IBadgeData = {
     ],
     acquisition: `Awarded on initial login of a Praetorian-origin character`,
     links: [
-        {title: "Praetoria's Son Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetoria%27s_Son_Badge"},
-        {title: "Praetoria's Daughter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Praetoria%27s_Daughter_Badge"}
+        {title: "Praetoria's Son Badge", href: "https://homecoming.wiki/wiki/Praetoria%27s_Son_Badge"},
+        {title: "Praetoria's Daughter Badge", href: "https://homecoming.wiki/wiki/Praetoria%27s_Daughter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/char-creation.png"}

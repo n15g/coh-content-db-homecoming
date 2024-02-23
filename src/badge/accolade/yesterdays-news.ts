@@ -22,8 +22,8 @@ export const YesterdaysNews: IBadgeData = {
     ],
     notes: `Awards the Stolen Immobilizer Ray power`,
     links: [
-        {title: "Yesterday's News Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Yesterday%27s_News_Badge"},
-        {title: "Headline Stealer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Headline_Stealer_Badge"}
+        {title: "Yesterday's News Badge", href: "https://homecoming.wiki/wiki/Yesterday%27s_News_Badge"},
+        {title: "Headline Stealer Badge", href: "https://homecoming.wiki/wiki/Headline_Stealer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/yesterdays-news.png"}

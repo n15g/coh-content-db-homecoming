@@ -16,7 +16,7 @@ export const TruthTeller: IBadgeData = {
     ],
     acquisition: "Complete the personal story mission from Dream Doctor",
     links: [
-        {title: "Truth Teller Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Truth_Teller_Badge"}
+        {title: "Truth Teller Badge", href: "https://homecoming.wiki/wiki/Truth_Teller_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png"}

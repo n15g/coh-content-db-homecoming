@@ -16,7 +16,7 @@ export const CadaverCounter: IBadgeData = {
     ],
     acquisition: "Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers",
     links: [
-        {title: "Cadaver Counter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cadaver_Counter_Badge"}
+        {title: "Cadaver Counter Badge", href: "https://homecoming.wiki/wiki/Cadaver_Counter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/sewer-trial.png"}

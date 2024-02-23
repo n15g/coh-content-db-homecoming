@@ -19,7 +19,7 @@ How long you could hold out before the overpowering will of Hamidon found its wa
     }],
     notes: `Located in [map:${Eden.key}] 340 yards east and a little bit south of [map:${TheHive.key}] marker, on the eastern slope of the mound leading away from the spire.`,
     links: [
-        {title: "Hive Mind Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hive_Mind_Badge"}
+        {title: "Hive Mind Badge", href: "https://homecoming.wiki/wiki/Hive_Mind_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

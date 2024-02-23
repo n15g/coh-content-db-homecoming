@@ -21,9 +21,9 @@ export const Collector: IBadgeData = {
     ],
     acquisition: "Earn 25 badges",
     links: [
-        {title: "Collector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Collector_Badge"},
-        {title: "Native Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Native_Badge"},
-        {title: "Extractor of Secrets Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Extractor_of_Secrets_Badge"}
+        {title: "Collector Badge", href: "https://homecoming.wiki/wiki/Collector_Badge"},
+        {title: "Native Badge", href: "https://homecoming.wiki/wiki/Native_Badge"},
+        {title: "Extractor of Secrets Badge", href: "https://homecoming.wiki/wiki/Extractor_of_Secrets_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/collector-h.png"},

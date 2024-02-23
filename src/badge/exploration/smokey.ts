@@ -14,7 +14,7 @@ export const Smokey: IBadgeData = {
     }],
     notes: "The Smokey Badge is located in Kings Row, in the far NE corner of the Royal Refinery neighborhood.",
     links: [
-        {title: "Smokey Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Smokey_Badge"}
+        {title: "Smokey Badge", href: "https://homecoming.wiki/wiki/Smokey_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

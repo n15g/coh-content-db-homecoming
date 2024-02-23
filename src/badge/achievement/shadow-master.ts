@@ -17,7 +17,7 @@ export const ShadowMaster: IBadgeData = {
     ],
     acquisition: "Never allow Black Swan to open all six Shadow Rifts simultaneously in the Magisterium Trial",
     links: [
-        {title: "Shadow Master Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shadow_Master_Badge"}
+        {title: "Shadow Master Badge", href: "https://homecoming.wiki/wiki/Shadow_Master_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/magisterium-3.png"}

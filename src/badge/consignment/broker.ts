@@ -14,7 +14,7 @@ export const Broker: IBadgeData = {
     ],
     acquisition: "Sell 50 Recipes at either Wentworths or the Black Market.",
     links: [
-        {title: "Broker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Broker_Badge"}
+        {title: "Broker Badge", href: "https://homecoming.wiki/wiki/Broker_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/broker-h.png"},

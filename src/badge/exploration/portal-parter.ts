@@ -17,7 +17,7 @@ export const PortalParter: IBadgeData = {
         "The island it is on is approximately 834 yards southwest of the Talos Island Ferry, and the marker is located in the center of the grassy area," +
         " between the rock outcropping and the large electrical tower.",
     links: [
-        {title: "Portal Parter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Portal_Parter_Badge"}
+        {title: "Portal Parter Badge", href: "https://homecoming.wiki/wiki/Portal_Parter_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

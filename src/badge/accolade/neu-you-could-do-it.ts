@@ -22,7 +22,7 @@ export const NeuYouCouldDoIt: IBadgeData = {
     ],
     notes: `Visit all exploration badges in ${mapReference(UndergroundNeutropolis)}`,
     links: [
-        {title: "Neu You Could Do It Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Neu_You_Could_Do_It_Badge"}
+        {title: "Neu You Could Do It Badge", href: "https://homecoming.wiki/wiki/Neu_You_Could_Do_It_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png"}

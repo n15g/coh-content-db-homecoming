@@ -14,7 +14,7 @@ export const Unspoiled: IBadgeData = {
     }],
     notes: `Located in [map:${Eden.key}] 105 yards south of The Cascades marker.`,
     links: [
-        {title: "Unspoiled Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unspoiled_Badge"}
+        {title: "Unspoiled Badge", href: "https://homecoming.wiki/wiki/Unspoiled_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

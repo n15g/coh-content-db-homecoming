@@ -20,8 +20,8 @@ export const Paradigm: IBadgeData = {
     ],
     acquisition: "Sidekick another hero for 24 hours",
     links: [
-        {title: "Paradigm Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Paradigm_Badge"},
-        {title: "Old-Timer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Old-Timer_Badge"}
+        {title: "Paradigm Badge", href: "https://homecoming.wiki/wiki/Paradigm_Badge"},
+        {title: "Old-Timer Badge", href: "https://homecoming.wiki/wiki/Old-Timer_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png"},

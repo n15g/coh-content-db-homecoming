@@ -18,8 +18,8 @@ export const Cimeroran: IBadgeData = {
     acquisition: "Log out inside Cimerora for 100 hours.",
     effect: "Day Job: +Res(All)",
     links: [
-        {title: "Cimeroran Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cimeroran_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Cimeroran Badge", href: "https://homecoming.wiki/wiki/Cimeroran_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/cimeroran.png"}]
 };

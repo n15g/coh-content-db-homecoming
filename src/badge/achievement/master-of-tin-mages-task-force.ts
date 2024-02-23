@@ -13,7 +13,7 @@ export const MasterOfTinMagesTaskForce: IBadgeData = {
     ],
     acquisition: "Earn the Hacker, Midnight Dodger What Dodges at Midnight, Kitty's Got Claws, and Army of Neu badges",
     links: [
-        {title: "Master of Tin Mage's Task Force Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_Tin_Mage%27s_Task_Force_Badge"}
+        {title: "Master of Tin Mage's Task Force Badge", href: "https://homecoming.wiki/wiki/Master_of_Tin_Mage%27s_Task_Force_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-tin-mages-task-force.png"}

@@ -16,7 +16,7 @@ export const Father: IBadgeData = {
     ],
     acquisition: "Complete the personal story from Wu Yin",
     links: [
-        {title: "Father Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Father_Badge"}
+        {title: "Father Badge", href: "https://homecoming.wiki/wiki/Father_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-parc.png"}

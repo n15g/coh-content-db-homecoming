@@ -13,7 +13,7 @@ export const WellInformed: IBadgeData = {
     ],
     acquisition: "Complete a Rogue Alignment mission",
     links: [
-        {title: "Well Informed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Well_Informed_Badge"}
+        {title: "Well Informed Badge", href: "https://homecoming.wiki/wiki/Well_Informed_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/well-informed.png"}

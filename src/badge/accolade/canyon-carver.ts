@@ -22,7 +22,7 @@ export const CanyonCarver: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SteelCanyon.key}]`,
     links: [
-        {title: "Canyon Carver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Canyon_Carver_Badge"}
+        {title: "Canyon Carver Badge", href: "https://homecoming.wiki/wiki/Canyon_Carver_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png"}

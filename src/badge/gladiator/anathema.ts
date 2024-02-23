@@ -13,7 +13,7 @@ export const Anathema: IBadgeData = {
     ],
     acquisition: "Earn the [badge:finder] Badge (The Lost)",
     links: [
-        {title: "Anathema Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anathema_Badge"}
+        {title: "Anathema Badge", href: "https://homecoming.wiki/wiki/Anathema_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

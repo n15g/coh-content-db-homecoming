@@ -16,7 +16,7 @@ export const Inmate: IBadgeData = {
         "\n" +
         "It can be found at the front entrance of the Zigursky Penitentiary located on the west side of the structure.",
     links: [
-        {title: "Inmate Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Inmate_Badge"}
+        {title: "Inmate Badge", href: "https://homecoming.wiki/wiki/Inmate_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "2"

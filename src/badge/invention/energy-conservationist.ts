@@ -8,7 +8,7 @@ export const EnergyConservationist: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Endurance Modification and Endurance Reduction."}],
     links: [
-        {title: "Energy Conservationist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Energy_Conservationist_Badge"}
+        {title: "Energy Conservationist Badge", href: "https://homecoming.wiki/wiki/Energy_Conservationist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

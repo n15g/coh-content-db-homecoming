@@ -15,7 +15,7 @@ export const GoldDigger: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] on top of a building under construction 460 yards N of the Aureas marker.",
     links: [
-        {title: "Gold Digger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gold_Digger_Badge"}
+        {title: "Gold Digger Badge", href: "https://homecoming.wiki/wiki/Gold_Digger_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "1"

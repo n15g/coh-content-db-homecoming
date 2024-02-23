@@ -23,9 +23,9 @@ export const LawEnforcer: IBadgeData = {
     acquisition: "Log out inside Police Stations for 100 hours.",
     effect: "Day Job: XP bonus upon mission completion",
     links: [
-        {title: "Law Enforcer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Law_Enforcer_Badge"},
-        {title: "Dirty Cop Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Dirty_Cop_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Law Enforcer Badge", href: "https://homecoming.wiki/wiki/Law_Enforcer_Badge"},
+        {title: "Dirty Cop Badge", href: "https://homecoming.wiki/wiki/Dirty_Cop_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/law-enforcer.png"}]
 };

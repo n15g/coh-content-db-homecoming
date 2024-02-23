@@ -21,9 +21,9 @@ export const Tourist: IBadgeData = {
     ],
     acquisition: "Earn 10 badges",
     links: [
-        {title: "Tourist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tourist_Badge"},
-        {title: "Visitor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Visitor_Badge"},
-        {title: "Lead-Follower Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lead-Follower_Badge"}
+        {title: "Tourist Badge", href: "https://homecoming.wiki/wiki/Tourist_Badge"},
+        {title: "Visitor Badge", href: "https://homecoming.wiki/wiki/Visitor_Badge"},
+        {title: "Lead-Follower Badge", href: "https://homecoming.wiki/wiki/Lead-Follower_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tourist-h.png"},

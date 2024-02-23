@@ -16,8 +16,8 @@ export const Rescuer: IBadgeData = {
     acquisition: "The Rescuer accomplishment badge can be earned by completing the Rescue Mr. Yin mission from Penelope Yin.",
     notes: "All team members get the badge.",
     links: [
-        {title: "Rescuer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rescuer_Badge"},
-        {title: "Big Softie Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Big_Softie_Badge"}
+        {title: "Rescuer Badge", href: "https://homecoming.wiki/wiki/Rescuer_Badge"},
+        {title: "Big Softie Badge", href: "https://homecoming.wiki/wiki/Big_Softie_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/rescuer.png"}]
 };

@@ -12,7 +12,7 @@ export const HumanNature: IBadgeData = {
     location: [-976.0, 227.8, 1390.0],
     notes: `Located in [map:cimerora] in front of the doors of a building at the center of the northern edge of Castellum Quarter, 451 yards north of the Castellum Quarter neighborhood marker.`,
     links: [
-        {title: "Human Nature Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Human_Nature_Badge"}
+        {title: "Human Nature Badge", href: "https://homecoming.wiki/wiki/Human_Nature_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

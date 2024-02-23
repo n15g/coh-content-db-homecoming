@@ -13,7 +13,7 @@ export const UnfriendlyFire: IBadgeData = {
     ],
     acquisition: `Use a Golden Brickernaut's self-destruct to deal the finishing blow to Princess Zoe in Dr. Aeon's Strike Force. Zoe's health must be at or below 10% for this to work.`,
     links: [
-        {title: "Unfriendly Fire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unfriendly_Fire_Badge"}
+        {title: "Unfriendly Fire Badge", href: "https://homecoming.wiki/wiki/Unfriendly_Fire_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/sf-aeon.png"}

@@ -15,7 +15,7 @@ export const TrueToTheLast: IBadgeData = {
     acquisition: `Complete every story arc in [map:${Neutropolis.key}]`,
     notes: `This badge rewards 20 reward merits.`,
     links: [
-        {title: "True to the Last Badge", href: "https://hcwiki.cityofheroes.dev/wiki/True_to_the_Last_Badge"}
+        {title: "True to the Last Badge", href: "https://homecoming.wiki/wiki/True_to_the_Last_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png"},

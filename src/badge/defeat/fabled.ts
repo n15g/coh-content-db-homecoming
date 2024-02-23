@@ -13,7 +13,7 @@ export const Fabled: IBadgeData = {
     ],
     acquisition: `Defeat 100 Cyclopes in Cimerora.`,
     links: [
-        {title: "Fabled Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fabled_Badge"}
+        {title: "Fabled Badge", href: "https://homecoming.wiki/wiki/Fabled_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/fabled.png"}

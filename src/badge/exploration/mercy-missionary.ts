@@ -15,7 +15,7 @@ export const MercyMissionary: IBadgeData = {
     }],
     notes: "Located in [map:imperial-city] directly in front of the main building in the Behavioral Adjustment Facility.",
     links: [
-        {title: "Mercy Missionary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mercy_Missionary_Badge"}
+        {title: "Mercy Missionary Badge", href: "https://homecoming.wiki/wiki/Mercy_Missionary_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

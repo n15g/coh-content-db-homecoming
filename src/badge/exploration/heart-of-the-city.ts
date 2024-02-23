@@ -20,8 +20,8 @@ export const HeartOfTheCity: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Heart of the City Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Heart_of_the_City_Badge"},
-        {title: "Hate of the City Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Hate_of_the_City_Badge"},
+        {title: "Heart of the City Badge", href: "https://homecoming.wiki/wiki/Heart_of_the_City_Badge"},
+        {title: "Hate of the City Badge", href: "https://homecoming.wiki/wiki/Hate_of_the_City_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

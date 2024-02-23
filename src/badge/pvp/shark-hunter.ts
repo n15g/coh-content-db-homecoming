@@ -13,7 +13,7 @@ export const SharkHunter: IBadgeData = {
     ],
     acquisition: "Defeat Captain Mako in Recluse's Victory",
     links: [
-        {title: "Shark Hunter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Shark_Hunter_Badge"}
+        {title: "Shark Hunter Badge", href: "https://homecoming.wiki/wiki/Shark_Hunter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/shark-hunter.png"}

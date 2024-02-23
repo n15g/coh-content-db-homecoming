@@ -20,8 +20,8 @@ export const AntiArachnosActivist: IBadgeData = {
     ],
     notes: `Earn the [badge:${CannonFodder.key}] and [badge:${ProfessionalLiar.key}] Day Jobs`,
     links: [
-        {title: "Anti-Arachnos Activist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Anti-Arachnos_Activist_Badge"},
-        {title: "Web Weaver Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Web_Weaver_Badge"}
+        {title: "Anti-Arachnos Activist Badge", href: "https://homecoming.wiki/wiki/Anti-Arachnos_Activist_Badge"},
+        {title: "Web Weaver Badge", href: "https://homecoming.wiki/wiki/Web_Weaver_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-arachnos-activist.png"}

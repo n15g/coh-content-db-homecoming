@@ -13,7 +13,7 @@ export const Correctionist: IBadgeData = {
     ],
     acquisition: "Complete 30 Flashback story arcs from the Pillar of Ice and Flame.",
     links: [
-        {title: "Correctionist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Correctionist_Badge"}
+        {title: "Correctionist Badge", href: "https://homecoming.wiki/wiki/Correctionist_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/correctionist.png"}]
 };

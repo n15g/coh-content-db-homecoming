@@ -13,7 +13,7 @@ export const Boulder: IBadgeData = {
     ],
     acquisition: "Earn the [badge:liberator] Badge (Devouring Earth)",
     links: [
-        {title: "Boulder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Boulder_Badge"}
+        {title: "Boulder Badge", href: "https://homecoming.wiki/wiki/Boulder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

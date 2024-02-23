@@ -8,7 +8,7 @@ export const Security: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Defense Buff, Resist Damage, Intangible."}],
     links: [
-        {title: "Security Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Security_Badge"}
+        {title: "Security Badge", href: "https://homecoming.wiki/wiki/Security_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [

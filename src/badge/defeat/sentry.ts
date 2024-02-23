@@ -13,7 +13,7 @@ export const Sentry: IBadgeData = {
     ],
     acquisition: "Defeat 100 Rikti during a Rikti World Invasion",
     links: [
-        {title: "Sentry Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sentry_Badge"}
+        {title: "Sentry Badge", href: "https://homecoming.wiki/wiki/Sentry_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/new-rikti.png"}

@@ -14,7 +14,7 @@ export const Chum: IBadgeData = {
     }],
     notes: `Located on [map:${MercyIsland.key}], on a small island due south of Fort Darwin (a base taken over by Longbow). It is on a small beach on the northwest side of the island.`,
     links: [
-        {title: "Chum Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chum_Badge"}
+        {title: "Chum Badge", href: "https://homecoming.wiki/wiki/Chum_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "3"

@@ -23,7 +23,7 @@ export const AnsweredTheCall: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${SirensCall.key}]`,
     links: [
-        {title: "Answered the Call Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Answered_the_Call_Badge"}
+        {title: "Answered the Call Badge", href: "https://homecoming.wiki/wiki/Answered_the_Call_Badge"}
     ],
     partials: [
         {key: Hangman.key, type: BadgePartialType.BADGE, badgeKey: Hangman.key},

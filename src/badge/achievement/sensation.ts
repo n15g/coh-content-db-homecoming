@@ -22,10 +22,10 @@ export const Sensation: IBadgeData = {
     ],
     acquisition: "Earn 2,500,000 influence",
     links: [
-        {title: "Sensation Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sensation_Badge"},
-        {title: "Mr. Big Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mr._Big_Badge"},
-        {title: "Ms. Big Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ms._Big_Badge"},
-        {title: "Acclaimed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Acclaimed_Badge"}
+        {title: "Sensation Badge", href: "https://homecoming.wiki/wiki/Sensation_Badge"},
+        {title: "Mr. Big Badge", href: "https://homecoming.wiki/wiki/Mr._Big_Badge"},
+        {title: "Ms. Big Badge", href: "https://homecoming.wiki/wiki/Ms._Big_Badge"},
+        {title: "Acclaimed Badge", href: "https://homecoming.wiki/wiki/Acclaimed_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/inf-h.png"},

@@ -14,6 +14,6 @@ export const Frontline: IBadgeData = {
     ],
     acquisition: "Complete the Stop the Circle of Thorns from contacting an alternate world mission from Cadao Kestrel",
     links: [
-        {title: "Frontline Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Frontline_Badge"}
+        {title: "Frontline Badge", href: "https://homecoming.wiki/wiki/Frontline_Badge"}
     ]
 };

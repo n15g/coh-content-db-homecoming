@@ -15,7 +15,7 @@ export const Fashionable: IBadgeData = {
     notes: "During the Halloween Event trick or treating occasionally drops Temporary Powers that will let the player dress up as various enemy factions." +
         "\n\nCollect 10 of them for this badge.",
     links: [
-        {title: "Fashionable Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fashionable_Badge"}
+        {title: "Fashionable Badge", href: "https://homecoming.wiki/wiki/Fashionable_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/costume-h.png"},

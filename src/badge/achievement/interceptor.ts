@@ -14,7 +14,7 @@ export const Interceptor: IBadgeData = {
     ],
     acquisition: "Stop 10 weapon deal side missions in Safeguard Missions",
     links: [
-        {title: "Interceptor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Interceptor_Badge"}
+        {title: "Interceptor Badge", href: "https://homecoming.wiki/wiki/Interceptor_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/interceptor.png"}

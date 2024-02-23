@@ -9,7 +9,7 @@ export const Perpetual: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Endurance Modification and Endurance Reduction."}],
     effect: "+1 to Recipe capacity",
     links: [
-        {title: "Perpetual Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Perpetual_Badge"}
+        {title: "Perpetual Badge", href: "https://homecoming.wiki/wiki/Perpetual_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

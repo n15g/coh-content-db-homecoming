@@ -13,7 +13,7 @@ export const TourGuide: IBadgeData = {
     ],
     acquisition: "Don't let Desdemona's health go below 50% during The Underground Trial",
     links: [
-        {title: "Tour Guide Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tour_Guide_Badge"}
+        {title: "Tour Guide Badge", href: "https://homecoming.wiki/wiki/Tour_Guide_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-ug.png"}

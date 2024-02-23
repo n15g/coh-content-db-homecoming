@@ -15,7 +15,7 @@ export const Lowlife: IBadgeData = {
     }],
     notes: "Located in [map:underground-imperial] halfway up the red (on the map) hallway, 350 yds. NW of City Access B.",
     links: [
-        {title: "Lowlife Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lowlife_Badge"}
+        {title: "Lowlife Badge", href: "https://homecoming.wiki/wiki/Lowlife_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "6"

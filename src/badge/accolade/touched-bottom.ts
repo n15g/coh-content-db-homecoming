@@ -22,7 +22,7 @@ export const TouchedBottom: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${TheAbyss.key}]`,
     links: [
-        {title: "Touched Bottom Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Touched_Bottom_Badge"}
+        {title: "Touched Bottom Badge", href: "https://homecoming.wiki/wiki/Touched_Bottom_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

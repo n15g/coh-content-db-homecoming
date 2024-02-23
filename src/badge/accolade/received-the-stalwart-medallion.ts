@@ -15,8 +15,8 @@ export const ReceivedTheStalwartMedallion: IBadgeData = {
     acquisition: `Complete the first Terra Volta Respecification Trial`,
     notes: `The first (level 24-33) Terra Volta Respecification Trial is available from Jane Hallaway in Independence Port.`,
     links: [
-        {title: "Received the Stalwart Medallion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Received_the_Stalwart_Medallion_Badge"},
-        {title: "Lost the Stalwart Medallion Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lost_the_Stalwart_Medallion_Badge"}
+        {title: "Received the Stalwart Medallion Badge", href: "https://homecoming.wiki/wiki/Received_the_Stalwart_Medallion_Badge"},
+        {title: "Lost the Stalwart Medallion Badge", href: "https://homecoming.wiki/wiki/Lost_the_Stalwart_Medallion_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-stalwart-medallion.png"}

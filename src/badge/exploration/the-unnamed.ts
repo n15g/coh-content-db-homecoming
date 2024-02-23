@@ -18,7 +18,7 @@ export const TheUnnamed: IBadgeData = {
     }],
     notes: "Located in [map:striga-isle] 78 yards east of the Bonny Morass marker, inside an open grave.",
     links: [
-        {title: "The Unnamed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Unnamed_Badge"}
+        {title: "The Unnamed Badge", href: "https://homecoming.wiki/wiki/The_Unnamed_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "6"

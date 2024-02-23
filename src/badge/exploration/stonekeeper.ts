@@ -16,7 +16,7 @@ export const Stonekeeper: IBadgeData = {
 
 The marker is at ground level inside the southernmost obelisk located due southeast of the Golden Giza casino. The marker itself is not visible due to the obelisk.`,
     links: [
-        {title: "Stonekeeper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Stonekeeper_Badge"}
+        {title: "Stonekeeper Badge", href: "https://homecoming.wiki/wiki/Stonekeeper_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "3"

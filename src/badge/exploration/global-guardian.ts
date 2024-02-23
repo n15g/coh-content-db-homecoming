@@ -22,8 +22,8 @@ export const GlobalGuardian: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Global Guardian Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Global_Guardian_Badge"},
-        {title: "Global Threat Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Global_Threat_Badge"},
+        {title: "Global Guardian Badge", href: "https://homecoming.wiki/wiki/Global_Guardian_Badge"},
+        {title: "Global Threat Badge", href: "https://homecoming.wiki/wiki/Global_Threat_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

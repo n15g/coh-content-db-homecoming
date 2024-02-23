@@ -16,7 +16,7 @@ export const BetterDays: IBadgeData = {
     }],
     notes: "The Better Days Badge is under the statue next to Jake Montoya in Skyway City, 286 yards west of the Architect Entertainment building.",
     links: [
-        {title: "Better Days Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Better_Days_Badge"}
+        {title: "Better Days Badge", href: "https://homecoming.wiki/wiki/Better_Days_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "5"

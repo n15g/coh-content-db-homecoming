@@ -16,7 +16,7 @@ export const Infiltrator: IBadgeData = {
     ],
     acquisition: "Defeat 200 Crey Paragon Protectors",
     links: [
-        {title: "Infiltrator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Infiltrator_Badge"}
+        {title: "Infiltrator Badge", href: "https://homecoming.wiki/wiki/Infiltrator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/infiltrator.png"}

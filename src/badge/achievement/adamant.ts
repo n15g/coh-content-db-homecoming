@@ -22,10 +22,10 @@ export const Adamant: IBadgeData = {
     ],
     acquisition: "Endure 1,000,000 points of damage",
     links: [
-        {title: "Adamant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Adamant_Badge"},
-        {title: "Ironman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ironman_Badge"},
-        {title: "Ironwoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ironwoman_Badge"},
-        {title: "Laughs it Off Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Laughs_it_Off_Badge"}
+        {title: "Adamant Badge", href: "https://homecoming.wiki/wiki/Adamant_Badge"},
+        {title: "Ironman Badge", href: "https://homecoming.wiki/wiki/Ironman_Badge"},
+        {title: "Ironwoman Badge", href: "https://homecoming.wiki/wiki/Ironwoman_Badge"},
+        {title: "Laughs it Off Badge", href: "https://homecoming.wiki/wiki/Laughs_it_Off_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/dmg-in-h.png"},

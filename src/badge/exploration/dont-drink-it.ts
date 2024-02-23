@@ -16,7 +16,7 @@ export const DontDrinkIt: IBadgeData = {
     }],
     notes: "Located in [map:neutropolis] 442 yards W of the Keyes Island marker.",
     links: [
-        {title: "Don't Drink It Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Don%27t_Drink_It_Badge"}
+        {title: "Don't Drink It Badge", href: "https://homecoming.wiki/wiki/Don%27t_Drink_It_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "2"

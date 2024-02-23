@@ -13,7 +13,7 @@ export const CoolCustomer: IBadgeData = {
     ],
     acquisition: `Defeat 50 of Crey's Cryogenicist bosses.`,
     links: [
-        {title: "Cool Customer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cool_Customer_Badge"}
+        {title: "Cool Customer Badge", href: "https://homecoming.wiki/wiki/Cool_Customer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/cool-customer.png"}

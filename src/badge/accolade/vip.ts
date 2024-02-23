@@ -15,8 +15,8 @@ export const VIP: IBadgeData = {
     ],
     acquisition: `Awarded on initial login of a Primal-origin character`,
     links: [
-        {title: "V.I.P. Badge", href: "https://hcwiki.cityofheroes.dev/wiki/V.I.P._Badge"},
-        {title: "Destined One Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destined_One_Badge"},
+        {title: "V.I.P. Badge", href: "https://homecoming.wiki/wiki/V.I.P._Badge"},
+        {title: "Destined One Badge", href: "https://homecoming.wiki/wiki/Destined_One_Badge"},
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/char-creation.png"}

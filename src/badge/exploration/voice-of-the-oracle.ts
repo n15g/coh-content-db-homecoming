@@ -12,7 +12,7 @@ export const VoiceOfTheOracle: IBadgeData = {
     location: [1011.0, 389.3, 4930.0],
     notes: `Located in [map:cimerora] on an altar in the temple area atop Phoebas Point, 103 yards east of the Phoebas Point neighborhood marker.`,
     links: [
-        {title: "Voice of the Oracle Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Voice_of_the_Oracle_Badge"}
+        {title: "Voice of the Oracle Badge", href: "https://homecoming.wiki/wiki/Voice_of_the_Oracle_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

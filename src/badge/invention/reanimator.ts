@@ -9,7 +9,7 @@ export const Reanimator: IBadgeData = {
     badgeText: [{value: "You have memorized the following recipes at level 45 and 50: Heal."}],
     effect: "+1 to Recipe capacity",
     links: [
-        {title: "Reanimator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Reanimator_Badge"}
+        {title: "Reanimator Badge", href: "https://homecoming.wiki/wiki/Reanimator_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png"}],
     partials: [

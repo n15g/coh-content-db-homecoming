@@ -17,7 +17,7 @@ Longbow policy dictates that they turn their charges in to the proper authoritie
 
 It is in the specimen building 58 yards beneath the neighborhood marker.`,
     links: [
-        {title: "Blind Eye Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blind_Eye_Badge"}
+        {title: "Blind Eye Badge", href: "https://homecoming.wiki/wiki/Blind_Eye_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "7"

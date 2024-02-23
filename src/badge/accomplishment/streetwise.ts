@@ -13,7 +13,7 @@ export const Streetwise: IBadgeData = {
     ],
     acquisition: "Complete a Vigilante Alignment mission",
     links: [
-        {title: "Streetwise Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Streetwise_Badge"}
+        {title: "Streetwise Badge", href: "https://homecoming.wiki/wiki/Streetwise_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/streetwise.png"}

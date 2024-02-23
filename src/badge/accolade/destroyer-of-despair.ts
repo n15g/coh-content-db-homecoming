@@ -38,7 +38,7 @@ Collect
 
 in [map:${DarkAstoria.key}]`,
     links: [
-        {title: "Destroyer of Despair Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destroyer_of_Despair_Badge"}
+        {title: "Destroyer of Despair Badge", href: "https://homecoming.wiki/wiki/Destroyer_of_Despair_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/destroyer-of-despair.png"}

@@ -15,7 +15,7 @@ export const Gladiator: IBadgeData = {
     ],
     notes: `Earn the [badge:duelist] and [badge:predator] Day Jobs`,
     links: [
-        {title: "Gladiator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Gladiator_Badge"}
+        {title: "Gladiator Badge", href: "https://homecoming.wiki/wiki/Gladiator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gladiator.png"}

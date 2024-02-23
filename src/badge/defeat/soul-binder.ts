@@ -16,7 +16,7 @@ export const SoulBinder: IBadgeData = {
     ],
     acquisition: "Defeat 100 Circle of Thorns mages",
     links: [
-        {title: "Soul Binder Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Soul_Binder_Badge"}
+        {title: "Soul Binder Badge", href: "https://homecoming.wiki/wiki/Soul_Binder_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/cot.png"}

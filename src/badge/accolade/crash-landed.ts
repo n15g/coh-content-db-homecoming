@@ -22,7 +22,7 @@ export const CrashLanded: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${EchoRiktiCrashSite.key}]`,
     links: [
-        {title: "Crash Landed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Crash_Landed_Badge"}
+        {title: "Crash Landed Badge", href: "https://homecoming.wiki/wiki/Crash_Landed_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

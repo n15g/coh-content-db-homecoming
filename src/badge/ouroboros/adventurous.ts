@@ -14,7 +14,7 @@ export const Adventurous: IBadgeData = {
     ],
     acquisition: "Complete a level 21-25 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Adventurous Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Adventurous_Badge"}
+        {title: "Adventurous Badge", href: "https://homecoming.wiki/wiki/Adventurous_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/adventurous.png"}]
 };

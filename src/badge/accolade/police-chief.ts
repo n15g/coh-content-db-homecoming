@@ -17,8 +17,8 @@ export const PoliceChief: IBadgeData = {
     ],
     notes: `Earn the [badge:law-enforcer] and [badge:city-official] Day Jobs`,
     links: [
-        {title: "Police Chief Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Police_Chief_Badge"},
-        {title: "Corrupt Commissioner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Corrupt_Commissioner_Badge"}
+        {title: "Police Chief Badge", href: "https://homecoming.wiki/wiki/Police_Chief_Badge"},
+        {title: "Corrupt Commissioner Badge", href: "https://homecoming.wiki/wiki/Corrupt_Commissioner_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/police-chief.png"}

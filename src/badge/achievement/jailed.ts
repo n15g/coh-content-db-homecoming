@@ -20,8 +20,8 @@ export const Jailed: IBadgeData = {
     ],
     acquisition: "Be held for 12 hours",
     links: [
-        {title: "Jailed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Jailed_Badge"},
-        {title: "Lagged Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lagged_Badge"}
+        {title: "Jailed Badge", href: "https://homecoming.wiki/wiki/Jailed_Badge"},
+        {title: "Lagged Badge", href: "https://homecoming.wiki/wiki/Lagged_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/hold-h.png"},

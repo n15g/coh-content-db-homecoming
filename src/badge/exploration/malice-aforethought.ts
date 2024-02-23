@@ -18,7 +18,7 @@ Is the wolf acting with malice when it devours the hare? Is it evil for the stro
     }],
     notes: `Located in [map:${TheStormPalace.key}] 36 feet west of the Lock of Malice marker.`,
     links: [
-        {title: "Malice Aforethought Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Malice_Aforethought_Badge"}
+        {title: "Malice Aforethought Badge", href: "https://homecoming.wiki/wiki/Malice_Aforethought_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "3"

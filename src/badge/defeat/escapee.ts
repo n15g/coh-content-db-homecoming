@@ -16,7 +16,7 @@ export const Escapee: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Failed Experiments",
     links: [
-        {title: "Escapee Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Escapee_Badge"}
+        {title: "Escapee Badge", href: "https://homecoming.wiki/wiki/Escapee_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/escapee.png"}

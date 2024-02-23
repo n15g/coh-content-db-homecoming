@@ -11,7 +11,7 @@ export const Destructive: IBadgeData = {
     badgeText: [{value: "You've destroyed your first object during an Architect mission, earning yourself the Destructive badge."}],
     acquisition: "Destroy a destructible object inside a published Mission Architect mission.",
     links: [
-        {title: "Destructive Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Destructive_Badge"}
+        {title: "Destructive Badge", href: "https://homecoming.wiki/wiki/Destructive_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/destructive.png"}]
 };

@@ -15,7 +15,7 @@ export const Minotaur: IBadgeData = {
     }],
     notes: "Located on the pedestal of the large minotaur statue, directly in front of the Field Analyst, approximately 580 yards southwest of the New Thebes neighborhood marker.",
     links: [
-        {title: "Minotaur Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Minotaur_Badge"}
+        {title: "Minotaur Badge", href: "https://homecoming.wiki/wiki/Minotaur_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "1"

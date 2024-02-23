@@ -16,7 +16,7 @@ export const Trucker: IBadgeData = {
         "\n" +
         "Note that despite being only accessible during the Winter Event on live, Homecoming appears to have made the Ski Chalet permanently accessible, making this badge also always available.",
     links: [
-        {title: "Trucker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Trucker_Badge"}
+        {title: "Trucker Badge", href: "https://homecoming.wiki/wiki/Trucker_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

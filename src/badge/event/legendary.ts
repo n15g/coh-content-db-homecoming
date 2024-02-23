@@ -13,7 +13,7 @@ export const Legendary: IBadgeData = {
     ],
     acquisition: "Available for purchase from Luna in Ouroboros during the anniversary event in May.",
     links: [
-        {title: "Legendary Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Legendary_Badge"}
+        {title: "Legendary Badge", href: "https://homecoming.wiki/wiki/Legendary_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/legendary.png"}]
 };

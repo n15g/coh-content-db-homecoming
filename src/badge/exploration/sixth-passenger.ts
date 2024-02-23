@@ -18,7 +18,7 @@ export const SixthPassenger: IBadgeData = {
         "\n" +
         "There is a section of road that has been built over the ruined foundations of some buildings, and the badge is located near a blue car that is buried under there.",
     links: [
-        {title: "Sixth Passenger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sixth_Passenger_Badge"}
+        {title: "Sixth Passenger Badge", href: "https://homecoming.wiki/wiki/Sixth_Passenger_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

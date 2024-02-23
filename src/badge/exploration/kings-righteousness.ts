@@ -20,8 +20,8 @@ export const KingsRighteousness: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "King's Righteousness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/King%27s_Righteousness_Badge"},
-        {title: "King's Capriciousness Badge", href: "https://hcwiki.cityofheroes.dev/wiki/King%27s_Capriciousness_Badge"},
+        {title: "King's Righteousness Badge", href: "https://homecoming.wiki/wiki/King%27s_Righteousness_Badge"},
+        {title: "King's Capriciousness Badge", href: "https://homecoming.wiki/wiki/King%27s_Capriciousness_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

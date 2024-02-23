@@ -13,7 +13,7 @@ export const BombSpecialist: IBadgeData = {
     ],
     acquisition: "Destroy 25 unexploded Bombs (UXBs) during a Rikti World Invasion",
     links: [
-        {title: "Bomb Specialist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bomb_Specialist_Badge"}
+        {title: "Bomb Specialist Badge", href: "https://homecoming.wiki/wiki/Bomb_Specialist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/new-rikti.png"}

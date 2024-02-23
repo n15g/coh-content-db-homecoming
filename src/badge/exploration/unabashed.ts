@@ -14,7 +14,7 @@ export const Unabashed: IBadgeData = {
         "\n" +
         "The badge marker only be found when the shields have been taken down by destroying all 20 Rikti Pylons.",
     links: [
-        {title: "Unabashed Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Unabashed_Badge"},
+        {title: "Unabashed Badge", href: "https://homecoming.wiki/wiki/Unabashed_Badge"},
         {title: "Updated RWZ Vidiot Map", href: "https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161"}
     ],
     icons: [

@@ -13,7 +13,7 @@ export const _7thGenerationParagonProtector: IBadgeData = {
     ],
     acquisition: "Earn the [badge:infiltrator] Badge (Crey)",
     links: [
-        {title: "7th Generation Paragon Protector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/7th_Generation_Paragon_Protector_Badge"}
+        {title: "7th Generation Paragon Protector Badge", href: "https://homecoming.wiki/wiki/7th_Generation_Paragon_Protector_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

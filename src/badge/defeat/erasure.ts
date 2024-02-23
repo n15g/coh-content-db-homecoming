@@ -16,7 +16,7 @@ export const Erasure: IBadgeData = {
     ],
     acquisition: "Defeat 100 points worth of Incarnate-level Tsoo",
     links: [
-        {title: "Erasure Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Erasure_Badge"}
+        {title: "Erasure Badge", href: "https://homecoming.wiki/wiki/Erasure_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/erasure.png"}

@@ -14,7 +14,7 @@ export const LoreUnlocked: IBadgeData = {
     acquisition: `Unlock the Lore Incarnate slot`,
     notes: `Unlock the Lore Incarnate slot by earning Incarnate Experience through normal play.`,
     links: [
-        {title: "Lore Unlocked Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lore_Unlocked_Badge"}
+        {title: "Lore Unlocked Badge", href: "https://homecoming.wiki/wiki/Lore_Unlocked_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/lore-unlocked.png"}

@@ -14,7 +14,7 @@ export const ThornUsurper: IBadgeData = {
     acquisition: `Complete the third Tree of Thorns Respecification Trial`,
     notes: `The third (level 44-50) Tree of Thorns Respecification Trial is available from Ractespriel in Nerva Archipelago.`,
     links: [
-        {title: "Thorn Usurper Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Thorn_Usurper_Badge"}
+        {title: "Thorn Usurper Badge", href: "https://homecoming.wiki/wiki/Thorn_Usurper_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/thorn-usurper.png"}

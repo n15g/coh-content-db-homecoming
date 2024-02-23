@@ -8,7 +8,7 @@ export const MajorGeneral: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Accuracy and To Hit Buff."}],
     links: [
-        {title: "Major General Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Major_General_Badge"}
+        {title: "Major General Badge", href: "https://homecoming.wiki/wiki/Major_General_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [

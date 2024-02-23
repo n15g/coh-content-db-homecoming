@@ -14,7 +14,7 @@ export const HeadOfTheHydra: IBadgeData = {
     }],
     notes: `Located in the [map:${AbandonedSewersTrial.key}] under where the Hydra spawns.`,
     links: [
-        {title: "Head of the Hydra Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Head_of_the_Hydra_Badge"}
+        {title: "Head of the Hydra Badge", href: "https://homecoming.wiki/wiki/Head_of_the_Hydra_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}]
 };

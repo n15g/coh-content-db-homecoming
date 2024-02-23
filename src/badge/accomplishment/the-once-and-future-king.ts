@@ -17,8 +17,8 @@ export const TheOnceAndFutureKing: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Sir Bedwyr",
     links: [
-        {title: "The Once and Future King Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Once_and_Future_King_Badge"},
-        {title: "The Once and Future Queen Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Once_and_Future_Queen_Badge"}
+        {title: "The Once and Future King Badge", href: "https://homecoming.wiki/wiki/The_Once_and_Future_King_Badge"},
+        {title: "The Once and Future Queen Badge", href: "https://homecoming.wiki/wiki/The_Once_and_Future_Queen_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-once-and-future-king.png"}

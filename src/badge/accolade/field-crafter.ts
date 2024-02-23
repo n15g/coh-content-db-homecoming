@@ -54,7 +54,7 @@ export const FieldCrafter: IBadgeData = {
     ],
     notes: `Awards the Portable Workbench power`,
     links: [
-        {title: "Field Crafter Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Field_Crafter_Badge"}
+        {title: "Field Crafter Badge", href: "https://homecoming.wiki/wiki/Field_Crafter_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/field-crafter.png"}

@@ -20,8 +20,8 @@ export const Freedom: IBadgeData = {
         "\n" +
         "The badge marker is located at the base of the flagpole on top of City Hall.",
     links: [
-        {title: "Freedom Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom_Badge"},
-        {title: "Covert Operator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Covert_Operator_Badge"}
+        {title: "Freedom Badge", href: "https://homecoming.wiki/wiki/Freedom_Badge"},
+        {title: "Covert Operator Badge", href: "https://homecoming.wiki/wiki/Covert_Operator_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "6"

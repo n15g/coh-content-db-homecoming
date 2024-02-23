@@ -13,7 +13,7 @@ export const MasterOfTheMarketCrash: IBadgeData = {
     ],
     acquisition: `Complete the Master of the Market Crash challenge (zero defeats, temporary and incarnate powers disabled)`,
     links: [
-        {title: "Master of the Market Crash Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Master_of_the_Market_Crash_Badge"}
+        {title: "Master of the Market Crash Badge", href: "https://homecoming.wiki/wiki/Master_of_the_Market_Crash_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-market-crash.png"}

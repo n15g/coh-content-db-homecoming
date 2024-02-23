@@ -17,7 +17,7 @@ export const PetProject: IBadgeData = {
     }],
     notes: "The Pet Project Badge is at the entrance to the construction zone 158 yards northeast of the north Paragon City Monorail station in Steel Canyon.",
     links: [
-        {title: "Pet Project Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Pet_Project_Badge"}
+        {title: "Pet Project Badge", href: "https://homecoming.wiki/wiki/Pet_Project_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "7"

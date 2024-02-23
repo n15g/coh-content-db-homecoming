@@ -13,7 +13,7 @@ export const Irradiated: IBadgeData = {
     ],
     acquisition: "Spend 1 hour in Bloody Bay",
     links: [
-        {title: "Irradiated Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Irradiated_Badge"}
+        {title: "Irradiated Badge", href: "https://homecoming.wiki/wiki/Irradiated_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png"},

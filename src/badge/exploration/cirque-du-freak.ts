@@ -17,7 +17,7 @@ export const CirqueDuFreak: IBadgeData = {
     }],
     notes: "Located in [map:creys-folly] 71 yards south of the Carnival Town marker, on top of the enclosed walkway that stretches over the street.",
     links: [
-        {title: "Cirque du'Freak Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Cirque_du%27Freak_Badge"}
+        {title: "Cirque du'Freak Badge", href: "https://homecoming.wiki/wiki/Cirque_du%27Freak_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "8"

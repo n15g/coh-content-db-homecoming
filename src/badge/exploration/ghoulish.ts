@@ -14,7 +14,7 @@ export const Ghoulish: IBadgeData = {
         " There is a small building with a tunnel through it over the stone walkway." +
         " The badge marker is inside that small building.",
     links: [
-        {title: "Ghoulish Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ghoulish_Badge"}
+        {title: "Ghoulish Badge", href: "https://homecoming.wiki/wiki/Ghoulish_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"},

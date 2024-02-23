@@ -14,6 +14,6 @@ export const FashionVictim: IBadgeData = {
     ],
     acquisition: `Spend 50 million inf at the tailor`,
     links: [
-        {title: "Fashion Victim Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Fashion_Victim_Badge"}
+        {title: "Fashion Victim Badge", href: "https://homecoming.wiki/wiki/Fashion_Victim_Badge"}
     ]
 };

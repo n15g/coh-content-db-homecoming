@@ -13,7 +13,7 @@ export const SinisterSummoner: IBadgeData = {
     ],
     acquisition: `Summon and defeat The Black Whip, a demon in the "Dr. Kane's House of Horror" co-op trial.`,
     links: [
-        {title: "Sinister Summoner Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sinister_Summoner_Badge"}
+        {title: "Sinister Summoner Badge", href: "https://homecoming.wiki/wiki/Sinister_Summoner_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/sinister-summoner.png"}]
 };

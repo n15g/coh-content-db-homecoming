@@ -14,7 +14,7 @@ export const Vocational: IBadgeData = {
     ],
     acquisition: "Complete a level 16-20 Flashback story arc using no pool powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Vocational Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Vocational_Badge"}
+        {title: "Vocational Badge", href: "https://homecoming.wiki/wiki/Vocational_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/vocational.png"}]
 };

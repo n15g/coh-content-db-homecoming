@@ -16,7 +16,7 @@ export const AceUpTheirSleeve: IBadgeData = {
     ],
     acquisition: "Complete the personal story from The Center",
     links: [
-        {title: "Ace Up Their Sleeve Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Ace_Up_Their_Sleeve_Badge"}
+        {title: "Ace Up Their Sleeve Badge", href: "https://homecoming.wiki/wiki/Ace_Up_Their_Sleeve_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ace-up-their-sleeve.png"}

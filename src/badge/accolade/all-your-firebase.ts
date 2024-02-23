@@ -22,7 +22,7 @@ export const AllYourFirebase: IBadgeData = {
     ],
     notes: `Visit all exploration badges in [map:${FirebaseZulu.key}]`,
     links: [
-        {title: "All Your Firebase... Badge", href: "https://hcwiki.cityofheroes.dev/wiki/All_Your_Firebase..._Badge"}
+        {title: "All Your Firebase... Badge", href: "https://homecoming.wiki/wiki/All_Your_Firebase..._Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png"}

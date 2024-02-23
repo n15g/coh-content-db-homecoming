@@ -20,8 +20,8 @@ export const FreedomsDefender: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Freedom's Defender Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom%27s_Defender_Badge"},
-        {title: "Freedom's Crusher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Freedom%27s_Crusher_Badge"},
+        {title: "Freedom's Defender Badge", href: "https://homecoming.wiki/wiki/Freedom%27s_Defender_Badge"},
+        {title: "Freedom's Crusher Badge", href: "https://homecoming.wiki/wiki/Freedom%27s_Crusher_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

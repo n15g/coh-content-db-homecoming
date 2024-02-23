@@ -17,7 +17,7 @@ export const RoadRaged: IBadgeData = {
         "\n" +
         SAFEGUARD_MAYHEM_CONTACT,
     links: [
-        {title: "Road Raged Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Road_Raged_Badge"},
+        {title: "Road Raged Badge", href: "https://homecoming.wiki/wiki/Road_Raged_Badge"},
         {title: "I25 Safeguard/Mayhem Contact", href: "https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges"}
 
     ],

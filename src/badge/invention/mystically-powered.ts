@@ -8,7 +8,7 @@ export const MysticallyPowered: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 35 and 40: Endurance Modification and Endurance Reduction."}],
     links: [
-        {title: "Mystically Powered Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mystically_Powered_Badge"}
+        {title: "Mystically Powered Badge", href: "https://homecoming.wiki/wiki/Mystically_Powered_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png"}],
     partials: [

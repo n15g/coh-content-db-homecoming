@@ -18,8 +18,8 @@ export const Professor: IBadgeData = {
     acquisition: "Log out inside University buildings for 100 hours.",
     effect: "Day Job: Bonus Tech Salvage upon mission completion",
     links: [
-        {title: "Professor Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Professor_Badge"},
-        {title: "Day Jobs", href: "https://hcwiki.cityofheroes.dev/wiki/Day_Jobs"}
+        {title: "Professor Badge", href: "https://homecoming.wiki/wiki/Professor_Badge"},
+        {title: "Day Jobs", href: "https://homecoming.wiki/wiki/Day_Jobs"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/professor.png"}]
 };

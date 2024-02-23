@@ -21,8 +21,8 @@ export const TheFairest: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Field Agent Keith Nance",
     links: [
-        {title: "The Fairest Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Fairest_Badge"},
-        {title: "Turf Protector Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Turf_Protector_Badge"}
+        {title: "The Fairest Badge", href: "https://homecoming.wiki/wiki/The_Fairest_Badge"},
+        {title: "Turf Protector Badge", href: "https://homecoming.wiki/wiki/Turf_Protector_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-fairest.png"}

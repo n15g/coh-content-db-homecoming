@@ -14,7 +14,7 @@ export const Auctioneer: IBadgeData = {
     ],
     acquisition: "3000 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Auctioneer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Auctioneer_Badge"}
+        {title: "Auctioneer Badge", href: "https://homecoming.wiki/wiki/Auctioneer_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/auctioneer.png"}]
 };

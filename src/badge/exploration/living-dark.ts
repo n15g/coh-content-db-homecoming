@@ -19,7 +19,7 @@ to it as so many others down here have.`
 
 The Living Dark badge is in Dr. Vahilok's lab in the Underworld area. It is toward the back of the room, on a raised area of metal grating.`,
     links: [
-        {title: "Living Dark Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Living_Dark_Badge"}
+        {title: "Living Dark Badge", href: "https://homecoming.wiki/wiki/Living_Dark_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

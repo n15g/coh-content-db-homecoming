@@ -14,7 +14,7 @@ export const LucentLegacyOfLight: IBadgeData = {
     ],
     acquisition: "Defeat 200 Legacy Chain Lieutenants (Legacy Chain)",
     links: [
-        {title: "Lucent Legacy of Light Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Lucent_Legacy_of_Light_Badge"}
+        {title: "Lucent Legacy of Light Badge", href: "https://homecoming.wiki/wiki/Lucent_Legacy_of_Light_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png"}

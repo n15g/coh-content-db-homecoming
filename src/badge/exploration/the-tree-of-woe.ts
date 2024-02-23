@@ -17,7 +17,7 @@ It gives the place an air of desperation and terror that is not entirely unfamil
     notes: `Located in [map:${TheAbyss.key}], 871 yards northwest of the Grandville transfer point,
 at the base of a tree where the road circles around at the westernmost developed portion of the zone.`,
     links: [
-        {title: "The Tree of Woe Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Tree_of_Woe_Badge"}
+        {title: "The Tree of Woe Badge", href: "https://homecoming.wiki/wiki/The_Tree_of_Woe_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "7"

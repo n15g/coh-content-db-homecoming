@@ -17,7 +17,7 @@ export const Observant: IBadgeData = {
         "\n" +
         "It is outside a room where scientists can be seen performing experiments.",
     links: [
-        {title: "Observant Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Observant_Badge"}
+        {title: "Observant Badge", href: "https://homecoming.wiki/wiki/Observant_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
     vidiotMapKey: "8"

@@ -13,7 +13,7 @@ export const ArenaSurvivalist: IBadgeData = {
     ],
     acquisition: "Win a rated or unrated Battle Royale match in the Arena",
     links: [
-        {title: "Arena Survivalist Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Arena_Survivalist_Badge"}
+        {title: "Arena Survivalist Badge", href: "https://homecoming.wiki/wiki/Arena_Survivalist_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/arena-survivalist.png"}

@@ -21,9 +21,9 @@ export const Superstar: IBadgeData = {
     ],
     acquisition: "Earn 10,000,000 influence",
     links: [
-        {title: "Superstar Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Superstar_Badge"},
-        {title: "Midas Touch Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Midas_Touch_Badge"},
-        {title: "Illustrious Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Illustrious_Badge"}
+        {title: "Superstar Badge", href: "https://homecoming.wiki/wiki/Superstar_Badge"},
+        {title: "Midas Touch Badge", href: "https://homecoming.wiki/wiki/Midas_Touch_Badge"},
+        {title: "Illustrious Badge", href: "https://homecoming.wiki/wiki/Illustrious_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/inf-h.png"},

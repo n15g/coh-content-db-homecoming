@@ -17,7 +17,7 @@ export const TheTimelessAdventurer: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Sister Solaris",
     links: [
-        {title: "The Timeless Adventurer Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Timeless_Adventurer_Badge"}
+        {title: "The Timeless Adventurer Badge", href: "https://homecoming.wiki/wiki/The_Timeless_Adventurer_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png"}

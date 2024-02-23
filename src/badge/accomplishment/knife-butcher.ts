@@ -16,7 +16,7 @@ export const KnifeButcher: IBadgeData = {
     ],
     acquisition: "Complete the story arc from Max",
     links: [
-        {title: "Knife Butcher Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Knife_Butcher_Badge"}
+        {title: "Knife Butcher Badge", href: "https://homecoming.wiki/wiki/Knife_Butcher_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png"}

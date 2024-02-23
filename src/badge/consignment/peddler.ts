@@ -14,7 +14,7 @@ export const Peddler: IBadgeData = {
     ],
     acquisition: "500 total sales of any kind on the consignment houses.",
     links: [
-        {title: "Peddler Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Peddler_Badge"}
+        {title: "Peddler Badge", href: "https://homecoming.wiki/wiki/Peddler_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/peddler.png"}]
 };

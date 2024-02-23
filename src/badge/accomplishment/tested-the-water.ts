@@ -18,7 +18,7 @@ export const TestedTheWater: IBadgeData = {
     ],
     acquisition: "Help someone complete an Alignment mission that is different from your current alignment",
     links: [
-        {title: "Tested the Water Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Tested_the_Water_Badge"}
+        {title: "Tested the Water Badge", href: "https://homecoming.wiki/wiki/Tested_the_Water_Badge"}
     ],
     icons: [
         {type: Alternate.H, value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/tested-the-water-h.png"},

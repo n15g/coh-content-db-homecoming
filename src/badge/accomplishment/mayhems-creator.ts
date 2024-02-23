@@ -16,7 +16,7 @@ export const MayhemsCreator: IBadgeData = {
     ],
     acquisition: "Complete the third story arc from Mr. G (Primal Earth)",
     links: [
-        {title: "Mayhem's Creator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mayhem%27s_Creator_Badge"}
+        {title: "Mayhem's Creator Badge", href: "https://homecoming.wiki/wiki/Mayhem%27s_Creator_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-arc.png"}

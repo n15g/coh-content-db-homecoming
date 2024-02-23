@@ -13,7 +13,7 @@ export const Mythical: IBadgeData = {
     ],
     acquisition: `Defeat 100 Minotaurs in Cimerora.`,
     links: [
-        {title: "Mythical Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Mythical_Badge"}
+        {title: "Mythical Badge", href: "https://homecoming.wiki/wiki/Mythical_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/mythical.png"}

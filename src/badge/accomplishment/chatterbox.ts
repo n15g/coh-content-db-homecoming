@@ -16,7 +16,7 @@ export const Chatterbox: IBadgeData = {
     ],
     acquisition: "Speak to four key NPCs from First Ward in the second mission of the first story arc from Provost Marchand",
     links: [
-        {title: "Chatterbox Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Chatterbox_Badge"}
+        {title: "Chatterbox Badge", href: "https://homecoming.wiki/wiki/Chatterbox_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-challenge.png"}

@@ -19,7 +19,7 @@ export const LifeAndDeath: IBadgeData = {
     ],
     acquisition: "Defeat Diabolique without allowing her to heal from a single Lifegiving Essence during the final battle of the Dilemma Diabolique Trial",
     links: [
-        {title: "Life and Death Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Life_and_Death_Badge"}
+        {title: "Life and Death Badge", href: "https://homecoming.wiki/wiki/Life_and_Death_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/it-dea.png"}

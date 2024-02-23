@@ -13,7 +13,7 @@ export const TheLastWord: IBadgeData = {
         {value: `A land of notable Firsts and Lasts, the First Ward of Praetoria is flooded not only with mire, magic, and mayhem, but also memorials to its history. You have encountered them all, earning this badge.`}
     ],
     links: [
-        {title: "The Last Word Badge", href: "https://hcwiki.cityofheroes.dev/wiki/The_Last_Word_Badge"}
+        {title: "The Last Word Badge", href: "https://homecoming.wiki/wiki/The_Last_Word_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png"}

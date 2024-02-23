@@ -14,7 +14,7 @@ export const Archetypical: IBadgeData = {
     ],
     acquisition: "Complete a level 31-35 Flashback story arc using no pool powers. (Note: In game badge text is incorrect.)",
     links: [
-        {title: "Archetypical Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Archetypical_Badge"}
+        {title: "Archetypical Badge", href: "https://homecoming.wiki/wiki/Archetypical_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/archetypical.png"}]
 };

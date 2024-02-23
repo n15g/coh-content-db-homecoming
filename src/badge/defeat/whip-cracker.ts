@@ -20,7 +20,7 @@ export const WhipCracker: IBadgeData = {
     ],
     acquisition: "Defeat Desdemona in an Alignment Mission or a Morality Mission",
     links: [
-        {title: "Whip Cracker Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Whip_Cracker_Badge"}
+        {title: "Whip Cracker Badge", href: "https://homecoming.wiki/wiki/Whip_Cracker_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/whip-cracker.png"}

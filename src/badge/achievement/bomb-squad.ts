@@ -18,8 +18,8 @@ export const BombSquad: IBadgeData = {
     ],
     acquisition: "Stop 5 bombing side missions in Safeguard Missions",
     links: [
-        {title: "Bomb Squad Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Bomb_Squad_Badge"},
-        {title: "Blue Wire Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Blue_Wire_Badge"}
+        {title: "Bomb Squad Badge", href: "https://homecoming.wiki/wiki/Bomb_Squad_Badge"},
+        {title: "Blue Wire Badge", href: "https://homecoming.wiki/wiki/Blue_Wire_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/bomb-squad.png"}

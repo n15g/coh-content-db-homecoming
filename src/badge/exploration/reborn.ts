@@ -17,7 +17,7 @@ export const Reborn: IBadgeData = {
 It is located underwater (but visible, if a villain is close enough to it) roughly where the feeding streams point in the center of the bowl.
  It is possible to get this badge when Hamidon is not present (i.e. there are Devouring Earth Monsters present in the zone).`,
     links: [
-        {title: "Reborn Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Reborn_Badge"}
+        {title: "Reborn Badge", href: "https://homecoming.wiki/wiki/Reborn_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "1"

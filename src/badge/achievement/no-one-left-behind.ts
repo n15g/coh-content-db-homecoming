@@ -16,7 +16,7 @@ export const NoOneLeftBehind: IBadgeData = {
     ],
     acquisition: "Save all the Rogue PPD in the hero story arc from Roy Cooling",
     links: [
-        {title: "No One Left Behind Badge", href: "https://hcwiki.cityofheroes.dev/wiki/No_One_Left_Behind_Badge"}
+        {title: "No One Left Behind Badge", href: "https://homecoming.wiki/wiki/No_One_Left_Behind_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/no-one-left-behind.png"}

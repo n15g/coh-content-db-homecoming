@@ -17,7 +17,7 @@ export const RailRider: IBadgeData = {
         "\n" +
         "It is necessary to visit all three locations to earn this badge.",
     links: [
-        {title: "Rail Rider Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Rail Rider_Badge"}
+        {title: "Rail Rider Badge", href: "https://homecoming.wiki/wiki/Rail Rider_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png"}],
     vidiotMapKey: "T"

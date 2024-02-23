@@ -17,7 +17,7 @@ You will turn its hate and anger back upon itself; you will be an Acolyte of Ang
     }],
     notes: `Located in [map:${TheStormPalace.key}] at the Lock of Anger marker.`,
     links: [
-        {title: "Acolyte of Anger Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Acolyte_of_Anger_Badge"}
+        {title: "Acolyte of Anger Badge", href: "https://homecoming.wiki/wiki/Acolyte_of_Anger_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "2"

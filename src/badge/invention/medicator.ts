@@ -8,7 +8,7 @@ export const Medicator: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You have memorized the following recipes at level 10: Heal."}],
     links: [
-        {title: "Medicator Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Medicator_Badge"}
+        {title: "Medicator Badge", href: "https://homecoming.wiki/wiki/Medicator_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png"}],
     partials: [

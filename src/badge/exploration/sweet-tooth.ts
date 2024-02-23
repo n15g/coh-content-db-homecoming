@@ -16,7 +16,7 @@ export const SweetTooth: IBadgeData = {
     notes: "The Sweet Tooth Badge is in Cap au Diable. The badge marker is just outside a door in the Gold Brick factory just north of the New Haven marker." +
         " The badge marker is at the northwestern corner of the building, between a garage door and a truck with a yellow cab.",
     links: [
-        {title: "Sweet Tooth Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Sweet_Tooth_Badge"}
+        {title: "Sweet Tooth Badge", href: "https://homecoming.wiki/wiki/Sweet_Tooth_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png"}],
     vidiotMapKey: "5"

@@ -18,8 +18,8 @@ export const Watchman: IBadgeData = {
     ],
     notes: `Awards the Elusive Mind power`,
     links: [
-        {title: "Watchman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Watchman_Badge"},
-        {title: "Watchwoman Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Watchwoman_Badge"}
+        {title: "Watchman Badge", href: "https://homecoming.wiki/wiki/Watchman_Badge"},
+        {title: "Watchwoman Badge", href: "https://homecoming.wiki/wiki/Watchwoman_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/watchman.png"}

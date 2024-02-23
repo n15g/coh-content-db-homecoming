@@ -17,7 +17,7 @@ Even though you understand the threat the Devouring Earth poses, you are taken b
     }],
     notes: `Located in [map:${TheHive.key}] 0.76 miles north and a bit west of the Eden transfer point, in an alcove of trees that can be accessed from the southwest side.`,
     links: [
-        {title: "Wild At Heart Badge", href: "https://hcwiki.cityofheroes.dev/wiki/Wild_At_Heart_Badge"}
+        {title: "Wild At Heart Badge", href: "https://homecoming.wiki/wiki/Wild_At_Heart_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png"}],
     vidiotMapKey: "5"
