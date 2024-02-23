@@ -24,6 +24,7 @@ import {Student} from "./student";
 import {Swashbuckler} from "./swashbuckler";
 import {Technofreak} from "./technofreak";
 import {TheLastWord} from "./the-last-word";
+import {Bicentennial} from "./bicentennial";
 
 export const HistoryBadges: IBadgeData[] = [
     Lorekeeper,
@@ -50,5 +51,6 @@ export const HistoryBadges: IBadgeData[] = [
     GhostHunter,
     TheLastWord,
     ParkStroller,
-    Alumnus
+    Alumnus,
+    Bicentennial
 ];
