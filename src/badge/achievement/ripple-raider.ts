@@ -13,7 +13,7 @@ export const RippleRaider: IBadgeData = {
     ],
     acquisition: `Conquer all three challenge encounters within Golden Roller's dimensional ripples in a single attempt in Dr. Aeon's Strike Force.`,
     notes: `
-This includes defeating the specifc archvillains listed below:
+This includes defeating the specific archvillains listed below:
 
 * Nosferatu
 * Arakhn
