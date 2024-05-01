@@ -11,7 +11,7 @@ export const ToyCollector: IBadgeData = {
     badgeText: [
         {value: "You have amassed a vast collection of holiday gifts!"},
     ],
-    acquisition: "Open a total of 200 presents spread throughout Paragon City and the Rogue Isles during the Winter Event.",
+    acquisition: "Open a total of 200 presents spread throughout Paragon City, the Rogue Isles, and Praetoria during the Winter Event.",
     links: [
         {title: "Toy Collector Badge", href: "https://homecoming.wiki/wiki/Toy_Collector_Badge"}
     ],
