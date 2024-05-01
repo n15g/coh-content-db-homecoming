@@ -11,7 +11,7 @@ export const LicenseToChill: IBadgeData = {
     badgeText: [
         {value: `Winter is a time when things slow down. Relax. Take it easy. Chill.`},
     ],
-    acquisition: "Login during the 2021 Winter event.",
+    acquisition: "Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
         {title: "License to Chill Badge", href: "https://homecoming.wiki/wiki/License_to_Chill_Badge"}
     ],
