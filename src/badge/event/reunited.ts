@@ -9,9 +9,9 @@ export const Reunited: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "You have helped celebrate the 20th anniversary of City of Heroes."},
+        {value: `You have helped celebrate the 20th anniversary of City of Heroes.`},
     ],
-    acquisition: "Awarded upon login during May 2024, and thereafter available for purchase from Luna in Ouroboros during the anniversary event in May.",
+    acquisition: `Awarded upon login during May 2024, and thereafter available for purchase from Luna in Ouroboros during the anniversary event in May.`,
     links: [
         {title: "Reunited Badge", href: "https://homecoming.wiki/wiki/Reunited_Badge"}
     ],
