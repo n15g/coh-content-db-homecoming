@@ -92,6 +92,12 @@ import {UnholyCoven} from "./unholy-coven";
 import {ReaperOfSouls} from "./reaper-of-souls";
 import {Unforgettable} from "./unforgettable";
 import {HomeForTheHolidays} from "./home-for-the-holidays";
+import {Reunited} from "./reunited";
+import {TimeKeeper} from "./time-keeper";
+import {Gardener} from "./gardener";
+import {ZetaReticulan} from "./zeta-reticulan";
+
+
 
 export const EventBadges: IBadgeData[] = [
     Celebrant,
@@ -113,6 +119,10 @@ export const EventBadges: IBadgeData[] = [
     Legendary,
     Unquenchable,
     Unforgettable,
+    Reunited,
+    TimeKeeper,
+    Gardener,
+    ZetaReticulan,
     Pursuer,
     HallowSpirit,
     IronWarrior,
