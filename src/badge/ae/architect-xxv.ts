@@ -5,13 +5,13 @@ export const ArchitectXXV: IBadgeData = {
     key: "architect-xxv",
     setTitleId: 1236,
     names: [
-        {value: "Architect XXV"}
+        {value: "Mission Seeker"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You've earned 25 Mission Architect badges!"}],
     acquisition: "Earn 25 Mission Architect badges to earn this badge.",
     links: [
-        {title: "Architect XXV Badge", href: "https://homecoming.wiki/wiki/Architect_XXV_Badge"}
+        {title: "Mission Seeker Badge", href: "https://homecoming.wiki/wiki/Mission_Seeker_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/architect-xxv.png"}]
 };

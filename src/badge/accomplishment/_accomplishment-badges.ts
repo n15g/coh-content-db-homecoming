@@ -198,6 +198,8 @@ import {Pollster} from "./pollster";
 import {Underdog} from "./underdog";
 import {DoesntLookAtExplosions} from "./doesnt-look-at-explosions";
 import {FaceTurn} from "./face-turn";
+import {BoundByNDA} from "./bound-by-nda";
+import {NutrientRich} "./nutrient-rich";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -395,9 +397,11 @@ export const AccomplishmentBadges: IBadgeData[] = [
     PatientZero,
     BestFriendsForever,
     TheShadowOutOfTime,
+    BoundbyNDA,
     Underdog,
     Pollster,
     LoopHero,
     DoesntLookAtExplosions,
-    FaceTurn
+    FaceTurn,
+    NutrientRich
 ];

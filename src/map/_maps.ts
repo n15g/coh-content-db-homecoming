@@ -32,6 +32,7 @@ import {ImperialCity} from "./imperial-city";
 import {IndependencePort} from "./independence-port";
 import {KallistiWharf} from "./kallisti-wharf";
 import {KingsRow} from "./kings-row";
+import {LabyrinthMap} from "./labyrinth";
 import {MayhemAtlasPark} from "./mayhem-atlas-park";
 import {MayhemBrickstown} from "./mayhem-brickstown";
 import {MayhemFoundersFalls} from "./mayhem-founders-falls";
@@ -117,6 +118,7 @@ export const Maps: IGameMapData[] = [
     IndependencePort,
     KallistiWharf,
     KingsRow,
+    LabyrinthMap,
     MayhemAtlasPark,
     MayhemBrickstown,
     MayhemFoundersFalls,

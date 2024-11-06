@@ -25,6 +25,7 @@ import {Swashbuckler} from "./swashbuckler";
 import {Technofreak} from "./technofreak";
 import {TheLastWord} from "./the-last-word";
 import {Bicentennial} from "./bicentennial";
+import {GreekPhilosopher} from "./greek-philosopher";
 
 export const HistoryBadges: IBadgeData[] = [
     Lorekeeper,
@@ -52,5 +53,6 @@ export const HistoryBadges: IBadgeData[] = [
     TheLastWord,
     ParkStroller,
     Alumnus,
-    Bicentennial
+    Bicentennial,
+    GreekPhilosopher
 ];

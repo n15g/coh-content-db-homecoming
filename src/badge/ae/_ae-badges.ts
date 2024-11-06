@@ -24,8 +24,8 @@ import {Destructive} from "./destructive";
 import {TicketTaker} from "./ticket-taker";
 import {Payoff} from "./payoff";
 import {Energized} from "./energized";
-import {ArchitectX} from "./architect-x";
-import {ArchitectXXV} from "./architect-xxv";
+import {PluggedIn} from "./architect-x";
+import {MissionSeeker} from "./architect-xxv";
 import {Assassin} from "./assassin";
 import {Customizer} from "./customizer";
 
@@ -50,8 +50,8 @@ export const AEBadges: IBadgeData[] = [
     Workaholic,
     VirtualVictim,
     Payoff,
-    ArchitectX,
-    ArchitectXXV,
+    PluggedIn,
+    MissionSeeker,
     Extractor,
     VirtualExtractor,
     Destructive,
