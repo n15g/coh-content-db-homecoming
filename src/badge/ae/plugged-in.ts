@@ -2,7 +2,7 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const ArchitectX: IBadgeData = {
     type: BadgeType.AE,
-    key: "architect-x",
+    key: "plugged-in",
     setTitleId: 1235,
     names: [
         {value: "Plugged In"}
@@ -13,5 +13,5 @@ export const ArchitectX: IBadgeData = {
     links: [
         {title: "Plugged In Badge", href: "https://homecoming.wiki/wiki/Plugged_In_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/architect-x.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/ae/plugged-in.png"}]
 };
