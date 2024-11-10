@@ -8,7 +8,6 @@ export const HiddenInTheFog: IBadgeData = {
     names: [{value: "Hidden In The Fog"}],
     alignment: ALIGNMENT_ANY,
     mapKey: Labyrinth.key,
-    location:[],
     badgeText: [{
         value: "The Labyrinth of Fog is an endless maze constructed from the amalgamation of memories taken from those who have entered the maze. Some speak of finding lost secrets, long forgotten, laying hidden amongst the fog, and that those who surrender themselves to the labyrinth are in a position to glean forbidden knowledge."
     }],
