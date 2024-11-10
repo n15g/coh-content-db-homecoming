@@ -7,7 +7,7 @@ import {GoldStandard} from "../accomplishment/gold-standard";
 
 export const StrikeForceCommander: IBadgeData = {
     type: BadgeType.ACCOLADE,
-    key: "strike-force-commander",
+    key: "deep-strike-agent",
     setTitleId: 2542,
     names: [
         {type: Alternate.H, value: "Deep Strike Agent"},
