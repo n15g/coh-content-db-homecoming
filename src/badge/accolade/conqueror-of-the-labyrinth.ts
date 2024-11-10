@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, Alternate, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
 import {GreekPhilosopher} from "../history/greek-philosopher";
 import {HiddenInTheFog} from "../exploration/hidden-in-the-fog";
 import {MalevolentIntoxication} from "../defeat/malevolent-intoxication";
