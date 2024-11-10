@@ -4,10 +4,11 @@ import {LabyrinthMap} from "../../map/labyrinth";
 export const LabRat: IBadgeData = {
     type: BadgeType.EXPLORATION,
     key: "lab-rat",
-    setTitleId: 000,
+    setTitleId: 2535,
     names: [{value: "Lab Rat"}],
     alignment: ALIGNMENT_ANY,
     mapKey: labyrnth.key,
+    location:[7146.4, -802.5, 64.5],
     badgeText: [{
         value: "While exploring the Labyrinth of Fog, you navigated a maze known as the Endless Colonnade." +
         "You can't help but feel like a lab rat, running a maze for some unseen intelligence's amusement... "
