@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, Alternate, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_ANY, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
 import {GerminatorTerminator} from "../accomplishment/germinator-terminator";
 import {FullSpectrum} from "../defeat/full-spectrum";
 import {Lawbreaker} from "../defeat/lawbreaker";
