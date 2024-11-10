@@ -1,4 +1,4 @@
-import {ALIGNMENT_HERO, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_HERO, Alternate, BadgeType, IBadgeData} from "coh-content-db";
 
 export const BoundByNDA: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
