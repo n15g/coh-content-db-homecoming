@@ -24,8 +24,8 @@ import {Destructive} from "./destructive";
 import {TicketTaker} from "./ticket-taker";
 import {Payoff} from "./payoff";
 import {Energized} from "./energized";
-import {PluggedIn} from "./architect-x";
-import {MissionSeeker} from "./architect-xxv";
+import {PluggedIn} from "./plugged-in";
+import {MissionSeeker} from "./mission-seeker";
 import {Assassin} from "./assassin";
 import {Customizer} from "./customizer";
 
