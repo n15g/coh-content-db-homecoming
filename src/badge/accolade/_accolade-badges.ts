@@ -140,7 +140,7 @@ import {Hologram} from "./hologram";
 import {Stowaway} from "./stowaway";
 import {BetweenRealities} from "./between-realities";
 import {ProtectorOfParagonCity} from "./protector-of-paragon-city";
-import {StrikeForceCommander} from "./strike-force-commander";
+import {DeepStrikeAgent} from "./deep-strike-agent";
 import {ConquerorOfTheLabyrinth} from "./conqueror-of-the-labyrinth";
 
 export const AccoladeBadges: IBadgeData[] = [
@@ -162,7 +162,7 @@ export const AccoladeBadges: IBadgeData[] = [
     InTherapy,
     Uninsurable,
     ReturnVisitor,
-    StrikeForceCommander,
+    DeepStrikeAgent,
     TaskForceCommander,
     ProtectorOfParagonCity,
     ForceOfJustice,
