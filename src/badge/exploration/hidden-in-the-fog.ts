@@ -22,5 +22,5 @@ export const HiddenInTheFog: IBadgeData = {
     links: [
         {title: "Hidden In The Fog Badge", href: "https://homecoming.wiki/wiki/Hidden_In_The_Fog_Badge"},
     ],
-        icons:[{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/labyrinth.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/labyrinth.png"}]
 };
