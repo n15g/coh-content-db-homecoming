@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const ArchitectX: IBadgeData = {
+export const PluggedIn: IBadgeData = {
     type: BadgeType.AE,
     key: "plugged-in",
     setTitleId: 1235,
@@ -9,7 +9,7 @@ export const ArchitectX: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You've earned 10 Mission Architect badges!"}],
-    acquisition: "Earn 10 Mission Architect badges to earn this badge.",
+    acquisition: "Earn 10 Mission Architect badges.",
     links: [
         {title: "Plugged In Badge", href: "https://homecoming.wiki/wiki/Plugged_In_Badge"}
     ],
