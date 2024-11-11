@@ -9,7 +9,7 @@ export const SlayerOfTheMinotaur: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "Historians insisted that it couldn't be done, that The Minotaur in the Fog could not be bested in combat, but you've done just that. You've proven yourself worthy to stand shoulder-to-shoulder with the greatest ancient heroes of myth."}
+        {value: `Historians insisted that it couldn't be done, that The Minotaur in the Fog could not be bested in combat, but you've done just that. You've proven yourself worthy to stand shoulder-to-shoulder with the greatest ancient heroes of myth.`}
     ],
     acquisition: "Defeat The Minotaur in the Fog.",
     links: [
