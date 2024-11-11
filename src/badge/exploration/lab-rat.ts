@@ -1,5 +1,5 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
-import {LabyrinthOfFog} from "../../map/labyrinth-of-fog";
+import {TheLabyrinthOfFog} from "../../map/the-labyrinth-of-fog";
 
 export const LabRat: IBadgeData = {
     type: BadgeType.EXPLORATION,
