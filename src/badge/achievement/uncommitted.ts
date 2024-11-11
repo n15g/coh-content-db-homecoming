@@ -10,7 +10,7 @@ export const Uncommitted: IBadgeData = {
     alignment: ALIGNMENT_ANY,
     badgeText: [
         {
-            value: "There's so many options sometimes in life, you can't help but have a difficult time choosing. You've completed a few Alignment Tip missions and made a couple moral decisions."}
+            value: `There's so many options sometimes in life, you can't help but have a difficult time choosing. You've completed a few Alignment Tip missions and made a couple moral decisions.`}
     ],
     acquisition: "Complete 5 Alignment Tip missions.",
     links: [
