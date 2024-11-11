@@ -2,10 +2,10 @@ import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
 export const Uncommitted: IBadgeData = {
     type: BadgeType.ACHIEVEMENT,
-    key: "uncommitetd",
+    key: "uncommitted",
     setTitleId: 2536,
     names: [
-        {value: "Uncommitetd"}
+        {value: "Uncommitted"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
@@ -14,7 +14,7 @@ export const Uncommitted: IBadgeData = {
     ],
     acquisition: "Complete 5 Alignment Tip missions.",
     links: [
-        {title: "Uncommitetd Badge", href: "https://homecoming.wiki/wiki/Uncommitetd_Badge"}
+        {title: "Uncommitted Badge", href: "https://homecoming.wiki/wiki/Uncommitted_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/alignment-tips.png"}
