@@ -1,6 +1,6 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
 
-export const ArchitectXXV: IBadgeData = {
+export const MissionSeeker: IBadgeData = {
     type: BadgeType.AE,
     key: "mission-seeker",
     setTitleId: 1236,
@@ -9,7 +9,7 @@ export const ArchitectXXV: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [{value: "You've earned 25 Mission Architect badges!"}],
-    acquisition: "Earn 25 Mission Architect badges to earn this badge.",
+    acquisition: "Earn 25 Mission Architect badges.",
     links: [
         {title: "Mission Seeker Badge", href: "https://homecoming.wiki/wiki/Mission_Seeker_Badge"}
     ],
