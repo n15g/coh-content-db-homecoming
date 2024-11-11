@@ -9,7 +9,7 @@ export const PhantomGladiator: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "The Labyrinth's Gladiators In The Fog are a curious phenomenon. This legion of immortal warriors compete in an eternal blood sport to determine who is the strongest amongst them, but not one was found worthy of taking you down."}
+        {value: `The Labyrinth's Gladiators In The Fog are a curious phenomenon. This legion of immortal warriors compete in an eternal blood sport to determine who is the strongest amongst them, but not one was found worthy of taking you down.`}
     ],
     acquisition: "Defeat 25 Gladiators in the Fog.",
     links: [
