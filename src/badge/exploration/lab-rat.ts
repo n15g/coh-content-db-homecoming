@@ -15,7 +15,7 @@ You can't help but feel like a lab rat, running a maze for some unseen intellige
     }],
     notes: `Located beneath the white mote at the end of the Endless Colonnade in [map:the-labyrinth-of-fog].`,
     links: [
-        {title: "Lab Rat", href: "https://homecoming.wiki/wiki/Lab_Rat_Badge"}
+        {title: "Lab Rat Badge", href: "https://homecoming.wiki/wiki/Lab_Rat_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/labyrinth.png"}]
 };
