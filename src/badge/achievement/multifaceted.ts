@@ -12,11 +12,11 @@ export const Multifaceted: IBadgeData = {
         {
             value: "You've walked too many roads of life to count, and your experience affords you a position of reflection and wisdom. You've completed countless Alignment Tip missions and made many moral decisions."}
     ],
-    acquisition: "Earn this badge by completing 25 Alignment Tip missions.",
+    acquisition: "Complete 25 Alignment Tip missions.",
     links: [
         {title: "Multifaceted Badge", href: "https://homecoming.wiki/wiki/Multifaceted_Badge"}
     ],
     icons: [
-        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/alignment-mission.png"}
+        {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/alignment-tips.png"}
     ],
 };
