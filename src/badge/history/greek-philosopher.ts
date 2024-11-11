@@ -3,14 +3,14 @@ import {TheLabyrinthOfFog} from "../../map/the-labyrinth-of-fog";
 
 export const GreekPhilosopher: IBadgeData = {
     type: BadgeType.HISTORY,
-    key: "greekphilosopher",
+    key: "greek-philosopher",
     setTitleId: 2531,
     names: [
-        {value: "GreekPhilosopher"}
+        {value: "Greek Philosopher"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: `You followed all the fruity crumbs and peeped the 20 lessons brought to you by the letter 'Resistance.' Whether or not you chomp-a-chomp on this tasty knowing is up to you, but now you know it's time for the other half of the battle.`}
+        {value: `The origin behind the Labyrinth of Fog has been obscured for ages, but you've recently discovered evidence that suggests the labyrinth was created to imprison an ancient calamity that once befell the islands of Greece.`}
     ],
     links: [
         {title: "Greek Philosopher Badge", href: "https://homecoming.wiki/wiki/Greek_Philosopher_Badge"}
