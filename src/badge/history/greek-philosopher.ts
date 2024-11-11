@@ -1,5 +1,5 @@
 import {ALIGNMENT_ANY, BadgePartialType, BadgeType, IBadgeData, PlaqueType} from "coh-content-db";
-import {LabyrinthOfFog} from "../../map/labyrinth-of-fog";
+import {TheLabyrinthOfFog} from "../../map/the-labyrinth-of-fog";
 
 export const GreekPhilosopher: IBadgeData = {
     type: BadgeType.HISTORY,
