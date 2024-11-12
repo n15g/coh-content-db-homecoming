@@ -22,7 +22,7 @@ export const GreekPhilosopher: IBadgeData = {
         {
             key: "gree-0",
             type: BadgePartialType.PLAQUE,
-            mapKey: Labyrinth.key,
+            mapKey: TheLabyrinthOfFog.key,
             plaqueType: PlaqueType.MONUMENT,
             location: [469.7, -205.0, 2713.8],
             inscription: `It was over tavern ale, shared whilst waiting out the storm. This sailor spoke of ominous tidings, of nightmares given form. An evil catastrophe, feeding upon man's fear, it grew dense. They spoke of the fog that plagued the southwest isles hence.`,
@@ -35,7 +35,7 @@ export const GreekPhilosopher: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [227.5, -84.0, 2669.2],
             inscription: `This divine prison would inherit the strength of those within. An inescapable maze constructed by human imagination. Entrusted to the rulers of the land, the calamity was hidden. The labyrinth shackling the catastrophic fog was forbidden.`,
-            notes: `This plaque is The Labyrinth of Fog. It is located in front of the Gate of Darkness pillar.`,
+            notes: `This plaque is Core of The Labyrinth. It is located in front of the Gate of Darkness pillar.`,
         },        
         {
             key: "gree-2",
