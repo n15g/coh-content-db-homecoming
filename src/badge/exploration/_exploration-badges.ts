@@ -780,5 +780,5 @@ export const ExplorationBadges: IBadgeData[] = [
     PartyAnimal,
     
     //Labyrinth of Fog
-    Hidden In The Fog, Lab Rat
+    HiddenInTheFog, LabRat
 ];
