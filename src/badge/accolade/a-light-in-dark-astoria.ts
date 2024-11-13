@@ -11,7 +11,7 @@ import {WhispererOnWitchburnHill} from "../exploration/whisperer-on-witchburn-hi
 
 export const ALightInDarkAstoria: IBadgeData = {
     type: BadgeType.ACCOLADE,
-    key: "a-light-in-dark-astorias",
+    key: "a-light-in-dark-astoria",
     setTitleId: 1878,
     names: [
         {value: "A Light in Dark Astoria"}
