@@ -33,7 +33,7 @@ export const ProtectorOfParagonCity: IBadgeData = {
         {key: Gallant.key, type: BadgePartialType.BADGE, badgeKey: Gallant.key},
         {key: GuardianOfForever.key, type: BadgePartialType.BADGE, badgeKey: GuardianOfForever.key},
         {key: BeyondReasonableDoubt.key, type: BadgePartialType.BADGE, badgeKey: BeyondReasonableDoubt.key},
-        {key: TheGreaterGood.key, type: BadgePartialType.BADGE, badgeKey: TheGreaterGood.key}
+        {key: TheGreaterGood.key, type: BadgePartialType.BADGE, badgeKey: TheGreaterGood.key},
         {key: Bicentennial.key, type: BadgePartialType.BADGE, badgeKey: Bicentennial.key}
     ]
 };
