@@ -35,7 +35,7 @@ export const BetweenRealities: IBadgeData = {
         {key: ShowsOver.key, type: BadgePartialType.BADGE, badgeKey: ShowsOver.key},    
         {key: TheLastWord.key, type: BadgePartialType.BADGE, badgeKey: TheLastWord.key},
         {key: EyeOTheVortex.key, type: BadgePartialType.BADGE, badgeKey: EyeoftheVortex.key},
-        {key: Stargazder.key, type: BadgePartialType.BADGE, badgeKey: Stargazder.key},
+        {key: Stargazer.key, type: BadgePartialType.BADGE, badgeKey: Stargazer.key},
         {key: DeadButDreaming.key, type: BadgePartialType.BADGE, badgeKey: DeadButDreaming.key},
         {key: Multifaceted.key, type: BadgePartialType.BADGE, badgeKey: Multifaceted.key},
     ]
