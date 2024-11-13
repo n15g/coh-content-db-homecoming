@@ -382,6 +382,7 @@ export const AccomplishmentBadges: IBadgeData[] = [
     Oobatz,
     ProbationDenied,
     Gullible,
+    NutrientRich,
     HonoraryPeacebringer,
     PortalSmasher,
     DestroyerOfStrength,
@@ -402,6 +403,5 @@ export const AccomplishmentBadges: IBadgeData[] = [
     Pollster,
     LoopHero,
     DoesntLookAtExplosions,
-    FaceTurn,
-    NutrientRich
+    FaceTurn
 ];
