@@ -35,7 +35,7 @@ export const GreekPhilosopher: IBadgeData = {
             plaqueType: PlaqueType.MONUMENT,
             location: [227.5, -84.0, 2669.2],
             inscription: `This divine prison would inherit the strength of those within. An inescapable maze constructed by human imagination. Entrusted to the rulers of the land, the calamity was hidden. The labyrinth shackling the catastrophic fog was forbidden.`,
-            notes: `This plaque is Core of The Labyrinth of Fog. It is located in front of the Gate of Darkness pillar.`,
+            notes: `This plaque is in the Core of The Labyrinth of Fog. It is located in front of the Gate of Darkness pillar.`,
         },        
         {
             key: "gree-2",
