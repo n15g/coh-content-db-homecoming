@@ -1,7 +1,7 @@
 import {ALIGNMENT_VILLAIN, Alternate, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
 import {BinderOfBeasts} from "../accomplishment/binder-of-beasts";
 import {Leviathan} from "../accomplishment/leviathan";
-import {AirPirate} from "../accomplishment/air-pirate";
+import {PirateHunter} from "../accomplishment/pirate-hunter";
 import {CrystalKeeper} from "../accomplishment/crystal-keeper";
 import {GoldStandard} from "../accomplishment/gold-standard";
 
@@ -29,7 +29,7 @@ export const StrikeForceCommander: IBadgeData = {
     partials: [
         {key: BinderOfBeasts.key, type: BadgePartialType.BADGE, badgeKey: BinderOfBeasts.key},
         {key: Leviathan.key, type: BadgePartialType.BADGE, badgeKey: Leviathan.key},
-        {key: AirPirate.key, type: BadgePartialType.BADGE, badgeKey: AirPirate.key},
+        {key: PirateHunter.key, type: BadgePartialType.BADGE, badgeKey: PirateHunter.key},
         {key: CrystalKeeper.key, type: BadgePartialType.BADGE, badgeKey: CrystalKeeper.key},
         {key: GoldStandard.key, type: BadgePartialType.BADGE, badgeKey: GoldStandard.key}
     ]
