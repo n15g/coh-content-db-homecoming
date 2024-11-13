@@ -1,4 +1,5 @@
 import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {PocketD} from "../../map/pocket-d";
 
 export const NutrientRich: IBadgeData = {
     type: BadgeType.ACCOMPLISHMENT,
@@ -9,9 +10,9 @@ export const NutrientRich: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: "Despite missing or ignoring the hazardous material warning, Blarf is now fed, although probably not in the way you anticipated... "}
+        {value: `Despite missing or ignoring the hazardous material warning, Blarf is now fed, although probably not in the way you anticipated...`}
     ],
-    acquisition: "Earn the Nutrient-Rich Accomplishment badge by clicking on Blarf until it defeats you.",
+    acquisition: `In [map:pocket-d], click on Blarf until it defeats you.`,
     links: [
         {title: "Nutrient-Rich Badge", href: "https://homecoming.wiki/wiki/Nutrient-Rich_Badge"}
     ],
