@@ -19,8 +19,8 @@ export const StrikeForceCommander: IBadgeData = {
     ],
     notes: `Awards the Sheer Willpower power.`,
     links: [
-        {title: "Strike Force Commander Badge", href: "https://homecoming.wiki/wiki/Strike_Force_Commander_Badge"},
-        {title: "Deep Strike Agent Badge", href: "https://homecoming.wiki/wiki/Strike_Force_Commander_Badge"}
+        {title: "Deep Strike Agent Badge", href: "https://homecoming.wiki/wiki/Strike_Force_Commander_Badge"},
+        {title: "Strike Force Commander Badge", href: "https://homecoming.wiki/wiki/Strike_Force_Commander_Badge"}
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/deep-strike-agent.png"}
