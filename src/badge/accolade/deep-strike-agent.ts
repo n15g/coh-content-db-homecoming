@@ -5,7 +5,7 @@ import {PirateHunter} from "../accomplishment/pirate-hunter";
 import {CrystalKeeper} from "../accomplishment/crystal-keeper";
 import {GoldStandard} from "../accomplishment/gold-standard";
 
-export const StrikeForceCommander: IBadgeData = {
+export const DeepStrikeAgent: IBadgeData = {
     type: BadgeType.ACCOLADE,
     key: "deep-strike-agent",
     setTitleId: 2542,
@@ -15,11 +15,12 @@ export const StrikeForceCommander: IBadgeData = {
     ],
     alignment: ALIGNMENT_VILLAIN,
     badgeText: [
-        {value: `You have successfully taken part in many of the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'. You can break free from many effects out of sheer spite, due to your remarkable tenacity.`},
+        {type: Alternate.H, value: `You have successfully taken part in many of the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'. You can break free from many effects out of sheer spite, due to your remarkable tenacity.`},
+        {type: Alternate.V, value: `You successfully infiltrated the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'. You can break free from many effects out of sheer spite.`}
     ],
     notes: `Awards the Sheer Willpower power.`,
     links: [
-        {title: "Deep Strike Agent Badge", href: "https://homecoming.wiki/wiki/Strike_Force_Commander_Badge"},
+        {title: "Deep Strike Agent Badge", href: "https://homecoming.wiki/wiki/Deep_Strike_Agent_Badge"},
         {title: "Strike Force Commander Badge", href: "https://homecoming.wiki/wiki/Strike_Force_Commander_Badge"}
     ],
     icons: [
