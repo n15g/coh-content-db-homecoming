@@ -398,7 +398,7 @@ export const AccomplishmentBadges: IBadgeData[] = [
     PatientZero,
     BestFriendsForever,
     TheShadowOutOfTime,
-    BoundbyNDA,
+    BoundByNDA,
     Underdog,
     Pollster,
     LoopHero,
