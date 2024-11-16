@@ -140,7 +140,7 @@ import {BrotherOfCorruption} from "./brother-of-corruption";
 import {FreezerBurn} from "./freezer-burn";
 import {ZookeeperOmega} from "./zookeeper-omega";
 import {PhantomGladiator} from "./phantom-gladiator";
-import {SlayeroftheMinotaur} from "./slayer-of-the-minotaur";
+import {SlayerOfTheMinotaur} from "./slayer-of-the-minotaur";
 import {MalevolentIntoxication} from "./malevolent-intoxication";
 
 export const DefeatBadges: IBadgeData[] = [
@@ -286,5 +286,5 @@ export const DefeatBadges: IBadgeData[] = [
     MasterOfOlympus,
     MasterAtArms,
     WelcomeToEarth,
-    SlayeroftheMinotaur
+    SlayerOfTheMinotaur
 ];
