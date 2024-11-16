@@ -17,7 +17,7 @@ export const ConquerorOfTheLabyrinth: IBadgeData = {
     ],
     notes: `Awards the Core Attunement power.`,
     links: [
-        {title: "Conqueror of the Labyrinth Badger", href: "https://homecoming.wiki/wiki/Conqueror_of_the_Labyrinth_Badge"},
+        {title: "Conqueror of the Labyrinth Badge", href: "https://homecoming.wiki/wiki/Conqueror_of_the_Labyrinth_Badge"},
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conqueror-of-the-labyrinth.png"}
