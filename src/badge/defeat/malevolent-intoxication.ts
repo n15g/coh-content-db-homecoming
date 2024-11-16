@@ -9,7 +9,7 @@ export const MalevolentIntoxication: IBadgeData = {
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
-        {value: `The Labyrinth of Fog is an unnatural dungeon where a mythical fog, steeped in malevolence, coagulates of its own volition, and you've taken advantage of the opportunity to claim their powers for yourself.`}
+        {value: `The Labyrinth of Fog is an unnatural dungeon where a mythical fog, steeped in malevolence, coagulates of its own volition, and you've taken advantage of the opportunity to claim their power for yourself.`}
     ],
     acquisition: "Defeat 5 Malevolent Fogs.",
     links: [
