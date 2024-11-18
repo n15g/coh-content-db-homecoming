@@ -207,5 +207,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/164 - HC Wiki URL change\n",
         "1.3.29":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/165 - Anniversary 2024\n",
+        "1.3.30":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/167 - Issue 28 Page 1\n"
     };
 }

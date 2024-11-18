@@ -199,7 +199,7 @@ import {Underdog} from "./underdog";
 import {DoesntLookAtExplosions} from "./doesnt-look-at-explosions";
 import {FaceTurn} from "./face-turn";
 import {BoundByNDA} from "./bound-by-nda";
-import {NutrientRich} "./nutrient-rich";
+import {NutrientRich} from "./nutrient-rich";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
