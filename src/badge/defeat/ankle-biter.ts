@@ -1,4 +1,4 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import {ALIGNMENT_VILLAIN, BadgeType, IBadgeData} from "coh-content-db";
 
 export const AnkleBiter: IBadgeData = {
     type: BadgeType.DEFEAT,
@@ -7,7 +7,7 @@ export const AnkleBiter: IBadgeData = {
     names: [
         {value: "Ankle Biter"}
     ],
-    alignment: ALIGNMENT_ANY,
+    alignment: ALIGNMENT_VILLAIN,
     badgeText: [
         {value: `Crey's Revenant Hero Project has turned out some formidable foes in your career as a super. But nothing was more unsettling than racking up a count on the immature clones that sometimes get deployed in extreme crises. You try not to think about the fact that Crey has child-sized suits on-hand for them.`}
     ],

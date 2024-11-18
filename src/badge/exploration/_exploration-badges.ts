@@ -466,6 +466,8 @@ import {Sanctuary} from "./sanctuary";
 import {VisionOfAmbition} from "./vision-of-ambition";
 import {VoiceOfTheOracle} from "./voice-of-the-oracle";
 import {PartyAnimal} from "./party-animal";
+import {LabRat} from "./lab-rat";
+import {HiddenInTheFog} from "./hidden-in-the-fog";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -775,5 +777,8 @@ export const ExplorationBadges: IBadgeData[] = [
     GrimWanderer, Spiritual, Ensorcelled,
 
     //Pocket D, PDP, Studio 55
-    PartyAnimal
+    PartyAnimal,
+    
+    //Labyrinth of Fog
+    HiddenInTheFog, LabRat
 ];

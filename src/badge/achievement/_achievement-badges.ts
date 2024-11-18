@@ -191,6 +191,9 @@ import {Doppelganger} from "./doppelganger";
 import {Shapeshifter} from "./shapeshifter";
 import {VarietyAct} from "./variety-act";
 import {MirrorImage} from "./mirror-image";
+import {Uncommitted} from "./uncommitted";
+import {Adept} from "./adept";
+import {Multifaceted} from "./multifaceted";
 
 
 export const AchievementBadges: IBadgeData[] = [
@@ -284,6 +287,11 @@ export const AchievementBadges: IBadgeData[] = [
     FoodCritic,
     GrandGourmet,
     IronChef,
+    
+    //Alignment Missions
+    Uncommitted,
+    Adept,
+    Multifaceted,
     
     //Costume Power Purchases
     Mimic,

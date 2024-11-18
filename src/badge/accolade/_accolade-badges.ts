@@ -138,6 +138,10 @@ import {HistoryInTheMaking} from "./history-in-the-making";
 import {TemporalWarrior} from "./temporal-warrior";
 import {Hologram} from "./hologram";
 import {Stowaway} from "./stowaway";
+import {BetweenRealities} from "./between-realities";
+import {ProtectorOfParagonCity} from "./protector-of-paragon-city";
+import {DeepStrikeAgent} from "./deep-strike-agent";
+import {ConquerorOfTheLabyrinth} from "./conqueror-of-the-labyrinth";
 
 export const AccoladeBadges: IBadgeData[] = [
     BugHunter,
@@ -158,7 +162,9 @@ export const AccoladeBadges: IBadgeData[] = [
     InTherapy,
     Uninsurable,
     ReturnVisitor,
+    DeepStrikeAgent,
     TaskForceCommander,
+    ProtectorOfParagonCity,
     ForceOfJustice,
     Stouthearted,
     FieldCrafter,
@@ -279,4 +285,6 @@ export const AccoladeBadges: IBadgeData[] = [
     FlamesOfPrometheus,
     Chronomaster,
     Hologram,
+    ConquerorOfTheLabyrinth,
+    BetweenRealities,
 ];
