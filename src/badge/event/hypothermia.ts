@@ -13,7 +13,7 @@ export const Hypothermia: IBadgeData = {
     ],
     acquisition: "Log in during the 2024 Winter Event, or purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.",
     links: [
-        {title: "Home for the Holidays Badge", href: "https://homecoming.wiki/wiki/Hypothermia_Badge"}
+        {title: "Hypothermia Badge", href: "https://homecoming.wiki/wiki/Hypothermia_Badge"}
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png"}]
 };
