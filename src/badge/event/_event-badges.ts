@@ -96,6 +96,7 @@ import {Reunited} from "./reunited";
 import {TimeKeeper} from "./time-keeper";
 import {Gardener} from "./gardener";
 import {ZetaReticulan} from "./zeta-reticulan";
+import {Hypothermia} from "./hypothermia";
 
 
 
@@ -166,6 +167,7 @@ export const EventBadges: IBadgeData[] = [
     Snowbound,
     LicenseToChill,
     HomeForTheHolidays,
+    Hypothermia,
     HeartOfLight,
     Handsome,
     Toothbreaker,

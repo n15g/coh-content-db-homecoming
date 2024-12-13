@@ -198,6 +198,8 @@ import {Pollster} from "./pollster";
 import {Underdog} from "./underdog";
 import {DoesntLookAtExplosions} from "./doesnt-look-at-explosions";
 import {FaceTurn} from "./face-turn";
+import {BoundByNDA} from "./bound-by-nda";
+import {NutrientRich} from "./nutrient-rich";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -380,6 +382,7 @@ export const AccomplishmentBadges: IBadgeData[] = [
     Oobatz,
     ProbationDenied,
     Gullible,
+    NutrientRich,
     HonoraryPeacebringer,
     PortalSmasher,
     DestroyerOfStrength,
@@ -395,6 +398,7 @@ export const AccomplishmentBadges: IBadgeData[] = [
     PatientZero,
     BestFriendsForever,
     TheShadowOutOfTime,
+    BoundByNDA,
     Underdog,
     Pollster,
     LoopHero,

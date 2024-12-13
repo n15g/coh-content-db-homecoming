@@ -207,5 +207,11 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/issues/164 - HC Wiki URL change\n",
         "1.3.29":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/165 - Anniversary 2024\n",
+        "1.3.30":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/167 - Issue 28 Page 1\n",
+        "1.3.31":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/169 - 2024 winter event\n",
+        "1.3.32":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/170 - Hypothermia wiki link fix\n",
     };
 }
