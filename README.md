@@ -40,7 +40,7 @@ Databse is located here: [https://n15g.github.io/badger/](https://n15g.github.io
     
 *   Image editing software
     
-*   Download [badge-grant-all.txt](https://n15g.github.io/badger/docs/badge_grant_all.txt) 
+*   Download [badge-grant-all.txt](docs/badge_grant_all.txt) 
     
 *   Download [SetTitle file](https://n15g.github.io/badger/assets/settitle.txt)
     
@@ -116,7 +116,7 @@ You can easily obtain the image icons for new badges via the patch notes. Right 
     
 6.  Crop images as needed
     
-    1.  Open each image in an image editing program and look closely for extra “tags” that need to be cropped. Typical round badges are 48x48 pixels and often need to be trimmed. See [example-needs-cropped.png](https://n15g.github.io/badger/docs/example-needs-cropped.png) for examples.
+    1.  Open each image in an image editing program and look closely for extra “tags” that need to be cropped. Typical round badges are 48x48 pixels and often need to be trimmed. See [example-needs-cropped.png](docs/example-needs-cropped.png) in the docs directory for examples.
         
     2.  Crop the top/left 48x48 pixels and save the file, ensuring to retain the transparent background and .png extension.
         
@@ -124,7 +124,7 @@ You can easily obtain the image icons for new badges via the patch notes. Right 
         
     4.  Naming convention for badge image files (Key Name):
         
-        1.  All lower case, replace spaces with dash (snake-case)
+        1.  All lower case, replace spaces with dash (snake-case or kebab-case)
             
         2.  Use the Male version of the badge name, if there are gendered versions.  
             (the-once-and-future-king.png)
@@ -191,7 +191,7 @@ Next, add lines to import each of the badges that are required in order to earn 
 ```
 export const ProtectorOfInnocents: IBadgeData = {
 ```
-Use the Export Name for the one for the new badge you’re adding. Reminder, Export Name is Hero Male variant in CamelCase (ProperCase), no spaces or special characters.
+Use the Export Name for the new badge you’re adding. Reminder, Export Name is Hero Male variant in CamelCase (ProperCase), no spaces or special characters.
 
 ```
 type: BadgeType.ACHIEVEMENT,
