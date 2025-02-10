@@ -97,6 +97,11 @@ import {TimeKeeper} from "./time-keeper";
 import {Gardener} from "./gardener";
 import {ZetaReticulan} from "./zeta-reticulan";
 import {Hypothermia} from "./hypothermia";
+import {BestMan} from "./best-man";
+import {ChaosSpiel} from "./chaos-spiel";
+import {DownInFront} from "./down-in-front";
+import {Officiator} from "./officiator";
+import {WeddingCrasher} from "./wedding-crasher";
 
 
 
@@ -175,6 +180,11 @@ export const EventBadges: IBadgeData[] = [
     MatchMaker,
     MissedConnection,
     WidowMaker,
+    BestMan,
+    WeddingCrasher,
+    Officiator,
+    DownInFront,
+    ChaosSpiel,
     ClothesHorse,
     Fashionable,
     Ostentatious,
