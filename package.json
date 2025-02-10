@@ -11,14 +11,15 @@
     "build": "webpack --mode=production",
     "watch": "webpack --mode=production --watch",
     "link:db": "npm link coh-content-db",
-    "upgrade:db": "npm install --save coh-content-db@latest"
+    "upgrade:db": "npm install --save coh-content-db@latest",
+    "push": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/n15g/coh-content-db-homecoming.git"
   },
   "author": "n15g",
-  "license": "GPL-3.0-or-later",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/n15g/coh-content-db-homecoming/issues"
   },

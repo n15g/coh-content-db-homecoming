@@ -1,8 +1,9 @@
 # coh-content-db-homecoming
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/n15g/coh-content-db-homecoming/build.yml?branch=master)
-![GitHub Tag](https://img.shields.io/github/v/tag/n15g/coh-content-db-homecoming)
-![GitHub License](https://img.shields.io/github/license/n15g/coh-content-db-homecoming)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/n15g/coh-content-db-homecoming/build.yml?branch=master)](https://github.com/n15g/coh-content-db-homecoming/actions)
+[![GitHub Tag](https://img.shields.io/github/v/tag/n15g/coh-content-db-homecoming)](https://github.com/n15g/coh-content-db-homecoming/tags)
+[![NPM Version](https://img.shields.io/npm/v/coh-content-db-homecoming)](https://www.npmjs.com/package/coh-content-db-homecoming)
+[![GitHub License](https://img.shields.io/github/license/n15g/coh-content-db-homecoming)](LICENSE)
 
 CoH Content DB - Homecoming data
 
@@ -14,7 +15,7 @@ CoH Content DB - Homecoming data
 
 ```
 npm version 1.4.x
-git push && git push --tags
+npm run push
 ```
 
 Initialize the database, then load the homecoming data pack:
