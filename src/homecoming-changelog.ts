@@ -218,6 +218,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/171 - Added instructions for updating the DB\n" +
             "* Moved to GitHub actions for CI\n",
         "1.4.1":
-            "* License update in [NPM](https://www.npmjs.com/package/coh-content-db-homecoming).\n"
+            "* License update in [NPM](https://www.npmjs.com/package/coh-content-db-homecoming).\n",
+        "1.4.2":
+            "* Added [Victory] server.\n",
     };
 }
