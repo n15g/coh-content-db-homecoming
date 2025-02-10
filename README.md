@@ -12,7 +12,11 @@ CoH Content DB - Homecoming data
 
 ### Publish
 
-`npm publish`
+```
+npm version 1.4.x
+git tag vX.X.X
+git push --tags
+```
 
 Initialize the database, then load the homecoming data pack:
 
