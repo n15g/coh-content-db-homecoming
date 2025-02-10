@@ -1,5 +1,9 @@
 # coh-content-db-homecoming
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/n15g/coh-content-db-homecoming/build.yml?branch=master)
+![GitHub Tag](https://img.shields.io/github/v/tag/n15g/coh-content-db-homecoming)
+![GitHub License](https://img.shields.io/github/license/n15g/coh-content-db-homecoming)
+
 CoH Content DB - Homecoming data
 
 ### Build
@@ -28,7 +32,7 @@ Instructions graciously provided by [kwsapphire](https://github.com/kwsapphire).
 ### Needed Tools:
 
 * GitHub account
-    * Badger Database on Github: [https://github.com/n15g/coh-content-db-homecoming](https://github.com/n15g/coh-content-db-homecoming)
+    * Badger Database on GitHub: [https://github.com/n15g/coh-content-db-homecoming](https://github.com/n15g/coh-content-db-homecoming)
     * Badger Website Data on Github: [https://github.com/n15g/badger](https://github.com/n15g/badger)
 * City of Heroes account (Any server, but these instructions assume [Homecoming](https://forums.homecomingservers.com/).)
 * Pigg Viewer to convert PIGGs to Textures (Piglet linked in [this forum post](https://forums.homecomingservers.com/topic/5405-piggviewer/#comment-562266).)
@@ -47,11 +51,11 @@ Instructions graciously provided by [kwsapphire](https://github.com/kwsapphire).
 3. Once done with all updates, you’ll submit your changes to be merged into the main Database. This must be approved by Nick/KeyboardKitsune, which he usually does within a couple of days. **Ensure all of your changes are 100% correct before asking to merge, to prevent multiple requests.**
 4. Each badge is represented by a .ts file located in the src/badge/(category) directories. Each badge category (Accolade, Exploration, etc.) also has a .ts file (e.g. \_accolade-badges.ts) which determines proper sequential display order and must be updated when new badges are added. Badge icon
    images must be uploaded to the appropriate folder in docs/images/badges.
-5. Always coordinate with other people who are updating the database so you don’t overwrite each others’ efforts!
+5. Always coordinate with other people who are updating the database so you don’t overwrite each other's efforts!
 
 ### Info Needed to Add or Update Badges
 
-(retain screen shots of everything obtained in-game!)
+(retain screenshots of everything obtained in-game!)
 
 * Badge Icon Image \[ATC\]
 * In-Game Sequential Order \[ATC\]
@@ -78,7 +82,7 @@ ATC can provide. _Only needed if adding a new badge. Skip this section if you’
 You can easily obtain the image icons for new badges via the patch notes. Right click each image and save to your hard drive. **This method is least-preferred**, as the resulting images may not be the highest possible quality. **Use below method if possible.**
 
 1. Navigate to your City of Heroes installation directory. If the new badges are still in beta, go to the assets\\beta folder. If the changes are live, you can use the assets\\live folder.
-2. Copy all of the .pigg files to a new location (your Sandbox) to prevent any possible corruption of your game files.
+2. Copy all the .pigg files to a new location (your Sandbox) to prevent any possible corruption of your game files.
 3. Use a PIGG viewer to convert the needed PIGG files to textures
     1. Open your Sandbox directory with Piglet
     2. In the left panel, navigate to texture\_library > gui > icons > badges
@@ -88,7 +92,7 @@ You can easily obtain the image icons for new badges via the patch notes. Right 
 5. Use a DDS converter to convert the DDS files to PNG files. (Ditto)
 6. Crop images as needed
 
-    1. Open each image in an image editing program and look closely for extra “tags” that need to be cropped. Typical round badges are 48x48 pixels and often need to be trimmed. See [example-needs-cropping.png]([example-needs-cropping.png](docs/example-needs-cropping.png) in the badger docs
+    1. Open each image in an image editing program and look closely for extra “tags” that need to be cropped. Typical round badges are 48x48 pixels and often need to be trimmed. See [example-needs-cropping](docs/example-needs-cropping.png) in the badger docs
        directory for examples.
     2. Crop the top/left 48x48 pixels and save the file, ensuring to retain the transparent background and .png extension.
     3. Other common badge sizes are 64x64, 128x48, and 128x64. Not all icons will need to be cropped, but it will generally be obvious which ones need cropping as seen in the examples, as they will either have excessive whitespace or extra 'tags'. When cropping, always crop to one of the above
@@ -143,7 +147,7 @@ import {ReclusesVictory} from "../../map/recluses-victory";
 ```
 
 All zone-related badges include one or more map import lines. Accolades awarded for all exploration badges in a zone should import that zone map. History badges should import maps for every zone that has an associated history plaque. Exploration badges should import the map they’re found on. List
-all maps in alphabetical order. In theory, this allows users to click on links to open VidiotMaps of each zone. This isn’t actually implemented yet but we’re keeping up with it anyway.
+all maps in alphabetical order. In theory, this allows users to click on links to open VidiotMaps of each zone. This isn’t actually implemented yet, but we’re keeping up with it anyway.
 
 ```
 import {AstoriasLastStand} from "../exploration/astorias-last-stand";
@@ -273,7 +277,7 @@ icons: [
 ],
 ```
 
-Link to the badge image file(s) located in the docs folder. Yes, it’s the same file, even though the above URLs don’t contain “docs” in the link. GitHub Magic (TM)!
+Link to the badge image file(s) located in the `docs` folder. Yes, it’s the same file, even though the above URLs don’t contain “docs” in the link. GitHub Magic™!
 
 ```
 partials: [
@@ -311,9 +315,9 @@ Close bracket for the whole page.
 
 Once you’re certain you’ve correctly captured all updates, go to the main page of your edited branch. There will be a box at the top of the page that says “This branch is X commits ahead of the master.” This will include a link you can click that takes you to a summary page, comparing your changes
 to the master version. Take this opportunity to thoroughly review your changes for correctness and completeness. Near the top of that page is a green button titled “Create Pull Request.” Click that, then you’ll have an opportunity to add notes describing your changes. Then click the green Submit
-button, and a merge request will be sent to Nick/KeyboardKitsune.
+button, and a merge request will be sent to Nick/KeyboardKitsune/N15g.
 
-Below is an example .ts file for a badge called Fake Badge, which includes code for several different badge types. Use only whichever portions and variables are required for the badge your're creating or updating.
+Below is an example .ts file for a badge called Fake Badge, which includes code for several different badge types. Use only whichever portions and variables are required for the badge you're creating or updating.
 
 ```
 import {ALIGNMENT_ANY, Alternate, BadgePartialType, BadgeType, IBadgeData} from "coh-content-db";
@@ -373,7 +377,7 @@ vidiotMapKey: "8"
 ### To Obtain & View Badges In-Game
 
 Create one Primal character with a Male costume in one slot and a Female costume in another slot. Create one Praetorian character who also has one Male and one Female costume. You’ll be able to swap costumes to see if the badge name or text changes by gender. Swap the Primal character’s alignment at
-Null the Gull to see if there are variants by alignment. **Take screen shots of everything.**
+Null the Gull to see if there are variants by alignment. **Take screenshots of everything.**
 
 Award all badges on the Beta server:
 
@@ -404,11 +408,11 @@ Run the SetTitle file to log all badges:
 4. Look at the output in the Global tab. Feel free to copy and paste this into a text document for your reference. Badges are output in sequential order according to SetTitleID.  
    Example, this is part of the output for my character:
 
-> \[14:33\] Zeta Reticulan has been selected as new title.  
-> \[14:33\] Your badge title has been cleared  
-> \[14:33\] Your badge title has been cleared  
-> \[14:33\] Hidden In The Fog has been selected as new title.
+   > \[14:33\] Zeta Reticulan has been selected as new title.  
+   > \[14:33\] Your badge title has been cleared  
+   > \[14:33\] Your badge title has been cleared  
+   > \[14:33\] Hidden In The Fog has been selected as new title.
 
-Zeta Reticulan is an existing badge so I can look up its SetTitle ID: 2527. This is followed by two empty badges (2528 & 2529) before the Hidden in the Fog badge is awarded. This means Hidden in the Fog’s SetTitle ID is 2530.
+   Zeta Reticulan is an existing badge, so I can look up its SetTitle ID: 2527. This is followed by two empty badges (2528 & 2529) before the Hidden in the Fog badge is awarded. This means Hidden in the Fog’s SetTitle ID is 2530.
 
 5. The SetTitle file will produce more output than will fit in the chat window. This isn’t a problem with adding new badges as they’re always at the bottom, but you can check your log files for the full output if needed.
