@@ -6,6 +6,10 @@ on:
 jobs:
   Checkout:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
