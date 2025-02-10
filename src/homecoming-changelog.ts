@@ -213,5 +213,8 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/169 - 2024 winter event\n",
         "1.3.32":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/170 - Hypothermia wiki link fix\n",
+        "1.3.33":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/171 - Added instructions for updating the DB\n",
+
     };
 }
