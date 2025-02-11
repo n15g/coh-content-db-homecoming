@@ -12,7 +12,8 @@ export class Homecoming implements IServerGroupData {
         {name: "Excelsior"},
         {name: "Indomitable"},
         {name: "Reunion"},
-        {name: "Torchbearer"}
+        {name: "Torchbearer"},
+        {name: "Victory"}
     ];
     public readonly repository: string = "https://github.com/n15g/coh-content-db-homecoming";
 
