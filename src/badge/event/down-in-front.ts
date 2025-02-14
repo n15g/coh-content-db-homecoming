@@ -5,7 +5,7 @@ export const DownInFront: IBadgeData = {
     key: "down-in-front",
     setTitleId: 2550,
     names: [
-        {value: "Down in Front"},
+        {value: "Down In Front"},
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
@@ -13,7 +13,7 @@ export const DownInFront: IBadgeData = {
     ],
     acquisition: `Stand in between Manticore and Sister Psyche during the ceremony until you are teleported away.`,
     links: [
-        {title: "Down in Front", href: "https://homecoming.wiki/wiki/Down_in_Front_Badge"},
+        {title: "Down In Front", href: "https://homecoming.wiki/wiki/Down_In_Front_Badge"},
     ],
     icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/down-in-front.png"}]
 };
