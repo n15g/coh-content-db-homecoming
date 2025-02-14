@@ -221,5 +221,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* License update in [NPM](https://www.npmjs.com/package/coh-content-db-homecoming).\n",
         "1.4.2":
             "* Added [Victory] server.\n",
+        "1.4.3":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/173 - Typo correction for [Down In Front].\n",
     };
 }
