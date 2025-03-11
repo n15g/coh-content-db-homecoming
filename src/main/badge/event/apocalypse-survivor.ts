@@ -1,0 +1,19 @@
+import { BadgeData } from 'coh-content-db'
+
+export const ApocalypseSurvivor: BadgeData = {
+  type: 'EVENT',
+  key: 'apocalypse-survivor',
+  setTitle: { id: 1023 },
+  name: [
+    { value: 'Apocalypse Survivor' },
+  ],
+  alignment: ['H', 'V', 'P'],
+  badgeText: [
+    { value: 'You\'ve helped take down a Zombie Elite, showing you are an Apocalypse Survivor!' },
+  ],
+  acquisition: 'Defeat a Zombie Elite Boss during a Zombie Apocalypse.',
+  links: [
+    { title: 'Apocalypse Survivor Badge', href: 'https://homecoming.wiki/wiki/Apocalypse_Survivor_Badge' },
+  ],
+  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/apocalypse-survivor.png' }],
+}
