@@ -1,15 +1,8 @@
-name: Release
-on:
-  push:
-    tags:
-      - "v*.*.*"
+name: Build
+on: pull_request
 jobs:
-  Checkout:
+  Build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,7 +12,6 @@ jobs:
         with:
           node-version: lts/jod
           cache: 'npm'
-          registry-url: 'https://registry.npmjs.org'
 
       - name: Install
         run: npm install
@@ -38,8 +30,3 @@ jobs:
         with:
           name: 'dist'
           path: 'dist'
-
-      - name: Publish
-        run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
