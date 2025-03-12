@@ -20,12 +20,12 @@ export const RiverRat: BadgeData = {
     + 'This badge can be frustrating to get. Where possible, go under bridges in the water; you cannot hit the target location when on the bridge.'
     + ' The two easterly locations in [map:neutropolis] have bridges that are flush to the water surface; the locations are just off to one side of the bridge.\n'
     + '\n'
-      + 'It can also matter which zone you are in; the locations on the border between [map:nova-praetoria] and [map:imperial-city] can be approached in either zone.'
-      + ' Of these four, the northernmost should be approached while in [map:nova-praetoria]; the others should be approached while in [map:imperial-city], as should those on the'
-        + ' [map:imperial-city] - [map:neutropolis] border.\n'
-        + '\n'
-        + 'It is best to do this badge as soon as you arrive in Praetoria, even if you are very low level.'
-        + ' There are no enemies in the water, and the method of watching "Closest to Completion" change only works if you have not unwittingly hit some of the waypoints already.',
+    + 'It can also matter which zone you are in; the locations on the border between [map:nova-praetoria] and [map:imperial-city] can be approached in either zone.'
+    + ' Of these four, the northernmost should be approached while in [map:nova-praetoria]; the others should be approached while in [map:imperial-city], as should those on the'
+    + ' [map:imperial-city] - [map:neutropolis] border.\n'
+    + '\n'
+    + 'It is best to do this badge as soon as you arrive in Praetoria, even if you are very low level.'
+    + ' There are no enemies in the water, and the method of watching "Closest to Completion" change only works if you have not unwittingly hit some of the waypoints already.',
   links: [
     { title: 'River Rat Badge', href: 'https://homecoming.wiki/wiki/River Rat_Badge' },
   ],

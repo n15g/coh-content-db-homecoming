@@ -21,8 +21,8 @@ export const Invictus: BadgeData = {
     + 'In addition, favor decreases at a steady pace, so quicker kills will provide greater net favor gain. Once Favor reaches 500, it is fixed and will neither increase nor decrease.\n'
     + '\n'
     + '# The Fight\n'
-      + 'As the God-Champion is injured he will spawn Elite Boss versions of the Challengers from the previous fights. Once he reaches 30% health, he will go invulnerable and'
-      + ' untargetable until the EB\'s are defeated.',
+    + 'As the God-Champion is injured he will spawn Elite Boss versions of the Challengers from the previous fights. Once he reaches 30% health, he will go invulnerable and'
+    + ' untargetable until the EB\'s are defeated.',
   links: [
     { title: 'Invictus Badge', href: 'https://homecoming.wiki/wiki/Invictus_Badge' },
   ],
