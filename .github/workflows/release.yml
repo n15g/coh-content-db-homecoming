@@ -39,6 +39,13 @@ jobs:
           name: 'dist'
           path: 'dist'
 
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          files: 'dist/*'
+
       - name: Publish
         run: npm publish --provenance --access public
         env:
