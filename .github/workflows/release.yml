@@ -24,6 +24,12 @@ jobs:
       - name: Install
         run: npm install
 
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm run test
+
       - name: Build
         run: npm run build
 
@@ -32,6 +38,13 @@ jobs:
         with:
           name: 'dist'
           path: 'dist'
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          files: 'dist/*'
 
       - name: Publish
         run: npm publish --provenance --access public
