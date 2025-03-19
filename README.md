@@ -10,14 +10,13 @@ CoH Content DB - Homecoming data
 
 # Usage
 
-Initialize the database, then load the homecoming data pack:
+Initialize a database with the homecoming data pack:
 
 ```typescript
 import { CohContentDatabase } from 'coh-content-db'
-import { HOMECOMING } from "coh-content-db-homecoming";
+import { HOMECOMING } from 'coh-content-db-homecoming'
 
-const database = new CohContentDatabase()
-database.loadServerGroupData(HOMECOMING)
+const database = new CohContentDatabase(HOMECOMING)
 ```
 
 # Development

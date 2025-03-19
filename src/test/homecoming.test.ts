@@ -12,7 +12,6 @@ describe('HOMECOMING', () => {
   })
 
   test('should load into the db correctly', () => {
-    const database = new CohContentDatabase()
-    database.loadServerGroupData(HOMECOMING)
+    new CohContentDatabase(HOMECOMING)
   })
 })

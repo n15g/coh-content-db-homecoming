@@ -1,10 +1,9 @@
-import { ServerGroupData } from 'coh-content-db'
+import { ContentBundle } from 'coh-content-db'
 import { MAPS } from './map/_maps'
 import { BADGES } from './badge/_badges'
 import { CHANGELOG } from './changelog'
 
-export const HOMECOMING: ServerGroupData = {
-  key: 'homecoming',
+export const HOMECOMING: ContentBundle = {
   name: 'Homecoming',
   description: 'City of Heroes: Homecoming',
   links: [
