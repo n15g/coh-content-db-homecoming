@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { DimensionalExplorer } from '../day-job/dimensional-explorer'
 import { Commuter } from '../day-job/commuter'
 

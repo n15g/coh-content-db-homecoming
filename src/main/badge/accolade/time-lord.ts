@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Cimeroran } from '../day-job/cimeroran'
 import { Chronologist } from '../day-job/chronologist'
 

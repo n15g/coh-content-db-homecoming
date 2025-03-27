@@ -1,7 +1,6 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { DayTrader } from '../day-job/day-trader'
 import { Gunrunner } from '../day-job/gunrunner'
-import { Marketer } from '../consignment/marketer'
 
 export const BlockadeRunner: BadgeData = {
   type: 'ACCOLADE',

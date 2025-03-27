@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { ProfessionalLiar } from '../day-job/professional-liar'
 import { CannonFodder } from '../day-job/cannon-fodder'
 

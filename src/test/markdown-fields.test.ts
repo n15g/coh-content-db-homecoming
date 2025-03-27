@@ -1,7 +1,7 @@
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../main'
 
-const LINK_PATTERN = /\((badge|map):\/\/([^\)]*)\)/g
+const LINK_PATTERN = /\((badge|map):\/\/([^)]*)\)/g
 const database = new CohContentDatabase(HOMECOMING)
 
 function validateLinks(label: string, field?: string): void {
@@ -32,8 +32,7 @@ function validMapKey(key: string): boolean {
 }
 
 describe('Markdown Links', () => {
-  test('should all be to valid entities', () => {
-
+  test('should all be links to valid entities', () => {
     for (const badge of database.badges) {
       validateLinks(`Badge [${badge.key}] notes`, badge.notes)
       validateLinks(`Badge [${badge.key}] acquisition`, badge.acquisition)

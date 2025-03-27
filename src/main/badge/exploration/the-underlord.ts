@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink, mapLink } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AbandonedSewerNetwork } from '../../map/abandoned-sewer-network'
 import { SewerNetwork } from '../../map/sewer-network'
 

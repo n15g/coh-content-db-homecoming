@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { VanguardRecruit } from '../day-job/vanguard-recruit'
 import { Patroller } from '../day-job/patroller'
 

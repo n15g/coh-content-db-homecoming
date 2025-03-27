@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Duelist } from '../day-job/duelist'
 import { Predator } from '../day-job/predator'
 

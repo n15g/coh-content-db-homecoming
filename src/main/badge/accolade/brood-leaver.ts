@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Grounded } from '../day-job/grounded'
 import { ArachnosTraitor } from '../day-job/arachnos-traitor'
 

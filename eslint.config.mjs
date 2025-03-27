@@ -30,7 +30,7 @@ export default [
   {
     rules: {
       'unicorn/prevent-abbreviations': ['off'],
-      'stylistic/brace-style': ['error', '1tbs'],
+      '@stylistic/brace-style': ['error', '1tbs'],
     },
   },
 ]

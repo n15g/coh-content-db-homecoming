@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Professor } from '../day-job/professor'
 import { Caregiver } from '../day-job/caregiver'
 

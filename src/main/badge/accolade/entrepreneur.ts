@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { DayTrader } from '../day-job/day-trader'
 import { ShopKeeper } from '../day-job/shop-keeper'
 
