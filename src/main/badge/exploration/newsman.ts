@@ -1,5 +1,6 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoFaultline } from '../../map/echo-faultline'
+import { Faultline } from '../../map/faultline'
 
 export const Newsman: BadgeData = {
   type: 'EXPLORATION',
@@ -14,9 +15,9 @@ export const Newsman: BadgeData = {
   badgeText: [{ value: `The Theodore Knight building was home to many Super Groups in the years before the Rikti War.` }],
   mapKey: EchoFaultline.key,
   loc: [1125, -26.9, 1296.7],
-  notes: '**Moved from [map:faultline] in Issue 25.**\n'
-    + '\n'
-    + ' Approx. 513 yrds. S of the "Dark Canyons" marker in front of the doors to a grey stoned high-rise that\'s tilting into the canyon, next to the west perimeter wall.',
+  notes: `**Moved from ${mapLink(Faultline)} in Issue 25.**
+
+  Approx. 513 yrds. S of the "Dark Canyons" marker in front of the doors to a grey stoned high-rise that's tilting into the canyon, next to the west perimeter wall.`,
   links: [
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },
   ],

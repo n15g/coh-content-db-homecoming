@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Mortician } from '../day-job/mortician'
 import { Midnighter } from '../day-job/midnighter'
 
@@ -20,7 +20,6 @@ export const Archaeologist: BadgeData = {
       value: `Your time spend working with the Midnighter and uncovering the secrets of buried artifacts has earned you the Archaeologist Accolade.  While logged out in either the Midnighter Club or a Graveyard you will earn additional charges for your Rune of Purification power.`,
     },
   ],
-  notes: `Earn the [badge:mortician] and [badge:midnighter] Day Jobs`,
   links: [
     { title: 'Archaeologist Badge', href: 'https://homecoming.wiki/wiki/Archaeologist_Badge' },
   ],

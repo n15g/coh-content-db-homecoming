@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../map/nerva-archipelago'
 
 export const UnethicalTourist: BadgeData = {
@@ -11,9 +11,9 @@ export const UnethicalTourist: BadgeData = {
   loc: [-644, 16, 6712],
   badgeText: [{
     value: `Crey Corporation has been known to invite tourist groups to see the experiments caged in these pens.
-They justify their actions by claiming the research is to better understand the various subjects contained here.`,
+            They justify their actions by claiming the research is to better understand the various subjects contained here.`,
   }],
-  notes: `Located in [map:${NervaArchipelago.key}], on the eastern island of the Crimson Cove neighborhood.
+  notes: `Located in ${mapLink(NervaArchipelago)}, on the eastern island of the Crimson Cove neighborhood.
 
 It is in the middle of the southwestern specimen hangar, 597 yards east of the neighborhood marker.`,
   links: [

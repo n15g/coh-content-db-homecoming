@@ -1,4 +1,4 @@
-import { BadgeData, createMapReference } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
 import { BingeEater } from '../exploration/binge-eater'
 import { Cluttered } from '../exploration/cluttered'
@@ -20,7 +20,7 @@ export const NeuYouCouldDoIt: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Neutropolis's Underground.` },
   ],
-  notes: `Visit all exploration badges in ${createMapReference(UndergroundNeutropolis)}`,
+  notes: `Visit all exploration badges in ${mapLink(UndergroundNeutropolis)}`,
   links: [
     { title: 'Neu You Could Do It Badge', href: 'https://homecoming.wiki/wiki/Neu_You_Could_Do_It_Badge' },
   ],

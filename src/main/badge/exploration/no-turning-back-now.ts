@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../map/cascade-archipelago'
 
 export const NoTurningBackNow: BadgeData = {
@@ -15,9 +15,9 @@ export const NoTurningBackNow: BadgeData = {
       + ' All thoughts of retreat are discarded as counterproductive, there is no other course of action but to press on.'
       + ' You\'ve been caught in an unseen orbit, around a power you cannot possibly fathom.',
   }],
-  notes: 'Located in [map:cascade-archipelago] 0.53 miles SW of the Tyrant\'s Rock marker, at the base of the geyser on the floating rock.\n'
-    + '\n'
-    + 'To reach it, go approximately 367 yards NNE of the Tyrant\'s Rock marker, and then straight down.',
+  notes: `Located in ${mapLink(CascadeArchipelago)} 0.53 miles SW of the Tyrant's Rock marker, at the base of the geyser on the floating rock.
+
+          To reach it, go approximately 367 yards NNE of the Tyrant's Rock marker, and then straight down.`,
   links: [
     { title: 'No Turning Back Now Badge', href: 'https://homecoming.wiki/wiki/No_Turning_Back_Now_Badge' },
   ],

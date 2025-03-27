@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheChantry } from '../../map/the-chantry'
 
 export const Penitent: BadgeData = {
@@ -17,7 +17,7 @@ export const Penitent: BadgeData = {
       + ' Did you ever give a thought to the people you\'ve been "defeating" in your quest to become a "true hero?"'
       + ' No, of course not, they\'re just points to be earned on some metaphorical scorecard.',
   }],
-  notes: 'Located in [map:the-chantry] 421 yards east of the Bastion of Guilt marker, on the northern edge of the island.',
+  notes: `Located in ${mapLink(TheChantry)} 421 yards east of the Bastion of Guilt marker, on the northern edge of the island.`,
   links: [
     { title: 'Penitent Badge', href: 'https://homecoming.wiki/wiki/Penitent_Badge' },
   ],

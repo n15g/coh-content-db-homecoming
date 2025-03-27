@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Croatoa } from '../../map/croatoa'
 import { GrimWanderer } from '../exploration/grim-wanderer'
 import { Spiritual } from '../exploration/spiritual'
@@ -20,7 +20,7 @@ export const CitizenOfSalamanca: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Croatoa.` },
   ],
-  notes: `Visit all exploration badges in [map:${Croatoa.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(Croatoa)}`,
   links: [
     { title: 'Citizen of Salamanca Badge', href: 'https://homecoming.wiki/wiki/Citizen_of_Salamanca_Badge' },
   ],

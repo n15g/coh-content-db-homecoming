@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundImperial } from '../../map/underground-imperial'
 
 export const SilentWitness: BadgeData = {
@@ -13,7 +13,7 @@ export const SilentWitness: BadgeData = {
     value: 'You have seen much injustice and brutality in your journeys through Praetoria, and here beneath Precinct 4 in Imperial City you are witness to a chamber dedicated to both.'
       + ' Will you remain silent forever?',
   }],
-  notes: 'Located in [map:underground-imperial] in the red area 256 yds. NNE of Underground Transit.',
+  notes: `Located in ${mapLink(UndergroundImperial)} in the red area 256 yds. NNE of Underground Transit.`,
   links: [
     { title: 'Silent Witness Badge', href: 'https://homecoming.wiki/wiki/Silent_Witness_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const DimensionalSojourner: BadgeData = {
@@ -15,7 +15,7 @@ export const DimensionalSojourner: BadgeData = {
       + ' Each minute you spend here places you among a tiny fraction of the human race who have not only left the world of their birth, but breathed the air of an alien world.'
       + ' You are a rare breed, a privileged traveler, a Dimensional Sojourner.',
   }],
-  notes: 'Located in [map:firebase-zulu] 179 yards NE of the Firebase Zulu marker, in the middle of the portals that provide transport to the other Shard zones.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 179 yards NE of the Firebase Zulu marker, in the middle of the portals that provide transport to the other Shard zones.`,
   links: [
     { title: 'Dimensional Sojourner Badge', href: 'https://homecoming.wiki/wiki/Dimensional_Sojourner_Badge' },
   ],

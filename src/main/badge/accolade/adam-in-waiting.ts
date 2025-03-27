@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Eden } from '../../map/eden'
 import { CallOfNature } from '../exploration/call-of-nature'
 import { CreyFish } from '../exploration/crey-fish'
@@ -21,7 +21,7 @@ export const AdamInWaiting: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Eden.` },
   ],
-  notes: `Visit all exploration badges in [map:${Eden.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(Eden)}`,
   links: [
     { title: 'Adam in Waiting Badge', href: 'https://homecoming.wiki/wiki/Adam_in_Waiting_Badge' },
     { title: 'Eve in Waiting Badge', href: 'https://homecoming.wiki/wiki/Eve_in_Waiting_Badge' },

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NightWard } from '../../map/night-ward'
 
 export const Stargazer: BadgeData = {
@@ -11,9 +11,9 @@ export const Stargazer: BadgeData = {
   loc: [178, 944, -227],
   badgeText: [{
     value: `Throwing caution aside you reach the uppermost point of Night Ward.
-Here, scattered spirits soar overhead like shooting stars in the night sky, forever doomed to the limbo of Night Ward as she drifts ever further from the land of the dead.`,
+            Here, scattered spirits soar overhead like shooting stars in the night sky, forever doomed to the limbo of Night Ward as she drifts ever further from the land of the dead.`,
   }],
-  notes: `Located in [map:${NightWard.key}], in the City of Souls neighborhood, 433 yards NE of the map marker; at the top of the Night Ward version of the Westerman Building.`,
+  notes: `Located in ${mapLink(NightWard)}, in the City of Souls neighborhood, 433 yards NE of the map marker; at the top of the Night Ward version of the Westerman Building.`,
   links: [
     { title: 'Stargazer Badge', href: 'https://homecoming.wiki/wiki/Stargazer_Badge' },
   ],

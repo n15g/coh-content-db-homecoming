@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Brickstown } from '../../map/brickstown'
 
 export const SixthPassenger: BadgeData = {
@@ -14,9 +14,9 @@ export const SixthPassenger: BadgeData = {
       + ' It was after the third day, under the cover of night, that his goons in the Family were able to come rescue him.'
       + ' Frost has been extra careful ever since then to never get caught again.',
   }],
-  notes: 'Located along the south edge of [map:brickstown], 390 yards southwest of the Science store.\n'
-    + '\n'
-    + 'There is a section of road that has been built over the ruined foundations of some buildings, and the badge is located near a blue car that is buried under there.',
+  notes: `Located along the south edge of ${mapLink(Brickstown)}, 390 yards southwest of the Science store.
+
+          There is a section of road that has been built over the ruined foundations of some buildings, and the badge is located near a blue car that is buried under there.`,
   links: [
     { title: 'Sixth Passenger Badge', href: 'https://homecoming.wiki/wiki/Sixth_Passenger_Badge' },
   ],

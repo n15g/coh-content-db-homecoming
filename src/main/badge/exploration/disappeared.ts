@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNova } from '../../map/underground-nova'
 
 export const Disappeared: BadgeData = {
@@ -12,7 +12,7 @@ export const Disappeared: BadgeData = {
   badgeText: [{
     value: 'This is where enemies of the State vanish forever. These lost souls have been brought here from the PPD Headquarters for summary execution without review or recourse.',
   }],
-  notes: 'Located in [map:underground-nova] approximately 345 yards NNW of City Access B.',
+  notes: `Located in ${mapLink(UndergroundNova)} approximately 345 yards NNW of City Access B.`,
   links: [
     { title: 'Disappeared Badge', href: 'https://homecoming.wiki/wiki/Disappeared_Badge' },
   ],

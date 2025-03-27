@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AbandonedSewerNetwork } from '../../map/abandoned-sewer-network'
 import { SewerNetwork } from '../../map/sewer-network'
 
@@ -15,7 +15,7 @@ export const SecretOfTheCity: BadgeData = {
       + ' If you listen long enough you can catch snippets of lost conversations.'
       + ' Street lore says that for those with the ability to filter out the dross, these collected voices tell the secrets of the city.',
   }],
-  notes: `Located in [map:abandoned-sewer-network] 66 yards west of the [map:${SewerNetwork.key}] transfer point in Steel Canyon Sector, on the path leading into the sewers.`,
+  notes: `Located in ${mapLink(AbandonedSewerNetwork)} 66 yards west of the ${mapLink(SewerNetwork)} transfer point in Steel Canyon Sector, on the path leading into the sewers.`,
   links: [
     { title: 'Secret of the City Badge', href: 'https://homecoming.wiki/wiki/Secret_of_the_City_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SharkheadIsle } from '../../map/sharkhead-isle'
 
 export const FreakOfNature: BadgeData = {
@@ -12,7 +12,7 @@ export const FreakOfNature: BadgeData = {
   badgeText: [{
     value: `The Freakshow have managed to find utopia in this forsaken slag heap.`,
   }],
-  notes: `Located in [map:${SharkheadIsle.key}], just east of the center of the Freakshow shanty 295 yards north of The Crush neighborhood marker.
+  notes: `Located in ${mapLink(SharkheadIsle)}, just east of the center of the Freakshow shanty 295 yards north of The Crush neighborhood marker.
 
 There is a metal grate bridge leading to a lookout point. The marker is at the start of that metal grate bridge.`,
   links: [

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundImperial } from '../../map/underground-imperial'
 
 export const Hoarder: BadgeData = {
@@ -13,7 +13,7 @@ export const Hoarder: BadgeData = {
     value: 'The Total Praetorian Network produces mounds of disposable media every minute, so much that there is precious little space to store it in or dispose of it safely.'
       + ' Beneath their sprawling campus they store leftover propaganda and obsolete entertainment, a treasure trove for the Hoarder such as yourself.',
   }],
-  notes: 'Located in [map:underground-imperial] in a small room 225 yds. WNW of City Access B.',
+  notes: `Located in ${mapLink(UndergroundImperial)} in a small room 225 yds. WNW of City Access B.`,
   links: [
     { title: 'Hoarder Badge', href: 'https://homecoming.wiki/wiki/Hoarder_Badge' },
   ],

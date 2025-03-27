@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Eden } from '../../map/eden'
 
 export const CreyFish: BadgeData = {
@@ -12,7 +12,7 @@ export const CreyFish: BadgeData = {
   badgeText: [{
     value: `Surprisingly it was the Devouring Earth, not Crey, that caused Woodvale to become the overrun Eden.`,
   }],
-  notes: `Located in [map:${Eden.key}] 26 feet to the east of The Utopia Complex marker.`,
+  notes: `Located in ${mapLink(Eden)} 26 feet to the east of The Utopia Complex marker.`,
   links: [
     { title: 'Crey Fish Badge', href: 'https://homecoming.wiki/wiki/Crey_Fish_Badge' },
   ],

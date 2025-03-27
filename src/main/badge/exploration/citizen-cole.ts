@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NovaPraetoria } from '../../map/nova-praetoria'
 
 export const CitizenCole: BadgeData = {
@@ -13,7 +13,7 @@ export const CitizenCole: BadgeData = {
   ],
   mapKey: NovaPraetoria.key,
   loc: [-3090, -4, -255],
-  notes: 'Located in [map:nova-praetoria] between two bridges to Imperial City in the W part of the Elyssian Avenue neighborhood, 592 yards W of the Magisterium marker.',
+  notes: `Located in ${mapLink(NovaPraetoria)} between two bridges to Imperial City in the W part of the Elyssian Avenue neighborhood, 592 yards W of the Magisterium marker.`,
   links: [
     { title: 'Citizen Cole Badge', href: 'https://homecoming.wiki/wiki/Citizen_Cole_Badge' },
   ],

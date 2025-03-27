@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheAbyss } from '../../map/the-abyss'
 
 export const Geneticist: BadgeData = {
@@ -12,7 +12,7 @@ export const Geneticist: BadgeData = {
   badgeText: [{
     value: `You have visited the infamous 'Site C', where genetic experiments took place before the Devouring Earth took over the Abyss.`,
   }],
-  notes: `Located in [map:${TheAbyss.key}], at the front door of the DE Gen building located on the eastern side of the southern landmass.`,
+  notes: `Located in ${mapLink(TheAbyss)}, at the front door of the DE Gen building located on the eastern side of the southern landmass.`,
   links: [
     { title: 'Geneticist Badge', href: 'https://homecoming.wiki/wiki/Geneticist_Badge' },
   ],

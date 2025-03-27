@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
 
 export const Cluttered: BadgeData = {
@@ -13,7 +13,7 @@ export const Cluttered: BadgeData = {
     value: 'Praetor Berry\'s dizzying research speed accomplishes much, but tends to leave unfinished projects and prototypes in its wake.'
       + ' Some of those half-baked notions end up here. Occasionally, a few get up and walk away.',
   }],
-  notes: 'Located in [map:underground-neutropolis] approximately 105 yds north of the Loyalist Sewer Access.',
+  notes: `Located in ${mapLink(UndergroundNeutropolis)} approximately 105 yds north of the Loyalist Sewer Access.`,
   links: [
     { title: 'Cluttered Badge', href: 'https://homecoming.wiki/wiki/Cluttered_Badge' },
   ],

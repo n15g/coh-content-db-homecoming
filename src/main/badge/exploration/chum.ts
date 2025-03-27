@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { MercyIsland } from '../../map/mercy-island'
 
 export const Chum: BadgeData = {
@@ -12,7 +12,7 @@ export const Chum: BadgeData = {
   badgeText: [{
     value: `Just when you thought it was safe...`,
   }],
-  notes: `Located on [map:${MercyIsland.key}], on a small island due south of Fort Darwin (a base taken over by Longbow). It is on a small beach on the northwest side of the island.`,
+  notes: `Located on ${mapLink(MercyIsland)}, on a small island due south of Fort Darwin (a base taken over by Longbow). It is on a small beach on the northwest side of the island.`,
   links: [
     { title: 'Chum Badge', href: 'https://homecoming.wiki/wiki/Chum_Badge' },
   ],

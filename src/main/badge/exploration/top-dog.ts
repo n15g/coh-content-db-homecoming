@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AtlasPark } from '../../map/atlas-park'
 
 export const TopDog: BadgeData = {
@@ -12,11 +12,11 @@ export const TopDog: BadgeData = {
   badgeText: [{
     value: 'The top of Atlas\' statue is the first place many flying heroes will go.',
   }],
-  notes: 'Located in the Atlas Plaza neighborhood of [map:atlas-park].\n'
-    + '\n'
-    + 'It is at the apex of the globe that the Atlas statue just in front of City Hall is holding.\n'
-    + '\n'
-    + 'Requires fly, superjump, or teleport, or to arrange to have another hero transport them to the badge marker.',
+  notes: `Located in the Atlas Plaza neighborhood of ${mapLink(AtlasPark)}.
+
+          It is at the apex of the globe that the Atlas statue just in front of City Hall is holding.
+
+          Requires fly, superjump, or teleport, or to arrange to have another hero transport them to the badge marker.`,
   links: [
     { title: 'Top Dog Badge', href: 'https://homecoming.wiki/wiki/Top_Dog_Badge' },
   ],

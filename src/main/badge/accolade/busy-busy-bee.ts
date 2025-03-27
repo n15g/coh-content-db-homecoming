@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheHive } from '../../map/the-hive'
 import { AmongTheGiants } from '../exploration/among-the-giants'
 import { BabeInTheWoods } from '../exploration/babe-in-the-woods'
@@ -20,7 +20,7 @@ export const BusyBusyBee: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Hive.` },
   ],
-  notes: `Visit all exploration badges in [map:${TheHive.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(TheHive)}`,
   links: [
     { title: 'Busy, Busy Bee Badge', href: 'https://homecoming.wiki/wiki/Busy%2C_Busy_Bee_Badge' },
   ],

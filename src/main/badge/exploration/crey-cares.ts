@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CreysFolly } from '../../map/creys-folly'
 
 export const CreyCares: BadgeData = {
@@ -14,7 +14,7 @@ export const CreyCares: BadgeData = {
       + ' that would clear from the air and water the strange toxic element that emerged after the Rikti invasion.'
       + ' But those who know the truth, and are not intimidated into silence, know that Crey is actually collecting and concentrating this element for unknown purposes.',
   }],
-  notes: 'Located in [map:creys-folly] 160 yards WSW of the Paragon Water Works marker, on top of the ducts running between the cooling towers.',
+  notes: `Located in ${mapLink(CreysFolly)} 160 yards WSW of the Paragon Water Works marker, on top of the ducts running between the cooling towers.`,
   links: [
     { title: 'Crey Cares Badge', href: 'https://homecoming.wiki/wiki/Crey_Cares_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NightWard } from '../../map/night-ward'
 
 export const FollowTheLight: BadgeData = {
@@ -14,7 +14,7 @@ export const FollowTheLight: BadgeData = {
 The Carnival of Light has been working tirelessly to hold the darkness of this realm at bay by way of their protective luster.
 With the light as your guide you are free to traverse Night Ward's darkest corners, undetected by the countless dangers that heed her call.`,
   }],
-  notes: `Located in [map:${NightWard.key}], in the The Arcane Quarter neighborhood, 99 yards S of the map marker; near the Mistress of Fate.`,
+  notes: `Located in ${mapLink(NightWard)}, in the The Arcane Quarter neighborhood, 99 yards S of the map marker; near the Mistress of Fate.`,
   links: [
     { title: 'Follow the Light Badge', href: 'https://homecoming.wiki/wiki/Follow_the_Light_Badge' },
   ],

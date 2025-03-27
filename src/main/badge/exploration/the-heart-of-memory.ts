@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../map/cascade-archipelago'
 
 export const TheHeartOfMemory: BadgeData = {
@@ -18,7 +18,7 @@ export const TheHeartOfMemory: BadgeData = {
       + ' One memory follows another and as each one does, it becomes increasingly difficult to bring them back.'
       + ' You fear that were you to stay here much longer, the fluid would empty you of all memory.',
   }],
-  notes: 'Located in [map:cascade-archipelago] 544 yards NE of the Crimson Falls marker, in the middle of a lake.',
+  notes: `Located in ${mapLink(CascadeArchipelago)} 544 yards NE of the Crimson Falls marker, in the middle of a lake.`,
   links: [
     { title: 'The Heart of Memory Badge', href: 'https://homecoming.wiki/wiki/The_Heart_of_Memory_Badge' },
   ],

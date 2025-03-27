@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { MonsterIsland } from '../../map/monster-island'
 
 export const DarkGarden: BadgeData = {
@@ -16,7 +16,7 @@ Where was this unknown gardener when the island was overrun?
 Did they remain here to await death alongside their leafy charges? Did they give the ultimate sacrifice for them?
 Did their remains provide nourishment for them? The plants do not deign to answer you.`,
   }],
-  notes: `Located in [map:${MonsterIsland.key}], 131 yards due south of the Cutlass Isles marker, near the door on the inside of the walled-in area.`,
+  notes: `Located in ${mapLink(MonsterIsland)}, 131 yards due south of the Cutlass Isles marker, near the door on the inside of the walled-in area.`,
   links: [
     { title: 'Dark Garden Badge', href: 'https://homecoming.wiki/wiki/Dark_Garden_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../map/peregrine-island'
 
 export const RiktiGoneWild: BadgeData = {
@@ -14,7 +14,8 @@ export const RiktiGoneWild: BadgeData = {
       + ' Investigations into what exactly went wrong have been going on for some time.'
       + ' Many suspect that the Devouring Earth assaulted the island, destroying the barriers put in place to keep the Rikti in.',
   }],
-  notes: 'Located in the Cutlass Isles neighborhood of [map:peregrine-island].\n'
+  notes: `Located in the Cutlass Isles neighborhood of ${mapLink(PeregrineIsland)}.
+`
     + '\n'
     + 'It is at a section of ruined gate 241 yards ENE of the neighborhood marker.',
   links: [

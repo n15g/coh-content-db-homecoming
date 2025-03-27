@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../map/cascade-archipelago'
 
 export const UsurperOfWorlds: BadgeData = {
@@ -18,7 +18,7 @@ export const UsurperOfWorlds: BadgeData = {
       + ' But you shake off this irrational notion and the realization of where you are slaps you in the face.'
       + ' These thoughts are a trap meant to distract you from your real purpose here.',
   }],
-  notes: 'Located in [map:cascade-archipelago] 134 yards NW of the Tyrant\'s Rock marker, in the NW section of the island.',
+  notes: `Located in ${mapLink(CascadeArchipelago)} 134 yards NW of the Tyrant's Rock marker, in the NW section of the island.`,
   links: [
     { title: 'Usurper of Worlds Badge', href: 'https://homecoming.wiki/wiki/Usurper_of_Worlds_Badge' },
   ],

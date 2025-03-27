@@ -1,6 +1,7 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { DayTrader } from '../day-job/day-trader'
 import { Gunrunner } from '../day-job/gunrunner'
+import { Marketer } from '../consignment/marketer'
 
 export const BlockadeRunner: BadgeData = {
   type: 'ACCOLADE',
@@ -18,7 +19,6 @@ export const BlockadeRunner: BadgeData = {
       value: `Your masterful knowledge of the Black Market coupled with knowing where to get the best merchandise has made you a master of the Black Market.  While logged out near Docks or near the Black Market you will earn tokens that will grant you discount when crafting inventions.`,
     },
   ],
-  notes: `Earn the [badge:marketeer] and [badge:smuggler] Day Jobs`,
   links: [
     { title: 'Blockade Runner Badge', href: 'https://homecoming.wiki/wiki/Blockade_Runner_Badge' },
     { title: 'Profiteer Badge', href: 'https://homecoming.wiki/wiki/Profiteer_Badge' },

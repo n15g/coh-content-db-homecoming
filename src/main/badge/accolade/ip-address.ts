@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { IndependencePort } from '../../map/independence-port'
 import { CreyHavoc } from '../exploration/crey-havoc'
 import { Valorous } from '../exploration/valorous'
@@ -20,7 +20,7 @@ export const IPAddress: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Independence Port.` },
   ],
-  notes: `Visit all exploration badges in [map:${IndependencePort.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(IndependencePort)}`,
   links: [
     { title: 'IP Address Badge', href: 'https://homecoming.wiki/wiki/IP_Address_Badge' },
   ],

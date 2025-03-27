@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AtlasPark } from '../../map/atlas-park'
 import { Undefeated } from '../exploration/undefeated'
 import { SilentSentinel } from '../exploration/silent-sentinel'
@@ -20,7 +20,7 @@ export const AtlasTourGuide: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Atlas Park.` },
   ],
-  notes: `Visit all exploration badges in [map:${AtlasPark.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(AtlasPark)}`,
   links: [
     { title: 'Atlas Tour Guide Badge', href: 'https://homecoming.wiki/wiki/Atlas_Tour_Guide_Badge' },
   ],

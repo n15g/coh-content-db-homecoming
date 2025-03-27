@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Neutropolis } from '../../map/neutropolis'
 
 export const StuffOfLife: BadgeData = {
@@ -12,7 +12,7 @@ export const StuffOfLife: BadgeData = {
   badgeText: [{
     value: 'Praetor Berry\'s choice of decorations always hearken back to his reason d\'etre - unlocking the secrets of the flesh held in sinew, cell, and DNA.',
   }],
-  notes: 'Located in [map:neutropolis] next to the DNA sculpture in the Neuron\'s Reach neighborhood, 74 yards west of Battle Maiden.',
+  notes: `Located in ${mapLink(Neutropolis)} next to the DNA sculpture in the Neuron's Reach neighborhood, 74 yards west of Battle Maiden.`,
   links: [
     { title: 'Stuff of Life Badge', href: 'https://homecoming.wiki/wiki/Stuff_of_Life_Badge' },
   ],

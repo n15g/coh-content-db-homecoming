@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Neutropolis } from '../../map/neutropolis'
 import { Airlift } from '../exploration/airlift'
 import { DontDrinkIt } from '../exploration/dont-drink-it'
@@ -21,7 +21,7 @@ export const ANeuMan: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Neutropolis.` },
   ],
-  notes: `Visit all exploration badges in [map:${Neutropolis.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(Neutropolis)}`,
   links: [
     { title: 'A Neu Man Badge', href: 'https://homecoming.wiki/wiki/A_Neu_Man_Badge' },
     { title: 'A Neu Woman Badge', href: 'https://homecoming.wiki/wiki/A_Neu_Woman_Badge' },

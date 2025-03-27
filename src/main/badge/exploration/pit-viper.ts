@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SharkheadIsle } from '../../map/sharkhead-isle'
 
 export const PitViper: BadgeData = {
@@ -12,7 +12,7 @@ export const PitViper: BadgeData = {
   badgeText: [{
     value: `This hole is used by the locals as a makeshift arena for fighting and wagering.`,
   }],
-  notes: `Located in [map:${SharkheadIsle.key}], at the bottom of the pit in The Pit neighborhood.
+  notes: `Located in ${mapLink(SharkheadIsle)}, at the bottom of the pit in The Pit neighborhood.
 
 The badge marker is located 70 feet west of The Pit marker.`,
   links: [

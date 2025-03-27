@@ -18,13 +18,13 @@ export const TemperedThroughFire: BadgeData = {
   badgeText: [
     { value: `Through fire and flame your resolve has been tempered like finely forged steel.` },
   ],
-  notes: `Earn the following badges to earn this badge: [badge:loyalist], [badge:magistrate], [badge:tyrant], [badge:resistance-member], [badge:obliterator], [badge:survivor] and [badge:escapist]. [Rewards 20 Merits]`,
   links: [
     { title: 'Tempered Through Fire Badge', href: 'https://homecoming.wiki/wiki/Tempered_Through_Fire_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/tempered-through-fire.png' },
   ],
+  effect: 'Rewards 20 Merits',
   partials: [
     { key: Loyalist.key, type: 'BADGE', badgeKey: Loyalist.key },
     { key: Magistrate.key, type: 'BADGE', badgeKey: Magistrate.key },

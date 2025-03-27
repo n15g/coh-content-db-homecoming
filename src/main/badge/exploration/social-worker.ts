@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StMartial } from '../../map/st-martial'
 
 export const SocialWorker: BadgeData = {
@@ -15,7 +15,7 @@ export const SocialWorker: BadgeData = {
   badgeText: [{
     value: `These slums are known to house people who have lost everything at the Golden Giza. These wanderers have become large enough in numbers to form their own community.`,
   }],
-  notes: `Located in [map:${StMartial.key}], in the Black Mariah neighborhood.
+  notes: `Located in ${mapLink(StMartial)}, in the Black Mariah neighborhood.
 
 It is at the entrance of the underground slums 185 yards northeast of the neighborhood marker.`,
   links: [

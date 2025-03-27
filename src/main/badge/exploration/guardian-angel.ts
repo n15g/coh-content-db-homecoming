@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FoundersFalls } from '../../map/founders-falls'
 
 export const GuardianAngel: BadgeData = {
@@ -17,7 +17,7 @@ export const GuardianAngel: BadgeData = {
       + ' Unknown to the people, it is because each of the angelic statues overlooking it is embedded with a magical rune, warding off evil forces from the area.'
       + ' The presence of Numina and Infernal prevent the wards from being shattered easily - but if they were to be disposed of, it wouldn\'t be long until the wards were broken.',
   }],
-  notes: 'Located in the Williams Square neighborhood of [map:founders-falls], on the north side of the fountain in the main plaza.',
+  notes: `Located in the Williams Square neighborhood of ${mapLink(FoundersFalls)}, on the north side of the fountain in the main plaza.`,
   links: [
     { title: 'Guardian Angel Badge', href: 'https://homecoming.wiki/wiki/Guardian_Angel_Badge' },
     { title: 'Barely Contained Badge', href: 'https://homecoming.wiki/wiki/Barely_Contained_Badge' },

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { RiktiWarZone } from '../../map/rikti-war-zone'
 
 export const Lifesaver: BadgeData = {
@@ -10,7 +10,7 @@ export const Lifesaver: BadgeData = {
   mapKey: RiktiWarZone.key,
   loc: [-425, 15, -206],
   badgeText: [{ value: 'Rikti\'s continuous attacks on this hospital prompted Paragon City officials to shut it down.' }],
-  notes: 'The Lifesaver Badge is located in the northeast corner of the Pavia neighborhood of the [map:${RiktiWarZone.key}].',
+  notes: `The Lifesaver Badge is located in the northeast corner of the Pavia neighborhood of the ${mapLink(RiktiWarZone)}.`,
   links: [
     { title: 'Lifesaver Badge', href: 'https://homecoming.wiki/wiki/Lifesaver_Badge' },
     { title: 'Updated RWZ Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

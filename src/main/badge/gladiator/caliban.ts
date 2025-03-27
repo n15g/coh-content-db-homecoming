@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Regenerator } from '../defeat/regenerator'
 
 export const Caliban: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Caliban: BadgeData = {
   badgeText: [
     { value: 'The Trolls respect your might.' },
   ],
-  acquisition: 'Earn the [badge:regenerator] Badge (Trolls)',
+  acquisition: `Earn the ${badgeLink(Regenerator)} Badge (Trolls)`,
   links: [
     { title: 'Caliban Badge', href: 'https://homecoming.wiki/wiki/Caliban_Badge' },
   ],

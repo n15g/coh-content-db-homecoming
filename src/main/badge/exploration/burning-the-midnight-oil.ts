@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CreysFolly } from '../../map/creys-folly'
 
 export const BurningTheMidnightOil: BadgeData = {
@@ -12,9 +12,9 @@ export const BurningTheMidnightOil: BadgeData = {
   badgeText: [{
     value: 'The United States once held their oil reserves in Paragon City, until the reserves became an attractive target for villains trying to make names for themselves.',
   }],
-  notes: 'Located in [map:creys-folly] on a catwalk 180 yards northwest of the Crey Factories marker.\n'
-    + '\n'
-    + 'It is on the western side of the second silo rising out of the sludge, from left (north) to right (south).',
+  notes: `Located in ${mapLink(CreysFolly)} on a catwalk 180 yards northwest of the Crey Factories marker.
+
+          It is on the western side of the second silo rising out of the sludge, from left (north) to right (south).`,
   links: [
     { title: 'Burning the Midnight Oil Badge', href: 'https://homecoming.wiki/wiki/Burning_the_Midnight_Oil_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const XRaySpectator: BadgeData = {
@@ -16,7 +16,7 @@ export const XRaySpectator: BadgeData = {
       + ' against the "hostiles" and so they offer you a grudging respect.'
       + ' Though they are not ready to give you the title of fellow X-Raider... yet.',
   }],
-  notes: 'Located in [map:firebase-zulu] 208 yards NW of the Point X-Ray marker, on top of the base\'s outer wall.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 208 yards NW of the Point X-Ray marker, on top of the base's outer wall.`,
   links: [
     { title: 'X-Ray Spectator Badge', href: 'https://homecoming.wiki/wiki/X-Ray_Spectator_Badge' },
   ],

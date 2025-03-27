@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NovaPraetoria } from '../../map/nova-praetoria'
 
 export const OnTheWaterfront: BadgeData = {
@@ -12,7 +12,7 @@ export const OnTheWaterfront: BadgeData = {
   badgeText: [{
     value: 'Many retreat to the quiet of the waterfront to get away from the hustle and bustle of the Magisterium.',
   }],
-  notes: 'Located in [map:nova-praetoria] on the lower ledge along the river, 211 yards south of Underground Access B.',
+  notes: `Located in ${mapLink(NovaPraetoria)} on the lower ledge along the river, 211 yards south of Underground Access B.`,
   links: [
     { title: 'On the Waterfront Badge', href: 'https://homecoming.wiki/wiki/On_the_Waterfront_Badge' },
   ],

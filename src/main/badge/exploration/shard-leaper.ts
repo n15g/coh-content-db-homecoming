@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const ShardLeaper: BadgeData = {
@@ -14,7 +14,7 @@ export const ShardLeaper: BadgeData = {
       + ' One of the ways by which they welcome new recruits to their station is to take a "hop" over to the neighboring shard for a quick strike-and-fade attack against the enemy.'
       + ' They welcome you to do the same.',
   }],
-  notes: 'Located in [map:firebase-zulu] 423 yards NW of the Point Sierra marker, on the north side of the small island.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 423 yards NW of the Point Sierra marker, on the north side of the small island.`,
   links: [
     { title: 'Shard Leaper Badge', href: 'https://homecoming.wiki/wiki/Shard_Leaper_Badge' },
   ],

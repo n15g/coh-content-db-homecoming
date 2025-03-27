@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CreysFolly } from '../../map/creys-folly'
 
 export const FreaksFolly: BadgeData = {
@@ -15,7 +15,7 @@ export const FreaksFolly: BadgeData = {
       + ' In truth, however, the poisons that suffuse the ground, water, and air of Crey\'s Folly are slowly taking their toll and were it not for the general lethality of the Freakshow\'s'
       + ' lifestyle, the numbers lost to the environmental toxins would be more apparent.',
   }],
-  notes: 'Located in [map:creys-folly] 254 yards NW of the Carnival Town marker, inside the Freakshow fortress.',
+  notes: `Located in ${mapLink(CreysFolly)} 254 yards NW of the Carnival Town marker, inside the Freakshow fortress.`,
   links: [
     { title: 'Freak\'s Folly Badge', href: 'https://homecoming.wiki/wiki/Freak%27s_Folly_Badge' },
   ],

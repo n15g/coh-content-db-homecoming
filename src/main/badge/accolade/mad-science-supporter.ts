@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CapAuDiable } from '../../map/cap-au-diable'
 import { Sparky } from '../exploration/sparky'
 import { MediaJunky } from '../exploration/media-junky'
@@ -20,7 +20,7 @@ export const MadScienceSupporter: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Cap Au Diable.` },
   ],
-  notes: `Visit all exploration badges in [map:${CapAuDiable.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(CapAuDiable)}`,
   links: [
     { title: 'Mad Science Supporter Badge', href: 'https://homecoming.wiki/wiki/Mad_Science_Supporter_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SharkheadIsle } from '../../map/sharkhead-isle'
 
 export const CarpingTheDiem: BadgeData = {
@@ -13,7 +13,7 @@ export const CarpingTheDiem: BadgeData = {
     value: `The Carpe Diem is the Family's 'flagship' for various overseas deals that they make.
  The ship is periodically grounded to deal with troublesome Scrapyarders.`,
   }],
-  notes: `Located in [map:${SharkheadIsle.key}], in the Port Recluse neighborhood.
+  notes: `Located in ${mapLink(SharkheadIsle)}, in the Port Recluse neighborhood.
 
 It is in front of the cabin door of the ship in dry dock, 412 yards northwest of the neighborhood marker.`,
   links: [

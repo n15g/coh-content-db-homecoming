@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { WashedUp } from '../exploration/washed-up'
 
 export const Mook: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Mook: BadgeData = {
   badgeText: [
     { value: 'Dese guys is part of your crew.' },
   ],
-  acquisition: 'Earn the [badge:washed-up] Badge (Mooks)',
+  acquisition: `Earn the ${badgeLink(WashedUp)} Badge (Mooks)`,
   links: [
     { title: 'Mook Badge', href: 'https://homecoming.wiki/wiki/Mook_Badge' },
   ],

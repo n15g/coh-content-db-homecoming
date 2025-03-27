@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const ShadowArchitect: BadgeData = {
@@ -16,7 +16,7 @@ export const ShadowArchitect: BadgeData = {
       + ' The crews met the unearthly challenges that faced them and established numerous military facilities in this strange territory.'
       + ' There is something almost surreal about seeing this construction crane, something so commonplace on Earth here in an alien dimension: the mundane meeting the unearthly.',
   }],
-  notes: 'Located in [map:firebase-zulu] 181 yards NNW of the Point Foxtrot marker, on top of the west end of the arm on top of the crane.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 181 yards NNW of the Point Foxtrot marker, on top of the west end of the arm on top of the crane.`,
   links: [
     { title: 'Shadow Architect Badge', href: 'https://homecoming.wiki/wiki/Shadow Architect_Badge' },
   ],

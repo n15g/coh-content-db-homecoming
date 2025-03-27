@@ -1,4 +1,4 @@
-import { BadgeData, createBadgeReference } from 'coh-content-db'
+import { BadgeData, badgeLink, mapLink } from 'coh-content-db'
 import { DarkAstoria } from '../../map/dark-astoria'
 import { EyeOfVengeance } from '../accomplishment/eye-of-vengeance'
 import { TheDeterminedMentor } from '../accomplishment/the-determined-mentor'
@@ -27,16 +27,18 @@ export const DestroyerOfDespair: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [
-    { value: `Mot represented hatred and despair. It tried to twist the memories of all those it came across, aiming to make them believe there was no hope in their lives, that all of their hopes and dreams were meaningless. You fully conquered the forces of Mot and showed the creature just how wrong it was.` },
+    {
+      value: `Mot represented hatred and despair. It tried to twist the memories of all those it came across, aiming to make them believe there was no hope in their lives, that all of their hopes and dreams were meaningless.
+              You fully conquered the forces of Mot and showed the creature just how wrong it was.`,
+    },
   ],
-  notes: `
-Collect
+  notes: `Collect
 
-* All six story arc completion badges (${createBadgeReference(EyeOfVengeance)}, ${createBadgeReference(TheDeterminedMentor)}, ${createBadgeReference(KnifeButcher)}, ${createBadgeReference(HunterOfSpecters)}, ${createBadgeReference(TheTimelessAdventurer)}, and ${createBadgeReference(HeartOfHatred)})
-* All six personal mission completion badges (${createBadgeReference(ArchitectWriter)}, ${createBadgeReference(BoundForGlory)}, ${createBadgeReference(NaniteMan)}, ${createBadgeReference(PraetorSelfish)}, ${createBadgeReference(CimeroranHero)}, and ${createBadgeReference(TruthTeller)})
-* All five mission achievement badges (${createBadgeReference(TimeSaver)}, ${createBadgeReference(KnowsNoFear)}, ${createBadgeReference(IncarnateRival)}, ${createBadgeReference(BuddyCop)}, and ${createBadgeReference(LoneWolf)})
-
-in [map:${DarkAstoria.key}]`,
+          * All six story arc completion badges (${badgeLink(EyeOfVengeance)}, ${badgeLink(TheDeterminedMentor)}, ${badgeLink(KnifeButcher)}, ${badgeLink(HunterOfSpecters)}, ${badgeLink(TheTimelessAdventurer)}, and ${badgeLink(HeartOfHatred)})
+          * All six personal mission completion badges (${badgeLink(ArchitectWriter)}, ${badgeLink(BoundForGlory)}, ${badgeLink(NaniteMan)}, ${badgeLink(PraetorSelfish)}, ${badgeLink(CimeroranHero)}, and ${badgeLink(TruthTeller)})
+          * All five mission achievement badges (${badgeLink(TimeSaver)}, ${badgeLink(KnowsNoFear)}, ${badgeLink(IncarnateRival)}, ${badgeLink(BuddyCop)}, and ${badgeLink(LoneWolf)})
+          
+          in ${mapLink(DarkAstoria)}`,
   links: [
     { title: 'Destroyer of Despair Badge', href: 'https://homecoming.wiki/wiki/Destroyer_of_Despair_Badge' },
   ],

@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Pirate } from '../defeat/pirate'
 
 export const NightHaunt: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const NightHaunt: BadgeData = {
   badgeText: [
     { value: 'These tormented souls are bound to you.' },
   ],
-  acquisition: 'Earn the [badge:pirate] Badge (Spectral Pirates)',
+  acquisition: `Earn the ${badgeLink(Pirate)} Badge (Spectral Pirates)`,
   links: [
     { title: 'Night Haunt Badge', href: 'https://homecoming.wiki/wiki/Night_Haunt_Badge' },
   ],

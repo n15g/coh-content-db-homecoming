@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AbandonedSewerNetwork } from '../../map/abandoned-sewer-network'
 import { BoomtownRefugee } from '../exploration/boomtown-refugee'
 import { FromBeneathYou } from '../exploration/from-beneath-you'
@@ -20,7 +20,7 @@ export const MasterPlumber: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Abandoned Sewer Network.` },
   ],
-  notes: `Visit all exploration badges in [map:${AbandonedSewerNetwork.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(AbandonedSewerNetwork)}`,
   links: [
     { title: 'Master Plumber Badge', href: 'https://homecoming.wiki/wiki/Master_Plumber_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { ImperialCity } from '../../map/imperial-city'
 
 export const ParkRanger: BadgeData = {
@@ -12,7 +12,7 @@ export const ParkRanger: BadgeData = {
   badgeText: [{
     value: 'People\'s Park was established as a place of peace and recreation for the citizens of Praetoria. By patrolling it you do a service to Praetoria and its people.',
   }],
-  notes: 'Located in [map:imperial-city] 144 yards NW of the People\'s Park marker.',
+  notes: `Located in ${mapLink(ImperialCity)} 144 yards NW of the People's Park marker.`,
   links: [
     { title: 'Park Ranger Badge', href: 'https://homecoming.wiki/wiki/Park_Ranger_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AtlasPark } from '../../map/atlas-park'
 
 export const AgentOfOrder: BadgeData = {
@@ -13,7 +13,7 @@ export const AgentOfOrder: BadgeData = {
     { alignment: 'H', value: `Without heroes like you the world would fall into chaos and despair.` },
     { alignment: 'V', value: `You leave nothing but chaos and destruction in your wake!` },
   ],
-  acquisition: `Complete every story arc in [map:${AtlasPark.key}]`,
+  acquisition: `Complete every story arc in ${mapLink(AtlasPark)}`,
   notes: `
 This badge rewards 20 reward merits for completing the following story arcs (contact in parentheses):
 

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheStormPalace } from '../../map/the-storm-palace'
 
 export const Tormented: BadgeData = {
@@ -11,11 +11,11 @@ export const Tormented: BadgeData = {
   loc: [-8161, 1101, 5762],
   badgeText: [{
     value: `The Shadow Shard is a prison created to house a powerful entity, an entity tormented by its imprisonment.
-Its sense of indignity, of injustice, has been concentrated here to such a degree that it has become part of the dimension.
-You can feel the entity's raw emotion flow through you; you have felt it from the very moment you arrived and it has been chipping away at your sense of self ever since.
-Remaining here risks making these emotions part of yourself; or worse, you risk being subsumed by the Shadow Shard, losing all identity and will by becoming one with Rularuu.`,
+            Its sense of indignity, of injustice, has been concentrated here to such a degree that it has become part of the dimension.
+            You can feel the entity's raw emotion flow through you; you have felt it from the very moment you arrived and it has been chipping away at your sense of self ever since.
+            Remaining here risks making these emotions part of yourself; or worse, you risk being subsumed by the Shadow Shard, losing all identity and will by becoming one with Rularuu.`,
   }],
-  notes: `Located in [map:${TheStormPalace.key}] 0.59 miles SSE of the Lock of Hatred marker and 0.69 miles NE of the Lock of Malice marker.
+  notes: `Located in ${mapLink(TheStormPalace)} 0.59 miles SSE of the Lock of Hatred marker and 0.69 miles NE of the Lock of Malice marker.
 It is on the west side of the eastern-most island of Lock of Torment.`,
   links: [
     { title: 'Tormented Badge', href: 'https://homecoming.wiki/wiki/Tormented_Badge' },

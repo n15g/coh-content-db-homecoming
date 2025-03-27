@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Cimerora } from '../../map/cimerora'
 
 export const DarknessUnleashed: BadgeData = {
@@ -10,7 +10,7 @@ export const DarknessUnleashed: BadgeData = {
   badgeText: [{ value: `The mighty beasts that roam the hills of Cimerora guard certain cave entrances fiercely. Rumours say that 'dark ones' are the source of their power, and entering those caves is the first step in walking the Path of the Dark.` }],
   mapKey: Cimerora.key,
   loc: [-170, 192.3, 1490],
-  notes: `Located in [map:cimerora] in the northwest corner of Castellum Quarter, between two trees along the cliffs, 501 yards northwest of the Castellum Quarter neighborhood marker.`,
+  notes: `Located in ${mapLink(Cimerora)} in the northwest corner of Castellum Quarter, between two trees along the cliffs, 501 yards northwest of the Castellum Quarter neighborhood marker.`,
   links: [
     { title: 'Darkness Unleashed Badge', href: 'https://homecoming.wiki/wiki/Darkness_Unleashed_Badge' },
   ],

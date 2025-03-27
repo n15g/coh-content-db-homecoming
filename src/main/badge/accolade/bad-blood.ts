@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { BloodyBay } from '../../map/bloody-bay'
 import { Lobbyist } from '../exploration/lobbyist'
 import { Hungry } from '../exploration/hungry'
@@ -21,7 +21,7 @@ export const BadBlood: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Bloody Bay.` },
   ],
-  notes: `Visit all exploration badges in [map:${BloodyBay.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(BloodyBay)}`,
   links: [
     { title: 'Bad Blood Badge', href: 'https://homecoming.wiki/wiki/Bad_Blood_Badge' },
   ],

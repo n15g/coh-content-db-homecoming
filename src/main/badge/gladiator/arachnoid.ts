@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { SewerDweller } from '../exploration/sewer-dweller'
 
 export const Arachnoid: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Arachnoid: BadgeData = {
   badgeText: [
     { value: 'These hideous creatures obey you.' },
   ],
-  acquisition: 'Earn the [badge:sewer-dweller] Badge (Arachnoids)',
+  acquisition: `Earn the ${badgeLink(SewerDweller)} Badge (Arachnoids)`,
   links: [
     { title: 'Arachnoid Badge', href: 'https://homecoming.wiki/wiki/Arachnoid_Badge' },
   ],

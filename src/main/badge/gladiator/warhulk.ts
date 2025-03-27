@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Meteorologist } from '../accomplishment/meteorologist'
 
 export const Warhulk: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Warhulk: BadgeData = {
   badgeText: [
     { value: 'The Warhulks will fight as your gladiators -- for now.' },
   ],
-  acquisition: 'Earn the [badge:meteorologist] Badge (Nemesis)',
+  acquisition: `Earn the ${badgeLink(Meteorologist)} Badge (Nemesis)`,
   links: [
     { title: 'Warhulk Badge', href: 'https://homecoming.wiki/wiki/Warhulk_Badge' },
   ],

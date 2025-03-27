@@ -1,5 +1,6 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../map/rikti-war-zone'
 
 export const Ace: BadgeData = {
   type: 'EXPLORATION',
@@ -10,9 +11,9 @@ export const Ace: BadgeData = {
   mapKey: EchoRiktiCrashSite.key,
   loc: [1360, 292.5, -276.9],
   badgeText: [{ value: 'This statue honors Mustang, a valiant hero who fought during WWII.' }],
-  notes: '**Moved from [map:rikti-war-zone] in Issue 25.**\n'
-    + '\n'
-    + 'On the outstretched hand of the statue of Mustang.',
+  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+
+          On the outstretched hand of the statue of Mustang.`,
   links: [
     { title: 'Ace Badge', href: 'https://homecoming.wiki/wiki/Ace_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

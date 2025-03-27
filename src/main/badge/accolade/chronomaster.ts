@@ -24,7 +24,6 @@ export const Chronomaster: BadgeData = {
   badgeText: [
     { value: `You are a proven master of Time Travel.` },
   ],
-  notes: `Earn the following Ouroboros badges to earn this badge: [badge:ouroboros-mender], [badge:praetorian-tourist], [badge:demarcated], [badge:intrepid], [badge:marginalized], [badge:suspended], [badge:temerarious], [badge:undertaker], [badge:unenhanced], [badge:uninspired], [badge:gold-medalist] and [badge:all-for-one-one-for-all].`,
   links: [
     { title: 'Chronomaster Badge', href: 'https://homecoming.wiki/wiki/Chronomaster_Badge' },
   ],

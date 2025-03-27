@@ -1,4 +1,4 @@
-import { BadgeData, createBadgeReference } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { ProtectorOfInnocents } from '../achievement/protector-of-innocents'
 
 export const WolfSpiderEnforcer: BadgeData = {
@@ -12,7 +12,7 @@ export const WolfSpiderEnforcer: BadgeData = {
   badgeText: [
     { value: 'These soldiers will fight for you.' },
   ],
-  acquisition: `Earn the ${createBadgeReference(ProtectorOfInnocents)} Badge (Arachnos)`,
+  acquisition: `Earn the ${badgeLink(ProtectorOfInnocents)} Badge (Arachnos)`,
   links: [
     { title: 'Wolf Spider Enforcer Badge', href: 'https://homecoming.wiki/wiki/Wolf_Spider_Enforcer_Badge' },
   ],

@@ -10,7 +10,7 @@ export const Ragnarok: BadgeData = {
   mapKey: ReclusesVictory.key,
   loc: [-848, -15, -352],
   badgeText: [{ value: 'Some say this battle will signal the end of civilization as we know it, and the beginning of a new history—written by Lord Recluse.' }],
-  notes: 'The Ragnarok Badge is located in the [map:${ReclusesVictory.key}] zone in Sector 3.'
+  notes: 'The Ragnarok Badge is located in the ${mapLink(ReclusesVictory)} zone in Sector 3.'
     + ' It is at the north end of a cobblestone walkway on the western side of a small park, 418 yards due south of the Echo pillbox.',
   links: [
     { title: 'Ragnaraok Badge', href: 'https://homecoming.wiki/wiki/Ragnarok_Badge' },

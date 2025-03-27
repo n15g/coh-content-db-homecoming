@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StMartial } from '../../map/st-martial'
 
 export const CamelSnot: BadgeData = {
@@ -12,7 +12,7 @@ export const CamelSnot: BadgeData = {
   badgeText: [{
     value: `You've finally done it, you've mastered the art of mixing the elusive 'Camel Snot'`,
   }],
-  notes: `Located in [map:${StMartial.key}], on the Golden Giza casino in the Babylon neighborhood.
+  notes: `Located in ${mapLink(StMartial)}, on the Golden Giza casino in the Babylon neighborhood.
 
 The marker is on the top balcony (the last one before you reach the top of the pyramid). It is just west of the centerline of the slope.`,
   links: [

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheHive } from '../../map/the-hive'
 import { Eden } from '../../map/eden'
 
@@ -15,7 +15,7 @@ export const ForestOfStone: BadgeData = {
 It has become their unwelcome calling card.
 The devastation they wreak is extensive, as they thrust upward from the ground toppling buildings, shattering roadways, and punching through even the most solidly built human-made constructs.`,
   }],
-  notes: `Located in [map:${TheHive.key}] 0.78 miles northwest of the [map:${Eden.key}] transfer point, in a valley close to a barricade of monsters just off the northwest edge of the crater.`,
+  notes: `Located in ${mapLink(TheHive)} 0.78 miles northwest of the ${mapLink(Eden)} transfer point, in a valley close to a barricade of monsters just off the northwest edge of the crater.`,
   links: [
     { title: 'Forest of Stone Badge', href: 'https://homecoming.wiki/wiki/Forest_of_Stone_Badge' },
   ],

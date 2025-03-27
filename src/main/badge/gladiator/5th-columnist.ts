@@ -1,4 +1,7 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Celebrant } from '../event/celebrant'
+import { Reveler } from '../event/reveler'
+import { ColumnBreaker } from '../accomplishment/column-breaker'
 
 export const _5thColumnist: BadgeData = {
   type: 'GLADIATOR',
@@ -14,7 +17,7 @@ export const _5thColumnist: BadgeData = {
         + 'Reichsman, you have been granted access to a 5th Column Gladiator!',
     },
   ],
-  acquisition: 'Earn the [badge:celebrant] and [badge:reveler] badges, or earn the [badge:column-breaker] Badge. (5th Column)',
+  acquisition: `Earn the ${badgeLink(Celebrant)} and ${badgeLink(Reveler)}} badges, or earn the ${badgeLink(ColumnBreaker)}} badge. (5th Column)`,
   links: [
     { title: '5th Columnist Badge', href: 'https://homecoming.wiki/wiki/5th_Columnist_Badge' },
   ],

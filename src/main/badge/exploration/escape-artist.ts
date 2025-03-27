@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Faultline } from '../../map/faultline'
 
 export const EscapeArtist: BadgeData = {
@@ -13,7 +13,7 @@ export const EscapeArtist: BadgeData = {
   ],
   mapKey: Faultline.key,
   loc: [-679, -167, -208],
-  notes: 'In [map:${Faultline.key}], halfway between Freight Lifts B and C, there is a crevasse to the north. The badge marker is at the end of the bottom of that crevasse.',
+  notes: `In ${mapLink(Faultline)}, halfway between Freight Lifts B and C, there is a crevasse to the north. The badge marker is at the end of the bottom of that crevasse.`,
   links: [
     { title: 'Escape Artist Badge', href: 'https://homecoming.wiki/wiki/Escape_Artist_Badge' },
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },

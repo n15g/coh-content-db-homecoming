@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const AlphaRanger: BadgeData = {
@@ -15,7 +15,7 @@ export const AlphaRanger: BadgeData = {
       + ' Coming here is viewed as both a blessing; the men cheer any powered assistance they can get against an enemy they can barely comprehend; and a curse, for your presence indicates'
       + ' the danger they are in and the inadequacy of their modern weapons against this threat. But being here has made you an honorary Alpha Ranger.',
   }],
-  notes: 'Located in [map:firebase-zulu] 140 yards SE of the Point Alpha marker, just East of the truck parked inside the base.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 140 yards SE of the Point Alpha marker, just East of the truck parked inside the base.`,
   links: [
     { title: 'Alpha Ranger Badge', href: 'https://homecoming.wiki/wiki/Alpha Ranger_Badge' },
   ],

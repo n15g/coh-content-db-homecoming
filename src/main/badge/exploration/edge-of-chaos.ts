@@ -1,5 +1,6 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AtlasPark } from '../../map/atlas-park'
+import { ReclusesVictory } from '../../map/recluses-victory'
 
 export const EdgeOfChaos: BadgeData = {
   type: 'EXPLORATION',
@@ -13,9 +14,9 @@ export const EdgeOfChaos: BadgeData = {
     value: 'Longbow has set up this portal in the heart of City Hall. It leads to a possible future where Recluse achieves his ultimate victory over Atlas Park.'
       + ' While it\'s business as usual in City Hall, Longbow fights for their lives against Arachnos on the other side of this portal.',
   }],
-  notes: 'The Edge of Chaos Badge is located in City Hall at the back of the D.A.T.A room.\n'
+  notes: `The Edge of Chaos Badge is located in City Hall at the back of the D.A.T.A room.\n'
     + '\n'
-    + 'It is just before you reach the elevator that takes you to the portal to [map:recluses-victory]',
+    + 'It is just before you reach the elevator that takes you to the portal to ${mapLink(ReclusesVictory)}`,
   links: [
     { title: 'Edge of Chaos Badge', href: 'https://homecoming.wiki/wiki/Edge_of_Chaos_Badge' },
   ],

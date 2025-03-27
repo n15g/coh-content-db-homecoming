@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SewerNetwork } from '../../map/sewer-network'
 import { AtlasPark } from '../../map/atlas-park'
 
@@ -16,7 +16,7 @@ Others turn their attention downwards, to the unseen avenues that underlie this 
 Not content to grandstand beneath Atlas's statue, hob-nobbing with the likes of Ms. Liberty, you understand that dark dangers live just beneath Atlas Park's streets.
 You are determined to keep those dangers contained lest they stain Paragon City's glittering heart.`,
   }],
-  notes: `Located in [map:${SewerNetwork.key}] 272 yards southwest of the [map:${AtlasPark.key}] Sector marker, in the middle of the metal walkway.`,
+  notes: `Located in ${mapLink(SewerNetwork)} 272 yards southwest of the ${mapLink(AtlasPark)} Sector marker, in the middle of the metal walkway.`,
   links: [
     { title: 'Downward Bound Badge', href: 'https://homecoming.wiki/wiki/Downward_Bound_Badge' },
   ],

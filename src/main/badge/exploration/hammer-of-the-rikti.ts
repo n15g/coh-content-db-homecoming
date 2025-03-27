@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CreysFolly } from '../../map/creys-folly'
 
 export const HammerOfTheRikti: BadgeData = {
@@ -15,7 +15,7 @@ export const HammerOfTheRikti: BadgeData = {
       + ' As this location was the site of the main Crey administration facility, various groups are eager to plumb the ruins in search of lost tech, but the Rikti are thick in this area and'
       + ' have managed to repel any attempts to survey the damage.',
   }],
-  notes: 'Located in [map:creys-folly] 140 yards SSE of The Blight marker, on top of the destroyed building.',
+  notes: `Located in ${mapLink(CreysFolly)} 140 yards SSE of The Blight marker, on top of the destroyed building.`,
   links: [
     { title: 'Hammer of the Rikti Badge', href: 'https://homecoming.wiki/wiki/Hammer_of_the_Rikti_Badge' },
   ],

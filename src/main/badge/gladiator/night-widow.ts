@@ -1,4 +1,4 @@
-import { BadgeData, createBadgeReference } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { DefenderOfTruth } from '../achievement/defender-of-truth'
 
 export const NightWidow: BadgeData = {
@@ -12,7 +12,7 @@ export const NightWidow: BadgeData = {
   badgeText: [
     { value: 'Night Widows fight for those they deem worthy.' },
   ],
-  acquisition: `Earn the ${createBadgeReference(DefenderOfTruth)} Badge (Arachnos)`,
+  acquisition: `Earn the ${badgeLink(DefenderOfTruth)} Badge (Arachnos)`,
   links: [
     { title: 'Night Widow Badge', href: 'https://homecoming.wiki/wiki/Night_Widow_Badge' },
   ],

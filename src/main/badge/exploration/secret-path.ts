@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Brickstown } from '../../map/brickstown'
 
 export const SecretPath: BadgeData = {
@@ -14,7 +14,7 @@ export const SecretPath: BadgeData = {
       + ' Officers were unable to find this well hidden location until it was too late.'
       + ' The PPD now keep secret agents around the courts - specifically as basketball players - to prevent such a slip up from happening again.',
   }],
-  notes: 'Located in the Seven Gates neighborhood in [map:brickstown]. The path to it starts at the basketball courts approximately 250 yards south of the hospital.',
+  notes: `Located in the Seven Gates neighborhood in ${mapLink(Brickstown)}. The path to it starts at the basketball courts approximately 250 yards south of the hospital.`,
   links: [
     { title: 'Secret Path Badge', href: 'https://homecoming.wiki/wiki/Secret_Path_Badge' },
   ],

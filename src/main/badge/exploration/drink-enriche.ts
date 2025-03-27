@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
 
 export const DrinkEnriche: BadgeData = {
@@ -13,7 +13,7 @@ export const DrinkEnriche: BadgeData = {
     value: 'Careful study of the bowels of the Water Treatment Facility reveals two output pipes.'
       + ' One flows directly into the Praetorian water system. The other pipe ends at the Enriche Bottling Plant in Neutropolis. Curious...',
   }],
-  notes: 'Located in [map:underground-neutropolis] approximately 337 yards SSE of the Resistance Surface Access, near the bottom left corner of the series of red tunnels on the map.',
+  notes: `Located in ${mapLink(UndergroundNeutropolis)} approximately 337 yards SSE of the Resistance Surface Access, near the bottom left corner of the series of red tunnels on the map.`,
   links: [
     { title: 'Drink Enriche! Badge', href: 'https://homecoming.wiki/wiki/Drink_Enriche!_Badge' },
   ],

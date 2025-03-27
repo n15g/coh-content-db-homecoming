@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PerezPark } from '../../map/perez-park'
 
 export const BloodMoss: BadgeData = {
@@ -15,10 +15,9 @@ export const BloodMoss: BadgeData = {
       + ' Whether it contributes to their magical rites is a matter of debate, as M.A.G.I. has conducted surveys that have found no evidence of any such energy.'
       + ' S.E.R.A.P.H., however, has detected trace amounts of exotic particles streaming from the stone, coinciding with other stellar phenomena.',
   }],
-  notes: 'Located in [map:perez-park] 171 yards NNE of the Perez Park marker on the map.\n'
-    + '\n'
-    + 'This can be tricky to find since it\'s hidden in the trees, but there\'s a clearing 194 yards north and a little to the west of the Perez Park marker.'
-    + ' Drop into this clearing from above, then take the path to the east to reach the badge.',
+  notes: `Located in ${mapLink(PerezPark)} 171 yards NNE of the Perez Park marker on the map.
+
+This can be tricky to find since it's hidden in the trees, but there's a clearing 194 yards north and a little to the west of the Perez Park marker. Drop into this clearing from above, then take the path to the east to reach the badge.`,
   links: [
     { title: 'Blood Moss Badge', href: 'https://homecoming.wiki/wiki/Blood_Moss_Badge' },
   ],

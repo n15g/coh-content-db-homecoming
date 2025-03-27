@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { ToyCollector } from '../event/toy-collector'
 
 export const Snowbeast: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Snowbeast: BadgeData = {
   badgeText: [
     { value: 'You now can summon a Snowbeast minion in the Arena pet battles.' },
   ],
-  acquisition: 'Earn the [badge:toy-collector] Badge (Winter Horde)',
+  acquisition: `Earn the ${badgeLink(ToyCollector)} Badge (Winter Horde)`,
   links: [
     { title: 'Snowbeast Badge', href: 'https://homecoming.wiki/wiki/Snowbeast_Badge' },
   ],

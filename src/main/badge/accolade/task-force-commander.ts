@@ -1,10 +1,11 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { CitadelsAssistant } from '../accomplishment/citadels-assistant'
 import { ManticoresAssociate } from '../accomplishment/manticores-associate'
 import { NuminasCompatriot } from '../accomplishment/numinas-compatriot'
 import { PenelopeYinsFriend } from '../accomplishment/penelope-yins-friend'
 import { PositronsAlly } from '../accomplishment/positrons-ally'
 import { SynapsesCohort } from '../accomplishment/synapses-cohort'
+import { SisterPsychesComrade } from '../accomplishment/sister-psyches-comrade'
 
 export const TaskForceCommander: BadgeData = {
   type: 'ACCOLADE',
@@ -19,8 +20,7 @@ export const TaskForceCommander: BadgeData = {
     { alignment: 'H', value: `You have successfully completed each of the Task Forces given out by the Freedom Phalanx. This gives you +5% Hit Points, and access to military epaulets at the Tailor.` },
     { alignment: 'V', value: `Your perks for serving the Freedom Phalanx have been stripped due to your descent into villainy. You can keep the epaulets, though.` },
   ],
-  notes: `Awards +5% Max Health\n
-Alternatively [badge:sister-psyches-comrade], available only via Ouroboros, counts in lieu of [badge:penelope-yins-friend].`,
+  notes: `Alternatively ${badgeLink(SisterPsychesComrade)}, available only via Ouroboros, counts in lieu of ${badgeLink(PenelopeYinsFriend)}.`,
   links: [
     { title: 'Task Force Commander Badge', href: 'https://homecoming.wiki/wiki/Task_Force_Commander_Badge' },
     { title: 'Task Force Abandoner Badge', href: 'https://homecoming.wiki/wiki/Task_Force_Abandoner_Badge' },

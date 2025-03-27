@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { MercyIsland } from '../../map/mercy-island'
 
 export const Cesspool: BadgeData = {
@@ -12,7 +12,7 @@ export const Cesspool: BadgeData = {
   badgeText: [{
     value: `Many would-be Villains have drunk their fill from the cesspool in hopes it might grant super power. Mostly they go insane.`,
   }],
-  notes: `Located on [map:${MercyIsland.key}].
+  notes: `Located on ${mapLink(MercyIsland)}.
 
 The marker is on a ledge between two large tanks in a pool of greenish water.
 The tanks are in the far northwestern part of the island, and the badge marker is 602 yards west-northwest of the Darwin's Landing marker.`,

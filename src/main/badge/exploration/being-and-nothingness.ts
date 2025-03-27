@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../map/cascade-archipelago'
 
 export const BeingAndNothingness: BadgeData = {
@@ -13,7 +13,7 @@ export const BeingAndNothingness: BadgeData = {
     value: 'A sense of floating encapsulates you, a lightness of being that does not bring with it feelings of ease or contentment, but of nothingness and insignificance.'
       + ' Vertigo sends your senses reeling and the urge to leave this place is undeniable. You do not belong here, you are the alien here, and nowhere else is this feeling more acute.',
   }],
-  notes: 'Located in [map:cascade-archipelago] 247 yards SSW of The Air Shoals marker, in the middle of a floating rock.',
+  notes: `Located in ${mapLink(CascadeArchipelago)} 247 yards SSW of The Air Shoals marker, in the middle of a floating rock.`,
   links: [
     { title: 'Being and Nothingness Badge', href: 'https://homecoming.wiki/wiki/Being_and_Nothingness_Badge' },
   ],

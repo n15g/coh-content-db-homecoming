@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PortOakes } from '../../map/port-oakes'
 
 export const ScurvyDog: BadgeData = {
@@ -12,10 +12,9 @@ export const ScurvyDog: BadgeData = {
   badgeText: [{
     value: `The owner of Blackbeard's pub is rumored to have sent more than one patron to Davey Jones locker.`,
   }],
-  notes: `Located in [map:${PortOakes.key}], on Blackbeard's Pub, a shack located next to Drea the Hook in the Dockside neighborhood.
+  notes: `Located in ${mapLink(PortOakes)}, on Blackbeard's Pub, a shack located next to Drea the Hook in the Dockside neighborhood.
 
-The pub is approximately 190 yeard south and slightly east of the Dockside marker, and the badge marker is on the southwest side of the building,
- on top of a small landing supported by corrugated metal..`,
+          The pub is approximately 190 yeard south and slightly east of the Dockside marker, and the badge marker is on the southwest side of the building, on top of a small landing supported by corrugated metal..`,
   links: [
     { title: 'Scurvy Dog Badge', href: 'https://homecoming.wiki/wiki/Scurvy_Dog_Badge' },
   ],

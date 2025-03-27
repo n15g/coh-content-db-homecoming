@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Politician } from '../exploration/politician'
 
 export const LongbowWarden: BadgeData = {
   type: 'GLADIATOR',
@@ -12,7 +13,7 @@ export const LongbowWarden: BadgeData = {
     { alignment: 'H', value: 'Longbow counts you as an ally.' },
     { alignment: 'V', value: 'Bow down and obey!' },
   ],
-  acquisition: 'Earn the [badge:politician] Badge (Longbow)',
+  acquisition: `Earn the ${badgeLink(Politician)} Badge (Longbow)`,
   links: [
     { title: 'Longbow Warden Badge', href: 'https://homecoming.wiki/wiki/Longbow_Warden_1_Badge' },
   ],

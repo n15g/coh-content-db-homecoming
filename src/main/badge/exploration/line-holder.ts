@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Grandville } from '../../map/grandville'
 
 export const LineHolder: BadgeData = {
@@ -13,7 +13,7 @@ export const LineHolder: BadgeData = {
     value: `Arachnos stationed here are the first line of defense against any Arachnoids trying to break out of the Gutter.
 Arachnoids foolish enough to attempt an attack from above ground never succeed, though it's well known that most Arachnoids utilize their own underground tunnels to travel.`,
   }],
-  notes: `Located in [map:${Grandville.key}], in the Gutter neighborhood.
+  notes: `Located in ${mapLink(Grandville)}, in the Gutter neighborhood.
 
 It is at the gate between the North and East Wards, 64 yards ENE of the East Ward 2 Lift marker.`,
   links: [

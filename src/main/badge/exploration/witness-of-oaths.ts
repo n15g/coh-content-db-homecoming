@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { DarkAstoria } from '../../map/dark-astoria'
 
 export const WitnessOfOaths: BadgeData = {
@@ -13,7 +13,7 @@ export const WitnessOfOaths: BadgeData = {
     value: `Many false heroes over the years have claimed vindication over the events that transpired in Dark Astoria, unaware that their hollow words would one day be called to account.
 Screaming and pleading, many have been dragged into the ruined city by the Talons of Vengeance to pay the ultimate price for oath breaking.`,
   }],
-  notes: `Located in [map:${DarkAstoria.key}] in the Raimi Arcade neighborhood, 339 yards east of the Raimi marker, and slightly south.
+  notes: `Located in ${mapLink(DarkAstoria)} in the Raimi Arcade neighborhood, 339 yards east of the Raimi marker, and slightly south.
 
 Note: There are two identical statues a few hundred yards apart. One faces southeast and is closer to the eastern wall; the badge is on the one further west, facing southwest.`,
   links: [

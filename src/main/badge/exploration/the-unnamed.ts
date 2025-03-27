@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StrigaIsle } from '../../map/striga-isle'
 
 export const TheUnnamed: BadgeData = {
@@ -16,7 +16,7 @@ export const TheUnnamed: BadgeData = {
       + ' But others in the Council believe that whatever was in the grave emerged under their own power, and that such a being could have called the Banished Pantheon to the Isle'
       + ' for some unknown purpose. This hypothetical adversary is code-named in the Council logs as \'The Unnamed.\'',
   }],
-  notes: 'Located in [map:striga-isle] 78 yards east of the Bonny Morass marker, inside an open grave.',
+  notes: `Located in ${mapLink(StrigaIsle)} 78 yards east of the Bonny Morass marker, inside an open grave.`,
   links: [
     { title: 'The Unnamed Badge', href: 'https://homecoming.wiki/wiki/The_Unnamed_Badge' },
   ],

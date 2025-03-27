@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StMartial } from '../../map/st-martial'
 
 export const Stonekeeper: BadgeData = {
@@ -12,9 +12,9 @@ export const Stonekeeper: BadgeData = {
   badgeText: [{
     value: `What strange purpose do these glyphs serve?`,
   }],
-  notes: `Located in [map:${StMartial.key}], in the Babylon neighborhood.
+  notes: `Located in ${mapLink(StMartial)}, in the Babylon neighborhood.
 
-The marker is at ground level inside the southernmost obelisk located due southeast of the Golden Giza casino. The marker itself is not visible due to the obelisk.`,
+          The marker is at ground level inside the southernmost obelisk located due southeast of the Golden Giza casino. The marker itself is not visible due to the obelisk.`,
   links: [
     { title: 'Stonekeeper Badge', href: 'https://homecoming.wiki/wiki/Stonekeeper_Badge' },
   ],

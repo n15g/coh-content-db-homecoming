@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheStormPalace } from '../../map/the-storm-palace'
 
 export const AcolyteOfAnger: BadgeData = {
@@ -15,7 +15,7 @@ The wind is a roar of anger at your very presence, echoed by the Shadow Shard's 
 You steel yourself against this emotional onslaught, unbowed by this world's hostility.
 You will turn its hate and anger back upon itself; you will be an Acolyte of Anger who wields rage as a weapon against it.`,
   }],
-  notes: `Located in [map:${TheStormPalace.key}] at the Lock of Anger marker.`,
+  notes: `Located in ${mapLink(TheStormPalace)} at the Lock of Anger marker.`,
   links: [
     { title: 'Acolyte of Anger Badge', href: 'https://homecoming.wiki/wiki/Acolyte_of_Anger_Badge' },
   ],

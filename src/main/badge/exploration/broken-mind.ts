@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundImperial } from '../../map/underground-imperial'
 
 export const BrokenMind: BadgeData = {
@@ -14,7 +14,7 @@ export const BrokenMind: BadgeData = {
       + ' Their sorrow seeps into the minds of those who hear them, disrupting thought and disturbing the emotions.'
       + ' Tarry too long and your mind shall be broken as theirs.',
   }],
-  notes: 'Located in [map:underground-imperial] in the set of hallways furthest south, just north of the middle dead end.',
+  notes: `Located in ${mapLink(UndergroundImperial)} in the set of hallways furthest south, just north of the middle dead end.`,
   links: [
     { title: 'Broken Mind Badge', href: 'https://homecoming.wiki/wiki/Broken_Mind_Badge' },
   ],

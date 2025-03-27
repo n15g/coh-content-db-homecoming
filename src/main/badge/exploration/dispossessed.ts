@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheChantry } from '../../map/the-chantry'
 
 export const Dispossessed: BadgeData = {
@@ -18,7 +18,7 @@ export const Dispossessed: BadgeData = {
       + ' Before you know it life has passed you by and moved on without you. Your loved ones have kindled romances with another.'
       + ' Your friends have crossed you off of their invite lists. Do you even remember what it was like before you became a hero?',
   }],
-  notes: 'Located in [map:the-chantry] 362 yards WNW from the Bastion of Regret marker, under the floating rock with the circling tablets.',
+  notes: `Located in ${mapLink(TheChantry)} 362 yards WNW from the Bastion of Regret marker, under the floating rock with the circling tablets.`,
   links: [
     { title: 'Dispossessed Badge', href: 'https://homecoming.wiki/wiki/Dispossessed_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NovaPraetoria } from '../../map/nova-praetoria'
 
 export const Ambitious: BadgeData = {
@@ -12,7 +12,7 @@ export const Ambitious: BadgeData = {
   badgeText: [{
     value: 'Even in these strange and uncertain times there are those who still reach for the sky.',
   }],
-  notes: 'Located in [map:nova-praetoria] on top of Emperor Cole\'s tower in Magisterium.',
+  notes: `Located in ${mapLink(NovaPraetoria)} on top of Emperor Cole's tower in Magisterium.`,
   links: [
     { title: 'Ambitious Badge', href: 'https://homecoming.wiki/wiki/Ambitious_Badge' },
   ],

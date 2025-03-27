@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Archmage } from '../accolade/archmage'
 
 export const ArchMageOfAgony: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const ArchMageOfAgony: BadgeData = {
   badgeText: [
     { value: 'You can command the spirits of another age!' },
   ],
-  acquisition: 'Earn the [badge:archmage] Badge (Circle of Thorns)',
+  acquisition: `Earn the ${badgeLink(Archmage)} Badge (Circle of Thorns)`,
   links: [
     { title: 'Arch-Mage of Agony Badge', href: 'https://homecoming.wiki/wiki/Arch-Mage_of_Agony_Badge' },
   ],

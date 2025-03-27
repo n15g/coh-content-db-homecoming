@@ -1,4 +1,4 @@
-import { BadgeData, createBadgeReference } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Imprisoned } from '../achievement/imprisoned'
 
 export const WailerQueen: BadgeData = {
@@ -12,7 +12,7 @@ export const WailerQueen: BadgeData = {
   badgeText: [
     { value: 'What does this creature see in you?' },
   ],
-  acquisition: `Earn the ${createBadgeReference(Imprisoned)} Badge (Wailers)`,
+  acquisition: `Earn the ${badgeLink(Imprisoned)} Badge (Wailers)`,
   links: [
     { title: 'Wailer Queen Badge', href: 'https://homecoming.wiki/wiki/Wailer_Queen_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../map/nerva-archipelago'
 import { WatcherOnTheKnoll } from '../exploration/watcher-on-the-knoll'
 import { LockedAndLoaded } from '../exploration/locked-and-loaded'
@@ -20,7 +20,7 @@ export const NervaNavigator: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Nerva Archipelago.` },
   ],
-  notes: `Visit all exploration badges in [map:${NervaArchipelago.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(NervaArchipelago)}`,
   links: [
     { title: 'Nerva Navigator Badge', href: 'https://homecoming.wiki/wiki/Nerva_Navigator_Badge' },
   ],

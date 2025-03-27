@@ -13,7 +13,7 @@ export const Hangman: BadgeData = {
   mapKey: SirensCall.key,
   loc: [-1134.5, -165.7, -1193.5],
   badgeText: [{ value: 'This cargo ship was left hanging on what is left of the war wall when Sunburst died in the huge explosion.' }],
-  notes: 'The Hangman Badge marker is located on a small rock outcropping at the very base of the northern wall of the zone, just off the western shore of the villain base in [map:${SirensCall.key}].'
+  notes: 'The Hangman Badge marker is located on a small rock outcropping at the very base of the northern wall of the zone, just off the western shore of the villain base in ${mapLink(SirensCall)}.'
     + '\n\nIt is about 190 yards west of the Sharkhead Isle marker.',
   links: [
     { title: 'Hangman Badge', href: 'https://homecoming.wiki/wiki/Hangman_Badge' },

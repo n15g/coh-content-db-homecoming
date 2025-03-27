@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirstWard } from '../../map/first-ward'
 import { DearlyDeparted } from '../exploration/dearly-departed'
 import { EyeOfTheVortex } from '../exploration/eye-of-the-vortex'
@@ -20,7 +20,7 @@ export const PrimeWarden: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within First Ward.` },
   ],
-  notes: `Visit all exploration badges in [map:${FirstWard.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(FirstWard)}`,
   links: [
     { title: 'Prime Warden Badge', href: 'https://homecoming.wiki/wiki/Prime_Warden_Badge' },
   ],

@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { SnakeCharmer } from '../exploration/snake-charmer'
 
 export const Cobra: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Cobra: BadgeData = {
   badgeText: [
     { value: 'Sssnakes ssserve you.' },
   ],
-  acquisition: 'Earn the [badge:snake-charmer] Badge (Snakes)',
+  acquisition: `Earn the ${badgeLink(SnakeCharmer)} Badge (Snakes)`,
   links: [
     { title: 'Cobra Badge', href: 'https://homecoming.wiki/wiki/Cobra_Badge' },
   ],

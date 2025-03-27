@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheAbyss } from '../../map/the-abyss'
 
 export const AbyssalGaze: BadgeData = {
@@ -14,7 +14,7 @@ export const AbyssalGaze: BadgeData = {
 You carry enough darkness within you and it's going to take a lot more than a big hole in the ground to impress you.
 You've gazed into the abyss, and it's gazed into you too; you're both well acquainted with each other and have few secrets left to share.`,
   }],
-  notes: `Located in [map:${TheAbyss.key}], 0.60 miles from the Grandville transfer point, on the lip of the cliff dropping into the crater. It is in the southern edge, just west of center.`,
+  notes: `Located in ${mapLink(TheAbyss)}, 0.60 miles from the Grandville transfer point, on the lip of the cliff dropping into the crater. It is in the southern edge, just west of center.`,
   links: [
     { title: 'Abyssal Gaze Badge', href: 'https://homecoming.wiki/wiki/Abyssal_Gaze_Badge' },
   ],

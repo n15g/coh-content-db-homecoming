@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Coldblooded } from '../defeat/coldblooded'
 
 export const Hellfrost: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Hellfrost: BadgeData = {
   badgeText: [
     { value: 'This demon is amused to serve you.' },
   ],
-  acquisition: 'Earn the [badge:coldblooded] Badge (Circle of Thorns)',
+  acquisition: `Earn the ${badgeLink(Coldblooded)} Badge (Circle of Thorns)`,
   links: [
     { title: 'Hellfrost Badge', href: 'https://homecoming.wiki/wiki/Hellfrost_Badge' },
   ],

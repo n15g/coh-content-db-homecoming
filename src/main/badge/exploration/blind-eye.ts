@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../map/nerva-archipelago'
 
 export const BlindEye: BadgeData = {
@@ -13,7 +13,7 @@ export const BlindEye: BadgeData = {
     value: `Longbow uses these state-of-the-art facilities to perform experiments on a small group of monsters they encounter.
 Longbow policy dictates that they turn their charges in to the proper authorities back in Paragon, but Agincourt officials routinely turn a blind eye to this facility's activities.`,
   }],
-  notes: `Located in [map:${NervaArchipelago.key}], in the Agincourt neighborhood.
+  notes: `Located in ${mapLink(NervaArchipelago)}, in the Agincourt neighborhood.
 
 It is in the specimen building 58 yards beneath the neighborhood marker.`,
   links: [

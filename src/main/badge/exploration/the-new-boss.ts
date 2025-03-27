@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
 
 export const TheNewBoss: BadgeData = {
@@ -14,7 +14,7 @@ export const TheNewBoss: BadgeData = {
       + ' Some become soldiers, others servants; a few become bombs, designed to go back to scrubbing off graffiti and tending flowers until the right trigger is sent.'
       + ' Then... \'kaboom.\' The Clockwork so reprogrammed are not given a choice in the matter.',
   }],
-  notes: 'Located in [map:underground-neutropolis] 263 yards NW of the Resistance Surface Access.',
+  notes: `Located in ${mapLink(UndergroundNeutropolis)} 263 yards NW of the Resistance Surface Access.`,
   links: [
     { title: 'The New Boss Badge', href: 'https://homecoming.wiki/wiki/The_New_Boss_Badge' },
   ],

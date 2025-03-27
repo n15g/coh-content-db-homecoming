@@ -1,5 +1,8 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Praetoria } from '../../map/praetoria'
+import { NovaPraetoria } from '../../map/nova-praetoria'
+import { ImperialCity } from '../../map/imperial-city'
+import { Neutropolis } from '../../map/neutropolis'
 
 export const RailRider: BadgeData = {
   type: 'EXPLORATION',
@@ -9,13 +12,13 @@ export const RailRider: BadgeData = {
   alignment: ['H', 'V', 'P'],
   mapKey: Praetoria.key,
   badgeText: [{
-    value: 'It is every Praetorian citizen\'s duty to preserve the environment by utilizing public transit as much as possible. Praetor Berry thanks you for your patronage.',
+    value: `It is every Praetorian citizen's duty to preserve the environment by utilizing public transit as much as possible. Praetor Berry thanks you for your patronage.`,
   }],
-  notes: 'The Rail Rider Badge has three locations in Praetoria, each located inside one of the Cole Transit Authority stations.\n'
-    + '\n'
-    + 'Its coordinates in [map:nova-praetoria] are (-4551, -187, 470), in [map:imperial-city] are (-2384, -238, 755) and in [map:neutropolis] are (2226, -213, 1111).\n'
-    + '\n'
-    + 'It is necessary to visit all three locations to earn this badge.',
+  notes: `The Rail Rider Badge has three locations in Praetoria, each located inside one of the Cole Transit Authority stations.
+
+          Its coordinates in ${mapLink(NovaPraetoria)} are (-4551, -187, 470), in ${mapLink(ImperialCity)} are (-2384, -238, 755) and in ${mapLink(Neutropolis)} are (2226, -213, 1111).
+
+          It is necessary to visit all three locations to earn this badge.`,
   links: [
     { title: 'Rail Rider Badge', href: 'https://homecoming.wiki/wiki/Rail Rider_Badge' },
   ],

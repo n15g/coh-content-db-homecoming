@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { DarkAstoria } from '../../map/dark-astoria'
 
 export const FollysVictim: BadgeData = {
@@ -16,7 +16,7 @@ Fools or heroes, the Circle's casualties were tremendous as they defied the wrat
 It is said that the Demon-Prince Stolas was the first to confront the manifestations of Mot.
 When the Demon-Prince was broken and devoured, the ranks of his minions broke and fled into the streets of Dark Astoria.`,
   }],
-  notes: `Located in [map:${DarkAstoria.key}] in the Raimi Arcade neighborhood of Dark Astoria. It is located 176 yards south of the marker for Flicker.`,
+  notes: `Located in ${mapLink(DarkAstoria)} in the Raimi Arcade neighborhood of Dark Astoria. It is located 176 yards south of the marker for Flicker.`,
   links: [
     { title: 'Folly\'s Victim Badge', href: 'https://homecoming.wiki/wiki/Folly%27s_Victim_Badge' },
   ],

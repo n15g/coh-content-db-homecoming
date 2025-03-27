@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Irradiated } from '../achievement/irradiated'
 
 export const ShivanDestroyer: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const ShivanDestroyer: BadgeData = {
   badgeText: [
     { value: 'You have learned to control the mindless horrors from space.' },
   ],
-  acquisition: 'Earn the [badge:irradiated] Badge (Shivans)',
+  acquisition: `Earn the ${badgeLink(Irradiated)} Badge (Shivans)`,
   links: [
     { title: 'Shivan Destroyer Badge', href: 'https://homecoming.wiki/wiki/Shivan_Destroyer_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Grandville } from '../../map/grandville'
 
 export const Guttersnipe: BadgeData = {
@@ -12,7 +12,7 @@ export const Guttersnipe: BadgeData = {
   badgeText: [{
     value: `Life at the bottom is rough, and after visiting Hobo Row in the Grandville's Gutter you can agree.`,
   }],
-  notes: `Located in [map:${Grandville.key}], 228 yards south-southwest of the Spider City marker.`,
+  notes: `Located in ${mapLink(Grandville)}, 228 yards south-southwest of the Spider City marker.`,
   links: [
     { title: 'Guttersnipe Badge', href: 'https://homecoming.wiki/wiki/Guttersnipe_Badge' },
   ],

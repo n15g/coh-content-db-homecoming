@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { CreyHavoc } from '../exploration/crey-havoc'
 
 export const ResearchAssistant: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const ResearchAssistant: BadgeData = {
   badgeText: [
     { value: 'Crey will study the results of your gladiator battles.' },
   ],
-  acquisition: 'Earn the [badge:crey-havoc] Badge (Crey)',
+  acquisition: `Earn the ${badgeLink(CreyHavoc)} Badge (Crey)`,
   links: [
     { title: 'Research Assistant Badge', href: 'https://homecoming.wiki/wiki/Research_Assistant_Badge' },
   ],

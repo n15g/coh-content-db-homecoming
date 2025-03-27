@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PortOakes } from '../../map/port-oakes'
 
 export const BigSpider: BadgeData = {
@@ -13,7 +13,7 @@ export const BigSpider: BadgeData = {
     value: `This towering skyscraper used to belong to the Marcones before Arachnos seized it for the purpose of "overseeing operations in Port Oakes."
  The Marcones have been bitter about it ever since.`,
   }],
-  notes: `Located in [map:${PortOakes.key}], in the Marconeville neighborhood.
+  notes: `Located in ${mapLink(PortOakes)}, in the Marconeville neighborhood.
 
 It is at the base of the stairs in front of the Supergroup building, 54 yards north of the neighborhood marker.`,
   links: [

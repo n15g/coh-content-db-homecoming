@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Tracer } from '../defeat/tracer'
 
 export const CraneEnforcer: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const CraneEnforcer: BadgeData = {
   badgeText: [
     { value: 'The Tsoo are bound by honor to serve you.' },
   ],
-  acquisition: 'Earn the [badge:tracer] Badge (Tsoo)',
+  acquisition: `Earn the ${badgeLink(Tracer)} Badge (Tsoo)`,
   links: [
     { title: 'Crane Enforcer Badge', href: 'https://homecoming.wiki/wiki/Crane_Enforcer_Badge' },
   ],

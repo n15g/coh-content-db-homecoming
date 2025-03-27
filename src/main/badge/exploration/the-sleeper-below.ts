@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../map/echo-dark-astoria'
 
 export const TheSleeperBelow: BadgeData = {
@@ -15,7 +15,8 @@ export const TheSleeperBelow: BadgeData = {
       + ' Behold the crucible of undoing, the maw through which all life shall soon pass so that all shall be unmade;'
       + ' an end to life, an end to hope, an end to all that respires in this corrupt and fallen world!',
   }],
-  notes: 'Located in [map:echo-dark-astoria] 212 yards north of the Moth Cemetery marker, near the base of the ramp beneath the ziggurat.\n'
+  notes: `Located in ${mapLink(EchoDarkAstoria)} 212 yards north of the Moth Cemetery marker, near the base of the ramp beneath the ziggurat.
+`
     + '\n'
     + 'You\'ll find the entrance to the ramp on the south-west side, in the deep trench surrounding the ziggurat, at (1470.1, -80.0, 851.7).',
   links: [

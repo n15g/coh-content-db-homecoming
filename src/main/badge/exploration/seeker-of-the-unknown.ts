@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../map/echo-dark-astoria'
 
 export const SeekerOfTheUnknown: BadgeData = {
@@ -12,9 +12,9 @@ export const SeekerOfTheUnknown: BadgeData = {
   badgeText: [{
     value: 'This tomb was used to represent the thousands of heroes who gave their lives in the Rikti War. It now stands a mute vigil at the site of even greater atrocities.',
   }],
-  notes: 'Located in [map:echo-dark-astoria] 160 yards west, and very slightly north, of the Moth Cemetery marker is a deep chasm.\n'
-    + '\n'
-    + 'At the bottom of that chasm is a doorway that leads into a tunnel. The badge marker is outside the second (middle) crypt in that tunnel.',
+  notes: `Located in ${mapLink(EchoDarkAstoria)} 160 yards west, and very slightly north, of the Moth Cemetery marker is a deep chasm.
+
+          At the bottom of that chasm is a doorway that leads into a tunnel. The badge marker is outside the second (middle) crypt in that tunnel.`,
   links: [
     { title: 'Seeker of the Unknown Badge', href: 'https://homecoming.wiki/wiki/Seeker_of_the_Unknown_Badge' },
   ],

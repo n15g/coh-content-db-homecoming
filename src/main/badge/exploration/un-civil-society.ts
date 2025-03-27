@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NovaPraetoria } from '../../map/nova-praetoria'
 
 export const UnCivilSociety: BadgeData = {
@@ -12,7 +12,7 @@ export const UnCivilSociety: BadgeData = {
   badgeText: [{
     value: 'We live in uncertain times, where discontent sows unrest and the sheep become the wolves.',
   }],
-  notes: 'Located in [map:nova-praetoria] 116 yards W of the Magisterium marker.',
+  notes: `Located in ${mapLink(NovaPraetoria)} 116 yards W of the Magisterium marker.`,
   links: [
     { title: 'Un-Civil Society Badge', href: 'https://homecoming.wiki/wiki/Un-Civil_Society_Badge' },
   ],

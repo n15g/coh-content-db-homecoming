@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../map/peregrine-island'
 
 export const GeneticallyAltered: BadgeData = {
@@ -14,9 +14,9 @@ export const GeneticallyAltered: BadgeData = {
       + ' Crey refuses to comment, claiming that the bones are from ancient dinosaurs, though paleontologists refute the claim, saying it looks like no dinosaur they have on record.'
       + ' Despite a lack of evidence, signs point to some sort of genetic shenanigans on Crey\'s part.',
   }],
-  notes: 'Located in the Cutlass Isles neighborhood of [map:peregrine-island].\n'
-    + '\n'
-    + 'It is under the large skeleton 277 yards southwest of the neighborhood marker.',
+  notes: `Located in the Cutlass Isles neighborhood of ${mapLink(PeregrineIsland)}.
+
+          It is under the large skeleton 277 yards southwest of the neighborhood marker.`,
   links: [
     { title: 'Genetically Altered Badge', href: 'https://homecoming.wiki/wiki/Genetically_Altered_Badge' },
   ],

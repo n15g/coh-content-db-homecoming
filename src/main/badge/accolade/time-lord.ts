@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Cimeroran } from '../day-job/cimeroran'
 import { Chronologist } from '../day-job/chronologist'
 
@@ -13,7 +13,6 @@ export const TimeLord: BadgeData = {
   badgeText: [
     { value: `Your presence in Cimerora and working with the Menders of Ouroboros has earned you the Time Lord Accolade.  While logged out in either Cimerora or Ouroboros you will earn additional time for your Time Lord Power.` },
   ],
-  notes: `Earn the [badge:cimeroran] and [badge:chronologist] Day Jobs`,
   links: [
     { title: 'Time Lord Badge', href: 'https://homecoming.wiki/wiki/Time_Lord_Badge' },
   ],

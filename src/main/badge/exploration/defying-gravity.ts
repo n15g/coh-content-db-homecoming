@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const DefyingGravity: BadgeData = {
@@ -15,7 +15,7 @@ export const DefyingGravity: BadgeData = {
       + ' From this vantage you can get a clear picture of the massive size of the island Firebase Zulu sits upon, and see that truly it floats unaided in the alien air.'
       + ' The mind reels at the reality of it, and as the briefing warned it is best if one not contemplate this fact too deeply.',
   }],
-  notes: 'Located in [map:firebase-zulu] 225 yards WNW of the Firebase Zulu marker, at the top of rock on the western edge of the floating island.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 225 yards WNW of the Firebase Zulu marker, at the top of rock on the western edge of the floating island.`,
   links: [
     { title: 'Defying Gravity Badge', href: 'https://homecoming.wiki/wiki/Defying_Gravity_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { DarkAstoria } from '../../map/dark-astoria'
 
 export const LifeOutOfDeath: BadgeData = {
@@ -14,7 +14,7 @@ export const LifeOutOfDeath: BadgeData = {
 For sustenance, many innocent people have been spirited away into the haunted streets of Dark Astoria.
 Not all who have been abducted have met their end, surviving against all odds.`,
   }],
-  notes: `Located in [map:${DarkAstoria.key}], in the St. Elegius neighborhood, southwest of Romero Heights, and near The Bulwark.
+  notes: `Located in ${mapLink(DarkAstoria)}, in the St. Elegius neighborhood, southwest of Romero Heights, and near The Bulwark.
 78 yards north of the neighborhood marker, on top of the hospital.`,
   links: [
     { title: 'Life out of Death Badge', href: 'https://homecoming.wiki/wiki/Life_Out_of_Death_Badge' },

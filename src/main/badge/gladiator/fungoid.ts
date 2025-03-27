@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Protectorate } from '../defeat/protectorate'
 
 export const Fungoid: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Fungoid: BadgeData = {
   badgeText: [
     { value: 'The mushroom men will fight for you.' },
   ],
-  acquisition: 'Earn the [badge:protectorate] Badge (Devouring Earth)',
+  acquisition: `Earn the ${badgeLink(Protectorate)} Badge (Devouring Earth)`,
   links: [
     { title: 'Fungoid Badge', href: 'https://homecoming.wiki/wiki/Fungoid_Badge' },
   ],

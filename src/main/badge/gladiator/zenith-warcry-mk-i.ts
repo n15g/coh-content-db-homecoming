@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { BurkholdersBane } from '../accomplishment/burkholders-bane'
 
 export const ZenithWarcryMkI: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const ZenithWarcryMkI: BadgeData = {
   badgeText: [
     { value: 'Gladiator program initiated.' },
   ],
-  acquisition: 'Earn the [badge:burkholders-bane] Badge (Council)',
+  acquisition: `Earn the ${badgeLink(BurkholdersBane)} Badge (Council)`,
   links: [
     { title: 'Zenith Warcry Mk I Badge', href: 'https://homecoming.wiki/wiki/Zenith_Warcry_Mk_I_Badge' },
   ],

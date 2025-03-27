@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const Stormwatcher: BadgeData = {
@@ -15,7 +15,7 @@ export const Stormwatcher: BadgeData = {
       + ' As a representative of Paragon City, you have joined the fight to prevent the denizens of the Shadow Shard from extending their range into your home dimension.'
       + ' Some see their discovery of Primal Earth\'s dimension as inevitable; a "coming storm" which could rival the Rikti Invasion in destructive potential.',
   }],
-  notes: 'Located in [map:firebase-zulu] 133 yards SW of the Tempest Sector marker, at the base of the ramp leading into the base.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 133 yards SW of the Tempest Sector marker, at the base of the ramp leading into the base.`,
   links: [
     { title: 'Stormwatcher Badge', href: 'https://homecoming.wiki/wiki/Stormwatcher_Badge' },
   ],

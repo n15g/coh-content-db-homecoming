@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../map/cascade-archipelago'
 
 export const LiquidMemory: BadgeData = {
@@ -16,7 +16,7 @@ export const LiquidMemory: BadgeData = {
       + ' sensation overload.'
       + ' You spit the liquid from your mouth and vow never to taste it again. But...',
   }],
-  notes: 'Located in [map:cascade-archipelago] 492 yards west of the Crimson Falls marker, at the base of the waterfall.',
+  notes: `Located in ${mapLink(CascadeArchipelago)} 492 yards west of the Crimson Falls marker, at the base of the waterfall.`,
   links: [
     { title: 'Liquid Memory Badge', href: 'https://homecoming.wiki/wiki/Liquid_Memory_Badge' },
   ],

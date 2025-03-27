@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StrigaIsle } from '../../map/striga-isle'
 
 export const WordsOfTheWarrior: BadgeData = {
@@ -16,7 +16,7 @@ export const WordsOfTheWarrior: BadgeData = {
       + ' Members of the Council have tolerated its presence; for in addition to music (mostly composed of heavy metal bands and Wagner) the station\'s host keeps up a constant stream of'
       + ' expletive-laden rants against Paragon City\'s Hero population.',
   }],
-  notes: 'Located in [map:striga-isle] 551 yards west of the Bonny Morass marker, at the base of the radio tower.',
+  notes: `Located in ${mapLink(StrigaIsle)} 551 yards west of the Bonny Morass marker, at the base of the radio tower.`,
   links: [
     { title: 'Words of the Warrior Badge', href: 'https://homecoming.wiki/wiki/Words_of_the_Warrior_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TalosIsland } from '../../map/talos-island'
 
 export const SpankysCompetitor: BadgeData = {
@@ -14,7 +14,7 @@ export const SpankysCompetitor: BadgeData = {
       + ' the name \'Spanky\'s Boardwalk\'.'
       + ' He was mentioned in the news for some time before he mysteriously \'disappeared.\' The PPD closed the case after years of research when no sign of Robert Cooling could be found.',
   }],
-  notes: 'Located in in the New Troy neighborhood of [map:talos-island]. It is in the top landing of the boardwalk steps 152 yards southeast of the Tech store.',
+  notes: `Located in in the New Troy neighborhood of ${mapLink(TalosIsland)}. It is in the top landing of the boardwalk steps 152 yards southeast of the Tech store.`,
   links: [
     { title: 'Spanky\'s Competitor Badge', href: 'https://homecoming.wiki/wiki/Spanky%27s_Competitor_Badge' },
   ],

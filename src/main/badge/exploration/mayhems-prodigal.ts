@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirstWard } from '../../map/first-ward'
 
 export const MayhemsProdigal: BadgeData = {
@@ -16,7 +16,7 @@ No one is sure exactly when Praetor Tilman built this hospital, or why she built
 So close to Mother Mayhem now, you can feel the weight of her psyche pressing down upon you, can feel her sightless gaze turn to you, condemning and welcoming at the same time:
  as with the return of a prodigal child.`,
   }],
-  notes: `Located in [map:${FirstWard.key}] in the Mother of Mecy Hospital neighborhood, about 3 feet away from the map marker.`,
+  notes: `Located in ${mapLink(FirstWard)} in the Mother of Mecy Hospital neighborhood, about 3 feet away from the map marker.`,
   links: [
     { title: 'Mayhem\'s Prodigal Badge', href: 'https://homecoming.wiki/wiki/Mayhem%27s_Prodigal_Badge' },
   ],

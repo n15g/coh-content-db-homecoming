@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Infiltrator } from '../defeat/infiltrator'
 
 export const _7thGenerationParagonProtector: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const _7thGenerationParagonProtector: BadgeData = {
   badgeText: [
     { value: 'This will be a powerful gladiator in the Arena.' },
   ],
-  acquisition: 'Earn the [badge:infiltrator] Badge (Crey)',
+  acquisition: `Earn the ${badgeLink(Infiltrator)} Badge (Crey)`,
   links: [
     { title: '7th Generation Paragon Protector Badge', href: 'https://homecoming.wiki/wiki/7th_Generation_Paragon_Protector_Badge' },
   ],

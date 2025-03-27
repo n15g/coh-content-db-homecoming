@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirstWard } from '../../map/first-ward'
 
 export const DearlyDeparted: BadgeData = {
@@ -16,7 +16,7 @@ Though they knew they would likely never return to First Ward, the survivors lai
 the city they helped build.
 The survivors believed too that one day they would return and reclaim First Ward in the name of the fallen.`,
   }],
-  notes: `Located in [map:${FirstWard.key}] 83 yards NNE of the map marker; at the base of a small mausoleum..
+  notes: `Located in ${mapLink(FirstWard)} 83 yards NNE of the map marker; at the base of a small mausoleum..
 It is on the west side of the eastern-most island of Lock of Torment.`,
   links: [
     { title: 'Dearly Departed Badge', href: 'https://homecoming.wiki/wiki/Dearly_Departed_Badge' },

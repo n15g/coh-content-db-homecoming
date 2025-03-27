@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Lanista } from './lanista'
 
 export const LongbowNullifier: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const LongbowNullifier: BadgeData = {
   badgeText: [
     { value: 'These fools are wise to obey you.' },
   ],
-  acquisition: 'Earn the [badge:lanista] Badge (Longbow)',
+  acquisition: `Earn the ${badgeLink(Lanista)}} Badge (Longbow)`,
   links: [
     { title: 'Longbow Nullifier Badge', href: 'https://homecoming.wiki/wiki/Longbow_Nullifier_Badge' },
   ],

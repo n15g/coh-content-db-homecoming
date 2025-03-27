@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { DarkAstoria } from '../../map/dark-astoria'
 
 export const AuspiceAvernus: BadgeData = {
@@ -15,7 +15,7 @@ The offal of its millennial imprisonment rose with it, a mephitic concoction of 
 From weeping sores and gaping maws flows a fluid of reconstitution, flushing down its titanic mass and forming pools amongst the pockets of flesh and shattered earth.
 Here, Mot's followers flock, intoxicating themselves on the potent fumes and ecstatically receiving visions of Mot's glory.`,
   }],
-  notes: `Located in [map:${DarkAstoria.key}] in the Moth Cemetery neighborhood. Found at 379 yards south (and slightly east) of the Moth marker (or about 389 yards east and slightly
+  notes: `Located in ${mapLink(DarkAstoria)} in the Moth Cemetery neighborhood. Found at 379 yards south (and slightly east) of the Moth marker (or about 389 yards east and slightly
  north of the Illuminous marker) in a lake of water. In the lower-right-hand corner of the red area of the Moth Cemetery boundaries right up next to the wall.`,
   links: [
     { title: 'Auspice Avernus Badge', href: 'https://homecoming.wiki/wiki/Auspice_Avernus_Badge' },

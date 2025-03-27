@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../map/cascade-archipelago'
 
 export const Castaway: BadgeData = {
@@ -15,7 +15,7 @@ export const Castaway: BadgeData = {
       + ' You feel as though you have washed ashore in a hostile land, cast off from everything you know. You fear, for an instant, that you will never again find the way home.'
       + ' You fight down this irrational fear and move on, lest it consume you.',
   }],
-  notes: 'Located in [map:cascade-archipelago] 588 yards south of The Marooned Shores marker, at the base of the hills on the island\'s southern edge.',
+  notes: `Located in ${mapLink(CascadeArchipelago)} 588 yards south of The Marooned Shores marker, at the base of the hills on the island's southern edge.`,
   links: [
     { title: 'Castaway Badge', href: 'https://homecoming.wiki/wiki/Castaway_Badge' },
   ],

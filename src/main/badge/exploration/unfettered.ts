@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheChantry } from '../../map/the-chantry'
 
 export const Unfettered: BadgeData = {
@@ -16,7 +16,7 @@ export const Unfettered: BadgeData = {
       + ' This identity you\'ve constructed is just an illusion to hide who you really are; not to everyone else, they are less than nothing, but to yourself.'
       + ' Your possessions, your job, your status: it is time for you to deny the hold they have on you and walk free and unfettered.',
   }],
-  notes: 'Located in [map:the-chantry] 0.50 miles SSW of the Bastion of Denial marker, east of the geyser on the floating island.',
+  notes: `Located in ${mapLink(TheChantry)} 0.50 miles SSW of the Bastion of Denial marker, east of the geyser on the floating island.`,
   links: [
     { title: 'Unfettered Badge', href: 'https://homecoming.wiki/wiki/Unfettered_Badge' },
   ],

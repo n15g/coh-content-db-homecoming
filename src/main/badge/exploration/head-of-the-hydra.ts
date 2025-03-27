@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AbandonedSewersTrial } from '../../map/abandoned-sewers-trial'
 
 export const HeadOfTheHydra: BadgeData = {
@@ -12,7 +12,7 @@ export const HeadOfTheHydra: BadgeData = {
   badgeText: [{
     value: `The Hydra threatens Paragon City from the bowels of the sewer system.`,
   }],
-  notes: `Located in the [map:${AbandonedSewersTrial.key}] under where the Hydra spawns.`,
+  notes: `Located in the ${mapLink(AbandonedSewersTrial)} under where the Hydra spawns.`,
   links: [
     { title: 'Head of the Hydra Badge', href: 'https://homecoming.wiki/wiki/Head_of_the_Hydra_Badge' },
   ],

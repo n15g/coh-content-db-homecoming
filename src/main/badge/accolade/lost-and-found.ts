@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FoundersFalls } from '../../map/founders-falls'
 import { Foggy } from '../exploration/foggy'
 import { Chaotician } from '../exploration/chaotician'
@@ -20,7 +20,7 @@ export const LostAndFound: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Founders' Falls.` },
   ],
-  notes: `Visit all exploration badges in [map:${FoundersFalls.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(FoundersFalls)}`,
   links: [
     { title: 'Lost and Found Badge', href: 'https://homecoming.wiki/wiki/Lost_and_Found_Badge' },
   ],

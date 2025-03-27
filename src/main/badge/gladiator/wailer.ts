@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Stonekeeper } from '../exploration/stonekeeper'
 
 export const Wailer: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Wailer: BadgeData = {
   badgeText: [
     { value: 'Your infamy has attracted supernatural notice.' },
   ],
-  acquisition: 'Earn the [badge:stonekeeper] Badge (Wailers)',
+  acquisition: `Earn the ${badgeLink(Stonekeeper)} Badge (Wailers)`,
   links: [
     { title: 'Wailer Badge', href: 'https://homecoming.wiki/wiki/Wailer_Badge' },
   ],

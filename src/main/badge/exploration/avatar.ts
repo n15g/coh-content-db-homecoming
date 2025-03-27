@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PerezPark } from '../../map/perez-park'
 
 export const Avatar: BadgeData = {
@@ -12,7 +12,7 @@ export const Avatar: BadgeData = {
   badgeText: [{
     value: 'Avatar, a hero in Paragon City in the late 1950\'s, had a statue erected to him after his death. The gangs have not been kind to this memorial.',
   }],
-  notes: 'Located in [map:perez-park] 358 yards north of the Skyway City entrance.',
+  notes: `Located in ${mapLink(PerezPark)} 358 yards north of the Skyway City entrance.`,
   links: [
     { title: 'Avatar Badge', href: 'https://homecoming.wiki/wiki/Avatar_Badge' },
   ],

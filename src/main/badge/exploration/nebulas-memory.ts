@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PerezPark } from '../../map/perez-park'
 
 export const NebulasMemory: BadgeData = {
@@ -14,7 +14,7 @@ export const NebulasMemory: BadgeData = {
       + ' Some have witnessed a lone hero brave the dangers of Perez Park to sit in quiet contemplation at the benches near her statue.'
       + ' This hero\'s identity and the nature of his relationship with Nebula remains a tantalizing mystery.',
   }],
-  notes: 'Located in [map:perez-park] 82 yards east of the Everett Lake marker on the map, beneath the statue of Nebula herself.',
+  notes: `Located in ${mapLink(PerezPark)} 82 yards east of the Everett Lake marker on the map, beneath the statue of Nebula herself.`,
   links: [
     { title: 'Nebula\'s Memory Badge', href: 'https://homecoming.wiki/wiki/Nebula%27s_Memory_Badge' },
   ],

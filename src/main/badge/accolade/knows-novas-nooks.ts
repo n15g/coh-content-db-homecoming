@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNova } from '../../map/underground-nova'
 import { ClockworkMechanic } from '../exploration/clockwork-mechanic'
 import { Disappeared } from '../exploration/disappeared'
@@ -20,7 +20,7 @@ export const KnowsNovasNooks: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria's Underground.` },
   ],
-  notes: `Visit all exploration badges in [map:${UndergroundNova.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(UndergroundNova)}`,
   links: [
     { title: 'Knows Nova\'s Nooks Badge', href: 'https://homecoming.wiki/wiki/Knows_Nova%27s_Nooks_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheStormPalace } from '../../map/the-storm-palace'
 
 export const CourtingMadness: BadgeData = {
@@ -17,7 +17,7 @@ and you too have had strange thoughts emerging unbidden from your own psyche.
 Yet you continue to engage this strange place in a race against time: either you will stand triumphant against the Shadow Shard's many challenges, or you will succumb to the madness
 that has claimed lesser minds.`,
   }],
-  notes: `Located in [map:${TheStormPalace.key}] 34 feet north of the Path of Madness marker.`,
+  notes: `Located in ${mapLink(TheStormPalace)} 34 feet north of the Path of Madness marker.`,
   links: [
     { title: 'Courting Madness Badge', href: 'https://homecoming.wiki/wiki/Courting_Madness_Badge' },
   ],

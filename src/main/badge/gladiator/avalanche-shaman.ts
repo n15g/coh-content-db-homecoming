@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Banisher } from '../defeat/banisher'
 
 export const AvalancheShaman: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const AvalancheShaman: BadgeData = {
   badgeText: [
     { value: 'These shamans acknowledge your might.' },
   ],
-  acquisition: 'Earn the [badge:banisher] Badge (Banished Pantheon)',
+  acquisition: `Earn the ${badgeLink(Banisher)} Badge (Banished Pantheon)`,
   links: [
     { title: 'Avalanche Shaman Badge', href: 'https://homecoming.wiki/wiki/Avalanche_Shaman_Badge' },
   ],

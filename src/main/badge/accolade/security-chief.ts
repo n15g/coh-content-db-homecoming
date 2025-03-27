@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { LawEnforcer } from '../day-job/law-enforcer'
 import { Banker } from '../day-job/banker'
 
@@ -15,7 +15,6 @@ export const SecurityChief: BadgeData = {
     { alignment: 'H', value: `Your time spent protecting the banks of Paragon City has earned you the position of Security Chief.  While logged out in either a Vault or a Police Department will earn you charges of Tear Gas.` },
     { alignment: 'V', value: `Every major bank and secure facility had to change their locks and passcodes when you went to the Rogue Isles.` },
   ],
-  notes: `Earn the [badge:law-enforcer] and [badge:banker] Day Jobs`,
   links: [
     { title: 'Security Chief Badge', href: 'https://homecoming.wiki/wiki/Security_Chief_Badge' },
     { title: 'Security Breach Badge', href: 'https://homecoming.wiki/wiki/Security_Breach_Badge' },

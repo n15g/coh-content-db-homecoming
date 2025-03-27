@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheChantry } from '../../map/the-chantry'
 
 export const Misbegotten: BadgeData = {
@@ -15,7 +15,7 @@ export const Misbegotten: BadgeData = {
       + ' What kind of person has their life enhanced every time some "villain" crumples in a lifeless heap at your feet? Does it make you feel powerful?'
       + ' You\'re a leech, sucking the life from everyone who stands between you and your "noble goals" for a "better, safer society." Have you no shame?',
   }],
-  notes: 'Located in [map:the-chantry] 250 yards ENE of the Bastion of Shame marker, on the NE edge of the island.',
+  notes: `Located in ${mapLink(TheChantry)} 250 yards ENE of the Bastion of Shame marker, on the NE edge of the island.`,
   links: [
     { title: 'Misbegotten Badge', href: 'https://homecoming.wiki/wiki/Misbegotten_Badge' },
   ],

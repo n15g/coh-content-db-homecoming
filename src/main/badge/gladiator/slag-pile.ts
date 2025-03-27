@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { SlagReaper } from '../accomplishment/slag-reaper'
 
 export const SlagPile: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const SlagPile: BadgeData = {
   badgeText: [
     { value: 'Hmm, maybe these reeking piles of junk are useful.' },
   ],
-  acquisition: 'Earn the [badge:slag-reaper] Badge (Slag Golems)',
+  acquisition: `Earn the ${badgeLink(SlagReaper)} Badge (Slag Golems)`,
   links: [
     { title: 'Slag Pile Badge', href: 'https://homecoming.wiki/wiki/Slag_Pile_Badge' },
   ],

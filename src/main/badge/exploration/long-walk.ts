@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PortOakes } from '../../map/port-oakes'
 
 export const LongWalk: BadgeData = {
@@ -13,7 +13,7 @@ export const LongWalk: BadgeData = {
     value: `These long parking tunnels are the last thing that many who cross the Marcones see when they're asked to "come take a long walk."
  Those who live in Port Oakes know to steer clear - and that all of the cars in the lot belong to the Marcones.`,
   }],
-  notes: `Located in [map:${PortOakes.key}], in the Arena District neighborhood.
+  notes: `Located in ${mapLink(PortOakes)}, in the Arena District neighborhood.
 
 It is in the middle of the northern parking tunnel 73 yards south of the hospital.`,
   links: [

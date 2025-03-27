@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../map/firebase-zulu'
 
 export const DancerWithDeath: BadgeData = {
@@ -16,7 +16,7 @@ export const DancerWithDeath: BadgeData = {
       + ' In the spirit of the name of their base, Point Tango, they\'ve coined the phrase "Dance with Death" for whenever the denizens of the Shadow Shard launch another attack'
       + ' against their position. They welcome you to dance with them, and survive as they have... if you can.',
   }],
-  notes: 'Located in [map:firebase-zulu] 83 yards NE of Point Tango, at the base of the lookout tower.',
+  notes: `Located in ${mapLink(FirebaseZulu)} 83 yards NE of Point Tango, at the base of the lookout tower.`,
   links: [
     { title: 'Dancer with Death Badge', href: 'https://homecoming.wiki/wiki/Dancer_with_Death_Badge' },
   ],

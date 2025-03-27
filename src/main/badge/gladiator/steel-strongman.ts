@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Illusionist } from '../defeat/illusionist'
 
 export const SteelStrongman: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const SteelStrongman: BadgeData = {
   badgeText: [
     { value: 'Might is not match for your right.' },
   ],
-  acquisition: 'Earn the [badge:illusionist] Badge (Carnival of Shadows)',
+  acquisition: `Earn the ${badgeLink(Illusionist)} Badge (Carnival of Shadows)`,
   links: [
     { title: 'Steel Strongman Badge', href: 'https://homecoming.wiki/wiki/Steel_Strongman_Badge' },
   ],

@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { TankBuster } from '../defeat/tank-buster'
 
 export const TankSmasher: BadgeData = {
   type: 'GLADIATOR',
@@ -9,7 +10,7 @@ export const TankSmasher: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: 'Tank smash!' }],
-  acquisition: 'Collect the [badge:tank-buster] Badge.',
+  acquisition: `Collect the ${badgeLink(TankBuster)} Badge.`,
   links: [
     { title: 'Tank Smasher Badge', href: 'https://homecoming.wiki/wiki/Tank_Smasher_Badge' },
   ],

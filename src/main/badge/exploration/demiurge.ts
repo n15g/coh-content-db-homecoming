@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheChantry } from '../../map/the-chantry'
 
 export const Demiurge: BadgeData = {
@@ -16,7 +16,7 @@ export const Demiurge: BadgeData = {
       + ' No mind games or violations to your person could prevent you from reaching this point and now you stand at the pinnacle of the Chantry,'
       + ' the lord of this realm in spirit, if not in actuality.',
   }],
-  notes: 'Located in [map:the-chantry] at The Chantry marker, directly atop the Chantry itself.',
+  notes: `Located in ${mapLink(TheChantry)} at The Chantry marker, directly atop the Chantry itself.`,
   links: [
     { title: 'Demiurge Badge', href: 'https://homecoming.wiki/wiki/Demiurge_Badge' },
   ],

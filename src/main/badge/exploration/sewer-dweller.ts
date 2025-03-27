@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Grandville } from '../../map/grandville'
 
 export const SewerDweller: BadgeData = {
@@ -12,9 +12,9 @@ export const SewerDweller: BadgeData = {
   badgeText: [{
     value: `A new low, even for a villain, you've stumbled through the very very bottom of Grandville in the area known as 'The Gutter.'`,
   }],
-  notes: `Located in [map:${Grandville.key}], in The Gutter neighborhood of Grandville.
+  notes: `Located in ${mapLink(Grandville)}, in The Gutter neighborhood of Grandville.
 
-It is on top of a sewer pipe located 216 yards northeast of The Gutter marker.`,
+          It is on top of a sewer pipe located 216 yards northeast of The Gutter marker.`,
   links: [
     { title: 'Sewer Dweller Badge', href: 'https://homecoming.wiki/wiki/Sewer_Dweller_Badge' },
   ],

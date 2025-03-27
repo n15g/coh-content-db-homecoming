@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
 
 export const ReadyForAnything: BadgeData = {
@@ -13,7 +13,7 @@ export const ReadyForAnything: BadgeData = {
     value: 'This training room under Lambda Sector serves as a harsh urban combat \'shoothouse\' for the Imperial Defense Force and PPD TEST.'
       + ' Live fire exercises are also known as \'Resistance assaults.\'',
   }],
-  notes: 'Located in [map:underground-neutropolis] in the square at the far north of the map.',
+  notes: `Located in ${mapLink(UndergroundNeutropolis)} in the square at the far north of the map.`,
   links: [
     { title: 'Ready for Anything Badge', href: 'https://homecoming.wiki/wiki/Ready_for_Anything_Badge' },
   ],

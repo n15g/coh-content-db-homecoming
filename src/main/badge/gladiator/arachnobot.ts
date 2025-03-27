@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { AgentOfDiscord } from '../accomplishment/agent-of-discord'
 
 export const Arachnobot: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Arachnobot: BadgeData = {
   badgeText: [
     { value: 'Password accepted. This unit will obey.' },
   ],
-  acquisition: 'Earn the [badge:agent-of-discord] Badge (Arachnos)',
+  acquisition: `Earn the ${badgeLink(AgentOfDiscord)} Badge (Arachnos)`,
   links: [
     { title: 'Arachnobot Badge', href: 'https://homecoming.wiki/wiki/Arachnobot_Badge' },
   ],

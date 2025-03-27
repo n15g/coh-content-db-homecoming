@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StMartial } from '../../map/st-martial'
 
 export const Showstopper: BadgeData = {
@@ -11,9 +11,9 @@ export const Showstopper: BadgeData = {
   loc: [-2198, 16, -1953],
   badgeText: [{
     value: `Hundreds of spectators have stood in this spot, transfixed by the eclectic performances of the Carnival of Shadows.
- Many of them are never seen again; some speculate that they've joined the troupe, while others fear they met more unpleasant fates.`,
+            any of them are never seen again; some speculate that they've joined the troupe, while others fear they met more unpleasant fates.`,
   }],
-  notes: `Located in [map:${StMartial.key}], in the Fortune's Wheel neighborhood.
+  notes: `Located in ${mapLink(StMartial)}, in the Fortune's Wheel neighborhood.
 
 It is at the eastern entrance of the Carnival, 328 yards ENE of the neighborhood marker.`,
   links: [

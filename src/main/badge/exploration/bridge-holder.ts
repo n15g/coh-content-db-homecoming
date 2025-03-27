@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TalosIsland } from '../../map/talos-island'
 
 export const BridgeHolder: BadgeData = {
@@ -14,7 +14,7 @@ export const BridgeHolder: BadgeData = {
       + ' Some people in Paragon think the plot to destroy the bridge was ridiculous, but The Commuter insists that, \'this bridge means the world to all'
       + ' those who drive in and out of Talos everyday.\'',
   }],
-  notes: 'Located on the main bridge leading into the New Thebes neighborhood of [map:talos-island], 187 yards NNW of the Hero Corps Field Analyst.',
+  notes: `Located on the main bridge leading into the New Thebes neighborhood of ${mapLink(TalosIsland)}, 187 yards NNW of the Hero Corps Field Analyst.`,
   links: [
     { title: 'Bridge Holder Badge', href: 'https://homecoming.wiki/wiki/Bridge_Holder_Badge' },
   ],

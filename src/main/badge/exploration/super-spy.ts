@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StrigaIsle } from '../../map/striga-isle'
 
 export const SuperSpy: BadgeData = {
@@ -12,7 +12,7 @@ export const SuperSpy: BadgeData = {
   badgeText: [{
     value: 'The Council\'s expert security forces keep most heroes from venturing this far into their base.',
   }],
-  notes: 'Located in [map:striga-isle] on the hinge of a large set of steel doors along the NW short of the island.',
+  notes: `Located in ${mapLink(StrigaIsle)} on the hinge of a large set of steel doors along the NW short of the island.`,
   links: [
     { title: 'Super Spy Badge', href: 'https://homecoming.wiki/wiki/Super_Spy_Badge' },
   ],

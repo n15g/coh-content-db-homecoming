@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Liberator } from '../accomplishment/liberator'
 
 export const Boulder: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Boulder: BadgeData = {
   badgeText: [
     { value: 'You have might over nature itself.' },
   ],
-  acquisition: 'Earn the [badge:liberator] Badge (Devouring Earth)',
+  acquisition: `Earn the ${badgeLink(Liberator)} Badge (Devouring Earth)`,
   links: [
     { title: 'Boulder Badge', href: 'https://homecoming.wiki/wiki/Boulder_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Brickstown } from '../../map/brickstown'
 
 export const Mystic: BadgeData = {
@@ -12,7 +12,7 @@ export const Mystic: BadgeData = {
   badgeText: [{
     value: 'This nexus is the intersection of two very minor Ley Lines, almost imperceptible to those without Second Sight.',
   }],
-  notes: 'Located in Seven Gates neighborhood of [map:brickstown]. It can be found 330 yards east of the Crey\'s Folly exit on top of a circular grated catwalk.',
+  notes: `Located in Seven Gates neighborhood of ${mapLink(Brickstown)}. It can be found 330 yards east of the Crey's Folly exit on top of a circular grated catwalk.`,
   links: [
     { title: 'Mystic Badge', href: 'https://homecoming.wiki/wiki/Mystic_Badge' },
   ],

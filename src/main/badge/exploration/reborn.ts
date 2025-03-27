@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheAbyss } from '../../map/the-abyss'
 
 export const Reborn: BadgeData = {
@@ -12,7 +12,7 @@ export const Reborn: BadgeData = {
   badgeText: [{
     value: `You have located where the Devouring Earth have attempted to bring forth the Hamidon outside of the prying eyes of Paragon City.`,
   }],
-  notes: `Located in [map:${TheAbyss.key}], directly under the nucleus of Hamidon, in the bowl-shaped water area in the northern part of the map.
+  notes: `Located in ${mapLink(TheAbyss)}, directly under the nucleus of Hamidon, in the bowl-shaped water area in the northern part of the map.
 
 It is located underwater (but visible, if a villain is close enough to it) roughly where the feeding streams point in the center of the bowl.
  It is possible to get this badge when Hamidon is not present (i.e. there are Devouring Earth Monsters present in the zone).`,

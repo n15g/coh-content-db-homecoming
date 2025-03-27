@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FoundersFalls } from '../../map/founders-falls'
 
 export const FoundersHero: BadgeData = {
@@ -18,7 +18,7 @@ export const FoundersHero: BadgeData = {
       + ' A group of heroes arrived to drive back the Circle, but it was too late for them to save Michelle.'
       + ' Because of this brave sacrifice, the hospital was renamed in her honor.',
   }],
-  notes: 'Located 114 yards NNE of the hospital in [map:founders-falls], directly in front of Janet Kellum and Maxwell Christopher.',
+  notes: `Located 114 yards NNE of the hospital in ${mapLink(FoundersFalls)}, directly in front of Janet Kellum and Maxwell Christopher.`,
   links: [
     { title: 'Founders\' Hero Badge', href: 'https://homecoming.wiki/wiki/Founders%27_Hero_Badge' },
     { title: 'Founders\' Loss Badge', href: 'https://homecoming.wiki/wiki/Founders%27_Loss_Badge' },

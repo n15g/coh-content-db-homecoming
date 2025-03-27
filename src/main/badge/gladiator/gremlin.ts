@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Electrician } from '../defeat/electrician'
 
 export const Gremlin: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Gremlin: BadgeData = {
   badgeText: [
     { value: 'This living spark is a capricious sort.' },
   ],
-  acquisition: 'Earn the [badge:electrician] Badge (Cap au Diable Demons)',
+  acquisition: `Earn the ${badgeLink(Electrician)} Badge (Cap au Diable Demons)`,
   links: [
     { title: 'Gremlin Badge', href: 'https://homecoming.wiki/wiki/Gremlin_Badge' },
   ],

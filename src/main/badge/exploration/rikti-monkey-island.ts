@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { MonsterIsland } from '../../map/monster-island'
 
 export const RiktiMonkeyIsland: BadgeData = {
@@ -16,7 +16,7 @@ It is nearly unbearable here; the Rikti Monkeys chattering non-stop, dropping du
 every last one of them.
 You're going to enjoy pulping their little bodies.`,
   }],
-  notes: `Located in [map:${MonsterIsland.key}], 535 yards southeast of the Cutlass Isles marker, near the tallest tree on the small island in the southeast portion of the zone.`,
+  notes: `Located in ${mapLink(MonsterIsland)}, 535 yards southeast of the Cutlass Isles marker, near the tallest tree on the small island in the southeast portion of the zone.`,
   links: [
     { title: 'Rikti Monkey Island Badge', href: 'https://homecoming.wiki/wiki/Rikti_Monkey_Island_Badge' },
   ],

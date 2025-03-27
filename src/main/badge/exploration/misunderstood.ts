@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FoundersFalls } from '../../map/founders-falls'
 
 export const Misunderstood: BadgeData = {
@@ -14,7 +14,7 @@ export const Misunderstood: BadgeData = {
       + ' Agent Six tracked him here and beat him within an inch of his life before arresting him.'
       + ' Cadao would later be cleared of all charges, but to this day he has not gone near Agent Six, claiming she is, "out of her mind."',
   }],
-  notes: 'Located directly in front of Agent Six, the Natural store in [map:founders-falls].',
+  notes: `Located directly in front of Agent Six, the Natural store in ${mapLink(FoundersFalls)}.`,
   links: [
     { title: 'Misunderstood Badge', href: 'https://homecoming.wiki/wiki/Misunderstood_Badge' },
   ],

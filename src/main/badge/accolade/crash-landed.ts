@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
 import { Powerful } from '../exploration/powerful'
 import { UnderFire } from '../exploration/under-fire'
@@ -20,7 +20,7 @@ export const CrashLanded: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge in Echo: Rikti Crash Site.` },
   ],
-  notes: `Visit all exploration badges in [map:${EchoRiktiCrashSite.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(EchoRiktiCrashSite)}`,
   links: [
     { title: 'Crash Landed Badge', href: 'https://homecoming.wiki/wiki/Crash_Landed_Badge' },
   ],

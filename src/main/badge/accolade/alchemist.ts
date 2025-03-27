@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Caregiver } from '../day-job/caregiver'
 import { Midnighter } from '../day-job/midnighter'
 
@@ -14,7 +14,6 @@ export const Alchemist: BadgeData = {
     { alignment: 'H', value: `Your arcane studies with the Midnighters and time spent working in the Hospitals of Paragon City has earned you the Alchemist Accolade.  While logged out within the Midnighter's Club or inside a Hospital you will earn charges for your Vitalize power.` },
     { alignment: 'V', value: `Your arcane studies with the Midnighters and time spent working in the Hospitals of the Rogue Isles has earned you the Alchemist Accolade.  While logged out within the Midnighter's Club or inside a Hospital you will earn charges for your Vitalize power.` },
   ],
-  notes: `Earn the [badge:caregiver] and [badge:midnighter] Day Jobs`,
   links: [
     { title: 'Alchemist Badge', href: 'https://homecoming.wiki/wiki/Alchemist_Badge' },
   ],

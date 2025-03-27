@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TerraVolta } from '../../map/terra-volta'
 import { IndependencePort } from '../../map/independence-port'
 
@@ -15,7 +15,7 @@ export const DangerDanger: BadgeData = {
 Before you lies a seething cauldron of anger, malice, and greed centered around the pumping heart of the city: the Terra Volta Nuclear Reactor.
 Between the many villains who prowl the streets here there lies the danger of electrocution or radiation exposure, so tread carefully.`,
   }],
-  notes: `168 yards south of the [map:${IndependencePort.key}] gate, on the roof of the building.`,
+  notes: `168 yards south of the ${mapLink(IndependencePort)} gate, on the roof of the building.`,
   links: [
     { title: 'Danger! Danger! Badge', href: 'https://homecoming.wiki/wiki/Danger!_Danger!_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Clubber } from '../day-job/clubber'
 import { FashionDesigner } from '../day-job/fashion-designer'
 
@@ -13,7 +13,6 @@ export const Socialite: BadgeData = {
   badgeText: [
     { value: `Your popularity and your fashion sense have earned you the Socialite Accolade.  While logged out in Pocket D or a Tailor you will earn charges for your Beguile power.` },
   ],
-  notes: `Earn the [badge:clubber] and [badge:fashion-designer] Day Jobs`,
   links: [
     { title: 'Socialite Badge', href: 'https://homecoming.wiki/wiki/Socialite_Badge' },
   ],

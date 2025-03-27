@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { VanguardRecruit } from '../day-job/vanguard-recruit'
 import { Patroller } from '../day-job/patroller'
 
@@ -14,7 +14,6 @@ export const Mercenary: BadgeData = {
     { alignment: 'H', value: `Your work aiding Vanguard defend Paragon from the ever present Rikti threat and always being ready to aid Paragon City has earned you the Mercenary Accolade.  While logged out in the Vanguard Base you will earn charges for your Fragmentation Grenade Power.` },
     { alignment: 'V', value: `Your work aiding Vanguard defeat the ever present Rikti threat and always being ready to spring into action has earned you the Mercenary Accolade.  While logged out in the Vanguard Base you will earn charges for your Fragmentation Grenade Power.` },
   ],
-  notes: `Earn the [badge:vanguard-recruit] and [badge:patroller] Day Jobs`,
   links: [
     { title: 'Mercenary Badge', href: 'https://homecoming.wiki/wiki/Mercenary_Badge' },
   ],

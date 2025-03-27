@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Venomous } from '../defeat/venomous'
 
 export const Tarantula: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Tarantula: BadgeData = {
   badgeText: [
     { value: 'Who can say what motivates these creations?' },
   ],
-  acquisition: 'Earn the [badge:venomous] Badge (Arachnos)',
+  acquisition: `Earn the ${badgeLink(Venomous)} Badge (Arachnos)`,
   links: [
     { title: 'Tarantula Badge', href: 'https://homecoming.wiki/wiki/Tarantula_Badge' },
   ],

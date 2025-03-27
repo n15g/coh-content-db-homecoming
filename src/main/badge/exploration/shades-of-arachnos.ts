@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../map/peregrine-island'
 
 export const ShadesOfArachnos: BadgeData = {
@@ -12,7 +12,8 @@ export const ShadesOfArachnos: BadgeData = {
   badgeText: [{
     value: 'You could swear that you just saw a submarine off the coast of this island...but it\'s gone now. It was probably just your imagination.',
   }],
-  notes: 'Located in the Cutlass Isles neighborhood of [map:peregrine-island] on the northeast shore of the small northernmost island.\n'
+  notes: `Located in the Cutlass Isles neighborhood of ${mapLink(PeregrineIsland)} on the northeast shore of the small northernmost island.
+`
     + '\n'
     + 'Be Careful: Approaching this badge will bring you into close proximity of Devouring Earth Monsters.',
   links: [

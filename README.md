@@ -6,7 +6,7 @@
 [![NPM Version](https://img.shields.io/npm/v/coh-content-db-homecoming)](https://www.npmjs.com/package/coh-content-db-homecoming)
 [![GitHub License](https://img.shields.io/github/license/n15g/coh-content-db-homecoming)](LICENSE)
 
-CoH Content DB - Homecoming data
+Homecoming server data for use with [coh-content-db](https://github.com/n15g/coh-content-db).
 
 # Usage
 
@@ -208,7 +208,7 @@ export const ProtectorOfInnocents: BadgeData = {
     ],
 
     // Include the map key for exploration badges,
-    mapKey: ReclusesVictory.key,
+    mapKey: AtlasPark.key,
 
     // /loc Coordinates for exploration badges
     loc: [-411.0, 48.0, -2623.0],
@@ -224,7 +224,7 @@ export const ProtectorOfInnocents: BadgeData = {
             plaqueType: 'MONUMENT',
             loc: [330.45, 3.93, 397.33],
             inscription: ``,
-            notes: `This plaque is in [map:${AtlasPark.key}], roughly 258 yards south-southwest of the Atlas Plaza neighborhood marker.`,
+            notes: `This plaque is in ${mapLink(AtlasPark)}], roughly 258 yards south-southwest of the Atlas Plaza neighborhood marker.`,
             vidiotMapKey: '8'
         },
         {

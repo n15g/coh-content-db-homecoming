@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink, mapLink } from 'coh-content-db'
 import { AbandonedSewerNetwork } from '../../map/abandoned-sewer-network'
 import { SewerNetwork } from '../../map/sewer-network'
 
@@ -18,7 +18,7 @@ export const TheUnderlord: BadgeData = {
       + ' But down here, someone of rare vision could carve out a niche for themselves; dominating the creatures who call this part of the sewer home or using the network\'s ability to touch'
       + ' every part of the city as a means to carry out all kinds of business out of the eyes of the authorities.',
   }],
-  notes: `Located in [map:abandoned-sewer-network] 84 feet northeast of the [${SewerNetwork.key}] transfer point in Kings Row Sector, right at the exit of the room.`,
+  notes: `Located in ${mapLink(AbandonedSewerNetwork)} 84 feet northeast of the ${mapLink(SewerNetwork)} transfer point in Kings Row Sector, right at the exit of the room.`,
   links: [
     { title: 'The Underlord Badge', href: 'https://homecoming.wiki/wiki/The_Underlord_Badge' },
     { title: 'The Underlady Badge', href: 'https://homecoming.wiki/wiki/The_Underlady_Badge' },

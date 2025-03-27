@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FoundersFalls } from '../../map/founders-falls'
 
 export const Foggy: BadgeData = {
@@ -12,7 +12,7 @@ export const Foggy: BadgeData = {
   badgeText: [{
     value: 'This building is in the final stages of preparing suites for the use of the city\'s Super Groups.',
   }],
-  notes: 'Located in The Gaspee neighborhood of [map:founders-falls]. It is located by a fountain in front (east) of a tall building 100 yards south of The Gaspee marker.',
+  notes: `Located in The Gaspee neighborhood of ${mapLink(FoundersFalls)}. It is located by a fountain in front (east) of a tall building 100 yards south of The Gaspee marker.`,
   links: [
     { title: 'Foggy Badge', href: 'https://homecoming.wiki/wiki/Foggy_Badge' },
   ],

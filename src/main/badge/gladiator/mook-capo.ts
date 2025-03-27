@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { StoneCold } from '../accomplishment/stone-cold'
 
 export const MookCapo: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const MookCapo: BadgeData = {
   badgeText: [
     { value: 'Da Mooks are on your side.' },
   ],
-  acquisition: 'Earn the [badge:stone-cold] Badge (Mooks)',
+  acquisition: `Earn the ${badgeLink(StoneCold)} Badge (Mooks)`,
   links: [
     { title: 'Mook Capo Badge', href: 'https://homecoming.wiki/wiki/Mook_Capo_Badge' },
   ],

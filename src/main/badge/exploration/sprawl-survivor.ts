@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AbandonedSewerNetwork } from '../../map/abandoned-sewer-network'
 import { SewerNetwork } from '../../map/sewer-network'
 
@@ -15,7 +15,7 @@ export const SprawlSurvivor: BadgeData = {
       + ' It takes someone of singular courage (or foolhardiness) to see the Abandoned Sewer Network as the place they would like to escape to.'
       + ' But down here, in the cool confines of the tunnels, away from the noise of Skyway, a kind of peace can be achieved.',
   }],
-  notes: `Located in [map:abandoned-sewer-network] 79 feet northwest of the [${SewerNetwork.key}] transfer point in Skyway City Network, right at the exit of the room.`,
+  notes: `Located in ${mapLink(AbandonedSewerNetwork)} 79 feet northwest of the ${mapLink(SewerNetwork)} transfer point in Skyway City Network, right at the exit of the room.`,
   links: [
     { title: 'Sprawl Survivor Badge', href: 'https://homecoming.wiki/wiki/Sprawl_Survivor_Badge' },
   ],

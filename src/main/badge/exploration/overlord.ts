@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Grandville } from '../../map/grandville'
 
 export const Overlord: BadgeData = {
@@ -12,7 +12,7 @@ export const Overlord: BadgeData = {
   badgeText: [{
     value: `You've visited the beach outside the Grandville city walls, where Lord Recluse viciously repelled an invasion of Longbow landing craft.`,
   }],
-  notes: `Located in [map:${Grandville.key}], in the Gutter neighborhood (but outside the main walls).
+  notes: `Located in ${mapLink(Grandville)}, in the Gutter neighborhood (but outside the main walls).
 
 From The Gutter marker, head one tick right of northeast on the compass (slightly east of due northeast) until you reach the door for beach access and go outside.
 On the other side of the door, head due east until you reach a small concrete bunker just before reaching the beach.

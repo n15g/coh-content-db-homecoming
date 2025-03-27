@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Professor } from '../day-job/professor'
 import { CreyTestSubject } from '../day-job/crey-test-subject'
 
@@ -18,7 +18,6 @@ export const Whistleblower: BadgeData = {
       value: `Your work with Crey Industries and studies in various fields has earned you the Crey Scientist Accolade.  While logged out in the Crey Industries building or in a University you will earn additional charges for your Sleep Grenade power.`,
     },
   ],
-  notes: `Earn the [badge:crey-employee] and [badge:professor] Day Jobs`,
   links: [
     { title: 'Whistleblower Badge', href: 'https://homecoming.wiki/wiki/Whistleblower_Badge' },
     { title: 'Crey Scientist Badge', href: 'https://homecoming.wiki/wiki/Crey_Scientist_Badge' },

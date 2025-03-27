@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PerezPark } from '../../map/perez-park'
 
 export const OpheliasFinalScene: BadgeData = {
@@ -14,7 +14,7 @@ export const OpheliasFinalScene: BadgeData = {
       + ' In productions of Hamlet, it had become tradition for Ophelia\'s drowning scene to be played out in the waters of Everett Lake as Queen Gertrude stood on the dock,'
       + ' lamenting the death of her daughter.',
   }],
-  notes: 'Located in [map:perez-park] 215 yards northeast of the Everett Lake marker on the map, on the extreme northeast coast of the lake.',
+  notes: `Located in ${mapLink(PerezPark)} 215 yards northeast of the Everett Lake marker on the map, on the extreme northeast coast of the lake.`,
   links: [
     { title: 'Ophelia\'s Final Scene Badge', href: 'https://homecoming.wiki/wiki/Ophelia%27s_Final_Scene_Badge' },
   ],

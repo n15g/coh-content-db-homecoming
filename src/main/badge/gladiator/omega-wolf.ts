@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { TheSilverBullet } from '../defeat/the-silver-bullet'
 
 export const OmegaWolf: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const OmegaWolf: BadgeData = {
   badgeText: [
     { value: 'This beast is yours in the Arena.' },
   ],
-  acquisition: 'Earn the [badge:the-silver-bullet] Badge (Council)',
+  acquisition: `Earn the ${badgeLink(TheSilverBullet)} Badge (Council)`,
   links: [
     { title: 'Omega Wolf Badge', href: 'https://homecoming.wiki/wiki/Omega_Wolf_Badge' },
   ],

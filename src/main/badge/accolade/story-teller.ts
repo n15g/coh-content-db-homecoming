@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Croatoa } from '../../map/croatoa'
 
 export const StoryTeller: BadgeData = {
@@ -12,7 +12,7 @@ export const StoryTeller: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within Croatoa.` },
   ],
-  acquisition: `Complete every story arc in [map:${Croatoa.key}]`,
+  acquisition: `Complete every story arc in ${mapLink(Croatoa)}`,
   notes: `This badge rewards 20 reward merits.`,
   links: [
     { title: 'Story Teller Badge', href: 'https://homecoming.wiki/wiki/Story_Teller_Badge' },

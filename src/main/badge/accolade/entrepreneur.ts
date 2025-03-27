@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { DayTrader } from '../day-job/day-trader'
 import { ShopKeeper } from '../day-job/shop-keeper'
 
@@ -14,11 +14,10 @@ export const Entrepreneur: BadgeData = {
   badgeText: [
     {
       alignment: 'H',
-      value: `Your masterful knowledge of the Auction House combined with a great head for business has made you a very successful Entrepreneur.  While logged out at either Wentworth's or inside a Shop you will earn tokens that will grant you discount when crafting inventions.`,
+      value: `Your masterful knowledge of the Auction House combined with a great head for business has made you a very successful Entrepreneur. While logged out at either Wentworth's or inside a Shop you will earn tokens that will grant you discount when crafting inventions.`,
     },
     { alignment: 'V', value: `Your studies of business theory and practice have driven you to press for free trade between the Rogue Isles and Paragon City. On the surface, your efforts appear fruitless, but there are shadowy rumors they have had an effect...` },
   ],
-  notes: `Earn the [badge:shop-keeper] and [badge:day-trader] Day Jobs`,
   links: [
     { title: 'Entrepreneur Badge', href: 'https://homecoming.wiki/wiki/Entrepreneur_Badge' },
     { title: 'Free Trade Advocate Badge', href: 'https://homecoming.wiki/wiki/Free_Trade_Advocate_Badge' },

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Grandville } from '../../map/grandville'
 
 export const GutterBait: BadgeData = {
@@ -14,7 +14,7 @@ export const GutterBait: BadgeData = {
 At first, search and rescue missions were initiated to attempt to recover the missing soldiers, but were soon called off.
 Arachnos uses the disappearances as a valuable lesson on being alert during patrol.`,
   }],
-  notes: `Located in [map:${Grandville.key}], in the Spider City neighborhood.
+  notes: `Located in ${mapLink(Grandville)}, in the Spider City neighborhood.
 
 It is on a catwalk overlooking the North Ward of the Gutter, 154 yards east of the Gutter neighborhood marker.`,
   links: [

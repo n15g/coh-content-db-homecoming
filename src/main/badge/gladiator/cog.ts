@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Gearsmasher } from '../defeat/gearsmasher'
 
 export const Cog: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Cog: BadgeData = {
   badgeText: [
     { value: 'It doesn\'t take much to make these machines fight for you.' },
   ],
-  acquisition: 'Earn the [badge:gearsmasher] Badge (Clockwork)',
+  acquisition: `Earn the ${badgeLink(Gearsmasher)}} Badge (Clockwork)`,
   links: [
     { title: 'Cog Badge', href: 'https://homecoming.wiki/wiki/Cog_Badge' },
   ],

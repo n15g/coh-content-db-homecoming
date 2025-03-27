@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { GrandLanista } from './grand-lanista'
 
 export const HerculesTitan: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const HerculesTitan: BadgeData = {
   badgeText: [
     { value: 'You have unlocked a mighty Titan for your gladiator team.' },
   ],
-  acquisition: 'Earn the [badge:grand-lanista] Badge (Malta Operatives)',
+  acquisition: `Earn the ${badgeLink(GrandLanista)} Badge (Malta Operatives)`,
   links: [
     { title: 'Hercules Titan Badge', href: 'https://homecoming.wiki/wiki/Hercules_Titan_Badge' },
   ],

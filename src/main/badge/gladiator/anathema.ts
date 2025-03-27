@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Finder } from '../defeat/finder'
 
 export const Anathema: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Anathema: BadgeData = {
   badgeText: [
     { value: 'These Lost serve you grudgingly.' },
   ],
-  acquisition: 'Earn the [badge:finder] Badge (The Lost)',
+  acquisition: `Earn the ${badgeLink(Finder)} Badge (The Lost)`,
   links: [
     { title: 'Anathema Badge', href: 'https://homecoming.wiki/wiki/Anathema_Badge' },
   ],

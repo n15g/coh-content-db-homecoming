@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Brickstown } from '../../map/brickstown'
 import { Mystic } from '../exploration/mystic'
 import { Inmate } from '../exploration/inmate'
@@ -22,7 +22,7 @@ export const ZigWarden: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Brickstown.` },
   ],
-  notes: `Visit all exploration badges in [map:${Brickstown.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(Brickstown)}.`,
   links: [
     { title: 'Zig Warden Badge', href: 'https://homecoming.wiki/wiki/Zig_Warden_Badge' },
     { title: 'King of the Zig Badge', href: 'https://homecoming.wiki/wiki/King_of_the_Zig_Badge' },

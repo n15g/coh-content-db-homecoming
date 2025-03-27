@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { WatcherOnTheKnoll } from '../exploration/watcher-on-the-knoll'
 
 export const Juicer: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Juicer: BadgeData = {
   badgeText: [
     { value: 'The Freaks celebrate you as a force of anarchy.' },
   ],
-  acquisition: 'Earn the [badge:watcher-on-the-knoll] Badge (Freakshow)',
+  acquisition: `Earn the ${badgeLink(WatcherOnTheKnoll)} Badge (Freakshow)`,
   links: [
     { title: 'Juicer Badge', href: 'https://homecoming.wiki/wiki/Juicer_Badge' },
   ],

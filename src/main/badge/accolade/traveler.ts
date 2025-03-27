@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { DimensionalExplorer } from '../day-job/dimensional-explorer'
 import { Commuter } from '../day-job/commuter'
 
@@ -18,7 +18,6 @@ export const Traveler: BadgeData = {
     },
     { alignment: 'V', value: `You've made a breakthrough in getting to new places, heading all the way to the Rogue Isles for more travel opportunities.` },
   ],
-  notes: `Earn the [badge:dimensional-explorer] and [badge:commuter] Day Jobs`,
   links: [
     { title: 'Traveler Badge', href: 'https://homecoming.wiki/wiki/Traveler_Badge' },
     { title: 'Border Crosser Badge', href: 'https://homecoming.wiki/wiki/Border_Crosser_Badge' },

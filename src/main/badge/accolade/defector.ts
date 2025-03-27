@@ -1,4 +1,4 @@
-import { BadgeData, createBadgeReference } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { CannonFodder } from '../day-job/cannon-fodder'
 import { Banker } from '../day-job/banker'
 
@@ -21,7 +21,6 @@ export const Defector: BadgeData = {
       value: `Your mastery of stealth and your training with Arachnos has earned you the Black Ops Accolade.  While logged out in an Arachnos controlled area or inside a Vault you will earn charges for your Smoke Bomb power.`,
     },
   ],
-  notes: `Earn the ${createBadgeReference(CannonFodder)} and ${createBadgeReference(Banker)} Day Jobs`,
   links: [
     { title: 'Defector Badge', href: 'https://homecoming.wiki/wiki/Defector_Badge' },
     { title: 'Black Ops Badge', href: 'https://homecoming.wiki/wiki/Black_Ops_Badge' },

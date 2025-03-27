@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNova } from '../../map/underground-nova'
 
 export const Trainspotter: BadgeData = {
@@ -13,7 +13,7 @@ export const Trainspotter: BadgeData = {
     value: 'In this subterranean maintenance bay the Clockwork maintain and repair Praetoria\'s monorail cars.'
       + ' Here you may find some of the older cars that have since gone out of service: a trainspotter\'s dream.',
   }],
-  notes: 'Located in [map:underground-nova] 565 yards SE of the Imperial Tunnel point.',
+  notes: `Located in ${mapLink(UndergroundNova)} 565 yards SE of the Imperial Tunnel point.`,
   links: [
     { title: 'Trainspotter Badge', href: 'https://homecoming.wiki/wiki/Trainspotter_Badge' },
   ],

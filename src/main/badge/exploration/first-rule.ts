@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { MercyIsland } from '../../map/mercy-island'
 
 export const FirstRule: BadgeData = {
@@ -12,7 +12,7 @@ export const FirstRule: BadgeData = {
   badgeText: [{
     value: `The first rule of Infected Fight Club is that you don't talk about it. At least that's what the RIP told you after you walked in on one of their Infected Fighting Rings in Mercy.`,
   }],
-  notes: `Located on [map:${MercyIsland.key}], in the Darwin's Landing neighborhood.
+  notes: `Located on ${mapLink(MercyIsland)}, in the Darwin's Landing neighborhood.
 
 It is in the middle of the triangular fight club arena 612 yards WSW of the neighborhood marker.`,
   links: [

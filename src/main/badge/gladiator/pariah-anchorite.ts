@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Intellectual } from '../history/intellectual'
 
 export const PariahAnchorite: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const PariahAnchorite: BadgeData = {
   badgeText: [
     { value: 'Now the Lost fear your power!' },
   ],
-  acquisition: 'Earn the [badge:intellectual] Badge (The Lost)',
+  acquisition: `Earn the ${badgeLink(Intellectual)} Badge (The Lost)`,
   links: [
     { title: 'Pariah Anchorite Badge', href: 'https://homecoming.wiki/wiki/Pariah_Anchorite_Badge' },
   ],

@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { DimensionalWarder } from '../defeat/dimensional-warder'
 
 export const Meson: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const Meson: BadgeData = {
   badgeText: [
     { value: 'This mighty foe is under your control.' },
   ],
-  acquisition: 'Earn the [badge:dimensional-warder] Badge (Praetorians)',
+  acquisition: `Earn the ${badgeLink(DimensionalWarder)} Badge (Praetorians)`,
   links: [
     { title: 'Meson Badge', href: 'https://homecoming.wiki/wiki/Meson_Badge' },
   ],

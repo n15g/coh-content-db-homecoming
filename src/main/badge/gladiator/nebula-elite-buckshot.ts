@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { ProtectorOfInnocents } from '../achievement/protector-of-innocents'
 
 export const NebulaEliteBuckshot: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const NebulaEliteBuckshot: BadgeData = {
   badgeText: [
     { value: 'These Council will make good gladiators.' },
   ],
-  acquisition: 'Earn the [badge:protector-of-innocents] Badge (Council)',
+  acquisition: `Earn the ${badgeLink(ProtectorOfInnocents)} Badge (Council)`,
   links: [
     { title: 'Nebula Elite Buckshot Badge', href: 'https://homecoming.wiki/wiki/Nebula_Elite_Buckshot_Badge' },
   ],

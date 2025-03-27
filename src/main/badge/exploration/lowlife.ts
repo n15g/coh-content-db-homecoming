@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundImperial } from '../../map/underground-imperial'
 
 export const Lowlife: BadgeData = {
@@ -13,7 +13,7 @@ export const Lowlife: BadgeData = {
     value: 'You stand at the lowest point in the entire Praetorian Underground network, the tunnel that dips beneath the channel separating the Behavioral Adjustment Facility from the mainland.'
       + ' You are now lower than any other life form in Praetoria. Congratulations!',
   }],
-  notes: 'Located in [map:underground-imperial] halfway up the red (on the map) hallway, 350 yds. NW of City Access B.',
+  notes: `Located in ${mapLink(UndergroundImperial)} halfway up the red (on the map) hallway, 350 yds. NW of City Access B.`,
   links: [
     { title: 'Lowlife Badge', href: 'https://homecoming.wiki/wiki/Lowlife_Badge' },
   ],

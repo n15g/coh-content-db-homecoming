@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StrigaIsle } from '../../map/striga-isle'
 
 export const VampyriWatcher: BadgeData = {
@@ -15,7 +15,7 @@ export const VampyriWatcher: BadgeData = {
       + ' its surroundings, while also giving them a physical location that they alone command.'
       + ' Other Council know never to go there lest they incite the ire of their temperamental brothers-in-arms.',
   }],
-  notes: 'Located in [map:striga-isle] 464 yards NNE of The Wolf\'s Throat marker, at the top of the hill.',
+  notes: `Located in ${mapLink(StrigaIsle)} 464 yards NNE of The Wolf's Throat marker, at the top of the hill.`,
   links: [
     { title: 'Vampyri Watcher Badge', href: 'https://homecoming.wiki/wiki/Vampyri_Watcher_Badge' },
   ],

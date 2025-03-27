@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { SuperSpy } from '../exploration/super-spy'
 
 export const PenumbraEliteAdjutant: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const PenumbraEliteAdjutant: BadgeData = {
   badgeText: [
     { value: 'You\'ve beat down the Council and now they fear you.' },
   ],
-  acquisition: 'Earn the [badge:super-spy] Badge (Council)',
+  acquisition: `Earn the ${badgeLink(SuperSpy)} Badge (Council)`,
   links: [
     { title: 'Penumbra Elite Adjutant Badge', href: 'https://homecoming.wiki/wiki/Penumbra_Elite_Adjutant_Badge' },
   ],

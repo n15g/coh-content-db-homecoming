@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../map/peregrine-island'
 import { PortalParter } from '../exploration/portal-parter'
 import { UseMightForRight } from '../exploration/use-might-for-right'
@@ -20,7 +20,7 @@ export const PortalCorpAnalyst: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Peregrine Island.` },
   ],
-  notes: `Visit all exploration badges in [map:${PeregrineIsland.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(PeregrineIsland)}`,
   links: [
     { title: 'Portal Corp Analyst Badge', href: 'https://homecoming.wiki/wiki/Portal_Corp_Analyst_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData, createMapReference } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Cesspool } from '../exploration/cesspool'
 import { SnakeCharmer } from '../exploration/snake-charmer'
 import { Chum } from '../exploration/chum'
@@ -20,7 +20,7 @@ export const MercyMariner: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Mercy Island.` },
   ],
-  notes: `Visit all exploration badges in ${createMapReference(MercyIsland)}`,
+  notes: `Visit all exploration badges in ${mapLink(MercyIsland)}`,
   links: [
     { title: 'Mercy Mariner Badge', href: 'https://homecoming.wiki/wiki/Mercy_Mariner_Badge' },
   ],

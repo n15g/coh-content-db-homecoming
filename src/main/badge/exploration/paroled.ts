@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { StMartial } from '../../map/st-martial'
 
 export const Paroled: BadgeData = {
@@ -17,7 +17,7 @@ export const Paroled: BadgeData = {
   }, {
     alignment: 'V', value: `The weeds of crime bear bitter fruit.`,
   }],
-  notes: `Located in [map:${StMartial.key}], in the Fortune's Wheel neighborhood.
+  notes: `Located in ${mapLink(StMartial)}, in the Fortune's Wheel neighborhood.
 
 The marker is 138 yards west of the Fortune's Wheel marker, at the base of a tree in the middle of a broken road leading out of the Black Mariah neighborhood.`,
   links: [

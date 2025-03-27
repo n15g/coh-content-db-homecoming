@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PortOakes } from '../../map/port-oakes'
 import { ScurvyDog } from '../exploration/scurvy-dog'
 import { WashedUp } from '../exploration/washed-up'
@@ -20,7 +20,7 @@ export const MarconeInsider: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Port Oakes.` },
   ],
-  notes: `Visit all exploration badges in [map:${PortOakes.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(PortOakes)}`,
   links: [
     { title: 'Marcone Insider Badge', href: 'https://homecoming.wiki/wiki/Marcone_Insider_Badge' },
   ],

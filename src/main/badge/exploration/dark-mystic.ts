@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../map/echo-dark-astoria'
 
 export const DarkMystic: BadgeData = {
@@ -13,7 +13,7 @@ export const DarkMystic: BadgeData = {
     value: 'Some once claimed the reason the spirits walk the streets of Dark Astoria is the fact that there is a powerful Ley Line nexus in the middle of Moth Cemetery.'
       + ' They have since learned the truth.',
   }],
-  notes: 'Located in [map:echo-dark-astoria] 309 yards due north of the Dido\'s View marker.',
+  notes: `Located in ${mapLink(EchoDarkAstoria)} 309 yards due north of the Dido's View marker.`,
   links: [
     { title: 'Dark Mystic Badge', href: 'https://homecoming.wiki/wiki/Dark_Mystic_Badge' },
   ],

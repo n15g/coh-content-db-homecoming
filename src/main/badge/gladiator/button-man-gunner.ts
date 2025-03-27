@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { KeeperOfPeace } from '../achievement/keeper-of-peace'
 
 export const ButtonManGunner: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const ButtonManGunner: BadgeData = {
   badgeText: [
     { value: 'The Family owes you a favor.' },
   ],
-  acquisition: 'Earn the [badge:keeper-of-peace] Badge (The Family)',
+  acquisition: `Earn the ${badgeLink(KeeperOfPeace)} Badge (The Family)`,
   links: [
     { title: 'Button Man Gunner Badge', href: 'https://homecoming.wiki/wiki/Button_Man_Gunner_Badge' },
   ],

@@ -10,7 +10,7 @@ export const Globetrotter: BadgeData = {
   mapKey: ReclusesVictory.key,
   loc: [128, 16, -249],
   badgeText: [{ value: 'Lord Recluse targeted the statue of Atlas first, knowing it was an important symbol to Paragon\'s \'heroes.\'' }],
-  notes: 'The Globetrotter Badge is located in the [map:${ReclusesVictory.key}] zone in Sector 5.'
+  notes: 'The Globetrotter Badge is located in the ${mapLink(ReclusesVictory)} zone in Sector 5.'
     + ' It is in front of the Atlas Statue, just behind the dais that Ms. Liberty stands on in the hero\'s version of Atlas Park.',
   links: [
     { title: 'Globetrotter Badge', href: 'https://homecoming.wiki/wiki/Globetrotter_Badge' },

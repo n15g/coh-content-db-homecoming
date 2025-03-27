@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNova } from '../../map/underground-nova'
 
 export const ClockworkMechanic: BadgeData = {
@@ -13,7 +13,7 @@ export const ClockworkMechanic: BadgeData = {
     value: 'Beneath the City Maintenance Facility lies the Maintenance & Treatment Chamber, where malfunctioning Clockwork are stored to prevent their'
       + ' errant code from infecting others of their kind.',
   }],
-  notes: 'Located in [map:underground-nova] approximately 240 yards NE of City Access B.',
+  notes: `Located in ${mapLink(UndergroundNova)} approximately 240 yards NE of City Access B.`,
   links: [
     { title: 'Clockwork Mechanic Badge', href: 'https://homecoming.wiki/wiki/Clockwork_Mechanic_Badge' },
   ],

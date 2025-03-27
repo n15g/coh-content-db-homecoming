@@ -1,5 +1,6 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../map/rikti-war-zone'
 
 export const Asunder: BadgeData = {
   type: 'EXPLORATION',
@@ -10,9 +11,9 @@ export const Asunder: BadgeData = {
   mapKey: EchoRiktiCrashSite.key,
   loc: [3969.7, 34.3, -3851.5],
   badgeText: [{ value: 'This fort is the prime location to be for surveilling Rikti activity. Unfortunately, it\'s also the furthest from the Vanguard base and, thus, a big target for the Rikti.' }],
-  notes: '**Moved from [map:rikti-war-zone] in Issue 25.**\n'
-    + '\n'
-    + 'On top of the pillbox.',
+  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+
+          On top of the pillbox.`,
   links: [
     { title: 'Asunder Badge', href: 'https://homecoming.wiki/wiki/Asunder_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

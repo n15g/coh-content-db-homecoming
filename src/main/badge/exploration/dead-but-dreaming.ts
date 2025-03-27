@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NightWard } from '../../map/night-ward'
 
 export const DeadButDreaming: BadgeData = {
@@ -15,7 +15,7 @@ In spite of this you take comfort in knowing that Night Ward is beyond Hamidon's
 But to those denizens unfamiliar with the events leading to the fall of First Ward, this skull-shaped husk is an object of superstition and trepidation.
 It seems that even in death the Seed continues to spread its influence.`,
   }],
-  notes: `Located in [map:${NightWard.key}], in the The Sleeping Beast neighborhood, 403 yards NNE of the Howling Vale map marker; inside the husk of the fallen Seed of Hamidon.`,
+  notes: `Located in ${mapLink(NightWard)}, in the The Sleeping Beast neighborhood, 403 yards NNE of the Howling Vale map marker; inside the husk of the fallen Seed of Hamidon.`,
   links: [
     { title: 'Dead But Dreaming Badge', href: 'https://homecoming.wiki/wiki/Dead_But_Dreaming_Badge' },
   ],

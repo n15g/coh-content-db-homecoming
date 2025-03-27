@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheChantry } from '../../map/the-chantry'
 
 export const Bereaved: BadgeData = {
@@ -16,7 +16,7 @@ export const Bereaved: BadgeData = {
       + ' How many have fallen by the wayside, unable to carry on in the face of such daunting odds, who\'ve had their spirits broken by the constant toil, the never-ending hordes of'
       + ' villainous enemies who never tire and never give up?',
   }],
-  notes: 'Located in [map:the-chantry] 538 SSE of the Bastion of Sorrow marker, on the south edge of the small island to the south of the neighborhood\'s main island.',
+  notes: `Located in ${mapLink(TheChantry)} 538 SSE of the Bastion of Sorrow marker, on the south edge of the small island to the south of the neighborhood's main island.`,
   links: [
     { title: 'Bereaved Badge', href: 'https://homecoming.wiki/wiki/Bereaved_Badge' },
   ],

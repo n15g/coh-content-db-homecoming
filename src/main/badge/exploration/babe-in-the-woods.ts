@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheHive } from '../../map/the-hive'
 
 export const BabeInTheWoods: BadgeData = {
@@ -14,7 +14,7 @@ export const BabeInTheWoods: BadgeData = {
 So this is what a world re-shaped by the Devouring Earth would look like—a place completely inhospitable to humanity, a land rendered hostile to your very presence.
 You overcome a sudden feeling of insignificance as you gaze upon Hamidon's creation.`,
   }],
-  notes: `Located in [map:${TheHive.key}] 144 yards west and a bit north of the Eden transfer point, near the middle of the valley leading into the zone.`,
+  notes: `Located in ${mapLink(TheHive)} 144 yards west and a bit north of the Eden transfer point, near the middle of the valley leading into the zone.`,
   links: [
     { title: 'Babe in the Woods Badge', href: 'https://homecoming.wiki/wiki/Babe_in_the_Woods_Badge' },
   ],

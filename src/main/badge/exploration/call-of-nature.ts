@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Eden } from '../../map/eden'
 
 export const CallOfNature: BadgeData = {
@@ -15,7 +15,7 @@ You can understand how some might be seduced by this call and stray into their e
 There is something almost hypnotic about it; being summoned by a power greater than you, older than you, and somehow welcoming, as though the Devouring Earth offer a unity unattainable
 anywhere else on this world.`,
   }],
-  notes: `Located in [map:${Eden.key}] 155 yards east of The Pit marker, in a grassy patch covering the road leading to the east.`,
+  notes: `Located in ${mapLink(Eden)} 155 yards east of The Pit marker, in a grassy patch covering the road leading to the east.`,
   links: [
     { title: 'Call of Nature Badge', href: 'https://homecoming.wiki/wiki/Call_of_Nature_Badge' },
   ],

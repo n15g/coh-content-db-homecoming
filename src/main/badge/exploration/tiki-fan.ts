@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { MercyIsland } from '../../map/mercy-island'
 
 export const TikiFan: BadgeData = {
@@ -12,9 +12,9 @@ export const TikiFan: BadgeData = {
   badgeText: [{
     value: `Larry's Tiki Lounge is known for its gambling, drinks, fun, and Tikis. And also for the occasional invasion by giant snake monsters.`,
   }],
-  notes: `Located on [map:${MercyIsland.key}], in the Mercy neighborhood.
+  notes: `Located on ${mapLink(MercyIsland)}, in the Mercy neighborhood.
 
-It is directly in front of Larry's Tiki Lounge 133 yards SE of the neighborhood marker.`,
+          It is directly in front of Larry's Tiki Lounge 133 yards SE of the neighborhood marker.`,
   links: [
     { title: 'Tiki Fan Badge', href: 'https://homecoming.wiki/wiki/Tiki_Fan_Badge' },
   ],

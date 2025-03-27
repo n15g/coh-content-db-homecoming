@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../map/nerva-archipelago'
 
 export const PrimalInstinct: BadgeData = {
@@ -12,7 +12,7 @@ export const PrimalInstinct: BadgeData = {
   badgeText: [{
     value: `This is the spot of many battles between the Circle of Thorns and their age-old enemy, the Mu.`,
   }],
-  notes: `Located in [map:${NervaArchipelago.key}], in the Primeva neighborhood.
+  notes: `Located in ${mapLink(NervaArchipelago)}, in the Primeva neighborhood.
 
 It is 266 yards north-northwest of the Primeva marker.
  The marker is well-hidden by being near no particular landmark.

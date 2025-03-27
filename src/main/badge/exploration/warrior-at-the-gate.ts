@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundNova } from '../../map/underground-nova'
 
 export const WarriorAtTheGate: BadgeData = {
@@ -14,7 +14,7 @@ export const WarriorAtTheGate: BadgeData = {
       + ' For a member of the Resistance this barrier is a comforting symbol of their defiance of State power.'
       + ' For the Loyalists it is an affront and a target of repeated attacks.',
   }],
-  notes: 'Located in [map:underground-nova] immediately in front of the door to the Resistance Hub.',
+  notes: `Located in ${mapLink(UndergroundNova)} immediately in front of the door to the Resistance Hub.`,
   links: [
     { title: 'Warrior at the Gate Badge', href: 'https://homecoming.wiki/wiki/Warrior_at_the_Gate_Badge' },
   ],

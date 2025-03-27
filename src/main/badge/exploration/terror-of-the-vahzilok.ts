@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SewerNetwork } from '../../map/sewer-network'
 import { SkywayCity } from '../../map/skyway-city'
 import { AtlasPark } from '../../map/atlas-park'
@@ -21,8 +21,8 @@ But you are here to prove them wrong.
 You will hunt them down and extract your vengeance upon every Reaper and Mortificator you find.
 You will make them know fear.`,
   }],
-  notes: `Located in [map:${SewerNetwork.key}] 362 yards northwest of the [map:${SkywayCity.key}] marker, in the middle of the junction that connects [map:${AtlasPark.key}] Sector,
-     [map:${KingsRow.key}] Sector, [map:${SkywayCity.key}] Sector and Underworld.`,
+  notes: `Located in ${mapLink(SewerNetwork)} 362 yards northwest of the ${mapLink(SkywayCity)} marker, in the middle of the junction that connects ${mapLink(AtlasPark)} Sector,
+     ${mapLink(KingsRow)} Sector, ${mapLink(SkywayCity)} Sector and Underworld.`,
   links: [
     { title: 'Terror of the Vahzilok Badge', href: 'https://homecoming.wiki/wiki/Terror_of_the_Vahzilok_Badge' },
   ],

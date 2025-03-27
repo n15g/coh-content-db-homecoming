@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Architect } from '../day-job/architect'
 import { Professor } from '../day-job/professor'
 
@@ -17,7 +17,6 @@ export const MasterArchitect: BadgeData = {
       value: `Your extensive study of the Mission Architect technology has earned you the Master Architect Day Job.  Earning this Accolade grants you the Vitalize power which will allow you to revive yourself once every 10 minutes, should you be defeated, while on Architect missions.`,
     },
   ],
-  notes: `Earn the [badge:architect] and [badge:professor] Day Jobs`,
   links: [
     { title: 'Master Architect Badge', href: 'https://homecoming.wiki/wiki/Master_Architect_Badge' },
   ],

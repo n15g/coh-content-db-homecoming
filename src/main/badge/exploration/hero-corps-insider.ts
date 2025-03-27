@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AtlasPark } from '../../map/atlas-park'
 
 export const HeroCorpsInsider: BadgeData = {
@@ -15,9 +15,9 @@ export const HeroCorpsInsider: BadgeData = {
   badgeText: [{
     value: 'Hero Corps may be controversial in their methods but they can have good information for aspiring heroes.',
   }],
-  notes: 'Located in the Atlas Plaza neighborhood of [map:atlas-park] on the ground in front of Henry Peter Wong.\n'
-    + '\n'
-    + 'Henry is behind and to the left (northwest) of City Hall, just behind a large statue approximately halfway between City Hall and the Paragon City Monorail station.',
+  notes: `Located in the Atlas Plaza neighborhood of ${mapLink(AtlasPark)} on the ground in front of Henry Peter Wong.
+
+          Henry is behind and to the left (northwest) of City Hall, just behind a large statue approximately halfway between City Hall and the Paragon City Monorail station.`,
   links: [
     { title: 'Hero Corps Insider Badge', href: 'https://homecoming.wiki/wiki/Hero_Corps_Insider_Badge' },
     { title: 'Hero Corps Infiltrator Badge', href: 'https://homecoming.wiki/wiki/Hero_Corps_Infiltrator_Badge' },

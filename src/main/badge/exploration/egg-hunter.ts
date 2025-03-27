@@ -10,7 +10,7 @@ export const EggHunter: BadgeData = {
   mapKey: Faultline.key,
   loc: [-908, -183, 109],
   badgeText: [{ value: 'Perseverance and downright determination brought you this badge. Only the most devout egg hunters will find this spot. Lucky you.' }],
-  notes: 'The Egg Hunter Badge is inside a small room under Freight Lift C in [map:${Faultline.key}].\n'
+  notes: 'The Egg Hunter Badge is inside a small room under Freight Lift C in ${mapLink(Faultline)}.\n'
     + '\n'
     + '1. take Freight Lift C to the bottom. When exiting the lift, you will be facing south.\n'
     + '2. Walk down the east-facing ramp at the bottom of Freight Lift C.\n'

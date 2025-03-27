@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Disruptor } from '../pvp/disruptor'
 
 export const LongbowDefender: BadgeData = {
   type: 'GLADIATOR',
@@ -12,7 +13,7 @@ export const LongbowDefender: BadgeData = {
     { alignment: 'H', value: 'Longbow counts you as an ally.' },
     { alignment: 'V', value: 'Even the best of Longbow submit to your will.' },
   ],
-  acquisition: 'Earn the [badge:disruptor] Badge (Longbow)',
+  acquisition: `Earn the ${badgeLink(Disruptor)} Badge (Longbow)`,
   links: [
     { title: 'Longbow Defender Badge', href: 'https://homecoming.wiki/wiki/Longbow_Warden_2_Badge' },
   ],

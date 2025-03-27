@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../map/nerva-archipelago'
 
 export const Soother: BadgeData = {
@@ -11,9 +11,9 @@ export const Soother: BadgeData = {
   loc: [1236, 81, 1396],
   badgeText: [{
     value: `The area behind this waterfall is said to be a secret spot where Scirocco goes to meditate during periods of stress.
-Marks on the wall indicate a major brawl between Scirocco and Black Scorpion (most likely due to Black Scorpion making fun of Scirocco for meditating).`,
+            Marks on the wall indicate a major brawl between Scirocco and Black Scorpion (most likely due to Black Scorpion making fun of Scirocco for meditating).`,
   }],
-  notes: `Located in [map:${NervaArchipelago.key}], in the Primeva neighborhood.
+  notes: `Located in ${mapLink(NervaArchipelago)}, in the Primeva neighborhood.
 
 It is in a cave behind the waterfall 240 yards east of the neighborhood marker.`,
   links: [

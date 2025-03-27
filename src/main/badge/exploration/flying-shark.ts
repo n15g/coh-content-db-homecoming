@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Brickstown } from '../../map/brickstown'
 
 export const FlyingShark: BadgeData = {
@@ -15,7 +15,7 @@ export const FlyingShark: BadgeData = {
       + ' It ended up on the roof, where he commandeered a Longbow Skiff to fly himself out.'
       + ' Mako was seen leaping from skiff to skiff during the aerial battle with Longbow until he dove into the waters of Talos to swim back to the Isles.',
   }],
-  notes: 'Located on the roof of the Zig in [map:brickstown], 36 yards northwest of the neighborhood marker.',
+  notes: `Located on the roof of the Zig in ${mapLink(Brickstown)}, 36 yards northwest of the neighborhood marker.`,
   links: [
     { title: 'Flying Shark Badge', href: 'https://homecoming.wiki/wiki/Flying_Shark_Badge' },
   ],

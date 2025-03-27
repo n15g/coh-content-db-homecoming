@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { RiktiWarZone } from '../../map/rikti-war-zone'
 import { VanguardOperative } from '../exploration/vanguard-operative'
 import { Trespasser } from '../exploration/trespasser'
@@ -20,7 +20,7 @@ export const TheyAreStillAmongUs: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge in the Rikti War Zone.` },
   ],
-  notes: `Visit all exploration badges in [map:${RiktiWarZone.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(RiktiWarZone)}`,
   links: [
     { title: 'They Are Still Among Us Badge', href: 'https://homecoming.wiki/wiki/They_Are_Still_Among_Us_Badge' },
   ],

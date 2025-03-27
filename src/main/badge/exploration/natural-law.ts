@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Eden } from '../../map/eden'
 
 export const NaturalLaw: BadgeData = {
@@ -11,9 +11,9 @@ export const NaturalLaw: BadgeData = {
   loc: [-309, -35, 3891],
   badgeText: [{
     value: `Before you are the steps that once led to the Circuit Court of Woodvale, a bastion of law and order.
-But a new law rules here, one with rules as ancient as the planet's core, and in this court all of humanity has been found guilty.`,
+            But a new law rules here, one with rules as ancient as the planet's core, and in this court all of humanity has been found guilty.`,
   }],
-  notes: `Located in [map:${Eden.key}] 200 yards south of The Serpentine marker, in the grass in front of a building in a small clearing in the trees.`,
+  notes: `Located in ${mapLink(Eden)} 200 yards south of The Serpentine marker, in the grass in front of a building in a small clearing in the trees.`,
   links: [
     { title: 'Natural Law Badge', href: 'https://homecoming.wiki/wiki/Natural_Law_Badge' },
   ],

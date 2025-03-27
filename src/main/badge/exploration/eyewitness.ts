@@ -1,5 +1,6 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../map/rikti-war-zone'
 
 export const Eyewitness: BadgeData = {
   type: 'EXPLORATION',
@@ -10,9 +11,9 @@ export const Eyewitness: BadgeData = {
   mapKey: EchoRiktiCrashSite.key,
   loc: [1820.3, 471.3, -4605.7],
   badgeText: [{ value: 'This is an excellent vantage point for keeping an eye on the crash site.' }],
-  notes: '**Moved from [map:rikti-war-zone] in Issue 25.**\n'
-    + '\n'
-    + 'On the tippy top point of the tallest building overlooking the downed ship.',
+  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+
+          On the tippy top point of the tallest building overlooking the downed ship.`,
   links: [
     { title: 'Eyewitness Badge', href: 'https://homecoming.wiki/wiki/Eyewitness_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

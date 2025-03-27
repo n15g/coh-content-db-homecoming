@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AbandonedSewerNetwork } from '../../map/abandoned-sewer-network'
 
 export const LivingDark: BadgeData = {
@@ -15,7 +15,7 @@ It flows into every corner, irresistible and tireless, as silent as death. It is
 The darkness can flow into you if you let it, and standing here in the heart of it, you can feel it pressing in against your consciousness, daring you to open yourself
 to it as so many others down here have.`,
   }],
-  notes: `Located in [map:abandoned-sewer-network]
+  notes: `Located in ${mapLink(AbandonedSewerNetwork)}
 
 The Living Dark badge is in Dr. Vahilok's lab in the Underworld area. It is toward the back of the room, on a raised area of metal grating.`,
   links: [

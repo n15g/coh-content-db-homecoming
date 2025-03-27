@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Croatoa } from '../../map/croatoa'
 
 export const SallySightseer: BadgeData = {
@@ -14,9 +14,9 @@ export const SallySightseer: BadgeData = {
       + ' Armed with video cameras, the students are determined to get a good look at the mythical Sally.'
       + ' The pictures taken of Sally here have been used in many \'Save Sally!\' posters.',
   }],
-  notes: 'Located in the Salamanca neighborhood of [map:croatoa].\n'
-    + '\n'
-    + 'It is under the easternmost umbrella on the beach, 246 yards northeast of the neighborhood marker.',
+  notes: `Located in the Salamanca neighborhood of ${mapLink(Croatoa)}.
+
+          It is under the easternmost umbrella on the beach, 246 yards northeast of the neighborhood marker.`,
   links: [
     { title: 'Sally Sightseer Badge', href: 'https://homecoming.wiki/wiki/Sally_Sightseer_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { Duelist } from '../day-job/duelist'
 import { Predator } from '../day-job/predator'
 
@@ -13,7 +13,6 @@ export const Gladiator: BadgeData = {
   badgeText: [
     { value: `Your reputation as a ferocious combatant in both PvP Zones and the Arena has earned you the Gladiator Accolade.  While logged out in either an Arena or a PvP Zone you will additional time for your Combat Shield power.` },
   ],
-  notes: `Earn the [badge:duelist] and [badge:predator] Day Jobs`,
   links: [
     { title: 'Gladiator Badge', href: 'https://homecoming.wiki/wiki/Gladiator_Badge' },
   ],

@@ -1,4 +1,5 @@
 import { BadgeData } from 'coh-content-db'
+import { DefenderOfTruth } from '../achievement/defender-of-truth'
 
 export const FireThornCaster: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const FireThornCaster: BadgeData = {
   badgeText: [
     { value: 'The Circle of Thorns fears to disobey you.' },
   ],
-  acquisition: 'Earn the [badge:defender-of-truth] Badge (Circle of Thorns)',
+  acquisition: `Earn the ${DefenderOfTruth} Badge (Circle of Thorns)`,
   links: [
     { title: 'Fire Thorn Caster Badge', href: 'https://homecoming.wiki/wiki/Fire_Thorn_Caster_Badge' },
   ],

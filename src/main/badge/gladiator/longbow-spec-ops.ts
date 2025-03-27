@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Reformed } from '../defeat/reformed'
 
 export const LongbowSpecOps: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const LongbowSpecOps: BadgeData = {
   badgeText: [
     { value: 'You demand obedience even from your enemies.' },
   ],
-  acquisition: 'Earn the [badge:reformed] Badge (Longbow)',
+  acquisition: `Earn the ${badgeLink(Reformed)} Badge (Longbow)`,
   links: [
     { title: 'Longbow Spec-Ops Badge', href: 'https://homecoming.wiki/wiki/Longbow_Spec-Ops_Badge' },
   ],

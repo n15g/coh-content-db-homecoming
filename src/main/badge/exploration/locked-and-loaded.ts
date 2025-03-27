@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../map/nerva-archipelago'
 
 export const LockedAndLoaded: BadgeData = {
@@ -13,7 +13,7 @@ export const LockedAndLoaded: BadgeData = {
   ],
   mapKey: NervaArchipelago.key,
   loc: [3286, 126, 3645],
-  notes: `Located in [map:${NervaArchipelago.key}], in the Agincourt neighborhood.
+  notes: `Located in ${mapLink(NervaArchipelago)}, in the Agincourt neighborhood.
 
 It is located under a shed with mesh-net walls 120 yards north-northeast of the Agincourt marker.`,
   links: [

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../map/echo-dark-astoria'
 
 export const AstoriasLastStand: BadgeData = {
@@ -14,7 +14,7 @@ export const AstoriasLastStand: BadgeData = {
       + ' never came. They fought valiantly, keeping the minions of the Banished Pantheon at bay for hours.'
       + ' The forces arrayed at them were too numerous and too powerful to be denied forever and the survivors succumbed along with the rest of Astoria\'s doomed inhabitants.',
   }],
-  notes: 'Located in [map:echo-dark-astoria] 325 yards NW of the Barca Plaza marker, atop a building with delivery trucks parked outside.',
+  notes: `Located in ${mapLink(EchoDarkAstoria)} 325 yards NW of the Barca Plaza marker, atop a building with delivery trucks parked outside.`,
   links: [
     { title: 'Astoria\'s Last Stand Badge', href: 'https://homecoming.wiki/wiki/Astoria%27s_Last_Stand_Badge' },
   ],

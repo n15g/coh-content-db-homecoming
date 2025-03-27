@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NovaPraetoria } from '../../map/nova-praetoria'
 
 export const IntoTheWild: BadgeData = {
@@ -12,9 +12,9 @@ export const IntoTheWild: BadgeData = {
   badgeText: [{
     value: 'Dangers lurk beyond the secure bubble of the State. The sonic fence keeps the wilderness at bay while also protecting the careless from falling prey to it.',
   }],
-  notes: 'Located in [map:nova-praetoria] along the SE edge of the island and 0.5 miles SE of the Magisterium marker.\n'
-    + '\n'
-    + 'It\'s tucked into the corner of the rail by the water.',
+  notes: `Located in ${mapLink(NovaPraetoria)} along the SE edge of the island and 0.5 miles SE of the Magisterium marker.
+
+          It's tucked into the corner of the rail by the water.`,
   links: [
     { title: 'Into the Wild Badge', href: 'https://homecoming.wiki/wiki/Into_the_Wild_Badge' },
   ],

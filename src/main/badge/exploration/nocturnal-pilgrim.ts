@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { NightWard } from '../../map/night-ward'
 
 export const NocturnalPilgrim: BadgeData = {
@@ -16,7 +16,7 @@ You begin to feel as though perhaps your journey to this land has been in vain.
 Perhaps you have been led this far only to have your spirits broken like so many of those around you.
 Night Ward can be a cruel mistress.`,
   }],
-  notes: `Located in [map:${NightWard.key}], in the The Digs neighborhood, 263 yards NNE of the map marker; near the merit vendor.`,
+  notes: `Located in ${mapLink(NightWard)}, in the The Digs neighborhood, 263 yards NNE of the map marker; near the merit vendor.`,
   links: [
     { title: 'Nocturnal Pilgrim Badge', href: 'https://homecoming.wiki/wiki/Nocturnal_Pilgrim_Badge' },
   ],

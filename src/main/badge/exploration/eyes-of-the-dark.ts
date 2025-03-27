@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { UndergroundImperial } from '../../map/underground-imperial'
 
 export const EyesOfTheDark: BadgeData = {
@@ -14,7 +14,7 @@ export const EyesOfTheDark: BadgeData = {
       + ' You are the eyes in the dark, observing their movements.'
       + ' Are you their guardian, watching over them, or are you the predator, looking for the optimal time to strike?',
   }],
-  notes: 'Located in [map:underground-imperial] 95 feet from the door to the Resistance Hub.',
+  notes: `Located in ${mapLink(UndergroundImperial)} 95 feet from the door to the Resistance Hub.`,
   links: [
     { title: 'Eyes of the Dark Badge', href: 'https://homecoming.wiki/wiki/Eyes_of_the_Dark_Badge' },
   ],

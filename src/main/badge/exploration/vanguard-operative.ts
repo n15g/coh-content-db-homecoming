@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { RiktiWarZone } from '../../map/rikti-war-zone'
 
 export const VanguardOperative: BadgeData = {
@@ -10,9 +10,9 @@ export const VanguardOperative: BadgeData = {
   mapKey: RiktiWarZone.key,
   loc: [328, -69, -2444.5],
   badgeText: [{ value: 'You have entered the Vanguard base where all your efforts will now go towards fighting the Rikti. The Vanguard and your natural enemies are now your allies.' }],
-  notes: `The Vanguard Operative Badge is located in Vanguard Base in the [map:${RiktiWarZone.key}].
+  notes: `The Vanguard Operative Badge is located in Vanguard Base in the ${mapLink(RiktiWarZone)}.
     
-    The badge marker is invisible, located about 25 feet in front of the contact Borea.`,
+          The badge marker is invisible, located about 25 feet in front of the contact Borea.`,
   links: [
     { title: 'Vanguard Operative Badge', href: 'hhttps://homecoming.wiki/wiki/Vanguard_Operative_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../map/peregrine-island'
 
 export const AllSeeing: BadgeData = {
@@ -14,9 +14,9 @@ export const AllSeeing: BadgeData = {
       + ' Many say it feels as if someone is constantly watching them.'
       + ' A former tenant claimed to see some sort of video camera in the eyes of the statue, though city officials deny this claim as \'unsubstantiated.\'',
   }],
-  notes: 'Located in the Poseidon Square neighborhood of [map:peregrine-island].\n'
-    + '\n'
-    + 'It is on the top of a fire escape 138 yards southwest of the neighborhood marker.',
+  notes: `Located in the Poseidon Square neighborhood of ${mapLink(PeregrineIsland)}.
+
+          It is on the top of a fire escape 138 yards southwest of the neighborhood marker.`,
   links: [
     { title: 'All-Seeing Badge', href: 'https://homecoming.wiki/wiki/All-Seeing_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
 
 export const OrionsBelt: BadgeData = {
@@ -14,7 +14,7 @@ export const OrionsBelt: BadgeData = {
       + ' During the first Rikti War, Orion fought valiantly against the Rikti, saving the people of this small district.'
       + ' He was remembered, in particular, as the hero with no real powers beyond his knowledge of martial arts.',
   }],
-  notes: 'Located in the Orion Beltway neighborhood of [map:echo-galaxy-city], at the base of the statue 269 yards ESE of the neighborhood marker.',
+  notes: `Located in the Orion Beltway neighborhood of ${mapLink(EchoGalaxyCity)}, at the base of the statue 269 yards ESE of the neighborhood marker.`,
   links: [
     { title: 'Orion\'s Belt Badge', href: 'https://homecoming.wiki/wiki/Orion%27s_Belt_Badge' },
   ],

@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
+import { Charmer } from '../accomplishment/charmer'
 
 export const HydraProtean: BadgeData = {
   type: 'GLADIATOR',
@@ -11,7 +12,7 @@ export const HydraProtean: BadgeData = {
   badgeText: [
     { value: 'Mindless, yes. But yours to command.' },
   ],
-  acquisition: 'Earn the [badge:charmer] Badge (Hydra)',
+  acquisition: `Earn the ${badgeLink(Charmer)} Badge (Hydra)`,
   links: [
     { title: 'Hydra Protean Badge', href: 'https://homecoming.wiki/wiki/Hydra_Protean_Badge' },
   ],

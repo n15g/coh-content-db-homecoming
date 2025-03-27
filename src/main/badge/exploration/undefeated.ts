@@ -1,5 +1,6 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { AtlasPark } from '../../map/atlas-park'
+import { SteelCanyon } from '../../map/steel-canyon'
 
 export const Undefeated: BadgeData = {
   type: 'EXPLORATION',
@@ -12,9 +13,9 @@ export const Undefeated: BadgeData = {
   badgeText: [{
     value: 'Here is where one of the brave souls to take up the mantle of Scirocco stood against, and fell to, the Rikti invaders.',
   }],
-  notes: 'Located in the Promenade neighborhood of [map:atlas-park].\n'
-    + '\n'
-    + 'It sits on a lower ledge on the east side of a building, 70 yards SE of the [map:steel-canyon] gate.',
+  notes: `Located in the Promenade neighborhood of ${mapLink(AtlasPark)}.
+
+          It sits on a lower ledge on the east side of a building, 70 yards SE of the ${mapLink(SteelCanyon)} gate.`,
   links: [
     { title: 'Undefeated Badge', href: 'https://homecoming.wiki/wiki/Undefeated_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SteelCanyon } from '../../map/steel-canyon'
 import { SecretAdmirer } from '../exploration/secret-admirer'
 import { HeroCorpsRecruit } from '../exploration/hero-corps-recruit'
@@ -20,7 +20,7 @@ export const CanyonCarver: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Steel Canyon.` },
   ],
-  notes: `Visit all exploration badges in [map:${SteelCanyon.key}]`,
+  notes: `Visit all exploration badges in ${mapLink(SteelCanyon)}`,
   links: [
     { title: 'Canyon Carver Badge', href: 'https://homecoming.wiki/wiki/Canyon_Carver_Badge' },
   ],

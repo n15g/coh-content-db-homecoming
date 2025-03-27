@@ -1,4 +1,4 @@
-import { BadgeData, createBadgeReference } from 'coh-content-db'
+import { BadgeData, badgeLink } from 'coh-content-db'
 import { KeeperOfPeace } from '../achievement/keeper-of-peace'
 
 export const WolfSpiderTacOps: BadgeData = {
@@ -12,7 +12,7 @@ export const WolfSpiderTacOps: BadgeData = {
   badgeText: [
     { value: 'Your leadership skills are recognized.' },
   ],
-  acquisition: `Earn the ${createBadgeReference(KeeperOfPeace)} Badge (Arachnos)`,
+  acquisition: `Earn the ${badgeLink(KeeperOfPeace)} Badge (Arachnos)`,
   links: [
     { title: 'Wolf Spider Tac Ops Badge', href: 'https://homecoming.wiki/wiki/Wolf_Spider_Tac_Ops_Badge' },
   ],

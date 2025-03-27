@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../map/cascade-archipelago'
 
 export const PeaceWalker: BadgeData = {
@@ -17,7 +17,7 @@ export const PeaceWalker: BadgeData = {
       + ' safe from all concern... but you cannot.'
       + ' This sense of ease is an illusion, the safety is a lie. Nowhere is safe here, and you\'d best move on before this land robs you of all desire to.',
   }],
-  notes: 'Located in [map:cascade-archipelago] 167 yards SW of The Marooned Shores marker, in the middle of an area surrounded by hills.',
+  notes: `Located in ${mapLink(CascadeArchipelago)} 167 yards SW of The Marooned Shores marker, in the middle of an area surrounded by hills.`,
   links: [
     { title: 'Peace Walker Badge', href: 'https://homecoming.wiki/wiki/Peace_Walker_Badge' },
   ],

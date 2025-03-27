@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TalosIsland } from '../../map/talos-island'
 
 export const OvertimeWorker: BadgeData = {
@@ -14,7 +14,7 @@ export const OvertimeWorker: BadgeData = {
       + ' The construction workers put in major overtime work to make it happen, and by week\'s end the road was gone, symbolizing that the city had left Astoria'
       + ' to the works of the Banished Pantheon.',
   }],
-  notes: 'Located in the Argo Highway neighborhood of [map:talos-island], 218 yards west of the Dark Astoria gate.',
+  notes: `Located in the Argo Highway neighborhood of ${mapLink(TalosIsland)}, 218 yards west of the Dark Astoria gate.`,
   links: [
     { title: 'Overtime Worker Badge', href: 'https://homecoming.wiki/wiki/Overtime_Worker_Badge' },
   ],

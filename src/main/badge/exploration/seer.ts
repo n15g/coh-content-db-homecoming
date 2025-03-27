@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { ImperialCity } from '../../map/imperial-city'
 
 export const Seer: BadgeData = {
@@ -12,7 +12,7 @@ export const Seer: BadgeData = {
   badgeText: [{
     value: 'Blind yet seeing and casting judgment yet mindless of the crime; the Seer is the instrument of control and the constant threat of the Emperor\'s displeasure.',
   }],
-  notes: 'Located in [map:imperial-city] 347 yards ENE of the Four Gables marker.',
+  notes: `Located in ${mapLink(ImperialCity)} 347 yards ENE of the Four Gables marker.`,
   links: [
     { title: 'Seer Badge', href: 'https://homecoming.wiki/wiki/Seer_Badge' },
   ],

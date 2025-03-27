@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FoundersFalls } from '../../map/founders-falls'
 
 export const WatchfulEyes: BadgeData = {
@@ -13,7 +13,7 @@ export const WatchfulEyes: BadgeData = {
     value: 'During her time in the Knives of Artemis, Agent Indigo used this spot to assassinate many of her targets.'
       + ' She now presides over the area to remind herself of her past sins and to prevent the Knives from staining this area with any more blood.',
   }],
-  notes: 'Located in the Hutchinson Park neighborhood of [map:founders-falls], right next to where Indigo is standing, 325 yards east of the Eden gate.',
+  notes: `Located in the Hutchinson Park neighborhood of ${mapLink(FoundersFalls)}, right next to where Indigo is standing, 325 yards east of the Eden gate.`,
   links: [
     { title: 'Watchful Eyes Badge', href: 'https://homecoming.wiki/wiki/Watchful_Eyes_Badge' },
   ],

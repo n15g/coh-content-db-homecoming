@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { TheAbyss } from '../../map/the-abyss'
 
 export const HereBeDragons: BadgeData = {
@@ -15,7 +15,7 @@ What fools. The hubris on display here is staggering and you have to suppress th
 You deal with monsters all the time, literally and figuratively, and the last thing you'd do is treat them like some kind of side-show attraction for the kiddies.
 You can't help but put yourself in the monsters' place; you'd have smashed and devoured these puny little humans too.`,
   }],
-  notes: `Located in [map:${TheAbyss.key}], 195 yards northeast of the Grandville transfer point, at the base of the large gate along the path leading from the submarine.`,
+  notes: `Located in ${mapLink(TheAbyss)}, 195 yards northeast of the Grandville transfer point, at the base of the large gate along the path leading from the submarine.`,
   links: [
     { title: 'Here Be Dragons Badge', href: 'https://homecoming.wiki/wiki/Here_Be_Dragons_Badge' },
   ],

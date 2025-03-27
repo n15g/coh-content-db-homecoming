@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SewerNetwork } from '../../map/sewer-network'
 import { Boomtown } from '../../map/boomtown'
 
@@ -16,7 +16,7 @@ For many this was a personal violation. They saw their homes, their lives, and t
 The thirst for revenge against the Rikti is one that burns still, especially amongst the survivors of Baumton.
 Some take the trek down into these tunnels to exact some retribution against the Rikti, who now skulk and breed down here to perpetrate their alien designs.`,
   }],
-  notes: `Located in [map:${SewerNetwork.key}] 107 yards south of the [map:${Boomtown.key}] transfer point, in the middle of the metal walkway.`,
+  notes: `Located in ${mapLink(SewerNetwork)} 107 yards south of the ${mapLink(Boomtown)} transfer point, in the middle of the metal walkway.`,
   links: [
     { title: 'Baumton Avenger Badge', href: 'https://homecoming.wiki/wiki/Baumton_Avenger_Badge' },
   ],

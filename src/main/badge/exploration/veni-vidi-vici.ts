@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { CreysFolly } from '../../map/creys-folly'
 
 export const VeniVidiVici: BadgeData = {
@@ -14,7 +14,7 @@ export const VeniVidiVici: BadgeData = {
       + ' When the Rikti invaded they quickly swarmed through the building and assumed complete control.'
       + ' They used the information contained to further their goals of capturing the region while also using its tactical vantage point to coordinate strikes throughout Paragon City.',
   }],
-  notes: 'Located in [map:creys-folly] 310 yards West of the Tangle Town marker, next to the aircraft warning light on the roof of the building.',
+  notes: `Located in ${mapLink(CreysFolly)} 310 yards West of the Tangle Town marker, next to the aircraft warning light on the roof of the building.`,
   links: [
     { title: 'Veni, Vidi, Vici Badge', href: 'https://homecoming.wiki/wiki/Veni,_Vidi,_Vici_Badge' },
   ],

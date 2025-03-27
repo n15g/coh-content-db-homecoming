@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { Neutropolis } from '../../map/neutropolis'
 
 export const EyesToTheFuture: BadgeData = {
@@ -12,7 +12,7 @@ export const EyesToTheFuture: BadgeData = {
   badgeText: [{
     value: 'From here, one can see further than even Emperor Cole. Do you see death? Darkness? Perhaps you see the coming doom of being smashed by a Tyrant or devoured by the Earth?',
   }],
-  notes: 'Located in [map:neutropolis] 400 yards NE of the Neuron\'s Reach marker, at the very top of Neuron\'s tower.',
+  notes: `Located in ${mapLink(Neutropolis)} 400 yards NE of the Neuron's Reach marker, at the very top of Neuron's tower.`,
   links: [
     { title: 'Eyes to the Future Badge', href: 'https://homecoming.wiki/wiki/Eyes_to_the_Future_Badge' },
   ],

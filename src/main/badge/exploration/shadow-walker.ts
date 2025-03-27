@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { FirstWard } from '../../map/first-ward'
 
 export const ShadowWalker: BadgeData = {
@@ -15,7 +15,7 @@ The Shadowed Paths are a fragment of the world where live the very things that g
 Thanks to the Carnival of Light they cannot sense you, but the frightened child that lives within us all knows they are out there, just out of sight, ready to strike at the first misstep.
 Tread carefully.`,
   }],
-  notes: `Located in [map:${FirstWard.key}] in the Free-Fire Zone neighborhood, 346 yards southwest of the map marker; at the bottom of a ditch along one of the Twilight World paths.`,
+  notes: `Located in ${mapLink(FirstWard)} in the Free-Fire Zone neighborhood, 346 yards southwest of the map marker; at the bottom of a ditch along one of the Twilight World paths.`,
   links: [
     { title: 'Shadow Walker Badge', href: 'https://homecoming.wiki/wiki/Shadow_Walker_Badge' },
   ],

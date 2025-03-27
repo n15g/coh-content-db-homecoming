@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, mapLink } from 'coh-content-db'
 import { SirensCall } from '../../map/sirens-call'
 
 export const Piratical: BadgeData = {
@@ -10,7 +10,7 @@ export const Piratical: BadgeData = {
   mapKey: SirensCall.key,
   loc: [-1631, -144, -866.5],
   badgeText: [{ value: 'The dread pirate Randall set up this lighthouse to lure ships to their demise.' }],
-  notes: 'The Piratical Badge marker is located in a grassy area close the water on the villain base island south of the base in [map:${SirensCall.key}].',
+  notes: `The Piratical Badge marker is located in a grassy area close the water on the villain base island south of the base in ${mapLink(SirensCall)}.`,
   links: [{ title: 'Piratical Badge', href: 'https://homecoming.wiki/wiki/Piratical_Badge' }],
   icon: [
     { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' },
