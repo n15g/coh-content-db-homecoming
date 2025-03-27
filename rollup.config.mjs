@@ -16,6 +16,7 @@ export default [{
     format: 'es',
     sourcemap: true,
   }],
+  external: ['coh-content-db'],
 }, {
   input: 'src/main/index.ts',
   plugins: [dts()],
@@ -23,5 +24,5 @@ export default [{
     file: `dist/${name}.d.ts`,
     format: 'es',
   }],
-},
-]
+  external: ['coh-content-db'],
+}]
