@@ -86,7 +86,7 @@ For those unfamiliar with Typescript or looking to extract images, a set of inst
 * Badge Dependencies (other badges needed for this one, may be in Patch Notes)
 * Acquisition Instructions (keep spoilers light & add more detail to notes)
 * Notes (from Forums, Wiki, Patch Notes, etc.)
-* History Plaque inscription and type (wall or monument)
+* History Plaque plaqueInscription and type (wall or monument)
 * Key Name (hero, male, lowercase, no special characters, replace space with dash (snake-case or kebab-case))
 * Export Name (hero, male, CamelCase (ProperCase), no special characters or spaces)
 
@@ -223,7 +223,7 @@ export const ProtectorOfInnocents: BadgeData = {
             mapKey: AtlasPark.key,
             plaqueType: 'MONUMENT',
             loc: [330.45, 3.93, 397.33],
-            inscription: ``,
+            plaqueInscription: ``,
             notes: `This plaque is in ${mapLink(AtlasPark)}], roughly 258 yards south-southwest of the Atlas Plaza neighborhood marker.`,
             vidiotMapKey: '8'
         },
