@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SirensCall } from '../../map/sirens-call'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SirensCall } from '../../zone/sirens-call'
 import { Hangman } from '../exploration/hangman'
 import { Politician } from '../exploration/politician'
 import { BroadShoulders } from '../exploration/broad-shoulders'
@@ -21,7 +21,7 @@ export const AnsweredTheCall: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Siren's Call.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(SirensCall)}`,
+  notes: `Visit all exploration badges in ${zoneLink(SirensCall)}`,
   links: [
     { title: 'Answered the Call Badge', href: 'https://homecoming.wiki/wiki/Answered_the_Call_Badge' },
   ],

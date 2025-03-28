@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const Geologist: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Geologist: BadgeData = {
   setTitle: { id: 194 },
   name: [{ value: 'Geologist' }],
   alignment: ['H'],
-  mapKey: TheHollows.key,
+  zoneKey: TheHollows.key,
   loc: [-749, -539, -1647],
   badgeText: [{
     value: 'This spot marks the first sighting of the strange, rock-like creatures known as Pumicites.',

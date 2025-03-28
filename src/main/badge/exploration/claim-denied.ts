@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoFaultline } from '../../map/echo-faultline'
+import { EchoFaultline } from '../../zone/echo-faultline'
 
 export const ClaimDenied: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const ClaimDenied: BadgeData = {
   name: [{ value: 'Claim Denied' }],
   alignment: ['H'],
   badgeText: [{ value: `The owner of this building tried to claim he lost the structure due to a fault line, but the insurance company was uncompromising in its definition of an event versus an individual.` }],
-  mapKey: EchoFaultline.key,
+  zoneKey: EchoFaultline.key,
   loc: [350.8, -667.6, 198.1],
   notes: 'Approx. 360 yds S from the "Aftershock" marker in the canyon on top of a half buried building.',
   links: [

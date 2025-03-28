@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { BlackShroudDimension } from '../../map/black-shroud-dimension'
+import { BlackShroudDimension } from '../../zone/black-shroud-dimension'
 
 export const Shrouded: BadgeData = {
   type: 'EXPLORATION',
@@ -10,7 +10,7 @@ export const Shrouded: BadgeData = {
     { alignment: 'V', value: 'Shady' },
   ],
   alignment: ['H', 'V', 'P'],
-  mapKey: BlackShroudDimension.key,
+  zoneKey: BlackShroudDimension.key,
   badgeText: [
     { alignment: 'H', value: 'This otherworld has been overshadowed by corrupting magic.' },
     { alignment: 'V', value: 'A trip back to Paragon City confirmed it: You\'re the shady type of person other people are right to be afraid of.' },

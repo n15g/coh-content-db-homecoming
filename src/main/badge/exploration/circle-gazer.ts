@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CapAuDiable } from '../../map/cap-au-diable'
+import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const CircleGazer: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CircleGazer: BadgeData = {
   setTitle: { id: 1494 },
   name: [{ value: 'Circle Gazer' }],
   alignment: ['V'],
-  mapKey: CapAuDiable.key,
+  zoneKey: CapAuDiable.key,
   loc: [-130, 37, -2394],
   badgeText: [{
     value: 'No one is quite sure about the purpose of these odd monuments.'

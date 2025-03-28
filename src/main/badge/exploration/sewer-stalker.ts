@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SewerNetwork } from '../../map/sewer-network'
-import { SkywayCity } from '../../map/skyway-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SewerNetwork } from '../../zone/sewer-network'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const SewerStalker: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const SewerStalker: BadgeData = {
   setTitle: { id: 1833 },
   name: [{ value: 'Sewer Stalker' }],
   alignment: ['H'],
-  mapKey: SewerNetwork.key,
+  zoneKey: SewerNetwork.key,
   loc: [64, 2, 2995],
   badgeText: [{
     value: `The sewers are full of predators.
@@ -17,7 +17,7 @@ export const SewerStalker: BadgeData = {
             Where they hunt, you hunt. Where they lurk, you are the eyes in the darkness watching them.
             You are the predator that they now fear, it is the stories of your exploits they use as cautionary tales among themselves.`,
   }],
-  notes: `Located in ${mapLink(SewerNetwork)} 49 yards north of the ${mapLink(SkywayCity)} transfer point, straight back from the entrance.`,
+  notes: `Located in ${zoneLink(SewerNetwork)} 49 yards north of the ${zoneLink(SkywayCity)} transfer point, straight back from the entrance.`,
   links: [
     { title: 'Sewer Stalker Badge', href: 'https://homecoming.wiki/wiki/Sewer_Stalker_Badge' },
   ],

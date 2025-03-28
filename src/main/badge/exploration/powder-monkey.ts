@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PortOakes } from '../../map/port-oakes'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PortOakes } from '../../zone/port-oakes'
 
 export const PowderMonkey: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const PowderMonkey: BadgeData = {
   setTitle: { id: 253 },
   name: [{ value: 'Powder Monkey' }],
   alignment: ['V'],
-  mapKey: PortOakes.key,
+  zoneKey: PortOakes.key,
   loc: [-3738, 238, -1128],
   badgeText: [{
     value: `The last of the pirates died at this location defending the fort against Blackbeard.`,
   }],
-  notes: `Located in ${mapLink(PortOakes)}, behind three cannons in the Fort Hades neighborhood.
+  notes: `Located in ${zoneLink(PortOakes)}, behind three cannons in the Fort Hades neighborhood.
 
 The badge marker is approximately 154 yards east and slightly south of the Fort Hades marker.`,
   links: [

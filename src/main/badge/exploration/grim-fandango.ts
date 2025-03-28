@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MonsterIsland } from '../../map/monster-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MonsterIsland } from '../../zone/monster-island'
 
 export const GrimFandango: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const GrimFandango: BadgeData = {
   setTitle: { id: 1873 },
   name: [{ value: 'Grim Fandango' }],
   alignment: ['V'],
-  mapKey: MonsterIsland.key,
+  zoneKey: MonsterIsland.key,
   loc: [-1498, 0, -6344],
   badgeText: [{
     value: `You've read the briefs describing how hordes of Rikti Monkeys had been observed taking down much, much larger game and now you have found evidence to support that thesis.
@@ -15,7 +15,7 @@ Rikti monkeys dance among the bones, playing strange, captivating rhythms upon t
 Then they turn their gaze upon you, sizing you up, and you imagine that they're wondering just what your ribcage would sound like played like a xylophone, your kneecaps clapped like castanets,
 and what your skull would look like smeared with Rikti Monkey dung.`,
   }],
-  notes: `Located in ${mapLink(MonsterIsland)}, 280 yards southwest of the Cutlass Isles marker, next to a large pile of bones.`,
+  notes: `Located in ${zoneLink(MonsterIsland)}, 280 yards southwest of the Cutlass Isles marker, next to a large pile of bones.`,
   links: [
     { title: 'Grim Fandango Badge', href: 'https://homecoming.wiki/wiki/Grim_Fandango_Badge' },
   ],

@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoAtlasPark } from '../../map/echo-atlas-park'
-import { AtlasPark } from '../../map/atlas-park'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoAtlasPark } from '../../zone/echo-atlas-park'
+import { AtlasPark } from '../../zone/atlas-park'
 import { WalkedDownMemoryLane } from './walked-down-memory-lane'
 import { AtlasTourGuide } from './atlas-tour-guide'
 
@@ -15,7 +15,7 @@ export const TheConstant: BadgeData = {
   badgeText: [
     { value: `Villains, heroes, time travel, trans-dimensional wars...  Come what may, in an ever-changing multiverse, you are The Constant which remains unchanged.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(AtlasPark)} and ${mapLink(EchoAtlasPark)}`,
+  notes: `Visit all exploration badges in ${zoneLink(AtlasPark)} and ${zoneLink(EchoAtlasPark)}`,
   links: [
     { title: 'The Constant Badge', href: 'https://homecoming.wiki/wiki/The_Constant_Badge' },
   ],

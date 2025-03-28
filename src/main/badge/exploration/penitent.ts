@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheChantry } from '../../map/the-chantry'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheChantry } from '../../zone/the-chantry'
 
 export const Penitent: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Penitent: BadgeData = {
   setTitle: { id: 1815 },
   name: [{ value: 'Penitent' }],
   alignment: ['H'],
-  mapKey: TheChantry.key,
+  zoneKey: TheChantry.key,
   loc: [-5972, 1047, -3376],
   badgeText: [{
     value: 'It is all your fault. The lives you\'ve ruined along your path to glory.'
@@ -17,7 +17,7 @@ export const Penitent: BadgeData = {
       + ' Did you ever give a thought to the people you\'ve been "defeating" in your quest to become a "true hero?"'
       + ' No, of course not, they\'re just points to be earned on some metaphorical scorecard.',
   }],
-  notes: `Located in ${mapLink(TheChantry)} 421 yards east of the Bastion of Guilt marker, on the northern edge of the island.`,
+  notes: `Located in ${zoneLink(TheChantry)} 421 yards east of the Bastion of Guilt marker, on the northern edge of the island.`,
   links: [
     { title: 'Penitent Badge', href: 'https://homecoming.wiki/wiki/Penitent_Badge' },
   ],

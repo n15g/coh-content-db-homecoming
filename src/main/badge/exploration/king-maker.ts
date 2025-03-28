@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemKingsRow } from '../../map/mayhem-kings-row'
+import { MayhemKingsRow } from '../../zone/mayhem-kings-row'
 
 export const KingMaker: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const KingMaker: BadgeData = {
   setTitle: { id: 556 },
   name: [{ value: 'King Maker' }],
   alignment: ['V'],
-  mapKey: MayhemKingsRow.key,
+  zoneKey: MayhemKingsRow.key,
   badgeText: [{
     value: 'This is the spot in Kings Row of a famous bloodbath where the Marcone made a vicious power play against the Verandi.',
   }],

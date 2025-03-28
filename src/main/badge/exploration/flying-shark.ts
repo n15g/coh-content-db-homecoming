@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Brickstown } from '../../map/brickstown'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Brickstown } from '../../zone/brickstown'
 
 export const FlyingShark: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const FlyingShark: BadgeData = {
   setTitle: { id: 1565 },
   name: [{ value: 'Flying Shark' }],
   alignment: ['H'],
-  mapKey: Brickstown.key,
+  zoneKey: Brickstown.key,
   loc: [-2190, 573, 1162],
   badgeText: [{
     value: 'The roof of the Zig is the site of the first breakout by Arachnos.'
@@ -15,7 +15,7 @@ export const FlyingShark: BadgeData = {
       + ' It ended up on the roof, where he commandeered a Longbow Skiff to fly himself out.'
       + ' Mako was seen leaping from skiff to skiff during the aerial battle with Longbow until he dove into the waters of Talos to swim back to the Isles.',
   }],
-  notes: `Located on the roof of the Zig in ${mapLink(Brickstown)}, 36 yards northwest of the neighborhood marker.`,
+  notes: `Located on the roof of the Zig in ${zoneLink(Brickstown)}, 36 yards northwest of the neighborhood marker.`,
   links: [
     { title: 'Flying Shark Badge', href: 'https://homecoming.wiki/wiki/Flying_Shark_Badge' },
   ],

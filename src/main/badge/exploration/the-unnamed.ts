@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 
 export const TheUnnamed: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const TheUnnamed: BadgeData = {
   setTitle: { id: 1788 },
   name: [{ value: 'The Unnamed' }],
   alignment: ['H'],
-  mapKey: StrigaIsle.key,
+  zoneKey: StrigaIsle.key,
   loc: [-2381, -31, -2285],
   badgeText: [{
     value: 'It was not long ago that a Council patrol reported a grave exhumation in the Bonny Morass.'
@@ -16,7 +16,7 @@ export const TheUnnamed: BadgeData = {
       + ' But others in the Council believe that whatever was in the grave emerged under their own power, and that such a being could have called the Banished Pantheon to the Isle'
       + ' for some unknown purpose. This hypothetical adversary is code-named in the Council logs as \'The Unnamed.\'',
   }],
-  notes: `Located in ${mapLink(StrigaIsle)} 78 yards east of the Bonny Morass marker, inside an open grave.`,
+  notes: `Located in ${zoneLink(StrigaIsle)} 78 yards east of the Bonny Morass marker, inside an open grave.`,
   links: [
     { title: 'The Unnamed Badge', href: 'https://homecoming.wiki/wiki/The_Unnamed_Badge' },
   ],

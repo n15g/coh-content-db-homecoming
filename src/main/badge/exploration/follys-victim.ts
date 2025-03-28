@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { DarkAstoria } from '../../map/dark-astoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const FollysVictim: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const FollysVictim: BadgeData = {
   setTitle: { id: 2179 },
   name: [{ value: 'Folly\'s Victim' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: DarkAstoria.key,
+  zoneKey: DarkAstoria.key,
   loc: [2228, 176, 4896],
   badgeText: [{
     value: `Ever watchful of the sleeping god Mot, the Circle of Thorns have stood vigil on these grounds since its imprisonment.
@@ -16,7 +16,7 @@ Fools or heroes, the Circle's casualties were tremendous as they defied the wrat
 It is said that the Demon-Prince Stolas was the first to confront the manifestations of Mot.
 When the Demon-Prince was broken and devoured, the ranks of his minions broke and fled into the streets of Dark Astoria.`,
   }],
-  notes: `Located in ${mapLink(DarkAstoria)} in the Raimi Arcade neighborhood of Dark Astoria. It is located 176 yards south of the marker for Flicker.`,
+  notes: `Located in ${zoneLink(DarkAstoria)} in the Raimi Arcade neighborhood of Dark Astoria. It is located 176 yards south of the marker for Flicker.`,
   links: [
     { title: 'Folly\'s Victim Badge', href: 'https://homecoming.wiki/wiki/Folly%27s_Victim_Badge' },
   ],

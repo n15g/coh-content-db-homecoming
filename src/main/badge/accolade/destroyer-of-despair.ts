@@ -1,5 +1,5 @@
-import { BadgeData, badgeLink, mapLink } from 'coh-content-db'
-import { DarkAstoria } from '../../map/dark-astoria'
+import { BadgeData, badgeLink, zoneLink } from 'coh-content-db'
+import { DarkAstoria } from '../../zone/dark-astoria'
 import { EyeOfVengeance } from '../accomplishment/eye-of-vengeance'
 import { TheDeterminedMentor } from '../accomplishment/the-determined-mentor'
 import { KnifeButcher } from '../accomplishment/knife-butcher'
@@ -38,7 +38,7 @@ export const DestroyerOfDespair: BadgeData = {
           * All six personal mission completion badges (${badgeLink(ArchitectWriter)}, ${badgeLink(BoundForGlory)}, ${badgeLink(NaniteMan)}, ${badgeLink(PraetorSelfish)}, ${badgeLink(CimeroranHero)}, and ${badgeLink(TruthTeller)})
           * All five mission achievement badges (${badgeLink(TimeSaver)}, ${badgeLink(KnowsNoFear)}, ${badgeLink(IncarnateRival)}, ${badgeLink(BuddyCop)}, and ${badgeLink(LoneWolf)})
           
-          in ${mapLink(DarkAstoria)}`,
+          in ${zoneLink(DarkAstoria)}`,
   links: [
     { title: 'Destroyer of Despair Badge', href: 'https://homecoming.wiki/wiki/Destroyer_of_Despair_Badge' },
   ],

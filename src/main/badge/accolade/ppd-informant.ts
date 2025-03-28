@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { KingsRow } from '../../zone/kings-row'
 import { Summoned } from '../exploration/summoned'
 import { Upgraded } from '../exploration/upgraded'
 import { MysticKing } from '../exploration/mystic-king'
@@ -21,7 +21,7 @@ export const PPDInformant: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Kings Row.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(KingsRow)}`,
+  notes: `Visit all exploration badges in ${zoneLink(KingsRow)}`,
   links: [
     { title: 'PPD Informant Badge', href: 'https://homecoming.wiki/wiki/PPD_Informant_Badge' },
     { title: 'Former PPD Stoolie Badge', href: 'https://homecoming.wiki/wiki/Former_PPD_Stoolie_Badge' },

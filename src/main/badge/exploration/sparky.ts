@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CapAuDiable } from '../../map/cap-au-diable'
+import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const Sparky: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Sparky: BadgeData = {
   setTitle: { id: 269 },
   name: [{ value: 'Sparky' }],
   alignment: ['V'],
-  mapKey: CapAuDiable.key,
+  zoneKey: CapAuDiable.key,
   loc: [-2432, 294, -1248],
   badgeText: [{ value: 'You\'ve spent time wandering around in the Power Transport System at Mount Diable.' }],
   notes: 'The Sparky Badge is in the Power Transport System station in Mount Diable in Cap au Diable.'

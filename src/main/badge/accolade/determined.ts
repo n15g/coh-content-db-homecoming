@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { DarkAstoria } from '../../map/dark-astoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const Determined: BadgeData = {
   type: 'ACCOLADE',
@@ -12,7 +12,7 @@ export const Determined: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within Dark Astoria.` },
   ],
-  acquisition: `Complete every story arc in ${mapLink(DarkAstoria)}`,
+  acquisition: `Complete every story arc in ${zoneLink(DarkAstoria)}`,
   notes: `This badge rewards 20 reward merits.`,
   links: [
     { title: 'Determined Badge', href: 'https://homecoming.wiki/wiki/Determined_Badge' },

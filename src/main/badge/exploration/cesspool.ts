@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MercyIsland } from '../../map/mercy-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MercyIsland } from '../../zone/mercy-island'
 
 export const Cesspool: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Cesspool: BadgeData = {
   setTitle: { id: 263 },
   name: [{ value: 'Cesspool' }],
   alignment: ['V'],
-  mapKey: MercyIsland.key,
+  zoneKey: MercyIsland.key,
   loc: [-322, 68, -2656],
   badgeText: [{
     value: `Many would-be Villains have drunk their fill from the cesspool in hopes it might grant super power. Mostly they go insane.`,
   }],
-  notes: `Located on ${mapLink(MercyIsland)}.
+  notes: `Located on ${zoneLink(MercyIsland)}.
 
 The marker is on a ledge between two large tanks in a pool of greenish water.
 The tanks are in the far northwestern part of the island, and the badge marker is 602 yards west-northwest of the Darwin's Landing marker.`,

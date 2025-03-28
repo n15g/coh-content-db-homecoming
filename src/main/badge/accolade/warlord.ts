@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Warburg } from '../../map/warburg'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Warburg } from '../../zone/warburg'
 import { WeaponInspector } from '../exploration/weapon-inspector'
 import { TunnelRat } from '../exploration/tunnel-rat'
 import { Triumphant } from '../exploration/triumphant'
@@ -21,7 +21,7 @@ export const Warlord: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Warburg.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(Warburg)}`,
+  notes: `Visit all exploration badges in ${zoneLink(Warburg)}`,
   links: [
     { title: 'Warlord Badge', href: 'https://homecoming.wiki/wiki/Warlord_Badge' },
   ],

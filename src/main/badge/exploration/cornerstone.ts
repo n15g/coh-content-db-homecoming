@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardBrickstown } from '../../map/safeguard-brickstown'
+import { SafeguardBrickstown } from '../../zone/safeguard-brickstown'
 
 export const Cornerstone: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const Cornerstone: BadgeData = {
     { alignment: 'V', value: 'Weak Point' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardBrickstown.key,
+  zoneKey: SafeguardBrickstown.key,
   badgeText: [{ value: 'The Freedom Phalanx and WISDOM stopped a massive Banished Pantheon attack in this area.' }],
   loc: [-406, 0, -130],
   notes: 'The Cornerstone Badge is located in the Brickstown Safeguard Mission.\n'

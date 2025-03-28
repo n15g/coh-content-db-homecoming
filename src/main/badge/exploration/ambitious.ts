@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NovaPraetoria } from '../../map/nova-praetoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const Ambitious: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Ambitious: BadgeData = {
   setTitle: { id: 1400 },
   name: [{ value: 'Ambitious' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: NovaPraetoria.key,
+  zoneKey: NovaPraetoria.key,
   loc: [-5420.9, 1088.6, -255.3],
   badgeText: [{
     value: 'Even in these strange and uncertain times there are those who still reach for the sky.',
   }],
-  notes: `Located in ${mapLink(NovaPraetoria)} on top of Emperor Cole's tower in Magisterium.`,
+  notes: `Located in ${zoneLink(NovaPraetoria)} on top of Emperor Cole's tower in Magisterium.`,
   links: [
     { title: 'Ambitious Badge', href: 'https://homecoming.wiki/wiki/Ambitious_Badge' },
   ],

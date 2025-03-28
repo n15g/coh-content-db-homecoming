@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { DarkAstoria } from '../../map/dark-astoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const DeathsHeadSupplicant: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DeathsHeadSupplicant: BadgeData = {
   setTitle: { id: 2182 },
   name: [{ value: 'Death\'s Head Supplicant' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: DarkAstoria.key,
+  zoneKey: DarkAstoria.key,
   loc: [1727, 233, 905],
   badgeText: [{
     value: `Behold! Before you lies the glory of Mot.
@@ -16,7 +16,7 @@ Mot's capacity for consumption does not yet equal its appetites, for much of the
 The many mouths that scar its horrid form are, as of yet, still stifled and immature compared to their glory in antiquity.
 Only one has fully extended to its full voraciousness, but that one is enough to drag all of Dark Astoria into crushing oblivion.`,
   }],
-  notes: `Located in ${mapLink(DarkAstoria)} in the Moth Cemetery neighborhood, approximately 191 yards northwest of the Moth Cemetery marker.`,
+  notes: `Located in ${zoneLink(DarkAstoria)} in the Moth Cemetery neighborhood, approximately 191 yards northwest of the Moth Cemetery marker.`,
   links: [
     { title: 'Death\'s Head Supplicant Badge', href: 'https://homecoming.wiki/wiki/Death%27s_Head_Supplicant_Badge' },
   ],

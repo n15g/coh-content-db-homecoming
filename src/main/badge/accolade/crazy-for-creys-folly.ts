@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CreysFolly } from '../../map/creys-folly'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CreysFolly } from '../../zone/creys-folly'
 import { BurningTheMidnightOil } from '../exploration/burning-the-midnight-oil'
 import { CreyCares } from '../exploration/crey-cares'
 import { CreyWatcher } from '../exploration/crey-watcher'
@@ -20,7 +20,7 @@ export const CrazyForCreysFolly: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Crey's Folly.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(CreysFolly)}`,
+  notes: `Visit all exploration badges in ${zoneLink(CreysFolly)}`,
   links: [
     { title: 'Crazy for Crey\'s Folly Badge', href: 'https://homecoming.wiki/wiki/Crazy_for_Crey%27s_Folly_Badge' },
   ],

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { AtlasPark } from '../../map/atlas-park'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { AtlasPark } from '../../zone/atlas-park'
 
 export const HeroCorpsInsider: BadgeData = {
   type: 'EXPLORATION',
@@ -10,12 +10,12 @@ export const HeroCorpsInsider: BadgeData = {
     { alignment: 'V', value: 'Hero Corps Infiltrator' },
   ],
   alignment: ['H'],
-  mapKey: AtlasPark.key,
+  zoneKey: AtlasPark.key,
   loc: [284, 16, -884],
   badgeText: [{
     value: 'Hero Corps may be controversial in their methods but they can have good information for aspiring heroes.',
   }],
-  notes: `Located in the Atlas Plaza neighborhood of ${mapLink(AtlasPark)} on the ground in front of Henry Peter Wong.
+  notes: `Located in the Atlas Plaza neighborhood of ${zoneLink(AtlasPark)} on the ground in front of Henry Peter Wong.
 
           Henry is behind and to the left (northwest) of City Hall, just behind a large statue approximately halfway between City Hall and the Paragon City Monorail station.`,
   links: [

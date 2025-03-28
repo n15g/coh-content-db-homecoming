@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const SecretAdmirer: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const SecretAdmirer: BadgeData = {
   setTitle: { id: 106 },
   name: [{ value: 'Secret Admirer' }],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-3438, 0, 2536],
   badgeText: [{
     value: 'Before becoming guardian of Croatoa, War Witch shared an apartment here with her roommate Apex.',

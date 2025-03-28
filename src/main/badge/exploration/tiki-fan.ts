@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MercyIsland } from '../../map/mercy-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MercyIsland } from '../../zone/mercy-island'
 
 export const TikiFan: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const TikiFan: BadgeData = {
   setTitle: { id: 1485 },
   name: [{ value: 'Tiki Fan' }],
   alignment: ['V'],
-  mapKey: MercyIsland.key,
+  zoneKey: MercyIsland.key,
   loc: [-1836, 239, 438],
   badgeText: [{
     value: `Larry's Tiki Lounge is known for its gambling, drinks, fun, and Tikis. And also for the occasional invasion by giant snake monsters.`,
   }],
-  notes: `Located on ${mapLink(MercyIsland)}, in the Mercy neighborhood.
+  notes: `Located on ${zoneLink(MercyIsland)}, in the Mercy neighborhood.
 
           It is directly in front of Larry's Tiki Lounge 133 yards SE of the neighborhood marker.`,
   links: [

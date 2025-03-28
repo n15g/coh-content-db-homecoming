@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 
 export const PortAuthority: BadgeData = {
   type: 'ACCOLADE',
@@ -12,7 +12,7 @@ export const PortAuthority: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within Striga Isle.` },
   ],
-  acquisition: `Complete every hero story arc in ${mapLink(StrigaIsle)}`,
+  acquisition: `Complete every hero story arc in ${zoneLink(StrigaIsle)}`,
   notes: `This badge rewards 20 reward merits.`,
   links: [
     { title: 'Port Authority Badge', href: 'https://homecoming.wiki/wiki/Port_Authority_Badge' },

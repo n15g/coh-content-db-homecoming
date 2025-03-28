@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { ReclusesVictory } from '../../map/recluses-victory'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const TrueNeutral: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const TrueNeutral: BadgeData = {
   name: [{ value: 'True Neutral' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `Vanguard abandoned its Atlas Park outpost in this timeline, not willing to take sides between Freedom Corps and Arachnos. They continue to recruit metahumans of all alignments in their fight against alien threats.` }],
-  mapKey: ReclusesVictory.key,
+  zoneKey: ReclusesVictory.key,
   loc: [-0.3, 16.3, 511.9],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

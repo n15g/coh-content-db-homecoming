@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Grandville } from '../../map/grandville'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Grandville } from '../../zone/grandville'
 
 export const GutterBait: BadgeData = {
   type: 'EXPLORATION',
@@ -7,14 +7,14 @@ export const GutterBait: BadgeData = {
   setTitle: { id: 1513 },
   name: [{ value: 'Gutter Bait' }],
   alignment: ['V'],
-  mapKey: Grandville.key,
+  zoneKey: Grandville.key,
   loc: [2573, -282, -238],
   badgeText: [{
     value: `These dangerous catwalks have resulted in a handful of Arachnos soldiers unwittingly falling into the depths of the Gutter, disappearing forever.
 At first, search and rescue missions were initiated to attempt to recover the missing soldiers, but were soon called off.
 Arachnos uses the disappearances as a valuable lesson on being alert during patrol.`,
   }],
-  notes: `Located in ${mapLink(Grandville)}, in the Spider City neighborhood.
+  notes: `Located in ${zoneLink(Grandville)}, in the Spider City neighborhood.
 
 It is on a catwalk overlooking the North Ward of the Gutter, 154 yards east of the Gutter neighborhood marker.`,
   links: [

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const DanceLegend: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DanceLegend: BadgeData = {
   setTitle: { id: 1530 },
   name: [{ value: 'Dance Legend' }],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-4316, -100, 1783],
   badgeText: [{
     value: 'Paragon Dance Party was a popular place for local heroes to go relax and have a good time.'

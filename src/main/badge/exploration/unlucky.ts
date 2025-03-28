@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IndependencePort } from '../../map/independence-port'
+import { IndependencePort } from '../../zone/independence-port'
 
 export const Unlucky: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Unlucky: BadgeData = {
   setTitle: { id: 1556 },
   name: [{ value: 'Unlucky' }],
   alignment: ['H'],
-  mapKey: IndependencePort.key,
+  zoneKey: IndependencePort.key,
   loc: [2044, 0, -9663],
   badgeText: [{
     value: 'Every member of Freedom Corps who works in this base is considered unlucky.'

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ImperialCity } from '../../map/imperial-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ImperialCity } from '../../zone/imperial-city'
 
 export const GoldDigger: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const GoldDigger: BadgeData = {
   setTitle: { id: 1630 },
   name: [{ value: 'Gold Digger' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: ImperialCity.key,
+  zoneKey: ImperialCity.key,
   loc: [280, 28, -2288],
   badgeText: [{
     value: 'In Aureas, ground is being broken on new office towers to support Praetoria\'s ever burgeoning economy.'
       + ' Witness the tireless Clockwork who labor continuously to bring the dream of Praetoria to life.',
   }],
-  notes: `Located in ${mapLink(ImperialCity)} on top of a building under construction 460 yards N of the Aureas marker.`,
+  notes: `Located in ${zoneLink(ImperialCity)} on top of a building under construction 460 yards N of the Aureas marker.`,
   links: [
     { title: 'Gold Digger Badge', href: 'https://homecoming.wiki/wiki/Gold_Digger_Badge' },
   ],

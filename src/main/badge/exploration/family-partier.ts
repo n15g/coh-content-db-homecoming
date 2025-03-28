@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IndependencePort } from '../../map/independence-port'
+import { IndependencePort } from '../../zone/independence-port'
 
 export const FamilyPartier: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const FamilyPartier: BadgeData = {
   setTitle: { id: 1554 },
   name: [{ value: 'Family Partier' }],
   alignment: ['H'],
-  mapKey: IndependencePort.key,
+  zoneKey: IndependencePort.key,
   loc: [-12, -21, 2376],
   badgeText: [{
     value: 'The Family uses this area right in the shadow of Terra Volta to conduct various parties, and the occasional hit on one of their own.'

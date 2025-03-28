@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { PocketD } from '../../map/pocket-d'
+import { PocketD } from '../../zone/pocket-d'
 
 export const BigTime: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const BigTime: BadgeData = {
   setTitle: { id: 717 },
   name: [{ value: 'Big Time' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: PocketD.key,
+  zoneKey: PocketD.key,
   loc: [-163, 20, -1362],
   badgeText: [{
     value: 'The \'Fambly\', as Joe Young would call them, had been dipping their fingers into the RMFC for some time.'

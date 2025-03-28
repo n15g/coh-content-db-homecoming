@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 
 export const Nailbiter: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const Nailbiter: BadgeData = {
   setTitle: { id: 1747 },
   name: [{ value: 'Nailbiter' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: UndergroundNeutropolis.key,
+  zoneKey: UndergroundNeutropolis.key,
   loc: [238, -1216, -2189],
   badgeText: [{
     value: 'This PPD interrogation and holding area is littered with the signs of harsh treatment.'
       + ' Dried bodily fluids, ripped off fingernails, and a few human teeth mark this area as a place you don\'t want to wind up in.',
   }],
-  notes: `Located in ${mapLink(UndergroundNeutropolis)} 415 yards south of City Access C.`,
+  notes: `Located in ${zoneLink(UndergroundNeutropolis)} 415 yards south of City Access C.`,
   links: [
     { title: 'Nailbiter Badge', href: 'https://homecoming.wiki/wiki/Nailbiter_Badge' },
   ],

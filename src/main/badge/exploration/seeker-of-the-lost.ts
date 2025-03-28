@@ -1,7 +1,7 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SewerNetwork } from '../../map/sewer-network'
-import { SteelCanyon } from '../../map/steel-canyon'
-import { Boomtown } from '../../map/boomtown'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SewerNetwork } from '../../zone/sewer-network'
+import { SteelCanyon } from '../../zone/steel-canyon'
+import { Boomtown } from '../../zone/boomtown'
 
 export const SeekerOfTheLost: BadgeData = {
   type: 'EXPLORATION',
@@ -9,7 +9,7 @@ export const SeekerOfTheLost: BadgeData = {
   setTitle: { id: 1836 },
   name: [{ value: 'Seeker of the Lost' }],
   alignment: ['H'],
-  mapKey: SewerNetwork.key,
+  zoneKey: SewerNetwork.key,
   loc: [576, -576, -1537],
   badgeText: [{
     value: `Reviled. Spat upon. Shunned by the 'norms,' the Lost are truly a pitiable breed.
@@ -17,7 +17,7 @@ export const SeekerOfTheLost: BadgeData = {
             Your campaign against them serves the purpose of thwarting their more dangerous plans while also acting as a disincentive for those among their ranks whose loyalty may be wavering.
             If your attacks can convince even a small number to quit and seek out legitimate help, then you've done your job.`,
   }],
-  notes: `On the map, the badge is roughly equidistant from the ${mapLink(SteelCanyon)} Sector, ${mapLink(Boomtown)} Sector and Underworld markers.
+  notes: `On the map, the badge is roughly equidistant from the ${zoneLink(SteelCanyon)} Sector, ${zoneLink(Boomtown)} Sector and Underworld markers.
 It is in the middle of the junction connecting those three neighborhoods.`,
   links: [
     { title: 'Seeker of the Lost Badge', href: 'https://homecoming.wiki/wiki/Seeker_of_the_Lost_Badge' },

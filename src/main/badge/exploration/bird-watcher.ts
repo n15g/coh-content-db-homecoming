@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 
 export const BirdWatcher: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const BirdWatcher: BadgeData = {
   setTitle: { id: 91 },
   name: [{ value: 'Bird Watcher' }],
   alignment: ['H'],
-  mapKey: EchoGalaxyCity.key,
+  zoneKey: EchoGalaxyCity.key,
   loc: [-1099, 48, -2264],
   badgeText: [{ value: 'The Invisible Falcon disappeared without a trace in the mid 90\'s.' }],
   notes: 'The Bird Watcher Badge is in the Orion Beltway neighborhood of Echo: Galaxy City.'

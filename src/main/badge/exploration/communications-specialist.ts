@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
+import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
 
 export const CommunicationsSpecialist: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const CommunicationsSpecialist: BadgeData = {
   name: [{ value: 'Communications Specialist' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `These communications towers are critical for boosting signals with enough power to overcome Rikti jamming technology.` }],
-  mapKey: EchoRiktiCrashSite.key,
+  zoneKey: EchoRiktiCrashSite.key,
   loc: [959.6, 171.3, -1174.4],
   notes: 'Next to a red and white communications tower antenna.',
   links: [

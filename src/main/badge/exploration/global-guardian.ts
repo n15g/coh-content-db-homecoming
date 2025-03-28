@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemAtlasPark } from '../../map/mayhem-atlas-park'
+import { MayhemAtlasPark } from '../../zone/mayhem-atlas-park'
 
 export const GlobalGuardian: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const GlobalGuardian: BadgeData = {
     { alignment: 'V', value: 'Global Threat' },
   ],
   alignment: ['V'],
-  mapKey: MayhemAtlasPark.key,
+  zoneKey: MayhemAtlasPark.key,
   badgeText: [{
     alignment: 'H', value: 'As a villain you struck at Atlas Park, the very heart of Paragon City, proving you must always be vigilant in its defense.',
   }, {

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StMartial } from '../../map/st-martial'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StMartial } from '../../zone/st-martial'
 
 export const DeucesWild: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const DeucesWild: BadgeData = {
   setTitle: { id: 279 },
   name: [{ value: 'Deuces Wild' }],
   alignment: ['V'],
-  mapKey: StMartial.key,
+  zoneKey: StMartial.key,
   loc: [-3325, -29, -436],
   badgeText: [{
     value: `Twos are wild, but not as wild as you!`,
   }],
-  notes: `Located in ${mapLink(StMartial)}, in the doorway of the Ice Palace casino in the Jackpot neighborhood, 150 yards east of the Jackpot neighborhood marker.`,
+  notes: `Located in ${zoneLink(StMartial)}, in the doorway of the Ice Palace casino in the Jackpot neighborhood, 150 yards east of the Jackpot neighborhood marker.`,
   links: [
     { title: 'Deuces Wild Badge', href: 'https://homecoming.wiki/wiki/Deuces_Wild_Badge' },
   ],

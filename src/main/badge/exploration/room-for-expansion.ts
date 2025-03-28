@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const RoomForExpansion: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const RoomForExpansion: BadgeData = {
   setTitle: { id: 1536 },
   name: [{ value: 'Room for Expansion' }],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [687, 0, -141],
   badgeText: [{
     value: 'With Faultline gaining traffic, many people are calling for more apartments to be built in this area and for Longbow to move their Bloody Bay heli-pad to another location.'

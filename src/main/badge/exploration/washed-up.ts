@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PortOakes } from '../../map/port-oakes'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PortOakes } from '../../zone/port-oakes'
 
 export const WashedUp: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const WashedUp: BadgeData = {
   setTitle: { id: 252 },
   name: [{ value: 'Washed Up' }],
   alignment: ['V'],
-  mapKey: PortOakes.key,
+  zoneKey: PortOakes.key,
   loc: [-3903, 16, -1369],
   badgeText: [{
     value: `Emil Marcone's brother was found at low tide in this particular vehicle.`,
   }],
-  notes: `Located in ${mapLink(PortOakes)}, in the Fort Hades neighborhood.
+  notes: `Located in ${zoneLink(PortOakes)}, in the Fort Hades neighborhood.
 
           From the Fort Hades marker, head due east until you reach the water. There is an old rusted blue car on your left. The badge marker is on top of that car.`,
   links: [

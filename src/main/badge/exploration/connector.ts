@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IndependencePort } from '../../map/independence-port'
+import { IndependencePort } from '../../zone/independence-port'
 
 export const Connector: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Connector: BadgeData = {
   setTitle: { id: 1555 },
   name: [{ value: 'Connector' }],
   alignment: ['H'],
-  mapKey: IndependencePort.key,
+  zoneKey: IndependencePort.key,
   loc: [-1088, 96, -7119],
   badgeText: [{
     value: 'The Bell-Wave is the twin of the nearly destroyed Valor Bridge.'

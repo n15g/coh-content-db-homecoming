@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TerraVolta } from '../../map/terra-volta'
+import { TerraVolta } from '../../zone/terra-volta'
 
 export const PowerWalker: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const PowerWalker: BadgeData = {
   setTitle: { id: 1840 },
   name: [{ value: 'Power Walker' }],
   alignment: ['H'],
-  mapKey: TerraVolta.key,
+  zoneKey: TerraVolta.key,
   loc: [888, 159, -5332],
   badgeText: [{
     value: `The Walker Energy condensate plant stands at the strategic center of the Terra Volta complex, and as such has become a hotly contested site between the Freakshow and the Sky Raiders.

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CapAuDiable } from '../../map/cap-au-diable'
+import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const MasterOfScience: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const MasterOfScience: BadgeData = {
   setTitle: { id: 1493 },
   name: [{ value: 'Master of Science' }],
   alignment: ['V'],
-  mapKey: CapAuDiable.key,
+  zoneKey: CapAuDiable.key,
   loc: [-446, 430, -328],
   badgeText: [{ value: 'Dr. Aeon designed this giant globe of an atom to signify the advances that science has brought to Cap au Diable.' }],
   notes: 'The Master of Science Badge is located on top of the globe in the Aeon City neighborhood of Cap au Diable.',

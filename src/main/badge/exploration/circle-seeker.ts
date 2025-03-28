@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const CircleSeeker: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CircleSeeker: BadgeData = {
   setTitle: { id: 1519 },
   name: [{ value: 'Circle Seeker' }],
   alignment: ['H'],
-  mapKey: TheHollows.key,
+  zoneKey: TheHollows.key,
   loc: [1729, 166, 2066],
   badgeText: [{
     value: 'The Legacy Chain have been seeking the purpose of these strange structures that have been created by the Circle.'

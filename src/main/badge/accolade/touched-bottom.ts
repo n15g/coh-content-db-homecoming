@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheAbyss } from '../../map/the-abyss'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheAbyss } from '../../zone/the-abyss'
 import { AbyssalGaze } from '../exploration/abyssal-gaze'
 import { CagedBeast } from '../exploration/caged-beast'
 import { Geneticist } from '../exploration/geneticist'
@@ -20,7 +20,7 @@ export const TouchedBottom: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Abyss.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(TheAbyss)}`,
+  notes: `Visit all exploration badges in ${zoneLink(TheAbyss)}`,
   links: [
     { title: 'Touched Bottom Badge', href: 'https://homecoming.wiki/wiki/Touched_Bottom_Badge' },
   ],

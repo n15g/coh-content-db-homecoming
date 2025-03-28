@@ -1,5 +1,5 @@
 import { ContentBundle } from 'coh-content-db'
-import { MAPS } from './map/_maps'
+import { ZONES } from './zone/_zones'
 import { BADGES } from './badge/_badges'
 import { CHANGELOG } from './changelog'
 
@@ -28,7 +28,7 @@ export const HOMECOMING: ContentBundle = {
     { key: 'tanker', name: 'Tanker' },
     { key: 'warshade', name: 'Warshade' },
   ],
-  maps: [...MAPS],
+  zones: [...ZONES],
   badges: [...BADGES],
   changelog: CHANGELOG,
 }

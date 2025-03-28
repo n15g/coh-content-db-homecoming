@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { BloodyBay } from '../../map/bloody-bay'
+import { BloodyBay } from '../../zone/bloody-bay'
 
 export const Burgermeister: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const Burgermeister: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `Hero Burgers was once the best fast-food restaurant in Oceanview, before the island was evacuated and abandoned.` }],
-  mapKey: BloodyBay.key,
+  zoneKey: BloodyBay.key,
   loc: [1948, -15, 1806],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

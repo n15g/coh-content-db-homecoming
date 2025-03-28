@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheHive } from '../../map/the-hive'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheHive } from '../../zone/the-hive'
 
 export const WildAtHeart: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const WildAtHeart: BadgeData = {
   setTitle: { id: 1850 },
   name: [{ value: 'Wild At Heart' }],
   alignment: ['H'],
-  mapKey: TheHive.key,
+  zoneKey: TheHive.key,
   loc: [-1500, 0, -4491],
   badgeText: [{
     value: `In this quiet corner of the Hive, you get a sense of the age and power of the Devouring Earth.
@@ -15,7 +15,7 @@ export const WildAtHeart: BadgeData = {
             earliest ancestor scampered through their branches eating fruit and insects.
             Even though you understand the threat the Devouring Earth poses, you are taken by the wild beauty of the place.`,
   }],
-  notes: `Located in ${mapLink(TheHive)} 0.76 miles north and a bit west of the Eden transfer point, in an alcove of trees that can be accessed from the southwest side.`,
+  notes: `Located in ${zoneLink(TheHive)} 0.76 miles north and a bit west of the Eden transfer point, in an alcove of trees that can be accessed from the southwest side.`,
   links: [
     { title: 'Wild At Heart Badge', href: 'https://homecoming.wiki/wiki/Wild_At_Heart_Badge' },
   ],

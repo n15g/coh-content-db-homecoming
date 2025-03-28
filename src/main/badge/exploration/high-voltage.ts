@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TerraVolta } from '../../map/terra-volta'
+import { TerraVolta } from '../../zone/terra-volta'
 
 export const HighVoltage: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const HighVoltage: BadgeData = {
   setTitle: { id: 1841 },
   name: [{ value: 'High Voltage!' }],
   alignment: ['H'],
-  mapKey: TerraVolta.key,
+  zoneKey: TerraVolta.key,
   loc: [290, 188, -3862],
   badgeText: [{
     value: `The air crackles with electricity and the odor of ozone fills your nostrils.

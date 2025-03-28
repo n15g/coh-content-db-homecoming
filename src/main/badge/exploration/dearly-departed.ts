@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { FirstWard } from '../../map/first-ward'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { FirstWard } from '../../zone/first-ward'
 
 export const DearlyDeparted: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DearlyDeparted: BadgeData = {
   setTitle: { id: 2048 },
   name: [{ value: 'Dearly Departed' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: FirstWard.key,
+  zoneKey: FirstWard.key,
   loc: [-2188, 77, 486],
   badgeText: [{
     value: `When the Devouring Earth struck First Ward the attack came suddenly and without warning.
@@ -16,7 +16,7 @@ Though they knew they would likely never return to First Ward, the survivors lai
 the city they helped build.
 The survivors believed too that one day they would return and reclaim First Ward in the name of the fallen.`,
   }],
-  notes: `Located in ${mapLink(FirstWard)} 83 yards NNE of the map marker; at the base of a small mausoleum..
+  notes: `Located in ${zoneLink(FirstWard)} 83 yards NNE of the map marker; at the base of a small mausoleum..
 It is on the west side of the eastern-most island of Lock of Torment.`,
   links: [
     { title: 'Dearly Departed Badge', href: 'https://homecoming.wiki/wiki/Dearly_Departed_Badge' },

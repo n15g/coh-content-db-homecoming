@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { AtlasPark } from '../../map/atlas-park'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { AtlasPark } from '../../zone/atlas-park'
 
 export const Freedom: BadgeData = {
   type: 'EXPLORATION',
@@ -10,13 +10,13 @@ export const Freedom: BadgeData = {
     { alignment: 'V', value: 'Covert Operator' },
   ],
   alignment: ['H'],
-  mapKey: AtlasPark.key,
+  zoneKey: AtlasPark.key,
   loc: [126.1, 170.6, -652.4],
   badgeText: [{
     value: `This flag was crafted from Statesman's cape and was donated to Paragon City to replace the flag destroyed by the invading Rikti.
             It now flies over Paragon City Hall to honor the sacrifice made by Hero 1 and the rest of Omega Team.`,
   }],
-  notes: `Located in the Atlas Plaza neighborhood of ${mapLink(AtlasPark)}.
+  notes: `Located in the Atlas Plaza neighborhood of ${zoneLink(AtlasPark)}.
 
           The badge marker is located at the base of the flagpole on top of City Hall.`,
   links: [

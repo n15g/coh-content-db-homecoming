@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NovaPraetoria } from '../../map/nova-praetoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const OnTheWaterfront: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const OnTheWaterfront: BadgeData = {
   setTitle: { id: 1594 },
   name: [{ value: 'On the Waterfront' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: NovaPraetoria.key,
+  zoneKey: NovaPraetoria.key,
   loc: [-6748, -76, 72],
   badgeText: [{
     value: 'Many retreat to the quiet of the waterfront to get away from the hustle and bustle of the Magisterium.',
   }],
-  notes: `Located in ${mapLink(NovaPraetoria)} on the lower ledge along the river, 211 yards south of Underground Access B.`,
+  notes: `Located in ${zoneLink(NovaPraetoria)} on the lower ledge along the river, 211 yards south of Underground Access B.`,
   links: [
     { title: 'On the Waterfront Badge', href: 'https://homecoming.wiki/wiki/On_the_Waterfront_Badge' },
   ],

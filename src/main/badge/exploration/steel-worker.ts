@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemSteelCanyon } from '../../map/mayhem-steel-canyon'
+import { MayhemSteelCanyon } from '../../zone/mayhem-steel-canyon'
 
 export const SteelWorker: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const SteelWorker: BadgeData = {
   setTitle: { id: 558 },
   name: [{ value: 'Steel Worker' }],
   alignment: ['V'],
-  mapKey: MayhemSteelCanyon.key,
+  zoneKey: MayhemSteelCanyon.key,
   badgeText: [{
     alignment: 'H', value: 'Not even the hardened metal made in these factories of Steel Canyon was able to protect this city from determined villains.'
       + ' Good thing Paragon has you now to do it.',

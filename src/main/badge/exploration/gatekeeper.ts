@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardPeregrineIsland } from '../../map/safeguard-peregrine-island'
+import { SafeguardPeregrineIsland } from '../../zone/safeguard-peregrine-island'
 
 export const Gatekeeper: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const Gatekeeper: BadgeData = {
     { alignment: 'V', value: 'Keymaster' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardPeregrineIsland.key,
+  zoneKey: SafeguardPeregrineIsland.key,
   badgeText: [{ value: 'The whimsical Gamester placed several presents all throughout Peregrine Island during the holidays. This block had a few of them.' }],
   loc: [-635, 0, -2868],
   notes: 'The Gatekeeper Badge is located in the Peregrine Island Safeguard Mission.\n'

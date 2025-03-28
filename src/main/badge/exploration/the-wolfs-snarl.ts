@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 
 export const TheWolfsSnarl: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const TheWolfsSnarl: BadgeData = {
   setTitle: { id: 1786 },
   name: [{ value: 'The Wolf\'s Snarl' }],
   alignment: ['H'],
-  mapKey: StrigaIsle.key,
+  zoneKey: StrigaIsle.key,
   loc: [-3222, -128, -1824],
   badgeText: [{
     value: 'The Wolf\'s Throat is a vital causeway for the Council, linking the outside world to the innards of the Council Base.'
@@ -15,7 +15,7 @@ export const TheWolfsSnarl: BadgeData = {
       + ' Lately, however, that howl has been choked by an influx of Banished Pantheon into this critical supply and transit corridor.'
       + ' While the Banished Pantheon make such bold attacks, the Council\'s war plans are stalled.',
   }],
-  notes: `Located in ${mapLink(StrigaIsle)} SSW from the Wolf's Throat marker, inside the tunnel.`,
+  notes: `Located in ${zoneLink(StrigaIsle)} SSW from the Wolf's Throat marker, inside the tunnel.`,
   links: [
     { title: 'The Wolf\'s Snarl Badge', href: 'https://homecoming.wiki/wiki/The_Wolf%27s_Snarl_Badge' },
   ],

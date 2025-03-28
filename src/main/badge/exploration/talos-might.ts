@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardTalosIsland } from '../../map/safeguard-talos-island'
+import { SafeguardTalosIsland } from '../../zone/safeguard-talos-island'
 
 export const TalosMight: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const TalosMight: BadgeData = {
     { alignment: 'V', value: 'Talos\' Blight' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardTalosIsland.key,
+  zoneKey: SafeguardTalosIsland.key,
   badgeText: [{ value: 'Years ago, Rularuu tore down the barriers between our dimensions and sent one of many invasion forces to this block. Heroes from all over fought back the invaders.' }],
   loc: [-1452, 160, 6739],
   notes: 'The Talos\' Might Badge is located in the Talos Island Safeguard Mission.\n'

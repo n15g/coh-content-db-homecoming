@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TerraVolta } from '../../map/terra-volta'
+import { TerraVolta } from '../../zone/terra-volta'
 
 export const NervousDreck: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const NervousDreck: BadgeData = {
   setTitle: { id: 133 },
   name: [{ value: 'Nervous Dreck' }],
   alignment: ['H'],
-  mapKey: TerraVolta.key,
+  zoneKey: TerraVolta.key,
   loc: [4456, 0, -6124],
   badgeText: [{
     value: `Dreck, the leader of the Freakshow, was brought to justice on this spot by Statesman. His time in jail was short, however, as he broke out just two weeks later.`,

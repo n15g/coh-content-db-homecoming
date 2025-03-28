@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Cimerora } from '../../map/cimerora'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Cimerora } from '../../zone/cimerora'
 import { DepthsOfTime } from '../exploration/depths-of-time'
 import { BattleHardened } from '../exploration/battle-hardened'
 import { Sanctuary } from '../exploration/sanctuary'
@@ -20,7 +20,7 @@ export const HistoryInTheMaking: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Cimerora.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(Cimerora)} [Rewards 5 Merits]`,
+  notes: `Visit all exploration badges in ${zoneLink(Cimerora)} [Rewards 5 Merits]`,
   links: [
     { title: 'History in the Making Badge', href: 'https://homecoming.wiki/wiki/History_in_the_Making_Badge' },
   ],

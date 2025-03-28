@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoFaultline } from '../../map/echo-faultline'
+import { EchoFaultline } from '../../zone/echo-faultline'
 
 export const Forsaken: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Forsaken: BadgeData = {
   name: [{ value: 'Forsaken' }],
   alignment: ['H'],
   badgeText: [{ value: `Once a technological pride and joy of the city of Overbrook, the city's hydroelectric power plant was largely abandoned after the Rikti attack. It now languishes in disrepair.` }],
-  mapKey: EchoFaultline.key,
+  zoneKey: EchoFaultline.key,
   loc: [332.4, -90.8, 3489],
   notes: 'On the platform between the southeast and southwest turbine towers in the dam section.',
   links: [

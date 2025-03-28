@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 
 export const VampyriWatcher: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const VampyriWatcher: BadgeData = {
   setTitle: { id: 1790 },
   name: [{ value: 'Vampyri Watcher' }],
   alignment: ['H'],
-  mapKey: StrigaIsle.key,
+  zoneKey: StrigaIsle.key,
   loc: [-3728, 424, -3011],
   badgeText: [{
     value: 'The Council\'s Vampyri corps are a breed apart from the rest of the Council\'s cadre—both in appearance and temperament.'
@@ -15,7 +15,7 @@ export const VampyriWatcher: BadgeData = {
       + ' its surroundings, while also giving them a physical location that they alone command.'
       + ' Other Council know never to go there lest they incite the ire of their temperamental brothers-in-arms.',
   }],
-  notes: `Located in ${mapLink(StrigaIsle)} 464 yards NNE of The Wolf's Throat marker, at the top of the hill.`,
+  notes: `Located in ${zoneLink(StrigaIsle)} 464 yards NNE of The Wolf's Throat marker, at the top of the hill.`,
   links: [
     { title: 'Vampyri Watcher Badge', href: 'https://homecoming.wiki/wiki/Vampyri_Watcher_Badge' },
   ],

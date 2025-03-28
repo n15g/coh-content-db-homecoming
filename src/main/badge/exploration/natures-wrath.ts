@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Eden } from '../../map/eden'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Eden } from '../../zone/eden'
 
 export const NaturesWrath: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const NaturesWrath: BadgeData = {
   setTitle: { id: 1843 },
   name: [{ value: 'Nature\'s Wrath' }],
   alignment: ['H'],
-  mapKey: Eden.key,
+  zoneKey: Eden.key,
   loc: [-1963, 55, 3257],
   badgeText: [{
     value: `This hill rises like a blister above the canopy that spread like a green plaque to devour Woodvale.
@@ -16,7 +16,7 @@ export const NaturesWrath: BadgeData = {
             You are not sure why this hill is so devoid of danger, perhaps it is a true reflection of what the Devouring Earth have to offer.
             But such thoughts are borderline insane and likely planted there by some trick of Hamidon's making.`,
   }],
-  notes: `Located in ${mapLink(Eden)} 206 yards west of The Pit marker, atop a hill next to a light rail track.`,
+  notes: `Located in ${zoneLink(Eden)} 206 yards west of The Pit marker, atop a hill next to a light rail track.`,
   links: [
     { title: 'Nature\'s Wrath Badge', href: 'https://homecoming.wiki/wiki/Nature%27s_Wrath_Badge' },
   ],

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SafeguardAtlasPark } from '../../map/safeguard-atlas-park'
+import { SafeguardAtlasPark } from '../../zone/safeguard-atlas-park'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
 
 export const HeartOfTheCity: BadgeData = {
@@ -11,7 +11,7 @@ export const HeartOfTheCity: BadgeData = {
     { alignment: 'V', value: 'Hate of the City' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardAtlasPark.key,
+  zoneKey: SafeguardAtlasPark.key,
   badgeText: [{ value: 'Due to a glitch in the Paragon Nav System, Jose "Broken" Brogan stood here, but many heroes had trouble finding him.' }],
   loc: [1498, 0, -399],
   notes: 'The Heart of the City Badge is located in the Atlas Park Safeguard Mission.\n'

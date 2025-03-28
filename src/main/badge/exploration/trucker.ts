@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { PocketD } from '../../map/pocket-d'
+import { PocketD } from '../../zone/pocket-d'
 
 export const Trucker: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Trucker: BadgeData = {
   setTitle: { id: 731 },
   name: [{ value: 'Trucker' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: PocketD.key,
+  zoneKey: PocketD.key,
   loc: [200, -3, -1101],
   badgeText: [{ value: 'You\'ve visited the floating truck in Pocket D.' }],
   notes: 'On the floating truck outside of Pocket D.\n'

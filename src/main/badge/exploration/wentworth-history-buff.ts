@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const WentworthHistoryBuff: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const WentworthHistoryBuff: BadgeData = {
   setTitle: { id: 1526 },
   name: [{ value: 'Wentworth History Buff' }],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [-1089, -42, 896],
   badgeText: [{
     value: 'This area was slated to be the original site for the Wentworth\'s Consignments in Kings Row.'

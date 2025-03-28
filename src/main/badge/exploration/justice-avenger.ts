@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PerezPark } from '../../map/perez-park'
-import { SkywayCity } from '../../map/skyway-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PerezPark } from '../../zone/perez-park'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const JusticeAvenger: BadgeData = {
   type: 'EXPLORATION',
@@ -11,15 +11,15 @@ export const JusticeAvenger: BadgeData = {
     { alignment: 'V', value: 'Social Climber' },
   ],
   alignment: ['H'],
-  mapKey: PerezPark.key,
+  zoneKey: PerezPark.key,
   loc: [-1034, 1, 3976],
   badgeText: [{
     value: 'This fountain was a gift to the city, donated by billionaire playboy Justin Sinclair.',
   }],
-  notes: `Located in ${mapLink(PerezPark)}.
+  notes: `Located in ${zoneLink(PerezPark)}.
 
-          Enter from ${mapLink(SkywayCity)} and turn left, then follow the road to where it ends in a loop around a fountain.
-          The badge is in the fountain. Its coordinates are (-1034, 1, 3976). It is 246 yards from the ${mapLink(SkywayCity)} entrance.`,
+          Enter from ${zoneLink(SkywayCity)} and turn left, then follow the road to where it ends in a loop around a fountain.
+          The badge is in the fountain. Its coordinates are (-1034, 1, 3976). It is 246 yards from the ${zoneLink(SkywayCity)} entrance.`,
   links: [
     { title: 'Justice Avenger Badge', href: 'https://homecoming.wiki/wiki/Justice_Avenger_Badge' },
     { title: 'Social Climber Badge', href: 'https://homecoming.wiki/wiki/Social_Climber_Badge' },

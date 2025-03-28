@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const DirtyAttorney: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DirtyAttorney: BadgeData = {
   setTitle: { id: 1533 },
   name: [{ value: 'Dirty Attorney' }],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-2170, -84, -1228],
   badgeText: [{
     value: 'Platinum Lake is a popular spot for people in Paragon to sit back and relax.'

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheChantry } from '../../map/the-chantry'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheChantry } from '../../zone/the-chantry'
 import { Bereaved } from '../exploration/bereaved'
 import { Demiurge } from '../exploration/demiurge'
 import { Dispossessed } from '../exploration/dispossessed'
@@ -20,7 +20,7 @@ export const CantStopTheChant: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Chantry.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(TheChantry)}`,
+  notes: `Visit all exploration badges in ${zoneLink(TheChantry)}`,
   links: [
     { title: 'Can\'t Stop the Chant Badge', href: 'https://homecoming.wiki/wiki/Can%27t_Stop_the_Chant_Badge' },
   ],

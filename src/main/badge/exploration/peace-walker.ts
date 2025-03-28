@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CascadeArchipelago } from '../../map/cascade-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 
 export const PeaceWalker: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const PeaceWalker: BadgeData = {
   setTitle: { id: 1806 },
   name: [{ value: 'Peace Walker' }],
   alignment: ['H'],
-  mapKey: CascadeArchipelago.key,
+  zoneKey: CascadeArchipelago.key,
   loc: [3096, 1535, 1502],
   badgeText: [{
     value: 'You have found a place of peace and calm in a land of madness and danger.'
@@ -17,7 +17,7 @@ export const PeaceWalker: BadgeData = {
       + ' safe from all concern... but you cannot.'
       + ' This sense of ease is an illusion, the safety is a lie. Nowhere is safe here, and you\'d best move on before this land robs you of all desire to.',
   }],
-  notes: `Located in ${mapLink(CascadeArchipelago)} 167 yards SW of The Marooned Shores marker, in the middle of an area surrounded by hills.`,
+  notes: `Located in ${zoneLink(CascadeArchipelago)} 167 yards SW of The Marooned Shores marker, in the middle of an area surrounded by hills.`,
   links: [
     { title: 'Peace Walker Badge', href: 'https://homecoming.wiki/wiki/Peace_Walker_Badge' },
   ],

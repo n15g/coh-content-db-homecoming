@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SharkheadIsle } from '../../map/sharkhead-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SharkheadIsle } from '../../zone/sharkhead-isle'
 
 export const UnwelcomeGuest: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const UnwelcomeGuest: BadgeData = {
   setTitle: { id: 1497 },
   name: [{ value: 'Unwelcome Guest' }],
   alignment: ['V'],
-  mapKey: SharkheadIsle.key,
+  zoneKey: SharkheadIsle.key,
   loc: [-634, 1, 1437],
   badgeText: [{
     value: `This Council base has managed to maintain its foothold within Sharkhead despite numerous attacks from several groups.
             These days, the biggest threats are the 5th Column raids and exposing sleeper agents among Council ranks.`,
   }],
-  notes: `Located in ${mapLink(SharkheadIsle)}, in The Pit neighborhood.
+  notes: `Located in ${zoneLink(SharkheadIsle)}, in The Pit neighborhood.
 
 It is at the entrance of the Council base 270 yards east of the neighborhood marker.`,
   links: [

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ImperialCity } from '../../map/imperial-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ImperialCity } from '../../zone/imperial-city'
 
 export const TiberianOverseer: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const TiberianOverseer: BadgeData = {
   setTitle: { id: 1634 },
   name: [{ value: 'Tiberian Overseer' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: ImperialCity.key,
+  zoneKey: ImperialCity.key,
   loc: [564, 109, 3168],
   badgeText: [{
     value: 'From this high perch the Tiberian Overseer casts their gaze across the city-state of Praetoria, taking in its beauty while seeking out the corruption that threatens it.',
   }],
-  notes: `Located in ${mapLink(ImperialCity)} 185 yards N of the Tiberian Bluff marker.`,
+  notes: `Located in ${zoneLink(ImperialCity)} 185 yards N of the Tiberian Bluff marker.`,
   links: [
     { title: 'Tiberian Overseer Badge', href: 'https://homecoming.wiki/wiki/Tiberian_Overseer_Badge' },
   ],

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NovaPraetoria } from '../../map/nova-praetoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const GuardiansOfJustice: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const GuardiansOfJustice: BadgeData = {
   setTitle: { id: 1593 },
   name: [{ value: 'Guardians of Justice' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: NovaPraetoria.key,
+  zoneKey: NovaPraetoria.key,
   loc: [-5097, 290, -830],
   badgeText: [{
     value: 'From its heavily fortified bunker, the Praetorian Police Department extends the sheltering arms of Imperial Justice to all citizens.',
   }],
-  notes: `Located in ${mapLink(NovaPraetoria)} on top of the PPD headquarters building, 223 yards north of the Magisterium marker.`,
+  notes: `Located in ${zoneLink(NovaPraetoria)} on top of the PPD headquarters building, 223 yards north of the Magisterium marker.`,
   links: [
     { title: 'Guardians of Justice Badge', href: 'https://homecoming.wiki/wiki/Guardians_of_Justice_Badge' },
   ],

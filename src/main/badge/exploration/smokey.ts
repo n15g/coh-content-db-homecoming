@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const Smokey: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Smokey: BadgeData = {
   setTitle: { id: 100 },
   name: [{ value: 'Smokey' }],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [-3042, -41, -1358],
   badgeText: [{
     value: 'King Garment Works dominated the Kings Row economy for years. These smoke stacks were part of their manufacturing facility.',

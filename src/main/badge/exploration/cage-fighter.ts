@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { ArenaCageMatch } from '../../map/arena-cage-match'
+import { ArenaCageMatch } from '../../zone/arena-cage-match'
 
 export const CageFighter: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CageFighter: BadgeData = {
   setTitle: { id: 716 },
   name: [{ value: 'Cage Fighter' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: ArenaCageMatch.key,
+  zoneKey: ArenaCageMatch.key,
   loc: [-190, -24, -1329],
   badgeText: [{ value: 'Fighting in a nice big arena is one thing, but fighting in a cage is completely... different. Only the strong survive a cage match.' }],
   notes: 'When staging a PvP duel via the terminals in Pocket D or in the Arena, there is a duel map that matches the Monkey Fight Club in Pocket D, placing you in the cage for the match.\n'

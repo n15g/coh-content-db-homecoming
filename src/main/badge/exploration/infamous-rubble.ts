@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StMartial } from '../../map/st-martial'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StMartial } from '../../zone/st-martial'
 
 export const InfamousRubble: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const InfamousRubble: BadgeData = {
   setTitle: { id: 1507 },
   name: [{ value: 'Infamous Rubble' }],
   alignment: ['V'],
-  mapKey: StMartial.key,
+  zoneKey: StMartial.key,
   loc: [-4851, 153, 1868],
   badgeText: [{
     value: `This pile of rubble used to be one of the largest skyscrapers within St. Martial.
  When the Wailers appeared, a huge battle broke out among Wailers, Arachnos and the Family, which led to the utter destruction of this building and the spread of Wailers into St. Martial.`,
   }],
-  notes: `Located in ${mapLink(StMartial)}, in the Hard Way neighborhood.
+  notes: `Located in ${zoneLink(StMartial)}, in the Hard Way neighborhood.
 
           It is on top of the large pile of rubble 217 yards east of the neighborhood marker.
 

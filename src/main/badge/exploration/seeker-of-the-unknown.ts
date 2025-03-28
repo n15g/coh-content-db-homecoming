@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoDarkAstoria } from '../../map/echo-dark-astoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 
 export const SeekerOfTheUnknown: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const SeekerOfTheUnknown: BadgeData = {
   setTitle: { id: 129 },
   name: [{ value: 'Seeker of the Unknown' }],
   alignment: ['H'],
-  mapKey: EchoDarkAstoria.key,
+  zoneKey: EchoDarkAstoria.key,
   loc: [1868, -80, 1352],
   badgeText: [{
     value: 'This tomb was used to represent the thousands of heroes who gave their lives in the Rikti War. It now stands a mute vigil at the site of even greater atrocities.',
   }],
-  notes: `Located in ${mapLink(EchoDarkAstoria)} 160 yards west, and very slightly north, of the Moth Cemetery marker is a deep chasm.
+  notes: `Located in ${zoneLink(EchoDarkAstoria)} 160 yards west, and very slightly north, of the Moth Cemetery marker is a deep chasm.
 
           At the bottom of that chasm is a doorway that leads into a tunnel. The badge marker is outside the second (middle) crypt in that tunnel.`,
   links: [

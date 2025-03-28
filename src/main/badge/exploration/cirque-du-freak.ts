@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CreysFolly } from '../../map/creys-folly'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CreysFolly } from '../../zone/creys-folly'
 
 export const CirqueDuFreak: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CirqueDuFreak: BadgeData = {
   setTitle: { id: 1796 },
   name: [{ value: 'Cirque du\'Freak' }],
   alignment: ['H'],
-  mapKey: CreysFolly.key,
+  zoneKey: CreysFolly.key,
   loc: [7330, 167, 33],
   badgeText: [{
     value: 'From this vantage point, one can get an excellent view of Carnival Town: the Freakshow community that has grown like a fungus on Venice\'s rotting corpse.'
@@ -15,7 +15,7 @@ export const CirqueDuFreak: BadgeData = {
       + ' It has laws, customs, even holidays, but make no mistake: it is a place of violence, debasement, and depravity where the weak are quickly culled.'
       + ' Many see it as a cancer from which a psychological and sociological poison can spread to infect other parts of Paragon City, a breeding ground for dark memes best kept contained.',
   }],
-  notes: `Located in ${mapLink(CreysFolly)} 71 yards south of the Carnival Town marker, on top of the enclosed walkway that stretches over the street.`,
+  notes: `Located in ${zoneLink(CreysFolly)} 71 yards south of the Carnival Town marker, on top of the enclosed walkway that stretches over the street.`,
   links: [
     { title: 'Cirque du\'Freak Badge', href: 'https://homecoming.wiki/wiki/Cirque_du%27Freak_Badge' },
   ],

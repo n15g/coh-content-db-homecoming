@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheChantry } from '../../map/the-chantry'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheChantry } from '../../zone/the-chantry'
 
 export const KingOfPain: BadgeData = {
   type: 'EXPLORATION',
@@ -10,7 +10,7 @@ export const KingOfPain: BadgeData = {
     { sex: 'F', value: 'Queen of Pain' },
   ],
   alignment: ['H'],
-  mapKey: TheChantry.key,
+  zoneKey: TheChantry.key,
   loc: [4131, 390, -2159],
   badgeText: [{
     value: 'Pain! Every nerve flares with it. Your body sings with a crystalline agony that is transcendent in its intensity.'
@@ -18,7 +18,7 @@ export const KingOfPain: BadgeData = {
       + ' It is a lesson, a challenge to be conquered, to remain unbowed and ultimately triumph over it.'
       + ' But in a moment it is gone though the memory of it lingers, as does the conviction that you were the master of it.',
   }],
-  notes: `Located in ${mapLink(TheChantry)} 463 yards SE of the Bastion of Pain marker, on a rock on the shore of the red lake.`,
+  notes: `Located in ${zoneLink(TheChantry)} 463 yards SE of the Bastion of Pain marker, on a rock on the shore of the red lake.`,
   links: [
     { title: 'King of Pain Badge', href: 'https://homecoming.wiki/wiki/King_of_Pain_Badge' },
     { title: 'Queen of Pain Badge', href: 'https://homecoming.wiki/wiki/Queen_of_Pain_Badge' },

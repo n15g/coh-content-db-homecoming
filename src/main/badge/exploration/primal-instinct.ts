@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NervaArchipelago } from '../../map/nerva-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const PrimalInstinct: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const PrimalInstinct: BadgeData = {
   setTitle: { id: 277 },
   name: [{ value: 'Primal Instinct' }],
   alignment: ['V'],
-  mapKey: NervaArchipelago.key,
+  zoneKey: NervaArchipelago.key,
   loc: [2304, -110, 798],
   badgeText: [{
     value: `This is the spot of many battles between the Circle of Thorns and their age-old enemy, the Mu.`,
   }],
-  notes: `Located in ${mapLink(NervaArchipelago)}, in the Primeva neighborhood.
+  notes: `Located in ${zoneLink(NervaArchipelago)}, in the Primeva neighborhood.
 
 It is 266 yards north-northwest of the Primeva marker.
  The marker is well-hidden by being near no particular landmark.

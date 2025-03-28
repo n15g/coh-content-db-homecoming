@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemFoundersFalls } from '../../map/mayhem-founders-falls'
+import { MayhemFoundersFalls } from '../../zone/mayhem-founders-falls'
 
 export const Libertarian: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const Libertarian: BadgeData = {
     { alignment: 'V', value: 'Anarchist' },
   ],
   alignment: ['V'],
-  mapKey: MayhemFoundersFalls.key,
+  zoneKey: MayhemFoundersFalls.key,
   badgeText: [{
     value: 'It is here that the Devouring Earth nearly set off a biological bomb to infect the citizens of Founder\'s Falls.',
   }],

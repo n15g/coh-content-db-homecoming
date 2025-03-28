@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheStormPalace } from '../../map/the-storm-palace'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheStormPalace } from '../../zone/the-storm-palace'
 import { AcolyteOfAnger } from '../exploration/acolyte-of-anger'
 import { CourtingMadness } from '../exploration/courting-madness'
 import { EveOfDestruction } from '../exploration/eve-of-destruction'
@@ -20,7 +20,7 @@ export const StormingThePalace: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Storm Palace.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(TheStormPalace)}`,
+  notes: `Visit all exploration badges in ${zoneLink(TheStormPalace)}`,
   links: [
     { title: 'Storming the Palace Badge', href: 'https://homecoming.wiki/wiki/Storming_the_Palace_Badge' },
   ],

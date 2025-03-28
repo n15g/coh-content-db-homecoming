@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Eyewitness: BadgeData = {
   type: 'EXPLORATION',
@@ -8,10 +8,10 @@ export const Eyewitness: BadgeData = {
   setTitle: { id: 759 },
   name: [{ value: 'Eyewitness' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: EchoRiktiCrashSite.key,
+  zoneKey: EchoRiktiCrashSite.key,
   loc: [1820.3, 471.3, -4605.7],
   badgeText: [{ value: 'This is an excellent vantage point for keeping an eye on the crash site.' }],
-  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+  notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
           On the tippy top point of the tallest building overlooking the downed ship.`,
   links: [

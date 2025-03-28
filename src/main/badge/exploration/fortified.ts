@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MercyIsland } from '../../map/mercy-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MercyIsland } from '../../zone/mercy-island'
 
 export const Fortified: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Fortified: BadgeData = {
   setTitle: { id: 266 },
   name: [{ value: 'Fortified' }],
   alignment: ['V'],
-  mapKey: MercyIsland.key,
+  zoneKey: MercyIsland.key,
   loc: [-2497, 304, -440],
   badgeText: [{
     value: `Arachnos built the wall around Mercy to keep it safe.`,
   }],
-  notes: `Located on ${mapLink(MercyIsland)}, on one of the wall supports around the Mercy neighborhood.
+  notes: `Located on ${zoneLink(MercyIsland)}, on one of the wall supports around the Mercy neighborhood.
 
 The support is far east of the elevator into Mercy from Darwin's Landing.
 

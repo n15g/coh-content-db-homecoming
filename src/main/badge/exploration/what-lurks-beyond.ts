@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { BloodyBay } from '../../map/bloody-bay'
+import { BloodyBay } from '../../zone/bloody-bay'
 
 export const WhatLurksBeyond: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const WhatLurksBeyond: BadgeData = {
   name: [{ value: 'What Lurks Beyond' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `Though this beach looks peaceful, creatures resembling the Neo-Shivans have been sighted here. Best to proceed with caution.` }],
-  mapKey: BloodyBay.key,
+  zoneKey: BloodyBay.key,
   loc: [-1490, -23, -1883],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

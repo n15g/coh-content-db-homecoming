@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheChantry } from '../../map/the-chantry'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheChantry } from '../../zone/the-chantry'
 
 export const Unfettered: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Unfettered: BadgeData = {
   setTitle: { id: 1814 },
   name: [{ value: 'Unfettered' }],
   alignment: ['H'],
-  mapKey: TheChantry.key,
+  zoneKey: TheChantry.key,
   loc: [1112, 270, -3857],
   badgeText: [{
     value: 'You have burdened yourself with so many unnecessary attachments.'
@@ -16,7 +16,7 @@ export const Unfettered: BadgeData = {
       + ' This identity you\'ve constructed is just an illusion to hide who you really are; not to everyone else, they are less than nothing, but to yourself.'
       + ' Your possessions, your job, your status: it is time for you to deny the hold they have on you and walk free and unfettered.',
   }],
-  notes: `Located in ${mapLink(TheChantry)} 0.50 miles SSW of the Bastion of Denial marker, east of the geyser on the floating island.`,
+  notes: `Located in ${zoneLink(TheChantry)} 0.50 miles SSW of the Bastion of Denial marker, east of the geyser on the floating island.`,
   links: [
     { title: 'Unfettered Badge', href: 'https://homecoming.wiki/wiki/Unfettered_Badge' },
   ],

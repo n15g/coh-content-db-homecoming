@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Asunder: BadgeData = {
   type: 'EXPLORATION',
@@ -8,10 +8,10 @@ export const Asunder: BadgeData = {
   setTitle: { id: 757 },
   name: [{ value: 'Asunder' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: EchoRiktiCrashSite.key,
+  zoneKey: EchoRiktiCrashSite.key,
   loc: [3969.7, 34.3, -3851.5],
   badgeText: [{ value: 'This fort is the prime location to be for surveilling Rikti activity. Unfortunately, it\'s also the furthest from the Vanguard base and, thus, a big target for the Rikti.' }],
-  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+  notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
           On top of the pillbox.`,
   links: [

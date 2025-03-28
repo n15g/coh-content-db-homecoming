@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Grandville } from '../../map/grandville'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Grandville } from '../../zone/grandville'
 
 export const ImageCrasher: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const ImageCrasher: BadgeData = {
   setTitle: { id: 1511 },
   name: [{ value: 'Image Crasher' }],
   alignment: ['V'],
-  mapKey: Grandville.key,
+  zoneKey: Grandville.key,
   loc: [2677, 243, 826],
   badgeText: [{
     value: `This large display screen fell off its holster after a particularly rough battle between Black Scorpion and Captain Mako.
 It was supposed to be fixed, but progress kept halting as workers became too distracted by the images on the screen.`,
   }],
-  notes: `Located in ${mapLink(Grandville)}, in the Tangle neighborhood.
+  notes: `Located in ${zoneLink(Grandville)}, in the Tangle neighborhood.
 
 It is 230 yards northeast of the Tangle marker on the ledge where you can find both Shadow Spider and Viridian, approximately halfway up the tower..`,
   links: [

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CreysFolly } from '../../map/creys-folly'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CreysFolly } from '../../zone/creys-folly'
 
 export const FreaksFolly: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const FreaksFolly: BadgeData = {
   setTitle: { id: 1795 },
   name: [{ value: 'Freak\'s Folly' }],
   alignment: ['H'],
-  mapKey: CreysFolly.key,
+  zoneKey: CreysFolly.key,
   loc: [7926, 32, -638],
   badgeText: [{
     value: 'Crey\'s Folly is a toxic cesspool, and only a group as demented as the Freakshow could ever consider such a place home.'
@@ -15,7 +15,7 @@ export const FreaksFolly: BadgeData = {
       + ' In truth, however, the poisons that suffuse the ground, water, and air of Crey\'s Folly are slowly taking their toll and were it not for the general lethality of the Freakshow\'s'
       + ' lifestyle, the numbers lost to the environmental toxins would be more apparent.',
   }],
-  notes: `Located in ${mapLink(CreysFolly)} 254 yards NW of the Carnival Town marker, inside the Freakshow fortress.`,
+  notes: `Located in ${zoneLink(CreysFolly)} 254 yards NW of the Carnival Town marker, inside the Freakshow fortress.`,
   links: [
     { title: 'Freak\'s Folly Badge', href: 'https://homecoming.wiki/wiki/Freak%27s_Folly_Badge' },
   ],

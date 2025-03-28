@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const HealingNode: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const HealingNode: BadgeData = {
   setTitle: { id: 113 },
   name: [{ value: 'Healing Node' }],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [1577, -84, -677],
   badgeText: [{
     value: 'The MedCom is the teleportation network that can send fallen heroes directly to the hospital for treatment.'

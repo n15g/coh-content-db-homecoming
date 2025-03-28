@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const BridgeToNowhere: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const BridgeToNowhere: BadgeData = {
   setTitle: { id: 1538 },
   name: [{ value: 'Bridge to Nowhere' }],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [251, -12, -3644],
   badgeText: [{
     value: 'The construction of Skyway\'s next set of bridges was halted by the first Rikti War and remains on hold.'

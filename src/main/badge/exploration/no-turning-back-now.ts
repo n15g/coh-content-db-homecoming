@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CascadeArchipelago } from '../../map/cascade-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 
 export const NoTurningBackNow: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const NoTurningBackNow: BadgeData = {
   setTitle: { id: 1811 },
   name: [{ value: 'No Turning Back Now' }],
   alignment: ['H'],
-  mapKey: CascadeArchipelago.key,
+  zoneKey: CascadeArchipelago.key,
   loc: [1010, 2196, -5653],
   badgeText: [{
     value: 'Gravity operates strangely in the Shadow Shard, but more than just the floating masses of rock, there is a gravity here of a more spiritual kind.'
@@ -15,7 +15,7 @@ export const NoTurningBackNow: BadgeData = {
       + ' All thoughts of retreat are discarded as counterproductive, there is no other course of action but to press on.'
       + ' You\'ve been caught in an unseen orbit, around a power you cannot possibly fathom.',
   }],
-  notes: `Located in ${mapLink(CascadeArchipelago)} 0.53 miles SW of the Tyrant's Rock marker, at the base of the geyser on the floating rock.
+  notes: `Located in ${zoneLink(CascadeArchipelago)} 0.53 miles SW of the Tyrant's Rock marker, at the base of the geyser on the floating rock.
 
           To reach it, go approximately 367 yards NNE of the Tyrant's Rock marker, and then straight down.`,
   links: [

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NovaPraetoria } from '../../map/nova-praetoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const UnCivilSociety: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const UnCivilSociety: BadgeData = {
   setTitle: { id: 1595 },
   name: [{ value: 'Un-Civil Society' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: NovaPraetoria.key,
+  zoneKey: NovaPraetoria.key,
   loc: [-4518, 32, -256],
   badgeText: [{
     value: 'We live in uncertain times, where discontent sows unrest and the sheep become the wolves.',
   }],
-  notes: `Located in ${mapLink(NovaPraetoria)} 116 yards W of the Magisterium marker.`,
+  notes: `Located in ${zoneLink(NovaPraetoria)} 116 yards W of the Magisterium marker.`,
   links: [
     { title: 'Un-Civil Society Badge', href: 'https://homecoming.wiki/wiki/Un-Civil_Society_Badge' },
   ],

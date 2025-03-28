@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { DarkAstoria } from '../../map/dark-astoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const WalkerOnTheProfaneAscent: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const WalkerOnTheProfaneAscent: BadgeData = {
   setTitle: { id: 2183 },
   name: [{ value: 'Walker on the Profane Ascent' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: DarkAstoria.key,
+  zoneKey: DarkAstoria.key,
   loc: [2829, 193, 793],
   badgeText: [{
     value: `This was once Moth Cemetery, the hallowed ground within which Mot was sealed.
@@ -16,7 +16,7 @@ export const WalkerOnTheProfaneAscent: BadgeData = {
             As appropriate offerings to the all-consuming manifestation of Death, the vainglorious memorials have been churned down into the earth, pulverized against its corrupting flesh,
             as it twists and writhes to free himself; Mot abides no vanity but its own.`,
   }],
-  notes: `Located in ${mapLink(DarkAstoria)} in the Moth Cemetery neighborhood, 516 yards west-northwest of the Moth marker, between the two mausoleums at the end of the ridge.`,
+  notes: `Located in ${zoneLink(DarkAstoria)} in the Moth Cemetery neighborhood, 516 yards west-northwest of the Moth marker, between the two mausoleums at the end of the ridge.`,
   links: [
     { title: 'Walker on the Profane Ascent Badge', href: 'https://homecoming.wiki/wiki/Walker_on_the_Profane_Ascent_Badge' },
   ],

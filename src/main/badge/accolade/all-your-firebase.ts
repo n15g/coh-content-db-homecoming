@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { FirebaseZulu } from '../../map/firebase-zulu'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { FirebaseZulu } from '../../zone/firebase-zulu'
 import { AlphaRanger } from '../exploration/alpha-ranger'
 import { DancerWithDeath } from '../exploration/dancer-with-death'
 import { DefyingGravity } from '../exploration/defying-gravity'
@@ -20,7 +20,7 @@ export const AllYourFirebase: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Firebase Zulu.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(FirebaseZulu)}`,
+  notes: `Visit all exploration badges in ${zoneLink(FirebaseZulu)}`,
   links: [
     { title: 'All Your Firebase... Badge', href: 'https://homecoming.wiki/wiki/All_Your_Firebase..._Badge' },
   ],

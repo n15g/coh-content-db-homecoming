@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemBrickstown } from '../../map/mayhem-brickstown'
+import { MayhemBrickstown } from '../../zone/mayhem-brickstown'
 
 export const Brickhouse: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Brickhouse: BadgeData = {
   setTitle: { id: 561 },
   name: [{ value: 'Brickhouse' }],
   alignment: ['V'],
-  mapKey: MayhemBrickstown.key,
+  zoneKey: MayhemBrickstown.key,
   badgeText: [{
     value: 'You have discovered an underground safe in Brickstown kept right under the noses of the PPD.',
   }],

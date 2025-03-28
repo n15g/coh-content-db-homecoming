@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Powerful: BadgeData = {
   type: 'EXPLORATION',
@@ -8,10 +8,10 @@ export const Powerful: BadgeData = {
   setTitle: { id: 749 },
   name: [{ value: 'Powerful' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: EchoRiktiCrashSite.key,
+  zoneKey: EchoRiktiCrashSite.key,
   loc: [275.7, 84.3, -745.5],
   badgeText: [{ value: 'This power plant is the glue that holds the operation together. Without it, there would be chaos.' }],
-  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+  notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
           Eastern side of the power substation, on the ground.`,
   links: [

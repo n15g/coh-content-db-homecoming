@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SirensCall } from '../../map/sirens-call'
+import { SirensCall } from '../../zone/sirens-call'
 
 export const StillStanding: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const StillStanding: BadgeData = {
   name: [{ value: 'Still Standing' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `This building was shaken to its foundations, but it is still standing... and so are you.` }],
-  mapKey: SirensCall.key,
+  zoneKey: SirensCall.key,
   loc: [105, 190.8, -324],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

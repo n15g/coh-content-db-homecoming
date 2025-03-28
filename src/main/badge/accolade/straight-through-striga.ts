@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 import { SeaDog } from '../exploration/sea-dog'
 import { SuperSpy } from '../exploration/super-spy'
 import { TheUnnamed } from '../exploration/the-unnamed'
@@ -20,7 +20,7 @@ export const StraightThroughStriga: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Striga Isle.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(StrigaIsle)}`,
+  notes: `Visit all exploration badges in ${zoneLink(StrigaIsle)}`,
   links: [
     { title: 'Straight Through Striga Badge', href: 'https://homecoming.wiki/wiki/Straight_Through_Striga_Badge' },
   ],

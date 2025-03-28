@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheHive } from '../../map/the-hive'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheHive } from '../../zone/the-hive'
 
 export const TimeBandit: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const TimeBandit: BadgeData = {
   setTitle: { id: 142 },
   name: [{ value: 'Time Bandit' }],
   alignment: ['H'],
-  mapKey: TheHive.key,
+  zoneKey: TheHive.key,
   loc: [1742, 2, -3820],
   badgeText: [{
     value: `Portal Corporation had their main facility here until the Devouring Earth destroyed the area.
             This forced them to move their headquarters to Peregrine Island.`,
   }],
-  notes: `Located in ${mapLink(TheHive)} in the middle of the road leading north into the abandoned structures, just before it breaks up into the grassy area.`,
+  notes: `Located in ${zoneLink(TheHive)} in the middle of the road leading north into the abandoned structures, just before it breaks up into the grassy area.`,
   links: [
     { title: 'Time Bandit Badge', href: 'https://homecoming.wiki/wiki/Time_Bandit_Badge' },
   ],

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { AtlasPark } from '../../map/atlas-park'
+import { AtlasPark } from '../../zone/atlas-park'
 
 export const Patriot: BadgeData = {
   type: 'EXPLORATION',
@@ -10,7 +10,7 @@ export const Patriot: BadgeData = {
     { alignment: 'V', value: 'International Spy' },
   ],
   alignment: ['H'],
-  mapKey: AtlasPark.key,
+  zoneKey: AtlasPark.key,
   loc: [162, -768, -678],
   badgeText: [{
     value: 'You have seen the statue of Cassiopeia, a Heroine recognized as a citizen of every country on Earth after she single-handedly saved the world from a rogue comet.',

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoAtlasPark } from '../../map/echo-atlas-park'
+import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 
 export const Virtuous: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Virtuous: BadgeData = {
   name: [{ value: 'Virtuous' }],
   alignment: ['H'],
   badgeText: [{ value: `Throughout Atlas Park and the rest of Paragon City there are numerous statues of heroes who fell in battle while defending their beliefs.` }],
-  mapKey: EchoAtlasPark.key,
+  zoneKey: EchoAtlasPark.key,
   loc: [965.1, -26.7, -753.7],
   notes: 'Located at the foot of the statue in Promethous Park\'s lake.',
   links: [

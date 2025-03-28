@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Warburg } from '../../map/warburg'
+import { Warburg } from '../../zone/warburg'
 
 export const Nuclear: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Nuclear: BadgeData = {
   name: [{ value: 'Nuclear' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `Warburg ceased manufacturing nuclear warheads when the treaty was signed in 1982, but not before producing an enormous stockpile.` }],
-  mapKey: Warburg.key,
+  zoneKey: Warburg.key,
   loc: [363, -57, -335],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

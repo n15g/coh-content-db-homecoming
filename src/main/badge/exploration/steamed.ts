@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CapAuDiable } from '../../map/cap-au-diable'
+import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const Steamed: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Steamed: BadgeData = {
   setTitle: { id: 272 },
   name: [{ value: 'Steamed' }],
   alignment: ['V'],
-  mapKey: CapAuDiable.key,
+  zoneKey: CapAuDiable.key,
   loc: [-2426, 224, -472],
   badgeText: [{ value: 'Volcanic activity around Mount Diable causes a lot of steamy venting. Watch out or it\'s lobster time.' }],
   notes: 'The badge marker is 88 feet southeast of the Mount Diable marker. It is located just east of a couple of towers holding up large pipes.',

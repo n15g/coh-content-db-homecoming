@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ReclusesVictory } from '../../map/recluses-victory'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 import { Globetrotter } from '../exploration/globetrotter'
 import { Ragnarok } from '../exploration/ragnarok'
 import { TemporalFighter } from '../exploration/temporal-fighter'
@@ -21,7 +21,7 @@ export const ShatteredTime: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Recluse's Victory.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(ReclusesVictory)}`,
+  notes: `Visit all exploration badges in ${zoneLink(ReclusesVictory)}`,
   links: [
     { title: 'Shattered Time Badge', href: 'https://homecoming.wiki/wiki/Shattered_Time_Badge' },
   ],

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SirensCall } from '../../map/sirens-call'
+import { SirensCall } from '../../zone/sirens-call'
 
 export const WastedResources: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const WastedResources: BadgeData = {
   name: [{ value: 'Wasted Resources' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `These rigs stand derelict still, waiting for the area to be secured and the great War Walls to be repaired.` }],
-  mapKey: SirensCall.key,
+  zoneKey: SirensCall.key,
   loc: [-1227.4, 71, -324.5],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Unabashed: BadgeData = {
   type: 'EXPLORATION',
@@ -7,10 +7,10 @@ export const Unabashed: BadgeData = {
   setTitle: { id: 758 },
   name: [{ value: 'Unabashed' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: RiktiWarZone.key,
+  zoneKey: RiktiWarZone.key,
   loc: [2947, -18, -5638],
   badgeText: [{ value: 'If you\'ve made it onto the Rikti Ship, under the defensive shields, you\'re either very brave or.....' }],
-  notes: 'The Unabashed Badge is located in the center of the Rikti ship in both the instanced and normal versions of the ${mapLink(RiktiWarZone)}.\n'
+  notes: 'The Unabashed Badge is located in the center of the Rikti ship in both the instanced and normal versions of the ${zoneLink(RiktiWarZone)}.\n'
     + '\n'
     + 'The badge marker only be found when the shields have been taken down by destroying all 20 Rikti Pylons.',
   links: [

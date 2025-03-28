@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IndependencePort } from '../../map/independence-port'
+import { IndependencePort } from '../../zone/independence-port'
 
 export const AirLifter: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const AirLifter: BadgeData = {
   setTitle: { id: 1552 },
   name: [{ value: 'Air Lifter' }],
   alignment: ['H'],
-  mapKey: IndependencePort.key,
+  zoneKey: IndependencePort.key,
   loc: [173, 160, 22],
   badgeText: [{ value: 'This is where workers in Terra Volta are air lifted in. From here, they\'re taken by several Longbow skiffs into the heart of the reactor.' }],
   notes: 'The Air Lifter Badge is in the Power Island neighborhood of Independence Port.\n\nIt is 38 yards slightly northeast of the Terra Volta gate.',

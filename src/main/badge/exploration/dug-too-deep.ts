@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoFaultline } from '../../map/echo-faultline'
+import { EchoFaultline } from '../../zone/echo-faultline'
 
 export const DugTooDeep: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const DugTooDeep: BadgeData = {
   name: [{ value: 'Dug Too Deep' }],
   alignment: ['H'],
   badgeText: [{ value: `Though magical runes and protection spells were once used to hide Oranbega from the rest of the world, all that ended with the Rikti War. Now, anyone who finds a physical entrance in the dark canyons may reach the sunken city... if they're brave or foolish enough to do so.` }],
-  mapKey: EchoFaultline.key,
+  zoneKey: EchoFaultline.key,
   loc: [1151.5, -615.4, -28.5],
   notes: 'Directly south of the dark canyons marker, down in the cracks.',
   links: [

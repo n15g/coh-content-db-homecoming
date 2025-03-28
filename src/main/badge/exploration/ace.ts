@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Ace: BadgeData = {
   type: 'EXPLORATION',
@@ -8,10 +8,10 @@ export const Ace: BadgeData = {
   setTitle: { id: 145 },
   name: [{ value: 'Ace' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: EchoRiktiCrashSite.key,
+  zoneKey: EchoRiktiCrashSite.key,
   loc: [1360, 292.5, -276.9],
   badgeText: [{ value: 'This statue honors Mustang, a valiant hero who fought during WWII.' }],
-  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+  notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
           On the outstretched hand of the statue of Mustang.`,
   links: [

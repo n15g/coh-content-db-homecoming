@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Croatoa } from '../../map/croatoa'
+import { Croatoa } from '../../zone/croatoa'
 
 export const MidnightersPerseverance: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const MidnightersPerseverance: BadgeData = {
   setTitle: { id: 1544 },
   name: [{ value: 'Midnighter\'s Perseverance' }],
   alignment: ['H'],
-  mapKey: Croatoa.key,
+  zoneKey: Croatoa.key,
   loc: [-2070, 0, 470],
   badgeText: [{
     value: 'This bridge is the site where Mayor Bower and Buck Salinger last met; Bower informed Salinger that his trek into Red Cap territory was a suicide mission.'

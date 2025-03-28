@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheChantry } from '../../map/the-chantry'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheChantry } from '../../zone/the-chantry'
 
 export const Demiurge: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Demiurge: BadgeData = {
   setTitle: { id: 1820 },
   name: [{ value: 'Demiurge' }],
   alignment: ['H'],
-  mapKey: TheChantry.key,
+  zoneKey: TheChantry.key,
   loc: [0, 2677, -4],
   badgeText: [{
     value: 'At last you have arrived.'
@@ -16,7 +16,7 @@ export const Demiurge: BadgeData = {
       + ' No mind games or violations to your person could prevent you from reaching this point and now you stand at the pinnacle of the Chantry,'
       + ' the lord of this realm in spirit, if not in actuality.',
   }],
-  notes: `Located in ${mapLink(TheChantry)} at The Chantry marker, directly atop the Chantry itself.`,
+  notes: `Located in ${zoneLink(TheChantry)} at The Chantry marker, directly atop the Chantry itself.`,
   links: [
     { title: 'Demiurge Badge', href: 'https://homecoming.wiki/wiki/Demiurge_Badge' },
   ],

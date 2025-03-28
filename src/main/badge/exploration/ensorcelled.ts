@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Croatoa } from '../../map/croatoa'
+import { Croatoa } from '../../zone/croatoa'
 
 export const Ensorcelled: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Ensorcelled: BadgeData = {
   setTitle: { id: 410 },
   name: [{ value: 'Ensorcelled' }],
   alignment: ['H'],
-  mapKey: Croatoa.key,
+  zoneKey: Croatoa.key,
   loc: [1018, 159, -1090],
   badgeText: [{
     value: 'The Cabal have developed an attachment to this old, gnarled tree. Some heroes even say they are conducting dark experiments beneath its roots.',

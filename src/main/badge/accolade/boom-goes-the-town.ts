@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Boomtown } from '../../map/boomtown'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Boomtown } from '../../zone/boomtown'
 import { BoomtownTroglodyte } from '../exploration/boomtown-troglodyte'
 import { CorpseBox } from '../exploration/corpse-box'
 import { DestinedForValhalla } from '../exploration/destined-for-valhalla'
@@ -20,7 +20,7 @@ export const BoomGoesTheTown: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Boomtown.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(Boomtown)}`,
+  notes: `Visit all exploration badges in ${zoneLink(Boomtown)}`,
   links: [
     { title: 'Boom... Goes the Town Badge', href: 'https://homecoming.wiki/wiki/Boom..._Goes_the_Town_Badge' },
   ],

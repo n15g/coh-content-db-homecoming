@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CreysFolly } from '../../map/creys-folly'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CreysFolly } from '../../zone/creys-folly'
 
 export const CreyWatcher: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const CreyWatcher: BadgeData = {
   setTitle: { id: 138 },
   name: [{ value: 'Crey Watcher' }],
   alignment: ['H'],
-  mapKey: CreysFolly.key,
+  zoneKey: CreysFolly.key,
   loc: [1080, 0, 2320],
   badgeText: [{
     value: 'Crey\'s defensive measures against the Rikti brought about an environmental nightmare in this area, turning the neighborhood once called \'Venice\' into \'Crey\'s Folly.\'',
   }],
-  notes: `Located in ${mapLink(CreysFolly)} 230 yards west of the Crey Factories marker along the south side of a ditch.`,
+  notes: `Located in ${zoneLink(CreysFolly)} 230 yards west of the Crey Factories marker along the south side of a ditch.`,
   links: [
     { title: 'Crey Watcher Badge', href: 'https://homecoming.wiki/wiki/Crey_Watcher_Badge' },
   ],

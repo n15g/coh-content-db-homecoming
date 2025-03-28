@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const KeenSighted: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const KeenSighted: BadgeData = {
   setTitle: { id: 99 },
   name: [{ value: 'Keen Sighted' }],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [-2176, 97, 1142],
   badgeText: [{
     value: 'Mantihttps://n15g.github.io/coh-content-db-homecoming/images/badges/ one of the Surviving Eight, was first sighted at this location after keeping to the shadows for months/.png',

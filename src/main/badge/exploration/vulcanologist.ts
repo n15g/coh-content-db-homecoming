@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 
 export const Vulcanologist: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Vulcanologist: BadgeData = {
   setTitle: { id: 198 },
   name: [{ value: 'Vulcanologist' }],
   alignment: ['H'],
-  mapKey: StrigaIsle.key,
+  zoneKey: StrigaIsle.key,
   loc: [-5346, 875, -796],
   badgeText: [{
     value: 'The Council has hollowed out this dormant volcano to build a massive factory. The creations within are guarded with the utmost secrecy.',
   }],
-  notes: `Located in ${mapLink(StrigaIsle)} on the southwestern lip of the large volcano in the center of the Council Base neighborhood.
+  notes: `Located in ${zoneLink(StrigaIsle)} on the southwestern lip of the large volcano in the center of the Council Base neighborhood.
 
           It is approximately 46 yards from the Council Base marker.`,
   links: [

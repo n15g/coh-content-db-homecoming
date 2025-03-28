@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const Ironic: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Ironic: BadgeData = {
   setTitle: { id: 1520 },
   name: [{ value: 'Ironic' }],
   alignment: ['H'],
-  mapKey: TheHollows.key,
+  zoneKey: TheHollows.key,
   loc: [207, 129, -3162],
   badgeText: [{
     value: 'The Pinnacle Apartments were some of the most sought after apartments in Eastgate, until the Hollowing.'

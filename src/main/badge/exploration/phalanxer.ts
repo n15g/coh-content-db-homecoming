@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Boomtown } from '../../map/boomtown'
+import { Boomtown } from '../../zone/boomtown'
 
 export const Phalanxer: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Phalanxer: BadgeData = {
   setTitle: { id: 114 },
   name: [{ value: 'Phalanxer' }],
   alignment: ['H'],
-  mapKey: Boomtown.key,
+  zoneKey: Boomtown.key,
   loc: [-2002, -16, 5180],
   badgeText: [{ value: 'Before Baumton had its \'accident,\' the Freedom Phalanx called this building home.' }],
   notes: 'The Phalanxer Badge is located in The Fuse neighborhood of Boomtown. It is located at the northeast corner of a building just northeast of the Steel Canyon entrance to the zone.'

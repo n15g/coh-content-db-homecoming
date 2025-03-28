@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { UndergroundImperial } from '../../map/underground-imperial'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { UndergroundImperial } from '../../zone/underground-imperial'
 import { BrokenMind } from '../exploration/broken-mind'
 import { Condemning } from '../exploration/condemning'
 import { Engineer } from '../exploration/engineer'
@@ -20,7 +20,7 @@ export const BeneathTheEmpire: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Imperial City's Underground.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(UndergroundImperial)}`,
+  notes: `Visit all exploration badges in ${zoneLink(UndergroundImperial)}`,
   links: [
     { title: 'Beneath the Empire Badge', href: 'https://homecoming.wiki/wiki/Beneath_the_Empire_Badge' },
   ],

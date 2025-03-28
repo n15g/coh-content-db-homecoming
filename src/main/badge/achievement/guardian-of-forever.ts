@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const GuardianOfForever: BadgeData = {
   type: 'ACHIEVEMENT',
@@ -14,7 +14,7 @@ export const GuardianOfForever: BadgeData = {
   acquisition: 'Recruit a new member into Ouroboros.',
   notes: `SPOILER WARNING: The notes below contain story spoilers.
 
-Complete the 'Collateral Damage' story arc, available either via Laura Lockhart in ${mapLink(SteelCanyon)} or Ouroboros, level 20-24, mission 22.01 'Collateral Damage'
+Complete the 'Collateral Damage' story arc, available either via Laura Lockhart in ${zoneLink(SteelCanyon)} or Ouroboros, level 20-24, mission 22.01 'Collateral Damage'
  - Be sure to defeat all the enemies at the end of the second mission in less than 3 minutes to earn the Steel Savior badge
 
 Repeat the story arc via Ouroboros

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 
 export const EyeOfTheGemini: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const EyeOfTheGemini: BadgeData = {
   setTitle: { id: 1523 },
   name: [{ value: 'Eye of the Gemini' }],
   alignment: ['H'],
-  mapKey: EchoGalaxyCity.key,
+  zoneKey: EchoGalaxyCity.key,
   loc: [-1376, 0, 347],
   badgeText: [{
     value: 'Gemini Park was once a popular gathering spot for people in the city, until the Hellions and Vahzilok took over.'

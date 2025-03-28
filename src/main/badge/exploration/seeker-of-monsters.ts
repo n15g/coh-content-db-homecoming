@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const SeekerOfMonsters: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const SeekerOfMonsters: BadgeData = {
   setTitle: { id: 193 },
   name: [{ value: 'Seeker of Monsters' }],
   alignment: ['H'],
-  mapKey: TheHollows.key,
+  zoneKey: TheHollows.key,
   loc: [21, -345, -1280],
   badgeText: [{
     value: 'Grendel\'s Gulch was named after the Trolls former leader, Grendel, who was defeated by Atta in a contest of strength on this spot.',

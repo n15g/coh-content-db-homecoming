@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NervaArchipelago } from '../../map/nerva-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const WatcherOnTheKnoll: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const WatcherOnTheKnoll: BadgeData = {
   setTitle: { id: 274 },
   name: [{ value: 'Watcher on the Knoll' }],
   alignment: ['V'],
-  mapKey: NervaArchipelago.key,
+  zoneKey: NervaArchipelago.key,
   loc: [-93, 85, 5434],
   badgeText: [{
     value: `A failed assassination on Ms. Liberty was made from the top of this pillar.`,
   }],
-  notes: `Located in ${mapLink(NervaArchipelago)}, in the northernmost island of the Crimson Cove neighborhood.
+  notes: `Located in ${zoneLink(NervaArchipelago)}, in the northernmost island of the Crimson Cove neighborhood.
 
           The marker is located between the feet of the statue on the right (south) of the large building, on top of the plinth.`,
   links: [

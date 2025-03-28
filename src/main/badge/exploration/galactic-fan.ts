@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 
 export const GalacticFan: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const GalacticFan: BadgeData = {
   setTitle: { id: 1522 },
   name: [{ value: 'Galactic Fan' }],
   alignment: ['H'],
-  mapKey: EchoGalaxyCity.key,
+  zoneKey: EchoGalaxyCity.key,
   loc: [920, 32, -832],
   badgeText: [{
     value: 'Galaxy Girl\'s sacrifice to save the people of Paragon City has not gone unnoticed, prompting this tremendous statue to be built in honor of her.'

@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardIndependencePort } from '../../map/safeguard-independence-port'
+import { SafeguardIndependencePort } from '../../zone/safeguard-independence-port'
 
 export const HonorableCaptain: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const HonorableCaptain: BadgeData = {
     { alignment: 'V', value: 'Dishonorable Captain' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardIndependencePort.key,
+  zoneKey: SafeguardIndependencePort.key,
   badgeText: [{ value: 'Synapse has been seen speeding along the monorail tracks all throughout the city. Independence Port is one of his favorites.' }],
   loc: [-1948, 0, -3172],
   notes: 'The Honorable Captain Badge is located in the Independence Port Safeguard Mission.\n'

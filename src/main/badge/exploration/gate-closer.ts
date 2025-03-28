@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemPeregrineIsland } from '../../map/mayhem-peregrine-island'
+import { MayhemPeregrineIsland } from '../../zone/mayhem-peregrine-island'
 
 export const GateCloser: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const GateCloser: BadgeData = {
     { alignment: 'V', value: 'Gate Crasher' },
   ],
   alignment: ['V'],
-  mapKey: MayhemPeregrineIsland.key,
+  zoneKey: MayhemPeregrineIsland.key,
   badgeText: [{
     alignment: 'H', value: 'You\'d hate to have to defend Portal Corps from the Arachnos Flyer should it ever return to Peregrine Island.',
   }, {

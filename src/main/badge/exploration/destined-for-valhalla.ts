@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Boomtown } from '../../map/boomtown'
+import { Boomtown } from '../../zone/boomtown'
 
 export const DestinedForValhalla: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DestinedForValhalla: BadgeData = {
   setTitle: { id: 117 },
   name: [{ value: 'Destined for Valhalla' }],
   alignment: ['H'],
-  mapKey: Boomtown.key,
+  zoneKey: Boomtown.key,
   loc: [-4098, 352, 2473],
   badgeText: [{
     value: 'Valkyrie proved herself to Positron by battling the Clockwork King on this spot.'

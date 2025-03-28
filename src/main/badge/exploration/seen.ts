@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ImperialCity } from '../../map/imperial-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ImperialCity } from '../../zone/imperial-city'
 
 export const Seen: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Seen: BadgeData = {
   setTitle: { id: 1406 },
   name: [{ value: 'Seen' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: ImperialCity.key,
+  zoneKey: ImperialCity.key,
   loc: [-460, -56, -336],
   badgeText: [{
     value: 'This is the part of the city where exposure is prime real estate. It\'s the place to see and be seen.',
   }],
-  notes: `Located in ${mapLink(ImperialCity)} 241 yards SE of Aureas, or 401 yards W of the People's Park marker.`,
+  notes: `Located in ${zoneLink(ImperialCity)} 241 yards SE of Aureas, or 401 yards W of the People's Park marker.`,
   links: [
     { title: 'Seen Badge', href: 'https://homecoming.wiki/wiki/Seen_Badge' },
   ],

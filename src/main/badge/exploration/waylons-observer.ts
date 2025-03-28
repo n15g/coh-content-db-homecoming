@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Croatoa } from '../../map/croatoa'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Croatoa } from '../../zone/croatoa'
 
 export const WaylonsObserver: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const WaylonsObserver: BadgeData = {
   setTitle: { id: 1543 },
   name: [{ value: 'Waylon\'s Observer' }],
   alignment: ['H'],
-  mapKey: Croatoa.key,
+  zoneKey: Croatoa.key,
   loc: [2639, 10, 1500],
   badgeText: [{
     value: 'Waylon McCrane, an infamous adventurer in Croatoa, lives in this home.'
       + ' Mayor Bower has asked Waylon to stay within the town limits due to the Fir Bolg, but Waylon insists that, \'no pumpkin-headed monster will tell ME where to live!\'',
   }],
-  notes: `Located in the New Connaught neighborhood of ${mapLink(Croatoa)}.
+  notes: `Located in the New Connaught neighborhood of ${zoneLink(Croatoa)}.
 
           It is on the porch of the house 562 yards WNW of the Paragon City Monorail station.`,
   links: [

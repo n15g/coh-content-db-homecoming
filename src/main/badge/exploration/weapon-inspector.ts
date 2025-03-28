@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Warburg } from '../../map/warburg'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Warburg } from '../../zone/warburg'
 
 export const WeaponInspector: BadgeData = {
   type: 'EXPLORATION',
@@ -10,10 +10,10 @@ export const WeaponInspector: BadgeData = {
     { alignment: 'V', value: 'Weapon of Mass Destruction' },
   ],
   alignment: ['H', 'V', 'P'],
-  mapKey: Warburg.key,
+  zoneKey: Warburg.key,
   loc: [-768, 144, 0],
   badgeText: [{ value: 'Warburg is home to many a nefarious ploy. Recluse\'s VENOM rocket is one of the most blatant.' }],
-  notes: `The Weapon Inspector badge is located in ${mapLink(Warburg)}, in the center of the top of the western scaffolding surrounding the missile silo.`,
+  notes: `The Weapon Inspector badge is located in ${zoneLink(Warburg)}, in the center of the top of the western scaffolding surrounding the missile silo.`,
   links: [
     { title: 'Weapon Inspector Badge', href: 'https://homecoming.wiki/wiki/Weapon_Inspector_Badge' },
     { title: 'Weapon of Mass Destruction Badge', href: 'https://homecoming.wiki/wiki/Weapon_of_Mass_Destruction_Badge' },

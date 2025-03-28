@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 
 export const Brawler: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Brawler: BadgeData = {
   setTitle: { id: 93 },
   name: [{ value: 'Brawler' }],
   alignment: ['H'],
-  mapKey: EchoGalaxyCity.key,
+  zoneKey: EchoGalaxyCity.key,
   loc: [-1184, 63, -936],
   badgeText: [{ value: 'Back Alley Brawler fought against two Underbosses from The Family, Slow Eye Lou and Hyper Mike, on this spot.' }],
   notes: 'The Brawler Badge is located 156 yards ESE from the Arena in Echo: Galaxy City on top of the Mighty Mart.'

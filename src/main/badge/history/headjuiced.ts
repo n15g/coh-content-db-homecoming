@@ -1,10 +1,10 @@
 import { BadgeData } from 'coh-content-db'
-import { NovaPraetoria } from '../../map/nova-praetoria'
-import { ImperialCity } from '../../map/imperial-city'
-import { Neutropolis } from '../../map/neutropolis'
-import { UndergroundNova } from '../../map/underground-nova'
-import { UndergroundImperial } from '../../map/underground-imperial'
-import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
+import { NovaPraetoria } from '../../zone/nova-praetoria'
+import { ImperialCity } from '../../zone/imperial-city'
+import { Neutropolis } from '../../zone/neutropolis'
+import { UndergroundNova } from '../../zone/underground-nova'
+import { UndergroundImperial } from '../../zone/underground-imperial'
+import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 
 export const Headjuiced: BadgeData = {
   type: 'HISTORY',
@@ -27,7 +27,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-0',
       type: 'PLAQUE',
-      mapKey: NovaPraetoria.key,
+      zoneKey: NovaPraetoria.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-5337, 17, 834],
       plaqueInscription: `Don't Believe Your Eyes - Just because it all looks jim-dandy don't mean that's what's really goin' on. You're dreamin', sleepyhead. Wake yer peepers and you'll see that it's not all sunshine, rainbows, and unicorns havin' a tea party.`,
@@ -37,7 +37,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-1',
       type: 'PLAQUE',
-      mapKey: NovaPraetoria.key,
+      zoneKey: NovaPraetoria.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-3119, -76, 550],
       plaqueInscription: `Don't Believe Everything You Read - Just because it's on a poster don't make it true. Someone got paid a fat wad of cash to put those words in print. And who was handing over those tasty bucks? Surprise! It's COLE! Read between the lines and you might just see his beady little eyes peeping you a good one right back.`,
@@ -47,7 +47,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-2',
       type: 'PLAQUE',
-      mapKey: NovaPraetoria.key,
+      zoneKey: NovaPraetoria.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-3709, -7, -1769],
       plaqueInscription: `The Tunnels Are Your Refuge - Did you wake up and see that wonderland ain't all toothy cats and tea parties? Then go follow Alice down the rabbit hole and take a big ol' chomp from a slice of the tasty, tasty truth.`,
@@ -57,7 +57,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-3',
       type: 'PLAQUE',
-      mapKey: NovaPraetoria.key,
+      zoneKey: NovaPraetoria.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-5882, -15, -2395],
       plaqueInscription: `Your Thoughts Are Not Your Own - Like all that flashy gizmo doodad biotech you see lately? Also like Seers reading your mind? You probably do, since they've been shovin' those thoughts in your scrambled little noggin. Think about that for a for a moment...or can you?`,
@@ -67,7 +67,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-4',
       type: 'PLAQUE',
-      mapKey: NovaPraetoria.key,
+      zoneKey: NovaPraetoria.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-4962, -15, 2567],
       plaqueInscription: `The Police Are Not Your Protectors - Sticks and stones will break your bones, and so will the boys in blue and gold. They're here to keep you in line, not help you. You're a squealing little piggie and they're the big bad wolf, got it? And they've got the sticks and stones.`,
@@ -77,7 +77,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-5',
       type: 'PLAQUE',
-      mapKey: ImperialCity.key,
+      zoneKey: ImperialCity.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-2109.7, -28.3, -1656.1],
       plaqueInscription: `This is the Cage and You're the Guinea Pig - Praetor Berry is the best propeller-head Praetoria has ever seen. And you're the best test subject he's ever seen, too. Welcome to your new life as a technologically assimilated lab mouse, chomper!`,
@@ -87,7 +87,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-6',
       type: 'PLAQUE',
-      mapKey: ImperialCity.key,
+      zoneKey: ImperialCity.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-242, -47, -485],
       plaqueInscription: `All That Glitters is Not Gold - Like jumpbugging around in a world where the streets are paved with gold? Scratch that surface, chomper, and all that paint crumbles away showin' Cole's mug chortle-snortlin' in your face.`,
@@ -97,7 +97,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-7',
       type: 'PLAQUE',
-      mapKey: ImperialCity.key,
+      zoneKey: ImperialCity.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-2356, -16, -2929],
       plaqueInscription: `Behavioral Adjustment = Thought Control - Gotta bugbump in your head and thinking of moseying up to the Behavioral Adjustment Facility for some attitude change? Well, Cole has something in mind for you. Your mind, which he's gonna scamp right out from outta your nose.`,
@@ -107,7 +107,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-8',
       type: 'PLAQUE',
-      mapKey: ImperialCity.key,
+      zoneKey: ImperialCity.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [590, -55, -1402],
       plaqueInscription: `Ghouls = Your Doom - They give you the shivery-wivveries every time you look at them, don't they? It's because you're peeping something that's gonna happen to you if you don't stop Neuron Technology Unlimited. It's unlimited, alright. Can't make a 'perfect' omelet without breaking a few citizens, right?`,
@@ -117,7 +117,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-9',
       type: 'PLAQUE',
-      mapKey: ImperialCity.key,
+      zoneKey: ImperialCity.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-2783, -10, 3376],
       plaqueInscription: `There is No Mercy at the Psychiatric Hospital - Want a bowlful of brainbugs to slurp down in the morning? Then head on over to that Hospital and join in with those smilies, the Seers. How's that for a recommended daily serving of mercy for ya?`,
@@ -127,7 +127,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-10',
       type: 'PLAQUE',
-      mapKey: Neutropolis.key,
+      zoneKey: Neutropolis.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [1217, -56, -959],
       plaqueInscription: `You ARE Being Watched - Did you see that person on the street just disappear around the corner? Where do you think they went? Maybe they were following you? Anyone standing around watching you read this right now? Yeah, chomper, you're finally seeing it.`,
@@ -137,7 +137,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-11',
       type: 'PLAQUE',
-      mapKey: Neutropolis.key,
+      zoneKey: Neutropolis.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [4049, -72, -855],
       plaqueInscription: `Don't Drink the Cole-Aid - Got yourself a thirst that needs a-quenching? Chug down a can of Beefy Pop before you even think of slurpin' on that Enriche! Oh yeah!`,
@@ -147,7 +147,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-12',
       type: 'PLAQUE',
-      mapKey: Neutropolis.key,
+      zoneKey: Neutropolis.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [3261, -60, 513],
       plaqueInscription: `The Pen IS Mighty, but Swords Leave a Mark - Papa Vagabond always says 'don't bring a pen to a gunfight.' Words will never hurt you, but bullets sure will make you all Mister Swiss Cheese. So get your own and scamp it up!`,
@@ -157,7 +157,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-13',
       type: 'PLAQUE',
-      mapKey: Neutropolis.key,
+      zoneKey: Neutropolis.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [6326, -72, 1073],
       plaqueInscription: `Knowledge is Power - All those Praetors know this, so you're just gettin' the gristly bits while they're mackin' down on a prime cut of Filet McPower. The truth - take a look, it's in a book.`,
@@ -167,7 +167,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-14',
       type: 'PLAQUE',
-      mapKey: Neutropolis.key,
+      zoneKey: Neutropolis.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [5811, -39, 3048],
       plaqueInscription: `Be the Revolution - Shut your yaptrap and you'll get pushed outta the way like any other squiggly-zibble. Johnny, get your spine and take it to the Tyrant!`,
@@ -177,7 +177,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-15',
       type: 'PLAQUE',
-      mapKey: UndergroundNova.key,
+      zoneKey: UndergroundNova.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-3161, 512, 60],
       plaqueInscription: `The Tunnels are a Battleground - Sticking inside stinky shadows is all coolstyle, but you ain't the only chomper down there. Pick on someone your own size and you'll get scamped by anyone. Check your six and you'll be in the pipe five by five, capice?`,
@@ -187,7 +187,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-16',
       type: 'PLAQUE',
-      mapKey: UndergroundImperial.key,
+      zoneKey: UndergroundImperial.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-1532, 336, -2645],
       plaqueInscription: `Beware Things That Go Bump in the Night - Listen up, boiz and ghouls! That bumpity bumpity you hear all the time in the tunnels? Those are Ghouls who are doublestyle lipsmacking thinkin' about mackin' down a helpin' of Hambone. And that Hambone is you, Flippy!`,
@@ -197,7 +197,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-17',
       type: 'PLAQUE',
-      mapKey: UndergroundImperial.key,
+      zoneKey: UndergroundImperial.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-819, 272, -5247],
       plaqueInscription: `Trust No One - Don't read this message, Chomper! There's all kinds of funkamunch that people are hiding, even signs. Use your brain and you won't obey the fnords!`,
@@ -207,7 +207,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-18',
       type: 'PLAQUE',
-      mapKey: UndergroundNeutropolis.key,
+      zoneKey: UndergroundNeutropolis.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-1314, -1088, -3627],
       plaqueInscription: `Look Up Often - Wanna be confusinated all slipperstyle? Then wait for your friendly neighborhood dropbears to pay you a visit, and they ain't bringin' you any tea and cookies! Keep an eye to the pie in the sky or cry and die. Know what I'm sayin'?`,
@@ -217,7 +217,7 @@ export const Headjuiced: BadgeData = {
     {
       key: 'head-19',
       type: 'PLAQUE',
-      mapKey: UndergroundNeutropolis.key,
+      zoneKey: UndergroundNeutropolis.key,
       plaqueType: 'WALL_PLAQUE',
       loc: [-987, -1216, -2151],
       plaqueInscription: `There's Safety in Hubs - If you wanna be a chomper, stick your snout in the ground and hit the Hubs triple. But if you're a scamper, you, too, can be the next contestant on Yooz Gonna Get Blowed Up All Funstyle!`,

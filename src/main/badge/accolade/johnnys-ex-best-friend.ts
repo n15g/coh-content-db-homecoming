@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StMartial } from '../../map/st-martial'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StMartial } from '../../zone/st-martial'
 import { DeucesWild } from '../exploration/deuces-wild'
 import { Stonekeeper } from '../exploration/stonekeeper'
 import { CamelSnot } from '../exploration/camel-snot'
@@ -22,7 +22,7 @@ export const JohnnysExBestFriend: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within St. Martial.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(StMartial)}`,
+  notes: `Visit all exploration badges in ${zoneLink(StMartial)}`,
   links: [
     { title: 'Johnny\'s Ex-Best Friend Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Ex-Best_Friend_Badge' },
     { title: 'Johnny\'s Go To Guy Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Go_To_Guy_Badge' },

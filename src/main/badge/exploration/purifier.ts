@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const Purifier: BadgeData = {
   type: 'EXPLORATION',
@@ -10,7 +10,7 @@ export const Purifier: BadgeData = {
     { alignment: 'V', value: 'Defiler' },
   ],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [-1085, -16, -7612],
   badgeText: [{
     value: 'Defiler, an evil spirit brought forth by the Devouring Earth, was defeated on this spot by Ms. Liberty... with a little help from MAGI.',

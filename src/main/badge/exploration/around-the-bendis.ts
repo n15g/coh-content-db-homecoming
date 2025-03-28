@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PerezPark } from '../../map/perez-park'
-import { SkywayCity } from '../../map/skyway-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PerezPark } from '../../zone/perez-park'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const AroundTheBendis: BadgeData = {
   type: 'EXPLORATION',
@@ -8,12 +8,12 @@ export const AroundTheBendis: BadgeData = {
   setTitle: { id: 103 },
   name: [{ value: 'Around the Bendis' }],
   alignment: ['H'],
-  mapKey: PerezPark.key,
+  zoneKey: PerezPark.key,
   loc: [-875, -31, 3658],
   badgeText: [{
     value: 'This old boathouse used to be a popular spot in Perez Park, but since the gangs moved in it has been abandoned.',
   }],
-  notes: `Located in ${mapLink(PerezPark)} 343 yards northwest of the ${mapLink(SkywayCity)} entrance.`,
+  notes: `Located in ${zoneLink(PerezPark)} 343 yards northwest of the ${zoneLink(SkywayCity)} entrance.`,
   links: [
     { title: 'Around the Bendis Badge', href: 'https://homecoming.wiki/wiki/Around_the_Bendis_Badge' },
   ],

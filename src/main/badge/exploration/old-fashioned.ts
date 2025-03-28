@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Faultline } from '../../map/faultline'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Faultline } from '../../zone/faultline'
 
 export const OldFashioned: BadgeData = {
   type: 'EXPLORATION',
@@ -11,9 +11,9 @@ export const OldFashioned: BadgeData = {
     { alignment: 'H', value: `Best doughnuts in all of Paragon City! You picked the ultimate bragging rights location.` },
     { alignment: 'V', value: `Who doesn't like donuts? Even Lord Recluse likes donuts.` },
   ],
-  mapKey: Faultline.key,
+  zoneKey: Faultline.key,
   loc: [-170, 74, -1504],
-  notes: `The Old Fashioned Badge is located inside the doughnut hole of the large inflatable doughnut on top of the Drenched Donuts shop just inside the entrance to ${mapLink(Faultline)}.`,
+  notes: `The Old Fashioned Badge is located inside the doughnut hole of the large inflatable doughnut on top of the Drenched Donuts shop just inside the entrance to ${zoneLink(Faultline)}.`,
   links: [
     { title: 'Old Fashioned Badge', href: 'https://homecoming.wiki/wiki/Old_Fashioned_Badge' },
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },

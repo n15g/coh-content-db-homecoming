@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
+import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
 
 export const Shielded: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Shielded: BadgeData = {
   name: [{ value: 'Shielded' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `Despite its crash landing, the Rikti mother ship's shields continue to function, providing the stranded Rikti with a relatively safe haven.` }],
-  mapKey: EchoRiktiCrashSite.key,
+  zoneKey: EchoRiktiCrashSite.key,
   loc: [2934.4, -10.3, -6249.4],
   notes: 'Around 11:57 on the clock if the ship is the clock face, right up against the shield.',
   links: [

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IndependencePort } from '../../map/independence-port'
+import { IndependencePort } from '../../zone/independence-port'
 
 export const DeadEnd: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DeadEnd: BadgeData = {
   setTitle: { id: 1553 },
   name: [{ value: 'Dead End' }],
   alignment: ['H'],
-  mapKey: IndependencePort.key,
+  zoneKey: IndependencePort.key,
   loc: [2213, 0, 4736],
   badgeText: [{
     value: 'More than one unlucky individual has met his end in this area of the \'Cargo Maze.\''

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CapAuDiable } from '../../map/cap-au-diable'
+import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const DoomSayer: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DoomSayer: BadgeData = {
   setTitle: { id: 1492 },
   name: [{ value: 'Doom Sayer' }],
   alignment: ['V'],
-  mapKey: CapAuDiable.key,
+  zoneKey: CapAuDiable.key,
   loc: [2234, 0, -1330],
   badgeText: [{
     value: 'The Luddites have taken over this part of the forest and use it as their main gathering place to preach about the evil schemes of Dr. Aeon.'

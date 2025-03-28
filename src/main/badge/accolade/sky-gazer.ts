@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SkywayCity } from '../../zone/skyway-city'
 import { Purifier } from '../exploration/purifier'
 import { Solace } from '../exploration/solace'
 import { Dauntless } from '../exploration/dauntless'
@@ -20,7 +20,7 @@ export const SkyGazer: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Skyway City.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(SkywayCity)}`,
+  notes: `Visit all exploration badges in ${zoneLink(SkywayCity)}`,
   links: [
     { title: 'Sky Gazer Badge', href: 'https://homecoming.wiki/wiki/Sky_Gazer_Badge' },
   ],

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { FirebaseZulu } from '../../map/firebase-zulu'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { FirebaseZulu } from '../../zone/firebase-zulu'
 
 export const ShadowArchitect: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const ShadowArchitect: BadgeData = {
   setTitle: { id: 1801 },
   name: [{ value: 'Shadow Architect' }],
   alignment: ['H'],
-  mapKey: FirebaseZulu.key,
+  zoneKey: FirebaseZulu.key,
   loc: [513, 1742, -2084],
   badgeText: [{
     value: 'Humanity is a creature who builds. It finds virgin territory and makes its mark.'
@@ -16,7 +16,7 @@ export const ShadowArchitect: BadgeData = {
       + ' The crews met the unearthly challenges that faced them and established numerous military facilities in this strange territory.'
       + ' There is something almost surreal about seeing this construction crane, something so commonplace on Earth here in an alien dimension: the mundane meeting the unearthly.',
   }],
-  notes: `Located in ${mapLink(FirebaseZulu)} 181 yards NNW of the Point Foxtrot marker, on top of the west end of the arm on top of the crane.`,
+  notes: `Located in ${zoneLink(FirebaseZulu)} 181 yards NNW of the Point Foxtrot marker, on top of the west end of the arm on top of the crane.`,
   links: [
     { title: 'Shadow Architect Badge', href: 'https://homecoming.wiki/wiki/Shadow Architect_Badge' },
   ],

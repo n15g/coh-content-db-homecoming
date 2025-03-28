@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NervaArchipelago } from '../../map/nerva-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const LockedAndLoaded: BadgeData = {
   type: 'EXPLORATION',
@@ -11,9 +11,9 @@ export const LockedAndLoaded: BadgeData = {
     { alignment: 'H', value: `This is the spot where many Longbow Agents have trained to take villains down.` },
     { alignment: 'V', value: `This is the spot where many Longbow Agents have trained to take you down.` },
   ],
-  mapKey: NervaArchipelago.key,
+  zoneKey: NervaArchipelago.key,
   loc: [3286, 126, 3645],
-  notes: `Located in ${mapLink(NervaArchipelago)}, in the Agincourt neighborhood.
+  notes: `Located in ${zoneLink(NervaArchipelago)}, in the Agincourt neighborhood.
 
 It is located under a shed with mesh-net walls 120 yards north-northeast of the Agincourt marker.`,
   links: [

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TerraVolta } from '../../map/terra-volta'
+import { TerraVolta } from '../../zone/terra-volta'
 
 export const ScrapheapOfHistory: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const ScrapheapOfHistory: BadgeData = {
   setTitle: { id: 1839 },
   name: [{ value: 'Scrapheap of History' }],
   alignment: ['H'],
-  mapKey: TerraVolta.key,
+  zoneKey: TerraVolta.key,
   loc: [-1588, 188, -2299],
   badgeText: [{
     value: `Here lie the ruins of the Number 6 Titration Plant, the first of a new design meant to streamline the process of fuel waste reconstitution.

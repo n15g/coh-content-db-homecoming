@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheStormPalace } from '../../map/the-storm-palace'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheStormPalace } from '../../zone/the-storm-palace'
 
 export const CourtingMadness: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CourtingMadness: BadgeData = {
   setTitle: { id: 1854 },
   name: [{ value: 'Courting Madness' }],
   alignment: ['H'],
-  mapKey: TheStormPalace.key,
+  zoneKey: TheStormPalace.key,
   loc: [1630, -65, 10_144],
   badgeText: [{
     value: `As humanity has begun expanding its interests into extra-dimensional spaces, particularly the Shadow Shard, peculiar psychological disorders have begun to infect those
@@ -17,7 +17,7 @@ and you too have had strange thoughts emerging unbidden from your own psyche.
 Yet you continue to engage this strange place in a race against time: either you will stand triumphant against the Shadow Shard's many challenges, or you will succumb to the madness
 that has claimed lesser minds.`,
   }],
-  notes: `Located in ${mapLink(TheStormPalace)} 34 feet north of the Path of Madness marker.`,
+  notes: `Located in ${zoneLink(TheStormPalace)} 34 feet north of the Path of Madness marker.`,
   links: [
     { title: 'Courting Madness Badge', href: 'https://homecoming.wiki/wiki/Courting_Madness_Badge' },
   ],

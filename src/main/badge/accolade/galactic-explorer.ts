@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 import { BirdWatcher } from '../exploration/bird-watcher'
 import { BlueShield } from '../exploration/blue-shield'
 import { Brawler } from '../exploration/brawler'
@@ -20,7 +20,7 @@ export const GalacticExplorer: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Galaxy City.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(EchoGalaxyCity)}`,
+  notes: `Visit all exploration badges in ${zoneLink(EchoGalaxyCity)}`,
   links: [
     { title: 'Galactic Explorer Badge', href: 'https://homecoming.wiki/wiki/Galactic_Explorer_Badge' },
   ],

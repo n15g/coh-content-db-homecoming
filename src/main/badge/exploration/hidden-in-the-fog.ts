@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheLabyrinthOfFog } from '../../map/the-labyrinth-of-fog'
+import { TheLabyrinthOfFog } from '../../zone/the-labyrinth-of-fog'
 
 export const HiddenInTheFog: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const HiddenInTheFog: BadgeData = {
   setTitle: { id: 2530 },
   name: [{ value: 'Hidden In The Fog' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: TheLabyrinthOfFog.key,
+  zoneKey: TheLabyrinthOfFog.key,
   badgeText: [{
     value: `The Labyrinth of Fog is an endless maze constructed from the amalgamation of memories taken from those who have entered the maze. Some speak of finding lost secrets, long forgotten, laying hidden amongst the fog, and that those who surrender themselves to the labyrinth are in a position to glean forbidden knowledge.`,
   }],

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NervaArchipelago } from '../../map/nerva-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const NervaWreck: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const NervaWreck: BadgeData = {
   setTitle: { id: 276 },
   name: [{ value: 'Nerva Wreck' }],
   alignment: ['V'],
-  mapKey: NervaArchipelago.key,
+  zoneKey: NervaArchipelago.key,
   loc: [1388, 10, 2876],
   badgeText: [{
     value: `You have visited the famous Nerva Wreck. What strange creature might have caused this disaster?`,
   }],
-  notes: `Located in ${mapLink(NervaArchipelago)}, in the Primeva neighborhood.
+  notes: `Located in ${zoneLink(NervaArchipelago)}, in the Primeva neighborhood.
 
 It is located on the lowest rock outcropping next to the shipwreck in the mouth of the river that runs into the largest island of Primeva.
  It is approximately 533 yrds SE of the Primeva marker and/or the northernmost Quartermaster.`,

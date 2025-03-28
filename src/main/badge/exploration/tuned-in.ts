@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ImperialCity } from '../../map/imperial-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ImperialCity } from '../../zone/imperial-city'
 
 export const TunedIn: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const TunedIn: BadgeData = {
   setTitle: { id: 1409 },
   name: [{ value: 'Tuned In' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: ImperialCity.key,
+  zoneKey: ImperialCity.key,
   loc: [-1370, -32, -1731],
   badgeText: [{
     value: 'The Total Praetorian Network is the best source of news and entertainment. Well, the best LEGAL source for news and entertainment, anyway.',
   }],
-  notes: `Located in ${mapLink(ImperialCity)} 41 yards NW of the Logos marker.`,
+  notes: `Located in ${zoneLink(ImperialCity)} 41 yards NW of the Logos marker.`,
   links: [
     { title: 'Tuned In Badge', href: 'https://homecoming.wiki/wiki/Tuned_In_Badge' },
   ],

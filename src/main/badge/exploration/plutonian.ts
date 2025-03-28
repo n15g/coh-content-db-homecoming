@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SewerNetwork } from '../../map/sewer-network'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SewerNetwork } from '../../zone/sewer-network'
 
 export const Plutonian: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Plutonian: BadgeData = {
   setTitle: { id: 1830 },
   name: [{ value: 'Plutonian' }],
   alignment: ['H'],
-  mapKey: SewerNetwork.key,
+  zoneKey: SewerNetwork.key,
   loc: [-32, -896, 26],
   badgeText: [{
     value: `The best knowledge is knowledge acquired in secret, without the filters thrown up by outside forces to edit or alter that information.
@@ -16,7 +16,7 @@ export const Plutonian: BadgeData = {
             You understand now why so many of a dark bent frequent the tunnels of the Sewer Network.
             There is a power here, one that will give itself to you if you have the will to take it.`,
   }],
-  notes: `Located in ${mapLink(SewerNetwork)} 389 yards southeast of the Underworld marker, behind a winch in the trial room in the center of the map.`,
+  notes: `Located in ${zoneLink(SewerNetwork)} 389 yards southeast of the Underworld marker, behind a winch in the trial room in the center of the map.`,
   links: [
     { title: 'Plutonian Badge', href: 'https://homecoming.wiki/wiki/Plutonian_Badge' },
   ],

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const MysticKing: BadgeData = {
   type: 'EXPLORATION',
@@ -10,7 +10,7 @@ export const MysticKing: BadgeData = {
     { sex: 'F', value: 'Mystic Queen' },
   ],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [-376, 70, 245],
   badgeText: [{
     value: 'Ley Lines are powerful forces of mystical energy that crisscross the planet. Where they meet is called a nexus, and all magic is stronger for miles around.',

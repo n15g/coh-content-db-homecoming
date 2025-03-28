@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { DarkAstoria } from '../../map/dark-astoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const OfThingsUnclean: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const OfThingsUnclean: BadgeData = {
   setTitle: { id: 2186 },
   name: [{ value: 'Of Things Unclean' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: DarkAstoria.key,
+  zoneKey: DarkAstoria.key,
   loc: [936, -1, 4321],
   badgeText: [{
     value: `The dead have always cavorted through the streets of Dark Astoria, praying and making sacrifice to their mute master, and for good reason.
 Even after its fall, Mot's shadow has terrorized the dreams of mankind through all of history, for it is the embodiment of all that is unnatural and vile; death most unclean.`,
   }],
-  notes: `Located in ${mapLink(DarkAstoria)}, in the Dido's View neighborhood, 324 yards SE of the Dido's View marker.`,
+  notes: `Located in ${zoneLink(DarkAstoria)}, in the Dido's View neighborhood, 324 yards SE of the Dido's View marker.`,
   links: [
     { title: 'Of Things Unclean Badge', href: 'https://homecoming.wiki/wiki/Of_Things_Unclean_Badge' },
   ],

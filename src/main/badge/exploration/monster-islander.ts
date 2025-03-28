@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MonsterIsland } from '../../map/monster-island'
-import { Grandville } from '../../map/grandville'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MonsterIsland } from '../../zone/monster-island'
+import { Grandville } from '../../zone/grandville'
 
 export const MonsterIslander: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const MonsterIslander: BadgeData = {
   setTitle: { id: 1868 },
   name: [{ value: 'Monster Islander' }],
   alignment: ['V'],
-  mapKey: MonsterIsland.key,
+  zoneKey: MonsterIsland.key,
   loc: [-2437, 1, -8276],
   badgeText: [{
     value: `You've set foot on soil now the domain of ravaging monstrosities. You take a deep breath and catch a scent of their spoor.
@@ -16,7 +16,7 @@ export const MonsterIslander: BadgeData = {
             Impressive. Against the horizon you catch a hulking silhouette ambling slowly towards some unknown destination.
             Squaring your shoulders, you set out; it is time you showed them that a new monster prowls the island. Just as fierce and twice as deadly.`,
   }],
-  notes: `Located in ${mapLink(MonsterIsland)}, 68 yards southwest of the ${mapLink(Grandville)} transfer point, in the center of the hospital island next to the submarine.`,
+  notes: `Located in ${zoneLink(MonsterIsland)}, 68 yards southwest of the ${zoneLink(Grandville)} transfer point, in the center of the hospital island next to the submarine.`,
   links: [
     { title: 'Monster Islander Badge', href: 'https://homecoming.wiki/wiki/Monster_Islander_Badge' },
   ],

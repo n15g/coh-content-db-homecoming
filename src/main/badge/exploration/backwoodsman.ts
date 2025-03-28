@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const Backwoodsman: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Backwoodsman: BadgeData = {
   setTitle: { id: 195 },
   name: [{ value: 'Backwoodsman' }],
   alignment: ['H'],
-  mapKey: TheHollows.key,
+  zoneKey: TheHollows.key,
   loc: [-2150, 42, 3332],
   badgeText: [{
     value: 'These woods have cropped up at an alarming rate since the Hollowing.'

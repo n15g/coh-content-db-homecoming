@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IndependencePort } from '../../map/independence-port'
+import { IndependencePort } from '../../zone/independence-port'
 
 export const CreyHavoc: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CreyHavoc: BadgeData = {
   setTitle: { id: 122 },
   name: [{ value: 'Crey Havoc' }],
   alignment: ['H'],
-  mapKey: IndependencePort.key,
+  zoneKey: IndependencePort.key,
   loc: [-441, 2, -271],
   badgeText: [{ value: 'Crey had a facility in Independence Port for several years, but an industrial accident has permanently closed it.' }],
   notes: 'The Crey Havoc Badge is located on the Power Island neighborhood of Independence Port. It is just north of a ruined building east of the Terra Volta entrance.'

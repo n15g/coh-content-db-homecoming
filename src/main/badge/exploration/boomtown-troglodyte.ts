@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Boomtown } from '../../map/boomtown'
+import { Boomtown } from '../../zone/boomtown'
 
 export const BoomtownTroglodyte: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const BoomtownTroglodyte: BadgeData = {
   setTitle: { id: 1778 },
   name: [{ value: 'Boomtown Troglodyte' }],
   alignment: ['H'],
-  mapKey: Boomtown.key,
+  zoneKey: Boomtown.key,
   loc: [-712, 0, -448],
   badgeText: [{
     value: 'The Lost, despised and reviled by every other criminal organization and gang, have become adept at finding secure hiding places where they can plot their revenge.'

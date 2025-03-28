@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheStormPalace } from '../../map/the-storm-palace'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheStormPalace } from '../../zone/the-storm-palace'
 
 export const HateMachine: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const HateMachine: BadgeData = {
   setTitle: { id: 1858 },
   name: [{ value: 'Hate Machine' }],
   alignment: ['H'],
-  mapKey: TheStormPalace.key,
+  zoneKey: TheStormPalace.key,
   loc: [-5825, 1628, 2814],
   badgeText: [{
     value: `The hatred Rularuu feels is infectious.
@@ -16,7 +16,7 @@ Rularuu's minions are thought to be extensions of his will; it is easy to unders
 of distraction or weakness.
 Rularuu has engineered his minions into an engine geared towards releasing him from his prison, you must be mindful you do not become a cog in that machine.`,
   }],
-  notes: `Located in ${mapLink(TheStormPalace)} 444 yards due west of the Lock of Hatred marker, in the middle of the small island on the west side of the neighborhood.`,
+  notes: `Located in ${zoneLink(TheStormPalace)} 444 yards due west of the Lock of Hatred marker, in the middle of the small island on the west side of the neighborhood.`,
   links: [
     { title: 'Hate Machine Badge', href: 'https://homecoming.wiki/wiki/Hate_Machine_Badge' },
   ],

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PeregrineIsland } from '../../map/peregrine-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PeregrineIsland } from '../../zone/peregrine-island'
 
 export const RiktiGoneWild: BadgeData = {
   type: 'EXPLORATION',
@@ -7,14 +7,14 @@ export const RiktiGoneWild: BadgeData = {
   setTitle: { id: 1575 },
   name: [{ value: 'Rikti Gone Wild' }],
   alignment: ['H'],
-  mapKey: PeregrineIsland.key,
+  zoneKey: PeregrineIsland.key,
   loc: [-2893, 0, -6950],
   badgeText: [{
     value: 'The horde of Rikti Monkeys on Monster Island seems to have been confined to this area, supposedly by Crey.'
       + ' Investigations into what exactly went wrong have been going on for some time.'
       + ' Many suspect that the Devouring Earth assaulted the island, destroying the barriers put in place to keep the Rikti in.',
   }],
-  notes: `Located in the Cutlass Isles neighborhood of ${mapLink(PeregrineIsland)}.
+  notes: `Located in the Cutlass Isles neighborhood of ${zoneLink(PeregrineIsland)}.
 `
     + '\n'
     + 'It is at a section of ruined gate 241 yards ENE of the neighborhood marker.',

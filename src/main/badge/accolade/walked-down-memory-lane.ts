@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoAtlasPark } from '../../map/echo-atlas-park'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 import { Trustworthy } from '../exploration/trustworthy'
 import { Knowledgeable } from '../exploration/knowledgeable'
 import { Virtuous } from '../exploration/virtuous'
@@ -20,7 +20,7 @@ export const WalkedDownMemoryLane: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Echo: Atlas Park.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(EchoAtlasPark)}`,
+  notes: `Visit all exploration badges in ${zoneLink(EchoAtlasPark)}`,
   links: [
     { title: 'Walked Down Memory Lane Badge', href: 'https://homecoming.wiki/wiki/Walked_Down_Memory_Lane_Badge' },
   ],

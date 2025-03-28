@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const GraffitiCommunicator: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const GraffitiCommunicator: BadgeData = {
   setTitle: { id: 1518 },
   name: [{ value: 'Graffiti Communicator' }],
   alignment: ['H'],
-  mapKey: TheHollows.key,
+  zoneKey: TheHollows.key,
   loc: [-1384, 494, 1492],
   badgeText: [{
     value: 'Longbow works side by side with the Legacy Chain to maintain this small outpost in the Hollows, using it to relay the activities of the Circle of Thorns in the nearby area.'

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { HydraMissionMap } from '../../map/hydra-missions'
+import { HydraMissionMap } from '../../zone/hydra-missions'
 
 export const Multidimensional: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Multidimensional: BadgeData = {
   setTitle: { id: 172 },
   name: [{ value: 'Multidimensional' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: HydraMissionMap.key,
+  zoneKey: HydraMissionMap.key,
   badgeText: [{
     value: 'The Hydra that lives under Paragon City is rumored to be a refugee from this dimension.',
   }],

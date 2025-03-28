@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SharkheadIsle } from '../../map/sharkhead-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SharkheadIsle } from '../../zone/sharkhead-isle'
 
 export const ForgedByHellfire: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const ForgedByHellfire: BadgeData = {
   setTitle: { id: 296 },
   name: [{ value: 'Forged by Hellfire' }],
   alignment: ['V'],
-  mapKey: SharkheadIsle.key,
+  zoneKey: SharkheadIsle.key,
   loc: [1970, 64, -192],
   badgeText: [{
     value: `The Hell Forge is the largest above ground furnace on the planet.`,
   }],
-  notes: `Located in ${mapLink(SharkheadIsle)}, in the Hell Forge neighborhood.
+  notes: `Located in ${zoneLink(SharkheadIsle)}, in the Hell Forge neighborhood.
 
 Just west of the Hell Forge marker, there are three large silo tanks.
  The badge marker is on the ground just north of the northernmost tank.`,

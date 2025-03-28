@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoAtlasPark } from '../../map/echo-atlas-park'
+import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 
 export const SilentSentinel: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const SilentSentinel: BadgeData = {
   setTitle: { id: 87 },
   name: [{ value: 'Silent Sentinel' }],
   alignment: ['H'],
-  mapKey: EchoAtlasPark.key,
+  zoneKey: EchoAtlasPark.key,
   loc: [-608, 70.3, -1890],
   badgeText: [{
     value: `In the 1950's the hero called 'Gargoyle' would stand watch over the city from this spot.`,

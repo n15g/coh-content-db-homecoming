@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PerezPark } from '../../map/perez-park'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PerezPark } from '../../zone/perez-park'
 
 export const Territorial: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Territorial: BadgeData = {
   setTitle: { id: 101 },
   name: [{ value: 'Territorial' }],
   alignment: ['H'],
-  mapKey: PerezPark.key,
+  zoneKey: PerezPark.key,
   loc: [-2015, -56, 1586],
   badgeText: [{
     value: 'The territory around this bridge has been hotly contested turf between the Skulls and Hellions for some time now.',
   }],
-  notes: `Located in ${mapLink(PerezPark)} 44 yards east of the Perez Park neighborhood marker in the maze under the trees.
+  notes: `Located in ${zoneLink(PerezPark)} 44 yards east of the Perez Park neighborhood marker in the maze under the trees.
 
           To find it, enter the tree maze from the east side almost straight west of the Atlas Park entrance.`,
   links: [

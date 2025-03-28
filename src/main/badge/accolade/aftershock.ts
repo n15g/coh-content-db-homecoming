@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Faultline } from '../../map/faultline'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Faultline } from '../../zone/faultline'
 
 export const Aftershock: BadgeData = {
   type: 'ACCOLADE',
@@ -12,7 +12,7 @@ export const Aftershock: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within Faultline.` },
   ],
-  acquisition: `Complete every story arc in ${mapLink(Faultline)}`,
+  acquisition: `Complete every story arc in ${zoneLink(Faultline)}`,
   notes: `
 This badge rewards 20 reward merits for completing the following story arcs (contact in parentheses):
 

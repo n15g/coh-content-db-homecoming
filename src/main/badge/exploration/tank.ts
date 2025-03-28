@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 
 export const Tank: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Tank: BadgeData = {
   setTitle: { id: 94 },
   name: [{ value: 'Tank' }],
   alignment: ['H'],
-  mapKey: EchoGalaxyCity.key,
+  zoneKey: EchoGalaxyCity.key,
   loc: [-1178, 73, -586],
   badgeText: [{ value: 'M1, a hero from World War II, is honored today with a statue in Galaxy City.' }],
   notes: 'The Tank Badge is located along the far southern border of the Orion Beltway neighborhood in Echo: Galaxy City.'

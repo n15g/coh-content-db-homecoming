@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CapAuDiable } from '../../map/cap-au-diable'
+import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const SweetTooth: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const SweetTooth: BadgeData = {
   setTitle: { id: 273 },
   name: [{ value: 'Sweet Tooth' }],
   alignment: ['V'],
-  mapKey: CapAuDiable.key,
+  zoneKey: CapAuDiable.key,
   loc: [-222, 0, -2136],
   badgeText: [{
     value: 'Lawrence Langston made his money investing in the things he personally was interested in.'

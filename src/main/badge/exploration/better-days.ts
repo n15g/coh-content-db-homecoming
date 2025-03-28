@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const BetterDays: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const BetterDays: BadgeData = {
   setTitle: { id: 1535 },
   name: [{ value: 'Better Days' }],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [2119, 29, -2378],
   badgeText: [{
     value: 'This statue of the Red Tiger, aka Jake Montoya, was erected after he lost his leg fighting the Clockwork King.'

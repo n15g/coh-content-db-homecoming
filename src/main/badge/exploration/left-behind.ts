@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const LeftBehind: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const LeftBehind: BadgeData = {
   setTitle: { id: 1537 },
   name: [{ value: 'Left Behind' }],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [-1216, 4, -2368],
   badgeText: [{
     value: 'Before the Rikti War, the Red Tiger, Jake Montoya, used this area to train fellow heroes.'

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PortOakes } from '../../map/port-oakes'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PortOakes } from '../../zone/port-oakes'
 
 export const HiddenGetaway: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const HiddenGetaway: BadgeData = {
   setTitle: { id: 1490 },
   name: [{ value: 'Hidden Getaway' }],
   alignment: ['V'],
-  mapKey: PortOakes.key,
+  zoneKey: PortOakes.key,
   loc: [365, 128, -2424],
   badgeText: [{
     value: `When things became heated between rival families, heads of the Marcones have been known to hide in this cabin, sometimes using the nearby submarine to escape to better grounds.
  Some say this may even be where the first monkey fight club was started.`,
   }],
-  notes: `Located in ${mapLink(PortOakes)}, in the Villa Montrose neighborhood.
+  notes: `Located in ${zoneLink(PortOakes)}, in the Villa Montrose neighborhood.
 
 It is at the front door of the remote house in the NW corner of the neighborhood, 590 yards west of the marker.`,
   links: [

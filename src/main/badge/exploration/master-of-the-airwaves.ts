@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Grandville } from '../../map/grandville'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Grandville } from '../../zone/grandville'
 
 export const MasterOfTheAirwaves: BadgeData = {
   type: 'EXPLORATION',
@@ -10,12 +10,12 @@ export const MasterOfTheAirwaves: BadgeData = {
     { sex: 'F', value: 'Mistress of the Airwaves' },
   ],
   alignment: ['V'],
-  mapKey: Grandville.key,
+  zoneKey: Grandville.key,
   loc: [2726, 734, 1043],
   badgeText: [{
     value: `Top of the world! You have climbed to the top of the radio tower in Grandville.`,
   }],
-  notes: `Located in ${mapLink(Grandville)}, in the Tangle neighborhood.
+  notes: `Located in ${zoneLink(Grandville)}, in the Tangle neighborhood.
     
 The marker is on a ledge on the large tower in the center of the zone. It is located on the south face of the tower just above the large Arachnos logo.`,
   links: [

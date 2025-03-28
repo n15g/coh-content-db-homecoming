@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NovaPraetoria } from '../../map/nova-praetoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const AgentOfPraetoria: BadgeData = {
   type: 'ACCOLADE',
@@ -12,7 +12,7 @@ export const AgentOfPraetoria: BadgeData = {
   badgeText: [
     { value: `You stand on the fragile tipping point between Order and Chaos. Which way will you go?` },
   ],
-  acquisition: `Complete every story arc in ${mapLink(NovaPraetoria)}`,
+  acquisition: `Complete every story arc in ${zoneLink(NovaPraetoria)}`,
   notes: `This badge rewards 20 reward merits.`,
   links: [
     { title: 'Agent of Praetoria Badge', href: 'https://homecoming.wiki/wiki/Agent_of_Praetoria_Badge' },

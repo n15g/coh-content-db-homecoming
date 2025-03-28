@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { UndergroundNeutropolis } from '../../map/underground-neutropolis'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 
 export const BingeEater: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const BingeEater: BadgeData = {
   setTitle: { id: 1741 },
   name: [{ value: 'Binge Eater' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: UndergroundNeutropolis.key,
+  zoneKey: UndergroundNeutropolis.key,
   loc: [-82, -1024, -3495],
   badgeText: [{
     value: 'This hospital sub-basement used to be a primary morgue, but was phased out due to the sheer number of Ghoul attacks it drew.'
       + ' As the Resistance say, nothing a chomper likes more than a well-stocked buffet.',
   }],
-  notes: `Located in ${mapLink(UndergroundNeutropolis)} in the green segment in the NW corner of the map, 99 yards East of City Access C.`,
+  notes: `Located in ${zoneLink(UndergroundNeutropolis)} in the green segment in the NW corner of the map, 99 yards East of City Access C.`,
   links: [
     { title: 'Binge Eater Badge', href: 'https://homecoming.wiki/wiki/Binge_Eater_Badge' },
   ],

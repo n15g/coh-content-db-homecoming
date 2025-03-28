@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SewerNetwork } from '../../map/sewer-network'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SewerNetwork } from '../../zone/sewer-network'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const SpiritOfTheCity: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const SpiritOfTheCity: BadgeData = {
   setTitle: { id: 1829 },
   name: [{ value: 'Spirit of the City' }],
   alignment: ['H'],
-  mapKey: SewerNetwork.key,
+  zoneKey: SewerNetwork.key,
   loc: [-1331, -62, -1728],
   badgeText: [{
     value: `The heartbeat of the city thrums through the halls of the Sewer Network, creating a harmony all its own.
@@ -16,7 +16,7 @@ export const SpiritOfTheCity: BadgeData = {
             If you are able, open your mind to the life of the city all around you, become one with it.
             True understanding lies in part with becoming what you wish to understand, and down here all that the city is flows to this central point: its soul.`,
   }],
-  notes: `Located in ${mapLink(SewerNetwork)} 179 yards west of the ${mapLink(SteelCanyon)} marker, straight back from the entrance.`,
+  notes: `Located in ${zoneLink(SewerNetwork)} 179 yards west of the ${zoneLink(SteelCanyon)} marker, straight back from the entrance.`,
   links: [
     { title: 'Spirit of the City Badge', href: 'https://homecoming.wiki/wiki/Spirit_of_the_City_Badge' },
   ],

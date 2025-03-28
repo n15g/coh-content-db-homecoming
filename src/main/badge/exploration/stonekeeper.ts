@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StMartial } from '../../map/st-martial'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StMartial } from '../../zone/st-martial'
 
 export const Stonekeeper: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Stonekeeper: BadgeData = {
   setTitle: { id: 281 },
   name: [{ value: 'Stonekeeper' }],
   alignment: ['V'],
-  mapKey: StMartial.key,
+  zoneKey: StMartial.key,
   loc: [-2566, 119.8, 3000.5],
   badgeText: [{
     value: `What strange purpose do these glyphs serve?`,
   }],
-  notes: `Located in ${mapLink(StMartial)}, in the Babylon neighborhood.
+  notes: `Located in ${zoneLink(StMartial)}, in the Babylon neighborhood.
 
           The marker is at ground level inside the southernmost obelisk located due southeast of the Golden Giza casino. The marker itself is not visible due to the obelisk.`,
   links: [

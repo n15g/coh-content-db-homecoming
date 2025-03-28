@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NightWard } from '../../map/night-ward'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NightWard } from '../../zone/night-ward'
 import { NocturnalPilgrim } from '../exploration/nocturnal-pilgrim'
 import { HappyCamper } from '../exploration/happy-camper'
 import { HouseHunter } from '../exploration/house-hunter'
@@ -20,7 +20,7 @@ export const EtherealDrifter: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Night Ward` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(NightWard)}`,
+  notes: `Visit all exploration badges in ${zoneLink(NightWard)}`,
   links: [
     { title: 'Ethereal Drifter Badge', href: 'https://homecoming.wiki/wiki/Ethereal_Drifter_Badge' },
   ],

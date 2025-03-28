@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Warburg } from '../../map/warburg'
+import { Warburg } from '../../zone/warburg'
 
 export const Herculean: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Herculean: BadgeData = {
   name: [{ value: 'Herculean' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `From this vantage point you can observe Malta's Hercules Titans as they prepare for deployment.` }],
-  mapKey: Warburg.key,
+  zoneKey: Warburg.key,
   loc: [1955, 120, -338],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

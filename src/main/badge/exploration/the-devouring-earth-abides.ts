@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Eden } from '../../map/eden'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Eden } from '../../zone/eden'
 
 export const TheDevouringEarthAbides: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const TheDevouringEarthAbides: BadgeData = {
   setTitle: { id: 1845 },
   name: [{ value: 'The Devouring Earth Abides' }],
   alignment: ['H'],
-  mapKey: Eden.key,
+  zoneKey: Eden.key,
   loc: [-357, 0, 2789],
   badgeText: [{
     value: `Strange whispers echo through this sheltered vale, a place where the Devouring Earth rest and meditate, receiving strange missives from their lord and master: Hamidon.
@@ -15,7 +15,7 @@ export const TheDevouringEarthAbides: BadgeData = {
             Hamidon speaks to his children and urges them to be patient, that the time to take back what is rightfully theirs will soon be here.
             How does one reckon time when they are immortal? What is "soon" to something with a life-span measured in millennia?`,
   }],
-  notes: `Located in ${mapLink(Eden)} 170 yards north of The Serpentine marker, in the grassy area within a small clearing in the trees.`,
+  notes: `Located in ${zoneLink(Eden)} 170 yards north of The Serpentine marker, in the grassy area within a small clearing in the trees.`,
   links: [
     { title: 'The Devouring Earth Abides Badge', href: 'https://homecoming.wiki/wiki/The_Devouring_Earth_Abides_Badge' },
   ],

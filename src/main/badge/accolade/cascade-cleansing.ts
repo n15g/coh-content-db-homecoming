@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CascadeArchipelago } from '../../map/cascade-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 import { BeingAndNothingness } from '../exploration/being-and-nothingness'
 import { Castaway } from '../exploration/castaway'
 import { HearingVoices } from '../exploration/hearing-voices'
@@ -20,7 +20,7 @@ export const CascadeCleansing: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Cascade Archipelago.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(CascadeArchipelago)}`,
+  notes: `Visit all exploration badges in ${zoneLink(CascadeArchipelago)}`,
   links: [
     { title: 'Cascade Cleansing Badge', href: 'https://homecoming.wiki/wiki/Cascade_Cleansing_Badge' },
   ],

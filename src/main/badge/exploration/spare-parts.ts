@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoFaultline } from '../../map/echo-faultline'
+import { EchoFaultline } from '../../zone/echo-faultline'
 
 export const SpareParts: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const SpareParts: BadgeData = {
   name: [{ value: 'Spare Parts' }],
   alignment: ['H'],
   badgeText: [{ value: `Large groups of Vahzilok roam this area, day or night. Guided by the depraved Dr. Vahzilok, they defile the very laws of nature with their never ceasing desire for human flesh.` }],
-  mapKey: EchoFaultline.key,
+  zoneKey: EchoFaultline.key,
   loc: [446.7, 0.3, 1521.3],
   notes: 'Approx. 326 yrds. W from the "Resevoir" marker in a park above the crevice with the cement structures.',
   links: [

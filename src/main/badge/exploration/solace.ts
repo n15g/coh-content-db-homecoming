@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const Solace: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Solace: BadgeData = {
   setTitle: { id: 111 },
   name: [{ value: 'Solace' }],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [2260, -84, -3367],
   badgeText: [{
     value: 'This was the location of Dr. Anguish\'s secret lab, uncovered by the Freedom Phalanx when he threatened to blow up Paragon City with a black market Soviet nuke.',

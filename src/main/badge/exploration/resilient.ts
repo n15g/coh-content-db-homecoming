@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoAtlasPark } from '../../map/echo-atlas-park'
+import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 
 export const Resilient: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Resilient: BadgeData = {
   name: [{ value: 'Resilient' }],
   alignment: ['H'],
   badgeText: [{ value: `This monument was built by a local artist with materials scavenged after the first Rikti invasion. Having wrought creation from destruction, it reaches skyward to represent Paragon City's unbroken spirit.` }],
-  mapKey: EchoAtlasPark.key,
+  zoneKey: EchoAtlasPark.key,
   loc: [-1471.4, 56.8, -564],
   notes: `Located 102 yards east of the marker for Hyperion Way, there's a tall, boxy, chunky piece of modern art sitting in a downstairs area.
 Climb those boxes and the badge sits on the topmost box.`,

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Cimerora } from '../../map/cimerora'
+import { Cimerora } from '../../zone/cimerora'
 
 export const DepthsOfTime: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const DepthsOfTime: BadgeData = {
   setTitle: { id: 990 },
   name: [{ value: 'Depths of Time' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: Cimerora.key,
+  zoneKey: Cimerora.key,
   loc: [-1108, 9, 4262],
   badgeText: [{
     value: 'You have traveled back in time to the Roman era. Here is the origins of all you have come to understand as heroic and villainous.',

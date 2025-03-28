@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SkywayCity } from '../../map/skyway-city'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const Dauntless: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Dauntless: BadgeData = {
   setTitle: { id: 112 },
   name: [{ value: 'Dauntless' }],
   alignment: ['H'],
-  mapKey: SkywayCity.key,
+  zoneKey: SkywayCity.key,
   loc: [-706, 0, -1077],
   badgeText: [{
     value: 'Dauntless was Galaxy Girl\'s sidekick until he died in battle, defending his mentor with his last breath.',

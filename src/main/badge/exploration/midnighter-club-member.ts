@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MidnighterClub } from '../../map/midnighter-club'
+import { MidnighterClub } from '../../zone/midnighter-club'
 
 export const MidnighterClubMember: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const MidnighterClubMember: BadgeData = {
   setTitle: { id: 992 },
   name: [{ value: 'Midnighter Club Member' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: MidnighterClub.key,
+  zoneKey: MidnighterClub.key,
   loc: [105, 0, -150],
   badgeText: [{ value: 'Within these walls rests the greatest minds of mystic, occult, and arcane magics.' }],
   notes: 'The Midnighter Club Member Badge is located just inside the circular chamber at the North end of the Midnighter Club between the inner columns.',

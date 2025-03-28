@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheHollows } from '../../zone/the-hollows'
 import { Parapsychologist } from '../exploration/parapsychologist'
 import { SeekerOfMonsters } from '../exploration/seeker-of-monsters'
 import { Geologist } from '../exploration/geologist'
@@ -21,7 +21,7 @@ export const WincottsAlly: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Hollows.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(TheHollows)}`,
+  notes: `Visit all exploration badges in ${zoneLink(TheHollows)}`,
   links: [
     { title: 'Wincott\'s Ally Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Ally_Badge' },
     { title: 'Wincott\'s Betrayer Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Betrayer_Badge' },

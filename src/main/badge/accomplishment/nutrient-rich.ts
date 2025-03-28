@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PocketD } from '../../map/pocket-d'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PocketD } from '../../zone/pocket-d'
 
 export const NutrientRich: BadgeData = {
   type: 'ACCOMPLISHMENT',
@@ -12,7 +12,7 @@ export const NutrientRich: BadgeData = {
   badgeText: [
     { value: `Despite missing or ignoring the hazardous material warning, Blarf is now fed, although probably not in the way you anticipated...` },
   ],
-  acquisition: `In ${mapLink(PocketD)}, click on Blarf until it defeats you. Blarf's location is marked with a blue dot on the map.`,
+  acquisition: `In ${zoneLink(PocketD)}, click on Blarf until it defeats you. Blarf's location is marked with a blue dot on the map.`,
   links: [
     { title: 'Nutrient-Rich Badge', href: 'https://homecoming.wiki/wiki/Nutrient-Rich_Badge' },
   ],

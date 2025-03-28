@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Cimerora } from '../../map/cimerora'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Cimerora } from '../../zone/cimerora'
 
 export const BattleHardened: BadgeData = {
   type: 'EXPLORATION',
@@ -8,9 +8,9 @@ export const BattleHardened: BadgeData = {
   name: [{ value: 'Battle-Hardened' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `The loyal legions of Cimerora have prevailed in battle against an enemy wielding unimaginable power.` }],
-  mapKey: Cimerora.key,
+  zoneKey: Cimerora.key,
   loc: [-1084, 172.2, 4690],
-  notes: `Located in ${mapLink(Cimerora)} on a rampart overlooking the location where Imperious stands, 140 yards south of the Cimerora neighborhood marker.`,
+  notes: `Located in ${zoneLink(Cimerora)} on a rampart overlooking the location where Imperious stands, 140 yards south of the Cimerora neighborhood marker.`,
   links: [
     { title: 'Battle-Hardened Badge', href: 'https://homecoming.wiki/wiki/Battle-Hardened_Badge' },
   ],

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ImperialCity } from '../../map/imperial-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ImperialCity } from '../../zone/imperial-city'
 
 export const MercyMissionary: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const MercyMissionary: BadgeData = {
   setTitle: { id: 1631 },
   name: [{ value: 'Mercy Missionary' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: ImperialCity.key,
+  zoneKey: ImperialCity.key,
   loc: [-582, 0, -3763],
   badgeText: [{
     value: 'You have visited the Behavioral Adjustment Facility to extend a helping hand to the lost souls housed within.'
       + ' It took great courage to enter this forbidden area, braving the sonic fence and the hordes of belligerent guards on your mission of mercy.',
   }],
-  notes: `Located in ${mapLink(ImperialCity)} directly in front of the main building in the Behavioral Adjustment Facility.`,
+  notes: `Located in ${zoneLink(ImperialCity)} directly in front of the main building in the Behavioral Adjustment Facility.`,
   links: [
     { title: 'Mercy Missionary Badge', href: 'https://homecoming.wiki/wiki/Mercy_Missionary_Badge' },
   ],

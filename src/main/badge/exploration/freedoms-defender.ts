@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardSteelCanyon } from '../../map/safeguard-steel-canyon'
+import { SafeguardSteelCanyon } from '../../zone/safeguard-steel-canyon'
 
 export const FreedomsDefender: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const FreedomsDefender: BadgeData = {
     { alignment: 'V', value: 'Freedom\'s Crusher' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardSteelCanyon.key,
+  zoneKey: SafeguardSteelCanyon.key,
   badgeText: [{ value: 'The Hellions attempted to burn Steel Canyon to the ground. This block is where one of the first fires was started.' }],
   loc: [-4253, 122, -641],
   notes: 'The Freedom\'s Defender Badge is located in the Steel Canyon Safeguard Mission.\n'

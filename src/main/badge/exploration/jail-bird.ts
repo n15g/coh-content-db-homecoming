@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Breakout } from '../../map/breakout'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Breakout } from '../../zone/breakout'
 
 export const JailBird: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const JailBird: BadgeData = {
   setTitle: { id: 437 },
   name: [{ value: 'Jail Bird' }],
   alignment: ['V'],
-  mapKey: Breakout.key,
+  zoneKey: Breakout.key,
   loc: [-2314, -103, 970],
   badgeText: [{
     value: `It is rumored around the Zig that the Bug Man escaped from this location.`,
   }],
-  notes: `Located in the ${mapLink(Breakout)} tutorial mission.
+  notes: `Located in the ${zoneLink(Breakout)} tutorial mission.
 
 From where you start outside your cell, turn right, walking away from H.T. When you get to the cell walls, turn around and you'll see a staircase leading up.
  Go all the way upstairs, and walk left, with the cells to your right.

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StMartial } from '../../map/st-martial'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StMartial } from '../../zone/st-martial'
 
 export const SocialWorker: BadgeData = {
   type: 'EXPLORATION',
@@ -10,12 +10,12 @@ export const SocialWorker: BadgeData = {
     { alignment: 'V', value: 'Slumlord' },
   ],
   alignment: ['V'],
-  mapKey: StMartial.key,
+  zoneKey: StMartial.key,
   loc: [-202, -74, -852],
   badgeText: [{
     value: `These slums are known to house people who have lost everything at the Golden Giza. These wanderers have become large enough in numbers to form their own community.`,
   }],
-  notes: `Located in ${mapLink(StMartial)}, in the Black Mariah neighborhood.
+  notes: `Located in ${zoneLink(StMartial)}, in the Black Mariah neighborhood.
 
 It is at the entrance of the underground slums 185 yards northeast of the neighborhood marker.`,
   links: [

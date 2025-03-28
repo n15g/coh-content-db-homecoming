@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemSkywayCity } from '../../map/mayhem-skyway-city'
+import { MayhemSkywayCity } from '../../zone/mayhem-skyway-city'
 
 export const RoadRaged: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const RoadRaged: BadgeData = {
   setTitle: { id: 557 },
   name: [{ value: 'Road Raged' }],
   alignment: ['V'],
-  mapKey: MayhemSkywayCity.key,
+  zoneKey: MayhemSkywayCity.key,
   badgeText: [{
     value: 'Hair pin risers like this road in Skyway City can incite rage even in pedestrians.',
   }],

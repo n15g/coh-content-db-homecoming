@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Croatoa } from '../../map/croatoa'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Croatoa } from '../../zone/croatoa'
 
 export const BarrierHolder: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const BarrierHolder: BadgeData = {
   setTitle: { id: 1540 },
   name: [{ value: 'Barrier Holder' }],
   alignment: ['H'],
-  mapKey: Croatoa.key,
+  zoneKey: Croatoa.key,
   loc: [386, 0, 1689],
   badgeText: [{
     value: 'Croatoa\'s own little Stonehenge has been the site of several battles against the supernatural powers who seek to consume this small town.'
       + ' Each attack has been foiled, though nearby residents still can\'t help but look at this site with some uneasiness.',
   }],
-  notes: `Located in the Salamanca neighborhood of ${mapLink(Croatoa)}.
+  notes: `Located in the Salamanca neighborhood of ${zoneLink(Croatoa)}.
 
           It is in the middle of a small pond 135 yards west of the neighborhood marker.`,
   links: [

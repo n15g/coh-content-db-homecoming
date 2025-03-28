@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Eden } from '../../map/eden'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Eden } from '../../zone/eden'
 
 export const CallOfNature: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CallOfNature: BadgeData = {
   setTitle: { id: 1842 },
   name: [{ value: 'Call of Nature' }],
   alignment: ['H'],
-  mapKey: Eden.key,
+  zoneKey: Eden.key,
   loc: [-3026, 3, 3262],
   badgeText: [{
     value: `In the distance you can hear the ululating cry of the Devouring Earth and something about it speaks to a primal, ancient, part of you.
@@ -15,7 +15,7 @@ You can understand how some might be seduced by this call and stray into their e
 There is something almost hypnotic about it; being summoned by a power greater than you, older than you, and somehow welcoming, as though the Devouring Earth offer a unity unattainable
 anywhere else on this world.`,
   }],
-  notes: `Located in ${mapLink(Eden)} 155 yards east of The Pit marker, in a grassy patch covering the road leading to the east.`,
+  notes: `Located in ${zoneLink(Eden)} 155 yards east of The Pit marker, in a grassy patch covering the road leading to the east.`,
   links: [
     { title: 'Call of Nature Badge', href: 'https://homecoming.wiki/wiki/Call_of_Nature_Badge' },
   ],

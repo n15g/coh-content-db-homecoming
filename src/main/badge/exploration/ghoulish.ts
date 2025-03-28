@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { BloodyBay } from '../../map/bloody-bay'
+import { BloodyBay } from '../../zone/bloody-bay'
 
 export const Ghoulish: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Ghoulish: BadgeData = {
   setTitle: { id: 258 },
   name: [{ value: 'Ghoulish' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: BloodyBay.key,
+  zoneKey: BloodyBay.key,
   loc: [91, 65, 360],
   badgeText: [{ value: 'The shards must be vibrating the very bones of the graves. You are almost sure you can hear scratching and clawing from the inside of the mausoleums.' }],
   notes: 'The Ghoulish Badge is 185 yards east and slightly north of the Ground Zero neighborhood in Bloody Bay near the center of the map.'

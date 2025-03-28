@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Trespasser: BadgeData = {
   type: 'EXPLORATION',
@@ -7,10 +7,10 @@ export const Trespasser: BadgeData = {
   setTitle: { id: 748 },
   name: [{ value: 'Trespasser' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: RiktiWarZone.key,
+  zoneKey: RiktiWarZone.key,
   loc: [978, 2, -737],
   badgeText: [{ value: 'You have managed to get into the Crey base of operations. Nice work. Now how do you plan to get out?' }],
-  notes: 'The Trespasser Badge is located in the The Bulge neighborhood of the ${mapLink(RiktiWarZone)}.\n'
+  notes: 'The Trespasser Badge is located in the The Bulge neighborhood of the ${zoneLink(RiktiWarZone)}.\n'
     + '\n'
     + 'It is 290 yards southwest of the Bulge marker.\n'
     + '\n'

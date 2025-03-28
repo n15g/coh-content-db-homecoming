@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const Excavator: BadgeData = {
   type: 'ACCOLADE',
@@ -12,7 +12,7 @@ export const Excavator: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within The Hollows.` },
   ],
-  acquisition: `Complete every story arc in ${mapLink(TheHollows)}`,
+  acquisition: `Complete every story arc in ${zoneLink(TheHollows)}`,
   notes: `This badge rewards 20 reward merits.`,
   links: [
     { title: 'Excavator Badge', href: 'https://homecoming.wiki/wiki/Excavator_Badge' },

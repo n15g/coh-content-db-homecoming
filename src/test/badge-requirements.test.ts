@@ -11,7 +11,7 @@ describe('Badge Requirements', () => {
       for (const group of badge.requirements ?? []) {
         for (const requirement of group) {
           if (!!requirement.badgeKey && !database.badgeExists(requirement.badgeKey)) errors.push(`['${badge.key}:${requirement.key}'].badgeKey['${requirement.badgeKey}']`)
-          if (!!requirement.mapKey && !database.mapExists(requirement.mapKey)) errors.push(`['${badge.key}:${requirement.key}'].mapKey['${requirement.mapKey}']`)
+          if (!!requirement.zoneKey && !database.zoneExists(requirement.zoneKey)) errors.push(`['${badge.key}:${requirement.key}'].zoneKey['${requirement.zoneKey}']`)
         }
       }
     }

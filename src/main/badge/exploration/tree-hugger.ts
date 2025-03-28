@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NervaArchipelago } from '../../map/nerva-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const TreeHugger: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const TreeHugger: BadgeData = {
   setTitle: { id: 278 },
   name: [{ value: 'Tree Hugger' }],
   alignment: ['V'],
-  mapKey: NervaArchipelago.key,
+  zoneKey: NervaArchipelago.key,
   loc: [-165, 12, -180],
   badgeText: [{
     value: `What mysterious purpose does this twisted old tree serve?`,
   }],
-  notes: `Located in ${mapLink(NervaArchipelago)}, in the Thorn Isle neighborhood.
+  notes: `Located in ${zoneLink(NervaArchipelago)}, in the Thorn Isle neighborhood.
 
           It is at the northwestern base of the large thorn tree in the center of the neighborhood.`,
   links: [

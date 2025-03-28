@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Croatoa } from '../../map/croatoa'
+import { Croatoa } from '../../zone/croatoa'
 
 export const GrimWanderer: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const GrimWanderer: BadgeData = {
   setTitle: { id: 408 },
   name: [{ value: 'Grim Wanderer' }],
   alignment: ['H'],
-  mapKey: Croatoa.key,
+  zoneKey: Croatoa.key,
   loc: [762, 48, -2440],
   badgeText: [{
     value: 'This deadly valley is witness to some of the most brutal battles in all of Croatoa.',

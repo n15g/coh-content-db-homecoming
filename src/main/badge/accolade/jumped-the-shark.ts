@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SharkheadIsle } from '../../map/sharkhead-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SharkheadIsle } from '../../zone/sharkhead-isle'
 import { RazorToothed } from '../exploration/razor-toothed'
 import { ForgedByHellfire } from '../exploration/forged-by-hellfire'
 import { FreakOfNature } from '../exploration/freak-of-nature'
@@ -20,7 +20,7 @@ export const JumpedTheShark: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Sharkhead Isle.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(SharkheadIsle)}`,
+  notes: `Visit all exploration badges in ${zoneLink(SharkheadIsle)}`,
   links: [
     { title: 'Jumped the Shark Badge', href: 'https://homecoming.wiki/wiki/Jumped_the_Shark_Badge' },
   ],

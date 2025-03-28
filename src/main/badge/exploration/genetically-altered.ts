@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PeregrineIsland } from '../../map/peregrine-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PeregrineIsland } from '../../zone/peregrine-island'
 
 export const GeneticallyAltered: BadgeData = {
   type: 'EXPLORATION',
@@ -7,14 +7,14 @@ export const GeneticallyAltered: BadgeData = {
   setTitle: { id: 1574 },
   name: [{ value: 'Genetically Altered' }],
   alignment: ['H'],
-  mapKey: PeregrineIsland.key,
+  zoneKey: PeregrineIsland.key,
   loc: [-1510, 0, -6335],
   badgeText: [{
     value: 'Scientists still aren\'t sure what exactly these massive bones belong to.'
       + ' Crey refuses to comment, claiming that the bones are from ancient dinosaurs, though paleontologists refute the claim, saying it looks like no dinosaur they have on record.'
       + ' Despite a lack of evidence, signs point to some sort of genetic shenanigans on Crey\'s part.',
   }],
-  notes: `Located in the Cutlass Isles neighborhood of ${mapLink(PeregrineIsland)}.
+  notes: `Located in the Cutlass Isles neighborhood of ${zoneLink(PeregrineIsland)}.
 
           It is under the large skeleton 277 yards southwest of the neighborhood marker.`,
   links: [

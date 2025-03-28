@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 
 export const SeaDog: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const SeaDog: BadgeData = {
   setTitle: { id: 197 },
   name: [{ value: 'Sea Dog' }],
   alignment: ['H'],
-  mapKey: StrigaIsle.key,
+  zoneKey: StrigaIsle.key,
   loc: [-470, 0, 1020],
   badgeText: [{
     value: 'Port Noble\'s shipping industry has declined of late, as Paragon City\'s manufacturing has taken a hit in the wake of the Rikti War.'
       + ' Now, with the Council plaguing Striga Isle, the situation has gone from bad to worse.',
   }],
-  notes: `Located in ${mapLink(StrigaIsle)} at the end of a dock 440 yards east of the ferry.`,
+  notes: `Located in ${zoneLink(StrigaIsle)} at the end of a dock 440 yards east of the ferry.`,
   links: [
     { title: 'Sea Dog Badge', href: 'https://homecoming.wiki/wiki/Sea_Dog_Badge' },
   ],

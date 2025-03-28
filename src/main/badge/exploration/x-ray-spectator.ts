@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { FirebaseZulu } from '../../map/firebase-zulu'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { FirebaseZulu } from '../../zone/firebase-zulu'
 
 export const XRaySpectator: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const XRaySpectator: BadgeData = {
   setTitle: { id: 1802 },
   name: [{ value: 'X-Ray Spectator' }],
   alignment: ['H'],
-  mapKey: FirebaseZulu.key,
+  zoneKey: FirebaseZulu.key,
   loc: [-3222, 1289, 111],
   badgeText: [{
     value: 'The soldiers of Point X-Ray like to call themselves the "X-Raiders."'
@@ -16,7 +16,7 @@ export const XRaySpectator: BadgeData = {
       + ' against the "hostiles" and so they offer you a grudging respect.'
       + ' Though they are not ready to give you the title of fellow X-Raider... yet.',
   }],
-  notes: `Located in ${mapLink(FirebaseZulu)} 208 yards NW of the Point X-Ray marker, on top of the base's outer wall.`,
+  notes: `Located in ${zoneLink(FirebaseZulu)} 208 yards NW of the Point X-Ray marker, on top of the base's outer wall.`,
   links: [
     { title: 'X-Ray Spectator Badge', href: 'https://homecoming.wiki/wiki/X-Ray_Spectator_Badge' },
   ],

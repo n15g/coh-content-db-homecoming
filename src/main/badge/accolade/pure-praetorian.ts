@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { NovaPraetoria } from '../../map/nova-praetoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { NovaPraetoria } from '../../zone/nova-praetoria'
 import { Ambitious } from '../exploration/ambitious'
 import { CitizenCole } from '../exploration/citizen-cole'
 import { CivicMinded } from '../exploration/civic-minded'
@@ -20,7 +20,7 @@ export const PurePraetorian: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(NovaPraetoria)}`,
+  notes: `Visit all exploration badges in ${zoneLink(NovaPraetoria)}`,
   links: [
     { title: 'Pure Praetorian Badge', href: 'https://homecoming.wiki/wiki/Pure_Praetorian_Badge' },
   ],

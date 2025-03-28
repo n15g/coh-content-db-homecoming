@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheChantry } from '../../map/the-chantry'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheChantry } from '../../zone/the-chantry'
 
 export const RedFog: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const RedFog: BadgeData = {
   setTitle: { id: 1819 },
   name: [{ value: 'Red Fog' }],
   alignment: ['H'],
-  mapKey: TheChantry.key,
+  zoneKey: TheChantry.key,
   loc: [-7523, 1893, 4177],
   badgeText: [{
     value: 'You have been manipulated by this place.'
@@ -18,7 +18,7 @@ export const RedFog: BadgeData = {
       + ' You feel anger growing like a cancer at the center of your being, a burning rage at every little indignity you\'ve been made to suffer here.'
       + ' Each step you take is fueled by your anger; you will make the Shadow Shard and the things that call this place home pay for what they\'ve done to you.',
   }],
-  notes: `Located in ${mapLink(TheChantry)} 240 yards NW of the Path of Rage marker, just west of the geyser.`,
+  notes: `Located in ${zoneLink(TheChantry)} 240 yards NW of the Path of Rage marker, just west of the geyser.`,
   links: [
     { title: 'Red Fog Badge', href: 'https://homecoming.wiki/wiki/Red_Fog_Badge' },
   ],

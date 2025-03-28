@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Vigilant: BadgeData = {
   type: 'ACCOLADE',
@@ -13,7 +13,7 @@ export const Vigilant: BadgeData = {
     { alignment: 'H', value: `You're always there when the people of Paragon City need you.` },
     { alignment: 'V', value: `Your shadow looms over not only the Rogue Isles and Paragon City, but the entire world.` },
   ],
-  acquisition: `Complete every story arc in ${mapLink(RiktiWarZone)}`,
+  acquisition: `Complete every story arc in ${zoneLink(RiktiWarZone)}`,
   notes: `This badge rewards 20 reward merits for completing the following story arcs (contact in parentheses):
             * Welcome to Vanguard (Levantera)
             * The Strange Case of Benjamin A. Decker (Levantera)

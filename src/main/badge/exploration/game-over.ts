@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Warburg } from '../../map/warburg'
+import { Warburg } from '../../zone/warburg'
 
 export const GameOver: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const GameOver: BadgeData = {
   name: [{ value: 'Game Over' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `This bunker was where the Council made their final stand against Arachnos. The battle for the bunker lasted two weeks, until Lord Recluse was forced to personally lead the final assault.` }],
-  mapKey: Warburg.key,
+  zoneKey: Warburg.key,
   loc: [-1178, 98, -724],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

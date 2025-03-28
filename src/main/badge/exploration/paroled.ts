@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StMartial } from '../../map/st-martial'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StMartial } from '../../zone/st-martial'
 
 export const Paroled: BadgeData = {
   type: 'EXPLORATION',
@@ -10,14 +10,14 @@ export const Paroled: BadgeData = {
     { alignment: 'V', value: 'Crimelord' },
   ],
   alignment: ['V'],
-  mapKey: StMartial.key,
+  zoneKey: StMartial.key,
   loc: [-896, 9, -1496],
   badgeText: [{
     alignment: 'H', value: `Most of Paragon City agrees that you've paid your debt to society. Most, but not all.`,
   }, {
     alignment: 'V', value: `The weeds of crime bear bitter fruit.`,
   }],
-  notes: `Located in ${mapLink(StMartial)}, in the Fortune's Wheel neighborhood.
+  notes: `Located in ${zoneLink(StMartial)}, in the Fortune's Wheel neighborhood.
 
 The marker is 138 yards west of the Fortune's Wheel marker, at the base of a tree in the middle of a broken road leading out of the Black Mariah neighborhood.`,
   links: [

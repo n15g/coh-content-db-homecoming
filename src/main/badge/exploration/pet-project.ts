@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const PetProject: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const PetProject: BadgeData = {
   setTitle: { id: 1532 },
   name: [{ value: 'Pet Project' }],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-4073, 0, -3297],
   badgeText: [{
     value: 'Officials in Steel Canyon have kept secret what exactly they\'ve been working on here.'

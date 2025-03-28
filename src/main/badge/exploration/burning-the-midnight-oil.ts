@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CreysFolly } from '../../map/creys-folly'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CreysFolly } from '../../zone/creys-folly'
 
 export const BurningTheMidnightOil: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const BurningTheMidnightOil: BadgeData = {
   setTitle: { id: 139 },
   name: [{ value: 'Burning the Midnight Oil' }],
   alignment: ['H'],
-  mapKey: CreysFolly.key,
+  zoneKey: CreysFolly.key,
   loc: [840, 24, 1798],
   badgeText: [{
     value: 'The United States once held their oil reserves in Paragon City, until the reserves became an attractive target for villains trying to make names for themselves.',
   }],
-  notes: `Located in ${mapLink(CreysFolly)} on a catwalk 180 yards northwest of the Crey Factories marker.
+  notes: `Located in ${zoneLink(CreysFolly)} on a catwalk 180 yards northwest of the Crey Factories marker.
 
           It is on the western side of the second silo rising out of the sludge, from left (north) to right (south).`,
   links: [

@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Eden } from '../../map/eden'
-import { TheHive } from '../../map/the-hive'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Eden } from '../../zone/eden'
+import { TheHive } from '../../zone/the-hive'
 
 export const NaturalSelection: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const NaturalSelection: BadgeData = {
   setTitle: { id: 1847 },
   name: [{ value: 'Natural Selection' }],
   alignment: ['H'],
-  mapKey: Eden.key,
+  zoneKey: Eden.key,
   loc: [3132, 153, 4527],
   badgeText: [{
     value: `It is difficult to remain unaffected by the display of Hamidon's might.
@@ -16,7 +16,7 @@ export const NaturalSelection: BadgeData = {
             How anyone could not feel insignificant before it is a mystery.
             But then you realize that this is merely another seduction perpetrated by Hamidon, to weaken your resolve and steal from you the urge to resist the Devouring Earth and the danger they represent.`,
   }],
-  notes: `Located in ${mapLink(Eden)} 392 yards SSW of ${mapLink(TheHive)} marker, at the base of a spire on a cliff in the southwest corner of the zone.`,
+  notes: `Located in ${zoneLink(Eden)} 392 yards SSW of ${zoneLink(TheHive)} marker, at the base of a spire on a cliff in the southwest corner of the zone.`,
   links: [
     { title: 'Natural Selection Badge', href: 'https://homecoming.wiki/wiki/Natural_Selection_Badge' },
   ],

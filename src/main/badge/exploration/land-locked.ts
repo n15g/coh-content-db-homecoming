@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 
 export const LandLocked: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const LandLocked: BadgeData = {
   setTitle: { id: 95 },
   name: [{ value: 'Land Locked' }],
   alignment: ['H'],
-  mapKey: EchoGalaxyCity.key,
+  zoneKey: EchoGalaxyCity.key,
   loc: [-2036, -43, 1000],
   badgeText: [{ value: 'This lock holds back the waters of Eastgate Bay, and has been the target of many super criminals bent on flooding Galaxy City.' }],
   notes: 'The Land Locked Badge is located in the Gemini Park neighborhood in Echo: Galaxy City.'

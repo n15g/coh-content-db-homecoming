@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ImperialCity } from '../../map/imperial-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ImperialCity } from '../../zone/imperial-city'
 import { TiberianOverseer } from '../exploration/tiberian-overseer'
 import { PraetorianOfPrivilege } from '../exploration/praetorian-of-privilege'
 import { GoldDigger } from '../exploration/gold-digger'
@@ -20,7 +20,7 @@ export const EmperorForADay: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Imperial City.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(ImperialCity)}`,
+  notes: `Visit all exploration badges in ${zoneLink(ImperialCity)}`,
   links: [
     { title: 'Emperor for a Day Badge', href: 'https://homecoming.wiki/wiki/Emperor_for_a_Day_Badge' },
   ],

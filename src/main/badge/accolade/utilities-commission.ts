@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TerraVolta } from '../../map/terra-volta'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TerraVolta } from '../../zone/terra-volta'
 import { ConjunctionJunction } from '../exploration/conjunction-junction'
 import { DangerDanger } from '../exploration/danger-danger'
 import { GuardianOfTheVolts } from '../exploration/guardian-of-the-volts'
@@ -20,7 +20,7 @@ export const UtilitiesCommission: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Terra Volta.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(TerraVolta)}`,
+  notes: `Visit all exploration badges in ${zoneLink(TerraVolta)}`,
   links: [
     { title: 'Utilities Commission Badge', href: 'https://homecoming.wiki/wiki/Utilities_Commission_Badge' },
   ],

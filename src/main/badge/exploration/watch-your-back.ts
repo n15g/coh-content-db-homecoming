@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { ReclusesVictory } from '../../map/recluses-victory'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const WatchYourBack: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const WatchYourBack: BadgeData = {
   name: [{ value: 'Watch Your Back' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `This tunnel leads directly to the Arachnos base. Freedom Corps used it as a staging area for surprise attacks until they were finally driven off and the tunnel entrance closed.` }],
-  mapKey: ReclusesVictory.key,
+  zoneKey: ReclusesVictory.key,
   loc: [-1343.7, -41.7, -1539.7],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

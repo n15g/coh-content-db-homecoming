@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoFaultline } from '../../map/echo-faultline'
-import { Faultline } from '../../map/faultline'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoFaultline } from '../../zone/echo-faultline'
+import { Faultline } from '../../zone/faultline'
 
 export const FaultlessMystic: BadgeData = {
   type: 'EXPLORATION',
@@ -9,9 +9,9 @@ export const FaultlessMystic: BadgeData = {
   name: [{ value: 'Faultless Mystic' }],
   alignment: ['H'],
   badgeText: [{ value: `Ley Lines are powerful forces of mystical energy that crisscross the planet. Paragon City's proximity to Ley Line crossings makes it a prime location for magical villain groups.` }],
-  mapKey: EchoFaultline.key,
+  zoneKey: EchoFaultline.key,
   loc: [-843.6, -406.8, -715.2],
-  notes: `**Moved from ${mapLink(Faultline)} in Issue 25.**
+  notes: `**Moved from ${zoneLink(Faultline)} in Issue 25.**
 
           Approx. 173 yrds NNE of the "Precipice" marker in the crevice next to a burn out car.`,
   links: [

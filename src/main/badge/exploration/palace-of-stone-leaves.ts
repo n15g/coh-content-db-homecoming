@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { DarkAstoria } from '../../map/dark-astoria'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const PalaceOfStoneLeaves: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const PalaceOfStoneLeaves: BadgeData = {
   setTitle: { id: 2180 },
   name: [{ value: 'Palace of Stone Leaves' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: DarkAstoria.key,
+  zoneKey: DarkAstoria.key,
   loc: [4160, -42, 720],
   badgeText: [{
     value: `Even with every man, woman and child in Dark Astoria slaughtered, the city never ceased to be a thriving metropolis.
@@ -16,7 +16,7 @@ Forced to remain as ghosts among the empty remnants of their city, the citizens 
 Founded by a powerful Tsoo ancestor spirit, the Palace of Stone Leaves was the nerve center of this ghostly community.
 Now a refuge protected vigorously by its living Tsoo guardians, it houses the few remaining spirits that were lucky enough to not be swept away and consumed when Mot first stirred from its slumber.`,
   }],
-  notes: `Located in ${mapLink(DarkAstoria)} in the Barca Plaza neighborhood. Located 212 yards north of the Barca marker, in the middle of the area behind the skyscraper.`,
+  notes: `Located in ${zoneLink(DarkAstoria)} in the Barca Plaza neighborhood. Located 212 yards north of the Barca marker, in the middle of the area behind the skyscraper.`,
   links: [
     { title: 'Palace of Stone Leaves Badge', href: 'https://homecoming.wiki/wiki/Palace_of_Stone_Leaves_Badge' },
   ],

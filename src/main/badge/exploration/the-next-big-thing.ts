@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MercyIsland } from '../../map/mercy-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MercyIsland } from '../../zone/mercy-island'
 
 export const TheNextBigThing: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const TheNextBigThing: BadgeData = {
   setTitle: { id: 267 },
   name: [{ value: 'The Next Big Thing' }],
   alignment: ['V'],
-  mapKey: MercyIsland.key,
+  zoneKey: MercyIsland.key,
   loc: [-1215, 239, -153],
   badgeText: [{
     value: `This is the good life. The higher up you get, the bigger you are.`,
   }],
-  notes: `Located on ${mapLink(MercyIsland)}, just inside the Mercy neighborhood at the top of the high wall surrounding it.
+  notes: `Located on ${zoneLink(MercyIsland)}, just inside the Mercy neighborhood at the top of the high wall surrounding it.
 
           If you take the elevator up from Mongoose's location and walk straight towards Arbiter Richard, the badge marker is about halfway to the Arbiter.`,
   links: [

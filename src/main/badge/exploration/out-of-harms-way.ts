@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoAtlasPark } from '../../map/echo-atlas-park'
+import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 
 export const OutOfHarmsWay: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const OutOfHarmsWay: BadgeData = {
   name: [{ value: 'Out of Harm\'s Way' }],
   alignment: ['H'],
   badgeText: [{ value: `When the Rikti invaded, their drop ships scattered bombs from every corner of the sky. Tunnels like this one were strong enough to withstand the blasts.` }],
-  mapKey: EchoAtlasPark.key,
+  zoneKey: EchoAtlasPark.key,
   loc: [1150.1, 0, -1597.5],
   notes: `Located 264 yards North of the Prometheus Park marker, in an east-west traffic tunnel/underpass.`,
   links: [

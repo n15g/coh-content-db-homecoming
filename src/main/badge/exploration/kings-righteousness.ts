@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardKingsRow } from '../../map/safeguard-kings-row'
+import { SafeguardKingsRow } from '../../zone/safeguard-kings-row'
 
 export const KingsRighteousness: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const KingsRighteousness: BadgeData = {
     { alignment: 'V', value: 'King\'s Capriciousness' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardKingsRow.key,
+  zoneKey: SafeguardKingsRow.key,
   badgeText: [{ value: 'The Clockwork Paladin, a menace to the city, was once spotted running around in this area.' }],
   loc: [670, -42, -2350],
   notes: 'The King\'s Righteousness Badge is located in the Kings Row Safeguard Mission.\n'

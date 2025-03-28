@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MonsterIsland } from '../../map/monster-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MonsterIsland } from '../../zone/monster-island'
 
 export const MisfitMonstrosity: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const MisfitMonstrosity: BadgeData = {
   setTitle: { id: 1874 },
   name: [{ value: 'Misfit Monstrosity' }],
   alignment: ['V'],
-  mapKey: MonsterIsland.key,
+  zoneKey: MonsterIsland.key,
   loc: [2931, 0, -7405],
   badgeText: [{
     value: `On this distant, lonely island you find some Devouring Earth monsters who seem to have separated themselves from their brethren,
@@ -17,7 +17,7 @@ export const MisfitMonstrosity: BadgeData = {
             Did they fail to pay the proper obeisance to Hamidon, their lord and master?
             It matters not, they seem just as interested in grinding you underfoot as any other monster here.`,
   }],
-  notes: `Located in ${mapLink(MonsterIsland)}, 249 yards northwest of the Tempest Quay marker, near the northern edge of the small island.`,
+  notes: `Located in ${zoneLink(MonsterIsland)}, 249 yards northwest of the Tempest Quay marker, near the northern edge of the small island.`,
   links: [
     { title: 'Misfit Monstrosity Badge', href: 'https://homecoming.wiki/wiki/Misfit_Monstrosity_Badge' },
   ],

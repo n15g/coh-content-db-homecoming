@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TalosIsland } from '../../map/talos-island'
+import { TalosIsland } from '../../zone/talos-island'
 
 export const Minotaur: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Minotaur: BadgeData = {
   setTitle: { id: 125 },
   name: [{ value: 'Minotaur' }],
   alignment: ['H'],
-  mapKey: TalosIsland.key,
+  zoneKey: TalosIsland.key,
   loc: [1698, 16, 7697],
   badgeText: [{
     value: 'While wrestling with the Chimera in the waters of the bay, Talos tore a rift in the ocean floor.'

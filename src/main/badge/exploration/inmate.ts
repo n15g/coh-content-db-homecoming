@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Brickstown } from '../../map/brickstown'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Brickstown } from '../../zone/brickstown'
 
 export const Inmate: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Inmate: BadgeData = {
   setTitle: { id: 137 },
   name: [{ value: 'Inmate' }],
   alignment: ['H'],
-  mapKey: Brickstown.key,
+  zoneKey: Brickstown.key,
   loc: [-1726, 24, 1153],
   badgeText: [{
     value: 'Zigursky Penitentiary is where all criminals both mundane and super-powered end up.',
   }],
-  notes: `Located in The Ziggurat neighborhood of ${mapLink(Brickstown)}.
+  notes: `Located in The Ziggurat neighborhood of ${zoneLink(Brickstown)}.
 
           It can be found at the front entrance of the Zigursky Penitentiary located on the west side of the structure.`,
   links: [

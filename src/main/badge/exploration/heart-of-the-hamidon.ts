@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { TheHive } from '../../map/the-hive'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheHive } from '../../zone/the-hive'
 
 export const HeartOfTheHamidon: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const HeartOfTheHamidon: BadgeData = {
   setTitle: { id: 143 },
   name: [{ value: 'Heart of the Hamidon' }],
   alignment: ['H'],
-  mapKey: TheHive.key,
+  zoneKey: TheHive.key,
   loc: [-3, -338, -2183],
   badgeText: [{
     value: `The Hamidon has defeated many heroes.`,
   }],
-  notes: `Located in the dead center of ${mapLink(TheHive)}, where Hamidon appears.`,
+  notes: `Located in the dead center of ${zoneLink(TheHive)}, where Hamidon appears.`,
   links: [
     { title: 'Heart of the Hamidon Badge', href: 'https://homecoming.wiki/wiki/Heart_of_the_Hamidon_Badge' },
   ],

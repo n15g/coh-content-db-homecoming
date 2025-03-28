@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const BrightStar: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const BrightStar: BadgeData = {
   setTitle: { id: 109 },
   name: [{ value: 'Bright Star' }],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-3001.3, -26.2, 1830],
   badgeText: [{
     value: 'The first Luminary used her light-based powers to disrupt the formation of a large portal to the Rikti homeworld on this spot.',

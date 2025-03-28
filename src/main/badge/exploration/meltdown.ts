@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TerraVolta } from '../../map/terra-volta'
+import { TerraVolta } from '../../zone/terra-volta'
 
 export const Meltdown: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Meltdown: BadgeData = {
   setTitle: { id: 132 },
   name: [{ value: 'Meltdown' }],
   alignment: ['H'],
-  mapKey: TerraVolta.key,
+  zoneKey: TerraVolta.key,
   loc: [1120, 721, -3080],
   badgeText: [{
     value: `Covert Rikti strike teams have attempted to destroy the Terra Volta reactor on more than one occasion.`,

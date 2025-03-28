@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Brickstown } from '../../map/brickstown'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Brickstown } from '../../zone/brickstown'
 
 export const ForwardThinker: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const ForwardThinker: BadgeData = {
   setTitle: { id: 1567 },
   name: [{ value: 'Forward Thinker' }],
   alignment: ['H'],
-  mapKey: Brickstown.key,
+  zoneKey: Brickstown.key,
   loc: [254, 31.8, -1343.5],
   badgeText: [{
     value: 'The Mashu bridge was built in Brickstown long before construction on the Zig began.'
@@ -15,7 +15,7 @@ export const ForwardThinker: BadgeData = {
       + ' It was only shortly afterward that plans for the Zig were created, driving the majority of business owners out from Brickstown and into Steel Canyon,'
       + ' rendering Mashu bridge nothing but an odd landmark.',
   }],
-  notes: `Located on the Mashu Bridge in ${mapLink(Brickstown)}, 97 feet east of the neighborhood marker.`,
+  notes: `Located on the Mashu Bridge in ${zoneLink(Brickstown)}, 97 feet east of the neighborhood marker.`,
   links: [
     { title: 'Forward Thinker Badge', href: 'https://homecoming.wiki/wiki/Forward_Thinker_Badge' },
   ],

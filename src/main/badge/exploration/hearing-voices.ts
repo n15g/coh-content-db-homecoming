@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CascadeArchipelago } from '../../map/cascade-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 
 export const HearingVoices: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const HearingVoices: BadgeData = {
   setTitle: { id: 1808 },
   name: [{ value: 'Hearing Voices' }],
   alignment: ['H'],
-  mapKey: CascadeArchipelago.key,
+  zoneKey: CascadeArchipelago.key,
   loc: [-4717, 1326, -2965],
   badgeText: [{
     value: 'Low voices vibrate the very air around you, issuing from no mouths that you can see.'
@@ -16,7 +16,7 @@ export const HearingVoices: BadgeData = {
       + ' It is not long before you realize that the chanting is not coming from without, but from within, from you.'
       + ' It is your own mouth that chants this dark refrain, something commands you to speak and unless you leave now you wonder if you will ever stop.',
   }],
-  notes: `Located in ${mapLink(CascadeArchipelago)} 441 yards NNW of The Chanting Island marker, just west of the bunker embedded in rock.`,
+  notes: `Located in ${zoneLink(CascadeArchipelago)} 441 yards NNW of The Chanting Island marker, just west of the bunker embedded in rock.`,
   links: [
     { title: 'Hearing Voices Badge', href: 'https://homecoming.wiki/wiki/Hearing_Voices_Badge' },
   ],

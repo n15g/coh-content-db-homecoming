@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemIndependencePort } from '../../map/mayhem-independence-port'
+import { MayhemIndependencePort } from '../../zone/mayhem-independence-port'
 
 export const Revolutionary: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const Revolutionary: BadgeData = {
     { alignment: 'V', value: 'Tyrannical' },
   ],
   alignment: ['V'],
-  mapKey: MayhemIndependencePort.key,
+  zoneKey: MayhemIndependencePort.key,
   badgeText: [{
     alignment: 'H', value: 'The Family doesn\'t make as many deals on the beach in Independance Port since you started working in Paragon.',
   }, {

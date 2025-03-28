@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { MayhemTalosIsland } from '../../map/mayhem-talos-island'
+import { MayhemTalosIsland } from '../../zone/mayhem-talos-island'
 
 export const TalonOfTalos: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const TalonOfTalos: BadgeData = {
   setTitle: { id: 560 },
   name: [{ value: 'Talon of Talos' }],
   alignment: ['V'],
-  mapKey: MayhemTalosIsland.key,
+  zoneKey: MayhemTalosIsland.key,
   badgeText: [{
     alignment: 'H', value: 'You know all the possible places where criminals lurk to ambush people in Talos - knowledge that only someone from the other side could have.',
   }, {

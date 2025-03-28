@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { FirstWard } from '../../map/first-ward'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { FirstWard } from '../../zone/first-ward'
 
 export const MayhemsProdigal: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const MayhemsProdigal: BadgeData = {
   setTitle: { id: 2052 },
   name: [{ value: 'Mayhem\'s Prodigal' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: FirstWard.key,
+  zoneKey: FirstWard.key,
   loc: [2469, 251, 2254],
   badgeText: [{
     value: `This is where it all started. When First Ward was still a tyrant's dream, the true Mother of Mercy Hospital was already an aging heap of Gothic masonry.
@@ -16,7 +16,7 @@ No one is sure exactly when Praetor Tilman built this hospital, or why she built
 So close to Mother Mayhem now, you can feel the weight of her psyche pressing down upon you, can feel her sightless gaze turn to you, condemning and welcoming at the same time:
  as with the return of a prodigal child.`,
   }],
-  notes: `Located in ${mapLink(FirstWard)} in the Mother of Mecy Hospital neighborhood, about 3 feet away from the map marker.`,
+  notes: `Located in ${zoneLink(FirstWard)} in the Mother of Mecy Hospital neighborhood, about 3 feet away from the map marker.`,
   links: [
     { title: 'Mayhem\'s Prodigal Badge', href: 'https://homecoming.wiki/wiki/Mayhem%27s_Prodigal_Badge' },
   ],

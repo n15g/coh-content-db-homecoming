@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { StrigaIsle } from '../../map/striga-isle'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { StrigaIsle } from '../../zone/striga-isle'
 
 export const TheWolfsMaw: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const TheWolfsMaw: BadgeData = {
   setTitle: { id: 1789 },
   name: [{ value: 'The Wolf\'s Maw' }],
   alignment: ['H'],
-  mapKey: StrigaIsle.key,
+  zoneKey: StrigaIsle.key,
   loc: [-3840, 0, -1971],
   badgeText: [{
     value: 'This heavily fortified gate leads into the Council base, but in truth it is a trap: a tantalizing lure devised to lure in the overconfident and unwary.'
@@ -17,7 +17,7 @@ export const TheWolfsMaw: BadgeData = {
       + ' Since then, the Council have doubled the guard and sealed off any exits just inside the door.'
       + ' Council researchers believe the Banished Pantheon has employed a Hand of Glory to keep the entrance open.',
   }],
-  notes: `Located in ${mapLink(StrigaIsle)} 212 yards east of the Wolf's Throat marker, in the middle of the gated entrance to the Council base.`,
+  notes: `Located in ${zoneLink(StrigaIsle)} 212 yards east of the Wolf's Throat marker, in the middle of the gated entrance to the Council base.`,
   links: [
     { title: 'The Wolf\'s Maw Badge', href: 'https://homecoming.wiki/wiki/The_Wolf%27s_Maw_Badge' },
   ],

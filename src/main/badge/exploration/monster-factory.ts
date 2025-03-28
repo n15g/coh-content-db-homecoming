@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MonsterIsland } from '../../map/monster-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MonsterIsland } from '../../zone/monster-island'
 
 export const MonsterFactory: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const MonsterFactory: BadgeData = {
   setTitle: { id: 1875 },
   name: [{ value: 'Monster Factory' }],
   alignment: ['V'],
-  mapKey: MonsterIsland.key,
+  zoneKey: MonsterIsland.key,
   loc: [-1705, 47, -7378],
   badgeText: [{
     value: `Mankind has a long history of creating monsters that escape their control and ultimately turn on them.
@@ -18,7 +18,7 @@ export const MonsterFactory: BadgeData = {
             Others have tried to replicate his success and failed to achieve a fraction of his ability.
             This island is a living testimony to Hamidon's power to transcend human limitations: observe and learn.`,
   }],
-  notes: `Located in ${mapLink(MonsterIsland)}, 239 yards northwest of the Cutlass Isles marker, roughly in the center of the rooftop of the southern elongated building.`,
+  notes: `Located in ${zoneLink(MonsterIsland)}, 239 yards northwest of the Cutlass Isles marker, roughly in the center of the rooftop of the southern elongated building.`,
   links: [
     { title: 'Monster Factory Badge', href: 'https://homecoming.wiki/wiki/Monster_Factory_Badge' },
   ],

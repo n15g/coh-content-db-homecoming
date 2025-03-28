@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PortOakes } from '../../map/port-oakes'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PortOakes } from '../../zone/port-oakes'
 
 export const BigSpider: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const BigSpider: BadgeData = {
   setTitle: { id: 1488 },
   name: [{ value: 'Big Spider' }],
   alignment: ['V'],
-  mapKey: PortOakes.key,
+  zoneKey: PortOakes.key,
   loc: [-1023, 97, -896],
   badgeText: [{
     value: `This towering skyscraper used to belong to the Marcones before Arachnos seized it for the purpose of "overseeing operations in Port Oakes."
  The Marcones have been bitter about it ever since.`,
   }],
-  notes: `Located in ${mapLink(PortOakes)}, in the Marconeville neighborhood.
+  notes: `Located in ${zoneLink(PortOakes)}, in the Marconeville neighborhood.
 
 It is at the base of the stairs in front of the Supergroup building, 54 yards north of the neighborhood marker.`,
   links: [

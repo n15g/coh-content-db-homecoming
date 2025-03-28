@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IndependencePort } from '../../map/independence-port'
+import { IndependencePort } from '../../zone/independence-port'
 
 export const Vigorous: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Vigorous: BadgeData = {
   setTitle: { id: 124 },
   name: [{ value: 'Vigorous' }],
   alignment: ['H'],
-  mapKey: IndependencePort.key,
+  zoneKey: IndependencePort.key,
   loc: [-1615, 80, -1872],
   badgeText: [{
     value: 'Sister Psyche\'s greatest nemesis was the insane Malaise.'

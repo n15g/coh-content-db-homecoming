@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Boomtown } from '../../map/boomtown'
+import { Boomtown } from '../../zone/boomtown'
 
 export const VisionOfDespair: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const VisionOfDespair: BadgeData = {
   setTitle: { id: 116 },
   name: [{ value: 'Vision of Despair' }],
   alignment: ['H'],
-  mapKey: Boomtown.key,
+  zoneKey: Boomtown.key,
   loc: [-754, 0, -595],
   badgeText: [{ value: 'An unnatural feeling of dread permeates the area in what is now called the Pit of Despair.' }],
   notes: 'The Vision of Despair Badge is located in a pit 470 yards east of the Grenadier Village marker - or 1.19 miles NNW of the gate to Steel Canyon.'

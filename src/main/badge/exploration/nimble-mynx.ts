@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const NimbleMynx: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const NimbleMynx: BadgeData = {
   setTitle: { id: 108 },
   name: [{ value: 'Nimble Mynx' }],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-2428, 48, -3408],
   badgeText: [{
     value: 'This spot is where Synapse first found Mynx and began training her.',

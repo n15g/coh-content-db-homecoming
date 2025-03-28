@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Boomtown } from '../../map/boomtown'
+import { Boomtown } from '../../zone/boomtown'
 
 export const CorpseBox: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const CorpseBox: BadgeData = {
   setTitle: { id: 1780 },
   name: [{ value: 'Corpse Box' }],
   alignment: ['H'],
-  mapKey: Boomtown.key,
+  zoneKey: Boomtown.key,
   loc: [-4516, 1, -1262],
   badgeText: [{
     value: 'The stench of death clings to this forlorn cargo container. The Vahzilok are rumored to store corpses there for later use in their blasphemous experiments.'

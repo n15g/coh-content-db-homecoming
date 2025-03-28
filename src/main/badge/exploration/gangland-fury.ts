@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheHollows } from '../../map/the-hollows'
+import { TheHollows } from '../../zone/the-hollows'
 
 export const GanglandFury: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const GanglandFury: BadgeData = {
   setTitle: { id: 199 },
   name: [{ value: 'Gangland Fury' }],
   alignment: ['H'],
-  mapKey: TheHollows.key,
+  zoneKey: TheHollows.key,
   loc: [-728, -11, -3518],
   badgeText: [{
     value: 'Since the Hollowing, these streets have turned into a war zone between the Trolls and the Outcasts.'

@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { Eden } from '../../map/eden'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Eden } from '../../zone/eden'
 
 export const Unspoiled: BadgeData = {
   type: 'EXPLORATION',
@@ -7,12 +7,12 @@ export const Unspoiled: BadgeData = {
   setTitle: { id: 141 },
   name: [{ value: 'Unspoiled' }],
   alignment: ['H'],
-  mapKey: Eden.key,
+  zoneKey: Eden.key,
   loc: [2482, 34, 2350],
   badgeText: [{
     value: `The beauty that is Eden Falls came at a terrible price.`,
   }],
-  notes: `Located in ${mapLink(Eden)} 105 yards south of The Cascades marker.`,
+  notes: `Located in ${zoneLink(Eden)} 105 yards south of The Cascades marker.`,
   links: [
     { title: 'Unspoiled Badge', href: 'https://homecoming.wiki/wiki/Unspoiled_Badge' },
   ],

@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardSkywayCity } from '../../map/safeguard-skyway-city'
+import { SafeguardSkywayCity } from '../../zone/safeguard-skyway-city'
 
 export const CourageDriven: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const CourageDriven: BadgeData = {
     { alignment: 'V', value: 'Rage Driven' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardSkywayCity.key,
+  zoneKey: SafeguardSkywayCity.key,
   badgeText: [{ value: 'The major highway that runs alongside this warehouse is frequently used by the "Dyne-addled" Supa-Trolls.' }],
   loc: [-945, 0, -3555],
   notes: 'The Courage Driven Badge is located in the Skyway City Safeguard Mission.\n'

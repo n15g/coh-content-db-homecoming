@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Croatoa } from '../../map/croatoa'
+import { Croatoa } from '../../zone/croatoa'
 
 export const Spiritual: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Spiritual: BadgeData = {
   setTitle: { id: 409 },
   name: [{ value: 'Spiritual' }],
   alignment: ['H'],
-  mapKey: Croatoa.key,
+  zoneKey: Croatoa.key,
   loc: [-2669, 11, 1102],
   badgeText: [{
     value: 'It may be in dangerous territory, but this lake, frequented by the Cabal\'s strange sprites, is one of the most beautiful sights near Salamanca.',

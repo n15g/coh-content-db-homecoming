@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { PortOakes } from '../../map/port-oakes'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { PortOakes } from '../../zone/port-oakes'
 
 export const CommutersWoe: BadgeData = {
   type: 'EXPLORATION',
@@ -7,13 +7,13 @@ export const CommutersWoe: BadgeData = {
   setTitle: { id: 1489 },
   name: [{ value: 'Commuter\'s Woe' }],
   alignment: ['V'],
-  mapKey: PortOakes.key,
+  zoneKey: PortOakes.key,
   loc: [1771, 64, -696],
   badgeText: [{
     value: `The Mount Diable Tunnel, destroyed following a turf war gone explosive, connected Port Oakes to Cap au Diable.
  Much to the chagrin of many commuters, no effort has been made to rebuild it.`,
   }],
-  notes: `Located in ${mapLink(PortOakes)}, in the Oil Spill neighborhood.
+  notes: `Located in ${zoneLink(PortOakes)}, in the Oil Spill neighborhood.
 
 It is at the blocked off tunnel 194 yards west of the Quartermaster.`,
   links: [

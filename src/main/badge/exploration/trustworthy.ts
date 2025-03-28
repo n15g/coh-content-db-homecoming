@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoAtlasPark } from '../../map/echo-atlas-park'
+import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 
 export const Trustworthy: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Trustworthy: BadgeData = {
   name: [{ value: 'Trustworthy' }],
   alignment: ['H'],
   badgeText: [{ value: `Mystics all over the world entrust MAGI with powerful artifacts.` }],
-  mapKey: EchoAtlasPark.key,
+  zoneKey: EchoAtlasPark.key,
   loc: [-129.2, -783.8, -805.4],
   notes: 'Located next to the large green crystal in the MAGI office.',
   links: [

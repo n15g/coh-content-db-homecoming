@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const Upgraded: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Upgraded: BadgeData = {
   setTitle: { id: 97 },
   name: [{ value: 'Upgraded' }],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [-496, 101, 768],
   badgeText: [{
     value: 'Kord Technologies makes its home in this building, and Tony Kord frequently uses his personal helicopter to commute to work.',

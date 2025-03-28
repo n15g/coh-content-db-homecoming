@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TerraVolta } from '../../map/terra-volta'
+import { TerraVolta } from '../../zone/terra-volta'
 
 export const GuardianOfTheVolts: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const GuardianOfTheVolts: BadgeData = {
   setTitle: { id: 1837 },
   name: [{ value: 'Guardian of the Volts' }],
   alignment: ['H'],
-  mapKey: TerraVolta.key,
+  zoneKey: TerraVolta.key,
   loc: [1313, 40, -6016],
   badgeText: [{
     value: `You stand along the vital corridor through which flows the power of Terra Volta's reactor.

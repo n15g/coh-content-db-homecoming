@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Ouroboros } from '../../map/ouroboros'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Chrononaut: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Chrononaut: BadgeData = {
   setTitle: { id: 947 },
   name: [{ value: 'Chrononaut' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: Ouroboros.key,
+  zoneKey: Ouroboros.key,
   loc: [543, 868, -768],
   badgeText: [{
     value: 'Welcome to Ouroboros. You have a feeling as if there is a lot of work that needs to be done.',

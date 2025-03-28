@@ -1,6 +1,6 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoRiktiCrashSite } from '../../map/echo-rikti-crash-site'
-import { RiktiWarZone } from '../../map/rikti-war-zone'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const UnderFire: BadgeData = {
   type: 'EXPLORATION',
@@ -8,10 +8,10 @@ export const UnderFire: BadgeData = {
   setTitle: { id: 751 },
   name: [{ value: 'Under Fire' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: EchoRiktiCrashSite.key,
+  zoneKey: EchoRiktiCrashSite.key,
   loc: [1628.6, 0.3, -1047.3],
   badgeText: [{ value: 'You just stepped into a major battle zone. Was this all that you signed up for?' }],
-  notes: `**Moved from ${mapLink(RiktiWarZone)} in Issue 25.**
+  notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
           Next to the road.`,
   links: [

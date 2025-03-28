@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { EchoFaultline } from '../../map/echo-faultline'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { EchoFaultline } from '../../zone/echo-faultline'
 import { Newsman } from '../exploration/newsman'
 import { FaultlessMystic } from '../exploration/faultless-mystic'
 import { Apex } from '../exploration/apex'
@@ -20,7 +20,7 @@ export const Epicenter: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Echo: Faultline.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(EchoFaultline)}`,
+  notes: `Visit all exploration badges in ${zoneLink(EchoFaultline)}`,
   links: [
     { title: 'Epicenter Badge', href: 'https://homecoming.wiki/wiki/Epicenter_Badge' },
   ],

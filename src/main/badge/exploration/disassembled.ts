@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Warburg } from '../../map/warburg'
+import { Warburg } from '../../zone/warburg'
 
 export const Disassembled: BadgeData = {
   type: 'EXPLORATION',
@@ -8,7 +8,7 @@ export const Disassembled: BadgeData = {
   name: [{ value: 'Disassembled' }],
   alignment: ['H', 'V', 'P'],
   badgeText: [{ value: `Whether intended or not, the structure in front of you looks like a 1980s novelty toy that has seen better days.` }],
-  mapKey: Warburg.key,
+  zoneKey: Warburg.key,
   loc: [-812, 18, -489],
   links: [
     { title: 'New PvP Exploration Badge List', href: 'https://forums.homecomingservers.com/topic/11053-new-pvp-exploration-badge-list/' },

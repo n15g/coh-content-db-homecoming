@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { SewerNetwork } from '../../map/sewer-network'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { SewerNetwork } from '../../zone/sewer-network'
 import { BaumtonAvenger } from '../exploration/baumton-avenger'
 import { DownwardBound } from '../exploration/downward-bound'
 import { Plutonian } from '../exploration/plutonian'
@@ -20,7 +20,7 @@ export const ApprenticePlumber: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Sewer Network.` },
   ],
-  notes: `Visit all exploration badges in ${mapLink(SewerNetwork)}`,
+  notes: `Visit all exploration badges in ${zoneLink(SewerNetwork)}`,
   links: [
     { title: 'Apprentice Plumber Badge', href: 'https://homecoming.wiki/wiki/Apprentice_Plumber_Badge' },
   ],

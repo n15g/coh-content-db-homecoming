@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { ArchitectEntertainmentBuildings } from '../../map/architect-entertainment-buildings'
+import { ArchitectEntertainmentBuildings } from '../../zone/architect-entertainment-buildings'
 
 export const ThrillSeeker: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const ThrillSeeker: BadgeData = {
   setTitle: { id: 1080 },
   name: [{ value: 'Thrill Seeker' }],
   alignment: ['H', 'V', 'P'],
-  mapKey: ArchitectEntertainmentBuildings.key,
+  zoneKey: ArchitectEntertainmentBuildings.key,
   badgeText: [{ value: 'You\'re always looking for new forms of entertainment, and it\'s said that the Mission Architect technology is entertainment in its purest form.' }],
   notes: 'Visit any Architect Entertainment Building\'s Main Studio floor.'
     + ' The coordinates of this Exploration Badge vary with each zone, but its relative location within the AE building is constant.'

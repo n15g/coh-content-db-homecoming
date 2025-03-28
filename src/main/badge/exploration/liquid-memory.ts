@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { CascadeArchipelago } from '../../map/cascade-archipelago'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 
 export const LiquidMemory: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const LiquidMemory: BadgeData = {
   setTitle: { id: 1809 },
   name: [{ value: 'Liquid Memory' }],
   alignment: ['H'],
-  mapKey: CascadeArchipelago.key,
+  zoneKey: CascadeArchipelago.key,
   loc: [-294, 568, 549],
   badgeText: [{
     value: 'You look upon this pool of red fluid and your mind says "blood." But despite this another part of your mind says "drink." And you do.'
@@ -16,7 +16,7 @@ export const LiquidMemory: BadgeData = {
       + ' sensation overload.'
       + ' You spit the liquid from your mouth and vow never to taste it again. But...',
   }],
-  notes: `Located in ${mapLink(CascadeArchipelago)} 492 yards west of the Crimson Falls marker, at the base of the waterfall.`,
+  notes: `Located in ${zoneLink(CascadeArchipelago)} 492 yards west of the Crimson Falls marker, at the base of the waterfall.`,
   links: [
     { title: 'Liquid Memory Badge', href: 'https://homecoming.wiki/wiki/Liquid_Memory_Badge' },
   ],

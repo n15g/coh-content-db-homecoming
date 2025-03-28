@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { MercyIsland } from '../../map/mercy-island'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { MercyIsland } from '../../zone/mercy-island'
 
 export const Widower: BadgeData = {
   type: 'EXPLORATION',
@@ -10,10 +10,10 @@ export const Widower: BadgeData = {
     { sex: 'F', value: 'Widow' },
   ],
   alignment: ['V'],
-  mapKey: MercyIsland.key,
+  zoneKey: MercyIsland.key,
   loc: [-3890, 407, 354],
   badgeText: [{ value: 'They say that lonely tower is the home of Ghost Widow, Lord Recluse\'s phantom servant.' }],
-  notes: `Located on ${mapLink(MercyIsland)}, outside the door of the very tall tower in the northeast corner of Fort Cerberus.`,
+  notes: `Located on ${zoneLink(MercyIsland)}, outside the door of the very tall tower in the northeast corner of Fort Cerberus.`,
   links: [
     { title: 'Widower Badge', href: 'https://homecoming.wiki/wiki/Widower_Badge' },
     { title: 'Widow Badge', href: 'https://homecoming.wiki/wiki/Widow_Badge' },

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const ManOfVengeance: BadgeData = {
   type: 'EXPLORATION',
@@ -10,7 +10,7 @@ export const ManOfVengeance: BadgeData = {
     { sex: 'F', value: 'Woman of Vengeance' },
   ],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [573, -42, 704],
   badgeText: [{
     value: 'This is the wreckage of a warehouse owned by the Family.'

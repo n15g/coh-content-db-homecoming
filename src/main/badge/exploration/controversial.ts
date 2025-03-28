@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const Controversial: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Controversial: BadgeData = {
   setTitle: { id: 1531 },
   name: [{ value: 'Controversial' }],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-4605, 3, -2600],
   badgeText: [{
     value: 'The statue of the heroine, "The Night Hammer" has been the focus of two controversies.'

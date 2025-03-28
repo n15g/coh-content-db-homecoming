@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Boomtown } from '../../map/boomtown'
+import { Boomtown } from '../../zone/boomtown'
 
 export const EndOfTheLine: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const EndOfTheLine: BadgeData = {
   setTitle: { id: 1779 },
   name: [{ value: 'End of the Line' }],
   alignment: ['H'],
-  mapKey: Boomtown.key,
+  zoneKey: Boomtown.key,
   loc: [-2658, 91, 4571],
   badgeText: [{
     value: 'On the day of the Rikti attack that wrought such devastation upon Baumton, this shattered monorail track was a scene of terror; one of many on that dark day.'

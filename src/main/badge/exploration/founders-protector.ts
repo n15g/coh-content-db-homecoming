@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
-import { SafeguardFoundersFalls } from '../../map/safeguard-founders-falls'
+import { SafeguardFoundersFalls } from '../../zone/safeguard-founders-falls'
 
 export const FoundersProtector: BadgeData = {
   type: 'EXPLORATION',
@@ -11,7 +11,7 @@ export const FoundersProtector: BadgeData = {
     { alignment: 'V', value: 'Founders\' Invader' },
   ],
   alignment: ['H'],
-  mapKey: SafeguardFoundersFalls.key,
+  zoneKey: SafeguardFoundersFalls.key,
   badgeText: [{ value: 'After a hostile takeover by the Council, this was one of the last places the few 5th Column troops were seen retreating.' }],
   loc: [3233, 0, 2055],
   notes: 'The Founders\' Protector Badge is located in the Founders\' Falls Safeguard Mission.\n'

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const Pwned: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Pwned: BadgeData = {
   setTitle: { id: 1527 },
   name: [{ value: 'Pwned' }],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [474, -42, -2685],
   badgeText: [{
     value: 'Locals in High Park have complained to the Pawn Store owner about fixing his sign, saying that it tends to draw the Freakshow to the neighborhood for laughs.'

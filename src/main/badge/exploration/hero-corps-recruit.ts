@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SteelCanyon } from '../../map/steel-canyon'
+import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const HeroCorpsRecruit: BadgeData = {
   type: 'EXPLORATION',
@@ -10,7 +10,7 @@ export const HeroCorpsRecruit: BadgeData = {
     { alignment: 'V', value: 'Hero Corps Reject' },
   ],
   alignment: ['H'],
-  mapKey: SteelCanyon.key,
+  zoneKey: SteelCanyon.key,
   loc: [-1764, 16, 1364],
   badgeText: [{
     value: 'Hero Corps is not only a Corps of people, but also a Corporation, selling their super-powered services to those willing to foot the bill.',

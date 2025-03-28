@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KingsRow } from '../../map/kings-row'
+import { KingsRow } from '../../zone/kings-row'
 
 export const Summoned: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const Summoned: BadgeData = {
   setTitle: { id: 96 },
   name: [{ value: 'Summoned' }],
   alignment: ['H'],
-  mapKey: KingsRow.key,
+  zoneKey: KingsRow.key,
   loc: [-940.5, -41.7, 2977.4],
   badgeText: [{
     value: 'Statesman broke up a ritual by the Circle of Thorn members that would have bolstered their ranks exponentially.',

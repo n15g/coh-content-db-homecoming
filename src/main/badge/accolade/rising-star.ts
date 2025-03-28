@@ -1,5 +1,5 @@
-import { BadgeData, mapLink } from 'coh-content-db'
-import { ImperialCity } from '../../map/imperial-city'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ImperialCity } from '../../zone/imperial-city'
 
 export const RisingStar: BadgeData = {
   type: 'ACCOLADE',
@@ -12,7 +12,7 @@ export const RisingStar: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within Imperial City.` },
   ],
-  acquisition: `Complete every story arc in ${mapLink(ImperialCity)}`,
+  acquisition: `Complete every story arc in ${zoneLink(ImperialCity)}`,
   notes: `This badge rewards 20 reward merits.`,
   links: [
     { title: 'Rising Star Badge', href: 'https://homecoming.wiki/wiki/Rising_Star_Badge' },

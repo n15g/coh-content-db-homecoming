@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { EchoGalaxyCity } from '../../map/echo-galaxy-city'
+import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 
 export const BlueShield: BadgeData = {
   type: 'EXPLORATION',
@@ -7,7 +7,7 @@ export const BlueShield: BadgeData = {
   setTitle: { id: 92 },
   name: [{ value: 'Blue Shield' }],
   alignment: ['H'],
-  mapKey: EchoGalaxyCity.key,
+  zoneKey: EchoGalaxyCity.key,
   loc: [-1170, 39, -2470],
   badgeText: [{
     value: 'Blue Steel, the only hero in Paragon City who works directly for the police, arrested the Tsoo\'s leader Tub Ci on this spot.'
