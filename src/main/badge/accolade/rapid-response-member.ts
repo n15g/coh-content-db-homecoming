@@ -22,8 +22,8 @@ export const RapidResponseMember: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/rapid-response-member.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Patroller.key, type: 'BADGE', badgeKey: Patroller.key },
     { key: MonitorDuty.key, type: 'BADGE', badgeKey: MonitorDuty.key },
-  ],
+  ]],
 }

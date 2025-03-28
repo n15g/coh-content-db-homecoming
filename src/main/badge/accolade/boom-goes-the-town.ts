@@ -27,7 +27,7 @@ export const BoomGoesTheTown: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: BoomtownTroglodyte.key, type: 'BADGE', badgeKey: BoomtownTroglodyte.key },
     { key: CorpseBox.key, type: 'BADGE', badgeKey: CorpseBox.key },
     { key: DestinedForValhalla.key, type: 'BADGE', badgeKey: DestinedForValhalla.key },
@@ -36,5 +36,5 @@ export const BoomGoesTheTown: BadgeData = {
     { key: Regal.key, type: 'BADGE', badgeKey: Regal.key },
     { key: ToweringInferno.key, type: 'BADGE', badgeKey: ToweringInferno.key },
     { key: VisionOfDespair.key, type: 'BADGE', badgeKey: VisionOfDespair.key },
-  ],
+  ]],
 }

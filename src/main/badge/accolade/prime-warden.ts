@@ -27,7 +27,7 @@ export const PrimeWarden: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  partials: [
+  requirements: [[
     { key: DearlyDeparted.key, type: 'BADGE', badgeKey: DearlyDeparted.key },
     { key: EyeOfTheVortex.key, type: 'BADGE', badgeKey: EyeOfTheVortex.key },
     { key: FearlessInsurgent.key, type: 'BADGE', badgeKey: FearlessInsurgent.key },
@@ -36,5 +36,5 @@ export const PrimeWarden: BadgeData = {
     { key: ShadowWalker.key, type: 'BADGE', badgeKey: ShadowWalker.key },
     { key: VengeanceSeeker.key, type: 'BADGE', badgeKey: VengeanceSeeker.key },
     { key: WitnessForTheFallen.key, type: 'BADGE', badgeKey: WitnessForTheFallen.key },
-  ],
+  ]],
 }

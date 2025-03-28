@@ -27,7 +27,7 @@ export const UtilitiesCommission: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: ConjunctionJunction.key, type: 'BADGE', badgeKey: ConjunctionJunction.key },
     { key: DangerDanger.key, type: 'BADGE', badgeKey: DangerDanger.key },
     { key: GuardianOfTheVolts.key, type: 'BADGE', badgeKey: GuardianOfTheVolts.key },
@@ -36,5 +36,5 @@ export const UtilitiesCommission: BadgeData = {
     { key: NervousDreck.key, type: 'BADGE', badgeKey: NervousDreck.key },
     { key: PowerWalker.key, type: 'BADGE', badgeKey: PowerWalker.key },
     { key: ScrapheapOfHistory.key, type: 'BADGE', badgeKey: ScrapheapOfHistory.key },
-  ],
+  ]],
 }

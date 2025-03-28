@@ -30,7 +30,7 @@ export const Stouthearted: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/stouthearted.png' },
   ],
-  partials: [
+  requirements: [[
     { key: HeartOfTheCity.key, type: 'BADGE', badgeKey: HeartOfTheCity.key },
     { key: KingsRighteousness.key, type: 'BADGE', badgeKey: KingsRighteousness.key },
     { key: CourageDriven.key, type: 'BADGE', badgeKey: CourageDriven.key },
@@ -40,5 +40,5 @@ export const Stouthearted: BadgeData = {
     { key: Cornerstone.key, type: 'BADGE', badgeKey: Cornerstone.key },
     { key: FoundersProtector.key, type: 'BADGE', badgeKey: FoundersProtector.key },
     { key: Gatekeeper.key, type: 'BADGE', badgeKey: Gatekeeper.key },
-  ],
+  ]],
 }

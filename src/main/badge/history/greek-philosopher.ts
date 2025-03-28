@@ -18,7 +18,7 @@ export const GreekPhilosopher: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/greek-philosopher.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'gree-0',
       type: 'PLAQUE',
@@ -73,5 +73,5 @@ export const GreekPhilosopher: BadgeData = {
       plaqueInscription: `A horde most unholy, fear given shape, guided by an unseen hand. The time for heroes had come, and many sought to defend the land. Against the endless fog they strove, but it was too dense, too deep. Every monster was cut down, yet no victory could they reap.`,
       notes: `This plaque is in the Core of The Labyrinth of Fog. It is located inside the mausoleum.`,
     },
-  ],
+  ]],
 }

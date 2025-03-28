@@ -11,7 +11,7 @@ export const Blinding: BadgeData = {
     { title: 'Blinding Badge', href: 'https://homecoming.wiki/wiki/Blinding_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const Blinding: BadgeData = {
       inventionTypes: ['SLEEP', 'SLOW', 'HOLD', 'STUN', 'IMMOBILIZE', 'FEAR'],
       inventionCount: 8,
     },
-  ],
+  ]],
 }

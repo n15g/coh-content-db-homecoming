@@ -29,7 +29,7 @@ export const WincottsAlly: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Parapsychologist.key, type: 'BADGE', badgeKey: Parapsychologist.key },
     { key: SeekerOfMonsters.key, type: 'BADGE', badgeKey: SeekerOfMonsters.key },
     { key: Geologist.key, type: 'BADGE', badgeKey: Geologist.key },
@@ -38,5 +38,5 @@ export const WincottsAlly: BadgeData = {
     { key: GraffitiCommunicator.key, type: 'BADGE', badgeKey: GraffitiCommunicator.key },
     { key: CircleSeeker.key, type: 'BADGE', badgeKey: CircleSeeker.key },
     { key: Ironic.key, type: 'BADGE', badgeKey: Ironic.key },
-  ],
+  ]],
 }

@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Savant } from '../history/savant'
 
 export const RiktiDrone: BadgeData = {
@@ -12,11 +12,13 @@ export const RiktiDrone: BadgeData = {
   badgeText: [
     { value: 'This unit has been programmed to serve as your gladiator in the Arena.' },
   ],
-  acquisition: `Earn the ${badgeLink(Savant)} Badge (Rikti)`,
   links: [
     { title: 'Rikti Drone Badge', href: 'https://homecoming.wiki/wiki/Rikti_Drone_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
+  requirements: [[
+    { key: Savant.key, type: 'BADGE', badgeKey: Savant.key },
+  ]],
 }

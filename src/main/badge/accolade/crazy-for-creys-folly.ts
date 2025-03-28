@@ -27,7 +27,7 @@ export const CrazyForCreysFolly: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: BurningTheMidnightOil.key, type: 'BADGE', badgeKey: BurningTheMidnightOil.key },
     { key: CirqueDuFreak.key, type: 'BADGE', badgeKey: CirqueDuFreak.key },
     { key: CreyCares.key, type: 'BADGE', badgeKey: CreyCares.key },
@@ -36,5 +36,5 @@ export const CrazyForCreysFolly: BadgeData = {
     { key: FreaksFolly.key, type: 'BADGE', badgeKey: FreaksFolly.key },
     { key: HammerOfTheRikti.key, type: 'BADGE', badgeKey: HammerOfTheRikti.key },
     { key: VeniVidiVici.key, type: 'BADGE', badgeKey: VeniVidiVici.key },
-  ],
+  ]],
 }

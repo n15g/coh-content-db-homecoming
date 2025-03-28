@@ -27,7 +27,7 @@ export const AllYourFirebase: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: AlphaRanger.key, type: 'BADGE', badgeKey: AlphaRanger.key },
     { key: DancerWithDeath.key, type: 'BADGE', badgeKey: DancerWithDeath.key },
     { key: DefyingGravity.key, type: 'BADGE', badgeKey: DefyingGravity.key },
@@ -36,5 +36,5 @@ export const AllYourFirebase: BadgeData = {
     { key: ShardLeaper.key, type: 'BADGE', badgeKey: ShardLeaper.key },
     { key: Stormwatcher.key, type: 'BADGE', badgeKey: Stormwatcher.key },
     { key: XRaySpectator.key, type: 'BADGE', badgeKey: XRaySpectator.key },
-  ],
+  ]],
 }

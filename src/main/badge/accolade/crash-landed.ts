@@ -27,7 +27,7 @@ export const CrashLanded: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Powerful.key, type: 'BADGE', badgeKey: Powerful.key },
     { key: UnderFire.key, type: 'BADGE', badgeKey: UnderFire.key },
     { key: Scarred.key, type: 'BADGE', badgeKey: Scarred.key },
@@ -36,5 +36,5 @@ export const CrashLanded: BadgeData = {
     { key: Ace.key, type: 'BADGE', badgeKey: Ace.key },
     { key: CommunicationsSpecialist.key, type: 'BADGE', badgeKey: CommunicationsSpecialist.key },
     { key: Shielded.key, type: 'BADGE', badgeKey: Shielded.key },
-  ],
+  ]],
 }

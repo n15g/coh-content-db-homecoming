@@ -11,7 +11,7 @@ export const Sniper: BadgeData = {
     { title: 'Sniper Badge', href: 'https://homecoming.wiki/wiki/Sniper_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -26,5 +26,5 @@ export const Sniper: BadgeData = {
       inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
       inventionCount: 11,
     },
-  ],
+  ]],
 }

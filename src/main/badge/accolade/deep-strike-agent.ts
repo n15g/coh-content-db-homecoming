@@ -27,11 +27,11 @@ export const DeepStrikeAgent: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/deep-strike-agent.png' },
   ],
   effect: `Sheer Willpower`,
-  partials: [
+  requirements: [[
     { key: BinderOfBeasts.key, type: 'BADGE', badgeKey: BinderOfBeasts.key },
     { key: Leviathan.key, type: 'BADGE', badgeKey: Leviathan.key },
     { key: PirateHunter.key, type: 'BADGE', badgeKey: PirateHunter.key },
     { key: CrystalKeeper.key, type: 'BADGE', badgeKey: CrystalKeeper.key },
     { key: GoldStandard.key, type: 'BADGE', badgeKey: GoldStandard.key },
-  ],
+  ]],
 }

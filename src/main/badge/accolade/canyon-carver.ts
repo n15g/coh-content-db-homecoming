@@ -27,7 +27,7 @@ export const CanyonCarver: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  partials: [
+  requirements: [[
     { key: SecretAdmirer.key, type: 'BADGE', badgeKey: SecretAdmirer.key },
     { key: HeroCorpsRecruit.key, type: 'BADGE', badgeKey: HeroCorpsRecruit.key },
     { key: NimbleMynx.key, type: 'BADGE', badgeKey: NimbleMynx.key },
@@ -36,5 +36,5 @@ export const CanyonCarver: BadgeData = {
     { key: Controversial.key, type: 'BADGE', badgeKey: Controversial.key },
     { key: PetProject.key, type: 'BADGE', badgeKey: PetProject.key },
     { key: DirtyAttorney.key, type: 'BADGE', badgeKey: DirtyAttorney.key },
-  ],
+  ]],
 }

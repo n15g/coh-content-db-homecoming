@@ -27,7 +27,7 @@ export const BornInBattle: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/born-in-battle.png' },
   ],
   effect: `+5% Max Health and +5 Max Endurance`,
-  partials: [
+  requirements: [[
     { key: Exterminator.key, type: 'BADGE', badgeKey: Exterminator.key },
     { key: Pirate.key, type: 'BADGE', badgeKey: Pirate.key },
     { key: PrimalInstinct.key, type: 'BADGE', badgeKey: PrimalInstinct.key },
@@ -35,5 +35,5 @@ export const BornInBattle: BadgeData = {
     { key: Swashbuckler.key, type: 'BADGE', badgeKey: Swashbuckler.key },
     { key: Triumphant.key, type: 'BADGE', badgeKey: Triumphant.key },
     { key: Adamant.key, type: 'BADGE', badgeKey: Adamant.key },
-  ],
+  ]],
 }

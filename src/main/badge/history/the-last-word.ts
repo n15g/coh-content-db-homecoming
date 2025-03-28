@@ -18,7 +18,7 @@ export const TheLastWord: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'thel-0',
       type: 'PLAQUE',
@@ -119,5 +119,5 @@ export const TheLastWord: BadgeData = {
       notes: `This Resistance propaganda is in ${mapLink(FirstWard)}, in the Mother of Mercy Hospital neighborhood, 115 yards northeast of the map marker; on the north face of the east wing of the hospital.`,
       vidiotMapKey: '10',
     },
-  ],
+  ]],
 }

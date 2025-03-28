@@ -27,7 +27,7 @@ export const BeneathTheEmpire: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  partials: [
+  requirements: [[
     { key: BrokenMind.key, type: 'BADGE', badgeKey: BrokenMind.key },
     { key: Condemning.key, type: 'BADGE', badgeKey: Condemning.key },
     { key: Engineer.key, type: 'BADGE', badgeKey: Engineer.key },
@@ -36,5 +36,5 @@ export const BeneathTheEmpire: BadgeData = {
     { key: Lowlife.key, type: 'BADGE', badgeKey: Lowlife.key },
     { key: SilentWitness.key, type: 'BADGE', badgeKey: SilentWitness.key },
     { key: UndergroundExplorer.key, type: 'BADGE', badgeKey: UndergroundExplorer.key },
-  ],
+  ]],
 }

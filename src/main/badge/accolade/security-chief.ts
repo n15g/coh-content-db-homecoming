@@ -22,8 +22,8 @@ export const SecurityChief: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/security-chief.png' },
   ],
-  partials: [
+  requirements: [[
     { key: LawEnforcer.key, type: 'BADGE', badgeKey: LawEnforcer.key },
     { key: Banker.key, type: 'BADGE', badgeKey: Banker.key },
-  ],
+  ]],
 }

@@ -31,7 +31,7 @@ export const ReturnVisitor: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/return-visitor.png' },
   ],
   effect: `+5% Max Health`,
-  partials: [
+  requirements: [[
     { key: Libertarian.key, type: 'BADGE', badgeKey: Libertarian.key },
     { key: Brickhouse.key, type: 'BADGE', badgeKey: Brickhouse.key },
     { key: GateCloser.key, type: 'BADGE', badgeKey: GateCloser.key },
@@ -41,5 +41,5 @@ export const ReturnVisitor: BadgeData = {
     { key: SteelWorker.key, type: 'BADGE', badgeKey: SteelWorker.key },
     { key: TalonOfTalos.key, type: 'BADGE', badgeKey: TalonOfTalos.key },
     { key: Revolutionary.key, type: 'BADGE', badgeKey: Revolutionary.key },
-  ],
+  ]],
 }

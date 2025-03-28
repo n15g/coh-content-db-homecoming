@@ -28,7 +28,7 @@ export const HistoryInTheMaking: BadgeData = {
     { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
     { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  partials: [
+  requirements: [[
     { key: DepthsOfTime.key, type: 'BADGE', badgeKey: DepthsOfTime.key },
     { key: BattleHardened.key, type: 'BADGE', badgeKey: BattleHardened.key },
     { key: Sanctuary.key, type: 'BADGE', badgeKey: Sanctuary.key },
@@ -37,5 +37,5 @@ export const HistoryInTheMaking: BadgeData = {
     { key: HumanNature.key, type: 'BADGE', badgeKey: HumanNature.key },
     { key: VisionOfAmbition.key, type: 'BADGE', badgeKey: VisionOfAmbition.key },
     { key: DarknessUnleashed.key, type: 'BADGE', badgeKey: DarknessUnleashed.key },
-  ],
+  ]],
 }

@@ -20,8 +20,8 @@ export const Alchemist: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/alchemist.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Caregiver.key, type: 'BADGE', badgeKey: Caregiver.key },
     { key: Midnighter.key, type: 'BADGE', badgeKey: Midnighter.key },
-  ],
+  ]],
 }

@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Pwnz } from '../accomplishment/pwnz'
 
 export const ChiefSwiper: BadgeData = {
@@ -12,11 +12,13 @@ export const ChiefSwiper: BadgeData = {
   badgeText: [
     { value: 'Freaks just love to fight -- even for you.' },
   ],
-  acquisition: `Earn the ${badgeLink(Pwnz)} Badge (Freakshow)`,
   links: [
     { title: 'Chief Swiper Badge', href: 'https://homecoming.wiki/wiki/Chief_Swiper_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
+  requirements: [[
+    { key: Pwnz.key, type: 'BADGE', badgeKey: Pwnz.key },
+  ]],
 }

@@ -19,8 +19,8 @@ export const TimeLord: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/time-lord.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Cimeroran.key, type: 'BADGE', badgeKey: Cimeroran.key },
     { key: Chronologist.key, type: 'BADGE', badgeKey: Chronologist.key },
-  ],
+  ]],
 }

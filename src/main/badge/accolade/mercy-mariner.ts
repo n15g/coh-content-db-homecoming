@@ -27,7 +27,7 @@ export const MercyMariner: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Cesspool.key, type: 'BADGE', badgeKey: Cesspool.key },
     { key: SnakeCharmer.key, type: 'BADGE', badgeKey: SnakeCharmer.key },
     { key: Chum.key, type: 'BADGE', badgeKey: Chum.key },
@@ -36,5 +36,5 @@ export const MercyMariner: BadgeData = {
     { key: Widower.key, type: 'BADGE', badgeKey: Widower.key },
     { key: FirstRule.key, type: 'BADGE', badgeKey: FirstRule.key },
     { key: TikiFan.key, type: 'BADGE', badgeKey: TikiFan.key },
-  ],
+  ]],
 }

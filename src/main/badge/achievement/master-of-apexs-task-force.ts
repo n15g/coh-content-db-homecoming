@@ -1,4 +1,7 @@
 import { BadgeData } from 'coh-content-db'
+import { DroneProtector } from './drone-protector'
+import { BurdenBearer } from './burden-bearer'
+import { AlreadyDead } from './already-dead'
 
 export const MasterOfApexsTaskForce: BadgeData = {
   type: 'ACHIEVEMENT',
@@ -11,11 +14,15 @@ export const MasterOfApexsTaskForce: BadgeData = {
   badgeText: [
     { value: 'You have gone through the Alpha and the Omega of Apex\'s Task Force.' },
   ],
-  acquisition: 'Earn the Drone Protector, Burden Bearer, and Already Dead badges',
   links: [
     { title: 'Master of Apex\'s Task Force Badge', href: 'https://homecoming.wiki/wiki/Master_of_Apex%27s_Task_Force_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-apexs-task-force.png' },
   ],
+  requirements: [[
+    { key: DroneProtector.key, type: 'BADGE', badgeKey: DroneProtector.key },
+    { key: BurdenBearer.key, type: 'BADGE', badgeKey: BurdenBearer.key },
+    { key: AlreadyDead.key, type: 'BADGE', badgeKey: AlreadyDead.key },
+  ]],
 }

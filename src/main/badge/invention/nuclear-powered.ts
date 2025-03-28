@@ -12,7 +12,7 @@ export const NuclearPowered: BadgeData = {
     { title: 'Nuclear Powered Badge', href: 'https://homecoming.wiki/wiki/Nuclear_Powered_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -28,5 +28,5 @@ export const NuclearPowered: BadgeData = {
       inventionCount: 7,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ],
+  ]],
 }

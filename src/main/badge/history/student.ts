@@ -20,7 +20,7 @@ export const Student: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'stud-0',
       type: 'PLAQUE',
@@ -71,5 +71,5 @@ export const Student: BadgeData = {
       notes: `This plaque is in ${mapLink(PerezPark)}, 112 yards northwest of the Skyway City entrance.`,
       vidiotMapKey: '3',
     },
-  ],
+  ]],
 }

@@ -11,7 +11,7 @@ export const Armorer: BadgeData = {
     { title: 'Armorer Badge', href: 'https://homecoming.wiki/wiki/Armorer_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const Armorer: BadgeData = {
       inventionTypes: ['DEFENSE_BUFF', 'RESIST_DAMAGE', 'INTANGIBILITY'],
       inventionCount: 7,
     },
-  ],
+  ]],
 }

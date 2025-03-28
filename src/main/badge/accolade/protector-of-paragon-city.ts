@@ -28,12 +28,12 @@ export const ProtectorOfParagonCity: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/protector-of-paragon-city.png' },
   ],
   effect: `Sheer Willpower`,
-  partials: [
+  requirements: [[
     { key: ForceOfJustice.key, type: 'BADGE', badgeKey: ForceOfJustice.key },
     { key: Gallant.key, type: 'BADGE', badgeKey: Gallant.key },
     { key: GuardianOfForever.key, type: 'BADGE', badgeKey: GuardianOfForever.key },
     { key: BeyondReasonableDoubt.key, type: 'BADGE', badgeKey: BeyondReasonableDoubt.key },
     { key: TheGreaterGood.key, type: 'BADGE', badgeKey: TheGreaterGood.key },
     { key: Bicentennial.key, type: 'BADGE', badgeKey: Bicentennial.key },
-  ],
+  ]],
 }

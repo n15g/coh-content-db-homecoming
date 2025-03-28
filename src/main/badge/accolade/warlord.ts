@@ -25,7 +25,7 @@ export const Warlord: BadgeData = {
   links: [
     { title: 'Warlord Badge', href: 'https://homecoming.wiki/wiki/Warlord_Badge' },
   ],
-  partials: [
+  requirements: [[
     { key: WeaponInspector.key, type: 'BADGE', badgeKey: WeaponInspector.key },
     { key: TunnelRat.key, type: 'BADGE', badgeKey: TunnelRat.key },
     { key: Triumphant.key, type: 'BADGE', badgeKey: Triumphant.key },
@@ -34,5 +34,5 @@ export const Warlord: BadgeData = {
     { key: Disassembled.key, type: 'BADGE', badgeKey: Disassembled.key },
     { key: GameOver.key, type: 'BADGE', badgeKey: GameOver.key },
     { key: Herculean.key, type: 'BADGE', badgeKey: Herculean.key },
-  ],
+  ]],
 }

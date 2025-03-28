@@ -12,13 +12,10 @@ export const Paragon: BadgeData = {
   alignment: ['H', 'V', 'P'],
   badgeText: [
     { alignment: 'H', value: 'The time spent as a mentor has earned you the right to call yourself paragon.' },
-    { alignment: 'V', value: 'You\'ve spent time recruiting others to Arachnos\' cause.' },
-    {
-      alignment: 'P', value: 'Teaching those who want to learn the ways of Praetoria is more than a hobby to you. It\'s a '
-        + 'mission.',
-    },
+    { alignment: 'V', value: `You've spent time recruiting others to Arachnos' cause.` },
+    { alignment: 'P', value: `Teaching those who want to learn the ways of Praetoria is more than a hobby to you. It's a mission.` },
   ],
-  acquisition: 'Sidekick another hero for 12 hours',
+  acquisition: `Sidekick another hero for 12 hours`,
   links: [
     { title: 'Paragon Badge', href: 'https://homecoming.wiki/wiki/Paragon_Badge' },
     { title: 'Svengali Badge', href: 'https://homecoming.wiki/wiki/Svengali_Badge' },

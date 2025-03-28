@@ -11,7 +11,7 @@ export const Beguiler: BadgeData = {
     { title: 'Beguiler Badge', href: 'https://homecoming.wiki/wiki/Guardian_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -26,5 +26,5 @@ export const Beguiler: BadgeData = {
       inventionTypes: ['SLEEP', 'SLOW', 'HOLD', 'STUN', 'IMMOBILIZE', 'FEAR'],
       inventionCount: 5,
     },
-  ],
+  ]],
 }

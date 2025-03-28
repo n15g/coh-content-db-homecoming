@@ -27,7 +27,7 @@ export const IslandHopper: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Minotaur.key, type: 'BADGE', badgeKey: Minotaur.key },
     { key: NatureLover.key, type: 'BADGE', badgeKey: NatureLover.key },
     { key: Whitecap.key, type: 'BADGE', badgeKey: Whitecap.key },
@@ -36,5 +36,5 @@ export const IslandHopper: BadgeData = {
     { key: BridgeHolder.key, type: 'BADGE', badgeKey: BridgeHolder.key },
     { key: OvertimeWorker.key, type: 'BADGE', badgeKey: OvertimeWorker.key },
     { key: SpankysCompetitor.key, type: 'BADGE', badgeKey: SpankysCompetitor.key },
-  ],
+  ]],
 }

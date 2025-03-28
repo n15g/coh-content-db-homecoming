@@ -12,7 +12,7 @@ export const Rebuilder: BadgeData = {
     { title: 'Rebuilder Badge', href: 'https://homecoming.wiki/wiki/Rebuilder_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Rebuilder: BadgeData = {
       inventionTypes: ['HEALING'],
       inventionCount: 6,
     },
-  ],
+  ]],
 }

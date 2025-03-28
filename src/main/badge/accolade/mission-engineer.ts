@@ -27,7 +27,7 @@ export const MissionEngineer: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mission-engineer.png' },
   ],
   effect: `Architect Comlink`,
-  partials: [
+  requirements: [[
     { key: ThrillSeeker.key, type: 'BADGE', badgeKey: ThrillSeeker.key },
     { key: Gamer.key, type: 'BADGE', badgeKey: Gamer.key },
     { key: TicketTaker.key, type: 'BADGE', badgeKey: TicketTaker.key },
@@ -36,5 +36,5 @@ export const MissionEngineer: BadgeData = {
     { key: EarlyBird.key, type: 'BADGE', badgeKey: EarlyBird.key },
     { key: Customizer.key, type: 'BADGE', badgeKey: Customizer.key },
     { key: BugFixer.key, type: 'BADGE', badgeKey: BugFixer.key },
-  ],
+  ]],
 }

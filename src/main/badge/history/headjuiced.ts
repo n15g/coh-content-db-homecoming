@@ -23,7 +23,7 @@ export const Headjuiced: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'head-0',
       type: 'PLAQUE',
@@ -224,5 +224,5 @@ export const Headjuiced: BadgeData = {
       notes: `Located 67 yards SSW of the Resistance Surface Access.`,
       vidiotMapKey: '2',
     },
-  ],
+  ]],
 }

@@ -25,8 +25,8 @@ export const BlockadeRunner: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png' },
   ],
-  partials: [
+  requirements: [[
     { key: DayTrader.key, type: 'BADGE', badgeKey: DayTrader.key },
     { key: Gunrunner.key, type: 'BADGE', badgeKey: Gunrunner.key },
-  ],
+  ]],
 }

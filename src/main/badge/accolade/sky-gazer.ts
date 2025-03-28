@@ -27,7 +27,7 @@ export const SkyGazer: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Purifier.key, type: 'BADGE', badgeKey: Purifier.key },
     { key: Solace.key, type: 'BADGE', badgeKey: Solace.key },
     { key: Dauntless.key, type: 'BADGE', badgeKey: Dauntless.key },
@@ -36,5 +36,5 @@ export const SkyGazer: BadgeData = {
     { key: RoomForExpansion.key, type: 'BADGE', badgeKey: RoomForExpansion.key },
     { key: LeftBehind.key, type: 'BADGE', badgeKey: LeftBehind.key },
     { key: BridgeToNowhere.key, type: 'BADGE', badgeKey: BridgeToNowhere.key },
-  ],
+  ]],
 }

@@ -25,8 +25,8 @@ export const AntiArachnosActivist: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-arachnos-activist.png' },
   ],
-  partials: [
+  requirements: [[
     { key: CannonFodder.key, type: 'BADGE', badgeKey: CannonFodder.key },
     { key: ProfessionalLiar.key, type: 'BADGE', badgeKey: ProfessionalLiar.key },
-  ],
+  ]],
 }

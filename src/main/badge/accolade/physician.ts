@@ -20,8 +20,8 @@ export const Physician: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/physician.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
     { key: Caregiver.key, type: 'BADGE', badgeKey: Caregiver.key },
-  ],
+  ]],
 }

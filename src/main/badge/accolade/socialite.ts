@@ -19,8 +19,8 @@ export const Socialite: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/socialite.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Clubber.key, type: 'BADGE', badgeKey: Clubber.key },
     { key: FashionDesigner.key, type: 'BADGE', badgeKey: FashionDesigner.key },
-  ],
+  ]],
 }

@@ -29,7 +29,7 @@ export const YesterdaysNews: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/yesterdays-news.png' },
   ],
   effect: `Stolen Immobilizer Ray`,
-  partials: [
+  requirements: [[
     { key: CouchPotato.key, type: 'BADGE', badgeKey: CouchPotato.key },
     { key: Paroled.key, type: 'BADGE', badgeKey: Paroled.key },
     { key: Lobbyist.key, type: 'BADGE', badgeKey: Lobbyist.key },
@@ -37,5 +37,5 @@ export const YesterdaysNews: BadgeData = {
     { key: MasterOfTheAirwaves.key, type: 'BADGE', badgeKey: MasterOfTheAirwaves.key },
     { key: StrikeBuster.key, type: 'BADGE', badgeKey: StrikeBuster.key },
     { key: Surging.key, type: 'BADGE', badgeKey: Surging.key },
-  ],
+  ]],
 }

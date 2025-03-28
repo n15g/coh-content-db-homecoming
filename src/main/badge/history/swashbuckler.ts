@@ -21,7 +21,7 @@ export const Swashbuckler: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'swas-0',
       type: 'PLAQUE',
@@ -62,5 +62,5 @@ export const Swashbuckler: BadgeData = {
       notes: `From the ferry in the ${mapLink(NervaArchipelago)}, leave the dock and head north along the west coastline. The monument is a plaque on the side of the seawall just before it angles to the left (west) and changes from brick into cement.`,
       vidiotMapKey: '1',
     },
-  ],
+  ]],
 }

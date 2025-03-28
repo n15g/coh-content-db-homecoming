@@ -11,7 +11,7 @@ export const WalksTheEarth: BadgeData = {
     { title: 'Walks the Earth Badge', href: 'https://homecoming.wiki/wiki/Walks_the_Earth_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -26,5 +26,5 @@ export const WalksTheEarth: BadgeData = {
       inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
       inventionCount: 11,
     },
-  ],
+  ]],
 }

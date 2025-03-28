@@ -25,11 +25,11 @@ export const Vanguard: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/vanguard.png' },
   ],
   effect: `Vanguard Medal`,
-  partials: [
+  requirements: [[
     { key: Ace.key, type: 'BADGE', badgeKey: Ace.key },
     { key: Finder.key, type: 'BADGE', badgeKey: Finder.key },
     { key: PortalParter.key, type: 'BADGE', badgeKey: PortalParter.key },
     { key: Savant.key, type: 'BADGE', badgeKey: Savant.key },
     { key: Zookeeper.key, type: 'BADGE', badgeKey: Zookeeper.key },
-  ],
+  ]],
 }

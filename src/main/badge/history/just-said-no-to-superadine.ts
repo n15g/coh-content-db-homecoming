@@ -21,7 +21,7 @@ export const JustSaidNoToSuperadine: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'just-0',
       type: 'PLAQUE',
@@ -72,5 +72,5 @@ export const JustSaidNoToSuperadine: BadgeData = {
       notes: `This plaque is in ${mapLink(Faultline)}. It is wall mounted facing east just north of Yin's Market, 78 yards Southeast of Freight Lift A.`,
       vidiotMapKey: '3',
     },
-  ],
+  ]],
 }

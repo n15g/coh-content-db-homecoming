@@ -11,7 +11,7 @@ export const Munitionist: BadgeData = {
     { title: 'Munitionist Badge', href: 'https://homecoming.wiki/wiki/Munitionist_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const Munitionist: BadgeData = {
       inventionTypes: ['DAMAGE', 'KNOCKBACK'],
       inventionCount: 10,
     },
-  ],
+  ]],
 }

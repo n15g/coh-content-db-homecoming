@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Legionnaire } from '../defeat/legionnaire'
 
 export const SmasherElite: BadgeData = {
@@ -12,11 +12,13 @@ export const SmasherElite: BadgeData = {
   badgeText: [
     { value: 'The Warriors respect those who fight.' },
   ],
-  acquisition: `Earn the ${badgeLink(Legionnaire)} Badge (Warriors)`,
   links: [
     { title: 'Smasher Elite Badge', href: 'https://homecoming.wiki/wiki/Smasher_Elite_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
+  requirements: [[
+    { key: Legionnaire.key, type: 'BADGE', badgeKey: Legionnaire.key },
+  ]],
 }

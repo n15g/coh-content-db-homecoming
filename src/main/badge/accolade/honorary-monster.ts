@@ -27,7 +27,7 @@ export const HonoraryMonster: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: DarkGarden.key, type: 'BADGE', badgeKey: DarkGarden.key },
     { key: GrimFandango.key, type: 'BADGE', badgeKey: GrimFandango.key },
     { key: MisfitMonstrosity.key, type: 'BADGE', badgeKey: MisfitMonstrosity.key },
@@ -36,5 +36,5 @@ export const HonoraryMonster: BadgeData = {
     { key: MonstersPlaythings.key, type: 'BADGE', badgeKey: MonstersPlaythings.key },
     { key: RiktiMonkeyIsland.key, type: 'BADGE', badgeKey: RiktiMonkeyIsland.key },
     { key: TheRoarOfTheBeast.key, type: 'BADGE', badgeKey: TheRoarOfTheBeast.key },
-  ],
+  ]],
 }

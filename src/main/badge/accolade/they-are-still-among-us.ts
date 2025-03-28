@@ -27,7 +27,7 @@ export const TheyAreStillAmongUs: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: VanguardOperative.key, type: 'BADGE', badgeKey: VanguardOperative.key },
     { key: Trespasser.key, type: 'BADGE', badgeKey: Trespasser.key },
     { key: Lifesaver.key, type: 'BADGE', badgeKey: Lifesaver.key },
@@ -36,5 +36,5 @@ export const TheyAreStillAmongUs: BadgeData = {
     { key: Luscious.key, type: 'BADGE', badgeKey: Luscious.key },
     { key: JunkyardDog.key, type: 'BADGE', badgeKey: JunkyardDog.key },
     { key: Unabashed.key, type: 'BADGE', badgeKey: Unabashed.key },
-  ],
+  ]],
 }

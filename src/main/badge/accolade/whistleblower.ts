@@ -25,8 +25,8 @@ export const Whistleblower: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/whistleblower.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
     { key: CreyTestSubject.key, type: 'BADGE', badgeKey: CreyTestSubject.key },
-  ],
+  ]],
 }

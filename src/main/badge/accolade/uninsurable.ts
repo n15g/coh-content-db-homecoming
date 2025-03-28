@@ -28,12 +28,12 @@ export const Uninsurable: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/uninsurable.png' },
   ],
   effect: `Force of Nature`,
-  partials: [
+  requirements: [[
     { key: ReformedFirebug.key, type: 'BADGE', badgeKey: ReformedFirebug.key },
     { key: BloodyHands.key, type: 'BADGE', badgeKey: BloodyHands.key },
     { key: Pedestrian.key, type: 'BADGE', badgeKey: Pedestrian.key },
     { key: ThinLine.key, type: 'BADGE', badgeKey: ThinLine.key },
     { key: Locksmith.key, type: 'BADGE', badgeKey: Locksmith.key },
     { key: AngerManager.key, type: 'BADGE', badgeKey: AngerManager.key },
-  ],
+  ]],
 }

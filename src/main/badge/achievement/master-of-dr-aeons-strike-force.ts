@@ -21,10 +21,10 @@ export const MasterOfDrAeonsStrikeForce: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-dr-aeons-strike-force.png' },
   ],
-  partials: [
+  requirements: [[
     { key: CantTouchThis.key, type: 'BADGE', badgeKey: CantTouchThis.key },
     { key: PowerOverwhelming.key, type: 'BADGE', badgeKey: PowerOverwhelming.key },
     { key: RippleRaider.key, type: 'BADGE', badgeKey: RippleRaider.key },
     { key: UnfriendlyFire.key, type: 'BADGE', badgeKey: UnfriendlyFire.key },
-  ],
+  ]],
 }

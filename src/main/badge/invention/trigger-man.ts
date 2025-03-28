@@ -11,7 +11,7 @@ export const TriggerMan: BadgeData = {
     { title: 'Trigger Man Badge', href: 'https://homecoming.wiki/wiki/Trigger_Man_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const TriggerMan: BadgeData = {
       inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
       inventionCount: 10,
     },
-  ],
+  ]],
 }

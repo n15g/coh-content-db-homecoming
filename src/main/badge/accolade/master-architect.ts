@@ -23,8 +23,8 @@ export const MasterArchitect: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/master-architect.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Architect.key, type: 'BADGE', badgeKey: Architect.key },
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
-  ],
+  ]],
 }

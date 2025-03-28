@@ -23,11 +23,11 @@ export const Meticulous: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/meticulous.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Secured.key, type: 'BADGE', badgeKey: Secured.key },
     { key: PowerHungry.key, type: 'BADGE', badgeKey: PowerHungry.key },
     { key: ArtifactDestroyer.key, type: 'BADGE', badgeKey: ArtifactDestroyer.key },
     { key: Veiled.key, type: 'BADGE', badgeKey: Veiled.key },
     { key: Trusting.key, type: 'BADGE', badgeKey: Trusting.key },
-  ],
+  ]],
 }

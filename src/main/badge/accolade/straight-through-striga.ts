@@ -27,7 +27,7 @@ export const StraightThroughStriga: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: SeaDog.key, type: 'BADGE', badgeKey: SeaDog.key },
     { key: SuperSpy.key, type: 'BADGE', badgeKey: SuperSpy.key },
     { key: TheUnnamed.key, type: 'BADGE', badgeKey: TheUnnamed.key },
@@ -36,5 +36,5 @@ export const StraightThroughStriga: BadgeData = {
     { key: VampyriWatcher.key, type: 'BADGE', badgeKey: VampyriWatcher.key },
     { key: Vulcanologist.key, type: 'BADGE', badgeKey: Vulcanologist.key },
     { key: WordsOfTheWarrior.key, type: 'BADGE', badgeKey: WordsOfTheWarrior.key },
-  ],
+  ]],
 }

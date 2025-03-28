@@ -25,9 +25,9 @@ export const Watchman: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/watchman.png' },
   ],
   effect: `Elusive Mind`,
-  partials: [
+  requirements: [[
     { key: Sentry.key, type: 'BADGE', badgeKey: Sentry.key },
     { key: BombSpecialist.key, type: 'BADGE', badgeKey: BombSpecialist.key },
     { key: Chief.key, type: 'BADGE', badgeKey: Chief.key },
-  ],
+  ]],
 }

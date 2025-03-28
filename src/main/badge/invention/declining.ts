@@ -11,7 +11,7 @@ export const Declining: BadgeData = {
     { title: 'Declining Badge', href: 'https://homecoming.wiki/wiki/Declining_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const Declining: BadgeData = {
       inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
       inventionCount: 2,
     },
-  ],
+  ]],
 }

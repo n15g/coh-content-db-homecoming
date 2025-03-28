@@ -18,7 +18,6 @@ export const ForceOfJustice: BadgeData = {
     { alignment: 'H', value: `You have proven yourself as one of Paragon City's finest heroes by protecting all of the major banks in the city.` },
     { alignment: 'V', value: `Paragon's bank employees are very confused by your new allegiances, and are that much slower to react when you show up to rob them.` },
   ],
-  notes: `Earn the six Safeguard side mission badges`,
   links: [
     { title: 'Force of Justice Badge', href: 'https://homecoming.wiki/wiki/Force_of_Justice_Badge' },
     { title: 'Force of Injustice Badge', href: 'https://homecoming.wiki/wiki/Force_of_Injustice_Badge' },
@@ -26,11 +25,11 @@ export const ForceOfJustice: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/force-of-justice.png' },
   ],
-  partials: [
+  requirements: [[
     { key: BombSquad.key, type: 'BADGE', badgeKey: BombSquad.key },
     { key: FireMarshal.key, type: 'BADGE', badgeKey: FireMarshal.key },
     { key: Interceptor.key, type: 'BADGE', badgeKey: Interceptor.key },
     { key: PPDDeputy.key, type: 'BADGE', badgeKey: PPDDeputy.key },
     { key: SecurityExpert.key, type: 'BADGE', badgeKey: SecurityExpert.key },
-  ],
+  ]],
 }

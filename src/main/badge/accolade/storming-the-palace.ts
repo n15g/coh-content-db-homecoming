@@ -27,7 +27,7 @@ export const StormingThePalace: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: AcolyteOfAnger.key, type: 'BADGE', badgeKey: AcolyteOfAnger.key },
     { key: CourtingMadness.key, type: 'BADGE', badgeKey: CourtingMadness.key },
     { key: EveOfDestruction.key, type: 'BADGE', badgeKey: EveOfDestruction.key },
@@ -36,5 +36,5 @@ export const StormingThePalace: BadgeData = {
     { key: LordOfStorms.key, type: 'BADGE', badgeKey: LordOfStorms.key },
     { key: MaliceAforethought.key, type: 'BADGE', badgeKey: MaliceAforethought.key },
     { key: Tormented.key, type: 'BADGE', badgeKey: Tormented.key },
-  ],
+  ]],
 }

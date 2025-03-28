@@ -27,7 +27,7 @@ export const LostAndFound: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Foggy.key, type: 'BADGE', badgeKey: Foggy.key },
     { key: Chaotician.key, type: 'BADGE', badgeKey: Chaotician.key },
     { key: GuardianAngel.key, type: 'BADGE', badgeKey: GuardianAngel.key },
@@ -36,5 +36,5 @@ export const LostAndFound: BadgeData = {
     { key: HamidonsFury.key, type: 'BADGE', badgeKey: HamidonsFury.key },
     { key: FoundersHero.key, type: 'BADGE', badgeKey: FoundersHero.key },
     { key: Misunderstood.key, type: 'BADGE', badgeKey: Misunderstood.key },
-  ],
+  ]],
 }

@@ -27,11 +27,11 @@ export const ReceivedTheAtlasMedallion: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-atlas-medallion.png' },
   ],
   effect: `+5 Max Endurance`,
-  partials: [
+  requirements: [[
     { key: Pupil.key, type: 'BADGE', badgeKey: Pupil.key },
     { key: Spelunker.key, type: 'BADGE', badgeKey: Spelunker.key },
     { key: TheSilverBullet.key, type: 'BADGE', badgeKey: TheSilverBullet.key },
     { key: TheSlayer.key, type: 'BADGE', badgeKey: TheSlayer.key },
     { key: TopDog.key, type: 'BADGE', badgeKey: TopDog.key },
-  ],
+  ]],
 }

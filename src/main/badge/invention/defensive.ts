@@ -12,7 +12,7 @@ export const Defensive: BadgeData = {
     { title: 'Defensive Badge', href: 'https://homecoming.wiki/wiki/Defensive_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -28,5 +28,5 @@ export const Defensive: BadgeData = {
       inventionCount: 9,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ],
+  ]],
 }

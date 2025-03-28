@@ -27,7 +27,7 @@ export const MasterPlumber: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: BoomtownRefugee.key, type: 'BADGE', badgeKey: BoomtownRefugee.key },
     { key: FromBeneathYou.key, type: 'BADGE', badgeKey: FromBeneathYou.key },
     { key: HadesAspirant.key, type: 'BADGE', badgeKey: HadesAspirant.key },
@@ -36,5 +36,5 @@ export const MasterPlumber: BadgeData = {
     { key: SecretOfTheCity.key, type: 'BADGE', badgeKey: SecretOfTheCity.key },
     { key: SprawlSurvivor.key, type: 'BADGE', badgeKey: SprawlSurvivor.key },
     { key: TheUnderlord.key, type: 'BADGE', badgeKey: TheUnderlord.key },
-  ],
+  ]],
 }

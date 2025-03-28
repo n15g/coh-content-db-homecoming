@@ -11,7 +11,7 @@ export const Major: BadgeData = {
     { title: 'Major Badge', href: 'https://homecoming.wiki/wiki/Major_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const Major: BadgeData = {
       inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
       inventionCount: 10,
     },
-  ],
+  ]],
 }

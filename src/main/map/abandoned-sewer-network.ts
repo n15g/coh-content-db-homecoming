@@ -26,7 +26,7 @@ export const AbandonedSewerNetwork: GameMapData = {
         { pos: [563, 760], badgeKey: 'living-dark' },
         { pos: [618, 1433], badgeKey: 'persephone-supplicant' },
 
-        { pos: [583, 744], badgeKey: 'academic', badgePartialKey: 'acad-2' },
+        { pos: [583, 744], badgeKey: 'academic', badgeRequirementKey: 'acad-2' },
       ],
     },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { ProtectorOfInnocents } from '../achievement/protector-of-innocents'
 
 export const WolfSpiderEnforcer: BadgeData = {
@@ -12,11 +12,13 @@ export const WolfSpiderEnforcer: BadgeData = {
   badgeText: [
     { value: 'These soldiers will fight for you.' },
   ],
-  acquisition: `Earn the ${badgeLink(ProtectorOfInnocents)} Badge (Arachnos)`,
   links: [
     { title: 'Wolf Spider Enforcer Badge', href: 'https://homecoming.wiki/wiki/Wolf_Spider_Enforcer_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
+  requirements: [[
+    { key: ProtectorOfInnocents.key, type: 'BADGE', badgeKey: ProtectorOfInnocents.key },
+  ]],
 }

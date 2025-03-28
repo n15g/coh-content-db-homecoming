@@ -27,7 +27,7 @@ export const WalkedDownMemoryLane: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Trustworthy.key, type: 'BADGE', badgeKey: Trustworthy.key },
     { key: Knowledgeable.key, type: 'BADGE', badgeKey: Knowledgeable.key },
     { key: Virtuous.key, type: 'BADGE', badgeKey: Virtuous.key },
@@ -36,5 +36,5 @@ export const WalkedDownMemoryLane: BadgeData = {
     { key: Resilient.key, type: 'BADGE', badgeKey: Resilient.key },
     { key: OutOfHarmsWay.key, type: 'BADGE', badgeKey: OutOfHarmsWay.key },
     { key: CityTraveler.key, type: 'BADGE', badgeKey: CityTraveler.key },
-  ],
+  ]],
 }

@@ -25,8 +25,8 @@ export const Traveler: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/traveler.png' },
   ],
-  partials: [
+  requirements: [[
     { key: DimensionalExplorer.key, type: 'BADGE', badgeKey: DimensionalExplorer.key },
     { key: Commuter.key, type: 'BADGE', badgeKey: Commuter.key },
-  ],
+  ]],
 }

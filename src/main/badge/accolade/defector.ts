@@ -28,8 +28,8 @@ export const Defector: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/defector.png' },
   ],
-  partials: [
+  requirements: [[
     { key: CannonFodder.key, type: 'BADGE', badgeKey: CannonFodder.key },
     { key: Banker.key, type: 'BADGE', badgeKey: Banker.key },
-  ],
+  ]],
 }

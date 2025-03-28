@@ -25,8 +25,8 @@ export const Entrepreneur: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png' },
   ],
-  partials: [
+  requirements: [[
     { key: DayTrader.key, type: 'BADGE', badgeKey: DayTrader.key },
     { key: ShopKeeper.key, type: 'BADGE', badgeKey: ShopKeeper.key },
-  ],
+  ]],
 }

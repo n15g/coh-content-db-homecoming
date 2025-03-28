@@ -27,7 +27,7 @@ export const MadScienceSupporter: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Sparky.key, type: 'BADGE', badgeKey: Sparky.key },
     { key: MediaJunky.key, type: 'BADGE', badgeKey: MediaJunky.key },
     { key: Egghead.key, type: 'BADGE', badgeKey: Egghead.key },
@@ -36,5 +36,5 @@ export const MadScienceSupporter: BadgeData = {
     { key: DoomSayer.key, type: 'BADGE', badgeKey: DoomSayer.key },
     { key: MasterOfScience.key, type: 'BADGE', badgeKey: MasterOfScience.key },
     { key: CircleGazer.key, type: 'BADGE', badgeKey: CircleGazer.key },
-  ],
+  ]],
 }

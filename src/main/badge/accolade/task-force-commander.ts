@@ -29,12 +29,12 @@ export const TaskForceCommander: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/task-force-commander.png' },
   ],
   effect: `+5% Max Health`,
-  partials: [
+  requirements: [[
     { key: CitadelsAssistant.key, type: 'BADGE', badgeKey: CitadelsAssistant.key },
     { key: ManticoresAssociate.key, type: 'BADGE', badgeKey: ManticoresAssociate.key },
     { key: NuminasCompatriot.key, type: 'BADGE', badgeKey: NuminasCompatriot.key },
     { key: PenelopeYinsFriend.key, type: 'BADGE', badgeKey: PenelopeYinsFriend.key },
     { key: PositronsAlly.key, type: 'BADGE', badgeKey: PositronsAlly.key },
     { key: SynapsesCohort.key, type: 'BADGE', badgeKey: SynapsesCohort.key },
-  ],
+  ]],
 }

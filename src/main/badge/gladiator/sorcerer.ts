@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { MageHunter } from '../accomplishment/mage-hunter'
 
 export const Sorcerer: BadgeData = {
@@ -12,11 +12,13 @@ export const Sorcerer: BadgeData = {
   badgeText: [
     { value: 'The Tsoo are honored to serve you.' },
   ],
-  acquisition: `Earn the ${badgeLink(MageHunter)} Badge (Tsoo)`,
   links: [
     { title: 'Sorcerer Badge', href: 'https://homecoming.wiki/wiki/Sorcerer_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
+  requirements: [[
+    { key: MageHunter.key, type: 'BADGE', badgeKey: MageHunter.key },
+  ]],
 }

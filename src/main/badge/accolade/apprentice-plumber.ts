@@ -27,7 +27,7 @@ export const ApprenticePlumber: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: BaumtonAvenger.key, type: 'BADGE', badgeKey: BaumtonAvenger.key },
     { key: DownwardBound.key, type: 'BADGE', badgeKey: DownwardBound.key },
     { key: Plutonian.key, type: 'BADGE', badgeKey: Plutonian.key },
@@ -36,5 +36,5 @@ export const ApprenticePlumber: BadgeData = {
     { key: SewerStalker.key, type: 'BADGE', badgeKey: SewerStalker.key },
     { key: SpiritOfTheCity.key, type: 'BADGE', badgeKey: SpiritOfTheCity.key },
     { key: TerrorOfTheVahzilok.key, type: 'BADGE', badgeKey: TerrorOfTheVahzilok.key },
-  ],
+  ]],
 }

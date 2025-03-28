@@ -20,8 +20,8 @@ export const Mercenary: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mercenary.png' },
   ],
-  partials: [
+  requirements: [[
     { key: VanguardRecruit.key, type: 'BADGE', badgeKey: VanguardRecruit.key },
     { key: Patroller.key, type: 'BADGE', badgeKey: Patroller.key },
-  ],
+  ]],
 }

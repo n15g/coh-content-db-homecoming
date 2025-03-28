@@ -27,7 +27,7 @@ export const EtherealDrifter: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  partials: [
+  requirements: [[
     { key: NocturnalPilgrim.key, type: 'BADGE', badgeKey: NocturnalPilgrim.key },
     { key: HappyCamper.key, type: 'BADGE', badgeKey: HappyCamper.key },
     { key: HouseHunter.key, type: 'BADGE', badgeKey: HouseHunter.key },
@@ -36,5 +36,5 @@ export const EtherealDrifter: BadgeData = {
     { key: FollowTheLight.key, type: 'BADGE', badgeKey: FollowTheLight.key },
     { key: Monolithic.key, type: 'BADGE', badgeKey: Monolithic.key },
     { key: Stargazer.key, type: 'BADGE', badgeKey: Stargazer.key },
-  ],
+  ]],
 }

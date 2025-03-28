@@ -27,7 +27,7 @@ export const EmperorForADay: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  partials: [
+  requirements: [[
     { key: TiberianOverseer.key, type: 'BADGE', badgeKey: TiberianOverseer.key },
     { key: PraetorianOfPrivilege.key, type: 'BADGE', badgeKey: PraetorianOfPrivilege.key },
     { key: GoldDigger.key, type: 'BADGE', badgeKey: GoldDigger.key },
@@ -36,5 +36,5 @@ export const EmperorForADay: BadgeData = {
     { key: ParkRanger.key, type: 'BADGE', badgeKey: ParkRanger.key },
     { key: Seen.key, type: 'BADGE', badgeKey: Seen.key },
     { key: Seer.key, type: 'BADGE', badgeKey: Seer.key },
-  ],
+  ]],
 }

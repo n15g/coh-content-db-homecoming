@@ -45,7 +45,7 @@ export const DestroyerOfDespair: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/destroyer-of-despair.png' },
   ],
-  partials: [
+  requirements: [[
     { key: EyeOfVengeance.key, type: 'BADGE', badgeKey: EyeOfVengeance.key },
     { key: TheDeterminedMentor.key, type: 'BADGE', badgeKey: TheDeterminedMentor.key },
     { key: KnifeButcher.key, type: 'BADGE', badgeKey: KnifeButcher.key },
@@ -63,5 +63,5 @@ export const DestroyerOfDespair: BadgeData = {
     { key: IncarnateRival.key, type: 'BADGE', badgeKey: IncarnateRival.key },
     { key: BuddyCop.key, type: 'BADGE', badgeKey: BuddyCop.key },
     { key: LoneWolf.key, type: 'BADGE', badgeKey: LoneWolf.key },
-  ],
+  ]],
 }

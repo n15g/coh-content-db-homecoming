@@ -12,7 +12,7 @@ export const Wanderer: BadgeData = {
     { title: 'Wanderer Badge', href: 'https://homecoming.wiki/wiki/Wanderer_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -28,5 +28,5 @@ export const Wanderer: BadgeData = {
       inventionCount: 8,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ],
+  ]],
 }

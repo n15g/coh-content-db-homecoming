@@ -27,7 +27,7 @@ export const FaultlineFinder: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  partials: [
+  requirements: [[
     { key: EscapeArtist.key, type: 'BADGE', badgeKey: EscapeArtist.key },
     { key: DrownedRat.key, type: 'BADGE', badgeKey: DrownedRat.key },
     { key: OldFashioned.key, type: 'BADGE', badgeKey: OldFashioned.key },
@@ -36,5 +36,5 @@ export const FaultlineFinder: BadgeData = {
     { key: Upcycled.key, type: 'BADGE', badgeKey: Upcycled.key },
     { key: Riveting.key, type: 'BADGE', badgeKey: Riveting.key },
     { key: RockBottom.key, type: 'BADGE', badgeKey: RockBottom.key },
-  ],
+  ]],
 }

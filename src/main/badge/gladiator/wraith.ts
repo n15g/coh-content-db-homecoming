@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Haunted } from '../defeat/haunted'
 
 export const Wraith: BadgeData = {
@@ -12,11 +12,13 @@ export const Wraith: BadgeData = {
   badgeText: [
     { value: 'The dead will fight for you.' },
   ],
-  acquisition: `Earn the ${badgeLink(Haunted)} Badge (Croatoa Ghosts)`,
   links: [
     { title: 'Wraith Badge', href: 'https://homecoming.wiki/wiki/Wraith_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
+  requirements: [[
+    { key: Haunted.key, type: 'BADGE', badgeKey: Haunted.key },
+  ]],
 }

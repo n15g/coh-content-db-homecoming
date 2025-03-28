@@ -27,7 +27,7 @@ export const BusyBusyBee: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: AmongTheGiants.key, type: 'BADGE', badgeKey: AmongTheGiants.key },
     { key: BabeInTheWoods.key, type: 'BADGE', badgeKey: BabeInTheWoods.key },
     { key: ForestOfStone.key, type: 'BADGE', badgeKey: ForestOfStone.key },
@@ -36,5 +36,5 @@ export const BusyBusyBee: BadgeData = {
     { key: TheWoundedEarth.key, type: 'BADGE', badgeKey: TheWoundedEarth.key },
     { key: TimeBandit.key, type: 'BADGE', badgeKey: TimeBandit.key },
     { key: WildAtHeart.key, type: 'BADGE', badgeKey: WildAtHeart.key },
-  ],
+  ]],
 }

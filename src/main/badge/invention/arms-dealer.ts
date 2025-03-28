@@ -11,7 +11,7 @@ export const ArmsDealer: BadgeData = {
     { title: 'Arms Dealer Badge', href: 'https://homecoming.wiki/wiki/Arms_Dealer_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -26,5 +26,5 @@ export const ArmsDealer: BadgeData = {
       inventionTypes: ['DAMAGE', 'KNOCKBACK'],
       inventionCount: 11,
     },
-  ],
+  ]],
 }

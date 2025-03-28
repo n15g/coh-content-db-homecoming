@@ -28,7 +28,7 @@ export const BetweenRealities: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/between-realities.png' },
   ],
   effect: `Mark & Recall`,
-  partials: [
+  requirements: [[
     { key: GerminatorTerminator.key, type: 'BADGE', badgeKey: GerminatorTerminator.key },
     { key: FullSpectrum.key, type: 'BADGE', badgeKey: FullSpectrum.key },
     { key: Lawbreaker.key, type: 'BADGE', badgeKey: Lawbreaker.key },
@@ -38,5 +38,5 @@ export const BetweenRealities: BadgeData = {
     { key: Stargazer.key, type: 'BADGE', badgeKey: Stargazer.key },
     { key: DeadButDreaming.key, type: 'BADGE', badgeKey: DeadButDreaming.key },
     { key: Multifaceted.key, type: 'BADGE', badgeKey: Multifaceted.key },
-  ],
+  ]],
 }

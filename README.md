@@ -213,9 +213,9 @@ export const ProtectorOfInnocents: BadgeData = {
     // /loc Coordinates for exploration badges
     loc: [-411.0, 48.0, -2623.0],
 
-    // Partials are necessary for badges that involve one or more steps to complete, like collecting other badges,
+    // Requirements for badges that involve one or more steps to complete, like collecting other badges,
     // clicking on monuments, or creating inventions.
-    partials: [
+    requirements: [[
         { key: AstoriasLastStand.key, type: 'BADGE', badgeKey: AstoriasLastStand.key },
         {
             key: 'bicn-0',
@@ -234,7 +234,7 @@ export const ProtectorOfInnocents: BadgeData = {
             inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
             inventionCount: 12,
         },
-    ]
+    ]]
 }
 ```
 

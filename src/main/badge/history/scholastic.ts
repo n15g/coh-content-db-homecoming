@@ -19,7 +19,7 @@ export const Scholastic: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'schs-0',
       type: 'PLAQUE',
@@ -50,5 +50,5 @@ export const Scholastic: BadgeData = {
       notes: `This plaque is in ${mapLink(Brickstown)}. It is approximately 140 yards south of Holsten Armitage, the Science store contact in the southeastern part of the zone. The plaque is on a small pedestal in a corner where two chain link fences meet.`,
       vidiotMapKey: '2',
     },
-  ],
+  ]],
 }

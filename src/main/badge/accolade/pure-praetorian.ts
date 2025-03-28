@@ -27,7 +27,7 @@ export const PurePraetorian: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Ambitious.key, type: 'BADGE', badgeKey: Ambitious.key },
     { key: CitizenCole.key, type: 'BADGE', badgeKey: CitizenCole.key },
     { key: CivicMinded.key, type: 'BADGE', badgeKey: CivicMinded.key },
@@ -36,5 +36,5 @@ export const PurePraetorian: BadgeData = {
     { key: Technophile.key, type: 'BADGE', badgeKey: Technophile.key },
     { key: UnCivilSociety.key, type: 'BADGE', badgeKey: UnCivilSociety.key },
     { key: OnTheWaterfront.key, type: 'BADGE', badgeKey: OnTheWaterfront.key },
-  ],
+  ]],
 }

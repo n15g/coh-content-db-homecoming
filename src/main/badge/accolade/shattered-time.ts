@@ -25,7 +25,7 @@ export const ShatteredTime: BadgeData = {
   links: [
     { title: 'Shattered Time Badge', href: 'https://homecoming.wiki/wiki/Shattered_Time_Badge' },
   ],
-  partials: [
+  requirements: [[
     { key: Globetrotter.key, type: 'BADGE', badgeKey: Globetrotter.key },
     { key: Ragnarok.key, type: 'BADGE', badgeKey: Ragnarok.key },
     { key: TemporalFighter.key, type: 'BADGE', badgeKey: TemporalFighter.key },
@@ -34,5 +34,5 @@ export const ShatteredTime: BadgeData = {
     { key: TrueNeutral.key, type: 'BADGE', badgeKey: TrueNeutral.key },
     { key: WatchYourBack.key, type: 'BADGE', badgeKey: WatchYourBack.key },
     { key: SickOfTimeTravel.key, type: 'BADGE', badgeKey: SickOfTimeTravel.key },
-  ],
+  ]],
 }

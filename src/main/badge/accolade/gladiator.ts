@@ -19,8 +19,8 @@ export const Gladiator: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gladiator.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Duelist.key, type: 'BADGE', badgeKey: Duelist.key },
     { key: Predator.key, type: 'BADGE', badgeKey: Predator.key },
-  ],
+  ]],
 }

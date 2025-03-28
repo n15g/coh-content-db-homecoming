@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { LockedAndLoaded } from '../exploration/locked-and-loaded'
 
 export const LongbowRifleman: BadgeData = {
@@ -13,11 +13,13 @@ export const LongbowRifleman: BadgeData = {
     { alignment: 'H', value: 'Longbow counts you as an ally.' },
     { alignment: 'V', value: 'Even Longbow respects your skills.' },
   ],
-  acquisition: `Earn the ${badgeLink(LockedAndLoaded)}} Badge (Longbow)`,
   links: [
     { title: 'Longbow Rifleman Badge', href: 'https://homecoming.wiki/wiki/Longbow_Rifleman_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
+  requirements: [[
+    { key: LockedAndLoaded.key, type: 'BADGE', badgeKey: LockedAndLoaded.key },
+  ]],
 }

@@ -27,7 +27,7 @@ export const JumpedTheShark: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  partials: [
+  requirements: [[
     { key: RazorToothed.key, type: 'BADGE', badgeKey: RazorToothed.key },
     { key: ForgedByHellfire.key, type: 'BADGE', badgeKey: ForgedByHellfire.key },
     { key: FreakOfNature.key, type: 'BADGE', badgeKey: FreakOfNature.key },
@@ -36,5 +36,5 @@ export const JumpedTheShark: BadgeData = {
     { key: UnwelcomeGuest.key, type: 'BADGE', badgeKey: UnwelcomeGuest.key },
     { key: SkyTrader.key, type: 'BADGE', badgeKey: SkyTrader.key },
     { key: CarpingTheDiem.key, type: 'BADGE', badgeKey: CarpingTheDiem.key },
-  ],
+  ]],
 }

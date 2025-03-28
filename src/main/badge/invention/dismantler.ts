@@ -11,7 +11,7 @@ export const Dismantler: BadgeData = {
     { title: 'Dismantler Badge', href: 'https://homecoming.wiki/wiki/Dismantler_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Dismantler: BadgeData = {
       inventionCount: 2,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ],
+  ]],
 }

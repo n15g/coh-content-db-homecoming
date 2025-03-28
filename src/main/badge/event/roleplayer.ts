@@ -20,10 +20,10 @@ export const Roleplayer: BadgeData = {
     { title: 'Roleplayer Badge', href: 'https://homecoming.wiki/wiki/Toothbreaker_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/roleplayer.png' }],
-  partials: [
+  requirements: [[
     { key: ThePerfectHitter.key, type: 'BADGE', badgeKey: ThePerfectHitter.key },
     { key: ThePerfectHacker.key, type: 'BADGE', badgeKey: ThePerfectHacker.key },
     { key: ThePerfectGrifter.key, type: 'BADGE', badgeKey: ThePerfectGrifter.key },
     { key: ThePerfectThief.key, type: 'BADGE', badgeKey: ThePerfectThief.key },
-  ],
+  ]],
 }

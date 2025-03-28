@@ -26,7 +26,7 @@ export const VivaPraetoria: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/viva-praetoria.png' },
   ],
-  partials: [
+  requirements: [[
     { key: PurePraetorian.key, type: 'BADGE', badgeKey: PurePraetorian.key },
     { key: EmperorForADay.key, type: 'BADGE', badgeKey: EmperorForADay.key },
     { key: KnowsNovasNooks.key, type: 'BADGE', badgeKey: KnowsNovasNooks.key },
@@ -35,5 +35,5 @@ export const VivaPraetoria: BadgeData = {
     { key: NeuYouCouldDoIt.key, type: 'BADGE', badgeKey: NeuYouCouldDoIt.key },
     { key: RailRider.key, type: 'BADGE', badgeKey: RailRider.key },
     { key: GoingRouge.key, type: 'BADGE', badgeKey: GoingRouge.key },
-  ],
+  ]],
 }

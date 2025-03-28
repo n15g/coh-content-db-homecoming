@@ -31,7 +31,7 @@ export const Archmage: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archmage.png' },
   ],
   effect: `Eye of the Magus`,
-  partials: [
+  requirements: [[
     { key: Banisher.key, type: 'BADGE', badgeKey: Banisher.key },
     { key: DarkMystic.key, type: 'BADGE', badgeKey: DarkMystic.key },
     { key: FaultlessMystic.key, type: 'BADGE', badgeKey: FaultlessMystic.key },
@@ -40,5 +40,5 @@ export const Archmage: BadgeData = {
     { key: MysticKing.key, type: 'BADGE', badgeKey: MysticKing.key },
     { key: SoulBinder.key, type: 'BADGE', badgeKey: SoulBinder.key },
     { key: Tracer.key, type: 'BADGE', badgeKey: Tracer.key },
-  ],
+  ]],
 }

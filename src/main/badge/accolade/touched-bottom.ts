@@ -27,7 +27,7 @@ export const TouchedBottom: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: AbyssalGaze.key, type: 'BADGE', badgeKey: AbyssalGaze.key },
     { key: CagedBeast.key, type: 'BADGE', badgeKey: CagedBeast.key },
     { key: Geneticist.key, type: 'BADGE', badgeKey: Geneticist.key },
@@ -36,5 +36,5 @@ export const TouchedBottom: BadgeData = {
     { key: NoEscape.key, type: 'BADGE', badgeKey: NoEscape.key },
     { key: Reborn.key, type: 'BADGE', badgeKey: Reborn.key },
     { key: TheTreeOfWoe.key, type: 'BADGE', badgeKey: TheTreeOfWoe.key },
-  ],
+  ]],
 }

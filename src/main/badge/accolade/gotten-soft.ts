@@ -29,7 +29,7 @@ export const GottenSoft: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gotten-soft.png' },
   ],
   effect: `+10% Max Health`,
-  partials: [
+  requirements: [[
     { key: BadLuck.key, type: 'BADGE', badgeKey: BadLuck.key },
     { key: TheUnbrokenSpirit.key, type: 'BADGE', badgeKey: TheUnbrokenSpirit.key },
     { key: FreakOfNature.key, type: 'BADGE', badgeKey: FreakOfNature.key },
@@ -37,5 +37,5 @@ export const GottenSoft: BadgeData = {
     { key: LockedAndLoaded.key, type: 'BADGE', badgeKey: LockedAndLoaded.key },
     { key: SpiderSmasher.key, type: 'BADGE', badgeKey: SpiderSmasher.key },
     { key: Technofreak.key, type: 'BADGE', badgeKey: Technofreak.key },
-  ],
+  ]],
 }

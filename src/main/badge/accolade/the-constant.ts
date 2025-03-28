@@ -22,8 +22,8 @@ export const TheConstant: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/the-constant.png' },
   ],
-  partials: [
+  requirements: [[
     { key: WalkedDownMemoryLane.key, type: 'BADGE', badgeKey: WalkedDownMemoryLane.key },
     { key: AtlasTourGuide.key, type: 'BADGE', badgeKey: AtlasTourGuide.key },
-  ],
+  ]],
 }

@@ -12,7 +12,7 @@ export const Sharpshooter: BadgeData = {
     { title: 'Sharpshooter Badge', href: 'https://homecoming.wiki/wiki/Sharpshooter_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Sharpshooter: BadgeData = {
       inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
       inventionCount: 14,
     },
-  ],
+  ]],
 }

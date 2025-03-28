@@ -1,4 +1,4 @@
-import { BadgeData, badgeLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Professor } from '../day-job/professor'
 import { Intern } from '../day-job/intern'
 
@@ -15,7 +15,6 @@ export const Scientist: BadgeData = {
     { alignment: 'H', value: `Your studies at the Universities of Paragon City and work with Portal Corps have earned you the Scientist Accolade.  While logged out at a University or inside a Portal Corps building you will earn charges of Sleep Gas.` },
     { alignment: 'V', value: `Eager to distance themselves from your villainous self, Portal Corps and the universities of Paragon City have quickly denounced you as merely a Crackpot.` },
   ],
-  acquisition: `Earn the ${badgeLink(Professor)} and ${badgeLink(Intern)} day jobs badges.`,
   links: [
     { title: 'Scientist Badge', href: 'https://homecoming.wiki/wiki/Scientist_Badge' },
     { title: 'Crackpot Badge', href: 'https://homecoming.wiki/wiki/Crackpot_Badge' },
@@ -23,8 +22,8 @@ export const Scientist: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/scientist.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
     { key: Intern.key, type: 'BADGE', badgeKey: Intern.key },
-  ],
+  ]],
 }

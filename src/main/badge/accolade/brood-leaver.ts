@@ -25,8 +25,8 @@ export const BroodLeaver: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/brood-leaver.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Grounded.key, type: 'BADGE', badgeKey: Grounded.key },
     { key: ArachnosTraitor.key, type: 'BADGE', badgeKey: ArachnosTraitor.key },
-  ],
+  ]],
 }

@@ -11,7 +11,7 @@ export const Vagabond: BadgeData = {
     { title: 'Vagabond Badge', href: 'https://homecoming.wiki/wiki/Vagabond_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Vagabond: BadgeData = {
       inventionCount: 6,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ],
+  ]],
 }

@@ -29,7 +29,7 @@ export const GeasOfTheKindOnes: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/geas-of-the-kind-ones.png' },
   ],
   effect: `Geas of the Kind Ones`,
-  partials: [
+  requirements: [[
     { key: BaneOfDannan.key, type: 'BADGE', badgeKey: BaneOfDannan.key },
     { key: Believer.key, type: 'BADGE', badgeKey: Believer.key },
     { key: Cabalist.key, type: 'BADGE', badgeKey: Cabalist.key },
@@ -39,5 +39,5 @@ export const GeasOfTheKindOnes: BadgeData = {
     { key: PumpkinKing.key, type: 'BADGE', badgeKey: PumpkinKing.key },
     { key: PumpkinMaster.key, type: 'BADGE', badgeKey: PumpkinMaster.key },
     { key: Spellbinding.key, type: 'BADGE', badgeKey: Spellbinding.key },
-  ],
+  ]],
 }

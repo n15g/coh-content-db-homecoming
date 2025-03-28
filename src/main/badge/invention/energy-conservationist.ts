@@ -11,7 +11,7 @@ export const EnergyConservationist: BadgeData = {
     { title: 'Energy Conservationist Badge', href: 'https://homecoming.wiki/wiki/Energy_Conservationist_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const EnergyConservationist: BadgeData = {
       inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
       inventionCount: 9,
     },
-  ],
+  ]],
 }

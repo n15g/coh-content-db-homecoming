@@ -27,7 +27,7 @@ export const PerezParkPerfection: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: AroundTheBendis.key, type: 'BADGE', badgeKey: AroundTheBendis.key },
     { key: Avatar.key, type: 'BADGE', badgeKey: Avatar.key },
     { key: BloodMoss.key, type: 'BADGE', badgeKey: BloodMoss.key },
@@ -36,5 +36,5 @@ export const PerezParkPerfection: BadgeData = {
     { key: NebulasMemory.key, type: 'BADGE', badgeKey: NebulasMemory.key },
     { key: OpheliasFinalScene.key, type: 'BADGE', badgeKey: OpheliasFinalScene.key },
     { key: Territorial.key, type: 'BADGE', badgeKey: Territorial.key },
-  ],
+  ]],
 }

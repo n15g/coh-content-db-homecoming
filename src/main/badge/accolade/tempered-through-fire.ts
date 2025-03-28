@@ -25,7 +25,7 @@ export const TemperedThroughFire: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/tempered-through-fire.png' },
   ],
   effect: 'Rewards 20 Merits',
-  partials: [
+  requirements: [[
     { key: Loyalist.key, type: 'BADGE', badgeKey: Loyalist.key },
     { key: Magistrate.key, type: 'BADGE', badgeKey: Magistrate.key },
     { key: Tyrant.key, type: 'BADGE', badgeKey: Tyrant.key },
@@ -33,5 +33,5 @@ export const TemperedThroughFire: BadgeData = {
     { key: Obliterator.key, type: 'BADGE', badgeKey: Obliterator.key },
     { key: Survivor.key, type: 'BADGE', badgeKey: Survivor.key },
     { key: Escapist.key, type: 'BADGE', badgeKey: Escapist.key },
-  ],
+  ]],
 }

@@ -27,7 +27,7 @@ export const CascadeCleansing: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: BeingAndNothingness.key, type: 'BADGE', badgeKey: BeingAndNothingness.key },
     { key: Castaway.key, type: 'BADGE', badgeKey: Castaway.key },
     { key: HearingVoices.key, type: 'BADGE', badgeKey: HearingVoices.key },
@@ -36,5 +36,5 @@ export const CascadeCleansing: BadgeData = {
     { key: PeaceWalker.key, type: 'BADGE', badgeKey: PeaceWalker.key },
     { key: TheHeartOfMemory.key, type: 'BADGE', badgeKey: TheHeartOfMemory.key },
     { key: UsurperOfWorlds.key, type: 'BADGE', badgeKey: UsurperOfWorlds.key },
-  ],
+  ]],
 }

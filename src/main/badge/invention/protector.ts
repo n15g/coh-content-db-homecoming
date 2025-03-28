@@ -12,7 +12,7 @@ export const Protector: BadgeData = {
     { title: 'Protector Badge', href: 'https://homecoming.wiki/wiki/Protector_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Protector: BadgeData = {
       inventionTypes: ['DEFENSE_BUFF', 'RESIST_DAMAGE', 'INTANGIBILITY'],
       inventionCount: 6,
     },
-  ],
+  ]],
 }

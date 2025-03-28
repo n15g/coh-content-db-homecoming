@@ -11,7 +11,7 @@ export const Mender: BadgeData = {
     { title: 'Mender Badge', href: 'https://homecoming.wiki/wiki/Mender_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
-  partials: [
+  requirements: [[
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Mender: BadgeData = {
       inventionCount: 4,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ],
+  ]],
 }

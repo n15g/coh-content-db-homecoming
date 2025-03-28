@@ -21,7 +21,7 @@ export const Lorekeeper: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
   ],
-  partials: [
+  requirements: [[
     {
       key: 'lore-0',
       type: 'PLAQUE',
@@ -62,5 +62,5 @@ export const Lorekeeper: BadgeData = {
       notes: `This monument is located at the south end of the parking lot just west of the Rogue Isles Ferry in ${mapLink(SharkheadIsle)}.`,
       vidiotMapKey: '1',
     },
-  ],
+  ]],
 }

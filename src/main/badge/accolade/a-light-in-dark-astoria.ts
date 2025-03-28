@@ -27,7 +27,7 @@ export const ALightInDarkAstoria: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  partials: [
+  requirements: [[
     { key: AstoriasLastStand.key, type: 'BADGE', badgeKey: AstoriasLastStand.key },
     { key: CairnWarder.key, type: 'BADGE', badgeKey: CairnWarder.key },
     { key: DarkMystic.key, type: 'BADGE', badgeKey: DarkMystic.key },
@@ -36,5 +36,5 @@ export const ALightInDarkAstoria: BadgeData = {
     { key: TheSleeperBelow.key, type: 'BADGE', badgeKey: TheSleeperBelow.key },
     { key: TooDarkPark.key, type: 'BADGE', badgeKey: TooDarkPark.key },
     { key: WhispererOnWitchburnHill.key, type: 'BADGE', badgeKey: WhispererOnWitchburnHill.key },
-  ],
+  ]],
 }

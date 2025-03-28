@@ -31,7 +31,7 @@ export const ZigWarden: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  partials: [
+  requirements: [[
     { key: Mystic.key, type: 'BADGE', badgeKey: Mystic.key },
     { key: Inmate.key, type: 'BADGE', badgeKey: Inmate.key },
     { key: FlyingShark.key, type: 'BADGE', badgeKey: FlyingShark.key },
@@ -40,5 +40,5 @@ export const ZigWarden: BadgeData = {
     { key: SecretPath.key, type: 'BADGE', badgeKey: SecretPath.key },
     { key: SixthPassenger.key, type: 'BADGE', badgeKey: SixthPassenger.key },
     { key: Unsubtle.key, type: 'BADGE', badgeKey: Unsubtle.key },
-  ],
+  ]],
 }
