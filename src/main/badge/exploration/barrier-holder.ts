@@ -15,7 +15,7 @@ export const BarrierHolder: BadgeData = {
   }],
   notes: `Located in the Salamanca neighborhood of ${zoneLink(Croatoa)}.
 
-          It is in the middle of a small pond 135 yards west of the neighborhood marker.`,
+It is in the middle of a small pond 135 yards west of the neighborhood marker.`,
   links: [
     { title: 'Barrier Holder Badge', href: 'https://homecoming.wiki/wiki/Barrier_Holder_Badge' },
   ],

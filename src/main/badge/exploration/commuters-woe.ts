@@ -9,10 +9,7 @@ export const CommutersWoe: BadgeData = {
   alignment: ['V'],
   zoneKey: PortOakes.key,
   loc: [1771, 64, -696],
-  badgeText: [{
-    value: `The Mount Diable Tunnel, destroyed following a turf war gone explosive, connected Port Oakes to Cap au Diable.
- Much to the chagrin of many commuters, no effort has been made to rebuild it.`,
-  }],
+  badgeText: [{ value: `The Mount Diable Tunnel, destroyed following a turf war gone explosive, connected Port Oakes to Cap au Diable. Much to the chagrin of many commuters, no effort has been made to rebuild it.` }],
   notes: `Located in ${zoneLink(PortOakes)}, in the Oil Spill neighborhood.
 
 It is at the blocked off tunnel 194 yards west of the Quartermaster.`,

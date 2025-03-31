@@ -11,9 +11,10 @@ export const UnderFire: BadgeData = {
   zoneKey: EchoRiktiCrashSite.key,
   loc: [1628.6, 0.3, -1047.3],
   badgeText: [{ value: 'You just stepped into a major battle zone. Was this all that you signed up for?' }],
-  notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
+  notes: `
+**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
-          Next to the road.`,
+Next to the road.`,
   links: [
     { title: 'Under Fire Badge', href: 'https://homecoming.wiki/wiki/Under_Fire_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

@@ -11,7 +11,7 @@ export const NaturalLaw: BadgeData = {
   loc: [-309, -35, 3891],
   badgeText: [{
     value: `Before you are the steps that once led to the Circuit Court of Woodvale, a bastion of law and order.
-            But a new law rules here, one with rules as ancient as the planet's core, and in this court all of humanity has been found guilty.`,
+But a new law rules here, one with rules as ancient as the planet's core, and in this court all of humanity has been found guilty.`,
   }],
   notes: `Located in ${zoneLink(Eden)} 200 yards south of The Serpentine marker, in the grass in front of a building in a small clearing in the trees.`,
   links: [

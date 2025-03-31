@@ -17,7 +17,7 @@ export const NatureLover: BadgeData = {
   }],
   notes: `Located in the western part of the Argo Highway neighborhood of ${zoneLink(TalosIsland)}, 874 yards west of the Argo Highway marker.
 
-          The island it is on is the island that is cut by the western war wall, and the badge marker is just east of the tall rock outcropping in the center of the island.`,
+The island it is on is the island that is cut by the western war wall, and the badge marker is just east of the tall rock outcropping in the center of the island.`,
   links: [
     { title: 'Nature Lover Badge', href: 'https://homecoming.wiki/wiki/Nature_Lover_Badge' },
   ],

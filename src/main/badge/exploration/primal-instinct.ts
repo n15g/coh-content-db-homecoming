@@ -15,12 +15,12 @@ export const PrimalInstinct: BadgeData = {
   notes: `Located in ${zoneLink(NervaArchipelago)}, in the Primeva neighborhood.
 
 It is 266 yards north-northwest of the Primeva marker.
- The marker is well-hidden by being near no particular landmark.
- To get to it, go to the jungle below the Primeva marker and head north.
- When you reach a bridge, scale down the cliff and head left (west).
- You will soon come to a pyramid.
- Just past the pyramid, there are two large columns.
- The badge marker is within a fern just past and to the left of the left (southern) column.`,
+The marker is well-hidden by being near no particular landmark.
+To get to it, go to the jungle below the Primeva marker and head north.
+When you reach a bridge, scale down the cliff and head left (west).
+You will soon come to a pyramid.
+Just past the pyramid, there are two large columns.
+The badge marker is within a fern just past and to the left of the left (southern) column.`,
   links: [
     { title: 'Primal Instinct Badge', href: 'https://homecoming.wiki/wiki/Primal_Instinct_Badge' },
   ],

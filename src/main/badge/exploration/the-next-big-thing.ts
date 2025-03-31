@@ -12,9 +12,10 @@ export const TheNextBigThing: BadgeData = {
   badgeText: [{
     value: `This is the good life. The higher up you get, the bigger you are.`,
   }],
-  notes: `Located on ${zoneLink(MercyIsland)}, just inside the Mercy neighborhood at the top of the high wall surrounding it.
+  notes: `
+Located on ${zoneLink(MercyIsland)}, just inside the Mercy neighborhood at the top of the high wall surrounding it.
 
-          If you take the elevator up from Mongoose's location and walk straight towards Arbiter Richard, the badge marker is about halfway to the Arbiter.`,
+If you take the elevator up from Mongoose's location and walk straight towards Arbiter Richard, the badge marker is about halfway to the Arbiter.`,
   links: [
     { title: 'The Next Big Thing Badge', href: 'https://homecoming.wiki/wiki/The_Next_Big_Thing_Badge' },
   ],

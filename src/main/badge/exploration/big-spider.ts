@@ -10,8 +10,7 @@ export const BigSpider: BadgeData = {
   zoneKey: PortOakes.key,
   loc: [-1023, 97, -896],
   badgeText: [{
-    value: `This towering skyscraper used to belong to the Marcones before Arachnos seized it for the purpose of "overseeing operations in Port Oakes."
- The Marcones have been bitter about it ever since.`,
+    value: `This towering skyscraper used to belong to the Marcones before Arachnos seized it for the purpose of "overseeing operations in Port Oakes." The Marcones have been bitter about it ever since.`,
   }],
   notes: `Located in ${zoneLink(PortOakes)}, in the Marconeville neighborhood.
 

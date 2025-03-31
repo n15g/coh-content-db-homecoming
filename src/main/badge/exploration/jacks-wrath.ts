@@ -15,7 +15,7 @@ export const JacksWrath: BadgeData = {
   }],
   notes: `Located in the Sunset Ridge neighborhood of ${zoneLink(Croatoa)}.
 
-          It is in the middle of a ruined building 214 yards NNE of the neighborhood marker.`,
+It is in the middle of a ruined building 214 yards NNE of the neighborhood marker.`,
   links: [
     { title: 'Jack\'s Wrath Badge', href: 'https://homecoming.wiki/wiki/Jack%27s_Wrath_Badge' },
   ],

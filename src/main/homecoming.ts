@@ -2,6 +2,7 @@ import { ContentBundle } from 'coh-content-db'
 import { ZONES } from './zone/_zones'
 import { BADGES } from './badge/_badges'
 import { CHANGELOG } from './changelog'
+import { CONTACTS } from './contact/_contacts'
 
 export const HOMECOMING: ContentBundle = {
   name: 'Homecoming',
@@ -28,6 +29,7 @@ export const HOMECOMING: ContentBundle = {
     { key: 'tanker', name: 'Tanker' },
     { key: 'warshade', name: 'Warshade' },
   ],
+  contacts: [...CONTACTS],
   zones: [...ZONES],
   badges: [...BADGES],
   changelog: CHANGELOG,

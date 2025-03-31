@@ -15,7 +15,7 @@ export const NervaWreck: BadgeData = {
   notes: `Located in ${zoneLink(NervaArchipelago)}, in the Primeva neighborhood.
 
 It is located on the lowest rock outcropping next to the shipwreck in the mouth of the river that runs into the largest island of Primeva.
- It is approximately 533 yrds SE of the Primeva marker and/or the northernmost Quartermaster.`,
+It is approximately 533 yrds SE of the Primeva marker and/or the northernmost Quartermaster.`,
   links: [
     { title: 'Nerva Wreck Badge', href: 'https://homecoming.wiki/wiki/Nerva_Wreck_Badge' },
   ],

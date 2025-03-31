@@ -14,9 +14,9 @@ export const TopDog: BadgeData = {
   }],
   notes: `Located in the Atlas Plaza neighborhood of ${zoneLink(AtlasPark)}.
 
-          It is at the apex of the globe that the Atlas statue just in front of City Hall is holding.
+It is at the apex of the globe that the Atlas statue just in front of City Hall is holding.
 
-          Requires fly, superjump, or teleport, or to arrange to have another hero transport them to the badge marker.`,
+Requires fly, superjump, or teleport, or to arrange to have another hero transport them to the badge marker.`,
   links: [
     { title: 'Top Dog Badge', href: 'https://homecoming.wiki/wiki/Top_Dog_Badge' },
   ],

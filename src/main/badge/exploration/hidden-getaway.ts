@@ -11,7 +11,7 @@ export const HiddenGetaway: BadgeData = {
   loc: [365, 128, -2424],
   badgeText: [{
     value: `When things became heated between rival families, heads of the Marcones have been known to hide in this cabin, sometimes using the nearby submarine to escape to better grounds.
- Some say this may even be where the first monkey fight club was started.`,
+Some say this may even be where the first monkey fight club was started.`,
   }],
   notes: `Located in ${zoneLink(PortOakes)}, in the Villa Montrose neighborhood.
 

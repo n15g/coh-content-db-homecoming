@@ -10,8 +10,7 @@ export const UnethicalTourist: BadgeData = {
   zoneKey: NervaArchipelago.key,
   loc: [-644, 16, 6712],
   badgeText: [{
-    value: `Crey Corporation has been known to invite tourist groups to see the experiments caged in these pens.
-            They justify their actions by claiming the research is to better understand the various subjects contained here.`,
+    value: `Crey Corporation has been known to invite tourist groups to see the experiments caged in these pens. They justify their actions by claiming the research is to better understand the various subjects contained here.`,
   }],
   notes: `Located in ${zoneLink(NervaArchipelago)}, on the eastern island of the Crimson Cove neighborhood.
 

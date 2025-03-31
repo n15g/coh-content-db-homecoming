@@ -11,7 +11,7 @@ export const SkyTrader: BadgeData = {
   loc: [-2077, 56, 512],
   badgeText: [{
     value: `The Family's mansion in Villa Requin has played host to many higher ranking officials within the Sky Raiders.
-            There are rumors that the two groups plot a potential take over of Sharkhead Isle within this mansion.`,
+There are rumors that the two groups plot a potential take over of Sharkhead Isle within this mansion.`,
   }],
   notes: `Located in ${zoneLink(SharkheadIsle)}, in the Villa Requin neighborhood.
 

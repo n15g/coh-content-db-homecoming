@@ -17,7 +17,7 @@ export const Newsman: BadgeData = {
   loc: [1125, -26.9, 1296.7],
   notes: `**Moved from ${zoneLink(Faultline)} in Issue 25.**
 
-  Approx. 513 yrds. S of the "Dark Canyons" marker in front of the doors to a grey stoned high-rise that's tilting into the canyon, next to the west perimeter wall.`,
+Approx. 513 yrds. S of the "Dark Canyons" marker in front of the doors to a grey stoned high-rise that's tilting into the canyon, next to the west perimeter wall.`,
   links: [
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },
   ],

@@ -16,7 +16,7 @@ export const MasterOfTheAirwaves: BadgeData = {
     value: `Top of the world! You have climbed to the top of the radio tower in Grandville.`,
   }],
   notes: `Located in ${zoneLink(Grandville)}, in the Tangle neighborhood.
-    
+
 The marker is on a ledge on the large tower in the center of the zone. It is located on the south face of the tower just above the large Arachnos logo.`,
   links: [
     { title: 'Master of the Airwaves Badge', href: 'https://homecoming.wiki/wiki/Master_of_the_Airwaves_Badge' },

@@ -15,7 +15,7 @@ export const Reborn: BadgeData = {
   notes: `Located in ${zoneLink(TheAbyss)}, directly under the nucleus of Hamidon, in the bowl-shaped water area in the northern part of the map.
 
 It is located underwater (but visible, if a villain is close enough to it) roughly where the feeding streams point in the center of the bowl.
- It is possible to get this badge when Hamidon is not present (i.e. there are Devouring Earth Monsters present in the zone).`,
+It is possible to get this badge when Hamidon is not present (i.e. there are Devouring Earth Monsters present in the zone).`,
   links: [
     { title: 'Reborn Badge', href: 'https://homecoming.wiki/wiki/Reborn_Badge' },
   ],

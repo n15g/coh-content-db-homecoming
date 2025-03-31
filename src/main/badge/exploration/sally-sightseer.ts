@@ -16,7 +16,7 @@ export const SallySightseer: BadgeData = {
   }],
   notes: `Located in the Salamanca neighborhood of ${zoneLink(Croatoa)}.
 
-          It is under the easternmost umbrella on the beach, 246 yards northeast of the neighborhood marker.`,
+It is under the easternmost umbrella on the beach, 246 yards northeast of the neighborhood marker.`,
   links: [
     { title: 'Sally Sightseer Badge', href: 'https://homecoming.wiki/wiki/Sally_Sightseer_Badge' },
   ],

@@ -12,7 +12,7 @@ export const EyesOfNemesis: BadgeData = {
   loc: [226, 128, 1520],
   badgeText: [{
     value: `From this non-descript perch near the Brickstown entrance, the agents of Nemesis monitor everyone who enters Crey's Folly.
-            Though it would not seem so on the surface, Crey's Folly is a hotly contested area, particularly among groups with a strong scientific background such as Crey and Nemesis.`,
+Though it would not seem so on the surface, Crey's Folly is a hotly contested area, particularly among groups with a strong scientific background such as Crey and Nemesis.`,
   }],
   notes: `Located in ${zoneLink(CreysFolly)} 105 yards SW of the ${zoneLink(Brickstown)} gate, on top of the ducting that runs between the holding tanks.`,
   links: [

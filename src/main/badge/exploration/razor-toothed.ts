@@ -15,7 +15,7 @@ export const RazorToothed: BadgeData = {
   notes: `Located in ${zoneLink(SharkheadIsle)}, in The Pit neighborhood.
 
 From the Magic Quartermaster, walk due south.
- There is a small beach, and the badge marker is located on a small rock cropping on the south end of that beach, 86 yards due south of the magic Quartermaster.`,
+There is a small beach, and the badge marker is located on a small rock cropping on the south end of that beach, 86 yards due south of the magic Quartermaster.`,
   links: [
     { title: 'Razor Toothed Badge', href: 'https://homecoming.wiki/wiki/Razor_Toothed_Badge' },
   ],

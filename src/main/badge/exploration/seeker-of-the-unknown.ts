@@ -14,7 +14,7 @@ export const SeekerOfTheUnknown: BadgeData = {
   }],
   notes: `Located in ${zoneLink(EchoDarkAstoria)} 160 yards west, and very slightly north, of the Moth Cemetery marker is a deep chasm.
 
-          At the bottom of that chasm is a doorway that leads into a tunnel. The badge marker is outside the second (middle) crypt in that tunnel.`,
+At the bottom of that chasm is a doorway that leads into a tunnel. The badge marker is outside the second (middle) crypt in that tunnel.`,
   links: [
     { title: 'Seeker of the Unknown Badge', href: 'https://homecoming.wiki/wiki/Seeker_of_the_Unknown_Badge' },
   ],

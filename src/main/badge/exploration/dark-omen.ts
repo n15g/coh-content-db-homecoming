@@ -15,7 +15,7 @@ export const DarkOmen: BadgeData = {
   }],
   notes: `Located in the Tempest Quay neighborhood of ${zoneLink(PeregrineIsland)} on the southwest shore of the northern island.
 
-          Be Careful: Approaching this badge will bring you into close proximity of Devouring Earth Monsters.`,
+Be Careful: Approaching this badge will bring you into close proximity of Devouring Earth Monsters.`,
   links: [
     { title: 'Dark Omen Badge', href: 'https://homecoming.wiki/wiki/Dark_Omen_Badge' },
   ],

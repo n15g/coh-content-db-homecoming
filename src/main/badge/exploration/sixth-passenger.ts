@@ -16,7 +16,7 @@ export const SixthPassenger: BadgeData = {
   }],
   notes: `Located along the south edge of ${zoneLink(Brickstown)}, 390 yards southwest of the Science store.
 
-          There is a section of road that has been built over the ruined foundations of some buildings, and the badge is located near a blue car that is buried under there.`,
+There is a section of road that has been built over the ruined foundations of some buildings, and the badge is located near a blue car that is buried under there.`,
   links: [
     { title: 'Sixth Passenger Badge', href: 'https://homecoming.wiki/wiki/Sixth_Passenger_Badge' },
   ],

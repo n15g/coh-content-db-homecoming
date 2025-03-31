@@ -11,7 +11,7 @@ export const LongWalk: BadgeData = {
   loc: [-703, 128, 211],
   badgeText: [{
     value: `These long parking tunnels are the last thing that many who cross the Marcones see when they're asked to "come take a long walk."
- Those who live in Port Oakes know to steer clear - and that all of the cars in the lot belong to the Marcones.`,
+Those who live in Port Oakes know to steer clear - and that all of the cars in the lot belong to the Marcones.`,
   }],
   notes: `Located in ${zoneLink(PortOakes)}, in the Arena District neighborhood.
 

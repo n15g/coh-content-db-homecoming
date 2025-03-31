@@ -10,8 +10,7 @@ export const CarpingTheDiem: BadgeData = {
   zoneKey: SharkheadIsle.key,
   loc: [-1, 8, -1986],
   badgeText: [{
-    value: `The Carpe Diem is the Family's 'flagship' for various overseas deals that they make.
- The ship is periodically grounded to deal with troublesome Scrapyarders.`,
+    value: `The Carpe Diem is the Family's 'flagship' for various overseas deals that they make. The ship is periodically grounded to deal with troublesome Scrapyarders.`,
   }],
   notes: `Located in ${zoneLink(SharkheadIsle)}, in the Port Recluse neighborhood.
 

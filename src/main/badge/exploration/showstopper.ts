@@ -11,7 +11,7 @@ export const Showstopper: BadgeData = {
   loc: [-2198, 16, -1953],
   badgeText: [{
     value: `Hundreds of spectators have stood in this spot, transfixed by the eclectic performances of the Carnival of Shadows.
-            any of them are never seen again; some speculate that they've joined the troupe, while others fear they met more unpleasant fates.`,
+Many of them are never seen again; some speculate that they've joined the troupe, while others fear they met more unpleasant fates.`,
   }],
   notes: `Located in ${zoneLink(StMartial)}, in the Fortune's Wheel neighborhood.
 

@@ -9,10 +9,7 @@ export const TimeBandit: BadgeData = {
   alignment: ['H'],
   zoneKey: TheHive.key,
   loc: [1742, 2, -3820],
-  badgeText: [{
-    value: `Portal Corporation had their main facility here until the Devouring Earth destroyed the area.
-            This forced them to move their headquarters to Peregrine Island.`,
-  }],
+  badgeText: [{ value: `Portal Corporation had their main facility here until the Devouring Earth destroyed the area. This forced them to move their headquarters to Peregrine Island.` }],
   notes: `Located in ${zoneLink(TheHive)} in the middle of the road leading north into the abandoned structures, just before it breaks up into the grassy area.`,
   links: [
     { title: 'Time Bandit Badge', href: 'https://homecoming.wiki/wiki/Time_Bandit_Badge' },

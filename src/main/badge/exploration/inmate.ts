@@ -14,7 +14,7 @@ export const Inmate: BadgeData = {
   }],
   notes: `Located in The Ziggurat neighborhood of ${zoneLink(Brickstown)}.
 
-          It can be found at the front entrance of the Zigursky Penitentiary located on the west side of the structure.`,
+It can be found at the front entrance of the Zigursky Penitentiary located on the west side of the structure.`,
   links: [
     { title: 'Inmate Badge', href: 'https://homecoming.wiki/wiki/Inmate_Badge' },
   ],

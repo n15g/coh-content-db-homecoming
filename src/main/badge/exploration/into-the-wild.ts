@@ -14,7 +14,7 @@ export const IntoTheWild: BadgeData = {
   }],
   notes: `Located in ${zoneLink(NovaPraetoria)} along the SE edge of the island and 0.5 miles SE of the Magisterium marker.
 
-          It's tucked into the corner of the rail by the water.`,
+It's tucked into the corner of the rail by the water.`,
   links: [
     { title: 'Into the Wild Badge', href: 'https://homecoming.wiki/wiki/Into_the_Wild_Badge' },
   ],

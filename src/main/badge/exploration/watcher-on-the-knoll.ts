@@ -12,9 +12,10 @@ export const WatcherOnTheKnoll: BadgeData = {
   badgeText: [{
     value: `A failed assassination on Ms. Liberty was made from the top of this pillar.`,
   }],
-  notes: `Located in ${zoneLink(NervaArchipelago)}, in the northernmost island of the Crimson Cove neighborhood.
+  notes: `
+Located in ${zoneLink(NervaArchipelago)}, in the northernmost island of the Crimson Cove neighborhood.
 
-          The marker is located between the feet of the statue on the right (south) of the large building, on top of the plinth.`,
+The marker is located between the feet of the statue on the right (south) of the large building, on top of the plinth.`,
   links: [
     { title: 'Watcher on the Knoll Badge', href: 'https://homecoming.wiki/wiki/Watcher_on_the_Knoll_Badge' },
   ],

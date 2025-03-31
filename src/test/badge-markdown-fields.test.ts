@@ -1,7 +1,7 @@
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../main'
 
-const LINK_PATTERN = /\((badge|zone):\/\/([^)]*)\)/g
+const LINK_PATTERN = /\((badge|zone|contact):\/\/([^)]*)\)/g
 const database = new CohContentDatabase(HOMECOMING)
 
 function validateLinks(field?: string): [string, string][] {
@@ -14,6 +14,7 @@ function validateLinks(field?: string): [string, string][] {
 
   for (const [type, key] of links) {
     if (type === 'badge' && !database.badgeExists(key)) errors.push(['badge', key])
+    if (type === 'contact' && !database.contactExists(key)) errors.push(['contact', key])
     if (type === 'zone' && !database.zoneExists(key)) errors.push(['zone', key])
   }
 

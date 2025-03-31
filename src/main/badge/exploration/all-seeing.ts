@@ -16,7 +16,7 @@ export const AllSeeing: BadgeData = {
   }],
   notes: `Located in the Poseidon Square neighborhood of ${zoneLink(PeregrineIsland)}.
 
-          It is on the top of a fire escape 138 yards southwest of the neighborhood marker.`,
+It is on the top of a fire escape 138 yards southwest of the neighborhood marker.`,
   links: [
     { title: 'All-Seeing Badge', href: 'https://homecoming.wiki/wiki/All-Seeing_Badge' },
   ],

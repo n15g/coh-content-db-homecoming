@@ -13,7 +13,7 @@ export const Eyewitness: BadgeData = {
   badgeText: [{ value: 'This is an excellent vantage point for keeping an eye on the crash site.' }],
   notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
-          On the tippy top point of the tallest building overlooking the downed ship.`,
+On the tippy top point of the tallest building overlooking the downed ship.`,
   links: [
     { title: 'Eyewitness Badge', href: 'https://homecoming.wiki/wiki/Eyewitness_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

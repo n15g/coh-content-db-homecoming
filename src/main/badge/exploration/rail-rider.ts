@@ -16,9 +16,9 @@ export const RailRider: BadgeData = {
   }],
   notes: `The Rail Rider Badge has three locations in Praetoria, each located inside one of the Cole Transit Authority stations.
 
-          Its coordinates in ${zoneLink(NovaPraetoria)} are (-4551, -187, 470), in ${zoneLink(ImperialCity)} are (-2384, -238, 755) and in ${zoneLink(Neutropolis)} are (2226, -213, 1111).
+Its coordinates in ${zoneLink(NovaPraetoria)} are (-4551, -187, 470), in ${zoneLink(ImperialCity)} are (-2384, -238, 755) and in ${zoneLink(Neutropolis)} are (2226, -213, 1111).
 
-          It is necessary to visit all three locations to earn this badge.`,
+It is necessary to visit all three locations to earn this badge.`,
   links: [
     { title: 'Rail Rider Badge', href: 'https://homecoming.wiki/wiki/Rail Rider_Badge' },
   ],

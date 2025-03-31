@@ -13,7 +13,7 @@ export const Apex: BadgeData = {
   loc: [277.7, 57.1, -2257.8],
   notes: `**Moved from ${zoneLink(Faultline)} in Issue 25.**
 
-          Approx. 140 yrds SW of the "Subduction" marker on top of a parking structure.`,
+Approx. 140 yrds SW of the "Subduction" marker on top of a parking structure.`,
   links: [
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },
   ],

@@ -16,7 +16,7 @@ export const GeneticallyAltered: BadgeData = {
   }],
   notes: `Located in the Cutlass Isles neighborhood of ${zoneLink(PeregrineIsland)}.
 
-          It is under the large skeleton 277 yards southwest of the neighborhood marker.`,
+It is under the large skeleton 277 yards southwest of the neighborhood marker.`,
   links: [
     { title: 'Genetically Altered Badge', href: 'https://homecoming.wiki/wiki/Genetically_Altered_Badge' },
   ],

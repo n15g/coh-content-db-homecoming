@@ -15,9 +15,9 @@ export const JailBird: BadgeData = {
   notes: `Located in the ${zoneLink(Breakout)} tutorial mission.
 
 From where you start outside your cell, turn right, walking away from H.T. When you get to the cell walls, turn around and you'll see a staircase leading up.
- Go all the way upstairs, and walk left, with the cells to your right.
- The badge marker is inside the last cell on the right.
- It isn't visible, but once you pass close enough to it by entering the cell, you will earn the badge.
+Go all the way upstairs, and walk left, with the cells to your right.
+The badge marker is inside the last cell on the right.
+It isn't visible, but once you pass close enough to it by entering the cell, you will earn the badge.
 
 This badge is also available while revisiting the Zig during the Ouroboros Initiation Story Arc.`,
   links: [

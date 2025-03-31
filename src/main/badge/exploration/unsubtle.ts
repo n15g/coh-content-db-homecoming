@@ -14,9 +14,10 @@ export const Unsubtle: BadgeData = {
       + ' She lasted barely an hour in hiding before bursting out of the warehouse to attack PPD searching for her.'
       + ' This spilled out into an all-out brawl with nearby Council and 5th Column, allowing Bile to swoop in and pull Clamor out from the chaos.',
   }],
-  notes: `Located in the Abyss Towers neighborhood in ${zoneLink(Brickstown)}.
+  notes: `
+Located in the Abyss Towers neighborhood in ${zoneLink(Brickstown)}.
 
-          The best way to reach it is to enter the underneath section of the neighborhood from the east side. The badge is in front of the first building on your left.`,
+The best way to reach it is to enter the underneath section of the neighborhood from the east side. The badge is in front of the first building on your left.`,
   links: [
     { title: 'Unsubtle Badge', href: 'https://homecoming.wiki/wiki/Unsubtle_Badge' },
   ],

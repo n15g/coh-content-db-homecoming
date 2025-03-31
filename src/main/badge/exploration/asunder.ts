@@ -13,7 +13,7 @@ export const Asunder: BadgeData = {
   badgeText: [{ value: 'This fort is the prime location to be for surveilling Rikti activity. Unfortunately, it\'s also the furthest from the Vanguard base and, thus, a big target for the Rikti.' }],
   notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
-          On top of the pillbox.`,
+On top of the pillbox.`,
   links: [
     { title: 'Asunder Badge', href: 'https://homecoming.wiki/wiki/Asunder_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

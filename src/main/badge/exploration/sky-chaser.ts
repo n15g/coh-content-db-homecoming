@@ -11,7 +11,7 @@ export const SkyChaser: BadgeData = {
   loc: [304, 127, 2309],
   badgeText: [{
     value: `The Sky Raiders use this as one of their main bases.
-            Some say that they received funding from Arachnos to build the base in Sharkhead, perhaps to serve as a balance against the Council base nearby.`,
+Some say that they received funding from Arachnos to build the base in Sharkhead, perhaps to serve as a balance against the Council base nearby.`,
   }],
   notes: `Located in ${zoneLink(SharkheadIsle)}, on the Sky Raider base at the south edge of The Pit neighborhood.
 

@@ -16,7 +16,7 @@ export const GradeF: BadgeData = {
   }],
   notes: `Located in ${zoneLink(UndergroundNeutropolis)} approximately 90 yards NNE of the Eastern Sector B marker (there are two) by the Imperial Tunnel entrance.
 
-          The route from the Sector B marker is not direct and the badge is more easily found by travelling 285 yards SE from the Loyalist Surface Access marker.`,
+The route from the Sector B marker is not direct and the badge is more easily found by travelling 285 yards SE from the Loyalist Surface Access marker.`,
   links: [
     { title: 'Grade F Badge', href: 'https://homecoming.wiki/wiki/Grade_F_Badge' },
   ],

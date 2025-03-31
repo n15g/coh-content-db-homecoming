@@ -15,7 +15,7 @@ export const ForgedByHellfire: BadgeData = {
   notes: `Located in ${zoneLink(SharkheadIsle)}, in the Hell Forge neighborhood.
 
 Just west of the Hell Forge marker, there are three large silo tanks.
- The badge marker is on the ground just north of the northernmost tank.`,
+The badge marker is on the ground just north of the northernmost tank.`,
   links: [
     { title: 'Forged by Hellfire Badge', href: 'https://homecoming.wiki/wiki/Forged_by_Hellfire_Badge' },
   ],

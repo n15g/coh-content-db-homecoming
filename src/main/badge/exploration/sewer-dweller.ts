@@ -14,7 +14,7 @@ export const SewerDweller: BadgeData = {
   }],
   notes: `Located in ${zoneLink(Grandville)}, in The Gutter neighborhood of Grandville.
 
-          It is on top of a sewer pipe located 216 yards northeast of The Gutter marker.`,
+It is on top of a sewer pipe located 216 yards northeast of The Gutter marker.`,
   links: [
     { title: 'Sewer Dweller Badge', href: 'https://homecoming.wiki/wiki/Sewer_Dweller_Badge' },
   ],

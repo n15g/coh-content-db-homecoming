@@ -12,9 +12,10 @@ export const Whitecap: BadgeData = {
   badgeText: [{
     value: 'The cargo ship Alba Varden tends to be a hotbed of criminal activity.',
   }],
-  notes: `Located on a ship in the large sea northeast of the main island in the ${zoneLink(TalosIsland)} zone.
+  notes: `
+Located on a ship in the large sea northeast of the main island in the ${zoneLink(TalosIsland)} zone.
 
-          The ship is about 630 yards east of the Ithaca Island marker, and the badge marker is on top of the cabin.`,
+The ship is about 630 yards east of the Ithaca Island marker, and the badge marker is on top of the cabin.`,
   links: [
     { title: 'Whitecap Badge', href: 'https://homecoming.wiki/wiki/Whitecap_Badge' },
   ],

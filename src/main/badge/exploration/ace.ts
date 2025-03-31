@@ -13,7 +13,7 @@ export const Ace: BadgeData = {
   badgeText: [{ value: 'This statue honors Mustang, a valiant hero who fought during WWII.' }],
   notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
-          On the outstretched hand of the statue of Mustang.`,
+On the outstretched hand of the statue of Mustang.`,
   links: [
     { title: 'Ace Badge', href: 'https://homecoming.wiki/wiki/Ace_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },

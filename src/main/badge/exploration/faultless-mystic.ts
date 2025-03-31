@@ -13,7 +13,7 @@ export const FaultlessMystic: BadgeData = {
   loc: [-843.6, -406.8, -715.2],
   notes: `**Moved from ${zoneLink(Faultline)} in Issue 25.**
 
-          Approx. 173 yrds NNE of the "Precipice" marker in the crevice next to a burn out car.`,
+Approx. 173 yrds NNE of the "Precipice" marker in the crevice next to a burn out car.`,
   links: [
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },
   ],

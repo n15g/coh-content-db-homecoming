@@ -192,8 +192,12 @@ export const ProtectorOfInnocents: BadgeData = {
         { alignment: 'V', value: 'You did a thing as a praetorian.' },
     ],
     acquisition: 'Do a thing. You can use *markdown* syntax in here for formatting the text.',
-    notes: `It can also be useful to use backticks instead of commas as the string delimiter.
-    This will allow you to span multiple lines and not cause issues if quotes (" or ') appear in the text.`,
+    notes: `
+It can also be useful to use backticks instead of commas as the string delimiter.
+
+This will allow you to span multiple lines and not cause issues if quotes (" or ') appear in the text.
+
+Be aware of newlines and whitespace in the string as unlike HTML, in markdown they can have semantic meaning such as marking paragraphs.`,
 
     // Always try and include a link to the homecoming wiki if possible. Remember to Reference [URL encode](https://www.freecodecamp.org/news/url-encoded-characters-reference/) for special characters.
     links: [

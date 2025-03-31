@@ -14,7 +14,7 @@ export const BurningTheMidnightOil: BadgeData = {
   }],
   notes: `Located in ${zoneLink(CreysFolly)} on a catwalk 180 yards northwest of the Crey Factories marker.
 
-          It is on the western side of the second silo rising out of the sludge, from left (north) to right (south).`,
+It is on the western side of the second silo rising out of the sludge, from left (north) to right (south).`,
   links: [
     { title: 'Burning the Midnight Oil Badge', href: 'https://homecoming.wiki/wiki/Burning_the_Midnight_Oil_Badge' },
   ],

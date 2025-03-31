@@ -10,10 +10,10 @@ export const UnwelcomeGuest: BadgeData = {
   zoneKey: SharkheadIsle.key,
   loc: [-634, 1, 1437],
   badgeText: [{
-    value: `This Council base has managed to maintain its foothold within Sharkhead despite numerous attacks from several groups.
-            These days, the biggest threats are the 5th Column raids and exposing sleeper agents among Council ranks.`,
+    value: `This Council base has managed to maintain its foothold within Sharkhead despite numerous attacks from several groups. These days, the biggest threats are the 5th Column raids and exposing sleeper agents among Council ranks.`,
   }],
-  notes: `Located in ${zoneLink(SharkheadIsle)}, in The Pit neighborhood.
+  notes: `
+Located in ${zoneLink(SharkheadIsle)}, in The Pit neighborhood.
 
 It is at the entrance of the Council base 270 yards east of the neighborhood marker.`,
   links: [

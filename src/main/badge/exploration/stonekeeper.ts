@@ -12,9 +12,10 @@ export const Stonekeeper: BadgeData = {
   badgeText: [{
     value: `What strange purpose do these glyphs serve?`,
   }],
-  notes: `Located in ${zoneLink(StMartial)}, in the Babylon neighborhood.
+  notes: `
+Located in ${zoneLink(StMartial)}, in the Babylon neighborhood.
 
-          The marker is at ground level inside the southernmost obelisk located due southeast of the Golden Giza casino. The marker itself is not visible due to the obelisk.`,
+The marker is at ground level inside the southernmost obelisk located due southeast of the Golden Giza casino. The marker itself is not visible due to the obelisk.`,
   links: [
     { title: 'Stonekeeper Badge', href: 'https://homecoming.wiki/wiki/Stonekeeper_Badge' },
   ],

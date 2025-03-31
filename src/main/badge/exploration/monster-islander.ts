@@ -12,9 +12,9 @@ export const MonsterIslander: BadgeData = {
   loc: [-2437, 1, -8276],
   badgeText: [{
     value: `You've set foot on soil now the domain of ravaging monstrosities. You take a deep breath and catch a scent of their spoor.
-            It is harsh with a slaughterhouse reek. At your feet you see that you are standing in the massive footprint of one of the island's inhabitants.
-            Impressive. Against the horizon you catch a hulking silhouette ambling slowly towards some unknown destination.
-            Squaring your shoulders, you set out; it is time you showed them that a new monster prowls the island. Just as fierce and twice as deadly.`,
+It is harsh with a slaughterhouse reek. At your feet you see that you are standing in the massive footprint of one of the island's inhabitants.
+Impressive. Against the horizon you catch a hulking silhouette ambling slowly towards some unknown destination.
+Squaring your shoulders, you set out; it is time you showed them that a new monster prowls the island. Just as fierce and twice as deadly.`,
   }],
   notes: `Located in ${zoneLink(MonsterIsland)}, 68 yards southwest of the ${zoneLink(Grandville)} transfer point, in the center of the hospital island next to the submarine.`,
   links: [

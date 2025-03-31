@@ -17,7 +17,7 @@ export const NoTurningBackNow: BadgeData = {
   }],
   notes: `Located in ${zoneLink(CascadeArchipelago)} 0.53 miles SW of the Tyrant's Rock marker, at the base of the geyser on the floating rock.
 
-          To reach it, go approximately 367 yards NNE of the Tyrant's Rock marker, and then straight down.`,
+To reach it, go approximately 367 yards NNE of the Tyrant's Rock marker, and then straight down.`,
   links: [
     { title: 'No Turning Back Now Badge', href: 'https://homecoming.wiki/wiki/No_Turning_Back_Now_Badge' },
   ],

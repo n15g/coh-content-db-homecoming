@@ -11,7 +11,7 @@ export const Driller: BadgeData = {
   loc: [1030, 8, 1982],
   badgeText: [{
     value: `Three years ago, Ms. Liberty smashed the supervillain Thermonuke through the deck and into the volatile crude below.
- Thermonuke's devastating powers ignited the oil and cracked open the Cairo Queen like a pixie stick.`,
+Thermonuke's devastating powers ignited the oil and cracked open the Cairo Queen like a pixie stick.`,
   }],
   notes: `Located in ${zoneLink(PortOakes)}, on a sunken ship off the southwest coast.
 

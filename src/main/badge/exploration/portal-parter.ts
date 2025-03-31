@@ -14,7 +14,7 @@ export const PortalParter: BadgeData = {
   }],
   notes: `Located on a small island in the ${zoneLink(PeregrineIsland)} zone.
 
-          The island it is on is approximately 834 yards southwest of the Talos Island Ferry, and the marker is located in the center of the grassy area, between the rock outcropping and the large electrical tower.`,
+The island it is on is approximately 834 yards southwest of the Talos Island Ferry, and the marker is located in the center of the grassy area, between the rock outcropping and the large electrical tower.`,
   links: [
     { title: 'Portal Parter Badge', href: 'https://homecoming.wiki/wiki/Portal_Parter_Badge' },
   ],

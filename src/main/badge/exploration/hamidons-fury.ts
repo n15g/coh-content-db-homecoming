@@ -11,8 +11,8 @@ export const HamidonsFury: BadgeData = {
   loc: [26, 0, 3454],
   badgeText: [{
     value: `The hills in this area of Founders' Falls were created almost instantly during the Devouring Earth's initial push into the city.
-            A laboratory once stood here, but it was destroyed by the erupting earth that sprung up beneath it.
-            If not for the intervention of the city's heroes, the rest of Founders' would have followed.`,
+A laboratory once stood here, but it was destroyed by the erupting earth that sprung up beneath it.
+If not for the intervention of the city's heroes, the rest of Founders' would have followed.`,
   }],
   notes: `Located in the Blackstone Hills neighborhood of ${zoneLink(FoundersFalls)}, 33 yards east of the neighborhood marker.`,
   links: [

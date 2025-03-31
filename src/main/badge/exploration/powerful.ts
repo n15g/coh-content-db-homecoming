@@ -13,7 +13,7 @@ export const Powerful: BadgeData = {
   badgeText: [{ value: 'This power plant is the glue that holds the operation together. Without it, there would be chaos.' }],
   notes: `**Moved from ${zoneLink(RiktiWarZone)} in Issue 25.**
 
-          Eastern side of the power substation, on the ground.`,
+Eastern side of the power substation, on the ground.`,
   links: [
     { title: 'Powerful Badge', href: 'https://homecoming.wiki/wiki/Powerful_Badge' },
     { title: 'Echo: Rikti Crash Site Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },
