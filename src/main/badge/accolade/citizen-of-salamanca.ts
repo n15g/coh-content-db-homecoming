@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Croatoa } from '../../zone/croatoa'
+import { BadgeData } from 'coh-content-db'
 import { GrimWanderer } from '../exploration/grim-wanderer'
 import { Spiritual } from '../exploration/spiritual'
 import { Ensorcelled } from '../exploration/ensorcelled'
@@ -20,7 +19,6 @@ export const CitizenOfSalamanca: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Croatoa.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(Croatoa)}`,
   links: [
     { title: 'Citizen of Salamanca Badge', href: 'https://homecoming.wiki/wiki/Citizen_of_Salamanca_Badge' },
   ],

@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
+import { BadgeData } from 'coh-content-db'
 import { AstoriasLastStand } from '../exploration/astorias-last-stand'
 import { CairnWarder } from '../exploration/cairn-warder'
 import { DarkMystic } from '../exploration/dark-mystic'
@@ -20,7 +19,6 @@ export const ALightInDarkAstoria: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(EchoDarkAstoria)}`,
   links: [
     { title: 'A Light in Dark Astoria Badge', href: 'https://homecoming.wiki/wiki/A_Light_in_Dark_Astoria_Badge' },
   ],

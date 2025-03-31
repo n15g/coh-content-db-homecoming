@@ -11,7 +11,12 @@ export const Gladiator: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [
-    { value: `Your reputation as a ferocious combatant in both PvP Zones and the Arena has earned you the Gladiator Accolade.  While logged out in either an Arena or a PvP Zone you will additional time for your Combat Shield power.` },
+    {
+      value: `
+Your reputation as a ferocious combatant in both PvP Zones and the Arena has earned you the Gladiator Accolade.
+
+While logged out in either an Arena or a PvP Zone you will additional time for your Combat Shield power.`,
+    },
   ],
   links: [
     { title: 'Gladiator Badge', href: 'https://homecoming.wiki/wiki/Gladiator_Badge' },

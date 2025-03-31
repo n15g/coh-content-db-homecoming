@@ -16,7 +16,7 @@ export const Meticulous: BadgeData = {
   badgeText: [
     { value: `You are not tied to any single decision, and must pursue every course of action available to determine the consequences.` },
   ],
-  notes: `Available during Halloween Events`,
+  notes: `Available during Halloween events.`,
   links: [
     { title: 'Meticulous Badge', href: 'https://homecoming.wiki/wiki/Meticulous_Badge' },
   ],

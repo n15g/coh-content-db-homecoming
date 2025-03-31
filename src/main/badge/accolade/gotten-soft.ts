@@ -20,7 +20,7 @@ export const GottenSoft: BadgeData = {
     { alignment: 'H', value: `You once had a incredibly High Pain Threshold, but it seems you've grown a little soft after coming to Paragon City.` },
     { alignment: 'V', value: `You've got an incredibly High Pain Threshold, an aftereffect of which is that your Hit Points are 10% greater than normal.` },
   ],
-  notes: `Awards +10% Max Health`,
+  effect: 'Awards +10% Max Health.',
   links: [
     { title: 'Gotten Soft Badge', href: 'https://homecoming.wiki/wiki/Gotten_Soft_Badge' },
     { title: 'High Pain Threshold Badge', href: 'https://homecoming.wiki/wiki/High_Pain_Threshold_Badge' },
@@ -28,7 +28,6 @@ export const GottenSoft: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gotten-soft.png' },
   ],
-  effect: `+10% Max Health`,
   requirements: [[
     { key: BadLuck.key, type: 'BADGE', badgeKey: BadLuck.key },
     { key: TheUnbrokenSpirit.key, type: 'BADGE', badgeKey: TheUnbrokenSpirit.key },

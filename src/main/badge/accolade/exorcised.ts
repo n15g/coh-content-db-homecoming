@@ -18,10 +18,11 @@ export const Exorcised: BadgeData = {
     { alignment: 'H', value: `The goodness you've let into your heart appears to have banished the spirit of a demon which once resided within.` },
     {
       alignment: 'V',
-      value: `The spirit of a demon resides within you. Bringing it to the surface of your mind can make you highly resistant to all types of damage for a short time. You mustn't let the demon out too long, or you just may lose your mortal soul, forever.`,
+      value: `The spirit of a demon resides within you. Bringing it to the surface of your mind can make you highly resistant to all types of damage for a short time.
+You mustn't let the demon out too long, or you just may lose your mortal soul, forever.`,
     },
   ],
-  notes: `Awards the Demonic Aura power`,
+  notes: `Awards the Demonic Aura power.`,
   links: [
     { title: 'Exorcised Badge', href: 'https://homecoming.wiki/wiki/Exorcised_Badge' },
     { title: 'Demonic Badge', href: 'https://homecoming.wiki/wiki/Demonic_Badge' },
@@ -29,7 +30,6 @@ export const Exorcised: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/exorcised.png' },
   ],
-  effect: `Demonic Aura`,
   requirements: [[
     { key: Coldblooded.key, type: 'BADGE', badgeKey: Coldblooded.key },
     { key: ForgedByHellfire.key, type: 'BADGE', badgeKey: ForgedByHellfire.key },

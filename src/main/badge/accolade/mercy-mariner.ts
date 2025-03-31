@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { Cesspool } from '../exploration/cesspool'
 import { SnakeCharmer } from '../exploration/snake-charmer'
 import { Chum } from '../exploration/chum'
@@ -6,7 +6,6 @@ import { Fortified } from '../exploration/fortified'
 import { TheNextBigThing } from '../exploration/the-next-big-thing'
 import { FirstRule } from '../exploration/first-rule'
 import { TikiFan } from '../exploration/tiki-fan'
-import { MercyIsland } from '../../zone/mercy-island'
 import { Widower } from '../exploration/widower'
 
 export const MercyMariner: BadgeData = {
@@ -20,7 +19,6 @@ export const MercyMariner: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Mercy Island.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(MercyIsland)}`,
   links: [
     { title: 'Mercy Mariner Badge', href: 'https://homecoming.wiki/wiki/Mercy_Mariner_Badge' },
   ],

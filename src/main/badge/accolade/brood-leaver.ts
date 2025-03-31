@@ -12,10 +12,14 @@ export const BroodLeaver: BadgeData = {
   ],
   alignment: ['V'],
   badgeText: [
-    { alignment: 'H', value: `High status within Arachnos was not enough to keep you bound to the Rogue Isles. Your exit caused a power vacuum which some other young upstart quickly filled.` },
+    {
+      alignment: 'H', value: `High status within Arachnos was not enough to keep you bound to the Rogue Isles.
+Your exit caused a power vacuum which some other young upstart quickly filled.`,
+    },
     {
       alignment: 'V',
-      value: `You have climbed the ranks of Arachnos by being both a pilot and a city official earning you the Brood Leader Accolade.  While logged out in either Grandville or near a Black Helicoper you will earn fuel for your Traveler's Jet Pack at an accelerated rate.`,
+      value: `You have climbed the ranks of Arachnos by being both a pilot and a city official earning you the Brood Leader Accolade.
+While logged out in either Grandville or near a Black Helicoper you will earn fuel for your Traveler's Jet Pack at an accelerated rate.`,
     },
   ],
   links: [

@@ -12,10 +12,14 @@ export const BlockadeRunner: BadgeData = {
   ],
   alignment: ['V'],
   badgeText: [
-    { alignment: 'H', value: `Your skills at circumventing trade restrictions and finding profit are handy in Paragon City. Recently it seems many have managed to run the blockade from the Rogue Isles, turning those restrictions into a paper tiger.` },
+    {
+      alignment: 'H', value: `Your skills at circumventing trade restrictions and finding profit are handy in Paragon City.
+Recently it seems many have managed to run the blockade from the Rogue Isles, turning those restrictions into a paper tiger.`,
+    },
     {
       alignment: 'V',
-      value: `Your masterful knowledge of the Black Market coupled with knowing where to get the best merchandise has made you a master of the Black Market.  While logged out near Docks or near the Black Market you will earn tokens that will grant you discount when crafting inventions.`,
+      value: `Your masterful knowledge of the Black Market coupled with knowing where to get the best merchandise has made you a master of the Black Market.
+While logged out near Docks or near the Black Market you will earn tokens that will grant you discount when crafting inventions.`,
     },
   ],
   links: [

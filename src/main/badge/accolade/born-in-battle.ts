@@ -19,14 +19,13 @@ export const BornInBattle: BadgeData = {
     { alignment: 'H', value: `You may have proven yourself as Born in Battle, but in Paragon City other virtues matter more.` },
     { alignment: 'V', value: `You've proven yourself as Born in Battle, adding 5% to both your Endurance and Hit Point totals.` },
   ],
-  notes: `Awards +5% Max Health and +5 Max Endurance`,
+  effect: 'Awards +5% Max Health and +5 Max Endurance',
   links: [
     { title: 'Born in Battle Badge', href: 'https://homecoming.wiki/wiki/Born_in_Battle_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/born-in-battle.png' },
   ],
-  effect: `+5% Max Health and +5 Max Endurance`,
   requirements: [[
     { key: Exterminator.key, type: 'BADGE', badgeKey: Exterminator.key },
     { key: Pirate.key, type: 'BADGE', badgeKey: Pirate.key },

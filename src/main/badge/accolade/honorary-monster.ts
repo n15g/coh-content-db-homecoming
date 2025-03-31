@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { MonsterIsland } from '../../zone/monster-island'
+import { BadgeData } from 'coh-content-db'
 import { DarkGarden } from '../exploration/dark-garden'
 import { GrimFandango } from '../exploration/grim-fandango'
 import { MisfitMonstrosity } from '../exploration/misfit-monstrosity'
@@ -20,7 +19,6 @@ export const HonoraryMonster: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Monster Island.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(MonsterIsland)}`,
   links: [
     { title: 'Honorary Monster Badge', href: 'https://homecoming.wiki/wiki/Honorary_Monster_Badge' },
   ],

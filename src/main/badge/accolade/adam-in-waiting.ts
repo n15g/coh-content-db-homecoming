@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Eden } from '../../zone/eden'
+import { BadgeData } from 'coh-content-db'
 import { CallOfNature } from '../exploration/call-of-nature'
 import { CreyFish } from '../exploration/crey-fish'
 import { HiveMind } from '../exploration/hive-mind'
@@ -21,7 +20,6 @@ export const AdamInWaiting: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Eden.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(Eden)}`,
   links: [
     { title: 'Adam in Waiting Badge', href: 'https://homecoming.wiki/wiki/Adam_in_Waiting_Badge' },
     { title: 'Eve in Waiting Badge', href: 'https://homecoming.wiki/wiki/Eve_in_Waiting_Badge' },

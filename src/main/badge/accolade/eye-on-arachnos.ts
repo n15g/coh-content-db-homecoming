@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Grandville } from '../../zone/grandville'
+import { BadgeData } from 'coh-content-db'
 import { Overlord } from '../exploration/overlord'
 import { SewerDweller } from '../exploration/sewer-dweller'
 import { Guttersnipe } from '../exploration/guttersnipe'
@@ -21,7 +20,6 @@ export const EyeOnArachnos: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Grandville.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(Grandville)}`,
   links: [
     { title: 'Eye on Arachnos Badge', href: 'https://homecoming.wiki/wiki/Eye_on_Arachnos_Badge' },
     { title: 'Arachnos Spymaster Badge', href: 'https://homecoming.wiki/wiki/Arachnos_Spymaster_Badge' },

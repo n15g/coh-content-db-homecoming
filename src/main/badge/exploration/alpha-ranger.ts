@@ -17,7 +17,7 @@ export const AlphaRanger: BadgeData = {
   }],
   notes: `Located in ${zoneLink(FirebaseZulu)} 140 yards SE of the Point Alpha marker, just East of the truck parked inside the base.`,
   links: [
-    { title: 'Alpha Ranger Badge', href: 'https://homecoming.wiki/wiki/Alpha Ranger_Badge' },
+    { title: 'Alpha Ranger Badge', href: 'https://homecoming.wiki/wiki/Alpha_Ranger_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
   vidiotMapKey: '4',

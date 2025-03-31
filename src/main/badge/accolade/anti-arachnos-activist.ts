@@ -15,7 +15,9 @@ export const AntiArachnosActivist: BadgeData = {
     { alignment: 'H', value: `You've turned your skills at propaganda and rabble-rousing against Arachnos, bringing a glimmer of hope to those you once helped enslave.` },
     {
       alignment: 'V',
-      value: `Your work subjugating the masses of the Rogue Isles and promoting pro-Arachnos propaganda has earned you the Web Weaver Accolade.  While logged out in an Arachnos controlled area or in the Arachnos building in Marconeville you will earn additional charges for your Web Grenade power.`,
+      value: `
+Your work subjugating the masses of the Rogue Isles and promoting pro-Arachnos propaganda has earned you the Web Weaver Accolade.
+While logged out in an Arachnos controlled area or in the Arachnos building in Marconeville you will earn additional charges for your Web Grenade power.`,
     },
   ],
   links: [

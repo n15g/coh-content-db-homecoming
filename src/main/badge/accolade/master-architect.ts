@@ -11,10 +11,18 @@ export const MasterArchitect: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [
-    { alignment: 'H', value: `Your extensive study of the Mission Architect technology has earned you the Master Architect Day Job.  Earning this Accolade grants you the Invigorate power which will allow you to revive yourself, should you be defeated, while on Architect missions.` },
+    {
+      alignment: 'H', value: `
+Your extensive study of the Mission Architect technology has earned you the Master Architect Day Job.
+
+Earning this Accolade grants you the Invigorate power which will allow you to revive yourself, should you be defeated, while on Architect missions.`,
+    },
     {
       alignment: 'V',
-      value: `Your extensive study of the Mission Architect technology has earned you the Master Architect Day Job.  Earning this Accolade grants you the Vitalize power which will allow you to revive yourself once every 10 minutes, should you be defeated, while on Architect missions.`,
+      value: `
+Your extensive study of the Mission Architect technology has earned you the Master Architect Day Job.
+
+Earning this Accolade grants you the Vitalize power which will allow you to revive yourself once every 10 minutes, should you be defeated, while on Architect missions.`,
     },
   ],
   links: [

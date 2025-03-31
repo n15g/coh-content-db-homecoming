@@ -13,7 +13,7 @@ export const Excavator: BadgeData = {
     { value: `You've obtained this accolade by completing every story arc within The Hollows.` },
   ],
   acquisition: `Complete every story arc in ${zoneLink(TheHollows)}`,
-  notes: `This badge rewards 20 reward merits.`,
+  effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Excavator Badge', href: 'https://homecoming.wiki/wiki/Excavator_Badge' },
   ],

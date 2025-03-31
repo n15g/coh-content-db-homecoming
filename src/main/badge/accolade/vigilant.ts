@@ -15,11 +15,11 @@ export const Vigilant: BadgeData = {
   ],
   acquisition: `Complete every story arc in ${zoneLink(RiktiWarZone)}`,
   notes: `This badge rewards 20 reward merits for completing the following story arcs (contact in parentheses):
-            * Welcome to Vanguard (Levantera)
-            * The Strange Case of Benjamin A. Decker (Levantera)
-            * Dreams of Peace and Acts of War (Serpent Drummer)
-            * The Red and the Black (Gaussian)
-            * The Horror of War (The Dark Watcher)`,
+* Welcome to Vanguard (Levantera)
+* The Strange Case of Benjamin A. Decker (Levantera)
+* Dreams of Peace and Acts of War (Serpent Drummer)
+* The Red and the Black (Gaussian)
+* The Horror of War (The Dark Watcher)`,
   links: [
     { title: 'Vigilant Badge', href: 'https://homecoming.wiki/wiki/Vigilant_Badge' },
   ],

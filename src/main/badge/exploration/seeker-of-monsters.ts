@@ -14,7 +14,7 @@ export const SeekerOfMonsters: BadgeData = {
   }],
   notes: 'Found 217 yards South West of Grendel\'s Gulch marker.',
   links: [
-    { title: 'Seeker of Monsters Badge', href: 'https://homecoming.wiki/wiki/Seeker of Monsters_Badge' },
+    { title: 'Seeker of Monsters Badge', href: 'https://homecoming.wiki/wiki/Seeker_of_Monsters_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
   vidiotMapKey: '2',

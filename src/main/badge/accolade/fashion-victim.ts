@@ -12,7 +12,7 @@ export const FashionVictim: BadgeData = {
   badgeText: [
     { value: `The road of excess leads to the palace of... fabulousness!` },
   ],
-  acquisition: `Spend 50 million inf at the tailor`,
+  acquisition: `Spend 50 million inf at the tailor.`,
   links: [
     { title: 'Fashion Victim Badge', href: 'https://homecoming.wiki/wiki/Fashion_Victim_Badge' },
   ],

@@ -52,14 +52,13 @@ export const FieldCrafter: BadgeData = {
   badgeText: [
     { value: `You are truly a crafting specialist, and can now summon a portable crafting station to your location for five minutes once an hour. All nearby characters can use this station.` },
   ],
-  notes: `Awards the Portable Workbench power`,
+  effect: `Awards the Portable Workbench power.`,
   links: [
     { title: 'Field Crafter Badge', href: 'https://homecoming.wiki/wiki/Field_Crafter_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/field-crafter.png' },
   ],
-  effect: `Portable Workbench`,
   requirements: [[
     { key: Inventor.key, type: 'BADGE', badgeKey: Inventor.key },
     { key: Artisan.key, type: 'BADGE', badgeKey: Artisan.key },

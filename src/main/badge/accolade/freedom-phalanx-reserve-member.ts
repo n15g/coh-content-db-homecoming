@@ -24,7 +24,7 @@ export const FreedomPhalanxReserveMember: BadgeData = {
     { alignment: 'H', value: `You have earned a reserve membership into Paragon City's premier Super Group: Freedom Phalanx. This privilege comes with the added perk of +10% Hit Points.` },
     { alignment: 'V', value: `The Freedom Phalanx has stricken you from their rolls. All associated rights and privileges have been revoked.` },
   ],
-  notes: `Awards +10% Max Health`,
+  effect: 'Awards +10% Max Health.',
   links: [
     { title: 'Freedom Phalanx Reserve Member Badge', href: 'https://homecoming.wiki/wiki/Freedom_Phalanx_Reserve_Member_Badge' },
     { title: 'Freedom Phalanx Fallen Badge', href: 'https://homecoming.wiki/wiki/Freedom_Phalanx_Fallen_Badge' },
@@ -32,7 +32,6 @@ export const FreedomPhalanxReserveMember: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png' },
   ],
-  effect: `+10% Max Health`,
   requirements: [[
     { key: Authority.key, type: 'BADGE', badgeKey: Authority.key },
     { key: Brawler.key, type: 'BADGE', badgeKey: Brawler.key },

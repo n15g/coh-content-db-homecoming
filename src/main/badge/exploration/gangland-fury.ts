@@ -15,7 +15,7 @@ export const GanglandFury: BadgeData = {
   }],
   notes: '187 yards South of Four Seasons marker.',
   links: [
-    { title: 'Gangland Fury Badge', href: 'https://homecoming.wiki/wiki/Gangland Fury_Badge' },
+    { title: 'Gangland Fury Badge', href: 'https://homecoming.wiki/wiki/Gangland_Fury_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
   vidiotMapKey: '5',

@@ -32,7 +32,6 @@ import { ImperialCity } from './imperial-city'
 import { IndependencePort } from './independence-port'
 import { KallistiWharf } from './kallisti-wharf'
 import { KingsRow } from './kings-row'
-import { TheLabyrinthOfFog } from './the-labyrinth-of-fog'
 import { MayhemAtlasPark } from './mayhem-atlas-park'
 import { MayhemBrickstown } from './mayhem-brickstown'
 import { MayhemFoundersFalls } from './mayhem-founders-falls'
@@ -52,6 +51,7 @@ import { NovaPraetoria } from './nova-praetoria'
 import { Ouroboros } from './ouroboros'
 import { PeregrineIsland } from './peregrine-island'
 import { PerezPark } from './perez-park'
+import { Phone } from './phone'
 import { PocketD } from './pocket-d'
 import { PortOakes } from './port-oakes'
 import { Praetoria } from './praetoria'
@@ -70,8 +70,8 @@ import { SewerNetwork } from './sewer-network'
 import { SharkheadIsle } from './sharkhead-isle'
 import { SirensCall } from './sirens-call'
 import { SkywayCity } from './skyway-city'
-import { SteelCanyon } from './steel-canyon'
 import { StMartial } from './st-martial'
+import { SteelCanyon } from './steel-canyon'
 import { StrigaIsle } from './striga-isle'
 import { TalosIsland } from './talos-island'
 import { TerraVolta } from './terra-volta'
@@ -79,6 +79,7 @@ import { TheAbyss } from './the-abyss'
 import { TheChantry } from './the-chantry'
 import { TheHive } from './the-hive'
 import { TheHollows } from './the-hollows'
+import { TheLabyrinthOfFog } from './the-labyrinth-of-fog'
 import { TheStormPalace } from './the-storm-palace'
 import { UndergroundImperial } from './underground-imperial'
 import { UndergroundNeutropolis } from './underground-neutropolis'
@@ -138,6 +139,7 @@ export const ZONES: ZoneData[] = [
   Ouroboros,
   PeregrineIsland,
   PerezPark,
+  Phone,
   PocketD,
   PortOakes,
   Praetoria,

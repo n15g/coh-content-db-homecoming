@@ -11,8 +11,18 @@ export const Physician: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [
-    { alignment: 'H', value: `Your studies at the Universities of Paragon City and work with the hospitals of Paragon have earned you the Physician Accolade.  While logged out at a Univeristy or inside a Hospital you will earn charges for your Revive Ally power.` },
-    { alignment: 'V', value: `Your studies at the Universities of the Rogue Isles and work within the Hospitals of the Rogue Isles have earned you the Physician Accolade.  While logged out at a University or inside a Hospital you will earn charges for your Revive Ally power.` },
+    {
+      alignment: 'H', value: `
+Your studies at the Universities of Paragon City and work with the hospitals of Paragon have earned you the Physician Accolade.
+
+While logged out at a Univeristy or inside a Hospital you will earn charges for your Revive Ally power.`,
+    },
+    {
+      alignment: 'V', value: `
+Your studies at the Universities of the Rogue Isles and work within the Hospitals of the Rogue Isles have earned you the Physician Accolade.
+
+While logged out at a University or inside a Hospital you will earn charges for your Revive Ally power.`,
+    },
   ],
   links: [
     { title: 'Physician Badge', href: 'https://homecoming.wiki/wiki/Physician_Badge' },

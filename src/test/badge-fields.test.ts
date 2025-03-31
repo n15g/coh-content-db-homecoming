@@ -42,5 +42,33 @@ describe('Badge Fields', () => {
         throw errors.join('\n')
       }
     })
+
+    test(`should start with 'Awards'`, () => {
+      const errors: string[] = []
+
+      for (const badge of database.badges) {
+        if (!badge?.acquisition?.startsWith('Awards')) errors.push(`['${badge.key}'].effect does not start with 'Awards'.`)
+      }
+
+      if (errors.length > 0) {
+        throw errors.join('\n')
+      }
+    })
+  })
+
+  describe('icon', () => {
+    test('should not contain any http links', () => {
+      const errors: string[] = []
+
+      for (const badge of database.badges) {
+        for (const icon of badge.icon.canonical) {
+          if (new URL(icon.value).protocol === 'http:') errors.push(`['${badge.key}'].links['${icon.value}'] contains an insecure (http) link.`)
+        }
+      }
+
+      if (errors.length > 0) {
+        throw errors.join('\n')
+      }
+    })
   })
 })

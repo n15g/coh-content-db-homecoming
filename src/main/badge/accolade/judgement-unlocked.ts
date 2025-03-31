@@ -11,7 +11,7 @@ export const JudgementUnlocked: BadgeData = {
   badgeText: [
     { value: `You unlocked your Judgement Incarnate slot allowing you to create powerful new abilities that can be slotted there.` },
   ],
-  acquisition: `Unlock the Judgement Incarnate slot`,
+  acquisition: `Unlock the Judgement Incarnate slot.`,
   notes: `Unlock the Judgement Incarnate slot by earning Incarnate Experience through normal play.`,
   links: [
     { title: 'Judgement Unlocked Badge', href: 'https://homecoming.wiki/wiki/Judgement_Unlocked_Badge' },

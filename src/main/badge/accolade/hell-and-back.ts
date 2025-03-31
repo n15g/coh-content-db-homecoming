@@ -16,7 +16,7 @@ export const HellAndBack: BadgeData = {
   badgeText: [
     { value: `You've endured the spells of witches, the might of misshapen abominations, the ghostly touch of spectral terrors and the schemes of the supernatural fiends, earning yourself this Accolade.` },
   ],
-  notes: `Available during Halloween Events`,
+  notes: `Available during Halloween events.`,
   links: [
     { title: 'Hell and Back Badge', href: 'https://homecoming.wiki/wiki/Hell_and_Back_Badge' },
   ],

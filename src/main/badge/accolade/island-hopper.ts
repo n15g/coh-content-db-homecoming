@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { TalosIsland } from '../../zone/talos-island'
+import { BadgeData } from 'coh-content-db'
 import { Minotaur } from '../exploration/minotaur'
 import { NatureLover } from '../exploration/nature-lover'
 import { Whitecap } from '../exploration/whitecap'
@@ -20,7 +19,6 @@ export const IslandHopper: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Talos Island.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(TalosIsland)}`,
   links: [
     { title: 'Island Hopper Badge', href: 'https://homecoming.wiki/wiki/Island_Hopper_Badge' },
   ],

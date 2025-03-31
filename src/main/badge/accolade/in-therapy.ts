@@ -18,7 +18,7 @@ export const InTherapy: BadgeData = {
     { alignment: 'H', value: `In order to get along with the heroes of Paragon City, you've started to see a professional about your desires for world domination.` },
     { alignment: 'V', value: `You've wanted more control and now you have it. Activating this power increases the power of all of your Sleeps, Holds, Immobilize, and Confuse for 60 seconds.` },
   ],
-  notes: `Awards the Megalomaniac power`,
+  effect: `Awards the Megalomaniac power.`,
   links: [
     { title: 'In Therapy Badge', href: 'https://homecoming.wiki/wiki/In_Therapy_Badge' },
     { title: 'Megalomaniac Badge', href: 'https://homecoming.wiki/wiki/Megalomaniac_Badge' },
@@ -26,7 +26,6 @@ export const InTherapy: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/in-therapy.png' },
   ],
-  effect: `Megalomaniac`,
   requirements: [[
     { key: CrystalKeeper.key, type: 'BADGE', badgeKey: CrystalKeeper.key },
     { key: LastStand.key, type: 'BADGE', badgeKey: LastStand.key },

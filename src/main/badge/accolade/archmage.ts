@@ -17,20 +17,23 @@ export const Archmage: BadgeData = {
   ],
   alignment: ['H'],
   badgeText: [
-    { alignment: 'H', value: `Your research into the arcane, coupled with your experience in fighting magical foes, has unlocked heretofore unknown magics within you, earning you the title of Archmage. You have learned a spell of protection because of this.` },
+    {
+      alignment: 'H', value: `Your research into the arcane, coupled with your experience in fighting magical foes, has unlocked heretofore unknown magics within you, earning you the title of Archmage.
+You have learned a spell of protection because of this.`,
+    },
     {
       alignment: 'V',
-      value: `Your research into the arcane, coupled with your experience in fighting magical foes, has unlocked heretofore unknown magics within you, earning you the title of Archmage. The associated spell of protection, which relies on a certain purity of spirit, is no longer useful to you.`,
+      value: `Your research into the arcane, coupled with your experience in fighting magical foes, has unlocked heretofore unknown magics within you, earning you the title of Archmage.
+The associated spell of protection, which relies on a certain purity of spirit, is no longer useful to you.`,
     },
   ],
-  notes: `Awards the Eye of the Magus power`,
+  effect: `Awards the Eye of the Magus power.`,
   links: [
     { title: 'Archmage Badge', href: 'https://homecoming.wiki/wiki/Archmage_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archmage.png' },
   ],
-  effect: `Eye of the Magus`,
   requirements: [[
     { key: Banisher.key, type: 'BADGE', badgeKey: Banisher.key },
     { key: DarkMystic.key, type: 'BADGE', badgeKey: DarkMystic.key },

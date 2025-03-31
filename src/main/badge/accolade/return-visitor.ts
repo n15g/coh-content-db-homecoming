@@ -22,7 +22,7 @@ export const ReturnVisitor: BadgeData = {
     { alignment: 'H', value: `You've seen a lot of Paragon from the other side already, so you've got a head start on making your new life here.` },
     { alignment: 'V', value: `No corner of Paragon City is safe from your destruction!` },
   ],
-  notes: `Awards +5% Max Health`,
+  effect: 'Awards +5% Max Health.',
   links: [
     { title: 'Return Visitor Badge', href: 'https://homecoming.wiki/wiki/Return_Visitor_Badge' },
     { title: 'Invader Badge', href: 'https://homecoming.wiki/wiki/Invader_Badge' },
@@ -30,7 +30,6 @@ export const ReturnVisitor: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/return-visitor.png' },
   ],
-  effect: `+5% Max Health`,
   requirements: [[
     { key: Libertarian.key, type: 'BADGE', badgeKey: Libertarian.key },
     { key: Brickhouse.key, type: 'BADGE', badgeKey: Brickhouse.key },

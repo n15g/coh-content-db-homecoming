@@ -21,7 +21,7 @@ export const DayTrader: BadgeData = {
   acquisition: 'Log out at a Consignment House for 100 hours.',
   effect: 'Day Job: Bonus Brain Storm Idea upon mission completion',
   links: [
-    { title: 'Day Trader Badge', href: 'https://homecoming.wiki/wiki/Day Trader_Badge' },
+    { title: 'Day Trader Badge', href: 'https://homecoming.wiki/wiki/Day_Trader_Badge' },
     { title: 'Marketeer Badge', href: 'https://homecoming.wiki/wiki/Marketeer_Badge' },
     { title: 'Day Jobs', href: 'https://homecoming.wiki/wiki/Day_Jobs' },
   ],

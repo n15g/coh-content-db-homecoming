@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { PerezPark } from '../../zone/perez-park'
+import { BadgeData } from 'coh-content-db'
 import { AroundTheBendis } from '../exploration/around-the-bendis'
 import { Avatar } from '../exploration/avatar'
 import { BloodMoss } from '../exploration/blood-moss'
@@ -20,7 +19,6 @@ export const PerezParkPerfection: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Perez Park.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(PerezPark)}`,
   links: [
     { title: 'Perez Park Perfection Badge', href: 'https://homecoming.wiki/wiki/Perez_Park_Perfection_Badge' },
   ],

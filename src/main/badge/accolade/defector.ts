@@ -18,7 +18,7 @@ export const Defector: BadgeData = {
     },
     {
       alignment: 'V',
-      value: `Your mastery of stealth and your training with Arachnos has earned you the Black Ops Accolade.  While logged out in an Arachnos controlled area or inside a Vault you will earn charges for your Smoke Bomb power.`,
+      value: `Your mastery of stealth and your training with Arachnos has earned you the Black Ops Accolade. While logged out in an Arachnos controlled area or inside a Vault you will earn charges for your Smoke Bomb power.`,
     },
   ],
   links: [

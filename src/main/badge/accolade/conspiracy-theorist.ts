@@ -18,14 +18,13 @@ export const ConspiracyTheorist: BadgeData = {
     { alignment: 'H', value: `You have uncovered Crey's conspiracy, one that has been choking Paragon City for years. As a souvenir you have kept a Crey pistol for your own personal use.` },
     { alignment: 'V', value: `You uncovered one of Crey's conspiracies, and kept a Cryo Pistol as a souvenir. Unfortunately, feedback from the PTS has made it virtually useless in the Rogue Isles.` },
   ],
-  notes: `Awards the Crey CBX-9 Pistol power`,
+  effect: `Awards the Crey CBX-9 Pistol power.`,
   links: [
     { title: 'Conspiracy Theorist Badge', href: 'https://homecoming.wiki/wiki/Conspiracy_Theorist_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conspiracy-theorist.png' },
   ],
-  effect: `Crey CBX-9 Pistol`,
   requirements: [[
     { key: BirdWatcher.key, type: 'BADGE', badgeKey: BirdWatcher.key },
     { key: CreyFish.key, type: 'BADGE', badgeKey: CreyFish.key },

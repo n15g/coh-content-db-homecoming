@@ -28,7 +28,7 @@ Of these four, the northernmost should be approached while in ${zoneLink(NovaPra
 
 It is best to do this badge as soon as you arrive in Praetoria, even if you are very low level. There are no enemies in the water, and the method of watching "Closest to Completion" change only works if you have not unwittingly hit some of the waypoints already.`,
   links: [
-    { title: 'River Rat Badge', href: 'https://homecoming.wiki/wiki/River Rat_Badge' },
+    { title: 'River Rat Badge', href: 'https://homecoming.wiki/wiki/River_Rat_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
 }

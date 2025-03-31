@@ -15,10 +15,16 @@ export const DeepStrikeAgent: BadgeData = {
   ],
   alignment: ['V'],
   badgeText: [
-    { alignment: 'H', value: `You have successfully taken part in many of the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'. You can break free from many effects out of sheer spite, due to your remarkable tenacity.` },
-    { alignment: 'V', value: `You successfully infiltrated the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'. You can break free from many effects out of sheer spite.` },
+    {
+      alignment: 'H', value: `You have successfully taken part in many of the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'.
+You can break free from many effects out of sheer spite, due to your remarkable tenacity.`,
+    },
+    {
+      alignment: 'V', value: `You successfully infiltrated the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'.
+You can break free from many effects out of sheer spite.`,
+    },
   ],
-  notes: `Awards the Sheer Willpower power.`,
+  effect: `Awards the Sheer Willpower power.`,
   links: [
     { title: 'Deep Strike Agent Badge', href: 'https://homecoming.wiki/wiki/Deep_Strike_Agent_Badge' },
     { title: 'Strike Force Commander Badge', href: 'https://homecoming.wiki/wiki/Strike_Force_Commander_Badge' },
@@ -26,7 +32,6 @@ export const DeepStrikeAgent: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/deep-strike-agent.png' },
   ],
-  effect: `Sheer Willpower`,
   requirements: [[
     { key: BinderOfBeasts.key, type: 'BADGE', badgeKey: BinderOfBeasts.key },
     { key: Leviathan.key, type: 'BADGE', badgeKey: Leviathan.key },

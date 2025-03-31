@@ -12,7 +12,12 @@ export const PoliceChief: BadgeData = {
   ],
   alignment: ['H'],
   badgeText: [
-    { alignment: 'H', value: `Your time spent working with both Paragon City Hall and the Paragon Police Department has earned you a great deal of respect.  While logged out in either Paragon City Hall or a Police Department you'll earn uses for your Police Chief's Baton power.` },
+    {
+      alignment: 'H', value: `
+Your time spent working with both Paragon City Hall and the Paragon Police Department has earned you a great deal of respect.
+
+While logged out in either Paragon City Hall or a Police Department you'll earn uses for your Police Chief's Baton power.`,
+    },
     { alignment: 'V', value: `The scandal caused by your switch to villainy brought down a City Representative and an entire PPD precinct.` },
   ],
   links: [

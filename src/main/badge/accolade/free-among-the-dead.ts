@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { DarkAstoria } from '../../zone/dark-astoria'
+import { BadgeData } from 'coh-content-db'
 import { FollysVictim } from '../exploration/follys-victim'
 import { PalaceOfStoneLeaves } from '../exploration/palace-of-stone-leaves'
 import { AuspiceAvernus } from '../exploration/auspice-avernus'
@@ -20,7 +19,6 @@ export const FreeAmongTheDead: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(DarkAstoria)}`,
   links: [
     { title: 'Free Among the Dead Badge', href: 'https://homecoming.wiki/wiki/Free_Among_the_Dead_Badge' },
   ],

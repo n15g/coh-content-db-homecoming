@@ -13,11 +13,13 @@ export const Archaeologist: BadgeData = {
   badgeText: [
     {
       alignment: 'H',
-      value: `Your time spent working with the Midnighters and uncovering the secrets of buried artifacts has earned you the Archaeologist Accolade.  While logged out in either the Midnighter Club or a Graveyard you will earn additional charges for your Rune of Purification power.`,
+      value: `Your time spent working with the Midnighters and uncovering the secrets of buried artifacts has earned you the Archaeologist Accolade.
+While logged out in either the Midnighter Club or a Graveyard you will earn additional charges for your Rune of Purification power.`,
     },
     {
       alignment: 'V',
-      value: `Your time spend working with the Midnighter and uncovering the secrets of buried artifacts has earned you the Archaeologist Accolade.  While logged out in either the Midnighter Club or a Graveyard you will earn additional charges for your Rune of Purification power.`,
+      value: `Your time spend working with the Midnighter and uncovering the secrets of buried artifacts has earned you the Archaeologist Accolade.
+While logged out in either the Midnighter Club or a Graveyard you will earn additional charges for your Rune of Purification power.`,
     },
   ],
   links: [

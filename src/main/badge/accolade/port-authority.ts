@@ -1,5 +1,8 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { StrigaIsle } from '../../zone/striga-isle'
+import { BadgeData } from 'coh-content-db'
+import { StephaniePeebles } from '../../contact/stephanie-peebles'
+import { LongJack } from '../../contact/long-jack'
+import { TobiasHansen } from '../../contact/tobias-hansen'
+import { LarsHansen } from '../../contact/lars-hansen'
 
 export const PortAuthority: BadgeData = {
   type: 'ACCOLADE',
@@ -12,12 +15,19 @@ export const PortAuthority: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within Striga Isle.` },
   ],
-  acquisition: `Complete every hero story arc in ${zoneLink(StrigaIsle)}`,
-  notes: `This badge rewards 20 reward merits.`,
+  effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Port Authority Badge', href: 'https://homecoming.wiki/wiki/Port_Authority_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
+  ],
+  requirements: [
+    [
+      { key: 'ring-of-peebles', type: 'ARC', missionName: 'Ring of Peebles', contactKey: StephaniePeebles.key },
+      { key: 'hear-and-now', type: 'ARC', missionName: 'Hear and Now', contactKey: LongJack.key },
+      { key: 'return-to-vampyr-mountain', type: 'ARC', missionName: 'Return to Vampyr Mountain', contactKey: TobiasHansen.key },
+      { key: 'a-madmans-council', type: 'ARC', missionName: `A Madman's Council`, contactKey: LarsHansen.key },
+    ],
   ],
 }

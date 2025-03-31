@@ -11,7 +11,7 @@ export const DestinyUnlocked: BadgeData = {
   badgeText: [
     { value: `You unlocked your Destiny Incarnate slot allowing you to create powerful new abilities that can be slotted there.` },
   ],
-  acquisition: `Unlock the Destiny Incarnate slot`,
+  acquisition: `Unlock the Destiny Incarnate slot,`,
   notes: `Unlock the Destiny Incarnate slot by earning Incarnate Experience through normal play.`,
   links: [
     { title: 'Destiny Unlocked Badge', href: 'https://homecoming.wiki/wiki/Destiny_Unlocked_Badge' },

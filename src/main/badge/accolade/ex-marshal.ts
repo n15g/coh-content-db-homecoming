@@ -19,7 +19,7 @@ export const ExMarshal: BadgeData = {
     { alignment: 'H', value: `You once held the title of Marshal in Arachnos. Unfortunately, the memory is all that remains of the power it once gave you.` },
     { alignment: 'V', value: `You've been awarded the title of Marshal for your service to Arachnos. This has given you a 5% increase to Endurance.` },
   ],
-  notes: `Awards +5 Max Endurance`,
+  effect: `Awards +5 Max Endurance.`,
   links: [
     { title: 'Ex-Marshal Badge', href: 'https://homecoming.wiki/wiki/Ex-Marshal_Badge' },
     { title: 'Marshal Badge', href: 'https://homecoming.wiki/wiki/Marshal_Badge' },
@@ -27,7 +27,6 @@ export const ExMarshal: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/ex-marshal.png' },
   ],
-  effect: `+5 Max Endurance`,
   requirements: [[
     { key: Annihilator.key, type: 'BADGE', badgeKey: Annihilator.key },
     { key: ArachnosRising.key, type: 'BADGE', badgeKey: ArachnosRising.key },

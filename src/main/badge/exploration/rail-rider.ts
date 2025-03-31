@@ -20,7 +20,7 @@ Its coordinates in ${zoneLink(NovaPraetoria)} are (-4551, -187, 470), in ${zoneL
 
 It is necessary to visit all three locations to earn this badge.`,
   links: [
-    { title: 'Rail Rider Badge', href: 'https://homecoming.wiki/wiki/Rail Rider_Badge' },
+    { title: 'Rail Rider Badge', href: 'https://homecoming.wiki/wiki/Rail_Rider_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
   vidiotMapKey: 'T',

@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Faultline } from '../../zone/faultline'
+import { BadgeData } from 'coh-content-db'
 import { EscapeArtist } from '../exploration/escape-artist'
 import { DrownedRat } from '../exploration/drowned-rat'
 import { OldFashioned } from '../exploration/old-fashioned'
@@ -20,7 +19,6 @@ export const FaultlineFinder: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Faultline.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(Faultline)}`,
   links: [
     { title: 'Faultline Finder Badge', href: 'https://homecoming.wiki/wiki/Faultline_Finder_Badge' },
   ],

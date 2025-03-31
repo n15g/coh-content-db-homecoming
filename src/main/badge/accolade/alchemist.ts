@@ -11,8 +11,20 @@ export const Alchemist: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [
-    { alignment: 'H', value: `Your arcane studies with the Midnighters and time spent working in the Hospitals of Paragon City has earned you the Alchemist Accolade.  While logged out within the Midnighter's Club or inside a Hospital you will earn charges for your Vitalize power.` },
-    { alignment: 'V', value: `Your arcane studies with the Midnighters and time spent working in the Hospitals of the Rogue Isles has earned you the Alchemist Accolade.  While logged out within the Midnighter's Club or inside a Hospital you will earn charges for your Vitalize power.` },
+    {
+      alignment: 'H', value: `
+Your arcane studies with the Midnighters and time spent working in the Hospitals of Paragon City has earned you the Alchemist Accolade.
+
+While logged out within the Midnighter's Club or inside a Hospital you will earn charges for your Vitalize power.
+`,
+    },
+    {
+      alignment: 'V', value: `
+Your arcane studies with the Midnighters and time spent working in the Hospitals of the Rogue Isles has earned you the Alchemist Accolade.
+
+While logged out within the Midnighter's Club or inside a Hospital you will earn charges for your Vitalize power.
+`,
+    },
   ],
   links: [
     { title: 'Alchemist Badge', href: 'https://homecoming.wiki/wiki/Alchemist_Badge' },
