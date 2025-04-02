@@ -12,13 +12,9 @@ export const TrueToTheLast: BadgeData = {
   type: 'ACCOLADE',
   key: 'true-to-the-last',
   setTitle: { id: 2351 },
-  name: [
-    { value: 'True to the Last' },
-  ],
+  name: 'True to the Last',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `Wherever you must go, whatever you must do, Praetoria will always & forever be your home, and to it you shall be True to the Last.` },
-  ],
+  badgeText: `Wherever you must go, whatever you must do, Praetoria will always & forever be your home, and to it you shall be True to the Last.`,
   notes: `Awards 20 reward merits.`,
   links: [
     { title: 'True to the Last Badge', href: 'https://homecoming.wiki/wiki/True_to_the_Last_Badge' },

@@ -21,9 +21,7 @@ export const Watchman: BadgeData = {
     { title: 'Watchman Badge', href: 'https://homecoming.wiki/wiki/Watchman_Badge' },
     { title: 'Watchwoman Badge', href: 'https://homecoming.wiki/wiki/Watchwoman_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/watchman.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/watchman.png',
   requirements: [
     { key: Sentry.key, type: 'BADGE', badgeKey: Sentry.key },
     { key: BombSpecialist.key, type: 'BADGE', badgeKey: BombSpecialist.key },

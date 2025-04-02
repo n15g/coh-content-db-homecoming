@@ -19,9 +19,7 @@ export const Fwoosh: BadgeData = {
     { title: 'Fwoosh Badge', href: 'https://homecoming.wiki/wiki/Fwoosh_Badge' },
     { title: 'The Stinger Badge', href: 'https://homecoming.wiki/wiki/The_Stinger_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/fwoosh.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/fwoosh.png',
   requirements: [
     { key: 'armor-wars', type: 'ARC', missionName: 'Armor Wars', contactKey: BlackScorpion.key },
   ],

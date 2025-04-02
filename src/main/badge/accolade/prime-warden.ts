@@ -12,19 +12,13 @@ export const PrimeWarden: BadgeData = {
   type: 'ACCOLADE',
   key: 'prime-warden',
   setTitle: { id: 2056 },
-  name: [
-    { value: 'Prime Warden' },
-  ],
+  name: 'Prime Warden',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within First Ward.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within First Ward.`,
   links: [
     { title: 'Prime Warden Badge', href: 'https://homecoming.wiki/wiki/Prime_Warden_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: DearlyDeparted.key, type: 'BADGE', badgeKey: DearlyDeparted.key },
     { key: EyeOfTheVortex.key, type: 'BADGE', badgeKey: EyeOfTheVortex.key },

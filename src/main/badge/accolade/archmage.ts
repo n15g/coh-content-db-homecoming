@@ -12,9 +12,7 @@ export const Archmage: BadgeData = {
   type: 'ACCOLADE',
   key: 'archmage',
   setTitle: { id: 167 },
-  name: [
-    { value: 'Archmage' },
-  ],
+  name: 'Archmage',
   alignment: ['H'],
   badgeText: [
     {
@@ -31,9 +29,7 @@ The associated spell of protection, which relies on a certain purity of spirit, 
   links: [
     { title: 'Archmage Badge', href: 'https://homecoming.wiki/wiki/Archmage_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archmage.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archmage.png',
   requirements: [
     { key: Banisher.key, type: 'BADGE', badgeKey: Banisher.key },
     { key: DarkMystic.key, type: 'BADGE', badgeKey: DarkMystic.key },

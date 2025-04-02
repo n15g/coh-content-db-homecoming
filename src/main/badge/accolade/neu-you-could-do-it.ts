@@ -12,19 +12,13 @@ export const NeuYouCouldDoIt: BadgeData = {
   type: 'ACCOLADE',
   key: 'neu-you-could-do-it',
   setTitle: { id: 1655 },
-  name: [
-    { value: 'Neu You Could Do It' },
-  ],
+  name: 'Neu You Could Do It',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Neutropolis's Underground.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Neutropolis's Underground.`,
   links: [
     { title: 'Neu You Could Do It Badge', href: 'https://homecoming.wiki/wiki/Neu_You_Could_Do_It_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: BingeEater.key, type: 'BADGE', badgeKey: BingeEater.key },
     { key: Cluttered.key, type: 'BADGE', badgeKey: Cluttered.key },

@@ -12,19 +12,13 @@ export const CrashLanded: BadgeData = {
   type: 'ACCOLADE',
   key: 'crash-landed',
   setTitle: { id: 2330 },
-  name: [
-    { value: 'Crash Landed' },
-  ],
+  name: 'Crash Landed',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge in Echo: Rikti Crash Site.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge in Echo: Rikti Crash Site.`,
   links: [
     { title: 'Crash Landed Badge', href: 'https://homecoming.wiki/wiki/Crash_Landed_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: Powerful.key, type: 'BADGE', badgeKey: Powerful.key },
     { key: UnderFire.key, type: 'BADGE', badgeKey: UnderFire.key },

@@ -12,19 +12,13 @@ export const GalacticExplorer: BadgeData = {
   type: 'ACCOLADE',
   key: 'galactic-explorer',
   setTitle: { id: 1525 },
-  name: [
-    { value: 'Galactic Explorer' },
-  ],
+  name: 'Galactic Explorer',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Galaxy City.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Galaxy City.`,
   links: [
     { title: 'Galactic Explorer Badge', href: 'https://homecoming.wiki/wiki/Galactic_Explorer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: BirdWatcher.key, type: 'BADGE', badgeKey: BirdWatcher.key },
     { key: BlueShield.key, type: 'BADGE', badgeKey: BlueShield.key },

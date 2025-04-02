@@ -9,9 +9,7 @@ export const Vanguard: BadgeData = {
   type: 'ACCOLADE',
   key: 'vanguard',
   setTitle: { id: 164 },
-  name: [
-    { value: 'Vanguard' },
-  ],
+  name: 'Vanguard',
   alignment: ['H'],
   badgeText: [
     {
@@ -28,9 +26,7 @@ Without you even knowing it, they have silently confiscated your Rikti power amp
   links: [
     { title: 'Vanguard Badge', href: 'https://homecoming.wiki/wiki/Vanguard_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/vanguard.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/vanguard.png',
   requirements: [
     { key: Ace.key, type: 'BADGE', badgeKey: Ace.key },
     { key: Finder.key, type: 'BADGE', badgeKey: Finder.key },

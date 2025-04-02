@@ -11,9 +11,7 @@ export const BornInBattle: BadgeData = {
   type: 'ACCOLADE',
   key: 'born-in-battle',
   setTitle: { id: 534 },
-  name: [
-    { value: 'Born in Battle' },
-  ],
+  name: 'Born in Battle',
   alignment: ['V'],
   badgeText: [
     { alignment: 'H', value: `You may have proven yourself as Born in Battle, but in Paragon City other virtues matter more.` },
@@ -23,9 +21,7 @@ export const BornInBattle: BadgeData = {
   links: [
     { title: 'Born in Battle Badge', href: 'https://homecoming.wiki/wiki/Born_in_Battle_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/born-in-battle.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/born-in-battle.png',
   requirements: [
     { key: Exterminator.key, type: 'BADGE', badgeKey: Exterminator.key },
     { key: Pirate.key, type: 'BADGE', badgeKey: Pirate.key },

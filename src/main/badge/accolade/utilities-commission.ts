@@ -12,19 +12,13 @@ export const UtilitiesCommission: BadgeData = {
   type: 'ACCOLADE',
   key: 'utilities-commission',
   setTitle: { id: 1886 },
-  name: [
-    { value: 'Utilities Commission' },
-  ],
+  name: 'Utilities Commission',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Terra Volta.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Terra Volta.`,
   links: [
     { title: 'Utilities Commission Badge', href: 'https://homecoming.wiki/wiki/Utilities_Commission_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: ConjunctionJunction.key, type: 'BADGE', badgeKey: ConjunctionJunction.key },
     { key: DangerDanger.key, type: 'BADGE', badgeKey: DangerDanger.key },

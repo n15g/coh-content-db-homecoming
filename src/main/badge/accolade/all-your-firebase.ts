@@ -12,19 +12,13 @@ export const AllYourFirebase: BadgeData = {
   type: 'ACCOLADE',
   key: 'all-your-firebase',
   setTitle: { id: 1881 },
-  name: [
-    { value: 'All Your Firebase...' },
-  ],
+  name: 'All Your Firebase...',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Firebase Zulu.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Firebase Zulu.`,
   links: [
     { title: 'All Your Firebase... Badge', href: 'https://homecoming.wiki/wiki/All_Your_Firebase..._Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: AlphaRanger.key, type: 'BADGE', badgeKey: AlphaRanger.key },
     { key: DancerWithDeath.key, type: 'BADGE', badgeKey: DancerWithDeath.key },

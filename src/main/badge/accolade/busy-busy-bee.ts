@@ -12,19 +12,13 @@ export const BusyBusyBee: BadgeData = {
   type: 'ACCOLADE',
   key: 'busy-busy-bee',
   setTitle: { id: 1888 },
-  name: [
-    { value: 'Busy, Busy Bee' },
-  ],
+  name: 'Busy, Busy Bee',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within the Hive.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within the Hive.`,
   links: [
     { title: 'Busy, Busy Bee Badge', href: 'https://homecoming.wiki/wiki/Busy%2C_Busy_Bee_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: AmongTheGiants.key, type: 'BADGE', badgeKey: AmongTheGiants.key },
     { key: BabeInTheWoods.key, type: 'BADGE', badgeKey: BabeInTheWoods.key },

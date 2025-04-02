@@ -9,20 +9,14 @@ export const Stowaway: BadgeData = {
   type: 'ACCOLADE',
   key: 'stowaway',
   setTitle: { id: 2519 },
-  name: [
-    { value: 'Stowaway' },
-  ],
+  name: 'Stowaway',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `Striga has long been a Council stronghold but recent events have upset the delicate balance and created a power vaccum for opportunistic villains to exploit.` },
-  ],
+  badgeText: 'Striga has long been a Council stronghold but recent events have upset the delicate balance and created a power vaccum for opportunistic villains to exploit.',
   effect: `Awards 20 reward merits.`,
   links: [
     { title: 'Stowaway Badge', href: 'https://homecoming.wiki/wiki/Stowaway_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png',
   requirements: [
     { key: 'buried-secrets', type: 'ARC', missionName: 'Buried Secrets', contactKey: OberstStraxt.key },
     { key: 'just-prototypical', type: 'ARC', missionName: 'Just Prototypical', contactKey: DrFrancois.key },

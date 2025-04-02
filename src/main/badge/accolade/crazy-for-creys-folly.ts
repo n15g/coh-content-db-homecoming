@@ -12,19 +12,13 @@ export const CrazyForCreysFolly: BadgeData = {
   type: 'ACCOLADE',
   key: 'crazy-for-creys-folly',
   setTitle: { id: 1880 },
-  name: [
-    { value: `Crazy for Crey's Folly` },
-  ],
+  name: `Crazy for Crey's Folly`,
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Crey's Folly.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Crey's Folly.`,
   links: [
     { title: `Crazy for Crey's Folly Badge`, href: 'https://homecoming.wiki/wiki/Crazy_for_Crey%27s_Folly_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: BurningTheMidnightOil.key, type: 'BADGE', badgeKey: BurningTheMidnightOil.key },
     { key: CirqueDuFreak.key, type: 'BADGE', badgeKey: CirqueDuFreak.key },

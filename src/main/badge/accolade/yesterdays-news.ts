@@ -25,9 +25,7 @@ export const YesterdaysNews: BadgeData = {
     { title: 'Yesterday\'s News Badge', href: 'https://homecoming.wiki/wiki/Yesterday%27s_News_Badge' },
     { title: 'Headline Stealer Badge', href: 'https://homecoming.wiki/wiki/Headline_Stealer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/yesterdays-news.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/yesterdays-news.png',
   requirements: [
     { key: CouchPotato.key, type: 'BADGE', badgeKey: CouchPotato.key },
     { key: Paroled.key, type: 'BADGE', badgeKey: Paroled.key },

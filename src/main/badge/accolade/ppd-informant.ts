@@ -17,16 +17,12 @@ export const PPDInformant: BadgeData = {
     { alignment: 'V', value: 'Former PPD Stoolie' },
   ],
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Kings Row.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Kings Row.`,
   links: [
     { title: 'PPD Informant Badge', href: 'https://homecoming.wiki/wiki/PPD_Informant_Badge' },
     { title: 'Former PPD Stoolie Badge', href: 'https://homecoming.wiki/wiki/Former_PPD_Stoolie_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Summoned.key, type: 'BADGE', badgeKey: Summoned.key },
     { key: Upgraded.key, type: 'BADGE', badgeKey: Upgraded.key },

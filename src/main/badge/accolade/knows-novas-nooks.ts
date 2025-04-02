@@ -12,19 +12,13 @@ export const KnowsNovasNooks: BadgeData = {
   type: 'ACCOLADE',
   key: 'knows-novas-nooks',
   setTitle: { id: 1644 },
-  name: [
-    { value: `Knows Nova's Nooks` },
-  ],
+  name: `Knows Nova's Nooks`,
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria's Underground.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria's Underground.`,
   links: [
     { title: `Knows Nova's Nooks Badge`, href: 'https://homecoming.wiki/wiki/Knows_Nova%27s_Nooks_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: ClockworkMechanic.key, type: 'BADGE', badgeKey: ClockworkMechanic.key },
     { key: Disappeared.key, type: 'BADGE', badgeKey: Disappeared.key },

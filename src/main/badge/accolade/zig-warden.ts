@@ -18,17 +18,13 @@ export const ZigWarden: BadgeData = {
     { alignment: 'V', sex: 'F', value: 'Queen of the Zig' },
   ],
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Brickstown.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Brickstown.`,
   links: [
     { title: 'Zig Warden Badge', href: 'https://homecoming.wiki/wiki/Zig_Warden_Badge' },
     { title: 'King of the Zig Badge', href: 'https://homecoming.wiki/wiki/King_of_the_Zig_Badge' },
     { title: 'Queen of the Zig Badge', href: 'https://homecoming.wiki/wiki/Queen_of_the_Zig_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Mystic.key, type: 'BADGE', badgeKey: Mystic.key },
     { key: Inmate.key, type: 'BADGE', badgeKey: Inmate.key },

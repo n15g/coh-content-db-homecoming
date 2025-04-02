@@ -12,19 +12,13 @@ export const StormingThePalace: BadgeData = {
   type: 'ACCOLADE',
   key: 'storming-the-palace',
   setTitle: { id: 1889 },
-  name: [
-    { value: 'Storming the Palace' },
-  ],
+  name: 'Storming the Palace',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within the Storm Palace.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within the Storm Palace.`,
   links: [
     { title: 'Storming the Palace Badge', href: 'https://homecoming.wiki/wiki/Storming_the_Palace_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: AcolyteOfAnger.key, type: 'BADGE', badgeKey: AcolyteOfAnger.key },
     { key: CourtingMadness.key, type: 'BADGE', badgeKey: CourtingMadness.key },

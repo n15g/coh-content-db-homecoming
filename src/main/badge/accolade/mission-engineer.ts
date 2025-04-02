@@ -12,23 +12,15 @@ export const MissionEngineer: BadgeData = {
   type: 'ACCOLADE',
   key: 'mission-engineer',
   setTitle: { id: 1134 },
-  name: [
-    { value: 'Mission Engineer' },
-  ],
+  name: 'Mission Engineer',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    {
-      value: `Your overall expertise in everything relating to the Mission Architect system has earned you the title of Mission Engineer.
+  badgeText: `Your overall expertise in everything relating to the Mission Architect system has earned you the title of Mission Engineer.
 Owning this Accolade will grant you the ability to remotely create and edit Mission Architect content.`,
-    },
-  ],
   effect: `Awards usage of the Architect Comlink macro.`,
   links: [
     { title: 'Mission Engineer Badge', href: 'https://homecoming.wiki/wiki/Mission_Engineer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mission-engineer.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mission-engineer.png',
   requirements: [
     { key: ThrillSeeker.key, type: 'BADGE', badgeKey: ThrillSeeker.key },
     { key: Gamer.key, type: 'BADGE', badgeKey: Gamer.key },

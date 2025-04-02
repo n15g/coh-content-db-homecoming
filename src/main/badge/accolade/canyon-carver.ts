@@ -12,19 +12,13 @@ export const CanyonCarver: BadgeData = {
   type: 'ACCOLADE',
   key: 'canyon-carver',
   setTitle: { id: 1534 },
-  name: [
-    { value: 'Canyon Carver' },
-  ],
+  name: 'Canyon Carver',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Steel Canyon.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Steel Canyon.`,
   links: [
     { title: 'Canyon Carver Badge', href: 'https://homecoming.wiki/wiki/Canyon_Carver_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: SecretAdmirer.key, type: 'BADGE', badgeKey: SecretAdmirer.key },
     { key: HeroCorpsRecruit.key, type: 'BADGE', badgeKey: HeroCorpsRecruit.key },

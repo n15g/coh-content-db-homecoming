@@ -27,9 +27,7 @@ You mustn't let the demon out too long, or you just may lose your mortal soul, f
     { title: 'Exorcised Badge', href: 'https://homecoming.wiki/wiki/Exorcised_Badge' },
     { title: 'Demonic Badge', href: 'https://homecoming.wiki/wiki/Demonic_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/exorcised.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/exorcised.png',
   requirements: [
     { key: Coldblooded.key, type: 'BADGE', badgeKey: Coldblooded.key },
     { key: ForgedByHellfire.key, type: 'BADGE', badgeKey: ForgedByHellfire.key },

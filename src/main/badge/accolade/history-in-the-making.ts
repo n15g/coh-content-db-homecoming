@@ -12,13 +12,9 @@ export const HistoryInTheMaking: BadgeData = {
   type: 'ACCOLADE',
   key: 'history-in-the-making',
   setTitle: { id: 2462 },
-  name: [
-    { value: 'History in the Making' },
-  ],
+  name: 'History in the Making',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Cimerora.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Cimerora.`,
   effect: 'Awards 5 rewards merits.',
   links: [
     { title: 'History in the Making Badge', href: 'https://homecoming.wiki/wiki/History_in_the_Making_Badge' },

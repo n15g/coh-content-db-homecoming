@@ -22,9 +22,7 @@ While logged out in either Paragon City Hall or a Police Department you'll earn 
     { title: 'Police Chief Badge', href: 'https://homecoming.wiki/wiki/Police_Chief_Badge' },
     { title: 'Corrupt Commissioner Badge', href: 'https://homecoming.wiki/wiki/Corrupt_Commissioner_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/police-chief.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/police-chief.png',
   requirements: [
     { key: LawEnforcer.key, type: 'BADGE', badgeKey: LawEnforcer.key },
     { key: CityOfficial.key, type: 'BADGE', badgeKey: CityOfficial.key },

@@ -1,0 +1,12 @@
+import { ContactData } from 'coh-content-db'
+import { Croatoa } from '../zone/croatoa'
+
+export const KatieHannon: ContactData = {
+  key: 'katie-hannon',
+  name: 'Katie Hannon',
+  title: 'Task Force Contact',
+  zoneKey: Croatoa.key,
+  loc: [1095, 108, -1095],
+  levelRange: [30, 34],
+  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Katie_Hannon' }],
+}

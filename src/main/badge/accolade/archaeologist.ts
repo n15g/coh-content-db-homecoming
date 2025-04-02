@@ -6,9 +6,7 @@ export const Archaeologist: BadgeData = {
   type: 'ACCOLADE',
   key: 'archaeologist',
   setTitle: { id: 1073 },
-  name: [
-    { value: 'Archaeologist' },
-  ],
+  name: 'Archaeologist',
   alignment: ['H', 'V', 'P'],
   badgeText: [
     {
@@ -25,9 +23,7 @@ While logged out in either the Midnighter Club or a Graveyard you will earn addi
   links: [
     { title: 'Archaeologist Badge', href: 'https://homecoming.wiki/wiki/Archaeologist_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archaeologist.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archaeologist.png',
   requirements: [
     { key: Mortician.key, type: 'BADGE', badgeKey: Mortician.key },
     { key: Midnighter.key, type: 'BADGE', badgeKey: Midnighter.key },

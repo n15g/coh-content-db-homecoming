@@ -12,19 +12,13 @@ export const PortalCorpAnalyst: BadgeData = {
   type: 'ACCOLADE',
   key: 'portal-corp-analyst',
   setTitle: { id: 1579 },
-  name: [
-    { value: 'Portal Corp Analyst' },
-  ],
+  name: 'Portal Corp Analyst',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Peregrine Island.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Peregrine Island.`,
   links: [
     { title: 'Portal Corp Analyst Badge', href: 'https://homecoming.wiki/wiki/Portal_Corp_Analyst_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: PortalParter.key, type: 'BADGE', badgeKey: PortalParter.key },
     { key: UseMightForRight.key, type: 'BADGE', badgeKey: UseMightForRight.key },

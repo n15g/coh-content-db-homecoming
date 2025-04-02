@@ -26,9 +26,7 @@ export const Stouthearted: BadgeData = {
     { title: 'Stouthearted Badge', href: 'https://homecoming.wiki/wiki/Stouthearted_Badge' },
     { title: 'Stonehearted Badge', href: 'https://homecoming.wiki/wiki/Stonehearted_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/stouthearted.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/stouthearted.png',
   requirements: [
     { key: HeartOfTheCity.key, type: 'BADGE', badgeKey: HeartOfTheCity.key },
     { key: KingsRighteousness.key, type: 'BADGE', badgeKey: KingsRighteousness.key },

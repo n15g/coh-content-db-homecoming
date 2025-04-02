@@ -12,19 +12,13 @@ export const JumpedTheShark: BadgeData = {
   type: 'ACCOLADE',
   key: 'jumped-the-shark',
   setTitle: { id: 1500 },
-  name: [
-    { value: 'Jumped the Shark' },
-  ],
+  name: 'Jumped the Shark',
   alignment: ['V'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Sharkhead Isle.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Sharkhead Isle.`,
   links: [
     { title: 'Jumped the Shark Badge', href: 'https://homecoming.wiki/wiki/Jumped_the_Shark_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
     { key: RazorToothed.key, type: 'BADGE', badgeKey: RazorToothed.key },
     { key: ForgedByHellfire.key, type: 'BADGE', badgeKey: ForgedByHellfire.key },

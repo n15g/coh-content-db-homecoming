@@ -12,19 +12,13 @@ export const CitizenOfSalamanca: BadgeData = {
   type: 'ACCOLADE',
   key: 'citizen-of-salamanca',
   setTitle: { id: 1545 },
-  name: [
-    { value: 'Citizen of Salamanca' },
-  ],
+  name: 'Citizen of Salamanca',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Croatoa.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Croatoa.`,
   links: [
     { title: 'Citizen of Salamanca Badge', href: 'https://homecoming.wiki/wiki/Citizen_of_Salamanca_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: GrimWanderer.key, type: 'BADGE', badgeKey: GrimWanderer.key },
     { key: Spiritual.key, type: 'BADGE', badgeKey: Spiritual.key },

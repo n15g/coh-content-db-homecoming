@@ -12,19 +12,13 @@ export const IslandHopper: BadgeData = {
   type: 'ACCOLADE',
   key: 'island-hopper',
   setTitle: { id: 1551 },
-  name: [
-    { value: 'Island Hopper' },
-  ],
+  name: 'Island Hopper',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Talos Island.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Talos Island.`,
   links: [
     { title: 'Island Hopper Badge', href: 'https://homecoming.wiki/wiki/Island_Hopper_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Minotaur.key, type: 'BADGE', badgeKey: Minotaur.key },
     { key: NatureLover.key, type: 'BADGE', badgeKey: NatureLover.key },

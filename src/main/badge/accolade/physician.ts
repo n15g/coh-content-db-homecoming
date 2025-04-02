@@ -6,9 +6,7 @@ export const Physician: BadgeData = {
   type: 'ACCOLADE',
   key: 'physician',
   setTitle: { id: 1067 },
-  name: [
-    { value: 'Physician' },
-  ],
+  name: 'Physician',
   alignment: ['H', 'V', 'P'],
   badgeText: [
     {
@@ -23,9 +21,7 @@ While logged out at a University or inside a Hospital you will earn charges for 
   links: [
     { title: 'Physician Badge', href: 'https://homecoming.wiki/wiki/Physician_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/physician.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/physician.png',
   requirements: [
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
     { key: Caregiver.key, type: 'BADGE', badgeKey: Caregiver.key },

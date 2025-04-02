@@ -8,20 +8,14 @@ export const PortAuthority: BadgeData = {
   type: 'ACCOLADE',
   key: 'port-authority',
   setTitle: { id: 2374 },
-  name: [
-    { value: 'Port Authority' },
-  ],
+  name: 'Port Authority',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this accolade by completing every story arc within Striga Isle.` },
-  ],
+  badgeText: `You've obtained this accolade by completing every story arc within Striga Isle.`,
   effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Port Authority Badge', href: 'https://homecoming.wiki/wiki/Port_Authority_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png',
   requirements: [
     { key: 'ring-of-peebles', type: 'ARC', missionName: 'Ring of Peebles', contactKey: StephaniePeebles.key },
     { key: 'hear-and-now', type: 'ARC', missionName: 'Hear and Now', contactKey: LongJack.key },

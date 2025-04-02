@@ -24,13 +24,13 @@ export default [
   stylistic.configs.customize({
     flat: true,
     semi: false,
+    braceStyle: '1tbs',
   }),
 
   eslintPluginUnicorn.configs['flat/recommended'], // https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2546,
   {
     rules: {
       'unicorn/prevent-abbreviations': ['off'],
-      '@stylistic/brace-style': ['error', '1tbs'],
     },
   },
 ]

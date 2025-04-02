@@ -25,9 +25,7 @@ export const GottenSoft: BadgeData = {
     { title: 'Gotten Soft Badge', href: 'https://homecoming.wiki/wiki/Gotten_Soft_Badge' },
     { title: 'High Pain Threshold Badge', href: 'https://homecoming.wiki/wiki/High_Pain_Threshold_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gotten-soft.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gotten-soft.png',
   requirements: [
     { key: BadLuck.key, type: 'BADGE', badgeKey: BadLuck.key },
     { key: TheUnbrokenSpirit.key, type: 'BADGE', badgeKey: TheUnbrokenSpirit.key },

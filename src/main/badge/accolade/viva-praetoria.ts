@@ -12,19 +12,13 @@ export const VivaPraetoria: BadgeData = {
   type: 'ACCOLADE',
   key: 'viva-praetoria',
   setTitle: { id: 1431 },
-  name: [
-    { value: 'Viva Praetoria' },
-  ],
+  name: 'Viva Praetoria',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `Long live Praetoria.  You are a well-traveled citizen.` },
-  ],
+  badgeText: `Long live Praetoria.  You are a well-traveled citizen.`,
   links: [
     { title: 'Viva Praetoria Badge', href: 'https://homecoming.wiki/wiki/Viva_Praetoria_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/viva-praetoria.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/viva-praetoria.png',
   requirements: [
     { key: PurePraetorian.key, type: 'BADGE', badgeKey: PurePraetorian.key },
     { key: EmperorForADay.key, type: 'BADGE', badgeKey: EmperorForADay.key },

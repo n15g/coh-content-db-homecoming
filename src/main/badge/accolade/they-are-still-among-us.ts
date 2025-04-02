@@ -12,19 +12,13 @@ export const TheyAreStillAmongUs: BadgeData = {
   type: 'ACCOLADE',
   key: 'they-are-still-among-us',
   setTitle: { id: 2331 },
-  name: [
-    { value: 'They Are Still Among Us' },
-  ],
+  name: 'They Are Still Among Us',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge in the Rikti War Zone.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge in the Rikti War Zone.`,
   links: [
     { title: 'They Are Still Among Us Badge', href: 'https://homecoming.wiki/wiki/They_Are_Still_Among_Us_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: VanguardOperative.key, type: 'BADGE', badgeKey: VanguardOperative.key },
     { key: Trespasser.key, type: 'BADGE', badgeKey: Trespasser.key },

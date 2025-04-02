@@ -12,19 +12,13 @@ export const ApprenticePlumber: BadgeData = {
   type: 'ACCOLADE',
   key: 'apprentice-plumber',
   setTitle: { id: 1885 },
-  name: [
-    { value: 'Apprentice Plumber' },
-  ],
+  name: 'Apprentice Plumber',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within the Sewer Network.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within the Sewer Network.`,
   links: [
     { title: 'Apprentice Plumber Badge', href: 'https://homecoming.wiki/wiki/Apprentice_Plumber_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: BaumtonAvenger.key, type: 'BADGE', badgeKey: BaumtonAvenger.key },
     { key: DownwardBound.key, type: 'BADGE', badgeKey: DownwardBound.key },

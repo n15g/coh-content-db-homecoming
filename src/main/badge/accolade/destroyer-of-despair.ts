@@ -22,18 +22,11 @@ export const DestroyerOfDespair: BadgeData = {
   type: 'ACCOLADE',
   key: 'destroyer-of-despair',
   setTitle: { id: 2205 },
-  name: [
-    { value: 'Destroyer of Despair' },
-  ],
+  name: 'Destroyer of Despair',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    {
-      value: `Mot represented hatred and despair. It tried to twist the memories of all those it came across, aiming to make them believe there was no hope in their lives, that all of their hopes and dreams were meaningless.
+  badgeText: `Mot represented hatred and despair. It tried to twist the memories of all those it came across, aiming to make them believe there was no hope in their lives, that all of their hopes and dreams were meaningless.
 You fully conquered the forces of Mot and showed the creature just how wrong it was.`,
-    },
-  ],
-  notes: `
-Collect
+  notes: `Collect
 * All six story arc completion badges (${badgeLink(EyeOfVengeance)}, ${badgeLink(TheDeterminedMentor)}, ${badgeLink(KnifeButcher)}, ${badgeLink(HunterOfSpecters)}, ${badgeLink(TheTimelessAdventurer)}, and ${badgeLink(HeartOfHatred)})
 * All six personal mission completion badges (${badgeLink(ArchitectWriter)}, ${badgeLink(BoundForGlory)}, ${badgeLink(NaniteMan)}, ${badgeLink(PraetorSelfish)}, ${badgeLink(CimeroranHero)}, and ${badgeLink(TruthTeller)})
 * All five mission achievement badges (${badgeLink(TimeSaver)}, ${badgeLink(KnowsNoFear)}, ${badgeLink(IncarnateRival)}, ${badgeLink(BuddyCop)}, and ${badgeLink(LoneWolf)})
@@ -42,9 +35,7 @@ in ${zoneLink(DarkAstoria)}`,
   links: [
     { title: 'Destroyer of Despair Badge', href: 'https://homecoming.wiki/wiki/Destroyer_of_Despair_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/destroyer-of-despair.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/destroyer-of-despair.png',
   requirements: [
     { key: EyeOfVengeance.key, type: 'BADGE', badgeKey: EyeOfVengeance.key },
     { key: TheDeterminedMentor.key, type: 'BADGE', badgeKey: TheDeterminedMentor.key },

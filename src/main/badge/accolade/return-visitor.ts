@@ -27,9 +27,7 @@ export const ReturnVisitor: BadgeData = {
     { title: 'Return Visitor Badge', href: 'https://homecoming.wiki/wiki/Return_Visitor_Badge' },
     { title: 'Invader Badge', href: 'https://homecoming.wiki/wiki/Invader_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/return-visitor.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/return-visitor.png',
   requirements: [
     { key: Libertarian.key, type: 'BADGE', badgeKey: Libertarian.key },
     { key: Brickhouse.key, type: 'BADGE', badgeKey: Brickhouse.key },

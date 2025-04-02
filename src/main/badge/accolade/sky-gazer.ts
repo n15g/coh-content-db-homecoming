@@ -12,19 +12,13 @@ export const SkyGazer: BadgeData = {
   type: 'ACCOLADE',
   key: 'sky-gazer',
   setTitle: { id: 1539 },
-  name: [
-    { value: 'Sky Gazer' },
-  ],
+  name: 'Sky Gazer',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Skyway City.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Skyway City.`,
   links: [
     { title: 'Sky Gazer Badge', href: 'https://homecoming.wiki/wiki/Sky_Gazer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Purifier.key, type: 'BADGE', badgeKey: Purifier.key },
     { key: Solace.key, type: 'BADGE', badgeKey: Solace.key },

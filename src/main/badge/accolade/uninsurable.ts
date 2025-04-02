@@ -24,9 +24,7 @@ export const Uninsurable: BadgeData = {
     { title: 'Uninsurable Badge', href: 'https://homecoming.wiki/wiki/Uninsurable_Badge' },
     { title: 'Force of Nature Badge', href: 'https://homecoming.wiki/wiki/Force_of_Nature_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/uninsurable.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/uninsurable.png',
   requirements: [
     { key: ReformedFirebug.key, type: 'BADGE', badgeKey: ReformedFirebug.key },
     { key: BloodyHands.key, type: 'BADGE', badgeKey: BloodyHands.key },

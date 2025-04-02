@@ -14,20 +14,14 @@ export const AgentOfChaos: BadgeData = {
   type: 'ACCOLADE',
   key: 'agent-of-chaos',
   setTitle: { id: 2344 },
-  name: [
-    { value: 'Agent of Chaos' },
-  ],
+  name: 'Agent of Chaos',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this accolade by completing every story arc within Mercy Island.` },
-  ],
+  badgeText: `You've obtained this accolade by completing every story arc within Mercy Island.`,
   effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Agent of Chaos Badge', href: 'https://homecoming.wiki/wiki/Agent_of_Chaos_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png',
   requirements: [
     { key: 'earning-arachnos-favor', type: 'ARC', missionName: `Earning Arachnos' Favor`, contactKey: Kalinda.key },
     { key: 'the-origins-of-the-snakes', type: 'ARC', missionName: 'The Origins of the Snakes', contactKey: MatthewBurke.key },
@@ -37,9 +31,9 @@ export const AgentOfChaos: BadgeData = {
     { key: 'fire-and-heist', type: 'ARC', missionName: 'Fire and Heist', contactKey: FireWire.key },
     { key: 'higher-purpose', type: 'ARC', missionName: 'Higher Purpose', contactKey: DoctorWeber.key },
     { key: 'price-of-friendship', type: 'ARC', missionName: 'Price of Friendship', contactKey: LtHarris.key },
-    { key: 'the-hearts-of-darkness-ch1', type: 'ARC', missionName: `The Hearts of Darkness - Rogues' Contest`, contactKey: DrGraves.key },
-    { key: 'the-hearts-of-darkness-ch2', type: 'ARC', missionName: 'The Hearts of Darkness - Heroic Measures', contactKey: DrGraves.key },
-    { key: 'the-hearts-of-darkness-ch3', type: 'ARC', missionName: 'The Hearts of Darkness - Price of Victory', contactKey: DrGraves.key },
+    { key: 'the-hearts-of-darkness-rogues-contest', type: 'ARC', missionName: `The Hearts of Darkness - Rogues' Contest`, contactKey: DrGraves.key },
+    { key: 'the-hearts-of-darkness-heroic-measures', type: 'ARC', missionName: 'The Hearts of Darkness - Heroic Measures', contactKey: DrGraves.key },
+    { key: 'the-hearts-of-darkness-price-of-victory', type: 'ARC', missionName: 'The Hearts of Darkness - Price of Victory', contactKey: DrGraves.key },
     { key: 'oh-wretched-man', type: 'ARC', missionName: 'Oh, Wretched Man!', contactKey: SeerMarino.key },
   ],
 }

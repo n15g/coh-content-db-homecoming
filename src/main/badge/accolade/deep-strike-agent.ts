@@ -29,9 +29,7 @@ You can break free from many effects out of sheer spite.`,
     { title: 'Deep Strike Agent Badge', href: 'https://homecoming.wiki/wiki/Deep_Strike_Agent_Badge' },
     { title: 'Strike Force Commander Badge', href: 'https://homecoming.wiki/wiki/Strike_Force_Commander_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/deep-strike-agent.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/deep-strike-agent.png',
   requirements: [
     { key: BinderOfBeasts.key, type: 'BADGE', badgeKey: BinderOfBeasts.key },
     { key: Leviathan.key, type: 'BADGE', badgeKey: Leviathan.key },

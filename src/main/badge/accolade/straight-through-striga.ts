@@ -12,19 +12,13 @@ export const StraightThroughStriga: BadgeData = {
   type: 'ACCOLADE',
   key: 'straight-through-striga',
   setTitle: { id: 1879 },
-  name: [
-    { value: 'Straight Through Striga' },
-  ],
+  name: 'Straight Through Striga',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Striga Isle.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Striga Isle.`,
   links: [
     { title: 'Straight Through Striga Badge', href: 'https://homecoming.wiki/wiki/Straight_Through_Striga_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: SeaDog.key, type: 'BADGE', badgeKey: SeaDog.key },
     { key: SuperSpy.key, type: 'BADGE', badgeKey: SuperSpy.key },

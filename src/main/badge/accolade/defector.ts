@@ -25,9 +25,7 @@ export const Defector: BadgeData = {
     { title: 'Defector Badge', href: 'https://homecoming.wiki/wiki/Defector_Badge' },
     { title: 'Black Ops Badge', href: 'https://homecoming.wiki/wiki/Black_Ops_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/defector.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/defector.png',
   requirements: [
     { key: CannonFodder.key, type: 'BADGE', badgeKey: CannonFodder.key },
     { key: Banker.key, type: 'BADGE', badgeKey: Banker.key },

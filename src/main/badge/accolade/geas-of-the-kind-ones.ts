@@ -13,9 +13,7 @@ export const GeasOfTheKindOnes: BadgeData = {
   type: 'ACCOLADE',
   key: 'geas-of-the-kind-ones',
   setTitle: { id: 435 },
-  name: [
-    { value: 'Geas of the Kind Ones' },
-  ],
+  name: 'Geas of the Kind Ones',
   alignment: ['H'],
   badgeText: [
     { alignment: 'H', value: `Whatever spirits watch over Croatoa have bestowed their blessing upon you. Of course, sometimes a blessing can be more like a curse.` },
@@ -25,9 +23,7 @@ export const GeasOfTheKindOnes: BadgeData = {
   links: [
     { title: 'Geas of the Kind Ones Badge', href: 'https://homecoming.wiki/wiki/Geas_of_the_Kind_Ones_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/geas-of-the-kind-ones.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/geas-of-the-kind-ones.png',
   requirements: [
     { key: BaneOfDannan.key, type: 'BADGE', badgeKey: BaneOfDannan.key },
     { key: Believer.key, type: 'BADGE', badgeKey: Believer.key },

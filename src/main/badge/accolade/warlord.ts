@@ -12,17 +12,13 @@ export const Warlord: BadgeData = {
   type: 'ACCOLADE',
   key: 'warlord',
   setTitle: { id: 2420 },
-  name: [
-    { value: 'Warlord' },
-  ],
+  name: 'Warlord',
   alignment: ['H', 'V', 'P'],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png' }],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Warburg.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Warburg.`,
   links: [
     { title: 'Warlord Badge', href: 'https://homecoming.wiki/wiki/Warlord_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png',
   requirements: [
     { key: WeaponInspector.key, type: 'BADGE', badgeKey: WeaponInspector.key },
     { key: TunnelRat.key, type: 'BADGE', badgeKey: TunnelRat.key },

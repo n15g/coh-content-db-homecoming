@@ -16,13 +16,9 @@ export const RisingStar: BadgeData = {
   type: 'ACCOLADE',
   key: 'rising-star',
   setTitle: { id: 2342 },
-  name: [
-    { value: 'Rising Star' },
-  ],
+  name: 'Rising Star',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this accolade by completing every story arc within Imperial City.` },
-  ],
+  badgeText: `You've obtained this accolade by completing every story arc within Imperial City.`,
   effect: `Awards 20 reward merits.`,
   links: [
     { title: 'Rising Star Badge', href: 'https://homecoming.wiki/wiki/Rising_Star_Badge' },

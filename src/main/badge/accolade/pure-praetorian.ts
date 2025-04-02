@@ -12,19 +12,13 @@ export const PurePraetorian: BadgeData = {
   type: 'ACCOLADE',
   key: 'pure-praetorian',
   setTitle: { id: 1597 },
-  name: [
-    { value: 'Pure Praetorian' },
-  ],
+  name: 'Pure Praetorian',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria.`,
   links: [
     { title: 'Pure Praetorian Badge', href: 'https://homecoming.wiki/wiki/Pure_Praetorian_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: Ambitious.key, type: 'BADGE', badgeKey: Ambitious.key },
     { key: CitizenCole.key, type: 'BADGE', badgeKey: CitizenCole.key },

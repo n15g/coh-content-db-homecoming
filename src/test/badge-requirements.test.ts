@@ -8,12 +8,15 @@ describe('Badge Requirements', () => {
     const errors: string[] = []
 
     for (const badge of database.badges) {
-      for (const group of badge.requirements ?? []) {
-        for (const requirement of group) {
-          if (!!requirement.badgeKey && !database.badgeExists(requirement.badgeKey)) errors.push(`['${badge.key}:${requirement.key}'].badgeKey['${requirement.badgeKey}']`)
-          if (!!requirement.contactKey && !database.contactExists(requirement.contactKey)) errors.push(`['${badge.key}:${requirement.key}'].contactKey['${requirement.contactKey}']`)
-          if (!!requirement.zoneKey && !database.zoneExists(requirement.zoneKey)) errors.push(`['${badge.key}:${requirement.key}'].zoneKey['${requirement.zoneKey}']`)
+      for (const requirement of badge.requirements ?? []) {
+        if (!!requirement.badgeKey && !database.badgeExists(requirement.badgeKey)) errors.push(`['${badge.key}:${requirement.key}'].badgeKey['${requirement.badgeKey}']`)
+        if (typeof requirement.contactKey === 'string' && !database.contactExists(requirement.contactKey)) errors.push(`['${badge.key}:${requirement.key}'].contactKey['${requirement.contactKey}']`)
+        if (Array.isArray(requirement.contactKey)) {
+          for (const contactKey of requirement.contactKey) {
+            if (!database.contactExists(contactKey)) errors.push(`['${badge.key}:${requirement.key}'].contactKey['${requirement.contactKey}']`)
+          }
         }
+        if (!!requirement.zoneKey && !database.zoneExists(requirement.zoneKey)) errors.push(`['${badge.key}:${requirement.key}'].zoneKey['${requirement.zoneKey}']`)
       }
     }
 

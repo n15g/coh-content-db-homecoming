@@ -19,9 +19,7 @@ export const AntiVenom: BadgeData = {
     { title: 'Anti-Venom Badge', href: 'https://homecoming.wiki/wiki/Anti-Venom_Badge' },
     { title: `Spider's Kiss Badge`, href: 'https://homecoming.wiki/wiki/Spider%27s_Kiss_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-venom.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-venom.png',
   requirements: [
     { key: 'mystic-mayhem', type: 'ARC', missionName: 'Mystic Mayhem', contactKey: GhostWidow.key },
   ],

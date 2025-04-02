@@ -21,7 +21,7 @@ describe('Badge Fields', () => {
       const errors: string[] = []
 
       for (const badge of database.badges) {
-        if (!badge?.acquisition?.endsWith('.')) errors.push(`['${badge.key}'].acquisition does not end with a period.`)
+        if (badge.acquisition && !badge?.acquisition?.endsWith('.')) errors.push(`['${badge.key}'].acquisition does not end with a period.`)
       }
 
       if (errors.length > 0) {
@@ -35,7 +35,7 @@ describe('Badge Fields', () => {
       const errors: string[] = []
 
       for (const badge of database.badges) {
-        if (!badge?.acquisition?.endsWith('.')) errors.push(`['${badge.key}'].effect does not end with a period.`)
+        if (badge.effect && !badge?.effect?.endsWith('.')) errors.push(`['${badge.key}'].effect does not end with a period.`)
       }
 
       if (errors.length > 0) {
@@ -47,7 +47,7 @@ describe('Badge Fields', () => {
       const errors: string[] = []
 
       for (const badge of database.badges) {
-        if (!badge?.acquisition?.startsWith('Awards')) errors.push(`['${badge.key}'].effect does not start with 'Awards'.`)
+        if (badge.effect && !badge?.effect?.startsWith('Awards')) errors.push(`['${badge.key}'].effect does not start with 'Awards'.`)
       }
 
       if (errors.length > 0) {

@@ -15,7 +15,7 @@ The Vanguard Operative Badge is located in Vanguard Base in the ${zoneLink(Rikti
 
 The badge marker is invisible, located about 25 feet in front of the contact Borea.`,
   links: [
-    { title: 'Vanguard Operative Badge', href: 'hhttps://homecoming.wiki/wiki/Vanguard_Operative_Badge' },
+    { title: 'Vanguard Operative Badge', href: 'https://homecoming.wiki/wiki/Vanguard_Operative_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' },

@@ -12,19 +12,13 @@ export const NervaNavigator: BadgeData = {
   type: 'ACCOLADE',
   key: 'nerva-navigator',
   setTitle: { id: 1504 },
-  name: [
-    { value: 'Nerva Navigator' },
-  ],
+  name: 'Nerva Navigator',
   alignment: ['V'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Nerva Archipelago.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Nerva Archipelago.`,
   links: [
     { title: 'Nerva Navigator Badge', href: 'https://homecoming.wiki/wiki/Nerva_Navigator_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
     { key: WatcherOnTheKnoll.key, type: 'BADGE', badgeKey: WatcherOnTheKnoll.key },
     { key: LockedAndLoaded.key, type: 'BADGE', badgeKey: LockedAndLoaded.key },

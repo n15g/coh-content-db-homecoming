@@ -9,9 +9,7 @@ export const AgentOfOrder: BadgeData = {
   type: 'ACCOLADE',
   key: 'agent-of-order',
   setTitle: { id: 2352 },
-  name: [
-    { value: 'Agent of Order' },
-  ],
+  name: 'Agent of Order',
   alignment: ['H', 'V', 'P'],
   badgeText: [
     { alignment: 'H', value: `Without heroes like you the world would fall into chaos and despair.` },
@@ -21,16 +19,14 @@ export const AgentOfOrder: BadgeData = {
   links: [
     { title: 'Agent of Order Badge', href: 'https://homecoming.wiki/wiki/Agent_of_Order_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png',
   requirements: [
     { key: 'what-was-lost', type: 'ARC', missionName: 'What Was Lost', contactKey: MatthewHabashy.key },
     { key: 'no-more-fears', type: 'ARC', missionName: 'No More Fears', contactKey: OfficerFields.key },
     { key: 'reason-to-fight', type: 'ARC', missionName: 'Reason to Fight', contactKey: AaronThiery.key },
     { key: 'lay-down-your-burdens', type: 'ARC', missionName: 'Lay Down Your Burdens', contactKey: SondraCostel.key },
-    { key: 'the-shining-stars-ch1', type: 'ARC', missionName: 'The Shining Stars - A New Day Dawning', contactKey: Twinshot.key },
-    { key: 'the-shining-stars-ch2', type: 'ARC', missionName: 'The Shining Stars - Big Leagues', contactKey: Twinshot.key },
-    { key: 'the-shining-stars-ch3', type: 'ARC', missionName: 'The Shining Stars - With Friends Like These', contactKey: Twinshot.key },
+    { key: 'the-shining-stars-a-new-day-dawning', type: 'ARC', missionName: 'The Shining Stars - A New Day Dawning', contactKey: Twinshot.key },
+    { key: 'the-shining-stars-big-leagues', type: 'ARC', missionName: 'The Shining Stars - Big Leagues', contactKey: Twinshot.key },
+    { key: 'the-shining-stars-with-friends-like-these', type: 'ARC', missionName: 'The Shining Stars - With Friends Like These', contactKey: Twinshot.key },
   ],
 }

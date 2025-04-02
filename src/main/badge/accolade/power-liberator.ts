@@ -21,9 +21,7 @@ export const PowerLiberator: BadgeData = {
     { title: 'Power Liberator Badge', href: 'https://homecoming.wiki/wiki/Power_Liberator_Badge' },
     { title: 'Master Thief Badge', href: 'https://homecoming.wiki/wiki/Master_Thief_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/power-liberator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/power-liberator.png',
   requirements: [
     { key: 'cathedral-of-pain', type: 'TASK_FORCE', missionName: 'Cathedral of Pain Trial', contactKey: TeamUpTeleporter.key },
   ],

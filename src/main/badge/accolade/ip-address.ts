@@ -12,19 +12,13 @@ export const IPAddress: BadgeData = {
   type: 'ACCOLADE',
   key: 'ip-address',
   setTitle: { id: 1557 },
-  name: [
-    { value: 'IP Address' },
-  ],
+  name: 'IP Address',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Independence Port.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Independence Port.`,
   links: [
     { title: 'IP Address Badge', href: 'https://homecoming.wiki/wiki/IP_Address_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: CreyHavoc.key, type: 'BADGE', badgeKey: CreyHavoc.key },
     { key: Valorous.key, type: 'BADGE', badgeKey: Valorous.key },

@@ -9,20 +9,14 @@ export const Meticulous: BadgeData = {
   type: 'ACCOLADE',
   key: 'meticulous',
   setTitle: { id: 1773 },
-  name: [
-    { value: 'Meticulous' },
-  ],
+  name: 'Meticulous',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You are not tied to any single decision, and must pursue every course of action available to determine the consequences.` },
-  ],
+  badgeText: `You are not tied to any single decision, and must pursue every course of action available to determine the consequences.`,
   notes: `Available during Halloween events.`,
   links: [
     { title: 'Meticulous Badge', href: 'https://homecoming.wiki/wiki/Meticulous_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/meticulous.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/meticulous.png',
   requirements: [
     { key: Secured.key, type: 'BADGE', badgeKey: Secured.key },
     { key: PowerHungry.key, type: 'BADGE', badgeKey: PowerHungry.key },

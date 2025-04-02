@@ -12,17 +12,13 @@ export const AnsweredTheCall: BadgeData = {
   type: 'ACCOLADE',
   key: 'answered-the-call',
   setTitle: { id: 2410 },
-  name: [
-    { value: 'Answered the Call' },
-  ],
+  name: 'Answered the Call',
   alignment: ['H', 'V', 'P'],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png' }],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Siren's Call.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Siren's Call.`,
   links: [
     { title: 'Answered the Call Badge', href: 'https://homecoming.wiki/wiki/Answered_the_Call_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png',
   requirements: [
     { key: Hangman.key, type: 'BADGE', badgeKey: Hangman.key },
     { key: Politician.key, type: 'BADGE', badgeKey: Politician.key },

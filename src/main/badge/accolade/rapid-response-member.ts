@@ -25,9 +25,7 @@ While logged out near a Super Group Base portal you will earn charges of your Ra
     { title: 'Rapid Response Member Badge', href: 'https://homecoming.wiki/wiki/Rapid_Response_Member_Badge' },
     { title: 'Trouble Maker Badge', href: 'https://homecoming.wiki/wiki/Trouble_Maker_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/rapid-response-member.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/rapid-response-member.png',
   requirements: [
     { key: Patroller.key, type: 'BADGE', badgeKey: Patroller.key },
     { key: MonitorDuty.key, type: 'BADGE', badgeKey: MonitorDuty.key },

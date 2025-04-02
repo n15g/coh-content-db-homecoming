@@ -12,19 +12,13 @@ export const Epicenter: BadgeData = {
   type: 'ACCOLADE',
   key: 'epicenter',
   setTitle: { id: 2398 },
-  name: [
-    { value: 'Epicenter' },
-  ],
+  name: 'Epicenter',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Echo: Faultline.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Echo: Faultline.`,
   links: [
     { title: 'Epicenter Badge', href: 'https://homecoming.wiki/wiki/Epicenter_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Newsman.key, type: 'BADGE', badgeKey: Newsman.key },
     { key: FaultlessMystic.key, type: 'BADGE', badgeKey: FaultlessMystic.key },

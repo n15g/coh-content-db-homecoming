@@ -12,19 +12,13 @@ export const MarconeInsider: BadgeData = {
   type: 'ACCOLADE',
   key: 'marcone-insider',
   setTitle: { id: 1491 },
-  name: [
-    { value: 'Marcone Insider' },
-  ],
+  name: 'Marcone Insider',
   alignment: ['V'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Port Oakes.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Port Oakes.`,
   links: [
     { title: 'Marcone Insider Badge', href: 'https://homecoming.wiki/wiki/Marcone_Insider_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
     { key: ScurvyDog.key, type: 'BADGE', badgeKey: ScurvyDog.key },
     { key: WashedUp.key, type: 'BADGE', badgeKey: WashedUp.key },

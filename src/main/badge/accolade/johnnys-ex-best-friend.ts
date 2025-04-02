@@ -18,17 +18,13 @@ export const JohnnysExBestFriend: BadgeData = {
     { alignment: 'V', sex: 'F', value: `Johnny's Go To Gal` },
   ],
   alignment: ['V'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within St. Martial.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within St. Martial.`,
   links: [
     { title: 'Johnny\'s Ex-Best Friend Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Ex-Best_Friend_Badge' },
     { title: 'Johnny\'s Go To Guy Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Go_To_Guy_Badge' },
     { title: 'Johnny\'s Go To Gal Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Go_To_Gal_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
     { key: DeucesWild.key, type: 'BADGE', badgeKey: DeucesWild.key },
     { key: Paroled.key, type: 'BADGE', badgeKey: Paroled.key },

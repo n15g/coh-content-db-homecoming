@@ -6,9 +6,7 @@ export const MasterArchitect: BadgeData = {
   type: 'ACCOLADE',
   key: 'master-architect',
   setTitle: { id: 1082 },
-  name: [
-    { value: 'Master Architect' },
-  ],
+  name: 'Master Architect',
   alignment: ['H', 'V', 'P'],
   badgeText: [
     {
@@ -24,9 +22,7 @@ Earning this Accolade grants you the Vitalize power which will allow you to revi
   links: [
     { title: 'Master Architect Badge', href: 'https://homecoming.wiki/wiki/Master_Architect_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/master-architect.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/master-architect.png',
   requirements: [
     { key: Architect.key, type: 'BADGE', badgeKey: Architect.key },
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },

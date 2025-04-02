@@ -12,19 +12,13 @@ export const WalkedDownMemoryLane: BadgeData = {
   type: 'ACCOLADE',
   key: 'walked-down-memory-lane',
   setTitle: { id: 2325 },
-  name: [
-    { value: 'Walked Down Memory Lane' },
-  ],
+  name: 'Walked Down Memory Lane',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Echo: Atlas Park.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Echo: Atlas Park.`,
   links: [
     { title: 'Walked Down Memory Lane Badge', href: 'https://homecoming.wiki/wiki/Walked_Down_Memory_Lane_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Trustworthy.key, type: 'BADGE', badgeKey: Trustworthy.key },
     { key: Knowledgeable.key, type: 'BADGE', badgeKey: Knowledgeable.key },

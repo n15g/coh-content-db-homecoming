@@ -10,9 +10,7 @@ export const ConspiracyTheorist: BadgeData = {
   type: 'ACCOLADE',
   key: 'conspiracy-theorist',
   setTitle: { id: 168 },
-  name: [
-    { value: 'Conspiracy Theorist' },
-  ],
+  name: 'Conspiracy Theorist',
   alignment: ['H'],
   badgeText: [
     { alignment: 'H', value: `You have uncovered Crey's conspiracy, one that has been choking Paragon City for years. As a souvenir you have kept a Crey pistol for your own personal use.` },
@@ -22,9 +20,7 @@ export const ConspiracyTheorist: BadgeData = {
   links: [
     { title: 'Conspiracy Theorist Badge', href: 'https://homecoming.wiki/wiki/Conspiracy_Theorist_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conspiracy-theorist.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conspiracy-theorist.png',
   requirements: [
     { key: BirdWatcher.key, type: 'BADGE', badgeKey: BirdWatcher.key },
     { key: CreyFish.key, type: 'BADGE', badgeKey: CreyFish.key },

@@ -29,9 +29,7 @@ export const FreedomPhalanxReserveMember: BadgeData = {
     { title: 'Freedom Phalanx Reserve Member Badge', href: 'https://homecoming.wiki/wiki/Freedom_Phalanx_Reserve_Member_Badge' },
     { title: 'Freedom Phalanx Fallen Badge', href: 'https://homecoming.wiki/wiki/Freedom_Phalanx_Fallen_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png',
   requirements: [
     { key: Authority.key, type: 'BADGE', badgeKey: Authority.key },
     { key: Brawler.key, type: 'BADGE', badgeKey: Brawler.key },

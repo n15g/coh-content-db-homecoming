@@ -12,19 +12,13 @@ export const TouchedBottom: BadgeData = {
   type: 'ACCOLADE',
   key: 'touched-bottom',
   setTitle: { id: 1890 },
-  name: [
-    { value: 'Touched Bottom' },
-  ],
+  name: 'Touched Bottom',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within the Abyss.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within the Abyss.`,
   links: [
     { title: 'Touched Bottom Badge', href: 'https://homecoming.wiki/wiki/Touched_Bottom_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: AbyssalGaze.key, type: 'BADGE', badgeKey: AbyssalGaze.key },
     { key: CagedBeast.key, type: 'BADGE', badgeKey: CagedBeast.key },

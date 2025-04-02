@@ -1,21 +1,18 @@
 import { BadgeData } from 'coh-content-db'
+import { Flux } from '../../contact/flux'
 
 export const Complicated: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'complicated',
   setTitle: { id: 2459 },
-  name: [
-    { value: 'Complicated' },
-  ],
+  name: 'Complicated',
   alignment: ['H'],
-  badgeText: [
-    { value: 'Sometimes, the line between good and evil isn\'t as simple as it seems.' },
-  ],
-  acquisition: 'Complete the Defeat Frostfire mission from Flux',
+  badgeText: `Sometimes, the line between good and evil isn't as simple as it seems.`,
   links: [
     { title: 'Negotiator Badge', href: 'https://homecoming.wiki/wiki/Complicated_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/complicated.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/complicated.png',
+  requirements: [
+    { key: 'take-out-frostfire', type: 'MISSION', missionName: 'Take Out Frostfire', contactKey: Flux.key },
   ],
 }

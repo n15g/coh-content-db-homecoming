@@ -23,9 +23,7 @@ export const InTherapy: BadgeData = {
     { title: 'In Therapy Badge', href: 'https://homecoming.wiki/wiki/In_Therapy_Badge' },
     { title: 'Megalomaniac Badge', href: 'https://homecoming.wiki/wiki/Megalomaniac_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/in-therapy.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/in-therapy.png',
   requirements: [
     { key: CrystalKeeper.key, type: 'BADGE', badgeKey: CrystalKeeper.key },
     { key: LastStand.key, type: 'BADGE', badgeKey: LastStand.key },

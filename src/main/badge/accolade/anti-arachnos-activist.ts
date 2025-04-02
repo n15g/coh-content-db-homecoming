@@ -15,8 +15,7 @@ export const AntiArachnosActivist: BadgeData = {
     { alignment: 'H', value: `You've turned your skills at propaganda and rabble-rousing against Arachnos, bringing a glimmer of hope to those you once helped enslave.` },
     {
       alignment: 'V',
-      value: `
-Your work subjugating the masses of the Rogue Isles and promoting pro-Arachnos propaganda has earned you the Web Weaver Accolade.
+      value: `Your work subjugating the masses of the Rogue Isles and promoting pro-Arachnos propaganda has earned you the Web Weaver Accolade.
 While logged out in an Arachnos controlled area or in the Arachnos building in Marconeville you will earn additional charges for your Web Grenade power.`,
     },
   ],
@@ -24,9 +23,7 @@ While logged out in an Arachnos controlled area or in the Arachnos building in M
     { title: 'Anti-Arachnos Activist Badge', href: 'https://homecoming.wiki/wiki/Anti-Arachnos_Activist_Badge' },
     { title: 'Web Weaver Badge', href: 'https://homecoming.wiki/wiki/Web_Weaver_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-arachnos-activist.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-arachnos-activist.png',
   requirements: [
     { key: CannonFodder.key, type: 'BADGE', badgeKey: CannonFodder.key },
     { key: ProfessionalLiar.key, type: 'BADGE', badgeKey: ProfessionalLiar.key },

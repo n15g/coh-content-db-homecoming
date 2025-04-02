@@ -1,22 +1,25 @@
 import { BadgeData, zoneLink } from 'coh-content-db'
-import { IndependencePort } from '../../zone/independence-port'
-import { TalosIsland } from '../../zone/talos-island'
+import { Ouroboros } from '../../zone/ouroboros'
+import { ClaireChildress } from '../../contact/claire-childress'
+import { AndrewFiore } from '../../contact/andrew-fiore'
+import { VicGarland } from '../../contact/vic-garland'
+import { JakeKim } from '../../contact/jake-kim'
+import { LtColHughMcDougal } from '../../contact/lt-col-hugh-mcdougal'
+import { WilmaPeterson } from '../../contact/wilma-peterson'
 
 export const Chameleon: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'chameleon',
   setTitle: { id: 2385 },
-  name: [
-    { value: 'Chameleon' },
-  ],
+  name: 'Chameleon',
   alignment: ['H'],
-  badgeText: [{ value: `You infiltrated the Freakshow and recovered the stolen Chameleon Suit.` }],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/chameleon.png' }],
-  acquisition: `Complete the task set 'The Chameleon Suit'`,
-  notes: `The task set 'The Chameleon Suit' begins with the 'Infiltrate the Freakshow and recover the stolen Chameleon Suit' mission from any one of the level 20-24 contacts
-Andrew Fiore or Lt. Col. Hugh McDougal in ${zoneLink(TalosIsland)}, or Jake Kim or Wilma Peterson in ${zoneLink(IndependencePort)}.
-It is also available via Ouroboros, level 20-24, mission 0.12 'The Chameleon Suit'.`,
+  badgeText: `You infiltrated the Freakshow and recovered the stolen Chameleon Suit.`,
+  notes: `Also available via ${zoneLink(Ouroboros)}; Level 20-24, mission 0.12 'The Chameleon Suit'.`,
   links: [
     { title: 'Chameleon Badge', href: 'https://homecoming.wiki/wiki/Chameleon_Badge' },
+  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/chameleon.png',
+  requirements: [
+    { key: 'the-chameleon-suit', type: 'MISSION', missionName: 'The Chameleon Suit', contactKey: [ClaireChildress.key, AndrewFiore.key, VicGarland.key, JakeKim.key, LtColHughMcDougal.key, WilmaPeterson.key] },
   ],
 }

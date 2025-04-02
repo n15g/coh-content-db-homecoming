@@ -19,9 +19,7 @@ export const SecurityChief: BadgeData = {
     { title: 'Security Chief Badge', href: 'https://homecoming.wiki/wiki/Security_Chief_Badge' },
     { title: 'Security Breach Badge', href: 'https://homecoming.wiki/wiki/Security_Breach_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/security-chief.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/security-chief.png',
   requirements: [
     { key: LawEnforcer.key, type: 'BADGE', badgeKey: LawEnforcer.key },
     { key: Banker.key, type: 'BADGE', badgeKey: Banker.key },

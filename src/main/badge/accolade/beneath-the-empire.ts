@@ -12,19 +12,13 @@ export const BeneathTheEmpire: BadgeData = {
   type: 'ACCOLADE',
   key: 'beneath-the-empire',
   setTitle: { id: 1653 },
-  name: [
-    { value: 'Beneath the Empire' },
-  ],
+  name: 'Beneath the Empire',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Imperial City's Underground.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Imperial City's Underground.`,
   links: [
     { title: 'Beneath the Empire Badge', href: 'https://homecoming.wiki/wiki/Beneath_the_Empire_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: BrokenMind.key, type: 'BADGE', badgeKey: BrokenMind.key },
     { key: Condemning.key, type: 'BADGE', badgeKey: Condemning.key },

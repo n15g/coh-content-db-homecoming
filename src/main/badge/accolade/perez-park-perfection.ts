@@ -12,19 +12,13 @@ export const PerezParkPerfection: BadgeData = {
   type: 'ACCOLADE',
   key: 'perez-park-perfection',
   setTitle: { id: 1876 },
-  name: [
-    { value: 'Perez Park Perfection' },
-  ],
+  name: 'Perez Park Perfection',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Perez Park.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Perez Park.`,
   links: [
     { title: 'Perez Park Perfection Badge', href: 'https://homecoming.wiki/wiki/Perez_Park_Perfection_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: AroundTheBendis.key, type: 'BADGE', badgeKey: AroundTheBendis.key },
     { key: Avatar.key, type: 'BADGE', badgeKey: Avatar.key },

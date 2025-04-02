@@ -6,9 +6,7 @@ export const Mercenary: BadgeData = {
   type: 'ACCOLADE',
   key: 'mercenary',
   setTitle: { id: 1071 },
-  name: [
-    { value: 'Mercenary' },
-  ],
+  name: 'Mercenary',
   alignment: ['H', 'V', 'P'],
   badgeText: [
     {
@@ -23,9 +21,7 @@ While logged out in the Vanguard Base you will earn charges for your Fragmentati
   links: [
     { title: 'Mercenary Badge', href: 'https://homecoming.wiki/wiki/Mercenary_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mercenary.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mercenary.png',
   requirements: [
     { key: VanguardRecruit.key, type: 'BADGE', badgeKey: VanguardRecruit.key },
     { key: Patroller.key, type: 'BADGE', badgeKey: Patroller.key },

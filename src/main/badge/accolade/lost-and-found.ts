@@ -12,19 +12,13 @@ export const LostAndFound: BadgeData = {
   type: 'ACCOLADE',
   key: 'lost-and-found',
   setTitle: { id: 1564 },
-  name: [
-    { value: 'Lost and Found' },
-  ],
+  name: 'Lost and Found',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Founders' Falls.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Founders' Falls.`,
   links: [
     { title: 'Lost and Found Badge', href: 'https://homecoming.wiki/wiki/Lost_and_Found_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Foggy.key, type: 'BADGE', badgeKey: Foggy.key },
     { key: Chaotician.key, type: 'BADGE', badgeKey: Chaotician.key },

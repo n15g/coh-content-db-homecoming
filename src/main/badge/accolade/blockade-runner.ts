@@ -17,8 +17,7 @@ export const BlockadeRunner: BadgeData = {
 Recently it seems many have managed to run the blockade from the Rogue Isles, turning those restrictions into a paper tiger.`,
     },
     {
-      alignment: 'V',
-      value: `Your masterful knowledge of the Black Market coupled with knowing where to get the best merchandise has made you a master of the Black Market.
+      alignment: 'V', value: `Your masterful knowledge of the Black Market coupled with knowing where to get the best merchandise has made you a master of the Black Market.
 While logged out near Docks or near the Black Market you will earn tokens that will grant you discount when crafting inventions.`,
     },
   ],
@@ -26,9 +25,7 @@ While logged out near Docks or near the Black Market you will earn tokens that w
     { title: 'Blockade Runner Badge', href: 'https://homecoming.wiki/wiki/Blockade_Runner_Badge' },
     { title: 'Profiteer Badge', href: 'https://homecoming.wiki/wiki/Profiteer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png',
   requirements: [
     { key: DayTrader.key, type: 'BADGE', badgeKey: DayTrader.key },
     { key: Gunrunner.key, type: 'BADGE', badgeKey: Gunrunner.key },

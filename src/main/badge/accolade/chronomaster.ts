@@ -16,17 +16,13 @@ export const Chronomaster: BadgeData = {
   type: 'ACCOLADE',
   key: 'chronomaster',
   setTitle: { id: 946 },
-  name: [
-    { value: 'Chronomaster' },
-  ],
+  name: 'Chronomaster',
   alignment: ['H', 'V', 'P'],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/chronomaster.png' }],
-  badgeText: [
-    { value: `You are a proven master of Time Travel.` },
-  ],
+  badgeText: `You are a proven master of Time Travel.`,
   links: [
     { title: 'Chronomaster Badge', href: 'https://homecoming.wiki/wiki/Chronomaster_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/chronomaster.png',
   requirements: [
     { key: OuroborosMender.key, type: 'BADGE', badgeKey: OuroborosMender.key },
     { key: PraetorianTourist.key, type: 'BADGE', badgeKey: PraetorianTourist.key },

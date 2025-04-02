@@ -17,16 +17,12 @@ export const AdamInWaiting: BadgeData = {
     { sex: 'F', value: 'Eve in Waiting' },
   ],
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Eden.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Eden.`,
   links: [
     { title: 'Adam in Waiting Badge', href: 'https://homecoming.wiki/wiki/Adam_in_Waiting_Badge' },
     { title: 'Eve in Waiting Badge', href: 'https://homecoming.wiki/wiki/Eve_in_Waiting_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: CallOfNature.key, type: 'BADGE', badgeKey: CallOfNature.key },
     { key: CreyFish.key, type: 'BADGE', badgeKey: CreyFish.key },

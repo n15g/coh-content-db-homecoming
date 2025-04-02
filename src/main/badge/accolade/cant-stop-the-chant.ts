@@ -12,19 +12,13 @@ export const CantStopTheChant: BadgeData = {
   type: 'ACCOLADE',
   key: 'cant-stop-the-chant',
   setTitle: { id: 1883 },
-  name: [
-    { value: `Can't Stop the Chant` },
-  ],
+  name: `Can't Stop the Chant`,
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within the Chantry.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within the Chantry.`,
   links: [
     { title: `Can't Stop the Chant Badge`, href: 'https://homecoming.wiki/wiki/Can%27t_Stop_the_Chant_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: Bereaved.key, type: 'BADGE', badgeKey: Bereaved.key },
     { key: Demiurge.key, type: 'BADGE', badgeKey: Demiurge.key },

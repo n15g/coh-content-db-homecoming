@@ -12,19 +12,13 @@ export const EtherealDrifter: BadgeData = {
   type: 'ACCOLADE',
   key: 'ethereal-drifter',
   setTitle: { id: 2234 },
-  name: [
-    { value: 'Ethereal Drifter' },
-  ],
+  name: 'Ethereal Drifter',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Night Ward` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Night Ward`,
   links: [
     { title: 'Ethereal Drifter Badge', href: 'https://homecoming.wiki/wiki/Ethereal_Drifter_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: NocturnalPilgrim.key, type: 'BADGE', badgeKey: NocturnalPilgrim.key },
     { key: HappyCamper.key, type: 'BADGE', badgeKey: HappyCamper.key },

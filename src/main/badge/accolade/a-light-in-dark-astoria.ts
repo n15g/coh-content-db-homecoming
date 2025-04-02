@@ -12,19 +12,13 @@ export const ALightInDarkAstoria: BadgeData = {
   type: 'ACCOLADE',
   key: 'a-light-in-dark-astorias',
   setTitle: { id: 1878 },
-  name: [
-    { value: 'A Light in Dark Astoria' },
-  ],
+  name: 'A Light in Dark Astoria',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.`,
   links: [
     { title: 'A Light in Dark Astoria Badge', href: 'https://homecoming.wiki/wiki/A_Light_in_Dark_Astoria_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: AstoriasLastStand.key, type: 'BADGE', badgeKey: AstoriasLastStand.key },
     { key: CairnWarder.key, type: 'BADGE', badgeKey: CairnWarder.key },

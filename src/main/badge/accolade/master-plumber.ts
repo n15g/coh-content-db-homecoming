@@ -12,19 +12,13 @@ export const MasterPlumber: BadgeData = {
   type: 'ACCOLADE',
   key: 'master-plumber',
   setTitle: { id: 1884 },
-  name: [
-    { value: 'Master Plumber' },
-  ],
+  name: 'Master Plumber',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within the Abandoned Sewer Network.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within the Abandoned Sewer Network.`,
   links: [
     { title: 'Master Plumber Badge', href: 'https://homecoming.wiki/wiki/Master_Plumber_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: BoomtownRefugee.key, type: 'BADGE', badgeKey: BoomtownRefugee.key },
     { key: FromBeneathYou.key, type: 'BADGE', badgeKey: FromBeneathYou.key },

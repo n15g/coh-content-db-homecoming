@@ -12,19 +12,13 @@ export const CascadeCleansing: BadgeData = {
   type: 'ACCOLADE',
   key: 'cascade-cleansing',
   setTitle: { id: 1882 },
-  name: [
-    { value: 'Cascade Cleansing' },
-  ],
+  name: 'Cascade Cleansing',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Cascade Archipelago.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Cascade Archipelago.`,
   links: [
     { title: 'Cascade Cleansing Badge', href: 'https://homecoming.wiki/wiki/Cascade_Cleansing_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: BeingAndNothingness.key, type: 'BADGE', badgeKey: BeingAndNothingness.key },
     { key: Castaway.key, type: 'BADGE', badgeKey: Castaway.key },

@@ -12,17 +12,13 @@ export const BadBlood: BadgeData = {
   type: 'ACCOLADE',
   key: 'bad-blood',
   setTitle: { id: 2409 },
-  name: [
-    { value: 'Bad Blood' },
-  ],
+  name: 'Bad Blood',
   alignment: ['H', 'V', 'P'],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png' }],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Bloody Bay.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Bloody Bay.`,
   links: [
     { title: 'Bad Blood Badge', href: 'https://homecoming.wiki/wiki/Bad_Blood_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png',
   requirements: [
     { key: Lobbyist.key, type: 'BADGE', badgeKey: Lobbyist.key },
     { key: Hungry.key, type: 'BADGE', badgeKey: Hungry.key },

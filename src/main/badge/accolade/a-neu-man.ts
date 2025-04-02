@@ -17,16 +17,12 @@ export const ANeuMan: BadgeData = {
     { sex: 'F', value: 'A Neu Woman' },
   ],
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Neutropolis.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Neutropolis.`,
   links: [
     { title: 'A Neu Man Badge', href: 'https://homecoming.wiki/wiki/A_Neu_Man_Badge' },
     { title: 'A Neu Woman Badge', href: 'https://homecoming.wiki/wiki/A_Neu_Woman_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: Airlift.key, type: 'BADGE', badgeKey: Airlift.key },
     { key: DontDrinkIt.key, type: 'BADGE', badgeKey: DontDrinkIt.key },

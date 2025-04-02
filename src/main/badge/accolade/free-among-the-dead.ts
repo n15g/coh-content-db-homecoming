@@ -12,19 +12,13 @@ export const FreeAmongTheDead: BadgeData = {
   type: 'ACCOLADE',
   key: 'free-among-the-dead',
   setTitle: { id: 2187 },
-  name: [
-    { value: 'Free Among the Dead' },
-  ],
+  name: 'Free Among the Dead',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.`,
   links: [
     { title: 'Free Among the Dead Badge', href: 'https://homecoming.wiki/wiki/Free_Among_the_Dead_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: FollysVictim.key, type: 'BADGE', badgeKey: FollysVictim.key },
     { key: PalaceOfStoneLeaves.key, type: 'BADGE', badgeKey: PalaceOfStoneLeaves.key },

@@ -22,9 +22,7 @@ export const ForceOfJustice: BadgeData = {
     { title: 'Force of Justice Badge', href: 'https://homecoming.wiki/wiki/Force_of_Justice_Badge' },
     { title: 'Force of Injustice Badge', href: 'https://homecoming.wiki/wiki/Force_of_Injustice_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/force-of-justice.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/force-of-justice.png',
   requirements: [
     { key: BombSquad.key, type: 'BADGE', badgeKey: BombSquad.key },
     { key: FireMarshal.key, type: 'BADGE', badgeKey: FireMarshal.key },

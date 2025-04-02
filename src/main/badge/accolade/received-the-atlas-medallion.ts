@@ -23,9 +23,7 @@ export const ReceivedTheAtlasMedallion: BadgeData = {
     { title: 'Received the Atlas Medallion Badge', href: 'https://homecoming.wiki/wiki/Received_the_Atlas_Medallion_Badge' },
     { title: 'Atlas Shrugged Badge', href: 'https://homecoming.wiki/wiki/Atlas_Shrugged_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-atlas-medallion.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-atlas-medallion.png',
   requirements: [
     { key: Pupil.key, type: 'BADGE', badgeKey: Pupil.key },
     { key: Spelunker.key, type: 'BADGE', badgeKey: Spelunker.key },

@@ -5,17 +5,13 @@ export const Passport: BadgeData = {
   type: 'ACCOLADE',
   key: 'passport',
   setTitle: { id: 2433 },
-  name: [
-    { value: 'Passport' },
-  ],
+  name: 'Passport',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'Your travels have taken you to mysterious and exotic places. You have faced many dangers, but now you have returned to the place you call home.' },
-  ],
+  badgeText: 'Your travels have taken you to mysterious and exotic places. You have faced many dangers, but now you have returned to the place you call home.',
   acquisition: `Acquire any ten exploration badges, or earn the ${badgeLink(PocketDVipGoldClubMember)} badge.`,
   effect: 'Awards the Long Range Teleporter power.',
   links: [
     { title: 'Passport Badge', href: 'https://homecoming.wiki/wiki/Passport_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/passport.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/passport.png',
 }

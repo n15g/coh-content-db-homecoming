@@ -9,19 +9,13 @@ export const ArenaAllStar: BadgeData = {
   type: 'ACCOLADE',
   key: 'arena-all-star',
   setTitle: { id: 1361 },
-  name: [
-    { value: 'Arena All-Star' },
-  ],
+  name: 'Arena All-Star',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've earned the Arena All-Star badge by winning a variety of different Arena matches.` },
-  ],
+  badgeText: `You've earned the Arena All-Star badge by winning a variety of different Arena matches.`,
   links: [
     { title: 'Arena All-Star Badge', href: 'https://homecoming.wiki/wiki/Arena_All-Star_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/arena-all-star.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/arena-all-star.png',
   requirements: [
     { key: ArenaVictor.key, type: 'BADGE', badgeKey: ArenaVictor.key },
     { key: ArenaDuelist.key, type: 'BADGE', badgeKey: ArenaDuelist.key },

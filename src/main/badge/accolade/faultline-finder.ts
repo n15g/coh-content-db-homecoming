@@ -12,19 +12,13 @@ export const FaultlineFinder: BadgeData = {
   type: 'ACCOLADE',
   key: 'faultline-finder',
   setTitle: { id: 1598 },
-  name: [
-    { value: 'Faultline Finder' },
-  ],
+  name: 'Faultline Finder',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Faultline.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Faultline.`,
   links: [
     { title: 'Faultline Finder Badge', href: 'https://homecoming.wiki/wiki/Faultline_Finder_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: EscapeArtist.key, type: 'BADGE', badgeKey: EscapeArtist.key },
     { key: DrownedRat.key, type: 'BADGE', badgeKey: DrownedRat.key },

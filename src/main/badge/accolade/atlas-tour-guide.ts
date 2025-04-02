@@ -12,19 +12,13 @@ export const AtlasTourGuide: BadgeData = {
   type: 'ACCOLADE',
   key: 'atlas-tour-guide',
   setTitle: { id: 1517 },
-  name: [
-    { value: 'Atlas Tour Guide' },
-  ],
+  name: 'Atlas Tour Guide',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Atlas Park.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Atlas Park.`,
   links: [
     { title: 'Atlas Tour Guide Badge', href: 'https://homecoming.wiki/wiki/Atlas_Tour_Guide_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Undefeated.key, type: 'BADGE', badgeKey: Undefeated.key },
     { key: SilentSentinel.key, type: 'BADGE', badgeKey: SilentSentinel.key },

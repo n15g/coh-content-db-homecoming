@@ -17,16 +17,12 @@ export const WincottsAlly: BadgeData = {
     { alignment: 'V', value: 'Wincott\'s Betrayer' },
   ],
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within the Hollows.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within the Hollows.`,
   links: [
     { title: 'Wincott\'s Ally Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Ally_Badge' },
     { title: 'Wincott\'s Betrayer Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Betrayer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: Parapsychologist.key, type: 'BADGE', badgeKey: Parapsychologist.key },
     { key: SeekerOfMonsters.key, type: 'BADGE', badgeKey: SeekerOfMonsters.key },

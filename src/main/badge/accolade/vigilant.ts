@@ -8,9 +8,7 @@ export const Vigilant: BadgeData = {
   type: 'ACCOLADE',
   key: 'vigilant',
   setTitle: { id: 2353 },
-  name: [
-    { value: 'Vigilant' },
-  ],
+  name: 'Vigilant',
   alignment: ['H', 'V', 'P'],
   badgeText: [
     { alignment: 'H', value: `You're always there when the people of Paragon City need you.` },

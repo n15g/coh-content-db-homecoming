@@ -19,9 +19,7 @@ export const FalseImage: BadgeData = {
     { title: 'False Image Badge', href: 'https://homecoming.wiki/wiki/False_Image_Badge' },
     { title: 'Mirage Badge', href: 'https://homecoming.wiki/wiki/Mirage_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/false-image.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/false-image.png',
   requirements: [
     { key: 'a-wind-called-serafina', type: 'ARC', missionName: 'A Wind Called Serafina', contactKey: Scirocco.key },
   ],

@@ -8,9 +8,7 @@ export const PortalJockey: BadgeData = {
   type: 'ACCOLADE',
   key: 'portal-jockey',
   setTitle: { id: 165 },
-  name: [
-    { value: 'Portal Jockey' },
-  ],
+  name: 'Portal Jockey',
   alignment: ['H'],
   badgeText: [
     { alignment: 'H', value: `Your efforts to help Portal Corporation explore the vast multiverse have earned you the title of Portal Jockey. This perk comes with +5 Endurance and +5% Hit Points.` },
@@ -20,9 +18,7 @@ export const PortalJockey: BadgeData = {
   links: [
     { title: 'Portal Jockey Badge', href: 'https://homecoming.wiki/wiki/Portal_Jockey_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/portal-jockey.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/portal-jockey.png',
   requirements: [
     { key: DimensionalWarder.key, type: 'BADGE', badgeKey: DimensionalWarder.key },
     { key: Multidimensional.key, type: 'BADGE', badgeKey: Multidimensional.key },

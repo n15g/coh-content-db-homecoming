@@ -9,16 +9,12 @@ export const Determined: BadgeData = {
   type: 'ACCOLADE',
   key: 'determined',
   setTitle: { id: 2343 },
-  name: [
-    { value: 'Determined' },
-  ],
+  name: 'Determined',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this accolade by completing every story arc within Dark Astoria.` },
-  ],
+  badgeText: `You've obtained this accolade by completing every story arc within Dark Astoria.`,
   effect: 'Awards 20 reward merits.',
-  notes: `
-  You must not skip missions in dialogue with ${contactLink(Max)} (if you have done so, you can repeat them via Ouroboros), and you must have done whichever of 'Captain Nolan' or 'Threatening Arachnos Message' is appropriate for your alignment.`,
+  notes: `You must not skip missions in dialogue with ${contactLink(Max)} (if you have done so, you can repeat them via Ouroboros),
+ and you must have done whichever of 'Captain Nolan' or 'Threatening Arachnos Message' is appropriate for your alignment.`,
   links: [
     { title: 'Determined Badge', href: 'https://homecoming.wiki/wiki/Determined_Badge' },
   ],

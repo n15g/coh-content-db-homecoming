@@ -11,19 +11,13 @@ export const TemperedThroughFire: BadgeData = {
   type: 'ACCOLADE',
   key: 'tempered-through-fire',
   setTitle: { id: 2212 },
-  name: [
-    { value: 'Tempered Through Fire' },
-  ],
+  name: 'Tempered Through Fire',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `Through fire and flame your resolve has been tempered like finely forged steel.` },
-  ],
+  badgeText: 'Through fire and flame your resolve has been tempered like finely forged steel.',
   links: [
     { title: 'Tempered Through Fire Badge', href: 'https://homecoming.wiki/wiki/Tempered_Through_Fire_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/tempered-through-fire.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/tempered-through-fire.png',
   effect: 'Awards 20 reward merits.',
   requirements: [
     { key: Loyalist.key, type: 'BADGE', badgeKey: Loyalist.key },

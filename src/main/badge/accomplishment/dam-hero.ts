@@ -1,4 +1,5 @@
 import { BadgeData } from 'coh-content-db'
+import { Positron } from '../../contact/positron'
 
 export const DamHero: BadgeData = {
   type: 'ACCOMPLISHMENT',
@@ -11,20 +12,18 @@ export const DamHero: BadgeData = {
   alignment: ['H'],
   badgeText: [
     {
-      alignment: 'H', value: 'You\'ve saved Faultline from not one, but three separate villain groups intent on using the dam '
-        + 'to cause carnage on a massive scale.',
+      alignment: 'H', value: `You've saved Faultline from not one, but three separate villain groups intent on using the dam to cause carnage on a massive scale.`,
     },
     {
-      alignment: 'V', value: 'You\'ve saved Faultline from not one, but three separate villain groups intent on using the dam '
-        + 'to cause carnage on a massive scale. Perhaps one day you\'ll finish what they started.',
+      alignment: 'V', value: `You've saved Faultline from not one, but three separate villain groups intent on using the dam to cause carnage on a massive scale. Perhaps one day you'll finish what they started.`,
     },
   ],
-  acquisition: 'Complete the second part of the new Positron Task Force',
   links: [
     { title: 'Dam Hero Badge', href: 'https://homecoming.wiki/wiki/Dam_Hero_Badge' },
     { title: 'Dam Villain Badge', href: 'https://homecoming.wiki/wiki/Dam_Villain_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/dam-hero.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/dam-hero.png',
+  requirements: [
+    { key: 'positron-task-force-pt2', type: 'ARC', missionName: 'Positron Task Force Part Two', contactKey: Positron.key },
   ],
 }

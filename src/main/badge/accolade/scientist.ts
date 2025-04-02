@@ -22,9 +22,7 @@ While logged out at a University or inside a Portal Corps building you will earn
     { title: 'Scientist Badge', href: 'https://homecoming.wiki/wiki/Scientist_Badge' },
     { title: 'Crackpot Badge', href: 'https://homecoming.wiki/wiki/Crackpot_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/scientist.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/scientist.png',
   requirements: [
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
     { key: Intern.key, type: 'BADGE', badgeKey: Intern.key },

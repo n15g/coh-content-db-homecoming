@@ -20,10 +20,10 @@ export const ReclusesBetrayer: BadgeData = {
   ],
   notes: `Complete every story arc from Black Scorpion, Captain Mako, Ghost Widow, Scirocco, and Lord Recluse.`,
   effect: 'Awards 20 reward merits.',
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/recluses-betrayer.png' }],
   links: [
     { title: `Recluse's Right Hand Badge`, href: 'https://homecoming.wiki/wiki/Recluse%27s_Right_Hand_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/recluses-betrayer.png',
   requirements: [
     { key: 'armor-wars', type: 'ARC', missionName: 'Armor Wars', contactKey: BlackScorpion.key },
     { key: 'chink-in-the-armor', type: 'ARC', missionName: 'Chink in the Armor', contactKey: BlackScorpion.key },

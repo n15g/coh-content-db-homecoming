@@ -17,16 +17,12 @@ export const EyeOnArachnos: BadgeData = {
     { alignment: 'V', value: 'Arachnos Spymaster' },
   ],
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Grandville.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Grandville.`,
   links: [
     { title: 'Eye on Arachnos Badge', href: 'https://homecoming.wiki/wiki/Eye_on_Arachnos_Badge' },
     { title: 'Arachnos Spymaster Badge', href: 'https://homecoming.wiki/wiki/Arachnos_Spymaster_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
     { key: Overlord.key, type: 'BADGE', badgeKey: Overlord.key },
     { key: SewerDweller.key, type: 'BADGE', badgeKey: SewerDweller.key },

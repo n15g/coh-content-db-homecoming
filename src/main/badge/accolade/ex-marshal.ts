@@ -24,9 +24,7 @@ export const ExMarshal: BadgeData = {
     { title: 'Ex-Marshal Badge', href: 'https://homecoming.wiki/wiki/Ex-Marshal_Badge' },
     { title: 'Marshal Badge', href: 'https://homecoming.wiki/wiki/Marshal_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/ex-marshal.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/ex-marshal.png',
   requirements: [
     { key: Annihilator.key, type: 'BADGE', badgeKey: Annihilator.key },
     { key: ArachnosRising.key, type: 'BADGE', badgeKey: ArachnosRising.key },

@@ -15,13 +15,9 @@ export const AgentOfPraetoria: BadgeData = {
   type: 'ACCOLADE',
   key: 'agent-of-praetoria',
   setTitle: { id: 2350 },
-  name: [
-    { value: 'Agent of Praetoria' },
-  ],
+  name: 'Agent of Praetoria',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You stand on the fragile tipping point between Order and Chaos. Which way will you go?` },
-  ],
+  badgeText: 'You stand on the fragile tipping point between Order and Chaos. Which way will you go?',
   effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Agent of Praetoria Badge', href: 'https://homecoming.wiki/wiki/Agent_of_Praetoria_Badge' },

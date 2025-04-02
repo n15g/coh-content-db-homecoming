@@ -24,9 +24,7 @@ export const ProtectorOfParagonCity: BadgeData = {
     { title: 'Protector of Paragon City Badge', href: 'https://homecoming.wiki/wiki/Protector_of_Paragon_City_Badge' },
     { title: 'Traitor to Paragon City Badge', href: 'https://homecoming.wiki/wiki/Traitor_to_Paragon_City_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/protector-of-paragon-city.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/protector-of-paragon-city.png',
   requirements: [
     { key: ForceOfJustice.key, type: 'BADGE', badgeKey: ForceOfJustice.key },
     { key: Gallant.key, type: 'BADGE', badgeKey: Gallant.key },

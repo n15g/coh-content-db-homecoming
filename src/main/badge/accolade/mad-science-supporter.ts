@@ -12,19 +12,13 @@ export const MadScienceSupporter: BadgeData = {
   type: 'ACCOLADE',
   key: 'mad-science-supporter',
   setTitle: { id: 1495 },
-  name: [
-    { value: 'Mad Science Supporter' },
-  ],
+  name: 'Mad Science Supporter',
   alignment: ['V'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Cap Au Diable.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Cap Au Diable.`,
   links: [
     { title: 'Mad Science Supporter Badge', href: 'https://homecoming.wiki/wiki/Mad_Science_Supporter_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
     { key: Sparky.key, type: 'BADGE', badgeKey: Sparky.key },
     { key: MediaJunky.key, type: 'BADGE', badgeKey: MediaJunky.key },

@@ -1,0 +1,12 @@
+import { ContactData } from 'coh-content-db'
+import { PeregrineIsland } from '../zone/peregrine-island'
+
+export const Crimson: ContactData = {
+  key: 'crimson',
+  name: 'Crimson',
+  title: 'Wetwork Agent',
+  zoneKey: PeregrineIsland.key,
+  loc: [2303, 5.5, -256],
+  levelRange: [45, 50],
+  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Crimson' }],
+}

@@ -12,19 +12,13 @@ export const BoomGoesTheTown: BadgeData = {
   type: 'ACCOLADE',
   key: 'boom-goes-the-town',
   setTitle: { id: 1877 },
-  name: [
-    { value: 'Boom... Goes the Town' },
-  ],
+  name: 'Boom... Goes the Town',
   alignment: ['H'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Boomtown.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Boomtown.`,
   links: [
     { title: 'Boom... Goes the Town Badge', href: 'https://homecoming.wiki/wiki/Boom..._Goes_the_Town_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
     { key: BoomtownTroglodyte.key, type: 'BADGE', badgeKey: BoomtownTroglodyte.key },
     { key: CorpseBox.key, type: 'BADGE', badgeKey: CorpseBox.key },

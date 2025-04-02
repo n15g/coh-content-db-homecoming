@@ -12,17 +12,13 @@ export const ShatteredTime: BadgeData = {
   type: 'ACCOLADE',
   key: 'shattered-time',
   setTitle: { id: 2421 },
-  name: [
-    { value: 'Shattered Time' },
-  ],
+  name: 'Shattered Time',
   alignment: ['H', 'V', 'P'],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png' }],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Recluse's Victory.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Recluse's Victory.`,
   links: [
     { title: 'Shattered Time Badge', href: 'https://homecoming.wiki/wiki/Shattered_Time_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png',
   requirements: [
     { key: Globetrotter.key, type: 'BADGE', badgeKey: Globetrotter.key },
     { key: Ragnarok.key, type: 'BADGE', badgeKey: Ragnarok.key },

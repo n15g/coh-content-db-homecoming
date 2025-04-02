@@ -25,9 +25,7 @@ export const TaskForceCommander: BadgeData = {
     { title: 'Task Force Commander Badge', href: 'https://homecoming.wiki/wiki/Task_Force_Commander_Badge' },
     { title: 'Task Force Abandoner Badge', href: 'https://homecoming.wiki/wiki/Task_Force_Abandoner_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/task-force-commander.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/task-force-commander.png',
   effect: 'Awards +5% Max Health.',
   requirements: [
     { key: CitadelsAssistant.key, type: 'BADGE', badgeKey: CitadelsAssistant.key },

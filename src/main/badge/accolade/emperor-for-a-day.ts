@@ -12,19 +12,13 @@ export const EmperorForADay: BadgeData = {
   type: 'ACCOLADE',
   key: 'emperor-for-a-day',
   setTitle: { id: 1635 },
-  name: [
-    { value: 'Emperor for a Day' },
-  ],
+  name: 'Emperor for a Day',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You've obtained this Accolade by earning every Exploration badge within Imperial City.` },
-  ],
+  badgeText: `You've obtained this Accolade by earning every Exploration badge within Imperial City.`,
   links: [
     { title: 'Emperor for a Day Badge', href: 'https://homecoming.wiki/wiki/Emperor_for_a_Day_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
     { key: TiberianOverseer.key, type: 'BADGE', badgeKey: TiberianOverseer.key },
     { key: PraetorianOfPrivilege.key, type: 'BADGE', badgeKey: PraetorianOfPrivilege.key },
