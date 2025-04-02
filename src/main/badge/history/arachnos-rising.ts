@@ -21,7 +21,7 @@ export const ArachnosRising: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'arac-0',
       type: 'PLAQUE',
@@ -72,5 +72,5 @@ export const ArachnosRising: BadgeData = {
       notes: `This plaque is in ${zoneLink(Grandville)}, 340 yard due east of the Spider City marker. It is in The Gutter neighborhood, just outside the wall around Spider City.`,
       vidiotMapKey: '2',
     },
-  ]],
+  ],
 }

@@ -11,7 +11,7 @@ export const BatteryPowered: BadgeData = {
     { title: 'Battery Powered Badge', href: 'https://homecoming.wiki/wiki/Battery_Powered_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -26,5 +26,5 @@ export const BatteryPowered: BadgeData = {
       inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
       inventionCount: 6,
     },
-  ]],
+  ],
 }

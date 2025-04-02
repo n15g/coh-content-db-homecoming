@@ -22,10 +22,10 @@ export const ConquerorOfTheLabyrinth: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conqueror-of-the-labyrinth.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: GreekPhilosopher.key, type: 'BADGE', badgeKey: GreekPhilosopher.key },
     { key: HiddenInTheFog.key, type: 'BADGE', badgeKey: HiddenInTheFog.key },
     { key: MalevolentIntoxication.key, type: 'BADGE', badgeKey: MalevolentIntoxication.key },
     { key: SlayerOfTheMinotaur.key, type: 'BADGE', badgeKey: SlayerOfTheMinotaur.key },
-  ]],
+  ],
 }

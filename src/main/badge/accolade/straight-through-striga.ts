@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { StrigaIsle } from '../../zone/striga-isle'
+import { BadgeData } from 'coh-content-db'
 import { SeaDog } from '../exploration/sea-dog'
 import { SuperSpy } from '../exploration/super-spy'
 import { TheUnnamed } from '../exploration/the-unnamed'
@@ -20,14 +19,13 @@ export const StraightThroughStriga: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Striga Isle.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(StrigaIsle)}`,
   links: [
     { title: 'Straight Through Striga Badge', href: 'https://homecoming.wiki/wiki/Straight_Through_Striga_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: SeaDog.key, type: 'BADGE', badgeKey: SeaDog.key },
     { key: SuperSpy.key, type: 'BADGE', badgeKey: SuperSpy.key },
     { key: TheUnnamed.key, type: 'BADGE', badgeKey: TheUnnamed.key },
@@ -36,5 +34,5 @@ export const StraightThroughStriga: BadgeData = {
     { key: VampyriWatcher.key, type: 'BADGE', badgeKey: VampyriWatcher.key },
     { key: Vulcanologist.key, type: 'BADGE', badgeKey: Vulcanologist.key },
     { key: WordsOfTheWarrior.key, type: 'BADGE', badgeKey: WordsOfTheWarrior.key },
-  ]],
+  ],
 }

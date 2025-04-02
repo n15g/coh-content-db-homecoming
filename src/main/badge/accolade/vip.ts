@@ -13,7 +13,7 @@ export const VIP: BadgeData = {
     { alignment: 'H', value: `Being a V.I.P. in Paragon City has many advantages associated with it.` },
     { alignment: 'V', value: `Being one of Kalinda's Destined Ones brings with it many perks, and just as many enemies.` },
   ],
-  acquisition: `Awarded on initial login of a Primal-origin character`,
+  acquisition: `Awarded on initial login of a Primal-origin character.`,
   links: [
     { title: 'V.I.P. Badge', href: 'https://homecoming.wiki/wiki/V.I.P._Badge' },
     { title: 'Destined One Badge', href: 'https://homecoming.wiki/wiki/Destined_One_Badge' },

@@ -18,7 +18,7 @@ export const Cog: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Gearsmasher.key, type: 'BADGE', badgeKey: Gearsmasher.key },
-  ]],
+  ],
 }

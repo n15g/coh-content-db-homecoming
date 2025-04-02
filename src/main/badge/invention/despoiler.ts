@@ -12,7 +12,7 @@ export const Despoiler: BadgeData = {
     { title: 'Despoiler Badge', href: 'https://homecoming.wiki/wiki/Despoiler_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Despoiler: BadgeData = {
       inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
       inventionCount: 2,
     },
-  ]],
+  ],
 }

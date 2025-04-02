@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { SkywayCity } from '../../zone/skyway-city'
+import { BadgeData } from 'coh-content-db'
 import { Purifier } from '../exploration/purifier'
 import { Solace } from '../exploration/solace'
 import { Dauntless } from '../exploration/dauntless'
@@ -20,14 +19,13 @@ export const SkyGazer: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Skyway City.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(SkywayCity)}`,
   links: [
     { title: 'Sky Gazer Badge', href: 'https://homecoming.wiki/wiki/Sky_Gazer_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Purifier.key, type: 'BADGE', badgeKey: Purifier.key },
     { key: Solace.key, type: 'BADGE', badgeKey: Solace.key },
     { key: Dauntless.key, type: 'BADGE', badgeKey: Dauntless.key },
@@ -36,5 +34,5 @@ export const SkyGazer: BadgeData = {
     { key: RoomForExpansion.key, type: 'BADGE', badgeKey: RoomForExpansion.key },
     { key: LeftBehind.key, type: 'BADGE', badgeKey: LeftBehind.key },
     { key: BridgeToNowhere.key, type: 'BADGE', badgeKey: BridgeToNowhere.key },
-  ]],
+  ],
 }

@@ -22,7 +22,6 @@ export const Stouthearted: BadgeData = {
     { alignment: 'H', value: `You've left no stone unturned in your efforts to protect Paragon City's financial infrastructure. Your diligence is greatly appreciated by all.` },
     { alignment: 'V', value: `No one can explain your turn to villainy after going to such lengths to defend all of Paragon. Perhaps your heart has turned to stone.` },
   ],
-  notes: `Visit all Safeguard exploration badges`,
   links: [
     { title: 'Stouthearted Badge', href: 'https://homecoming.wiki/wiki/Stouthearted_Badge' },
     { title: 'Stonehearted Badge', href: 'https://homecoming.wiki/wiki/Stonehearted_Badge' },
@@ -30,7 +29,7 @@ export const Stouthearted: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/stouthearted.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: HeartOfTheCity.key, type: 'BADGE', badgeKey: HeartOfTheCity.key },
     { key: KingsRighteousness.key, type: 'BADGE', badgeKey: KingsRighteousness.key },
     { key: CourageDriven.key, type: 'BADGE', badgeKey: CourageDriven.key },
@@ -40,5 +39,5 @@ export const Stouthearted: BadgeData = {
     { key: Cornerstone.key, type: 'BADGE', badgeKey: Cornerstone.key },
     { key: FoundersProtector.key, type: 'BADGE', badgeKey: FoundersProtector.key },
     { key: Gatekeeper.key, type: 'BADGE', badgeKey: Gatekeeper.key },
-  ]],
+  ],
 }

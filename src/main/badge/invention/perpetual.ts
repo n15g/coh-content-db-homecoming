@@ -12,7 +12,7 @@ export const Perpetual: BadgeData = {
     { title: 'Perpetual Badge', href: 'https://homecoming.wiki/wiki/Perpetual_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Perpetual: BadgeData = {
       inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
       inventionCount: 12,
     },
-  ]],
+  ],
 }

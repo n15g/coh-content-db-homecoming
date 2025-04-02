@@ -20,9 +20,9 @@ export const MasterOfApexsTaskForce: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-apexs-task-force.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: DroneProtector.key, type: 'BADGE', badgeKey: DroneProtector.key },
     { key: BurdenBearer.key, type: 'BADGE', badgeKey: BurdenBearer.key },
     { key: AlreadyDead.key, type: 'BADGE', badgeKey: AlreadyDead.key },
-  ]],
+  ],
 }

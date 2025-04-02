@@ -30,7 +30,7 @@ export const Bicentennial: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/bicentennial.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'bicn-0',
       type: 'PLAQUE',
@@ -299,5 +299,5 @@ export const Bicentennial: BadgeData = {
       notes: `This plaque is in ${zoneLink(TheHollows)}, about 239 yards north of the Four Seasons neighborhood marker.`,
       vidiotMapKey: '5',
     },
-  ]],
+  ],
 }

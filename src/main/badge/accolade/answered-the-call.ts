@@ -23,7 +23,7 @@ export const AnsweredTheCall: BadgeData = {
   links: [
     { title: 'Answered the Call Badge', href: 'https://homecoming.wiki/wiki/Answered_the_Call_Badge' },
   ],
-  requirements: [[
+  requirements: [
     { key: Hangman.key, type: 'BADGE', badgeKey: Hangman.key },
     { key: Politician.key, type: 'BADGE', badgeKey: Politician.key },
     { key: BroadShoulders.key, type: 'BADGE', badgeKey: BroadShoulders.key },
@@ -32,5 +32,5 @@ export const AnsweredTheCall: BadgeData = {
     { key: StillStanding.key, type: 'BADGE', badgeKey: StillStanding.key },
     { key: Volatile.key, type: 'BADGE', badgeKey: Volatile.key },
     { key: WastedResources.key, type: 'BADGE', badgeKey: WastedResources.key },
-  ]],
+  ],
 }

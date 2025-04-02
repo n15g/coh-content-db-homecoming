@@ -12,7 +12,7 @@ export const General: BadgeData = {
     { title: 'General Badge', href: 'https://homecoming.wiki/wiki/General_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const General: BadgeData = {
       inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
       inventionCount: 14,
     },
-  ]],
+  ],
 }

@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { TerraVolta } from '../../zone/terra-volta'
+import { BadgeData } from 'coh-content-db'
 import { ConjunctionJunction } from '../exploration/conjunction-junction'
 import { DangerDanger } from '../exploration/danger-danger'
 import { GuardianOfTheVolts } from '../exploration/guardian-of-the-volts'
@@ -20,14 +19,13 @@ export const UtilitiesCommission: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Terra Volta.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(TerraVolta)}`,
   links: [
     { title: 'Utilities Commission Badge', href: 'https://homecoming.wiki/wiki/Utilities_Commission_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: ConjunctionJunction.key, type: 'BADGE', badgeKey: ConjunctionJunction.key },
     { key: DangerDanger.key, type: 'BADGE', badgeKey: DangerDanger.key },
     { key: GuardianOfTheVolts.key, type: 'BADGE', badgeKey: GuardianOfTheVolts.key },
@@ -36,5 +34,5 @@ export const UtilitiesCommission: BadgeData = {
     { key: NervousDreck.key, type: 'BADGE', badgeKey: NervousDreck.key },
     { key: PowerWalker.key, type: 'BADGE', badgeKey: PowerWalker.key },
     { key: ScrapheapOfHistory.key, type: 'BADGE', badgeKey: ScrapheapOfHistory.key },
-  ]],
+  ],
 }

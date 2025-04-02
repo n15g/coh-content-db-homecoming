@@ -21,10 +21,10 @@ export const MasterOfTheLambdaSector: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-lambda-sector.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Synchronized.key, type: 'BADGE', badgeKey: Synchronized.key },
     { key: WellStocked.key, type: 'BADGE', badgeKey: WellStocked.key },
     { key: Antacid.key, type: 'BADGE', badgeKey: Antacid.key },
     { key: LambdaLooter.key, type: 'BADGE', badgeKey: LambdaLooter.key },
-  ]],
+  ],
 }

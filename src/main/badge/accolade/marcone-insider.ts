@@ -25,7 +25,7 @@ export const MarconeInsider: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: ScurvyDog.key, type: 'BADGE', badgeKey: ScurvyDog.key },
     { key: WashedUp.key, type: 'BADGE', badgeKey: WashedUp.key },
     { key: PowderMonkey.key, type: 'BADGE', badgeKey: PowderMonkey.key },
@@ -34,5 +34,5 @@ export const MarconeInsider: BadgeData = {
     { key: BigSpider.key, type: 'BADGE', badgeKey: BigSpider.key },
     { key: CommutersWoe.key, type: 'BADGE', badgeKey: CommutersWoe.key },
     { key: HiddenGetaway.key, type: 'BADGE', badgeKey: HiddenGetaway.key },
-  ]],
+  ],
 }

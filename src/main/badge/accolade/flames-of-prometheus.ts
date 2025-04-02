@@ -20,9 +20,7 @@ This badge can be redeemed for a Notice of the Well at level 50.
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/flames-of-prometheus.png' },
   ],
   requirements: [
-    [
-      { key: 'mortimer-kal-strike-force', type: 'TASK_FORCE', missionName: 'Mortimer Kal Strike Force', contactKey: MortimerKal.key },
-    ],
+    { key: 'mortimer-kal-strike-force', type: 'TASK_FORCE', missionName: 'Mortimer Kal Strike Force', contactKey: MortimerKal.key },
   ],
   ignoreInTotals: true,
 }

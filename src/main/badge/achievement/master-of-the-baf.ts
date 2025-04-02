@@ -21,10 +21,10 @@ export const MasterOfTheBAF: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-baf.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: NotOnMyWatch.key, type: 'BADGE', badgeKey: NotOnMyWatch.key },
     { key: AlarmRaiser.key, type: 'BADGE', badgeKey: AlarmRaiser.key },
     { key: GottaKeepEmSeparated.key, type: 'BADGE', badgeKey: GottaKeepEmSeparated.key },
     { key: StrongPretty.key, type: 'BADGE', badgeKey: StrongPretty.key },
-  ]],
+  ],
 }

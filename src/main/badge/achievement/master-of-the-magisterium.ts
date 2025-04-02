@@ -21,10 +21,10 @@ export const MasterOfTheMagisterium: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-magisterium.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: TripleThreat.key, type: 'BADGE', badgeKey: TripleThreat.key },
     { key: ReadyToRumble.key, type: 'BADGE', badgeKey: ReadyToRumble.key },
     { key: ShadowMaster.key, type: 'BADGE', badgeKey: ShadowMaster.key },
     { key: TheHardWay.key, type: 'BADGE', badgeKey: TheHardWay.key },
-  ]],
+  ],
 }

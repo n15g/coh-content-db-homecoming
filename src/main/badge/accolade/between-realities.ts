@@ -30,7 +30,7 @@ With experience, you've learned of a method to manipulate the magics used by the
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/between-realities.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: GerminatorTerminator.key, type: 'BADGE', badgeKey: GerminatorTerminator.key },
     { key: FullSpectrum.key, type: 'BADGE', badgeKey: FullSpectrum.key },
     { key: Lawbreaker.key, type: 'BADGE', badgeKey: Lawbreaker.key },
@@ -40,5 +40,5 @@ With experience, you've learned of a method to manipulate the magics used by the
     { key: Stargazer.key, type: 'BADGE', badgeKey: Stargazer.key },
     { key: DeadButDreaming.key, type: 'BADGE', badgeKey: DeadButDreaming.key },
     { key: Multifaceted.key, type: 'BADGE', badgeKey: Multifaceted.key },
-  ]],
+  ],
 }

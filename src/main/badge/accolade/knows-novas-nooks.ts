@@ -25,7 +25,7 @@ export const KnowsNovasNooks: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: ClockworkMechanic.key, type: 'BADGE', badgeKey: ClockworkMechanic.key },
     { key: Disappeared.key, type: 'BADGE', badgeKey: Disappeared.key },
     { key: FerrymanOfTheDamned.key, type: 'BADGE', badgeKey: FerrymanOfTheDamned.key },
@@ -34,5 +34,5 @@ export const KnowsNovasNooks: BadgeData = {
     { key: Trainspotter.key, type: 'BADGE', badgeKey: Trainspotter.key },
     { key: UrbanSpelunker.key, type: 'BADGE', badgeKey: UrbanSpelunker.key },
     { key: WarriorAtTheGate.key, type: 'BADGE', badgeKey: WarriorAtTheGate.key },
-  ]],
+  ],
 }

@@ -11,7 +11,7 @@ export const MysticallyPowered: BadgeData = {
     { title: 'Mystically Powered Badge', href: 'https://homecoming.wiki/wiki/Mystically_Powered_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const MysticallyPowered: BadgeData = {
       inventionCount: 9,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ]],
+  ],
 }

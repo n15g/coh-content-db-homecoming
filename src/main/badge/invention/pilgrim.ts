@@ -11,7 +11,7 @@ export const Pilgrim: BadgeData = {
     { title: 'Pilgrim Badge', href: 'https://homecoming.wiki/wiki/Pilgrim_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const Pilgrim: BadgeData = {
       inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
       inventionCount: 10,
     },
-  ]],
+  ],
 }

@@ -13,15 +13,11 @@ export const RapidResponseMember: BadgeData = {
   alignment: ['H', 'V', 'P'],
   badgeText: [
     {
-      alignment: 'H', value: `
-Your reputation of your work with your Super Group and in the field has earned you the Rapid Response Member Accolade.
-
+      alignment: 'H', value: `Your reputation of your work with your Super Group and in the field has earned you the Rapid Response Member Accolade.
 While logged out near a Super Group Base portal you will earn charges of your Rapid Response Portal power.`,
     },
     {
-      alignment: 'V', value: `
-Your reputation of your work with your Super Group and causing havok in the streets of the Rogue Isles has earned you the Trouble Maker Accolade.
-
+      alignment: 'V', value: `Your reputation of your work with your Super Group and causing havok in the streets of the Rogue Isles has earned you the Trouble Maker Accolade.
 While logged out near a Super Group Base portal you will earn charges of your Rapid Response Portal power.`,
     },
   ],
@@ -32,8 +28,8 @@ While logged out near a Super Group Base portal you will earn charges of your Ra
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/rapid-response-member.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Patroller.key, type: 'BADGE', badgeKey: Patroller.key },
     { key: MonitorDuty.key, type: 'BADGE', badgeKey: MonitorDuty.key },
-  ]],
+  ],
 }

@@ -20,7 +20,7 @@ export const Savant: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'sava-0',
       type: 'PLAQUE',
@@ -71,5 +71,5 @@ export const Savant: BadgeData = {
       notes: `This plaque is in ${zoneLink(Eden)}, 150 yds West of The Utopia Complex.`,
       vidiotMapKey: '2',
     },
-  ]],
+  ],
 }

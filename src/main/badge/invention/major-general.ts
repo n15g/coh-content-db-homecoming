@@ -11,7 +11,7 @@ export const MajorGeneral: BadgeData = {
     { title: 'Major General Badge', href: 'https://homecoming.wiki/wiki/Major_General_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -26,5 +26,5 @@ export const MajorGeneral: BadgeData = {
       inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
       inventionCount: 11,
     },
-  ]],
+  ],
 }

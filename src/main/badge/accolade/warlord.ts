@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Warburg } from '../../zone/warburg'
+import { BadgeData } from 'coh-content-db'
 import { WeaponInspector } from '../exploration/weapon-inspector'
 import { TunnelRat } from '../exploration/tunnel-rat'
 import { Triumphant } from '../exploration/triumphant'
@@ -21,11 +20,10 @@ export const Warlord: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Warburg.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(Warburg)}`,
   links: [
     { title: 'Warlord Badge', href: 'https://homecoming.wiki/wiki/Warlord_Badge' },
   ],
-  requirements: [[
+  requirements: [
     { key: WeaponInspector.key, type: 'BADGE', badgeKey: WeaponInspector.key },
     { key: TunnelRat.key, type: 'BADGE', badgeKey: TunnelRat.key },
     { key: Triumphant.key, type: 'BADGE', badgeKey: Triumphant.key },
@@ -34,5 +32,5 @@ export const Warlord: BadgeData = {
     { key: Disassembled.key, type: 'BADGE', badgeKey: Disassembled.key },
     { key: GameOver.key, type: 'BADGE', badgeKey: GameOver.key },
     { key: Herculean.key, type: 'BADGE', badgeKey: Herculean.key },
-  ]],
+  ],
 }

@@ -21,7 +21,7 @@ export const Intellectual: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'inte-0',
       type: 'PLAQUE',
@@ -82,5 +82,5 @@ export const Intellectual: BadgeData = {
       notes: `This plaque is in ${zoneLink(PerezPark)}, 67 yards northeast of the old Galaxy City entrance or 288 yards south and a little west of the Boneyard neighborhood marker.`,
       vidiotMapKey: '5',
     },
-  ]],
+  ],
 }

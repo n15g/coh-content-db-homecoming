@@ -15,7 +15,8 @@ export const Whistleblower: BadgeData = {
     { alignment: 'H', value: `Crey Industries has been hard at work removing your name from all your research and publicly denying the corporate secrets you've revealed.` },
     {
       alignment: 'V',
-      value: `Your work with Crey Industries and studies in various fields has earned you the Crey Scientist Accolade.  While logged out in the Crey Industries building or in a University you will earn additional charges for your Sleep Grenade power.`,
+      value: `Your work with Crey Industries and studies in various fields has earned you the Crey Scientist Accolade.
+While logged out in the Crey Industries building or in a University you will earn additional charges for your Sleep Grenade power.`,
     },
   ],
   links: [
@@ -25,8 +26,8 @@ export const Whistleblower: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/whistleblower.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
     { key: CreyTestSubject.key, type: 'BADGE', badgeKey: CreyTestSubject.key },
-  ]],
+  ],
 }

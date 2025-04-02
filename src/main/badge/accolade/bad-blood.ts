@@ -23,7 +23,7 @@ export const BadBlood: BadgeData = {
   links: [
     { title: 'Bad Blood Badge', href: 'https://homecoming.wiki/wiki/Bad_Blood_Badge' },
   ],
-  requirements: [[
+  requirements: [
     { key: Lobbyist.key, type: 'BADGE', badgeKey: Lobbyist.key },
     { key: Hungry.key, type: 'BADGE', badgeKey: Hungry.key },
     { key: Imploding.key, type: 'BADGE', badgeKey: Imploding.key },
@@ -32,5 +32,5 @@ export const BadBlood: BadgeData = {
     { key: Restless.key, type: 'BADGE', badgeKey: Restless.key },
     { key: MostlyHarmless.key, type: 'BADGE', badgeKey: MostlyHarmless.key },
     { key: Burgermeister.key, type: 'BADGE', badgeKey: Burgermeister.key },
-  ]],
+  ],
 }

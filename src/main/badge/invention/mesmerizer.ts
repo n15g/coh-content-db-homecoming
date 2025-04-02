@@ -12,7 +12,7 @@ export const Mesmerizer: BadgeData = {
     { title: 'Mesmerizer Badge', href: 'https://homecoming.wiki/wiki/Mesmerizer_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Mesmerizer: BadgeData = {
       inventionTypes: ['SLEEP', 'SLOW', 'HOLD', 'STUN', 'IMMOBILIZE', 'FEAR'],
       inventionCount: 11,
     },
-  ]],
+  ],
 }

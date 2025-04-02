@@ -12,7 +12,7 @@ export const Reanimator: BadgeData = {
     { title: 'Reanimator Badge', href: 'https://homecoming.wiki/wiki/Reanimator_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -28,5 +28,5 @@ export const Reanimator: BadgeData = {
       inventionCount: 9,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ]],
+  ],
 }

@@ -18,7 +18,7 @@ export const Technofreak: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'tech-0',
       type: 'PLAQUE',
@@ -49,5 +49,5 @@ export const Technofreak: BadgeData = {
       notes: `This monument is located under the awning on the north side of the building that faces the tailor.`,
       vidiotMapKey: '4',
     },
-  ]],
+  ],
 }

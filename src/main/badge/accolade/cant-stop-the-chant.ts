@@ -25,7 +25,7 @@ export const CantStopTheChant: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Bereaved.key, type: 'BADGE', badgeKey: Bereaved.key },
     { key: Demiurge.key, type: 'BADGE', badgeKey: Demiurge.key },
     { key: Dispossessed.key, type: 'BADGE', badgeKey: Dispossessed.key },
@@ -34,5 +34,5 @@ export const CantStopTheChant: BadgeData = {
     { key: Penitent.key, type: 'BADGE', badgeKey: Penitent.key },
     { key: RedFog.key, type: 'BADGE', badgeKey: RedFog.key },
     { key: Unfettered.key, type: 'BADGE', badgeKey: Unfettered.key },
-  ]],
+  ],
 }

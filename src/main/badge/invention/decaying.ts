@@ -11,7 +11,7 @@ export const Decaying: BadgeData = {
     { title: 'Decaying Badge', href: 'https://homecoming.wiki/wiki/Decaying_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Decaying: BadgeData = {
       inventionCount: 1,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ]],
+  ],
 }

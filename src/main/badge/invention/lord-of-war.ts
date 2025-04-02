@@ -12,7 +12,7 @@ export const LordOfWar: BadgeData = {
     { title: 'Lord of War Badge', href: 'https://homecoming.wiki/wiki/Lord_of_War_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const LordOfWar: BadgeData = {
       inventionTypes: ['DAMAGE', 'KNOCKBACK'],
       inventionCount: 14,
     },
-  ]],
+  ],
 }

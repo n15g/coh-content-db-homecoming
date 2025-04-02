@@ -21,7 +21,7 @@ export const Scholar: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'schr-0',
       type: 'PLAQUE',
@@ -72,5 +72,5 @@ export const Scholar: BadgeData = {
       notes: `This plaque is in ${zoneLink(Faultline)}, 436 yards West of the Overbrook Medical Center.`,
       vidiotMapKey: '4',
     },
-  ]],
+  ],
 }

@@ -34,7 +34,7 @@ The associated spell of protection, which relies on a certain purity of spirit, 
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archmage.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Banisher.key, type: 'BADGE', badgeKey: Banisher.key },
     { key: DarkMystic.key, type: 'BADGE', badgeKey: DarkMystic.key },
     { key: FaultlessMystic.key, type: 'BADGE', badgeKey: FaultlessMystic.key },
@@ -43,5 +43,5 @@ The associated spell of protection, which relies on a certain purity of spirit, 
     { key: MysticKing.key, type: 'BADGE', badgeKey: MysticKing.key },
     { key: SoulBinder.key, type: 'BADGE', badgeKey: SoulBinder.key },
     { key: Tracer.key, type: 'BADGE', badgeKey: Tracer.key },
-  ]],
+  ],
 }

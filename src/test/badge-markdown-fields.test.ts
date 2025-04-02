@@ -30,10 +30,12 @@ describe('Markdown Links', () => {
       for (const error of validateLinks(badge.effect)) errors.push(`['${badge.key}'].effect - ['${error[0]}:${error[1]}']`)
       for (const error of validateLinks(badge.notes)) errors.push(`['${badge.key}'].notes - ['${error[0]}:${error[1]}']`)
 
-      for (const group of badge.requirements ?? []) {
-        for (const requirement of group) {
-          for (const error of validateLinks(requirement.notes)) errors.push(`['${badge.key}:${requirement.key}'].notes - ['${error[0]}:${error[1]}']`)
-        }
+      for (const badgeText of badge.badgeText.canonical ?? []) {
+        for (const error of validateLinks(badgeText.value)) errors.push(`['${badge.key}'].badgeText - ['${error[0]}:${error[1]}']`)
+      }
+
+      for (const requirement of badge.requirements ?? []) {
+        for (const error of validateLinks(requirement.notes)) errors.push(`['${badge.key}:${requirement.key}'].notes - ['${error[0]}:${error[1]}']`)
       }
     }
 

@@ -18,7 +18,7 @@ export const SteelStrongman: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Illusionist.key, type: 'BADGE', badgeKey: Illusionist.key },
-  ]],
+  ],
 }

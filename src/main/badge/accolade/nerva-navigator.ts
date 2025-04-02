@@ -25,7 +25,7 @@ export const NervaNavigator: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: WatcherOnTheKnoll.key, type: 'BADGE', badgeKey: WatcherOnTheKnoll.key },
     { key: LockedAndLoaded.key, type: 'BADGE', badgeKey: LockedAndLoaded.key },
     { key: NervaWreck.key, type: 'BADGE', badgeKey: NervaWreck.key },
@@ -34,5 +34,5 @@ export const NervaNavigator: BadgeData = {
     { key: UnethicalTourist.key, type: 'BADGE', badgeKey: UnethicalTourist.key },
     { key: BlindEye.key, type: 'BADGE', badgeKey: BlindEye.key },
     { key: Soother.key, type: 'BADGE', badgeKey: Soother.key },
-  ]],
+  ],
 }

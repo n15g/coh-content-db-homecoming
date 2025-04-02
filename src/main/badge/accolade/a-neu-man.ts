@@ -27,7 +27,7 @@ export const ANeuMan: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Airlift.key, type: 'BADGE', badgeKey: Airlift.key },
     { key: DontDrinkIt.key, type: 'BADGE', badgeKey: DontDrinkIt.key },
     { key: EyesToTheFuture.key, type: 'BADGE', badgeKey: EyesToTheFuture.key },
@@ -36,5 +36,5 @@ export const ANeuMan: BadgeData = {
     { key: Stockpiling.key, type: 'BADGE', badgeKey: Stockpiling.key },
     { key: StuffOfLife.key, type: 'BADGE', badgeKey: StuffOfLife.key },
     { key: UrbanRenewal.key, type: 'BADGE', badgeKey: UrbanRenewal.key },
-  ]],
+  ],
 }

@@ -25,7 +25,7 @@ export const AtlasTourGuide: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Undefeated.key, type: 'BADGE', badgeKey: Undefeated.key },
     { key: SilentSentinel.key, type: 'BADGE', badgeKey: SilentSentinel.key },
     { key: HeroCorpsInsider.key, type: 'BADGE', badgeKey: HeroCorpsInsider.key },
@@ -34,5 +34,5 @@ export const AtlasTourGuide: BadgeData = {
     { key: Freedom.key, type: 'BADGE', badgeKey: Freedom.key },
     { key: EdgeOfChaos.key, type: 'BADGE', badgeKey: EdgeOfChaos.key },
     { key: Observant.key, type: 'BADGE', badgeKey: Observant.key },
-  ]],
+  ],
 }

@@ -18,7 +18,7 @@ export const MookCapo: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: StoneCold.key, type: 'BADGE', badgeKey: StoneCold.key },
-  ]],
+  ],
 }

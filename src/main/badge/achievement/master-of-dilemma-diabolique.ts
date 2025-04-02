@@ -21,10 +21,10 @@ export const MasterOfDilemmaDiabolique: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-dilemma-diabolique.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Spinebreaker.key, type: 'BADGE', badgeKey: Spinebreaker.key },
     { key: SentinelSmasher.key, type: 'BADGE', badgeKey: SentinelSmasher.key },
     { key: SacrificialLamb.key, type: 'BADGE', badgeKey: SacrificialLamb.key },
     { key: LifeAndDeath.key, type: 'BADGE', badgeKey: LifeAndDeath.key },
-  ]],
+  ],
 }

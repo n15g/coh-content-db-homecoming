@@ -18,7 +18,7 @@ export const Meson: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: DimensionalWarder.key, type: 'BADGE', badgeKey: DimensionalWarder.key },
-  ]],
+  ],
 }

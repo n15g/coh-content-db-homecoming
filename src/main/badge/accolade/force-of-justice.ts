@@ -25,11 +25,11 @@ export const ForceOfJustice: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/force-of-justice.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: BombSquad.key, type: 'BADGE', badgeKey: BombSquad.key },
     { key: FireMarshal.key, type: 'BADGE', badgeKey: FireMarshal.key },
     { key: Interceptor.key, type: 'BADGE', badgeKey: Interceptor.key },
     { key: PPDDeputy.key, type: 'BADGE', badgeKey: PPDDeputy.key },
     { key: SecurityExpert.key, type: 'BADGE', badgeKey: SecurityExpert.key },
-  ]],
+  ],
 }

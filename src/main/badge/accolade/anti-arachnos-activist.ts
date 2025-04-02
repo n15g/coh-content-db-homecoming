@@ -27,8 +27,8 @@ While logged out in an Arachnos controlled area or in the Arachnos building in M
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-arachnos-activist.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: CannonFodder.key, type: 'BADGE', badgeKey: CannonFodder.key },
     { key: ProfessionalLiar.key, type: 'BADGE', badgeKey: ProfessionalLiar.key },
-  ]],
+  ],
 }

@@ -18,7 +18,7 @@ export const MidnighterArchivist: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/midnighter-archivist.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'midn-0',
       type: 'PLAQUE',
@@ -149,5 +149,5 @@ export const MidnighterArchivist: BadgeData = {
       notes: `This location is the caves of the ${zoneLink(MidnighterClub)}. It is one of the banners in the northern meeting room of the caves. The banner is due west (left) of the large meeting table. It is the solid banner, not the one with the slit down the middle.`,
       vidiotMapKey: '13',
     },
-  ]],
+  ],
 }

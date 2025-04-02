@@ -28,8 +28,8 @@ While logged out in either the Midnighter Club or a Graveyard you will earn addi
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archaeologist.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Mortician.key, type: 'BADGE', badgeKey: Mortician.key },
     { key: Midnighter.key, type: 'BADGE', badgeKey: Midnighter.key },
-  ]],
+  ],
 }

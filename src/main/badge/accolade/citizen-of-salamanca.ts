@@ -25,7 +25,7 @@ export const CitizenOfSalamanca: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: GrimWanderer.key, type: 'BADGE', badgeKey: GrimWanderer.key },
     { key: Spiritual.key, type: 'BADGE', badgeKey: Spiritual.key },
     { key: Ensorcelled.key, type: 'BADGE', badgeKey: Ensorcelled.key },
@@ -34,5 +34,5 @@ export const CitizenOfSalamanca: BadgeData = {
     { key: JacksWrath.key, type: 'BADGE', badgeKey: JacksWrath.key },
     { key: WaylonsObserver.key, type: 'BADGE', badgeKey: WaylonsObserver.key },
     { key: MidnightersPerseverance.key, type: 'BADGE', badgeKey: MidnightersPerseverance.key },
-  ]],
+  ],
 }

@@ -18,7 +18,7 @@ export const ChiefSwiper: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Pwnz.key, type: 'BADGE', badgeKey: Pwnz.key },
-  ]],
+  ],
 }

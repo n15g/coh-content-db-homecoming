@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { TheHollows } from '../../zone/the-hollows'
+import { BadgeData } from 'coh-content-db'
 import { Parapsychologist } from '../exploration/parapsychologist'
 import { SeekerOfMonsters } from '../exploration/seeker-of-monsters'
 import { Geologist } from '../exploration/geologist'
@@ -21,7 +20,6 @@ export const WincottsAlly: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Hollows.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(TheHollows)}`,
   links: [
     { title: 'Wincott\'s Ally Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Ally_Badge' },
     { title: 'Wincott\'s Betrayer Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Betrayer_Badge' },
@@ -29,7 +27,7 @@ export const WincottsAlly: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Parapsychologist.key, type: 'BADGE', badgeKey: Parapsychologist.key },
     { key: SeekerOfMonsters.key, type: 'BADGE', badgeKey: SeekerOfMonsters.key },
     { key: Geologist.key, type: 'BADGE', badgeKey: Geologist.key },
@@ -38,5 +36,5 @@ export const WincottsAlly: BadgeData = {
     { key: GraffitiCommunicator.key, type: 'BADGE', badgeKey: GraffitiCommunicator.key },
     { key: CircleSeeker.key, type: 'BADGE', badgeKey: CircleSeeker.key },
     { key: Ironic.key, type: 'BADGE', badgeKey: Ironic.key },
-  ]],
+  ],
 }

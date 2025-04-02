@@ -18,7 +18,7 @@ export const LongbowNullifier: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Lanista.key, type: 'BADGE', badgeKey: Lanista.key },
-  ]],
+  ],
 }

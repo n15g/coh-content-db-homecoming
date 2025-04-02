@@ -21,7 +21,7 @@ export const Historian: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'hist-0',
       type: 'PLAQUE',
@@ -72,5 +72,5 @@ export const Historian: BadgeData = {
       notes: `This plaque is in ${zoneLink(TerraVolta)}, approximately 366 yds NW of Challanger Technology marker.`,
       vidiotMapKey: '4',
     },
-  ]],
+  ],
 }

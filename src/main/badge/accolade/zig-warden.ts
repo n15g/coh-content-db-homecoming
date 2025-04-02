@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Brickstown } from '../../zone/brickstown'
+import { BadgeData } from 'coh-content-db'
 import { Mystic } from '../exploration/mystic'
 import { Inmate } from '../exploration/inmate'
 import { FlyingShark } from '../exploration/flying-shark'
@@ -22,7 +21,6 @@ export const ZigWarden: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Brickstown.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(Brickstown)}.`,
   links: [
     { title: 'Zig Warden Badge', href: 'https://homecoming.wiki/wiki/Zig_Warden_Badge' },
     { title: 'King of the Zig Badge', href: 'https://homecoming.wiki/wiki/King_of_the_Zig_Badge' },
@@ -31,7 +29,7 @@ export const ZigWarden: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Mystic.key, type: 'BADGE', badgeKey: Mystic.key },
     { key: Inmate.key, type: 'BADGE', badgeKey: Inmate.key },
     { key: FlyingShark.key, type: 'BADGE', badgeKey: FlyingShark.key },
@@ -40,5 +38,5 @@ export const ZigWarden: BadgeData = {
     { key: SecretPath.key, type: 'BADGE', badgeKey: SecretPath.key },
     { key: SixthPassenger.key, type: 'BADGE', badgeKey: SixthPassenger.key },
     { key: Unsubtle.key, type: 'BADGE', badgeKey: Unsubtle.key },
-  ]],
+  ],
 }

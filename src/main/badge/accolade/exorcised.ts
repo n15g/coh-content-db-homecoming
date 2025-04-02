@@ -30,11 +30,11 @@ You mustn't let the demon out too long, or you just may lose your mortal soul, f
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/exorcised.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Coldblooded.key, type: 'BADGE', badgeKey: Coldblooded.key },
     { key: ForgedByHellfire.key, type: 'BADGE', badgeKey: ForgedByHellfire.key },
     { key: Lorekeeper.key, type: 'BADGE', badgeKey: Lorekeeper.key },
     { key: Overlord.key, type: 'BADGE', badgeKey: Overlord.key },
     { key: SoulTaker.key, type: 'BADGE', badgeKey: SoulTaker.key },
-  ]],
+  ],
 }

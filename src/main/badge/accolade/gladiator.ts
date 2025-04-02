@@ -12,9 +12,7 @@ export const Gladiator: BadgeData = {
   alignment: ['H', 'V', 'P'],
   badgeText: [
     {
-      value: `
-Your reputation as a ferocious combatant in both PvP Zones and the Arena has earned you the Gladiator Accolade.
-
+      value: `Your reputation as a ferocious combatant in both PvP Zones and the Arena has earned you the Gladiator Accolade.
 While logged out in either an Arena or a PvP Zone you will additional time for your Combat Shield power.`,
     },
   ],
@@ -24,8 +22,8 @@ While logged out in either an Arena or a PvP Zone you will additional time for y
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Duelist.key, type: 'BADGE', badgeKey: Duelist.key },
     { key: Predator.key, type: 'BADGE', badgeKey: Predator.key },
-  ]],
+  ],
 }

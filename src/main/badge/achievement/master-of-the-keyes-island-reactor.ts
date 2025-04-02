@@ -21,10 +21,10 @@ export const MasterOfTheKeyesIslandReactor: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-keyes-island-reactor.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: AntiAntiMatter.key, type: 'BADGE', badgeKey: AntiAntiMatter.key },
     { key: BunkerBuster.key, type: 'BADGE', badgeKey: BunkerBuster.key },
     { key: LovesAChallenge.key, type: 'BADGE', badgeKey: LovesAChallenge.key },
     { key: AvoidsTheGreenStuff.key, type: 'BADGE', badgeKey: AvoidsTheGreenStuff.key },
-  ]],
+  ],
 }

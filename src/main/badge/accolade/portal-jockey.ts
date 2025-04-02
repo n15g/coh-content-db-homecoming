@@ -23,10 +23,10 @@ export const PortalJockey: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/portal-jockey.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: DimensionalWarder.key, type: 'BADGE', badgeKey: DimensionalWarder.key },
     { key: Multidimensional.key, type: 'BADGE', badgeKey: Multidimensional.key },
     { key: Scholastic.key, type: 'BADGE', badgeKey: Scholastic.key },
     { key: Shrouded.key, type: 'BADGE', badgeKey: Shrouded.key },
-  ]],
+  ],
 }

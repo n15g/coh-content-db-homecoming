@@ -23,11 +23,11 @@ export const HellAndBack: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hell-and-back.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: DarkFiend.key, type: 'BADGE', badgeKey: DarkFiend.key },
     { key: HellHathNoFury.key, type: 'BADGE', badgeKey: HellHathNoFury.key },
     { key: Terror.key, type: 'BADGE', badgeKey: Terror.key },
     { key: MonsterMasher.key, type: 'BADGE', badgeKey: MonsterMasher.key },
     { key: Monstrous.key, type: 'BADGE', badgeKey: Monstrous.key },
-  ]],
+  ],
 }

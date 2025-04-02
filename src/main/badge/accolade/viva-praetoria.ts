@@ -19,14 +19,13 @@ export const VivaPraetoria: BadgeData = {
   badgeText: [
     { value: `Long live Praetoria.  You are a well-traveled citizen.` },
   ],
-  notes: `Visit all exploration badges in Praetoria`,
   links: [
     { title: 'Viva Praetoria Badge', href: 'https://homecoming.wiki/wiki/Viva_Praetoria_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/viva-praetoria.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: PurePraetorian.key, type: 'BADGE', badgeKey: PurePraetorian.key },
     { key: EmperorForADay.key, type: 'BADGE', badgeKey: EmperorForADay.key },
     { key: KnowsNovasNooks.key, type: 'BADGE', badgeKey: KnowsNovasNooks.key },
@@ -35,5 +34,5 @@ export const VivaPraetoria: BadgeData = {
     { key: NeuYouCouldDoIt.key, type: 'BADGE', badgeKey: NeuYouCouldDoIt.key },
     { key: RailRider.key, type: 'BADGE', badgeKey: RailRider.key },
     { key: GoingRouge.key, type: 'BADGE', badgeKey: GoingRouge.key },
-  ]],
+  ],
 }

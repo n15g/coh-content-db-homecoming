@@ -21,7 +21,7 @@ export const Authority: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'auth-0',
       type: 'PLAQUE',
@@ -72,5 +72,5 @@ export const Authority: BadgeData = {
       notes: `This plaque is in ${zoneLink(TerraVolta)}, 300 yards east by northeast from the Terra Volta Reactor marker.`,
       vidiotMapKey: '1',
     },
-  ]],
+  ],
 }

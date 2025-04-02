@@ -18,7 +18,7 @@ export const ShivanDestroyer: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Irradiated.key, type: 'BADGE', badgeKey: Irradiated.key },
-  ]],
+  ],
 }

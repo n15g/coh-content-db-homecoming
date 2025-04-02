@@ -23,8 +23,6 @@ export const Fwoosh: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/fwoosh.png' },
   ],
   requirements: [
-    [
-      { key: 'armor-wars', type: 'ARC', missionName: 'Armor Wars', contactKey: BlackScorpion.key },
-    ],
+    { key: 'armor-wars', type: 'ARC', missionName: 'Armor Wars', contactKey: BlackScorpion.key },
   ],
 }

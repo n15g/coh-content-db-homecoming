@@ -18,7 +18,7 @@ export const Starstruck: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'star-0',
       type: 'PLAQUE',
@@ -79,5 +79,5 @@ export const Starstruck: BadgeData = {
       notes: `This plaque is in front of the statue of Marauder in Magisterium, 326 yards NE of the Magisterium marker.`,
       vidiotMapKey: '6',
     },
-  ]],
+  ],
 }

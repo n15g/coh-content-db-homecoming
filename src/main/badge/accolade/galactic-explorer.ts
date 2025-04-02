@@ -25,7 +25,7 @@ export const GalacticExplorer: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: BirdWatcher.key, type: 'BADGE', badgeKey: BirdWatcher.key },
     { key: BlueShield.key, type: 'BADGE', badgeKey: BlueShield.key },
     { key: Brawler.key, type: 'BADGE', badgeKey: Brawler.key },
@@ -34,5 +34,5 @@ export const GalacticExplorer: BadgeData = {
     { key: GalacticFan.key, type: 'BADGE', badgeKey: GalacticFan.key },
     { key: EyeOfTheGemini.key, type: 'BADGE', badgeKey: EyeOfTheGemini.key },
     { key: OrionsBelt.key, type: 'BADGE', badgeKey: OrionsBelt.key },
-  ]],
+  ],
 }

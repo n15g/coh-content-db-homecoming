@@ -11,7 +11,7 @@ export const Medicator: BadgeData = {
     { title: 'Medicator Badge', href: 'https://homecoming.wiki/wiki/Medicator_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -19,5 +19,5 @@ export const Medicator: BadgeData = {
       inventionTypes: ['HEALING'],
       inventionCount: 7,
     },
-  ]],
+  ],
 }

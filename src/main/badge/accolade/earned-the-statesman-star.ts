@@ -22,8 +22,6 @@ export const EarnedTheStatesmanStar: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/earned-the-statesman-star.png' },
   ],
   requirements: [
-    [
-      { key: 'second-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'Second Terra Volta Respecification Trial', contactKey: CaptainJamesHarlan.key },
-    ],
+    { key: 'second-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'Second Terra Volta Respecification Trial', contactKey: CaptainJamesHarlan.key },
   ],
 }

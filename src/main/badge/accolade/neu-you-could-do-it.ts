@@ -25,7 +25,7 @@ export const NeuYouCouldDoIt: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: BingeEater.key, type: 'BADGE', badgeKey: BingeEater.key },
     { key: Cluttered.key, type: 'BADGE', badgeKey: Cluttered.key },
     { key: DrinkEnriche.key, type: 'BADGE', badgeKey: DrinkEnriche.key },
@@ -34,5 +34,5 @@ export const NeuYouCouldDoIt: BadgeData = {
     { key: ReadyForAnything.key, type: 'BADGE', badgeKey: ReadyForAnything.key },
     { key: Nailbiter.key, type: 'BADGE', badgeKey: Nailbiter.key },
     { key: TheNewBoss.key, type: 'BADGE', badgeKey: TheNewBoss.key },
-  ]],
+  ],
 }

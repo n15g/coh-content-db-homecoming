@@ -21,10 +21,10 @@ export const MasterOfTinMagesTaskForce: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-tin-mages-task-force.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Hacker.key, type: 'BADGE', badgeKey: Hacker.key },
     { key: MidnightDodgerWhatDodgesAtMidnight.key, type: 'BADGE', badgeKey: MidnightDodgerWhatDodgesAtMidnight.key },
     { key: KittysGotClaws.key, type: 'BADGE', badgeKey: KittysGotClaws.key },
     { key: ArmyOfNeu.key, type: 'BADGE', badgeKey: ArmyOfNeu.key },
-  ]],
+  ],
 }

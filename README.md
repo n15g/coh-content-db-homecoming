@@ -219,7 +219,7 @@ Be aware of newlines and whitespace in the string as unlike HTML, in markdown th
 
     // Requirements for badges that involve one or more steps to complete, like collecting other badges,
     // clicking on monuments, or creating inventions.
-    requirements: [[
+    requirements: [
         { key: AstoriasLastStand.key, type: 'BADGE', badgeKey: AstoriasLastStand.key },
         {
             key: 'bicn-0',
@@ -238,7 +238,7 @@ Be aware of newlines and whitespace in the string as unlike HTML, in markdown th
             inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
             inventionCount: 12,
         },
-    ]]
+    ]
 }
 ```
 

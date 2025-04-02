@@ -20,7 +20,7 @@ export const Academic: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'acad-0',
       type: 'PLAQUE',
@@ -51,5 +51,5 @@ export const Academic: BadgeData = {
       notes: `This plaque is in the ${zoneLink(AbandonedSewerNetwork)} on the left side of the corridor that marks the entrance to Steel Canyon Sector. It is roughly 800 yards west of the Steel Canyon Sewer network entrance. Note that if you go in the regular Sewer Network the rooms will all look the same and you can reach the coordinates below, but the plaque is absent.`,
       vidiotMapKey: '1',
     },
-  ]],
+  ],
 }

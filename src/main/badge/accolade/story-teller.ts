@@ -1,5 +1,8 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Croatoa } from '../../zone/croatoa'
+import { BadgeData } from 'coh-content-db'
+import { GordonBower } from '../../contact/gordon-bower'
+import { SkipperLeGrange } from '../../contact/skipper-legrange'
+import { KellyNemmers } from '../../contact/kelly-nemmers'
+import { BuckSalinger } from '../../contact/buck-salinger'
 
 export const StoryTeller: BadgeData = {
   type: 'ACCOLADE',
@@ -12,12 +15,17 @@ export const StoryTeller: BadgeData = {
   badgeText: [
     { value: `You've obtained this accolade by completing every story arc within Croatoa.` },
   ],
-  acquisition: `Complete every story arc in ${zoneLink(Croatoa)}`,
-  notes: `This badge rewards 20 reward merits.`,
+  effect: `Awards 20 reward merits.`,
   links: [
     { title: 'Story Teller Badge', href: 'https://homecoming.wiki/wiki/Story_Teller_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
+  ],
+  requirements: [
+    { key: 'piercing-the-veil', type: 'ARC', missionName: 'Piercing the Veil', contactKey: GordonBower.key },
+    { key: 'the-war-of-the-fir-bolg', type: 'ARC', missionName: 'The War of the Fir Bolg', contactKey: SkipperLeGrange.key },
+    { key: 'hatreds-hungry-heart', type: 'ARC', missionName: `Hatred's Hungry Heart`, contactKey: KellyNemmers.key },
+    { key: 'crossing-over', type: 'ARC', missionName: `Crossing Over`, contactKey: BuckSalinger.key },
   ],
 }

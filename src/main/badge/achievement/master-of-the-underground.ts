@@ -21,10 +21,10 @@ export const MasterOfTheUnderground: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-the-underground.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: RegenerateThis.key, type: 'BADGE', badgeKey: RegenerateThis.key },
     { key: TourGuide.key, type: 'BADGE', badgeKey: TourGuide.key },
     { key: PreservationSpecialist.key, type: 'BADGE', badgeKey: PreservationSpecialist.key },
     { key: AvatarAssassin.key, type: 'BADGE', badgeKey: AvatarAssassin.key },
-  ]],
+  ],
 }

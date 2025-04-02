@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { RiktiWarZone } from '../../zone/rikti-war-zone'
+import { BadgeData } from 'coh-content-db'
 import { VanguardOperative } from '../exploration/vanguard-operative'
 import { Trespasser } from '../exploration/trespasser'
 import { Lifesaver } from '../exploration/lifesaver'
@@ -20,14 +19,13 @@ export const TheyAreStillAmongUs: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge in the Rikti War Zone.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(RiktiWarZone)}`,
   links: [
     { title: 'They Are Still Among Us Badge', href: 'https://homecoming.wiki/wiki/They_Are_Still_Among_Us_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: VanguardOperative.key, type: 'BADGE', badgeKey: VanguardOperative.key },
     { key: Trespasser.key, type: 'BADGE', badgeKey: Trespasser.key },
     { key: Lifesaver.key, type: 'BADGE', badgeKey: Lifesaver.key },
@@ -36,5 +34,5 @@ export const TheyAreStillAmongUs: BadgeData = {
     { key: Luscious.key, type: 'BADGE', badgeKey: Luscious.key },
     { key: JunkyardDog.key, type: 'BADGE', badgeKey: JunkyardDog.key },
     { key: Unabashed.key, type: 'BADGE', badgeKey: Unabashed.key },
-  ]],
+  ],
 }

@@ -27,7 +27,7 @@ export const EyeOnArachnos: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Overlord.key, type: 'BADGE', badgeKey: Overlord.key },
     { key: SewerDweller.key, type: 'BADGE', badgeKey: SewerDweller.key },
     { key: Guttersnipe.key, type: 'BADGE', badgeKey: Guttersnipe.key },
@@ -36,5 +36,5 @@ export const EyeOnArachnos: BadgeData = {
     { key: ImageCrasher.key, type: 'BADGE', badgeKey: ImageCrasher.key },
     { key: LineHolder.key, type: 'BADGE', badgeKey: LineHolder.key },
     { key: GutterBait.key, type: 'BADGE', badgeKey: GutterBait.key },
-  ]],
+  ],
 }

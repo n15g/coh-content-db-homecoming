@@ -27,7 +27,7 @@ export const AdamInWaiting: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: CallOfNature.key, type: 'BADGE', badgeKey: CallOfNature.key },
     { key: CreyFish.key, type: 'BADGE', badgeKey: CreyFish.key },
     { key: HiveMind.key, type: 'BADGE', badgeKey: HiveMind.key },
@@ -36,5 +36,5 @@ export const AdamInWaiting: BadgeData = {
     { key: NaturesWrath.key, type: 'BADGE', badgeKey: NaturesWrath.key },
     { key: TheDevouringEarthAbides.key, type: 'BADGE', badgeKey: TheDevouringEarthAbides.key },
     { key: Unspoiled.key, type: 'BADGE', badgeKey: Unspoiled.key },
-  ]],
+  ],
 }

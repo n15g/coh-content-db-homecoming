@@ -25,14 +25,12 @@ export const AgentOfOrder: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
   ],
   requirements: [
-    [
-      { key: 'what-was-lost', type: 'ARC', missionName: 'What Was Lost', contactKey: MatthewHabashy.key },
-      { key: 'no-more-fears', type: 'ARC', missionName: 'No More Fears', contactKey: OfficerFields.key },
-      { key: 'reason-to-fight', type: 'ARC', missionName: 'Reason to Fight', contactKey: AaronThiery.key },
-      { key: 'lay-down-your-burdens', type: 'ARC', missionName: 'Lay Down Your Burdens', contactKey: SondraCostel.key },
-      { key: 'the-shining-stars-ch1', type: 'ARC', missionName: 'The Shining Stars - A New Day Dawning', contactKey: Twinshot.key },
-      { key: 'the-shining-stars-ch2', type: 'ARC', missionName: 'The Shining Stars - Big Leagues', contactKey: Twinshot.key },
-      { key: 'the-shining-stars-ch3', type: 'ARC', missionName: 'The Shining Stars - With Friends Like These', contactKey: Twinshot.key },
-    ],
+    { key: 'what-was-lost', type: 'ARC', missionName: 'What Was Lost', contactKey: MatthewHabashy.key },
+    { key: 'no-more-fears', type: 'ARC', missionName: 'No More Fears', contactKey: OfficerFields.key },
+    { key: 'reason-to-fight', type: 'ARC', missionName: 'Reason to Fight', contactKey: AaronThiery.key },
+    { key: 'lay-down-your-burdens', type: 'ARC', missionName: 'Lay Down Your Burdens', contactKey: SondraCostel.key },
+    { key: 'the-shining-stars-ch1', type: 'ARC', missionName: 'The Shining Stars - A New Day Dawning', contactKey: Twinshot.key },
+    { key: 'the-shining-stars-ch2', type: 'ARC', missionName: 'The Shining Stars - Big Leagues', contactKey: Twinshot.key },
+    { key: 'the-shining-stars-ch3', type: 'ARC', missionName: 'The Shining Stars - With Friends Like These', contactKey: Twinshot.key },
   ],
 }

@@ -16,7 +16,7 @@ export const Watchman: BadgeData = {
     { alignment: 'H', value: `You have defended Paragon City from the invading Rikti!` },
     { alignment: 'V', value: `You have defended the Rogue Isles from the invading Rikti!` },
   ],
-  notes: `Awards the Elusive Mind power`,
+  effect: `Awards the Elusive Mind power.`,
   links: [
     { title: 'Watchman Badge', href: 'https://homecoming.wiki/wiki/Watchman_Badge' },
     { title: 'Watchwoman Badge', href: 'https://homecoming.wiki/wiki/Watchwoman_Badge' },
@@ -24,10 +24,9 @@ export const Watchman: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/watchman.png' },
   ],
-  effect: `Elusive Mind`,
-  requirements: [[
+  requirements: [
     { key: Sentry.key, type: 'BADGE', badgeKey: Sentry.key },
     { key: BombSpecialist.key, type: 'BADGE', badgeKey: BombSpecialist.key },
     { key: Chief.key, type: 'BADGE', badgeKey: Chief.key },
-  ]],
+  ],
 }

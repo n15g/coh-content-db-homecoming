@@ -27,7 +27,7 @@ export const PPDInformant: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Summoned.key, type: 'BADGE', badgeKey: Summoned.key },
     { key: Upgraded.key, type: 'BADGE', badgeKey: Upgraded.key },
     { key: MysticKing.key, type: 'BADGE', badgeKey: MysticKing.key },
@@ -36,5 +36,5 @@ export const PPDInformant: BadgeData = {
     { key: WentworthHistoryBuff.key, type: 'BADGE', badgeKey: WentworthHistoryBuff.key },
     { key: Pwned.key, type: 'BADGE', badgeKey: Pwned.key },
     { key: ManOfVengeance.key, type: 'BADGE', badgeKey: ManOfVengeance.key },
-  ]],
+  ],
 }

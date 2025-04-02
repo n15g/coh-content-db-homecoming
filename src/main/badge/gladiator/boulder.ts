@@ -18,7 +18,7 @@ export const Boulder: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Liberator.key, type: 'BADGE', badgeKey: Liberator.key },
-  ]],
+  ],
 }

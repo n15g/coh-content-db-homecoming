@@ -18,7 +18,7 @@ export const ParkStroller: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/park-stroller.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'park-0',
       type: 'PLAQUE',
@@ -49,5 +49,5 @@ export const ParkStroller: BadgeData = {
       notes: `This plaque is in ${zoneLink(Brickstown)}, 80 yards south of Serafina, the Magic Store contact.`,
       vidiotMapKey: '5',
     },
-  ]],
+  ],
 }

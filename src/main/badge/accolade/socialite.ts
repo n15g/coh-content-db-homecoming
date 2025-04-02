@@ -11,7 +11,7 @@ export const Socialite: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: [
-    { value: `Your popularity and your fashion sense have earned you the Socialite Accolade.  While logged out in Pocket D or a Tailor you will earn charges for your Beguile power.` },
+    { value: `Your popularity and your fashion sense have earned you the Socialite Accolade. While logged out in Pocket D or a Tailor you will earn charges for your Beguile power.` },
   ],
   links: [
     { title: 'Socialite Badge', href: 'https://homecoming.wiki/wiki/Socialite_Badge' },
@@ -19,8 +19,8 @@ export const Socialite: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/socialite.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Clubber.key, type: 'BADGE', badgeKey: Clubber.key },
     { key: FashionDesigner.key, type: 'BADGE', badgeKey: FashionDesigner.key },
-  ]],
+  ],
 }

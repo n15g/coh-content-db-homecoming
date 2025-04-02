@@ -21,7 +21,7 @@ export const Pupil: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'pupi-0',
       type: 'PLAQUE',
@@ -72,5 +72,5 @@ export const Pupil: BadgeData = {
       notes: `This plaque is in ${zoneLink(PerezPark)}, 228 yards North of the Everett Lake Marker.`,
       vidiotMapKey: '1',
     },
-  ]],
+  ],
 }

@@ -21,7 +21,7 @@ export const Disciple: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'disc-0',
       type: 'PLAQUE',
@@ -92,5 +92,5 @@ export const Disciple: BadgeData = {
       notes: `This plaque is in ${zoneLink(Faultline)}, 227 yds due west of the Aftershock marker.`,
       vidiotMapKey: '2',
     },
-  ]],
+  ],
 }

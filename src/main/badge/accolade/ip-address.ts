@@ -25,7 +25,7 @@ export const IPAddress: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: CreyHavoc.key, type: 'BADGE', badgeKey: CreyHavoc.key },
     { key: Valorous.key, type: 'BADGE', badgeKey: Valorous.key },
     { key: Vigorous.key, type: 'BADGE', badgeKey: Vigorous.key },
@@ -34,5 +34,5 @@ export const IPAddress: BadgeData = {
     { key: FamilyPartier.key, type: 'BADGE', badgeKey: FamilyPartier.key },
     { key: Connector.key, type: 'BADGE', badgeKey: Connector.key },
     { key: Unlucky.key, type: 'BADGE', badgeKey: Unlucky.key },
-  ]],
+  ],
 }

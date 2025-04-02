@@ -25,12 +25,12 @@ export const ConspiracyTheorist: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conspiracy-theorist.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: BirdWatcher.key, type: 'BADGE', badgeKey: BirdWatcher.key },
     { key: CreyFish.key, type: 'BADGE', badgeKey: CreyFish.key },
     { key: CreyHavoc.key, type: 'BADGE', badgeKey: CreyHavoc.key },
     { key: CreyWatcher.key, type: 'BADGE', badgeKey: CreyWatcher.key },
     { key: Infiltrator.key, type: 'BADGE', badgeKey: Infiltrator.key },
     { key: TheDoctorsAlly.key, type: 'BADGE', badgeKey: TheDoctorsAlly.key },
-  ]],
+  ],
 }

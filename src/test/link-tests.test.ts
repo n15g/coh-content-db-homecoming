@@ -42,11 +42,9 @@ describe('Badge', () => {
           if (new URL(link.href).protocol === 'http:') errors.push(`['${badge.key}'].links['${link.title}'] contains an insecure (http) link.`)
         }
 
-        for (const group of badge?.requirements ?? []) {
-          for (const requirement of group) {
-            for (const link of requirement.links) {
-              if (new URL(link.href).protocol === 'http:') errors.push(`['${badge.key}:${requirement.key}'].links['${link.title}'] contains an insecure (http) link.`)
-            }
+        for (const requirement of badge?.requirements ?? []) {
+          for (const link of requirement.links) {
+            if (new URL(link.href).protocol === 'http:') errors.push(`['${badge.key}:${requirement.key}'].links['${link.title}'] contains an insecure (http) link.`)
           }
         }
       }
@@ -64,11 +62,9 @@ describe('Badge', () => {
           if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsafe URL character`)
         }
 
-        for (const group of badge.requirements ?? []) {
-          for (const requirement of group) {
-            for (const link of requirement.links) {
-              if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${badge}:${requirement.key}'].links['${link.href}'] contains an unsafe URL character`)
-            }
+        for (const requirement of badge.requirements ?? []) {
+          for (const link of requirement.links) {
+            if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${badge}:${requirement.key}'].links['${link.href}'] contains an unsafe URL character`)
           }
         }
       }

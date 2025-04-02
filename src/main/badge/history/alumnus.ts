@@ -19,7 +19,7 @@ export const Alumnus: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'alum-0',
       type: 'PLAQUE',
@@ -70,5 +70,5 @@ export const Alumnus: BadgeData = {
       notes: `This plaque is in the Misty Wood neighborhood of ${zoneLink(Croatoa)}, about 330 yards SSE of the Field Analyst.`,
       vidiotMapKey: '4',
     },
-  ]],
+  ],
 }

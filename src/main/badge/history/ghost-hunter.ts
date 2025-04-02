@@ -19,7 +19,7 @@ export const GhostHunter: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'ghos-0',
       type: 'PLAQUE',
@@ -70,5 +70,5 @@ export const GhostHunter: BadgeData = {
       notes: `This plaque is in ${zoneLink(StrigaIsle)}, 490 yards due south of Ravenstorm.`,
       vidiotMapKey: '4',
     },
-  ]],
+  ],
 }

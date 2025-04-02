@@ -25,7 +25,7 @@ export const PortalCorpAnalyst: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: PortalParter.key, type: 'BADGE', badgeKey: PortalParter.key },
     { key: UseMightForRight.key, type: 'BADGE', badgeKey: UseMightForRight.key },
     { key: CauseForConcern.key, type: 'BADGE', badgeKey: CauseForConcern.key },
@@ -34,5 +34,5 @@ export const PortalCorpAnalyst: BadgeData = {
     { key: ShadesOfArachnos.key, type: 'BADGE', badgeKey: ShadesOfArachnos.key },
     { key: AllSeeing.key, type: 'BADGE', badgeKey: AllSeeing.key },
     { key: DarkOmen.key, type: 'BADGE', badgeKey: DarkOmen.key },
-  ]],
+  ],
 }

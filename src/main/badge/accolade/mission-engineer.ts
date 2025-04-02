@@ -29,7 +29,7 @@ Owning this Accolade will grant you the ability to remotely create and edit Miss
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mission-engineer.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: ThrillSeeker.key, type: 'BADGE', badgeKey: ThrillSeeker.key },
     { key: Gamer.key, type: 'BADGE', badgeKey: Gamer.key },
     { key: TicketTaker.key, type: 'BADGE', badgeKey: TicketTaker.key },
@@ -38,5 +38,5 @@ Owning this Accolade will grant you the ability to remotely create and edit Miss
     { key: EarlyBird.key, type: 'BADGE', badgeKey: EarlyBird.key },
     { key: Customizer.key, type: 'BADGE', badgeKey: Customizer.key },
     { key: BugFixer.key, type: 'BADGE', badgeKey: BugFixer.key },
-  ]],
+  ],
 }

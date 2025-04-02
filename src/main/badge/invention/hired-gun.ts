@@ -11,7 +11,7 @@ export const HiredGun: BadgeData = {
     { title: 'Hired Gun Badge', href: 'https://homecoming.wiki/wiki/Hired_Gun_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const HiredGun: BadgeData = {
       inventionCount: 6,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ]],
+  ],
 }

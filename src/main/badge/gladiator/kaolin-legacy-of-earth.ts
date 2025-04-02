@@ -19,7 +19,7 @@ export const KaolinLegacyOfEarth: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Collector.key, type: 'BADGE', badgeKey: Collector.key },
-  ]],
+  ],
 }

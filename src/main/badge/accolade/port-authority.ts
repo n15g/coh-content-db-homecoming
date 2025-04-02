@@ -23,11 +23,9 @@ export const PortAuthority: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
   ],
   requirements: [
-    [
-      { key: 'ring-of-peebles', type: 'ARC', missionName: 'Ring of Peebles', contactKey: StephaniePeebles.key },
-      { key: 'hear-and-now', type: 'ARC', missionName: 'Hear and Now', contactKey: LongJack.key },
-      { key: 'return-to-vampyr-mountain', type: 'ARC', missionName: 'Return to Vampyr Mountain', contactKey: TobiasHansen.key },
-      { key: 'a-madmans-council', type: 'ARC', missionName: `A Madman's Council`, contactKey: LarsHansen.key },
-    ],
+    { key: 'ring-of-peebles', type: 'ARC', missionName: 'Ring of Peebles', contactKey: StephaniePeebles.key },
+    { key: 'hear-and-now', type: 'ARC', missionName: 'Hear and Now', contactKey: LongJack.key },
+    { key: 'return-to-vampyr-mountain', type: 'ARC', missionName: 'Return to Vampyr Mountain', contactKey: TobiasHansen.key },
+    { key: 'a-madmans-council', type: 'ARC', missionName: `A Madman's Council`, contactKey: LarsHansen.key },
   ],
 }

@@ -11,7 +11,7 @@ export const Security: BadgeData = {
     { title: 'Security Badge', href: 'https://homecoming.wiki/wiki/Security_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -27,5 +27,5 @@ export const Security: BadgeData = {
       inventionCount: 7,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ]],
+  ],
 }

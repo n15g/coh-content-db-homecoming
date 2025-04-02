@@ -32,7 +32,7 @@ export const FreedomPhalanxReserveMember: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Authority.key, type: 'BADGE', badgeKey: Authority.key },
     { key: Brawler.key, type: 'BADGE', badgeKey: Brawler.key },
     { key: Gearsmasher.key, type: 'BADGE', badgeKey: Gearsmasher.key },
@@ -44,5 +44,5 @@ export const FreedomPhalanxReserveMember: BadgeData = {
     { key: TankBuster.key, type: 'BADGE', badgeKey: TankBuster.key },
     { key: Unveiler.key, type: 'BADGE', badgeKey: Unveiler.key },
     { key: Vigorous.key, type: 'BADGE', badgeKey: Vigorous.key },
-  ]],
+  ],
 }

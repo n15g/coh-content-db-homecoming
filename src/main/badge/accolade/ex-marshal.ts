@@ -27,12 +27,12 @@ export const ExMarshal: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/ex-marshal.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Annihilator.key, type: 'BADGE', badgeKey: Annihilator.key },
     { key: ArachnosRising.key, type: 'BADGE', badgeKey: ArachnosRising.key },
     { key: PenitentOfVice.key, type: 'BADGE', badgeKey: PenitentOfVice.key },
     { key: TheMongoose.key, type: 'BADGE', badgeKey: TheMongoose.key },
     { key: TheNextBigThing.key, type: 'BADGE', badgeKey: TheNextBigThing.key },
     { key: WeaponInspector.key, type: 'BADGE', badgeKey: WeaponInspector.key },
-  ]],
+  ],
 }

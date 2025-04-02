@@ -29,7 +29,7 @@ export const JohnnysExBestFriend: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: DeucesWild.key, type: 'BADGE', badgeKey: DeucesWild.key },
     { key: Paroled.key, type: 'BADGE', badgeKey: Paroled.key },
     { key: Stonekeeper.key, type: 'BADGE', badgeKey: Stonekeeper.key },
@@ -38,5 +38,5 @@ export const JohnnysExBestFriend: BadgeData = {
     { key: SocialWorker.key, type: 'BADGE', badgeKey: SocialWorker.key },
     { key: InfamousRubble.key, type: 'BADGE', badgeKey: InfamousRubble.key },
     { key: Showstopper.key, type: 'BADGE', badgeKey: Showstopper.key },
-  ]],
+  ],
 }

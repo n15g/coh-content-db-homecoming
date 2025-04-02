@@ -21,7 +21,7 @@ export const Researcher: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'rese-0',
       type: 'PLAQUE',
@@ -82,5 +82,5 @@ export const Researcher: BadgeData = {
       notes: `This plaque is in ${zoneLink(TerraVolta)}, 352 yds west-southwest of the Coroman Manufacturing marker.`,
       vidiotMapKey: '2',
     },
-  ]],
+  ],
 }

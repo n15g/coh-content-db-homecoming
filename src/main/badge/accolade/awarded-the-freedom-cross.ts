@@ -22,8 +22,6 @@ export const AwardedTheFreedomCross: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/awarded-the-freedom-cross.png' },
   ],
   requirements: [
-    [
-      { key: 'third-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'Third Terra Volta Respecification Trial', contactKey: MajorRichardFlagg.key },
-    ],
+    { key: 'third-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'Third Terra Volta Respecification Trial', contactKey: MajorRichardFlagg.key },
   ],
 }

@@ -12,7 +12,7 @@ export const Charming: BadgeData = {
     { title: 'Charming Badge', href: 'https://homecoming.wiki/wiki/Charming_Badge' },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
-  requirements: [[
+  requirements: [
     {
       key: 'a',
       type: 'INVENTION',
@@ -28,5 +28,5 @@ export const Charming: BadgeData = {
       inventionCount: 6,
     },
     { key: 'c', type: 'INVENTION_PLUS_ONE' },
-  ]],
+  ],
 }

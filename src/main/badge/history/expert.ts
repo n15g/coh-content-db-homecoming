@@ -20,7 +20,7 @@ export const Expert: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'expe-0',
       type: 'PLAQUE',
@@ -61,5 +61,5 @@ export const Expert: BadgeData = {
       notes: `This plaque is in ${zoneLink(PerezPark)}, 455 yards south of the Steel Canyon entrance.`,
       vidiotMapKey: '4',
     },
-  ]],
+  ],
 }

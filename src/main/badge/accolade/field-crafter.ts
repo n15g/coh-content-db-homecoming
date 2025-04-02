@@ -59,7 +59,7 @@ export const FieldCrafter: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/field-crafter.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Inventor.key, type: 'BADGE', badgeKey: Inventor.key },
     { key: Artisan.key, type: 'BADGE', badgeKey: Artisan.key },
     { key: MasterArtisan.key, type: 'BADGE', badgeKey: MasterArtisan.key },
@@ -101,5 +101,5 @@ export const FieldCrafter: BadgeData = {
     { key: Vagabond.key, type: 'BADGE', badgeKey: Vagabond.key },
     { key: Wanderer.key, type: 'BADGE', badgeKey: Wanderer.key },
     { key: WalksTheEarth.key, type: 'BADGE', badgeKey: WalksTheEarth.key },
-  ]],
+  ],
 }

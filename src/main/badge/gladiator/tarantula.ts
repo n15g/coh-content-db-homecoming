@@ -18,7 +18,7 @@ export const Tarantula: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Venomous.key, type: 'BADGE', badgeKey: Venomous.key },
-  ]],
+  ],
 }

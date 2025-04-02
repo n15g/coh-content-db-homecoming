@@ -29,8 +29,8 @@ On the surface, your efforts appear fruitless, but there are shadowy rumors they
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: DayTrader.key, type: 'BADGE', badgeKey: DayTrader.key },
     { key: ShopKeeper.key, type: 'BADGE', badgeKey: ShopKeeper.key },
-  ]],
+  ],
 }

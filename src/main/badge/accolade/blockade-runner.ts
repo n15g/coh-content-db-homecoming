@@ -29,8 +29,8 @@ While logged out near Docks or near the Black Market you will earn tokens that w
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: DayTrader.key, type: 'BADGE', badgeKey: DayTrader.key },
     { key: Gunrunner.key, type: 'BADGE', badgeKey: Gunrunner.key },
-  ]],
+  ],
 }

@@ -25,7 +25,7 @@ export const FreeAmongTheDead: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: FollysVictim.key, type: 'BADGE', badgeKey: FollysVictim.key },
     { key: PalaceOfStoneLeaves.key, type: 'BADGE', badgeKey: PalaceOfStoneLeaves.key },
     { key: AuspiceAvernus.key, type: 'BADGE', badgeKey: AuspiceAvernus.key },
@@ -34,5 +34,5 @@ export const FreeAmongTheDead: BadgeData = {
     { key: WitnessOfOaths.key, type: 'BADGE', badgeKey: WitnessOfOaths.key },
     { key: LifeOutOfDeath.key, type: 'BADGE', badgeKey: LifeOutOfDeath.key },
     { key: OfThingsUnclean.key, type: 'BADGE', badgeKey: OfThingsUnclean.key },
-  ]],
+  ],
 }

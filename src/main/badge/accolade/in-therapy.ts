@@ -26,11 +26,11 @@ export const InTherapy: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/in-therapy.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: CrystalKeeper.key, type: 'BADGE', badgeKey: CrystalKeeper.key },
     { key: LastStand.key, type: 'BADGE', badgeKey: LastStand.key },
     { key: ManInBlack.key, type: 'BADGE', badgeKey: ManInBlack.key },
     { key: Strikebreaker.key, type: 'BADGE', badgeKey: Strikebreaker.key },
     { key: Triumphant.key, type: 'BADGE', badgeKey: Triumphant.key },
-  ]],
+  ],
 }

@@ -25,8 +25,6 @@ export const PowerLiberator: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/power-liberator.png' },
   ],
   requirements: [
-    [
-      { key: 'cathedral-of-pain', type: 'TASK_FORCE', missionName: 'Cathedral of Pain Trial', contactKey: TeamUpTeleporter.key },
-    ],
+    { key: 'cathedral-of-pain', type: 'TASK_FORCE', missionName: 'Cathedral of Pain Trial', contactKey: TeamUpTeleporter.key },
   ],
 }

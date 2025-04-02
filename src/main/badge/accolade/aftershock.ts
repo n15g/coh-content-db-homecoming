@@ -23,11 +23,9 @@ export const Aftershock: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
   ],
   requirements: [
-    [
-      { key: 'rumblings-of-the-past', type: 'ARC', missionName: 'Rumblings of the Past', contactKey: JimTemblor.key },
-      { key: 'i-lost-my-daddy', type: 'ARC', missionName: 'I Lost My Daddy!', contactKey: PenelopeYinFaultline.key },
-      { key: 'the-buried-past', type: 'ARC', missionName: 'The Buried Past', contactKey: DocDelilah.key },
-      { key: 'a-faultline-in-the-sands-of-time', type: 'ARC', missionName: 'A Faultline in the Sands of Time', contactKey: AgentG.key },
-    ],
+    { key: 'rumblings-of-the-past', type: 'ARC', missionName: 'Rumblings of the Past', contactKey: JimTemblor.key },
+    { key: 'i-lost-my-daddy', type: 'ARC', missionName: 'I Lost My Daddy!', contactKey: PenelopeYinFaultline.key },
+    { key: 'the-buried-past', type: 'ARC', missionName: 'The Buried Past', contactKey: DocDelilah.key },
+    { key: 'a-faultline-in-the-sands-of-time', type: 'ARC', missionName: 'A Faultline in the Sands of Time', contactKey: AgentG.key },
   ],
 }

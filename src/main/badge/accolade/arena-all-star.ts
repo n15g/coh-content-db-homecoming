@@ -22,11 +22,11 @@ export const ArenaAllStar: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/arena-all-star.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: ArenaVictor.key, type: 'BADGE', badgeKey: ArenaVictor.key },
     { key: ArenaDuelist.key, type: 'BADGE', badgeKey: ArenaDuelist.key },
     { key: TournamentVictor.key, type: 'BADGE', badgeKey: TournamentVictor.key },
     { key: ArenaSurvivalist.key, type: 'BADGE', badgeKey: ArenaSurvivalist.key },
     { key: PentadVictor.key, type: 'BADGE', badgeKey: PentadVictor.key },
-  ]],
+  ],
 }

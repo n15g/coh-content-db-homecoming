@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { TheAbyss } from '../../zone/the-abyss'
+import { BadgeData } from 'coh-content-db'
 import { AbyssalGaze } from '../exploration/abyssal-gaze'
 import { CagedBeast } from '../exploration/caged-beast'
 import { Geneticist } from '../exploration/geneticist'
@@ -20,14 +19,13 @@ export const TouchedBottom: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within the Abyss.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(TheAbyss)}`,
   links: [
     { title: 'Touched Bottom Badge', href: 'https://homecoming.wiki/wiki/Touched_Bottom_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: AbyssalGaze.key, type: 'BADGE', badgeKey: AbyssalGaze.key },
     { key: CagedBeast.key, type: 'BADGE', badgeKey: CagedBeast.key },
     { key: Geneticist.key, type: 'BADGE', badgeKey: Geneticist.key },
@@ -36,5 +34,5 @@ export const TouchedBottom: BadgeData = {
     { key: NoEscape.key, type: 'BADGE', badgeKey: NoEscape.key },
     { key: Reborn.key, type: 'BADGE', badgeKey: Reborn.key },
     { key: TheTreeOfWoe.key, type: 'BADGE', badgeKey: TheTreeOfWoe.key },
-  ]],
+  ],
 }

@@ -23,8 +23,6 @@ export const AntiVenom: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-venom.png' },
   ],
   requirements: [
-    [
-      { key: 'mystic-mayhem', type: 'ARC', missionName: 'Mystic Mayhem', contactKey: GhostWidow.key },
-    ],
+    { key: 'mystic-mayhem', type: 'ARC', missionName: 'Mystic Mayhem', contactKey: GhostWidow.key },
   ],
 }

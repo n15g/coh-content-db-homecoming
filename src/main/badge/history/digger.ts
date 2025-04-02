@@ -19,7 +19,7 @@ export const Digger: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
   ],
-  requirements: [[
+  requirements: [
     {
       key: 'digg-0',
       type: 'PLAQUE',
@@ -70,5 +70,5 @@ export const Digger: BadgeData = {
       notes: `This plaque is in ${zoneLink(TheHollows)}, 571 yards east and slightly south of the Skyway City Entrance marker and 714 yards due south of the Red River Marker.`,
       vidiotMapKey: '4',
     },
-  ]],
+  ],
 }

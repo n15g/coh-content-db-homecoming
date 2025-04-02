@@ -25,7 +25,7 @@ export const Epicenter: BadgeData = {
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Newsman.key, type: 'BADGE', badgeKey: Newsman.key },
     { key: FaultlessMystic.key, type: 'BADGE', badgeKey: FaultlessMystic.key },
     { key: Apex.key, type: 'BADGE', badgeKey: Apex.key },
@@ -34,5 +34,5 @@ export const Epicenter: BadgeData = {
     { key: ClaimDenied.key, type: 'BADGE', badgeKey: ClaimDenied.key },
     { key: SpareParts.key, type: 'BADGE', badgeKey: SpareParts.key },
     { key: DugTooDeep.key, type: 'BADGE', badgeKey: DugTooDeep.key },
-  ]],
+  ],
 }

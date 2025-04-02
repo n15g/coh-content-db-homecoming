@@ -27,7 +27,7 @@ export const Chronomaster: BadgeData = {
   links: [
     { title: 'Chronomaster Badge', href: 'https://homecoming.wiki/wiki/Chronomaster_Badge' },
   ],
-  requirements: [[
+  requirements: [
     { key: OuroborosMender.key, type: 'BADGE', badgeKey: OuroborosMender.key },
     { key: PraetorianTourist.key, type: 'BADGE', badgeKey: PraetorianTourist.key },
     { key: Demarcated.key, type: 'BADGE', badgeKey: Demarcated.key },
@@ -40,5 +40,5 @@ export const Chronomaster: BadgeData = {
     { key: Uninspired.key, type: 'BADGE', badgeKey: Uninspired.key },
     { key: GoldMedalist.key, type: 'BADGE', badgeKey: GoldMedalist.key },
     { key: AllForOneOneForAll.key, type: 'BADGE', badgeKey: AllForOneOneForAll.key },
-  ]],
+  ],
 }

@@ -22,8 +22,6 @@ export const ReceivedTheStalwartMedallion: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-stalwart-medallion.png' },
   ],
   requirements: [
-    [
-      { key: 'first-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'First Terra Volta Respecification Trial', contactKey: JaneHallaway.key },
-    ],
+    { key: 'first-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'First Terra Volta Respecification Trial', contactKey: JaneHallaway.key },
   ],
 }

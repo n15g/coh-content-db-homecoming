@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { EchoAtlasPark } from '../../zone/echo-atlas-park'
+import { BadgeData } from 'coh-content-db'
 import { Trustworthy } from '../exploration/trustworthy'
 import { Knowledgeable } from '../exploration/knowledgeable'
 import { Virtuous } from '../exploration/virtuous'
@@ -20,14 +19,13 @@ export const WalkedDownMemoryLane: BadgeData = {
   badgeText: [
     { value: `You've obtained this Accolade by earning every Exploration badge within Echo: Atlas Park.` },
   ],
-  notes: `Visit all exploration badges in ${zoneLink(EchoAtlasPark)}`,
   links: [
     { title: 'Walked Down Memory Lane Badge', href: 'https://homecoming.wiki/wiki/Walked_Down_Memory_Lane_Badge' },
   ],
   icon: [
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
   ],
-  requirements: [[
+  requirements: [
     { key: Trustworthy.key, type: 'BADGE', badgeKey: Trustworthy.key },
     { key: Knowledgeable.key, type: 'BADGE', badgeKey: Knowledgeable.key },
     { key: Virtuous.key, type: 'BADGE', badgeKey: Virtuous.key },
@@ -36,5 +34,5 @@ export const WalkedDownMemoryLane: BadgeData = {
     { key: Resilient.key, type: 'BADGE', badgeKey: Resilient.key },
     { key: OutOfHarmsWay.key, type: 'BADGE', badgeKey: OutOfHarmsWay.key },
     { key: CityTraveler.key, type: 'BADGE', badgeKey: CityTraveler.key },
-  ]],
+  ],
 }
