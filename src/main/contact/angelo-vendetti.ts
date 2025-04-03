@@ -1,0 +1,12 @@
+import { ContactData } from 'coh-content-db'
+import { PortOakes } from '../zone/port-oakes'
+
+export const AngeloVendetti: ContactData = {
+  key: 'angelo-vendetti',
+  name: 'Angelo Vendetti',
+  title: 'Vengeful Fixer',
+  zoneKey: PortOakes.key,
+  loc: [-423, 144, 1304],
+  levelRange: [5, 10],
+  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Angelo_Vendetti' }],
+}

@@ -1,24 +1,18 @@
 import { BadgeData } from 'coh-content-db'
+import { MortimerKal } from '../../contact/mortimer-kal'
 
 export const Promethean: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'promethean',
   setTitle: { id: 1982 },
-  name: [
-    { value: 'Promethean' },
-  ],
+  name: 'Promethean',
   alignment: ['V'],
-  badgeText: [
-    {
-      value: 'You manipulated Mortimer Kal into helping you acquire some of the Flames of Prometheus from '
-        + 'Positron!',
-    },
-  ],
-  acquisition: 'Complete the Mortimer Kal Strike Force',
+  badgeText: 'You manipulated Mortimer Kal into helping you acquire some of the Flames of Prometheus from Positron!',
   links: [
     { title: 'Promethean Badge', href: 'https://homecoming.wiki/wiki/Promethean_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/promethean.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/promethean.png',
+  requirements: [
+    { key: 'mksf', type: 'TASK_FORCE', missionName: 'Mortimer Kal Strike Force', contactKey: MortimerKal.key },
   ],
 }

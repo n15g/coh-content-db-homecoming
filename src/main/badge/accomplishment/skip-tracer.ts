@@ -1,21 +1,20 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
+import { BasseCroupier } from '../../contact/basse-croupier'
 
 export const SkipTracer: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'skip-tracer',
   setTitle: { id: 342 },
-  name: [
-    { value: 'Skip Tracer' },
-  ],
+  name: 'Skip Tracer',
   alignment: ['V'],
-  badgeText: [
-    { value: 'Nobody skips out on their debts to the Family. Not with you around.' },
-  ],
-  acquisition: 'Complete the Catch the Freakshow debtor before he skips town mission from Basse Croupier',
+  badgeText: 'Nobody skips out on their debts to the Family. Not with you around.',
+  notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "B4nKbUsTah" entry with number 6.77 in the 35-39 level range.`,
   links: [
     { title: 'Skip Tracer Badge', href: 'https://homecoming.wiki/wiki/Skip_Tracer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-7.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-7.png',
+  requirements: [
+    { key: 'ctfd', type: 'MISSION', missionName: 'Catch the Freakshow Debtor Before he Skips Town', contactKey: BasseCroupier.key },
   ],
 }

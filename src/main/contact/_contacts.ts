@@ -166,6 +166,53 @@ import { Helix } from './helix'
 import { CalvinScottPraetorian } from './calvin-scott-praetorian'
 import { TheMagician } from './the-magician'
 import { PercyWinkley } from './percy-winkley'
+import { DrForrester } from './dr-forrester'
+import { DocBuzzsaw } from './doc-buzzsaw'
+import { ElizaThorpe } from './eliza-thorpe'
+import { LorenzoTate } from './lorenzo-tate'
+import { MsLiberty } from './ms-liberty'
+import { PenelopeYinFreedomPhalanx } from './penelope-yin-freedom-phalanx'
+import { WillyWheeler } from './willy-wheeler'
+import { SilverMantis } from './silver-mantis'
+import { TheRadio } from './the-radio'
+import { OliviaChung } from './olivia-chung'
+import { DrAnnMarieEngles } from './dr-ann-marie-engles'
+import { JulianaNehring } from './juliana-nehring'
+import { PavelGarnier } from './pavel-garnier'
+import { JohnHouston } from './john-houston'
+import { TechnicianNaylor } from './technician-naylor'
+import { DrQuaterfield } from './dr-quaterfield'
+import { JustinAugustine } from './justin-augustine'
+import { AshwinLannister } from './ashwin-lannister'
+import { LauriePennington } from './laurie-pennington'
+import { LorenzAnsaldo } from './lorenz-ansaldo'
+import { SpecialAgentJenniAdair } from './special-agent-jenni-adair'
+import { SisterPsyche } from './sister-psyche'
+import { BasseCroupier } from './basse-croupier'
+import { EagleEye } from './eagle-eye'
+import { VinceDubrowski } from './vince-dubrowski'
+import { FaathimTheKind } from './faathim-the-kind'
+import { ArchmageTarixus } from './archmage-tarixus'
+import { DrTrevorSeaborn } from './dr-trevor-seaborn'
+import { HugoRedding } from './hugo-redding'
+import { HaleyPhilips } from './haley-philips'
+import { CainRoyce } from './cain-royce'
+import { DrCheng } from './dr-cheng'
+import { OliverHaak } from './oliver-haak'
+import { PiperIrving } from './piper-irving'
+import { JosefKeller } from './josef-keller'
+import { AndreaMitchell } from './andrea-mitchell'
+import { AngeloVendetti } from './angelo-vendetti'
+import { Synapse } from './synapse'
+import { Imperious } from './imperious'
+import { GordonStacy } from './gordon-stacy'
+import { FieldAgentKeithNance } from './field-agent-keith-nance'
+import { SirBedwyr } from './sir-bedwyr'
+import { SisterValeria } from './sister-valeria'
+import { DarrenWade } from './darren-wade'
+import { Karsis } from './karsis'
+import { PhillipaMeraux } from './phillipa-meraux'
+import { Apex } from './apex'
 
 export const CONTACTS: ContactData[] = [
   AaronThiery,
@@ -175,11 +222,17 @@ export const CONTACTS: ContactData[] = [
   AgentG,
   AgentWatkins,
   AlecParson,
+  AndreaMitchell,
   AndrewFiore,
+  AngeloVendetti,
   AntiMatter,
+  Apex,
+  ArchmageTarixus,
   AshleyMcKnight,
   AshlingCorlett,
+  AshwinLannister,
   Barracuda,
+  BasseCroupier,
   Beholder,
   BelladonnaVetrano,
   BlackScorpion,
@@ -187,6 +240,7 @@ export const CONTACTS: ContactData[] = [
   Bobcat,
   BuckSalinger,
   CadaoKestrel,
+  CainRoyce,
   CalvinScottPraetorian,
   CaptainJamesHarlan,
   CaptainMako,
@@ -197,34 +251,49 @@ export const CONTACTS: ContactData[] = [
   Crimson,
   Crow,
   DarkWatcher,
+  DarrenWade,
   ClaireChildress,
   DeanMacArthur,
   DeputyAssistantOfInformation,
+  DocBuzzsaw,
   DocDelilah,
   DoctorArvin,
   DoctorCreed,
   DoctorSteffard,
   DoctorWeber,
   DrAeon,
+  DrAnnMarieEngles,
+  DrCheng,
+  DrForrester,
   DrFrancois,
   DrGraves,
   DrHetzfeld,
   DrKahn,
+  DrQuaterfield,
   DrShellyPercey,
   DrStribbling,
+  DrTrevorSeaborn,
   DreamDoctor,
+  EagleEye,
   EfficiencyExpertPither,
+  ElizaThorpe,
   ErnestoHess,
+  FaathimTheKind,
+  FieldAgentKeithNance,
   FireWire,
   Flux,
   Gaussian,
   GhostWidow,
   GordonBower,
+  GordonStacy,
+  HaleyPhilips,
   HardLuck,
   Hatchet,
   HeatherTownshend,
   Helix,
+  HugoRedding,
   IceMistral,
+  Imperious,
   InsideInformation,
   InterrogatorKang,
   InvestigatorWhitworth,
@@ -234,16 +303,24 @@ export const CONTACTS: ContactData[] = [
   JaneHallaway,
   JessicaFlores,
   JimTemblor,
+  JohnHouston,
+  JosefKeller,
+  JulianaNehring,
+  JustinAugustine,
   Kalinda,
+  Karsis,
   KatieDouglas,
   KatieHannon,
   KellyNemmers,
   LarsHansen,
   LauraBrunetti,
+  LauriePennington,
   Leonard,
   Levantera,
   LongJack,
   LordRecluse,
+  LorenzoTate,
+  LorenzAnsaldo,
   LtColHughMcDougal,
   LtHarris,
   LukeLarson,
@@ -268,6 +345,7 @@ export const CONTACTS: ContactData[] = [
   MrBocor,
   MrGPraetorian,
   MrGPrimal,
+  MsLiberty,
   MuVorkan,
   Nadia,
   NealKendrick,
@@ -278,16 +356,22 @@ export const CONTACTS: ContactData[] = [
   Numina,
   OberstStraxt,
   OfficerFields,
+  OliverHaak,
+  OliviaChung,
   OperativeKirkland,
   OperativeKuzmin,
   OperativeRenault,
   Orpheus,
   Palatine,
   PaulaDempsey,
+  PavelGarnier,
   PayPhone,
   PenelopeYinFaultline,
+  PenelopeYinFreedomPhalanx,
   PenelopeYinPraetorian,
   PercyWinkley,
+  PhillipaMeraux,
+  PiperIrving,
   Positron,
   PraetorDuncan,
   PraetorSinclair,
@@ -304,19 +388,27 @@ export const CONTACTS: ContactData[] = [
   Seer1381,
   SeerMarino,
   SerpentDrummer,
+  SilverMantis,
+  SirBedwyr,
+  SisterPsyche,
   SisterSolaris,
+  SisterValeria,
   SkipperLeGrange,
   SondraCostel,
   Sparcetriel,
+  SpecialAgentJenniAdair,
   Splice,
   StephaniePeebles,
   StevenSheridan,
+  Synapse,
   TamiBaker,
   TeamUpTeleporter,
+  TechnicianNaylor,
   Television,
   TheDarkWatcher,
   TheLadyGrey,
   TheMagician,
+  TheRadio,
   TimothyRaymond,
   TinMageMarkII,
   TinaChung,
@@ -329,10 +421,12 @@ export const CONTACTS: ContactData[] = [
   Twinshot,
   Vagabond,
   VicGarland,
+  VinceDubrowski,
   VincentRoss,
   VirgilTarikoss,
   Wardog,
   Warrant,
+  WillyWheeler,
   WilmaPeterson,
   Woodsman,
 ]

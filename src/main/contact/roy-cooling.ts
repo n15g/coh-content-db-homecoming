@@ -2,7 +2,7 @@ import { ContactData } from 'coh-content-db'
 import { TalosIsland } from '../zone/talos-island'
 
 export const RoyCooling: ContactData = {
-  key: 'royCooling',
+  key: 'roy-cooling',
   name: 'Roy Cooling',
   title: 'FBSA Agent',
   zoneKey: TalosIsland.key,

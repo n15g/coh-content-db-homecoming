@@ -1,4 +1,5 @@
 import { BadgeData } from 'coh-content-db'
+import { SilverMantis } from '../../contact/silver-mantis'
 
 export const PirateHunter: BadgeData = {
   type: 'ACCOMPLISHMENT',
@@ -9,18 +10,13 @@ export const PirateHunter: BadgeData = {
     { alignment: 'V', value: 'Air Pirate' },
   ],
   alignment: ['V'],
-  badgeText: [
-    {
-      value: 'You disrupted the Sky Raiders\' wave of thefts and defeated Col. Duray himself on their '
-        + 'off-shore base.',
-    },
-  ],
-  acquisition: 'Complete the Silver Mantis Strike Force: Pirates of the Sky',
+  badgeText: `You disrupted the Sky Raiders' wave of thefts and defeated Col. Duray himself on their off-shore base.`,
   links: [
     { title: 'Pirate Hunter Badge', href: 'https://homecoming.wiki/wiki/Pirate_Hunter_Badge' },
     { title: 'Air Pirate Badge', href: 'https://homecoming.wiki/wiki/Air_Pirate_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/pirate-hunter.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/pirate-hunter.png',
+  requirements: [
+    { key: 'smsf', type: 'TASK_FORCE', missionName: 'Silver Mantis Strike Force', contactKey: SilverMantis.key },
   ],
 }

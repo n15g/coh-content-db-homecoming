@@ -4,18 +4,12 @@ export const WellDrinker: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'well-drinker',
   setTitle: { id: 1964 },
-  name: [
-    { value: 'Well Drinker' },
-  ],
+  name: 'Well Drinker',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You\'ve crafted your first Rare Incarnate Ability earning yourself this badge.' },
-  ],
-  acquisition: 'Craft a rare Incarnate Ability',
+  badgeText: `You've crafted your first Rare Incarnate Ability earning yourself this badge.`,
+  acquisition: 'Craft a rare incarnate ability.',
   links: [
     { title: 'Well Drinker Badge', href: 'https://homecoming.wiki/wiki/Well_Drinker_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/well-drinker.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/well-drinker.png',
 }

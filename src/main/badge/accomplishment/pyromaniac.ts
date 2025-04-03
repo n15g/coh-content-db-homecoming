@@ -1,24 +1,17 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { MrGPrimal } from '../../contact/mr-g-primal'
 
 export const Pyromaniac: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'pyromaniac',
   setTitle: { id: 2269 },
-  name: [
-    { value: 'Pyromaniac' },
-  ],
+  name: 'Pyromaniac',
   alignment: ['V'],
-  badgeText: [
-    {
-      value: 'You set fire to one of the nicer parts of Faultline while Penelope Yin and Penelope Mayhem '
-        + 'were still fighting elsewhere.',
-    },
-  ],
-  acquisition: 'Arm all five bombs before Penelope Yin and Penelope Mayhem finish their fight in the fourth mission of the third story arc from Mr. G (Primal Earth)',
+  badgeText: 'You set fire to one of the nicer parts of Faultline while Penelope Yin and Penelope Mayhem were still fighting elsewhere.',
+  acquisition: `Arm all five bombs before Penelope Yin and Penelope Mayhem in the "Cracking Faultline" mission from ${contactLink(MrGPrimal)}.`,
   links: [
     { title: 'Pyromaniac Badge', href: 'https://homecoming.wiki/wiki/Pyromaniac_Badge' },
+    { title: 'Cracking Faultline Mission', href: 'https://homecoming.wiki/wiki/Mr._G_(Primal_Earth)#Part_Four:_Cracking_Faultline' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-challenge.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-challenge.png',
 }

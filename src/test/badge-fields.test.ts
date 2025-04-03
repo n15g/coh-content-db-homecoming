@@ -1,5 +1,6 @@
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../main'
+import { BADGES } from '../main/badge/_badges'
 
 const database = new CohContentDatabase(HOMECOMING)
 
@@ -14,6 +15,34 @@ describe('Badge Fields', () => {
     if (errors.length > 0) {
       throw errors.join('\n')
     }
+  })
+
+  describe('name', () => {
+    test('should use direct value with no alternate values', () => {
+      const errors: string[] = []
+
+      for (const badge of BADGES) {
+        if (Array.isArray(badge.name) && badge.name.length === 1) errors.push(`['${badge.key}'].name only contains a single value, use a direct value instead of an array.`)
+      }
+
+      if (errors.length > 0) {
+        throw errors.join('\n')
+      }
+    })
+  })
+
+  describe('badgeText', () => {
+    test('should use direct value with no alternate values', () => {
+      const errors: string[] = []
+
+      for (const badge of BADGES) {
+        if (Array.isArray(badge.badgeText) && badge.badgeText.length === 1) errors.push(`['${badge.key}'].badgeText only contains a single value, use a direct value instead of an array.`)
+      }
+
+      if (errors.length > 0) {
+        throw errors.join('\n')
+      }
+    })
   })
 
   describe('acquisition', () => {
@@ -64,6 +93,18 @@ describe('Badge Fields', () => {
         for (const icon of badge.icon.canonical) {
           if (new URL(icon.value).protocol === 'http:') errors.push(`['${badge.key}'].links['${icon.value}'] contains an insecure (http) link.`)
         }
+      }
+
+      if (errors.length > 0) {
+        throw errors.join('\n')
+      }
+    })
+
+    test('should use direct value with no alternate values', () => {
+      const errors: string[] = []
+
+      for (const badge of BADGES) {
+        if (Array.isArray(badge.icon) && badge.icon.length === 1) errors.push(`['${badge.key}'].icon only contains a single value, use a direct value instead of an array.`)
       }
 
       if (errors.length > 0) {

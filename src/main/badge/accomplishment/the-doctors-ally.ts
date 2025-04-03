@@ -1,21 +1,20 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
+import { GordonStacy } from '../../contact/gordon-stacy'
 
 export const TheDoctorsAlly: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'the-doctors-ally',
   setTitle: { id: 80 },
-  name: [
-    { value: 'The Doctor\'s Ally' },
-  ],
+  name: `The Doctor's Ally`,
   alignment: ['H'],
-  badgeText: [
-    { value: 'You have uncovered the fate of Doctor Friedkin.' },
-  ],
-  acquisition: 'Complete the Investigate the hacker known as The Doctor mission from Gordon Stacy',
+  badgeText: 'You have uncovered the fate of Doctor Friedkin.',
+  notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "They Call Me The Doctor" entry with number 0.37 in the 35-39 level range.`,
   links: [
-    { title: 'The Doctor\'s Ally Badge', href: 'https://homecoming.wiki/wiki/The_Doctor%27s_Ally_Badge' },
+    { title: `The Doctor's Ally Badge`, href: 'https://homecoming.wiki/wiki/The_Doctor%27s_Ally_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-doctors-ally.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/the-doctors-ally.png',
+  requirements: [
+    { key: 'itd', type: 'MISSION', missionName: 'Investigate the Hacker Known as The Doctor', contactKey: GordonStacy.key },
   ],
 }

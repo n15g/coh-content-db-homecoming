@@ -10,7 +10,7 @@ export const Assistant: BadgeData = {
   ],
   alignment: ['H', 'V', 'P'],
   badgeText: 'You helped a team complete a Weekly Strike Target even though you already received the bonus for the week.',
-  acquisition: `Complete a Weekly Strike Target after you've already completed one for the week.`,
+  acquisition: `Complete a [Weekly Strike Target](https://homecoming.wiki/wiki/Weekly_Strike_Target) after you've already completed one for the week.`,
   links: [
     { title: 'Assistant Badge', href: 'https://homecoming.wiki/wiki/Assistant_Badge' },
     { title: 'Accomplice Badge', href: 'https://homecoming.wiki/wiki/Accomplice_Badge' },

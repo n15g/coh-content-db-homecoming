@@ -1,24 +1,20 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const TheCentersNemesis: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'the-centers-nemesis',
   setTitle: { id: 2257 },
-  name: [
-    { value: 'The Center\'s Nemesis' },
-  ],
+  name: `The Center's Nemesis`,
   alignment: ['H'],
-  badgeText: [
-    {
-      value: 'You stopped Calvin Scott and the Center\'s plans for Paragon City. The public of Paragon '
-        + 'consider you to be the one hero who can stop the Council.',
-    },
-  ],
-  acquisition: 'Complete the third story arc from Provost Marchand (Primal Earth)',
+  badgeText: `You stopped Calvin Scott and the Center's plans for Paragon City. The public of Paragon consider you to be the one hero who can stop the Council.`,
+  notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Tipping the Scales" entry with number 24.08 at level 50.`,
   links: [
-    { title: 'The Center\'s Nemesis Badge', href: 'https://homecoming.wiki/wiki/The_Center%27s_Nemesis_Badge' },
+    { title: `The Center's Nemesis Badge`, href: 'https://homecoming.wiki/wiki/The_Center%27s_Nemesis_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png',
+  requirements: [
+    { key: 'tts', type: 'ARC', missionName: 'Tipping the Scales', contactKey: ProvostMarchandPrimal.key },
   ],
 }
