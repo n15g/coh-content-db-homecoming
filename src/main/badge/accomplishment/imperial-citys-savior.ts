@@ -1,21 +1,20 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { BelladonnaVetrano } from '../../contact/belladonna-vetrano'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const ImperialCitysSavior: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'imperial-citys-savior',
   setTitle: { id: 2217 },
-  name: [
-    { value: 'Imperial City\'s Savior' },
-  ],
+  name: `Imperial City's Savior`,
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You helped the forces of Primal Earth take Imperial City from Praetor Sinclair.' },
-  ],
-  acquisition: 'Complete the story arc from Belladonna Vetrano',
+  badgeText: 'You helped the forces of Primal Earth take Imperial City from Praetor Sinclair.',
+  notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "The Emperor's Sword" entry with number 23.06 at level 50.`,
   links: [
-    { title: 'Imperial City\'s Savior Badge', href: 'https://homecoming.wiki/wiki/Imperial_City%27s_Savior_Badge' },
+    { title: `Imperial City's Savior Badge`, href: 'https://homecoming.wiki/wiki/Imperial_City%27s_Savior_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/imperial-citys-savior.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/imperial-citys-savior.png',
+  requirements: [
+    { key: 'the-emperors-sword', type: 'ARC', missionName: `The Emperor's Sword`, contactKey: BelladonnaVetrano.key },
   ],
 }

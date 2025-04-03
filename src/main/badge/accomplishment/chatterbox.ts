@@ -1,6 +1,6 @@
 import { BadgeData, contactLink, zoneLink } from 'coh-content-db'
 import { FirstWard } from '../../zone/first-ward'
-import { ProvostMarchandPrimalEarth } from '../../contact/provost-marchand-primal-earth'
+import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 import { Ouroboros } from '../../zone/ouroboros'
 import { Nadia } from '../../contact/nadia'
 import { BlindMakwa } from '../../contact/blind-makwa'
@@ -14,7 +14,7 @@ export const Chatterbox: BadgeData = {
   name: 'Chatterbox',
   alignment: ['H'],
   badgeText: `You were sent in to handle things on Refugee Island, but you decided to catch up with some old friends from ${zoneLink(FirstWard)}.`,
-  acquisition: `Speak to four key NPCs from First Ward in the 'Refugees' mission of the 'A New Dimension, A New Team' story arc from ${contactLink(ProvostMarchandPrimalEarth)}.`,
+  acquisition: `Speak to four key NPCs from First Ward in the 'Refugees' mission of the 'A New Dimension, A New Team' story arc from ${contactLink(ProvostMarchandPrimal)}.`,
   notes: `
 * ${contactLink(Nadia)} (-1447, -3, -7093)
 * ${contactLink(BlindMakwa)} (-1498, 0, -6365)

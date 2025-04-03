@@ -1,0 +1,12 @@
+import { ContactData } from 'coh-content-db'
+import { CapAuDiable } from '../zone/cap-au-diable'
+
+export const AshleyMcKnight: ContactData = {
+  key: 'ashley-mcknight',
+  name: 'Ashley McKnight',
+  title: 'Midnight Squad Member',
+  zoneKey: CapAuDiable.key,
+  loc: [728, 15.5, -1630],
+  levelRange: [14, 50],
+  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ashley_McKnight' }],
+}

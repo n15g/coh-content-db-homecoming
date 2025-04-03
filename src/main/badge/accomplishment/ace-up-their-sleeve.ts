@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { ProvostMarchandPrimalEarth } from '../../contact/provost-marchand-primal-earth'
+import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 
 export const AceUpTheirSleeve: BadgeData = {
   type: 'ACCOMPLISHMENT',
@@ -13,6 +13,6 @@ export const AceUpTheirSleeve: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/ace-up-their-sleeve.png',
   requirements: [
-    { key: 'gamble', type: 'MISSION', missionName: 'Gamble', contactKey: ProvostMarchandPrimalEarth.key },
+    { key: 'gamble', type: 'MISSION', missionName: 'Gamble', contactKey: ProvostMarchandPrimal.key },
   ],
 }

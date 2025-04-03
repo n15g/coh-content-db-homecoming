@@ -43,11 +43,11 @@ describe('Badge Fields', () => {
       }
     })
 
-    test(`should start with 'Awards'`, () => {
+    test(`should start with 'Awards' or 'Unlocks'`, () => {
       const errors: string[] = []
 
       for (const badge of database.badges) {
-        if (badge.effect && !badge?.effect?.startsWith('Awards')) errors.push(`['${badge.key}'].effect does not start with 'Awards'.`)
+        if (badge.effect && !badge?.effect?.startsWith('Awards') && !badge?.effect.startsWith('Unlocks')) errors.push(`['${badge.key}'].effect does not start with 'Awards' or 'Unlocks'.`)
       }
 
       if (errors.length > 0) {

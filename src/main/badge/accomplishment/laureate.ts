@@ -1,21 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Neutropolis } from '../../zone/neutropolis'
 
 export const Laureate: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'laureate',
   setTitle: { id: 1441 },
-  name: [
-    { value: 'Laureate' },
-  ],
+  name: 'Laureate',
   alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You have no idea what that Lucan thing was, but he will haunt your dreams forever.' },
-  ],
-  acquisition: 'Complete the The Great Escape zone event in Neutropolis',
+  badgeText: 'You have no idea what that Lucan thing was, but he will haunt your dreams forever.',
+  acquisition: `Complete the The Great Escape zone event in ${zoneLink(Neutropolis)}.`,
   links: [
     { title: 'Laureate Badge', href: 'https://homecoming.wiki/wiki/Laureate_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/laureate.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/laureate.png',
 }

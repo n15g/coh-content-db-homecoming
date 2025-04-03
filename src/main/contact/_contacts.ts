@@ -52,7 +52,7 @@ import { MenderRamiel } from './mender-ramiel'
 import { Mongoose } from './mongoose'
 import { MortimerKal } from './mortimer-kal'
 import { MotherMayhem } from './mother-mayhem'
-import { MrG } from './mr-g'
+import { MrGPraetorian } from './mr-g-praetorian'
 import { MuVorkan } from './muvorkan'
 import { Neuron } from './neuron'
 import { NightWidowRagana } from './night-widow-ragana'
@@ -64,7 +64,7 @@ import { PenelopeYinFaultline } from './penelope-yin-faultline'
 import { PenelopeYinPraetorian } from './penelope-yin-praetorian'
 import { PraetorDuncan } from './praetor-duncan'
 import { PraetorSinclair } from './praetor-sinclair'
-import { ProvostMarchandPrimalEarth } from './provost-marchand-primal-earth'
+import { ProvostMarchandPrimal } from './provost-marchand-primal'
 import { Ractespriel } from './ractespriel'
 import { Reese } from './reese'
 import { Ricochet } from './ricochet'
@@ -130,22 +130,64 @@ import { EfficiencyExpertPither } from './efficiency-expert-pither'
 import { TinaMacintyre } from './tina-macintyre'
 import { BelladonnaVetrano } from './belladonna-vetrano'
 import { Leonard } from './leonard'
+import { TimothyRaymond } from './timothy-raymond'
+import { PayPhone } from './pay-phone'
+import { MrGPrimal } from './mr-g-primal'
+import { CadaoKestrel } from './cadao-kestrel'
+import { NullTheGull } from './null-the-gull'
+import { InsideInformation } from './inside-information'
+import { RoyCooling } from './roy-cooling'
+import { Moonfire } from './moonfire'
+import { VincentRoss } from './vincent-ross'
+import { AdmiralSutter } from './admiral-sutter'
+import { OperativeRenault } from './operative-renault'
+import { Woodsman } from './woodsman'
+import { DrStribbling } from './dr-stribbling'
+import { MontagueCastanella } from './montague-castanella'
+import { AdaWellington } from './ada-wellington'
+import { MageKillerZuhkara } from './mage-killer-zuhkara'
+import { PraetorWhite } from './praetor-white'
+import { Manticore } from './manticore'
+import { DrShellyPercey } from './dr-shelly-percey'
+import { MaxwellChristopher } from './maxwell-christopher'
+import { AshleyMcKnight } from './ashley-mcknight'
+import { LauraBrunetti } from './laura-brunetti'
+import { MiriamBloechl } from './miriam-bloechl'
+import { TonyKord } from './tony-kord'
+import { PaulaDempsey } from './paula-dempsey'
+import { MauriceFeldon } from './maurice-feldon'
+import { Numina } from './numina'
+import { Hatchet } from './hatchet'
+import { Beholder } from './beholder'
+import { Vagabond } from './vagabond'
+import { Wardog } from './wardog'
+import { Crow } from './crow'
+import { Helix } from './helix'
+import { CalvinScottPraetorian } from './calvin-scott-praetorian'
+import { TheMagician } from './the-magician'
+import { PercyWinkley } from './percy-winkley'
 
 export const CONTACTS: ContactData[] = [
   AaronThiery,
   AaronWalker,
+  AdaWellington,
+  AdmiralSutter,
   AgentG,
   AgentWatkins,
   AlecParson,
   AndrewFiore,
   AntiMatter,
+  AshleyMcKnight,
   AshlingCorlett,
   Barracuda,
+  Beholder,
   BelladonnaVetrano,
   BlackScorpion,
   BlindMakwa,
   Bobcat,
   BuckSalinger,
+  CadaoKestrel,
+  CalvinScottPraetorian,
   CaptainJamesHarlan,
   CaptainMako,
   ChanceMcKnight,
@@ -153,6 +195,7 @@ export const CONTACTS: ContactData[] = [
   Citadel,
   Cleopatra,
   Crimson,
+  Crow,
   DarkWatcher,
   ClaireChildress,
   DeanMacArthur,
@@ -167,6 +210,8 @@ export const CONTACTS: ContactData[] = [
   DrGraves,
   DrHetzfeld,
   DrKahn,
+  DrShellyPercey,
+  DrStribbling,
   DreamDoctor,
   EfficiencyExpertPither,
   ErnestoHess,
@@ -176,8 +221,11 @@ export const CONTACTS: ContactData[] = [
   GhostWidow,
   GordonBower,
   HardLuck,
+  Hatchet,
   HeatherTownshend,
+  Helix,
   IceMistral,
+  InsideInformation,
   InterrogatorKang,
   InvestigatorWhitworth,
   IVy,
@@ -191,6 +239,7 @@ export const CONTACTS: ContactData[] = [
   KatieHannon,
   KellyNemmers,
   LarsHansen,
+  LauraBrunetti,
   Leonard,
   Levantera,
   LongJack,
@@ -199,41 +248,57 @@ export const CONTACTS: ContactData[] = [
   LtHarris,
   LukeLarson,
   MageKillerTatiana,
+  MageKillerZuhkara,
   MairennMacGregor,
   MajorRichardFlagg,
+  Manticore,
   MariaJenkins,
   MatthewBurke,
   MatthewHabashy,
+  MauriceFeldon,
   Max,
+  MaxwellChristopher,
   MenderRamiel,
+  MiriamBloechl,
   Mongoose,
+  MontagueCastanella,
+  Moonfire,
   MortimerKal,
   MotherMayhem,
   MrBocor,
-  MrG,
+  MrGPraetorian,
+  MrGPrimal,
   MuVorkan,
   Nadia,
   NealKendrick,
   Neuron,
   NightWidowRagana,
+  NullTheGull,
   NumberSix,
+  Numina,
   OberstStraxt,
   OfficerFields,
   OperativeKirkland,
   OperativeKuzmin,
+  OperativeRenault,
   Orpheus,
   Palatine,
+  PaulaDempsey,
+  PayPhone,
   PenelopeYinFaultline,
   PenelopeYinPraetorian,
+  PercyWinkley,
   Positron,
   PraetorDuncan,
   PraetorSinclair,
+  PraetorWhite,
   Prometheus,
-  ProvostMarchandPrimalEarth,
+  ProvostMarchandPrimal,
   Ractespriel,
   Reese,
   Ricochet,
   RobertFlores,
+  RoyCooling,
   SaraMoore,
   Scirocco,
   Seer1381,
@@ -251,16 +316,23 @@ export const CONTACTS: ContactData[] = [
   Television,
   TheDarkWatcher,
   TheLadyGrey,
+  TheMagician,
+  TimothyRaymond,
   TinMageMarkII,
   TinaChung,
   TinaMacintyre,
   TobiasHansen,
+  TonyKord,
   Transmuter,
   Trepsarciel,
   TunnelRat,
   Twinshot,
+  Vagabond,
   VicGarland,
+  VincentRoss,
   VirgilTarikoss,
+  Wardog,
   Warrant,
   WilmaPeterson,
+  Woodsman,
 ]

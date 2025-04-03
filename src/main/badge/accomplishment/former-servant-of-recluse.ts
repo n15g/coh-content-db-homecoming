@@ -1,4 +1,5 @@
 import { BadgeData } from 'coh-content-db'
+import { LordRecluse } from '../../contact/lord-recluse'
 
 export const FormerServantOfRecluse: BadgeData = {
   type: 'ACCOMPLISHMENT',
@@ -10,15 +11,15 @@ export const FormerServantOfRecluse: BadgeData = {
   ],
   alignment: ['V'],
   badgeText: [
-    { alignment: 'H', value: 'You have broken Paragon City\'s \'best,\' and now must atone for those actions.' },
-    { alignment: 'V', value: 'You have broken Paragon City\'s \'best.\' Let everyone fear you!' },
+    { alignment: 'H', value: `You have broken Paragon City's 'best,' and now must atone for those actions.` },
+    { alignment: 'V', value: `You have broken Paragon City's 'best.' Let everyone fear you!` },
   ],
-  acquisition: 'Complete the Lord Recluse Strike Force: Future of Freedom',
   links: [
     { title: 'Former Servant of Recluse Badge', href: 'https://homecoming.wiki/wiki/Former_Servant_of_Recluse_Badge' },
     { title: 'Servant of Recluse Badge', href: 'https://homecoming.wiki/wiki/Servant_of_Recluse_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/former-servant-of-recluse.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/former-servant-of-recluse.png',
+  requirements: [
+    { key: 'lord-recluse-strike-force', type: 'TASK_FORCE', missionName: 'Lord Recluse Strike Force', contactKey: LordRecluse.key },
   ],
 }

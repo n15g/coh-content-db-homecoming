@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { ProvostMarchandPrimalEarth } from '../../contact/provost-marchand-primal-earth'
+import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 
 export const BrickstownsKeeper: BadgeData = {
   type: 'ACCOMPLISHMENT',
@@ -14,6 +14,6 @@ export const BrickstownsKeeper: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brickstown-arc.png',
   requirements: [
-    { key: 'a-new-war', type: 'ARC', missionName: 'A New War', contactKey: ProvostMarchandPrimalEarth.key },
+    { key: 'a-new-war', type: 'ARC', missionName: 'A New War', contactKey: ProvostMarchandPrimal.key },
   ],
 }

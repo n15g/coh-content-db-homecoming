@@ -1,9 +1,9 @@
 import { ContactData } from 'coh-content-db'
 import { ImperialCity } from '../zone/imperial-city'
 
-export const MrG: ContactData = {
-  key: 'mr-g',
-  name: 'Mr. G',
+export const MrGPraetorian: ContactData = {
+  key: 'mr-g-praetorian',
+  name: 'Mr. G (Praetorian)',
   title: 'Advisor',
   zoneKey: ImperialCity.key,
   loc: [-717, -56, 197],

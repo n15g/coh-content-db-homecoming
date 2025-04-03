@@ -13,6 +13,6 @@ export const DarkHeart: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/dark-heart.png',
   requirements: [
-    { key: 'the-heart-of-darkness-rogues-contest', type: 'ARC', missionName: `The Hearts of Darkness - Rogues' Contest`, contactKey: DrGraves.key },
+    { key: 'the-hearts-of-darkness-rogues-contest', type: 'ARC', missionName: `The Hearts of Darkness - Rogues' Contest`, contactKey: DrGraves.key },
   ],
 }

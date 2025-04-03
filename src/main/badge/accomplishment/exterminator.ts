@@ -1,21 +1,19 @@
 import { BadgeData } from 'coh-content-db'
+import { TimothyRaymond } from '../../contact/timothy-raymond'
 
 export const Exterminator: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'exterminator',
   setTitle: { id: 341 },
-  name: [
-    { value: 'Exterminator' },
-  ],
+  name: 'Exterminator',
   alignment: ['V'],
-  badgeText: [
-    { value: 'The Rikti are like vermin. Good thing you were around to clean \'em out.' },
-  ],
+  badgeText: `The Rikti are like vermin. Good thing you were around to clean 'em out.`,
   acquisition: 'Complete the Eliminate Kit\'Vul mission from Timothy Raymond',
   links: [
     { title: 'Exterminator Badge', href: 'https://homecoming.wiki/wiki/Exterminator_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-6.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-6.png',
+  requirements: [
+    { key: 'eliminate-kitvul', type: 'MISSION', missionName: `Eliminate Kit'Vul`, contactKey: TimothyRaymond.key },
   ],
 }

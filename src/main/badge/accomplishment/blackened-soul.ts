@@ -13,6 +13,6 @@ export const BlackenedSoul: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/blackened-soul.png',
   requirements: [
-    { key: 'the-heart-of-darkness-heroic-measures', type: 'ARC', missionName: 'The Heart of Darkness - Heroic Measures', contactKey: DrGraves.key },
+    { key: 'the-hearts-of-darkness-heroic-measures', type: 'ARC', missionName: 'The Hearts of Darkness - Heroic Measures', contactKey: DrGraves.key },
   ],
 }

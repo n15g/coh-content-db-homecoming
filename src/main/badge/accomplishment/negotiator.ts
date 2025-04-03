@@ -1,21 +1,22 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
+import { TonyKord } from '../../contact/tony-kord'
+import { PaulaDempsey } from '../../contact/paula-dempsey'
+import { MauriceFeldon } from '../../contact/maurice-feldon'
 
 export const Negotiator: BadgeData = {
   type: 'ACCOMPLISHMENT',
   key: 'negotiator',
   setTitle: { id: 71 },
-  name: [
-    { value: 'Negotiator' },
-  ],
+  name: 'Negotiator',
   alignment: ['H'],
-  badgeText: [
-    { value: 'You were instrumental in stopping a war between the Clockwork and the Skulls.' },
-  ],
-  acquisition: 'Complete the Get the Clockwork out of the warehouse before the Skulls get involved mission from Tony Kord, Paula Dempsey, or Maurice Feldon',
+  badgeText: 'You were instrumental in stopping a war between the Clockwork and the Skulls.',
+  notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Break up the Clockwork and the Skulls" entry with number 0.01 in the 1-9 level range.`,
   links: [
     { title: 'Negotiator Badge', href: 'https://homecoming.wiki/wiki/Negotiator_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/negotiator.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/negotiator.png',
+  requirements: [
+    { key: 'clocks-out', type: 'MISSION', missionName: 'Get the Clockwork out of the Warehouse Before the Skulls get Involved', contactKey: [TonyKord.key, PaulaDempsey.key, MauriceFeldon.key] },
   ],
 }

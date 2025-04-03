@@ -3,7 +3,7 @@ import { Seer1381 } from '../../contact/seer-1381'
 import { JessicaFlores } from '../../contact/jessica-flores'
 import { LukeLarson } from '../../contact/luke-larson'
 import { DoctorSteffard } from '../../contact/doctor-steffard'
-import { MrG } from '../../contact/mr-g'
+import { MrGPraetorian } from '../../contact/mr-g-praetorian'
 import { Transmuter } from '../../contact/transmuter'
 import { TamiBaker } from '../../contact/tami-baker'
 import { PraetorSinclair } from '../../contact/praetor-sinclair'
@@ -33,7 +33,7 @@ export const RisingStar: BadgeData = {
     { key: 'self-restraint', type: 'ARC', missionName: `(Resistance Warden) Self Restraint`, contactKey: DoctorSteffard.key },
     { key: 'you-cant-go-home', type: 'ARC', missionName: `(Resistance Warden) You Can't Go Home`, contactKey: Seer1381.key },
     { key: 'mind-freedom', type: 'ARC', missionName: `(Resistance Warden) Mind Freedom`, contactKey: Seer1381.key },
-    { key: 'personal-monster', type: 'ARC', missionName: `(Loyalist Power) Personal Monster`, contactKey: MrG.key },
+    { key: 'personal-monster', type: 'ARC', missionName: `(Loyalist Power) Personal Monster`, contactKey: MrGPraetorian.key },
     { key: 'letting-go', type: 'ARC', missionName: `(Loyalist Power) Letting Go`, contactKey: Transmuter.key },
     { key: 'destroying-the-destroyers', type: 'ARC', missionName: `(Loyalist Power) Destroying the Destroyers`, contactKey: TamiBaker.key },
     { key: 'the-power-to-control', type: 'ARC', missionName: `(Loyalist Power) The Power to Control`, contactKey: PraetorSinclair.key },

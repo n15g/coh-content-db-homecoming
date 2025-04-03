@@ -1,9 +1,9 @@
 import { ContactData } from 'coh-content-db'
 import { Phone } from '../zone/phone'
 
-export const ProvostMarchandPrimalEarth: ContactData = {
-  key: 'provost-marchand-primal-earth',
-  name: 'Provost Marchand (Primal Earth)',
+export const ProvostMarchandPrimal: ContactData = {
+  key: 'provost-marchand-primal',
+  name: 'Provost Marchand (Primal)',
   title: 'Former Provost General of Praetoria',
   zoneKey: Phone.key,
   levelRange: [30, 50],
