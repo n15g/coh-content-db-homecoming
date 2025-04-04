@@ -5,13 +5,13 @@ import { Boomtown } from '../../zone/boomtown'
 import { Faultline } from '../../zone/faultline'
 
 export const Scholar: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'scholar',
-  setTitle: { id: 151 },
+  setTitleId: [151],
   name: [
     { value: 'Scholar' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of Back Alley Brawler's war on drugs in Paragon City.` },
   ],

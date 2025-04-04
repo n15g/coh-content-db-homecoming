@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { MageHunter } from '../accomplishment/mage-hunter'
 
 export const Sorcerer: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'sorcerer',
-  setTitle: { id: 470 },
+  setTitleId: [470],
   name: [
     { value: 'Sorcerer' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'The Tsoo are honored to serve you.' },
   ],
@@ -19,6 +19,6 @@ export const Sorcerer: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: MageHunter.key, type: 'BADGE', badgeKey: MageHunter.key },
+    { key: MageHunter.key, type: 'badge', badgeKey: MageHunter.key },
   ],
 }

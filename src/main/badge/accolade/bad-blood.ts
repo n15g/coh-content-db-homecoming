@@ -9,24 +9,24 @@ import { MostlyHarmless } from '../exploration/mostly-harmless'
 import { Burgermeister } from '../exploration/burgermeister'
 
 export const BadBlood: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'bad-blood',
-  setTitle: { id: 2409 },
+  setTitleId: [2409],
   name: 'Bad Blood',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Bloody Bay.`,
   links: [
     { title: 'Bad Blood Badge', href: 'https://homecoming.wiki/wiki/Bad_Blood_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png',
   requirements: [
-    { key: Lobbyist.key, type: 'BADGE', badgeKey: Lobbyist.key },
-    { key: Hungry.key, type: 'BADGE', badgeKey: Hungry.key },
-    { key: Imploding.key, type: 'BADGE', badgeKey: Imploding.key },
-    { key: Ghoulish.key, type: 'BADGE', badgeKey: Ghoulish.key },
-    { key: WhatLurksBeyond.key, type: 'BADGE', badgeKey: WhatLurksBeyond.key },
-    { key: Restless.key, type: 'BADGE', badgeKey: Restless.key },
-    { key: MostlyHarmless.key, type: 'BADGE', badgeKey: MostlyHarmless.key },
-    { key: Burgermeister.key, type: 'BADGE', badgeKey: Burgermeister.key },
+    { key: Lobbyist.key, type: 'badge', badgeKey: Lobbyist.key },
+    { key: Hungry.key, type: 'badge', badgeKey: Hungry.key },
+    { key: Imploding.key, type: 'badge', badgeKey: Imploding.key },
+    { key: Ghoulish.key, type: 'badge', badgeKey: Ghoulish.key },
+    { key: WhatLurksBeyond.key, type: 'badge', badgeKey: WhatLurksBeyond.key },
+    { key: Restless.key, type: 'badge', badgeKey: Restless.key },
+    { key: MostlyHarmless.key, type: 'badge', badgeKey: MostlyHarmless.key },
+    { key: Burgermeister.key, type: 'badge', badgeKey: Burgermeister.key },
   ],
 }

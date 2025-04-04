@@ -4,11 +4,11 @@ import { AshleyMcKnight } from '../../contact/ashley-mcknight'
 import { PercyWinkley } from '../../contact/percy-winkley'
 
 export const OriginOfPower: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'origin-of-power',
-  setTitle: { id: 989 },
+  setTitleId: [989],
   name: 'Origin of Power',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You gain a deeper understanding of the power and history of origins by talking to a representative of each path.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "The Origin of Power" entry with number 12.02 at level 50.`,
   links: [

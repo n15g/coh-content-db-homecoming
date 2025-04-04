@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { MercyIsland } from '../../zone/mercy-island'
 
 export const TheNextBigThing: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-next-big-thing',
-  setTitle: { id: 267 },
-  name: [{ value: 'The Next Big Thing' }],
-  alignment: ['V'],
+  setTitleId: [267],
+  name: 'The Next Big Thing',
+  morality: 'villainous',
   zoneKey: MercyIsland.key,
   loc: [-1215, 239, -153],
   badgeText: [{
@@ -19,6 +19,6 @@ If you take the elevator up from Mongoose's location and walk straight towards A
   links: [
     { title: 'The Next Big Thing Badge', href: 'https://homecoming.wiki/wiki/The_Next_Big_Thing_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '5',
 }

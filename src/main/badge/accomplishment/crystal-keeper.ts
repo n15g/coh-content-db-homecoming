@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { IceMistral } from '../../contact/ice-mistral'
 
 export const CrystalKeeper: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'crystal-keeper',
-  setTitle: { id: 515 },
+  setTitleId: [515],
   name: 'Crystal Keeper',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You have destroyed the psychic control network the Circle grew from shards of Serafina's crystal, and recovered the crystal itself.`,
   acquisition: 'Complete the Ice Mistral Strike Force: The Crystal of Serafina',
   links: [

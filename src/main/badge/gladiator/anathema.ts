@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Finder } from '../defeat/finder'
 
 export const Anathema: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'anathema',
-  setTitle: { id: 484 },
+  setTitleId: [484],
   name: [
     { value: 'Anathema' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'These Lost serve you grudgingly.' },
   ],
@@ -19,6 +19,6 @@ export const Anathema: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Finder.key, type: 'BADGE', badgeKey: Finder.key },
+    { key: Finder.key, type: 'badge', badgeKey: Finder.key },
   ],
 }

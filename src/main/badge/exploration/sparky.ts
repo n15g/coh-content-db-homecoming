@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const Sparky: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sparky',
-  setTitle: { id: 269 },
-  name: [{ value: 'Sparky' }],
-  alignment: ['V'],
+  setTitleId: [269],
+  name: 'Sparky',
+  morality: 'villainous',
   zoneKey: CapAuDiable.key,
   loc: [-2432, 294, -1248],
   badgeText: [{ value: 'You\'ve spent time wandering around in the Power Transport System at Mount Diable.' }],
@@ -16,6 +16,6 @@ export const Sparky: BadgeData = {
   links: [
     { title: 'Sparky Badge', href: 'https://homecoming.wiki/wiki/Sparky_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '1',
 }

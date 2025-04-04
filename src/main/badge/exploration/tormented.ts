@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheStormPalace } from '../../zone/the-storm-palace'
 
 export const Tormented: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'tormented',
-  setTitle: { id: 1857 },
-  name: [{ value: 'Tormented' }],
-  alignment: ['H'],
+  setTitleId: [1857],
+  name: 'Tormented',
+  morality: 'heroic',
   zoneKey: TheStormPalace.key,
   loc: [-8161, 1101, 5762],
   badgeText: [{
@@ -21,6 +21,6 @@ It is on the west side of the eastern-most island of Lock of Torment.`,
   links: [
     { title: 'Tormented Badge', href: 'https://homecoming.wiki/wiki/Tormented_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '4',
 }

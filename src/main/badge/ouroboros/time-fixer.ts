@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TimeFixer: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'time-fixer',
-  setTitle: { id: 942 },
+  setTitleId: [942],
   name: [
     { value: 'Time Fixer' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 45 story arcs.' },
   ],

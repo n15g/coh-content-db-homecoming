@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { MortimerKal } from '../../contact/mortimer-kal'
 
 export const Promethean: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'promethean',
-  setTitle: { id: 1982 },
+  setTitleId: [1982],
   name: 'Promethean',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You manipulated Mortimer Kal into helping you acquire some of the Flames of Prometheus from Positron!',
   links: [
     { title: 'Promethean Badge', href: 'https://homecoming.wiki/wiki/Promethean_Badge' },

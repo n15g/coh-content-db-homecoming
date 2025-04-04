@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const FortunataSeer: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'fortunata-seer',
-  setTitle: { id: 443 },
+  setTitleId: [443],
   name: [
     { value: 'Fortunata Seer' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'The seers see victory on your side.' },
   ],

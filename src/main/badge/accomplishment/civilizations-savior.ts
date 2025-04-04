@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { NumberSix } from '../../contact/number-six'
 
 export const CivilizationsSavior: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'civilizations-savior',
-  setTitle: { id: 2261 },
+  setTitleId: [2261],
   name: `Civilization's Savior`,
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
-      alignment: 'H', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.`,
+      alignment: 'hero', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.`,
     },
     {
-      alignment: 'V', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.
+      alignment: 'villain', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.
 All according to your plan, of course.`,
     },
   ],

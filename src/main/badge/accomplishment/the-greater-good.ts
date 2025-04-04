@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { AgentWatkins } from '../../contact/agent-watkins'
 
 export const TheGreaterGood: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'the-greater-good',
-  setTitle: { id: 2435 },
+  setTitleId: [2435],
   name: 'The Greater Good',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You chose to sit tight and quarantine yourself, rather than jeopardize Paragon with the diseases from Pathogen's warehouse.`,
   acquisition: `Choose to quarantine during "The Graveyard Shift" story arc from ${contactLink(AgentWatkins)}.`,
   notes: `**Note:** Only awarded to the mission owner.

@@ -3,11 +3,11 @@ import { Duelist } from '../day-job/duelist'
 import { Predator } from '../day-job/predator'
 
 export const Gladiator: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'gladiator',
-  setTitle: { id: 1075 },
+  setTitleId: [1075],
   name: 'Gladiator',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `Your reputation as a ferocious combatant in both PvP Zones and the Arena has earned you the Gladiator Accolade.
 While logged out in either an Arena or a PvP Zone you will additional time for your Combat Shield power.`,
   links: [
@@ -15,7 +15,7 @@ While logged out in either an Arena or a PvP Zone you will additional time for y
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/gladiator.png',
   requirements: [
-    { key: Duelist.key, type: 'BADGE', badgeKey: Duelist.key },
-    { key: Predator.key, type: 'BADGE', badgeKey: Predator.key },
+    { key: Duelist.key, type: 'badge', badgeKey: Duelist.key },
+    { key: Predator.key, type: 'badge', badgeKey: Predator.key },
   ],
 }

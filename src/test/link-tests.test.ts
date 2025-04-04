@@ -2,7 +2,7 @@ import { CohContentDatabase } from '../../../coh-content-db'
 import { HOMECOMING } from '../main'
 
 const UNSAFE_CHARACTERS = /[^a-zA-Z0-9\-._~:/?#\[\]@!$&'()*+,;=%]|%(?![0-9A-Fa-f]{2})/
-const SUPPORTED_PROTOCOLS = ['https:', 'badge:', 'contact:', 'zone:']
+const SUPPORTED_PROTOCOLS = new Set(['https:', 'badge:', 'contact:', 'mission:', 'zone:'])
 
 const database = new CohContentDatabase(HOMECOMING)
 
@@ -23,7 +23,7 @@ describe('Metadata', () => {
     const errors: string[] = []
 
     for (const link of database.metadata.links) {
-      if (!SUPPORTED_PROTOCOLS.includes(new URL(link.href).protocol)) errors.push(`metadata.links['${link.href}'] contains an unsupported protocol.`)
+      if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`metadata.links['${link.href}'] contains an unsupported protocol.`)
     }
 
     if (errors.length > 0) {
@@ -72,12 +72,12 @@ describe('Badge', () => {
 
       for (const badge of database.badges) {
         for (const link of badge.links) {
-          if (!SUPPORTED_PROTOCOLS.includes(new URL(link.href).protocol)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsupported protocol.`)
+          if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsupported protocol.`)
         }
 
         for (const requirement of badge?.requirements ?? []) {
           for (const link of requirement.links) {
-            if (!SUPPORTED_PROTOCOLS.includes(new URL(link.href).protocol)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsupported protocol.`)
+            if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsupported protocol.`)
           }
         }
       }
@@ -129,7 +129,7 @@ describe('Contact', () => {
 
     for (const contact of database.contacts) {
       for (const link of contact.links) {
-        if (!SUPPORTED_PROTOCOLS.includes(new URL(link.href).protocol)) errors.push(`links['${link.href}'] contains an unsupported protocol.`)
+        if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`links['${link.href}'] contains an unsupported protocol.`)
       }
     }
 

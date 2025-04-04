@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Charmer } from '../accomplishment/charmer'
 
 export const HydraProtean: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'hydra-protean',
-  setTitle: { id: 480 },
+  setTitleId: [480],
   name: [
     { value: 'Hydra Protean' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'Mindless, yes. But yours to command.' },
   ],
@@ -19,6 +19,6 @@ export const HydraProtean: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Charmer.key, type: 'BADGE', badgeKey: Charmer.key },
+    { key: Charmer.key, type: 'badge', badgeKey: Charmer.key },
   ],
 }

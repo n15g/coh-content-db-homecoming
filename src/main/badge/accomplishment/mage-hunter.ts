@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { MageKillerZuhkara } from '../../contact/mage-killer-zuhkara'
 
 export const MageHunter: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'mage-hunter',
-  setTitle: { id: 345 },
+  setTitleId: [345],
   name: 'Mage Hunter',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `That's one less creepy mystic to get in your way.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Selestar" entry with number 7.15 in the 40-49 level range.`,
   links: [

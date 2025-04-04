@@ -1,19 +1,21 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { DreamDoctor } from '../../contact/dream-doctor'
 
 export const BailoutHero: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'bailout-hero',
-  setTitle: { id: 2206 },
+  setTitleId: [2206],
   name: [
-    { alignment: 'H', value: 'Bailout Hero' },
-    { alignment: 'V', value: 'Bailout Villain' },
+    { alignment: 'hero', value: 'Bailout Hero' },
+    { alignment: 'villain', value: 'Bailout Villain' },
   ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [{ value: `The Freedom Phalanx and Vindicators were absorbed by Mot in their efforts to free Praetor Duncan. You worked together with a team of super powered individuals and Dream Doctor to save them and Praetor Duncan, while also destroying Diabolique once and for all.` }],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png' }],
-  acquisition: 'Awarded after completing the Dream Doctor mission to complete the Dilemma Diabolique trial.',
+  morality: 'all',
+  badgeText: `The Freedom Phalanx and Vindicators were absorbed by Mot in their efforts to free Praetor Duncan.
+You worked together with a team of super powered individuals and Dream Doctor to save them and Praetor Duncan, while also destroying Diabolique once and for all.`,
+  acquisition: `Awarded after completing the ${contactLink(DreamDoctor)} mission to complete the Dilemma Diabolique trial.`,
   links: [
     { title: 'Bailout Hero Badge', href: 'https://homecoming.wiki/wiki/Bailout_Hero_Badge' },
     { title: 'Bailout Villain Badge', href: 'https://homecoming.wiki/wiki/Bailout_Villain_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/da-zone.png',
 }

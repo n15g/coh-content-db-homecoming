@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const EmberLegacyOfFlame: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'ember-legacy-of-flame',
-  setTitle: { id: 464 },
+  setTitleId: [464],
   name: [
     { value: 'Ember Legacy of Flame' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: 'The Legacy Chain respects you.' },
-    { alignment: 'V', value: 'These do-gooders are trapped in your power.' },
+    { alignment: 'hero', value: 'The Legacy Chain respects you.' },
+    { alignment: 'villain', value: 'These do-gooders are trapped in your power.' },
   ],
   acquisition: 'Defeat 200 Legacy Chain Minions (Legacy Chain)',
   notes: 'The in-game hint text says 100 minions, but 200 are required.',

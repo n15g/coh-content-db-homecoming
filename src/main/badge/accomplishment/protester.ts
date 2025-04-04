@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const Protester: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'protester',
-  setTitle: { id: 1418 },
+  setTitleId: [1418],
   name: 'Protester',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'Not one to stand idly by, you have made your opinions known. For better or for worse.',
   acquisition: `Complete the The Protest zone event in ${zoneLink(NovaPraetoria)}.`,
   links: [

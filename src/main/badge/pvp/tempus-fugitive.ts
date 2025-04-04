@@ -1,17 +1,17 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TempusFugitive: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'tempus-fugitive',
-  setTitle: { id: 372 },
+  setTitleId: [372],
   name: [
-    { alignment: 'H', value: 'Tempus Fugitive' },
-    { alignment: 'V', value: 'Destroyer of Worlds' },
+    { alignment: 'hero', value: 'Tempus Fugitive' },
+    { alignment: 'villain', value: 'Destroyer of Worlds' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have battled Arachnos in a possible future and prevented Recluse's Victory.` },
-    { alignment: 'V', value: `You have fought the future and won, making Recluse's Victory that much more likely.` },
+    { alignment: 'hero', value: `You have battled Arachnos in a possible future and prevented Recluse's Victory.` },
+    { alignment: 'villain', value: `You have fought the future and won, making Recluse's Victory that much more likely.` },
   ],
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/tempus-fugitive.png' }],
   acquisition: '(Issue 25) Win Recluse\'s Victory with 1000 temporal points.',

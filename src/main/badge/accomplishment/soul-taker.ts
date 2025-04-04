@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { ArchmageTarixus } from '../../contact/archmage-tarixus'
 
 export const SoulTaker: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'soul-taker',
-  setTitle: { id: 339 },
+  setTitleId: [339],
   name: 'Soul Taker',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'The wizard Tarixus taught you dark secrets of the infernal realms in this mission.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Offer Soul of Akarist" entry with number 6.40 in the 25-29 level range.`,
   links: [

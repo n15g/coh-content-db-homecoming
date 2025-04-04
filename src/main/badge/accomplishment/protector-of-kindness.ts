@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { JustinAugustine } from '../../contact/justin-augustine'
 
 export const ProtectorOfKindness: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'protector-of-kindness',
-  setTitle: { id: 425 },
+  setTitleId: [425],
   name: [
-    { alignment: 'H', value: 'Protector of Kindness' },
-    { alignment: 'V', value: 'Thorn Crusher' },
+    { alignment: 'hero', value: 'Protector of Kindness' },
+    { alignment: 'villain', value: 'Thorn Crusher' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You saved the being known as Faathim the Kind from capture by the Circle of Thorns.',
   acquisition: 'Complete the Justin Augustine Task Force: The Saga of Faathim',
   links: [

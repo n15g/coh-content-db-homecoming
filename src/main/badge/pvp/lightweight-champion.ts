@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const LightweightChampion: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'lightweight-champion',
-  setTitle: { id: 224 },
+  setTitleId: [224],
   name: [
     { value: 'Lightweight Champion' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'You have achieved the status of Champion in the Lightweight division by winning your first '

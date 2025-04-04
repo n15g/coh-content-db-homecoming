@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const LucentLegacyOfLight: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'lucent-legacy-of-light',
-  setTitle: { id: 465 },
+  setTitleId: [465],
   name: [
     { value: 'Lucent Legacy of Light' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: 'The Legacy Chain respects you.' },
-    { alignment: 'V', value: 'These fools underestimated your true power!' },
+    { alignment: 'hero', value: 'The Legacy Chain respects you.' },
+    { alignment: 'villain', value: 'These fools underestimated your true power!' },
   ],
   acquisition: 'Defeat 200 Legacy Chain Lieutenants (Legacy Chain)',
   links: [

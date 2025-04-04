@@ -3,14 +3,14 @@ import { SewerNetwork } from '../../zone/sewer-network'
 import { KingsRow } from '../../zone/kings-row'
 
 export const SewerKing: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sewer-king',
-  setTitle: { id: 1832 },
+  setTitleId: [1832],
   name: [
     { sex: 'M', value: 'Sewer King' },
     { sex: 'F', value: 'Sewer Queen' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   zoneKey: SewerNetwork.key,
   loc: [2624, 0, 2176],
   badgeText: [{
@@ -25,6 +25,6 @@ The thugs and beasts who call this place home know to fear you, for you are a fo
     { title: 'Sewer King Badge', href: 'https://homecoming.wiki/wiki/Sewer_King_Badge' },
     { title: 'Sewer Queen Badge', href: 'https://homecoming.wiki/wiki/Sewer_Queen_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '4',
 }

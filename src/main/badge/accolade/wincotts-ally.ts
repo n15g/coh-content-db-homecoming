@@ -9,14 +9,14 @@ import { CircleSeeker } from '../exploration/circle-seeker'
 import { Ironic } from '../exploration/ironic'
 
 export const WincottsAlly: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'wincotts-ally',
-  setTitle: { id: 1521 },
+  setTitleId: [1521],
   name: [
-    { alignment: 'H', value: 'Wincott\'s Ally' },
-    { alignment: 'V', value: 'Wincott\'s Betrayer' },
+    { alignment: 'hero', value: 'Wincott\'s Ally' },
+    { alignment: 'villain', value: 'Wincott\'s Betrayer' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within the Hollows.`,
   links: [
     { title: 'Wincott\'s Ally Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Ally_Badge' },
@@ -24,13 +24,13 @@ export const WincottsAlly: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
-    { key: Parapsychologist.key, type: 'BADGE', badgeKey: Parapsychologist.key },
-    { key: SeekerOfMonsters.key, type: 'BADGE', badgeKey: SeekerOfMonsters.key },
-    { key: Geologist.key, type: 'BADGE', badgeKey: Geologist.key },
-    { key: Backwoodsman.key, type: 'BADGE', badgeKey: Backwoodsman.key },
-    { key: GanglandFury.key, type: 'BADGE', badgeKey: GanglandFury.key },
-    { key: GraffitiCommunicator.key, type: 'BADGE', badgeKey: GraffitiCommunicator.key },
-    { key: CircleSeeker.key, type: 'BADGE', badgeKey: CircleSeeker.key },
-    { key: Ironic.key, type: 'BADGE', badgeKey: Ironic.key },
+    { key: Parapsychologist.key, type: 'badge', badgeKey: Parapsychologist.key },
+    { key: SeekerOfMonsters.key, type: 'badge', badgeKey: SeekerOfMonsters.key },
+    { key: Geologist.key, type: 'badge', badgeKey: Geologist.key },
+    { key: Backwoodsman.key, type: 'badge', badgeKey: Backwoodsman.key },
+    { key: GanglandFury.key, type: 'badge', badgeKey: GanglandFury.key },
+    { key: GraffitiCommunicator.key, type: 'badge', badgeKey: GraffitiCommunicator.key },
+    { key: CircleSeeker.key, type: 'badge', badgeKey: CircleSeeker.key },
+    { key: Ironic.key, type: 'badge', badgeKey: Ironic.key },
   ],
 }

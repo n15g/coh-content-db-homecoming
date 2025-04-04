@@ -2,14 +2,14 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../zone/peregrine-island'
 
 export const UseMightForRight: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'use-might-for-right',
-  setTitle: { id: 1572 },
+  setTitleId: [1572],
   name: [
-    { alignment: 'H', value: 'Use Might for Right' },
-    { alignment: 'V', value: 'Rookie\'s Mistake' },
+    { alignment: 'hero', value: 'Use Might for Right' },
+    { alignment: 'villain', value: 'Rookie\'s Mistake' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   zoneKey: PeregrineIsland.key,
   loc: [1424, 0, -774],
   badgeText: [{
@@ -22,6 +22,6 @@ export const UseMightForRight: BadgeData = {
     { title: 'Use Might for Right Badge', href: 'https://homecoming.wiki/wiki/Use_Might_for_Right_Badge' },
     { title: 'Rookie\'s Mistake', href: 'https://homecoming.wiki/wiki/Rookie%27s_Mistake_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '2',
 }

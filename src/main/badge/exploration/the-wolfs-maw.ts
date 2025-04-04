@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { StrigaIsle } from '../../zone/striga-isle'
 
 export const TheWolfsMaw: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-wolfs-maw',
-  setTitle: { id: 1789 },
+  setTitleId: [1789],
   name: [{ value: 'The Wolf\'s Maw' }],
-  alignment: ['H'],
+  morality: 'heroic',
   zoneKey: StrigaIsle.key,
   loc: [-3840, 0, -1971],
   badgeText: [{
@@ -21,6 +21,6 @@ export const TheWolfsMaw: BadgeData = {
   links: [
     { title: 'The Wolf\'s Maw Badge', href: 'https://homecoming.wiki/wiki/The_Wolf%27s_Maw_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '7',
 }

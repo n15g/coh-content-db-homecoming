@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Despoiler: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'despoiler',
-  setTitle: { id: 762 },
+  setTitleId: [762],
   name: [{ value: 'Despoiler' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Defense Debuff, To Hit Debuff, Taunt, and Confuse.' }],
   effect: '+2 to Invention Salvage capacity',
   links: [
@@ -15,17 +15,17 @@ export const Despoiler: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 25,
-      inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
-      inventionCount: 2,
+      inventionTypes: ['defense-debuff', 'to-hit-debuff', 'taunt', 'confuse'],
+      count: 2,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 30,
-      inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
-      inventionCount: 2,
+      inventionTypes: ['defense-debuff', 'to-hit-debuff', 'taunt', 'confuse'],
+      count: 2,
     },
   ],
 }

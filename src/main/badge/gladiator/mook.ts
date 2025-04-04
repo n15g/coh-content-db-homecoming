@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { WashedUp } from '../exploration/washed-up'
 
 export const Mook: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'mook',
-  setTitle: { id: 438 },
+  setTitleId: [438],
   name: [
     { value: 'Mook' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'Dese guys is part of your crew.' },
   ],
@@ -19,6 +19,6 @@ export const Mook: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: WashedUp.key, type: 'BADGE', badgeKey: WashedUp.key },
+    { key: WashedUp.key, type: 'badge', badgeKey: WashedUp.key },
   ],
 }

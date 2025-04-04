@@ -5,11 +5,11 @@ import { PaulaDempsey } from '../../contact/paula-dempsey'
 import { MauriceFeldon } from '../../contact/maurice-feldon'
 
 export const Negotiator: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'negotiator',
-  setTitle: { id: 71 },
+  setTitleId: [71],
   name: 'Negotiator',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You were instrumental in stopping a war between the Clockwork and the Skulls.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Break up the Clockwork and the Skulls" entry with number 0.01 in the 1-9 level range.`,
   links: [

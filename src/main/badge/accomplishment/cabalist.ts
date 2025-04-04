@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { KatieHannon } from '../../contact/katie-hannon'
 
 export const Cabalist: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'cabalist',
-  setTitle: { id: 427 },
+  setTitleId: [427],
   name: 'Cabalist',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You aided the Cabal in their struggle against the loathsome Red Caps.',
   links: [
     { title: 'Cabalist Badge', href: 'https://homecoming.wiki/wiki/Cabalist_Badge' },

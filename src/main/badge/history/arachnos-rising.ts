@@ -5,13 +5,13 @@ import { Warburg } from '../../zone/warburg'
 import { Grandville } from '../../zone/grandville'
 
 export const ArachnosRising: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'arachnos-rising',
-  setTitle: { id: 316 },
+  setTitleId: [316],
   name: [
     { value: 'Arachnos Rising' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: `Know your friends -- but know your rivals even better.` },
   ],

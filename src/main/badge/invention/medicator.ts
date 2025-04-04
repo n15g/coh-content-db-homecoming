@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Medicator: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'medicator',
-  setTitle: { id: 765 },
+  setTitleId: [765],
   name: [{ value: 'Medicator' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 10: Heal.' }],
   links: [
     { title: 'Medicator Badge', href: 'https://homecoming.wiki/wiki/Medicator_Badge' },
@@ -14,10 +14,10 @@ export const Medicator: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 10,
-      inventionTypes: ['HEALING'],
-      inventionCount: 7,
+      inventionTypes: ['healing'],
+      count: 7,
     },
   ],
 }

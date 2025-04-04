@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { LtHarris } from '../../contact/lt-harris'
 
 export const FreedomCracker: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'freedom-cracker',
-  setTitle: { id: 2013 },
+  setTitleId: [2013],
   name: 'Freedom Cracker',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You've kicked Longbow out of Fort Darwin, showing them that they don't belong in the Rogue Isles!`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Price of Friendship" entry with number 21.08 in the 1-9 level range.`,
   links: [

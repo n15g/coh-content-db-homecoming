@@ -1,31 +1,28 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Guide: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'guide',
-  setTitle: { id: 13, praetorianId: 1706 },
+  setTitleId: [13, 1706],
   name: [
-    { alignment: 'H', value: 'Guide' },
-    { alignment: 'V', value: 'Drill Instructor' },
-    { alignment: 'P', value: 'Motivator' },
+    { alignment: 'hero', value: 'Guide' },
+    { alignment: 'villain', value: 'Drill Instructor' },
+    { alignment: 'praetorian', value: 'Motivator' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'Your continued mentoring has earned you this badge.' },
-    { alignment: 'V', value: 'You\'ve spent time teaching the young toughs how to do it \'Old School.\'' },
-    {
-      alignment: 'P', value: 'If those you mentor slack off, you\'ve got quite a few ways to motivate them. They\'re not all '
-        + 'pleasant.',
-    },
+    { alignment: 'hero', value: 'Your continued mentoring has earned you this badge.' },
+    { alignment: 'villain', value: `You've spent time teaching the young toughs how to do it 'Old School.'` },
+    { alignment: 'praetorian', value: `If those you mentor slack off, you've got quite a few ways to motivate them. They're not all pleasant.` },
   ],
-  acquisition: 'Sidekick another hero for 8 hours',
+  acquisition: 'Sidekick another hero for 8 hours.',
   links: [
     { title: 'Guide Badge', href: 'https://homecoming.wiki/wiki/Guide_Badge' },
     { title: 'Drill Instructor Badge', href: 'https://homecoming.wiki/wiki/Drill_Instructor_Badge' },
     { title: 'Motivator Badge', href: 'https://homecoming.wiki/wiki/Motivator_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/mentor-v.png' },
   ],
 }

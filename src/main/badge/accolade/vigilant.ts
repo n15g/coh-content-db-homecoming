@@ -5,22 +5,22 @@ import { Gaussian } from '../../contact/gaussian'
 import { TheDarkWatcher } from '../../contact/the-dark-watcher'
 
 export const Vigilant: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'vigilant',
-  setTitle: { id: 2353 },
+  setTitleId: [2353],
   name: 'Vigilant',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You're always there when the people of Paragon City need you.` },
-    { alignment: 'V', value: `Your shadow looms over not only the Rogue Isles and Paragon City, but the entire world.` },
+    { alignment: 'hero', value: `You're always there when the people of Paragon City need you.` },
+    { alignment: 'villain', value: `Your shadow looms over not only the Rogue Isles and Paragon City, but the entire world.` },
   ],
   effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Vigilant Badge', href: 'https://homecoming.wiki/wiki/Vigilant_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png' },
   ],
   requirements: [
     { key: 'welcome-to-the-vanguard', type: 'ARC', missionName: 'Welcome to the Vanguard', contactKey: Levantera.key },

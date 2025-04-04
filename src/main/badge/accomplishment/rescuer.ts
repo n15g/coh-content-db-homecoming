@@ -3,17 +3,17 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { PenelopeYinFaultline } from '../../contact/penelope-yin-faultline'
 
 export const Rescuer: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'rescuer',
-  setTitle: { id: 696 },
+  setTitleId: [696],
   name: [
-    { alignment: 'H', value: 'Rescuer' },
-    { alignment: 'V', value: 'Big Softie' },
+    { alignment: 'hero', value: 'Rescuer' },
+    { alignment: 'villain', value: 'Big Softie' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `You saved Penelope Yin's father from the Lost, and now a thankful Mr. Yin has re-opened Yin's Market in Faultline. You can now shop there whenever you want.` },
-    { alignment: 'V', value: 'Having saved Penelope Yin brings you no end of scorn from other villains. Before you smash them into oblivion, they call you a Big Softie.' },
+    { alignment: 'hero', value: `You saved Penelope Yin's father from the Lost, and now a thankful Mr. Yin has re-opened Yin's Market in Faultline. You can now shop there whenever you want.` },
+    { alignment: 'villain', value: 'Having saved Penelope Yin brings you no end of scorn from other villains. Before you smash them into oblivion, they call you a Big Softie.' },
   ],
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "I lost my Daddy!" entry with number 8.02 in the 20-24 level range.`,
   links: [

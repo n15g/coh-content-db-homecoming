@@ -10,17 +10,17 @@ import { FoundersProtector } from '../exploration/founders-protector'
 import { Gatekeeper } from '../exploration/gatekeeper'
 
 export const Stouthearted: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'stouthearted',
-  setTitle: { id: 647 },
+  setTitleId: [647],
   name: [
-    { alignment: 'H', value: 'Stouthearted' },
-    { alignment: 'V', value: 'Stonehearted' },
+    { alignment: 'hero', value: 'Stouthearted' },
+    { alignment: 'villain', value: 'Stonehearted' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `You've left no stone unturned in your efforts to protect Paragon City's financial infrastructure. Your diligence is greatly appreciated by all.` },
-    { alignment: 'V', value: `No one can explain your turn to villainy after going to such lengths to defend all of Paragon. Perhaps your heart has turned to stone.` },
+    { alignment: 'hero', value: `You've left no stone unturned in your efforts to protect Paragon City's financial infrastructure. Your diligence is greatly appreciated by all.` },
+    { alignment: 'villain', value: `No one can explain your turn to villainy after going to such lengths to defend all of Paragon. Perhaps your heart has turned to stone.` },
   ],
   links: [
     { title: 'Stouthearted Badge', href: 'https://homecoming.wiki/wiki/Stouthearted_Badge' },
@@ -28,14 +28,14 @@ export const Stouthearted: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/stouthearted.png',
   requirements: [
-    { key: HeartOfTheCity.key, type: 'BADGE', badgeKey: HeartOfTheCity.key },
-    { key: KingsRighteousness.key, type: 'BADGE', badgeKey: KingsRighteousness.key },
-    { key: CourageDriven.key, type: 'BADGE', badgeKey: CourageDriven.key },
-    { key: FreedomsDefender.key, type: 'BADGE', badgeKey: FreedomsDefender.key },
-    { key: HonorableCaptain.key, type: 'BADGE', badgeKey: HonorableCaptain.key },
-    { key: TalosMight.key, type: 'BADGE', badgeKey: TalosMight.key },
-    { key: Cornerstone.key, type: 'BADGE', badgeKey: Cornerstone.key },
-    { key: FoundersProtector.key, type: 'BADGE', badgeKey: FoundersProtector.key },
-    { key: Gatekeeper.key, type: 'BADGE', badgeKey: Gatekeeper.key },
+    { key: HeartOfTheCity.key, type: 'badge', badgeKey: HeartOfTheCity.key },
+    { key: KingsRighteousness.key, type: 'badge', badgeKey: KingsRighteousness.key },
+    { key: CourageDriven.key, type: 'badge', badgeKey: CourageDriven.key },
+    { key: FreedomsDefender.key, type: 'badge', badgeKey: FreedomsDefender.key },
+    { key: HonorableCaptain.key, type: 'badge', badgeKey: HonorableCaptain.key },
+    { key: TalosMight.key, type: 'badge', badgeKey: TalosMight.key },
+    { key: Cornerstone.key, type: 'badge', badgeKey: Cornerstone.key },
+    { key: FoundersProtector.key, type: 'badge', badgeKey: FoundersProtector.key },
+    { key: Gatekeeper.key, type: 'badge', badgeKey: Gatekeeper.key },
   ],
 }

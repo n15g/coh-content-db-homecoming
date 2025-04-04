@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { StrigaIsle } from '../../zone/striga-isle'
 
 export const TheUnnamed: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-unnamed',
-  setTitle: { id: 1788 },
-  name: [{ value: 'The Unnamed' }],
-  alignment: ['H'],
+  setTitleId: [1788],
+  name: 'The Unnamed',
+  morality: 'heroic',
   zoneKey: StrigaIsle.key,
   loc: [-2381, -31, -2285],
   badgeText: [{
@@ -20,6 +20,6 @@ export const TheUnnamed: BadgeData = {
   links: [
     { title: 'The Unnamed Badge', href: 'https://homecoming.wiki/wiki/The_Unnamed_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '6',
 }

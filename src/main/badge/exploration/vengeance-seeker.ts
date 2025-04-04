@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirstWard } from '../../zone/first-ward'
 
 export const VengeanceSeeker: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'vengeance-seeker',
-  setTitle: { id: 2054 },
-  name: [{ value: 'Vengeance Seeker' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [2054],
+  name: 'Vengeance Seeker',
+  morality: 'all',
   zoneKey: FirstWard.key,
   loc: [1444, 219, 3459],
   badgeText: [{
@@ -19,6 +19,6 @@ The Talons must be stopped, they must be punished for their actions, and you sha
   links: [
     { title: 'Vengeance Seeker Badge', href: 'https://homecoming.wiki/wiki/Vengeance_Seeker_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '7',
 }

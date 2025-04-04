@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const UnethicalTourist: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'unethical-tourist',
-  setTitle: { id: 1501 },
-  name: [{ value: 'Unethical Tourist' }],
-  alignment: ['V'],
+  setTitleId: [1501],
+  name: 'Unethical Tourist',
+  morality: 'villainous',
   zoneKey: NervaArchipelago.key,
   loc: [-644, 16, 6712],
   badgeText: [{
@@ -18,6 +18,6 @@ It is in the middle of the southwestern specimen hangar, 597 yards east of the n
   links: [
     { title: 'Unethical Tourist Badge', href: 'https://homecoming.wiki/wiki/Unethical_Tourist_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '6',
 }

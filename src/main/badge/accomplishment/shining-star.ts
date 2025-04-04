@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { Twinshot } from '../../contact/twinshot'
 
 export const ShiningStar: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'shining-star',
-  setTitle: { id: 2014 },
+  setTitleId: [2014],
   name: 'Shining Star',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You and your friends have proven your worth to Manticore, and gained a high-profile benefactor.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "A New Day Dawning" entry with number 21.09 in the 1-9 level range.`,
   links: [

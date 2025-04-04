@@ -12,17 +12,17 @@ import { Unveiler } from '../defeat/unveiler'
 import { Vigorous } from '../exploration/vigorous'
 
 export const FreedomPhalanxReserveMember: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'freedom-phalanx-reserve-member',
-  setTitle: { id: 161 },
+  setTitleId: [161],
   name: [
-    { alignment: 'H', value: 'Freedom Phalanx Reserve Member' },
-    { alignment: 'V', value: 'Freedom Phalanx Fallen' },
+    { alignment: 'hero', value: 'Freedom Phalanx Reserve Member' },
+    { alignment: 'villain', value: 'Freedom Phalanx Fallen' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `You have earned a reserve membership into Paragon City's premier Super Group: Freedom Phalanx. This privilege comes with the added perk of +10% Hit Points.` },
-    { alignment: 'V', value: `The Freedom Phalanx has stricken you from their rolls. All associated rights and privileges have been revoked.` },
+    { alignment: 'hero', value: `You have earned a reserve membership into Paragon City's premier Super Group: Freedom Phalanx. This privilege comes with the added perk of +10% Hit Points.` },
+    { alignment: 'villain', value: `The Freedom Phalanx has stricken you from their rolls. All associated rights and privileges have been revoked.` },
   ],
   effect: 'Awards +10% Max Health.',
   links: [
@@ -31,16 +31,16 @@ export const FreedomPhalanxReserveMember: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/freedom-phalanx-reserve-member.png',
   requirements: [
-    { key: Authority.key, type: 'BADGE', badgeKey: Authority.key },
-    { key: Brawler.key, type: 'BADGE', badgeKey: Brawler.key },
-    { key: Gearsmasher.key, type: 'BADGE', badgeKey: Gearsmasher.key },
-    { key: KeenSighted.key, type: 'BADGE', badgeKey: KeenSighted.key },
-    { key: NimbleMynx.key, type: 'BADGE', badgeKey: NimbleMynx.key },
-    { key: Purifier.key, type: 'BADGE', badgeKey: Purifier.key },
-    { key: Regal.key, type: 'BADGE', badgeKey: Regal.key },
-    { key: Summoned.key, type: 'BADGE', badgeKey: Summoned.key },
-    { key: TankBuster.key, type: 'BADGE', badgeKey: TankBuster.key },
-    { key: Unveiler.key, type: 'BADGE', badgeKey: Unveiler.key },
-    { key: Vigorous.key, type: 'BADGE', badgeKey: Vigorous.key },
+    { key: Authority.key, type: 'badge', badgeKey: Authority.key },
+    { key: Brawler.key, type: 'badge', badgeKey: Brawler.key },
+    { key: Gearsmasher.key, type: 'badge', badgeKey: Gearsmasher.key },
+    { key: KeenSighted.key, type: 'badge', badgeKey: KeenSighted.key },
+    { key: NimbleMynx.key, type: 'badge', badgeKey: NimbleMynx.key },
+    { key: Purifier.key, type: 'badge', badgeKey: Purifier.key },
+    { key: Regal.key, type: 'badge', badgeKey: Regal.key },
+    { key: Summoned.key, type: 'badge', badgeKey: Summoned.key },
+    { key: TankBuster.key, type: 'badge', badgeKey: TankBuster.key },
+    { key: Unveiler.key, type: 'badge', badgeKey: Unveiler.key },
+    { key: Vigorous.key, type: 'badge', badgeKey: Vigorous.key },
   ],
 }

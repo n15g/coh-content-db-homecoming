@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { TheMagician } from '../../contact/the-magician'
 
 export const OneOfTheEight: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'one-of-the-eight',
-  setTitle: { id: 2237 },
+  setTitleId: [2237],
   name: 'One of the Eight',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You tamed the chaos and magic which ran unchecked in the Night Ward, saving the world from the would-be rampages of Sorceress Serene and the Mother of all Monsters.',
   acquisition: 'Complete the story arc from The Magician',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "The Gate That Cannot Open" entry with number 23.05 in the 35-39 level range.`,

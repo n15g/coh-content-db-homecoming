@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Stonekeeper } from '../exploration/stonekeeper'
 
 export const Wailer: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'wailer',
-  setTitle: { id: 457 },
+  setTitleId: [457],
   name: [
     { value: 'Wailer' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'Your infamy has attracted supernatural notice.' },
   ],
@@ -19,6 +19,6 @@ export const Wailer: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Stonekeeper.key, type: 'BADGE', badgeKey: Stonekeeper.key },
+    { key: Stonekeeper.key, type: 'badge', badgeKey: Stonekeeper.key },
   ],
 }

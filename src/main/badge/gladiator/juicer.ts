@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { WatcherOnTheKnoll } from '../exploration/watcher-on-the-knoll'
 
 export const Juicer: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'juicer',
-  setTitle: { id: 475 },
+  setTitleId: [475],
   name: [
     { value: 'Juicer' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'The Freaks celebrate you as a force of anarchy.' },
   ],
@@ -19,6 +19,6 @@ export const Juicer: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: WatcherOnTheKnoll.key, type: 'BADGE', badgeKey: WatcherOnTheKnoll.key },
+    { key: WatcherOnTheKnoll.key, type: 'badge', badgeKey: WatcherOnTheKnoll.key },
   ],
 }

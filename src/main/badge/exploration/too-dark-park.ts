@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 
 export const TooDarkPark: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'too-dark-park',
-  setTitle: { id: 1783 },
-  name: [{ value: 'Too Dark Park' }],
-  alignment: ['H'],
+  setTitleId: [1783],
+  name: 'Too Dark Park',
+  morality: 'heroic',
   zoneKey: EchoDarkAstoria.key,
   loc: [935, -1, 4321],
   badgeText: [{
@@ -19,6 +19,6 @@ export const TooDarkPark: BadgeData = {
   links: [
     { title: 'Too Dark Park Badge', href: 'https://homecoming.wiki/wiki/Too_Dark_Park_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '6',
 }

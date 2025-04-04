@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirstWard } from '../../zone/first-ward'
 
 export const WitnessForTheFallen: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'witness-for-the-fallen',
-  setTitle: { id: 2055 },
-  name: [{ value: 'Witness for the Fallen' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [2055],
+  name: 'Witness for the Fallen',
+  morality: 'all',
   zoneKey: FirstWard.key,
   loc: [181, 13, -677],
   badgeText: [{
@@ -19,6 +19,6 @@ It is on the shoulder of a partially submerged statue of the emperor.`,
   links: [
     { title: 'Witness for the Fallen Badge', href: 'https://homecoming.wiki/wiki/Witness_for_the_Fallen_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '8',
 }

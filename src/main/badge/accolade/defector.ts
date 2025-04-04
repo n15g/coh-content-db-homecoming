@@ -3,21 +3,21 @@ import { CannonFodder } from '../day-job/cannon-fodder'
 import { Banker } from '../day-job/banker'
 
 export const Defector: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'defector',
-  setTitle: { id: 1069 },
+  setTitleId: [1069],
   name: [
-    { alignment: 'H', value: 'Defector' },
-    { alignment: 'V', value: 'Black Ops' },
+    { alignment: 'hero', value: 'Defector' },
+    { alignment: 'villain', value: 'Black Ops' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     {
-      alignment: 'H',
+      alignment: 'hero',
       value: `You've taken your skills at wetwork and espionage and defected to the other side, which has a lot more qualms about using those skills to their fullest potential.`,
     },
     {
-      alignment: 'V',
+      alignment: 'villain',
       value: `Your mastery of stealth and your training with Arachnos has earned you the Black Ops Accolade. While logged out in an Arachnos controlled area or inside a Vault you will earn charges for your Smoke Bomb power.`,
     },
   ],
@@ -27,7 +27,7 @@ export const Defector: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/defector.png',
   requirements: [
-    { key: CannonFodder.key, type: 'BADGE', badgeKey: CannonFodder.key },
-    { key: Banker.key, type: 'BADGE', badgeKey: Banker.key },
+    { key: CannonFodder.key, type: 'badge', badgeKey: CannonFodder.key },
+    { key: Banker.key, type: 'badge', badgeKey: Banker.key },
   ],
 }

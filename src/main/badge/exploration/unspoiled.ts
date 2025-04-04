@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Eden } from '../../zone/eden'
 
 export const Unspoiled: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'unspoiled',
-  setTitle: { id: 141 },
-  name: [{ value: 'Unspoiled' }],
-  alignment: ['H'],
+  setTitleId: [141],
+  name: 'Unspoiled',
+  morality: 'heroic',
   zoneKey: Eden.key,
   loc: [2482, 34, 2350],
   badgeText: [{
@@ -16,6 +16,6 @@ export const Unspoiled: BadgeData = {
   links: [
     { title: 'Unspoiled Badge', href: 'https://homecoming.wiki/wiki/Unspoiled_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '2',
 }

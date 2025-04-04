@@ -49,6 +49,7 @@ import { Neutropolis } from './neutropolis'
 import { NightWard } from './night-ward'
 import { NovaPraetoria } from './nova-praetoria'
 import { Ouroboros } from './ouroboros'
+import { ParagonDanceParty } from './paragon-dance-party'
 import { PeregrineIsland } from './peregrine-island'
 import { PerezPark } from './perez-park'
 import { Phone } from './phone'
@@ -73,6 +74,7 @@ import { SkywayCity } from './skyway-city'
 import { StMartial } from './st-martial'
 import { SteelCanyon } from './steel-canyon'
 import { StrigaIsle } from './striga-isle'
+import { Studio55 } from './studio-55'
 import { TalosIsland } from './talos-island'
 import { TerraVolta } from './terra-volta'
 import { TheAbyss } from './the-abyss'
@@ -119,7 +121,6 @@ export const ZONES: ZoneData[] = [
   IndependencePort,
   KallistiWharf,
   KingsRow,
-  TheLabyrinthOfFog,
   MayhemAtlasPark,
   MayhemBrickstown,
   MayhemFoundersFalls,
@@ -137,6 +138,7 @@ export const ZONES: ZoneData[] = [
   NightWard,
   NovaPraetoria,
   Ouroboros,
+  ParagonDanceParty,
   PeregrineIsland,
   PerezPark,
   Phone,
@@ -158,15 +160,17 @@ export const ZONES: ZoneData[] = [
   SharkheadIsle,
   SirensCall,
   SkywayCity,
-  SteelCanyon,
   StMartial,
+  SteelCanyon,
   StrigaIsle,
+  Studio55,
   TalosIsland,
   TerraVolta,
   TheAbyss,
   TheChantry,
   TheHive,
   TheHollows,
+  TheLabyrinthOfFog,
   TheStormPalace,
   UndergroundImperial,
   UndergroundNeutropolis,

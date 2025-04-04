@@ -9,11 +9,11 @@ import { Customizer } from '../ae/customizer'
 import { BugFixer } from '../ae/bug-fixer'
 
 export const MissionEngineer: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'mission-engineer',
-  setTitle: { id: 1134 },
+  setTitleId: [1134],
   name: 'Mission Engineer',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `Your overall expertise in everything relating to the Mission Architect system has earned you the title of Mission Engineer.
 Owning this Accolade will grant you the ability to remotely create and edit Mission Architect content.`,
   effect: `Awards usage of the Architect Comlink macro.`,
@@ -22,13 +22,13 @@ Owning this Accolade will grant you the ability to remotely create and edit Miss
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mission-engineer.png',
   requirements: [
-    { key: ThrillSeeker.key, type: 'BADGE', badgeKey: ThrillSeeker.key },
-    { key: Gamer.key, type: 'BADGE', badgeKey: Gamer.key },
-    { key: TicketTaker.key, type: 'BADGE', badgeKey: TicketTaker.key },
-    { key: Author.key, type: 'BADGE', badgeKey: Author.key },
-    { key: Recognized.key, type: 'BADGE', badgeKey: Recognized.key },
-    { key: EarlyBird.key, type: 'BADGE', badgeKey: EarlyBird.key },
-    { key: Customizer.key, type: 'BADGE', badgeKey: Customizer.key },
-    { key: BugFixer.key, type: 'BADGE', badgeKey: BugFixer.key },
+    { key: ThrillSeeker.key, type: 'badge', badgeKey: ThrillSeeker.key },
+    { key: Gamer.key, type: 'badge', badgeKey: Gamer.key },
+    { key: TicketTaker.key, type: 'badge', badgeKey: TicketTaker.key },
+    { key: Author.key, type: 'badge', badgeKey: Author.key },
+    { key: Recognized.key, type: 'badge', badgeKey: Recognized.key },
+    { key: EarlyBird.key, type: 'badge', badgeKey: EarlyBird.key },
+    { key: Customizer.key, type: 'badge', badgeKey: Customizer.key },
+    { key: BugFixer.key, type: 'badge', badgeKey: BugFixer.key },
   ],
 }

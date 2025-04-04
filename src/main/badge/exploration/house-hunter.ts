@@ -1,25 +1,23 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { NightWard } from '../../zone/night-ward'
 
 export const HouseHunter: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'house-hunter',
-  setTitle: { id: 2228 },
-  name: [{ value: 'House Hunter' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [2228],
+  name: 'House Hunter',
+  morality: 'all',
   zoneKey: NightWard.key,
   loc: [1699, -577, -1975],
-  badgeText: [{
-    value: `Chance holds little sway over the fate of Night Ward's visitors, and your happening upon the Midnighter Mansion was no exception.
+  badgeText: `Chance holds little sway over the fate of Night Ward's visitors, and your happening upon the Midnighter Mansion was no exception.
 Despite the gloomy facade of this old Victorian house you feel eerily at home within its walls.`,
-  }],
-  notes: `Located in ${zoneLink(NightWard)}, is located in the The Arcane Quarter neighborhood, just inside the door to the Midnighter Mansion.
+  notes: `Located in the Arcane Quarter neighborhood, just inside the entrance to the Midnighter Mansion.
 
-To get into the mansion you have to enter through another entrance to obtain the badge.
-The coordinates for the entrance is 1797.9 109.6 -2416.4 (It's a greenish colored building on top of a hill 94 yards from the Tunnel entry on your map).`,
+To access the mansion and obtain the badge, you must first enter through an alternate entrance.
+The coordinates for this entrance are (1797.9, 109.6, -2416.4). It is a greenish-colored building situated atop a hill, approximately 94 yards from the Tunnel entry marked on your map.`,
   links: [
     { title: 'House Hunter Badge', href: 'https://homecoming.wiki/wiki/House_Hunter_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '3',
 }

@@ -9,24 +9,24 @@ import { Vulcanologist } from '../exploration/vulcanologist'
 import { WordsOfTheWarrior } from '../exploration/words-of-the-warrior'
 
 export const StraightThroughStriga: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'straight-through-striga',
-  setTitle: { id: 1879 },
+  setTitleId: [1879],
   name: 'Straight Through Striga',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Striga Isle.`,
   links: [
     { title: 'Straight Through Striga Badge', href: 'https://homecoming.wiki/wiki/Straight_Through_Striga_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
-    { key: SeaDog.key, type: 'BADGE', badgeKey: SeaDog.key },
-    { key: SuperSpy.key, type: 'BADGE', badgeKey: SuperSpy.key },
-    { key: TheUnnamed.key, type: 'BADGE', badgeKey: TheUnnamed.key },
-    { key: TheWolfsSnarl.key, type: 'BADGE', badgeKey: TheWolfsSnarl.key },
-    { key: TheWolfsMaw.key, type: 'BADGE', badgeKey: TheWolfsMaw.key },
-    { key: VampyriWatcher.key, type: 'BADGE', badgeKey: VampyriWatcher.key },
-    { key: Vulcanologist.key, type: 'BADGE', badgeKey: Vulcanologist.key },
-    { key: WordsOfTheWarrior.key, type: 'BADGE', badgeKey: WordsOfTheWarrior.key },
+    { key: SeaDog.key, type: 'badge', badgeKey: SeaDog.key },
+    { key: SuperSpy.key, type: 'badge', badgeKey: SuperSpy.key },
+    { key: TheUnnamed.key, type: 'badge', badgeKey: TheUnnamed.key },
+    { key: TheWolfsSnarl.key, type: 'badge', badgeKey: TheWolfsSnarl.key },
+    { key: TheWolfsMaw.key, type: 'badge', badgeKey: TheWolfsMaw.key },
+    { key: VampyriWatcher.key, type: 'badge', badgeKey: VampyriWatcher.key },
+    { key: Vulcanologist.key, type: 'badge', badgeKey: Vulcanologist.key },
+    { key: WordsOfTheWarrior.key, type: 'badge', badgeKey: WordsOfTheWarrior.key },
   ],
 }

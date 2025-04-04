@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { AdaWellington } from '../../contact/ada-wellington'
 
 export const LoyalCustomer: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'loyal-customer',
-  setTitle: { id: 2369 },
+  setTitleId: [2369],
   name: 'Loyal Customer',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You have stopped the Sky Raiders from ransacking Wentworth's Fine Consignments.`,
   acquisition: 'Complete the Market Crash Task Force in Kallisti Wharf.',
   links: [

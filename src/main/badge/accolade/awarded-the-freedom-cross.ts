@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { MajorRichardFlagg } from '../../contact/major-richard-flagg'
 
 export const AwardedTheFreedomCross: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'awarded-the-freedom-cross',
-  setTitle: { id: 180 },
+  setTitleId: [180],
   name: [
-    { alignment: 'H', value: 'Awarded the Freedom Cross' },
-    { alignment: 'V', value: 'Stripped of the Freedom Cross' },
+    { alignment: 'hero', value: 'Awarded the Freedom Cross' },
+    { alignment: 'villain', value: 'Stripped of the Freedom Cross' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'Again your Terra Volta experience has altered your powers in ways no one could imagine.',
   effect: 'Awards a character respecification.',
   links: [

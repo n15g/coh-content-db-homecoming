@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { KeeperOfPeace } from '../achievement/keeper-of-peace'
 
 export const WolfSpiderTacOps: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'wolf-spider-tac-ops',
-  setTitle: { id: 441 },
+  setTitleId: [441],
   name: [
     { value: 'Wolf Spider Tac Ops' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'Your leadership skills are recognized.' },
   ],
@@ -19,6 +19,6 @@ export const WolfSpiderTacOps: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: KeeperOfPeace.key, type: 'BADGE', badgeKey: KeeperOfPeace.key },
+    { key: KeeperOfPeace.key, type: 'badge', badgeKey: KeeperOfPeace.key },
   ],
 }

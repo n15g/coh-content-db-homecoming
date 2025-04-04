@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { DrKahn } from '../../contact/dr-khan'
 
 export const ColumnBreaker: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'column-breaker',
-  setTitle: { id: 1293 },
+  setTitleId: [1293],
   name: 'Column Breaker',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `Even though Reichsman managed to escape, you know you've stopped his plans to form an unstoppable allegiance of evil.`,
   links: [
     { title: 'Column Breaker Badge', href: 'https://homecoming.wiki/wiki/Column_Breaker_Badge' },

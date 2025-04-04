@@ -3,11 +3,11 @@ import { NealKendrick } from '../../contact/neal-kendrick'
 import { TinaChung } from '../../contact/tina-chung'
 
 export const Corrupter: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'corrupter',
-  setTitle: { id: 78 },
+  setTitleId: [78],
   name: 'Corrupter',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You prevented a non-aggression pact between the Circle of Thorns and Nemesis.',
   links: [
     { title: 'Corrupter Badge', href: 'https://homecoming.wiki/wiki/Corrupter_Badge' },

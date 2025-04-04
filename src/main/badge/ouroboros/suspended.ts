@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Suspended: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'suspended',
-  setTitle: { id: 903 },
+  setTitleId: [903],
   name: [
     { value: 'Suspended' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Travel Power Power Pools.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 46 and 50 while not using any Travel Power Power Pools.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Travel Power Power Pools.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 46 and 50 while not using any Travel Power Power Pools.` },
   ],
   acquisition: 'Complete a level 46-50 Flashback story arc using no travel powers.',
   links: [

@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Imprisoned } from '../achievement/imprisoned'
 
 export const WailerQueen: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'wailer-queen',
-  setTitle: { id: 458 },
+  setTitleId: [458],
   name: [
     { value: 'Wailer Queen' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'What does this creature see in you?' },
   ],
@@ -19,6 +19,6 @@ export const WailerQueen: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Imprisoned.key, type: 'BADGE', badgeKey: Imprisoned.key },
+    { key: Imprisoned.key, type: 'badge', badgeKey: Imprisoned.key },
   ],
 }

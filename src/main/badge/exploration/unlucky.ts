@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { IndependencePort } from '../../zone/independence-port'
 
 export const Unlucky: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'unlucky',
-  setTitle: { id: 1556 },
-  name: [{ value: 'Unlucky' }],
-  alignment: ['H'],
+  setTitleId: [1556],
+  name: 'Unlucky',
+  morality: 'heroic',
   zoneKey: IndependencePort.key,
   loc: [2044, 0, -9663],
   badgeText: [{
@@ -18,6 +18,6 @@ export const Unlucky: BadgeData = {
   links: [
     { title: 'Unlucky Badge', href: 'https://homecoming.wiki/wiki/Unlucky_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '8',
 }

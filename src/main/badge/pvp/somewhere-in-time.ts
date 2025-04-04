@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const SomewhereInTime: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'somewhere-in-time',
-  setTitle: { id: 565 },
+  setTitleId: [565],
   name: [
     { value: 'Somewhere in Time' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: '50 pillboxes have fallen into your hands.' },
   ],

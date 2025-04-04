@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { MercyIsland } from '../../zone/mercy-island'
 
 export const TikiFan: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'tiki-fan',
-  setTitle: { id: 1485 },
-  name: [{ value: 'Tiki Fan' }],
-  alignment: ['V'],
+  setTitleId: [1485],
+  name: 'Tiki Fan',
+  morality: 'villainous',
   zoneKey: MercyIsland.key,
   loc: [-1836, 239, 438],
   badgeText: [{
@@ -19,6 +19,6 @@ It is directly in front of Larry's Tiki Lounge 133 yards SE of the neighborhood 
   links: [
     { title: 'Tiki Fan Badge', href: 'https://homecoming.wiki/wiki/Tiki_Fan_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '8',
 }

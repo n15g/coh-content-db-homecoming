@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { StoneCold } from '../accomplishment/stone-cold'
 
 export const MookCapo: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'mook-capo',
-  setTitle: { id: 456 },
+  setTitleId: [456],
   name: [
     { value: 'Mook Capo' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'Da Mooks are on your side.' },
   ],
@@ -19,6 +19,6 @@ export const MookCapo: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: StoneCold.key, type: 'BADGE', badgeKey: StoneCold.key },
+    { key: StoneCold.key, type: 'badge', badgeKey: StoneCold.key },
   ],
 }

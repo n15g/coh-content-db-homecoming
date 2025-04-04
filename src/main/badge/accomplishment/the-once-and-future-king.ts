@@ -3,14 +3,14 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { SirBedwyr } from '../../contact/sir-bedwyr'
 
 export const TheOnceAndFutureKing: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'the-once-and-future-king',
-  setTitle: { id: 2219 },
+  setTitleId: [2219],
   name: [
     { sex: 'M', value: 'The Once and Future King' },
     { sex: 'F', value: 'The Once and Future Queen' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You helped set Pendragon down the path of righteousness. While he may walk the mists of Praetoria for years, his soul has been redeemed and his freedom from Night Ward ensured.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "A Matter of Honor" entry with number 23.04 in the 35-39 level range.`,
   links: [

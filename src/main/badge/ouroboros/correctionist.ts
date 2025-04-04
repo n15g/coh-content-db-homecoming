@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Correctionist: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'correctionist',
-  setTitle: { id: 939 },
+  setTitleId: [939],
   name: [
     { value: 'Correctionist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 30 story arcs.' },
   ],

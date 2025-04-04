@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { SilverMantis } from '../../contact/silver-mantis'
 
 export const PirateHunter: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'pirate-hunter',
-  setTitle: { id: 513 },
+  setTitleId: [513],
   name: [
-    { alignment: 'H', value: 'Pirate Hunter' },
-    { alignment: 'V', value: 'Air Pirate' },
+    { alignment: 'hero', value: 'Pirate Hunter' },
+    { alignment: 'villain', value: 'Air Pirate' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You disrupted the Sky Raiders' wave of thefts and defeated Col. Duray himself on their off-shore base.`,
   links: [
     { title: 'Pirate Hunter Badge', href: 'https://homecoming.wiki/wiki/Pirate_Hunter_Badge' },

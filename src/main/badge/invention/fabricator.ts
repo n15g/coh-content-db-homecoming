@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Fabricator: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'fabricator',
-  setTitle: { id: 744 },
+  setTitleId: [744],
   name: [{ value: 'Fabricator' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'Your ingenuity knows no bounds, and after 2,000 inventions you are now a Fabricator.' }],
   acquisition: 'Craft 2000 items in the Invention System or Supergroup Base system.',
   notes: 'This includes anything craftable on Invention Worktables, Base Worktables, and Empowerment Stations (including Empowerment Buffs), as well as special crafting such as the'

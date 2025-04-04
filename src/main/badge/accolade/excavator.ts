@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheHollows } from '../../zone/the-hollows'
 
 export const Excavator: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'excavator',
-  setTitle: { id: 2372 },
+  setTitleId: [2372],
   name: 'Excavator',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within The Hollows.`,
   acquisition: `Complete every story arc in ${zoneLink(TheHollows)}`,
   effect: 'Awards 20 reward merits.',

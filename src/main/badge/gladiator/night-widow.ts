@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { DefenderOfTruth } from '../achievement/defender-of-truth'
 
 export const NightWidow: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'night-widow',
-  setTitle: { id: 444 },
+  setTitleId: [444],
   name: [
     { value: 'Night Widow' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'Night Widows fight for those they deem worthy.' },
   ],
@@ -19,6 +19,6 @@ export const NightWidow: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: DefenderOfTruth.key, type: 'BADGE', badgeKey: DefenderOfTruth.key },
+    { key: DefenderOfTruth.key, type: 'badge', badgeKey: DefenderOfTruth.key },
   ],
 }

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const LambdaLeader: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'lambda-leader',
-  setTitle: { id: 1983 },
+  setTitleId: [1983],
   name: 'Lambda Leader',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Lambda Sector.',
   links: [
     { title: 'Lambda Leader Badge', href: 'https://homecoming.wiki/wiki/Lambda_Leader_Badge' },

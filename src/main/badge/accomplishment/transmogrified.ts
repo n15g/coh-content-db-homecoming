@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Transmogrified: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'transmogrified',
-  setTitle: { id: 67 },
+  setTitleId: [67],
   name: 'Transmogrified',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You have succeeded in preventing the destruction of the Terra Volta reactor... but at what price?`,
   acquisition: 'Complete the Terra Volta respec trial and choose the respec reward for the first time.',
   links: [

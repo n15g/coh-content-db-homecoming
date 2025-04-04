@@ -1,21 +1,19 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 
 export const CairnWarder: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'cairn-warder',
-  setTitle: { id: 130 },
-  name: [{ value: 'Cairn Warder' }],
-  alignment: ['H'],
+  setTitleId: [130],
+  name: 'Cairn Warder',
+  morality: 'heroic',
   zoneKey: EchoDarkAstoria.key,
   loc: [1026, 51, 218],
-  badgeText: [{
-    value: 'Mortals erect petty monuments and cairns in the foolish pursuit of stemming the forces of Death. Mot has since sundered such vanities.',
-  }],
-  notes: `Located in ${zoneLink(EchoDarkAstoria)} in the far northeast corner of the zone under the northern side of a stone archway.`,
+  badgeText: `Mortals erect petty monuments and cairns in the foolish pursuit of stemming the forces of Death. Mot has since sundered such vanities.`,
+  notes: `Located in the far northeast corner of the zone under the northern side of a stone archway.`,
   links: [
     { title: 'Cairn Warder Badge', href: 'https://homecoming.wiki/wiki/Cairn_Warder_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '3',
 }

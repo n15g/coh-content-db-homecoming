@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const MobSpecialist: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'mob-specialist',
-  setTitle: { id: 510 },
+  setTitleId: [510],
   name: [
     { value: 'Mob Specialist' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'Crey has authorized these men for your Arena teams.' },
   ],

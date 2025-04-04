@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Weakened: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'weakened',
-  setTitle: { id: 928 },
+  setTitleId: [928],
   name: [
     { value: 'Weakened' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.` },
   ],
   acquisition: 'Complete a level 26-30 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)',
   links: [

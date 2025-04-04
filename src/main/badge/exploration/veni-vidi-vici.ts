@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { CreysFolly } from '../../zone/creys-folly'
 
 export const VeniVidiVici: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'veni-vidi-vici',
-  setTitle: { id: 1793 },
-  name: [{ value: 'Veni, Vidi, Vici' }],
-  alignment: ['H'],
+  setTitleId: [1793],
+  name: 'Veni, Vidi, Vici',
+  morality: 'heroic',
   zoneKey: CreysFolly.key,
   loc: [5439, 609, 3145],
   badgeText: [{
@@ -18,6 +18,6 @@ export const VeniVidiVici: BadgeData = {
   links: [
     { title: 'Veni, Vidi, Vici Badge', href: 'https://homecoming.wiki/wiki/Veni,_Vidi,_Vici_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

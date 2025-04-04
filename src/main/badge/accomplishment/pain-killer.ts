@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const PainKiller: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'pain-killer',
-  setTitle: { id: 1599 },
+  setTitleId: [1599],
   name: 'Pain Killer',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've completed the Cathedral of Pain and thwarted the Aspect of Rularuu's plans.`,
   links: [
     { title: 'Pain Killer Badge', href: 'https://homecoming.wiki/wiki/Pain_Killer_Badge' },

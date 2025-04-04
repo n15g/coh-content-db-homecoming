@@ -5,11 +5,11 @@ import { TobiasHansen } from '../../contact/tobias-hansen'
 import { LarsHansen } from '../../contact/lars-hansen'
 
 export const PortAuthority: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'port-authority',
-  setTitle: { id: 2374 },
+  setTitleId: [2374],
   name: 'Port Authority',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Striga Isle.`,
   effect: 'Awards 20 reward merits.',
   links: [

@@ -9,24 +9,24 @@ import { Seen } from '../exploration/seen'
 import { Seer } from '../exploration/seer'
 
 export const EmperorForADay: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'emperor-for-a-day',
-  setTitle: { id: 1635 },
+  setTitleId: [1635],
   name: 'Emperor for a Day',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Imperial City.`,
   links: [
     { title: 'Emperor for a Day Badge', href: 'https://homecoming.wiki/wiki/Emperor_for_a_Day_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: TiberianOverseer.key, type: 'BADGE', badgeKey: TiberianOverseer.key },
-    { key: PraetorianOfPrivilege.key, type: 'BADGE', badgeKey: PraetorianOfPrivilege.key },
-    { key: GoldDigger.key, type: 'BADGE', badgeKey: GoldDigger.key },
-    { key: TunedIn.key, type: 'BADGE', badgeKey: TunedIn.key },
-    { key: MercyMissionary.key, type: 'BADGE', badgeKey: MercyMissionary.key },
-    { key: ParkRanger.key, type: 'BADGE', badgeKey: ParkRanger.key },
-    { key: Seen.key, type: 'BADGE', badgeKey: Seen.key },
-    { key: Seer.key, type: 'BADGE', badgeKey: Seer.key },
+    { key: TiberianOverseer.key, type: 'badge', badgeKey: TiberianOverseer.key },
+    { key: PraetorianOfPrivilege.key, type: 'badge', badgeKey: PraetorianOfPrivilege.key },
+    { key: GoldDigger.key, type: 'badge', badgeKey: GoldDigger.key },
+    { key: TunedIn.key, type: 'badge', badgeKey: TunedIn.key },
+    { key: MercyMissionary.key, type: 'badge', badgeKey: MercyMissionary.key },
+    { key: ParkRanger.key, type: 'badge', badgeKey: ParkRanger.key },
+    { key: Seen.key, type: 'badge', badgeKey: Seen.key },
+    { key: Seer.key, type: 'badge', badgeKey: Seer.key },
   ],
 }

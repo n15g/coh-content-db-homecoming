@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const EnergyConservationist: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'energy-conservationist',
-  setTitle: { id: 780 },
+  setTitleId: [780],
   name: [{ value: 'Energy Conservationist' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 10: Endurance Modification and Endurance Reduction.' }],
   links: [
     { title: 'Energy Conservationist Badge', href: 'https://homecoming.wiki/wiki/Energy_Conservationist_Badge' },
@@ -14,10 +14,10 @@ export const EnergyConservationist: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 10,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 9,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 9,
     },
   ],
 }

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { BelladonnaVetrano } from '../../contact/belladonna-vetrano'
 
 export const EmbodimentOfLaw: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'embodiment-of-law',
-  setTitle: { id: 2218 },
+  setTitleId: [2218],
   name: 'Embodiment of Law',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You played through Emperor Cole's personal story and saw him fight against the entire army of Arachnos.`,
   acquisition: 'Complete the personal story mission from Emperor Cole',
   links: [

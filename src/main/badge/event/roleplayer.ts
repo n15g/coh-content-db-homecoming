@@ -5,25 +5,21 @@ import { ThePerfectGrifter } from './the-perfect-grifter'
 import { ThePerfectThief } from './the-perfect-thief'
 
 export const Roleplayer: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'roleplayer',
-  setTitle: { id: 2251 },
-  name: [
-    { value: 'Roleplayer' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You\'ve obtained this Accolade by perfecting each of the roles in the Summer Blockbuster \'Casino Heist\'.' },
-  ],
+  setTitleId: [2251],
+  name: 'Roleplayer',
+  morality: 'all',
+  badgeText: `You've obtained this Accolade by perfecting each of the roles in the Summer Blockbuster 'Casino Heist'.`,
   acquisition: 'Acquire all 4 Summer Blockbuster perfect role badges.',
   links: [
     { title: 'Roleplayer Badge', href: 'https://homecoming.wiki/wiki/Toothbreaker_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/roleplayer.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/roleplayer.png',
   requirements: [
-    { key: ThePerfectHitter.key, type: 'BADGE', badgeKey: ThePerfectHitter.key },
-    { key: ThePerfectHacker.key, type: 'BADGE', badgeKey: ThePerfectHacker.key },
-    { key: ThePerfectGrifter.key, type: 'BADGE', badgeKey: ThePerfectGrifter.key },
-    { key: ThePerfectThief.key, type: 'BADGE', badgeKey: ThePerfectThief.key },
+    { key: ThePerfectHitter.key, type: 'badge', badgeKey: ThePerfectHitter.key },
+    { key: ThePerfectHacker.key, type: 'badge', badgeKey: ThePerfectHacker.key },
+    { key: ThePerfectGrifter.key, type: 'badge', badgeKey: ThePerfectGrifter.key },
+    { key: ThePerfectThief.key, type: 'badge', badgeKey: ThePerfectThief.key },
   ],
 }

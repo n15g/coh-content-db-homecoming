@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Meteorologist } from '../accomplishment/meteorologist'
 
 export const Warhulk: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'warhulk',
-  setTitle: { id: 502 },
+  setTitleId: [502],
   name: [
     { value: 'Warhulk' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'The Warhulks will fight as your gladiators -- for now.' },
   ],
@@ -19,6 +19,6 @@ export const Warhulk: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Meteorologist.key, type: 'BADGE', badgeKey: Meteorologist.key },
+    { key: Meteorologist.key, type: 'badge', badgeKey: Meteorologist.key },
   ],
 }

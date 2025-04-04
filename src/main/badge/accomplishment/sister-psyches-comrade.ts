@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { SisterPsyche } from '../../contact/sister-psyche'
 
 export const SisterPsychesComrade: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'sister-psyches-comrade',
-  setTitle: { id: 63 },
+  setTitleId: [63],
   name: [
-    { alignment: 'H', value: `Sister Psyche's Comrade` },
-    { alignment: 'V', value: `Sister Psyche's Betrayer` },
+    { alignment: 'hero', value: `Sister Psyche's Comrade` },
+    { alignment: 'villain', value: `Sister Psyche's Betrayer` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'Sister Psyche has expressed her gratitude by presenting you with this medal.' },
-    { alignment: 'V', value: 'Sister Psyche probably wishes she could erase the memory of having given you this medal.' },
+    { alignment: 'hero', value: 'Sister Psyche has expressed her gratitude by presenting you with this medal.' },
+    { alignment: 'villain', value: 'Sister Psyche probably wishes she could erase the memory of having given you this medal.' },
   ],
   links: [
     { title: `Sister Psyche's Comrade Badge`, href: 'https://homecoming.wiki/wiki/Sister_Psyche%27s_Comrade_Badge' },

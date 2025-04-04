@@ -5,13 +5,13 @@ import { SirensCall } from '../../zone/sirens-call'
 import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const Swashbuckler: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'swashbuckler',
-  setTitle: { id: 315 },
+  setTitleId: [315],
   name: [
     { value: 'Swashbuckler' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: `Arrgh, matey! You be a mighty scholar o' piracy!` },
   ],

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Flux } from '../../contact/flux'
 
 export const Complicated: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'complicated',
-  setTitle: { id: 2459 },
+  setTitleId: [2459],
   name: 'Complicated',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `Sometimes, the line between good and evil isn't as simple as it seems.`,
   links: [
     { title: 'Negotiator Badge', href: 'https://homecoming.wiki/wiki/Complicated_Badge' },

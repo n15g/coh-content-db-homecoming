@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const SwiftSteel: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'swift-steel',
-  setTitle: { id: 494 },
+  setTitleId: [494],
   name: [
     { value: 'Swift Steel' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'Obedience is a virtue.' },
   ],

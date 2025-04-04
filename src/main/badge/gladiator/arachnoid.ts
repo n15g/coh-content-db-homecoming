@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { SewerDweller } from '../exploration/sewer-dweller'
 
 export const Arachnoid: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'arachnoid',
-  setTitle: { id: 440 },
+  setTitleId: [440],
   name: [
     { value: 'Arachnoid' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'These hideous creatures obey you.' },
   ],
@@ -19,6 +19,6 @@ export const Arachnoid: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: SewerDweller.key, type: 'BADGE', badgeKey: SewerDweller.key },
+    { key: SewerDweller.key, type: 'badge', badgeKey: SewerDweller.key },
   ],
 }

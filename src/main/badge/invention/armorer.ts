@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Armorer: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'armorer',
-  setTitle: { id: 770 },
+  setTitleId: [770],
   name: [{ value: 'Armorer' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 10: Defense Buff, Resist Damage, Intangible.' }],
   links: [
     { title: 'Armorer Badge', href: 'https://homecoming.wiki/wiki/Armorer_Badge' },
@@ -14,10 +14,10 @@ export const Armorer: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 10,
-      inventionTypes: ['DEFENSE_BUFF', 'RESIST_DAMAGE', 'INTANGIBILITY'],
-      inventionCount: 7,
+      inventionTypes: ['defense-buff', 'resist-damage', 'intangibility'],
+      count: 7,
     },
   ],
 }

@@ -6,11 +6,11 @@ import { PraetorDuncan } from '../../contact/praetor-duncan'
 import { DreamDoctor } from '../../contact/dream-doctor'
 
 export const Determined: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'determined',
-  setTitle: { id: 2343 },
+  setTitleId: [2343],
   name: 'Determined',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Dark Astoria.`,
   effect: 'Awards 20 reward merits.',
   notes: `You must not skip missions in dialogue with ${contactLink(Max)} (if you have done so, you can repeat them via Ouroboros),
@@ -19,8 +19,8 @@ export const Determined: BadgeData = {
     { title: 'Determined Badge', href: 'https://homecoming.wiki/wiki/Determined_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png' },
   ],
   requirements: [
     { key: 'burden-of-the-past', type: 'ARC', missionName: 'Burden of the Past', contactKey: HeatherTownshend.key },

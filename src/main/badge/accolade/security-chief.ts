@@ -3,17 +3,17 @@ import { LawEnforcer } from '../day-job/law-enforcer'
 import { Banker } from '../day-job/banker'
 
 export const SecurityChief: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'security-chief',
-  setTitle: { id: 1063 },
+  setTitleId: [1063],
   name: [
-    { alignment: 'H', value: 'Security Chief' },
-    { alignment: 'V', value: 'Security Breach' },
+    { alignment: 'hero', value: 'Security Chief' },
+    { alignment: 'villain', value: 'Security Breach' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `Your time spent protecting the banks of Paragon City has earned you the position of Security Chief.  While logged out in either a Vault or a Police Department will earn you charges of Tear Gas.` },
-    { alignment: 'V', value: `Every major bank and secure facility had to change their locks and passcodes when you went to the Rogue Isles.` },
+    { alignment: 'hero', value: `Your time spent protecting the banks of Paragon City has earned you the position of Security Chief.  While logged out in either a Vault or a Police Department will earn you charges of Tear Gas.` },
+    { alignment: 'villain', value: `Every major bank and secure facility had to change their locks and passcodes when you went to the Rogue Isles.` },
   ],
   links: [
     { title: 'Security Chief Badge', href: 'https://homecoming.wiki/wiki/Security_Chief_Badge' },
@@ -21,7 +21,7 @@ export const SecurityChief: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/security-chief.png',
   requirements: [
-    { key: LawEnforcer.key, type: 'BADGE', badgeKey: LawEnforcer.key },
-    { key: Banker.key, type: 'BADGE', badgeKey: Banker.key },
+    { key: LawEnforcer.key, type: 'badge', badgeKey: LawEnforcer.key },
+    { key: Banker.key, type: 'badge', badgeKey: Banker.key },
   ],
 }

@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Inquisitor: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'inquisitor',
-  setTitle: { id: 1445 },
+  setTitleId: [1445],
   name: 'Inquisitor',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You completed a Villain Alignment Mission earning yourself the Inquisitor badge.',
   acquisition: 'Complete a villain alignment mission.',
   links: [

@@ -8,17 +8,17 @@ import { Lobbyist } from '../exploration/lobbyist'
 import { MasterOfTheAirwaves } from '../exploration/master-of-the-airwaves'
 
 export const YesterdaysNews: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'yesterdays-news',
-  setTitle: { id: 533 },
+  setTitleId: [533],
   name: [
-    { alignment: 'H', value: 'Yesterday\'s News' },
-    { alignment: 'V', value: 'Headline Stealer' },
+    { alignment: 'hero', value: 'Yesterday\'s News' },
+    { alignment: 'villain', value: 'Headline Stealer' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `While rampaging in the Rogue Isles, you acquired an Immobilizer Ray. Unfortunately, it seems to require something only present there to recharge.` },
-    { alignment: 'V', value: `In your crime spree you have acquired an Immobilizer Ray. You're not sure where it came from, but it sure is useful stopping foes in their tracks.` },
+    { alignment: 'hero', value: `While rampaging in the Rogue Isles, you acquired an Immobilizer Ray. Unfortunately, it seems to require something only present there to recharge.` },
+    { alignment: 'villain', value: `In your crime spree you have acquired an Immobilizer Ray. You're not sure where it came from, but it sure is useful stopping foes in their tracks.` },
   ],
   effect: `Awards the Stolen Immobilizer Ray power.`,
   links: [
@@ -27,12 +27,12 @@ export const YesterdaysNews: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/yesterdays-news.png',
   requirements: [
-    { key: CouchPotato.key, type: 'BADGE', badgeKey: CouchPotato.key },
-    { key: Paroled.key, type: 'BADGE', badgeKey: Paroled.key },
-    { key: Lobbyist.key, type: 'BADGE', badgeKey: Lobbyist.key },
-    { key: Electrician.key, type: 'BADGE', badgeKey: Electrician.key },
-    { key: MasterOfTheAirwaves.key, type: 'BADGE', badgeKey: MasterOfTheAirwaves.key },
-    { key: StrikeBuster.key, type: 'BADGE', badgeKey: StrikeBuster.key },
-    { key: Surging.key, type: 'BADGE', badgeKey: Surging.key },
+    { key: CouchPotato.key, type: 'badge', badgeKey: CouchPotato.key },
+    { key: Paroled.key, type: 'badge', badgeKey: Paroled.key },
+    { key: Lobbyist.key, type: 'badge', badgeKey: Lobbyist.key },
+    { key: Electrician.key, type: 'badge', badgeKey: Electrician.key },
+    { key: MasterOfTheAirwaves.key, type: 'badge', badgeKey: MasterOfTheAirwaves.key },
+    { key: StrikeBuster.key, type: 'badge', badgeKey: StrikeBuster.key },
+    { key: Surging.key, type: 'badge', badgeKey: Surging.key },
   ],
 }

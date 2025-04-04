@@ -4,14 +4,14 @@ import { AshwinLannister } from '../../contact/ashwin-lannister'
 import { LauriePennington } from '../../contact/laurie-pennington'
 
 export const Redeemer: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'redeemer',
-  setTitle: { id: 76 },
+  setTitleId: [76],
   name: [
-    { alignment: 'H', value: 'Redeemer' },
-    { alignment: 'V', value: 'Conqueror' },
+    { alignment: 'hero', value: 'Redeemer' },
+    { alignment: 'villain', value: 'Conqueror' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You negotiated the surrender of Alexander, a Warrior boss.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "The redemption of Alexander 'the Great'" entry with number 0.23 in the 25-29 level range.`,
   links: [

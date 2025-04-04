@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { VincentRoss } from '../../contact/vincent-ross'
 
 export const KeeperOfCoralLore: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'keeper-of-coral-lore',
-  setTitle: { id: 1894 },
+  setTitleId: [1894],
   name: 'Keeper of Coral Lore',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You've discovered the secret to the Blood Coral and the ancient power of the slumbering Leviathan.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Old Friends, New Enemies, and New Opportunities" entry with number 19.02 in the 25-29 level range.`,
   links: [

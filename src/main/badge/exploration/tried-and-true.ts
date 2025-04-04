@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TriedAndTrue: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'tried-and-true',
-  setTitle: { id: 2370 },
-  name: [{ value: 'Tried and True' }],
-  alignment: ['H'],
+  setTitleId: [2370],
+  name: 'Tried and True',
+  morality: 'heroic',
   badgeText: [{
     value: `When the Omega Team accepted their mission to the Rikti home dimension, they knew they likely wouldn't be coming back. You have protected their memorial through many trials, staying true to the end.`,
   }],
@@ -17,5 +17,5 @@ export const TriedAndTrue: BadgeData = {
   links: [
     { title: 'Tried and True Badge', href: 'https://homecoming.wiki/wiki/Tried_and_True_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
 }

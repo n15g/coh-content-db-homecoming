@@ -1,17 +1,17 @@
 import { BadgeData } from 'coh-content-db'
 
 export const RiskTaker: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'risk-taker',
-  setTitle: { id: 368 },
+  setTitleId: [368],
   name: [
-    { alignment: 'H', value: 'Risk Taker' },
-    { alignment: 'V', value: 'Most Wanted' },
+    { alignment: 'hero', value: 'Risk Taker' },
+    { alignment: 'villain', value: 'Most Wanted' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'You\'ve contributed to the effort against the Villains by completing a patrol in a PvP zone.' },
-    { alignment: 'V', value: 'You\'ve contributed to the effort against the Heroes by completing a patrol in a PvP zone.' },
+    { alignment: 'hero', value: 'You\'ve contributed to the effort against the Villains by completing a patrol in a PvP zone.' },
+    { alignment: 'villain', value: 'You\'ve contributed to the effort against the Heroes by completing a patrol in a PvP zone.' },
   ],
   acquisition: 'Complete a patrol mission in a PvP zone (Bloody Bay, Siren\'s Call, or Warburg)',
   links: [

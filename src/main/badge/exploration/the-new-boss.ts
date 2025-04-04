@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 
 export const TheNewBoss: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-new-boss',
-  setTitle: { id: 1748 },
-  name: [{ value: 'The New Boss' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1748],
+  name: 'The New Boss',
+  morality: 'all',
   zoneKey: UndergroundNeutropolis.key,
   loc: [-399, -1200, -2696],
   badgeText: [{
@@ -18,6 +18,6 @@ export const TheNewBoss: BadgeData = {
   links: [
     { title: 'The New Boss Badge', href: 'https://homecoming.wiki/wiki/The_New_Boss_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '8',
 }

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const UndergroundSeeker: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'underground-seeker',
-  setTitle: { id: 1995 },
+  setTitleId: [1995],
   name: 'Underground Seeker',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Underground.',
   links: [
     { title: 'Underground Seeker Badge', href: 'https://homecoming.wiki/wiki/Underground_Seeker_Badge' },

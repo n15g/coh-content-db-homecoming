@@ -3,13 +3,13 @@ import { Regenerator } from '../defeat/regenerator'
 import { BinderOfBeasts } from '../accomplishment/binder-of-beasts'
 
 export const Caliban: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'caliban',
-  setTitle: { id: 481 },
+  setTitleId: [481],
   name: [
     { value: 'Caliban' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'The Trolls respect your might.' },
   ],
@@ -20,6 +20,6 @@ export const Caliban: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Regenerator.key, type: 'BADGE', badgeKey: BinderOfBeasts.key },
+    { key: Regenerator.key, type: 'badge', badgeKey: BinderOfBeasts.key },
   ],
 }

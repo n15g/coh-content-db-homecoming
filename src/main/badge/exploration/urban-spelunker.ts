@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { UndergroundNova } from '../../zone/underground-nova'
 
 export const UrbanSpelunker: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'urban-spelunker',
-  setTitle: { id: 1642 },
-  name: [{ value: 'Urban Spelunker' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1642],
+  name: 'Urban Spelunker',
+  morality: 'all',
   zoneKey: UndergroundNova.key,
   badgeText: [{
     value: `It takes courage and an adventurous spirit to brave the miles of corridors, tunnels, and maintenance chambers beneath Praetoria. You risk arrest by the PPD, conscription by the Resistance, or a messy end at the hands of Neuron's mistakes.`,
@@ -17,6 +17,6 @@ Its coordinates are (-3094, 704, 1616), (-2976, 704, -323) and (-3839, 704, -213
   links: [
     { title: 'Urban Spelunker Badge', href: 'https://homecoming.wiki/wiki/Urban_Spelunker_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '7',
 }

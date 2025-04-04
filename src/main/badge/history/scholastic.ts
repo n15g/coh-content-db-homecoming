@@ -3,13 +3,13 @@ import { FoundersFalls } from '../../zone/founders-falls'
 import { Brickstown } from '../../zone/brickstown'
 
 export const Scholastic: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'scholastic',
-  setTitle: { id: 158 },
+  setTitleId: [158],
   name: [
     { value: 'Scholastic' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of Dr. Webb smashing the Dimensional Barrier.` },
   ],

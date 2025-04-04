@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { DocBuzzsaw } from '../../contact/doc-buzzsaw'
 
 export const PatientZero: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'patient-zero',
-  setTitle: { id: 2439 },
+  setTitleId: [2439],
   name: 'Patient Zero',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `Doc Buzzsaw bit off more she could chew when she called out for help against Cortex, leading you into a whole new world of mad science and pushing fringe
  Freakshow members and desperate terminal Eidolons to evolve beyond their humanity as conscripts in a new cybertech army. Piecemeal owes their existence to you.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "The Freakish Lab of Dr. Vahzilok" entry with number 27.02 and 27.03 in the 35-39 level range.`,

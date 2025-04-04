@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { MonsterIsland } from '../../zone/monster-island'
 
 export const RiktiMonkeyIsland: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'rikti-monkey-island',
-  setTitle: { id: 1870 },
-  name: [{ value: 'Rikti Monkey Island' }],
-  alignment: ['V'],
+  setTitleId: [1870],
+  name: 'Rikti Monkey Island',
+  morality: 'villainous',
   zoneKey: MonsterIsland.key,
   loc: [-2981, 0, -5449],
   badgeText: [{
@@ -20,6 +20,6 @@ You're going to enjoy pulping their little bodies.`,
   links: [
     { title: 'Rikti Monkey Island Badge', href: 'https://homecoming.wiki/wiki/Rikti_Monkey_Island_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '3',
 }

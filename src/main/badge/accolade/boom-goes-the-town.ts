@@ -9,24 +9,24 @@ import { ToweringInferno } from '../exploration/towering-inferno'
 import { VisionOfDespair } from '../exploration/vision-of-despair'
 
 export const BoomGoesTheTown: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'boom-goes-the-town',
-  setTitle: { id: 1877 },
+  setTitleId: [1877],
   name: 'Boom... Goes the Town',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Boomtown.`,
   links: [
     { title: 'Boom... Goes the Town Badge', href: 'https://homecoming.wiki/wiki/Boom..._Goes_the_Town_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
-    { key: BoomtownTroglodyte.key, type: 'BADGE', badgeKey: BoomtownTroglodyte.key },
-    { key: CorpseBox.key, type: 'BADGE', badgeKey: CorpseBox.key },
-    { key: DestinedForValhalla.key, type: 'BADGE', badgeKey: DestinedForValhalla.key },
-    { key: EndOfTheLine.key, type: 'BADGE', badgeKey: EndOfTheLine.key },
-    { key: Phalanxer.key, type: 'BADGE', badgeKey: Phalanxer.key },
-    { key: Regal.key, type: 'BADGE', badgeKey: Regal.key },
-    { key: ToweringInferno.key, type: 'BADGE', badgeKey: ToweringInferno.key },
-    { key: VisionOfDespair.key, type: 'BADGE', badgeKey: VisionOfDespair.key },
+    { key: BoomtownTroglodyte.key, type: 'badge', badgeKey: BoomtownTroglodyte.key },
+    { key: CorpseBox.key, type: 'badge', badgeKey: CorpseBox.key },
+    { key: DestinedForValhalla.key, type: 'badge', badgeKey: DestinedForValhalla.key },
+    { key: EndOfTheLine.key, type: 'badge', badgeKey: EndOfTheLine.key },
+    { key: Phalanxer.key, type: 'badge', badgeKey: Phalanxer.key },
+    { key: Regal.key, type: 'badge', badgeKey: Regal.key },
+    { key: ToweringInferno.key, type: 'badge', badgeKey: ToweringInferno.key },
+    { key: VisionOfDespair.key, type: 'badge', badgeKey: VisionOfDespair.key },
   ],
 }

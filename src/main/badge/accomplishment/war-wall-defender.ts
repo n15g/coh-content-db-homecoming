@@ -3,14 +3,14 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { PhillipaMeraux } from '../../contact/phillipa-meraux'
 
 export const WarWallDefender: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'war-wall-defender',
-  setTitle: { id: 79 },
+  setTitleId: [79],
   name: [
-    { alignment: 'H', value: 'War Wall Defender' },
-    { alignment: 'V', value: 'Saboteur' },
+    { alignment: 'hero', value: 'War Wall Defender' },
+    { alignment: 'villain', value: 'Saboteur' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You foiled a plot to undermine the War Walls that protect Paragon City.',
   acquisition: 'Complete the Rescue the engineers and prevent the Rikti from bringing down the force fields mission from Phillipa Meraux',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Defend the War Walls" entry with number 0.28 in the 30-34 level range.`,

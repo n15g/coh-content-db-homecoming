@@ -3,18 +3,18 @@ import { Professor } from '../day-job/professor'
 import { CreyTestSubject } from '../day-job/crey-test-subject'
 
 export const Whistleblower: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'whistleblower',
-  setTitle: { id: 1077 },
+  setTitleId: [1077],
   name: [
-    { alignment: 'H', value: 'Whistleblower' },
-    { alignment: 'V', value: 'Crey Scientist' },
+    { alignment: 'hero', value: 'Whistleblower' },
+    { alignment: 'villain', value: 'Crey Scientist' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `Crey Industries has been hard at work removing your name from all your research and publicly denying the corporate secrets you've revealed.` },
+    { alignment: 'hero', value: `Crey Industries has been hard at work removing your name from all your research and publicly denying the corporate secrets you've revealed.` },
     {
-      alignment: 'V', value: `Your work with Crey Industries and studies in various fields has earned you the Crey Scientist Accolade.
+      alignment: 'villain', value: `Your work with Crey Industries and studies in various fields has earned you the Crey Scientist Accolade.
 While logged out in the Crey Industries building or in a University you will earn additional charges for your Sleep Grenade power.`,
     },
   ],
@@ -24,7 +24,7 @@ While logged out in the Crey Industries building or in a University you will ear
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/whistleblower.png',
   requirements: [
-    { key: Professor.key, type: 'BADGE', badgeKey: Professor.key },
-    { key: CreyTestSubject.key, type: 'BADGE', badgeKey: CreyTestSubject.key },
+    { key: Professor.key, type: 'badge', badgeKey: Professor.key },
+    { key: CreyTestSubject.key, type: 'badge', badgeKey: CreyTestSubject.key },
   ],
 }

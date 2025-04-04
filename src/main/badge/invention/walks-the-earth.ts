@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const WalksTheEarth: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'walks-the-earth',
-  setTitle: { id: 803 },
+  setTitleId: [803],
   name: [{ value: 'Walks the Earth' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Run Speed, Jump, Fly Speed, and Range.' }],
   links: [
     { title: 'Walks the Earth Badge', href: 'https://homecoming.wiki/wiki/Walks_the_Earth_Badge' },
@@ -14,17 +14,17 @@ export const WalksTheEarth: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
-      inventionCount: 11,
+      inventionTypes: ['run-speed', 'jump', 'fly-speed', 'range'],
+      count: 11,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
-      inventionCount: 11,
+      inventionTypes: ['run-speed', 'jump', 'fly-speed', 'range'],
+      count: 11,
     },
   ],
 }

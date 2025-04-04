@@ -3,17 +3,17 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { WillyWheeler } from '../../contact/willy-wheeler'
 
 export const PenitentOfVice: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'penitent-of-vice',
-  setTitle: { id: 334 },
+  setTitleId: [334],
   name: [
-    { alignment: 'H', value: 'Penitent of Vice' },
-    { alignment: 'V', value: 'Paragon of Vice' },
+    { alignment: 'hero', value: 'Penitent of Vice' },
+    { alignment: 'villain', value: 'Paragon of Vice' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `Paragon City still remembers the black eye you gave it to impress Arachnos, and won't soon forget.` },
-    { alignment: 'V', value: 'You showed Arachnos how tough you were in Paragon City.' },
+    { alignment: 'hero', value: `Paragon City still remembers the black eye you gave it to impress Arachnos, and won't soon forget.` },
+    { alignment: 'villain', value: 'You showed Arachnos how tough you were in Paragon City.' },
   ],
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "There's a Sucker Born Every Minute" entry with number 6.25 in the 15-19 level range. The badge is in the fourth mission.`,
   links: [

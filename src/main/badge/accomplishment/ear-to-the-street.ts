@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const EarToTheStreet: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'ear-to-the-street',
-  setTitle: { id: 1442 },
+  setTitleId: [1442],
   name: 'Ear to the Street',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You completed a Hero Alignment Mission earning yourself the Ear to the Street badge.',
   acquisition: 'Complete a Hero Alignment mission.',
   links: [

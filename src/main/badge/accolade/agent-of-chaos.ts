@@ -11,11 +11,11 @@ import { DrGraves } from '../../contact/dr-graves'
 import { SeerMarino } from '../../contact/seer-marino'
 
 export const AgentOfChaos: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'agent-of-chaos',
-  setTitle: { id: 2344 },
+  setTitleId: [2344],
   name: 'Agent of Chaos',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Mercy Island.`,
   effect: 'Awards 20 reward merits.',
   links: [

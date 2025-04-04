@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheAbyss } from '../../zone/the-abyss'
 
 export const TheTreeOfWoe: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-tree-of-woe',
-  setTitle: { id: 1866 },
-  name: [{ value: 'The Tree of Woe' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1866],
+  name: 'The Tree of Woe',
+  morality: 'all',
   zoneKey: TheAbyss.key,
   loc: [1399, -44, -1499],
   badgeText: [{
@@ -20,6 +20,6 @@ at the base of a tree where the road circles around at the westernmost developed
   links: [
     { title: 'The Tree of Woe Badge', href: 'https://homecoming.wiki/wiki/The_Tree_of_Woe_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '7',
 }

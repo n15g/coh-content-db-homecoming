@@ -9,24 +9,24 @@ import { AllSeeing } from '../exploration/all-seeing'
 import { DarkOmen } from '../exploration/dark-omen'
 
 export const PortalCorpAnalyst: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'portal-corp-analyst',
-  setTitle: { id: 1579 },
+  setTitleId: [1579],
   name: 'Portal Corp Analyst',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Peregrine Island.`,
   links: [
     { title: 'Portal Corp Analyst Badge', href: 'https://homecoming.wiki/wiki/Portal_Corp_Analyst_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: PortalParter.key, type: 'BADGE', badgeKey: PortalParter.key },
-    { key: UseMightForRight.key, type: 'BADGE', badgeKey: UseMightForRight.key },
-    { key: CauseForConcern.key, type: 'BADGE', badgeKey: CauseForConcern.key },
-    { key: GeneticallyAltered.key, type: 'BADGE', badgeKey: GeneticallyAltered.key },
-    { key: RiktiGoneWild.key, type: 'BADGE', badgeKey: RiktiGoneWild.key },
-    { key: ShadesOfArachnos.key, type: 'BADGE', badgeKey: ShadesOfArachnos.key },
-    { key: AllSeeing.key, type: 'BADGE', badgeKey: AllSeeing.key },
-    { key: DarkOmen.key, type: 'BADGE', badgeKey: DarkOmen.key },
+    { key: PortalParter.key, type: 'badge', badgeKey: PortalParter.key },
+    { key: UseMightForRight.key, type: 'badge', badgeKey: UseMightForRight.key },
+    { key: CauseForConcern.key, type: 'badge', badgeKey: CauseForConcern.key },
+    { key: GeneticallyAltered.key, type: 'badge', badgeKey: GeneticallyAltered.key },
+    { key: RiktiGoneWild.key, type: 'badge', badgeKey: RiktiGoneWild.key },
+    { key: ShadesOfArachnos.key, type: 'badge', badgeKey: ShadesOfArachnos.key },
+    { key: AllSeeing.key, type: 'badge', badgeKey: AllSeeing.key },
+    { key: DarkOmen.key, type: 'badge', badgeKey: DarkOmen.key },
   ],
 }

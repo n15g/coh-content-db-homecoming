@@ -5,11 +5,11 @@ import { DocDelilah } from '../../contact/doc-delilah'
 import { AgentG } from '../../contact/agent-g'
 
 export const Aftershock: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'aftershock',
-  setTitle: { id: 2373 },
+  setTitleId: [2373],
   name: 'Aftershock',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Faultline.`,
   effect: 'Awards 20 reward merits.',
   links: [

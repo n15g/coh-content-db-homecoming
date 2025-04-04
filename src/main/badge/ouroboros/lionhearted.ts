@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Lionhearted: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'lionhearted',
-  setTitle: { id: 884 },
+  setTitleId: [884],
   name: [
     { value: 'Lionhearted' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 40 and 45 while the enemies were Buffed.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 40 and 45 while the enemies were Buffed.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while the enemies were Buffed.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 40 and 45 while the enemies were Buffed.` },
   ],
   acquisition: 'Complete a level 41-45 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)',
   links: [

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Television } from '../../contact/television'
 
 export const CouchPotato: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'couch-potato',
-  setTitle: { id: 347 },
+  setTitleId: [347],
   name: 'Couch Potato',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You destroyed a shipment of books on the word of the Television, and then blamed it all on video games.',
   links: [
     { title: 'Couch Potato Badge', href: 'https://homecoming.wiki/wiki/Couch_Potato_Badge' },

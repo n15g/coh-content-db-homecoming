@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { DeanMacArthur } from '../../contact/dean-macarthur'
 
 export const BaneOfAjax: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'bane-of-ajax',
-  setTitle: { id: 1585 },
+  setTitleId: [1585],
   name: 'Bane of Ajax',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You've proven to Ajax, and the world, that no one is truly invincible.`,
   links: [
     { title: 'Bane of Ajax Badge', href: 'https://homecoming.wiki/wiki/Bane_of_Ajax_Badge' },

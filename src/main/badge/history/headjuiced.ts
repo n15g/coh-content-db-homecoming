@@ -7,13 +7,13 @@ import { UndergroundImperial } from '../../zone/underground-imperial'
 import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 
 export const Headjuiced: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'headjuiced',
-  setTitle: { id: 1413 },
+  setTitleId: [1413],
   name: [
     { value: 'Headjuiced' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: `You followed all the fruity crumbs and peeped the 20 lessons brought to you by the letter 'Resistance.' Whether or not you chomp-a-chomp on this tasty knowing is up to you, but now you know it's time for the other half of the battle.` },
   ],

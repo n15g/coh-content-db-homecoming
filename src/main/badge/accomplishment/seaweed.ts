@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { LorenzAnsaldo } from '../../contact/lorenz-ansaldo'
 
 export const Seaweed: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'seaweed',
-  setTitle: { id: 335 },
+  setTitleId: [335],
   name: 'Seaweed',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `The Sea Witch won't be bothering you anymore.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Carpe Diem" entry with number 6.29 in the 20-24 level range.`,
   links: [

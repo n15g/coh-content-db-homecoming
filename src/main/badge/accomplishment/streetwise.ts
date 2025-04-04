@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Streetwise: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'streetwise',
-  setTitle: { id: 1443 },
+  setTitleId: [1443],
   name: 'Streetwise',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You completed a Vigilante Alignment Mission earning yourself the Streetwise badge.',
   acquisition: 'Complete a Vigilante alignment mission.',
   links: [

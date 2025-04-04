@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Surefooted: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'surefooted',
-  setTitle: { id: 1060 },
+  setTitleId: [1060],
   name: 'Surefooted',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have taken the bronze medal in the advanced ski course! Now try for the silver.',
   acquisition: 'Complete a ski run on the Advanced slope in under 1 minute and 10 seconds during a Winter event.',
   links: [

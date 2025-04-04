@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { AngeloVendetti } from '../../contact/angelo-vendetti'
 
 export const StoneCold: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'stone-cold',
-  setTitle: { id: 330 },
+  setTitleId: [330],
   name: 'Stone Cold',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You took out a filthy traitor to the Port Oakes Vendetti Family.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Hurt the Traitorous Vendetti" entry with number 6.11 in the 10-14 level range.`,
   links: [

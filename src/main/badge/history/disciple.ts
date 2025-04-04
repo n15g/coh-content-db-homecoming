@@ -5,13 +5,13 @@ import { Boomtown } from '../../zone/boomtown'
 import { Faultline } from '../../zone/faultline'
 
 export const Disciple: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'disciple',
-  setTitle: { id: 153 },
+  setTitleId: [153],
   name: [
     { value: 'Disciple' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history behind the founding of Hero Corps.` },
   ],

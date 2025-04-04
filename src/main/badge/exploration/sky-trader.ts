@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { SharkheadIsle } from '../../zone/sharkhead-isle'
 
 export const SkyTrader: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sky-trader',
-  setTitle: { id: 1498 },
-  name: [{ value: 'Sky Trader' }],
-  alignment: ['V'],
+  setTitleId: [1498],
+  name: 'Sky Trader',
+  morality: 'villainous',
   zoneKey: SharkheadIsle.key,
   loc: [-2077, 56, 512],
   badgeText: [{
@@ -19,6 +19,6 @@ It is in front of the eastern mansion, 14 feet east of the neighborhood marker.`
   links: [
     { title: 'Sky Trader Badge', href: 'https://homecoming.wiki/wiki/Sky_Trader_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '7',
 }

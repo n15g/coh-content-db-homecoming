@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Reformed } from '../defeat/reformed'
 
 export const LongbowSpecOps: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'longbow-spec-ops',
-  setTitle: { id: 467 },
+  setTitleId: [467],
   name: [
     { value: 'Longbow Spec-Ops' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You demand obedience even from your enemies.' },
   ],
@@ -19,6 +19,6 @@ export const LongbowSpecOps: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Reformed.key, type: 'BADGE', badgeKey: Reformed.key },
+    { key: Reformed.key, type: 'badge', badgeKey: Reformed.key },
   ],
 }

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { DrGraves } from '../../contact/dr-graves'
 
 export const DarkHeart: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'dark-heart',
-  setTitle: { id: 2017 },
+  setTitleId: [2017],
   name: 'Dark Heart',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `Your role in this contest was irrevocably changed when you became Scirocco's spy.`,
   links: [
     { title: 'Dark Heart Badge', href: 'https://homecoming.wiki/wiki/Dark_Heart_Badge' },

@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Initiate: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'initiate',
-  setTitle: { id: 1448 },
+  setTitleId: [1448],
   name: 'Initiate',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've crafted your first Common Incarnate Ability earning yourself this badge.`,
   acquisition: 'Craft a common incarnate ability.',
   links: [

@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Revivifier: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'revivifier',
-  setTitle: { id: 768 },
+  setTitleId: [768],
   name: [{ value: 'Revivifier' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Heal.' }],
   links: [
     { title: 'Revivifier Badge', href: 'https://homecoming.wiki/wiki/Revivifier_Badge' },
@@ -14,18 +14,18 @@ export const Revivifier: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['HEALING'],
-      inventionCount: 7,
+      inventionTypes: ['healing'],
+      count: 7,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['HEALING'],
-      inventionCount: 7,
+      inventionTypes: ['healing'],
+      count: 7,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

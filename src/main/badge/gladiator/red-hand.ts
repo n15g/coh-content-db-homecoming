@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Spectral } from '../defeat/spectral'
 
 export const RedHand: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'red-hand',
-  setTitle: { id: 450 },
+  setTitleId: [450],
   name: [
     { value: 'Red Hand' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'The spirits of the dead are at your command.' },
   ],
@@ -19,6 +19,6 @@ export const RedHand: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Spectral.key, type: 'BADGE', badgeKey: Spectral.key },
+    { key: Spectral.key, type: 'badge', badgeKey: Spectral.key },
   ],
 }

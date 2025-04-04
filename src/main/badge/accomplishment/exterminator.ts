@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TimothyRaymond } from '../../contact/timothy-raymond'
 
 export const Exterminator: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'exterminator',
-  setTitle: { id: 341 },
+  setTitleId: [341],
   name: 'Exterminator',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `The Rikti are like vermin. Good thing you were around to clean 'em out.`,
   acquisition: 'Complete the Eliminate Kit\'Vul mission from Timothy Raymond',
   links: [

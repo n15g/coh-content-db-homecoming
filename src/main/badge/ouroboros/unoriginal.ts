@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Unoriginal: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'unoriginal',
-  setTitle: { id: 919 },
+  setTitleId: [919],
   name: [
     { value: 'Unoriginal' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 25 and 29 while not using Inspirations.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 25 and 29 while not using Inspirations.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while not using Inspirations.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 25 and 29 while not using Inspirations.` },
   ],
   acquisition: 'Complete a level 26-30 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)',
   links: [

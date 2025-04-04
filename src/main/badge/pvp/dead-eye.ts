@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const DeadEye: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'dead-eye',
-  setTitle: { id: 576 },
+  setTitleId: [576],
   name: [
     { value: 'Dead-eye' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'You have helped defeat Manticore in Recluse\'s Victory.' },
   ],

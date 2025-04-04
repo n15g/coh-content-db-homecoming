@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const ResistanceMember: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'resistance-member',
-  setTitle: { id: 1754 },
+  setTitleId: [1754],
   name: 'Resistance Member',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have lent your support to the Praetorian Resistance to overthrow Emperor Cole, or at least appeared to do so.',
   acquisition: 'Choose a Resistance outcome in a moral choice mission.',
   links: [

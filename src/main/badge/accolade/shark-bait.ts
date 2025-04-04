@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { CaptainMako } from '../../contact/captain-mako'
 
 export const SharkBait: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'shark-bait',
-  setTitle: { id: 615 },
+  setTitleId: [615],
   name: [
-    { alignment: 'H', value: 'Shark Bait' },
-    { alignment: 'V', value: 'Bloodletter' },
+    { alignment: 'hero', value: 'Shark Bait' },
+    { alignment: 'villain', value: 'Bloodletter' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `Captain Mako once called you an ally. Now he calls you a snack.` },
-    { alignment: 'V', value: `You're deadly and cold-blooded. Captain Mako appreciates that.` },
+    { alignment: 'hero', value: `Captain Mako once called you an ally. Now he calls you a snack.` },
+    { alignment: 'villain', value: `You're deadly and cold-blooded. Captain Mako appreciates that.` },
   ],
   effect: `Awards the Leviathan Mastery patron power.`,
   links: [

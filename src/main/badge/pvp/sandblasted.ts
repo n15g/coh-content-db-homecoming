@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Sandblasted: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'sandblasted',
-  setTitle: { id: 583 },
+  setTitleId: [583],
   name: [
     { value: 'Sandblasted' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You have helped defeat Scirocco in Recluse\'s Victory.' },
   ],

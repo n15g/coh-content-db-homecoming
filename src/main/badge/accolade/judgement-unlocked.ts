@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const JudgementUnlocked: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'judgement-unlocked',
-  setTitle: { id: 1481 },
+  setTitleId: [1481],
   name: 'Judgement Unlocked',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You unlocked your Judgement Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Judgement Incarnate slot.`,
   notes: `Unlock the Judgement Incarnate slot by earning Incarnate Experience through normal play.`,

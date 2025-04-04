@@ -2,16 +2,16 @@ import { BadgeData } from 'coh-content-db'
 import { Disruptor } from '../pvp/disruptor'
 
 export const LongbowDefender: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'longbow-defender',
-  setTitle: { id: 460 },
+  setTitleId: [460],
   name: [
     { value: 'Longbow Defender' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'Longbow counts you as an ally.' },
-    { alignment: 'V', value: 'Even the best of Longbow submit to your will.' },
+    { alignment: 'hero', value: 'Longbow counts you as an ally.' },
+    { alignment: 'villain', value: 'Even the best of Longbow submit to your will.' },
   ],
   links: [
     { title: 'Longbow Defender Badge', href: 'https://homecoming.wiki/wiki/Longbow_Warden_2_Badge' },
@@ -20,6 +20,6 @@ export const LongbowDefender: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Disruptor.key, type: 'BADGE', badgeKey: Disruptor.key },
+    { key: Disruptor.key, type: 'badge', badgeKey: Disruptor.key },
   ],
 }

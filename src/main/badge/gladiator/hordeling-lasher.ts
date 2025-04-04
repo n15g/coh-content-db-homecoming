@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const HordelingLasher: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'hordeling-lasher',
-  setTitle: { id: 461 },
+  setTitleId: [461],
   name: [
     { value: 'Hordeling Lasher' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have command of infernal minions.' },
   ],

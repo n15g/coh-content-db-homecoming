@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const SweetTooth: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sweet-tooth',
-  setTitle: { id: 273 },
-  name: [{ value: 'Sweet Tooth' }],
-  alignment: ['V'],
+  setTitleId: [273],
+  name: 'Sweet Tooth',
+  morality: 'villainous',
   zoneKey: CapAuDiable.key,
   loc: [-222, 0, -2136],
   badgeText: [{
@@ -18,6 +18,6 @@ export const SweetTooth: BadgeData = {
   links: [
     { title: 'Sweet Tooth Badge', href: 'https://homecoming.wiki/wiki/Sweet_Tooth_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '5',
 }

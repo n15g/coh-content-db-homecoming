@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const CreyPowerTank: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'crey-power-tank',
-  setTitle: { id: 507 },
+  setTitleId: [507],
   name: [
     { value: 'Crey Power Tank' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'An Arena battle is a good place for Crey to test their equipment.' },
   ],

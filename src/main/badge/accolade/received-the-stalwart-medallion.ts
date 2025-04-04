@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { JaneHallaway } from '../../contact/jane-hallaway'
 
 export const ReceivedTheStalwartMedallion: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'received-the-stalwart-medallion',
-  setTitle: { id: 178 },
+  setTitleId: [178],
   name: [
-    { alignment: 'H', value: 'Received the Stalwart Medallion' },
-    { alignment: 'V', value: 'Lost the Stalwart Medallion' },
+    { alignment: 'hero', value: 'Received the Stalwart Medallion' },
+    { alignment: 'villain', value: 'Lost the Stalwart Medallion' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `Your battle in the reactor of Terra Volta altered your powers in a permanent way.`,
   effect: 'Awards a character respecification.',
   links: [

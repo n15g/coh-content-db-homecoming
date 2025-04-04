@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Loyalist: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'loyalist',
-  setTitle: { id: 1755 },
+  setTitleId: [1755],
   name: 'Loyalist',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You spent some effort bolstering the Praetorian regime of Emperor Cole, or at least appearing to do so.',
   acquisition: 'Choose a Loyalist outcome in a moral choice mission.',
   links: [

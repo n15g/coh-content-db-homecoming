@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const CutOff: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'cut-off',
-  setTitle: { id: 913 },
+  setTitleId: [913],
   name: [
     { value: 'Cut-Off' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 40 and 45 while not using any Epic Power Pools.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 40 and 45 while not using any Epic Power Pools.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while not using any Epic Power Pools.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 40 and 45 while not using any Epic Power Pools.` },
   ],
   acquisition: 'Complete a level 41-45 Flashback story arc using no Ancillary powers. (Note: In game badge text is incorrect.)',
   links: [

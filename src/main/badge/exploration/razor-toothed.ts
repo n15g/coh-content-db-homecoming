@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { SharkheadIsle } from '../../zone/sharkhead-isle'
 
 export const RazorToothed: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'razor-toothed',
-  setTitle: { id: 295 },
-  name: [{ value: 'Razor Toothed' }],
-  alignment: ['V'],
+  setTitleId: [295],
+  name: 'Razor Toothed',
+  morality: 'villainous',
   zoneKey: SharkheadIsle.key,
   loc: [460, -14, 1653],
   badgeText: [{
@@ -19,6 +19,6 @@ There is a small beach, and the badge marker is located on a small rock cropping
   links: [
     { title: 'Razor Toothed Badge', href: 'https://homecoming.wiki/wiki/Razor_Toothed_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '1',
 }

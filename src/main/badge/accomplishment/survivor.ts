@@ -11,11 +11,11 @@ import { PenelopeYinPraetorian } from '../../contact/penelope-yin-praetorian'
 import { DarkWatcher } from '../../contact/dark-watcher'
 
 export const Survivor: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'survivor',
-  setTitle: { id: 2348 },
+  setTitleId: [2348],
   name: 'Survivor',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You helped the Praetorian Resistance to reach their goals with as little loss of life as possible.`,
   acquisition: 'Complete every story arc in the Praetorian [Warden Storyline](https://homecoming.wiki/wiki/Warden_Storyline).',
   links: [

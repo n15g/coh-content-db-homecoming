@@ -1,23 +1,20 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Croatoa } from '../../zone/croatoa'
 
 export const PumpkinKing: BadgeData = {
-  type: 'DEFEAT',
+  type: 'defeat',
   key: 'pumpkin-king',
-  setTitle: { id: 429 },
+  setTitleId: [429],
   name: [
     { sex: 'M', value: 'Pumpkin King' },
     { sex: 'F', value: 'Pumpkin Queen' },
   ],
-  alignment: ['H'],
-  badgeText: [
-    { value: 'The king is dead. Long live the king!' },
-  ],
-  acquisition: 'Defeat Eochai, a monster that spawns in Croatoa',
+  morality: 'heroic',
+  badgeText: 'The king is dead. Long live the king!',
+  acquisition: `Defeat Eochai, a monster that spawns in ${zoneLink(Croatoa)}.`,
   links: [
     { title: 'Pumpkin King Badge', href: 'https://homecoming.wiki/wiki/Pumpkin_King_Badge' },
     { title: 'Pumpkin Queen Badge', href: 'https://homecoming.wiki/wiki/Pumpkin_Queen_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/pumpkin-king.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/pumpkin-king.png',
 }

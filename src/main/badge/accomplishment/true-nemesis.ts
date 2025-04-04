@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { MaxwellChristopher } from '../../contact/maxwell-christopher'
 
 export const TrueNemesis: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'true-nemesis',
-  setTitle: { id: 2387 },
+  setTitleId: [2387],
   name: 'True Nemesis',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You have stopped Nemesis Rex's incursion into Primal Earth.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Nemesis Rex" entry with number 1.07 in the 40-49 level range.`,
   links: [

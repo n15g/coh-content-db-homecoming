@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { SaraMoore } from '../../contact/sara-moore'
 
 export const DestroyerOfStrength: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'destroyer-of-strength',
-  setTitle: { id: 424 },
+  setTitleId: [424],
   name: 'Destroyer of Strength',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You defeated the being known as Ruladak the Strong, freeing the people of the Shadow Shard from his tyranny.',
   links: [
     { title: 'Destroyer of Strength Badge', href: 'https://homecoming.wiki/wiki/Destroyer_of_Strength_Badge' },

@@ -3,11 +3,11 @@ import { MonsterIsland } from '../../zone/monster-island'
 import { Grandville } from '../../zone/grandville'
 
 export const TheRoarOfTheBeast: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-roar-of-the-beast',
-  setTitle: { id: 1869 },
-  name: [{ value: 'The Roar of the Beast' }],
-  alignment: ['V'],
+  setTitleId: [1869],
+  name: 'The Roar of the Beast',
+  morality: 'villainous',
   zoneKey: MonsterIsland.key,
   loc: [-1938, -17, -7960],
   badgeText: [{
@@ -20,6 +20,6 @@ Arching your back you add your roar to theirs and for a moment they are quiet. W
   links: [
     { title: 'The Roar of the Beast Badge', href: 'https://homecoming.wiki/wiki/The_Roar_of_the_Beast_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '2',
 }

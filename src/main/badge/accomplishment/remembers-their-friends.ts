@@ -4,11 +4,11 @@ import { VincentRoss } from '../../contact/vincent-ross'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const RemembersTheirFriends: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'remembers-their-friends',
-  setTitle: { id: 2268 },
+  setTitleId: [2268],
   name: 'Remembers Their Friends',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'Vincent Ross was kidnapped by the Family after they found out he had past dealings with you. However, you beat the Family down and rescued Vincent Ross, showing the Rogue Isles that you remember your friends.',
   acquisition: `Rescue ${contactLink(VincentRoss)} in the "All in the Family" mission from ${contactLink(MrGPrimal)}.`,
   notes: `${contactLink(VincentRoss)} will only be present if you have previously completed his story arc.

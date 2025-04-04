@@ -9,24 +9,24 @@ import { BlindEye } from '../exploration/blind-eye'
 import { Soother } from '../exploration/soother'
 
 export const NervaNavigator: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'nerva-navigator',
-  setTitle: { id: 1504 },
+  setTitleId: [1504],
   name: 'Nerva Navigator',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Nerva Archipelago.`,
   links: [
     { title: 'Nerva Navigator Badge', href: 'https://homecoming.wiki/wiki/Nerva_Navigator_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
-    { key: WatcherOnTheKnoll.key, type: 'BADGE', badgeKey: WatcherOnTheKnoll.key },
-    { key: LockedAndLoaded.key, type: 'BADGE', badgeKey: LockedAndLoaded.key },
-    { key: NervaWreck.key, type: 'BADGE', badgeKey: NervaWreck.key },
-    { key: PrimalInstinct.key, type: 'BADGE', badgeKey: PrimalInstinct.key },
-    { key: TreeHugger.key, type: 'BADGE', badgeKey: TreeHugger.key },
-    { key: UnethicalTourist.key, type: 'BADGE', badgeKey: UnethicalTourist.key },
-    { key: BlindEye.key, type: 'BADGE', badgeKey: BlindEye.key },
-    { key: Soother.key, type: 'BADGE', badgeKey: Soother.key },
+    { key: WatcherOnTheKnoll.key, type: 'badge', badgeKey: WatcherOnTheKnoll.key },
+    { key: LockedAndLoaded.key, type: 'badge', badgeKey: LockedAndLoaded.key },
+    { key: NervaWreck.key, type: 'badge', badgeKey: NervaWreck.key },
+    { key: PrimalInstinct.key, type: 'badge', badgeKey: PrimalInstinct.key },
+    { key: TreeHugger.key, type: 'badge', badgeKey: TreeHugger.key },
+    { key: UnethicalTourist.key, type: 'badge', badgeKey: UnethicalTourist.key },
+    { key: BlindEye.key, type: 'badge', badgeKey: BlindEye.key },
+    { key: Soother.key, type: 'badge', badgeKey: Soother.key },
   ],
 }

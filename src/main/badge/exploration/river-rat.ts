@@ -5,15 +5,13 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 import { ImperialCity } from '../../zone/imperial-city'
 
 export const RiverRat: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'river-rat',
-  setTitle: { id: 1405 },
-  name: [{ value: 'River Rat' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1405],
+  name: 'River Rat',
+  morality: 'all',
   zoneKey: Praetoria.key,
-  badgeText: [{
-    value: 'An invigorating swim in the rich, clear waters of Praetoria always perks you up.',
-  }],
+  badgeText: `An invigorating swim in the rich, clear waters of Praetoria always perks you up.`,
   notes: `
 The River Rat Badge has 19 locations in Praetoria, most of which are located under the bridges scattered throughout the zone.
 In locations not covered by a bridge, look for the life buoys. There are no exact coordinates for these badges; however, they can be approximated by traveling to the locations indicated on the image below.
@@ -30,5 +28,5 @@ It is best to do this badge as soon as you arrive in Praetoria, even if you are 
   links: [
     { title: 'River Rat Badge', href: 'https://homecoming.wiki/wiki/River_Rat_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
 }

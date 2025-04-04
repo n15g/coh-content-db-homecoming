@@ -5,13 +5,13 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 import { TerraVolta } from '../../zone/terra-volta'
 
 export const Researcher: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'researcher',
-  setTitle: { id: 156 },
+  setTitleId: [156],
   name: [
     { value: 'Researcher' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the sordid history of former mayor of Paragon City, Spanky Rabinowitz.` },
   ],

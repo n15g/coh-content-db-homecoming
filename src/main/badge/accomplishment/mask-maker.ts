@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { DrShellyPercey } from '../../contact/dr-shelly-percey'
 
 export const MaskMaker: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'mask-maker',
-  setTitle: { id: 333 },
+  setTitleId: [333],
   name: 'Mask Maker',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You obtained 'samples' from the notorious Facemaker.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Steal Facemaker's Reanimation Chemicals" entry with number 6.19 in the 10-14 level range.`,
   links: [

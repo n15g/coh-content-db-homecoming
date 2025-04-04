@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Tracer } from '../defeat/tracer'
 
 export const CraneEnforcer: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'crane-enforcer',
-  setTitle: { id: 478 },
+  setTitleId: [478],
   name: [
     { value: 'Crane Enforcer' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'The Tsoo are bound by honor to serve you.' },
   ],
@@ -19,6 +19,6 @@ export const CraneEnforcer: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Tracer.key, type: 'BADGE', badgeKey: Tracer.key },
+    { key: Tracer.key, type: 'badge', badgeKey: Tracer.key },
   ],
 }

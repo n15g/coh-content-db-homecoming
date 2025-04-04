@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const DestinyUnlocked: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'destiny-unlocked',
-  setTitle: { id: 1394 },
+  setTitleId: [1394],
   name: 'Destiny Unlocked',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You unlocked your Destiny Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Destiny Incarnate slot,`,
   notes: `Unlock the Destiny Incarnate slot by earning Incarnate Experience through normal play.`,

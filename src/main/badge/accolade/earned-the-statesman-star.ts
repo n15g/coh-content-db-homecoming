@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { CaptainJamesHarlan } from '../../contact/captain-james-harlan'
 
 export const EarnedTheStatesmanStar: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'earned-the-statesman-star',
-  setTitle: { id: 179 },
+  setTitleId: [179],
   name: [
-    { alignment: 'H', value: 'Earned the Statesman Star' },
-    { alignment: 'V', value: 'Denied the Statesman Star' },
+    { alignment: 'hero', value: 'Earned the Statesman Star' },
+    { alignment: 'villain', value: 'Denied the Statesman Star' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `Your Terra Volta experience has altered your powers in ways no one could imagine.`,
   effect: 'Awards a character respecification.',
   links: [

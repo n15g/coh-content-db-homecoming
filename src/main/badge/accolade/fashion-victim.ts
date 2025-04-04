@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const FashionVictim: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'fashion-victim',
-  setTitle: { id: 2397 },
+  setTitleId: [2397],
   name: 'Fashion Victim',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `The road of excess leads to the palace of... fabulousness!`,
   acquisition: `Spend 50 million inf at the tailor.`,
   links: [

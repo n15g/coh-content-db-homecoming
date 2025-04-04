@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const WalkerOnTheProfaneAscent: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'walker-on-the-profane-ascent',
-  setTitle: { id: 2183 },
-  name: [{ value: 'Walker on the Profane Ascent' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [2183],
+  name: 'Walker on the Profane Ascent',
+  morality: 'all',
   zoneKey: DarkAstoria.key,
   loc: [2829, 193, 793],
   badgeText: [{
@@ -21,6 +21,6 @@ as it twists and writhes to free himself; Mot abides no vanity but its own.`,
   links: [
     { title: 'Walker on the Profane Ascent Badge', href: 'https://homecoming.wiki/wiki/Walker_on_the_Profane_Ascent_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

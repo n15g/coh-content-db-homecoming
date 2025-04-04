@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const BantamweightChampion: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'bantamweight-champion',
-  setTitle: { id: 222 },
+  setTitleId: [222],
   name: [
     { value: 'Bantamweight Champion' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'You have achieved the status of Champion in the Bantamweight division by winning your first '

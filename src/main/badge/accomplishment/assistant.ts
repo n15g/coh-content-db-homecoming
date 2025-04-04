@@ -1,14 +1,14 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Assistant: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'assistant',
-  setTitle: { id: 1966 },
+  setTitleId: [1966],
   name: [
-    { alignment: 'H', value: 'Assistant' },
-    { alignment: 'V', value: 'Accomplice' },
+    { alignment: 'hero', value: 'Assistant' },
+    { alignment: 'villain', value: 'Accomplice' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You helped a team complete a Weekly Strike Target even though you already received the bonus for the week.',
   acquisition: `Complete a [Weekly Strike Target](https://homecoming.wiki/wiki/Weekly_Strike_Target) after you've already completed one for the week.`,
   links: [

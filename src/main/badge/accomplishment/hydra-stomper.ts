@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const HydraStomper: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'hydra-stomper',
-  setTitle: { id: 2021 },
+  setTitleId: [2021],
   name: 'Hydra Stomper',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You went into the depths of the sewers beneath Paragon City and took down two monstrous Hydra heads!',
   acquisition: 'Complete the Death from Below Sewer Trial',
   links: [

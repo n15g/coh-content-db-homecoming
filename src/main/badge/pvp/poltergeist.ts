@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Poltergeist: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'poltergeist',
-  setTitle: { id: 582 },
+  setTitleId: [582],
   name: [
     { value: 'Poltergeist' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You have helped defeat Ghost Widow in Recluse\'s Victory.' },
   ],

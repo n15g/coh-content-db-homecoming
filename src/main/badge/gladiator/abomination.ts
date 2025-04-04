@@ -3,13 +3,13 @@ import { SynapsesCohort } from '../accomplishment/synapses-cohort'
 import { BinderOfBeasts } from '../accomplishment/binder-of-beasts'
 
 export const Abomination: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'abomination',
-  setTitle: { id: 479 },
+  setTitleId: [479],
   name: [
     { value: 'Abomination' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'The Vahzilok fear you.' },
   ],
@@ -20,6 +20,6 @@ export const Abomination: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: SynapsesCohort.key, type: 'BADGE', badgeKey: BinderOfBeasts.key },
+    { key: SynapsesCohort.key, type: 'badge', badgeKey: BinderOfBeasts.key },
   ],
 }

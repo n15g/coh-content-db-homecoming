@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TinaMacintyre } from '../../contact/tina-macintyre'
 
 export const Emancipator: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'emancipator',
-  setTitle: { id: 82 },
+  setTitleId: [82],
   name: 'Emancipator',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You have defeated the Clockwork King in an alternate dimension where he realized his true potential.',
   links: [
     { title: 'Emancipator Badge', href: 'https://homecoming.wiki/wiki/Emancipator_Badge' },

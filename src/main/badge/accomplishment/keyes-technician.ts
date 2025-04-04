@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const KeyesTechnician: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'keyes-technician',
-  setTitle: { id: 1989 },
+  setTitleId: [1989],
   name: [
     { value: 'Keyes Technician' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have completed the Incarnate Trial: Keyes Island Reactor.' },
   ],

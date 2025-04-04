@@ -3,11 +3,11 @@ import { StevenSheridan } from '../../contact/steven-sheridan'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const TraditionalistFoil: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'traditionalist-foil',
-  setTitle: { id: 2499 },
+  setTitleId: [2499],
   name: 'Traditionalist Foil',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You learned about the two core Rikti factions, Traditionalist and Restructurist, while foiling a plot to mutate humans into Traditionalist conscripts.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Revelation: Rikti Factions" entry with number 0.43 in the 35-39 level range.`,
   links: [

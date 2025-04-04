@@ -1,0 +1,12 @@
+import { ContactData } from 'coh-content-db'
+import { PocketD } from '../zone/pocket-d'
+
+export const DJZero: ContactData = {
+  key: 'dj-zero',
+  name: 'DJ Zero',
+  title: 'Trans Dimensional DJ',
+  zoneKey: PocketD.key,
+  loc: [-77, 22, -1057],
+  levelRange: [1, 50],
+  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/DJ_Zero' }],
+}

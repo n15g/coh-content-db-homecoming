@@ -3,26 +3,22 @@ import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
 import { MayhemBrickstown } from '../../zone/mayhem-brickstown'
 
 export const Brickhouse: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'brickhouse',
-  setTitle: { id: 561 },
-  name: [{ value: 'Brickhouse' }],
-  alignment: ['V'],
+  setTitleId: [561],
+  name: 'Brickhouse',
+  morality: 'villainous',
   zoneKey: MayhemBrickstown.key,
-  badgeText: [{
-    value: 'You have discovered an underground safe in Brickstown kept right under the noses of the PPD.',
-  }],
+  badgeText: `You have discovered an underground safe in Brickstown kept right under the noses of the PPD.`,
   loc: [-161, 0, -147],
-  notes: 'Located in an alley behind the Paragon Police Station.\n'
-    + '\n'
-    + SAFEGUARD_MAYHEM_CONTACT_FRAGMENT,
+  notes: `Located in an alley behind the Paragon Police Station.
+
+${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
   links: [
     { title: 'Brickhouse Badge', href: 'https://homecoming.wiki/wiki/Brickhouse_Badge' },
     { title: 'I25 Safeguard/Mayhem Contact', href: 'https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges' },
 
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '1',
 }

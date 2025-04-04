@@ -1,19 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Jubilant: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'jubilant',
-  setTitle: { id: 1327 },
-  name: [
-    { value: 'Jubilant' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You have helped celebrate the 5th anniversary of City of Heroes/Villains.' },
-  ],
-  acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',
+  setTitleId: [1327],
+  name: 'Jubilant',
+  morality: 'all',
+  badgeText: 'You have helped celebrate the 5th anniversary of City of Heroes/Villains.',
+  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
   links: [
     { title: 'Jubilant Badge', href: 'https://homecoming.wiki/wiki/Jubilant_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/jubilant.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/jubilant.png',
 }

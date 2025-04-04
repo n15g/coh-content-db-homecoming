@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { DrAeon } from '../../contact/dr-aeon'
 
 export const GoldStandard: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'gold-standard',
-  setTitle: { id: 2476 },
+  setTitleId: [2476],
   name: 'Gold Standard',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You assisted ${contactLink(DrAeon)} in finally settling the score with King Midas and his Gold Brickers who were manipulating the local gold market using unstable dimensional counterfeits in order to establish
  themselves as independent players on the Rogue Isles.
 You've shown them the real measure of what passes the quality standard for gold.`,

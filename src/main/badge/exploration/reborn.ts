@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheAbyss } from '../../zone/the-abyss'
 
 export const Reborn: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'reborn',
-  setTitle: { id: 745 },
-  name: [{ value: 'Reborn' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [745],
+  name: 'Reborn',
+  morality: 'all',
   zoneKey: TheAbyss.key,
   loc: [679, -544, -3189],
   badgeText: [{
@@ -19,6 +19,6 @@ It is possible to get this badge when Hamidon is not present (i.e. there are Dev
   links: [
     { title: 'Reborn Badge', href: 'https://homecoming.wiki/wiki/Reborn_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '1',
 }

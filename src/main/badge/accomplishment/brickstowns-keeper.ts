@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 
 export const BrickstownsKeeper: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'brickstowns-keeper',
-  setTitle: { id: 2256 },
+  setTitleId: [2256],
   name: `Brickstown's Keeper`,
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You worked with the New Praetorians to stop the biggest breakout that Brickstown has ever seen.',
   acquisition: 'Complete the second story arc from Provost Marchand (Primal Earth)',
   links: [

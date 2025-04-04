@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Gunner: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'gunner',
-  setTitle: { id: 370 },
+  setTitleId: [370],
   name: [
     { value: 'Gunner' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have been part of taking over a Firebase, earning you a new nickname: \'Gunner.\'' },
   ],

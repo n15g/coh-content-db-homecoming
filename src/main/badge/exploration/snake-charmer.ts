@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { MercyIsland } from '../../zone/mercy-island'
 
 export const SnakeCharmer: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'snake-charmer',
-  setTitle: { id: 264 },
-  name: [{ value: 'Snake Charmer' }],
-  alignment: ['V'],
+  setTitleId: [264],
+  name: 'Snake Charmer',
+  morality: 'villainous',
   zoneKey: MercyIsland.key,
   loc: [-385, 42, -1712],
   badgeText: [{
@@ -16,6 +16,6 @@ export const SnakeCharmer: BadgeData = {
   links: [
     { title: 'Snake Charmer Badge', href: 'https://homecoming.wiki/wiki/Snake_Charmer_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '2',
 }

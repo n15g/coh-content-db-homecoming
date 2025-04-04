@@ -10,17 +10,17 @@ import { GlobalGuardian } from '../exploration/global-guardian'
 import { Revolutionary } from '../exploration/revolutionary'
 
 export const ReturnVisitor: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'return-visitor',
-  setTitle: { id: 551 },
+  setTitleId: [551],
   name: [
-    { alignment: 'H', value: 'Return Visitor' },
-    { alignment: 'V', value: 'Invader' },
+    { alignment: 'hero', value: 'Return Visitor' },
+    { alignment: 'villain', value: 'Invader' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `You've seen a lot of Paragon from the other side already, so you've got a head start on making your new life here.` },
-    { alignment: 'V', value: `No corner of Paragon City is safe from your destruction!` },
+    { alignment: 'hero', value: `You've seen a lot of Paragon from the other side already, so you've got a head start on making your new life here.` },
+    { alignment: 'villain', value: `No corner of Paragon City is safe from your destruction!` },
   ],
   effect: 'Awards +5% Max Health.',
   links: [
@@ -29,14 +29,14 @@ export const ReturnVisitor: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/return-visitor.png',
   requirements: [
-    { key: Libertarian.key, type: 'BADGE', badgeKey: Libertarian.key },
-    { key: Brickhouse.key, type: 'BADGE', badgeKey: Brickhouse.key },
-    { key: GateCloser.key, type: 'BADGE', badgeKey: GateCloser.key },
-    { key: GlobalGuardian.key, type: 'BADGE', badgeKey: GlobalGuardian.key },
-    { key: KingMaker.key, type: 'BADGE', badgeKey: KingMaker.key },
-    { key: RoadRaged.key, type: 'BADGE', badgeKey: RoadRaged.key },
-    { key: SteelWorker.key, type: 'BADGE', badgeKey: SteelWorker.key },
-    { key: TalonOfTalos.key, type: 'BADGE', badgeKey: TalonOfTalos.key },
-    { key: Revolutionary.key, type: 'BADGE', badgeKey: Revolutionary.key },
+    { key: Libertarian.key, type: 'badge', badgeKey: Libertarian.key },
+    { key: Brickhouse.key, type: 'badge', badgeKey: Brickhouse.key },
+    { key: GateCloser.key, type: 'badge', badgeKey: GateCloser.key },
+    { key: GlobalGuardian.key, type: 'badge', badgeKey: GlobalGuardian.key },
+    { key: KingMaker.key, type: 'badge', badgeKey: KingMaker.key },
+    { key: RoadRaged.key, type: 'badge', badgeKey: RoadRaged.key },
+    { key: SteelWorker.key, type: 'badge', badgeKey: SteelWorker.key },
+    { key: TalonOfTalos.key, type: 'badge', badgeKey: TalonOfTalos.key },
+    { key: Revolutionary.key, type: 'badge', badgeKey: Revolutionary.key },
   ],
 }

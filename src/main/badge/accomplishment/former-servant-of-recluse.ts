@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { LordRecluse } from '../../contact/lord-recluse'
 
 export const FormerServantOfRecluse: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'former-servant-of-recluse',
-  setTitle: { id: 323 },
+  setTitleId: [323],
   name: [
-    { alignment: 'H', value: 'Former Servant of Recluse' },
-    { alignment: 'V', value: 'Servant of Recluse' },
+    { alignment: 'hero', value: 'Former Servant of Recluse' },
+    { alignment: 'villain', value: 'Servant of Recluse' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `You have broken Paragon City's 'best,' and now must atone for those actions.` },
-    { alignment: 'V', value: `You have broken Paragon City's 'best.' Let everyone fear you!` },
+    { alignment: 'hero', value: `You have broken Paragon City's 'best,' and now must atone for those actions.` },
+    { alignment: 'villain', value: `You have broken Paragon City's 'best.' Let everyone fear you!` },
   ],
   links: [
     { title: 'Former Servant of Recluse Badge', href: 'https://homecoming.wiki/wiki/Former_Servant_of_Recluse_Badge' },

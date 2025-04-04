@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TournamentVictor: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'tournament-victor',
-  setTitle: { id: 1346 },
+  setTitleId: [1346],
   name: [
     { value: 'Tournament Victor' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You\'ve won your first Swiss Draw match, you\'re considered a Tournament Victor.' },
   ],

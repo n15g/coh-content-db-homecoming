@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const BatteryPowered: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'battery-powered',
-  setTitle: { id: 781 },
+  setTitleId: [781],
   name: [{ value: 'Battery Powered' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Endurance Modification and Endurance Reduction.' }],
   links: [
     { title: 'Battery Powered Badge', href: 'https://homecoming.wiki/wiki/Battery_Powered_Badge' },
@@ -14,17 +14,17 @@ export const BatteryPowered: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 15,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 6,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 6,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 20,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 6,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 6,
     },
   ],
 }

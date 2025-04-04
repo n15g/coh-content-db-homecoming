@@ -3,11 +3,11 @@ import { AbandonedSewerNetwork } from '../../zone/abandoned-sewer-network'
 import { SewerNetwork } from '../../zone/sewer-network'
 
 export const SecretOfTheCity: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'secret-of-the-city',
-  setTitle: { id: 1823 },
-  name: [{ value: 'Secret of the City' }],
-  alignment: ['H'],
+  setTitleId: [1823],
+  name: 'Secret of the City',
+  morality: 'heroic',
   zoneKey: AbandonedSewerNetwork.key,
   loc: [-1664, 0, -1728],
   badgeText: [{
@@ -19,6 +19,6 @@ export const SecretOfTheCity: BadgeData = {
   links: [
     { title: 'Secret of the City Badge', href: 'https://homecoming.wiki/wiki/Secret_of_the_City_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '3',
 }

@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Decaying: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'decaying',
-  setTitle: { id: 761 },
+  setTitleId: [761],
   name: [{ value: 'Decaying' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Defense Debuff, To Hit Debuff, Taunt, and Confuse.' }],
   links: [
     { title: 'Decaying Badge', href: 'https://homecoming.wiki/wiki/Decaying_Badge' },
@@ -14,18 +14,18 @@ export const Decaying: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 15,
-      inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
-      inventionCount: 1,
+      inventionTypes: ['defense-debuff', 'to-hit-debuff', 'taunt', 'confuse'],
+      count: 1,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 20,
-      inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
-      inventionCount: 1,
+      inventionTypes: ['defense-debuff', 'to-hit-debuff', 'taunt', 'confuse'],
+      count: 1,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Dismantler: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'dismantler',
-  setTitle: { id: 763 },
+  setTitleId: [763],
   name: [{ value: 'Dismantler' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Defense Debuff, To Hit Debuff, Taunt, and Confuse.' }],
   links: [
     { title: 'Dismantler Badge', href: 'https://homecoming.wiki/wiki/Dismantler_Badge' },
@@ -14,18 +14,18 @@ export const Dismantler: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
-      inventionCount: 2,
+      inventionTypes: ['defense-debuff', 'to-hit-debuff', 'taunt', 'confuse'],
+      count: 2,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['DEFENSE_DEBUFF', 'TO_HIT_DEBUFF', 'TAUNT', 'CONFUSE'],
-      inventionCount: 2,
+      inventionTypes: ['defense-debuff', 'to-hit-debuff', 'taunt', 'confuse'],
+      count: 2,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

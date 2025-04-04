@@ -14,13 +14,13 @@ import { TerraVolta } from '../../zone/terra-volta'
 import { TheHollows } from '../../zone/the-hollows'
 
 export const Bicentennial: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'bicentennial',
-  setTitle: { id: 2515 },
+  setTitleId: [2515],
   name: [
     { value: 'Bicentennial' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `Whether love, fascination or obsession, none can deny your powerful feelings for Paragon City, as evidenced by your efforts to explore the city's 200-year history. You've taken the time to learn about everything from infrastructure to some of the greatest crises and heroes of the city's rich legacy.` },
   ],

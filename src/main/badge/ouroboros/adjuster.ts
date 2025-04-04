@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Adjuster: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'adjuster',
-  setTitle: { id: 935 },
+  setTitleId: [935],
   name: [
     { value: 'Adjuster' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 10 story arcs.' },
   ],

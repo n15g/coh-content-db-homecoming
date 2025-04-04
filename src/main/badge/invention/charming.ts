@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Charming: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'charming',
-  setTitle: { id: 777 },
+  setTitleId: [777],
   name: [{ value: 'Charming' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Sleep, Snare, Hold, Stun, Immobilize, and Fear.' }],
   effect: '+2 to Invention Salvage capacity',
   links: [
@@ -15,18 +15,18 @@ export const Charming: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 25,
-      inventionTypes: ['SLEEP', 'SLOW', 'HOLD', 'STUN', 'IMMOBILIZE', 'FEAR'],
-      inventionCount: 6,
+      inventionTypes: ['sleep', 'slow', 'hold', 'stun', 'immobilize', 'fear'],
+      count: 6,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 30,
-      inventionTypes: ['SLEEP', 'SLOW', 'HOLD', 'STUN', 'IMMOBILIZE', 'FEAR'],
-      inventionCount: 6,
+      inventionTypes: ['sleep', 'slow', 'hold', 'stun', 'immobilize', 'fear'],
+      count: 6,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

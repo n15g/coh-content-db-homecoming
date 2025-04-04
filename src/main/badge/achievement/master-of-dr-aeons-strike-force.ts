@@ -5,26 +5,20 @@ import { RippleRaider } from './ripple-raider'
 import { UnfriendlyFire } from './unfriendly-fire'
 
 export const MasterOfDrAeonsStrikeForce: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'master-of-dr-aeons-strike-force',
-  setTitle: { id: 2482 },
-  name: [
-    { value: 'Master of Dr. Aeon\'s Strike Force' },
-  ],
-  alignment: ['V'],
-  badgeText: [
-    { value: `You have proven yourself Master of Dr. Aeon's Strike Force.` },
-  ],
+  setTitleId: [2482],
+  name: `Master of Dr. Aeon's Strike Force`,
+  morality: 'villainous',
+  badgeText: `You have proven yourself Master of Dr. Aeon's Strike Force.`,
   links: [
-    { title: 'Master of Dr. Aeon\'s Strike Force Badge', href: 'https://homecoming.wiki/wiki/Master_of_Dr._Aeon%27s_Strike_Force_Badge' },
+    { title: `Master of Dr. Aeon's Strike Force Badge`, href: 'https://homecoming.wiki/wiki/Master_of_Dr._Aeon%27s_Strike_Force_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-dr-aeons-strike-force.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-dr-aeons-strike-force.png',
   requirements: [
-    { key: CantTouchThis.key, type: 'BADGE', badgeKey: CantTouchThis.key },
-    { key: PowerOverwhelming.key, type: 'BADGE', badgeKey: PowerOverwhelming.key },
-    { key: RippleRaider.key, type: 'BADGE', badgeKey: RippleRaider.key },
-    { key: UnfriendlyFire.key, type: 'BADGE', badgeKey: UnfriendlyFire.key },
+    { key: CantTouchThis.key, type: 'badge', badgeKey: CantTouchThis.key },
+    { key: PowerOverwhelming.key, type: 'badge', badgeKey: PowerOverwhelming.key },
+    { key: RippleRaider.key, type: 'badge', badgeKey: RippleRaider.key },
+    { key: UnfriendlyFire.key, type: 'badge', badgeKey: UnfriendlyFire.key },
   ],
 }

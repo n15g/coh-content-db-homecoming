@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const BehaviorAdjuster: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'behavior-adjuster',
-  setTitle: { id: 1974 },
+  setTitleId: [1974],
   name: 'Behavior Adjuster',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Behavioral Adjustment Facility.',
   links: [
     { title: 'Behavior Adjuster Badge', href: 'https://homecoming.wiki/wiki/Behavior_Adjuster_Badge' },

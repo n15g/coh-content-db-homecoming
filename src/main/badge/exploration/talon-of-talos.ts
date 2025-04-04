@@ -3,16 +3,16 @@ import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
 import { MayhemTalosIsland } from '../../zone/mayhem-talos-island'
 
 export const TalonOfTalos: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'talon-of-talos',
-  setTitle: { id: 560 },
-  name: [{ value: 'Talon of Talos' }],
-  alignment: ['V'],
+  setTitleId: [560],
+  name: 'Talon of Talos',
+  morality: 'villainous',
   zoneKey: MayhemTalosIsland.key,
   badgeText: [{
-    alignment: 'H', value: 'You know all the possible places where criminals lurk to ambush people in Talos - knowledge that only someone from the other side could have.',
+    alignment: 'hero', value: 'You know all the possible places where criminals lurk to ambush people in Talos - knowledge that only someone from the other side could have.',
   }, {
-    alignment: 'V', value: 'Back alleys in Talos Island like this one are perfect for waiting in ambush.',
+    alignment: 'villain', value: 'Back alleys in Talos Island like this one are perfect for waiting in ambush.',
   }],
   loc: [-1438, 160, 6877],
   notes: 'Located in an alley between buildings, almost directly East of the entrance point.\n'
@@ -23,8 +23,6 @@ export const TalonOfTalos: BadgeData = {
     { title: 'I25 Safeguard/Mayhem Contact', href: 'https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges' },
 
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '1',
 }

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { MairennMacGregor } from '../../contact/mairenn-macgregor'
 
 export const Charmer: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'charmer',
-  setTitle: { id: 69 },
+  setTitleId: [69],
   name: 'Charmer',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You have defeated the Hydra, a major threat to the sewer network of Paragon City.',
   links: [
     { title: 'Charmer Badge', href: 'https://homecoming.wiki/wiki/Charmer_Badge' },

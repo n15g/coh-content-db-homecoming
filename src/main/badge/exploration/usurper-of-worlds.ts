@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 
 export const UsurperOfWorlds: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'usurper-of-worlds',
-  setTitle: { id: 1810 },
-  name: [{ value: 'Usurper of Worlds' }],
-  alignment: ['H'],
+  setTitleId: [1810],
+  name: 'Usurper of Worlds',
+  morality: 'heroic',
   zoneKey: CascadeArchipelago.key,
   loc: [946, 4833, -6690],
   badgeText: [{
@@ -22,6 +22,6 @@ export const UsurperOfWorlds: BadgeData = {
   links: [
     { title: 'Usurper of Worlds Badge', href: 'https://homecoming.wiki/wiki/Usurper_of_Worlds_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '6',
 }

@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { Positron } from '../../contact/positron'
 
 export const PositronsAlly: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'positrons-ally',
-  setTitle: { id: 61 },
+  setTitleId: [61],
   name: [
-    { alignment: 'H', value: `Positron's Ally` },
-    { alignment: 'V', value: `Positron's Betrayer` },
+    { alignment: 'hero', value: `Positron's Ally` },
+    { alignment: 'villain', value: `Positron's Betrayer` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'Positron has awarded you this medal in recognition of services performed for him.' },
-    { alignment: 'V', value: `Positron himself once awarded this medal to you. Nowadays he'd probably arrest you.` },
+    { alignment: 'hero', value: 'Positron has awarded you this medal in recognition of services performed for him.' },
+    { alignment: 'villain', value: `Positron himself once awarded this medal to you. Nowadays he'd probably arrest you.` },
   ],
   acquisition: 'Complete both parts of the Positron Task Force: The Rule of Three',
   links: [

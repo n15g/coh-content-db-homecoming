@@ -9,24 +9,24 @@ import { Nailbiter } from '../exploration/nailbiter'
 import { TheNewBoss } from '../exploration/the-new-boss'
 
 export const NeuYouCouldDoIt: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'neu-you-could-do-it',
-  setTitle: { id: 1655 },
+  setTitleId: [1655],
   name: 'Neu You Could Do It',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Neutropolis's Underground.`,
   links: [
     { title: 'Neu You Could Do It Badge', href: 'https://homecoming.wiki/wiki/Neu_You_Could_Do_It_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: BingeEater.key, type: 'BADGE', badgeKey: BingeEater.key },
-    { key: Cluttered.key, type: 'BADGE', badgeKey: Cluttered.key },
-    { key: DrinkEnriche.key, type: 'BADGE', badgeKey: DrinkEnriche.key },
-    { key: GradeF.key, type: 'BADGE', badgeKey: GradeF.key },
-    { key: KeepingTheLightsOn.key, type: 'BADGE', badgeKey: KeepingTheLightsOn.key },
-    { key: ReadyForAnything.key, type: 'BADGE', badgeKey: ReadyForAnything.key },
-    { key: Nailbiter.key, type: 'BADGE', badgeKey: Nailbiter.key },
-    { key: TheNewBoss.key, type: 'BADGE', badgeKey: TheNewBoss.key },
+    { key: BingeEater.key, type: 'badge', badgeKey: BingeEater.key },
+    { key: Cluttered.key, type: 'badge', badgeKey: Cluttered.key },
+    { key: DrinkEnriche.key, type: 'badge', badgeKey: DrinkEnriche.key },
+    { key: GradeF.key, type: 'badge', badgeKey: GradeF.key },
+    { key: KeepingTheLightsOn.key, type: 'badge', badgeKey: KeepingTheLightsOn.key },
+    { key: ReadyForAnything.key, type: 'badge', badgeKey: ReadyForAnything.key },
+    { key: Nailbiter.key, type: 'badge', badgeKey: Nailbiter.key },
+    { key: TheNewBoss.key, type: 'badge', badgeKey: TheNewBoss.key },
   ],
 }

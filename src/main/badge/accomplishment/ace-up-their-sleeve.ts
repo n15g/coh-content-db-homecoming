@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 
 export const AceUpTheirSleeve: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'ace-up-their-sleeve',
-  setTitle: { id: 2271 },
+  setTitleId: [2271],
   name: 'Ace Up Their Sleeve',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You played the Center's personal story and saw that the Council has another ace up their sleeve for future events.`,
   links: [
     { title: 'Ace Up Their Sleeve Badge', href: 'https://homecoming.wiki/wiki/Ace_Up_Their_Sleeve_Badge' },

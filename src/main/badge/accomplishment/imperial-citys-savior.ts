@@ -3,11 +3,11 @@ import { BelladonnaVetrano } from '../../contact/belladonna-vetrano'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const ImperialCitysSavior: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'imperial-citys-savior',
-  setTitle: { id: 2217 },
+  setTitleId: [2217],
   name: `Imperial City's Savior`,
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You helped the forces of Primal Earth take Imperial City from Praetor Sinclair.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "The Emperor's Sword" entry with number 23.06 at level 50.`,
   links: [

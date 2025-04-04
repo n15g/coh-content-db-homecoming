@@ -9,24 +9,24 @@ import { VeniVidiVici } from '../exploration/veni-vidi-vici'
 import { CirqueDuFreak } from '../exploration/cirque-du-freak'
 
 export const CrazyForCreysFolly: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'crazy-for-creys-folly',
-  setTitle: { id: 1880 },
+  setTitleId: [1880],
   name: `Crazy for Crey's Folly`,
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Crey's Folly.`,
   links: [
     { title: `Crazy for Crey's Folly Badge`, href: 'https://homecoming.wiki/wiki/Crazy_for_Crey%27s_Folly_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
-    { key: BurningTheMidnightOil.key, type: 'BADGE', badgeKey: BurningTheMidnightOil.key },
-    { key: CirqueDuFreak.key, type: 'BADGE', badgeKey: CirqueDuFreak.key },
-    { key: CreyCares.key, type: 'BADGE', badgeKey: CreyCares.key },
-    { key: CreyWatcher.key, type: 'BADGE', badgeKey: CreyWatcher.key },
-    { key: EyesOfNemesis.key, type: 'BADGE', badgeKey: EyesOfNemesis.key },
-    { key: FreaksFolly.key, type: 'BADGE', badgeKey: FreaksFolly.key },
-    { key: HammerOfTheRikti.key, type: 'BADGE', badgeKey: HammerOfTheRikti.key },
-    { key: VeniVidiVici.key, type: 'BADGE', badgeKey: VeniVidiVici.key },
+    { key: BurningTheMidnightOil.key, type: 'badge', badgeKey: BurningTheMidnightOil.key },
+    { key: CirqueDuFreak.key, type: 'badge', badgeKey: CirqueDuFreak.key },
+    { key: CreyCares.key, type: 'badge', badgeKey: CreyCares.key },
+    { key: CreyWatcher.key, type: 'badge', badgeKey: CreyWatcher.key },
+    { key: EyesOfNemesis.key, type: 'badge', badgeKey: EyesOfNemesis.key },
+    { key: FreaksFolly.key, type: 'badge', badgeKey: FreaksFolly.key },
+    { key: HammerOfTheRikti.key, type: 'badge', badgeKey: HammerOfTheRikti.key },
+    { key: VeniVidiVici.key, type: 'badge', badgeKey: VeniVidiVici.key },
   ],
 }

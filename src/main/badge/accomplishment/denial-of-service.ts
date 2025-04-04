@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const DenialOfService: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'denial-of-service',
-  setTitle: { id: 1421 },
+  setTitleId: [1421],
   name: 'Denial of Service',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You crept a bit too close to the danger zone and got burned.',
   acquisition: 'Attempt to penetrate the sonic barrier surrounding the Praetorian zones.',
   links: [

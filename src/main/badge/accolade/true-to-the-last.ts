@@ -9,19 +9,19 @@ import { MotherMayhem } from '../../contact/mother-mayhem'
 import { AntiMatter } from '../../contact/anti-matter'
 
 export const TrueToTheLast: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'true-to-the-last',
-  setTitle: { id: 2351 },
+  setTitleId: [2351],
   name: 'True to the Last',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `Wherever you must go, whatever you must do, Praetoria will always & forever be your home, and to it you shall be True to the Last.`,
   notes: `Awards 20 reward merits.`,
   links: [
     { title: 'True to the Last Badge', href: 'https://homecoming.wiki/wiki/True_to_the_Last_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-v.png' },
   ],
   requirements: [
     { key: 'the-savage-man', type: 'ARC', missionName: '(Resistance Warden) The Savage Man', contactKey: AaronWalker.key },

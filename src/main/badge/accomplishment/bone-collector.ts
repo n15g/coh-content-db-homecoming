@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { MrBocor } from '../../contact/mr-bocor'
 
 export const BoneCollector: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'bone-collector',
-  setTitle: { id: 331 },
+  setTitleId: [331],
   name: 'Bone Collector',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You recovered Mr. Bocor's necromantic Loa Bone.`,
   links: [
     { title: 'Bone Collector Badge', href: 'https://homecoming.wiki/wiki/Bone_Collector_Badge' },

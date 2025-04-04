@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { GhostWidow } from '../../contact/ghost-widow'
 
 export const AntiVenom: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'anti-venom',
-  setTitle: { id: 616 },
+  setTitleId: [616],
   name: [
-    { alignment: 'H', value: 'Anti-Venom' },
-    { alignment: 'V', value: `Spider's Kiss` },
+    { alignment: 'hero', value: 'Anti-Venom' },
+    { alignment: 'villain', value: `Spider's Kiss` },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `You've broken your ties with Ghost Widow, but you can never tell for sure. Be careful, or your former Patron may claim your spirit from afar.` },
-    { alignment: 'V', value: `In a world of treachery who can you trust but Ghost Widow?` },
+    { alignment: 'hero', value: `You've broken your ties with Ghost Widow, but you can never tell for sure. Be careful, or your former Patron may claim your spirit from afar.` },
+    { alignment: 'villain', value: `In a world of treachery who can you trust but Ghost Widow?` },
   ],
   effect: 'Awards the Soul Mastery patron power.',
   links: [

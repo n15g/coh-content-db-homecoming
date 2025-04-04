@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TemporalAgent: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'temporal-agent',
-  setTitle: { id: 567 },
+  setTitleId: [567],
   name: [
     { value: 'Temporal Agent' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have controlled 10 Heavies in Recluse\'s Victory.' },
   ],

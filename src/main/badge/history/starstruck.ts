@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const Starstruck: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'starstruck',
-  setTitle: { id: 1408 },
+  setTitleId: [1408],
   name: [
     { value: 'Starstruck' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: `Seeing the statues of the rulers of Praetoria is awe-inspiring, truly a must for any loyal citizen.` },
   ],

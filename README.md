@@ -174,7 +174,7 @@ Next, the badge file needs to export a variable representing the badge data. For
 
 ```typescript
 export const ProtectorOfInnocents: BadgeData = {
-    type: 'ACHIEVEMENT', //Possible values - https://github.com/n15g/coh-content-db/blob/v2.0.0-rc.2/src/main/api/badge-type.ts
+    type: 'achievement', //Possible values - https://github.com/n15g/coh-content-db/blob/v2.0.0-rc.2/src/main/api/badge-type.ts
     key: 'my-badge', // Keys can only contain lowercase letters, numbers and hyphens (`-`, kebab-case).
     setTitle: { id: 1234, praetorianId: 4321 }, // The praetorianId is only required for badges with a separate id
 
@@ -184,43 +184,35 @@ export const ProtectorOfInnocents: BadgeData = {
         { sex: 'F', value: 'My Badge for female characters' },
         { alignment: 'P', sex: 'M', value: 'My Badge for male Praetorian characters' },
     ],
-    alignment: ['H', 'V', 'P'],
-
-    // Alternate values supported here too.
-    badgeText: [
-        { value: 'You did a thing.' },
-        { alignment: 'V', value: 'You did a thing as a praetorian.' },
-    ],
+    morality: 'all',
+    // Alternate values supported here too, but any badge with only a single value should use it directly..
+    badgeText: 'You did a thing.',
+    //Acquisition text should be very short and to the point. Put the gory details in the notes.
     acquisition: 'Do a thing. You can use *markdown* syntax in here for formatting the text.',
     notes: `
 It can also be useful to use backticks instead of commas as the string delimiter.
 
 This will allow you to span multiple lines and not cause issues if quotes (" or ') appear in the text.
 
-Be aware of newlines and whitespace in the string as unlike HTML, in markdown they can have semantic meaning such as marking paragraphs.`,
-
+Be aware of newlines and whitespace in the string, as unlike HTML, in markdown they have semantic meaning such as marking paragraphs.`,
     // Always try and include a link to the homecoming wiki if possible. Remember to Reference [URL encode](https://www.freecodecamp.org/news/url-encoded-characters-reference/) for special characters.
     links: [
         { title: 'Invictus Badge', href: 'https://homecoming.wiki/wiki/Invictus_Badge' },
     ],
-
     // Location of the badge icon in the docs folder.
     // Yes, it’s the same file, even though the above URLs don’t contain “docs” in the link. GitHub Magic™!
     icon: [
         { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/protector-of-innocents-h.png' },
         { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/protector-of-innocents-v.png' }
     ],
-
     // Include the map key for exploration badges,
     zoneKey: AtlasPark.key,
-
     // /loc Coordinates for exploration badges
     loc: [-411.0, 48.0, -2623.0],
-
     // Requirements for badges that involve one or more steps to complete, like collecting other badges,
     // clicking on monuments, or creating inventions.
     requirements: [
-        { key: AstoriasLastStand.key, type: 'BADGE', badgeKey: AstoriasLastStand.key },
+        { key: AstoriasLastStand.key, type: 'badge', badgeKey: AstoriasLastStand.key },
         {
             key: 'bicn-0',
             type: 'PLAQUE',
@@ -233,10 +225,10 @@ Be aware of newlines and whitespace in the string as unlike HTML, in markdown th
         },
         {
             key: 'b',
-            type: 'INVENTION',
+            type: 'invention',
             inventionLevel: 50,
             inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-            inventionCount: 12,
+            count: 12,
         },
     ]
 }

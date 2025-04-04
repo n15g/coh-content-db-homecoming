@@ -3,16 +3,16 @@ import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
 import { SafeguardTalosIsland } from '../../zone/safeguard-talos-island'
 
 export const TalosMight: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'talos-might',
-  setTitle: { id: 653 },
+  setTitleId: [653],
   name: [
-    { alignment: 'H', value: 'Talos\' Might' },
-    { alignment: 'V', value: 'Talos\' Blight' },
+    { alignment: 'hero', value: 'Talos\' Might' },
+    { alignment: 'villain', value: 'Talos\' Blight' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   zoneKey: SafeguardTalosIsland.key,
-  badgeText: [{ value: 'Years ago, Rularuu tore down the barriers between our dimensions and sent one of many invasion forces to this block. Heroes from all over fought back the invaders.' }],
+  badgeText: 'Years ago, Rularuu tore down the barriers between our dimensions and sent one of many invasion forces to this block. Heroes from all over fought back the invaders.',
   loc: [-1452, 160, 6739],
   notes: 'The Talos\' Might Badge is located in the Talos Island Safeguard Mission.\n'
     + '\n'
@@ -25,8 +25,6 @@ export const TalosMight: BadgeData = {
     { title: 'I25 Safeguard/Mayhem Contact', href: 'https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges' },
 
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '1',
 }

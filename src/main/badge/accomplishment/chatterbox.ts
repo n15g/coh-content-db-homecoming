@@ -8,11 +8,11 @@ import { Palatine } from '../../contact/palatine'
 import { KatieDouglas } from '../../contact/katie-douglas'
 
 export const Chatterbox: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'chatterbox',
-  setTitle: { id: 2263 },
+  setTitleId: [2263],
   name: 'Chatterbox',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You were sent in to handle things on Refugee Island, but you decided to catch up with some old friends from ${zoneLink(FirstWard)}.`,
   acquisition: `Speak to four key NPCs from First Ward in the 'Refugees' mission of the 'A New Dimension, A New Team' story arc from ${contactLink(ProvostMarchandPrimal)}.`,
   notes: `

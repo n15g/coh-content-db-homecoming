@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const NuclearPowered: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'nuclear-powered',
-  setTitle: { id: 782 },
+  setTitleId: [782],
   name: [{ value: 'Nuclear Powered' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Endurance Modification and Endurance Reduction.' }],
   effect: '+2 to Invention Salvage capacity',
   links: [
@@ -15,18 +15,18 @@ export const NuclearPowered: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 25,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 7,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 7,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 30,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 7,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 7,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

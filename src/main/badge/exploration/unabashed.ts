@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Unabashed: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'unabashed',
-  setTitle: { id: 758 },
-  name: [{ value: 'Unabashed' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [758],
+  name: 'Unabashed',
+  morality: 'all',
   zoneKey: RiktiWarZone.key,
   loc: [2947, -18, -5638],
   badgeText: [{ value: 'If you\'ve made it onto the Rikti Ship, under the defensive shields, you\'re either very brave or.....' }],
@@ -17,8 +17,6 @@ export const Unabashed: BadgeData = {
     { title: 'Unabashed Badge', href: 'https://homecoming.wiki/wiki/Unabashed_Badge' },
     { title: 'Updated RWZ Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '8',
 }

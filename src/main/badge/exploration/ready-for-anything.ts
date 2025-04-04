@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 
 export const ReadyForAnything: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'ready-for-anything',
-  setTitle: { id: 1746 },
-  name: [{ value: 'Ready for Anything' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1746],
+  name: 'Ready for Anything',
+  morality: 'all',
   zoneKey: UndergroundNeutropolis.key,
   loc: [-1859, -1248, -4112],
   badgeText: [{
@@ -17,6 +17,6 @@ export const ReadyForAnything: BadgeData = {
   links: [
     { title: 'Ready for Anything Badge', href: 'https://homecoming.wiki/wiki/Ready_for_Anything_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '6',
 }

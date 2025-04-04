@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Refrained: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'refrained',
-  setTitle: { id: 895 },
+  setTitleId: [895],
   name: [
     { value: 'Refrained' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Travel Power Power Pools.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 1 and 15 while not using any Travel Power Power Pools.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Travel Power Power Pools.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 1 and 15 while not using any Travel Power Power Pools.` },
   ],
   acquisition: 'Complete a level 1-15 Flashback story arc using no travel powers.',
   links: [

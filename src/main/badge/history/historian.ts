@@ -5,13 +5,13 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 import { TerraVolta } from '../../zone/terra-volta'
 
 export const Historian: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'historian',
-  setTitle: { id: 154 },
+  setTitleId: [154],
   name: [
     { value: 'Historian' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of the U.N. Special Council on Superhuman Activities.` },
   ],

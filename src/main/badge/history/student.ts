@@ -4,13 +4,13 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 import { PerezPark } from '../../zone/perez-park'
 
 export const Student: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'student',
-  setTitle: { id: 148 },
+  setTitleId: [148],
   name: [
     { value: 'Student' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of the Citizen Crime Fighting Act.` },
   ],

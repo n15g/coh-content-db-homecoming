@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Lanista: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'lanista',
-  setTitle: { id: 473 },
+  setTitleId: [473],
   name: [
     { value: 'Lanista' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have won your first rated creature battle in the Arena!' },
   ],

@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Lanista } from './lanista'
 
 export const LongbowNullifier: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'longbow-nullifier',
-  setTitle: { id: 459 },
+  setTitleId: [459],
   name: [
     { value: 'Longbow Nullifier' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'These fools are wise to obey you.' },
   ],
@@ -19,6 +19,6 @@ export const LongbowNullifier: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Lanista.key, type: 'BADGE', badgeKey: Lanista.key },
+    { key: Lanista.key, type: 'badge', badgeKey: Lanista.key },
   ],
 }

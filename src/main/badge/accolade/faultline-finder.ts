@@ -9,24 +9,24 @@ import { Riveting } from '../exploration/riveting'
 import { RockBottom } from '../exploration/rock-bottom'
 
 export const FaultlineFinder: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'faultline-finder',
-  setTitle: { id: 1598 },
+  setTitleId: [1598],
   name: 'Faultline Finder',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Faultline.`,
   links: [
     { title: 'Faultline Finder Badge', href: 'https://homecoming.wiki/wiki/Faultline_Finder_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: EscapeArtist.key, type: 'BADGE', badgeKey: EscapeArtist.key },
-    { key: DrownedRat.key, type: 'BADGE', badgeKey: DrownedRat.key },
-    { key: OldFashioned.key, type: 'BADGE', badgeKey: OldFashioned.key },
-    { key: EggHunter.key, type: 'BADGE', badgeKey: EggHunter.key },
-    { key: Undammed.key, type: 'BADGE', badgeKey: Undammed.key },
-    { key: Upcycled.key, type: 'BADGE', badgeKey: Upcycled.key },
-    { key: Riveting.key, type: 'BADGE', badgeKey: Riveting.key },
-    { key: RockBottom.key, type: 'BADGE', badgeKey: RockBottom.key },
+    { key: EscapeArtist.key, type: 'badge', badgeKey: EscapeArtist.key },
+    { key: DrownedRat.key, type: 'badge', badgeKey: DrownedRat.key },
+    { key: OldFashioned.key, type: 'badge', badgeKey: OldFashioned.key },
+    { key: EggHunter.key, type: 'badge', badgeKey: EggHunter.key },
+    { key: Undammed.key, type: 'badge', badgeKey: Undammed.key },
+    { key: Upcycled.key, type: 'badge', badgeKey: Upcycled.key },
+    { key: Riveting.key, type: 'badge', badgeKey: Riveting.key },
+    { key: RockBottom.key, type: 'badge', badgeKey: RockBottom.key },
   ],
 }

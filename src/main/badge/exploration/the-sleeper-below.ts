@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 
 export const TheSleeperBelow: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-sleeper-below',
-  setTitle: { id: 1785 },
-  name: [{ value: 'The Sleeper Below' }],
-  alignment: ['H'],
+  setTitleId: [1785],
+  name: 'The Sleeper Below',
+  morality: 'heroic',
   zoneKey: EchoDarkAstoria.key,
   loc: [1431, -77, 673],
   badgeText: [{
@@ -22,6 +22,6 @@ export const TheSleeperBelow: BadgeData = {
   links: [
     { title: 'The Sleeper Below Badge', href: 'https://homecoming.wiki/wiki/The_Sleeper_Below_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '8',
 }

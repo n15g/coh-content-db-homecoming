@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { ProtectorOfInnocents } from '../achievement/protector-of-innocents'
 
 export const NebulaEliteBuckshot: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'nebula-elite-buckshot',
-  setTitle: { id: 491 },
+  setTitleId: [491],
   name: [
     { value: 'Nebula Elite Buckshot' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'These Council will make good gladiators.' },
   ],
@@ -19,6 +19,6 @@ export const NebulaEliteBuckshot: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: ProtectorOfInnocents.key, type: 'BADGE', badgeKey: ProtectorOfInnocents.key },
+    { key: ProtectorOfInnocents.key, type: 'badge', badgeKey: ProtectorOfInnocents.key },
   ],
 }

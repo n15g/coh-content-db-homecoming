@@ -1,17 +1,17 @@
 import { BadgeData } from 'coh-content-db'
 
 export const VIP: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'vip',
-  setTitle: { id: 183 },
+  setTitleId: [183],
   name: [
-    { alignment: 'H', value: 'V.I.P.' },
-    { alignment: 'V', value: 'Destined One' },
+    { alignment: 'hero', value: 'V.I.P.' },
+    { alignment: 'villain', value: 'Destined One' },
   ],
-  alignment: ['H', 'V'],
+  morality: 'primal',
   badgeText: [
-    { alignment: 'H', value: `Being a V.I.P. in Paragon City has many advantages associated with it.` },
-    { alignment: 'V', value: `Being one of Kalinda's Destined Ones brings with it many perks, and just as many enemies.` },
+    { alignment: 'hero', value: `Being a V.I.P. in Paragon City has many advantages associated with it.` },
+    { alignment: 'villain', value: `Being one of Kalinda's Destined Ones brings with it many perks, and just as many enemies.` },
   ],
   acquisition: `Awarded on initial login of a Primal-origin character.`,
   links: [

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { SkywayCity } from '../../zone/skyway-city'
 
 export const Solace: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'solace',
-  setTitle: { id: 111 },
-  name: [{ value: 'Solace' }],
-  alignment: ['H'],
+  setTitleId: [111],
+  name: 'Solace',
+  morality: 'heroic',
   zoneKey: SkywayCity.key,
   loc: [2260, -84, -3367],
   badgeText: [{
@@ -18,6 +18,6 @@ export const Solace: BadgeData = {
   links: [
     { title: 'Solace Badge', href: 'https://homecoming.wiki/wiki/Solace_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '2',
 }

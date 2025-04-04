@@ -5,13 +5,13 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 import { SharkheadIsle } from '../../zone/sharkhead-isle'
 
 export const Lorekeeper: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'lorekeeper',
-  setTitle: { id: 317 },
+  setTitleId: [317],
   name: [
     { value: 'Lorekeeper' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: `You have learned much that is hidden from the eyes of mortal men.` },
   ],

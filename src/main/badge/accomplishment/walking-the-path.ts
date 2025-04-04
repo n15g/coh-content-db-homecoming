@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const WalkingThePath: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'walking-the-path',
-  setTitle: { id: 1424 },
+  setTitleId: [1424],
   name: 'Walking the Path',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You strove for what you believe in and, against all odds, came out on top. You\'ve earned the Walking the Path badge by completing your first Alignment Mission.',
   acquisition: 'Complete an alignment mission.',
   links: [

@@ -1,20 +1,18 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { AbandonedSewersTrial } from '../../zone/abandoned-sewers-trial'
 
 export const HeadOfTheHydra: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'head-of-the-hydra',
-  setTitle: { id: 146 },
-  name: [{ value: 'Head of the Hydra' }],
-  alignment: ['H'],
+  setTitleId: [146],
+  name: 'Head of the Hydra',
+  morality: 'heroic',
   zoneKey: AbandonedSewersTrial.key,
   loc: [0, -695, 15],
-  badgeText: [{
-    value: `The Hydra threatens Paragon City from the bowels of the sewer system.`,
-  }],
-  notes: `Located in the ${zoneLink(AbandonedSewersTrial)} under where the Hydra spawns.`,
+  badgeText: `The Hydra threatens Paragon City from the bowels of the sewer system.`,
+  notes: `Located under the Hydra spawn point.`,
   links: [
     { title: 'Head of the Hydra Badge', href: 'https://homecoming.wiki/wiki/Head_of_the_Hydra_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
 }

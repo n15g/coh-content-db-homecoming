@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const CruiserweightChampion: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'cruiserweight-champion',
-  setTitle: { id: 227 },
+  setTitleId: [227],
   name: [
     { value: 'Cruiserweight Champion' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'You have achieved the status of Champion in the Cruiserweight division by winning your first '

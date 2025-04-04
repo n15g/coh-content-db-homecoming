@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { StevenSheridan } from '../../contact/steven-sheridan'
 
 export const DoNoHarm: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'do-no-harm',
-  setTitle: { id: 2386 },
+  setTitleId: [2386],
   name: 'Do No Harm',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You have delivered medical supplies to the Rikti.`,
   notes: `Also available via Ouroboros, level 35-39, mission 0.35 'Hippocratic Oath'.`,
   links: [

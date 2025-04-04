@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Banisher } from '../defeat/banisher'
 
 export const AvalancheShaman: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'avalanche-shaman',
-  setTitle: { id: 489 },
+  setTitleId: [489],
   name: [
     { value: 'Avalanche Shaman' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'These shamans acknowledge your might.' },
   ],
@@ -19,6 +19,6 @@ export const AvalancheShaman: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Banisher.key, type: 'BADGE', badgeKey: Banisher.key },
+    { key: Banisher.key, type: 'badge', badgeKey: Banisher.key },
   ],
 }

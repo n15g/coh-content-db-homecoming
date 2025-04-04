@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Overleveled: BadgeData = {
-  type: 'VETERAN',
+  type: 'veteran',
   key: 'overleveled',
-  setTitle: { id: 624 },
+  setTitleId: [624],
   name: [
     { value: 'Overleveled' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have come to understand that your experience and prowess do not peak at the highest Security Level. You have attained three Veteran levels.` },
-    { alignment: 'V', value: `You have come to understand that your experience and prowess do not peak at the highest Threat Level. You have attained three Veteran levels.` },
+    { alignment: 'hero', value: `You have come to understand that your experience and prowess do not peak at the highest Security Level. You have attained three Veteran levels.` },
+    { alignment: 'villain', value: `You have come to understand that your experience and prowess do not peak at the highest Threat Level. You have attained three Veteran levels.` },
   ],
   acquisition: 'Reach Veteran level 3',
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-3.png' }],

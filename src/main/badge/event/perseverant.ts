@@ -1,14 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Perseverant: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'perseverant',
-  setTitle: { id: 2339 },
-  name: [
-    { value: 'Perseverant' },
+  setTitleId: [2339],
+  name: 'Perseverant',
+  morality: 'all',
+  badgeText: `You have helped celebrate the 11th anniversary of City of Heroes.`,
+  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  links: [
+    { title: 'Perseverant Badge', href: 'https://homecoming.wiki/wiki/Perseverant_Badge' },
   ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [{ value: `You have helped celebrate the 11th anniversary of City of Heroes.` }],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/perseverant.png' }],
-  acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/perseverant.png',
 }

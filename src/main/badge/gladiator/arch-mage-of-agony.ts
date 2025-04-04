@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Archmage } from '../accolade/archmage'
 
 export const ArchMageOfAgony: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'arch-mage-of-agony',
-  setTitle: { id: 509 },
+  setTitleId: [509],
   name: [
     { value: 'Arch-Mage of Agony' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You can command the spirits of another age!' },
   ],
@@ -19,6 +19,6 @@ export const ArchMageOfAgony: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Archmage.key, type: 'BADGE', badgeKey: Archmage.key },
+    { key: Archmage.key, type: 'badge', badgeKey: Archmage.key },
   ],
 }

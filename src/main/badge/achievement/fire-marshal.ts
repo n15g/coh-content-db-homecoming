@@ -1,27 +1,22 @@
 import { BadgeData } from 'coh-content-db'
 
 export const FireMarshal: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'fire-marshal',
-  setTitle: { id: 640 },
+  setTitleId: [640],
   name: [
-    { alignment: 'H', value: 'Fire Marshal' },
-    { alignment: 'V', value: 'Fired' },
+    { alignment: 'hero', value: 'Fire Marshal' },
+    { alignment: 'villain', value: 'Fired' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    {
-      alignment: 'H', value: 'Paragon officials recognize your efforts in thwarting arsons, and have made you an honorary '
-        + 'Fire Marshal.',
-    },
-    { alignment: 'V', value: 'You were Fired from your honorary post as Fire Marshal when you left for the Rogue Isles.' },
+    { alignment: 'hero', value: 'Paragon officials recognize your efforts in thwarting arsons, and have made you an honorary Fire Marshal.' },
+    { alignment: 'villain', value: 'You were Fired from your honorary post as Fire Marshal when you left for the Rogue Isles.' },
   ],
-  acquisition: 'Stop 5 arson side missions in Safeguard Missions',
+  acquisition: 'Stop 5 arson side missions in Safeguard Missions.',
   links: [
     { title: 'Fire Marshal Badge', href: 'https://homecoming.wiki/wiki/Fire_Marshal_Badge' },
     { title: 'Fired Badge', href: 'https://homecoming.wiki/wiki/Fired_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/fire-marshal.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/fire-marshal.png',
 }

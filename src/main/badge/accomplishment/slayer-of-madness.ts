@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { FaathimTheKind } from '../../contact/faathim-the-kind'
 
 export const SlayerOfMadness: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'slayer-of-madness',
-  setTitle: { id: 426 },
+  setTitleId: [426],
   name: 'Slayer of Madness',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You defeated the being known as Lanaru the Mad, sparing the people of the Shadow Shard from total destruction.',
   acquisition: 'Complete the Faathim the Kind Task Force: The Saga of Lanaru',
   links: [

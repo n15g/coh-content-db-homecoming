@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { DreamDoctor } from '../../contact/dream-doctor'
 
 export const HeartOfHatred: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'heart-of-hatred',
-  setTitle: { id: 2193 },
+  setTitleId: [2193],
   name: 'Heart of Hatred',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You fought against Mot, the essence of hatred, and managed to win, saving the world from being devoured whole by the creature.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "The Choice of Hope" entry with number 22.20 at level 50.`,
   links: [

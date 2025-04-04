@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Leonard } from '../../contact/leonard'
 
 export const ExplosiveFinale: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'explosive-finale',
-  setTitle: { id: 1586 },
+  setTitleId: [1586],
   name: 'Explosive Finale',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'Protean thought he could put an end to you by blowing you up - you proved him wrong.',
   links: [
     { title: 'Explosive Finale Badge', href: 'https://homecoming.wiki/wiki/Explosive_Finale_Badge' },

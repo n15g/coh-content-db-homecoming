@@ -8,11 +8,11 @@ import { Survivor } from '../accomplishment/survivor'
 import { Escapist } from '../accomplishment/escapist'
 
 export const TemperedThroughFire: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'tempered-through-fire',
-  setTitle: { id: 2212 },
+  setTitleId: [2212],
   name: 'Tempered Through Fire',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'Through fire and flame your resolve has been tempered like finely forged steel.',
   links: [
     { title: 'Tempered Through Fire Badge', href: 'https://homecoming.wiki/wiki/Tempered_Through_Fire_Badge' },
@@ -20,12 +20,12 @@ export const TemperedThroughFire: BadgeData = {
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/tempered-through-fire.png',
   effect: 'Awards 20 reward merits.',
   requirements: [
-    { key: Loyalist.key, type: 'BADGE', badgeKey: Loyalist.key },
-    { key: Magistrate.key, type: 'BADGE', badgeKey: Magistrate.key },
-    { key: Tyrant.key, type: 'BADGE', badgeKey: Tyrant.key },
-    { key: ResistanceMember.key, type: 'BADGE', badgeKey: ResistanceMember.key },
-    { key: Obliterator.key, type: 'BADGE', badgeKey: Obliterator.key },
-    { key: Survivor.key, type: 'BADGE', badgeKey: Survivor.key },
-    { key: Escapist.key, type: 'BADGE', badgeKey: Escapist.key },
+    { key: Loyalist.key, type: 'badge', badgeKey: Loyalist.key },
+    { key: Magistrate.key, type: 'badge', badgeKey: Magistrate.key },
+    { key: Tyrant.key, type: 'badge', badgeKey: Tyrant.key },
+    { key: ResistanceMember.key, type: 'badge', badgeKey: ResistanceMember.key },
+    { key: Obliterator.key, type: 'badge', badgeKey: Obliterator.key },
+    { key: Survivor.key, type: 'badge', badgeKey: Survivor.key },
+    { key: Escapist.key, type: 'badge', badgeKey: Escapist.key },
   ],
 }

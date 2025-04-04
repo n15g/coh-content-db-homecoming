@@ -4,13 +4,13 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 import { AbandonedSewerNetwork } from '../../zone/abandoned-sewer-network'
 
 export const Academic: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'academic',
-  setTitle: { id: 159 },
+  setTitleId: [159],
   name: [
     { value: 'Academic' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of the successful takeover of Washington, D.C. by Nemesis.` },
   ],

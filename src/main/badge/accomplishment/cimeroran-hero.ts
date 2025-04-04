@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { SisterSolaris } from '../../contact/sister-solaris'
 
 export const CimeroranHero: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'cimeroran-hero',
-  setTitle: { id: 2198 },
+  setTitleId: [2198],
   name: [
     { sex: 'M', value: 'Cimeroran Hero' },
     { sex: 'F', value: 'Cimeroran Heroine' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You played through Marcus Valerius's personal story, witnessing the event where Marcus Valerius brought Mot to the land of Astoria and joined together with Mot, becoming his Sentinel.`,
   acquisition: 'Complete the personal story mission from Sister Solaris',
   links: [

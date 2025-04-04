@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../zone/firebase-zulu'
 
 export const ShardLeaper: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'shard-leaper',
-  setTitle: { id: 1804 },
-  name: [{ value: 'Shard Leaper' }],
-  alignment: ['H'],
+  setTitleId: [1804],
+  name: 'Shard Leaper',
+  morality: 'heroic',
   zoneKey: FirebaseZulu.key,
   loc: [-202, 1013, 2285],
   badgeText: [{
@@ -18,6 +18,6 @@ export const ShardLeaper: BadgeData = {
   links: [
     { title: 'Shard Leaper Badge', href: 'https://homecoming.wiki/wiki/Shard_Leaper_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '8',
 }

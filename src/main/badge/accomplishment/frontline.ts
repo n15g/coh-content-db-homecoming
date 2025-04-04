@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { CadaoKestrel } from '../../contact/cadao-kestrel'
 
 export const Frontline: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'frontline',
-  setTitle: { id: 81 },
+  setTitleId: [81],
   name: 'Frontline',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You stopped a battle between the Circle of Thorns and the Oranbegans from another dimension.',
   acquisition: 'Complete the Stop the Circle of Thorns from contacting an alternate world mission from Cadao Kestrel',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "The Arrival of the Oranbegans" entry with number 0.39 in the 35-39 level range.`,

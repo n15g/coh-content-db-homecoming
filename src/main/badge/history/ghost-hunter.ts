@@ -3,13 +3,13 @@ import { TalosIsland } from '../../zone/talos-island'
 import { StrigaIsle } from '../../zone/striga-isle'
 
 export const GhostHunter: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'ghost-hunter',
-  setTitle: { id: 191 },
+  setTitleId: [191],
   name: [
     { value: 'Ghost Hunter' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the rumors behind the fabled Ghost Ship.` },
   ],

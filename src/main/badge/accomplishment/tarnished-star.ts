@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { DocBuzzsaw } from '../../contact/doc-buzzsaw'
 
 export const TarnishedStar: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'tarnished-star',
-  setTitle: { id: 2438 },
+  setTitleId: [2438],
   name: 'Tarnished Star',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `Despite all the villains you've put away, you couldn't help becoming one yourself.
 You were reminded of this when Manticore ambushed you in the Zig during Clamor and Bile's breakout, in front of the nineteen high-profile arrests you'd made yourself.
 Undeterred, you added him and his Shining Star lackeys to your list of accomplishments.`,

@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { StrigaIsle } from '../../zone/striga-isle'
 
 export const VampyriWatcher: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'vampyri-watcher',
-  setTitle: { id: 1790 },
-  name: [{ value: 'Vampyri Watcher' }],
-  alignment: ['H'],
+  setTitleId: [1790],
+  name: 'Vampyri Watcher',
+  morality: 'heroic',
   zoneKey: StrigaIsle.key,
   loc: [-3728, 424, -3011],
   badgeText: [{
@@ -19,6 +19,6 @@ export const VampyriWatcher: BadgeData = {
   links: [
     { title: 'Vampyri Watcher Badge', href: 'https://homecoming.wiki/wiki/Vampyri_Watcher_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '8',
 }

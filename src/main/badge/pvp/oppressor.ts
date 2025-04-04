@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Oppressor: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'oppressor',
-  setTitle: { id: 574 },
+  setTitleId: [574],
   name: [
     { value: 'Oppressor' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'You have helped defeat Ms. Liberty in Recluse\'s Victory.' },
   ],

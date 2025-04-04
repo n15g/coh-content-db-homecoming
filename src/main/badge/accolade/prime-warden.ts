@@ -9,24 +9,24 @@ import { VengeanceSeeker } from '../exploration/vengeance-seeker'
 import { WitnessForTheFallen } from '../exploration/witness-for-the-fallen'
 
 export const PrimeWarden: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'prime-warden',
-  setTitle: { id: 2056 },
+  setTitleId: [2056],
   name: 'Prime Warden',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within First Ward.`,
   links: [
     { title: 'Prime Warden Badge', href: 'https://homecoming.wiki/wiki/Prime_Warden_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: DearlyDeparted.key, type: 'BADGE', badgeKey: DearlyDeparted.key },
-    { key: EyeOfTheVortex.key, type: 'BADGE', badgeKey: EyeOfTheVortex.key },
-    { key: FearlessInsurgent.key, type: 'BADGE', badgeKey: FearlessInsurgent.key },
-    { key: ShellShocked.key, type: 'BADGE', badgeKey: ShellShocked.key },
-    { key: MayhemsProdigal.key, type: 'BADGE', badgeKey: MayhemsProdigal.key },
-    { key: ShadowWalker.key, type: 'BADGE', badgeKey: ShadowWalker.key },
-    { key: VengeanceSeeker.key, type: 'BADGE', badgeKey: VengeanceSeeker.key },
-    { key: WitnessForTheFallen.key, type: 'BADGE', badgeKey: WitnessForTheFallen.key },
+    { key: DearlyDeparted.key, type: 'badge', badgeKey: DearlyDeparted.key },
+    { key: EyeOfTheVortex.key, type: 'badge', badgeKey: EyeOfTheVortex.key },
+    { key: FearlessInsurgent.key, type: 'badge', badgeKey: FearlessInsurgent.key },
+    { key: ShellShocked.key, type: 'badge', badgeKey: ShellShocked.key },
+    { key: MayhemsProdigal.key, type: 'badge', badgeKey: MayhemsProdigal.key },
+    { key: ShadowWalker.key, type: 'badge', badgeKey: ShadowWalker.key },
+    { key: VengeanceSeeker.key, type: 'badge', badgeKey: VengeanceSeeker.key },
+    { key: WitnessForTheFallen.key, type: 'badge', badgeKey: WitnessForTheFallen.key },
   ],
 }

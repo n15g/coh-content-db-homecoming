@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Sharpshooter: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'sharpshooter',
-  setTitle: { id: 789 },
+  setTitleId: [789],
   name: [{ value: 'Sharpshooter' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Recharge Rate and Interrupt Time.' }],
   effect: '+1 to Recipe capacity',
   links: [
@@ -15,17 +15,17 @@ export const Sharpshooter: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 45,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 14,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 14,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 50,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 14,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 14,
     },
   ],
 }

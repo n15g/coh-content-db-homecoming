@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { TheRadio } from '../../contact/the-radio'
 
 export const PlagueCarrier: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'plague-carrier',
-  setTitle: { id: 332 },
+  setTitleId: [332],
   name: 'Plague Carrier',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'The radio told you to steal the Outbreak virus and bring it back to Port Oakes.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Steal the Outbreak virus" entry with number 6.13 in the 10-14 level range.`,
   links: [

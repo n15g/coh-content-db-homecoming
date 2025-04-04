@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { PenelopeYinFreedomPhalanx } from '../../contact/penelope-yin-freedom-phalanx'
 
 export const PenelopeYinsFriend: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'penelope-yins-friend',
-  setTitle: { id: 2241 },
+  setTitleId: [2241],
   name: [
-    { alignment: 'H', value: `Penelope Yin's Friend` },
-    { alignment: 'V', value: `Penelope Yin's Betrayer` },
+    { alignment: 'hero', value: `Penelope Yin's Friend` },
+    { alignment: 'villain', value: `Penelope Yin's Betrayer` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'Penelope Yin has expressed her gratitude by presenting you with this medal.' },
-    { alignment: 'V', value: 'Penelope Yin probably wishes she could erase the memory of having given you this medal.' },
+    { alignment: 'hero', value: 'Penelope Yin has expressed her gratitude by presenting you with this medal.' },
+    { alignment: 'villain', value: 'Penelope Yin probably wishes she could erase the memory of having given you this medal.' },
   ],
   acquisition: 'Complete the Penelope Yin Task Force',
   links: [

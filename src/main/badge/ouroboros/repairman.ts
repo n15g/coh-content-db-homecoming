@@ -1,14 +1,14 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Repairman: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'repairman',
-  setTitle: { id: 940 },
+  setTitleId: [940],
   name: [
     { sex: 'M', value: 'Repairman' },
     { sex: 'F', value: 'Repairwoman' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 35 story arcs.' },
   ],

@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const MuGuardian: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'mu-guardian',
-  setTitle: { id: 442 },
+  setTitleId: [442],
   name: [
     { value: 'Mu Guardian' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'These mystics are intrigued by you.' },
   ],

@@ -2,20 +2,20 @@ import { BadgeData } from 'coh-content-db'
 import { Positron } from '../../contact/positron'
 
 export const DamHero: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'dam-hero',
-  setTitle: { id: 1590 },
+  setTitleId: [1590],
   name: [
-    { alignment: 'H', value: 'Dam Hero' },
-    { alignment: 'V', value: 'Dam Villain' },
+    { alignment: 'hero', value: 'Dam Hero' },
+    { alignment: 'villain', value: 'Dam Villain' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     {
-      alignment: 'H', value: `You've saved Faultline from not one, but three separate villain groups intent on using the dam to cause carnage on a massive scale.`,
+      alignment: 'hero', value: `You've saved Faultline from not one, but three separate villain groups intent on using the dam to cause carnage on a massive scale.`,
     },
     {
-      alignment: 'V', value: `You've saved Faultline from not one, but three separate villain groups intent on using the dam to cause carnage on a massive scale. Perhaps one day you'll finish what they started.`,
+      alignment: 'villain', value: `You've saved Faultline from not one, but three separate villain groups intent on using the dam to cause carnage on a massive scale. Perhaps one day you'll finish what they started.`,
     },
   ],
   links: [

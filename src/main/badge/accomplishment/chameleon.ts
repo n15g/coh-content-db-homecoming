@@ -8,11 +8,11 @@ import { LtColHughMcDougal } from '../../contact/lt-col-hugh-mcdougal'
 import { WilmaPeterson } from '../../contact/wilma-peterson'
 
 export const Chameleon: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'chameleon',
-  setTitle: { id: 2385 },
+  setTitleId: [2385],
   name: 'Chameleon',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You infiltrated the Freakshow and recovered the stolen Chameleon Suit.`,
   notes: `Also available via ${zoneLink(Ouroboros)}; Level 20-24, mission 0.12 'The Chameleon Suit'.`,
   links: [

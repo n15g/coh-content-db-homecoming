@@ -9,24 +9,24 @@ import { PetProject } from '../exploration/pet-project'
 import { DirtyAttorney } from '../exploration/dirty-attorney'
 
 export const CanyonCarver: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'canyon-carver',
-  setTitle: { id: 1534 },
+  setTitleId: [1534],
   name: 'Canyon Carver',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Steel Canyon.`,
   links: [
     { title: 'Canyon Carver Badge', href: 'https://homecoming.wiki/wiki/Canyon_Carver_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: SecretAdmirer.key, type: 'BADGE', badgeKey: SecretAdmirer.key },
-    { key: HeroCorpsRecruit.key, type: 'BADGE', badgeKey: HeroCorpsRecruit.key },
-    { key: NimbleMynx.key, type: 'BADGE', badgeKey: NimbleMynx.key },
-    { key: BrightStar.key, type: 'BADGE', badgeKey: BrightStar.key },
-    { key: DanceLegend.key, type: 'BADGE', badgeKey: DanceLegend.key },
-    { key: Controversial.key, type: 'BADGE', badgeKey: Controversial.key },
-    { key: PetProject.key, type: 'BADGE', badgeKey: PetProject.key },
-    { key: DirtyAttorney.key, type: 'BADGE', badgeKey: DirtyAttorney.key },
+    { key: SecretAdmirer.key, type: 'badge', badgeKey: SecretAdmirer.key },
+    { key: HeroCorpsRecruit.key, type: 'badge', badgeKey: HeroCorpsRecruit.key },
+    { key: NimbleMynx.key, type: 'badge', badgeKey: NimbleMynx.key },
+    { key: BrightStar.key, type: 'badge', badgeKey: BrightStar.key },
+    { key: DanceLegend.key, type: 'badge', badgeKey: DanceLegend.key },
+    { key: Controversial.key, type: 'badge', badgeKey: Controversial.key },
+    { key: PetProject.key, type: 'badge', badgeKey: PetProject.key },
+    { key: DirtyAttorney.key, type: 'badge', badgeKey: DirtyAttorney.key },
   ],
 }

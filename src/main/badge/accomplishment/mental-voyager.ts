@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const MentalVoyager: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'mental-voyager',
-  setTitle: { id: 2078 },
+  setTitleId: [2078],
   name: 'Mental Voyager',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: The Minds of Mayhem.',
   links: [
     { title: 'Mental Voyager Badge', href: 'https://homecoming.wiki/wiki/Mental_Voyager_Badge' },

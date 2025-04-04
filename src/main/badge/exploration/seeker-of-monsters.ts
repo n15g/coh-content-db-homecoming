@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TheHollows } from '../../zone/the-hollows'
 
 export const SeekerOfMonsters: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'seeker-of-monsters',
-  setTitle: { id: 193 },
-  name: [{ value: 'Seeker of Monsters' }],
-  alignment: ['H'],
+  setTitleId: [193],
+  name: 'Seeker of Monsters',
+  morality: 'heroic',
   zoneKey: TheHollows.key,
   loc: [21, -345, -1280],
   badgeText: [{
@@ -16,6 +16,6 @@ export const SeekerOfMonsters: BadgeData = {
   links: [
     { title: 'Seeker of Monsters Badge', href: 'https://homecoming.wiki/wiki/Seeker_of_Monsters_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '2',
 }

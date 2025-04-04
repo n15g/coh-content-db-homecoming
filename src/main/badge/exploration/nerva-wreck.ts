@@ -1,24 +1,20 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const NervaWreck: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'nerva-wreck',
-  setTitle: { id: 276 },
-  name: [{ value: 'Nerva Wreck' }],
-  alignment: ['V'],
+  setTitleId: [276],
+  name: 'Nerva Wreck',
+  morality: 'villainous',
   zoneKey: NervaArchipelago.key,
   loc: [1388, 10, 2876],
-  badgeText: [{
-    value: `You have visited the famous Nerva Wreck. What strange creature might have caused this disaster?`,
-  }],
-  notes: `Located in ${zoneLink(NervaArchipelago)}, in the Primeva neighborhood.
-
-It is located on the lowest rock outcropping next to the shipwreck in the mouth of the river that runs into the largest island of Primeva.
-It is approximately 533 yrds SE of the Primeva marker and/or the northernmost Quartermaster.`,
+  badgeText: `You have visited the famous Nerva Wreck. What strange creature might have caused this disaster?`,
+  notes: `Located in the Primeva neighborhood, on the lowest rock outcropping near the shipwreck at the river’s mouth, where it meets the largest island.
+Approximately 533 yards southeast of the Primeva marker or the northernmost Quartermaster.`,
   links: [
     { title: 'Nerva Wreck Badge', href: 'https://homecoming.wiki/wiki/Nerva_Wreck_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '3',
 }

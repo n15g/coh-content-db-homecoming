@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { KatieHannon } from '../../contact/katie-hannon'
 
 export const TenTimesTheVictor: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'ten-times-the-victor',
-  setTitle: { id: 422 },
+  setTitleId: [422],
   name: 'Ten Times the Victor',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You have impressed Mary Macomber, leader of the Cabal, by defeating her ten times. Though some members of the Cabal may still fear you, others will work as your allies.
 As a reward, you can now use a witch hat as a costume piece.`,
   acquisition: `Defeat Mary MacComber ten times during the ${contactLink(KatieHannon)} Task Force`,

@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const Soother: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'soother',
-  setTitle: { id: 1503 },
-  name: [{ value: 'Soother' }],
-  alignment: ['V'],
+  setTitleId: [1503],
+  name: 'Soother',
+  morality: 'villainous',
   zoneKey: NervaArchipelago.key,
   loc: [1236, 81, 1396],
   badgeText: [{
@@ -19,6 +19,6 @@ It is in a cave behind the waterfall 240 yards east of the neighborhood marker.`
   links: [
     { title: 'Soother Badge', href: 'https://homecoming.wiki/wiki/Soother_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '8',
 }

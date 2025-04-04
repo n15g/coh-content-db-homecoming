@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { SuperSpy } from '../exploration/super-spy'
 
 export const PenumbraEliteAdjutant: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'penumbra-elite-adjutant',
-  setTitle: { id: 492 },
+  setTitleId: [492],
   name: [
     { value: 'Penumbra Elite Adjutant' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You\'ve beat down the Council and now they fear you.' },
   ],
@@ -19,6 +19,6 @@ export const PenumbraEliteAdjutant: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: SuperSpy.key, type: 'BADGE', badgeKey: SuperSpy.key },
+    { key: SuperSpy.key, type: 'badge', badgeKey: SuperSpy.key },
   ],
 }

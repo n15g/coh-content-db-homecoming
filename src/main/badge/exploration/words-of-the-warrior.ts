@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { StrigaIsle } from '../../zone/striga-isle'
 
 export const WordsOfTheWarrior: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'words-of-the-warrior',
-  setTitle: { id: 1787 },
-  name: [{ value: 'Words of the Warrior' }],
-  alignment: ['H'],
+  setTitleId: [1787],
+  name: 'Words of the Warrior',
+  morality: 'heroic',
   zoneKey: StrigaIsle.key,
   loc: [-524, 157, -2542],
   badgeText: [{
@@ -20,6 +20,6 @@ export const WordsOfTheWarrior: BadgeData = {
   links: [
     { title: 'Words of the Warrior Badge', href: 'https://homecoming.wiki/wiki/Words_of_the_Warrior_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

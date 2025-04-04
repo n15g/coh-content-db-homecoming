@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const PentadVictor: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'pentad-victor',
-  setTitle: { id: 1356 },
+  setTitleId: [1356],
   name: [
     { value: 'Pentad Victor' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You\'ve won your first Pentad or Septad match, you\'re considered a Pentad Victor.' },
   ],
@@ -16,7 +16,7 @@ export const PentadVictor: BadgeData = {
     { title: 'Pentad Victor Badge', href: 'https://homecoming.wiki/wiki/Pentad_Victor_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pentad-victor-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pentad-victor-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pentad-victor-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pentad-victor-v.png' },
   ],
 }

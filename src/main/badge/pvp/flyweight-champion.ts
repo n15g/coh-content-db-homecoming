@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const FlyweightChampion: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'flyweight-champion',
-  setTitle: { id: 221 },
+  setTitleId: [221],
   name: [
     { value: 'Flyweight Champion' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'You have achieved the status of Champion in the Flyweight division by winning your first match '

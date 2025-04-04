@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Bladegrass: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'bladegrass',
-  setTitle: { id: 485 },
+  setTitleId: [485],
   name: [
     { value: 'Bladegrass' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have the respect of the natural world.' },
   ],

@@ -2,13 +2,13 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Brickstown } from '../../zone/brickstown'
 
 export const ParkStroller: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'park-stroller',
-  setTitle: { id: 2274 },
+  setTitleId: [2274],
   name: [
     { value: 'Park Stroller' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have visited all of Brickstown's parks!` },
   ],

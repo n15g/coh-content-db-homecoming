@@ -1,14 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Excelsior: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'excelsior',
-  setTitle: { id: 2396 },
-  name: [
-    { value: 'Excelsior!' },
+  setTitleId: [2396],
+  name: 'Excelsior!',
+  morality: 'all',
+  badgeText: `You have helped celebrate the 15th anniversary of City of Heroes.`,
+  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  links: [
+    { title: 'Excelsior! Badge', href: 'https://homecoming.wiki/wiki/Excelsior!_Badge' },
   ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [{ value: `You have helped celebrate the 15th anniversary of City of Heroes.` }],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/excelsior.png' }],
-  acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/excelsior.png',
 }

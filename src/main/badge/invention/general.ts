@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const General: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'general',
-  setTitle: { id: 794 },
+  setTitleId: [794],
   name: [{ value: 'General' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Accuracy and To Hit Buff.' }],
   effect: '+1 to Recipe capacity',
   links: [
@@ -15,17 +15,17 @@ export const General: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 45,
-      inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
-      inventionCount: 14,
+      inventionTypes: ['accuracy', 'to-hit-buff'],
+      count: 14,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 50,
-      inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
-      inventionCount: 14,
+      inventionTypes: ['accuracy', 'to-hit-buff'],
+      count: 14,
     },
   ],
 }

@@ -3,11 +3,11 @@ import { SewerNetwork } from '../../zone/sewer-network'
 import { SkywayCity } from '../../zone/skyway-city'
 
 export const SewerStalker: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sewer-stalker',
-  setTitle: { id: 1833 },
-  name: [{ value: 'Sewer Stalker' }],
-  alignment: ['H'],
+  setTitleId: [1833],
+  name: 'Sewer Stalker',
+  morality: 'heroic',
   zoneKey: SewerNetwork.key,
   loc: [64, 2, 2995],
   badgeText: [{
@@ -22,6 +22,6 @@ You are the predator that they now fear, it is the stories of your exploits they
   links: [
     { title: 'Sewer Stalker Badge', href: 'https://homecoming.wiki/wiki/Sewer_Stalker_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

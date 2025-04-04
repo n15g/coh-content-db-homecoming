@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { RoyCooling } from '../../contact/roy-cooling'
 
 export const HelpingHand: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'helping-hand',
-  setTitle: { id: 1893 },
+  setTitleId: [1893],
   name: 'Helping Hand',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've helped to solve the Medi-Porter crisis in Paragon and get the devices distributed to those who need them.`,
   acquisition: 'Complete the story arc from Roy Cooling',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Bad People, Good Intentions" entry with number 19.01 in the 25-29 level range.`,

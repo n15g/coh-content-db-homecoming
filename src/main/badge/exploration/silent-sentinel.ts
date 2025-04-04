@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 
 export const SilentSentinel: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'silent-sentinel',
-  setTitle: { id: 87 },
-  name: [{ value: 'Silent Sentinel' }],
-  alignment: ['H'],
+  setTitleId: [87],
+  name: 'Silent Sentinel',
+  morality: 'heroic',
   zoneKey: EchoAtlasPark.key,
   loc: [-608, 70.3, -1890],
   badgeText: [{
@@ -16,6 +16,6 @@ export const SilentSentinel: BadgeData = {
   links: [
     { title: 'Silent Sentinel Badge', href: 'https://homecoming.wiki/wiki/Silent_Sentinel_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '2',
 }

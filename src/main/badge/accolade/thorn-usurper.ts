@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Ractespriel } from '../../contact/ractespriel'
 
 export const ThornUsurper: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'thorn-usurper',
-  setTitle: { id: 518 },
+  setTitleId: [518],
   name: 'Thorn Usurper',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You have stolen the power of the Nexus of Thorns with the knowledge from the demon Ractespriel.`,
   effect: `Awards a character respecification.`,
   links: [

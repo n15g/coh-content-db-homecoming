@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../zone/peregrine-island'
 
 export const RiktiGoneWild: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'rikti-gone-wild',
-  setTitle: { id: 1575 },
-  name: [{ value: 'Rikti Gone Wild' }],
-  alignment: ['H'],
+  setTitleId: [1575],
+  name: 'Rikti Gone Wild',
+  morality: 'heroic',
   zoneKey: PeregrineIsland.key,
   loc: [-2893, 0, -6950],
   badgeText: [{
@@ -21,6 +21,6 @@ export const RiktiGoneWild: BadgeData = {
   links: [
     { title: 'Rikti Gone Wild Badge', href: 'https://homecoming.wiki/wiki/Rikti_Gone_Wild_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '5',
 }

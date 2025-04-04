@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Venomous } from '../defeat/venomous'
 
 export const Tarantula: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'tarantula',
-  setTitle: { id: 446 },
+  setTitleId: [446],
   name: [
     { value: 'Tarantula' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'Who can say what motivates these creations?' },
   ],
@@ -19,6 +19,6 @@ export const Tarantula: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Venomous.key, type: 'BADGE', badgeKey: Venomous.key },
+    { key: Venomous.key, type: 'badge', badgeKey: Venomous.key },
   ],
 }

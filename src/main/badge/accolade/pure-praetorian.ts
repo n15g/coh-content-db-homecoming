@@ -9,24 +9,24 @@ import { UnCivilSociety } from '../exploration/un-civil-society'
 import { OnTheWaterfront } from '../exploration/on-the-waterfront'
 
 export const PurePraetorian: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'pure-praetorian',
-  setTitle: { id: 1597 },
+  setTitleId: [1597],
   name: 'Pure Praetorian',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria.`,
   links: [
     { title: 'Pure Praetorian Badge', href: 'https://homecoming.wiki/wiki/Pure_Praetorian_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: Ambitious.key, type: 'BADGE', badgeKey: Ambitious.key },
-    { key: CitizenCole.key, type: 'BADGE', badgeKey: CitizenCole.key },
-    { key: CivicMinded.key, type: 'BADGE', badgeKey: CivicMinded.key },
-    { key: GuardiansOfJustice.key, type: 'BADGE', badgeKey: GuardiansOfJustice.key },
-    { key: IntoTheWild.key, type: 'BADGE', badgeKey: IntoTheWild.key },
-    { key: Technophile.key, type: 'BADGE', badgeKey: Technophile.key },
-    { key: UnCivilSociety.key, type: 'BADGE', badgeKey: UnCivilSociety.key },
-    { key: OnTheWaterfront.key, type: 'BADGE', badgeKey: OnTheWaterfront.key },
+    { key: Ambitious.key, type: 'badge', badgeKey: Ambitious.key },
+    { key: CitizenCole.key, type: 'badge', badgeKey: CitizenCole.key },
+    { key: CivicMinded.key, type: 'badge', badgeKey: CivicMinded.key },
+    { key: GuardiansOfJustice.key, type: 'badge', badgeKey: GuardiansOfJustice.key },
+    { key: IntoTheWild.key, type: 'badge', badgeKey: IntoTheWild.key },
+    { key: Technophile.key, type: 'badge', badgeKey: Technophile.key },
+    { key: UnCivilSociety.key, type: 'badge', badgeKey: UnCivilSociety.key },
+    { key: OnTheWaterfront.key, type: 'badge', badgeKey: OnTheWaterfront.key },
   ],
 }

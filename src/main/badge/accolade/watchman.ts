@@ -4,17 +4,17 @@ import { BombSpecialist } from '../defeat/bomb-specialist'
 import { Chief } from '../defeat/chief'
 
 export const Watchman: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'watchman',
-  setTitle: { id: 836 },
+  setTitleId: [836],
   name: [
     { sex: 'M', value: 'Watchman' },
     { sex: 'F', value: 'Watchwoman' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have defended Paragon City from the invading Rikti!` },
-    { alignment: 'V', value: `You have defended the Rogue Isles from the invading Rikti!` },
+    { alignment: 'hero', value: `You have defended Paragon City from the invading Rikti!` },
+    { alignment: 'villain', value: `You have defended the Rogue Isles from the invading Rikti!` },
   ],
   effect: `Awards the Elusive Mind power.`,
   links: [
@@ -23,8 +23,8 @@ export const Watchman: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/watchman.png',
   requirements: [
-    { key: Sentry.key, type: 'BADGE', badgeKey: Sentry.key },
-    { key: BombSpecialist.key, type: 'BADGE', badgeKey: BombSpecialist.key },
-    { key: Chief.key, type: 'BADGE', badgeKey: Chief.key },
+    { key: Sentry.key, type: 'badge', badgeKey: Sentry.key },
+    { key: BombSpecialist.key, type: 'badge', badgeKey: BombSpecialist.key },
+    { key: Chief.key, type: 'badge', badgeKey: Chief.key },
   ],
 }

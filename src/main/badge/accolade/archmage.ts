@@ -9,18 +9,18 @@ import { SoulBinder } from '../defeat/soul-binder'
 import { Tracer } from '../defeat/tracer'
 
 export const Archmage: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'archmage',
-  setTitle: { id: 167 },
+  setTitleId: [167],
   name: 'Archmage',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     {
-      alignment: 'H', value: `Your research into the arcane, coupled with your experience in fighting magical foes, has unlocked heretofore unknown magics within you, earning you the title of Archmage.
+      alignment: 'hero', value: `Your research into the arcane, coupled with your experience in fighting magical foes, has unlocked heretofore unknown magics within you, earning you the title of Archmage.
 You have learned a spell of protection because of this.`,
     },
     {
-      alignment: 'V',
+      alignment: 'villain',
       value: `Your research into the arcane, coupled with your experience in fighting magical foes, has unlocked heretofore unknown magics within you, earning you the title of Archmage.
 The associated spell of protection, which relies on a certain purity of spirit, is no longer useful to you.`,
     },
@@ -31,13 +31,13 @@ The associated spell of protection, which relies on a certain purity of spirit, 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/archmage.png',
   requirements: [
-    { key: Banisher.key, type: 'BADGE', badgeKey: Banisher.key },
-    { key: DarkMystic.key, type: 'BADGE', badgeKey: DarkMystic.key },
-    { key: FaultlessMystic.key, type: 'BADGE', badgeKey: FaultlessMystic.key },
-    { key: Illusionist.key, type: 'BADGE', badgeKey: Illusionist.key },
-    { key: Mystic.key, type: 'BADGE', badgeKey: Mystic.key },
-    { key: MysticKing.key, type: 'BADGE', badgeKey: MysticKing.key },
-    { key: SoulBinder.key, type: 'BADGE', badgeKey: SoulBinder.key },
-    { key: Tracer.key, type: 'BADGE', badgeKey: Tracer.key },
+    { key: Banisher.key, type: 'badge', badgeKey: Banisher.key },
+    { key: DarkMystic.key, type: 'badge', badgeKey: DarkMystic.key },
+    { key: FaultlessMystic.key, type: 'badge', badgeKey: FaultlessMystic.key },
+    { key: Illusionist.key, type: 'badge', badgeKey: Illusionist.key },
+    { key: Mystic.key, type: 'badge', badgeKey: Mystic.key },
+    { key: MysticKing.key, type: 'badge', badgeKey: MysticKing.key },
+    { key: SoulBinder.key, type: 'badge', badgeKey: SoulBinder.key },
+    { key: Tracer.key, type: 'badge', badgeKey: Tracer.key },
   ],
 }

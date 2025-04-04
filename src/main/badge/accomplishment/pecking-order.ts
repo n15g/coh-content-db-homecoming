@@ -4,11 +4,11 @@ import { ElizaThorpe } from '../../contact/eliza-thorpe'
 import { LorenzoTate } from '../../contact/lorenzo-tate'
 
 export const PeckingOrder: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'pecking-order',
-  setTitle: { id: 2498 },
+  setTitleId: [2498],
   name: 'Pecking Order',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You stopped a major technology theft by the Lost, and discovered they have a connection to the Rikti.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Lost Motivation" entry with number 0.42 in the 25-29 level range.`,
   links: [

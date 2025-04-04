@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const WellInformed: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'well-informed',
-  setTitle: { id: 1444 },
+  setTitleId: [1444],
   name: 'Well Informed',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You completed a Rogue Alignment Mission earning yourself the Well Informed badge.',
   acquisition: 'Complete a Rogue alignment mission.',
   links: [

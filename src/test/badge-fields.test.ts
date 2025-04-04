@@ -9,7 +9,7 @@ describe('Badge Fields', () => {
     const errors: string[] = []
 
     for (const badge of database.badges) {
-      if (!badge?.acquisition && !badge.requirements?.length) errors.push(`['${badge.key}'] lacks either acquisition or explicit requirements.`)
+      if (!badge?.acquisition && !badge.requirements?.length) errors.push(`['${badge.key}'] lacks an acquisition, requirements or location.`)
     }
 
     if (errors.length > 0) {

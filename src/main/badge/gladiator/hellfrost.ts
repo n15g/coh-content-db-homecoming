@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Coldblooded } from '../defeat/coldblooded'
 
 export const Hellfrost: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'hellfrost',
-  setTitle: { id: 462 },
+  setTitleId: [462],
   name: [
     { value: 'Hellfrost' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'This demon is amused to serve you.' },
   ],
@@ -19,6 +19,6 @@ export const Hellfrost: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Coldblooded.key, type: 'BADGE', badgeKey: Coldblooded.key },
+    { key: Coldblooded.key, type: 'badge', badgeKey: Coldblooded.key },
   ],
 }

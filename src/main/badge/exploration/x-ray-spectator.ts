@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../zone/firebase-zulu'
 
 export const XRaySpectator: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'x-ray-spectator',
-  setTitle: { id: 1802 },
-  name: [{ value: 'X-Ray Spectator' }],
-  alignment: ['H'],
+  setTitleId: [1802],
+  name: 'X-Ray Spectator',
+  morality: 'heroic',
   zoneKey: FirebaseZulu.key,
   loc: [-3222, 1289, 111],
   badgeText: [{
@@ -20,6 +20,6 @@ export const XRaySpectator: BadgeData = {
   links: [
     { title: 'X-Ray Spectator Badge', href: 'https://homecoming.wiki/wiki/X-Ray_Spectator_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '6',
 }

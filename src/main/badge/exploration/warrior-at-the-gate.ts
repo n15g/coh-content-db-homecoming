@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { UndergroundNova } from '../../zone/underground-nova'
 
 export const WarriorAtTheGate: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'warrior-at-the-gate',
-  setTitle: { id: 1643 },
-  name: [{ value: 'Warrior at the Gate' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1643],
+  name: 'Warrior at the Gate',
+  morality: 'all',
   zoneKey: UndergroundNova.key,
   loc: [-3200, 511, -48],
   badgeText: [{
@@ -18,6 +18,6 @@ export const WarriorAtTheGate: BadgeData = {
   links: [
     { title: 'Warrior at the Gate Badge', href: 'https://homecoming.wiki/wiki/Warrior_at_the_Gate_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '8',
 }

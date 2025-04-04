@@ -1,19 +1,18 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink, zoneLink } from 'coh-content-db'
+import { ShaunaBraun } from '../../contact/shauna-braun'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const BeyondReasonableDoubt: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'beyond-reasonable-doubt',
-  setTitle: { id: 2408 },
-  name: [
-    { value: 'Beyond Reasonable Doubt' },
-  ],
-  alignment: ['H'],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/beyond-reasonable-doubt.png' }],
-  badgeText: [
-    { value: 'It is better that ten guilty persons escape than that one innocent suffer.' },
-  ],
-  acquisition: 'Spare Rider in the story arc `Dirty Work` from Shauna Braun (Level 25-29, Arc 26.01 in Ouro, Vigilante)',
+  setTitleId: [2408],
+  name: 'Beyond Reasonable Doubt',
+  morality: 'heroic',
+  badgeText: 'It is better that ten guilty persons escape than that one innocent suffer.',
+  acquisition: `Kill Rider in the story arc 'Dirty Work' from ${contactLink(ShaunaBraun)}.`,
+  notes: `To get this badge in ${zoneLink(Ouroboros)}, a vigilante can select the "Dirty Work" entry with number 26.01 at level 25-29.`,
   links: [
     { title: 'Beyond Reasonable Doubt Badge', href: 'https://homecoming.wiki/wiki/Beyond_Reasonable_Doubt_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/beyond-reasonable-doubt.png',
 }

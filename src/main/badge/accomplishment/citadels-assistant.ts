@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { Citadel } from '../../contact/citadel'
 
 export const CitadelsAssistant: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'citadels-assistant',
-  setTitle: { id: 64 },
+  setTitleId: [64],
   name: [
-    { alignment: 'H', value: `Citadel's Assistant` },
-    { alignment: 'V', value: `Citadel's Betrayer` },
+    { alignment: 'hero', value: `Citadel's Assistant` },
+    { alignment: 'villain', value: `Citadel's Betrayer` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'Citadel has awarded you this medal for helping him rid the world of the evil robots based on his programming.' },
-    { alignment: 'V', value: 'Citadel now questions your true motives in assisting him, and fears (as much as an android can) that you will find a way to use his technology for evil.' },
+    { alignment: 'hero', value: 'Citadel has awarded you this medal for helping him rid the world of the evil robots based on his programming.' },
+    { alignment: 'villain', value: 'Citadel now questions your true motives in assisting him, and fears (as much as an android can) that you will find a way to use his technology for evil.' },
   ],
   links: [
     { title: `Citadel's Assistant Badge`, href: 'https://homecoming.wiki/wiki/Citadel%27s_Assistant_Badge' },

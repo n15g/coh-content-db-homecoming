@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Mender: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'mender',
-  setTitle: { id: 766 },
+  setTitleId: [766],
   name: [{ value: 'Mender' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Heal.' }],
   links: [
     { title: 'Mender Badge', href: 'https://homecoming.wiki/wiki/Mender_Badge' },
@@ -14,18 +14,18 @@ export const Mender: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 15,
-      inventionTypes: ['HEALING'],
-      inventionCount: 4,
+      inventionTypes: ['healing'],
+      count: 4,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 20,
-      inventionTypes: ['HEALING'],
-      inventionCount: 4,
+      inventionTypes: ['healing'],
+      count: 4,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

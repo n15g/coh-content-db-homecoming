@@ -4,13 +4,13 @@ import { CreysFolly } from '../../zone/creys-folly'
 import { Eden } from '../../zone/eden'
 
 export const Savant: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'savant',
-  setTitle: { id: 157 },
+  setTitleId: [157],
   name: [
     { value: 'Savant' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of the Rikti War.` },
   ],

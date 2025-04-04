@@ -3,11 +3,11 @@ import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const LongArmOfTheLaw: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'long-arm-of-the-law',
-  setTitle: { id: 2262 },
+  setTitleId: [2262],
   name: 'Long Arm of the Law',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You were able to stop all of the chaos that was running rampant around the bank in Brickstown.',
   acquisition: `Properly assign the New Praetorians to handle the side missions in the first mission of the second story arc from ${contactLink(ProvostMarchandPrimal)}.`,
   notes: `

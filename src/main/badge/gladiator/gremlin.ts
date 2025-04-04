@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Electrician } from '../defeat/electrician'
 
 export const Gremlin: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'gremlin',
-  setTitle: { id: 447 },
+  setTitleId: [447],
   name: [
     { value: 'Gremlin' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'This living spark is a capricious sort.' },
   ],
@@ -19,6 +19,6 @@ export const Gremlin: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Electrician.key, type: 'BADGE', badgeKey: Electrician.key },
+    { key: Electrician.key, type: 'badge', badgeKey: Electrician.key },
   ],
 }

@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Overhauler: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'overhauler',
-  setTitle: { id: 941 },
+  setTitleId: [941],
   name: [
     { value: 'Overhauler' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 40 story arcs.' },
   ],

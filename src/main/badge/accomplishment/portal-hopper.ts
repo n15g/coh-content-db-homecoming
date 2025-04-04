@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { TechnicianNaylor } from '../../contact/technician-naylor'
 
 export const PortalHopper: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'portal-hopper',
-  setTitle: { id: 343 },
+  setTitleId: [343],
   name: 'Portal Hopper',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'Your journeys to other dimensions have earned you the Portal Hopper badge.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Attack Longbow portal base" entry with number 6.64 in the 35-39 level range.`,
   links: [

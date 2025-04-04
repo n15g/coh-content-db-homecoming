@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../zone/firebase-zulu'
 
 export const Stormwatcher: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'stormwatcher',
-  setTitle: { id: 1799 },
-  name: [{ value: 'Stormwatcher' }],
-  alignment: ['H'],
+  setTitleId: [1799],
+  name: 'Stormwatcher',
+  morality: 'heroic',
   zoneKey: FirebaseZulu.key,
   loc: [4872, 865, 992],
   badgeText: [{
@@ -19,6 +19,6 @@ export const Stormwatcher: BadgeData = {
   links: [
     { title: 'Stormwatcher Badge', href: 'https://homecoming.wiki/wiki/Stormwatcher_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '3',
 }

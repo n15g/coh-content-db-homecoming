@@ -5,13 +5,13 @@ import { KingsRow } from '../../zone/kings-row'
 import { PerezPark } from '../../zone/perez-park'
 
 export const Pupil: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'pupil',
-  setTitle: { id: 174 },
+  setTitleId: [174],
   name: [
     { value: 'Pupil' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of the fallen hero, Atlas.` },
   ],

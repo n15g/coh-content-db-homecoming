@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { DefenderOfTruth } from '../achievement/defender-of-truth'
 
 export const FireThornCaster: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'fire-thorn-caster',
-  setTitle: { id: 486 },
+  setTitleId: [486],
   name: [
     { value: 'Fire Thorn Caster' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'The Circle of Thorns fears to disobey you.' },
   ],
@@ -19,6 +19,6 @@ export const FireThornCaster: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: DefenderOfTruth.key, type: 'BADGE', badgeKey: DefenderOfTruth.key },
+    { key: DefenderOfTruth.key, type: 'badge', badgeKey: DefenderOfTruth.key },
   ],
 }

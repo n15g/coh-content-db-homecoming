@@ -9,24 +9,24 @@ import { Monolithic } from '../exploration/monolithic'
 import { Stargazer } from '../exploration/stargazer'
 
 export const EtherealDrifter: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'ethereal-drifter',
-  setTitle: { id: 2234 },
+  setTitleId: [2234],
   name: 'Ethereal Drifter',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Night Ward`,
   links: [
     { title: 'Ethereal Drifter Badge', href: 'https://homecoming.wiki/wiki/Ethereal_Drifter_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: NocturnalPilgrim.key, type: 'BADGE', badgeKey: NocturnalPilgrim.key },
-    { key: HappyCamper.key, type: 'BADGE', badgeKey: HappyCamper.key },
-    { key: HouseHunter.key, type: 'BADGE', badgeKey: HouseHunter.key },
-    { key: AbandonedSoul.key, type: 'BADGE', badgeKey: AbandonedSoul.key },
-    { key: DeadButDreaming.key, type: 'BADGE', badgeKey: DeadButDreaming.key },
-    { key: FollowTheLight.key, type: 'BADGE', badgeKey: FollowTheLight.key },
-    { key: Monolithic.key, type: 'BADGE', badgeKey: Monolithic.key },
-    { key: Stargazer.key, type: 'BADGE', badgeKey: Stargazer.key },
+    { key: NocturnalPilgrim.key, type: 'badge', badgeKey: NocturnalPilgrim.key },
+    { key: HappyCamper.key, type: 'badge', badgeKey: HappyCamper.key },
+    { key: HouseHunter.key, type: 'badge', badgeKey: HouseHunter.key },
+    { key: AbandonedSoul.key, type: 'badge', badgeKey: AbandonedSoul.key },
+    { key: DeadButDreaming.key, type: 'badge', badgeKey: DeadButDreaming.key },
+    { key: FollowTheLight.key, type: 'badge', badgeKey: FollowTheLight.key },
+    { key: Monolithic.key, type: 'badge', badgeKey: Monolithic.key },
+    { key: Stargazer.key, type: 'badge', badgeKey: Stargazer.key },
   ],
 }

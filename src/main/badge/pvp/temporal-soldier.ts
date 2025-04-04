@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TemporalSoldier: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'temporal-soldier',
-  setTitle: { id: 569 },
+  setTitleId: [569],
   name: [
     { value: 'Temporal Soldier' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: '50 Heavies have been at your disposal in Recluse\'s Victory' },
   ],

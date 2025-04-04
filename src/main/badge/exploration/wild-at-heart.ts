@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheHive } from '../../zone/the-hive'
 
 export const WildAtHeart: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'wild-at-heart',
-  setTitle: { id: 1850 },
-  name: [{ value: 'Wild At Heart' }],
-  alignment: ['H'],
+  setTitleId: [1850],
+  name: 'Wild At Heart',
+  morality: 'heroic',
   zoneKey: TheHive.key,
   loc: [-1500, 0, -4491],
   badgeText: [{
@@ -20,6 +20,6 @@ Even though you understand the threat the Devouring Earth poses, you are taken b
   links: [
     { title: 'Wild At Heart Badge', href: 'https://homecoming.wiki/wiki/Wild_At_Heart_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Warhead: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'warhead',
-  setTitle: { id: 797 },
+  setTitleId: [797],
   name: [{ value: 'Warhead' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Damage and Knockback.' }],
   effect: '+2 to Invention Salvage capacity',
   links: [
@@ -15,18 +15,18 @@ export const Warhead: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 25,
-      inventionTypes: ['DAMAGE', 'KNOCKBACK'],
-      inventionCount: 8,
+      inventionTypes: ['damage', 'knockback'],
+      count: 8,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 30,
-      inventionTypes: ['DAMAGE', 'KNOCKBACK'],
-      inventionCount: 8,
+      inventionTypes: ['damage', 'knockback'],
+      count: 8,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

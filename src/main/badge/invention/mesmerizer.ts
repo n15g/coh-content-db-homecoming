@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Mesmerizer: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'mesmerizer',
-  setTitle: { id: 779 },
+  setTitleId: [779],
   name: [{ value: 'Mesmerizer' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Sleep, Snare, Hold, Stun, Immobilize, and Fear.' }],
   effect: '+1 to Recipe capacity',
   links: [
@@ -15,17 +15,17 @@ export const Mesmerizer: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 45,
-      inventionTypes: ['SLEEP', 'SLOW', 'HOLD', 'STUN', 'IMMOBILIZE', 'FEAR'],
-      inventionCount: 11,
+      inventionTypes: ['sleep', 'slow', 'hold', 'stun', 'immobilize', 'fear'],
+      count: 11,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 50,
-      inventionTypes: ['SLEEP', 'SLOW', 'HOLD', 'STUN', 'IMMOBILIZE', 'FEAR'],
-      inventionCount: 11,
+      inventionTypes: ['sleep', 'slow', 'hold', 'stun', 'immobilize', 'fear'],
+      count: 11,
     },
   ],
 }

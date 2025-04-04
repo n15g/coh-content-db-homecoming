@@ -1,14 +1,14 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Rocketman: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'rocketman',
-  setTitle: { id: 371 },
+  setTitleId: [371],
   name: [
     { sex: 'M', value: 'Rocketman' },
     { sex: 'F', value: 'Rocketwoman' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'Supergroups everywhere quake in fear when you enter Warburg. You\'ve launched the Warburg '

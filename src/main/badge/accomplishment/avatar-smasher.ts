@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { NumberSix } from '../../contact/number-six'
 
 export const AvatarSmasher: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'avatar-smasher',
-  setTitle: { id: 2270 },
+  setTitleId: [2270],
   name: 'Avatar Smasher',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You faced off against the Avatars of Hamidon by yourself, showing the Hamidon that you are a force to be reckoned with.',
   acquisition: `Defeat the three Avatars of Hamidon in the final mission from ${contactLink(NumberSix)} after refusing help from the Imperial Defense Force.`,
   links: [

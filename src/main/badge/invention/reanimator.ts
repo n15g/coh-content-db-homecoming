@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Reanimator: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'reanimator',
-  setTitle: { id: 769 },
+  setTitleId: [769],
   name: [{ value: 'Reanimator' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Heal.' }],
   effect: '+1 to Recipe capacity',
   links: [
@@ -15,18 +15,18 @@ export const Reanimator: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 45,
-      inventionTypes: ['HEALING'],
-      inventionCount: 9,
+      inventionTypes: ['healing'],
+      count: 9,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 50,
-      inventionTypes: ['HEALING'],
-      inventionCount: 9,
+      inventionTypes: ['healing'],
+      count: 9,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

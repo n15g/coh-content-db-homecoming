@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Breakneck: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'breakneck',
-  setTitle: { id: 578 },
+  setTitleId: [578],
   name: [
     { value: 'Breakneck' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'You have helped defeat Synapse in Recluse\'s Victory.' },
   ],

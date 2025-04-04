@@ -1,19 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Legendary: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'legendary',
-  setTitle: { id: 2460 },
-  name: [
-    { value: 'Legendary' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You have helped celebrate the 17th anniversary of City of Heroes.' },
-  ],
-  acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',
+  setTitleId: [2460],
+  name: 'Legendary',
+  morality: 'all',
+  badgeText: 'You have helped celebrate the 17th anniversary of City of Heroes.',
+  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
   links: [
     { title: 'Legendary Badge', href: 'https://homecoming.wiki/wiki/Legendary_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/legendary.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/legendary.png',
 }

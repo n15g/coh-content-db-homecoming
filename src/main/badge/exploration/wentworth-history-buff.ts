@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { KingsRow } from '../../zone/kings-row'
 
 export const WentworthHistoryBuff: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'wentworth-history-buff',
-  setTitle: { id: 1526 },
-  name: [{ value: 'Wentworth History Buff' }],
-  alignment: ['H'],
+  setTitleId: [1526],
+  name: 'Wentworth History Buff',
+  morality: 'heroic',
   zoneKey: KingsRow.key,
   loc: [-1089, -42, 896],
   badgeText: [{
@@ -17,6 +17,6 @@ export const WentworthHistoryBuff: BadgeData = {
   links: [
     { title: 'Wentworth History Buff Badge', href: 'https://homecoming.wiki/wiki/Wentworth_History_Buff_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '6',
 }

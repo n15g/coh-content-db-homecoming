@@ -1,18 +1,18 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Vigilante: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'vigilante',
-  setTitle: { id: 367 },
+  setTitleId: [367],
   name: [
-    { alignment: 'H', value: 'Vigilante' },
-    { alignment: 'V', value: 'Wanted' },
+    { alignment: 'hero', value: 'Vigilante' },
+    { alignment: 'villain', value: 'Wanted' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'Your success in PvP missions has been noticed by the media. You are being called a Vigilante.' },
+    { alignment: 'hero', value: 'Your success in PvP missions has been noticed by the media. You are being called a Vigilante.' },
     {
-      alignment: 'V', value: 'The authorities have mentioned your name in more than one report on successfully completing '
+      alignment: 'villain', value: 'The authorities have mentioned your name in more than one report on successfully completing '
         + 'PvP missions.',
     },
   ],

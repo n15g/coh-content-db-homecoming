@@ -5,13 +5,13 @@ import { Boomtown } from '../../zone/boomtown'
 import { Faultline } from '../../zone/faultline'
 
 export const JustSaidNoToSuperadine: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'just-said-no-to-superadine',
-  setTitle: { id: 152 },
+  setTitleId: [152],
   name: [
     { value: 'Just Said No to Superadine' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of Superadine, the newest designer drug to plague Paragon City.` },
   ],

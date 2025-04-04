@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Stalwart: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'stalwart',
-  setTitle: { id: 883 },
+  setTitleId: [883],
   name: [
     { value: 'Stalwart' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 35 and 39 while the enemies were Buffed.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 35 and 39 while the enemies were Buffed.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while the enemies were Buffed.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 35 and 39 while the enemies were Buffed.` },
   ],
   acquisition: 'Complete a level 36-40 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)',
   links: [

@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const CrabSpiderLongfang: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'crab-spider-longfang',
-  setTitle: { id: 445 },
+  setTitleId: [445],
   name: [
     { value: 'Crab Spider Longfang' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'One fight is as good as another to the Longfangs.' },
   ],

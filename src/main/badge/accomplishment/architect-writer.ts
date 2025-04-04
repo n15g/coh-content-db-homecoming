@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { HeatherTownshend } from '../../contact/heather-townshend'
 
 export const ArchitectWriter: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'architect-writer',
-  setTitle: { id: 2194 },
+  setTitleId: [2194],
   name: 'Architect Writer',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You played through Heather Townshend's personal story, witnessing the event where she joined the Letter Writer's team.`,
   links: [
     { title: 'Architect Writer Badge', href: 'https://homecoming.wiki/wiki/Architect_Writer_Badge' },

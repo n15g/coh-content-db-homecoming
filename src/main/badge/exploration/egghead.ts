@@ -2,18 +2,18 @@ import { BadgeData } from 'coh-content-db'
 import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const Egghead: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'egghead',
-  setTitle: { id: 271 },
-  name: [{ value: 'Egghead' }],
-  alignment: ['V'],
+  setTitleId: [271],
+  name: 'Egghead',
+  morality: 'villainous',
   zoneKey: CapAuDiable.key,
   loc: [941, 98, -1441],
-  badgeText: [{ value: 'It\'s back to school for you. Aeon University is home to many of Dr. Aeon\'s Brighter employees.' }],
-  notes: 'The Egghead Badge is in Cap au Diable on top of the university right above the front door. The university is located along the western edge of New Haven.',
+  badgeText: `It's back to school for you. Aeon University is home to many of Dr. Aeon's Brighter employees.`,
+  notes: 'Located on top of the university right above the front door.',
   links: [
     { title: 'Egghead Badge', href: 'https://homecoming.wiki/wiki/Egghead_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '3',
 }

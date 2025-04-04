@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { KeeperOfPeace } from '../achievement/keeper-of-peace'
 
 export const ButtonManGunner: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'button-man-gunner',
-  setTitle: { id: 482 },
+  setTitleId: [482],
   name: [
     { value: 'Button Man Gunner' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'The Family owes you a favor.' },
   ],
@@ -19,6 +19,6 @@ export const ButtonManGunner: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: KeeperOfPeace.key, type: 'BADGE', badgeKey: KeeperOfPeace.key },
+    { key: KeeperOfPeace.key, type: 'badge', badgeKey: KeeperOfPeace.key },
   ],
 }

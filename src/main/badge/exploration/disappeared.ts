@@ -1,21 +1,19 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { UndergroundNova } from '../../zone/underground-nova'
 
 export const Disappeared: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'disappeared',
-  setTitle: { id: 1637 },
-  name: [{ value: 'Disappeared' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1637],
+  name: 'Disappeared',
+  morality: 'all',
   zoneKey: UndergroundNova.key,
   loc: [-2640, 641, -1312],
-  badgeText: [{
-    value: 'This is where enemies of the State vanish forever. These lost souls have been brought here from the PPD Headquarters for summary execution without review or recourse.',
-  }],
-  notes: `Located in ${zoneLink(UndergroundNova)} approximately 345 yards NNW of City Access B.`,
+  badgeText: `This is where enemies of the State vanish forever. These lost souls have been brought here from the PPD Headquarters for summary execution without review or recourse.`,
+  notes: `Located approx. 345 yards NNW of City Access B.`,
   links: [
     { title: 'Disappeared Badge', href: 'https://homecoming.wiki/wiki/Disappeared_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '2',
 }

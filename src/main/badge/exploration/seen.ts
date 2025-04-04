@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { ImperialCity } from '../../zone/imperial-city'
 
 export const Seen: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'seen',
-  setTitle: { id: 1406 },
-  name: [{ value: 'Seen' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1406],
+  name: 'Seen',
+  morality: 'all',
   zoneKey: ImperialCity.key,
   loc: [-460, -56, -336],
   badgeText: [{
@@ -16,6 +16,6 @@ export const Seen: BadgeData = {
   links: [
     { title: 'Seen Badge', href: 'https://homecoming.wiki/wiki/Seen_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '5',
 }

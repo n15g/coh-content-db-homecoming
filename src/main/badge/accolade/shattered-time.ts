@@ -9,24 +9,24 @@ import { WatchYourBack } from '../exploration/watch-your-back'
 import { SickOfTimeTravel } from '../exploration/sick-of-time-travel'
 
 export const ShatteredTime: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'shattered-time',
-  setTitle: { id: 2421 },
+  setTitleId: [2421],
   name: 'Shattered Time',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Recluse's Victory.`,
   links: [
     { title: 'Shattered Time Badge', href: 'https://homecoming.wiki/wiki/Shattered_Time_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/pvp-acc.png',
   requirements: [
-    { key: Globetrotter.key, type: 'BADGE', badgeKey: Globetrotter.key },
-    { key: Ragnarok.key, type: 'BADGE', badgeKey: Ragnarok.key },
-    { key: TemporalFighter.key, type: 'BADGE', badgeKey: TemporalFighter.key },
-    { key: LastStand.key, type: 'BADGE', badgeKey: LastStand.key },
-    { key: AScarInTime.key, type: 'BADGE', badgeKey: AScarInTime.key },
-    { key: TrueNeutral.key, type: 'BADGE', badgeKey: TrueNeutral.key },
-    { key: WatchYourBack.key, type: 'BADGE', badgeKey: WatchYourBack.key },
-    { key: SickOfTimeTravel.key, type: 'BADGE', badgeKey: SickOfTimeTravel.key },
+    { key: Globetrotter.key, type: 'badge', badgeKey: Globetrotter.key },
+    { key: Ragnarok.key, type: 'badge', badgeKey: Ragnarok.key },
+    { key: TemporalFighter.key, type: 'badge', badgeKey: TemporalFighter.key },
+    { key: LastStand.key, type: 'badge', badgeKey: LastStand.key },
+    { key: AScarInTime.key, type: 'badge', badgeKey: AScarInTime.key },
+    { key: TrueNeutral.key, type: 'badge', badgeKey: TrueNeutral.key },
+    { key: WatchYourBack.key, type: 'badge', badgeKey: WatchYourBack.key },
+    { key: SickOfTimeTravel.key, type: 'badge', badgeKey: SickOfTimeTravel.key },
   ],
 }

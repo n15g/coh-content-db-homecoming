@@ -1,20 +1,20 @@
 import { BadgeData } from 'coh-content-db'
 
 export const RedeemedBlackguard: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'redeemed-blackguard',
-  setTitle: { id: 585 },
+  setTitleId: [585],
   name: [
-    { alignment: 'H', value: 'Redeemed Blackguard' },
-    { alignment: 'V', value: 'Blackguard' },
+    { alignment: 'hero', value: 'Redeemed Blackguard' },
+    { alignment: 'villain', value: 'Blackguard' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     {
-      alignment: 'H', value: 'Despite defeating all the Signature Heroes in Recluse\'s Victory, you are now considered a '
+      alignment: 'hero', value: 'Despite defeating all the Signature Heroes in Recluse\'s Victory, you are now considered a '
         + 'Redeemed Blackguard.',
     },
-    { alignment: 'V', value: 'You have helped defeat all the Signature Heroes in Recluse\'s Victory, making you a Blackguard.' },
+    { alignment: 'villain', value: 'You have helped defeat all the Signature Heroes in Recluse\'s Victory, making you a Blackguard.' },
   ],
   acquisition: 'Defeat all six Signature Heroes in Recluse\'s Victory',
   links: [

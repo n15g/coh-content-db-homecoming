@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TriggerMan: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'trigger-man',
-  setTitle: { id: 785 },
+  setTitleId: [785],
   name: [{ value: 'Trigger Man' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 10: Recharge Rate and Interrupt Time.' }],
   links: [
     { title: 'Trigger Man Badge', href: 'https://homecoming.wiki/wiki/Trigger_Man_Badge' },
@@ -14,10 +14,10 @@ export const TriggerMan: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 10,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 10,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 10,
     },
   ],
 }

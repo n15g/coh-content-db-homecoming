@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { InsideInformation } from '../../contact/inside-information'
 
 export const HamidonsEnemy: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'hamidons-enemy',
-  setTitle: { id: 2266 },
+  setTitleId: [2266],
   name: `Hamidon's Enemy`,
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You went back to Imperial City to find anything useful, but while you were there, you decided to send the Hamidon a message about who it shouldn't mess with.`,
   acquisition: `Defeat a total combination of 40 Devouring Earth or The Infested in the story arc from ${contactLink(InsideInformation)}.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Praetoria's Hidden Treasure" entry with number 24.10 at level 50.`,

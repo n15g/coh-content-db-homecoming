@@ -5,13 +5,13 @@ import { KingsRow } from '../../zone/kings-row'
 import { PerezPark } from '../../zone/perez-park'
 
 export const Intellectual: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'intellectual',
-  setTitle: { id: 150 },
+  setTitleId: [150],
   name: [
     { value: 'Intellectual' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of the Lost's attempt to control the minds of Paragon City's people.` },
   ],

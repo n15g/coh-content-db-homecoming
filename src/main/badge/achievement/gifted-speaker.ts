@@ -1,24 +1,18 @@
 import { BadgeData } from 'coh-content-db'
+import { BaneSpiderRuben } from '../../contact/bane-spider-ruben'
 
 export const GiftedSpeaker: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'gifted-speaker',
-  setTitle: { id: 2095 },
-  name: [
-    { value: 'Gifted Speaker' },
-  ],
-  alignment: ['V'],
-  badgeText: [
-    {
-      value: 'You know how to work a crowd when you need to. With the help of a psychic suggestion device, '
-        + 'of course.',
-    },
-  ],
-  acquisition: 'Complete the story arc from Bane Spider Ruben',
+  setTitleId: [2095],
+  name: 'Gifted Speaker',
+  morality: 'villainous',
+  badgeText: 'You know how to work a crowd when you need to. With the help of a psychic suggestion device, of course.',
   links: [
     { title: 'Gifted Speaker Badge', href: 'https://homecoming.wiki/wiki/Gifted_Speaker_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/gifted-speaker.png' },
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/gifted-speaker.png',
+  requirements: [
+    { key: 'df', type: 'ARC', missionName: 'Destiny Follows', contactKey: BaneSpiderRuben.key },
   ],
 }

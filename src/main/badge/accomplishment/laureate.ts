@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Neutropolis } from '../../zone/neutropolis'
 
 export const Laureate: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'laureate',
-  setTitle: { id: 1441 },
+  setTitleId: [1441],
   name: 'Laureate',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have no idea what that Lucan thing was, but he will haunt your dreams forever.',
   acquisition: `Complete the The Great Escape zone event in ${zoneLink(Neutropolis)}.`,
   links: [

@@ -3,11 +3,11 @@ import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const GroupFounder: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'group-founder',
-  setTitle: { id: 2255 },
+  setTitleId: [2255],
   name: 'Group Founder',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You helped Provost Marchand form the New Praetorians.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "A New Dimension, a New Team" entry with number 24.06 at level 50.`,
   links: [

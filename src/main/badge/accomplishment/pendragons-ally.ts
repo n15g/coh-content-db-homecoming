@@ -3,11 +3,11 @@ import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const PendragonsAlly: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'pendragons-ally',
-  setTitle: { id: 2264 },
+  setTitleId: [2264],
   name: `Pendragon's Ally`,
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You were able to keep Pendragon from being defeated while he was fighting Maestro by himself.',
   acquisition: `Complete all objectives in the first mission of the third story arc from ${contactLink(ProvostMarchandPrimal)} before Pendragon is defeated.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Tipping the Scales" entry with number 24.08 at level 50.`,

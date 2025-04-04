@@ -9,24 +9,24 @@ import { Connector } from '../exploration/connector'
 import { Unlucky } from '../exploration/unlucky'
 
 export const IPAddress: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'ip-address',
-  setTitle: { id: 1557 },
+  setTitleId: [1557],
   name: 'IP Address',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Independence Port.`,
   links: [
     { title: 'IP Address Badge', href: 'https://homecoming.wiki/wiki/IP_Address_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: CreyHavoc.key, type: 'BADGE', badgeKey: CreyHavoc.key },
-    { key: Valorous.key, type: 'BADGE', badgeKey: Valorous.key },
-    { key: Vigorous.key, type: 'BADGE', badgeKey: Vigorous.key },
-    { key: AirLifter.key, type: 'BADGE', badgeKey: AirLifter.key },
-    { key: DeadEnd.key, type: 'BADGE', badgeKey: DeadEnd.key },
-    { key: FamilyPartier.key, type: 'BADGE', badgeKey: FamilyPartier.key },
-    { key: Connector.key, type: 'BADGE', badgeKey: Connector.key },
-    { key: Unlucky.key, type: 'BADGE', badgeKey: Unlucky.key },
+    { key: CreyHavoc.key, type: 'badge', badgeKey: CreyHavoc.key },
+    { key: Valorous.key, type: 'badge', badgeKey: Valorous.key },
+    { key: Vigorous.key, type: 'badge', badgeKey: Vigorous.key },
+    { key: AirLifter.key, type: 'badge', badgeKey: AirLifter.key },
+    { key: DeadEnd.key, type: 'badge', badgeKey: DeadEnd.key },
+    { key: FamilyPartier.key, type: 'badge', badgeKey: FamilyPartier.key },
+    { key: Connector.key, type: 'badge', badgeKey: Connector.key },
+    { key: Unlucky.key, type: 'badge', badgeKey: Unlucky.key },
   ],
 }

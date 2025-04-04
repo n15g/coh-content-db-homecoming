@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Incarnate: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'incarnate',
-  setTitle: { id: 1965 },
+  setTitleId: [1965],
   name: 'Incarnate',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've crafted your first Very Rare Incarnate Ability earning yourself this badge.`,
   acquisition: 'Craft a very rare incarnate ability.',
   links: [

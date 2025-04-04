@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Vagabond: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'vagabond',
-  setTitle: { id: 801 },
+  setTitleId: [801],
   name: [{ value: 'Vagabond' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Run Speed, Jump, Fly Speed, and Range.' }],
   links: [
     { title: 'Vagabond Badge', href: 'https://homecoming.wiki/wiki/Vagabond_Badge' },
@@ -14,18 +14,18 @@ export const Vagabond: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 15,
-      inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
-      inventionCount: 6,
+      inventionTypes: ['run-speed', 'jump', 'fly-speed', 'range'],
+      count: 6,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 20,
-      inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
-      inventionCount: 6,
+      inventionTypes: ['run-speed', 'jump', 'fly-speed', 'range'],
+      count: 6,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

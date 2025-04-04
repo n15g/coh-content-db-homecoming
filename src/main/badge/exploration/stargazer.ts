@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { NightWard } from '../../zone/night-ward'
 
 export const Stargazer: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'stargazer',
-  setTitle: { id: 2233 },
-  name: [{ value: 'Stargazer' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [2233],
+  name: 'Stargazer',
+  morality: 'all',
   zoneKey: NightWard.key,
   loc: [178, 944, -227],
   badgeText: [{
@@ -18,6 +18,6 @@ Here, scattered spirits soar overhead like shooting stars in the night sky, fore
   links: [
     { title: 'Stargazer Badge', href: 'https://homecoming.wiki/wiki/Stargazer_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '8',
 }

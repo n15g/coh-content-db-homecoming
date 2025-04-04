@@ -9,14 +9,14 @@ import { TheDevouringEarthAbides } from '../exploration/the-devouring-earth-abid
 import { Unspoiled } from '../exploration/unspoiled'
 
 export const AdamInWaiting: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'adam-in-waiting',
-  setTitle: { id: 1887 },
+  setTitleId: [1887],
   name: [
     { sex: 'M', value: 'Adam in Waiting' },
     { sex: 'F', value: 'Eve in Waiting' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Eden.`,
   links: [
     { title: 'Adam in Waiting Badge', href: 'https://homecoming.wiki/wiki/Adam_in_Waiting_Badge' },
@@ -24,13 +24,13 @@ export const AdamInWaiting: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
-    { key: CallOfNature.key, type: 'BADGE', badgeKey: CallOfNature.key },
-    { key: CreyFish.key, type: 'BADGE', badgeKey: CreyFish.key },
-    { key: HiveMind.key, type: 'BADGE', badgeKey: HiveMind.key },
-    { key: NaturalLaw.key, type: 'BADGE', badgeKey: NaturalLaw.key },
-    { key: NaturalSelection.key, type: 'BADGE', badgeKey: NaturalSelection.key },
-    { key: NaturesWrath.key, type: 'BADGE', badgeKey: NaturesWrath.key },
-    { key: TheDevouringEarthAbides.key, type: 'BADGE', badgeKey: TheDevouringEarthAbides.key },
-    { key: Unspoiled.key, type: 'BADGE', badgeKey: Unspoiled.key },
+    { key: CallOfNature.key, type: 'badge', badgeKey: CallOfNature.key },
+    { key: CreyFish.key, type: 'badge', badgeKey: CreyFish.key },
+    { key: HiveMind.key, type: 'badge', badgeKey: HiveMind.key },
+    { key: NaturalLaw.key, type: 'badge', badgeKey: NaturalLaw.key },
+    { key: NaturalSelection.key, type: 'badge', badgeKey: NaturalSelection.key },
+    { key: NaturesWrath.key, type: 'badge', badgeKey: NaturesWrath.key },
+    { key: TheDevouringEarthAbides.key, type: 'badge', badgeKey: TheDevouringEarthAbides.key },
+    { key: Unspoiled.key, type: 'badge', badgeKey: Unspoiled.key },
   ],
 }

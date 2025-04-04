@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Lessened: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'lessened',
-  setTitle: { id: 924 },
+  setTitleId: [924],
   name: [
     { value: 'Lessened' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 1 and 15 while not gaining bonuses from slotted Enhancements.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 1 and 15 while not gaining bonuses from slotted Enhancements.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not gaining bonuses from slotted Enhancements.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 1 and 15 while not gaining bonuses from slotted Enhancements.` },
   ],
   acquisition: 'Complete a level 1-15 Flashback story arc using no enhancements.',
   links: [

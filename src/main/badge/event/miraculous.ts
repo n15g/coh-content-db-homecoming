@@ -1,19 +1,15 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Miraculous: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'miraculous',
-  setTitle: { id: 701 },
-  name: [
-    { value: 'Miraculous' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'A season of miracles, it has been called.' },
-  ],
+  setTitleId: [701],
+  name: 'Miraculous',
+  morality: 'all',
+  badgeText: 'A season of miracles, it has been called.',
   acquisition: `Select as a reward for completing Father Time's mission during the Winter Event or purchase from the Candy Keeper during the Winter Event for 25 Candy Canes and 30,000 inf.`,
   links: [
     { title: 'Miraculous Badge', href: 'https://homecoming.wiki/wiki/Miraculous_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/miraculous.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/miraculous.png',
 }

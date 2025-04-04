@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const MysticallyPowered: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'mystically-powered',
-  setTitle: { id: 783 },
+  setTitleId: [783],
   name: [{ value: 'Mystically Powered' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Endurance Modification and Endurance Reduction.' }],
   links: [
     { title: 'Mystically Powered Badge', href: 'https://homecoming.wiki/wiki/Mystically_Powered_Badge' },
@@ -14,18 +14,18 @@ export const MysticallyPowered: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 9,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 9,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 9,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 9,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

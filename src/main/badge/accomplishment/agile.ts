@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Agile: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'agile',
-  setTitle: { id: 1059 },
+  setTitleId: [1059],
   name: 'Agile',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have taken the silver medal in the advanced ski course!  Now try for the gold.',
   acquisition: 'Complete a ski run on the Advanced slope in under 1 minute during a Winter event.',
   links: [

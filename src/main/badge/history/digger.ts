@@ -3,13 +3,13 @@ import { AtlasPark } from '../../zone/atlas-park'
 import { TheHollows } from '../../zone/the-hollows'
 
 export const Digger: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'digger',
-  setTitle: { id: 190 },
+  setTitleId: [190],
   name: [
     { value: 'Digger' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history behind the Hollowing.` },
   ],

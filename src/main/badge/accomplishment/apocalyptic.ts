@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TheLadyGrey } from '../../contact/the-lady-grey'
 
 export const Apocalyptic: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'apocalyptic',
-  setTitle: { id: 837 },
+  setTitleId: [837],
   name: 'Apocalyptic',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have defeated the Riktified Hero 1 and fought back the Rikti invasion for the time being.',
   links: [
     { title: 'Apocalyptic Badge', href: 'https://homecoming.wiki/wiki/Apocalyptic_Badge' },

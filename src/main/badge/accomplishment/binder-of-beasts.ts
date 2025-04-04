@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { VirgilTarikoss } from '../../contact/virgil-tarikoss'
 
 export const BinderOfBeasts: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'binder-of-beasts',
-  setTitle: { id: 512 },
+  setTitleId: [512],
   name: 'Binder of Beasts',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You fought and defeated the dreaded demon Bat'Zul, the Beast Beneath the Mountain.`,
   links: [
     { title: 'Binder of Beasts Badge', href: 'https://homecoming.wiki/wiki/Binder_of_Beasts_Badge' },

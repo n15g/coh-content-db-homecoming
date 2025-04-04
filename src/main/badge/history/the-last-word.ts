@@ -2,13 +2,13 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirstWard } from '../../zone/first-ward'
 
 export const TheLastWord: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'the-last-word',
-  setTitle: { id: 2064 },
+  setTitleId: [2064],
   name: [
     { value: 'The Last Word' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: `A land of notable Firsts and Lasts, the First Ward of Praetoria is flooded not only with mire, magic, and mayhem, but also memorials to its history. You have encountered them all, earning this badge.` },
   ],

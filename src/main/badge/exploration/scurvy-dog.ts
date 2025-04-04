@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { PortOakes } from '../../zone/port-oakes'
 
 export const ScurvyDog: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'scurvy-dog',
-  setTitle: { id: 251 },
-  name: [{ value: 'Scurvy Dog' }],
-  alignment: ['V'],
+  setTitleId: [251],
+  name: 'Scurvy Dog',
+  morality: 'villainous',
   zoneKey: PortOakes.key,
   loc: [-2852, 82, 1216],
   badgeText: [{
@@ -18,6 +18,6 @@ The pub is approximately 190 yeard south and slightly east of the Dockside marke
   links: [
     { title: 'Scurvy Dog Badge', href: 'https://homecoming.wiki/wiki/Scurvy_Dog_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '1',
 }

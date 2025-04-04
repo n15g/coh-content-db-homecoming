@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const HitMan: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'hit-man',
-  setTitle: { id: 787 },
+  setTitleId: [787],
   name: [{ value: 'Hit-Man' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Recharge Rate and Interrupt Time.' }],
   effect: '+2 to Invention Salvage capacity',
   links: [
@@ -15,18 +15,18 @@ export const HitMan: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 25,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 8,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 8,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 30,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 8,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 8,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

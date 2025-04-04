@@ -1,19 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Reunited: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'reunited',
-  setTitle: { id: 2510 },
-  name: [
-    { value: 'Reunited' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: `You have helped celebrate the 20th anniversary of City of Heroes.` },
-  ],
-  acquisition: `Awarded upon login during May 2024, and thereafter available for purchase from Luna in Ouroboros during the anniversary event in May.`,
+  setTitleId: [2510],
+  name: 'Reunited',
+  morality: 'all',
+  badgeText: `You have helped celebrate the 20th anniversary of City of Heroes.`,
+  acquisition: `Awarded upon login during May 2024, and thereafter available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
   links: [
     { title: 'Reunited Badge', href: 'https://homecoming.wiki/wiki/Reunited_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/reunited.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/reunited.png',
 }

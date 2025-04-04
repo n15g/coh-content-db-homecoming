@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { MenderRamiel } from '../../contact/mender-ramiel'
 
 export const AlphaUnlocked: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'alpha-unlocked',
-  setTitle: { id: 1390 },
+  setTitleId: [1390],
   name: 'Alpha Unlocked',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You unlocked your Alpha Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Alpha Incarnate slot.`,
   notes: `Unlock the Alpha Incarnate slot by reaching level 50 and completing ${contactLink(MenderRamiel)}'s story arc, or by earning Incarnate Experience through normal play.`,

@@ -8,11 +8,11 @@ import { JakeKim } from '../../contact/jake-kim'
 import { VicGarland } from '../../contact/vic-garland'
 
 export const Pwnz: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'pwnz',
-  setTitle: { id: 75 },
+  setTitleId: [75],
   name: 'Pwnz',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You have arrested one of the higher ranking members of the Freakshow.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Retrieve Stolen Weapons From The Freakshow" entry with number 0.13 in the 20-24 level range.`,
   links: [

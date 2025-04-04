@@ -6,21 +6,21 @@ import { CrystalKeeper } from '../accomplishment/crystal-keeper'
 import { GoldStandard } from '../accomplishment/gold-standard'
 
 export const DeepStrikeAgent: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'deep-strike-agent',
-  setTitle: { id: 2542 },
+  setTitleId: [2542],
   name: [
-    { alignment: 'H', value: 'Deep Strike Agent' },
-    { alignment: 'V', value: 'Strike Force Commander' },
+    { alignment: 'hero', value: 'Deep Strike Agent' },
+    { alignment: 'villain', value: 'Strike Force Commander' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     {
-      alignment: 'H', value: `You have successfully taken part in many of the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'.
+      alignment: 'hero', value: `You have successfully taken part in many of the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'.
 You can break free from many effects out of sheer spite, due to your remarkable tenacity.`,
     },
     {
-      alignment: 'V', value: `You successfully infiltrated the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'.
+      alignment: 'villain', value: `You successfully infiltrated the most impactful operations and Strike Forces executed by Arachnos and their 'Destined Ones'.
 You can break free from many effects out of sheer spite.`,
     },
   ],
@@ -31,10 +31,10 @@ You can break free from many effects out of sheer spite.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/deep-strike-agent.png',
   requirements: [
-    { key: BinderOfBeasts.key, type: 'BADGE', badgeKey: BinderOfBeasts.key },
-    { key: Leviathan.key, type: 'BADGE', badgeKey: Leviathan.key },
-    { key: PirateHunter.key, type: 'BADGE', badgeKey: PirateHunter.key },
-    { key: CrystalKeeper.key, type: 'BADGE', badgeKey: CrystalKeeper.key },
-    { key: GoldStandard.key, type: 'BADGE', badgeKey: GoldStandard.key },
+    { key: BinderOfBeasts.key, type: 'badge', badgeKey: BinderOfBeasts.key },
+    { key: Leviathan.key, type: 'badge', badgeKey: Leviathan.key },
+    { key: PirateHunter.key, type: 'badge', badgeKey: PirateHunter.key },
+    { key: CrystalKeeper.key, type: 'badge', badgeKey: CrystalKeeper.key },
+    { key: GoldStandard.key, type: 'badge', badgeKey: GoldStandard.key },
   ],
 }

@@ -3,11 +3,11 @@ import { DrStribbling } from '../../contact/dr-stribbling'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const LoopHero: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'loop-hero',
-  setTitle: { id: 2514 },
+  setTitleId: [2514],
   name: 'Loop Hero',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `After much trial and tribulation, you were able to use Ouroboros to put an end to the Stribbling family drama. By your own count, you must have gone around at least 5 times... but the real number could be well into the thousands.`,
   acquisition: `Complete the Troubled Times arc from Dr. Stribbling four times, choosing all four outcomes and then again a final time.`,
   notes: `Run the Troubled Times arc from Dr. Stribbling (Level 30-34, Arc 27.08 in ${zoneLink(Ouroboros)}, Vigilante) four times, choosing one of the four fates for Marcus below until all four choices have been made:

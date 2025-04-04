@@ -4,13 +4,13 @@ import { Reveler } from '../event/reveler'
 import { ColumnBreaker } from '../accomplishment/column-breaker'
 
 export const _5thColumnist: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: '5th-columnist',
-  setTitle: { id: 612 },
+  setTitleId: [612],
   name: [
     { value: '5th Columnist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'For having both the 1st and 2nd Anniversary badges on one character, or by defeating the Reichsman, you have been granted access to a 5th Column Gladiator!',
@@ -24,8 +24,8 @@ export const _5thColumnist: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Celebrant.key, type: 'BADGE', badgeKey: Celebrant.key },
-    { key: Reveler.key, type: 'BADGE', badgeKey: Reveler.key },
-    { key: ColumnBreaker.key, type: 'BADGE', badgeKey: ColumnBreaker.key },
+    { key: Celebrant.key, type: 'badge', badgeKey: Celebrant.key },
+    { key: Reveler.key, type: 'badge', badgeKey: Reveler.key },
+    { key: ColumnBreaker.key, type: 'badge', badgeKey: ColumnBreaker.key },
   ],
 }

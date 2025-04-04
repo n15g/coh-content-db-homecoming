@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Demarcated: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'demarcated',
-  setTitle: { id: 912 },
+  setTitleId: [912],
   name: [
     { value: 'Demarcated' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Temporary Powers.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 46 and 50 while not using any Temporary Powers.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Temporary Powers.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 46 and 50 while not using any Temporary Powers.` },
   ],
   acquisition: 'Complete a level 46-50 Flashback story arc using no temp powers.',
   links: [

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TinMageMarkII } from '../../contact/tin-mage-mark-ii'
 
 export const AlphaStruck: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'alpha-struck',
-  setTitle: { id: 1938 },
+  setTitleId: [1938],
   name: 'Alpha Struck',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You took the fight to the Praetorians and stopped their plans for a large-scale invasion into the heart of Atlas Park and Grandville!',
   links: [
     { title: 'Alpha Struck Badge', href: 'https://homecoming.wiki/wiki/Alpha_Struck_Badge' },

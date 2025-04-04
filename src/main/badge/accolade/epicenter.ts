@@ -9,24 +9,24 @@ import { SpareParts } from '../exploration/spare-parts'
 import { DugTooDeep } from '../exploration/dug-too-deep'
 
 export const Epicenter: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'epicenter',
-  setTitle: { id: 2398 },
+  setTitleId: [2398],
   name: 'Epicenter',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Echo: Faultline.`,
   links: [
     { title: 'Epicenter Badge', href: 'https://homecoming.wiki/wiki/Epicenter_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: Newsman.key, type: 'BADGE', badgeKey: Newsman.key },
-    { key: FaultlessMystic.key, type: 'BADGE', badgeKey: FaultlessMystic.key },
-    { key: Apex.key, type: 'BADGE', badgeKey: Apex.key },
-    { key: Forsaken.key, type: 'BADGE', badgeKey: Forsaken.key },
-    { key: Pristine.key, type: 'BADGE', badgeKey: Pristine.key },
-    { key: ClaimDenied.key, type: 'BADGE', badgeKey: ClaimDenied.key },
-    { key: SpareParts.key, type: 'BADGE', badgeKey: SpareParts.key },
-    { key: DugTooDeep.key, type: 'BADGE', badgeKey: DugTooDeep.key },
+    { key: Newsman.key, type: 'badge', badgeKey: Newsman.key },
+    { key: FaultlessMystic.key, type: 'badge', badgeKey: FaultlessMystic.key },
+    { key: Apex.key, type: 'badge', badgeKey: Apex.key },
+    { key: Forsaken.key, type: 'badge', badgeKey: Forsaken.key },
+    { key: Pristine.key, type: 'badge', badgeKey: Pristine.key },
+    { key: ClaimDenied.key, type: 'badge', badgeKey: ClaimDenied.key },
+    { key: SpareParts.key, type: 'badge', badgeKey: SpareParts.key },
+    { key: DugTooDeep.key, type: 'badge', badgeKey: DugTooDeep.key },
   ],
 }

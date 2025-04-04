@@ -9,14 +9,14 @@ import { WentworthHistoryBuff } from '../exploration/wentworth-history-buff'
 import { ManOfVengeance } from '../exploration/man-of-vengeance'
 
 export const PPDInformant: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'ppd-informant',
-  setTitle: { id: 1529 },
+  setTitleId: [1529],
   name: [
-    { alignment: 'H', value: 'PPD Informant' },
-    { alignment: 'V', value: 'Former PPD Stoolie' },
+    { alignment: 'hero', value: 'PPD Informant' },
+    { alignment: 'villain', value: 'Former PPD Stoolie' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Kings Row.`,
   links: [
     { title: 'PPD Informant Badge', href: 'https://homecoming.wiki/wiki/PPD_Informant_Badge' },
@@ -24,13 +24,13 @@ export const PPDInformant: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: Summoned.key, type: 'BADGE', badgeKey: Summoned.key },
-    { key: Upgraded.key, type: 'BADGE', badgeKey: Upgraded.key },
-    { key: MysticKing.key, type: 'BADGE', badgeKey: MysticKing.key },
-    { key: KeenSighted.key, type: 'BADGE', badgeKey: KeenSighted.key },
-    { key: Smokey.key, type: 'BADGE', badgeKey: Smokey.key },
-    { key: WentworthHistoryBuff.key, type: 'BADGE', badgeKey: WentworthHistoryBuff.key },
-    { key: Pwned.key, type: 'BADGE', badgeKey: Pwned.key },
-    { key: ManOfVengeance.key, type: 'BADGE', badgeKey: ManOfVengeance.key },
+    { key: Summoned.key, type: 'badge', badgeKey: Summoned.key },
+    { key: Upgraded.key, type: 'badge', badgeKey: Upgraded.key },
+    { key: MysticKing.key, type: 'badge', badgeKey: MysticKing.key },
+    { key: KeenSighted.key, type: 'badge', badgeKey: KeenSighted.key },
+    { key: Smokey.key, type: 'badge', badgeKey: Smokey.key },
+    { key: WentworthHistoryBuff.key, type: 'badge', badgeKey: WentworthHistoryBuff.key },
+    { key: Pwned.key, type: 'badge', badgeKey: Pwned.key },
+    { key: ManOfVengeance.key, type: 'badge', badgeKey: ManOfVengeance.key },
   ],
 }

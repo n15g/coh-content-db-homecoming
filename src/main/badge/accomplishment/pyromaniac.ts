@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { MrGPrimal } from '../../contact/mr-g-primal'
 
 export const Pyromaniac: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'pyromaniac',
-  setTitle: { id: 2269 },
+  setTitleId: [2269],
   name: 'Pyromaniac',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You set fire to one of the nicer parts of Faultline while Penelope Yin and Penelope Mayhem were still fighting elsewhere.',
   acquisition: `Arm all five bombs before Penelope Yin and Penelope Mayhem in the "Cracking Faultline" mission from ${contactLink(MrGPrimal)}.`,
   links: [

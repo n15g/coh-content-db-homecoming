@@ -1,24 +1,23 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { MariaJenkins } from '../../contact/maria-jenkins'
 
 export const PositronsPal: BadgeData = {
-  type: 'DEFEAT',
+  type: 'defeat',
   key: 'positrons-pal',
-  setTitle: { id: 2240 },
+  setTitleId: [2240],
   name: [
-    { alignment: 'H', value: 'Positron\'s Pal' },
-    { alignment: 'V', value: 'Positron\'s Nemesis' },
+    { alignment: 'hero', value: `Positron's Pal` },
+    { alignment: 'villain', value: `Positron's Nemesis` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'You have rescued Positron from the clutches of Praetoria.' },
-    { alignment: 'V', value: 'In the past you rescued Positron from the Praetorians. Perhaps today you might not do the same.' },
+    { alignment: 'hero', value: 'You have rescued Positron from the clutches of Praetoria.' },
+    { alignment: 'villain', value: 'In the past you rescued Positron from the Praetorians. Perhaps today you might not do the same.' },
   ],
-  acquisition: 'Complete the A Hero\'s Epic story arc from Maria Jenkins',
+  acquisition: `Complete the "A Hero's Epic" story arc from ${contactLink(MariaJenkins)}.`,
   links: [
-    { title: 'Positron\'s Pal Badge', href: 'https://homecoming.wiki/wiki/Positron%27s_Pal_Badge' },
-    { title: 'Positron\'s Nemesis Badge', href: 'https://homecoming.wiki/wiki/Positron%27s_Nemesis_Badge' },
+    { title: `Positron's Pal Badge`, href: 'https://homecoming.wiki/wiki/Positron%27s_Pal_Badge' },
+    { title: `Positron's Nemesis Badge`, href: 'https://homecoming.wiki/wiki/Positron%27s_Nemesis_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/praetorians.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/praetorians.png',
 }

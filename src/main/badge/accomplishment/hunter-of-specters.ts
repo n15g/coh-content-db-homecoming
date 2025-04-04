@@ -3,11 +3,11 @@ import { PraetorDuncan } from '../../contact/praetor-duncan'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const HunterOfSpecters: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'hunter-of-specters',
-  setTitle: { id: 2191 },
+  setTitleId: [2191],
   name: 'Hunter of Specters',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You worked together with Praetor Duncan to put an end to Diabolique, who was discovered to be working together with Mot.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "To What End for Power" entry with number 22.16 at level 50.`,
   links: [

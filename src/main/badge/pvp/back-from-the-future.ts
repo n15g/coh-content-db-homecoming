@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const BackFromTheFuture: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'back-from-the-future',
-  setTitle: { id: 566 },
+  setTitleId: [566],
   name: [
     { value: 'Back From the Future' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: '100 pillboxes have been captured by you, you are truly a Time Bandit.' },
   ],

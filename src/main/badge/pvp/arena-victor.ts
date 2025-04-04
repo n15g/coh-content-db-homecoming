@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const ArenaVictor: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'arena-victor',
-  setTitle: { id: 1336 },
+  setTitleId: [1336],
   name: [
     { value: 'Arena Victor' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You\'ve won your first Arena match, you\'re considered an Arena Victor' },
   ],

@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { DrForrester } from '../../contact/dr-forrester'
 
 export const PartyCrasher: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'party-crasher',
-  setTitle: { id: 344 },
+  setTitleId: [344],
   name: 'Party Crasher',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You crashed a rave and stole a piece of the alloy which makes up Silver Mantis' armor.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Party Crasher" entry with number 7.11 in the 40-49 level range.`,
   links: [

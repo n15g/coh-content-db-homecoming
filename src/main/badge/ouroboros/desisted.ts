@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Desisted: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'desisted',
-  setTitle: { id: 898 },
+  setTitleId: [898],
   name: [
     { value: 'Desisted' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.` },
   ],
   acquisition: 'Complete a level 21-25 Flashback story arc using no travel powers. (Note: In game badge text is incorrect.)',
   links: [

@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { SpecialAgentJenniAdair } from '../../contact/special-agent-jenni-adair'
 
 export const SingularVision: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'singular-vision',
-  setTitle: { id: 1588 },
+  setTitleId: [1588],
   name: 'Singular Vision',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've prevented Protean from carrying out his plot for a Praetorian invasion, but not without a heavy cost - the death of your alternate self.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Looking Through the Glass" entry with number 17.02 in the 25-29 level range.`,
   links: [

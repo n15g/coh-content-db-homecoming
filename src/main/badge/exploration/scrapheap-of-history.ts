@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TerraVolta } from '../../zone/terra-volta'
 
 export const ScrapheapOfHistory: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'scrapheap-of-history',
-  setTitle: { id: 1839 },
-  name: [{ value: 'Scrapheap of History' }],
-  alignment: ['H'],
+  setTitleId: [1839],
+  name: 'Scrapheap of History',
+  morality: 'heroic',
   zoneKey: TerraVolta.key,
   loc: [-1588, 188, -2299],
   badgeText: [{
@@ -20,6 +20,6 @@ Since its destruction, that new technique the Number 6 plant was designed to tes
   links: [
     { title: 'Scrapheap of History Badge', href: 'https://homecoming.wiki/wiki/Scrapheap_of_History_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '6',
 }

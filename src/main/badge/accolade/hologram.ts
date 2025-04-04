@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Hologram: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'hologram',
-  setTitle: { id: 2497 },
+  setTitleId: [2497],
   name: 'Hologram',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `Thank you for your purchase of the BenevoLabs© BL-22c Holographic Matrix™!
 This intuitive, all-in-one system will automatically install and manage any hologram costumes you own, allowing you to access all of them from one handy location! We look forward to your continued patronage!`,
   acquisition: `Purchase from BenevoLabs vendors for 50 Prismatic Aether salvage.`,

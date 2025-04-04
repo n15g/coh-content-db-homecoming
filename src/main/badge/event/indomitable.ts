@@ -1,14 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Indomitable: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'indomitable',
-  setTitle: { id: 2340 },
-  name: [
-    { value: 'Indomitable' },
+  setTitleId: [2340],
+  name: 'Indomitable',
+  morality: 'all',
+  badgeText: `You have helped celebrate the 12th anniversary of City of Heroes.`,
+  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  links: [
+    { title: 'Indomitable Badge', href: 'https://homecoming.wiki/wiki/Indomitable_Badge' },
   ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [{ value: `You have helped celebrate the 12th anniversary of City of Heroes.` }],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/indomitable.png' }],
-  acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/indomitable.png',
 }

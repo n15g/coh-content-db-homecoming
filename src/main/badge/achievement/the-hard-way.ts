@@ -1,25 +1,17 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TheHardWay: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'the-hard-way',
-  setTitle: { id: 2224 },
-  name: [
-    { value: 'The Hard Way' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    {
-      value: 'You\'ve never been one to do things the easy way, have you?  You\'ve proven true mastery over '
-        + 'your Incarnate powers and the Well of the Furies by defeating Tyrant while he maintained most '
-        + 'of his link to the well.  You\'ve taken The Hard Way - and prevailed!',
-    },
-  ],
-  acquisition: 'Defeat Tyrant during the final battle of the Magisterium Trial without destroying more than 12 Lights of the Well',
+  setTitleId: [2224],
+  name: 'The Hard Way',
+  morality: 'all',
+  badgeText: `You've never been one to do things the easy way, have you?
+You've proven true mastery over your Incarnate powers and the Well of the Furies by defeating Tyrant while he maintained most of his link to the well.
+You've taken The Hard Way - and prevailed!`,
+  acquisition: 'Defeat Tyrant during the final battle of the Magisterium Trial without destroying more than 12 Lights of the Well.',
   links: [
     { title: 'The Hard Way Badge', href: 'https://homecoming.wiki/wiki/The_Hard_Way_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/magisterium-3.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/magisterium-3.png',
 }

@@ -1,21 +1,21 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { Scratch } from '../../contact/scratch'
+import { Ganymede } from '../../contact/ganymede'
+import { DJZero } from '../../contact/dj-zero'
 
 export const MissedConnection: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'missed-connection',
-  setTitle: { id: 2113 },
-  name: [
-    { value: 'Missed Connection' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You\'ve spurned the season of Spring in favor of sowing discord and heartbreak throughout the world by misdelivering Valentines!' },
-  ],
+  setTitleId: [2113],
+  name: 'Missed Connection',
+  morality: 'all',
+  badgeText: `You've spurned the season of Spring in favor of sowing discord and heartbreak throughout the world by misdelivering Valentines!`,
   acquisition: 'Deliver 7 Valentines to the incorrect recipient.',
-  notes: 'To get this badge and/or the Missed Connection badge you must run the missions from Scratch for villains or Ganymede for heroes and then talk to DJ Zero.'
-    + '\n\nDJ Zero will ask you if you want to deliver Valentines and once you say yes the valentines will drop like tip missions.',
+  notes: `Run the missions from ${contactLink(Scratch)} for villains or ${contactLink(Ganymede)} for heroes and then talk to ${contactLink(DJZero)}.
+
+${contactLink(DJZero)} will ask you if you want to deliver Valentines and once you say yes the valentines will drop like tip missions.`,
   links: [
     { title: 'Missed Connection Badge', href: 'https://homecoming.wiki/wiki/Missed_Connection_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/missed-connection.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/missed-connection.png',
 }

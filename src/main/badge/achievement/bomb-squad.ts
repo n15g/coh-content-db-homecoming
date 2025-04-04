@@ -1,27 +1,22 @@
 import { BadgeData } from 'coh-content-db'
 
 export const BombSquad: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'bomb-squad',
-  setTitle: { id: 641 },
+  setTitleId: [641],
   name: [
-    { alignment: 'H', value: 'Bomb Squad' },
-    { alignment: 'V', value: 'Blue Wire' },
+    { alignment: 'hero', value: 'Bomb Squad' },
+    { alignment: 'villain', value: 'Blue Wire' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'You were right. It WAS the red wire first.' },
-    {
-      alignment: 'V', value: 'The best way to make bombs that can\'t be defused is to train on the Bomb Squad. Needless to '
-        + 'say, on yours it\'s the Blue Wire.',
-    },
+    { alignment: 'hero', value: 'You were right. It WAS the red wire first.' },
+    { alignment: 'villain', value: `The best way to make bombs that can't be defused is to train on the Bomb Squad. Needless to say, on yours it's the Blue Wire.` },
   ],
-  acquisition: 'Stop 5 bombing side missions in Safeguard Missions',
+  acquisition: 'Stop 5 bombing side missions in Safeguard Missions.',
   links: [
     { title: 'Bomb Squad Badge', href: 'https://homecoming.wiki/wiki/Bomb_Squad_Badge' },
     { title: 'Blue Wire Badge', href: 'https://homecoming.wiki/wiki/Blue_Wire_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/bomb-squad.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/bomb-squad.png',
 }

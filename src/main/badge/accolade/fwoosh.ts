@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { BlackScorpion } from '../../contact/black-scorpion'
 
 export const Fwoosh: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'fwoosh',
-  setTitle: { id: 617 },
+  setTitleId: [617],
   name: [
-    { alignment: 'H', value: 'Fwoosh' },
-    { alignment: 'V', value: 'The Stinger' },
+    { alignment: 'hero', value: 'Fwoosh' },
+    { alignment: 'villain', value: 'The Stinger' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `This is the sound Black Scorpion's arm cannon will make when you run into him next. Didn't you learn not to peeve the guy in powered armor?` },
-    { alignment: 'V', value: `Pretty soon, nobody's gonna be able to touch me. Stick with me and you'll go places,' Black Scorpion said approvingly.` },
+    { alignment: 'hero', value: `This is the sound Black Scorpion's arm cannon will make when you run into him next. Didn't you learn not to peeve the guy in powered armor?` },
+    { alignment: 'villain', value: `Pretty soon, nobody's gonna be able to touch me. Stick with me and you'll go places,' Black Scorpion said approvingly.` },
   ],
   effect: `Awards the Mace Mastery patron power.`,
   links: [

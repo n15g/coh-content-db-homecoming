@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { DrQuaterfield } from '../../contact/dr-quaterfield'
 
 export const PortalSmasher: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'portal-smasher',
-  setTitle: { id: 423 },
+  setTitleId: [423],
   name: 'Portal Smasher',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You cut off the illegal portals the Nemesis army and Crey had built to access the Shadow Shard, and prevented the Rularuu from escaping into our world.',
   links: [
     { title: 'Portal Smasher Badge', href: 'https://homecoming.wiki/wiki/Portal_Smasher_Badge' },

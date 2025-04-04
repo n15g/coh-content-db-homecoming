@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Croatoa } from '../../zone/croatoa'
 
 export const SallySightseer: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sally-sightseer',
-  setTitle: { id: 1541 },
-  name: [{ value: 'Sally Sightseer' }],
-  alignment: ['H'],
+  setTitleId: [1541],
+  name: 'Sally Sightseer',
+  morality: 'heroic',
   zoneKey: Croatoa.key,
   loc: [-503, -25, 1195],
   badgeText: [{
@@ -20,6 +20,6 @@ It is under the easternmost umbrella on the beach, 246 yards northeast of the ne
   links: [
     { title: 'Sally Sightseer Badge', href: 'https://homecoming.wiki/wiki/Sally_Sightseer_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '5',
 }

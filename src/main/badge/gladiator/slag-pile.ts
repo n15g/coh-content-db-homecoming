@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { SlagReaper } from '../accomplishment/slag-reaper'
 
 export const SlagPile: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'slag-pile',
-  setTitle: { id: 468 },
+  setTitleId: [468],
   name: [
     { value: 'Slag Pile' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'Hmm, maybe these reeking piles of junk are useful.' },
   ],
@@ -19,6 +19,6 @@ export const SlagPile: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: SlagReaper.key, type: 'BADGE', badgeKey: SlagReaper.key },
+    { key: SlagReaper.key, type: 'badge', badgeKey: SlagReaper.key },
   ],
 }

@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { Manticore } from '../../contact/manticore'
 
 export const ManticoresAssociate: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'manticores-associate',
-  setTitle: { id: 65 },
+  setTitleId: [65],
   name: [
-    { alignment: 'H', value: `Manticore's Associate` },
-    { alignment: 'V', value: `Manticore's Betrayer` },
+    { alignment: 'hero', value: `Manticore's Associate` },
+    { alignment: 'villain', value: `Manticore's Betrayer` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'Manticore was proud to present you with this medal, in recognition of the valor and honor you showed while helping him.' },
-    { alignment: 'V', value: 'Manticore, always the paranoid one, now thinks you let Countess Crey escape on purpose...' },
+    { alignment: 'hero', value: 'Manticore was proud to present you with this medal, in recognition of the valor and honor you showed while helping him.' },
+    { alignment: 'villain', value: 'Manticore, always the paranoid one, now thinks you let Countess Crey escape on purpose...' },
   ],
   links: [
     { title: `Manticore's Associate Badge`, href: 'https://homecoming.wiki/wiki/Manticore%27s_Associate_Badge' },

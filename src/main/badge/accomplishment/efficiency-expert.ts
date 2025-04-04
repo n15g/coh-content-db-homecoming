@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { EfficiencyExpertPither } from '../../contact/efficiency-expert-pither'
 
 export const EfficiencyExpert: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'efficiency-expert',
-  setTitle: { id: 346 },
+  setTitleId: [346],
   name: 'Efficiency Expert',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You have proven yourself efficient by succeeding at all of Mr. Pither's timed tasks.`,
   acquisition: `Complete all of ${contactLink(EfficiencyExpertPither)}'s timed missions successfully.`,
   notes: 'NOTE: This badge is not available as part of the Flashback system; However, you can earn credit towards it by doing missions with another character who has Pither as a contact, so it is not permanently missable.',

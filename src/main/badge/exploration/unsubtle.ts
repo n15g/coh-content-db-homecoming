@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Brickstown } from '../../zone/brickstown'
 
 export const Unsubtle: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'unsubtle',
-  setTitle: { id: 1570 },
-  name: [{ value: 'Unsubtle' }],
-  alignment: ['H'],
+  setTitleId: [1570],
+  name: 'Unsubtle',
+  morality: 'heroic',
   zoneKey: Brickstown.key,
   loc: [-2260, -64, -1579],
   badgeText: [{
@@ -21,6 +21,6 @@ The best way to reach it is to enter the underneath section of the neighborhood 
   links: [
     { title: 'Unsubtle Badge', href: 'https://homecoming.wiki/wiki/Unsubtle_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '8',
 }

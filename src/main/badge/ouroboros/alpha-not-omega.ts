@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const AlphaNotOmega: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'alpha-not-omega',
-  setTitle: { id: 2474 },
+  setTitleId: [2474],
   name: [
     { value: 'Alpha Not Omega' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: `You have completed a Flashback at level 50 while only benefitting from the Incarnate Power in your Alpha Slot.` },
   ],

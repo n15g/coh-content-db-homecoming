@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const StrawweightChampion: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'strawweight-champion',
-  setTitle: { id: 220 },
+  setTitleId: [220],
   name: [
     { value: 'Strawweight Champion' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'You have achieved the status of Champion in the Strawweight division by winning your first '

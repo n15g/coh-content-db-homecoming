@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Illusionist } from '../defeat/illusionist'
 
 export const SteelStrongman: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'steel-strongman',
-  setTitle: { id: 506 },
+  setTitleId: [506],
   name: [
     { value: 'Steel Strongman' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'Might is not match for your right.' },
   ],
@@ -19,6 +19,6 @@ export const SteelStrongman: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Illusionist.key, type: 'BADGE', badgeKey: Illusionist.key },
+    { key: Illusionist.key, type: 'badge', badgeKey: Illusionist.key },
   ],
 }

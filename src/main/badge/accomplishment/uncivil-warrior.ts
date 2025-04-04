@@ -3,11 +3,11 @@ import { AgentWatkins } from '../../contact/agent-watkins'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const UncivilWarrior: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'uncivil-warrior',
-  setTitle: { id: 2437 },
+  setTitleId: [2437],
   name: 'Uncivil Warrior',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `As the crescendo to a wild adventure that took you all over the city and into many life-threatening scenarios, you went straight to the heart of where the last Vahzilok
 leader was trying to navigate the complex civil war within the ranks.
 Cortex was able to escape you, but Dr. Pierce was left trapped in her own mess of lies and deceptions, her fate left to the authorities and the Paragon justice system.`,

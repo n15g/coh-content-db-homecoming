@@ -1,17 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Boomtown } from '../../zone/boomtown'
 
 export const WarTorn: BadgeData = {
-  type: 'DEFEAT',
+  type: 'defeat',
   key: 'war-torn',
-  setTitle: { id: 2332 },
-  name: [
-    { value: 'War Torn' },
-  ],
-  alignment: ['H'],
-  badgeText: [{ value: `You have torn the Council War Walkers into scrap metal.` }],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/council-war-walker.png' }],
-  acquisition: 'Defeat 100 Council War Walkers in Boomtown',
+  setTitleId: [2332],
+  name: 'War Torn',
+  morality: 'heroic',
+  badgeText: `You have torn the Council War Walkers into scrap metal.`,
+  acquisition: `Defeat 100 Council War Walkers in ${zoneLink(Boomtown)}.`,
   links: [
     { title: 'War Torn Badge', href: 'https://homecoming.wiki/wiki/War_Torn_Badge' },
   ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/council-war-walker.png',
 }

@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Neutropolis } from '../../zone/neutropolis'
 
 export const StuffOfLife: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'stuff-of-life',
-  setTitle: { id: 1729 },
-  name: [{ value: 'Stuff of Life' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1729],
+  name: 'Stuff of Life',
+  morality: 'all',
   zoneKey: Neutropolis.key,
   loc: [2228, -58, -649],
   badgeText: [{
@@ -16,6 +16,6 @@ export const StuffOfLife: BadgeData = {
   links: [
     { title: 'Stuff of Life Badge', href: 'https://homecoming.wiki/wiki/Stuff_of_Life_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '7',
 }

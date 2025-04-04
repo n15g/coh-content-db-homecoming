@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Anemic: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'anemic',
-  setTitle: { id: 927 },
+  setTitleId: [927],
   name: [
     { value: 'Anemic' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 20 and 24 while not gaining bonuses from slotted Enhancements.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 20 and 24 while not gaining bonuses from slotted Enhancements.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not gaining bonuses from slotted Enhancements.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 20 and 24 while not gaining bonuses from slotted Enhancements.` },
   ],
   acquisition: 'Complete a level 21-25 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)',
   links: [

@@ -9,24 +9,24 @@ import { EyeOfTheGemini } from '../exploration/eye-of-the-gemini'
 import { OrionsBelt } from '../exploration/orions-belt'
 
 export const GalacticExplorer: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'galactic-explorer',
-  setTitle: { id: 1525 },
+  setTitleId: [1525],
   name: 'Galactic Explorer',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Galaxy City.`,
   links: [
     { title: 'Galactic Explorer Badge', href: 'https://homecoming.wiki/wiki/Galactic_Explorer_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: BirdWatcher.key, type: 'BADGE', badgeKey: BirdWatcher.key },
-    { key: BlueShield.key, type: 'BADGE', badgeKey: BlueShield.key },
-    { key: Brawler.key, type: 'BADGE', badgeKey: Brawler.key },
-    { key: Tank.key, type: 'BADGE', badgeKey: Tank.key },
-    { key: LandLocked.key, type: 'BADGE', badgeKey: LandLocked.key },
-    { key: GalacticFan.key, type: 'BADGE', badgeKey: GalacticFan.key },
-    { key: EyeOfTheGemini.key, type: 'BADGE', badgeKey: EyeOfTheGemini.key },
-    { key: OrionsBelt.key, type: 'BADGE', badgeKey: OrionsBelt.key },
+    { key: BirdWatcher.key, type: 'badge', badgeKey: BirdWatcher.key },
+    { key: BlueShield.key, type: 'badge', badgeKey: BlueShield.key },
+    { key: Brawler.key, type: 'badge', badgeKey: Brawler.key },
+    { key: Tank.key, type: 'badge', badgeKey: Tank.key },
+    { key: LandLocked.key, type: 'badge', badgeKey: LandLocked.key },
+    { key: GalacticFan.key, type: 'badge', badgeKey: GalacticFan.key },
+    { key: EyeOfTheGemini.key, type: 'badge', badgeKey: EyeOfTheGemini.key },
+    { key: OrionsBelt.key, type: 'badge', badgeKey: OrionsBelt.key },
   ],
 }

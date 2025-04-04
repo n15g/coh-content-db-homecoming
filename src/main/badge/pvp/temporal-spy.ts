@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TemporalSpy: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'temporal-spy',
-  setTitle: { id: 568 },
+  setTitleId: [568],
   name: [
     { value: 'Temporal Spy' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have commanded 25 Heavies in Recluse\'s Victory.' },
   ],

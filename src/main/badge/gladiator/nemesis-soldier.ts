@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Corrupter } from '../accomplishment/corrupter'
 
 export const NemesisSoldier: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'nemesis-soldier',
-  setTitle: { id: 495 },
+  setTitleId: [495],
   name: [
     { value: 'Nemesis Soldier' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You have a robotic warrior for the games.' },
   ],
@@ -19,6 +19,6 @@ export const NemesisSoldier: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Corrupter.key, type: 'BADGE', badgeKey: Corrupter.key },
+    { key: Corrupter.key, type: 'badge', badgeKey: Corrupter.key },
   ],
 }

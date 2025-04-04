@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Weatherman } from '../defeat/weatherman'
 
 export const OutcastSlugger: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'outcast-slugger',
-  setTitle: { id: 477 },
+  setTitleId: [477],
   name: [
     { value: 'Outcast Slugger' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'The Outcasts are in awe of you.' },
   ],
@@ -19,6 +19,6 @@ export const OutcastSlugger: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Weatherman.key, type: 'BADGE', badgeKey: Weatherman.key },
+    { key: Weatherman.key, type: 'badge', badgeKey: Weatherman.key },
   ],
 }

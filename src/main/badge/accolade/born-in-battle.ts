@@ -8,14 +8,14 @@ import { Triumphant } from '../exploration/triumphant'
 import { Adamant } from '../achievement/adamant'
 
 export const BornInBattle: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'born-in-battle',
-  setTitle: { id: 534 },
+  setTitleId: [534],
   name: 'Born in Battle',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `You may have proven yourself as Born in Battle, but in Paragon City other virtues matter more.` },
-    { alignment: 'V', value: `You've proven yourself as Born in Battle, adding 5% to both your Endurance and Hit Point totals.` },
+    { alignment: 'hero', value: `You may have proven yourself as Born in Battle, but in Paragon City other virtues matter more.` },
+    { alignment: 'villain', value: `You've proven yourself as Born in Battle, adding 5% to both your Endurance and Hit Point totals.` },
   ],
   effect: 'Awards +5% Max Health and +5 Max Endurance',
   links: [
@@ -23,12 +23,12 @@ export const BornInBattle: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/born-in-battle.png',
   requirements: [
-    { key: Exterminator.key, type: 'BADGE', badgeKey: Exterminator.key },
-    { key: Pirate.key, type: 'BADGE', badgeKey: Pirate.key },
-    { key: PrimalInstinct.key, type: 'BADGE', badgeKey: PrimalInstinct.key },
-    { key: HammerDown.key, type: 'BADGE', badgeKey: HammerDown.key },
-    { key: Swashbuckler.key, type: 'BADGE', badgeKey: Swashbuckler.key },
-    { key: Triumphant.key, type: 'BADGE', badgeKey: Triumphant.key },
-    { key: Adamant.key, type: 'BADGE', badgeKey: Adamant.key },
+    { key: Exterminator.key, type: 'badge', badgeKey: Exterminator.key },
+    { key: Pirate.key, type: 'badge', badgeKey: Pirate.key },
+    { key: PrimalInstinct.key, type: 'badge', badgeKey: PrimalInstinct.key },
+    { key: HammerDown.key, type: 'badge', badgeKey: HammerDown.key },
+    { key: Swashbuckler.key, type: 'badge', badgeKey: Swashbuckler.key },
+    { key: Triumphant.key, type: 'badge', badgeKey: Triumphant.key },
+    { key: Adamant.key, type: 'badge', badgeKey: Adamant.key },
   ],
 }

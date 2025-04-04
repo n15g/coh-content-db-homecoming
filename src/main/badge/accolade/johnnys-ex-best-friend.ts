@@ -9,15 +9,15 @@ import { Paroled } from '../exploration/paroled'
 import { SocialWorker } from '../exploration/social-worker'
 
 export const JohnnysExBestFriend: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'johnnys-ex-best-friend',
-  setTitle: { id: 1509 },
+  setTitleId: [1509],
   name: [
-    { alignment: 'H', value: 'Johnny\'s Ex-Best Friend' },
-    { alignment: 'V', sex: 'M', value: `Johnny's Go To Guy` },
-    { alignment: 'V', sex: 'F', value: `Johnny's Go To Gal` },
+    { alignment: 'hero', value: 'Johnny\'s Ex-Best Friend' },
+    { alignment: 'villain', sex: 'M', value: `Johnny's Go To Guy` },
+    { alignment: 'villain', sex: 'F', value: `Johnny's Go To Gal` },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within St. Martial.`,
   links: [
     { title: 'Johnny\'s Ex-Best Friend Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Ex-Best_Friend_Badge' },
@@ -26,13 +26,13 @@ export const JohnnysExBestFriend: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
-    { key: DeucesWild.key, type: 'BADGE', badgeKey: DeucesWild.key },
-    { key: Paroled.key, type: 'BADGE', badgeKey: Paroled.key },
-    { key: Stonekeeper.key, type: 'BADGE', badgeKey: Stonekeeper.key },
-    { key: CamelSnot.key, type: 'BADGE', badgeKey: CamelSnot.key },
-    { key: DeadMansTree.key, type: 'BADGE', badgeKey: DeadMansTree.key },
-    { key: SocialWorker.key, type: 'BADGE', badgeKey: SocialWorker.key },
-    { key: InfamousRubble.key, type: 'BADGE', badgeKey: InfamousRubble.key },
-    { key: Showstopper.key, type: 'BADGE', badgeKey: Showstopper.key },
+    { key: DeucesWild.key, type: 'badge', badgeKey: DeucesWild.key },
+    { key: Paroled.key, type: 'badge', badgeKey: Paroled.key },
+    { key: Stonekeeper.key, type: 'badge', badgeKey: Stonekeeper.key },
+    { key: CamelSnot.key, type: 'badge', badgeKey: CamelSnot.key },
+    { key: DeadMansTree.key, type: 'badge', badgeKey: DeadMansTree.key },
+    { key: SocialWorker.key, type: 'badge', badgeKey: SocialWorker.key },
+    { key: InfamousRubble.key, type: 'badge', badgeKey: InfamousRubble.key },
+    { key: Showstopper.key, type: 'badge', badgeKey: Showstopper.key },
   ],
 }

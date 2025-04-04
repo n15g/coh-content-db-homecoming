@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Rash: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'rash',
-  setTitle: { id: 873 },
+  setTitleId: [873],
   name: [
     { value: 'Rash' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 30 and 34 while under a constant Debuff.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 30 and 34 while under a constant Debuff.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while under a constant Debuff.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 30 and 34 while under a constant Debuff.` },
   ],
   acquisition: 'Complete a level 31-35 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)',
   links: [

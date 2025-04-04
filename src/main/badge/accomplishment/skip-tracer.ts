@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { BasseCroupier } from '../../contact/basse-croupier'
 
 export const SkipTracer: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'skip-tracer',
-  setTitle: { id: 342 },
+  setTitleId: [342],
   name: 'Skip Tracer',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'Nobody skips out on their debts to the Family. Not with you around.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "B4nKbUsTah" entry with number 6.77 in the 35-39 level range.`,
   links: [

@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const ForwardObserver: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'forward-observer',
-  setTitle: { id: 365 },
+  setTitleId: [365],
   name: [
     { value: 'Forward Observer' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'You\'ve taken down 10 villains in PvP.' },
-    { alignment: 'V', value: 'You\'ve taken down 10 heroes in PvP.' },
+    { alignment: 'hero', value: 'You\'ve taken down 10 villains in PvP.' },
+    { alignment: 'villain', value: 'You\'ve taken down 10 heroes in PvP.' },
   ],
   acquisition: 'Defeat 10 player characters in a PvP zone by your own hand',
   links: [

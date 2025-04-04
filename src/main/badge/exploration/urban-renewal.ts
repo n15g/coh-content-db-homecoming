@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Neutropolis } from '../../zone/neutropolis'
 
 export const UrbanRenewal: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'urban-renewal',
-  setTitle: { id: 1730 },
-  name: [{ value: 'Urban Renewal' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1730],
+  name: 'Urban Renewal',
+  morality: 'all',
   zoneKey: Neutropolis.key,
   loc: [6356, -64, -1206],
   badgeText: [{
@@ -17,6 +17,6 @@ export const UrbanRenewal: BadgeData = {
   links: [
     { title: 'Urban Renewal Badge', href: 'https://homecoming.wiki/wiki/Urban_Renewal_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '8',
 }

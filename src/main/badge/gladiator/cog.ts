@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Gearsmasher } from '../defeat/gearsmasher'
 
 export const Cog: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'cog',
-  setTitle: { id: 476 },
+  setTitleId: [476],
   name: [
     { value: 'Cog' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'It doesn\'t take much to make these machines fight for you.' },
   ],
@@ -19,6 +19,6 @@ export const Cog: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Gearsmasher.key, type: 'BADGE', badgeKey: Gearsmasher.key },
+    { key: Gearsmasher.key, type: 'badge', badgeKey: Gearsmasher.key },
   ],
 }

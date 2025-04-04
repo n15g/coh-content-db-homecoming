@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Barracuda } from '../../contact/barracuda'
 
 export const Arbiter: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'arbiter',
-  setTitle: { id: 1294 },
+  setTitleId: [1294],
   name: 'Arbiter',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `Taking down Reichsman and making fools out of Lord Recluse's lieutenants might just be the most profitable and satisfying job you've ever pulled.`,
   links: [
     { title: 'Arbiter Badge', href: 'https://homecoming.wiki/wiki/Arbiter_Badge' },

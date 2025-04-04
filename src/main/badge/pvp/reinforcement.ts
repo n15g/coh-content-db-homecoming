@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Reinforcement: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'reinforcement',
-  setTitle: { id: 364 },
+  setTitleId: [364],
   name: [
     { value: 'Reinforcement' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'You\'ve taken down 20 villains in PvP.' },
-    { alignment: 'V', value: 'You\'ve taken down 20 heroes in PvP.' },
+    { alignment: 'hero', value: 'You\'ve taken down 20 villains in PvP.' },
+    { alignment: 'villain', value: 'You\'ve taken down 20 heroes in PvP.' },
   ],
   acquisition: 'Defeat 20 player characters in a PvP zone by your own hand',
   links: [

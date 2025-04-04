@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TimeMachinist: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'time-machinist',
-  setTitle: { id: 564 },
+  setTitleId: [564],
   name: [
     { value: 'Time Machinist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have taken over 10 pillboxes in Recluse\'s Victory, making you a Time Machinist.' },
   ],

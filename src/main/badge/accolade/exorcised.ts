@@ -6,18 +6,18 @@ import { SoulTaker } from '../accomplishment/soul-taker'
 import { Coldblooded } from '../defeat/coldblooded'
 
 export const Exorcised: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'exorcised',
-  setTitle: { id: 536 },
+  setTitleId: [536],
   name: [
-    { alignment: 'H', value: 'Exorcised' },
-    { alignment: 'V', value: 'Demonic' },
+    { alignment: 'hero', value: 'Exorcised' },
+    { alignment: 'villain', value: 'Demonic' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `The goodness you've let into your heart appears to have banished the spirit of a demon which once resided within.` },
+    { alignment: 'hero', value: `The goodness you've let into your heart appears to have banished the spirit of a demon which once resided within.` },
     {
-      alignment: 'V',
+      alignment: 'villain',
       value: `The spirit of a demon resides within you. Bringing it to the surface of your mind can make you highly resistant to all types of damage for a short time.
 You mustn't let the demon out too long, or you just may lose your mortal soul, forever.`,
     },
@@ -29,10 +29,10 @@ You mustn't let the demon out too long, or you just may lose your mortal soul, f
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/exorcised.png',
   requirements: [
-    { key: Coldblooded.key, type: 'BADGE', badgeKey: Coldblooded.key },
-    { key: ForgedByHellfire.key, type: 'BADGE', badgeKey: ForgedByHellfire.key },
-    { key: Lorekeeper.key, type: 'BADGE', badgeKey: Lorekeeper.key },
-    { key: Overlord.key, type: 'BADGE', badgeKey: Overlord.key },
-    { key: SoulTaker.key, type: 'BADGE', badgeKey: SoulTaker.key },
+    { key: Coldblooded.key, type: 'badge', badgeKey: Coldblooded.key },
+    { key: ForgedByHellfire.key, type: 'badge', badgeKey: ForgedByHellfire.key },
+    { key: Lorekeeper.key, type: 'badge', badgeKey: Lorekeeper.key },
+    { key: Overlord.key, type: 'badge', badgeKey: Overlord.key },
+    { key: SoulTaker.key, type: 'badge', badgeKey: SoulTaker.key },
   ],
 }

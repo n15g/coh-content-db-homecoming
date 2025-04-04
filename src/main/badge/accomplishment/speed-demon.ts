@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const SpeedDemon: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'speed-demon',
-  setTitle: { id: 963 },
+  setTitleId: [963],
   name: 'Speed Demon',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'Wow! What speed! That was amazing!',
   acquisition: 'Complete a ski run on the Expert slope in under 25 seconds during a Winter event.',
   links: [

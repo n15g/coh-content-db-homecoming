@@ -3,21 +3,21 @@ import { DayTrader } from '../day-job/day-trader'
 import { Gunrunner } from '../day-job/gunrunner'
 
 export const BlockadeRunner: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'blockade-runner',
-  setTitle: { id: 1079 },
+  setTitleId: [1079],
   name: [
-    { alignment: 'H', value: 'Blockade Runner' },
-    { alignment: 'V', value: 'Profiteer' },
+    { alignment: 'hero', value: 'Blockade Runner' },
+    { alignment: 'villain', value: 'Profiteer' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     {
-      alignment: 'H', value: `Your skills at circumventing trade restrictions and finding profit are handy in Paragon City.
+      alignment: 'hero', value: `Your skills at circumventing trade restrictions and finding profit are handy in Paragon City.
 Recently it seems many have managed to run the blockade from the Rogue Isles, turning those restrictions into a paper tiger.`,
     },
     {
-      alignment: 'V', value: `Your masterful knowledge of the Black Market coupled with knowing where to get the best merchandise has made you a master of the Black Market.
+      alignment: 'villain', value: `Your masterful knowledge of the Black Market coupled with knowing where to get the best merchandise has made you a master of the Black Market.
 While logged out near Docks or near the Black Market you will earn tokens that will grant you discount when crafting inventions.`,
     },
   ],
@@ -27,7 +27,7 @@ While logged out near Docks or near the Black Market you will earn tokens that w
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/entrepreneur.png',
   requirements: [
-    { key: DayTrader.key, type: 'BADGE', badgeKey: DayTrader.key },
-    { key: Gunrunner.key, type: 'BADGE', badgeKey: Gunrunner.key },
+    { key: DayTrader.key, type: 'badge', badgeKey: DayTrader.key },
+    { key: Gunrunner.key, type: 'badge', badgeKey: Gunrunner.key },
   ],
 }

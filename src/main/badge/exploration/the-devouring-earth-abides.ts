@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Eden } from '../../zone/eden'
 
 export const TheDevouringEarthAbides: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-devouring-earth-abides',
-  setTitle: { id: 1845 },
-  name: [{ value: 'The Devouring Earth Abides' }],
-  alignment: ['H'],
+  setTitleId: [1845],
+  name: 'The Devouring Earth Abides',
+  morality: 'heroic',
   zoneKey: Eden.key,
   loc: [-357, 0, 2789],
   badgeText: [{
@@ -20,6 +20,6 @@ How does one reckon time when they are immortal? What is "soon" to something wit
   links: [
     { title: 'The Devouring Earth Abides Badge', href: 'https://homecoming.wiki/wiki/The_Devouring_Earth_Abides_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '6',
 }

@@ -13,19 +13,19 @@ import { ChanceMcKnight } from '../../contact/chance-mcknight'
 import { Bobcat } from '../../contact/bobcat'
 
 export const RisingStar: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'rising-star',
-  setTitle: { id: 2342 },
+  setTitleId: [2342],
   name: 'Rising Star',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Imperial City.`,
   effect: `Awards 20 reward merits.`,
   links: [
     { title: 'Rising Star Badge', href: 'https://homecoming.wiki/wiki/Rising_Star_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-v.png' },
   ],
   requirements: [
     { key: 'the-truth-hurts', type: 'ARC', missionName: `(Resistance Warden) The Truth Hurts`, contactKey: JessicaFlores.key },

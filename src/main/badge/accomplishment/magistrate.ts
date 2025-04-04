@@ -11,11 +11,11 @@ import { MotherMayhem } from '../../contact/mother-mayhem'
 import { AntiMatter } from '../../contact/anti-matter'
 
 export const Magistrate: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'magistrate',
-  setTitle: { id: 2345 },
+  setTitleId: [2345],
   name: 'Magistrate',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You assisted the Praetorian Loyalists to enforce the law for the peace and safety of everyone in Praetoria.`,
   acquisition: 'Complete every story arc in the Praetorian [Responsibility Storyline](https://homecoming.wiki/wiki/Responsibility_Storyline).',
   links: [

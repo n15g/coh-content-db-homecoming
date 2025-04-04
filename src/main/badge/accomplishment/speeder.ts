@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Speeder: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'speeder',
-  setTitle: { id: 1058 },
+  setTitleId: [1058],
   name: 'Speeder',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have taken the gold medal in the advanced ski course!',
   acquisition: 'Complete a ski run on the Advanced slope in under 50 seconds during a Winter event.',
   links: [

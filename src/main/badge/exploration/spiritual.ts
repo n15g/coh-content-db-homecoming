@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Croatoa } from '../../zone/croatoa'
 
 export const Spiritual: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'spiritual',
-  setTitle: { id: 409 },
-  name: [{ value: 'Spiritual' }],
-  alignment: ['H'],
+  setTitleId: [409],
+  name: 'Spiritual',
+  morality: 'heroic',
   zoneKey: Croatoa.key,
   loc: [-2669, 11, 1102],
   badgeText: [{
@@ -16,6 +16,6 @@ export const Spiritual: BadgeData = {
   links: [
     { title: 'Spiritual Badge', href: 'https://homecoming.wiki/wiki/Spiritual_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '2',
 }

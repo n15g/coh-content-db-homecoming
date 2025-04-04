@@ -2,13 +2,13 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { MidnighterClub } from '../../zone/midnighter-club'
 
 export const MidnighterArchivist: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'midnighter-archivist',
-  setTitle: { id: 1009 },
+  setTitleId: [1009],
   name: [
     { value: 'Midnighter Archivist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: `You have learned the secrets of the Midnighter Club.` },
   ],

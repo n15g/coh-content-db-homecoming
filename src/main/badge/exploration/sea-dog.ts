@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { StrigaIsle } from '../../zone/striga-isle'
 
 export const SeaDog: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sea-dog',
-  setTitle: { id: 197 },
-  name: [{ value: 'Sea Dog' }],
-  alignment: ['H'],
+  setTitleId: [197],
+  name: 'Sea Dog',
+  morality: 'heroic',
   zoneKey: StrigaIsle.key,
   loc: [-470, 0, 1020],
   badgeText: [{
@@ -17,6 +17,6 @@ export const SeaDog: BadgeData = {
   links: [
     { title: 'Sea Dog Badge', href: 'https://homecoming.wiki/wiki/Sea_Dog_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '2',
 }

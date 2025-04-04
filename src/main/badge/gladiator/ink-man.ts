@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const InkMan: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'ink-man',
-  setTitle: { id: 469 },
+  setTitleId: [469],
   name: [
     { value: 'Ink Man' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have allowed these Tsoo to fight for you.' },
   ],

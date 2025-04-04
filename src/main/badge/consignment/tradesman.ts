@@ -1,22 +1,22 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Tradesman: BadgeData = {
-  type: 'CONSIGNMENT',
+  type: 'consignment',
   key: 'tradesman',
-  setTitle: { id: 812 },
+  setTitleId: [812],
   name: [
     { sex: 'M', value: 'Tradesman' },
     { sex: 'F', value: 'Tradeswoman' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You've sold 100 items on the Consignment House.` },
-    { alignment: 'V', value: `You've sold 100 items on the Black Market.` },
+    { alignment: 'hero', value: `You've sold 100 items on the Consignment House.` },
+    { alignment: 'villain', value: `You've sold 100 items on the Black Market.` },
   ],
   acquisition: '100 total sales of any kind on the consignment houses.',
   links: [
     { title: 'Tradesman Badge', href: 'https://homecoming.wiki/wiki/Tradesman_Badge' },
     { title: 'Tradeswoman Badge', href: 'https://homecoming.wiki/wiki/Tradeswoman_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/tradesman.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/consignment/tradesman.png',
 }

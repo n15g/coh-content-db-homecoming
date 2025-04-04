@@ -6,14 +6,14 @@ import { JulianaNehring } from '../../contact/juliana-nehring'
 import { PavelGarnier } from '../../contact/pavel-garnier'
 
 export const PlagueStopper: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'plague-stopper',
-  setTitle: { id: 73 },
+  setTitleId: [73],
   name: [
-    { alignment: 'H', value: 'Plague Stopper' },
-    { alignment: 'V', value: 'Deadly Virus' },
+    { alignment: 'hero', value: 'Plague Stopper' },
+    { alignment: 'villain', value: 'Deadly Virus' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You were key in stopping a plague from overtaking Paragon City.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Vahzilok Wasting Disease" entry with number 0.07 in the 15-19 level range.`,
   links: [

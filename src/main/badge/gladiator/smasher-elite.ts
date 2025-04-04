@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Legionnaire } from '../defeat/legionnaire'
 
 export const SmasherElite: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'smasher-elite',
-  setTitle: { id: 493 },
+  setTitleId: [493],
   name: [
     { value: 'Smasher Elite' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'The Warriors respect those who fight.' },
   ],
@@ -19,6 +19,6 @@ export const SmasherElite: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Legionnaire.key, type: 'BADGE', badgeKey: Legionnaire.key },
+    { key: Legionnaire.key, type: 'badge', badgeKey: Legionnaire.key },
   ],
 }

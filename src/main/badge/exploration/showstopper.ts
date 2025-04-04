@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { StMartial } from '../../zone/st-martial'
 
 export const Showstopper: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'showstopper',
-  setTitle: { id: 1508 },
-  name: [{ value: 'Showstopper' }],
-  alignment: ['V'],
+  setTitleId: [1508],
+  name: 'Showstopper',
+  morality: 'villainous',
   zoneKey: StMartial.key,
   loc: [-2198, 16, -1953],
   badgeText: [{
@@ -19,6 +19,6 @@ It is at the eastern entrance of the Carnival, 328 yards ENE of the neighborhood
   links: [
     { title: 'Showstopper Badge', href: 'https://homecoming.wiki/wiki/Showstopper_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '8',
 }

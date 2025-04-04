@@ -11,11 +11,11 @@ import { Helix } from '../../contact/helix'
 import { CalvinScottPraetorian } from '../../contact/calvin-scott-praetorian'
 
 export const Obliterator: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'obliterator',
-  setTitle: { id: 2347 },
+  setTitleId: [2347],
   name: 'Obliterator',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You joined the Praetorian Resistance in their efforts to do whatever it takes to bring down Emperor Cole.`,
   acquisition: 'Complete every story arc in the Praetorian [Crusader Storyline](https://homecoming.wiki/wiki/Crusader_Storyline).',
   links: [

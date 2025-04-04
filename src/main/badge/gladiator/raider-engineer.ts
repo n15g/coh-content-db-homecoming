@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const RaiderEngineer: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'raider-engineer',
-  setTitle: { id: 487 },
+  setTitleId: [487],
   name: [
     { value: 'Raider Engineer' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'This will provide a good defense for your gladiators.' },
   ],

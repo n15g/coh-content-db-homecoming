@@ -4,11 +4,11 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 import { Boomtown } from '../../zone/boomtown'
 
 export const SeekerOfTheLost: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'seeker-of-the-lost',
-  setTitle: { id: 1836 },
-  name: [{ value: 'Seeker of the Lost' }],
-  alignment: ['H'],
+  setTitleId: [1836],
+  name: 'Seeker of the Lost',
+  morality: 'heroic',
   zoneKey: SewerNetwork.key,
   loc: [576, -576, -1537],
   badgeText: [{
@@ -23,6 +23,6 @@ It is in the middle of the junction connecting those three neighborhoods.`,
   links: [
     { title: 'Seeker of the Lost Badge', href: 'https://homecoming.wiki/wiki/Seeker_of_the_Lost_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '8',
 }

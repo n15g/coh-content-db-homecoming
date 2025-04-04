@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { MuVorkan } from '../../contact/muvorkan'
 
 export const BoundForGlory: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'bound-for-glory',
-  setTitle: { id: 2195 },
+  setTitleId: [2195],
   name: 'Bound for Glory',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You played through ${contactLink(MuVorkan)}'s personal story, witnessing the event where his quest to become a patron of Arachnos began.`,
   links: [
     { title: 'Bound for Glory Badge', href: 'https://homecoming.wiki/wiki/Bound_for_Glory_Badge' },

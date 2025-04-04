@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Karsis } from '../../contact/karsis'
 
 export const Transcendent: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'transcendent',
-  setTitle: { id: 70 },
+  setTitleId: [70],
   name: 'Transcendent',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You have become the master of the mystical gateway beneath the Hollows.',
   links: [
     { title: 'Transcendent Badge', href: 'https://homecoming.wiki/wiki/Transcendent_Badge' },

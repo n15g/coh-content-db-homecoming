@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const ArenaDuelist: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'arena-duelist',
-  setTitle: { id: 1341 },
+  setTitleId: [1341],
   name: [
     { value: 'Arena Duelist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You\'ve won your first Arena Duel match, you\'re considered an Arena Duelist.' },
   ],

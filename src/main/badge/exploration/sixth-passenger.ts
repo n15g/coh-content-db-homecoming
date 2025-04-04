@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Brickstown } from '../../zone/brickstown'
 
 export const SixthPassenger: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sixth-passenger',
-  setTitle: { id: 1569 },
-  name: [{ value: 'Sixth Passenger' }],
-  alignment: ['H'],
+  setTitleId: [1569],
+  name: 'Sixth Passenger',
+  morality: 'heroic',
   zoneKey: Brickstown.key,
   loc: [-2810, -43, 2569],
   badgeText: [{
@@ -20,6 +20,6 @@ There is a section of road that has been built over the ruined foundations of so
   links: [
     { title: 'Sixth Passenger Badge', href: 'https://homecoming.wiki/wiki/Sixth_Passenger_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '7',
 }

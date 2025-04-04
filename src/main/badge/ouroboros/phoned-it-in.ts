@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const PhonedItIn: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'phoned-it-in',
-  setTitle: { id: 921 },
+  setTitleId: [921],
   name: [
     { value: 'Phoned it in' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using Inspirations.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 35 and 39 while not using Inspirations.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using Inspirations.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 35 and 39 while not using Inspirations.` },
   ],
   acquisition: 'Complete a level 36-40 Flashback story arc using no inspirations. (Note: In game badge text is incorrect.)',
   links: [

@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { SkywayCity } from '../../zone/skyway-city'
 
 export const RoomForExpansion: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'room-for-expansion',
-  setTitle: { id: 1536 },
-  name: [{ value: 'Room for Expansion' }],
-  alignment: ['H'],
+  setTitleId: [1536],
+  name: 'Room for Expansion',
+  morality: 'heroic',
   zoneKey: SkywayCity.key,
   loc: [687, 0, -141],
   badgeText: [{
@@ -17,6 +17,6 @@ export const RoomForExpansion: BadgeData = {
   links: [
     { title: 'Room for Expansion Badge', href: 'https://homecoming.wiki/wiki/Room_for_Expansion_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '6',
 }

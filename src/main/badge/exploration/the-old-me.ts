@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TalosIsland } from '../../zone/talos-island'
 
 export const TheOldMe: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-old-me',
-  setTitle: { id: 1547 },
-  name: [{ value: 'The Old Me' }],
-  alignment: ['H'],
+  setTitleId: [1547],
+  name: 'The Old Me',
+  morality: 'heroic',
   zoneKey: TalosIsland.key,
   loc: [-1184, 7, 2132],
   badgeText: [{
@@ -17,6 +17,6 @@ export const TheOldMe: BadgeData = {
   links: [
     { title: 'The Old Me Badge', href: 'https://homecoming.wiki/wiki/The_Old_Me_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '5',
 }

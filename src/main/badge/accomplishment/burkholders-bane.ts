@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { ErnestoHess } from '../../contact/ernesto-hess'
 
 export const BurkholdersBane: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'burkholders-bane',
-  setTitle: { id: 202 },
+  setTitleId: [202],
   name: `Burkholder's Bane`,
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You have stopped the Council from launching their giant robot against Paragon City.',
   links: [
     { title: `Burkholder's Bane Badge`, href: 'https://homecoming.wiki/wiki/Burkholder%27s_Bane_Badge' },

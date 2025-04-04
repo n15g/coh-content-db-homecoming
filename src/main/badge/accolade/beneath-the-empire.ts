@@ -9,24 +9,24 @@ import { SilentWitness } from '../exploration/silent-witness'
 import { UndergroundExplorer } from '../exploration/underground-explorer'
 
 export const BeneathTheEmpire: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'beneath-the-empire',
-  setTitle: { id: 1653 },
+  setTitleId: [1653],
   name: 'Beneath the Empire',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Imperial City's Underground.`,
   links: [
     { title: 'Beneath the Empire Badge', href: 'https://homecoming.wiki/wiki/Beneath_the_Empire_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: BrokenMind.key, type: 'BADGE', badgeKey: BrokenMind.key },
-    { key: Condemning.key, type: 'BADGE', badgeKey: Condemning.key },
-    { key: Engineer.key, type: 'BADGE', badgeKey: Engineer.key },
-    { key: EyesOfTheDark.key, type: 'BADGE', badgeKey: EyesOfTheDark.key },
-    { key: Hoarder.key, type: 'BADGE', badgeKey: Hoarder.key },
-    { key: Lowlife.key, type: 'BADGE', badgeKey: Lowlife.key },
-    { key: SilentWitness.key, type: 'BADGE', badgeKey: SilentWitness.key },
-    { key: UndergroundExplorer.key, type: 'BADGE', badgeKey: UndergroundExplorer.key },
+    { key: BrokenMind.key, type: 'badge', badgeKey: BrokenMind.key },
+    { key: Condemning.key, type: 'badge', badgeKey: Condemning.key },
+    { key: Engineer.key, type: 'badge', badgeKey: Engineer.key },
+    { key: EyesOfTheDark.key, type: 'badge', badgeKey: EyesOfTheDark.key },
+    { key: Hoarder.key, type: 'badge', badgeKey: Hoarder.key },
+    { key: Lowlife.key, type: 'badge', badgeKey: Lowlife.key },
+    { key: SilentWitness.key, type: 'badge', badgeKey: SilentWitness.key },
+    { key: UndergroundExplorer.key, type: 'badge', badgeKey: UndergroundExplorer.key },
   ],
 }

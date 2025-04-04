@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { DimensionalWarder } from '../defeat/dimensional-warder'
 
 export const Meson: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'meson',
-  setTitle: { id: 505 },
+  setTitleId: [505],
   name: [
     { value: 'Meson' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'This mighty foe is under your control.' },
   ],
@@ -19,6 +19,6 @@ export const Meson: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: DimensionalWarder.key, type: 'BADGE', badgeKey: DimensionalWarder.key },
+    { key: DimensionalWarder.key, type: 'badge', badgeKey: DimensionalWarder.key },
   ],
 }

@@ -1,25 +1,17 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Redundant: BadgeData = {
-  type: 'DEFEAT',
+  type: 'defeat',
   key: 'redundant',
-  setTitle: { id: 1656 },
-  name: [
-    { value: 'Redundant' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    {
-      value: 'Destroying the Destroyers has destroyed their chance to cause destruction, even if saying out '
-        + 'loud sounds a bit Redundant. Those big and strangely colored targets are hard to resist. You '
-        + 'destroyed many Destroyers to earn this badge.',
-    },
-  ],
-  acquisition: 'Defeat 100 points worth of Destroyers',
+  setTitleId: [1656],
+  name: 'Redundant',
+  morality: 'all',
+  badgeText: `Destroying the Destroyers has destroyed their chance to cause destruction, even if saying out loud sounds a bit Redundant.
+Those big and strangely colored targets are hard to resist. You destroyed many Destroyers to earn this badge.`,
+  acquisition: 'Defeat 100 points worth of Destroyers.',
+  notes: `Each minion counts as 1 point, lieutenants as 2 points, and bosses as 5 points.`,
   links: [
     { title: 'Redundant Badge', href: 'https://homecoming.wiki/wiki/Redundant_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/redundant.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/redundant.png',
 }

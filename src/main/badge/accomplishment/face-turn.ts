@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { PayPhone } from '../../contact/pay-phone'
 
 export const FaceTurn: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'face-turn',
-  setTitle: { id: 2521 },
+  setTitleId: [2521],
   name: 'Face Turn',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You witnessed what Bile swears is the truth, and navigated a recording of Piecemeal's final moments, marooned in Galaxy City amidst the beginning of a horrific invasion.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "A Second Chance at a First Impression" entry with number 27.15 at level 50.`,
   links: [

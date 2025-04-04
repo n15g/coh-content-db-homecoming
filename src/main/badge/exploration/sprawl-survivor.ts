@@ -3,11 +3,11 @@ import { AbandonedSewerNetwork } from '../../zone/abandoned-sewer-network'
 import { SewerNetwork } from '../../zone/sewer-network'
 
 export const SprawlSurvivor: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'sprawl-survivor',
-  setTitle: { id: 1824 },
-  name: [{ value: 'Sprawl Survivor' }],
-  alignment: ['H'],
+  setTitleId: [1824],
+  name: 'Sprawl Survivor',
+  morality: 'heroic',
   zoneKey: AbandonedSewerNetwork.key,
   loc: [64, 0, 3072],
   badgeText: [{
@@ -19,6 +19,6 @@ export const SprawlSurvivor: BadgeData = {
   links: [
     { title: 'Sprawl Survivor Badge', href: 'https://homecoming.wiki/wiki/Sprawl_Survivor_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '4',
 }

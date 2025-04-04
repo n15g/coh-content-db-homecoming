@@ -4,14 +4,14 @@ import { LauraBrunetti } from '../../contact/laura-brunetti'
 import { MiriamBloechl } from '../../contact/miriam-bloechl'
 
 export const MysticalSavior: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'mystical-savior',
-  setTitle: { id: 77 },
+  setTitleId: [77],
   name: [
-    { alignment: 'H', value: 'Mystical Savior' },
-    { alignment: 'V', value: 'Mystical Adept' },
+    { alignment: 'hero', value: 'Mystical Savior' },
+    { alignment: 'villain', value: 'Mystical Adept' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You saved a cabal of mystics from being used by the Banished Pantheon.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Find the Pantheon: Rescue the Mystics" entry with number 0.18 in the 25-29 level range.`,
   links: [

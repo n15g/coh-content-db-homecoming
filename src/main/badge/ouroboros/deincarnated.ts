@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Deincarnated: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'deincarnated',
-  setTitle: { id: 2475 },
+  setTitleId: [2475],
   name: [
     { value: 'Deincarnated' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: `You have completed a Flashback at level 50 while not using any Incarnate Powers.` },
   ],

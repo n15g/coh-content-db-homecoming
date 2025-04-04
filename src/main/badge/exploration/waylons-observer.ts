@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Croatoa } from '../../zone/croatoa'
 
 export const WaylonsObserver: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'waylons-observer',
-  setTitle: { id: 1543 },
+  setTitleId: [1543],
   name: [{ value: 'Waylon\'s Observer' }],
-  alignment: ['H'],
+  morality: 'heroic',
   zoneKey: Croatoa.key,
   loc: [2639, 10, 1500],
   badgeText: [{
@@ -20,6 +20,6 @@ It is on the porch of the house 562 yards WNW of the Paragon City Monorail stati
   links: [
     { title: 'Waylon\'s Observer Badge', href: 'https://homecoming.wiki/wiki/Waylon%27s_Observer_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '7',
 }

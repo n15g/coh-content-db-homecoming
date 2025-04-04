@@ -2,14 +2,14 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Warburg } from '../../zone/warburg'
 
 export const WeaponInspector: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'weapon-inspector',
-  setTitle: { id: 291 },
+  setTitleId: [291],
   name: [
-    { alignment: 'H', value: 'Weapon Inspector' },
-    { alignment: 'V', value: 'Weapon of Mass Destruction' },
+    { alignment: 'hero', value: 'Weapon Inspector' },
+    { alignment: 'villain', value: 'Weapon of Mass Destruction' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   zoneKey: Warburg.key,
   loc: [-768, 144, 0],
   badgeText: [{ value: 'Warburg is home to many a nefarious ploy. Recluse\'s VENOM rocket is one of the most blatant.' }],
@@ -19,8 +19,8 @@ export const WeaponInspector: BadgeData = {
     { title: 'Weapon of Mass Destruction Badge', href: 'https://homecoming.wiki/wiki/Weapon_of_Mass_Destruction_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   vidiotMapKey: '1',
 }

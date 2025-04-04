@@ -5,11 +5,11 @@ import { KellyNemmers } from '../../contact/kelly-nemmers'
 import { BuckSalinger } from '../../contact/buck-salinger'
 
 export const StoryTeller: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'story-teller',
-  setTitle: { id: 2375 },
+  setTitleId: [2375],
   name: 'Story Teller',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Croatoa.`,
   effect: `Awards 20 reward merits.`,
   links: [

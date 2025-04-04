@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Max } from '../../contact/max'
 
 export const KnifeButcher: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'knife-butcher',
-  setTitle: { id: 2190 },
+  setTitleId: [2190],
   name: 'Knife Butcher',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You destroyed the source of the Knives of Vengeance, ending both their reign and also whatever was left of the Knives of Artemis.',
   links: [
     { title: 'Knife Butcher Badge', href: 'https://homecoming.wiki/wiki/Knife_Butcher_Badge' },

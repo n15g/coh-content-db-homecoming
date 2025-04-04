@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Brickstown } from '../../zone/brickstown'
 
 export const ProbationDenied: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'probation-denied',
-  setTitle: { id: 2320 },
+  setTitleId: [2320],
   name: 'Probation Denied',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You stopped a number of prisoners from escaping from Ziggursky prison.',
   acquisition: `Complete the Prison Break zone event in ${zoneLink(Brickstown)}.`,
   links: [

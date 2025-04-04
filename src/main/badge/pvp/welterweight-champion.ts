@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const WelterweightChampion: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'welterweight-champion',
-  setTitle: { id: 225 },
+  setTitleId: [225],
   name: [
     { value: 'Welterweight Champion' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     {
       value: 'You have achieved the status of Champion in the Welterweight division by winning your first '

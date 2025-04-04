@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Boomtown } from '../../zone/boomtown'
 
 export const ToweringInferno: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'towering-inferno',
-  setTitle: { id: 1777 },
-  name: [{ value: 'Towering Inferno' }],
-  alignment: ['H'],
+  setTitleId: [1777],
+  name: 'Towering Inferno',
+  morality: 'heroic',
   zoneKey: Boomtown.key,
   loc: [-1973, 576, 4017],
   badgeText: [{
@@ -18,6 +18,6 @@ export const ToweringInferno: BadgeData = {
   links: [
     { title: 'Towering Inferno Badge', href: 'https://homecoming.wiki/wiki/Towering_Inferno_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

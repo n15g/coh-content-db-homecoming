@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Sniper: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'sniper',
-  setTitle: { id: 788 },
+  setTitleId: [788],
   name: [{ value: 'Sniper' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Recharge Rate and Interrupt Time.' }],
   links: [
     { title: 'Sniper Badge', href: 'https://homecoming.wiki/wiki/Sniper_Badge' },
@@ -14,17 +14,17 @@ export const Sniper: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 11,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 11,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 11,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 11,
     },
   ],
 }

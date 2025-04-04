@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { Apex } from '../../contact/apex'
 
 export const WeaponMaster: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'weapon-master',
-  setTitle: { id: 1937 },
+  setTitleId: [1937],
   name: [
     { sex: 'M', value: 'Weapon Master' },
     { sex: 'F', value: 'Warrior Princess' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You repelled the initial Praetorian invasion forces from Primal Earth and saved what remained of Blyde Square from Battle Maiden!`,
   links: [
     { title: 'Weapon Master Badge', href: 'https://homecoming.wiki/wiki/Weapon_Master_Badge' },

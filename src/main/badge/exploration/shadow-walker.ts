@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirstWard } from '../../zone/first-ward'
 
 export const ShadowWalker: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'shadow-walker',
-  setTitle: { id: 2053 },
-  name: [{ value: 'Shadow Walker' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [2053],
+  name: 'Shadow Walker',
+  morality: 'all',
   zoneKey: FirstWard.key,
   loc: [-120, 20, -1952],
   badgeText: [{
@@ -19,6 +19,6 @@ Tread carefully.`,
   links: [
     { title: 'Shadow Walker Badge', href: 'https://homecoming.wiki/wiki/Shadow_Walker_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '6',
 }

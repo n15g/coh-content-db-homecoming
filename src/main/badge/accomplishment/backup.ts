@@ -1,14 +1,14 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Backup: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'backup',
-  setTitle: { id: 1967 },
+  setTitleId: [1967],
   name: [
-    { alignment: 'H', value: 'Backup' },
-    { alignment: 'V', value: 'Confederate' },
+    { alignment: 'hero', value: 'Backup' },
+    { alignment: 'villain', value: 'Confederate' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You helped 10 teams complete a Weekly Strike Target even though you already received the bonus for the week.',
   acquisition: `Complete 10 [Weekly Strike Targets](https://homecoming.wiki/wiki/Weekly_Strike_Target) after you've already completed one for the week.`,
   links: [

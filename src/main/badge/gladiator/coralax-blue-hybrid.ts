@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const CoralaxBlueHybrid: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'coralax-blue-hybrid',
-  setTitle: { id: 449 },
+  setTitleId: [449],
   name: [
     { value: 'Coralax Blue Hybrid' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'The choices of the Coralax are a mystery.' },
   ],

@@ -9,14 +9,14 @@ import { GutterBait } from '../exploration/gutter-bait'
 import { MasterOfTheAirwaves } from '../exploration/master-of-the-airwaves'
 
 export const EyeOnArachnos: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'eye-on-arachnos',
-  setTitle: { id: 1514 },
+  setTitleId: [1514],
   name: [
-    { alignment: 'H', value: 'Eye on Arachnos' },
-    { alignment: 'V', value: 'Arachnos Spymaster' },
+    { alignment: 'hero', value: 'Eye on Arachnos' },
+    { alignment: 'villain', value: 'Arachnos Spymaster' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Grandville.`,
   links: [
     { title: 'Eye on Arachnos Badge', href: 'https://homecoming.wiki/wiki/Eye_on_Arachnos_Badge' },
@@ -24,13 +24,13 @@ export const EyeOnArachnos: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
-    { key: Overlord.key, type: 'BADGE', badgeKey: Overlord.key },
-    { key: SewerDweller.key, type: 'BADGE', badgeKey: SewerDweller.key },
-    { key: Guttersnipe.key, type: 'BADGE', badgeKey: Guttersnipe.key },
-    { key: MasterOfTheAirwaves.key, type: 'BADGE', badgeKey: MasterOfTheAirwaves.key },
-    { key: PassingFab.key, type: 'BADGE', badgeKey: PassingFab.key },
-    { key: ImageCrasher.key, type: 'BADGE', badgeKey: ImageCrasher.key },
-    { key: LineHolder.key, type: 'BADGE', badgeKey: LineHolder.key },
-    { key: GutterBait.key, type: 'BADGE', badgeKey: GutterBait.key },
+    { key: Overlord.key, type: 'badge', badgeKey: Overlord.key },
+    { key: SewerDweller.key, type: 'badge', badgeKey: SewerDweller.key },
+    { key: Guttersnipe.key, type: 'badge', badgeKey: Guttersnipe.key },
+    { key: MasterOfTheAirwaves.key, type: 'badge', badgeKey: MasterOfTheAirwaves.key },
+    { key: PassingFab.key, type: 'badge', badgeKey: PassingFab.key },
+    { key: ImageCrasher.key, type: 'badge', badgeKey: ImageCrasher.key },
+    { key: LineHolder.key, type: 'badge', badgeKey: LineHolder.key },
+    { key: GutterBait.key, type: 'badge', badgeKey: GutterBait.key },
   ],
 }

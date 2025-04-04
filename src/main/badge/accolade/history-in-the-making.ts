@@ -9,28 +9,28 @@ import { VisionOfAmbition } from '../exploration/vision-of-ambition'
 import { DarknessUnleashed } from '../exploration/darkness-unleashed'
 
 export const HistoryInTheMaking: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'history-in-the-making',
-  setTitle: { id: 2462 },
+  setTitleId: [2462],
   name: 'History in the Making',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Cimerora.`,
   effect: 'Awards 5 rewards merits.',
   links: [
     { title: 'History in the Making Badge', href: 'https://homecoming.wiki/wiki/History_in_the_Making_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png' },
   ],
   requirements: [
-    { key: DepthsOfTime.key, type: 'BADGE', badgeKey: DepthsOfTime.key },
-    { key: BattleHardened.key, type: 'BADGE', badgeKey: BattleHardened.key },
-    { key: Sanctuary.key, type: 'BADGE', badgeKey: Sanctuary.key },
-    { key: VoiceOfTheOracle.key, type: 'BADGE', badgeKey: VoiceOfTheOracle.key },
-    { key: OutOfBounds.key, type: 'BADGE', badgeKey: OutOfBounds.key },
-    { key: HumanNature.key, type: 'BADGE', badgeKey: HumanNature.key },
-    { key: VisionOfAmbition.key, type: 'BADGE', badgeKey: VisionOfAmbition.key },
-    { key: DarknessUnleashed.key, type: 'BADGE', badgeKey: DarknessUnleashed.key },
+    { key: DepthsOfTime.key, type: 'badge', badgeKey: DepthsOfTime.key },
+    { key: BattleHardened.key, type: 'badge', badgeKey: BattleHardened.key },
+    { key: Sanctuary.key, type: 'badge', badgeKey: Sanctuary.key },
+    { key: VoiceOfTheOracle.key, type: 'badge', badgeKey: VoiceOfTheOracle.key },
+    { key: OutOfBounds.key, type: 'badge', badgeKey: OutOfBounds.key },
+    { key: HumanNature.key, type: 'badge', badgeKey: HumanNature.key },
+    { key: VisionOfAmbition.key, type: 'badge', badgeKey: VisionOfAmbition.key },
+    { key: DarknessUnleashed.key, type: 'badge', badgeKey: DarknessUnleashed.key },
   ],
 }

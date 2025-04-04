@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Destroyer: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'destroyer',
-  setTitle: { id: 575 },
+  setTitleId: [575],
   name: [
     { value: 'Destroyer' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'You have helped defeat Positron in Recluse\'s Victory.' },
   ],

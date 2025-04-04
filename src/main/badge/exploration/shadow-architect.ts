@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { FirebaseZulu } from '../../zone/firebase-zulu'
 
 export const ShadowArchitect: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'shadow-architect',
-  setTitle: { id: 1801 },
-  name: [{ value: 'Shadow Architect' }],
-  alignment: ['H'],
+  setTitleId: [1801],
+  name: 'Shadow Architect',
+  morality: 'heroic',
   zoneKey: FirebaseZulu.key,
   loc: [513, 1742, -2084],
   badgeText: [{
@@ -20,6 +20,6 @@ export const ShadowArchitect: BadgeData = {
   links: [
     { title: 'Shadow Architect Badge', href: 'https://homecoming.wiki/wiki/Shadow_Architect_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

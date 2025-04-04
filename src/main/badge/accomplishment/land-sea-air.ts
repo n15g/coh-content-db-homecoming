@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { AdmiralSutter } from '../../contact/admiral-sutter'
 
 export const LandSeaAir: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'land-sea-air',
-  setTitle: { id: 1981 },
+  setTitleId: [1981],
   name: 'Land, Sea & Air',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You shut down the alliance between the Sky Raiders and the Praetorian Imperial Defense Force, halting an assault on Skyway City in the process.',
   acquisition: 'Complete the Admiral Sutter Task Force',
   links: [

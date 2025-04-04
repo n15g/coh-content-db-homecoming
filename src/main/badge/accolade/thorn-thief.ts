@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Trepsarciel } from '../../contact/trepsarciel'
 
 export const ThornThief: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'thorn-thief',
-  setTitle: { id: 517 },
+  setTitleId: [517],
   name: 'Thorn Thief',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You have stolen the power of the Nexus of Thorns with the knowledge from the demon Trepsarciel.`,
   effect: `Awards a character respecification.`,
   links: [

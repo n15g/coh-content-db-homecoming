@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const GrandLanista: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'grand-lanista',
-  setTitle: { id: 474 },
+  setTitleId: [474],
   name: [
     { value: 'Grand Lanista' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'Continued success has earned you fame as a manager of gladiators.' },
-    { alignment: 'V', value: 'You have achieved great fame as a manager of gladiators in the Arena.' },
+    { alignment: 'hero', value: 'Continued success has earned you fame as a manager of gladiators.' },
+    { alignment: 'villain', value: 'You have achieved great fame as a manager of gladiators in the Arena.' },
   ],
   acquisition: 'Win ten Gladiator matches in the Arena (Arena)',
   links: [

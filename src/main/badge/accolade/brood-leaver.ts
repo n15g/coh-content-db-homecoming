@@ -3,21 +3,21 @@ import { Grounded } from '../day-job/grounded'
 import { ArachnosTraitor } from '../day-job/arachnos-traitor'
 
 export const BroodLeaver: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'brood-leaver',
-  setTitle: { id: 1074 },
+  setTitleId: [1074],
   name: [
-    { alignment: 'H', value: 'Brood Leaver' },
-    { alignment: 'V', value: 'Brood Leader' },
+    { alignment: 'hero', value: 'Brood Leaver' },
+    { alignment: 'villain', value: 'Brood Leader' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     {
-      alignment: 'H', value: `High status within Arachnos was not enough to keep you bound to the Rogue Isles.
+      alignment: 'hero', value: `High status within Arachnos was not enough to keep you bound to the Rogue Isles.
 Your exit caused a power vacuum which some other young upstart quickly filled.`,
     },
     {
-      alignment: 'V', value: `You have climbed the ranks of Arachnos by being both a pilot and a city official earning you the Brood Leader Accolade.
+      alignment: 'villain', value: `You have climbed the ranks of Arachnos by being both a pilot and a city official earning you the Brood Leader Accolade.
 While logged out in either Grandville or near a Black Helicoper you will earn fuel for your Traveler's Jet Pack at an accelerated rate.`,
     },
   ],
@@ -27,7 +27,7 @@ While logged out in either Grandville or near a Black Helicoper you will earn fu
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/brood-leaver.png',
   requirements: [
-    { key: Grounded.key, type: 'BADGE', badgeKey: Grounded.key },
-    { key: ArachnosTraitor.key, type: 'BADGE', badgeKey: ArachnosTraitor.key },
+    { key: Grounded.key, type: 'badge', badgeKey: Grounded.key },
+    { key: ArachnosTraitor.key, type: 'badge', badgeKey: ArachnosTraitor.key },
   ],
 }

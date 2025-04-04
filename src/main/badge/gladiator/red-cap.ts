@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Toothbreaker } from '../event/toothbreaker'
 
 export const RedCap: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'red-cap',
-  setTitle: { id: 529 },
+  setTitleId: [529],
   name: [
     { value: 'Red Cap' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You now can summon a Red Cap Rascal in the Arena pet battles.' },
   ],
@@ -19,6 +19,6 @@ export const RedCap: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Toothbreaker.key, type: 'BADGE', badgeKey: Toothbreaker.key },
+    { key: Toothbreaker.key, type: 'badge', badgeKey: Toothbreaker.key },
   ],
 }

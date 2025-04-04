@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Security: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'security',
-  setTitle: { id: 773 },
+  setTitleId: [773],
   name: [{ value: 'Security' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Defense Buff, Resist Damage, Intangible.' }],
   links: [
     { title: 'Security Badge', href: 'https://homecoming.wiki/wiki/Security_Badge' },
@@ -14,18 +14,18 @@ export const Security: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['DEFENSE_BUFF', 'RESIST_DAMAGE', 'INTANGIBILITY'],
-      inventionCount: 7,
+      inventionTypes: ['defense-buff', 'resist-damage', 'intangibility'],
+      count: 7,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['DEFENSE_BUFF', 'RESIST_DAMAGE', 'INTANGIBILITY'],
-      inventionCount: 7,
+      inventionTypes: ['defense-buff', 'resist-damage', 'intangibility'],
+      count: 7,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

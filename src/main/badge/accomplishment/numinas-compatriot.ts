@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { Numina } from '../../contact/numina'
 
 export const NuminasCompatriot: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'numinas-compatriot',
-  setTitle: { id: 66 },
+  setTitleId: [66],
   name: [
-    { alignment: 'H', value: `Numina's Compatriot` },
-    { alignment: 'V', value: `Numina's Betrayer` },
+    { alignment: 'hero', value: `Numina's Compatriot` },
+    { alignment: 'villain', value: `Numina's Betrayer` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'Numina and the spirit of the Woodsman were pleased to present you with this medal.' },
-    { alignment: 'V', value: 'Numina and the spirit of the Woodsman are disappointed in you, but hope that one day you will return to the side of justice.' },
+    { alignment: 'hero', value: 'Numina and the spirit of the Woodsman were pleased to present you with this medal.' },
+    { alignment: 'villain', value: 'Numina and the spirit of the Woodsman are disappointed in you, but hope that one day you will return to the side of justice.' },
   ],
   links: [
     { title: `Numina's Compatriot Badge`, href: 'https://homecoming.wiki/wiki/Numina%27s_Compatriot_Badge' },

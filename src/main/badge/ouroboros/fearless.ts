@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Fearless: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'fearless',
-  setTitle: { id: 881 },
+  setTitleId: [881],
   name: [
     { value: 'Fearless' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 25 and 29 while the enemies were Buffed.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 25 and 29 while the enemies were Buffed.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while the enemies were Buffed.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 25 and 29 while the enemies were Buffed.` },
   ],
   acquisition: 'Complete a level 26-30 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)',
   links: [

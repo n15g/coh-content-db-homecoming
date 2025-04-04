@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { StrigaIsle } from '../../zone/striga-isle'
 
 export const SuperSpy: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'super-spy',
-  setTitle: { id: 196 },
-  name: [{ value: 'Super Spy' }],
-  alignment: ['H'],
+  setTitleId: [196],
+  name: 'Super Spy',
+  morality: 'heroic',
   zoneKey: StrigaIsle.key,
   loc: [-6655, -15, -2460],
   badgeText: [{
@@ -16,6 +16,6 @@ export const SuperSpy: BadgeData = {
   links: [
     { title: 'Super Spy Badge', href: 'https://homecoming.wiki/wiki/Super_Spy_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '1',
 }

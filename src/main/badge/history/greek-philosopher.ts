@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { TheLabyrinthOfFog } from '../../zone/the-labyrinth-of-fog'
 
 export const GreekPhilosopher: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'greek-philosopher',
-  setTitle: { id: 2531 },
+  setTitleId: [2531],
   name: [
     { value: 'Greek Philosopher' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: `The origin behind the Labyrinth of Fog has been obscured for ages, but you've recently discovered evidence that suggests the labyrinth was created to imprison an ancient calamity that once befell the islands of Greece.` },
   ],

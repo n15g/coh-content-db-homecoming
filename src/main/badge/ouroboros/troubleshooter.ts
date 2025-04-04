@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Troubleshooter: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'troubleshooter',
-  setTitle: { id: 934 },
+  setTitleId: [934],
   name: [
     { value: 'Troubleshooter' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 5 story arcs.' },
   ],

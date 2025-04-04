@@ -5,11 +5,11 @@ import { AtlasPark } from '../../zone/atlas-park'
 import { KingsRow } from '../../zone/kings-row'
 
 export const TerrorOfTheVahzilok: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'terror-of-the-vahzilok',
-  setTitle: { id: 1835 },
-  name: [{ value: 'Terror of the Vahzilok' }],
-  alignment: ['H'],
+  setTitleId: [1835],
+  name: 'Terror of the Vahzilok',
+  morality: 'heroic',
   zoneKey: SewerNetwork.key,
   loc: [320, -576, 1536],
   badgeText: [{
@@ -26,6 +26,6 @@ You will make them know fear.`,
   links: [
     { title: 'Terror of the Vahzilok Badge', href: 'https://homecoming.wiki/wiki/Terror_of_the_Vahzilok_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '7',
 }

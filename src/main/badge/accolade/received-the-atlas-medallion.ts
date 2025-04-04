@@ -6,17 +6,17 @@ import { TheSlayer } from '../defeat/the-slayer'
 import { TopDog } from '../exploration/top-dog'
 
 export const ReceivedTheAtlasMedallion: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'received-the-atlas-medallion',
-  setTitle: { id: 160 },
+  setTitleId: [160],
   name: [
-    { alignment: 'H', value: 'Received the Atlas Medallion' },
-    { alignment: 'V', value: 'Atlas Shrugged' },
+    { alignment: 'hero', value: 'Received the Atlas Medallion' },
+    { alignment: 'villain', value: 'Atlas Shrugged' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `Through the might of Atlas, one of the greatest heroes of Paragon City's history, you have gained +5 to your maximum Endurance total.` },
-    { alignment: 'V', value: `Whatever power the spirit of Atlas once sent your way, it doesn't seem to work for villains.` },
+    { alignment: 'hero', value: `Through the might of Atlas, one of the greatest heroes of Paragon City's history, you have gained +5 to your maximum Endurance total.` },
+    { alignment: 'villain', value: `Whatever power the spirit of Atlas once sent your way, it doesn't seem to work for villains.` },
   ],
   effect: `Awards +5 Max Endurance.`,
   links: [
@@ -25,10 +25,10 @@ export const ReceivedTheAtlasMedallion: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-atlas-medallion.png',
   requirements: [
-    { key: Pupil.key, type: 'BADGE', badgeKey: Pupil.key },
-    { key: Spelunker.key, type: 'BADGE', badgeKey: Spelunker.key },
-    { key: TheSilverBullet.key, type: 'BADGE', badgeKey: TheSilverBullet.key },
-    { key: TheSlayer.key, type: 'BADGE', badgeKey: TheSlayer.key },
-    { key: TopDog.key, type: 'BADGE', badgeKey: TopDog.key },
+    { key: Pupil.key, type: 'badge', badgeKey: Pupil.key },
+    { key: Spelunker.key, type: 'badge', badgeKey: Spelunker.key },
+    { key: TheSilverBullet.key, type: 'badge', badgeKey: TheSilverBullet.key },
+    { key: TheSlayer.key, type: 'badge', badgeKey: TheSlayer.key },
+    { key: TopDog.key, type: 'badge', badgeKey: TopDog.key },
   ],
 }

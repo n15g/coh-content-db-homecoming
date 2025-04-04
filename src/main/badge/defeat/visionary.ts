@@ -1,21 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Visionary: BadgeData = {
-  type: 'DEFEAT',
+  type: 'defeat',
   key: 'visionary',
-  setTitle: { id: 204 },
-  name: [
-    { value: 'Visionary' },
-  ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [
-    { value: 'You have been successful in a campaign to blind the Overseers in the Shadow Shard.' },
-  ],
-  acquisition: 'Defeat 500 points worth of Rularuu Sentries (Watchers and Observers are worth 1 point, Overseers are worth 5 points).',
+  setTitleId: [204],
+  name: 'Visionary',
+  morality: 'all',
+  badgeText: 'You have been successful in a campaign to blind the Overseers in the Shadow Shard.',
+  acquisition: `Defeat 500 points worth of Rularuu Sentries in the Shadow Shard.`,
+  notes: `Watchers and Observers are worth 1 point, Overseers are worth 5 points.`,
   links: [
     { title: 'Visionary Badge', href: 'https://homecoming.wiki/wiki/Visionary_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/visionary.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/visionary.png',
 }

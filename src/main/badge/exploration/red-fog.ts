@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheChantry } from '../../zone/the-chantry'
 
 export const RedFog: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'red-fog',
-  setTitle: { id: 1819 },
-  name: [{ value: 'Red Fog' }],
-  alignment: ['H'],
+  setTitleId: [1819],
+  name: 'Red Fog',
+  morality: 'heroic',
   zoneKey: TheChantry.key,
   loc: [-7523, 1893, 4177],
   badgeText: [{
@@ -22,6 +22,6 @@ export const RedFog: BadgeData = {
   links: [
     { title: 'Red Fog Badge', href: 'https://homecoming.wiki/wiki/Red_Fog_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '7',
 }

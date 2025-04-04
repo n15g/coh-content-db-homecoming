@@ -9,24 +9,24 @@ import { PowerWalker } from '../exploration/power-walker'
 import { ScrapheapOfHistory } from '../exploration/scrapheap-of-history'
 
 export const UtilitiesCommission: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'utilities-commission',
-  setTitle: { id: 1886 },
+  setTitleId: [1886],
   name: 'Utilities Commission',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Terra Volta.`,
   links: [
     { title: 'Utilities Commission Badge', href: 'https://homecoming.wiki/wiki/Utilities_Commission_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
-    { key: ConjunctionJunction.key, type: 'BADGE', badgeKey: ConjunctionJunction.key },
-    { key: DangerDanger.key, type: 'BADGE', badgeKey: DangerDanger.key },
-    { key: GuardianOfTheVolts.key, type: 'BADGE', badgeKey: GuardianOfTheVolts.key },
-    { key: HighVoltage.key, type: 'BADGE', badgeKey: HighVoltage.key },
-    { key: Meltdown.key, type: 'BADGE', badgeKey: Meltdown.key },
-    { key: NervousDreck.key, type: 'BADGE', badgeKey: NervousDreck.key },
-    { key: PowerWalker.key, type: 'BADGE', badgeKey: PowerWalker.key },
-    { key: ScrapheapOfHistory.key, type: 'BADGE', badgeKey: ScrapheapOfHistory.key },
+    { key: ConjunctionJunction.key, type: 'badge', badgeKey: ConjunctionJunction.key },
+    { key: DangerDanger.key, type: 'badge', badgeKey: DangerDanger.key },
+    { key: GuardianOfTheVolts.key, type: 'badge', badgeKey: GuardianOfTheVolts.key },
+    { key: HighVoltage.key, type: 'badge', badgeKey: HighVoltage.key },
+    { key: Meltdown.key, type: 'badge', badgeKey: Meltdown.key },
+    { key: NervousDreck.key, type: 'badge', badgeKey: NervousDreck.key },
+    { key: PowerWalker.key, type: 'badge', badgeKey: PowerWalker.key },
+    { key: ScrapheapOfHistory.key, type: 'badge', badgeKey: ScrapheapOfHistory.key },
   ],
 }

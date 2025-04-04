@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Protectorate } from '../defeat/protectorate'
 
 export const Fungoid: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'fungoid',
-  setTitle: { id: 498 },
+  setTitleId: [498],
   name: [
     { value: 'Fungoid' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'The mushroom men will fight for you.' },
   ],
@@ -19,6 +19,6 @@ export const Fungoid: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Protectorate.key, type: 'BADGE', badgeKey: Protectorate.key },
+    { key: Protectorate.key, type: 'badge', badgeKey: Protectorate.key },
   ],
 }

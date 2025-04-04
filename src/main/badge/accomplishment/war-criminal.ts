@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { MrGPrimal } from '../../contact/mr-g-primal'
 
 export const WarCriminal: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'war-criminal',
-  setTitle: { id: 2258 },
+  setTitleId: [2258],
   name: 'War Criminal',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You worked together with Mr. G to break out several criminals of war from Vanguard custody.',
   acquisition: 'Complete the first story arc from Mr. G (Primal Earth)',
   links: [

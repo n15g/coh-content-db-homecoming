@@ -9,15 +9,15 @@ import { SixthPassenger } from '../exploration/sixth-passenger'
 import { Unsubtle } from '../exploration/unsubtle'
 
 export const ZigWarden: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'zig-warden',
-  setTitle: { id: 1571 },
+  setTitleId: [1571],
   name: [
-    { alignment: 'H', value: 'Zig Warden' },
-    { alignment: 'V', sex: 'M', value: 'King of the Zig' },
-    { alignment: 'V', sex: 'F', value: 'Queen of the Zig' },
+    { alignment: 'hero', value: 'Zig Warden' },
+    { alignment: 'villain', sex: 'M', value: 'King of the Zig' },
+    { alignment: 'villain', sex: 'F', value: 'Queen of the Zig' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Brickstown.`,
   links: [
     { title: 'Zig Warden Badge', href: 'https://homecoming.wiki/wiki/Zig_Warden_Badge' },
@@ -26,13 +26,13 @@ export const ZigWarden: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
-    { key: Mystic.key, type: 'BADGE', badgeKey: Mystic.key },
-    { key: Inmate.key, type: 'BADGE', badgeKey: Inmate.key },
-    { key: FlyingShark.key, type: 'BADGE', badgeKey: FlyingShark.key },
-    { key: Fugitive.key, type: 'BADGE', badgeKey: Fugitive.key },
-    { key: ForwardThinker.key, type: 'BADGE', badgeKey: ForwardThinker.key },
-    { key: SecretPath.key, type: 'BADGE', badgeKey: SecretPath.key },
-    { key: SixthPassenger.key, type: 'BADGE', badgeKey: SixthPassenger.key },
-    { key: Unsubtle.key, type: 'BADGE', badgeKey: Unsubtle.key },
+    { key: Mystic.key, type: 'badge', badgeKey: Mystic.key },
+    { key: Inmate.key, type: 'badge', badgeKey: Inmate.key },
+    { key: FlyingShark.key, type: 'badge', badgeKey: FlyingShark.key },
+    { key: Fugitive.key, type: 'badge', badgeKey: Fugitive.key },
+    { key: ForwardThinker.key, type: 'badge', badgeKey: ForwardThinker.key },
+    { key: SecretPath.key, type: 'badge', badgeKey: SecretPath.key },
+    { key: SixthPassenger.key, type: 'badge', badgeKey: SixthPassenger.key },
+    { key: Unsubtle.key, type: 'badge', badgeKey: Unsubtle.key },
   ],
 }

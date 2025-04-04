@@ -6,11 +6,11 @@ import { Orpheus } from '../../contact/orpheus'
 import { MageKillerTatiana } from '../../contact/mage-killer-tatiana'
 
 export const Stowaway: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'stowaway',
-  setTitle: { id: 2519 },
+  setTitleId: [2519],
   name: 'Stowaway',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'Striga has long been a Council stronghold but recent events have upset the delicate balance and created a power vaccum for opportunistic villains to exploit.',
   effect: `Awards 20 reward merits.`,
   links: [

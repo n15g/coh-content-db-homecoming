@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const SiblingRivalry: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'sibling-rivalry',
-  setTitle: { id: 2175 },
+  setTitleId: [2175],
   name: 'Sibling Rivalry',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have completed the Challenge Trial: Drowning in Blood.',
   links: [
     { title: 'Sibling Rivalry Badge', href: 'https://homecoming.wiki/wiki/Sibling_Rivalry_Badge' },

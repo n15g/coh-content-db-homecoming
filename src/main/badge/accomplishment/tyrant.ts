@@ -11,11 +11,11 @@ import { Bobcat } from '../../contact/bobcat'
 import { Neuron } from '../../contact/neuron'
 
 export const Tyrant: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'tyrant',
-  setTitle: { id: 2354 },
+  setTitleId: [2354],
   name: 'Tyrant',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You ruthlessly took advantage of the Praetorian Loyalists in your pursuit of power, fame, and glory.`,
   acquisition: 'Complete every story arc in the Praetorian [Power Storyline](https://homecoming.wiki/wiki/Power_Storyline).',
   links: [

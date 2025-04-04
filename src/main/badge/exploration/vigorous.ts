@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { IndependencePort } from '../../zone/independence-port'
 
 export const Vigorous: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'vigorous',
-  setTitle: { id: 124 },
-  name: [{ value: 'Vigorous' }],
-  alignment: ['H'],
+  setTitleId: [124],
+  name: 'Vigorous',
+  morality: 'heroic',
   zoneKey: IndependencePort.key,
   loc: [-1615, 80, -1872],
   badgeText: [{
@@ -20,6 +20,6 @@ export const Vigorous: BadgeData = {
   links: [
     { title: 'Vigorous Badge', href: 'https://homecoming.wiki/wiki/Vigorous_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '3',
 }

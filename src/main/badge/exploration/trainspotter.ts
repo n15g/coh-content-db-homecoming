@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { UndergroundNova } from '../../zone/underground-nova'
 
 export const Trainspotter: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'trainspotter',
-  setTitle: { id: 1641 },
-  name: [{ value: 'Trainspotter' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1641],
+  name: 'Trainspotter',
+  morality: 'all',
   zoneKey: UndergroundNova.key,
   loc: [-1840, 511, -760],
   badgeText: [{
@@ -17,6 +17,6 @@ export const Trainspotter: BadgeData = {
   links: [
     { title: 'Trainspotter Badge', href: 'https://homecoming.wiki/wiki/Trainspotter_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '6',
 }

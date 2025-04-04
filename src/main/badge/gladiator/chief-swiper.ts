@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Pwnz } from '../accomplishment/pwnz'
 
 export const ChiefSwiper: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'chief-swiper',
-  setTitle: { id: 483 },
+  setTitleId: [483],
   name: [
     { value: 'Chief Swiper' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'Freaks just love to fight -- even for you.' },
   ],
@@ -19,6 +19,6 @@ export const ChiefSwiper: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Pwnz.key, type: 'BADGE', badgeKey: Pwnz.key },
+    { key: Pwnz.key, type: 'badge', badgeKey: Pwnz.key },
   ],
 }

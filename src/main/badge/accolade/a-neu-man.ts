@@ -9,14 +9,14 @@ import { StuffOfLife } from '../exploration/stuff-of-life'
 import { UrbanRenewal } from '../exploration/urban-renewal'
 
 export const ANeuMan: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'a-neu-man',
-  setTitle: { id: 1654 },
+  setTitleId: [1654],
   name: [
     { sex: 'M', value: 'A Neu Man' },
     { sex: 'F', value: 'A Neu Woman' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Neutropolis.`,
   links: [
     { title: 'A Neu Man Badge', href: 'https://homecoming.wiki/wiki/A_Neu_Man_Badge' },
@@ -24,13 +24,13 @@ export const ANeuMan: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: Airlift.key, type: 'BADGE', badgeKey: Airlift.key },
-    { key: DontDrinkIt.key, type: 'BADGE', badgeKey: DontDrinkIt.key },
-    { key: EyesToTheFuture.key, type: 'BADGE', badgeKey: EyesToTheFuture.key },
-    { key: MoarPower.key, type: 'BADGE', badgeKey: MoarPower.key },
-    { key: Longshoreman.key, type: 'BADGE', badgeKey: Longshoreman.key },
-    { key: Stockpiling.key, type: 'BADGE', badgeKey: Stockpiling.key },
-    { key: StuffOfLife.key, type: 'BADGE', badgeKey: StuffOfLife.key },
-    { key: UrbanRenewal.key, type: 'BADGE', badgeKey: UrbanRenewal.key },
+    { key: Airlift.key, type: 'badge', badgeKey: Airlift.key },
+    { key: DontDrinkIt.key, type: 'badge', badgeKey: DontDrinkIt.key },
+    { key: EyesToTheFuture.key, type: 'badge', badgeKey: EyesToTheFuture.key },
+    { key: MoarPower.key, type: 'badge', badgeKey: MoarPower.key },
+    { key: Longshoreman.key, type: 'badge', badgeKey: Longshoreman.key },
+    { key: Stockpiling.key, type: 'badge', badgeKey: Stockpiling.key },
+    { key: StuffOfLife.key, type: 'badge', badgeKey: StuffOfLife.key },
+    { key: UrbanRenewal.key, type: 'badge', badgeKey: UrbanRenewal.key },
   ],
 }

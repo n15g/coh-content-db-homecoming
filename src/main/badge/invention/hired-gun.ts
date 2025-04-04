@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const HiredGun: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'hired-gun',
-  setTitle: { id: 786 },
+  setTitleId: [786],
   name: [{ value: 'Hired Gun' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Recharge Rate and Interrupt Time.' }],
   links: [
     { title: 'Hired Gun Badge', href: 'https://homecoming.wiki/wiki/Hired_Gun_Badge' },
@@ -14,18 +14,18 @@ export const HiredGun: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 15,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 6,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 6,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 20,
-      inventionTypes: ['RECHARGE_REDUCTION', 'INTERRUPT_DURATION'],
-      inventionCount: 6,
+      inventionTypes: ['recharge-reduction', 'interrupt-duration'],
+      count: 6,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

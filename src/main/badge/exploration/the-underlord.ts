@@ -3,14 +3,14 @@ import { AbandonedSewerNetwork } from '../../zone/abandoned-sewer-network'
 import { SewerNetwork } from '../../zone/sewer-network'
 
 export const TheUnderlord: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-underlord',
-  setTitle: { id: 1825 },
+  setTitleId: [1825],
   name: [
     { sex: 'M', value: 'The Underlord' },
     { sex: 'F', value: 'The Underlady' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   zoneKey: AbandonedSewerNetwork.key,
   loc: [2688, 0, 2240],
   badgeText: [{
@@ -23,6 +23,6 @@ export const TheUnderlord: BadgeData = {
     { title: 'The Underlord Badge', href: 'https://homecoming.wiki/wiki/The_Underlord_Badge' },
     { title: 'The Underlady Badge', href: 'https://homecoming.wiki/wiki/The_Underlady_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '5',
 }

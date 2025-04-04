@@ -2,11 +2,11 @@ import { BadgeData, contactLink } from 'coh-content-db'
 import { TheLadyGrey } from '../../contact/the-lady-grey'
 
 export const DoesntLookAtExplosions: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'doesnt-look-at-explosions',
-  setTitle: { id: 2516 },
+  setTitleId: [2516],
   name: `Doesn't Look At Explosions`,
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `Part of the job is knowing how to look cool, and you've mastered the art. While not intentional, when fate threw you aboard a Rikti space station, you sent it nuclear and made it out in one piece.`,
   acquisition: `Successfully complete the ending sequence of Advanced Mode of the ${contactLink(TheLadyGrey)}'s Task Force.`,
   links: [

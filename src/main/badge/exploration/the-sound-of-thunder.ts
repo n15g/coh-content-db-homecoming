@@ -3,11 +3,11 @@ import { TheHive } from '../../zone/the-hive'
 import { Eden } from '../../zone/eden'
 
 export const TheSoundOfThunder: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-sound-of-thunder',
-  setTitle: { id: 1852 },
-  name: [{ value: 'The Sound of Thunder' }],
-  alignment: ['H'],
+  setTitleId: [1852],
+  name: 'The Sound of Thunder',
+  morality: 'heroic',
   zoneKey: TheHive.key,
   loc: [-813, 0, -791],
   badgeText: [{
@@ -20,6 +20,6 @@ by two barricades of monsters off the southeast edge of the crater.`,
   links: [
     { title: 'The Sound of Thunder Badge', href: 'https://homecoming.wiki/wiki/The_Sound_of_Thunder_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '7',
 }

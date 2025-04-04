@@ -1,21 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const Surging: BadgeData = {
-  type: 'DEFEAT',
+  type: 'defeat',
   key: 'surging',
-  setTitle: { id: 519 },
-  name: [
-    { value: 'Surging' },
-  ],
-  alignment: ['V'],
-  badgeText: [
-    { value: 'You have helped defeat Deathsurge.' },
-  ],
-  acquisition: 'Defeat Deathsurge, a monster that spawns in Cap au Diable',
+  setTitleId: [519],
+  name: 'Surging',
+  morality: 'villainous',
+  badgeText: 'You have helped defeat Deathsurge.',
+  acquisition: `Defeat Deathsurge, a monster that spawns in ${zoneLink(CapAuDiable)}.`,
   links: [
     { title: 'Surging Badge', href: 'https://homecoming.wiki/wiki/Surging_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/surging.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/surging.png',
 }

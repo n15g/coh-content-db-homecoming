@@ -5,11 +5,11 @@ import { MalevolentIntoxication } from '../defeat/malevolent-intoxication'
 import { SlayerOfTheMinotaur } from '../defeat/slayer-of-the-minotaur'
 
 export const ConquerorOfTheLabyrinth: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'conqueror-of-the-labyrinth',
-  setTitle: { id: 2532 },
+  setTitleId: [2532],
   name: 'Conqueror of the Labyrinth',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You have proven your prowess by having not only explored, but also conquered everything that stood in your path within the maze of corridors known as the Labyrinth of Fog.`,
   effect: `Awards the Core Attunement power.`,
   links: [
@@ -17,9 +17,9 @@ export const ConquerorOfTheLabyrinth: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/conqueror-of-the-labyrinth.png',
   requirements: [
-    { key: GreekPhilosopher.key, type: 'BADGE', badgeKey: GreekPhilosopher.key },
-    { key: HiddenInTheFog.key, type: 'BADGE', badgeKey: HiddenInTheFog.key },
-    { key: MalevolentIntoxication.key, type: 'BADGE', badgeKey: MalevolentIntoxication.key },
-    { key: SlayerOfTheMinotaur.key, type: 'BADGE', badgeKey: SlayerOfTheMinotaur.key },
+    { key: GreekPhilosopher.key, type: 'badge', badgeKey: GreekPhilosopher.key },
+    { key: HiddenInTheFog.key, type: 'badge', badgeKey: HiddenInTheFog.key },
+    { key: MalevolentIntoxication.key, type: 'badge', badgeKey: MalevolentIntoxication.key },
+    { key: SlayerOfTheMinotaur.key, type: 'badge', badgeKey: SlayerOfTheMinotaur.key },
   ],
 }

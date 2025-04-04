@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Wrangler: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'wrangler',
-  setTitle: { id: 581 },
+  setTitleId: [581],
   name: [
     { value: 'Wrangler' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You have helped defeat Black Scorpion in Recluse\'s Victory.' },
   ],

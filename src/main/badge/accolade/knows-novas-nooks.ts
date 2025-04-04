@@ -9,24 +9,24 @@ import { UrbanSpelunker } from '../exploration/urban-spelunker'
 import { WarriorAtTheGate } from '../exploration/warrior-at-the-gate'
 
 export const KnowsNovasNooks: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'knows-novas-nooks',
-  setTitle: { id: 1644 },
+  setTitleId: [1644],
   name: `Knows Nova's Nooks`,
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria's Underground.`,
   links: [
     { title: `Knows Nova's Nooks Badge`, href: 'https://homecoming.wiki/wiki/Knows_Nova%27s_Nooks_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-p.png',
   requirements: [
-    { key: ClockworkMechanic.key, type: 'BADGE', badgeKey: ClockworkMechanic.key },
-    { key: Disappeared.key, type: 'BADGE', badgeKey: Disappeared.key },
-    { key: FerrymanOfTheDamned.key, type: 'BADGE', badgeKey: FerrymanOfTheDamned.key },
-    { key: Morbid.key, type: 'BADGE', badgeKey: Morbid.key },
-    { key: SecretPrisoner.key, type: 'BADGE', badgeKey: SecretPrisoner.key },
-    { key: Trainspotter.key, type: 'BADGE', badgeKey: Trainspotter.key },
-    { key: UrbanSpelunker.key, type: 'BADGE', badgeKey: UrbanSpelunker.key },
-    { key: WarriorAtTheGate.key, type: 'BADGE', badgeKey: WarriorAtTheGate.key },
+    { key: ClockworkMechanic.key, type: 'badge', badgeKey: ClockworkMechanic.key },
+    { key: Disappeared.key, type: 'badge', badgeKey: Disappeared.key },
+    { key: FerrymanOfTheDamned.key, type: 'badge', badgeKey: FerrymanOfTheDamned.key },
+    { key: Morbid.key, type: 'badge', badgeKey: Morbid.key },
+    { key: SecretPrisoner.key, type: 'badge', badgeKey: SecretPrisoner.key },
+    { key: Trainspotter.key, type: 'badge', badgeKey: Trainspotter.key },
+    { key: UrbanSpelunker.key, type: 'badge', badgeKey: UrbanSpelunker.key },
+    { key: WarriorAtTheGate.key, type: 'badge', badgeKey: WarriorAtTheGate.key },
   ],
 }

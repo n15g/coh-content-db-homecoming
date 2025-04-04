@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { RiktiWarZone } from '../../zone/rikti-war-zone'
 
 export const Trespasser: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'trespasser',
-  setTitle: { id: 748 },
-  name: [{ value: 'Trespasser' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [748],
+  name: 'Trespasser',
+  morality: 'all',
   zoneKey: RiktiWarZone.key,
   loc: [978, 2, -737],
-  badgeText: [{ value: 'You have managed to get into the Crey base of operations. Nice work. Now how do you plan to get out?' }],
+  badgeText: 'You have managed to get into the Crey base of operations. Nice work. Now how do you plan to get out?',
   notes: 'The Trespasser Badge is located in the The Bulge neighborhood of the ${zoneLink(RiktiWarZone)}.\n'
     + '\n'
     + 'It is 290 yards southwest of the Bulge marker.\n'
@@ -19,8 +19,6 @@ export const Trespasser: BadgeData = {
     { title: 'Trespasser Badge', href: 'https://homecoming.wiki/wiki/Trespasser_Badge' },
     { title: 'Updated RWZ Vidiot Map', href: 'https://forums.homecomingservers.com/topic/969-rikti-war-zone-badges-missing/?do=findComment&comment=27161' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '2',
 }

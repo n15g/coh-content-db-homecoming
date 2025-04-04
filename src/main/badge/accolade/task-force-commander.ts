@@ -8,17 +8,17 @@ import { SynapsesCohort } from '../accomplishment/synapses-cohort'
 import { SisterPsychesComrade } from '../accomplishment/sister-psyches-comrade'
 
 export const TaskForceCommander: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'task-force-commander',
-  setTitle: { id: 608 },
+  setTitleId: [608],
   name: [
-    { alignment: 'H', value: 'Task Force Commander' },
-    { alignment: 'V', value: 'Task Force Abandoner' },
+    { alignment: 'hero', value: 'Task Force Commander' },
+    { alignment: 'villain', value: 'Task Force Abandoner' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `You have successfully completed each of the Task Forces given out by the Freedom Phalanx. This gives you +5% Hit Points, and access to military epaulets at the Tailor.` },
-    { alignment: 'V', value: `Your perks for serving the Freedom Phalanx have been stripped due to your descent into villainy. You can keep the epaulets, though.` },
+    { alignment: 'hero', value: `You have successfully completed each of the Task Forces given out by the Freedom Phalanx. This gives you +5% Hit Points, and access to military epaulets at the Tailor.` },
+    { alignment: 'villain', value: `Your perks for serving the Freedom Phalanx have been stripped due to your descent into villainy. You can keep the epaulets, though.` },
   ],
   notes: `Alternatively ${badgeLink(SisterPsychesComrade)}, available only via Ouroboros, counts in lieu of ${badgeLink(PenelopeYinsFriend)}.`,
   links: [
@@ -28,11 +28,11 @@ export const TaskForceCommander: BadgeData = {
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/task-force-commander.png',
   effect: 'Awards +5% Max Health.',
   requirements: [
-    { key: CitadelsAssistant.key, type: 'BADGE', badgeKey: CitadelsAssistant.key },
-    { key: ManticoresAssociate.key, type: 'BADGE', badgeKey: ManticoresAssociate.key },
-    { key: NuminasCompatriot.key, type: 'BADGE', badgeKey: NuminasCompatriot.key },
-    { key: PenelopeYinsFriend.key, type: 'BADGE', badgeKey: PenelopeYinsFriend.key },
-    { key: PositronsAlly.key, type: 'BADGE', badgeKey: PositronsAlly.key },
-    { key: SynapsesCohort.key, type: 'BADGE', badgeKey: SynapsesCohort.key },
+    { key: CitadelsAssistant.key, type: 'badge', badgeKey: CitadelsAssistant.key },
+    { key: ManticoresAssociate.key, type: 'badge', badgeKey: ManticoresAssociate.key },
+    { key: NuminasCompatriot.key, type: 'badge', badgeKey: NuminasCompatriot.key },
+    { key: PenelopeYinsFriend.key, type: 'badge', badgeKey: PenelopeYinsFriend.key },
+    { key: PositronsAlly.key, type: 'badge', badgeKey: PositronsAlly.key },
+    { key: SynapsesCohort.key, type: 'badge', badgeKey: SynapsesCohort.key },
   ],
 }

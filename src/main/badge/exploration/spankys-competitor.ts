@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TalosIsland } from '../../zone/talos-island'
 
 export const SpankysCompetitor: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'spankys-competitor',
-  setTitle: { id: 1550 },
+  setTitleId: [1550],
   name: [{ value: 'Spanky\'s Competitor' }],
-  alignment: ['H'],
+  morality: 'heroic',
   zoneKey: TalosIsland.key,
   loc: [-2417, 161, 7963],
   badgeText: [{
@@ -18,6 +18,6 @@ export const SpankysCompetitor: BadgeData = {
   links: [
     { title: 'Spanky\'s Competitor Badge', href: 'https://homecoming.wiki/wiki/Spanky%27s_Competitor_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '8',
 }

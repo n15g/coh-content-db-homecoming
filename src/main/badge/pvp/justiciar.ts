@@ -1,18 +1,18 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Justiciar: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'justiciar',
-  setTitle: { id: 586 },
+  setTitleId: [586],
   name: [
-    { alignment: 'H', value: 'Justiciar' },
-    { alignment: 'V', value: 'Fallen Justiciar' },
+    { alignment: 'hero', value: 'Justiciar' },
+    { alignment: 'villain', value: 'Fallen Justiciar' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'You have helped defeat all the Signature Villains in Recluse\'s Victory, making you a Justiciar.' },
+    { alignment: 'hero', value: 'You have helped defeat all the Signature Villains in Recluse\'s Victory, making you a Justiciar.' },
     {
-      alignment: 'V', value: 'Defeating all the Signature Villains in Recluse\'s Victory has made your fall to villainy only '
+      alignment: 'villain', value: 'Defeating all the Signature Villains in Recluse\'s Victory has made your fall to villainy only '
         + 'that much sweeter. Now Recluse and his group won\'t even think about crossing you.',
     },
   ],

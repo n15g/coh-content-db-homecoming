@@ -1,29 +1,21 @@
 import { BadgeData } from 'coh-content-db'
 
 export const WebMaster: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'web-master',
-  setTitle: { id: 351 },
-  name: [
-    { value: 'Web Master' },
-  ],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [351],
+  name: 'Web Master',
+  morality: 'all',
   badgeText: [
-    {
-      alignment: 'H', value: 'You are a well-known threat in the chaotic district of Warburg, having spent well over one hour '
-        + 'fighting Arachnos.',
-    },
-    {
-      alignment: 'V', value: 'You are a well-known threat in the chaotic district of Warburg, having spent well over one hour '
-        + 'fighting Longbow.',
-    },
+    { alignment: 'hero', value: 'You are a well-known threat in the chaotic district of Warburg, having spent well over one hour fighting Arachnos.' },
+    { alignment: 'villain', value: 'You are a well-known threat in the chaotic district of Warburg, having spent well over one hour fighting Longbow.' },
   ],
-  acquisition: 'Spend 1 hour in Warburg',
+  acquisition: 'Spend 1 hour in Warburg.',
   links: [
     { title: 'Web Master Badge', href: 'https://homecoming.wiki/wiki/Web_Master_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/time-v.png' },
   ],
 }

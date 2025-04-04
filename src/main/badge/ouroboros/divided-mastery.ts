@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const DividedMastery: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'divided-mastery',
-  setTitle: { id: 856 },
+  setTitleId: [856],
   name: [
     { value: 'Divided Mastery' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback under the parameter of "1 Defeat Allowed" for the team.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback under the parameter of "1 Defeat Allowed" for the team.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "1 Defeat Allowed" for the team.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback under the parameter of "1 Defeat Allowed" for the team.` },
   ],
   acquisition: 'Complete a Flashback story arc with one or fewer defeats.',
   links: [

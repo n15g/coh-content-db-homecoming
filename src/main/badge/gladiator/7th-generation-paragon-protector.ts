@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Infiltrator } from '../defeat/infiltrator'
 
 export const _7thGenerationParagonProtector: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: '7th-generation-paragon-protector',
-  setTitle: { id: 501 },
+  setTitleId: [501],
   name: [
     { value: '7th Generation Paragon Protector' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'This will be a powerful gladiator in the Arena.' },
   ],
@@ -19,6 +19,6 @@ export const _7thGenerationParagonProtector: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Infiltrator.key, type: 'BADGE', badgeKey: Infiltrator.key },
+    { key: Infiltrator.key, type: 'badge', badgeKey: Infiltrator.key },
   ],
 }

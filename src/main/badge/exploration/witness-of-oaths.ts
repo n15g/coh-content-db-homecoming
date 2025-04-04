@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { DarkAstoria } from '../../zone/dark-astoria'
 
 export const WitnessOfOaths: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'witness-of-oaths',
-  setTitle: { id: 2184 },
-  name: [{ value: 'Witness of Oaths' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [2184],
+  name: 'Witness of Oaths',
+  morality: 'all',
   zoneKey: DarkAstoria.key,
   loc: [2909, 191, 4574],
   badgeText: [{
@@ -19,6 +19,6 @@ Note: There are two identical statues a few hundred yards apart. One faces south
   links: [
     { title: 'Witness of Oaths Badge', href: 'https://homecoming.wiki/wiki/Witness_of_Oaths_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '6',
 }

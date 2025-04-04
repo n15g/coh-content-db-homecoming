@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const ArmsDealer: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'arms-dealer',
-  setTitle: { id: 798 },
+  setTitleId: [798],
   name: [{ value: 'Arms Dealer' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Damage and Knockback.' }],
   links: [
     { title: 'Arms Dealer Badge', href: 'https://homecoming.wiki/wiki/Arms_Dealer_Badge' },
@@ -14,17 +14,17 @@ export const ArmsDealer: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['DAMAGE', 'KNOCKBACK'],
-      inventionCount: 11,
+      inventionTypes: ['damage', 'knockback'],
+      count: 11,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['DAMAGE', 'KNOCKBACK'],
-      inventionCount: 11,
+      inventionTypes: ['damage', 'knockback'],
+      count: 11,
     },
   ],
 }

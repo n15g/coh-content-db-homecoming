@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Liberator } from '../accomplishment/liberator'
 
 export const Boulder: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'boulder',
-  setTitle: { id: 488 },
+  setTitleId: [488],
   name: [
     { value: 'Boulder' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You have might over nature itself.' },
   ],
@@ -19,6 +19,6 @@ export const Boulder: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Liberator.key, type: 'BADGE', badgeKey: Liberator.key },
+    { key: Liberator.key, type: 'badge', badgeKey: Liberator.key },
   ],
 }

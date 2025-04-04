@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { GordonStacy } from '../../contact/gordon-stacy'
 
 export const TheDoctorsAlly: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'the-doctors-ally',
-  setTitle: { id: 80 },
+  setTitleId: [80],
   name: `The Doctor's Ally`,
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You have uncovered the fate of Doctor Friedkin.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "They Call Me The Doctor" entry with number 0.37 in the 35-39 level range.`,
   links: [

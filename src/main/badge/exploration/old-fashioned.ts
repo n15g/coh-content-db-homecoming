@@ -1,25 +1,24 @@
 import { BadgeData, zoneLink } from 'coh-content-db'
 import { Faultline } from '../../zone/faultline'
+import { SkywayCity } from '../../zone/skyway-city'
 
 export const OldFashioned: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'old-fashioned',
-  setTitle: { id: 638 },
-  name: [{ value: 'Old Fashioned' }],
-  alignment: ['H'],
+  setTitleId: [638],
+  name: 'Old Fashioned',
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `Best doughnuts in all of Paragon City! You picked the ultimate bragging rights location.` },
-    { alignment: 'V', value: `Who doesn't like donuts? Even Lord Recluse likes donuts.` },
+    { alignment: 'hero', value: `Best doughnuts in all of Paragon City! You picked the ultimate bragging rights location.` },
+    { alignment: 'villain', value: `Who doesn't like donuts? Even Lord Recluse likes donuts.` },
   ],
   zoneKey: Faultline.key,
   loc: [-170, 74, -1504],
-  notes: `The Old Fashioned Badge is located inside the doughnut hole of the large inflatable doughnut on top of the Drenched Donuts shop just inside the entrance to ${zoneLink(Faultline)}.`,
+  notes: `Located inside the hole of the large inflatable doughnut on top of the Drenched Donuts shop just inside the transfer to ${zoneLink(SkywayCity)}.`,
   links: [
     { title: 'Old Fashioned Badge', href: 'https://homecoming.wiki/wiki/Old_Fashioned_Badge' },
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '4',
 }

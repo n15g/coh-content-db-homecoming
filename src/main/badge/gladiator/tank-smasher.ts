@@ -2,13 +2,13 @@ import { BadgeData, badgeLink } from 'coh-content-db'
 import { TankBuster } from '../defeat/tank-buster'
 
 export const TankSmasher: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'tank-smasher',
-  setTitle: { id: 490 },
+  setTitleId: [490],
   name: [
     { value: 'Tank Smasher' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'Tank smash!' }],
   acquisition: `Collect the ${badgeLink(TankBuster)} Badge.`,
   links: [

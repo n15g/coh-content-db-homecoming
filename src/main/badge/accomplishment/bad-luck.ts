@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { HardLuck } from '../../contact/hard-luck'
 
 export const BadLuck: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'bad-luck',
-  setTitle: { id: 340 },
+  setTitleId: [340],
   name: 'Bad Luck',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You and Hard Luck recovered a mystical amulet designed to jinx everyone around the wearer.',
   links: [
     { title: 'Bad Luck Badge', href: 'https://homecoming.wiki/wiki/Bad_Luck_Badge' },

@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { BurkholdersBane } from '../accomplishment/burkholders-bane'
 
 export const ZenithWarcryMkI: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'zenith-warcry-mk-i',
-  setTitle: { id: 497 },
+  setTitleId: [497],
   name: [
     { value: 'Zenith Warcry Mk I' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'Gladiator program initiated.' },
   ],
@@ -19,6 +19,6 @@ export const ZenithWarcryMkI: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: BurkholdersBane.key, type: 'BADGE', badgeKey: BurkholdersBane.key },
+    { key: BurkholdersBane.key, type: 'badge', badgeKey: BurkholdersBane.key },
   ],
 }

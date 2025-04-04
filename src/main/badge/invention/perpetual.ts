@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Perpetual: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'perpetual',
-  setTitle: { id: 784 },
+  setTitleId: [784],
   name: [{ value: 'Perpetual' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Endurance Modification and Endurance Reduction.' }],
   effect: '+1 to Recipe capacity',
   links: [
@@ -15,17 +15,17 @@ export const Perpetual: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 45,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 12,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 12,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 50,
-      inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
-      inventionCount: 12,
+      inventionTypes: ['endurance-modification', 'endurance-reduction'],
+      count: 12,
     },
   ],
 }

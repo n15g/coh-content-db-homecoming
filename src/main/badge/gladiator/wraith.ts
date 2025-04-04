@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { Haunted } from '../defeat/haunted'
 
 export const Wraith: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'wraith',
-  setTitle: { id: 504 },
+  setTitleId: [504],
   name: [
     { value: 'Wraith' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'The dead will fight for you.' },
   ],
@@ -19,6 +19,6 @@ export const Wraith: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: Haunted.key, type: 'BADGE', badgeKey: Haunted.key },
+    { key: Haunted.key, type: 'badge', badgeKey: Haunted.key },
   ],
 }

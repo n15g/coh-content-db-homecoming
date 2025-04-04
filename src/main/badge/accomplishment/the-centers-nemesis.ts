@@ -3,11 +3,11 @@ import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const TheCentersNemesis: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'the-centers-nemesis',
-  setTitle: { id: 2257 },
+  setTitleId: [2257],
   name: `The Center's Nemesis`,
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You stopped Calvin Scott and the Center's plans for Paragon City. The public of Paragon consider you to be the one hero who can stop the Council.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Tipping the Scales" entry with number 24.08 at level 50.`,
   links: [

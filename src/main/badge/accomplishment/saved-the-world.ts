@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { MsLiberty } from '../../contact/ms-liberty'
 
 export const SavedTheWorld: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'saved-the-world',
-  setTitle: { id: 733 },
+  setTitleId: [733],
   name: [
-    { alignment: 'H', value: 'Saved the World' },
-    { alignment: 'V', value: 'Saved the World... for Later' },
+    { alignment: 'hero', value: 'Saved the World' },
+    { alignment: 'villain', value: 'Saved the World... for Later' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: `After defeating Lord Recluse's plan to steal the powers of all the heroes on the planet, you have been recognized as a true world-savior.` },
-    { alignment: 'V', value: `Defeating Lord Recluse's plan to steal the powers of all the heroes on the planet was necessary at the time. After all, it wasn't YOU at the helm.` },
+    { alignment: 'hero', value: `After defeating Lord Recluse's plan to steal the powers of all the heroes on the planet, you have been recognized as a true world-savior.` },
+    { alignment: 'villain', value: `Defeating Lord Recluse's plan to steal the powers of all the heroes on the planet was necessary at the time. After all, it wasn't YOU at the helm.` },
   ],
   links: [
     { title: 'Saved the World Badge', href: 'https://homecoming.wiki/wiki/Saved_the_World_Badge' },

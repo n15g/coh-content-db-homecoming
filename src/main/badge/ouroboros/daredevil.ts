@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Daredevil: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'daredevil',
-  setTitle: { id: 872 },
+  setTitleId: [872],
   name: [
     { value: 'Daredevil' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 25 and 29 while under a constant Debuff.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 25 and 29 while under a constant Debuff.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while under a constant Debuff.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 25 and 29 while under a constant Debuff.` },
   ],
   acquisition: 'Complete a level 26-30 Flashback story arc while debuffed.  (Note: In game badge text is incorrect.)',
   links: [

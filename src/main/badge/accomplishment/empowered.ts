@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Empowered: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'empowered',
-  setTitle: { id: 1449 },
+  setTitleId: [1449],
   name: 'Empowered',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've crafted your first Uncommon Incarnate Ability earning yourself this badge.`,
   acquisition: 'Craft an uncommon Incarnate ability.',
   links: [

@@ -1,14 +1,14 @@
 import { BadgeData } from 'coh-content-db'
 
 export const PraetoriasSon: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'praetorias-son',
-  setTitle: { id: 1658 },
+  setTitleId: [1658],
   name: [
     { sex: 'M', value: `Praetoria's Son` },
     { sex: 'F', value: `Praetoria's Daughter` },
   ],
-  alignment: ['P'],
+  morality: 'praetorian',
   badgeText: `Praetoria is your world, for better or worse.`,
   acquisition: `Awarded on initial login of a Praetorian-origin character.`,
   links: [

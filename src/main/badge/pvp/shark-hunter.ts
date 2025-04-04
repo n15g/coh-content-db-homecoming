@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const SharkHunter: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'shark-hunter',
-  setTitle: { id: 584 },
+  setTitleId: [584],
   name: [
     { value: 'Shark Hunter' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You have helped defeat Captain Mako in Recluse\'s Victory.' },
   ],

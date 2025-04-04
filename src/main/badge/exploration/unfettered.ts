@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheChantry } from '../../zone/the-chantry'
 
 export const Unfettered: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'unfettered',
-  setTitle: { id: 1814 },
-  name: [{ value: 'Unfettered' }],
-  alignment: ['H'],
+  setTitleId: [1814],
+  name: 'Unfettered',
+  morality: 'heroic',
   zoneKey: TheChantry.key,
   loc: [1112, 270, -3857],
   badgeText: [{
@@ -20,6 +20,6 @@ export const Unfettered: BadgeData = {
   links: [
     { title: 'Unfettered Badge', href: 'https://homecoming.wiki/wiki/Unfettered_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '2',
 }

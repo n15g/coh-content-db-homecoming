@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { JohnHouston } from '../../contact/john-houston'
 
 export const Pollster: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'pollster',
-  setTitle: { id: 2513 },
+  setTitleId: [2513],
   name: 'Pollster',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You protected democracy by exposing the Council's election fraud scheme to put Alexander 'The Great' Pavlidis on the city council.`,
   acquisition: `Complete the Noble Intentions arc from ${contactLink(JohnHouston)}, selecting all hero responses.`,
   notes: `In the third mission of the Noble Intentions arc, at one point you will be attacked briefly by Ravenstorm and Dr. Todd, then you can then talk to them. During the dialogue, select the hero responses to earn this badge.

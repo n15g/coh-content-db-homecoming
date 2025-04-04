@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Discerning: BadgeData = {
-  type: 'VETERAN',
+  type: 'veteran',
   key: 'discerning',
-  setTitle: { id: 1274 },
+  setTitleId: [1274],
   name: [
     { value: 'Discerning' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `Your experience could outstrip even several seasoned heroes combined. You know what's what; there are no surprises for you anymore. You have attained sixty Veteran levels.` },
-    { alignment: 'V', value: `Your experience could outstrip even several seasoned villains combined. You know what's what; there are no surprises for you anymore. You have attained sixty Veteran levels.` },
+    { alignment: 'hero', value: `Your experience could outstrip even several seasoned heroes combined. You know what's what; there are no surprises for you anymore. You have attained sixty Veteran levels.` },
+    { alignment: 'villain', value: `Your experience could outstrip even several seasoned villains combined. You know what's what; there are no surprises for you anymore. You have attained sixty Veteran levels.` },
   ],
   acquisition: 'Reach Veteran level 60',
   icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-60.png' }],

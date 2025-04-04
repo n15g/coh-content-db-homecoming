@@ -9,24 +9,24 @@ import { MaliceAforethought } from '../exploration/malice-aforethought'
 import { Tormented } from '../exploration/tormented'
 
 export const StormingThePalace: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'storming-the-palace',
-  setTitle: { id: 1889 },
+  setTitleId: [1889],
   name: 'Storming the Palace',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within the Storm Palace.`,
   links: [
     { title: 'Storming the Palace Badge', href: 'https://homecoming.wiki/wiki/Storming_the_Palace_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [
-    { key: AcolyteOfAnger.key, type: 'BADGE', badgeKey: AcolyteOfAnger.key },
-    { key: CourtingMadness.key, type: 'BADGE', badgeKey: CourtingMadness.key },
-    { key: EveOfDestruction.key, type: 'BADGE', badgeKey: EveOfDestruction.key },
-    { key: FistOfFury.key, type: 'BADGE', badgeKey: FistOfFury.key },
-    { key: HateMachine.key, type: 'BADGE', badgeKey: HateMachine.key },
-    { key: LordOfStorms.key, type: 'BADGE', badgeKey: LordOfStorms.key },
-    { key: MaliceAforethought.key, type: 'BADGE', badgeKey: MaliceAforethought.key },
-    { key: Tormented.key, type: 'BADGE', badgeKey: Tormented.key },
+    { key: AcolyteOfAnger.key, type: 'badge', badgeKey: AcolyteOfAnger.key },
+    { key: CourtingMadness.key, type: 'badge', badgeKey: CourtingMadness.key },
+    { key: EveOfDestruction.key, type: 'badge', badgeKey: EveOfDestruction.key },
+    { key: FistOfFury.key, type: 'badge', badgeKey: FistOfFury.key },
+    { key: HateMachine.key, type: 'badge', badgeKey: HateMachine.key },
+    { key: LordOfStorms.key, type: 'badge', badgeKey: LordOfStorms.key },
+    { key: MaliceAforethought.key, type: 'badge', badgeKey: MaliceAforethought.key },
+    { key: Tormented.key, type: 'badge', badgeKey: Tormented.key },
   ],
 }

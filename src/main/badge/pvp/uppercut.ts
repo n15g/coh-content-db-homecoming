@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Uppercut: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'uppercut',
-  setTitle: { id: 579 },
+  setTitleId: [579],
   name: [
     { value: 'Uppercut' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'You have helped defeat Back Alley Brawler in Recluse\'s Victory.' },
   ],

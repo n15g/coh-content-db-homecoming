@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
 
 export const RiptidesComrade: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'riptides-comrade',
-  setTitle: { id: 2265 },
+  setTitleId: [2265],
   name: `Riptide's Comrade`,
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You were able to prevent Riptide from being defeated while he was fighting Nosferatu by himself.',
   acquisition: `Complete all objectives in the "Nosferatu's Croatoa" mission from ${contactLink(ProvostMarchandPrimal)} before Riptide is defeated.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Tipping the Scales" entry with number 24.08 at level 50.`,

@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { NovaPraetoria } from '../../zone/nova-praetoria'
 
 export const Technophile: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'technophile',
-  setTitle: { id: 1592 },
-  name: [{ value: 'Technophile' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1592],
+  name: 'Technophile',
+  morality: 'all',
   zoneKey: NovaPraetoria.key,
   loc: [-6336, -16, 2],
   badgeText: [{
@@ -16,6 +16,6 @@ export const Technophile: BadgeData = {
   links: [
     { title: 'Technophile Badge', href: 'https://homecoming.wiki/wiki/Technophile_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '6',
 }

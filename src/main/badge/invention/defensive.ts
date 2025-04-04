@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Defensive: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'defensive',
-  setTitle: { id: 774 },
+  setTitleId: [774],
   name: [{ value: 'Defensive' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Defense Buff, Resist Damage, Intangible.' }],
   effect: '+1 to Recipe capacity',
   links: [
@@ -15,18 +15,18 @@ export const Defensive: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 45,
-      inventionTypes: ['DEFENSE_BUFF', 'RESIST_DAMAGE', 'INTANGIBILITY'],
-      inventionCount: 9,
+      inventionTypes: ['defense-buff', 'resist-damage', 'intangibility'],
+      count: 9,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 50,
-      inventionTypes: ['DEFENSE_BUFF', 'RESIST_DAMAGE', 'INTANGIBILITY'],
-      inventionCount: 9,
+      inventionTypes: ['defense-buff', 'resist-damage', 'intangibility'],
+      count: 9,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

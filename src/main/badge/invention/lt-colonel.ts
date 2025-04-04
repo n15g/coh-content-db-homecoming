@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const LtColonel: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'lt-colonel',
-  setTitle: { id: 791 },
+  setTitleId: [791],
   name: [{ value: 'Lt. Colonel' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Accuracy and To Hit Buff.' }],
   links: [
     { title: 'Lt. Colonel Badge', href: 'https://homecoming.wiki/wiki/Lt._Colonel_Badge' },
@@ -14,18 +14,18 @@ export const LtColonel: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 15,
-      inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
-      inventionCount: 6,
+      inventionTypes: ['accuracy', 'to-hit-buff'],
+      count: 6,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 20,
-      inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
-      inventionCount: 6,
+      inventionTypes: ['accuracy', 'to-hit-buff'],
+      count: 6,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

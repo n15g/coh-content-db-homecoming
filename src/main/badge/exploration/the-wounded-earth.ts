@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { TheHive } from '../../zone/the-hive'
 
 export const TheWoundedEarth: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-wounded-earth',
-  setTitle: { id: 1849 },
-  name: [{ value: 'The Wounded Earth' }],
-  alignment: ['H'],
+  setTitleId: [1849],
+  name: 'The Wounded Earth',
+  morality: 'heroic',
   zoneKey: TheHive.key,
   loc: [1550, 84, -4165],
   badgeText: [{
@@ -19,6 +19,6 @@ When you look at the green sward blanketing the land around you, it is hard not 
   links: [
     { title: 'The Wounded Earth Badge', href: 'https://homecoming.wiki/wiki/The_Wounded_Earth_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '4',
 }

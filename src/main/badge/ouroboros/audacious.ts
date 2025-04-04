@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Audacious: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'audacious',
-  setTitle: { id: 877 },
+  setTitleId: [877],
   name: [
     { value: 'Audacious' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 1 and 15 while the enemies were Buffed.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 1 and 15 while the enemies were Buffed.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while the enemies were Buffed.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 1 and 15 while the enemies were Buffed.` },
   ],
   acquisition: 'Complete a level 1-15 Flashback story arc with enemies buffed.',
   links: [

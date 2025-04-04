@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { PraetorDuncan } from '../../contact/praetor-duncan'
 
 export const PraetorSelfish: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'praetor-selfish',
-  setTitle: { id: 2197 },
+  setTitleId: [2197],
   name: 'Praetor Selfish',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You played through Praetor Duncan's personal story, witnessing the event where Duncan was confronted by her past and kidnapped by Diabolique and Mot.`,
   links: [
     { title: 'Praetor Selfish Badge', href: 'https://homecoming.wiki/wiki/Praetor_Selfish_Badge' },

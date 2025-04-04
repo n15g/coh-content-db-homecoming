@@ -6,11 +6,11 @@ import { MonsterMasher } from '../event/monster-masher'
 import { Monstrous } from '../event/monstrous'
 
 export const HellAndBack: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'hell-and-back',
-  setTitle: { id: 1372 },
+  setTitleId: [1372],
   name: 'Hell and Back',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've endured the spells of witches, the might of misshapen abominations, the ghostly touch of spectral terrors and the schemes of the supernatural fiends, earning yourself this Accolade.`,
   notes: `Available during Halloween events.`,
   links: [
@@ -18,10 +18,10 @@ export const HellAndBack: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hell-and-back.png',
   requirements: [
-    { key: DarkFiend.key, type: 'BADGE', badgeKey: DarkFiend.key },
-    { key: HellHathNoFury.key, type: 'BADGE', badgeKey: HellHathNoFury.key },
-    { key: Terror.key, type: 'BADGE', badgeKey: Terror.key },
-    { key: MonsterMasher.key, type: 'BADGE', badgeKey: MonsterMasher.key },
-    { key: Monstrous.key, type: 'BADGE', badgeKey: Monstrous.key },
+    { key: DarkFiend.key, type: 'badge', badgeKey: DarkFiend.key },
+    { key: HellHathNoFury.key, type: 'badge', badgeKey: HellHathNoFury.key },
+    { key: Terror.key, type: 'badge', badgeKey: Terror.key },
+    { key: MonsterMasher.key, type: 'badge', badgeKey: MonsterMasher.key },
+    { key: Monstrous.key, type: 'badge', badgeKey: Monstrous.key },
   ],
 }

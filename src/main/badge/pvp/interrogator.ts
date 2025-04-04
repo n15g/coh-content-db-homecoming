@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Interrogator: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'interrogator',
-  setTitle: { id: 577 },
+  setTitleId: [577],
   name: [
     { value: 'Interrogator' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'You have helped defeat Penelope Yin in Recluse\'s Victory.' },
   ],

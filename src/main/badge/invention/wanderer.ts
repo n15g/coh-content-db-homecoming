@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Wanderer: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'wanderer',
-  setTitle: { id: 802 },
+  setTitleId: [802],
   name: [{ value: 'Wanderer' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Run Speed, Jump, Fly Speed, and Range.' }],
   effect: '+2 to Invention Salvage capacity',
   links: [
@@ -15,18 +15,18 @@ export const Wanderer: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 25,
-      inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
-      inventionCount: 8,
+      inventionTypes: ['run-speed', 'jump', 'fly-speed', 'range'],
+      count: 8,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 30,
-      inventionTypes: ['RUN_SPEED', 'JUMP', 'FLY_SPEED', 'RANGE'],
-      inventionCount: 8,
+      inventionTypes: ['run-speed', 'jump', 'fly-speed', 'range'],
+      count: 8,
     },
-    { key: 'c', type: 'INVENTION_PLUS_ONE' },
+    { key: 'c', type: 'invention-plus-one' },
   ],
 }

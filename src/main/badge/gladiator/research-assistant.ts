@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { CreyHavoc } from '../exploration/crey-havoc'
 
 export const ResearchAssistant: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'research-assistant',
-  setTitle: { id: 500 },
+  setTitleId: [500],
   name: [
     { value: 'Research Assistant' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'Crey will study the results of your gladiator battles.' },
   ],
@@ -19,6 +19,6 @@ export const ResearchAssistant: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: CreyHavoc.key, type: 'BADGE', badgeKey: CreyHavoc.key },
+    { key: CreyHavoc.key, type: 'badge', badgeKey: CreyHavoc.key },
   ],
 }

@@ -3,11 +3,11 @@ import { SewerNetwork } from '../../zone/sewer-network'
 import { SteelCanyon } from '../../zone/steel-canyon'
 
 export const SpiritOfTheCity: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'spirit-of-the-city',
-  setTitle: { id: 1829 },
-  name: [{ value: 'Spirit of the City' }],
-  alignment: ['H'],
+  setTitleId: [1829],
+  name: 'Spirit of the City',
+  morality: 'heroic',
   zoneKey: SewerNetwork.key,
   loc: [-1331, -62, -1728],
   badgeText: [{
@@ -21,6 +21,6 @@ True understanding lies in part with becoming what you wish to understand, and d
   links: [
     { title: 'Spirit of the City Badge', href: 'https://homecoming.wiki/wiki/Spirit_of_the_City_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '1',
 }

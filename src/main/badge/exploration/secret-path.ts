@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Brickstown } from '../../zone/brickstown'
 
 export const SecretPath: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'secret-path',
-  setTitle: { id: 1568 },
-  name: [{ value: 'Secret Path' }],
-  alignment: ['H'],
+  setTitleId: [1568],
+  name: 'Secret Path',
+  morality: 'heroic',
   zoneKey: Brickstown.key,
   loc: [270, -59, 2193],
   badgeText: [{
@@ -18,6 +18,6 @@ export const SecretPath: BadgeData = {
   links: [
     { title: 'Secret Path Badge', href: 'https://homecoming.wiki/wiki/Secret_Path_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '6',
 }

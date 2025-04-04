@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { DrGraves } from '../../contact/dr-graves'
 
 export const FaceOfEvil: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'face-of-evil',
-  setTitle: { id: 2019 },
+  setTitleId: [2019],
   name: 'Face of Evil',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: 'You gained control of the Hearts of Darkness and defeated an ancient evil bent on consuming your soul.',
   acquisition: 'Complete the Level 15-19 Ongoing Training story arc from Dr. Graves',
   links: [

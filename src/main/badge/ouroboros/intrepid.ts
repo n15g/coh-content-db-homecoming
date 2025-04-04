@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Intrepid: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'intrepid',
-  setTitle: { id: 885 },
+  setTitleId: [885],
   name: [
     { value: 'Intrepid' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 46 and 50 while the enemies were Buffed.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 46 and 50 while the enemies were Buffed.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while the enemies were Buffed.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 46 and 50 while the enemies were Buffed.` },
   ],
   acquisition: 'Complete a level 46-50 Flashback story arc with enemies buffed.',
   links: [

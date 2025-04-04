@@ -1,14 +1,16 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Ouroboros } from '../../zone/ouroboros'
 
 export const Torchbearer: BadgeData = {
-  type: 'EVENT',
+  type: 'event',
   key: 'torchbearer',
-  setTitle: { id: 2321 },
-  name: [
-    { value: 'Torchbearer' },
+  setTitleId: [2321],
+  name: 'Torchbearer',
+  morality: 'all',
+  badgeText: `You have helped celebrate the 9th anniversary of City of Heroes.`,
+  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  links: [
+    { title: 'Torchbearer Badge', href: 'https://homecoming.wiki/wiki/Torchbearer_Badge' },
   ],
-  alignment: ['H', 'V', 'P'],
-  badgeText: [{ value: `You have helped celebrate the 9th anniversary of City of Heroes.` }],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/torchbearer.png' }],
-  acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/torchbearer.png',
 }

@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { MaxwellChristopher } from '../../contact/maxwell-christopher'
 
 export const Meteorologist: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'meteorologist',
-  setTitle: { id: 83 },
+  setTitleId: [83],
   name: 'Meteorologist',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You have crushed Nemesis' weather controlling equipment.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Nemesis Weather Control" entry with number 1.06 in the 40-49 level range.`,
   links: [

@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { PocketD } from '../../zone/pocket-d'
 
 export const NutrientRich: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'nutrient-rich',
-  setTitle: { id: 2541 },
+  setTitleId: [2541],
   name: 'Nutrient-Rich',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `Despite missing or ignoring the hazardous material warning, Blarf is now fed, although probably not in the way you anticipated...`,
   acquisition: `Click on Blarf in ${zoneLink(PocketD)} until it defeats you.`,
   notes: `Blarf's location is marked with a blue dot on the map at (-153.6, 0.0, -780.3).`,

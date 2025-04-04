@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Inventor: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'inventor',
-  setTitle: { id: 732 },
+  setTitleId: [732],
   name: [{ value: 'Inventor' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have proven your skills as an Inventor at the University.' }],
   acquisition: 'Awarded for completing the Invention System tutorial missions.',
   notes: 'For Heroes, this is awarded by completing the mission from Guidance Counselor Jones.'

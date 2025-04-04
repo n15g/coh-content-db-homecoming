@@ -1,28 +1,22 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { EchoFaultline } from '../../zone/echo-faultline'
-import { Faultline } from '../../zone/faultline'
 
 export const Newsman: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'newsman',
-  setTitle: { id: 119 },
+  setTitleId: [119],
   name: [
     { sex: 'M', value: 'Newsman' },
     { sex: 'F', value: 'Newsgirl' },
-
   ],
-  alignment: ['H'],
-  badgeText: [{ value: `The Theodore Knight building was home to many Super Groups in the years before the Rikti War.` }],
+  morality: 'heroic',
+  badgeText: `The Theodore Knight building was home to many Super Groups in the years before the Rikti War.`,
   zoneKey: EchoFaultline.key,
   loc: [1125, -26.9, 1296.7],
-  notes: `**Moved from ${zoneLink(Faultline)} in Issue 25.**
-
-Approx. 513 yrds. S of the "Dark Canyons" marker in front of the doors to a grey stoned high-rise that's tilting into the canyon, next to the west perimeter wall.`,
+  notes: `Approx. 513 yrds. S of the "Dark Canyons" marker in front of the doors to a grey stoned high-rise that's tilting into the canyon, next to the west perimeter wall.`,
   links: [
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '1',
 }

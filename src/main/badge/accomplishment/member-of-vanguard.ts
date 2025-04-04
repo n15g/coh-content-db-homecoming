@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { Levantera } from '../../contact/levantera'
 
 export const MemberOfVanguard: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'member-of-vanguard',
-  setTitle: { id: 832 },
+  setTitleId: [832],
   name: 'Member of Vanguard',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You are now a member of Vanguard and can earn Merits for defeating Rikti.',
   links: [
     { title: 'Member of Vanguard Badge', href: 'https://homecoming.wiki/wiki/Member_of_Vanguard_Badge' },

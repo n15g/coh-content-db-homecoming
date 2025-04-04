@@ -3,11 +3,11 @@ import { Twinshot } from '../../contact/twinshot'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const Supernova: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'supernova',
-  setTitle: { id: 2016 },
+  setTitleId: [2016],
   name: 'Supernova',
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'The Shining Stars have stopped a Praetorian plot to destroy Paragon, but at great cost.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "The Shining Stars: With Friends like These" entry with number 21.11 in the 15-19 level range.`,
   links: [

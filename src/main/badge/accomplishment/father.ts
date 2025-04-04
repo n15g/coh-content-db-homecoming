@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { MrGPrimal } from '../../contact/mr-g-primal'
 
 export const Father: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'father',
-  setTitle: { id: 2272 },
+  setTitleId: [2272],
   name: 'Father',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You played Wu Yin's personal story and saw the plan that has been set in motion to try and save Penelope Mayhem.`,
   acquisition: 'Complete the personal story from Wu Yin',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "Wu Yin's Personal Story" entry with number 24.14 at level 50.`,

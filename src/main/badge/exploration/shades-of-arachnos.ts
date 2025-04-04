@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { PeregrineIsland } from '../../zone/peregrine-island'
 
 export const ShadesOfArachnos: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'shades-of-arachnos',
-  setTitle: { id: 1576 },
-  name: [{ value: 'Shades of Arachnos' }],
-  alignment: ['H'],
+  setTitleId: [1576],
+  name: 'Shades of Arachnos',
+  morality: 'heroic',
   zoneKey: PeregrineIsland.key,
   loc: [-2535, -1, -8276],
   badgeText: [{
@@ -19,6 +19,6 @@ export const ShadesOfArachnos: BadgeData = {
   links: [
     { title: 'Shades of Arachnos Badge', href: 'https://homecoming.wiki/wiki/Shades_of_Arachnos_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   vidiotMapKey: '6',
 }

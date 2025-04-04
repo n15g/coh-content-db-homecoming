@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const EntrustedWithTheSecret: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'entrusted-with-the-secret',
-  setTitle: { id: 933 },
+  setTitleId: [933],
   name: [
     { value: 'Entrusted with the Secret' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have been exposed to Time Travel and have been granted access to the Ouroboros Citadel. You can find the power to summon forth a portal there in your Temporary Powers tray.' },
   ],

@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { Moonfire } from '../../contact/moonfire'
 
 export const HonoraryPeacebringer: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'honorary-peacebringer',
-  setTitle: { id: 412 },
+  setTitleId: [412],
   name: [
-    { alignment: 'H', value: 'Honorary Peacebringer' },
-    { alignment: 'V', value: 'Alien Fighter' },
+    { alignment: 'hero', value: 'Honorary Peacebringer' },
+    { alignment: 'villain', value: 'Alien Fighter' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: `You have stopped the Council's plan to infect the populace with Nictus aliens.`,
   acquisition: 'Complete the Moonfire Task Force: The Kheldian War',
   links: [

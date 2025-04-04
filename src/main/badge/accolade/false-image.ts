@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { Scirocco } from '../../contact/scirocco'
 
 export const FalseImage: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'false-image',
-  setTitle: { id: 614 },
+  setTitleId: [614],
   name: [
-    { alignment: 'H', value: 'False Image' },
-    { alignment: 'V', value: 'Mirage' },
+    { alignment: 'hero', value: 'False Image' },
+    { alignment: 'villain', value: 'Mirage' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
-    { alignment: 'H', value: `Perhaps Scirocco is secretly envious of your break to the side of honor, but he still cannot brook your betrayal.` },
-    { alignment: 'V', value: `You have chosen Scirocco's cause. He will not forget your noble gesture.` },
+    { alignment: 'hero', value: `Perhaps Scirocco is secretly envious of your break to the side of honor, but he still cannot brook your betrayal.` },
+    { alignment: 'villain', value: `You have chosen Scirocco's cause. He will not forget your noble gesture.` },
   ],
   effect: `Awards the Mu Mastery patron power.`,
   links: [

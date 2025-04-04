@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { PortOakes } from '../../zone/port-oakes'
 
 export const WashedUp: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'washed-up',
-  setTitle: { id: 252 },
-  name: [{ value: 'Washed Up' }],
-  alignment: ['V'],
+  setTitleId: [252],
+  name: 'Washed Up',
+  morality: 'villainous',
   zoneKey: PortOakes.key,
   loc: [-3903, 16, -1369],
   badgeText: [{
@@ -19,6 +19,6 @@ From the Fort Hades marker, head due east until you reach the water. There is an
   links: [
     { title: 'Washed Up Badge', href: 'https://homecoming.wiki/wiki/Washed_Up_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '2',
 }

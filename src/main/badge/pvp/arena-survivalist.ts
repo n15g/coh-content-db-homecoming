@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const ArenaSurvivalist: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'arena-survivalist',
-  setTitle: { id: 1351 },
+  setTitleId: [1351],
   name: [
     { value: 'Arena Survivalist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You\'ve won your first Free for All match, you\'re considered an Arena Survivalist.' },
   ],

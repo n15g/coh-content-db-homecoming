@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 
 export const TheHeartOfMemory: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'the-heart-of-memory',
-  setTitle: { id: 1812 },
-  name: [{ value: 'The Heart of Memory' }],
-  alignment: ['H'],
+  setTitleId: [1812],
+  name: 'The Heart of Memory',
+  morality: 'heroic',
   zoneKey: CascadeArchipelago.key,
   loc: [-1814, 3032, 128],
   badgeText: [{
@@ -22,6 +22,6 @@ export const TheHeartOfMemory: BadgeData = {
   links: [
     { title: 'The Heart of Memory Badge', href: 'https://homecoming.wiki/wiki/The_Heart_of_Memory_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '8',
 }

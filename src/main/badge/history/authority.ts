@@ -5,13 +5,13 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 import { TerraVolta } from '../../zone/terra-volta'
 
 export const Authority: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'authority',
-  setTitle: { id: 155 },
+  setTitleId: [155],
   name: [
     { value: 'Authority' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of Freedom Phalanx.` },
   ],

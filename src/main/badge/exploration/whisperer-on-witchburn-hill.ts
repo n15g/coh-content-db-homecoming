@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 
 export const WhispererOnWitchburnHill: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'whisperer-on-witchburn-hill',
-  setTitle: { id: 1781 },
-  name: [{ value: 'Whisperer on Witchburn Hill' }],
-  alignment: ['H'],
+  setTitleId: [1781],
+  name: 'Whisperer on Witchburn Hill',
+  morality: 'heroic',
   zoneKey: EchoDarkAstoria.key,
   loc: [1151, 116, 1921],
   badgeText: [{
@@ -19,6 +19,6 @@ export const WhispererOnWitchburnHill: BadgeData = {
   links: [
     { title: 'Whisperer on Witchburn Hill Badge', href: 'https://homecoming.wiki/wiki/Whisperer_on_Witchburn_Hill_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   vidiotMapKey: '4',
 }

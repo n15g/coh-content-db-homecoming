@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Diminished: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'diminished',
-  setTitle: { id: 904 },
+  setTitleId: [904],
   name: [
     { value: 'Diminished' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Temporary Powers.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback between level 1 and 15 while not using any Temporary Powers.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Temporary Powers.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 1 and 15 while not using any Temporary Powers.` },
   ],
   acquisition: 'Complete a level 1-15 Flashback story arc using no temp powers.',
   links: [

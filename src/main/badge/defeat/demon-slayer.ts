@@ -1,28 +1,18 @@
 import { BadgeData } from 'coh-content-db'
 
 export const DemonSlayer: BadgeData = {
-  type: 'DEFEAT',
+  type: 'defeat',
   key: 'demon-slayer',
-  setTitle: { id: 41 },
-  name: [
-    { value: 'Demon Slayer' },
-  ],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [41],
+  name: 'Demon Slayer',
+  morality: 'all',
   badgeText: [
-    {
-      alignment: 'H', value: 'You have defeated Baphomet, an evil spirit summoned by the upper echelon of the Circle of '
-        + 'Thorns to destroy Paragon City.',
-    },
-    {
-      alignment: 'V', value: 'You have defeated Baphomet, an evil spirit summoned by the upper echelon of the Circle of '
-        + 'Thorns.',
-    },
+    { alignment: 'hero', value: `You have defeated Baphomet, an evil spirit summoned by the upper echelon of the Circle of Thorns to destroy Paragon City.` },
+    { alignment: 'villain', value: 'You have defeated Baphomet, an evil spirit summoned by the upper echelon of the Circle of Thorns.' },
   ],
-  acquisition: 'Defeat Baphomet, a villain found in the Faathim the Kind Task Force and an Angus McQueen mission',
+  acquisition: `Defeat Baphomet, the Circle of Thorns Arch-Villain.`,
   links: [
     { title: 'Demon Slayer Badge', href: 'https://homecoming.wiki/wiki/Demon_Slayer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/cot.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/cot.png',
 }

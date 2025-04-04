@@ -1,31 +1,28 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Explorer: BadgeData = {
-  type: 'ACHIEVEMENT',
+  type: 'achievement',
   key: 'explorer',
-  setTitle: { id: 28, praetorianId: 1662 },
+  setTitleId: [28, 1662],
   name: [
-    { alignment: 'H', value: 'Explorer' },
-    { alignment: 'V', value: 'Obsessed' },
-    { alignment: 'P', value: 'Knows the Truth' },
+    { alignment: 'hero', value: 'Explorer' },
+    { alignment: 'villain', value: 'Obsessed' },
+    { alignment: 'praetorian', value: 'Knows the Truth' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: 'Your diligence has earned you 50 badges.' },
-    { alignment: 'V', value: 'That\'s 50 Badges. Some call you determined. Most call you Obsessed.' },
-    {
-      alignment: 'P', value: 'From the depths of the Underground to the top of the Magisterium, Praetoria is built on lies. '
-        + 'After 50 badges, you\'ve learned this truth.',
-    },
+    { alignment: 'hero', value: 'Your diligence has earned you 50 badges.' },
+    { alignment: 'villain', value: `That's 50 Badges. Some call you determined. Most call you Obsessed.` },
+    { alignment: 'praetorian', value: `From the depths of the Underground to the top of the Magisterium, Praetoria is built on lies. After 50 badges, you've learned this truth.` },
   ],
-  acquisition: 'Earn 50 badges',
+  acquisition: 'Earn 50 badges.',
   links: [
     { title: 'Explorer Badge', href: 'https://homecoming.wiki/wiki/Explorer_Badge' },
     { title: 'Obsessed Badge', href: 'https://homecoming.wiki/wiki/Obsessed_Badge' },
     { title: 'Knows the Truth Badge', href: 'https://homecoming.wiki/wiki/Knows_the_Truth_Badge' },
   ],
   icon: [
-    { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/explorer-h.png' },
-    { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/explorer-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/explorer-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/explorer-v.png' },
   ],
 }

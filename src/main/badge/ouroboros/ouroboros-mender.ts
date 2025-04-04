@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const OuroborosMender: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'ouroboros-mender',
-  setTitle: { id: 943 },
+  setTitleId: [943],
   name: [
     { value: 'Ouroboros Mender' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 50 story arcs.' },
   ],

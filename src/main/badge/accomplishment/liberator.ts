@@ -2,14 +2,14 @@ import { BadgeData } from 'coh-content-db'
 import { Woodsman } from '../../contact/woodsman'
 
 export const Liberator: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'liberator',
-  setTitle: { id: 68 },
+  setTitleId: [68],
   name: [
-    { alignment: 'H', value: 'Liberator' },
-    { alignment: 'V', value: 'Destroyer of Earth' },
+    { alignment: 'hero', value: 'Liberator' },
+    { alignment: 'villain', value: 'Destroyer of Earth' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: 'You have freed the captured heroes, preventing them from becoming Devoured.',
   links: [
     { title: 'Liberator Badge', href: 'https://homecoming.wiki/wiki/Liberator_Badge' },

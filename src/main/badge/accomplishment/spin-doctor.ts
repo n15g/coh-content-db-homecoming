@@ -2,11 +2,11 @@ import { BadgeData } from 'coh-content-db'
 import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
 
 export const SpinDoctor: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'spin-doctor',
-  setTitle: { id: 2072 },
+  setTitleId: [2072],
   name: 'Spin Doctor',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: TPN Campus.',
   links: [
     { title: 'Spin Doctor Badge', href: 'https://homecoming.wiki/wiki/Spin_Doctor_Badge' },

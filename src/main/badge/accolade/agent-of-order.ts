@@ -6,14 +6,14 @@ import { SondraCostel } from '../../contact/sondra-costel'
 import { Twinshot } from '../../contact/twinshot'
 
 export const AgentOfOrder: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'agent-of-order',
-  setTitle: { id: 2352 },
+  setTitleId: [2352],
   name: 'Agent of Order',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `Without heroes like you the world would fall into chaos and despair.` },
-    { alignment: 'V', value: `You leave nothing but chaos and destruction in your wake!` },
+    { alignment: 'hero', value: `Without heroes like you the world would fall into chaos and despair.` },
+    { alignment: 'villain', value: `You leave nothing but chaos and destruction in your wake!` },
   ],
   effect: 'Award 20 reward merits.',
   links: [

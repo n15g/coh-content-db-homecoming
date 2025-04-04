@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const MajorGeneral: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'major-general',
-  setTitle: { id: 793 },
+  setTitleId: [793],
   name: [{ value: 'Major General' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Accuracy and To Hit Buff.' }],
   links: [
     { title: 'Major General Badge', href: 'https://homecoming.wiki/wiki/Major_General_Badge' },
@@ -14,17 +14,17 @@ export const MajorGeneral: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 35,
-      inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
-      inventionCount: 11,
+      inventionTypes: ['accuracy', 'to-hit-buff'],
+      count: 11,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 40,
-      inventionTypes: ['ACCURACY', 'TO_HIT_BUFF'],
-      inventionCount: 11,
+      inventionTypes: ['accuracy', 'to-hit-buff'],
+      count: 11,
     },
   ],
 }

@@ -4,13 +4,13 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 import { PerezPark } from '../../zone/perez-park'
 
 export const Expert: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'expert',
-  setTitle: { id: 149 },
+  setTitleId: [149],
   name: [
     { value: 'Expert' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of the Might for Right Act.` },
   ],

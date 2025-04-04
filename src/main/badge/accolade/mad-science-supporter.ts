@@ -9,24 +9,24 @@ import { MasterOfScience } from '../exploration/master-of-science'
 import { CircleGazer } from '../exploration/circle-gazer'
 
 export const MadScienceSupporter: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'mad-science-supporter',
-  setTitle: { id: 1495 },
+  setTitleId: [1495],
   name: 'Mad Science Supporter',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Cap Au Diable.`,
   links: [
     { title: 'Mad Science Supporter Badge', href: 'https://homecoming.wiki/wiki/Mad_Science_Supporter_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [
-    { key: Sparky.key, type: 'BADGE', badgeKey: Sparky.key },
-    { key: MediaJunky.key, type: 'BADGE', badgeKey: MediaJunky.key },
-    { key: Egghead.key, type: 'BADGE', badgeKey: Egghead.key },
-    { key: Steamed.key, type: 'BADGE', badgeKey: Steamed.key },
-    { key: SweetTooth.key, type: 'BADGE', badgeKey: SweetTooth.key },
-    { key: DoomSayer.key, type: 'BADGE', badgeKey: DoomSayer.key },
-    { key: MasterOfScience.key, type: 'BADGE', badgeKey: MasterOfScience.key },
-    { key: CircleGazer.key, type: 'BADGE', badgeKey: CircleGazer.key },
+    { key: Sparky.key, type: 'badge', badgeKey: Sparky.key },
+    { key: MediaJunky.key, type: 'badge', badgeKey: MediaJunky.key },
+    { key: Egghead.key, type: 'badge', badgeKey: Egghead.key },
+    { key: Steamed.key, type: 'badge', badgeKey: Steamed.key },
+    { key: SweetTooth.key, type: 'badge', badgeKey: SweetTooth.key },
+    { key: DoomSayer.key, type: 'badge', badgeKey: DoomSayer.key },
+    { key: MasterOfScience.key, type: 'badge', badgeKey: MasterOfScience.key },
+    { key: CircleGazer.key, type: 'badge', badgeKey: CircleGazer.key },
   ],
 }

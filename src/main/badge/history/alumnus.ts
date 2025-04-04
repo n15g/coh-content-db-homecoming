@@ -3,13 +3,13 @@ import { AtlasPark } from '../../zone/atlas-park'
 import { Croatoa } from '../../zone/croatoa'
 
 export const Alumnus: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'alumnus',
-  setTitle: { id: 411 },
+  setTitleId: [411],
   name: [
     { value: 'Alumnus' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: `You have learned the history of Croatoa.` },
   ],

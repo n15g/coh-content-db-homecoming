@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Alterist: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'alterist',
-  setTitle: { id: 937 },
+  setTitleId: [937],
   name: [
     { value: 'Alterist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
     { value: 'You have flashed back to 20 story arcs.' },
   ],

@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { Neutropolis } from '../../zone/neutropolis'
 
 export const Stockpiling: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'stockpiling',
-  setTitle: { id: 1728 },
-  name: [{ value: 'Stockpiling' }],
-  alignment: ['H', 'V', 'P'],
+  setTitleId: [1728],
+  name: 'Stockpiling',
+  morality: 'all',
   zoneKey: Neutropolis.key,
   loc: [5182, -56, -457],
   badgeText: [{
@@ -17,6 +17,6 @@ export const Stockpiling: BadgeData = {
   links: [
     { title: 'Stockpiling Badge', href: 'https://homecoming.wiki/wiki/Stockpiling_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: '6',
 }

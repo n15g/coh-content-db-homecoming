@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const MoralHighGround: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'moral-high-ground',
-  setTitle: { id: 1423 },
+  setTitleId: [1423],
   name: 'Moral High Ground',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You've decided to ally yourself with either the Praetorian Resistance or the Praetorian Loyalists on five separate occasions. Regardless of where your true morals lie, you've proven willing to defend your positions.`,
   acquisition: `Choose 'Loyalist' or 'Resistance' morality five times.`,
   links: [

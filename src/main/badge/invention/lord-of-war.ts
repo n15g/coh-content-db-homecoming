@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const LordOfWar: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'lord-of-war',
-  setTitle: { id: 799 },
+  setTitleId: [799],
   name: [{ value: 'Lord of War' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Damage and Knockback.' }],
   effect: '+1 to Recipe capacity',
   links: [
@@ -15,17 +15,17 @@ export const LordOfWar: BadgeData = {
   requirements: [
     {
       key: 'a',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 45,
-      inventionTypes: ['DAMAGE', 'KNOCKBACK'],
-      inventionCount: 14,
+      inventionTypes: ['damage', 'knockback'],
+      count: 14,
     },
     {
       key: 'b',
-      type: 'INVENTION',
+      type: 'invention',
       inventionLevel: 50,
-      inventionTypes: ['DAMAGE', 'KNOCKBACK'],
-      inventionCount: 14,
+      inventionTypes: ['damage', 'knockback'],
+      count: 14,
     },
   ],
 }

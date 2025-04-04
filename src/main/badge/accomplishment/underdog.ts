@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { JohnHouston } from '../../contact/john-houston'
 
 export const Underdog: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'underdog',
-  setTitle: { id: 2512 },
+  setTitleId: [2512],
   name: 'Underdog',
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: `You took advantage of the Council's election fraud scheme for your personal profit, and made a mockery of the democratic process by getting the Can Man elected to the city council.`,
   acquisition: `Complete the Noble Intentions arc from ${contactLink(JohnHouston)}, selecting all rogue responses.`,
   notes: `In the third mission of the Noble Intentions arc, at one point you will be attacked briefly by Ravenstorm and Dr. Todd, then you can then talk to them. During the dialogue, select the rogue responses to earn this badge.

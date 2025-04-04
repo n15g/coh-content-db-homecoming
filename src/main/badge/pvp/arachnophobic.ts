@@ -1,13 +1,13 @@
 import { BadgeData } from 'coh-content-db'
 
 export const Arachnophobic: BadgeData = {
-  type: 'PVP',
+  type: 'pvp',
   key: 'arachnophobic',
-  setTitle: { id: 580 },
+  setTitleId: [580],
   name: [
     { value: 'Arachnophobic' },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
     { value: 'You have helped defeat Lord Recluse in Recluse\'s Victory.' },
   ],

@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const MasterCraftsman: BadgeData = {
-  type: 'INVENTION',
+  type: 'invention',
   key: 'master-craftsman',
-  setTitle: { id: 743 },
+  setTitleId: [743],
   name: [{ value: 'Master Craftsman' }],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [{ value: 'A Master Craftsman they call you, as you have created 1,000 inventions.' }],
   acquisition: 'Craft 1000 items in the Invention System or Supergroup Base system.',
   notes: 'This includes anything craftable on Invention Worktables, Base Worktables, and Empowerment Stations (including Empowerment Buffs), as well as special crafting such as the'

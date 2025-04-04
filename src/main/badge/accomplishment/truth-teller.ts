@@ -3,11 +3,11 @@ import { Ouroboros } from '../../zone/ouroboros'
 import { DreamDoctor } from '../../contact/dream-doctor'
 
 export const TruthTeller: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'truth-teller',
-  setTitle: { id: 2199 },
+  setTitleId: [2199],
   name: 'Truth Teller',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: `You played through Dream Doctor's personal story, witnessing the event where Dream Doctor confronted Mender Silos and revealed why he harbors such a large hatred for Ouroboros.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "Dream Doctor's Personal Story" entry with number 22.21 at level 50.`,
   links: [

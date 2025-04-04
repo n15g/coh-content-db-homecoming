@@ -2,11 +2,11 @@ import { BadgeData, zoneLink } from 'coh-content-db'
 import { NervaArchipelago } from '../../zone/nerva-archipelago'
 
 export const WatcherOnTheKnoll: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'watcher-on-the-knoll',
-  setTitle: { id: 274 },
-  name: [{ value: 'Watcher on the Knoll' }],
-  alignment: ['V'],
+  setTitleId: [274],
+  name: 'Watcher on the Knoll',
+  morality: 'villainous',
   zoneKey: NervaArchipelago.key,
   loc: [-93, 85, 5434],
   badgeText: [{
@@ -19,6 +19,6 @@ The marker is located between the feet of the statue on the right (south) of the
   links: [
     { title: 'Watcher on the Knoll Badge', href: 'https://homecoming.wiki/wiki/Watcher_on_the_Knoll_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   vidiotMapKey: '1',
 }

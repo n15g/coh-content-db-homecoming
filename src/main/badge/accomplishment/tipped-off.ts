@@ -1,11 +1,11 @@
 import { BadgeData } from 'coh-content-db'
 
 export const TippedOff: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'tipped-off',
-  setTitle: { id: 1440 },
+  setTitleId: [1440],
   name: 'Tipped Off',
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: 'You received your first tip earning yourself the Tipped Off badge.',
   acquisition: 'Receive your first [Tip](https://homecoming.wiki/wiki/Tip).',
   links: [

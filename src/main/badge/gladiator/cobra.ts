@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { SnakeCharmer } from '../exploration/snake-charmer'
 
 export const Cobra: BadgeData = {
-  type: 'GLADIATOR',
+  type: 'gladiator',
   key: 'cobra',
-  setTitle: { id: 451 },
+  setTitleId: [451],
   name: [
     { value: 'Cobra' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: 'Sssnakes ssserve you.' },
   ],
@@ -19,6 +19,6 @@ export const Cobra: BadgeData = {
     { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
   ],
   requirements: [
-    { key: SnakeCharmer.key, type: 'BADGE', badgeKey: SnakeCharmer.key },
+    { key: SnakeCharmer.key, type: 'badge', badgeKey: SnakeCharmer.key },
   ],
 }

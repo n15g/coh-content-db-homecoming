@@ -1,27 +1,26 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Praetoria } from '../../zone/praetoria'
+import { BadgeData } from 'coh-content-db'
 import { NovaPraetoria } from '../../zone/nova-praetoria'
 import { ImperialCity } from '../../zone/imperial-city'
 import { Neutropolis } from '../../zone/neutropolis'
 
 export const RailRider: BadgeData = {
-  type: 'EXPLORATION',
+  type: 'exploration',
   key: 'rail-rider',
-  setTitle: { id: 1411 },
-  name: [{ value: 'Rail Rider' }],
-  alignment: ['H', 'V', 'P'],
-  zoneKey: Praetoria.key,
-  badgeText: [{
-    value: `It is every Praetorian citizen's duty to preserve the environment by utilizing public transit as much as possible. Praetor Berry thanks you for your patronage.`,
-  }],
+  setTitleId: [1411],
+  name: 'Rail Rider',
+  morality: 'all',
+  badgeText: `It is every Praetorian citizen's duty to preserve the environment by utilizing public transit as much as possible. Praetor Berry thanks you for your patronage.`,
   notes: `The Rail Rider Badge has three locations in Praetoria, each located inside one of the Cole Transit Authority stations.
-
-Its coordinates in ${zoneLink(NovaPraetoria)} are (-4551, -187, 470), in ${zoneLink(ImperialCity)} are (-2384, -238, 755) and in ${zoneLink(Neutropolis)} are (2226, -213, 1111).
 
 It is necessary to visit all three locations to earn this badge.`,
   links: [
     { title: 'Rail Rider Badge', href: 'https://homecoming.wiki/wiki/Rail_Rider_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   vidiotMapKey: 'T',
+  requirements: [
+    { key: 'np', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-4551, -187, 470] } },
+    { key: 'ic', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-2384, -238, 755] } },
+    { key: 'ne', type: 'location', location: { zoneKey: Neutropolis.key, coords: [2226, -213, 1111] } },
+  ],
 }

@@ -1,16 +1,16 @@
 import { BadgeData } from 'coh-content-db'
 
 export const BronzeMedalist: BadgeData = {
-  type: 'OUROBOROS',
+  type: 'ouroboros',
   key: 'bronze-medalist',
-  setTitle: { id: 864 },
+  setTitleId: [864],
   name: [
     { value: 'Bronze Medalist' },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `You have completed a Task Force/Flashback within the Bronze time allowed.` },
-    { alignment: 'V', value: `You have completed a Strike Force/Flashback within the Bronze time allowed.` },
+    { alignment: 'hero', value: `You have completed a Task Force/Flashback within the Bronze time allowed.` },
+    { alignment: 'villain', value: `You have completed a Strike Force/Flashback within the Bronze time allowed.` },
   ],
   acquisition: 'Complete a Flashback story arc in under 120 minutes.',
   links: [

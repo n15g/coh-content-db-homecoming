@@ -2,17 +2,17 @@ import { BadgeData } from 'coh-content-db'
 import { Synapse } from '../../contact/synapse'
 
 export const SynapsesCohort: BadgeData = {
-  type: 'ACCOMPLISHMENT',
+  type: 'accomplishment',
   key: 'synapses-cohort',
-  setTitle: { id: 62 },
+  setTitleId: [62],
   name: [
-    { alignment: 'H', value: `Synapse's Cohort` },
-    { alignment: 'V', value: `Synapse's Betrayer` },
+    { alignment: 'hero', value: `Synapse's Cohort` },
+    { alignment: 'villain', value: `Synapse's Betrayer` },
   ],
-  alignment: ['H'],
+  morality: 'heroic',
   badgeText: [
-    { alignment: 'H', value: 'Synapse has awarded you this medal in recognition of your defeat of the Clockwork King.' },
-    { alignment: 'V', value: 'After you defeated the Clockwork King, Synapse honored you with this medal. What would he think now?' },
+    { alignment: 'hero', value: 'Synapse has awarded you this medal in recognition of your defeat of the Clockwork King.' },
+    { alignment: 'villain', value: 'After you defeated the Clockwork King, Synapse honored you with this medal. What would he think now?' },
   ],
   acquisition: 'Complete the Synapse Task Force: The Fall of the Clockwork King',
   links: [

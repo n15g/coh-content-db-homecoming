@@ -2,13 +2,13 @@ import { BadgeData } from 'coh-content-db'
 import { CapAuDiable } from '../../zone/cap-au-diable'
 
 export const Technofreak: BadgeData = {
-  type: 'HISTORY',
+  type: 'history',
   key: 'technofreak',
-  setTitle: { id: 318 },
+  setTitleId: [318],
   name: [
     { value: 'Technofreak' },
   ],
-  alignment: ['V'],
+  morality: 'villainous',
   badgeText: [
     { value: `Let's all welcome a better future through the wonders of technology!` },
   ],

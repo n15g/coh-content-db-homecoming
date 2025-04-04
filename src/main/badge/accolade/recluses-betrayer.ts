@@ -6,17 +6,17 @@ import { Scirocco } from '../../contact/scirocco'
 import { LordRecluse } from '../../contact/lord-recluse'
 
 export const ReclusesBetrayer: BadgeData = {
-  type: 'ACCOLADE',
+  type: 'accolade',
   key: 'recluses-betrayer',
-  setTitle: { id: 398 },
+  setTitleId: [398],
   name: [
-    { alignment: 'H', value: `Recluse's Betrayer` },
-    { alignment: 'V', value: `Recluse's Right Hand` },
+    { alignment: 'hero', value: `Recluse's Betrayer` },
+    { alignment: 'villain', value: `Recluse's Right Hand` },
   ],
-  alignment: ['H', 'V', 'P'],
+  morality: 'all',
   badgeText: [
-    { alignment: 'H', value: `Lord Recluse was wrong to place his trust in you.` },
-    { alignment: 'V', value: `You are the most villainous of villains and I, Lord Recluse, am proud of you!` },
+    { alignment: 'hero', value: `Lord Recluse was wrong to place his trust in you.` },
+    { alignment: 'villain', value: `You are the most villainous of villains and I, Lord Recluse, am proud of you!` },
   ],
   notes: `Complete every story arc from Black Scorpion, Captain Mako, Ghost Widow, Scirocco, and Lord Recluse.`,
   effect: 'Awards 20 reward merits.',
