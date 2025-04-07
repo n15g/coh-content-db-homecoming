@@ -2,6 +2,7 @@ import globals from 'globals'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import stylistic from '@stylistic/eslint-plugin'
 import tseslint from 'typescript-eslint'
+import localRulesConfig from './src/lint/_local-rules-config.js'
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -15,8 +16,6 @@ export default [
     rules: {
       // eslint-disable-next-line unicorn/no-null
       '@typescript-eslint/naming-convention': ['error', { selector: 'objectLiteralProperty', format: null }], // camelCase, but ignore object literals
-      '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }], // don't use public access modifier
-      '@typescript-eslint/explicit-function-return-type': ['error'], // require all functions define their return type explicitly
       'eqeqeq': ['error'],
     },
   },
@@ -33,4 +32,5 @@ export default [
       'unicorn/prevent-abbreviations': ['off'],
     },
   },
+  localRulesConfig
 ]
