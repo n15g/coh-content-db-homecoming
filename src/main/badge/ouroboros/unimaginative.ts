@@ -4,9 +4,7 @@ export const Unimaginative: BadgeData = {
   type: 'ouroboros',
   key: 'unimaginative',
   setTitleId: [917],
-  name: [
-    { value: 'Unimaginative' },
-  ],
+  name: 'Unimaginative',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const Unimaginative: BadgeData = {
   links: [
     { title: 'Unimaginative Badge', href: 'https://homecoming.wiki/wiki/Unimaginative_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unimaginative.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unimaginative.png',
 }

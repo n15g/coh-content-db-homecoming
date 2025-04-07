@@ -9,9 +9,7 @@ export const ScurvyDog: BadgeData = {
   morality: 'villainous',
   zoneKey: PortOakes.key,
   loc: [-2852, 82, 1216],
-  badgeText: [{
-    value: `The owner of Blackbeard's pub is rumored to have sent more than one patron to Davey Jones locker.`,
-  }],
+  badgeText: `The owner of Blackbeard's pub is rumored to have sent more than one patron to Davey Jones locker.`,
   notes: `Located in ${zoneLink(PortOakes)}, on Blackbeard's Pub, a shack located next to Drea the Hook in the Dockside neighborhood.
 
 The pub is approximately 190 yeard south and slightly east of the Dockside marker, and the badge marker is on the southwest side of the building, on top of a small landing supported by corrugated metal..`,

@@ -4,14 +4,14 @@ export const Nomad: BadgeData = {
   type: 'invention',
   key: 'nomad',
   setTitleId: [804],
-  name: [{ value: 'Nomad' }],
+  name: 'Nomad',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Run Speed, Jump, Fly Speed, and Range.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Run Speed, Jump, Fly Speed, and Range.',
   effect: '+1 to Recipe capacity',
   links: [
     { title: 'Nomad Badge', href: 'https://homecoming.wiki/wiki/Nomad_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',

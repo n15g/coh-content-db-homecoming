@@ -4,9 +4,7 @@ export const Lionhearted: BadgeData = {
   type: 'ouroboros',
   key: 'lionhearted',
   setTitleId: [884],
-  name: [
-    { value: 'Lionhearted' },
-  ],
+  name: 'Lionhearted',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while the enemies were Buffed.` },
@@ -16,5 +14,5 @@ export const Lionhearted: BadgeData = {
   links: [
     { title: 'Lionhearted Badge', href: 'https://homecoming.wiki/wiki/Lionhearted_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/lionhearted.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/lionhearted.png',
 }

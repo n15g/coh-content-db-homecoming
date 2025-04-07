@@ -5,9 +5,7 @@ export const KaolinLegacyOfEarth: BadgeData = {
   type: 'gladiator',
   key: 'kaolin-legacy-of-earth',
   setTitleId: [466],
-  name: [
-    { value: 'Kaolin Legacy of Earth' },
-  ],
+  name: 'Kaolin Legacy of Earth',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'The Legacy Chain respects you.' },
@@ -16,9 +14,7 @@ export const KaolinLegacyOfEarth: BadgeData = {
   links: [
     { title: 'Kaolin Legacy of Earth Badge', href: 'https://homecoming.wiki/wiki/Kaolin_Legacy_of_Earth_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Collector.key, type: 'badge', badgeKey: Collector.key },
   ],

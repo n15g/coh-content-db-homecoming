@@ -4,9 +4,7 @@ export const Unenhanced: BadgeData = {
   type: 'ouroboros',
   key: 'unenhanced',
   setTitleId: [932],
-  name: [
-    { value: 'Unenhanced' },
-  ],
+  name: 'Unenhanced',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not gaining bonuses from slotted Enhancements.` },
@@ -16,5 +14,5 @@ export const Unenhanced: BadgeData = {
   links: [
     { title: 'Unenhanced Badge', href: 'https://homecoming.wiki/wiki/Unenhanced_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unenhanced.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unenhanced.png',
 }

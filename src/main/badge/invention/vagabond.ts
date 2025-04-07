@@ -4,13 +4,13 @@ export const Vagabond: BadgeData = {
   type: 'invention',
   key: 'vagabond',
   setTitleId: [801],
-  name: [{ value: 'Vagabond' }],
+  name: 'Vagabond',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Run Speed, Jump, Fly Speed, and Range.' }],
+  badgeText: 'You have memorized the following recipes at level 15 and 20: Run Speed, Jump, Fly Speed, and Range.',
   links: [
     { title: 'Vagabond Badge', href: 'https://homecoming.wiki/wiki/Vagabond_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png',
   requirements: [
     {
       key: 'a',

@@ -4,9 +4,7 @@ export const Contributor: BadgeData = {
   type: 'ouroboros',
   key: 'contributor',
   setTitleId: [886],
-  name: [
-    { value: 'Contributor' },
-  ],
+  name: 'Contributor',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while only using your Primary and Secondary powersets.` },
@@ -16,5 +14,5 @@ export const Contributor: BadgeData = {
   links: [
     { title: 'Contributor Badge', href: 'https://homecoming.wiki/wiki/Contributor_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/contributor.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/contributor.png',
 }

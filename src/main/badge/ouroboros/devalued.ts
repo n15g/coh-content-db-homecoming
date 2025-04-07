@@ -4,9 +4,7 @@ export const Devalued: BadgeData = {
   type: 'ouroboros',
   key: 'devalued',
   setTitleId: [931],
-  name: [
-    { value: 'Devalued' },
-  ],
+  name: 'Devalued',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while not gaining bonuses from slotted Enhancements.` },
@@ -16,5 +14,5 @@ export const Devalued: BadgeData = {
   links: [
     { title: 'Devalued Badge', href: 'https://homecoming.wiki/wiki/Devalued_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/devalued.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/devalued.png',
 }

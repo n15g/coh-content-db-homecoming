@@ -4,13 +4,13 @@ export const Beguiler: BadgeData = {
   type: 'invention',
   key: 'beguiler',
   setTitleId: [776],
-  name: [{ value: 'Beguiler' }],
+  name: 'Beguiler',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Sleep, Snare, Hold, Stun, Immobilize, and Fear.' }],
+  badgeText: 'You have memorized the following recipes at level 15 and 20: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   links: [
     { title: 'Beguiler Badge', href: 'https://homecoming.wiki/wiki/Guardian_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png',
   requirements: [
     {
       key: 'a',

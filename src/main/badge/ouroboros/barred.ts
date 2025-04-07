@@ -4,9 +4,7 @@ export const Barred: BadgeData = {
   type: 'ouroboros',
   key: 'barred',
   setTitleId: [899],
-  name: [
-    { value: 'Barred' },
-  ],
+  name: 'Barred',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while not using any Travel Power Power Pools.` },
@@ -16,5 +14,5 @@ export const Barred: BadgeData = {
   links: [
     { title: 'Barred Badge', href: 'https://homecoming.wiki/wiki/Barred_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/barred.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/barred.png',
 }

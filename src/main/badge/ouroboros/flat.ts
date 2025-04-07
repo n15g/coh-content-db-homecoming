@@ -4,9 +4,7 @@ export const Flat: BadgeData = {
   type: 'ouroboros',
   key: 'flat',
   setTitleId: [918],
-  name: [
-    { value: 'Flat' },
-  ],
+  name: 'Flat',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const Flat: BadgeData = {
   links: [
     { title: 'Flat Badge', href: 'https://homecoming.wiki/wiki/Flat_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/flat.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/flat.png',
 }

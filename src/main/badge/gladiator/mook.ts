@@ -5,19 +5,13 @@ export const Mook: BadgeData = {
   type: 'gladiator',
   key: 'mook',
   setTitleId: [438],
-  name: [
-    { value: 'Mook' },
-  ],
+  name: 'Mook',
   morality: 'villainous',
-  badgeText: [
-    { value: 'Dese guys is part of your crew.' },
-  ],
+  badgeText: 'Dese guys is part of your crew.',
   links: [
     { title: 'Mook Badge', href: 'https://homecoming.wiki/wiki/Mook_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: WashedUp.key, type: 'badge', badgeKey: WashedUp.key },
   ],

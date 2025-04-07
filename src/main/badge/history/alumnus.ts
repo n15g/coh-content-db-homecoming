@@ -6,19 +6,13 @@ export const Alumnus: BadgeData = {
   type: 'history',
   key: 'alumnus',
   setTitleId: [411],
-  name: [
-    { value: 'Alumnus' },
-  ],
+  name: 'Alumnus',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of Croatoa.` },
-  ],
+  badgeText: `You have learned the history of Croatoa.`,
   links: [
     { title: 'Alumnus Badge', href: 'https://homecoming.wiki/wiki/Alumnus_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'alum-0',

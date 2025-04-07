@@ -17,19 +17,13 @@ export const Bicentennial: BadgeData = {
   type: 'history',
   key: 'bicentennial',
   setTitleId: [2515],
-  name: [
-    { value: 'Bicentennial' },
-  ],
+  name: 'Bicentennial',
   morality: 'heroic',
-  badgeText: [
-    { value: `Whether love, fascination or obsession, none can deny your powerful feelings for Paragon City, as evidenced by your efforts to explore the city's 200-year history. You've taken the time to learn about everything from infrastructure to some of the greatest crises and heroes of the city's rich legacy.` },
-  ],
+  badgeText: `Whether love, fascination or obsession, none can deny your powerful feelings for Paragon City, as evidenced by your efforts to explore the city's 200-year history. You've taken the time to learn about everything from infrastructure to some of the greatest crises and heroes of the city's rich legacy.`,
   links: [
     { title: 'Bicentennial Badge', href: 'https://homecoming.wiki/wiki/Bicentennial_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/bicentennial.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/bicentennial.png',
   requirements: [
     {
       key: 'bicn-0',

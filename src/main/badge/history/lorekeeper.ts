@@ -8,19 +8,13 @@ export const Lorekeeper: BadgeData = {
   type: 'history',
   key: 'lorekeeper',
   setTitleId: [317],
-  name: [
-    { value: 'Lorekeeper' },
-  ],
+  name: 'Lorekeeper',
   morality: 'villainous',
-  badgeText: [
-    { value: `You have learned much that is hidden from the eyes of mortal men.` },
-  ],
+  badgeText: `You have learned much that is hidden from the eyes of mortal men.`,
   links: [
     { title: 'Lorekeeper Badge', href: 'https://homecoming.wiki/wiki/Lorekeeper_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png',
   requirements: [
     {
       key: 'lore-0',

@@ -4,9 +4,7 @@ export const Limited: BadgeData = {
   type: 'ouroboros',
   key: 'limited',
   setTitleId: [911],
-  name: [
-    { value: 'Limited' },
-  ],
+  name: 'Limited',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while not using any Temporary Powers.` },
@@ -16,5 +14,5 @@ export const Limited: BadgeData = {
   links: [
     { title: 'Limited Badge', href: 'https://homecoming.wiki/wiki/Limited_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/limited.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/limited.png',
 }

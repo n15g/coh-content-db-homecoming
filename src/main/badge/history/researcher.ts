@@ -8,19 +8,13 @@ export const Researcher: BadgeData = {
   type: 'history',
   key: 'researcher',
   setTitleId: [156],
-  name: [
-    { value: 'Researcher' },
-  ],
+  name: 'Researcher',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the sordid history of former mayor of Paragon City, Spanky Rabinowitz.` },
-  ],
+  badgeText: `You have learned the sordid history of former mayor of Paragon City, Spanky Rabinowitz.`,
   links: [
     { title: 'Researcher Badge', href: 'https://homecoming.wiki/wiki/Researcher_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'rese-0',

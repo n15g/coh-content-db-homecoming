@@ -9,9 +9,7 @@ export const RazorToothed: BadgeData = {
   morality: 'villainous',
   zoneKey: SharkheadIsle.key,
   loc: [460, -14, 1653],
-  badgeText: [{
-    value: `This is the spot where Mako paraded Scrapyard's body after he eviscerated him. Many of the locals have seen his ghost in this area.`,
-  }],
+  badgeText: `This is the spot where Mako paraded Scrapyard's body after he eviscerated him. Many of the locals have seen his ghost in this area.`,
   notes: `Located in ${zoneLink(SharkheadIsle)}, in The Pit neighborhood.
 
 From the Magic Quartermaster, walk due south.

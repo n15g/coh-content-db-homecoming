@@ -5,19 +5,13 @@ export const TheLastWord: BadgeData = {
   type: 'history',
   key: 'the-last-word',
   setTitleId: [2064],
-  name: [
-    { value: 'The Last Word' },
-  ],
+  name: 'The Last Word',
   morality: 'all',
-  badgeText: [
-    { value: `A land of notable Firsts and Lasts, the First Ward of Praetoria is flooded not only with mire, magic, and mayhem, but also memorials to its history. You have encountered them all, earning this badge.` },
-  ],
+  badgeText: `A land of notable Firsts and Lasts, the First Ward of Praetoria is flooded not only with mire, magic, and mayhem, but also memorials to its history. You have encountered them all, earning this badge.`,
   links: [
     { title: 'The Last Word Badge', href: 'https://homecoming.wiki/wiki/The_Last_Word_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png',
   requirements: [
     {
       key: 'thel-0',

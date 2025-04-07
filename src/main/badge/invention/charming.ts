@@ -4,14 +4,14 @@ export const Charming: BadgeData = {
   type: 'invention',
   key: 'charming',
   setTitleId: [777],
-  name: [{ value: 'Charming' }],
+  name: 'Charming',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Sleep, Snare, Hold, Stun, Immobilize, and Fear.' }],
+  badgeText: 'You have memorized the following recipes at level 25 and 30: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   effect: '+2 to Invention Salvage capacity',
   links: [
     { title: 'Charming Badge', href: 'https://homecoming.wiki/wiki/Charming_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png',
   requirements: [
     {
       key: 'a',

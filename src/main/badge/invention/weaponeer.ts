@@ -4,13 +4,13 @@ export const Weaponeer: BadgeData = {
   type: 'invention',
   key: 'weaponeer',
   setTitleId: [796],
-  name: [{ value: 'Weaponeer' }],
+  name: 'Weaponeer',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Damage and Knockback.' }],
+  badgeText: 'You have memorized the following recipes at level 15 and 20: Damage and Knockback.',
   links: [
     { title: 'Weaponeer Badge', href: 'https://homecoming.wiki/wiki/Weaponeer_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png',
   requirements: [
     {
       key: 'a',

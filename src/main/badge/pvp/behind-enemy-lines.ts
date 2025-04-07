@@ -7,9 +7,7 @@ export const BehindEnemyLines: BadgeData = {
   type: 'pvp',
   key: 'behind-enemy-lines',
   setTitleId: [2457],
-  name: [
-    { value: 'Behind Enemy Lines' },
-  ],
+  name: 'Behind Enemy Lines',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have slipped past Arachnos\' defenses and thwarted their plans against Freedom Corps.' },
@@ -20,7 +18,5 @@ export const BehindEnemyLines: BadgeData = {
   links: [
     { title: 'Behind Enemy Lines Badge', href: 'https://homecoming.wiki/wiki/Behind_Enemy_Lines_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png',
 }

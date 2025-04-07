@@ -6,19 +6,13 @@ export const BehemothOverlord: BadgeData = {
   type: 'gladiator',
   key: 'behemoth-overlord',
   setTitleId: [503],
-  name: [
-    { value: 'Behemoth Overlord' },
-  ],
+  name: 'Behemoth Overlord',
   morality: 'all',
-  badgeText: [
-    { value: 'Even demons obey your will.' },
-  ],
+  badgeText: 'Even demons obey your will.',
   links: [
     { title: 'Behemoth Overlord Badge', href: 'https://homecoming.wiki/wiki/Behemoth_Overlord_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: DemonSlayer.key, type: 'badge', badgeKey: BinderOfBeasts.key },
   ],

@@ -5,19 +5,13 @@ export const Technofreak: BadgeData = {
   type: 'history',
   key: 'technofreak',
   setTitleId: [318],
-  name: [
-    { value: 'Technofreak' },
-  ],
+  name: 'Technofreak',
   morality: 'villainous',
-  badgeText: [
-    { value: `Let's all welcome a better future through the wonders of technology!` },
-  ],
+  badgeText: `Let's all welcome a better future through the wonders of technology!`,
   links: [
     { title: 'Technofreak Badge', href: 'https://homecoming.wiki/wiki/Technofreak_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png',
   requirements: [
     {
       key: 'tech-0',

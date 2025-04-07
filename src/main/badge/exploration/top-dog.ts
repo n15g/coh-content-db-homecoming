@@ -9,9 +9,7 @@ export const TopDog: BadgeData = {
   morality: 'heroic',
   zoneKey: AtlasPark.key,
   loc: [131, 320, -319.5],
-  badgeText: [{
-    value: 'The top of Atlas\' statue is the first place many flying heroes will go.',
-  }],
+  badgeText: 'The top of Atlas\' statue is the first place many flying heroes will go.',
   notes: `Located in the Atlas Plaza neighborhood of ${zoneLink(AtlasPark)}.
 
 It is at the apex of the globe that the Atlas statue just in front of City Hall is holding.

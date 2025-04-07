@@ -4,9 +4,7 @@ export const Cliche: BadgeData = {
   type: 'ouroboros',
   key: 'cliche',
   setTitleId: [915],
-  name: [
-    { value: 'Cliché' },
-  ],
+  name: 'Cliché',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const Cliche: BadgeData = {
   links: [
     { title: 'Cliche Badge', href: 'https://homecoming.wiki/wiki/Cliche_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/cliche.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/cliche.png',
 }

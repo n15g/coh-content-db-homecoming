@@ -4,13 +4,13 @@ export const Sniper: BadgeData = {
   type: 'invention',
   key: 'sniper',
   setTitleId: [788],
-  name: [{ value: 'Sniper' }],
+  name: 'Sniper',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Recharge Rate and Interrupt Time.' }],
+  badgeText: 'You have memorized the following recipes at level 35 and 40: Recharge Rate and Interrupt Time.',
   links: [
     { title: 'Sniper Badge', href: 'https://homecoming.wiki/wiki/Sniper_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png',
   requirements: [
     {
       key: 'a',

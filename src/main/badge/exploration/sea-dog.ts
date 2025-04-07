@@ -9,10 +9,8 @@ export const SeaDog: BadgeData = {
   morality: 'heroic',
   zoneKey: StrigaIsle.key,
   loc: [-470, 0, 1020],
-  badgeText: [{
-    value: 'Port Noble\'s shipping industry has declined of late, as Paragon City\'s manufacturing has taken a hit in the wake of the Rikti War.'
-      + ' Now, with the Council plaguing Striga Isle, the situation has gone from bad to worse.',
-  }],
+  badgeText: 'Port Noble\'s shipping industry has declined of late, as Paragon City\'s manufacturing has taken a hit in the wake of the Rikti War.'
+    + ' Now, with the Council plaguing Striga Isle, the situation has gone from bad to worse.',
   notes: `Located in ${zoneLink(StrigaIsle)} at the end of a dock 440 yards east of the ferry.`,
   links: [
     { title: 'Sea Dog Badge', href: 'https://homecoming.wiki/wiki/Sea_Dog_Badge' },

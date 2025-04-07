@@ -4,9 +4,7 @@ export const Adventurous: BadgeData = {
   type: 'ouroboros',
   key: 'adventurous',
   setTitleId: [871],
-  name: [
-    { value: 'Adventurous' },
-  ],
+  name: 'Adventurous',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while under a constant Debuff.` },
@@ -16,5 +14,5 @@ export const Adventurous: BadgeData = {
   links: [
     { title: 'Adventurous Badge', href: 'https://homecoming.wiki/wiki/Adventurous_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/adventurous.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/adventurous.png',
 }

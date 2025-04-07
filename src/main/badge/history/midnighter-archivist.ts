@@ -5,19 +5,13 @@ export const MidnighterArchivist: BadgeData = {
   type: 'history',
   key: 'midnighter-archivist',
   setTitleId: [1009],
-  name: [
-    { value: 'Midnighter Archivist' },
-  ],
+  name: 'Midnighter Archivist',
   morality: 'all',
-  badgeText: [
-    { value: `You have learned the secrets of the Midnighter Club.` },
-  ],
+  badgeText: `You have learned the secrets of the Midnighter Club.`,
   links: [
     { title: 'Midnighter Archivist Badge', href: 'https://homecoming.wiki/wiki/Midnighter_Archivist_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/midnighter-archivist.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/midnighter-archivist.png',
   requirements: [
     {
       key: 'midn-0',

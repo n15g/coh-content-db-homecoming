@@ -4,9 +4,7 @@ export const Refrained: BadgeData = {
   type: 'ouroboros',
   key: 'refrained',
   setTitleId: [895],
-  name: [
-    { value: 'Refrained' },
-  ],
+  name: 'Refrained',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Travel Power Power Pools.` },
@@ -16,5 +14,5 @@ export const Refrained: BadgeData = {
   links: [
     { title: 'Refrained Badge', href: 'https://homecoming.wiki/wiki/Refrained_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/refrained.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/refrained.png',
 }

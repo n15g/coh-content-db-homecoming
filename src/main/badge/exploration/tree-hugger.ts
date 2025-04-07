@@ -9,9 +9,7 @@ export const TreeHugger: BadgeData = {
   morality: 'villainous',
   zoneKey: NervaArchipelago.key,
   loc: [-165, 12, -180],
-  badgeText: [{
-    value: `What mysterious purpose does this twisted old tree serve?`,
-  }],
+  badgeText: `What mysterious purpose does this twisted old tree serve?`,
   notes: `
 Located in ${zoneLink(NervaArchipelago)}, in the Thorn Isle neighborhood.
 

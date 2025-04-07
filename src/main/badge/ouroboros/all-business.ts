@@ -4,9 +4,7 @@ export const AllBusiness: BadgeData = {
   type: 'ouroboros',
   key: 'all-business',
   setTitleId: [890],
-  name: [
-    { value: 'All Business' },
-  ],
+  name: 'All Business',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while only using your Primary and Secondary powersets.` },
@@ -16,5 +14,5 @@ export const AllBusiness: BadgeData = {
   links: [
     { title: 'All Business Badge', href: 'https://homecoming.wiki/wiki/All_Business_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/all-business.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/all-business.png',
 }

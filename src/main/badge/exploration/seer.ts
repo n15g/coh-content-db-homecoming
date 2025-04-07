@@ -9,9 +9,7 @@ export const Seer: BadgeData = {
   morality: 'all',
   zoneKey: ImperialCity.key,
   loc: [-2838, -12, 2603],
-  badgeText: [{
-    value: 'Blind yet seeing and casting judgment yet mindless of the crime; the Seer is the instrument of control and the constant threat of the Emperor\'s displeasure.',
-  }],
+  badgeText: 'Blind yet seeing and casting judgment yet mindless of the crime; the Seer is the instrument of control and the constant threat of the Emperor\'s displeasure.',
   notes: `Located in ${zoneLink(ImperialCity)} 347 yards ENE of the Four Gables marker.`,
   links: [
     { title: 'Seer Badge', href: 'https://homecoming.wiki/wiki/Seer_Badge' },

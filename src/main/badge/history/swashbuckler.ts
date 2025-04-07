@@ -8,19 +8,13 @@ export const Swashbuckler: BadgeData = {
   type: 'history',
   key: 'swashbuckler',
   setTitleId: [315],
-  name: [
-    { value: 'Swashbuckler' },
-  ],
+  name: 'Swashbuckler',
   morality: 'villainous',
-  badgeText: [
-    { value: `Arrgh, matey! You be a mighty scholar o' piracy!` },
-  ],
+  badgeText: `Arrgh, matey! You be a mighty scholar o' piracy!`,
   links: [
     { title: 'Swashbuckler Badge', href: 'https://homecoming.wiki/wiki/Swashbuckler_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png',
   requirements: [
     {
       key: 'swas-0',

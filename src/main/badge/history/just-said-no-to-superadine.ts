@@ -8,19 +8,13 @@ export const JustSaidNoToSuperadine: BadgeData = {
   type: 'history',
   key: 'just-said-no-to-superadine',
   setTitleId: [152],
-  name: [
-    { value: 'Just Said No to Superadine' },
-  ],
+  name: 'Just Said No to Superadine',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of Superadine, the newest designer drug to plague Paragon City.` },
-  ],
+  badgeText: `You have learned the history of Superadine, the newest designer drug to plague Paragon City.`,
   links: [
     { title: 'Just Said No to Superadine Badge', href: 'https://homecoming.wiki/wiki/Just_Said_No_to_Superadine_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'just-0',

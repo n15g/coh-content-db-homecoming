@@ -4,9 +4,7 @@ export const Disruptor: BadgeData = {
   type: 'pvp',
   key: 'disruptor',
   setTitleId: [366],
-  name: [
-    { value: 'Disruptor' },
-  ],
+  name: 'Disruptor',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You\'ve taken down 50 villains in PvP.' },
@@ -16,7 +14,5 @@ export const Disruptor: BadgeData = {
   links: [
     { title: 'Disruptor Badge', href: 'https://homecoming.wiki/wiki/Disruptor_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png',
 }

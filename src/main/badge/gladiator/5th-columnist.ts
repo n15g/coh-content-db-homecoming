@@ -7,22 +7,14 @@ export const _5thColumnist: BadgeData = {
   type: 'gladiator',
   key: '5th-columnist',
   setTitleId: [612],
-  name: [
-    { value: '5th Columnist' },
-  ],
+  name: '5th Columnist',
   morality: 'all',
-  badgeText: [
-    {
-      value: 'For having both the 1st and 2nd Anniversary badges on one character, or by defeating the Reichsman, you have been granted access to a 5th Column Gladiator!',
-    },
-  ],
+  badgeText: 'For having both the 1st and 2nd Anniversary badges on one character, or by defeating the Reichsman, you have been granted access to a 5th Column Gladiator!',
   notes: `You only need to earn either the ${badgeLink(Celebrant)} and ${badgeLink(Reveler)} badges, or earn the ${badgeLink(ColumnBreaker)} badge instead.`,
   links: [
     { title: '5th Columnist Badge', href: 'https://homecoming.wiki/wiki/5th_Columnist_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Celebrant.key, type: 'badge', badgeKey: Celebrant.key },
     { key: Reveler.key, type: 'badge', badgeKey: Reveler.key },

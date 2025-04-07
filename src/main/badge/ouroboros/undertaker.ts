@@ -4,9 +4,7 @@ export const Undertaker: BadgeData = {
   type: 'ouroboros',
   key: 'undertaker',
   setTitleId: [894],
-  name: [
-    { value: 'Undertaker' },
-  ],
+  name: 'Undertaker',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while only using your Primary and Secondary powersets.` },
@@ -16,5 +14,5 @@ export const Undertaker: BadgeData = {
   links: [
     { title: 'Undertaker Badge', href: 'https://homecoming.wiki/wiki/Undertaker_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/undertaker.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/undertaker.png',
 }

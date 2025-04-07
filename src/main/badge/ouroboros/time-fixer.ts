@@ -4,16 +4,12 @@ export const TimeFixer: BadgeData = {
   type: 'ouroboros',
   key: 'time-fixer',
   setTitleId: [942],
-  name: [
-    { value: 'Time Fixer' },
-  ],
+  name: 'Time Fixer',
   morality: 'all',
-  badgeText: [
-    { value: 'You have flashed back to 45 story arcs.' },
-  ],
+  badgeText: 'You have flashed back to 45 story arcs.',
   acquisition: 'Complete 45 Flashback story arcs from the Pillar of Ice and Flame.',
   links: [
     { title: 'Time Fixer Badge', href: 'https://homecoming.wiki/wiki/Time_Fixer_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/time-fixer.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/time-fixer.png',
 }

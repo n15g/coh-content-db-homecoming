@@ -8,7 +8,7 @@ export const ThrillSeeker: BadgeData = {
   name: 'Thrill Seeker',
   morality: 'all',
   zoneKey: ArchitectEntertainmentBuildings.key,
-  badgeText: [{ value: 'You\'re always looking for new forms of entertainment, and it\'s said that the Mission Architect technology is entertainment in its purest form.' }],
+  badgeText: 'You\'re always looking for new forms of entertainment, and it\'s said that the Mission Architect technology is entertainment in its purest form.',
   notes: 'Visit any Architect Entertainment Building\'s Main Studio floor.'
     + ' The coordinates of this Exploration Badge vary with each zone, but its relative location within the AE building is constant.'
     + ' The badge is clearly visible on the floor between, and just off to the side of, the hologram contacts and Architect Entertainment Stations.',

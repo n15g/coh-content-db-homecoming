@@ -9,10 +9,9 @@ module.exports = {
         name: 'local',
       },
       rules: require('./_rules').rules,
-    }
+    },
   },
   rules: {
-    'local/single-value-alternate': ['error'],
+    'local/prefer-simple-alternate': ['error'],
   },
 }
-

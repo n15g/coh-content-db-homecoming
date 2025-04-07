@@ -4,9 +4,7 @@ export const Obligated: BadgeData = {
   type: 'ouroboros',
   key: 'obligated',
   setTitleId: [892],
-  name: [
-    { value: 'Obligated' },
-  ],
+  name: 'Obligated',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while only using your Primary and Secondary powersets.` },
@@ -16,5 +14,5 @@ export const Obligated: BadgeData = {
   links: [
     { title: 'Obligated Badge', href: 'https://homecoming.wiki/wiki/Obligated_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/obligated.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/obligated.png',
 }

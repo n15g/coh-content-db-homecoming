@@ -5,14 +5,12 @@ export const WaylonsObserver: BadgeData = {
   type: 'exploration',
   key: 'waylons-observer',
   setTitleId: [1543],
-  name: [{ value: 'Waylon\'s Observer' }],
+  name: 'Waylon\'s Observer',
   morality: 'heroic',
   zoneKey: Croatoa.key,
   loc: [2639, 10, 1500],
-  badgeText: [{
-    value: 'Waylon McCrane, an infamous adventurer in Croatoa, lives in this home.'
-      + ' Mayor Bower has asked Waylon to stay within the town limits due to the Fir Bolg, but Waylon insists that, \'no pumpkin-headed monster will tell ME where to live!\'',
-  }],
+  badgeText: 'Waylon McCrane, an infamous adventurer in Croatoa, lives in this home.'
+    + ' Mayor Bower has asked Waylon to stay within the town limits due to the Fir Bolg, but Waylon insists that, \'no pumpkin-headed monster will tell ME where to live!\'',
   notes: `
 Located in the New Connaught neighborhood of ${zoneLink(Croatoa)}.
 

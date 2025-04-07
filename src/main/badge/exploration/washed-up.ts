@@ -9,9 +9,7 @@ export const WashedUp: BadgeData = {
   morality: 'villainous',
   zoneKey: PortOakes.key,
   loc: [-3903, 16, -1369],
-  badgeText: [{
-    value: `Emil Marcone's brother was found at low tide in this particular vehicle.`,
-  }],
+  badgeText: `Emil Marcone's brother was found at low tide in this particular vehicle.`,
   notes: `
 Located in ${zoneLink(PortOakes)}, in the Fort Hades neighborhood.
 

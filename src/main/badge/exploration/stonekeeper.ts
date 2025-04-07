@@ -9,9 +9,7 @@ export const Stonekeeper: BadgeData = {
   morality: 'villainous',
   zoneKey: StMartial.key,
   loc: [-2566, 119.8, 3000.5],
-  badgeText: [{
-    value: `What strange purpose do these glyphs serve?`,
-  }],
+  badgeText: `What strange purpose do these glyphs serve?`,
   notes: `
 Located in ${zoneLink(StMartial)}, in the Babylon neighborhood.
 

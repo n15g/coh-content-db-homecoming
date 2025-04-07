@@ -4,9 +4,7 @@ export const DividedMastery: BadgeData = {
   type: 'ouroboros',
   key: 'divided-mastery',
   setTitleId: [856],
-  name: [
-    { value: 'Divided Mastery' },
-  ],
+  name: 'Divided Mastery',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "1 Defeat Allowed" for the team.` },
@@ -16,5 +14,5 @@ export const DividedMastery: BadgeData = {
   links: [
     { title: 'Divided Mastery Badge', href: 'https://homecoming.wiki/wiki/Divided_Mastery_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/divided-mastery.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/divided-mastery.png',
 }

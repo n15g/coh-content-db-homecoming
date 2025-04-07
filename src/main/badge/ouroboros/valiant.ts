@@ -4,9 +4,7 @@ export const Valiant: BadgeData = {
   type: 'ouroboros',
   key: 'valiant',
   setTitleId: [882],
-  name: [
-    { value: 'Valiant' },
-  ],
+  name: 'Valiant',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while the enemies were Buffed.` },
@@ -16,5 +14,5 @@ export const Valiant: BadgeData = {
   links: [
     { title: 'Valiant Badge', href: 'https://homecoming.wiki/wiki/Valiant_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/valiant.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/valiant.png',
 }

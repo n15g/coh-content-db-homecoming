@@ -11,7 +11,5 @@ export const AlreadyDead: BadgeData = {
   links: [
     { title: 'Already Dead Badge', href: 'https://homecoming.wiki/wiki/Already_Dead_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-tinmage.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-tinmage.png',
 }

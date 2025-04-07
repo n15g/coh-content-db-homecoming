@@ -4,9 +4,7 @@ export const Marginalized: BadgeData = {
   type: 'ouroboros',
   key: 'marginalized',
   setTitleId: [914],
-  name: [
-    { value: 'Marginalized' },
-  ],
+  name: 'Marginalized',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Epic Power Pools.` },
@@ -16,5 +14,5 @@ export const Marginalized: BadgeData = {
   links: [
     { title: 'Marginalized Badge', href: 'https://homecoming.wiki/wiki/Marginalized_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/marginalized.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/marginalized.png',
 }

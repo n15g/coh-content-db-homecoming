@@ -4,9 +4,7 @@ export const ShutDown: BadgeData = {
   type: 'ouroboros',
   key: 'shut-down',
   setTitleId: [897],
-  name: [
-    { value: 'Shut Down' },
-  ],
+  name: 'Shut Down',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while not using any Travel Power Power Pools.` },
@@ -16,5 +14,5 @@ export const ShutDown: BadgeData = {
   links: [
     { title: 'Shut Down Badge', href: 'https://homecoming.wiki/wiki/Shut_Down_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/shut-down.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/shut-down.png',
 }

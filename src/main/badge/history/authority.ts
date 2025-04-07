@@ -8,19 +8,13 @@ export const Authority: BadgeData = {
   type: 'history',
   key: 'authority',
   setTitleId: [155],
-  name: [
-    { value: 'Authority' },
-  ],
+  name: 'Authority',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of Freedom Phalanx.` },
-  ],
+  badgeText: `You have learned the history of Freedom Phalanx.`,
   links: [
     { title: 'Authority Badge', href: 'https://homecoming.wiki/wiki/Authority_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'auth-0',

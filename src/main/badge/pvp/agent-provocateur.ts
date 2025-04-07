@@ -4,9 +4,7 @@ export const AgentProvocateur: BadgeData = {
   type: 'pvp',
   key: 'agent-provocateur',
   setTitleId: [369],
-  name: [
-    { value: 'Agent Provocateur' },
-  ],
+  name: 'Agent Provocateur',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Arachnos has put you at the top of their hit list.' },
@@ -16,7 +14,5 @@ export const AgentProvocateur: BadgeData = {
   links: [
     { title: 'Agent Provocateur Badge', href: 'https://homecoming.wiki/wiki/Agent_Provocateur_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png',
 }

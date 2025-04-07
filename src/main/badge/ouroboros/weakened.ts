@@ -4,9 +4,7 @@ export const Weakened: BadgeData = {
   type: 'ouroboros',
   key: 'weakened',
   setTitleId: [928],
-  name: [
-    { value: 'Weakened' },
-  ],
+  name: 'Weakened',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while not gaining bonuses from slotted Enhancements.` },
@@ -16,5 +14,5 @@ export const Weakened: BadgeData = {
   links: [
     { title: 'Weakened Badge', href: 'https://homecoming.wiki/wiki/Weakened_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/weakened.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/weakened.png',
 }

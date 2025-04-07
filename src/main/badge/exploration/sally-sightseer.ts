@@ -9,11 +9,9 @@ export const SallySightseer: BadgeData = {
   morality: 'heroic',
   zoneKey: Croatoa.key,
   loc: [-503, -25, 1195],
-  badgeText: [{
-    value: 'Students from Croatoa University frequent this beach when it isn\'t being used as a battleground by the Tuatha and Cabal.'
-      + ' Armed with video cameras, the students are determined to get a good look at the mythical Sally.'
-      + ' The pictures taken of Sally here have been used in many \'Save Sally!\' posters.',
-  }],
+  badgeText: 'Students from Croatoa University frequent this beach when it isn\'t being used as a battleground by the Tuatha and Cabal.'
+    + ' Armed with video cameras, the students are determined to get a good look at the mythical Sally.'
+    + ' The pictures taken of Sally here have been used in many \'Save Sally!\' posters.',
   notes: `Located in the Salamanca neighborhood of ${zoneLink(Croatoa)}.
 
 It is under the easternmost umbrella on the beach, 246 yards northeast of the neighborhood marker.`,

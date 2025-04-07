@@ -8,19 +8,13 @@ export const Disciple: BadgeData = {
   type: 'history',
   key: 'disciple',
   setTitleId: [153],
-  name: [
-    { value: 'Disciple' },
-  ],
+  name: 'Disciple',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history behind the founding of Hero Corps.` },
-  ],
+  badgeText: `You have learned the history behind the founding of Hero Corps.`,
   links: [
     { title: 'Disciple Badge', href: 'https://homecoming.wiki/wiki/Disciple_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'disc-0',

@@ -4,9 +4,7 @@ export const Stalled: BadgeData = {
   type: 'ouroboros',
   key: 'stalled',
   setTitleId: [901],
-  name: [
-    { value: 'Stalled' },
-  ],
+  name: 'Stalled',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using any Travel Power Power Pools.` },
@@ -16,5 +14,5 @@ export const Stalled: BadgeData = {
   links: [
     { title: 'Stalled Badge', href: 'https://homecoming.wiki/wiki/Stalled_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/stalled.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/stalled.png',
 }

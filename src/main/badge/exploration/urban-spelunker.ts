@@ -8,9 +8,7 @@ export const UrbanSpelunker: BadgeData = {
   name: 'Urban Spelunker',
   morality: 'all',
   zoneKey: UndergroundNova.key,
-  badgeText: [{
-    value: `It takes courage and an adventurous spirit to brave the miles of corridors, tunnels, and maintenance chambers beneath Praetoria. You risk arrest by the PPD, conscription by the Resistance, or a messy end at the hands of Neuron's mistakes.`,
-  }],
+  badgeText: `It takes courage and an adventurous spirit to brave the miles of corridors, tunnels, and maintenance chambers beneath Praetoria. You risk arrest by the PPD, conscription by the Resistance, or a messy end at the hands of Neuron's mistakes.`,
   notes: `The Urban Spelunker Badge has three locations in ${zoneLink(UndergroundNova)}, all located just inside the Underground Access doors.
 
 Its coordinates are (-3094, 704, 1616), (-2976, 704, -323) and (-3839, 704, -2135). It is necessary to visit only one location to earn this badge.`,

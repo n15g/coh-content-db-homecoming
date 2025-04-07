@@ -4,9 +4,7 @@ export const Temerarious: BadgeData = {
   type: 'ouroboros',
   key: 'temerarious',
   setTitleId: [876],
-  name: [
-    { value: 'Temerarious' },
-  ],
+  name: 'Temerarious',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while under a constant Debuff.` },
@@ -16,5 +14,5 @@ export const Temerarious: BadgeData = {
   links: [
     { title: 'Temerarious Badge', href: 'https://homecoming.wiki/wiki/Temerarious_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/temerarious.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/temerarious.png',
 }

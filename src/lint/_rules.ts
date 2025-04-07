@@ -1,5 +1,5 @@
-import { singleValueAlternate } from './single-value-alternate'
+import { preferSimpleAlternate } from './prefer-simple-alternate'
 
 export const rules = {
-  'single-value-alternate': singleValueAlternate,
+  'prefer-simple-alternate': preferSimpleAlternate,
 }

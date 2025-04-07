@@ -4,9 +4,7 @@ export const Professional: BadgeData = {
   type: 'ouroboros',
   key: 'professional',
   setTitleId: [889],
-  name: [
-    { value: 'Professional' },
-  ],
+  name: 'Professional',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while only using your Primary and Secondary powersets.` },
@@ -16,5 +14,5 @@ export const Professional: BadgeData = {
   links: [
     { title: 'Professional Badge', href: 'https://homecoming.wiki/wiki/Professional_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/professional.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/professional.png',
 }

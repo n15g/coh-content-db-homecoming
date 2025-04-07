@@ -4,14 +4,14 @@ export const LordOfWar: BadgeData = {
   type: 'invention',
   key: 'lord-of-war',
   setTitleId: [799],
-  name: [{ value: 'Lord of War' }],
+  name: 'Lord of War',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Damage and Knockback.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Damage and Knockback.',
   effect: '+1 to Recipe capacity',
   links: [
     { title: 'Lord of War Badge', href: 'https://homecoming.wiki/wiki/Lord_of_War_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',

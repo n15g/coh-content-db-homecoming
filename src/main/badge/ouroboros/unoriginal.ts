@@ -4,9 +4,7 @@ export const Unoriginal: BadgeData = {
   type: 'ouroboros',
   key: 'unoriginal',
   setTitleId: [919],
-  name: [
-    { value: 'Unoriginal' },
-  ],
+  name: 'Unoriginal',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const Unoriginal: BadgeData = {
   links: [
     { title: 'Unoriginal Badge', href: 'https://homecoming.wiki/wiki/Unoriginal_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unoriginal.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/unoriginal.png',
 }

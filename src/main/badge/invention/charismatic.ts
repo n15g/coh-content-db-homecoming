@@ -4,13 +4,13 @@ export const Charismatic: BadgeData = {
   type: 'invention',
   key: 'charismatic',
   setTitleId: [778],
-  name: [{ value: 'Charismatic' }],
+  name: 'Charismatic',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 35 and 40: Sleep, Snare, Hold, Stun, Immobilize, and Fear.' }],
+  badgeText: 'You have memorized the following recipes at level 35 and 40: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   links: [
     { title: 'Charismatic Badge', href: 'https://homecoming.wiki/wiki/Charismatic_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-4.png',
   requirements: [
     {
       key: 'a',

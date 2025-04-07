@@ -5,7 +5,7 @@ export const OpheliasFinalScene: BadgeData = {
   type: 'exploration',
   key: 'ophelias-final-scene',
   setTitleId: [1776],
-  name: [{ value: `Ophelia's Final Scene` }],
+  name: `Ophelia's Final Scene`,
   morality: 'heroic',
   zoneKey: PerezPark.key,
   loc: [-1743, -32, 2567],

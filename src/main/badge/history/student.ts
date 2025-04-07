@@ -7,19 +7,13 @@ export const Student: BadgeData = {
   type: 'history',
   key: 'student',
   setTitleId: [148],
-  name: [
-    { value: 'Student' },
-  ],
+  name: 'Student',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of the Citizen Crime Fighting Act.` },
-  ],
+  badgeText: `You have learned the history of the Citizen Crime Fighting Act.`,
   links: [
     { title: 'Student Badge', href: 'https://homecoming.wiki/wiki/Student_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'stud-0',

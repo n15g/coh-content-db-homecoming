@@ -7,19 +7,13 @@ export const Academic: BadgeData = {
   type: 'history',
   key: 'academic',
   setTitleId: [159],
-  name: [
-    { value: 'Academic' },
-  ],
+  name: 'Academic',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of the successful takeover of Washington, D.C. by Nemesis.` },
-  ],
+  badgeText: `You have learned the history of the successful takeover of Washington, D.C. by Nemesis.`,
   links: [
     { title: 'Academic Badge', href: 'https://homecoming.wiki/wiki/Academic_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'acad-0',

@@ -4,9 +4,7 @@ export const KittysGotClaws: BadgeData = {
   type: 'achievement',
   key: 'kittys-got-claws',
   setTitleId: [1765],
-  name: [
-    { value: `Kitty's Got Claws` },
-  ],
+  name: `Kitty's Got Claws`,
   morality: 'all',
   badgeText: 'You saw Bobcat do something no one else has seen; fight with all her effort. Despite her best efforts, you still managed to put her down.',
   acquisition: 'In the third mission of the Tin Mage Mark II Task Force, defeat Neuron before Bobcat reaches 50% health, then defeat Bobcat',

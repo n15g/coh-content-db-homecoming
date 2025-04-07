@@ -5,19 +5,13 @@ export const Arachnoid: BadgeData = {
   type: 'gladiator',
   key: 'arachnoid',
   setTitleId: [440],
-  name: [
-    { value: 'Arachnoid' },
-  ],
+  name: 'Arachnoid',
   morality: 'villainous',
-  badgeText: [
-    { value: 'These hideous creatures obey you.' },
-  ],
+  badgeText: 'These hideous creatures obey you.',
   links: [
     { title: 'Arachnoid Badge', href: 'https://homecoming.wiki/wiki/Arachnoid_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: SewerDweller.key, type: 'badge', badgeKey: SewerDweller.key },
   ],

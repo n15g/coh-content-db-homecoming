@@ -10,19 +10,13 @@ export const Headjuiced: BadgeData = {
   type: 'history',
   key: 'headjuiced',
   setTitleId: [1413],
-  name: [
-    { value: 'Headjuiced' },
-  ],
+  name: 'Headjuiced',
   morality: 'all',
-  badgeText: [
-    { value: `You followed all the fruity crumbs and peeped the 20 lessons brought to you by the letter 'Resistance.' Whether or not you chomp-a-chomp on this tasty knowing is up to you, but now you know it's time for the other half of the battle.` },
-  ],
+  badgeText: `You followed all the fruity crumbs and peeped the 20 lessons brought to you by the letter 'Resistance.' Whether or not you chomp-a-chomp on this tasty knowing is up to you, but now you know it's time for the other half of the battle.`,
   links: [
     { title: 'Headjuiced Badge', href: 'https://homecoming.wiki/wiki/Headjuiced_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png',
   requirements: [
     {
       key: 'head-0',

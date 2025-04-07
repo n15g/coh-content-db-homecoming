@@ -4,9 +4,7 @@ export const Inhibited: BadgeData = {
   type: 'ouroboros',
   key: 'inhibited',
   setTitleId: [908],
-  name: [
-    { value: 'Inhibited' },
-  ],
+  name: 'Inhibited',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while not using any Temporary Powers.` },
@@ -16,5 +14,5 @@ export const Inhibited: BadgeData = {
   links: [
     { title: 'Inhibited Badge', href: 'https://homecoming.wiki/wiki/Inhibited_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/inhibited.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/inhibited.png',
 }

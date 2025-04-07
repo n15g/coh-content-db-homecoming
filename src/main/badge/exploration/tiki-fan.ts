@@ -9,9 +9,7 @@ export const TikiFan: BadgeData = {
   morality: 'villainous',
   zoneKey: MercyIsland.key,
   loc: [-1836, 239, 438],
-  badgeText: [{
-    value: `Larry's Tiki Lounge is known for its gambling, drinks, fun, and Tikis. And also for the occasional invasion by giant snake monsters.`,
-  }],
+  badgeText: `Larry's Tiki Lounge is known for its gambling, drinks, fun, and Tikis. And also for the occasional invasion by giant snake monsters.`,
   notes: `
 Located on ${zoneLink(MercyIsland)}, in the Mercy neighborhood.
 

@@ -4,14 +4,14 @@ export const Colonel: BadgeData = {
   type: 'invention',
   key: 'colonel',
   setTitleId: [792],
-  name: [{ value: 'Colonel' }],
+  name: 'Colonel',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 25 and 30: Accuracy and To Hit Buff.' }],
+  badgeText: 'You have memorized the following recipes at level 25 and 30: Accuracy and To Hit Buff.',
   effect: '+2 to Invention Salvage capacity',
   links: [
     { title: 'Colonel Badge', href: 'https://homecoming.wiki/wiki/Colonel_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-3.png',
   requirements: [
     {
       key: 'a',

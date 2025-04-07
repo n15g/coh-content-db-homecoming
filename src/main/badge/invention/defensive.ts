@@ -4,14 +4,14 @@ export const Defensive: BadgeData = {
   type: 'invention',
   key: 'defensive',
   setTitleId: [774],
-  name: [{ value: 'Defensive' }],
+  name: 'Defensive',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Defense Buff, Resist Damage, Intangible.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Defense Buff, Resist Damage, Intangible.',
   effect: '+1 to Recipe capacity',
   links: [
     { title: 'Defensive Badge', href: 'https://homecoming.wiki/wiki/Defensive_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',

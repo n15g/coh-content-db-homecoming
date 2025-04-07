@@ -5,19 +5,13 @@ export const NightHaunt: BadgeData = {
   type: 'gladiator',
   key: 'night-haunt',
   setTitleId: [448],
-  name: [
-    { value: 'Night Haunt' },
-  ],
+  name: 'Night Haunt',
   morality: 'villainous',
-  badgeText: [
-    { value: 'These tormented souls are bound to you.' },
-  ],
+  badgeText: 'These tormented souls are bound to you.',
   links: [
     { title: 'Night Haunt Badge', href: 'https://homecoming.wiki/wiki/Night_Haunt_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Pirate.key, type: 'badge', badgeKey: Pirate.key },
   ],

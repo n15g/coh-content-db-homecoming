@@ -4,9 +4,7 @@ export const Stalwart: BadgeData = {
   type: 'ouroboros',
   key: 'stalwart',
   setTitleId: [883],
-  name: [
-    { value: 'Stalwart' },
-  ],
+  name: 'Stalwart',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while the enemies were Buffed.` },
@@ -16,5 +14,5 @@ export const Stalwart: BadgeData = {
   links: [
     { title: 'Stalwart Badge', href: 'https://homecoming.wiki/wiki/Stalwart_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/stalwart.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/stalwart.png',
 }

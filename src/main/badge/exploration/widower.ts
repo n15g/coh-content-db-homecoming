@@ -12,7 +12,7 @@ export const Widower: BadgeData = {
   morality: 'villainous',
   zoneKey: MercyIsland.key,
   loc: [-3890, 407, 354],
-  badgeText: [{ value: 'They say that lonely tower is the home of Ghost Widow, Lord Recluse\'s phantom servant.' }],
+  badgeText: 'They say that lonely tower is the home of Ghost Widow, Lord Recluse\'s phantom servant.',
   notes: `Located on ${zoneLink(MercyIsland)}, outside the door of the very tall tower in the northeast corner of Fort Cerberus.`,
   links: [
     { title: 'Widower Badge', href: 'https://homecoming.wiki/wiki/Widower_Badge' },

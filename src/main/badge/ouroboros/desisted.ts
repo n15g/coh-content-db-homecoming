@@ -4,9 +4,7 @@ export const Desisted: BadgeData = {
   type: 'ouroboros',
   key: 'desisted',
   setTitleId: [898],
-  name: [
-    { value: 'Desisted' },
-  ],
+  name: 'Desisted',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.` },
@@ -16,5 +14,5 @@ export const Desisted: BadgeData = {
   links: [
     { title: 'Desisted Badge', href: 'https://homecoming.wiki/wiki/Desisted_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/desisted.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/desisted.png',
 }

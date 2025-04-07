@@ -4,9 +4,7 @@ export const Demarcated: BadgeData = {
   type: 'ouroboros',
   key: 'demarcated',
   setTitleId: [912],
-  name: [
-    { value: 'Demarcated' },
-  ],
+  name: 'Demarcated',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Temporary Powers.` },
@@ -16,5 +14,5 @@ export const Demarcated: BadgeData = {
   links: [
     { title: 'Demarcated Badge', href: 'https://homecoming.wiki/wiki/Demarcated_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/demarcated.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/demarcated.png',
 }

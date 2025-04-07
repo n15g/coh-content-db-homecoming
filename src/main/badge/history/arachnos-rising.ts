@@ -8,19 +8,13 @@ export const ArachnosRising: BadgeData = {
   type: 'history',
   key: 'arachnos-rising',
   setTitleId: [316],
-  name: [
-    { value: 'Arachnos Rising' },
-  ],
+  name: 'Arachnos Rising',
   morality: 'villainous',
-  badgeText: [
-    { value: `Know your friends -- but know your rivals even better.` },
-  ],
+  badgeText: `Know your friends -- but know your rivals even better.`,
   links: [
     { title: 'Arachnos Rising Badge', href: 'https://homecoming.wiki/wiki/Arachnos_Rising_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-v.png',
   requirements: [
     {
       key: 'arac-0',

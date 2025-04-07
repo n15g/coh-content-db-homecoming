@@ -5,19 +5,13 @@ export const PariahAnchorite: BadgeData = {
   type: 'gladiator',
   key: 'pariah-anchorite',
   setTitleId: [499],
-  name: [
-    { value: 'Pariah Anchorite' },
-  ],
+  name: 'Pariah Anchorite',
   morality: 'heroic',
-  badgeText: [
-    { value: 'Now the Lost fear your power!' },
-  ],
+  badgeText: 'Now the Lost fear your power!',
   links: [
     { title: 'Pariah Anchorite Badge', href: 'https://homecoming.wiki/wiki/Pariah_Anchorite_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Intellectual.key, type: 'badge', badgeKey: Intellectual.key },
   ],

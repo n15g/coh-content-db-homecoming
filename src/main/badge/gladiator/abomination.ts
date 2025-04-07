@@ -6,19 +6,13 @@ export const Abomination: BadgeData = {
   type: 'gladiator',
   key: 'abomination',
   setTitleId: [479],
-  name: [
-    { value: 'Abomination' },
-  ],
+  name: 'Abomination',
   morality: 'heroic',
-  badgeText: [
-    { value: 'The Vahzilok fear you.' },
-  ],
+  badgeText: 'The Vahzilok fear you.',
   links: [
     { title: 'Abomination Badge', href: 'https://homecoming.wiki/wiki/Abomination_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: SynapsesCohort.key, type: 'badge', badgeKey: BinderOfBeasts.key },
   ],

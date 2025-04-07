@@ -9,9 +9,7 @@ export const TheNextBigThing: BadgeData = {
   morality: 'villainous',
   zoneKey: MercyIsland.key,
   loc: [-1215, 239, -153],
-  badgeText: [{
-    value: `This is the good life. The higher up you get, the bigger you are.`,
-  }],
+  badgeText: `This is the good life. The higher up you get, the bigger you are.`,
   notes: `
 Located on ${zoneLink(MercyIsland)}, just inside the Mercy neighborhood at the top of the high wall surrounding it.
 

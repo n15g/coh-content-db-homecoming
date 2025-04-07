@@ -4,9 +4,7 @@ export const Reinforcement: BadgeData = {
   type: 'pvp',
   key: 'reinforcement',
   setTitleId: [364],
-  name: [
-    { value: 'Reinforcement' },
-  ],
+  name: 'Reinforcement',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You\'ve taken down 20 villains in PvP.' },
@@ -16,7 +14,5 @@ export const Reinforcement: BadgeData = {
   links: [
     { title: 'Reinforcement Badge', href: 'https://homecoming.wiki/wiki/Reinforcement_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png',
 }

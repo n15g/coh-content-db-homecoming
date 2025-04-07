@@ -9,9 +9,7 @@ export const WatcherOnTheKnoll: BadgeData = {
   morality: 'villainous',
   zoneKey: NervaArchipelago.key,
   loc: [-93, 85, 5434],
-  badgeText: [{
-    value: `A failed assassination on Ms. Liberty was made from the top of this pillar.`,
-  }],
+  badgeText: `A failed assassination on Ms. Liberty was made from the top of this pillar.`,
   notes: `
 Located in ${zoneLink(NervaArchipelago)}, in the northernmost island of the Crimson Cove neighborhood.
 

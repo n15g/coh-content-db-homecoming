@@ -12,7 +12,7 @@ export const WeaponInspector: BadgeData = {
   morality: 'all',
   zoneKey: Warburg.key,
   loc: [-768, 144, 0],
-  badgeText: [{ value: 'Warburg is home to many a nefarious ploy. Recluse\'s VENOM rocket is one of the most blatant.' }],
+  badgeText: 'Warburg is home to many a nefarious ploy. Recluse\'s VENOM rocket is one of the most blatant.',
   notes: `The Weapon Inspector badge is located in ${zoneLink(Warburg)}, in the center of the top of the western scaffolding surrounding the missile silo.`,
   links: [
     { title: 'Weapon Inspector Badge', href: 'https://homecoming.wiki/wiki/Weapon_Inspector_Badge' },

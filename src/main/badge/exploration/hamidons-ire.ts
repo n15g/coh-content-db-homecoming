@@ -6,7 +6,7 @@ export const HamidonsIre: BadgeData = {
   type: 'exploration',
   key: 'hamidons-ire',
   setTitleId: [1865],
-  name: [{ value: 'Hamidon\'s Ire' }],
+  name: 'Hamidon\'s Ire',
   morality: 'all',
   zoneKey: TheAbyss.key,
   loc: [-823, -43, -1183],

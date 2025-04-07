@@ -6,19 +6,13 @@ export const Scholastic: BadgeData = {
   type: 'history',
   key: 'scholastic',
   setTitleId: [158],
-  name: [
-    { value: 'Scholastic' },
-  ],
+  name: 'Scholastic',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of Dr. Webb smashing the Dimensional Barrier.` },
-  ],
+  badgeText: `You have learned the history of Dr. Webb smashing the Dimensional Barrier.`,
   links: [
     { title: 'Scholastic Badge', href: 'https://homecoming.wiki/wiki/Scholastic_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'schs-0',

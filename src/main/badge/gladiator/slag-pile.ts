@@ -5,19 +5,13 @@ export const SlagPile: BadgeData = {
   type: 'gladiator',
   key: 'slag-pile',
   setTitleId: [468],
-  name: [
-    { value: 'Slag Pile' },
-  ],
+  name: 'Slag Pile',
   morality: 'villainous',
-  badgeText: [
-    { value: 'Hmm, maybe these reeking piles of junk are useful.' },
-  ],
+  badgeText: 'Hmm, maybe these reeking piles of junk are useful.',
   links: [
     { title: 'Slag Pile Badge', href: 'https://homecoming.wiki/wiki/Slag_Pile_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: SlagReaper.key, type: 'badge', badgeKey: SlagReaper.key },
   ],

@@ -5,19 +5,13 @@ export const ChiefSwiper: BadgeData = {
   type: 'gladiator',
   key: 'chief-swiper',
   setTitleId: [483],
-  name: [
-    { value: 'Chief Swiper' },
-  ],
+  name: 'Chief Swiper',
   morality: 'heroic',
-  badgeText: [
-    { value: 'Freaks just love to fight -- even for you.' },
-  ],
+  badgeText: 'Freaks just love to fight -- even for you.',
   links: [
     { title: 'Chief Swiper Badge', href: 'https://homecoming.wiki/wiki/Chief_Swiper_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Pwnz.key, type: 'badge', badgeKey: Pwnz.key },
   ],

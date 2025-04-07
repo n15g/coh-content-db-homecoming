@@ -13,11 +13,9 @@ export const TheUnderlord: BadgeData = {
   morality: 'heroic',
   zoneKey: AbandonedSewerNetwork.key,
   loc: [2688, 0, 2240],
-  badgeText: [{
-    value: 'In King\'s Row, where life is hard and opportunities few, competition for resources can be fierce.'
-      + ' But down here, someone of rare vision could carve out a niche for themselves; dominating the creatures who call this part of the sewer home or using the network\'s ability to touch'
-      + ' every part of the city as a means to carry out all kinds of business out of the eyes of the authorities.',
-  }],
+  badgeText: 'In King\'s Row, where life is hard and opportunities few, competition for resources can be fierce.'
+    + ' But down here, someone of rare vision could carve out a niche for themselves; dominating the creatures who call this part of the sewer home or using the network\'s ability to touch'
+    + ' every part of the city as a means to carry out all kinds of business out of the eyes of the authorities.',
   notes: `Located in ${zoneLink(AbandonedSewerNetwork)} 84 feet northeast of the ${zoneLink(SewerNetwork)} transfer point in Kings Row Sector, right at the exit of the room.`,
   links: [
     { title: 'The Underlord Badge', href: 'https://homecoming.wiki/wiki/The_Underlord_Badge' },

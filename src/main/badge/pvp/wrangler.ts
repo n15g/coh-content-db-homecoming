@@ -4,18 +4,12 @@ export const Wrangler: BadgeData = {
   type: 'pvp',
   key: 'wrangler',
   setTitleId: [581],
-  name: [
-    { value: 'Wrangler' },
-  ],
+  name: 'Wrangler',
   morality: 'heroic',
-  badgeText: [
-    { value: 'You have helped defeat Black Scorpion in Recluse\'s Victory.' },
-  ],
+  badgeText: 'You have helped defeat Black Scorpion in Recluse\'s Victory.',
   acquisition: 'Defeat Black Scorpion in Recluse\'s Victory',
   links: [
     { title: 'Wrangler Badge', href: 'https://homecoming.wiki/wiki/Wrangler_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/wrangler.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/wrangler.png',
 }

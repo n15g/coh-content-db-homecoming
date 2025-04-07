@@ -20,5 +20,5 @@ export const ArachnosTraitor: BadgeData = {
     { title: 'Arachnos Official Badge', href: 'https://homecoming.wiki/wiki/Arachnos_Official_Badge' },
     { title: 'Day Jobs', href: 'https://homecoming.wiki/wiki/Day_Jobs' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/arachnos-traitor.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/day-job/arachnos-traitor.png',
 }

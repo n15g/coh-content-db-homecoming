@@ -4,9 +4,7 @@ export const Anemic: BadgeData = {
   type: 'ouroboros',
   key: 'anemic',
   setTitleId: [927],
-  name: [
-    { value: 'Anemic' },
-  ],
+  name: 'Anemic',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not gaining bonuses from slotted Enhancements.` },
@@ -16,5 +14,5 @@ export const Anemic: BadgeData = {
   links: [
     { title: 'Anemic Badge', href: 'https://homecoming.wiki/wiki/Anemic_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/anemic.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/anemic.png',
 }

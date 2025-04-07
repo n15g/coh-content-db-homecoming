@@ -4,9 +4,7 @@ export const Indifferent: BadgeData = {
   type: 'ouroboros',
   key: 'indifferent',
   setTitleId: [922],
-  name: [
-    { value: 'Indifferent' },
-  ],
+  name: 'Indifferent',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const Indifferent: BadgeData = {
   links: [
     { title: 'Indifferent Badge', href: 'https://homecoming.wiki/wiki/Indifferent_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/indifferent.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/indifferent.png',
 }

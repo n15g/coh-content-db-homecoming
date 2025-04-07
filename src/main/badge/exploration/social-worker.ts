@@ -12,9 +12,7 @@ export const SocialWorker: BadgeData = {
   morality: 'villainous',
   zoneKey: StMartial.key,
   loc: [-202, -74, -852],
-  badgeText: [{
-    value: `These slums are known to house people who have lost everything at the Golden Giza. These wanderers have become large enough in numbers to form their own community.`,
-  }],
+  badgeText: `These slums are known to house people who have lost everything at the Golden Giza. These wanderers have become large enough in numbers to form their own community.`,
   notes: `Located in ${zoneLink(StMartial)}, in the Black Mariah neighborhood.
 
 It is at the entrance of the underground slums 185 yards northeast of the neighborhood marker.`,

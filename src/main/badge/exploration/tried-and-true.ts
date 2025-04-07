@@ -6,9 +6,7 @@ export const TriedAndTrue: BadgeData = {
   setTitleId: [2370],
   name: 'Tried and True',
   morality: 'heroic',
-  badgeText: [{
-    value: `When the Omega Team accepted their mission to the Rikti home dimension, they knew they likely wouldn't be coming back. You have protected their memorial through many trials, staying true to the end.`,
-  }],
+  badgeText: `When the Omega Team accepted their mission to the Rikti home dimension, they knew they likely wouldn't be coming back. You have protected their memorial through many trials, staying true to the end.`,
   notes: `Visit the Omega Team memorial plaques in three separate instances:
 
 * The open-world Memorial in Atlas Park City Hall (66.0, -634.2, -681.9).

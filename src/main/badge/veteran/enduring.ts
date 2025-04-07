@@ -4,14 +4,12 @@ export const Enduring: BadgeData = {
   type: 'veteran',
   key: 'enduring',
   setTitleId: [1279],
-  name: [
-    { value: 'Enduring' },
-  ],
+  name: 'Enduring',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `This world is in a state of constant change, but there's one thing people can count on: you. You have attained sixty-six Veteran levels.` },
     { alignment: 'villain', value: `This world is in a state of constant change, but there's one thing that people will always fear: you. You have attained sixty-six Veteran levels.` },
   ],
   acquisition: 'Reach Veteran level 66',
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-66.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-66.png',
 }

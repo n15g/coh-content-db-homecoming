@@ -9,7 +9,7 @@ export const Sparky: BadgeData = {
   morality: 'villainous',
   zoneKey: CapAuDiable.key,
   loc: [-2432, 294, -1248],
-  badgeText: [{ value: 'You\'ve spent time wandering around in the Power Transport System at Mount Diable.' }],
+  badgeText: 'You\'ve spent time wandering around in the Power Transport System at Mount Diable.',
   notes: 'The Sparky Badge is in the Power Transport System station in Mount Diable in Cap au Diable.'
     + ' There is a building with two large electrical quad-towers on it.'
     + ' The badge marker is on top of the building right in the middle of those two towers.',

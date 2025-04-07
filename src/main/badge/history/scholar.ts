@@ -8,19 +8,13 @@ export const Scholar: BadgeData = {
   type: 'history',
   key: 'scholar',
   setTitleId: [151],
-  name: [
-    { value: 'Scholar' },
-  ],
+  name: 'Scholar',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of Back Alley Brawler's war on drugs in Paragon City.` },
-  ],
+  badgeText: `You have learned the history of Back Alley Brawler's war on drugs in Paragon City.`,
   links: [
     { title: 'Scholar Badge', href: 'https://homecoming.wiki/wiki/Scholar_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'schr-0',

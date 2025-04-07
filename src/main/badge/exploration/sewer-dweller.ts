@@ -9,9 +9,7 @@ export const SewerDweller: BadgeData = {
   morality: 'villainous',
   zoneKey: Grandville.key,
   loc: [2682, -443, -731],
-  badgeText: [{
-    value: `A new low, even for a villain, you've stumbled through the very very bottom of Grandville in the area known as 'The Gutter.'`,
-  }],
+  badgeText: `A new low, even for a villain, you've stumbled through the very very bottom of Grandville in the area known as 'The Gutter.'`,
   notes: `Located in ${zoneLink(Grandville)}, in The Gutter neighborhood of Grandville.
 
 It is on top of a sewer pipe located 216 yards northeast of The Gutter marker.`,

@@ -21,7 +21,5 @@ export const RedeemedBlackguard: BadgeData = {
     { title: 'Redeemed Blackguard Badge', href: 'https://homecoming.wiki/wiki/Redeemed_Blackguard_Badge' },
     { title: 'Blackguard Badge', href: 'https://homecoming.wiki/wiki/Blackguard_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatstatesman.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatstatesman.png',
 }

@@ -8,19 +8,13 @@ export const Intellectual: BadgeData = {
   type: 'history',
   key: 'intellectual',
   setTitleId: [150],
-  name: [
-    { value: 'Intellectual' },
-  ],
+  name: 'Intellectual',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of the Lost's attempt to control the minds of Paragon City's people.` },
-  ],
+  badgeText: `You have learned the history of the Lost's attempt to control the minds of Paragon City's people.`,
   links: [
     { title: 'Intellectual Badge', href: 'https://homecoming.wiki/wiki/Intellectual_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'inte-0',

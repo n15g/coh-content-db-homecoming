@@ -9,7 +9,7 @@ export const Steamed: BadgeData = {
   morality: 'villainous',
   zoneKey: CapAuDiable.key,
   loc: [-2426, 224, -472],
-  badgeText: [{ value: 'Volcanic activity around Mount Diable causes a lot of steamy venting. Watch out or it\'s lobster time.' }],
+  badgeText: 'Volcanic activity around Mount Diable causes a lot of steamy venting. Watch out or it\'s lobster time.',
   notes: 'The badge marker is 88 feet southeast of the Mount Diable marker. It is located just east of a couple of towers holding up large pipes.',
   links: [
     { title: 'Steamed Badge', href: 'https://homecoming.wiki/wiki/Steamed_Badge' },

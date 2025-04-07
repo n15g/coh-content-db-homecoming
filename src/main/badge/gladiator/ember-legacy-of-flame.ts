@@ -4,9 +4,7 @@ export const EmberLegacyOfFlame: BadgeData = {
   type: 'gladiator',
   key: 'ember-legacy-of-flame',
   setTitleId: [464],
-  name: [
-    { value: 'Ember Legacy of Flame' },
-  ],
+  name: 'Ember Legacy of Flame',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'The Legacy Chain respects you.' },
@@ -17,7 +15,5 @@ export const EmberLegacyOfFlame: BadgeData = {
   links: [
     { title: 'Ember Legacy of Flame Badge', href: 'https://homecoming.wiki/wiki/Ember_Legacy_of_Flame_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
 }

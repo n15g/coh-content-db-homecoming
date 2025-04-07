@@ -5,9 +5,7 @@ export const LongbowRifleman: BadgeData = {
   type: 'gladiator',
   key: 'longbow-rifleman',
   setTitleId: [454],
-  name: [
-    { value: 'Longbow Rifleman' },
-  ],
+  name: 'Longbow Rifleman',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'Longbow counts you as an ally.' },
@@ -16,9 +14,7 @@ export const LongbowRifleman: BadgeData = {
   links: [
     { title: 'Longbow Rifleman Badge', href: 'https://homecoming.wiki/wiki/Longbow_Rifleman_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: LockedAndLoaded.key, type: 'badge', badgeKey: LockedAndLoaded.key },
   ],

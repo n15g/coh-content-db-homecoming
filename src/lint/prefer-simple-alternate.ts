@@ -4,11 +4,11 @@ import { BadgeData } from 'coh-content-db'
 
 const checkedFields: Set<string> = new Set<keyof BadgeData>(['name', 'badgeText', 'icon'])
 
-export const singleValueAlternate = createRule({
+export const preferSimpleAlternate = createRule({
   name: 'single-value-alternate',
   meta: {
     docs: {
-      description: 'Detect unnecessary wrapping of values for alternates.',
+      description: 'Detect unnecessary wrapping of single values for alternates.',
     },
     messages: {
       replaceWithSingleValue: 'Use the value directly when there is only a single value.',
@@ -40,7 +40,7 @@ export const singleValueAlternate = createRule({
             },
           })
         }
-      }
+      },
     }
   },
 })

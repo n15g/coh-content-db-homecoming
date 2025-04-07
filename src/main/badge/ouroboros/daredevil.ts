@@ -4,9 +4,7 @@ export const Daredevil: BadgeData = {
   type: 'ouroboros',
   key: 'daredevil',
   setTitleId: [872],
-  name: [
-    { value: 'Daredevil' },
-  ],
+  name: 'Daredevil',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while under a constant Debuff.` },
@@ -16,5 +14,5 @@ export const Daredevil: BadgeData = {
   links: [
     { title: 'Daredevil Badge', href: 'https://homecoming.wiki/wiki/Daredevil_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/daredevil.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/daredevil.png',
 }

@@ -5,9 +5,7 @@ export const LongbowDefender: BadgeData = {
   type: 'gladiator',
   key: 'longbow-defender',
   setTitleId: [460],
-  name: [
-    { value: 'Longbow Defender' },
-  ],
+  name: 'Longbow Defender',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Longbow counts you as an ally.' },
@@ -16,9 +14,7 @@ export const LongbowDefender: BadgeData = {
   links: [
     { title: 'Longbow Defender Badge', href: 'https://homecoming.wiki/wiki/Longbow_Warden_2_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Disruptor.key, type: 'badge', badgeKey: Disruptor.key },
   ],

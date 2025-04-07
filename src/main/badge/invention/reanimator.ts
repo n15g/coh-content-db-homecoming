@@ -4,14 +4,14 @@ export const Reanimator: BadgeData = {
   type: 'invention',
   key: 'reanimator',
   setTitleId: [769],
-  name: [{ value: 'Reanimator' }],
+  name: 'Reanimator',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Heal.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Heal.',
   effect: '+1 to Recipe capacity',
   links: [
     { title: 'Reanimator Badge', href: 'https://homecoming.wiki/wiki/Reanimator_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',

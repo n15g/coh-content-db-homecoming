@@ -4,16 +4,12 @@ export const Overhauler: BadgeData = {
   type: 'ouroboros',
   key: 'overhauler',
   setTitleId: [941],
-  name: [
-    { value: 'Overhauler' },
-  ],
+  name: 'Overhauler',
   morality: 'all',
-  badgeText: [
-    { value: 'You have flashed back to 40 story arcs.' },
-  ],
+  badgeText: 'You have flashed back to 40 story arcs.',
   acquisition: 'Complete 40 Flashback story arcs from the Pillar of Ice and Flame.',
   links: [
     { title: 'Overhauler Badge', href: 'https://homecoming.wiki/wiki/Overhauler_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/overhauler.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/overhauler.png',
 }

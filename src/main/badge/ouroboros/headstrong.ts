@@ -4,9 +4,7 @@ export const Headstrong: BadgeData = {
   type: 'ouroboros',
   key: 'headstrong',
   setTitleId: [870],
-  name: [
-    { value: 'Headstrong' },
-  ],
+  name: 'Headstrong',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while under a constant Debuff.` },
@@ -16,5 +14,5 @@ export const Headstrong: BadgeData = {
   links: [
     { title: 'Headstrong Badge', href: 'https://homecoming.wiki/wiki/Headstrong_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/headstrong.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/headstrong.png',
 }

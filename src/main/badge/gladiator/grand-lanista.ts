@@ -4,9 +4,7 @@ export const GrandLanista: BadgeData = {
   type: 'gladiator',
   key: 'grand-lanista',
   setTitleId: [474],
-  name: [
-    { value: 'Grand Lanista' },
-  ],
+  name: 'Grand Lanista',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Continued success has earned you fame as a manager of gladiators.' },
@@ -16,7 +14,5 @@ export const GrandLanista: BadgeData = {
   links: [
     { title: 'Grand Lanista Badge', href: 'https://homecoming.wiki/wiki/Grand_Lanista_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
 }

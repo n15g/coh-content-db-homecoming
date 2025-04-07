@@ -9,7 +9,7 @@ export const Trucker: BadgeData = {
   morality: 'all',
   zoneKey: PocketD.key,
   loc: [200, -3, -1101],
-  badgeText: [{ value: 'You\'ve visited the floating truck in Pocket D.' }],
+  badgeText: 'You\'ve visited the floating truck in Pocket D.',
   notes: 'On the floating truck outside of Pocket D.\n'
     + '\n'
     + 'From the Chalet island, a character will need to fly, teleport, or super jump to reach the truck.\n'

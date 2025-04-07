@@ -6,19 +6,13 @@ export const Caliban: BadgeData = {
   type: 'gladiator',
   key: 'caliban',
   setTitleId: [481],
-  name: [
-    { value: 'Caliban' },
-  ],
+  name: 'Caliban',
   morality: 'all',
-  badgeText: [
-    { value: 'The Trolls respect your might.' },
-  ],
+  badgeText: 'The Trolls respect your might.',
   links: [
     { title: 'Caliban Badge', href: 'https://homecoming.wiki/wiki/Caliban_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Regenerator.key, type: 'badge', badgeKey: BinderOfBeasts.key },
   ],

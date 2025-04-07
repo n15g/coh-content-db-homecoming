@@ -4,9 +4,7 @@ export const Missionary: BadgeData = {
   type: 'ouroboros',
   key: 'missionary',
   setTitleId: [893],
-  name: [
-    { value: 'Missionary' },
-  ],
+  name: 'Missionary',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while only using your Primary and Secondary powersets.` },
@@ -16,5 +14,5 @@ export const Missionary: BadgeData = {
   links: [
     { title: 'Missionary Badge', href: 'https://homecoming.wiki/wiki/Missionary_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/missionary.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/missionary.png',
 }

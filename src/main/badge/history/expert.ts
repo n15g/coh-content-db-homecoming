@@ -7,19 +7,13 @@ export const Expert: BadgeData = {
   type: 'history',
   key: 'expert',
   setTitleId: [149],
-  name: [
-    { value: 'Expert' },
-  ],
+  name: 'Expert',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of the Might for Right Act.` },
-  ],
+  badgeText: `You have learned the history of the Might for Right Act.`,
   links: [
     { title: 'Expert Badge', href: 'https://homecoming.wiki/wiki/Expert_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'expe-0',

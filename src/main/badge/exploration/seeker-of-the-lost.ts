@@ -11,13 +11,11 @@ export const SeekerOfTheLost: BadgeData = {
   morality: 'heroic',
   zoneKey: SewerNetwork.key,
   loc: [576, -576, -1537],
-  badgeText: [{
-    value: `
+  badgeText: `
 Reviled. Spat upon. Shunned by the 'norms,' the Lost are truly a pitiable breed.
 Were it not for their great hostility or their powerful salvaged Rikti weapons, you could even feel sympathy for them.
 Your campaign against them serves the purpose of thwarting their more dangerous plans while also acting as a disincentive for those among their ranks whose loyalty may be wavering.
 If your attacks can convince even a small number to quit and seek out legitimate help, then you've done your job.`,
-  }],
   notes: `On the map, the badge is roughly equidistant from the ${zoneLink(SteelCanyon)} Sector, ${zoneLink(Boomtown)} Sector and Underworld markers.
 It is in the middle of the junction connecting those three neighborhoods.`,
   links: [

@@ -6,19 +6,13 @@ export const Digger: BadgeData = {
   type: 'history',
   key: 'digger',
   setTitleId: [190],
-  name: [
-    { value: 'Digger' },
-  ],
+  name: 'Digger',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history behind the Hollowing.` },
-  ],
+  badgeText: `You have learned the history behind the Hollowing.`,
   links: [
     { title: 'Digger Badge', href: 'https://homecoming.wiki/wiki/Digger_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'digg-0',

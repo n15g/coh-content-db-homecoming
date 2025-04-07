@@ -4,13 +4,13 @@ export const Blinding: BadgeData = {
   type: 'invention',
   key: 'blinding',
   setTitleId: [775],
-  name: [{ value: 'Blinding' }],
+  name: 'Blinding',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 10: Sleep, Snare, Hold, Stun, Immobilize, and Fear.' }],
+  badgeText: 'You have memorized the following recipes at level 10: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   links: [
     { title: 'Blinding Badge', href: 'https://homecoming.wiki/wiki/Blinding_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png',
   requirements: [
     {
       key: 'a',

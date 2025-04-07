@@ -4,9 +4,7 @@ export const Bound: BadgeData = {
   type: 'ouroboros',
   key: 'bound',
   setTitleId: [910],
-  name: [
-    { value: 'Bound' },
-  ],
+  name: 'Bound',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using any Temporary Powers.` },
@@ -16,5 +14,5 @@ export const Bound: BadgeData = {
   links: [
     { title: 'Bound Badge', href: 'https://homecoming.wiki/wiki/Bound_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/bound.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/bound.png',
 }

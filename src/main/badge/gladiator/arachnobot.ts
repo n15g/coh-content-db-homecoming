@@ -5,19 +5,13 @@ export const Arachnobot: BadgeData = {
   type: 'gladiator',
   key: 'arachnobot',
   setTitleId: [453],
-  name: [
-    { value: 'Arachnobot' },
-  ],
+  name: 'Arachnobot',
   morality: 'villainous',
-  badgeText: [
-    { value: 'Password accepted. This unit will obey.' },
-  ],
+  badgeText: 'Password accepted. This unit will obey.',
   links: [
     { title: 'Arachnobot Badge', href: 'https://homecoming.wiki/wiki/Arachnobot_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: AgentOfDiscord.key, type: 'badge', badgeKey: AgentOfDiscord.key },
   ],

@@ -8,19 +8,13 @@ export const Historian: BadgeData = {
   type: 'history',
   key: 'historian',
   setTitleId: [154],
-  name: [
-    { value: 'Historian' },
-  ],
+  name: 'Historian',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of the U.N. Special Council on Superhuman Activities.` },
-  ],
+  badgeText: `You have learned the history of the U.N. Special Council on Superhuman Activities.`,
   links: [
     { title: 'Historian Badge', href: 'https://homecoming.wiki/wiki/Historian_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'hist-0',

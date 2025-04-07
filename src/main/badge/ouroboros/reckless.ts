@@ -4,9 +4,7 @@ export const Reckless: BadgeData = {
   type: 'ouroboros',
   key: 'reckless',
   setTitleId: [875],
-  name: [
-    { value: 'Reckless' },
-  ],
+  name: 'Reckless',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while under a constant Debuff.` },
@@ -16,5 +14,5 @@ export const Reckless: BadgeData = {
   links: [
     { title: 'Reckless Badge', href: 'https://homecoming.wiki/wiki/Reckless_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/reckless.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/reckless.png',
 }

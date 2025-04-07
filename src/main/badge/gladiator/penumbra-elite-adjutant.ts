@@ -5,19 +5,13 @@ export const PenumbraEliteAdjutant: BadgeData = {
   type: 'gladiator',
   key: 'penumbra-elite-adjutant',
   setTitleId: [492],
-  name: [
-    { value: 'Penumbra Elite Adjutant' },
-  ],
+  name: 'Penumbra Elite Adjutant',
   morality: 'heroic',
-  badgeText: [
-    { value: 'You\'ve beat down the Council and now they fear you.' },
-  ],
+  badgeText: 'You\'ve beat down the Council and now they fear you.',
   links: [
     { title: 'Penumbra Elite Adjutant Badge', href: 'https://homecoming.wiki/wiki/Penumbra_Elite_Adjutant_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: SuperSpy.key, type: 'badge', badgeKey: SuperSpy.key },
   ],

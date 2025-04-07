@@ -4,9 +4,7 @@ export const Curtailed: BadgeData = {
   type: 'ouroboros',
   key: 'curtailed',
   setTitleId: [906],
-  name: [
-    { value: 'Curtailed' },
-  ],
+  name: 'Curtailed',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while not using any Temporary Powers.` },
@@ -16,5 +14,5 @@ export const Curtailed: BadgeData = {
   links: [
     { title: 'Curtailed Badge', href: 'https://homecoming.wiki/wiki/Curtailed_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/curtailed.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/curtailed.png',
 }

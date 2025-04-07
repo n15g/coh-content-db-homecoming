@@ -21,7 +21,5 @@ export const Vigilante: BadgeData = {
     { title: 'Vigilante Badge', href: 'https://homecoming.wiki/wiki/Vigilante_Badge' },
     { title: 'Wanted Badge', href: 'https://homecoming.wiki/wiki/Wanted_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png',
 }

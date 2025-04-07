@@ -9,12 +9,10 @@ export const TheWoundedEarth: BadgeData = {
   morality: 'heroic',
   zoneKey: TheHive.key,
   loc: [1550, 84, -4165],
-  badgeText: [{
-    value: `
+  badgeText: `
 You can sense a palpable anger radiating from the Devouring Earth when you stand upon this, the last remnant of mankind's creation in Hamidon's pristine garden.
 The Devouring Earth do not hold back their thoughts about this place: it is a scab, a wound, an affront.
 When you look at the green sward blanketing the land around you, it is hard not to feel something akin to that, looking down at the rusting hulks and decaying metal beneath your feet.`,
-  }],
   notes: `Located in ${zoneLink(TheHive)} 1.02 miles from the Eden transfer point, in the center of the southern edge of the elongated building.`,
   links: [
     { title: 'The Wounded Earth Badge', href: 'https://homecoming.wiki/wiki/The_Wounded_Earth_Badge' },

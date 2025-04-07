@@ -4,9 +4,7 @@ export const Audacious: BadgeData = {
   type: 'ouroboros',
   key: 'audacious',
   setTitleId: [877],
-  name: [
-    { value: 'Audacious' },
-  ],
+  name: 'Audacious',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while the enemies were Buffed.` },
@@ -16,5 +14,5 @@ export const Audacious: BadgeData = {
   links: [
     { title: 'Audacious Badge', href: 'https://homecoming.wiki/wiki/Audacious_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/audacious.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/audacious.png',
 }

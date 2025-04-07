@@ -4,9 +4,7 @@ export const ForwardObserver: BadgeData = {
   type: 'pvp',
   key: 'forward-observer',
   setTitleId: [365],
-  name: [
-    { value: 'Forward Observer' },
-  ],
+  name: 'Forward Observer',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You\'ve taken down 10 villains in PvP.' },
@@ -16,7 +14,5 @@ export const ForwardObserver: BadgeData = {
   links: [
     { title: 'Forward Observer Badge', href: 'https://homecoming.wiki/wiki/Forward_Observer_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/pvp-defeats.png',
 }

@@ -4,14 +4,14 @@ export const General: BadgeData = {
   type: 'invention',
   key: 'general',
   setTitleId: [794],
-  name: [{ value: 'General' }],
+  name: 'General',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Accuracy and To Hit Buff.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Accuracy and To Hit Buff.',
   effect: '+1 to Recipe capacity',
   links: [
     { title: 'General Badge', href: 'https://homecoming.wiki/wiki/General_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',

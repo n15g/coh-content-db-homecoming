@@ -4,9 +4,7 @@ export const Debilitated: BadgeData = {
   type: 'ouroboros',
   key: 'debilitated',
   setTitleId: [926],
-  name: [
-    { value: 'Debilitated' },
-  ],
+  name: 'Debilitated',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while not gaining bonuses from slotted Enhancements.` },
@@ -16,5 +14,5 @@ export const Debilitated: BadgeData = {
   links: [
     { title: 'Debilitated Badge', href: 'https://homecoming.wiki/wiki/Debilitated_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/debilitated.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/debilitated.png',
 }

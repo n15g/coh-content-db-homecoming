@@ -5,19 +5,13 @@ export const NightWidow: BadgeData = {
   type: 'gladiator',
   key: 'night-widow',
   setTitleId: [444],
-  name: [
-    { value: 'Night Widow' },
-  ],
+  name: 'Night Widow',
   morality: 'villainous',
-  badgeText: [
-    { value: 'Night Widows fight for those they deem worthy.' },
-  ],
+  badgeText: 'Night Widows fight for those they deem worthy.',
   links: [
     { title: 'Night Widow Badge', href: 'https://homecoming.wiki/wiki/Night_Widow_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: DefenderOfTruth.key, type: 'badge', badgeKey: DefenderOfTruth.key },
   ],

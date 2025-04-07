@@ -15,9 +15,7 @@ Cortex was able to escape you, but Dr. Pierce was left trapped in her own mess o
   links: [
     { title: 'Uncivil Warrior Badge', href: 'https://homecoming.wiki/wiki/Uncivil_Warrior_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/uncivil-warrior.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/uncivil-warrior.png',
   requirements: [
     { key: 'tgs', type: 'ARC', missionName: 'The Graveyard Shift', contactKey: AgentWatkins.key },
   ],

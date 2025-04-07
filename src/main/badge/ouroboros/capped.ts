@@ -4,9 +4,7 @@ export const Capped: BadgeData = {
   type: 'ouroboros',
   key: 'capped',
   setTitleId: [907],
-  name: [
-    { value: 'Capped' },
-  ],
+  name: 'Capped',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not using any Temporary Powers.` },
@@ -16,5 +14,5 @@ export const Capped: BadgeData = {
   links: [
     { title: 'Capped Badge', href: 'https://homecoming.wiki/wiki/Capped_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/capped.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/capped.png',
 }

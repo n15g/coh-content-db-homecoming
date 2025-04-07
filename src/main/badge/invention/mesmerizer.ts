@@ -4,14 +4,14 @@ export const Mesmerizer: BadgeData = {
   type: 'invention',
   key: 'mesmerizer',
   setTitleId: [779],
-  name: [{ value: 'Mesmerizer' }],
+  name: 'Mesmerizer',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Sleep, Snare, Hold, Stun, Immobilize, and Fear.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   effect: '+1 to Recipe capacity',
   links: [
     { title: 'Mesmerizer Badge', href: 'https://homecoming.wiki/wiki/Mesmerizer_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',

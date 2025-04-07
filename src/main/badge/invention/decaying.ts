@@ -4,13 +4,13 @@ export const Decaying: BadgeData = {
   type: 'invention',
   key: 'decaying',
   setTitleId: [761],
-  name: [{ value: 'Decaying' }],
+  name: 'Decaying',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Defense Debuff, To Hit Debuff, Taunt, and Confuse.' }],
+  badgeText: 'You have memorized the following recipes at level 15 and 20: Defense Debuff, To Hit Debuff, Taunt, and Confuse.',
   links: [
     { title: 'Decaying Badge', href: 'https://homecoming.wiki/wiki/Decaying_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png',
   requirements: [
     {
       key: 'a',

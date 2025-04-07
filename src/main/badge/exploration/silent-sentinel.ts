@@ -9,9 +9,7 @@ export const SilentSentinel: BadgeData = {
   morality: 'heroic',
   zoneKey: EchoAtlasPark.key,
   loc: [-608, 70.3, -1890],
-  badgeText: [{
-    value: `In the 1950's the hero called 'Gargoyle' would stand watch over the city from this spot.`,
-  }],
+  badgeText: `In the 1950's the hero called 'Gargoyle' would stand watch over the city from this spot.`,
   notes: 'Located 216 yards east-southeast of The Promenade neighborhood marker. The badge sits on the first ledge up from ground level on the north side of a high-rise building',
   links: [
     { title: 'Silent Sentinel Badge', href: 'https://homecoming.wiki/wiki/Silent_Sentinel_Badge' },

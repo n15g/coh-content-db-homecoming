@@ -4,9 +4,7 @@ export const Tracer: BadgeData = {
   type: 'defeat',
   key: 'tracer',
   setTitleId: [54],
-  name: [
-    { value: 'Tracer' },
-  ],
+  name: 'Tracer',
   morality: 'all',
   badgeText: `You have proven yourself a person who can track down anyone, even those with the ability to teleport.`,
   acquisition: 'Defeat 200 Tsoo sorcerers.',

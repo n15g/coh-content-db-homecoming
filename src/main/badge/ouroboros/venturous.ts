@@ -4,9 +4,7 @@ export const Venturous: BadgeData = {
   type: 'ouroboros',
   key: 'venturous',
   setTitleId: [868],
-  name: [
-    { value: 'Venturous' },
-  ],
+  name: 'Venturous',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while under a constant Debuff.` },
@@ -16,5 +14,5 @@ export const Venturous: BadgeData = {
   links: [
     { title: 'Venturous Badge', href: 'https://homecoming.wiki/wiki/Venturous_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/venturous.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/venturous.png',
 }

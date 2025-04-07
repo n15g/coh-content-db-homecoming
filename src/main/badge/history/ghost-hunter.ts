@@ -6,19 +6,13 @@ export const GhostHunter: BadgeData = {
   type: 'history',
   key: 'ghost-hunter',
   setTitleId: [191],
-  name: [
-    { value: 'Ghost Hunter' },
-  ],
+  name: 'Ghost Hunter',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the rumors behind the fabled Ghost Ship.` },
-  ],
+  badgeText: `You have learned the rumors behind the fabled Ghost Ship.`,
   links: [
     { title: 'Ghost Hunter Badge', href: 'https://homecoming.wiki/wiki/Ghost_Hunter_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'ghos-0',

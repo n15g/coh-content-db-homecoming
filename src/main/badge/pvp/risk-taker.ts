@@ -18,7 +18,5 @@ export const RiskTaker: BadgeData = {
     { title: 'Risk Taker Badge', href: 'https://homecoming.wiki/wiki/Risk_Taker_Badge' },
     { title: 'Most Wanted Badge', href: 'https://homecoming.wiki/wiki/Most_Wanted_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/cracked.png',
 }

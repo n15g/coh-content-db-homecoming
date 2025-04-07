@@ -9,9 +9,7 @@ export const Reborn: BadgeData = {
   morality: 'all',
   zoneKey: TheAbyss.key,
   loc: [679, -544, -3189],
-  badgeText: [{
-    value: `You have located where the Devouring Earth have attempted to bring forth the Hamidon outside of the prying eyes of Paragon City.`,
-  }],
+  badgeText: `You have located where the Devouring Earth have attempted to bring forth the Hamidon outside of the prying eyes of Paragon City.`,
   notes: `Located in ${zoneLink(TheAbyss)}, directly under the nucleus of Hamidon, in the bowl-shaped water area in the northern part of the map.
 
 It is located underwater (but visible, if a villain is close enough to it) roughly where the feeding streams point in the center of the bowl.

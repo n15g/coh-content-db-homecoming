@@ -4,9 +4,7 @@ export const SharedVictory: BadgeData = {
   type: 'ouroboros',
   key: 'shared-victory',
   setTitleId: [858],
-  name: [
-    { value: 'Shared Victory' },
-  ],
+  name: 'Shared Victory',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "5 Defeats Allowed" for the team.` },
@@ -16,5 +14,5 @@ export const SharedVictory: BadgeData = {
   links: [
     { title: 'Shared Victory Badge', href: 'https://homecoming.wiki/wiki/Shared_Victory_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/shared-victory.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/shared-victory.png',
 }

@@ -13,7 +13,7 @@ export const TempusFugitive: BadgeData = {
     { alignment: 'hero', value: `You have battled Arachnos in a possible future and prevented Recluse's Victory.` },
     { alignment: 'villain', value: `You have fought the future and won, making Recluse's Victory that much more likely.` },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/tempus-fugitive.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/tempus-fugitive.png',
   acquisition: '(Issue 25) Win Recluse\'s Victory with 1000 temporal points.',
   links: [
     { title: 'Tempus Fugitive Badge', href: 'https://homecoming.wiki/wiki/Tempus_Fugitive_Badge' },

@@ -12,5 +12,5 @@ export const Gullible: BadgeData = {
   links: [
     { title: 'Gullible Badge', href: 'https://homecoming.wiki/wiki/Gullible_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/gullible.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/gullible.png',
 }

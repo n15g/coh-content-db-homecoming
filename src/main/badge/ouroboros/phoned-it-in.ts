@@ -4,9 +4,7 @@ export const PhonedItIn: BadgeData = {
   type: 'ouroboros',
   key: 'phoned-it-in',
   setTitleId: [921],
-  name: [
-    { value: 'Phoned it in' },
-  ],
+  name: 'Phoned it in',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const PhonedItIn: BadgeData = {
   links: [
     { title: 'Phoned it in Badge', href: 'https://homecoming.wiki/wiki/Phoned_It_In_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/phoned-it-in.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/phoned-it-in.png',
 }

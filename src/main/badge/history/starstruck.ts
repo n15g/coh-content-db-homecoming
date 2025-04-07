@@ -5,19 +5,13 @@ export const Starstruck: BadgeData = {
   type: 'history',
   key: 'starstruck',
   setTitleId: [1408],
-  name: [
-    { value: 'Starstruck' },
-  ],
+  name: 'Starstruck',
   morality: 'all',
-  badgeText: [
-    { value: `Seeing the statues of the rulers of Praetoria is awe-inspiring, truly a must for any loyal citizen.` },
-  ],
+  badgeText: `Seeing the statues of the rulers of Praetoria is awe-inspiring, truly a must for any loyal citizen.`,
   links: [
     { title: 'Starstruck Badge', href: 'https://homecoming.wiki/wiki/Starstruck_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-p.png',
   requirements: [
     {
       key: 'star-0',

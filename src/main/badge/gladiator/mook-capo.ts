@@ -5,19 +5,13 @@ export const MookCapo: BadgeData = {
   type: 'gladiator',
   key: 'mook-capo',
   setTitleId: [456],
-  name: [
-    { value: 'Mook Capo' },
-  ],
+  name: 'Mook Capo',
   morality: 'villainous',
-  badgeText: [
-    { value: 'Da Mooks are on your side.' },
-  ],
+  badgeText: 'Da Mooks are on your side.',
   links: [
     { title: 'Mook Capo Badge', href: 'https://homecoming.wiki/wiki/Mook_Capo_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: StoneCold.key, type: 'badge', badgeKey: StoneCold.key },
   ],

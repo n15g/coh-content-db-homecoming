@@ -4,9 +4,7 @@ export const ProportionalSupremacy: BadgeData = {
   type: 'ouroboros',
   key: 'proportional-supremacy',
   setTitleId: [857],
-  name: [
-    { value: 'Proportional Supremacy' },
-  ],
+  name: 'Proportional Supremacy',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "3 Defeats Allowed" for the team.` },
@@ -16,5 +14,5 @@ export const ProportionalSupremacy: BadgeData = {
   links: [
     { title: 'Proportional Supremacy Badge', href: 'https://homecoming.wiki/wiki/Proportional_Supremacy_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/proportional-supremacy.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/proportional-supremacy.png',
 }

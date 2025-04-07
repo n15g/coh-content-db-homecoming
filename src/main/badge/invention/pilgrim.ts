@@ -4,13 +4,13 @@ export const Pilgrim: BadgeData = {
   type: 'invention',
   key: 'pilgrim',
   setTitleId: [800],
-  name: [{ value: 'Pilgrim' }],
+  name: 'Pilgrim',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 10: Run Speed, Jump, Fly Speed, and Range.' }],
+  badgeText: 'You have memorized the following recipes at level 10: Run Speed, Jump, Fly Speed, and Range.',
   links: [
     { title: 'Pilgrim Badge', href: 'https://homecoming.wiki/wiki/Pilgrim_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-1.png',
   requirements: [
     {
       key: 'a',

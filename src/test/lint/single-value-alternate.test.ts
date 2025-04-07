@@ -1,9 +1,9 @@
 import { RuleTester } from '@typescript-eslint/rule-tester'
-import { singleValueAlternate } from '../../lint/single-value-alternate'
+import { preferSimpleAlternate } from '../../lint/prefer-simple-alternate'
 
 const ruleTester = new RuleTester()
 
-ruleTester.run('should fix single values', singleValueAlternate, {
+ruleTester.run('should fix single values', preferSimpleAlternate, {
   valid: [
     `
 export const Zealous: BadgeData = {

@@ -9,11 +9,9 @@ export const RiktiGoneWild: BadgeData = {
   morality: 'heroic',
   zoneKey: PeregrineIsland.key,
   loc: [-2893, 0, -6950],
-  badgeText: [{
-    value: 'The horde of Rikti Monkeys on Monster Island seems to have been confined to this area, supposedly by Crey.'
-      + ' Investigations into what exactly went wrong have been going on for some time.'
-      + ' Many suspect that the Devouring Earth assaulted the island, destroying the barriers put in place to keep the Rikti in.',
-  }],
+  badgeText: 'The horde of Rikti Monkeys on Monster Island seems to have been confined to this area, supposedly by Crey.'
+    + ' Investigations into what exactly went wrong have been going on for some time.'
+    + ' Many suspect that the Devouring Earth assaulted the island, destroying the barriers put in place to keep the Rikti in.',
   notes: `Located in the Cutlass Isles neighborhood of ${zoneLink(PeregrineIsland)}.
 `
     + '\n'

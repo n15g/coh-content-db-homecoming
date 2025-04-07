@@ -4,9 +4,7 @@ export const SilverMedalist: BadgeData = {
   type: 'ouroboros',
   key: 'silver-medalist',
   setTitleId: [863],
-  name: [
-    { value: 'Silver Medalist' },
-  ],
+  name: 'Silver Medalist',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback within the Silver time allowed.` },
@@ -16,5 +14,5 @@ export const SilverMedalist: BadgeData = {
   links: [
     { title: 'Silver Medalist Badge', href: 'https://homecoming.wiki/wiki/Silver_Medalist_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/silver-medalist.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/silver-medalist.png',
 }

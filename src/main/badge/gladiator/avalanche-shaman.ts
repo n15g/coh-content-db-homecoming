@@ -5,19 +5,13 @@ export const AvalancheShaman: BadgeData = {
   type: 'gladiator',
   key: 'avalanche-shaman',
   setTitleId: [489],
-  name: [
-    { value: 'Avalanche Shaman' },
-  ],
+  name: 'Avalanche Shaman',
   morality: 'all',
-  badgeText: [
-    { value: 'These shamans acknowledge your might.' },
-  ],
+  badgeText: 'These shamans acknowledge your might.',
   links: [
     { title: 'Avalanche Shaman Badge', href: 'https://homecoming.wiki/wiki/Avalanche_Shaman_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Banisher.key, type: 'badge', badgeKey: Banisher.key },
   ],

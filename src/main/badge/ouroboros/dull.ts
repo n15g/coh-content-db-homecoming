@@ -4,9 +4,7 @@ export const Dull: BadgeData = {
   type: 'ouroboros',
   key: 'dull',
   setTitleId: [920],
-  name: [
-    { value: 'Dull' },
-  ],
+  name: 'Dull',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const Dull: BadgeData = {
   links: [
     { title: 'Dull Badge', href: 'https://homecoming.wiki/wiki/Dull_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/dull.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/dull.png',
 }

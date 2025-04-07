@@ -4,13 +4,13 @@ export const HiredGun: BadgeData = {
   type: 'invention',
   key: 'hired-gun',
   setTitleId: [786],
-  name: [{ value: 'Hired Gun' }],
+  name: 'Hired Gun',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 15 and 20: Recharge Rate and Interrupt Time.' }],
+  badgeText: 'You have memorized the following recipes at level 15 and 20: Recharge Rate and Interrupt Time.',
   links: [
     { title: 'Hired Gun Badge', href: 'https://homecoming.wiki/wiki/Hired_Gun_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-2.png',
   requirements: [
     {
       key: 'a',

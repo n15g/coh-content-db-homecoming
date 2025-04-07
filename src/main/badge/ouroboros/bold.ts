@@ -4,9 +4,7 @@ export const Bold: BadgeData = {
   type: 'ouroboros',
   key: 'bold',
   setTitleId: [880],
-  name: [
-    { value: 'Bold' },
-  ],
+  name: 'Bold',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while the enemies were Buffed.` },
@@ -16,5 +14,5 @@ export const Bold: BadgeData = {
   links: [
     { title: 'Bold Badge', href: 'https://homecoming.wiki/wiki/Bold_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/bold.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/bold.png',
 }

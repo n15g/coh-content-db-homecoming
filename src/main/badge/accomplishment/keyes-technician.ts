@@ -5,19 +5,13 @@ export const KeyesTechnician: BadgeData = {
   type: 'accomplishment',
   key: 'keyes-technician',
   setTitleId: [1989],
-  name: [
-    { value: 'Keyes Technician' },
-  ],
+  name: 'Keyes Technician',
   morality: 'all',
-  badgeText: [
-    { value: 'You have completed the Incarnate Trial: Keyes Island Reactor.' },
-  ],
+  badgeText: 'You have completed the Incarnate Trial: Keyes Island Reactor.',
   links: [
     { title: 'Keyes Technician Badge', href: 'https://homecoming.wiki/wiki/Keyes_Technician_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/keyes-technician.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/keyes-technician.png',
   requirements: [
     { key: 'keyes-island-reactor-trial', type: 'TASK_FORCE', missionName: 'Keyes Island Reactor Trial', contactKey: TeamUpTeleporter.key },
   ],

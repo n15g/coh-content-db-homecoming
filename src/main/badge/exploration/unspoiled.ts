@@ -9,9 +9,7 @@ export const Unspoiled: BadgeData = {
   morality: 'heroic',
   zoneKey: Eden.key,
   loc: [2482, 34, 2350],
-  badgeText: [{
-    value: `The beauty that is Eden Falls came at a terrible price.`,
-  }],
+  badgeText: `The beauty that is Eden Falls came at a terrible price.`,
   notes: `Located in ${zoneLink(Eden)} 105 yards south of The Cascades marker.`,
   links: [
     { title: 'Unspoiled Badge', href: 'https://homecoming.wiki/wiki/Unspoiled_Badge' },

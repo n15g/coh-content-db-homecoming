@@ -5,19 +5,13 @@ export const GreekPhilosopher: BadgeData = {
   type: 'history',
   key: 'greek-philosopher',
   setTitleId: [2531],
-  name: [
-    { value: 'Greek Philosopher' },
-  ],
+  name: 'Greek Philosopher',
   morality: 'all',
-  badgeText: [
-    { value: `The origin behind the Labyrinth of Fog has been obscured for ages, but you've recently discovered evidence that suggests the labyrinth was created to imprison an ancient calamity that once befell the islands of Greece.` },
-  ],
+  badgeText: `The origin behind the Labyrinth of Fog has been obscured for ages, but you've recently discovered evidence that suggests the labyrinth was created to imprison an ancient calamity that once befell the islands of Greece.`,
   links: [
     { title: 'Greek Philosopher Badge', href: 'https://homecoming.wiki/wiki/Greek_Philosopher_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/greek-philosopher.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/greek-philosopher.png',
   requirements: [
     {
       key: 'gree-0',

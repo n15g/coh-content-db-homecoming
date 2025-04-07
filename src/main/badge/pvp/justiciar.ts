@@ -21,7 +21,5 @@ export const Justiciar: BadgeData = {
     { title: 'Justiciar Badge', href: 'https://homecoming.wiki/wiki/Justiciar_Badge' },
     { title: 'Fallen Justiciar Badge', href: 'https://homecoming.wiki/wiki/Fallen_Justiciar_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatrecluse.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/defeatrecluse.png',
 }

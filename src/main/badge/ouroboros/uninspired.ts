@@ -4,9 +4,7 @@ export const Uninspired: BadgeData = {
   type: 'ouroboros',
   key: 'uninspired',
   setTitleId: [923],
-  name: [
-    { value: 'Uninspired' },
-  ],
+  name: 'Uninspired',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using Inspirations.` },
@@ -16,5 +14,5 @@ export const Uninspired: BadgeData = {
   links: [
     { title: 'Uninspired Badge', href: 'https://homecoming.wiki/wiki/Uninspired_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/uninspired.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/uninspired.png',
 }

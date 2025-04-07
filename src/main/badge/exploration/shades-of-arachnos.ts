@@ -9,9 +9,7 @@ export const ShadesOfArachnos: BadgeData = {
   morality: 'heroic',
   zoneKey: PeregrineIsland.key,
   loc: [-2535, -1, -8276],
-  badgeText: [{
-    value: 'You could swear that you just saw a submarine off the coast of this island...but it\'s gone now. It was probably just your imagination.',
-  }],
+  badgeText: 'You could swear that you just saw a submarine off the coast of this island...but it\'s gone now. It was probably just your imagination.',
   notes: `Located in the Cutlass Isles neighborhood of ${zoneLink(PeregrineIsland)} on the northeast shore of the small northernmost island.
 `
     + '\n'

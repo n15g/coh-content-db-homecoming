@@ -7,19 +7,13 @@ export const Savant: BadgeData = {
   type: 'history',
   key: 'savant',
   setTitleId: [157],
-  name: [
-    { value: 'Savant' },
-  ],
+  name: 'Savant',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of the Rikti War.` },
-  ],
+  badgeText: `You have learned the history of the Rikti War.`,
   links: [
     { title: 'Savant Badge', href: 'https://homecoming.wiki/wiki/Savant_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'sava-0',

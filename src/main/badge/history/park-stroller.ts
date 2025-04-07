@@ -5,19 +5,13 @@ export const ParkStroller: BadgeData = {
   type: 'history',
   key: 'park-stroller',
   setTitleId: [2274],
-  name: [
-    { value: 'Park Stroller' },
-  ],
+  name: 'Park Stroller',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have visited all of Brickstown's parks!` },
-  ],
+  badgeText: `You have visited all of Brickstown's parks!`,
   links: [
     { title: 'Park Stroller Badge', href: 'https://homecoming.wiki/wiki/Park_Stroller_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/park-stroller.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/park-stroller.png',
   requirements: [
     {
       key: 'park-0',

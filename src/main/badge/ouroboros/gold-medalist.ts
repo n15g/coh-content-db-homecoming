@@ -4,9 +4,7 @@ export const GoldMedalist: BadgeData = {
   type: 'ouroboros',
   key: 'gold-medalist',
   setTitleId: [862],
-  name: [
-    { value: 'Gold Medalist' },
-  ],
+  name: 'Gold Medalist',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback within the Gold time allowed.` },
@@ -16,5 +14,5 @@ export const GoldMedalist: BadgeData = {
   links: [
     { title: 'Gold Medalist Badge', href: 'https://homecoming.wiki/wiki/Gold_Medalist_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/gold-medalist.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/gold-medalist.png',
 }

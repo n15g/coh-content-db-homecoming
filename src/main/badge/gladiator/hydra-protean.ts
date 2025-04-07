@@ -5,19 +5,13 @@ export const HydraProtean: BadgeData = {
   type: 'gladiator',
   key: 'hydra-protean',
   setTitleId: [480],
-  name: [
-    { value: 'Hydra Protean' },
-  ],
+  name: 'Hydra Protean',
   morality: 'heroic',
-  badgeText: [
-    { value: 'Mindless, yes. But yours to command.' },
-  ],
+  badgeText: 'Mindless, yes. But yours to command.',
   links: [
     { title: 'Hydra Protean Badge', href: 'https://homecoming.wiki/wiki/Hydra_Protean_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
     { key: Charmer.key, type: 'badge', badgeKey: Charmer.key },
   ],

@@ -8,19 +8,13 @@ export const Pupil: BadgeData = {
   type: 'history',
   key: 'pupil',
   setTitleId: [174],
-  name: [
-    { value: 'Pupil' },
-  ],
+  name: 'Pupil',
   morality: 'heroic',
-  badgeText: [
-    { value: `You have learned the history of the fallen hero, Atlas.` },
-  ],
+  badgeText: `You have learned the history of the fallen hero, Atlas.`,
   links: [
     { title: 'Pupil Badge', href: 'https://homecoming.wiki/wiki/Pupil_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/history/history-h.png',
   requirements: [
     {
       key: 'pupi-0',

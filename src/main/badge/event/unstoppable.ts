@@ -12,5 +12,5 @@ export const Unstoppable: BadgeData = {
   links: [
     { title: 'Unstoppable Badge', href: 'https://homecoming.wiki/wiki/Unstoppable_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/unstoppable.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/unstoppable.png',
 }

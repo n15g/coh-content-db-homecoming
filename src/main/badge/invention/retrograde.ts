@@ -4,13 +4,13 @@ export const Retrograde: BadgeData = {
   type: 'invention',
   key: 'retrograde',
   setTitleId: [764],
-  name: [{ value: 'Retrograde' }],
+  name: 'Retrograde',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Defense Debuff, To Hit Debuff, Taunt, and Confuse.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Defense Debuff, To Hit Debuff, Taunt, and Confuse.',
   links: [
     { title: 'Retrograde Badge', href: 'https://homecoming.wiki/wiki/Retrograde_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',

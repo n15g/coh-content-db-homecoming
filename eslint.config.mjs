@@ -32,5 +32,5 @@ export default [
       'unicorn/prevent-abbreviations': ['off'],
     },
   },
-  localRulesConfig
+  localRulesConfig,
 ]

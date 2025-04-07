@@ -4,9 +4,7 @@ export const Diminished: BadgeData = {
   type: 'ouroboros',
   key: 'diminished',
   setTitleId: [904],
-  name: [
-    { value: 'Diminished' },
-  ],
+  name: 'Diminished',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Temporary Powers.` },
@@ -16,5 +14,5 @@ export const Diminished: BadgeData = {
   links: [
     { title: 'Diminished Badge', href: 'https://homecoming.wiki/wiki/Diminished_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/diminished.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/diminished.png',
 }

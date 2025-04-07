@@ -4,9 +4,7 @@ export const Fearless: BadgeData = {
   type: 'ouroboros',
   key: 'fearless',
   setTitleId: [881],
-  name: [
-    { value: 'Fearless' },
-  ],
+  name: 'Fearless',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while the enemies were Buffed.` },
@@ -16,5 +14,5 @@ export const Fearless: BadgeData = {
   links: [
     { title: 'Fearless Badge', href: 'https://homecoming.wiki/wiki/Fearless_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/fearless.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/ouroboros/fearless.png',
 }

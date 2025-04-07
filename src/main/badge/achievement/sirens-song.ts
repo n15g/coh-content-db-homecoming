@@ -9,9 +9,7 @@ export const SirensSong: BadgeData = {
     { alignment: 'villain', value: 'Raider' },
   ],
   morality: 'all',
-  badgeText: [
-    { value: `Siren's Call must call to you. You've spent over one hour there.` },
-  ],
+  badgeText: `Siren's Call must call to you. You've spent over one hour there.`,
   acquisition: `Spend 1 hour in Siren's Call.`,
   links: [
     { title: `Siren's Song Badge`, href: 'https://homecoming.wiki/wiki/Siren%27s_Song_Badge' },

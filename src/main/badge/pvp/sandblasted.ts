@@ -4,18 +4,12 @@ export const Sandblasted: BadgeData = {
   type: 'pvp',
   key: 'sandblasted',
   setTitleId: [583],
-  name: [
-    { value: 'Sandblasted' },
-  ],
+  name: 'Sandblasted',
   morality: 'heroic',
-  badgeText: [
-    { value: 'You have helped defeat Scirocco in Recluse\'s Victory.' },
-  ],
+  badgeText: 'You have helped defeat Scirocco in Recluse\'s Victory.',
   acquisition: 'Defeat Scirocco in Recluse\'s Victory',
   links: [
     { title: 'Sandblasted Badge', href: 'https://homecoming.wiki/wiki/Sandblasted_Badge' },
   ],
-  icon: [
-    { value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/sandblasted.png' },
-  ],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/sandblasted.png',
 }

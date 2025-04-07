@@ -4,14 +4,14 @@ export const Perpetual: BadgeData = {
   type: 'invention',
   key: 'perpetual',
   setTitleId: [784],
-  name: [{ value: 'Perpetual' }],
+  name: 'Perpetual',
   morality: 'all',
-  badgeText: [{ value: 'You have memorized the following recipes at level 45 and 50: Endurance Modification and Endurance Reduction.' }],
+  badgeText: 'You have memorized the following recipes at level 45 and 50: Endurance Modification and Endurance Reduction.',
   effect: '+1 to Recipe capacity',
   links: [
     { title: 'Perpetual Badge', href: 'https://homecoming.wiki/wiki/Perpetual_Badge' },
   ],
-  icon: [{ value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png' }],
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/invention/brain-5.png',
   requirements: [
     {
       key: 'a',
