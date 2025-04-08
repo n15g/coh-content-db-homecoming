@@ -57,7 +57,7 @@ For those unfamiliar with Typescript or looking to extract images, a set of inst
 * DDS Converter to convert DDS to PNG (many available online)
 * Text editor ([Notepad++](https://notepad-plus-plus.org/) recommended)
 * Image editing software
-* Download [badge-grant-all.txt](docs/badge-grant-all.txt)
+* Download [badge-grant-all.txt](site/badge-grant-all.txt)
 * Download [SetTitle file](https://n15g.github.io/badger/assets/settitle.txt)
 
 ### Working with GitHub:
@@ -67,7 +67,7 @@ For those unfamiliar with Typescript or looking to extract images, a set of inst
    leaving your master version untouched.
 3. Once done with all updates, you’ll submit your changes to be merged into the main Database. This must be approved by Nick/KeyboardKitsune, which he usually does within a couple of days. **Ensure all of your changes are 100% correct before asking to merge, to prevent multiple requests.**
 4. Each badge is represented by a .ts file located in the src/badge/(category) directories. Each badge category (Accolade, Exploration, etc.) also has a .ts file (e.g. \_accolade-badges.ts) which determines proper sequential display order and must be updated when new badges are added. Badge icon
-   images must be uploaded to the appropriate folder in docs/images/badges.
+   images must be uploaded to the appropriate folder in `src/main/resources/images`.
 5. Always coordinate with other people who are updating the database so you don’t overwrite each other's efforts!
 
 ### Info Needed to Add or Update Badges
@@ -109,7 +109,7 @@ You can easily obtain the image icons for new badges via the patch notes. Right 
     5. Use a DDS converter to convert the DDS files to PNG files. (Ditto)
     6. Crop images as needed
 
-4. Open each image in an image editing program and look closely for extra “tags” that need to be cropped. Typical round badges are 48x48 pixels and often need to be trimmed. See [example-needs-cropping](docs/example-needs-cropping.png) in the badger docs
+4. Open each image in an image editing program and look closely for extra “tags” that need to be cropped. Typical round badges are 48x48 pixels and often need to be trimmed. See [example-needs-cropping](site/example-needs-cropping.png) in the badger docs
    directory for examples.
 5. Crop the top/left 48x48 pixels and save the file, ensuring to retain the transparent background and .png extension.
 6. Other common badge sizes are 64x64, 128x48, and 128x64. Not all icons will need to be cropped, but it will generally be obvious which ones need cropping as seen in the examples, as they will either have excessive whitespace or extra 'tags'. When cropping, always crop to one of the above
@@ -127,7 +127,7 @@ You can easily obtain the image icons for new badges via the patch notes. Right 
        hero.png, villain.png, and praetorian.png. Adding the Labyrinth of Fog exploration badge, one might use labyrinth.png.
 
 8. Upload the new badge image files to your working Branch on GitHub.  
-   docs/images/badges/(appropriate category directory, e.g. accolade, exploration, etc.)
+   `src/main/resources/images/badges/(appropriate category directory, e.g. accolade, exploration, etc.)`
 
 ### Updating Category Files
 
@@ -199,8 +199,7 @@ Be aware of newlines and whitespace in the string, as unlike HTML, in markdown t
     links: [
         { title: 'Invictus Badge', href: 'https://homecoming.wiki/wiki/Invictus_Badge' },
     ],
-    // Location of the badge icon in the docs folder.
-    // Yes, it’s the same file, even though the above URLs don’t contain “docs” in the link. GitHub Magic™!
+    // Location of the badge icon in the resources folder.
     icon: [
         { alignment: 'H', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/protector-of-innocents-h.png' },
         { alignment: 'V', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/protector-of-innocents-v.png' }
@@ -214,17 +213,16 @@ Be aware of newlines and whitespace in the string, as unlike HTML, in markdown t
     requirements: [
         { key: AstoriasLastStand.key, type: 'badge', badgeKey: AstoriasLastStand.key },
         {
-            key: 'bicn-0',
-            type: 'PLAQUE',
+            key: 'req1',
+            type: 'plaque',
             zoneKey: AtlasPark.key,
-            plaqueType: 'MONUMENT',
             loc: [330.45, 3.93, 397.33],
             plaqueInscription: ``,
-            notes: `This plaque is in ${zoneLink(AtlasPark)}], roughly 258 yards south-southwest of the Atlas Plaza neighborhood marker.`,
+            notes: 'Roughly 258 yards south-southwest of the Atlas Plaza neighborhood marker.',
             vidiotMapKey: '8'
         },
         {
-            key: 'b',
+            key: 'req2',
             type: 'invention',
             inventionLevel: 50,
             inventionTypes: ['ENDURANCE_MODIFICATION', 'ENDURANCE_REDUCTION'],
@@ -253,7 +251,7 @@ Null the Gull to see if there are variants by alignment. **Take screenshots of e
 
 Award all badges on the Beta server:
 
-1. Save the badge-grant-all.txt file (in the docs directory) to your settings\beta folder in your Homecoming installation directory. You may have to create the beta folder. This file will need to be updated when new badges are added.
+1. Save the [badge-grant-all.txt](site/badge-grant-all.txt) file (in the site directory) to your settings\beta folder in your Homecoming installation directory. You may have to create the beta folder. This file will need to be updated when new badges are added.
 2. While logged into a character on the beta server, type /bindloadfile badge-grant-all.txt and hit enter.
 3. Wait a few minutes while all the badges finish granting themselves to you.
 
