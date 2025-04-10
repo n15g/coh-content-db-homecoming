@@ -11,5 +11,5 @@ export const Persistent: BadgeData = {
     { alignment: 'villain', value: `Heroes have practically given up trying to take back your turf. Your persistence towards taking what you want is utterly unmatched. You have attained ninety-six Veteran levels.` },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/persistent.png',
-  acquisition: 'Reach Veteran level 96',
+  acquisition: 'Reach Veteran level 96.',
 }

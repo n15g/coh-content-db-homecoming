@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardKingsRow } from '../../zone/safeguard-kings-row'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const KingsRighteousness: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const KingsRighteousness: BadgeData = {
     { alignment: 'hero', value: `King's Righteousness` },
     { alignment: 'villain', value: `King's Capriciousness` },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: 'The Clockwork Paladin, a menace to the city, was once spotted running around in this area.',
   notes: `Located between two large crates, just north of the prominent building in the southwestern part of the zone. The spot is approximately 171 yards northeast of the zone’s southwestern corner.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: `King's Righteousness Badge`, href: 'https://homecoming.wiki/wiki/King%27s_Righteousness_Badge' },
     { title: `King's Capriciousness Badge`, href: 'https://homecoming.wiki/wiki/King%27s_Capriciousness_Badge' },

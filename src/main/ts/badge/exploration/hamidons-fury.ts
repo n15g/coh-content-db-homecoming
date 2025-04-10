@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { FoundersFalls } from '../../zone/founders-falls'
 
 export const HamidonsFury: BadgeData = {

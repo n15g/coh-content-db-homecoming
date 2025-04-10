@@ -7,7 +7,7 @@ export const Nomad: BadgeData = {
   name: 'Nomad',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Run Speed, Jump, Fly Speed, and Range.',
-  effect: '+1 to Recipe capacity',
+  effect: 'Awards +1 to Recipe capacity.',
   links: [
     { title: 'Nomad Badge', href: 'https://homecoming.wiki/wiki/Nomad_Badge' },
   ],

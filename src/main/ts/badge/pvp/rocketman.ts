@@ -9,9 +9,8 @@ export const Rocketman: BadgeData = {
     { sex: 'F', value: 'Rocketwoman' },
   ],
   morality: 'all',
-  badgeText: 'Supergroups everywhere quake in fear when you enter Warburg. You\'ve launched the Warburg '
-    + 'Rocket ten times.',
-  acquisition: 'Launch the Warburg rocket ten times',
+  badgeText: `Supergroups everywhere quake in fear when you enter Warburg. You've launched the Warburg Rocket ten times.`,
+  acquisition: 'Launch the Warburg rocket ten times.',
   links: [
     { title: 'Rocketman Badge', href: 'https://homecoming.wiki/wiki/Rocketman_Badge' },
     { title: 'Rocketwoman Badge', href: 'https://homecoming.wiki/wiki/Rocketwoman_Badge' },

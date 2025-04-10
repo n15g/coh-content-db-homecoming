@@ -10,7 +10,8 @@ export const Stalwart: BadgeData = {
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while the enemies were Buffed.` },
     { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 35 and 39 while the enemies were Buffed.` },
   ],
-  acquisition: 'Complete a level 36-40 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)',
+  acquisition: 'Complete a level 36-40 Flashback story arc with enemies buffed.',
+  notes: `**Note:** In-game badge text is incorrect.`,
   links: [
     { title: 'Stalwart Badge', href: 'https://homecoming.wiki/wiki/Stalwart_Badge' },
   ],

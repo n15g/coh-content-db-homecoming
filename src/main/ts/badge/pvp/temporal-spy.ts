@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const TemporalSpy: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const TemporalSpy: BadgeData = {
   setTitleId: [568],
   name: 'Temporal Spy',
   morality: 'all',
-  badgeText: 'You have commanded 25 Heavies in Recluse\'s Victory.',
-  acquisition: 'Control 25 Heavies in Recluse\'s Victory',
+  badgeText: `You have commanded 25 Heavies in Recluse's Victory.`,
+  acquisition: `Control 25 Heavies in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Temporal Spy Badge', href: 'https://homecoming.wiki/wiki/Temporal_Spy_Badge' },
   ],

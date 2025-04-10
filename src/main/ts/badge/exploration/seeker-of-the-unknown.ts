@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 
 export const SeekerOfTheUnknown: BadgeData = {

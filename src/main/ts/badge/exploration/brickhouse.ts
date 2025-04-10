@@ -1,17 +1,17 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { MayhemBrickstown } from '../../zone/mayhem-brickstown'
+import { LordSchweinzer } from '../../contact/lord-schweinzer'
 
 export const Brickhouse: BadgeData = {
   type: 'exploration',
   key: 'brickhouse',
   setTitleId: [561],
   name: 'Brickhouse',
-  morality: 'rogue-isles-access',
+  morality: 'villainous',
   badgeText: `You have discovered an underground safe in Brickstown kept right under the noses of the PPD.`,
   notes: `Located in an alley behind the Paragon Police Station.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Mayhem missions can be accessed via ${contactLink(LordSchweinzer)}.`,
   links: [
     { title: 'Brickhouse Badge', href: 'https://homecoming.wiki/wiki/Brickhouse_Badge' },
     { title: 'I25 Safeguard/Mayhem Contact', href: 'https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges' },

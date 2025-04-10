@@ -5,6 +5,7 @@ import { AaronWalker } from './aaron-walker'
 import { AdaWellington } from './ada-wellington'
 import { AdmiralSutter } from './admiral-sutter'
 import { AgentG } from './agent-g'
+import { AgentHassell } from './agent-hassell'
 import { AgentWatkins } from './agent-watkins'
 import { AlecParson } from './alec-parson'
 import { AndreaMitchell } from './andrea-mitchell'
@@ -80,6 +81,7 @@ import { GhostWidow } from './ghost-widow'
 import { GordonBower } from './gordon-bower'
 import { GordonStacy } from './gordon-stacy'
 import { GrahamEaston } from './graham-easton'
+import { GuidanceCounselorJones } from './guidance-counselor-jones'
 import { HaleyPhilips } from './haley-philips'
 import { HardLuck } from './hard-luck'
 import { Hatchet } from './hatchet'
@@ -94,6 +96,7 @@ import { InterrogatorKang } from './interrogator-kang'
 import { InvestigatorWhitworth } from './investigator-whitworth'
 import { JackHammer } from './jack-hammer'
 import { JakeKim } from './jake-kim'
+import { JamesBright } from './james-bright'
 import { JaneHallaway } from './jane-hallaway'
 import { JessicaFlores } from './jessica-flores'
 import { JessicaMeganDuncan } from './jessica-megan-duncan'
@@ -115,6 +118,7 @@ import { Leonard } from './leonard'
 import { Levantera } from './levantera'
 import { LongJack } from './long-jack'
 import { LordRecluse } from './lord-recluse'
+import { LordSchweinzer } from './lord-schweinzer'
 import { LorenzAnsaldo } from './lorenz-ansaldo'
 import { LorenzoTate } from './lorenzo-tate'
 import { LtColHughMcDougal } from './lt-col-hugh-mcdougal'
@@ -167,6 +171,7 @@ import { PenelopeYinFreedomPhalanx } from './penelope-yin-freedom-phalanx'
 import { PenelopeYinPraetorian } from './penelope-yin-praetorian'
 import { PercyWinkley } from './percy-winkley'
 import { PhillipaMeraux } from './phillipa-meraux'
+import { PillarOfIceAndFlame } from './pillar-of-ice-and-flame'
 import { PiperIrving } from './piper-irving'
 import { Positron } from './positron'
 import { PraetorDuncan } from './praetor-duncan'
@@ -235,6 +240,7 @@ export const CONTACTS: ContactData[] = [
   AdaWellington,
   AdmiralSutter,
   AgentG,
+  AgentHassell,
   AgentWatkins,
   AlecParson,
   AndreaMitchell,
@@ -271,11 +277,11 @@ export const CONTACTS: ContactData[] = [
   Crimson,
   Crow,
   DJZero,
-  DmitriKrylov,
   DarkWatcher,
   DarrenWade,
   DeanMacArthur,
   DeputyAssistantOfInformation,
+  DmitriKrylov,
   DocBuzzsaw,
   DocDelilah,
   DoctorArvin,
@@ -310,6 +316,7 @@ export const CONTACTS: ContactData[] = [
   GordonBower,
   GordonStacy,
   GrahamEaston,
+  GuidanceCounselorJones,
   HaleyPhilips,
   HardLuck,
   Hatchet,
@@ -324,6 +331,7 @@ export const CONTACTS: ContactData[] = [
   InvestigatorWhitworth,
   JackHammer,
   JakeKim,
+  JamesBright,
   JaneHallaway,
   JessicaFlores,
   JessicaMeganDuncan,
@@ -345,6 +353,7 @@ export const CONTACTS: ContactData[] = [
   Levantera,
   LongJack,
   LordRecluse,
+  LordSchweinzer,
   LorenzAnsaldo,
   LorenzoTate,
   LtColHughMcDougal,
@@ -397,6 +406,7 @@ export const CONTACTS: ContactData[] = [
   PenelopeYinPraetorian,
   PercyWinkley,
   PhillipaMeraux,
+  PillarOfIceAndFlame,
   PiperIrving,
   Positron,
   PraetorDuncan,

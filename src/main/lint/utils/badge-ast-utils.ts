@@ -1,4 +1,4 @@
-import { BadgeData } from '../../../../../coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils'
 
 const alternateFields: Set<string> = new Set<keyof BadgeData>(['name', 'badgeText', 'icon'])

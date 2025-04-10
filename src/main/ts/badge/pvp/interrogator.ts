@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const Interrogator: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const Interrogator: BadgeData = {
   setTitleId: [577],
   name: 'Interrogator',
   morality: 'villainous',
-  badgeText: 'You have helped defeat Penelope Yin in Recluse\'s Victory.',
-  acquisition: 'Defeat Penelope Yin in Recluse\'s Victory',
+  badgeText: `You have helped defeat Penelope Yin in Recluse's Victory.`,
+  acquisition: `Defeat Penelope Yin in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Interrogator Badge', href: 'https://homecoming.wiki/wiki/Interrogator_Badge' },
   ],

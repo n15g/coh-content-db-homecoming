@@ -7,7 +7,7 @@ export const General: BadgeData = {
   name: 'General',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Accuracy and To Hit Buff.',
-  effect: '+1 to Recipe capacity',
+  effect: 'Awards +1 to Recipe capacity.',
   links: [
     { title: 'General Badge', href: 'https://homecoming.wiki/wiki/General_Badge' },
   ],

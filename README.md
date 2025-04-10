@@ -31,7 +31,7 @@ npm run build
 
 ## Publish
 
-Tags matching the pattern `v<X>.<Y>.<Z>` will attempt to publish to npm (this can only be achieved by the package manager (n15g).
+Tags matching the pattern `v<X>.<Y>.<Z>` will attempt to publish to npm (this can only be achieved by the package manager (n15g)).
 
 ```shell
 npm version 1.4.x

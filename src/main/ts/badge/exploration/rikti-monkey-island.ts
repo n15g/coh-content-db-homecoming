@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { MonsterIsland } from '../../zone/monster-island'
 
 export const RiktiMonkeyIsland: BadgeData = {

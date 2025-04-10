@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 
 export const Troubleshooter: BadgeData = {
   type: 'ouroboros',
@@ -7,7 +8,7 @@ export const Troubleshooter: BadgeData = {
   name: 'Troubleshooter',
   morality: 'all',
   badgeText: 'You have flashed back to 5 story arcs.',
-  acquisition: 'Complete 5 Flashback story arcs from the Pillar of Ice and Flame.',
+  acquisition: `Complete 5 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,
   links: [
     { title: 'Troubleshooter Badge', href: 'https://homecoming.wiki/wiki/Troubleshooter_Badge' },
   ],

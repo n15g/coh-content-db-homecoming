@@ -7,7 +7,7 @@ export const Despoiler: BadgeData = {
   name: 'Despoiler',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Defense Debuff, To Hit Debuff, Taunt, and Confuse.',
-  effect: '+2 to Invention Salvage capacity',
+  effect: 'Awards +2 to Invention Salvage capacity.',
   links: [
     { title: 'Despoiler Badge', href: 'https://homecoming.wiki/wiki/Despoiler_Badge' },
   ],

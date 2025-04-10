@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardAtlasPark } from '../../zone/safeguard-atlas-park'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const HeartOfTheCity: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const HeartOfTheCity: BadgeData = {
     { alignment: 'hero', value: 'Heart of the City' },
     { alignment: 'villain', value: 'Hate of the City' },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: 'Due to a glitch in the Paragon Nav System, Jose "Broken" Brogan stood here, but many heroes had trouble finding him.',
   notes: `Located just east of the mission entrance, next to a mailbox.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: 'Heart of the City Badge', href: 'https://homecoming.wiki/wiki/Heart_of_the_City_Badge' },
     { title: 'Hate of the City Badge', href: 'https://homecoming.wiki/wiki/Hate_of_the_City_Badge' },

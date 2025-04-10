@@ -6,8 +6,8 @@ export const ArenaSurvivalist: BadgeData = {
   setTitleId: [1351],
   name: 'Arena Survivalist',
   morality: 'all',
-  badgeText: 'You\'ve won your first Free for All match, you\'re considered an Arena Survivalist.',
-  acquisition: 'Win a rated or unrated Battle Royale match in the Arena',
+  badgeText: `You've won your first Free for All match, you're considered an Arena Survivalist.`,
+  acquisition: 'Win a rated or unrated Battle Royale match in the Arena.',
   links: [
     { title: 'Arena Survivalist Badge', href: 'https://homecoming.wiki/wiki/Arena_Survivalist_Badge' },
   ],

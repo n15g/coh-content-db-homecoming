@@ -10,7 +10,8 @@ export const Rash: BadgeData = {
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while under a constant Debuff.` },
     { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 30 and 34 while under a constant Debuff.` },
   ],
-  acquisition: 'Complete a level 31-35 Flashback story arc while debuffed. (Note: In game badge text is incorrect.)',
+  acquisition: 'Complete a level 31-35 Flashback story arc while debuffed.',
+  notes: `**Note:** In-game badge text is incorrect.`,
   links: [
     { title: 'Rash Badge', href: 'https://homecoming.wiki/wiki/Rash_Badge' },
   ],

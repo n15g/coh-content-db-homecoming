@@ -10,7 +10,8 @@ export const Fearless: BadgeData = {
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while the enemies were Buffed.` },
     { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 25 and 29 while the enemies were Buffed.` },
   ],
-  acquisition: 'Complete a level 26-30 Flashback story arc with enemies buffed. (Note: In game badge text is incorrect.)',
+  acquisition: 'Complete a level 26-30 Flashback story arc with enemies buffed.',
+  notes: `**Note:** In-game badge text is incorrect.`,
   links: [
     { title: 'Fearless Badge', href: 'https://homecoming.wiki/wiki/Fearless_Badge' },
   ],

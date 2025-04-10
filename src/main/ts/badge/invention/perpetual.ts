@@ -7,7 +7,7 @@ export const Perpetual: BadgeData = {
   name: 'Perpetual',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Endurance Modification and Endurance Reduction.',
-  effect: '+1 to Recipe capacity',
+  effect: 'Awards +1 to Recipe capacity.',
   links: [
     { title: 'Perpetual Badge', href: 'https://homecoming.wiki/wiki/Perpetual_Badge' },
   ],

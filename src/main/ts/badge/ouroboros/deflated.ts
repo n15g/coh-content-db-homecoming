@@ -10,7 +10,8 @@ export const Deflated: BadgeData = {
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while not gaining bonuses from slotted Enhancements.` },
     { alignment: 'villain', value: `You have completed a Strike Force/Flashback between level 30 and 34 while not gaining bonuses from slotted Enhancements.` },
   ],
-  acquisition: 'Complete a level 31-35 Flashback story arc using no enhancements. (Note: In game badge text is incorrect.)',
+  acquisition: 'Complete a level 31-35 Flashback story arc using no enhancements.',
+  notes: `**Note:** In-game badge text is incorrect.`,
   links: [
     { title: 'Deflated Badge', href: 'https://homecoming.wiki/wiki/Deflated_Badge' },
   ],

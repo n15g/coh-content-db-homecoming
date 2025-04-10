@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { MayhemPeregrineIsland } from '../../zone/mayhem-peregrine-island'
+import { LordSchweinzer } from '../../contact/lord-schweinzer'
 
 export const GateCloser: BadgeData = {
   type: 'exploration',
@@ -10,14 +10,14 @@ export const GateCloser: BadgeData = {
     { alignment: 'hero', value: 'Gate Closer' },
     { alignment: 'villain', value: 'Gate Crasher' },
   ],
-  morality: 'rogue-isles-access',
+  morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You'd hate to have to defend Portal Corps from the Arachnos Flyer should it ever return to Peregrine Island.` },
     { alignment: 'villain', value: `Even this gateway to Portal Corps in Peregrine Island couldn't keep you out with the help of the Arachnos Flyer.` },
   ],
   notes: `Located at the fence in front of you as you zone in.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Mayhem missions can be accessed via ${contactLink(LordSchweinzer)}.`,
   links: [
     { title: 'Gate Closer Badge', href: 'https://homecoming.wiki/wiki/Gate_Closer_Badge' },
     { title: 'Gate Crasher Badge', href: 'https://homecoming.wiki/wiki/Gate_Crasher_Badge' },

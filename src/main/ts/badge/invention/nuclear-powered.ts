@@ -7,7 +7,7 @@ export const NuclearPowered: BadgeData = {
   name: 'Nuclear Powered',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Endurance Modification and Endurance Reduction.',
-  effect: '+2 to Invention Salvage capacity',
+  effect: 'Awards +2 to Invention Salvage capacity.',
   links: [
     { title: 'Nuclear Powered Badge', href: 'https://homecoming.wiki/wiki/Nuclear_Powered_Badge' },
   ],

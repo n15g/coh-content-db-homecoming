@@ -6,9 +6,8 @@ export const StrawweightChampion: BadgeData = {
   setTitleId: [220],
   name: 'Strawweight Champion',
   morality: 'all',
-  badgeText: 'You have achieved the status of Champion in the Strawweight division by winning your first '
-    + 'match in this division.',
-  acquisition: 'Win an Arena event in the Strawweight division',
+  badgeText: `You have achieved the status of Champion in the Strawweight division by winning your first match in this division.`,
+  acquisition: 'Win an Arena event in the Strawweight division.',
   links: [
     { title: 'Strawweight Champion Badge', href: 'https://homecoming.wiki/wiki/Strawweight_Champion_Badge' },
   ],

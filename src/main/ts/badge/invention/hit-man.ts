@@ -7,7 +7,7 @@ export const HitMan: BadgeData = {
   name: 'Hit-Man',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Recharge Rate and Interrupt Time.',
-  effect: '+2 to Invention Salvage capacity',
+  effect: 'Awards +2 to Invention Salvage capacity.',
   links: [
     { title: 'Hit-Man Badge', href: 'https://homecoming.wiki/wiki/Hit-Man_Badge' },
   ],

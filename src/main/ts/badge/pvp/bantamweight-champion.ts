@@ -6,9 +6,8 @@ export const BantamweightChampion: BadgeData = {
   setTitleId: [222],
   name: 'Bantamweight Champion',
   morality: 'all',
-  badgeText: 'You have achieved the status of Champion in the Bantamweight division by winning your first '
-    + 'match in this division.',
-  acquisition: 'Win an Arena event in the Bantamweight division',
+  badgeText: `You have achieved the status of Champion in the Bantamweight division by winning your first match in this division.`,
+  acquisition: 'Win an Arena event in the Bantamweight division.',
   links: [
     { title: 'Bantamweight Champion Badge', href: 'https://homecoming.wiki/wiki/Bantamweight_Champion_Badge' },
   ],

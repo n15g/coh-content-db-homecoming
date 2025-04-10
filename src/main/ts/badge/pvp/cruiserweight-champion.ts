@@ -6,9 +6,8 @@ export const CruiserweightChampion: BadgeData = {
   setTitleId: [227],
   name: 'Cruiserweight Champion',
   morality: 'all',
-  badgeText: 'You have achieved the status of Champion in the Cruiserweight division by winning your first '
-    + 'match in this division.',
-  acquisition: 'Win an Arena event in the Cruiserweight division',
+  badgeText: `You have achieved the status of Champion in the Cruiserweight division by winning your first match in this division.`,
+  acquisition: 'Win an Arena event in the Cruiserweight division.',
   links: [
     { title: 'Cruiserweight Champion Badge', href: 'https://homecoming.wiki/wiki/Cruiserweight_Champion_Badge' },
   ],

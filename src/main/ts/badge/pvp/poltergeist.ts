@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const Poltergeist: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const Poltergeist: BadgeData = {
   setTitleId: [582],
   name: 'Poltergeist',
   morality: 'heroic',
-  badgeText: 'You have helped defeat Ghost Widow in Recluse\'s Victory.',
-  acquisition: 'Defeat Ghost Widow in Recluse\'s Victory',
+  badgeText: `You have helped defeat Ghost Widow in Recluse's Victory.`,
+  acquisition: `Defeat Ghost Widow in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Poltergeist Badge', href: 'https://homecoming.wiki/wiki/Poltergeist_Badge' },
   ],

@@ -6,8 +6,8 @@ export const PentadVictor: BadgeData = {
   setTitleId: [1356],
   name: 'Pentad Victor',
   morality: 'all',
-  badgeText: 'You\'ve won your first Pentad or Septad match, you\'re considered a Pentad Victor.',
-  acquisition: 'Win a rated or unrated Pentad or Septad match in the Arena',
+  badgeText: `You've won your first Pentad or Septad match, you're considered a Pentad Victor.`,
+  acquisition: 'Win a rated or unrated Pentad or Septad match in the Arena.',
   links: [
     { title: 'Pentad Victor Badge', href: 'https://homecoming.wiki/wiki/Pentad_Victor_Badge' },
   ],

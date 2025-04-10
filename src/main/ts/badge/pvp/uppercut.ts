@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const Uppercut: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const Uppercut: BadgeData = {
   setTitleId: [579],
   name: 'Uppercut',
   morality: 'villainous',
-  badgeText: 'You have helped defeat Back Alley Brawler in Recluse\'s Victory.',
-  acquisition: 'Defeat Back Alley Brawler in Recluse\'s Victory',
+  badgeText: `You have helped defeat Back Alley Brawler in Recluse's Victory.`,
+  acquisition: `Defeat Back Alley Brawler in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Uppercut Badge', href: 'https://homecoming.wiki/wiki/Uppercut_Badge' },
   ],

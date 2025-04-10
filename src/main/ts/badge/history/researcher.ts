@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { TalosIsland } from '../../zone/talos-island'
 import { IndependencePort } from '../../zone/independence-port'
 import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'

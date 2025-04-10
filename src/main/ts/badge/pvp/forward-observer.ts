@@ -7,10 +7,10 @@ export const ForwardObserver: BadgeData = {
   name: 'Forward Observer',
   morality: 'all',
   badgeText: [
-    { alignment: 'hero', value: 'You\'ve taken down 10 villains in PvP.' },
-    { alignment: 'villain', value: 'You\'ve taken down 10 heroes in PvP.' },
+    { alignment: 'hero', value: `You've taken down 10 villains in PvP.` },
+    { alignment: 'villain', value: `You've taken down 10 heroes in PvP.` },
   ],
-  acquisition: 'Defeat 10 player characters in a PvP zone by your own hand',
+  acquisition: 'Defeat 10 player characters in a PvP zone by your own hand.',
   links: [
     { title: 'Forward Observer Badge', href: 'https://homecoming.wiki/wiki/Forward_Observer_Badge' },
   ],

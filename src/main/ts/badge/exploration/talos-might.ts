@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardTalosIsland } from '../../zone/safeguard-talos-island'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const TalosMight: BadgeData = {
   type: 'exploration',
@@ -10,12 +10,12 @@ export const TalosMight: BadgeData = {
     { alignment: 'hero', value: `Talos' Might` },
     { alignment: 'villain', value: `Talos' Blight` },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: `Years ago, Rularuu tore down the barriers between our dimensions and sent one of many invasion forces to this block.
 Heroes from all over fought back the invaders.`,
   notes: `Located in the middle of the northernmost alley between the stores that line the central part of the map.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: `Talos' Might Badge`, href: 'https://homecoming.wiki/wiki/Talos%27_Might_Badge' },
     { title: `Talos' Blight Badge`, href: 'https://homecoming.wiki/wiki/Talos%27_Blight_Badge' },

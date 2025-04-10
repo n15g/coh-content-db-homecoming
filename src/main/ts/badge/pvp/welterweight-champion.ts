@@ -6,9 +6,8 @@ export const WelterweightChampion: BadgeData = {
   setTitleId: [225],
   name: 'Welterweight Champion',
   morality: 'all',
-  badgeText: 'You have achieved the status of Champion in the Welterweight division by winning your first '
-    + 'match in this division.',
-  acquisition: 'Win an Arena event in the Welterweight division',
+  badgeText: `You have achieved the status of Champion in the Welterweight division by winning your first match in this division.`,
+  acquisition: 'Win an Arena event in the Welterweight division.',
   links: [
     { title: 'Welterweight Champion Badge', href: 'https://homecoming.wiki/wiki/Welterweight_Champion_Badge' },
   ],

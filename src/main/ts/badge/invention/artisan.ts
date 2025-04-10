@@ -8,8 +8,7 @@ export const Artisan: BadgeData = {
   morality: 'all',
   badgeText: 'You have created 50 inventions, proving you are an Artisan.',
   acquisition: 'Craft 50 items in the Invention System or Supergroup Base system.',
-  notes: 'This includes anything craftable on Invention Worktables, Base Worktables, and Empowerment Stations (including Empowerment Buffs), as well as special crafting such as the'
-    + ' Vanguard Crafting Table and Candy Keeper.',
+  notes: `This includes anything craftable on Invention Worktables, Base Worktables, and Empowerment Stations (including Empowerment Buffs), as well as special crafting such as the Vanguard Crafting Table and Candy Keeper.`,
   links: [
     { title: 'Artisan Badge', href: 'https://homecoming.wiki/wiki/Artisan_Badge' },
   ],

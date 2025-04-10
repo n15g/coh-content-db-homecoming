@@ -1,4 +1,7 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { BloodyBay } from '../../zone/bloody-bay'
+import { SirensCall } from '../../zone/sirens-call'
+import { Warburg } from '../../zone/warburg'
 
 export const Vigilante: BadgeData = {
   type: 'pvp',
@@ -11,12 +14,9 @@ export const Vigilante: BadgeData = {
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your success in PvP missions has been noticed by the media. You are being called a Vigilante.' },
-    {
-      alignment: 'villain', value: 'The authorities have mentioned your name in more than one report on successfully completing '
-        + 'PvP missions.',
-    },
+    { alignment: 'villain', value: `The authorities have mentioned your name in more than one report on successfully completing PvP missions.` },
   ],
-  acquisition: 'Complete a debuff mission in a PvP zone (Bloody Bay, Siren\'s Call, or Warburg)',
+  acquisition: `Complete a debuff mission in a PvP zone (${zoneLink(BloodyBay)}, ${zoneLink(SirensCall)}, or ${zoneLink(Warburg)}).`,
   links: [
     { title: 'Vigilante Badge', href: 'https://homecoming.wiki/wiki/Vigilante_Badge' },
     { title: 'Wanted Badge', href: 'https://homecoming.wiki/wiki/Wanted_Badge' },

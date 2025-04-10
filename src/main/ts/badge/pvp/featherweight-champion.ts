@@ -6,9 +6,8 @@ export const FeatherweightChampion: BadgeData = {
   setTitleId: [223],
   name: 'Featherweight Champion',
   morality: 'all',
-  badgeText: 'You have achieved the status of Champion in the Featherweight division by winning your first '
-    + 'match in this division.',
-  acquisition: 'Win an Arena event in the Featherweight division',
+  badgeText: `You have achieved the status of Champion in the Featherweight division by winning your first match in this division.`,
+  acquisition: 'Win an Arena event in the Featherweight division.',
   links: [
     { title: 'Featherweight Champion Badge', href: 'https://homecoming.wiki/wiki/Featherweight_Champion_Badge' },
   ],

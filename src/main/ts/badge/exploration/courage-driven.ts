@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardSkywayCity } from '../../zone/safeguard-skyway-city'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const CourageDriven: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const CourageDriven: BadgeData = {
     { alignment: 'hero', value: 'Courage Driven' },
     { alignment: 'villain', value: 'Rage Driven' },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: 'The major highway that runs alongside this warehouse is frequently used by the "Dyne-addled" Supa-Trolls.',
   notes: `Located just north of the entrance door of the southeastern warehouse building, just next to a delivery truck with a bronze colored cab.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: 'Courage Driven Badge', href: 'https://homecoming.wiki/wiki/Courage_Driven_Badge' },
     { title: 'Rage Driven Badge', href: 'https://homecoming.wiki/wiki/Rage_Driven_Badge' },

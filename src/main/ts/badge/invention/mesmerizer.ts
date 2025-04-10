@@ -7,7 +7,7 @@ export const Mesmerizer: BadgeData = {
   name: 'Mesmerizer',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
-  effect: '+1 to Recipe capacity',
+  effect: 'Awards +1 to Recipe capacity.',
   links: [
     { title: 'Mesmerizer Badge', href: 'https://homecoming.wiki/wiki/Mesmerizer_Badge' },
   ],

@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardBrickstown } from '../../zone/safeguard-brickstown'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const Cornerstone: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const Cornerstone: BadgeData = {
     { alignment: 'hero', value: 'Cornerstone' },
     { alignment: 'villain', value: 'Weak Point' },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: 'The Freedom Phalanx and WISDOM stopped a massive Banished Pantheon attack in this area.',
   notes: `Located on the ground just left (west) of the warehouse building in the northeastern corner of the zone, between the two right (eastern) legs of a large power line tower.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: 'Cornerstone Badge', href: 'https://homecoming.wiki/wiki/Cornerstone_Badge' },
     { title: 'Weak Point Badge', href: 'https://homecoming.wiki/wiki/Weak_Point_Badge' },

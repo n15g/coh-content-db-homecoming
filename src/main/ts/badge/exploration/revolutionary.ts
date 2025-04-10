@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { MayhemIndependencePort } from '../../zone/mayhem-independence-port'
+import { LordSchweinzer } from '../../contact/lord-schweinzer'
 
 export const Revolutionary: BadgeData = {
   type: 'exploration',
@@ -10,14 +10,14 @@ export const Revolutionary: BadgeData = {
     { alignment: 'hero', value: 'Revolutionary' },
     { alignment: 'villain', value: 'Tyrannical' },
   ],
-  morality: 'rogue-isles-access',
+  morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `The Family doesn't make as many deals on the beach in Independance Port since you started working in Paragon.` },
     { alignment: 'villain', value: `It isn't uncommon to see the Family taking associates for a walk with cement shoes at this beach in Independence Port.` }
   ],
   notes: `Located on the southwest end of the sandbank in the southwest part of the map.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Mayhem missions can be accessed via ${contactLink(LordSchweinzer)}.`,
   links: [
     { title: 'Revolutionary Badge', href: 'https://homecoming.wiki/wiki/Revolutionary_Badge' },
     { title: 'Tyrannical Badge', href: 'https://homecoming.wiki/wiki/Tyrannical_Badge' },

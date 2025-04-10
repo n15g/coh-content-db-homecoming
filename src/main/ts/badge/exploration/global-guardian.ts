@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { MayhemAtlasPark } from '../../zone/mayhem-atlas-park'
+import { LordSchweinzer } from '../../contact/lord-schweinzer'
 
 export const GlobalGuardian: BadgeData = {
   type: 'exploration',
@@ -10,14 +10,14 @@ export const GlobalGuardian: BadgeData = {
     { alignment: 'hero', value: 'Global Guardian' },
     { alignment: 'villain', value: 'Global Threat' },
   ],
-  morality: 'rogue-isles-access',
+  morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'As a villain you struck at Atlas Park, the very heart of Paragon City, proving you must always be vigilant in its defense.' },
     { alignment: 'villain', value: `You've struck at Atlas Park, the very heart of Paragon City, proving nowhere is safe from villainy!` },
   ],
   notes: `Located on the sidewalk just inside the entrance point.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Mayhem missions can be accessed via ${contactLink(LordSchweinzer)}.`,
   links: [
     { title: 'Global Guardian Badge', href: 'https://homecoming.wiki/wiki/Global_Guardian_Badge' },
     { title: 'Global Threat Badge', href: 'https://homecoming.wiki/wiki/Global_Threat_Badge' },

@@ -7,7 +7,7 @@ export const LordOfWar: BadgeData = {
   name: 'Lord of War',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Damage and Knockback.',
-  effect: '+1 to Recipe capacity',
+  effect: 'Awards +1 to Recipe capacity.',
   links: [
     { title: 'Lord of War Badge', href: 'https://homecoming.wiki/wiki/Lord_of_War_Badge' },
   ],

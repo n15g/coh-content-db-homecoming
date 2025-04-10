@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardPeregrineIsland } from '../../zone/safeguard-peregrine-island'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const Gatekeeper: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const Gatekeeper: BadgeData = {
     { alignment: 'hero', value: 'Gatekeeper' },
     { alignment: 'villain', value: 'Keymaster' },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: 'The whimsical Gamester placed several presents all throughout Peregrine Island during the holidays. This block had a few of them.',
   notes: `Located in a walled-in area southeast of a Blackwell store almost in the geographic center of the missions zone. (It's the building with the radio antenna on top of it.)
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: 'Gatekeeper Badge', href: 'https://homecoming.wiki/wiki/Gatekeeper_Badge' },
     { title: 'Keymaster Badge', href: 'https://homecoming.wiki/wiki/Keymaster_Badge' },

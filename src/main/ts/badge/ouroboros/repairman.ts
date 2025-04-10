@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 
 export const Repairman: BadgeData = {
   type: 'ouroboros',
@@ -10,7 +11,7 @@ export const Repairman: BadgeData = {
   ],
   morality: 'all',
   badgeText: 'You have flashed back to 35 story arcs.',
-  acquisition: 'Complete 35 Flashback story arcs from the Pillar of Ice and Flame.',
+  acquisition: `Complete 35 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,
   links: [
     { title: 'Repairman Badge', href: 'https://homecoming.wiki/wiki/Repairman_Badge' },
     { title: 'Repairwoman Badge', href: 'https://homecoming.wiki/wiki/Repairwoman_Badge' },

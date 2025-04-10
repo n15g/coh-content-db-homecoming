@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const SharkHunter: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const SharkHunter: BadgeData = {
   setTitleId: [584],
   name: 'Shark Hunter',
   morality: 'heroic',
-  badgeText: 'You have helped defeat Captain Mako in Recluse\'s Victory.',
-  acquisition: 'Defeat Captain Mako in Recluse\'s Victory',
+  badgeText: `You have helped defeat Captain Mako in Recluse's Victory.`,
+  acquisition: `Defeat Captain Mako in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Shark Hunter Badge', href: 'https://homecoming.wiki/wiki/Shark_Hunter_Badge' },
   ],

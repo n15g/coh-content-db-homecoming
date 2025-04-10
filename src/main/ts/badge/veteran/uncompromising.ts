@@ -10,6 +10,6 @@ export const Uncompromising: BadgeData = {
     { alignment: 'hero', value: `You stand up for those who cannot stand up for themselves without compromise. You have attained eighty-one Veteran levels.` },
     { alignment: 'villain', value: `Believe it or not, there are still some people out there that don't know not to mess with you. You have attained eighty-one Veteran levels.` },
   ],
-  acquisition: 'Reach Veteran level 81',
+  acquisition: 'Reach Veteran level 81.',
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/veteran/veteran-81.png',
 }

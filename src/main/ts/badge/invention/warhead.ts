@@ -7,7 +7,7 @@ export const Warhead: BadgeData = {
   name: 'Warhead',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Damage and Knockback.',
-  effect: '+2 to Invention Salvage capacity',
+  effect: 'Awards +2 to Invention Salvage capacity.',
   links: [
     { title: 'Warhead Badge', href: 'https://homecoming.wiki/wiki/Warhead_Badge' },
   ],

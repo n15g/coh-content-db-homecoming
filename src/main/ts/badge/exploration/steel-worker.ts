@@ -1,13 +1,13 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { MayhemSteelCanyon } from '../../zone/mayhem-steel-canyon'
+import { LordSchweinzer } from '../../contact/lord-schweinzer'
 
 export const SteelWorker: BadgeData = {
   type: 'exploration',
   key: 'steel-worker',
   setTitleId: [558],
   name: 'Steel Worker',
-  morality: 'rogue-isles-access',
+  morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Not even the hardened metal made in these factories of Steel Canyon was able to protect this city from determined villains. Good thing Paragon has you now to do it.` },
     { alignment: 'villain', value: 'Not even the hardened metal made in these factories of Steel Canyon can protect the city from you.' },
@@ -16,7 +16,7 @@ export const SteelWorker: BadgeData = {
 
 The marker might be hidden by packing crates and a dumpster.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Mayhem missions can be accessed via ${contactLink(LordSchweinzer)}.`,
   links: [
     { title: 'Steel Worker Badge', href: 'https://homecoming.wiki/wiki/Steel_Worker_Badge' },
     { title: 'I25 Safeguard/Mayhem Contact', href: 'https://forums.homecomingservers.com/topic/1176-safeguardmayhem-badges' },

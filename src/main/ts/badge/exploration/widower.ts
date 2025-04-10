@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { MercyIsland } from '../../zone/mercy-island'
 
 export const Widower: BadgeData = {

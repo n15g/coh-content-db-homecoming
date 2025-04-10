@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardIndependencePort } from '../../zone/safeguard-independence-port'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const HonorableCaptain: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const HonorableCaptain: BadgeData = {
     { alignment: 'hero', value: 'Honorable Captain' },
     { alignment: 'villain', value: 'Dishonorable Captain' },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: 'Synapse has been seen speeding along the monorail tracks all throughout the city. Independence Port is one of his favorites.',
   notes: `Located in a narrow alley behind and slightly northeast of the crane on the northeastern side of the inlet. The alley sits beside a U-shaped building with two payphones, and the badge is found within.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: 'Honorable Captain Badge', href: 'https://homecoming.wiki/wiki/Honorable_Captain_Badge' },
     { title: 'Dishonorable Captain Badge', href: 'https://homecoming.wiki/wiki/Dishonorable_Captain_Badge' },

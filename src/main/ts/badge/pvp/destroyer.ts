@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const Destroyer: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const Destroyer: BadgeData = {
   setTitleId: [575],
   name: 'Destroyer',
   morality: 'villainous',
-  badgeText: 'You have helped defeat Positron in Recluse\'s Victory.',
-  acquisition: 'Defeat Positron in Recluse\'s Victory',
+  badgeText: `You have helped defeat Positron in Recluse's Victory.`,
+  acquisition: `Defeat Positron in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Destroyer Badge', href: 'https://homecoming.wiki/wiki/Destroyer_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { SharkheadIsle } from '../../zone/sharkhead-isle'
 
 export const RazorToothed: BadgeData = {

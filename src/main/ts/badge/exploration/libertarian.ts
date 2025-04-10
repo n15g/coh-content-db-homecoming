@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { MayhemFoundersFalls } from '../../zone/mayhem-founders-falls'
+import { LordSchweinzer } from '../../contact/lord-schweinzer'
 
 export const Libertarian: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const Libertarian: BadgeData = {
     { alignment: 'hero', value: 'Libertarian' },
     { alignment: 'villain', value: 'Anarchist' },
   ],
-  morality: 'rogue-isles-access',
+  morality: 'villainous',
   badgeText: 'It is here that the Devouring Earth nearly set off a biological bomb to infect the citizens of Founder\'s Falls.',
   notes: `Located under the edge of a fountain, approximately 140 yards east of the bank.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Mayhem missions can be accessed via ${contactLink(LordSchweinzer)}.`,
   links: [
     { title: 'Libertarian Badge', href: 'https://homecoming.wiki/wiki/Libertarian_Badge' },
     { title: 'Anarchist Badge', href: 'https://homecoming.wiki/wiki/Anarchist_Badge' },

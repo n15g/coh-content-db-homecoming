@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const DeadEye: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const DeadEye: BadgeData = {
   setTitleId: [576],
   name: 'Dead-eye',
   morality: 'villainous',
-  badgeText: 'You have helped defeat Manticore in Recluse\'s Victory.',
-  acquisition: 'Defeat Manticore in Recluse\'s Victory',
+  badgeText: `You have helped defeat Manticore in Recluse's Victory.`,
+  acquisition: `Defeat Manticore in ${zoneLink(ReclusesVictory)}`,
   links: [
     { title: 'Dead-eye Badge', href: 'https://homecoming.wiki/wiki/Dead-eye_Badge' },
   ],

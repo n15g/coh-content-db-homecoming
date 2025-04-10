@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const Breakneck: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const Breakneck: BadgeData = {
   setTitleId: [578],
   name: 'Breakneck',
   morality: 'villainous',
-  badgeText: 'You have helped defeat Synapse in Recluse\'s Victory.',
-  acquisition: 'Defeat Synapse in Recluse\'s Victory',
+  badgeText: `You have helped defeat Synapse in Recluse's Victory.`,
+  acquisition: `Defeat Synapse in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Breakneck Badge', href: 'https://homecoming.wiki/wiki/Breakneck_Badge' },
   ],

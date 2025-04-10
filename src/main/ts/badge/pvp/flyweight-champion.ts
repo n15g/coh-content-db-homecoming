@@ -6,9 +6,8 @@ export const FlyweightChampion: BadgeData = {
   setTitleId: [221],
   name: 'Flyweight Champion',
   morality: 'all',
-  badgeText: 'You have achieved the status of Champion in the Flyweight division by winning your first match '
-    + 'in this division.',
-  acquisition: 'Win an Arena event in the Flyweight division',
+  badgeText: `You have achieved the status of Champion in the Flyweight division by winning your first match in this division.`,
+  acquisition: 'Win an Arena event in the Flyweight division.',
   links: [
     { title: 'Flyweight Champion Badge', href: 'https://homecoming.wiki/wiki/Flyweight_Champion_Badge' },
   ],

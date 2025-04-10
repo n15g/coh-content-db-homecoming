@@ -7,7 +7,7 @@ export const Sharpshooter: BadgeData = {
   name: 'Sharpshooter',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Recharge Rate and Interrupt Time.',
-  effect: '+1 to Recipe capacity',
+  effect: 'Awards +1 to Recipe capacity.',
   links: [
     { title: 'Sharpshooter Badge', href: 'https://homecoming.wiki/wiki/Sharpshooter_Badge' },
   ],

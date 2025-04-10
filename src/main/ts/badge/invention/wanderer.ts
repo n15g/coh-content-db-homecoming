@@ -7,7 +7,7 @@ export const Wanderer: BadgeData = {
   name: 'Wanderer',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Run Speed, Jump, Fly Speed, and Range.',
-  effect: '+2 to Invention Salvage capacity',
+  effect: 'Awards +2 to Invention Salvage capacity.',
   links: [
     { title: 'Wanderer Badge', href: 'https://homecoming.wiki/wiki/Wanderer_Badge' },
   ],

@@ -7,7 +7,7 @@ export const Colonel: BadgeData = {
   name: 'Colonel',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Accuracy and To Hit Buff.',
-  effect: '+2 to Invention Salvage capacity',
+  effect: 'Awards +2 to Invention Salvage capacity.',
   links: [
     { title: 'Colonel Badge', href: 'https://homecoming.wiki/wiki/Colonel_Badge' },
   ],

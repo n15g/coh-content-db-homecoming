@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const BackFromTheFuture: BadgeData = {
   type: 'pvp',
@@ -7,7 +8,7 @@ export const BackFromTheFuture: BadgeData = {
   name: 'Back From the Future',
   morality: 'all',
   badgeText: '100 pillboxes have been captured by you, you are truly a Time Bandit.',
-  acquisition: 'Capture 100 pillboxes in Recluse\'s Victory',
+  acquisition: `Capture 100 pillboxes in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Back from the Future Badge', href: 'https://homecoming.wiki/wiki/Back_from_the_Future_Badge' },
   ],

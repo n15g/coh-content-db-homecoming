@@ -7,10 +7,10 @@ export const Disruptor: BadgeData = {
   name: 'Disruptor',
   morality: 'all',
   badgeText: [
-    { alignment: 'hero', value: 'You\'ve taken down 50 villains in PvP.' },
-    { alignment: 'villain', value: 'You\'ve taken down 50 heroes in PvP.' },
+    { alignment: 'hero', value: `You've taken down 50 villains in PvP.` },
+    { alignment: 'villain', value: `You've taken down 50 heroes in PvP.` },
   ],
-  acquisition: 'Defeat 50 player characters in a PvP zone by your own hand',
+  acquisition: 'Defeat 50 player characters in a PvP zone by your own hand.',
   links: [
     { title: 'Disruptor Badge', href: 'https://homecoming.wiki/wiki/Disruptor_Badge' },
   ],

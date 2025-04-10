@@ -6,9 +6,8 @@ export const HeavyweightChampion: BadgeData = {
   setTitleId: [228],
   name: 'Heavyweight Champion',
   morality: 'all',
-  badgeText: 'You have achieved the status of Champion in the Heavyweight division by winning your first '
-    + 'match in this division.',
-  acquisition: 'Win an Arena event in the Heavyweight division',
+  badgeText: `You have achieved the status of Champion in the Heavyweight division by winning your first match in this division.`,
+  acquisition: 'Win an Arena event in the Heavyweight division.',
   links: [
     { title: 'Heavyweight Champion Badge', href: 'https://homecoming.wiki/wiki/Heavyweight_Champion_Badge' },
   ],

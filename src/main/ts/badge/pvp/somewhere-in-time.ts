@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const SomewhereInTime: BadgeData = {
   type: 'pvp',
@@ -7,7 +8,7 @@ export const SomewhereInTime: BadgeData = {
   name: 'Somewhere in Time',
   morality: 'all',
   badgeText: '50 pillboxes have fallen into your hands.',
-  acquisition: 'Capture 50 pillboxes in Recluse\'s Victory',
+  acquisition: `Capture 50 pillboxes in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Somewhere in Time Badge', href: 'https://homecoming.wiki/wiki/Somewhere_in_Time_Badge' },
   ],

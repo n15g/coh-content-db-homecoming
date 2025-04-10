@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { ReclusesVictory } from '../../zone/recluses-victory'
 
 export const TemporalSoldier: BadgeData = {
   type: 'pvp',
@@ -6,8 +7,8 @@ export const TemporalSoldier: BadgeData = {
   setTitleId: [569],
   name: 'Temporal Soldier',
   morality: 'all',
-  badgeText: '50 Heavies have been at your disposal in Recluse\'s Victory',
-  acquisition: 'Control 50 Heavies in Recluse\'s Victory',
+  badgeText: `50 Heavies have been at your disposal in Recluse's Victory`,
+  acquisition: `Control 50 Heavies in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Temporal Soldier Badge', href: 'https://homecoming.wiki/wiki/Temporal_Soldier_Badge' },
   ],

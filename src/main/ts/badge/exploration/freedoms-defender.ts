@@ -1,6 +1,6 @@
-import { BadgeData } from 'coh-content-db'
-import { SAFEGUARD_MAYHEM_CONTACT_FRAGMENT } from '../fragment'
+import { BadgeData, contactLink } from 'coh-content-db'
 import { SafeguardSteelCanyon } from '../../zone/safeguard-steel-canyon'
+import { AgentHassell } from '../../contact/agent-hassell'
 
 export const FreedomsDefender: BadgeData = {
   type: 'exploration',
@@ -10,11 +10,11 @@ export const FreedomsDefender: BadgeData = {
     { alignment: 'hero', value: `Freedom's Defender` },
     { alignment: 'villain', value: `Freedom's Crusher` },
   ],
-  morality: 'paragon-city-access',
+  morality: 'heroic',
   badgeText: 'The Hellions attempted to burn Steel Canyon to the ground. This block is where one of the first fires was started.',
   notes: `Located in the bottom right (southwestern) cutaway corner of a four-story apartment building in the central western part of the map.
 
-${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
+Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,
   links: [
     { title: `Freedom's Defender Badge`, href: 'https://homecoming.wiki/wiki/Freedom%27s_Defender_Badge' },
     { title: `Freedom's Crusher Badge`, href: 'https://homecoming.wiki/wiki/Freedom%27s_Crusher_Badge' },

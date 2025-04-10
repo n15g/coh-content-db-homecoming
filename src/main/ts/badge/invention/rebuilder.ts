@@ -7,7 +7,7 @@ export const Rebuilder: BadgeData = {
   name: 'Rebuilder',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Heal.',
-  effect: '+2 to Invention Salvage capacity',
+  effect: 'Awards +2 to Invention Salvage capacity.',
   links: [
     { title: 'Rebuilder Badge', href: 'https://homecoming.wiki/wiki/Rebuilder_Badge' },
   ],

@@ -7,7 +7,7 @@ export const Defensive: BadgeData = {
   name: 'Defensive',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Defense Buff, Resist Damage, Intangible.',
-  effect: '+1 to Recipe capacity',
+  effect: 'Awards +1 to Recipe capacity.',
   links: [
     { title: 'Defensive Badge', href: 'https://homecoming.wiki/wiki/Defensive_Badge' },
   ],
