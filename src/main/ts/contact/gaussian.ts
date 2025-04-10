@@ -5,8 +5,7 @@ export const Gaussian: ContactData = {
   key: 'gaussian',
   name: 'Gaussian',
   title: 'Vanguard Tactician',
-  zoneKey: RiktiWarZone.key,
-  loc: [424, -1192, -2225],
+  location: { zoneKey: RiktiWarZone.key, coords: [424, -1192, -2225] },
   levelRange: [45, 50],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Gaussian' }],
 }

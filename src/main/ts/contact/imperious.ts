@@ -5,8 +5,7 @@ export const Imperious: ContactData = {
   key: 'imperious',
   name: 'Imperious',
   title: 'Deposed ruler of Cimerora',
-  zoneKey: Cimerora.key,
-  loc: [-1140, 102, 4592.5],
+  location: { zoneKey: Cimerora.key, coords: [-1140, 102, 4592.5] },
   levelRange: [35, 50],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Imperious' }],
 }

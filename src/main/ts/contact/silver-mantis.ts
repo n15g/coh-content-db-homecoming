@@ -5,8 +5,7 @@ export const SilverMantis: ContactData = {
   key: 'silver-mantis',
   name: 'Silver Mantis',
   title: `Black Scorpion's Assistant and Lover`,
-  zoneKey: SharkheadIsle.key,
-  loc: [-1375, 0, -597],
+  location: { zoneKey: SharkheadIsle.key, coords: [-1375, 0, -597] },
   levelRange: [20, 25],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Silver_Mantis' }],
 }

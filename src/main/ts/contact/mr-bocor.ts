@@ -5,8 +5,7 @@ export const MrBocor: ContactData = {
   key: 'mr-bocor',
   name: 'Mr. Bocor',
   title: 'Vodoun Priest',
-  zoneKey: PortOakes.key,
-  loc: [-406, 64, -43],
+  location: { zoneKey: PortOakes.key, coords: [-406, 64, -43] },
   levelRange: [5, 9],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mr._Bocor' }],
 }

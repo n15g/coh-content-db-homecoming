@@ -5,8 +5,7 @@ export const LukeLarson: ContactData = {
   key: 'luke-larson',
   name: 'Luke Larson',
   title: 'Public Official, for the people',
-  zoneKey: ImperialCity.key,
-  loc: [-1884, -56, -891],
+  location: { zoneKey: ImperialCity.key, coords: [-1884, -56, -891] },
   levelRange: [8, 15],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Luke_Larson' }],
 }

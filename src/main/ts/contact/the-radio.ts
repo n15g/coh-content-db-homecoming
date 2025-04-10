@@ -5,8 +5,7 @@ export const TheRadio: ContactData = {
   key: 'the-radio',
   name: 'The Radio',
   title: 'An innocuous radio',
-  zoneKey: PortOakes.key,
-  loc: [-1457.5, 67, 63.5],
+  location: { zoneKey: PortOakes.key, coords: [-1457.5, 67, 63.5] },
   levelRange: [10, 14],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/The_Radio' }],
 }

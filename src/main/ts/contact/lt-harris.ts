@@ -5,8 +5,7 @@ export const LtHarris: ContactData = {
   key: 'lt-harris',
   name: 'Lt. Harris',
   title: 'Longbow Turncoat',
-  zoneKey: MercyIsland.key,
-  loc: [-533, 98, -1295],
+  location: { zoneKey: MercyIsland.key, coords: [-533, 98, -1295] },
   levelRange: [1, 7],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Lt._Harris' }],
 }

@@ -5,8 +5,7 @@ export const InterrogatorKang: ContactData = {
   key: 'interrogator-kang',
   name: 'Interrogator Kang',
   title: 'Interrogator',
-  zoneKey: ImperialCity.key,
-  loc: [-2233, -30, 255],
+  location: { zoneKey: ImperialCity.key, coords: [-2233, -30, 255] },
   levelRange: [8, 15],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Interrogator_Kang' }],
 }

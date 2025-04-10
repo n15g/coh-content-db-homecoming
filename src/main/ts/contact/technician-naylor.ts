@@ -5,8 +5,7 @@ export const TechnicianNaylor: ContactData = {
   key: 'technician-naylor',
   name: 'Technician Naylor',
   title: 'Arachnos Portal Technician',
-  zoneKey: NervaArchipelago.key,
-  loc: [2859, -103, 995],
+  location: { zoneKey: NervaArchipelago.key, coords: [2859, -103, 995] },
   levelRange: [35, 39],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Technician_Naylor' }],
 }

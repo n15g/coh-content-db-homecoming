@@ -5,8 +5,7 @@ export const Flux: ContactData = {
   key: 'flux',
   name: 'Flux',
   title: 'Undercover Agent',
-  zoneKey: TheHollows.key,
-  loc: [47.1, 0, -4601],
+  location: { zoneKey: TheHollows.key, coords: [47.1, 0, -4601] },
   levelRange: [5, 14],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Flux' }],
 }

@@ -5,8 +5,7 @@ export const LarsHansen: ContactData = {
   key: 'lars-hansen',
   name: 'Lars Hansen',
   title: 'Light Keeper',
-  zoneKey: StrigaIsle.key,
-  loc: [-494, 81, -2360],
+  location: { zoneKey: StrigaIsle.key, coords: [-494, 81, -2360] },
   levelRange: [25, 29],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Lars_Hansen' }],
 }

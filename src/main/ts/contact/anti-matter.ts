@@ -5,8 +5,7 @@ export const AntiMatter: ContactData = {
   key: 'anti-matter',
   name: 'Anti-Matter',
   title: 'Ex-Praetor',
-  zoneKey: Neutropolis.key,
-  loc: [4691, -20, 2164],
+  location: { zoneKey: Neutropolis.key, coords: [4691, -20, 2164] },
   levelRange: [14, 20],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Anti-Matter' }],
 }

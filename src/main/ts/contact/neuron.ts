@@ -5,8 +5,7 @@ export const Neuron: ContactData = {
   key: 'neuron',
   name: 'Neuron',
   title: 'Praetor of the Sciences',
-  zoneKey: Neutropolis.key,
-  loc: [1682, -51, -643],
+  location: { zoneKey: Neutropolis.key, coords: [1682, -51, -643] },
   levelRange: [14, 20],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Neuron' }],
 }

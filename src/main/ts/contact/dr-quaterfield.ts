@@ -5,8 +5,7 @@ export const DrQuaterfield: ContactData = {
   key: 'dr-quaterfield',
   name: 'Dr. Quaterfield',
   title: 'Head Scientist',
-  zoneKey: FirebaseZulu.key,
-  loc: [6293, 1088, 2036],
+  location: { zoneKey: FirebaseZulu.key, coords: [6293, 1088, 2036] },
   levelRange: [40, 44],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Quaterfield' }],
 }

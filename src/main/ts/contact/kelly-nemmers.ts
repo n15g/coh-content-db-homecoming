@@ -5,8 +5,7 @@ export const KellyNemmers: ContactData = {
   key: 'kelly-nemmers',
   name: 'Kelly Nemmers',
   title: 'Ghost',
-  zoneKey: Croatoa.key,
-  loc: [-2182, -42, 1326],
+  location: { zoneKey: Croatoa.key, coords: [-2182, -42, 1326] },
   levelRange: [30, 34],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Kelly_Nemmers' }],
 }

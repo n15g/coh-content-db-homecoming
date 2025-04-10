@@ -5,8 +5,7 @@ export const Television: ContactData = {
   key: 'television',
   name: 'Television',
   title: 'Television',
-  zoneKey: Grandville.key,
-  loc: [3232, -458, 2363],
+  location: { zoneKey: Grandville.key, coords: [3232, -458, 2363] },
   levelRange: [45, 50],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Television' }],
 }

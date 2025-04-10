@@ -13,7 +13,7 @@ export const Revolutionary: BadgeData = {
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `The Family doesn't make as many deals on the beach in Independance Port since you started working in Paragon.` },
-    { alignment: 'villain', value: `It isn't uncommon to see the Family taking associates for a walk with cement shoes at this beach in Independence Port.` }
+    { alignment: 'villain', value: `It isn't uncommon to see the Family taking associates for a walk with cement shoes at this beach in Independence Port.` },
   ],
   notes: `Located on the southwest end of the sandbank in the southwest part of the map.
 

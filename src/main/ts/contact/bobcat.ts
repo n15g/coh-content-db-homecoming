@@ -5,8 +5,7 @@ export const Bobcat: ContactData = {
   key: 'bobcat',
   name: 'Bobcat',
   title: 'Lazy Cat Girl',
-  zoneKey: ImperialCity.key,
-  loc: [-409, -349, -1311],
+  location: { zoneKey: ImperialCity.key, coords: [-409, -349, -1311] },
   levelRange: [14, 20],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Bobcat' }],
 }

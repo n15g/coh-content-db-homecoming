@@ -5,8 +5,7 @@ export const Warrant: ContactData = {
   key: 'warrant',
   name: 'Warrant',
   title: 'A Top Dog in the PPD Powers Division',
-  zoneKey: NovaPraetoria.key,
-  loc: [-5675, 33, -842],
+  location: { zoneKey: NovaPraetoria.key, coords: [-5675, 33, -842] },
   levelRange: [1, 9],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Warrant' }],
 }

@@ -5,8 +5,7 @@ export const HeatherTownshend: ContactData = {
   key: 'heather-townshend',
   name: 'Heather Townshend',
   title: 'Architect',
-  zoneKey: DarkAstoria.key,
-  loc: [4542, 42, 1213],
+  location: { zoneKey: DarkAstoria.key, coords: [4542, 42, 1213] },
   levelRange: [50],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Heather_Townshend' }],
 }

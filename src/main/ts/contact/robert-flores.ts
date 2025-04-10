@@ -5,8 +5,7 @@ export const RobertFlores: ContactData = {
   key: 'robert-flores',
   name: 'Robert Flores',
   title: 'Journalist',
-  zoneKey: NovaPraetoria.key,
-  loc: [-5955, 24, -873],
+  location: { zoneKey: NovaPraetoria.key, coords: [-5955, 24, -873] },
   levelRange: [1, 10],
   links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Robert_Flores' }],
 }
