@@ -4,10 +4,10 @@ import { isBadgeProperty } from '../utils/badge-ast-utils'
 import { getProperty } from '../utils/ast-utils'
 
 export const migrateBadgeLoc = createRule({
-  name: 'migrate-exploration-badge-loc',
+  name: 'migrate-badge-loc',
   meta: {
     docs: {
-      description: `Migrates old loc + zoneKey format to a location field.`,
+      description: `Migrates old badge loc + zoneKey format to a location field.`,
     },
     messages: {
       plsMigrate: `Convert to a location field.`,

@@ -17,6 +17,7 @@ module.exports = {
   },
   rules: {
     'local/migrate-badge-loc': ['error'],
+    'local/migrate-contact-loc': ['error'],
     'local/migrate-requirement-loc': ['error'],
     'local/migrate-requirement-plaque-type': ['error'],
     'local/no-empty-alternate': ['error'],
