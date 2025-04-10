@@ -14,6 +14,6 @@ export const Unspoiled: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [2482, 34, 2350] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [2482, 34, 2350], icon: 'badge', iconText: '2' } },
   ],
 }

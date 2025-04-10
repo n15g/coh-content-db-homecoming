@@ -18,6 +18,6 @@ This sense of ease is an illusion, the safety is a lie. Nowhere is safe here, an
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [3096, 1535, 1502] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [3096, 1535, 1502], icon: 'badge', iconText: '2' } },
   ],
 }

@@ -17,6 +17,6 @@ You've felt it and been the source of it for others. That last fifteen seconds a
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-291, -29, -687] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-291, -29, -687], icon: 'badge', iconText: '5' } },
   ],
 }

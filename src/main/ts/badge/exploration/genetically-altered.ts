@@ -16,6 +16,6 @@ Despite a lack of evidence, signs point to some sort of genetic shenanigans on C
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [-1510, 0, -6335] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [-1510, 0, -6335], icon: 'badge', iconText: '4' } },
   ],
 }

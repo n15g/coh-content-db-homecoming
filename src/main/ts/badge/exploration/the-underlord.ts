@@ -22,6 +22,6 @@ every part of the city as a means to carry out all kinds of business out of the 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [2688, 0, 2240] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [2688, 0, 2240], icon: 'badge', iconText: '5' } },
   ],
 }

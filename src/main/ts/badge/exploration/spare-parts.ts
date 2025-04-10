@@ -14,6 +14,6 @@ export const SpareParts: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [446.7, 0.3, 1521.3] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [446.7, 0.3, 1521.3], icon: 'badge', iconText: '7' } },
   ],
 }

@@ -15,6 +15,6 @@ After the revelation was made, officials rushed to recover Ajax's body, which is
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-1184, 7, 2132] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-1184, 7, 2132], icon: 'badge', iconText: '5' } },
   ],
 }

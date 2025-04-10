@@ -14,6 +14,6 @@ export const KeenSighted: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-2176, 97, 1142] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-2176, 97, 1142], icon: 'badge', iconText: '4' } },
   ],
 }

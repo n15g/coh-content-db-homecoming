@@ -16,6 +16,6 @@ export const TrueNeutral: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [-0.3, 16.3, 511.9] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [-0.3, 16.3, 511.9], icon: 'badge', iconText: '6' } },
   ],
 }

@@ -17,6 +17,6 @@ have a new crop of cadaverous servitors roaming the streets to do their dark bid
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-4516, 1, -1262] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-4516, 1, -1262], icon: 'badge', iconText: '8' } },
   ],
 }

@@ -16,6 +16,6 @@ But those who know the truth, and are not intimidated into silence, know that Cr
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [3263, 104, 1279] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [3263, 104, 1279], icon: 'badge', iconText: '6' } },
   ],
 }

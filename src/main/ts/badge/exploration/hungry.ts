@@ -21,6 +21,6 @@ export const Hungry: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [-1194, 0, -743] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [-1194, 0, -743], icon: 'badge', iconText: '2' } },
   ],
 }

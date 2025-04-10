@@ -15,6 +15,6 @@ But this place is a haven for Engineers and mechanics, stick around a while and 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-2015, 464, -193] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-2015, 464, -193], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -17,6 +17,6 @@ Rularuu has engineered his minions into an engine geared towards releasing him f
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-5825, 1628, 2814] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-5825, 1628, 2814], icon: 'badge', iconText: '5' } },
   ],
 }

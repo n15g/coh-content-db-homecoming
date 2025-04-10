@@ -17,6 +17,6 @@ You will turn its hate and anger back upon itself; you will be an Acolyte of Ang
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-2133, -27, 8644] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-2133, -27, 8644], icon: 'badge', iconText: '2' } },
   ],
 }

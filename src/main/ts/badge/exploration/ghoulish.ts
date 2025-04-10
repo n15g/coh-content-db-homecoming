@@ -17,6 +17,6 @@ export const Ghoulish: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [91, 65, 360] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [91, 65, 360], icon: 'badge', iconText: '4' } },
   ],
 }

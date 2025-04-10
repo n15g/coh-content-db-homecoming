@@ -17,6 +17,6 @@ export const Newsman: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [1125, -26.9, 1296.7] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [1125, -26.9, 1296.7], icon: 'badge', iconText: '1' } },
   ],
 }

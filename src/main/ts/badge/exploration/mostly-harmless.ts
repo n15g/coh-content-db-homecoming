@@ -16,6 +16,6 @@ export const MostlyHarmless: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [-192, 96, 2064] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [-192, 96, 2064], icon: 'badge', iconText: '7' } },
   ],
 }

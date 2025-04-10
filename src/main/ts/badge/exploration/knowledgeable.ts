@@ -14,6 +14,6 @@ export const Knowledgeable: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [43.4, -783.8, -1000.8] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [43.4, -783.8, -1000.8], icon: 'badge', iconText: '5' } },
   ],
 }

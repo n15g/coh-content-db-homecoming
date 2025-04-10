@@ -18,6 +18,6 @@ The coordinates for this entrance are (1797.9, 109.6, -2416.4). It is a greenish
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [1699, -577, -1975] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [1699, -577, -1975], icon: 'badge', iconText: '3' } },
   ],
 }

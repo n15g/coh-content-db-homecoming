@@ -17,6 +17,6 @@ export const Imploding: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [1885, 129, 1337] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [1885, 129, 1337], icon: 'badge', iconText: '3' } },
   ],
 }

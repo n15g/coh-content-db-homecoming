@@ -14,6 +14,6 @@ export const DeucesWild: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-3325, -29, -436] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-3325, -29, -436], icon: 'badge', iconText: '1' } },
   ],
 }

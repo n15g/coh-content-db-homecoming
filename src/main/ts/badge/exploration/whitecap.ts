@@ -14,6 +14,6 @@ export const Whitecap: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-5613, 80, 1855] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-5613, 80, 1855], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -18,6 +18,6 @@ Since its destruction, that new technique the Number 6 plant was designed to tes
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [-1588, 188, -2299] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [-1588, 188, -2299], icon: 'badge', iconText: '6' } },
   ],
 }

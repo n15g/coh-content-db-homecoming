@@ -15,6 +15,6 @@ She is so good, there are rumors in shadowy corners that she even taught the elu
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-2358, -16, 934] }, vidiotMapKey: '9' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-2358, -16, 934], icon: 'badge', iconText: '9' } },
   ],
 }

@@ -19,6 +19,6 @@ on the north end of a series of biomass beneath the shell of the destroyed Seed 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [829, 23, 1955] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [829, 23, 1955], icon: 'badge', iconText: '4' } },
   ],
 }

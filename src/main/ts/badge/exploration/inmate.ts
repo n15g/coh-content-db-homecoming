@@ -14,6 +14,6 @@ export const Inmate: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-1726, 24, 1153] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-1726, 24, 1153], icon: 'badge', iconText: '2' } },
   ],
 }

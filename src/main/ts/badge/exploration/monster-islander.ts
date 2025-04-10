@@ -18,6 +18,6 @@ Squaring your shoulders, you set out; it is time you showed them that a new mons
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-2437, 1, -8276] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-2437, 1, -8276], icon: 'badge', iconText: '1' } },
   ],
 }

@@ -14,6 +14,6 @@ export const BigSpider: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-1023, 97, -896] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-1023, 97, -896], icon: 'badge', iconText: '6' } },
   ],
 }

@@ -15,6 +15,6 @@ People say that if you look closely, you can see glimpses of the man's skeleton,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [1670, 121, -2228] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [1670, 121, -2228], icon: 'badge', iconText: '5' } },
   ],
 }

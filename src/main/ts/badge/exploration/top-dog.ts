@@ -14,6 +14,6 @@ export const TopDog: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [131, 320, -319.5] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [131, 320, -319.5], icon: 'badge', iconText: '5' } },
   ],
 }

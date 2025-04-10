@@ -16,6 +16,6 @@ It was only shortly afterward that plans for the Zig were created, driving the m
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [254, 31.8, -1343.5] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [254, 31.8, -1343.5], icon: 'badge', iconText: '5' } },
   ],
 }

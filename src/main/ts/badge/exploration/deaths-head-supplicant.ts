@@ -18,6 +18,6 @@ Only one has fully extended to its full voraciousness, but that one is enough to
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [1727, 233, 905] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [1727, 233, 905], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -17,6 +17,6 @@ Tread carefully.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [-120, 20, -1952] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [-120, 20, -1952], icon: 'badge', iconText: '6' } },
   ],
 }

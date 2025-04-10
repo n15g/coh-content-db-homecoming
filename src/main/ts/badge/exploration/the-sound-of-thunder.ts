@@ -16,6 +16,6 @@ The closer your approach, the more excited they seem to grow and the louder thei
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-813, 0, -791] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-813, 0, -791], icon: 'badge', iconText: '7' } },
   ],
 }

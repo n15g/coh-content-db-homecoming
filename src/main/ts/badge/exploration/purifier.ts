@@ -18,6 +18,6 @@ export const Purifier: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [-1085, -16, -7612] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [-1085, -16, -7612], icon: 'badge', iconText: '1' } },
   ],
 }

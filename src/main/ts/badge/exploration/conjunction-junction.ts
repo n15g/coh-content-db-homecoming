@@ -17,6 +17,6 @@ Head west from the entrance to ${zoneLink(IndependencePort)} and it can be locat
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [2222, 0, -7102] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [2222, 0, -7102], icon: 'badge', iconText: '1' } },
   ],
 }

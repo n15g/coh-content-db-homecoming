@@ -15,6 +15,6 @@ The construction workers put in major overtime work to make it happen, and by we
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-3707, 96, 8629] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-3707, 96, 8629], icon: 'badge', iconText: '7' } },
   ],
 }

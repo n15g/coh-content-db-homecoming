@@ -15,6 +15,6 @@ export const Luscious: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [4243, -24, -1862] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [4243, -24, -1862], icon: 'badge', iconText: '6' } },
   ],
 }

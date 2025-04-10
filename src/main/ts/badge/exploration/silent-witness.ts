@@ -14,6 +14,6 @@ export const SilentWitness: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-2482, 335, -591] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-2482, 335, -591], icon: 'badge', iconText: '7' } },
   ],
 }

@@ -18,6 +18,6 @@ The Oracle of the Seers has relied on its continued guidance in order to steer C
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [1011, 389.3, 4930] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [1011, 389.3, 4930], icon: 'badge', iconText: '4' } },
   ],
 }

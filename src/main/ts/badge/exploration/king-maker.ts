@@ -18,6 +18,6 @@ ${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MayhemKingsRow.key, coords: [-252, -42, -2515] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MayhemKingsRow.key, coords: [-252, -42, -2515], icon: 'badge', iconText: '1' } },
   ],
 }

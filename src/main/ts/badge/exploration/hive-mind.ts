@@ -19,6 +19,6 @@ How long you could hold out before the overpowering will of Hamidon found its wa
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [1622, 130, 3609] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [1622, 130, 3609], icon: 'badge', iconText: '7' } },
   ],
 }

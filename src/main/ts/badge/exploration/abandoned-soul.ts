@@ -15,6 +15,6 @@ Unlike the dead, however this does little to faze you. After all, if creatures k
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [-411, 48, -2623] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [-411, 48, -2623], icon: 'badge', iconText: '4' } },
   ],
 }

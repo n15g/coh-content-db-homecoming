@@ -18,6 +18,6 @@ Some take the trek down into these tunnels to exact some retribution against the
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [1792, -59, -2944] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [1792, -59, -2944], icon: 'badge', iconText: '3' } },
   ],
 }

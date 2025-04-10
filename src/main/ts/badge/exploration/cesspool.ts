@@ -15,6 +15,6 @@ The tanks are in the far northwestern part of the island, and the badge marker i
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-322, 68, -2656] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-322, 68, -2656], icon: 'badge', iconText: '1' } },
   ],
 }

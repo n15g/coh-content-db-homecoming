@@ -15,6 +15,6 @@ It is not difficult to understand why this part of the Abandoned Sewer Network c
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [16, -896, 0] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [16, -896, 0], icon: 'badge', iconText: '2' } },
   ],
 }

@@ -19,6 +19,6 @@ From the roof of that building, it is an easy jump onto the back ledge of the bi
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1170, 39, -2470] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1170, 39, -2470], icon: 'badge', iconText: '2' } },
   ],
 }

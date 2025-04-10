@@ -14,6 +14,6 @@ export const ClockworkMechanic: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-3504, 512, -783] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-3504, 512, -783], icon: 'badge', iconText: '1' } },
   ],
 }

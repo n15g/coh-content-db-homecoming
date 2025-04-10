@@ -18,6 +18,6 @@ In the lower-right-hand corner of the red area of the Moth Cemetery boundaries r
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [1015, 115, 2371] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [1015, 115, 2371], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -19,6 +19,6 @@ True understanding lies in part with becoming what you wish to understand, and d
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [-1331, -62, -1728] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [-1331, -62, -1728], icon: 'badge', iconText: '1' } },
   ],
 }

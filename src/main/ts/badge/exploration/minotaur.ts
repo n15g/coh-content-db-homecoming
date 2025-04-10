@@ -15,6 +15,6 @@ Although the hero never rose from the waters, the island that formed was named i
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [1698, 16, 7697] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [1698, 16, 7697], icon: 'badge', iconText: '1' } },
   ],
 }

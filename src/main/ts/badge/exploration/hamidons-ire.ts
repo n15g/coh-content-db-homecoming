@@ -19,6 +19,6 @@ The people who died here deserved what they got.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-823, -43, -1183] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-823, -43, -1183], icon: 'badge', iconText: '6' } },
   ],
 }

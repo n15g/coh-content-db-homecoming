@@ -16,6 +16,6 @@ Ultimately the passengers were saved by Lady Liberty and the Back Alley Brawler 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-2658, 91, 4571] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-2658, 91, 4571], icon: 'badge', iconText: '7' } },
   ],
 }

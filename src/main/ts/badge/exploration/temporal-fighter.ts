@@ -21,6 +21,6 @@ export const TemporalFighter: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [1027, 42, -1420] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [1027, 42, -1420], icon: 'badge', iconText: '3' } },
   ],
 }

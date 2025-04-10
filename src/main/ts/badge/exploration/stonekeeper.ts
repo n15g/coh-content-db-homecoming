@@ -14,6 +14,6 @@ export const Stonekeeper: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-2566, 119.8, 3000.5] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-2566, 119.8, 3000.5], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -17,6 +17,6 @@ The route from the Sector B marker is not direct and the badge is more easily fo
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-3050, -1248, -2239] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-3050, -1248, -2239], icon: 'badge', iconText: '4' } },
   ],
 }

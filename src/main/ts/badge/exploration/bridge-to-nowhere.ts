@@ -16,6 +16,6 @@ It may be only a matter of time until this bridge collapses.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [251, -12, -3644] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [251, -12, -3644], icon: 'badge', iconText: '8' } },
   ],
 }

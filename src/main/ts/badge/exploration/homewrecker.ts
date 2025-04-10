@@ -15,6 +15,6 @@ export const Homewrecker: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [3566, 0, -759] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [3566, 0, -759], icon: 'badge', iconText: '5' } },
   ],
 }

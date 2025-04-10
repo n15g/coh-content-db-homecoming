@@ -16,6 +16,6 @@ Members of the Resistance who have made the trek out to this flooded region mock
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [181, 13, -677] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [181, 13, -677], icon: 'badge', iconText: '8' } },
   ],
 }

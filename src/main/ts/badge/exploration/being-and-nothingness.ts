@@ -15,6 +15,6 @@ Vertigo sends your senses reeling and the urge to leave this place is undeniable
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [3293, 1224, -3193] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [3293, 1224, -3193], icon: 'badge', iconText: '3' } },
   ],
 }

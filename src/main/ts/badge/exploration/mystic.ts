@@ -15,6 +15,6 @@ export const Mystic: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-593, 32, 1378] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-593, 32, 1378], icon: 'badge', iconText: '1' } },
   ],
 }

@@ -17,6 +17,6 @@ There is something almost surreal about seeing this construction crane, somethin
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [513, 1742, -2084] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [513, 1742, -2084], icon: 'badge', iconText: '5' } },
   ],
 }

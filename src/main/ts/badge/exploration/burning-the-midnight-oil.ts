@@ -16,6 +16,6 @@ It is found on the western side of the second silo rising out of the sludge, fro
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [840, 24, 1798] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [840, 24, 1798], icon: 'badge', iconText: '2' } },
   ],
 }

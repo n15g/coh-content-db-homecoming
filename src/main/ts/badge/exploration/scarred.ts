@@ -15,6 +15,6 @@ export const Scarred: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [3216.4, -137.3, -3198.1] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [3216.4, -137.3, -3198.1], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -14,6 +14,6 @@ export const Technophile: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-6336, -16, 2] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-6336, -16, 2], icon: 'badge', iconText: '6' } },
   ],
 }

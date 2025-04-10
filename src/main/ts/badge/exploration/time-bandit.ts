@@ -14,6 +14,6 @@ export const TimeBandit: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [1742, 2, -3820] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [1742, 2, -3820], icon: 'badge', iconText: '1' } },
   ],
 }

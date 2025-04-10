@@ -17,6 +17,6 @@ to it as so many others down here have.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [-896, -890.3, -1018] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [-896, -890.3, -1018], icon: 'badge', iconText: '7' } },
   ],
 }

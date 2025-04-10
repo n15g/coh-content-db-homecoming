@@ -18,6 +18,6 @@ Your possessions, your job, your status: it is time for you to deny the hold the
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [1112, 270, -3857] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [1112, 270, -3857], icon: 'badge', iconText: '2' } },
   ],
 }

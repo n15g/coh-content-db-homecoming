@@ -18,6 +18,6 @@ The survivors believed too that one day they would return and reclaim First Ward
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [-2188, 77, 486] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [-2188, 77, 486], icon: 'badge', iconText: '1' } },
   ],
 }

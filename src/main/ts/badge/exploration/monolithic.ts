@@ -17,6 +17,6 @@ To merely be counted among those touched by her radiance is in itself a humbling
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [-2605, 75, 2031] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [-2605, 75, 2031], icon: 'badge', iconText: '7' } },
   ],
 }

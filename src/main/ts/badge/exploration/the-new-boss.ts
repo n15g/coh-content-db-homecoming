@@ -16,6 +16,6 @@ Then... 'kaboom.' The Clockwork so reprogrammed are not given a choice in the ma
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-399, -1200, -2696] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-399, -1200, -2696], icon: 'badge', iconText: '8' } },
   ],
 }

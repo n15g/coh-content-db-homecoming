@@ -18,6 +18,6 @@ You are determined to keep those dangers contained lest they stain Paragon City'
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [-2756, -51, 1972] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [-2756, -51, 1972], icon: 'badge', iconText: '6' } },
   ],
 }

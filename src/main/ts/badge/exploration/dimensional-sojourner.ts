@@ -17,6 +17,6 @@ You are a rare breed, a privileged traveler, a Dimensional Sojourner.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [5981, 1120, 916] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [5981, 1120, 916], icon: 'badge', iconText: '2' } },
   ],
 }

@@ -14,6 +14,6 @@ export const GanglandFury: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-728, -11, -3518] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-728, -11, -3518], icon: 'badge', iconText: '5' } },
   ],
 }

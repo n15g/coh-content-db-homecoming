@@ -15,6 +15,6 @@ Gaining control of this building places one within ideal striking distance to an
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [888, 159, -5332] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [888, 159, -5332], icon: 'badge', iconText: '7' } },
   ],
 }

@@ -21,6 +21,6 @@ Most heroes flee the Abandoned Sewer Network before they can be tested, while pe
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [320, -576, 1536] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [320, -576, 1536], icon: 'badge', iconText: '8' } },
   ],
 }

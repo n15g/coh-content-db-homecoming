@@ -16,6 +16,6 @@ the danger they are in and the inadequacy of their modern weapons against this t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [2338, 890, 2774] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [2338, 890, 2774], icon: 'badge', iconText: '4' } },
   ],
 }

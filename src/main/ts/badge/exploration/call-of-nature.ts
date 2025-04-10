@@ -17,6 +17,6 @@ anywhere else on this world.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-3026, 3, 3262] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-3026, 3, 3262], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -18,6 +18,6 @@ as with the return of a prodigal child.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [2469, 251, 2254] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [2469, 251, 2254], icon: 'badge', iconText: '5' } },
   ],
 }

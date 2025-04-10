@@ -18,6 +18,6 @@ This hypothetical adversary is code-named in the Council logs as 'The Unnamed.'`
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-2381, -31, -2285] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-2381, -31, -2285], icon: 'badge', iconText: '6' } },
   ],
 }

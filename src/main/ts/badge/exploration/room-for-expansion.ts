@@ -17,6 +17,6 @@ Longbow refuses however, stating this is the safest place for them to be, and th
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [687, 0, -141] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [687, 0, -141], icon: 'badge', iconText: '6' } },
   ],
 }

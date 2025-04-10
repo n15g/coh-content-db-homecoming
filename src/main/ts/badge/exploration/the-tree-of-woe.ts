@@ -18,6 +18,6 @@ at the base of a tree where the road circles around at the westernmost developed
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [1399, -44, -1499] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [1399, -44, -1499], icon: 'badge', iconText: '7' } },
   ],
 }

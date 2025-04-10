@@ -17,6 +17,6 @@ You represent what they fear the most: a dedicated, powerful, fearless insurgent
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [-626, 57, -2656] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [-626, 57, -2656], icon: 'badge', iconText: '3' } },
   ],
 }

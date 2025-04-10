@@ -16,6 +16,6 @@ The monsters still wander through Founders' Falls, while its people live in the 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [5109, 64, 4610] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [5109, 64, 4610], icon: 'badge', iconText: '4' } },
   ],
 }

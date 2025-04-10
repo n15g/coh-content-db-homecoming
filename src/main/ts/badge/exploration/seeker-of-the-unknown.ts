@@ -14,6 +14,6 @@ export const SeekerOfTheUnknown: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1868, -80, 1352] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1868, -80, 1352], icon: 'badge', iconText: '2' } },
   ],
 }

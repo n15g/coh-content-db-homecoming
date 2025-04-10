@@ -19,6 +19,6 @@ A non-airborne hero may access the badge by climbing up the fire escape and jump
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1099, 48, -2264] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1099, 48, -2264], icon: 'badge', iconText: '1' } },
   ],
 }

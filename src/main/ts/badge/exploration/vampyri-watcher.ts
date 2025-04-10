@@ -17,6 +17,6 @@ Other Council know never to go there lest they incite the ire of their temperame
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-3728, 424, -3011] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-3728, 424, -3011], icon: 'badge', iconText: '8' } },
   ],
 }

@@ -17,6 +17,6 @@ Arching your back you add your roar to theirs and for a moment they are quiet. W
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1938, -17, -7960] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1938, -17, -7960], icon: 'badge', iconText: '2' } },
   ],
 }

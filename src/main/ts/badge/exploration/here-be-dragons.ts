@@ -18,6 +18,6 @@ You can't help but put yourself in the monsters' place; you'd have smashed and d
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-236, -43, 352] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-236, -43, 352], icon: 'badge', iconText: '3' } },
   ],
 }

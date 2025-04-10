@@ -15,6 +15,6 @@ Galaxy Girl's father visited the statue every day until he passed away at the ag
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [920, 32, -832] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [920, 32, -832], icon: 'badge', iconText: '6' } },
   ],
 }

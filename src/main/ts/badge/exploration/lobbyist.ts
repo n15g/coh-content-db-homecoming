@@ -21,6 +21,6 @@ export const Lobbyist: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [2265, 137, -832] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [2265, 137, -832], icon: 'badge', iconText: '1' } },
   ],
 }

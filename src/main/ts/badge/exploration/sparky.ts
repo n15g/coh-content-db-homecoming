@@ -16,6 +16,6 @@ There is a building with two large electrical quad-towers on it. The badge marke
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-2432, 294, -1248] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-2432, 294, -1248], icon: 'badge', iconText: '1' } },
   ],
 }

@@ -18,6 +18,6 @@ You fear that were you to stay here much longer, the fluid would empty you of al
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [-1814, 3032, 128] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [-1814, 3032, 128], icon: 'badge', iconText: '8' } },
   ],
 }

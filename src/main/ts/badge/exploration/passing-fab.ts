@@ -15,6 +15,6 @@ They are used as both an emergency exit from the Fab and as a method of sending 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2496, -848, -3016] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2496, -848, -3016], icon: 'badge', iconText: '5' } },
   ],
 }

@@ -17,6 +17,6 @@ export const LockedAndLoaded: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [3286, 126, 3645] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [3286, 126, 3645], icon: 'badge', iconText: '2' } },
   ],
 }

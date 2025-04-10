@@ -14,6 +14,6 @@ export const Seen: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-460, -56, -336] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-460, -56, -336], icon: 'badge', iconText: '5' } },
   ],
 }

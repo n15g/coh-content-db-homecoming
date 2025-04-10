@@ -18,6 +18,6 @@ export const MysticKing: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-376, 70, 245] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-376, 70, 245], icon: 'badge', iconText: '3' } },
   ],
 }

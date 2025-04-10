@@ -18,6 +18,6 @@ There is a section of road that has been built over the ruined foundations of so
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-2810, -43, 2569] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-2810, -43, 2569], icon: 'badge', iconText: '7' } },
   ],
 }

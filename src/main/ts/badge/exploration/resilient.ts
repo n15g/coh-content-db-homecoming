@@ -15,6 +15,6 @@ Having wrought creation from destruction, it reaches skyward to represent Parago
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [-1471.4, 56.8, -564] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [-1471.4, 56.8, -564], icon: 'badge', iconText: '8' } },
   ],
 }

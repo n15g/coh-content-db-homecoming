@@ -16,6 +16,6 @@ The pictures taken of Sally here have been used in many 'Save Sally!' posters.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [-503, -25, 1195] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [-503, -25, 1195], icon: 'badge', iconText: '5' } },
   ],
 }

@@ -19,6 +19,6 @@ that has claimed lesser minds.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [1630, -65, 10_144] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [1630, -65, 10_144], icon: 'badge', iconText: '1' } },
   ],
 }

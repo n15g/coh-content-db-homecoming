@@ -15,6 +15,6 @@ Some of those half-baked notions end up here. Occasionally, a few get up and wal
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-2539, -1216, -3033] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-2539, -1216, -3033], icon: 'badge', iconText: '2' } },
   ],
 }

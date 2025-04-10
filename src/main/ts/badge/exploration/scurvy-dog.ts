@@ -16,6 +16,6 @@ The badge marker is on the southwest side of the building, atop a small landing 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-2852, 82, 1216] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-2852, 82, 1216], icon: 'badge', iconText: '1' } },
   ],
 }

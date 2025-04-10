@@ -18,6 +18,6 @@ There is a power here, one that will give itself to you if you have the will to 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [-32, -896, 26] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [-32, -896, 26], icon: 'badge', iconText: '2' } },
   ],
 }

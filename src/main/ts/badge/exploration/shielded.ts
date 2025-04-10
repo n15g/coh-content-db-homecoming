@@ -14,6 +14,6 @@ export const Shielded: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [2934.4, -10.3, -6249.4] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [2934.4, -10.3, -6249.4], icon: 'badge', iconText: '8' } },
   ],
 }

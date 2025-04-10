@@ -14,6 +14,6 @@ export const BingeEater: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-82, -1024, -3495] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-82, -1024, -3495], icon: 'badge', iconText: '1' } },
   ],
 }

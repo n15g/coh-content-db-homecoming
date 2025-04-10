@@ -17,6 +17,6 @@ Rularuu is a being who consumes and destroys and now you shall show him that suc
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-2947, 2187, 270] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-2947, 2187, 270], icon: 'badge', iconText: '7' } },
   ],
 }

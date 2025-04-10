@@ -16,6 +16,6 @@ export const WastedResources: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [-1227.4, 71, -324.5] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [-1227.4, 71, -324.5], icon: 'badge', iconText: '5' } },
   ],
 }

@@ -14,6 +14,6 @@ export const CommunicationsSpecialist: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [959.6, 171.3, -1174.4] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [959.6, 171.3, -1174.4], icon: 'badge', iconText: '7' } },
   ],
 }

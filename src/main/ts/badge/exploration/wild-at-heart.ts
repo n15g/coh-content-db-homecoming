@@ -18,6 +18,6 @@ Even though you understand the threat the Devouring Earth poses, you are taken b
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-1500, 0, -4491] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-1500, 0, -4491], icon: 'badge', iconText: '5' } },
   ],
 }

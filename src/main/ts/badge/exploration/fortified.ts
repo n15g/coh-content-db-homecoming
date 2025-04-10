@@ -23,6 +23,6 @@ It is possible to reach the badge marker without flying or teleporting:
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-2497, 304, -440] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-2497, 304, -440], icon: 'badge', iconText: '4' } },
   ],
 }

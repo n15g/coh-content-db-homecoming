@@ -19,6 +19,6 @@ It matters not, they seem just as interested in grinding you underfoot as any ot
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [2931, 0, -7405] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [2931, 0, -7405], icon: 'badge', iconText: '7' } },
   ],
 }

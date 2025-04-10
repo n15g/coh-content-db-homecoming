@@ -17,6 +17,6 @@ It was from this vantage point that, for the first time in millennia, the voices
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1151, 116, 1921] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1151, 116, 1921], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -15,6 +15,6 @@ They've also been searching for secret entrances into the reactor, though so far
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [-12, -21, 2376] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [-12, -21, 2376], icon: 'badge', iconText: '6' } },
   ],
 }

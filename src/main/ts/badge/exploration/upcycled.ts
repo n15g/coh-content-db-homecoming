@@ -15,6 +15,6 @@ Crates, barrels, and transport vehicles litter the large lot. The Freakshow have
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [932.8, 48, 2175] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [932.8, 48, 2175], icon: 'badge', iconText: '6' } },
   ],
 }

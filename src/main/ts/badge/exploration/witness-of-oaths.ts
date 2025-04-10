@@ -15,6 +15,6 @@ Screaming and pleading, many have been dragged into the ruined city by the Talon
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [2909, 191, 4574] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [2909, 191, 4574], icon: 'badge', iconText: '6' } },
   ],
 }

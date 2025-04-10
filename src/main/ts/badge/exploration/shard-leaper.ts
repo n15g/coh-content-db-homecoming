@@ -16,6 +16,6 @@ They welcome you to do the same.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [-202, 1013, 2285] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [-202, 1013, 2285], icon: 'badge', iconText: '8' } },
   ],
 }

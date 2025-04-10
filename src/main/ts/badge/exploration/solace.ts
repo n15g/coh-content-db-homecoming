@@ -16,6 +16,6 @@ Walk around the left side of the store, following the wall along the district’
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [2260, -84, -3367] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [2260, -84, -3367], icon: 'badge', iconText: '2' } },
   ],
 }

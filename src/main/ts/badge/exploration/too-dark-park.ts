@@ -16,6 +16,6 @@ In the years leading up to the rise of Dark Astoria, the park was largely shunne
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [935, -1, 4321] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [935, -1, 4321], icon: 'badge', iconText: '6' } },
   ],
 }

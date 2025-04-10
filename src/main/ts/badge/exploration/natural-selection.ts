@@ -18,6 +18,6 @@ But then you realize that this is merely another seduction perpetrated by Hamido
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [3132, 153, 4527] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [3132, 153, 4527], icon: 'badge', iconText: '8' } },
   ],
 }

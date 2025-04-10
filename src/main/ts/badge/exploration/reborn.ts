@@ -15,6 +15,6 @@ The badge sits underwater at the point where the surrounding streams converge an
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [679, -544, -3189] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [679, -544, -3189], icon: 'badge', iconText: '1' } },
   ],
 }

@@ -18,6 +18,6 @@ Despite Imperious' concerns about enemy spies, Sister Solaris will only permit g
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [1633.5, -55.3, 5206.5] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [1633.5, -55.3, 5206.5], icon: 'badge', iconText: '3' } },
   ],
 }

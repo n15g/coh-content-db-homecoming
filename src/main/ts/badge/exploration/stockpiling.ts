@@ -15,6 +15,6 @@ What is not immediately needed elsewhere is kept here for a 'rainy day.'`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [5182, -56, -457] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [5182, -56, -457], icon: 'badge', iconText: '6' } },
   ],
 }

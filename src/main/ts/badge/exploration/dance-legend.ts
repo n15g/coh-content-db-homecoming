@@ -16,6 +16,6 @@ as a test bed to see if his pet project, Pocket D, would be a success.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-4316, -100, 1783] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-4316, -100, 1783], icon: 'badge', iconText: '5' } },
   ],
 }

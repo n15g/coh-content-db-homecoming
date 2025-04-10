@@ -14,6 +14,6 @@ export const Backwoodsman: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-2150, 42, 3332] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-2150, 42, 3332], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -14,6 +14,6 @@ export const Spiritual: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [-2669, 11, 1102] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [-2669, 11, 1102], icon: 'badge', iconText: '2' } },
   ],
 }

@@ -17,6 +17,6 @@ Members of the Council have tolerated its presence; for in addition to music (mo
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-524, 157, -2542] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-524, 157, -2542], icon: 'badge', iconText: '5' } },
   ],
 }

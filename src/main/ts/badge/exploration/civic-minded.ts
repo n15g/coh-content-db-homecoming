@@ -16,6 +16,6 @@ export const CivicMinded: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-4862, 33, -256] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-4862, 33, -256], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -15,6 +15,6 @@ One flows directly into the Praetorian water system. The other pipe ends at the 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-1231, -1249, -1316] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-1231, -1249, -1316], icon: 'badge', iconText: '3' } },
   ],
 }

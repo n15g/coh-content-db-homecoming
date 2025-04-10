@@ -19,6 +19,6 @@ It has become the secret highway on which the State transports the truly condemn
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-1407, 506, -1506] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-1407, 506, -1506], icon: 'badge', iconText: '3' } },
   ],
 }

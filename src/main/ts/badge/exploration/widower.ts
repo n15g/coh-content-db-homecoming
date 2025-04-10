@@ -18,6 +18,6 @@ export const Widower: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-3890, 407, 354] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-3890, 407, 354], icon: 'badge', iconText: '6' } },
   ],
 }

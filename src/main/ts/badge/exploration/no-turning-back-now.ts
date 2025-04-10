@@ -18,6 +18,6 @@ To reach it, go approximately 367 yards NNE of the Tyrant's Rock marker, and the
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [1010, 2196, -5653] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [1010, 2196, -5653], icon: 'badge', iconText: '7' } },
   ],
 }

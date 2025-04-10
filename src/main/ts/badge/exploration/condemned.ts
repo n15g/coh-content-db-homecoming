@@ -14,6 +14,6 @@ export const Condemned: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [-543, 15.8, -900.3] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [-543, 15.8, -900.3], icon: 'badge', iconText: '7' } },
   ],
 }

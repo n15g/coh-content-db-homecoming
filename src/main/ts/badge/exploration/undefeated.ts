@@ -15,6 +15,6 @@ export const Undefeated: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [545, 59, -2307] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [545, 59, -2307], icon: 'badge', iconText: '1' } },
   ],
 }

@@ -16,6 +16,6 @@ It is also 520 yards away from the Terra Volta entrance, though lots of this dis
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [947, 609, -1152] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [947, 609, -1152], icon: 'badge', iconText: '2' } },
   ],
 }

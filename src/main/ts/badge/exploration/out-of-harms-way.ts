@@ -14,6 +14,6 @@ export const OutOfHarmsWay: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [1150.1, 0, -1597.5] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [1150.1, 0, -1597.5], icon: 'badge', iconText: '6' } },
   ],
 }

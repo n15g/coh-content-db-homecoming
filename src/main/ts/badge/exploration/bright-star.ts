@@ -16,6 +16,6 @@ It is found on a ledge between the northeastern most building on the campus and 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-3001.3, -26.2, 1830] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-3001.3, -26.2, 1830], icon: 'badge', iconText: '4' } },
   ],
 }

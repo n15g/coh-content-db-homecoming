@@ -14,6 +14,6 @@ export const ParkRanger: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-1279, -87, -512] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-1279, -87, -512], icon: 'badge', iconText: '3' } },
   ],
 }

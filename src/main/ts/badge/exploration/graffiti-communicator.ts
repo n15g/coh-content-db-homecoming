@@ -15,6 +15,6 @@ They have run into ongoing issues with the various gangs in the Hollows spray-pa
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-1384, 494, 1492] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-1384, 494, 1492], icon: 'badge', iconText: '6' } },
   ],
 }

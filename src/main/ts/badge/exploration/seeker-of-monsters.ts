@@ -14,6 +14,6 @@ export const SeekerOfMonsters: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [21, -345, -1280] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [21, -345, -1280], icon: 'badge', iconText: '2' } },
   ],
 }

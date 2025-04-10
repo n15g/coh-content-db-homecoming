@@ -18,6 +18,6 @@ The path to it starts at the basketball courts approximately 250 yards south of 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [270, -59, 2193] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [270, -59, 2193], icon: 'badge', iconText: '6' } },
   ],
 }

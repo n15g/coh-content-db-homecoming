@@ -14,6 +14,6 @@ export const Foggy: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [968, 0, 2621] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [968, 0, 2621], icon: 'badge', iconText: '1' } },
   ],
 }

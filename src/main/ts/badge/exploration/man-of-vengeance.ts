@@ -21,6 +21,6 @@ Blue Steel survived the explosion and has continued the hunt for his father's ki
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [573, -42, 704] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [573, -42, 704], icon: 'badge', iconText: '8' } },
   ],
 }

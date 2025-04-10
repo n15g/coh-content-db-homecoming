@@ -15,6 +15,6 @@ Dried bodily fluids, ripped off fingernails, and a few human teeth mark this are
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [238, -1216, -2189] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [238, -1216, -2189], icon: 'badge', iconText: '7' } },
   ],
 }

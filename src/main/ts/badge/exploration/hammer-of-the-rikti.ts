@@ -16,6 +16,6 @@ As this location was the site of the main Crey administration facility, various 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [2571, 22, 3691] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [2571, 22, 3691], icon: 'badge', iconText: '4' } },
   ],
 }

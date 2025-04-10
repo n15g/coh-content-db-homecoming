@@ -20,6 +20,6 @@ This island is a living testimony to Hamidon's power to transcend human limitati
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1705, 47, -7378] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1705, 47, -7378], icon: 'badge', iconText: '8' } },
   ],
 }

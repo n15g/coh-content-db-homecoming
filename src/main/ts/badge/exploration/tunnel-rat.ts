@@ -15,6 +15,6 @@ export const TunnelRat: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-1219, 0, 143] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-1219, 0, 143], icon: 'badge', iconText: '2' } },
   ],
 }

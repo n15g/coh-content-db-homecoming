@@ -19,6 +19,6 @@ export const JusticeAvenger: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-1034, 1, 3976] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-1034, 1, 3976], icon: 'badge', iconText: '5' } },
   ],
 }

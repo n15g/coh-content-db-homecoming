@@ -15,6 +15,6 @@ Whether you stormed through with guns blazing or stealthily slinked past its man
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [104, 27, 2029] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [104, 27, 2029], icon: 'badge', iconText: '2' } },
   ],
 }

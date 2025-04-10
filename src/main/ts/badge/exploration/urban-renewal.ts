@@ -15,6 +15,6 @@ Constant distractions and sabotage by the Resistance and others have delayed suc
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [6356, -64, -1206] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [6356, -64, -1206], icon: 'badge', iconText: '8' } },
   ],
 }

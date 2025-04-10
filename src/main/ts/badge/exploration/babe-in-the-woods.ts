@@ -16,6 +16,6 @@ You overcome a sudden feeling of insignificance as you gaze upon Hamidon's creat
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-2071, 0, -746] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-2071, 0, -746], icon: 'badge', iconText: '3' } },
   ],
 }

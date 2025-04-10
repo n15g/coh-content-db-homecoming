@@ -20,6 +20,6 @@ These thoughts are a trap meant to distract you from your real purpose here.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [946, 4833, -6690] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [946, 4833, -6690], icon: 'badge', iconText: '6' } },
   ],
 }

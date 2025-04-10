@@ -15,6 +15,6 @@ You can relate, you've been subject to incarceration for violating ridiculous la
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-43, -44, -135] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [-43, -44, -135], icon: 'badge', iconText: '4' } },
   ],
 }

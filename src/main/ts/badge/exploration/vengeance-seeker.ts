@@ -16,6 +16,6 @@ The Talons must be stopped, they must be punished for their actions, and you sha
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [1444, 219, 3459] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [1444, 219, 3459], icon: 'badge', iconText: '7' } },
   ],
 }

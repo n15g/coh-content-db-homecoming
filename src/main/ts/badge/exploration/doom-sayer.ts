@@ -15,6 +15,6 @@ Sometimes they just theorize the significance of the orange pipes. Despite their
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [2234, 0, -1330] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [2234, 0, -1330], icon: 'badge', iconText: '6' } },
   ],
 }

@@ -14,6 +14,6 @@ export const PraetorianOfPrivilege: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-1607, -13, 2426] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-1607, -13, 2426], icon: 'badge', iconText: '4' } },
   ],
 }

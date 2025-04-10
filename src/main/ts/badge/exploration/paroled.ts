@@ -21,6 +21,6 @@ export const Paroled: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-896, 9, -1496] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-896, 9, -1496], icon: 'badge', iconText: '2' } },
   ],
 }

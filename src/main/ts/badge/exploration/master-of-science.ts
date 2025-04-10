@@ -14,6 +14,6 @@ export const MasterOfScience: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-446, 430, -328] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-446, 430, -328], icon: 'badge', iconText: '7' } },
   ],
 }

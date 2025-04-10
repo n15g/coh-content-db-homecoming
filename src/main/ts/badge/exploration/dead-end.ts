@@ -17,6 +17,6 @@ The easiest way to find it is to go to the south end of the zone and head due no
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [2213, 0, 4736] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [2213, 0, 4736], icon: 'badge', iconText: '5' } },
   ],
 }

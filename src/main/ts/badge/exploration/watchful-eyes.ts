@@ -15,6 +15,6 @@ She now presides over the area to remind herself of her past sins and to prevent
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [4245, 261, 4572] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [4245, 261, 4572], icon: 'badge', iconText: '5' } },
   ],
 }

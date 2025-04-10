@@ -15,6 +15,6 @@ In productions of Hamlet, it had become tradition for Ophelia's drowning scene t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-1743, -32, 2567] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-1743, -32, 2567], icon: 'badge', iconText: '8' } },
   ],
 }

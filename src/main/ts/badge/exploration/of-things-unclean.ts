@@ -15,6 +15,6 @@ Even after its fall, Mot's shadow has terrorized the dreams of mankind through a
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [936, -1, 4321] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [936, -1, 4321], icon: 'badge', iconText: '8' } },
   ],
 }

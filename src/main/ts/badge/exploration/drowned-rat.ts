@@ -18,6 +18,6 @@ export const DrownedRat: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [150, -51, 2360] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [150, -51, 2360], icon: 'badge', iconText: '3' } },
   ],
 }

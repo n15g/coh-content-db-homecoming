@@ -16,6 +16,6 @@ With the light as your guide you are free to traverse Night Ward's darkest corne
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [1276, 49, -2134] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [1276, 49, -2134], icon: 'badge', iconText: '6' } },
   ],
 }

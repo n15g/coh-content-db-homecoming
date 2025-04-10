@@ -15,6 +15,6 @@ But a new law rules here, one with rules as ancient as the planet's core, and in
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-309, -35, 3891] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-309, -35, 3891], icon: 'badge', iconText: '5' } },
   ],
 }

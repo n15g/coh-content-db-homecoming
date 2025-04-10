@@ -15,6 +15,6 @@ Mayor Bower has asked Waylon to stay within the town limits due to the Fir Bolg,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [2639, 10, 1500] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [2639, 10, 1500], icon: 'badge', iconText: '7' } },
   ],
 }

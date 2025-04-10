@@ -15,6 +15,6 @@ The badge marker is on the clenched right fist of a statue in the southwest corn
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1178, 73, -586] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1178, 73, -586], icon: 'badge', iconText: '4' } },
   ],
 }

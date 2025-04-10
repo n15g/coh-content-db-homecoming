@@ -18,6 +18,6 @@ But down here, in the cool confines of the tunnels, away from the noise of Skywa
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [64, 0, 3072] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [64, 0, 3072], icon: 'badge', iconText: '4' } },
   ],
 }

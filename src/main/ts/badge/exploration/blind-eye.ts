@@ -15,6 +15,6 @@ Longbow policy dictates that they turn their charges in to the proper authoritie
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [3526, 141, 3886] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [3526, 141, 3886], icon: 'badge', iconText: '7' } },
   ],
 }

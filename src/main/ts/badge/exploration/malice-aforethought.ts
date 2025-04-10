@@ -18,6 +18,6 @@ Is the wolf acting with malice when it devours the hare? Is it evil for the stro
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-4971, 453, 7458] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-4971, 453, 7458], icon: 'badge', iconText: '3' } },
   ],
 }

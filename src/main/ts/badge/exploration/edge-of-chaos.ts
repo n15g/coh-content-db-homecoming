@@ -17,6 +17,6 @@ While it's business as usual in City Hall, Longbow fights for their lives agains
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [-145, -784, -902] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [-145, -784, -902], icon: 'badge', iconText: '7' } },
   ],
 }

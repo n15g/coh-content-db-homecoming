@@ -17,6 +17,6 @@ Some see their discovery of Primal Earth's dimension as inevitable; a "coming st
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [4872, 865, 992] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [4872, 865, 992], icon: 'badge', iconText: '3' } },
   ],
 }

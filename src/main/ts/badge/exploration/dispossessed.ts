@@ -18,6 +18,6 @@ Your friends have crossed you off of their invite lists. Do you even remember wh
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [4612, 761, 3399] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [4612, 761, 3399], icon: 'badge', iconText: '6' } },
   ],
 }

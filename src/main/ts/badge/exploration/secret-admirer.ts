@@ -14,6 +14,6 @@ export const SecretAdmirer: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-3438, 0, 2536] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-3438, 0, 2536], icon: 'badge', iconText: '1' } },
   ],
 }

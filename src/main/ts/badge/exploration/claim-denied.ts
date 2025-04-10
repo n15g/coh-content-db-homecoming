@@ -14,6 +14,6 @@ export const ClaimDenied: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [350.8, -667.6, 198.1] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [350.8, -667.6, 198.1], icon: 'badge', iconText: '6' } },
   ],
 }

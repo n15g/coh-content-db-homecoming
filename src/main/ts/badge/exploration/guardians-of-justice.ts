@@ -14,6 +14,6 @@ export const GuardiansOfJustice: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-5097, 290, -830] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-5097, 290, -830], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -16,6 +16,6 @@ export const Herculean: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [1955, 120, -338] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [1955, 120, -338], icon: 'badge', iconText: '6' } },
   ],
 }

@@ -15,6 +15,6 @@ export const Eyewitness: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [1820.3, 471.3, -4605.7] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [1820.3, 471.3, -4605.7], icon: 'badge', iconText: '6' } },
   ],
 }

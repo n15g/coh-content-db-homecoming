@@ -17,6 +17,6 @@ Mako was seen leaping from skiff to skiff during the aerial battle with Longbow 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-2190, 573, 1162] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-2190, 573, 1162], icon: 'badge', iconText: '3' } },
   ],
 }

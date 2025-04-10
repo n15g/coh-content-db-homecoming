@@ -18,8 +18,8 @@ It is necessary to visit all three locations to earn this badge.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'np', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-4551, -187, 470] }, vidiotMapKey: 'T' },
-    { key: 'ic', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-2384, -238, 755] }, vidiotMapKey: 'T' },
-    { key: 'ne', type: 'location', location: { zoneKey: Neutropolis.key, coords: [2226, -213, 1111] }, vidiotMapKey: 'T' },
+    { key: 'np', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-4551, -187, 470], icon: 'badge', iconText: 'T' } },
+    { key: 'ic', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-2384, -238, 755], icon: 'badge', iconText: 'T' } },
+    { key: 'ne', type: 'location', location: { zoneKey: Neutropolis.key, coords: [2226, -213, 1111], icon: 'badge', iconText: 'T' } },
   ],
 }

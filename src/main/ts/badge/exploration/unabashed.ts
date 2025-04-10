@@ -15,6 +15,6 @@ export const Unabashed: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [2947, -18, -5638] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [2947, -18, -5638], icon: 'badge', iconText: '8' } },
   ],
 }

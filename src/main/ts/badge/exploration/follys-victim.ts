@@ -18,6 +18,6 @@ When the Demon-Prince was broken and devoured, the ranks of his minions broke an
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [2228, 176, 4896] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [2228, 176, 4896], icon: 'badge', iconText: '1' } },
   ],
 }

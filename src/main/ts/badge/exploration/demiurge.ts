@@ -16,6 +16,6 @@ No mind games or violations to your person could prevent you from reaching this 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [0, 2677, -4] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [0, 2677, -4], icon: 'badge', iconText: '8' } },
   ],
 }

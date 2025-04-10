@@ -15,6 +15,6 @@ export const Asunder: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [3969.7, 34.3, -3851.5] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [3969.7, 34.3, -3851.5], icon: 'badge', iconText: '5' } },
   ],
 }

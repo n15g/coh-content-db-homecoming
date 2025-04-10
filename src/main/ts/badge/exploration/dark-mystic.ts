@@ -14,6 +14,6 @@ export const DarkMystic: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1678, 6, 2833] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1678, 6, 2833], icon: 'badge', iconText: '1' } },
   ],
 }

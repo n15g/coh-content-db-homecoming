@@ -15,6 +15,6 @@ Many of them are never seen again; some speculate that they've joined the troupe
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-2198, 16, -1953] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-2198, 16, -1953], icon: 'badge', iconText: '8' } },
   ],
 }

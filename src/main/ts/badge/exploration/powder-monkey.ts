@@ -14,6 +14,6 @@ export const PowderMonkey: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-3738, 238, -1128] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-3738, 238, -1128], icon: 'badge', iconText: '3' } },
   ],
 }

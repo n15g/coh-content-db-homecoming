@@ -16,6 +16,6 @@ This hero's identity and the nature of his relationship with Nebula remains a ta
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-1453, -29, 2990] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-1453, -29, 2990], icon: 'badge', iconText: '6' } },
   ],
 }

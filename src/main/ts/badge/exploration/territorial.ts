@@ -17,6 +17,6 @@ Enter the tree maze from the east side almost straight west of the ${zoneLink(At
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-2015, -56, 1586] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-2015, -56, 1586], icon: 'badge', iconText: '1' } },
   ],
 }

@@ -16,6 +16,6 @@ You can only imagine what they did to the island's former masters. You vow to no
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1300, 0, -7608] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1300, 0, -7608], icon: 'badge', iconText: '4' } },
   ],
 }

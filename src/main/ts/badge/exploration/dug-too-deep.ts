@@ -15,6 +15,6 @@ Now, anyone who finds a physical entrance in the dark canyons may reach the sunk
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [1151.5, -615.4, -28.5] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [1151.5, -615.4, -28.5], icon: 'badge', iconText: '8' } },
   ],
 }

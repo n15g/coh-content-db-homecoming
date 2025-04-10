@@ -18,6 +18,6 @@ It is your own mouth that chants this dark refrain, something commands you to sp
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [-4717, 1326, -2965] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [-4717, 1326, -2965], icon: 'badge', iconText: '4' } },
   ],
 }

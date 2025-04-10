@@ -16,6 +16,6 @@ export const GameOver: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-1178, 98, -724] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-1178, 98, -724], icon: 'badge', iconText: '8' } },
   ],
 }

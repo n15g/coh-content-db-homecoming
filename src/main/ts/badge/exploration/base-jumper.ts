@@ -17,6 +17,6 @@ The building is marked with two large Council banners, with a cream colored foye
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [3434, 0, 511] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [3434, 0, 511], icon: 'badge', iconText: '4' } },
   ],
 }

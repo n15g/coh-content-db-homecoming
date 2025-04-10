@@ -14,6 +14,6 @@ export const PitViper: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [148, -377, 1500] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [148, -377, 1500], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -17,6 +17,6 @@ While the Banished Pantheon make such bold attacks, the Council's war plans are 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-3222, -128, -1824] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-3222, -128, -1824], icon: 'badge', iconText: '4' } },
   ],
 }

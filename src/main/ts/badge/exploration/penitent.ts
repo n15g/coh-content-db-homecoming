@@ -19,6 +19,6 @@ No, of course not, they're just points to be earned on some metaphorical scoreca
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-5972, 1047, -3376] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-5972, 1047, -3376], icon: 'badge', iconText: '3' } },
   ],
 }

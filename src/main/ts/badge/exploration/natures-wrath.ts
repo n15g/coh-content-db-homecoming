@@ -18,6 +18,6 @@ But such thoughts are borderline insane and likely planted there by some trick o
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-1963, 55, 3257] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-1963, 55, 3257], icon: 'badge', iconText: '4' } },
   ],
 }

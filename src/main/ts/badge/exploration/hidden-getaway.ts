@@ -15,6 +15,6 @@ Some say this may even be where the first monkey fight club was started.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [365, 128, -2424] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [365, 128, -2424], icon: 'badge', iconText: '8' } },
   ],
 }

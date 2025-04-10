@@ -15,6 +15,6 @@ export const AroundTheBendis: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-875, -31, 3658] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-875, -31, 3658], icon: 'badge', iconText: '3' } },
   ],
 }

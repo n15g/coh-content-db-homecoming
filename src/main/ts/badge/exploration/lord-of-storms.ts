@@ -21,6 +21,6 @@ Go now and strike the final blow that will confirm, once and for all, that the d
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [1, 3637, -3] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [1, 3637, -3], icon: 'badge', iconText: '8' } },
   ],
 }

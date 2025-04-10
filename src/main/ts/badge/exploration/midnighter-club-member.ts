@@ -17,6 +17,6 @@ export const MidnighterClubMember: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MidnighterClub.key, coords: [105, 0, -150] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MidnighterClub.key, coords: [105, 0, -150], icon: 'badge', iconText: '1' } },
   ],
 }

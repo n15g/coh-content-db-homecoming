@@ -15,6 +15,6 @@ export const Phalanxer: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-2002, -16, 5180] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-2002, -16, 5180], icon: 'badge', iconText: '1' } },
   ],
 }

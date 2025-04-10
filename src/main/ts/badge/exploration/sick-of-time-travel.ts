@@ -16,6 +16,6 @@ export const SickOfTimeTravel: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [-653.2, 0.3, 63.7] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [-653.2, 0.3, 63.7], icon: 'badge', iconText: '7' } },
   ],
 }

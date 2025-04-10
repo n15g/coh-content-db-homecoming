@@ -15,6 +15,6 @@ All of these functions require maintenance Clockwork and deliveries which come t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-2378, -1222, -1455] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNeutropolis.key, coords: [-2378, -1222, -1455], icon: 'badge', iconText: '5' } },
   ],
 }

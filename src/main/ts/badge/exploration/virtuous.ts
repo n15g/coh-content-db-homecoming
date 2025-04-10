@@ -14,6 +14,6 @@ export const Virtuous: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [965.1, -26.7, -753.7] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoAtlasPark.key, coords: [965.1, -26.7, -753.7], icon: 'badge', iconText: '2' } },
   ],
 }

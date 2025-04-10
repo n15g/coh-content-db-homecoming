@@ -15,6 +15,6 @@ These days, the biggest threats are the 5th Column raids and exposing sleeper ag
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [-634, 1, 1437] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [-634, 1, 1437], icon: 'badge', iconText: '6' } },
   ],
 }

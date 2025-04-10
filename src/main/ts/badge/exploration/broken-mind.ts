@@ -15,6 +15,6 @@ Their sorrow seeps into the minds of those who hear them, disrupting thought and
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-1439, 336, 1713] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-1439, 336, 1713], icon: 'badge', iconText: '1' } },
   ],
 }

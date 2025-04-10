@@ -14,6 +14,6 @@ export const SuperSpy: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-6655, -15, -2460] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-6655, -15, -2460], icon: 'badge', iconText: '1' } },
   ],
 }

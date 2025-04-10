@@ -22,6 +22,6 @@ ${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SafeguardBrickstown.key, coords: [-406, 0, -130] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SafeguardBrickstown.key, coords: [-406, 0, -130], icon: 'badge', iconText: '1' } },
   ],
 }

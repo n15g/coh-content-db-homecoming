@@ -15,6 +15,6 @@ Approximately 533 yards southeast of the Primeva marker or the northernmost Quar
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [1388, 10, 2876] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [1388, 10, 2876], icon: 'badge', iconText: '3' } },
   ],
 }

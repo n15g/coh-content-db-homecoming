@@ -14,6 +14,6 @@ export const UnethicalTourist: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [-644, 16, 6712] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [-644, 16, 6712], icon: 'badge', iconText: '6' } },
   ],
 }

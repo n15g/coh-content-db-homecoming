@@ -15,6 +15,6 @@ export const Triumphant: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [228, 274, 33] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [228, 274, 33], icon: 'badge', iconText: '3' } },
   ],
 }

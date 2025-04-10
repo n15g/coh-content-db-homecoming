@@ -21,6 +21,6 @@ But in a moment it is gone though the memory of it lingers, as does the convicti
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [4131, 390, -2159] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [4131, 390, -2159], icon: 'badge', iconText: '1' } },
   ],
 }

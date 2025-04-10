@@ -15,6 +15,6 @@ Here, scattered spirits soar overhead like shooting stars in the night sky, fore
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [178, 944, -227] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [178, 944, -227], icon: 'badge', iconText: '8' } },
   ],
 }

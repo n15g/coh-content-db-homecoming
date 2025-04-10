@@ -16,6 +16,6 @@ The operation was inexplicably called off.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-130, 37, -2394] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-130, 37, -2394], icon: 'badge', iconText: '8' } },
   ],
 }

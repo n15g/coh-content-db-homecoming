@@ -19,6 +19,6 @@ Council researchers believe the Banished Pantheon has employed a Hand of Glory t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-3840, 0, -1971] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-3840, 0, -1971], icon: 'badge', iconText: '7' } },
   ],
 }

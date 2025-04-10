@@ -23,6 +23,6 @@ export const EggHunter: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-908, -183, 109] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-908, -183, 109], icon: 'badge', iconText: '8' } },
   ],
 }

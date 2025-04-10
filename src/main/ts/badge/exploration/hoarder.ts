@@ -15,6 +15,6 @@ Beneath their sprawling campus they store leftover propaganda and obsolete enter
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-1101, 496, -4913] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-1101, 496, -4913], icon: 'badge', iconText: '5' } },
   ],
 }

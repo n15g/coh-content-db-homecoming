@@ -15,6 +15,6 @@ export const Piratical: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [-1631, -144, -866.5] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [-1631, -144, -866.5], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -19,6 +19,6 @@ export const OldFashioned: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-170, 74, -1504] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-170, 74, -1504], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -18,6 +18,6 @@ Night Ward can be a cruel mistress.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [-2334, 84, -37] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [-2334, 84, -37], icon: 'badge', iconText: '1' } },
   ],
 }

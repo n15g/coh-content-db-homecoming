@@ -14,6 +14,6 @@ export const MediaJunky: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-894, 248, -1458] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-894, 248, -1458], icon: 'badge', iconText: '2' } },
   ],
 }

@@ -16,6 +16,6 @@ A former tenant claimed to see some sort of video camera in the eyes of the stat
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [-712, 56, -2142] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [-712, 56, -2142], icon: 'badge', iconText: '7' } },
   ],
 }

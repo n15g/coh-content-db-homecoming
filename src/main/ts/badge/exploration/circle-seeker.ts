@@ -16,6 +16,6 @@ Some theorize they're teleporters, while others suggest they're beacons for powe
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [1729, 166, 2066] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [1729, 166, 2066], icon: 'badge', iconText: '7' } },
   ],
 }

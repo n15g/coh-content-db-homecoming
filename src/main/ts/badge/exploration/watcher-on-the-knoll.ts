@@ -14,6 +14,6 @@ export const WatcherOnTheKnoll: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [-93, 85, 5434] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [-93, 85, 5434], icon: 'badge', iconText: '1' } },
   ],
 }

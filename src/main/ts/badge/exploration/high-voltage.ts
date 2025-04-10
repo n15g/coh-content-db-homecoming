@@ -17,6 +17,6 @@ They challenge you to join them and dance among the volts that skitter across th
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [290, 188, -3862] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [290, 188, -3862], icon: 'badge', iconText: '8' } },
   ],
 }

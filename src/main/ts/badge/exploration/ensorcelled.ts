@@ -14,6 +14,6 @@ export const Ensorcelled: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [1018, 159, -1090] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [1018, 159, -1090], icon: 'badge', iconText: '3' } },
   ],
 }

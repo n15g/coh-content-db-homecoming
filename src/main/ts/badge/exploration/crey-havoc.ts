@@ -14,6 +14,6 @@ export const CreyHavoc: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [-441, 2, -271] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [-441, 2, -271], icon: 'badge', iconText: '1' } },
   ],
 }

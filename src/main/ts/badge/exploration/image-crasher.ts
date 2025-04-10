@@ -15,6 +15,6 @@ It was supposed to be fixed, but progress kept halting as workers became too dis
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2677, 243, 826] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2677, 243, 826], icon: 'badge', iconText: '6' } },
   ],
 }

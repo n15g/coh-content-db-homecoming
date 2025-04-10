@@ -22,6 +22,6 @@ This badge is also available while revisiting the Zig during the ${zoneLink(Ouro
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Breakout.key, coords: [-2314, -103, 970] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Breakout.key, coords: [-2314, -103, 970], icon: 'badge', iconText: '1' } },
   ],
 }

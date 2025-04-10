@@ -23,6 +23,6 @@ The thugs and beasts who call this place home know to fear you, for you are a fo
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [2624, 0, 2176] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [2624, 0, 2176], icon: 'badge', iconText: '4' } },
   ],
 }

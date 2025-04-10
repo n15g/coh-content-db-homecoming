@@ -14,6 +14,6 @@ export const TiberianOverseer: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [564, 109, 3168] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [564, 109, 3168], icon: 'badge', iconText: '7' } },
   ],
 }

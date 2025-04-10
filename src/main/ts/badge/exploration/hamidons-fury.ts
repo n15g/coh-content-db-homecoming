@@ -16,6 +16,6 @@ If not for the intervention of the city's heroes, the rest of Founders' would ha
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [26, 0, 3454] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [26, 0, 3454], icon: 'badge', iconText: '6' } },
   ],
 }

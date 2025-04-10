@@ -15,6 +15,6 @@ The badge is at the base of three high walls, next to an old dumpster.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-754, 0, -595] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-754, 0, -595], icon: 'badge', iconText: '3' } },
   ],
 }

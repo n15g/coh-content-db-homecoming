@@ -14,6 +14,6 @@ export const HeartOfTheHamidon: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-3, -338, -2183] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [-3, -338, -2183], icon: 'badge', iconText: '2' } },
   ],
 }

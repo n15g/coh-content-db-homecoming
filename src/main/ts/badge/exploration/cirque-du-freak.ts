@@ -17,6 +17,6 @@ Many see it as a cancer from which a psychological and sociological poison can s
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [7330, 167, 33] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [7330, 167, 33], icon: 'badge', iconText: '8' } },
   ],
 }

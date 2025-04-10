@@ -16,6 +16,6 @@ export const Regal: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-448, 42, 2170] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-448, 42, 2170], icon: 'badge', iconText: '2' } },
   ],
 }

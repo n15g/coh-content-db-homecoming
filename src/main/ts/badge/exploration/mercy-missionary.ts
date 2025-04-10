@@ -15,6 +15,6 @@ It took great courage to enter this forbidden area, braving the sonic fence and 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-582, 0, -3763] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-582, 0, -3763], icon: 'badge', iconText: '2' } },
   ],
 }

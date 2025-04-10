@@ -19,6 +19,6 @@ export const Burgermeister: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [1948, -15, 1806] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [1948, -15, 1806], icon: 'badge', iconText: '6' } },
   ],
 }

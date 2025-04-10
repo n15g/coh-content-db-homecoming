@@ -15,6 +15,6 @@ export const Rookie: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [128.5, 16.4, -233] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [128.5, 16.4, -233], icon: 'badge', iconText: '4' } },
   ],
 }

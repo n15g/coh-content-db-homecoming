@@ -16,6 +16,6 @@ export const Volatile: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [-300.5, -132.5, -635] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [-300.5, -132.5, -635], icon: 'badge', iconText: '8' } },
   ],
 }

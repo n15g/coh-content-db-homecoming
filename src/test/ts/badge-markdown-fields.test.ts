@@ -36,6 +36,7 @@ describe('Markdown Links', () => {
       }
 
       for (const requirement of badge.requirements ?? []) {
+        for (const error of validateLinks(requirement.monumentText)) errors.push(`['${badge.key}:${requirement.key}'].monumentText - ['${error[0]}:${error[1]}']`)
         for (const error of validateLinks(requirement.notes)) errors.push(`['${badge.key}:${requirement.key}'].notes - ['${error[0]}:${error[1]}']`)
       }
     }

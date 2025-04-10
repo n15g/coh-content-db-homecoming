@@ -15,6 +15,6 @@ Those who have heard these grim transmissions nearly always suffer for it; their
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [2985, 204, 3676] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [2985, 204, 3676], icon: 'badge', iconText: '5' } },
   ],
 }

@@ -14,6 +14,6 @@ export const Steamed: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-2426, 224, -472] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [-2426, 224, -472], icon: 'badge', iconText: '4' } },
   ],
 }

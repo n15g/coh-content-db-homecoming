@@ -18,6 +18,6 @@ export const Patriot: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [162, -768, -678] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [162, -768, -678], icon: 'badge', iconText: '4' } },
   ],
 }

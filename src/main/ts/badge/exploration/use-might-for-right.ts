@@ -20,6 +20,6 @@ unless they become fodder for the Arachnos Operatives that plague Recluse's Vict
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [1424, 0, -774] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [1424, 0, -774], icon: 'badge', iconText: '2' } },
   ],
 }

@@ -15,6 +15,6 @@ export const Powerful: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [275.7, 84.3, -745.5] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [275.7, 84.3, -745.5], icon: 'badge', iconText: '2' } },
   ],
 }

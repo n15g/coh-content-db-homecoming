@@ -16,6 +16,6 @@ You have entered a realm that is the last many will see: Do you seek to free the
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-815, 330, -6169] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-815, 330, -6169], icon: 'badge', iconText: '2' } },
   ],
 }

@@ -24,6 +24,6 @@ ${zoneLink(KingsRow)} Sector, ${zoneLink(SkywayCity)} Sector and Underworld.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [320, -576, 1536] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [320, -576, 1536], icon: 'badge', iconText: '7' } },
   ],
 }

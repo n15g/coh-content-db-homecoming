@@ -15,6 +15,6 @@ Although Vanguard scientists become annoyed when people look in on their various
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [-135, -94, 470] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [-135, -94, 470], icon: 'badge', iconText: '8' } },
   ],
 }

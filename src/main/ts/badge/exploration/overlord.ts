@@ -18,6 +18,6 @@ export const Overlord: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [1358, -441, -596] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [1358, -441, -596], icon: 'badge', iconText: '1' } },
   ],
 }

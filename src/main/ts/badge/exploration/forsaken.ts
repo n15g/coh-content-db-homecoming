@@ -14,6 +14,6 @@ export const Forsaken: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [332.4, -90.8, 3489] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoFaultline.key, coords: [332.4, -90.8, 3489], icon: 'badge', iconText: '4' } },
   ],
 }

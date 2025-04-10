@@ -18,6 +18,6 @@ export const HeroCorpsRecruit: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-1764, 16, 1364] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-1764, 16, 1364], icon: 'badge', iconText: '2' } },
   ],
 }

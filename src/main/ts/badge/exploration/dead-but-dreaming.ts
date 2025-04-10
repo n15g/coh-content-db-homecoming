@@ -17,6 +17,6 @@ It seems that even in death the Seed continues to spread its influence.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [901, 23, 1997] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NightWard.key, coords: [901, 23, 1997], icon: 'badge', iconText: '5' } },
   ],
 }

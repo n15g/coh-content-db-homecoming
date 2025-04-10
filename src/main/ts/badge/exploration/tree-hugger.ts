@@ -14,6 +14,6 @@ export const TreeHugger: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [-165, 12, -180] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [-165, 12, -180], icon: 'badge', iconText: '5' } },
   ],
 }

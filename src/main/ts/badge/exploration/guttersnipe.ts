@@ -14,6 +14,6 @@ export const Guttersnipe: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2861, -475, 2310] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2861, -475, 2310], icon: 'badge', iconText: '3' } },
   ],
 }

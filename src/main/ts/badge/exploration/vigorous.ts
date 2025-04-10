@@ -18,6 +18,6 @@ Then she took him under her wing for observation.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [-1615, 80, -1872] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [-1615, 80, -1872], icon: 'badge', iconText: '3' } },
   ],
 }

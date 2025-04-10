@@ -17,6 +17,6 @@ export const LastStand: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [1083, 0, -136] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [1083, 0, -136], icon: 'badge', iconText: '4' } },
   ],
 }

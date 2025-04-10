@@ -15,6 +15,6 @@ Most jets here are much faster than they look, and must fly far out over the oce
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [7228, -71, 1280] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [7228, -71, 1280], icon: 'badge', iconText: '1' } },
   ],
 }

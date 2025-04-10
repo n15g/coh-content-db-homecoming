@@ -14,6 +14,6 @@ export const TikiFan: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-1836, 239, 438] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-1836, 239, 438], icon: 'badge', iconText: '8' } },
   ],
 }

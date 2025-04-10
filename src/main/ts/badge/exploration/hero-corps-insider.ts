@@ -20,6 +20,6 @@ Henry is behind and to the left (northwest) of City Hall, just behind a large st
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [284, 16, -884] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [284, 16, -884], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -15,6 +15,6 @@ Perhaps here you can learn something of lividity, morbidity, and the proclivitie
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-1280, 640, -3024] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-1280, 640, -3024], icon: 'badge', iconText: '4' } },
   ],
 }

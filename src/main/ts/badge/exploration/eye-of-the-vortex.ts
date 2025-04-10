@@ -16,6 +16,6 @@ You may feel as though you could fall upwards into it, be absorbed into it, beco
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [178, 947, -173] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirstWard.key, coords: [178, 947, -173], icon: 'badge', iconText: '2' } },
   ],
 }

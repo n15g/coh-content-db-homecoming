@@ -16,6 +16,6 @@ export const Disassembled: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-812, 18, -489] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-812, 18, -489], icon: 'badge', iconText: '4' } },
   ],
 }

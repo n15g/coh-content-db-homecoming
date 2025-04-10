@@ -16,6 +16,6 @@ This either leads to the Freakshow increasing their ranks or hunting down the fu
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-3821, -47, -181] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Brickstown.key, coords: [-3821, -47, -181], icon: 'badge', iconText: '4' } },
   ],
 }

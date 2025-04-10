@@ -17,6 +17,6 @@ The mind reels at the reality of it, and as the briefing warned it is best if on
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [6879, 928, 1070] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [6879, 928, 1070], icon: 'badge', iconText: '1' } },
   ],
 }

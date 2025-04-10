@@ -17,6 +17,6 @@ Street lore says that for those with the ability to filter out the dross, these 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [-1664, 0, -1728] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AbandonedSewerNetwork.key, coords: [-1664, 0, -1728], icon: 'badge', iconText: '3' } },
   ],
 }

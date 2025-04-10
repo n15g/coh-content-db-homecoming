@@ -15,6 +15,6 @@ There are rumors that the two groups plot a potential take over of Sharkhead Isl
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [-2077, 56, 512] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [-2077, 56, 512], icon: 'badge', iconText: '7' } },
   ],
 }

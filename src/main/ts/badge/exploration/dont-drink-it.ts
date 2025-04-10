@@ -16,6 +16,6 @@ Most people just shrug and purchase copious amounts of Enriche to be on the safe
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [6905, -23, 2461] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [6905, -23, 2461], icon: 'badge', iconText: '2' } },
   ],
 }

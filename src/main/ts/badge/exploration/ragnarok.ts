@@ -17,6 +17,6 @@ export const Ragnarok: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [-848, -15, -352] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [-848, -15, -352], icon: 'badge', iconText: '2' } },
   ],
 }

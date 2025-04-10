@@ -17,6 +17,6 @@ and what your skull would look like smeared with Rikti Monkey dung.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1498, 0, -6344] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-1498, 0, -6344], icon: 'badge', iconText: '6' } },
   ],
 }

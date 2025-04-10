@@ -17,10 +17,10 @@ It is necessary to visit only one location to earn this badge.`,
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
     {
-      key: 'loc-0', type: 'location', vidiotMapKey: '7', location: [
-        { zoneKey: UndergroundNova.key, coords: [-3094, 704, 1616] },
-        { zoneKey: UndergroundNova.key, coords: [-2976, 704, -323] },
-        { zoneKey: UndergroundNova.key, coords: [-3839, 704, -2135] },
+      key: 'loc-0', type: 'location', location: [
+        { zoneKey: UndergroundNova.key, coords: [-3094, 704, 1616], icon: 'badge', iconText: '7' },
+        { zoneKey: UndergroundNova.key, coords: [-2976, 704, -323], icon: 'badge', iconText: '7' },
+        { zoneKey: UndergroundNova.key, coords: [-3839, 704, -2135], icon: 'badge', iconText: '7' },
       ],
     },
   ],

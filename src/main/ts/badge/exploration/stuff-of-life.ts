@@ -14,6 +14,6 @@ export const StuffOfLife: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [2228, -58, -649] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [2228, -58, -649], icon: 'badge', iconText: '7' } },
   ],
 }

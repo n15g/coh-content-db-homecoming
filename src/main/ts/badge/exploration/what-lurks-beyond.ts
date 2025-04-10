@@ -16,6 +16,6 @@ export const WhatLurksBeyond: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [-1490, -23, -1883] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: BloodyBay.key, coords: [-1490, -23, -1883], icon: 'badge', iconText: '5' } },
   ],
 }

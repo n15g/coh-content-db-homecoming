@@ -20,6 +20,6 @@ The marker is well-hidden by being near no particular landmark.
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [2304, -110, 798] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [2304, -110, 798], icon: 'badge', iconText: '4' } },
   ],
 }

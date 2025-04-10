@@ -16,6 +16,6 @@ Cadao would later be cleared of all charges, but to this day he has not gone nea
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [1126, -16, 2149] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [1126, -16, 2149], icon: 'badge', iconText: '8' } },
   ],
 }

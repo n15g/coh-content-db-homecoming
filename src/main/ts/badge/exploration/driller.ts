@@ -15,6 +15,6 @@ Thermonuke's devastating powers ignited the oil and cracked open the Cairo Queen
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [1030, 8, 1982] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [1030, 8, 1982], icon: 'badge', iconText: '4' } },
   ],
 }

@@ -15,6 +15,6 @@ export const JunkyardDog: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [1474, 0, -3722] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [1474, 0, -3722], icon: 'badge', iconText: '7' } },
   ],
 }

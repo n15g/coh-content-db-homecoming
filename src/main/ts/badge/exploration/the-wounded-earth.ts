@@ -17,6 +17,6 @@ When you look at the green sward blanketing the land around you, it is hard not 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [1550, 84, -4165] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [1550, 84, -4165], icon: 'badge', iconText: '4' } },
   ],
 }

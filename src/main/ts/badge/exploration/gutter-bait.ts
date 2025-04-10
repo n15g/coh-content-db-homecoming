@@ -16,6 +16,6 @@ Arachnos uses the disappearances as a valuable lesson on being alert during patr
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2573, -282, -238] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Grandville.key, coords: [2573, -282, -238], icon: 'badge', iconText: '8' } },
   ],
 }

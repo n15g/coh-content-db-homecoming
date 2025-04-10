@@ -14,6 +14,6 @@ export const Ambitious: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-5420.9, 1088.6, -255.3] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-5420.9, 1088.6, -255.3], icon: 'badge', iconText: '1' } },
   ],
 }

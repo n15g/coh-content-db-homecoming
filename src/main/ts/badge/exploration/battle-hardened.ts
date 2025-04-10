@@ -17,6 +17,6 @@ export const BattleHardened: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-1084, 172.2, 4690] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-1084, 172.2, 4690], icon: 'badge', iconText: '2' } },
   ],
 }

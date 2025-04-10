@@ -18,6 +18,6 @@ Now a refuge protected vigorously by its living Tsoo guardians, it houses the fe
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [4160, -42, 720] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [4160, -42, 720], icon: 'badge', iconText: '2' } },
   ],
 }

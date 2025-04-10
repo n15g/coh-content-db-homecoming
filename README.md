@@ -217,7 +217,7 @@ Be aware of newlines and whitespace in the string, as unlike HTML, in markdown t
             type: 'plaque',
             zoneKey: AtlasPark.key,
             loc: [330.45, 3.93, 397.33],
-            plaqueInscription: ``,
+            monumentText: `This is a plaque that has text on it. Thanks for reading.`,
             notes: 'Roughly 258 yards south-southwest of the Atlas Plaza neighborhood marker.',
             vidiotMapKey: '8'
         },

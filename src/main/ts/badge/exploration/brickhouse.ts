@@ -19,6 +19,6 @@ ${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MayhemBrickstown.key, coords: [-161, 0, -147] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MayhemBrickstown.key, coords: [-161, 0, -147], icon: 'badge', iconText: '1' } },
   ],
 }

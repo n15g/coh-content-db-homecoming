@@ -15,6 +15,6 @@ The first was Night Hammer's disgust at how the statue turned out. The second wa
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-4605, 3, -2600] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-4605, 3, -2600], icon: 'badge', iconText: '6' } },
   ],
 }

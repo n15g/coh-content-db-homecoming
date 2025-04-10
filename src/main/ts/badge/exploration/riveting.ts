@@ -16,6 +16,6 @@ Paragon Police are frequently called in to settle disputes.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [1261, 31, -1788] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [1261, 31, -1788], icon: 'badge', iconText: '5' } },
   ],
 }

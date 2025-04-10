@@ -19,6 +19,6 @@ as it twists and writhes to free himself; Mot abides no vanity but its own.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [2829, 193, 793] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: DarkAstoria.key, coords: [2829, 193, 793], icon: 'badge', iconText: '5' } },
   ],
 }

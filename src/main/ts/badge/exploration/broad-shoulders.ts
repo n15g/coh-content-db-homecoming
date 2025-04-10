@@ -15,6 +15,6 @@ export const BroadShoulders: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [257.5, -63.9, 361] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [257.5, -63.9, 361], icon: 'badge', iconText: '3' } },
   ],
 }

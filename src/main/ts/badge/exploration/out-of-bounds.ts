@@ -17,6 +17,6 @@ export const OutOfBounds: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-1004, 138.2, 3123.5] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-1004, 138.2, 3123.5], icon: 'badge', iconText: '5' } },
   ],
 }

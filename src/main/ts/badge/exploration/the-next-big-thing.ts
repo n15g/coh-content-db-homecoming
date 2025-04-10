@@ -17,6 +17,6 @@ If you take the elevator up from ${contactLink(Mongoose)}'s location and walk st
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-1215, 239, -153] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-1215, 239, -153], icon: 'badge', iconText: '5' } },
   ],
 }

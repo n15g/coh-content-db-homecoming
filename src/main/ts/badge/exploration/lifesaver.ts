@@ -15,6 +15,6 @@ export const Lifesaver: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [-425, 15, -206] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [-425, 15, -206], icon: 'badge', iconText: '3' } },
   ],
 }

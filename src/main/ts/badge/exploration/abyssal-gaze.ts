@@ -16,6 +16,6 @@ You've gazed into the abyss, and it's gazed into you too; you're both well acqua
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [1061, -48, -2222] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheAbyss.key, coords: [1061, -48, -2222], icon: 'badge', iconText: '8' } },
   ],
 }

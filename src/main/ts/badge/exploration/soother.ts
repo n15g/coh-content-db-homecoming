@@ -15,6 +15,6 @@ Marks on the wall indicate a major brawl between Scirocco and Black Scorpion (mo
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [1236, 81, 1396] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NervaArchipelago.key, coords: [1236, 81, 1396], icon: 'badge', iconText: '8' } },
   ],
 }

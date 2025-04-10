@@ -18,6 +18,6 @@ It was on this spot that the champion of nature defeated the artificially intell
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [2672, 124, 9117] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [2672, 124, 9117], icon: 'badge', iconText: '2' } },
   ],
 }

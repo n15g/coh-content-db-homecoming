@@ -15,6 +15,6 @@ Unfortunately, constant debates over who actually owns the site, as well as the 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-1089, -42, 896] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-1089, -42, 896], icon: 'badge', iconText: '6' } },
   ],
 }

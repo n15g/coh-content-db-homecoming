@@ -16,6 +16,6 @@ export const HotDog: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [149, 0, 1473] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SirensCall.key, coords: [149, 0, 1473], icon: 'badge', iconText: '6' } },
   ],
 }

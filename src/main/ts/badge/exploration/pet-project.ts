@@ -16,6 +16,6 @@ One of the crazier theories is that there is no true "purpose" to the constructi
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-4073, 0, -3297] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SteelCanyon.key, coords: [-4073, 0, -3297], icon: 'badge', iconText: '7' } },
   ],
 }

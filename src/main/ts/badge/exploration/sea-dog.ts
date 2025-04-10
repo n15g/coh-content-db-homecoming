@@ -15,6 +15,6 @@ Now, with the Council plaguing Striga Isle, the situation has gone from bad to w
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-470, 0, 1020] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StrigaIsle.key, coords: [-470, 0, 1020], icon: 'badge', iconText: '2' } },
   ],
 }

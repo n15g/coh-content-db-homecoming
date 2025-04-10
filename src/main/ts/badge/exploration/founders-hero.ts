@@ -20,6 +20,6 @@ Because of this brave sacrifice, the hospital was renamed in her honor.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [1689, 9, 640] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [1689, 9, 640], icon: 'badge', iconText: '7' } },
   ],
 }

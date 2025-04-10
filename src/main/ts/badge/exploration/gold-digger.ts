@@ -15,6 +15,6 @@ Witness the tireless Clockwork who labor continuously to bring the dream of Prae
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [280, 28, -2288] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [280, 28, -2288], icon: 'badge', iconText: '1' } },
   ],
 }

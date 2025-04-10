@@ -22,6 +22,6 @@ ${SAFEGUARD_MAYHEM_CONTACT_FRAGMENT}`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SafeguardSkywayCity.key, coords: [-945, 0, -3555] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SafeguardSkywayCity.key, coords: [-945, 0, -3555], icon: 'badge', iconText: '1' } },
   ],
 }

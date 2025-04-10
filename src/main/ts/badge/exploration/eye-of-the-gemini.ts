@@ -16,6 +16,6 @@ The people of Paragon would hold events on these days, happy to have their park 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1376, 0, 347] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1376, 0, 347], icon: 'badge', iconText: '7' } },
   ],
 }

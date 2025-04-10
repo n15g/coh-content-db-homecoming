@@ -18,6 +18,6 @@ This can be tricky to find since it's hidden in the trees, but there's a clearin
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-2030, -26, 1116] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-2030, -26, 1116], icon: 'badge', iconText: '7' } },
   ],
 }

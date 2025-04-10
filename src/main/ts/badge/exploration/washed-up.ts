@@ -14,6 +14,6 @@ export const WashedUp: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-3903, 16, -1369] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-3903, 16, -1369], icon: 'badge', iconText: '2' } },
   ],
 }

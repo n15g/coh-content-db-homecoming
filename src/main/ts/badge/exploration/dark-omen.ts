@@ -17,6 +17,6 @@ No one has tried to identify them, as the people of Peregrine Island are too ter
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [351, -18, -8978] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [351, -18, -8978], icon: 'badge', iconText: '8' } },
   ],
 }

@@ -16,6 +16,6 @@ and the marker is located in the center of the grassy area, between the rock out
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [3045, 0, 1287] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [3045, 0, 1287], icon: 'badge', iconText: '1' } },
   ],
 }

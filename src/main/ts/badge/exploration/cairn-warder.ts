@@ -14,6 +14,6 @@ export const CairnWarder: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1026, 51, 218] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1026, 51, 218], icon: 'badge', iconText: '3' } },
   ],
 }

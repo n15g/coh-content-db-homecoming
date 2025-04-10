@@ -14,6 +14,6 @@ export const Ironic: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [207, 129, -3162] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [207, 129, -3162], icon: 'badge', iconText: '8' } },
   ],
 }

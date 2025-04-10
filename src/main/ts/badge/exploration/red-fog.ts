@@ -18,6 +18,6 @@ Each step you take is fueled by your anger; you will make the Shadow Shard and t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-7523, 1893, 4177] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-7523, 1893, 4177], icon: 'badge', iconText: '7' } },
   ],
 }

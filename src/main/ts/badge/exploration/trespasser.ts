@@ -17,6 +17,6 @@ Look for two Crey logos on a building. The badge is on the ground in the open on
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [978, 2, -737] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: RiktiWarZone.key, coords: [978, 2, -737], icon: 'badge', iconText: '2' } },
   ],
 }

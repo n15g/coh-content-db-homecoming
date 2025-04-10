@@ -16,6 +16,6 @@ They used the information contained to further their goals of capturing the regi
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [5439, 609, 3145] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [5439, 609, 3145], icon: 'badge', iconText: '5' } },
   ],
 }

@@ -16,6 +16,6 @@ Despite the large Rikti numbers, the heroes managed to repel them time after tim
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-965, 228, 6909] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-965, 228, 6909], icon: 'badge', iconText: '4' } },
   ],
 }

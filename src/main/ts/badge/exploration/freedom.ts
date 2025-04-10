@@ -19,6 +19,6 @@ It now flies over Paragon City Hall to honor the sacrifice made by Hero 1 and th
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [126.1, 170.6, -652.4] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [126.1, 170.6, -652.4], icon: 'badge', iconText: '6' } },
   ],
 }

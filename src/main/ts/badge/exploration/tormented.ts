@@ -17,6 +17,6 @@ Remaining here risks making these emotions part of yourself; or worse, you risk 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-8161, 1101, 5762] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-8161, 1101, 5762], icon: 'badge', iconText: '4' } },
   ],
 }

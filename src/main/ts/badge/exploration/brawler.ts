@@ -17,6 +17,6 @@ The buildings in question are immediately east of the Arena.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1184, 63, -936] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1184, 63, -936], icon: 'badge', iconText: '3' } },
   ],
 }

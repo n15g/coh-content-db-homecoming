@@ -14,6 +14,6 @@ export const Geologist: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-749, -539, -1647] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHollows.key, coords: [-749, -539, -1647], icon: 'badge', iconText: '3' } },
   ],
 }

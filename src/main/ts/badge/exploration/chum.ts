@@ -14,6 +14,6 @@ export const Chum: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-4048, 6, -1854] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-4048, 6, -1854], icon: 'badge', iconText: '3' } },
   ],
 }

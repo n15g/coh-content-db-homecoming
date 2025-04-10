@@ -17,6 +17,6 @@ constant toil, the never-ending hordes of villainous enemies who never tire and 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-1574, 1764, 6657] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-1574, 1764, 6657], icon: 'badge', iconText: '5' } },
   ],
 }

@@ -15,6 +15,6 @@ export const LeftBehind: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [-1216, 4, -2368] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [-1216, 4, -2368], icon: 'badge', iconText: '7' } },
   ],
 }

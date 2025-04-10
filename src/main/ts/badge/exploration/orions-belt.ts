@@ -15,6 +15,6 @@ During the first Rikti War, Orion fought valiantly against the Rikti, saving the
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1699, 4, -2209] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-1699, 4, -2209], icon: 'badge', iconText: '8' } },
   ],
 }

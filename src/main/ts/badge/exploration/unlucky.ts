@@ -16,6 +16,6 @@ Arachnos occasionally tries to spy on this base, but even they can't be bothered
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [2044, 0, -9663] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: IndependencePort.key, coords: [2044, 0, -9663], icon: 'badge', iconText: '8' } },
   ],
 }

@@ -14,6 +14,6 @@ export const CommutersWoe: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [1771, 64, -696] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [1771, 64, -696], icon: 'badge', iconText: '7' } },
   ],
 }

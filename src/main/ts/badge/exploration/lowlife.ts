@@ -15,6 +15,6 @@ You are now lower than any other life form in Praetoria. Congratulations!`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-862, 272, -5215] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-862, 272, -5215], icon: 'badge', iconText: '6' } },
   ],
 }

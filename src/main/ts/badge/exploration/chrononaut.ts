@@ -17,6 +17,6 @@ export const Chrononaut: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Ouroboros.key, coords: [543, 868, -768] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Ouroboros.key, coords: [543, 868, -768], icon: 'badge', iconText: '1' } },
   ],
 }

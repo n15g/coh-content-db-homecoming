@@ -15,6 +15,6 @@ Some people in Paragon think the plot to destroy the bridge was ridiculous, but 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [1917, 96, 7231] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [1917, 96, 7231], icon: 'badge', iconText: '6' } },
   ],
 }

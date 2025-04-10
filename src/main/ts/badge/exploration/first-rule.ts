@@ -14,6 +14,6 @@ export const FirstRule: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-74, 65, -1602] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MercyIsland.key, coords: [-74, 65, -1602], icon: 'badge', iconText: '7' } },
   ],
 }

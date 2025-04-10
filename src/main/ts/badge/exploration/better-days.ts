@@ -15,6 +15,6 @@ Hero Corps supplied Jake with a prosthetic limb afterwards, but he would never b
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [2119, 29, -2378] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [2119, 29, -2378], icon: 'badge', iconText: '5' } },
   ],
 }

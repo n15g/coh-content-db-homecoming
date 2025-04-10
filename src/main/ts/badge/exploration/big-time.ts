@@ -18,6 +18,6 @@ As luck would have it, DJ Zero offered Joe and Cornelius a chance to expand thei
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PocketD.key, coords: [-163, 20, -1362] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PocketD.key, coords: [-163, 20, -1362], icon: 'badge', iconText: '1' } },
   ],
 }

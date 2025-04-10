@@ -17,6 +17,6 @@ The devastation they wreak is extensive, as they thrust upward from the ground t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [703, 0, -3195] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheHive.key, coords: [703, 0, -3195], icon: 'badge', iconText: '8' } },
   ],
 }

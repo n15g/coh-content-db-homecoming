@@ -15,6 +15,6 @@ export const Ace: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [1360, 292.5, -276.9] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoRiktiCrashSite.key, coords: [1360, 292.5, -276.9], icon: 'badge', iconText: '1' } },
   ],
 }

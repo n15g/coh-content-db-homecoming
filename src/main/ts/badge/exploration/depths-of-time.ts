@@ -17,6 +17,6 @@ export const DepthsOfTime: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-1108, 9, 4262] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-1108, 9, 4262], icon: 'badge', iconText: '1' } },
   ],
 }

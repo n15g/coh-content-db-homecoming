@@ -17,6 +17,6 @@ Does it make you feel powerful? You're a leech, sucking the life from everyone w
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-5161, 929, 1530] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheChantry.key, coords: [-5161, 929, 1530], icon: 'badge', iconText: '4' } },
   ],
 }

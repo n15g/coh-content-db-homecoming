@@ -15,6 +15,6 @@ The witches of the Cabal were barely able to push Jack back, but not before he d
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [778, 0, -1495] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Croatoa.key, coords: [778, 0, -1495], icon: 'badge', iconText: '6' } },
   ],
 }

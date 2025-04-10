@@ -21,6 +21,6 @@ export const WeaponInspector: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-768, 144, 0] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [-768, 144, 0], icon: 'badge', iconText: '1' } },
   ],
 }

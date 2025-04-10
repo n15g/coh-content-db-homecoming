@@ -17,6 +17,6 @@ Between the many villains who prowl the streets here there lies the danger of el
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [1215, 144, -6727] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [1215, 144, -6727], icon: 'badge', iconText: '5' } },
   ],
 }

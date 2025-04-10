@@ -14,6 +14,6 @@ export const IntoTheWild: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-6637, -12, 1728] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-6637, -12, 1728], icon: 'badge', iconText: '5' } },
   ],
 }

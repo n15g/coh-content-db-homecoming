@@ -18,6 +18,6 @@ Did their remains provide nourishment for them? The plants do not deign to answe
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-2171, -1, -6446] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: MonsterIsland.key, coords: [-2171, -1, -6446], icon: 'badge', iconText: '5' } },
   ],
 }

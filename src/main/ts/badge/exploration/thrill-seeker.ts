@@ -18,6 +18,6 @@ The coordinates of this Exploration Badge vary with each zone, but its relative 
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ArchitectEntertainmentBuildings.key }, vidiotMapKey: 'X' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ArchitectEntertainmentBuildings.key, icon: 'badge', iconText: 'X' } },
   ],
 }

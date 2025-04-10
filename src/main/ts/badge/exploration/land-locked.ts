@@ -15,6 +15,6 @@ export const LandLocked: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-2036, -43, 1000] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoGalaxyCity.key, coords: [-2036, -43, 1000], icon: 'badge', iconText: '5' } },
   ],
 }

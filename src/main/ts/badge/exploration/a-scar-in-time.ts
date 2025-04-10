@@ -17,6 +17,6 @@ Some temporal researchers believe that this connection with the Outbreak is resp
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [552.3, 74.3, -1415.9] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ReclusesVictory.key, coords: [552.3, 74.3, -1415.9], icon: 'badge', iconText: '5' } },
   ],
 }

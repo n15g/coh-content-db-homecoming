@@ -14,6 +14,6 @@ export const EyesToTheFuture: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [1854, 974, -648] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [1854, 974, -648], icon: 'badge', iconText: '3' } },
   ],
 }

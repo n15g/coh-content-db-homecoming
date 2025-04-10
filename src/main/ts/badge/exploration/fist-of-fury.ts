@@ -17,6 +17,6 @@ You summon images of Rularuu's minions running rampant upon your beloved homewor
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-4458, 1859, -63] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheStormPalace.key, coords: [-4458, 1859, -63], icon: 'badge', iconText: '6' } },
   ],
 }

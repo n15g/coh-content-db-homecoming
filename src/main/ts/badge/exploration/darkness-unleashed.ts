@@ -17,6 +17,6 @@ export const DarknessUnleashed: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-170, 192.3, 1490] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Cimerora.key, coords: [-170, 192.3, 1490], icon: 'badge', iconText: '8' } },
   ],
 }

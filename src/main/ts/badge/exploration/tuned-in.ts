@@ -14,6 +14,6 @@ export const TunedIn: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-1370, -32, -1731] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: ImperialCity.key, coords: [-1370, -32, -1731], icon: 'badge', iconText: '8' } },
   ],
 }

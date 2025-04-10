@@ -18,6 +18,6 @@ How does one reckon time when they are immortal? What is "soon" to something wit
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-357, 0, 2789] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Eden.key, coords: [-357, 0, 2789], icon: 'badge', iconText: '6' } },
   ],
 }

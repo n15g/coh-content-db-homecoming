@@ -16,6 +16,6 @@ The PPD closed the case after years of research when no sign of Robert Cooling c
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-2417, 161, 7963] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TalosIsland.key, coords: [-2417, 161, 7963], icon: 'badge', iconText: '8' } },
   ],
 }

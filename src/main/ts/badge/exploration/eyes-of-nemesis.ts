@@ -16,6 +16,6 @@ Though it would not seem so on the surface, Crey's Folly is a hotly contested ar
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [226, 128, 1520] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CreysFolly.key, coords: [226, 128, 1520], icon: 'badge', iconText: '3' } },
   ],
 }

@@ -20,6 +20,6 @@ The presence of Numina and Infernal prevent the wards from being shattered easil
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [3776, 0, 506] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [3776, 0, 506], icon: 'badge', iconText: '3' } },
   ],
 }

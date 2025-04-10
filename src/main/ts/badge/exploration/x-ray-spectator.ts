@@ -18,6 +18,6 @@ Though they are not ready to give you the title of fellow X-Raider... yet.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [-3222, 1289, 111] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [-3222, 1289, 111], icon: 'badge', iconText: '6' } },
   ],
 }

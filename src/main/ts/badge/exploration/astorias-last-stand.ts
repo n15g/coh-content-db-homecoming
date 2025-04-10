@@ -16,6 +16,6 @@ The forces arrayed at them were too numerous and too powerful to be denied forev
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [4787, 6, 727] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [4787, 6, 727], icon: 'badge', iconText: '7' } },
   ],
 }

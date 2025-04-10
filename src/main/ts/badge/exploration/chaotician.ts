@@ -15,6 +15,6 @@ The marker is halfway into the tunnel entrance closest to The Gaspee marker.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [815, -21, 2402] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FoundersFalls.key, coords: [815, -21, 2402], icon: 'badge', iconText: '2' } },
   ],
 }

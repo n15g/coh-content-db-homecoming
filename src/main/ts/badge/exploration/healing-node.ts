@@ -18,6 +18,6 @@ The badge marker is located just to the right of Vitaly Cherenko, a contact in t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [1577, -84, -677] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SkywayCity.key, coords: [1577, -84, -677], icon: 'badge', iconText: '4' } },
   ],
 }

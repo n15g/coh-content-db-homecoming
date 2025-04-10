@@ -16,6 +16,6 @@ There is a metal grate bridge leading to a lookout point. The marker is at the s
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [1229, 90, -2183] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [1229, 90, -2183], icon: 'badge', iconText: '3' } },
   ],
 }

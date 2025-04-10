@@ -16,6 +16,6 @@ For the Loyalists it is an affront and a target of repeated attacks.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-3200, 511, -48] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-3200, 511, -48], icon: 'badge', iconText: '8' } },
   ],
 }

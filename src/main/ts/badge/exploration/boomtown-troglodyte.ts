@@ -18,6 +18,6 @@ From the Grenadier Village marker, face east and slightly north and you will see
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-712, 0, -448] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-712, 0, -448], icon: 'badge', iconText: '6' } },
   ],
 }

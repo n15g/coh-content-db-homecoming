@@ -14,6 +14,6 @@ export const RazorToothed: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [460, -14, 1653] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SharkheadIsle.key, coords: [460, -14, 1653], icon: 'badge', iconText: '1' } },
   ],
 }

@@ -16,6 +16,6 @@ This was a major victory for the Outcasts, and they keep the fires burning withi
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-1973, 576, 4017] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Boomtown.key, coords: [-1973, 576, 4017], icon: 'badge', iconText: '5' } },
   ],
 }

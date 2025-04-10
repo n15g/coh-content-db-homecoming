@@ -17,6 +17,6 @@ export const CitizenCole: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-3090, -4, -255] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-3090, -4, -255], icon: 'badge', iconText: '2' } },
   ],
 }

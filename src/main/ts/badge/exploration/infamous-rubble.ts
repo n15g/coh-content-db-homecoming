@@ -17,6 +17,6 @@ When the Wailers appeared, a huge battle broke out among Wailers, Arachnos and t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-4851, 153, 1868] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-4851, 153, 1868], icon: 'badge', iconText: '7' } },
   ],
 }

@@ -15,6 +15,6 @@ export const EyesOfTheDark: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-1246, 335, -2429] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundImperial.key, coords: [-1246, 335, -2429], icon: 'badge', iconText: '4' } },
   ],
 }

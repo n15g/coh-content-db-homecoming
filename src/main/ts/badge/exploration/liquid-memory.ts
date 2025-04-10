@@ -17,6 +17,6 @@ You spit the liquid from your mouth and vow never to taste it again. But...`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [-294, 568, 549] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [-294, 568, 549], icon: 'badge', iconText: '5' } },
   ],
 }

@@ -14,6 +14,6 @@ export const Egghead: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [941, 98, -1441] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CapAuDiable.key, coords: [941, 98, -1441], icon: 'badge', iconText: '3' } },
   ],
 }

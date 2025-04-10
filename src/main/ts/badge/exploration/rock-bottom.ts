@@ -15,6 +15,6 @@ Freakshow have been known to make their way over, looking for spare parts and ca
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-706.6, -87.8, 1757] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-706.6, -87.8, 1757], icon: 'badge', iconText: '7' } },
   ],
 }

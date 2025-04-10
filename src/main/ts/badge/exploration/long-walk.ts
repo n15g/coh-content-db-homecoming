@@ -15,6 +15,6 @@ Those who live in Port Oakes know to steer clear - and that all of the cars in t
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-703, 128, 211] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PortOakes.key, coords: [-703, 128, 211], icon: 'badge', iconText: '5' } },
   ],
 }

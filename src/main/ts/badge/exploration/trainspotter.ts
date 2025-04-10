@@ -15,6 +15,6 @@ Here you may find some of the older cars that have since gone out of service: a 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-1840, 511, -760] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: UndergroundNova.key, coords: [-1840, 511, -760], icon: 'badge', iconText: '6' } },
   ],
 }

@@ -14,6 +14,6 @@ export const OnTheWaterfront: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-6748, -76, 72] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: NovaPraetoria.key, coords: [-6748, -76, 72], icon: 'badge', iconText: '8' } },
   ],
 }

@@ -14,6 +14,6 @@ export const NervousDreck: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [4456, 0, -6124] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TerraVolta.key, coords: [4456, 0, -6124], icon: 'badge', iconText: '3' } },
   ],
 }

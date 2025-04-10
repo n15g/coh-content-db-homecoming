@@ -15,6 +15,6 @@ The owner adamantly refuses to change the sign, insisting that it is "hilarious.
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [474, -42, -2685] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [474, -42, -2685], icon: 'badge', iconText: '7' } },
   ],
 }

@@ -20,6 +20,6 @@ The Imperial Defense Force provides escort security for the ships once they've l
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/praetorian.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [2924, -56, 1375] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Neutropolis.key, coords: [2924, -56, 1375], icon: 'badge', iconText: '4' } },
   ],
 }

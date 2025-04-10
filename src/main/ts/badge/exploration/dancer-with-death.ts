@@ -18,6 +18,6 @@ They welcome you to dance with them, and survive as they have... if you can.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [-2856, 1651, -3551] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: FirebaseZulu.key, coords: [-2856, 1651, -3551], icon: 'badge', iconText: '7' } },
   ],
 }

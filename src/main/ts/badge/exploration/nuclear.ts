@@ -16,6 +16,6 @@ export const Nuclear: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png' },
   ],
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [363, -57, -335] }, vidiotMapKey: '7' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Warburg.key, coords: [363, -57, -335], icon: 'badge', iconText: '7' } },
   ],
 }

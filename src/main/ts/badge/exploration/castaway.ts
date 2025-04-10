@@ -17,6 +17,6 @@ You fight down this irrational fear and move on, lest it consume you.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [2523, 1676, 2985] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: CascadeArchipelago.key, coords: [2523, 1676, 2985], icon: 'badge', iconText: '1' } },
   ],
 }

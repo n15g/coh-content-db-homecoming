@@ -18,6 +18,6 @@ export const EscapeArtist: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-679, -167, -208] }, vidiotMapKey: '2' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: Faultline.key, coords: [-679, -167, -208], icon: 'badge', iconText: '2' } },
   ],
 }

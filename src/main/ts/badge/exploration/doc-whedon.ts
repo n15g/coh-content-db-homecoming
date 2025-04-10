@@ -14,6 +14,6 @@ export const DocWhedon: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-2085, -32, 2853] }, vidiotMapKey: '4' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PerezPark.key, coords: [-2085, -32, 2853], icon: 'badge', iconText: '4' } },
   ],
 }

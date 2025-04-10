@@ -20,6 +20,6 @@ You are the predator that they now fear, it is the stories of your exploits they
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [64, 2, 2995] }, vidiotMapKey: '5' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: SewerNetwork.key, coords: [64, 2, 2995], icon: 'badge', iconText: '5' } },
   ],
 }

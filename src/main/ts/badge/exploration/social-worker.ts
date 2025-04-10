@@ -18,6 +18,6 @@ export const SocialWorker: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/villain.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-202, -74, -852] }, vidiotMapKey: '6' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: StMartial.key, coords: [-202, -74, -852], icon: 'badge', iconText: '6' } },
   ],
 }

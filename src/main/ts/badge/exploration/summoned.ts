@@ -14,6 +14,6 @@ export const Summoned: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-940.5, -41.7, 2977.4] }, vidiotMapKey: '1' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KingsRow.key, coords: [-940.5, -41.7, 2977.4], icon: 'badge', iconText: '1' } },
   ],
 }

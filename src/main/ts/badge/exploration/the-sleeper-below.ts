@@ -18,6 +18,6 @@ You'll find the entrance to the ramp on the south-west side, at (1470.1, -80.0, 
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1431, -77, 673] }, vidiotMapKey: '8' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: EchoDarkAstoria.key, coords: [1431, -77, 673], icon: 'badge', iconText: '8' } },
   ],
 }

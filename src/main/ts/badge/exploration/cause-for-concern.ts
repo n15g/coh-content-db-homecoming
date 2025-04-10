@@ -15,6 +15,6 @@ Tour guides insist they are "just for show", though the occasional "all clear" h
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [-1767, -208, -3746] }, vidiotMapKey: '3' },
+    { key: 'loc-0', type: 'location', location: { zoneKey: PeregrineIsland.key, coords: [-1767, -208, -3746], icon: 'badge', iconText: '3' } },
   ],
 }
