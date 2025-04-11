@@ -24,6 +24,7 @@ module.exports = {
     'local/no-invalid-key': ['error'],
     'local/prefer-acquisition-period': ['error'],
     'local/prefer-effect-period': ['error'],
+    'local/prefer-effect-start': ['error'],
     'local/prefer-simple-alternate': ['error'],
   },
 }

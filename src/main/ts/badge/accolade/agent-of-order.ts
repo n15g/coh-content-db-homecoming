@@ -15,7 +15,7 @@ export const AgentOfOrder: BadgeData = {
     { alignment: 'hero', value: `Without heroes like you the world would fall into chaos and despair.` },
     { alignment: 'villain', value: `You leave nothing but chaos and destruction in your wake!` },
   ],
-  effect: 'Award 20 reward merits.',
+  effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Agent of Order Badge', href: 'https://homecoming.wiki/wiki/Agent_of_Order_Badge' },
   ],

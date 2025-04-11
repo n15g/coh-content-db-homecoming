@@ -1,12 +1,13 @@
-import { preferSimpleAlternate } from './rules/prefer-simple-alternate'
-import { noEmptyAlternate } from './rules/no-empty-alternate'
-import { migrateRequirementPlaqueType } from './rules/migrate-requirement-plaque-type'
-import { migrateRequirementLoc } from './rules/migrate-requirement-loc'
 import { migrateBadgeLoc } from './rules/migrate-badge-loc'
 import { migrateContactLoc } from './rules/migrate-contact-loc'
+import { migrateRequirementLoc } from './rules/migrate-requirement-loc'
+import { migrateRequirementPlaqueType } from './rules/migrate-requirement-plaque-type'
+import { noEmptyAlternate } from './rules/no-empty-alternate'
 import { noInvalidKey } from './rules/no-invalid-key'
-import { preferEffectPeriod } from './rules/prefer-effect-period'
 import { preferAcquisitionPeriod } from './rules/prefer-acquisition-period'
+import { preferEffectPeriod } from './rules/prefer-effect-period'
+import { preferEffectStart } from './rules/prefer-effect-start'
+import { preferSimpleAlternate } from './rules/prefer-simple-alternate'
 
 export const rules = {
   'migrate-badge-loc': migrateBadgeLoc,
@@ -17,5 +18,6 @@ export const rules = {
   'no-invalid-key': noInvalidKey,
   'prefer-acquisition-period': preferAcquisitionPeriod,
   'prefer-effect-period': preferEffectPeriod,
+  'prefer-effect-start': preferEffectStart,
   'prefer-simple-alternate': preferSimpleAlternate,
 }
