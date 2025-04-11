@@ -1,7 +1,6 @@
 import { TSESTree } from '@typescript-eslint/utils'
 import { createRule } from '../utils/create-rule'
-import { getProperty } from '../utils/ast-utils'
-import { isContactProperty } from '../utils/contact-ast-utils'
+import { getDataObjectProperty, getProperty } from '../utils/ast-utils'
 
 export const migrateContactLoc = createRule({
   name: 'migrate-contact-loc',
@@ -22,18 +21,18 @@ export const migrateContactLoc = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        const contactObjectExpression = node.parent as TSESTree.ObjectExpression
-        if (!isContactProperty(node, 'loc')) return
+        const { dataObject: contactData, property: loc } = getDataObjectProperty(node, 'ContactData', 'loc')
+        if (!contactData || !loc) return
 
-        const zoneKeyNode = getProperty('zoneKey', contactObjectExpression)
+        const zoneKeyNode = getProperty(contactData, 'zoneKey')
         const zoneKey = zoneKeyNode?.value ? sourceCode.getText(zoneKeyNode.value) : 'setme'
-        const coords = sourceCode.getText(node.value)
+        const coords = sourceCode.getText(loc.value)
 
         context.report({
-          node: node.value,
+          node: node,
           messageId: 'plsMigrate',
           fix(fixer) {
-            const actions = [fixer.replaceText(node, `location: { zoneKey: ${zoneKey}, coords: ${coords} }`)]
+            const actions = [fixer.replaceText(loc, `location: { zoneKey: ${zoneKey}, coords: ${coords} }`)]
 
             if (zoneKeyNode) actions.push(fixer.removeRange([zoneKeyNode.range[0] - 3, zoneKeyNode.range[1] + 1]))
             return actions

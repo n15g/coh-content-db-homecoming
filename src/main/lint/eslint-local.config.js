@@ -21,6 +21,7 @@ module.exports = {
     'local/migrate-requirement-loc': ['error'],
     'local/migrate-requirement-plaque-type': ['error'],
     'local/no-empty-alternate': ['error'],
+    'local/no-invalid-key': ['error'],
     'local/prefer-simple-alternate': ['error'],
   },
 }

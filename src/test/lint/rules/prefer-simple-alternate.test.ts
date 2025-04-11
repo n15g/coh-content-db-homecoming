@@ -135,25 +135,10 @@ export const Zealous: BadgeData = {
   ],
 })
 
-ruleTester.run('should ignore anything not an array', preferSimpleAlternate, {
-  valid: [`
-export const Zealous: BadgeData = {
-  name: 'Zealous',
-}`, `
-export const Zealous: BadgeData = {
-  name: someVar,
-}`, `
-export const Zealous: BadgeData = {
-  name: someFunction(),
-}`,
-  ],
-  invalid: [],
-})
-
-ruleTester.run('should ignore anything not BadgeData', preferSimpleAlternate, {
+ruleTester.run('should ignore anything not relevant', preferSimpleAlternate, {
   valid: [
     {
-      name: 'untyped',
+      name: 'not BadgeData',
       code: `
 export const Zealous = {
   name: { value: 'Zealous' },
@@ -166,15 +151,34 @@ export const Zealous: ContactData = {
   name: { value: 'Zealous' },
 }`,
     },
-  ],
-  invalid: [],
-})
-
-ruleTester.run('should ignore anything not a targeted field', preferSimpleAlternate, {
-  valid: [`
+    {
+      name: 'not an alternate field',
+      code: `
 export const Zealous: BadgeData = {
-  birthday: { value: 'Zealous' },
+  birthday: [{ value: 'Zealous' }],
 }`,
+    },
+    {
+      name: 'not an array',
+      code: `
+export const Zealous: BadgeData = {
+  name: 'Zealous',
+}`,
+    },
+    {
+      name: 'not an array',
+      code: `
+export const Zealous: BadgeData = {
+  name: someFunction(),
+}`,
+    },
+    {
+      name: 'not an array',
+      code: `
+export const Zealous: BadgeData = {
+  name: someVar,
+}`,
+    },
   ],
   invalid: [],
 })

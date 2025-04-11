@@ -1,6 +1,6 @@
 import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils'
 import { createRule } from '../utils/create-rule'
-import { isBadgeAlternateProperty } from '../utils/badge-ast-utils'
+import { asBadgeAlternateProperty } from '../utils/ast-utils'
 
 export const noEmptyAlternate = createRule({
   name: 'prefer-simple-alternate',
@@ -18,12 +18,14 @@ export const noEmptyAlternate = createRule({
   create(context) {
     return {
       'Property'(node: TSESTree.Property) {
-        if (!isBadgeAlternateProperty(node)) return
+        const alternateField = asBadgeAlternateProperty(node)
+        if (!alternateField) return
+
         if (node.value.type !== AST_NODE_TYPES.ArrayExpression) return
         if (node.value.elements.length > 0) return
 
         context.report({
-          node: node.value,
+          node: node,
           messageId: 'mustHaveValue',
         })
       },

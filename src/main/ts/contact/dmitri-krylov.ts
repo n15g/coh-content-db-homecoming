@@ -2,7 +2,7 @@ import { ContactData } from 'coh-content-db'
 import { CapAuDiable } from '../zone/cap-au-diable'
 
 export const DmitriKrylov: ContactData = {
-  key: 'dmitriKrylov',
+  key: 'dmitri-krylov',
   name: 'Dmitri Krylov',
   title: 'Metahuman Researcher',
   location: { zoneKey: CapAuDiable.key, coords: [2878, -72, -182] },

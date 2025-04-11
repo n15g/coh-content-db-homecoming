@@ -1,7 +1,6 @@
 import { TSESTree } from '@typescript-eslint/utils'
 import { createRule } from '../utils/create-rule'
-import { isBadgeProperty } from '../utils/badge-ast-utils'
-import { getProperty } from '../utils/ast-utils'
+import { getDataObjectProperty, getProperty } from '../utils/ast-utils'
 
 export const migrateBadgeLoc = createRule({
   name: 'migrate-badge-loc',
@@ -22,31 +21,30 @@ export const migrateBadgeLoc = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        if (!isBadgeProperty(node, 'loc')) return
+        const { dataObject: badgeData, property: loc } = getDataObjectProperty(node, 'BadgeData', 'loc')
+        if (!badgeData || !loc) return
 
-        const badge = node.parent as TSESTree.ObjectExpression
-
-        const zoneKeyNode = getProperty('zoneKey', badge)
+        const zoneKeyNode = getProperty(badgeData, 'zoneKey')
         const zoneKey = zoneKeyNode?.value ? sourceCode.getText(zoneKeyNode.value) : 'setme'
 
-        const vidiotMapKeyNode = getProperty('vidiotMapKey', badge)
+        const vidiotMapKeyNode = getProperty(badgeData, 'vidiotMapKey')
         const vidiotMapKey = vidiotMapKeyNode?.value ? sourceCode.getText(vidiotMapKeyNode.value) : undefined
 
-        const coords = sourceCode.getText(node.value)
+        const coords = sourceCode.getText(loc.value)
 
         const newRequirementsText = `
   requirements: [
     { key: 'loc-0', type: 'location', location: { zoneKey: ${zoneKey}, coords: ${coords} }, ${vidiotMapKey ? 'vidiotMapKey: ' + vidiotMapKey : ''} },
   ],`
-        const targetProp = badge.properties.at(-1) ?? node
-        const location = sourceCode.getTokenAfter(targetProp)?.range ?? node.range
+        const targetProp = badgeData.properties.at(-1) ?? node
+        const location = sourceCode.getTokenAfter(targetProp)?.range ?? loc.range
 
         context.report({
-          node: node.value,
+          node: node,
           messageId: 'plsMigrate',
           fix(fixer) {
             const actions = [
-              fixer.removeRange([node.range[0] - 3, node.range[1] + 1]),
+              fixer.removeRange([loc.range[0] - 3, loc.range[1] + 1]),
               fixer.insertTextAfterRange(location, newRequirementsText),
             ]
             if (zoneKeyNode) actions.push(fixer.removeRange([zoneKeyNode.range[0] - 3, zoneKeyNode.range[1] + 1]))

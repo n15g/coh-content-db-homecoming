@@ -1,6 +1,6 @@
 import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils'
 import { createRule } from '../utils/create-rule'
-import { isBadgeAlternateProperty } from '../utils/badge-ast-utils'
+import { asBadgeAlternateProperty } from '../utils/ast-utils'
 
 export const preferSimpleAlternate = createRule({
   name: 'prefer-simple-alternate',
@@ -19,24 +19,27 @@ export const preferSimpleAlternate = createRule({
   create(context) {
     return {
       'Property'(node: TSESTree.Property) {
-        if (!isBadgeAlternateProperty(node)) return
-        if (node.value.type !== AST_NODE_TYPES.ArrayExpression) return
-        if (node.value.elements.length !== 1) return
+        const sourceCode = context.sourceCode
 
-        const alternateObjectLiteral = node.value.elements[0]
+        const alternateField = asBadgeAlternateProperty(node)
+        if (!alternateField) return
+
+        if (alternateField.value.type !== AST_NODE_TYPES.ArrayExpression) return
+        if (alternateField.value.elements.length !== 1) return
+
+        const alternateObjectLiteral = alternateField.value.elements[0]
         if (alternateObjectLiteral?.type !== AST_NODE_TYPES.ObjectExpression) return
         const prop = alternateObjectLiteral.properties.find(x => x.type === AST_NODE_TYPES.Property && x.key.type === AST_NODE_TYPES.Identifier && x.key.name === 'value')
+        if (prop?.type !== AST_NODE_TYPES.Property) return
 
-        if (prop?.type === AST_NODE_TYPES.Property) {
-          const source = context.sourceCode.getText(prop.value)
-          context.report({
-            node: node.value,
-            messageId: 'replaceWithSingleValue',
-            fix(fixer) {
-              return fixer.replaceText(node.value, source)
-            },
-          })
-        }
+        const valueText = sourceCode.getText(prop.value)
+        context.report({
+          node: alternateField,
+          messageId: 'replaceWithSingleValue',
+          fix(fixer) {
+            return fixer.replaceText(alternateField.value, valueText)
+          },
+        })
       },
     }
   },
