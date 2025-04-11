@@ -17,7 +17,7 @@ export const BornInBattle: BadgeData = {
     { alignment: 'hero', value: `You may have proven yourself as Born in Battle, but in Paragon City other virtues matter more.` },
     { alignment: 'villain', value: `You've proven yourself as Born in Battle, adding 5% to both your Endurance and Hit Point totals.` },
   ],
-  effect: 'Awards +5% Max Health and +5 Max Endurance',
+  effect: 'Awards +5% Max Health and +5 Max Endurance.',
   links: [
     { title: 'Born in Battle Badge', href: 'https://homecoming.wiki/wiki/Born_in_Battle_Badge' },
   ],

@@ -5,6 +5,7 @@ import { migrateRequirementLoc } from './rules/migrate-requirement-loc'
 import { migrateBadgeLoc } from './rules/migrate-badge-loc'
 import { migrateContactLoc } from './rules/migrate-contact-loc'
 import { noInvalidKey } from './rules/no-invalid-key'
+import { preferEffectPeriod } from './rules/prefer-effect-period'
 
 export const rules = {
   'migrate-badge-loc': migrateBadgeLoc,
@@ -13,5 +14,6 @@ export const rules = {
   'migrate-requirement-plaque-type': migrateRequirementPlaqueType,
   'no-empty-alternate': noEmptyAlternate,
   'no-invalid-key': noInvalidKey,
+  'prefer-effect-period': preferEffectPeriod,
   'prefer-simple-alternate': preferSimpleAlternate,
 }
