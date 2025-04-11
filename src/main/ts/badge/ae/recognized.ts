@@ -7,7 +7,7 @@ export const Recognized: BadgeData = {
   name: 'Recognized',
   morality: 'all',
   badgeText: `Another player has rated an arc that you've published earning you the Recognized badge. This badge is awarded to all characters on your account.`,
-  acquisition: 'Another player has rated your published arc. (Account-wide)',
+  acquisition: 'Another player has rated your published arc.',
   notes: 'This badge is awarded to all characters on your account.',
   links: [
     { title: 'Recognized Badge', href: 'https://homecoming.wiki/wiki/Recognized_Badge' },

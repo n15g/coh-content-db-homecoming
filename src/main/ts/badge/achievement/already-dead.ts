@@ -7,7 +7,7 @@ export const AlreadyDead: BadgeData = {
   name: 'Already Dead',
   morality: 'all',
   badgeText: 'Battle Maiden thought she was all powerful, but you put her down before she knew what was happening.',
-  acquisition: 'Defeat Battle Maiden within 15 minutes in the Apex Task Force',
+  acquisition: 'Defeat Battle Maiden within 15 minutes in the Apex Task Force.',
   links: [
     { title: 'Already Dead Badge', href: 'https://homecoming.wiki/wiki/Already_Dead_Badge' },
   ],

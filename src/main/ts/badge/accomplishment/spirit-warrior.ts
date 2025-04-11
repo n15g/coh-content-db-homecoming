@@ -14,7 +14,7 @@ export const SpiritWarrior: BadgeData = {
   name: 'Spirit Warrior',
   morality: 'heroic',
   badgeText: 'You stopped a war between the Banished Pantheon and the Circle of Thorns.',
-  acquisition: 'Complete the Stop both Groups of Mystic Madmen mission from Andrea Mitchell, Cain Royce, Dr. Cheng, Piper Irving, Oliver Haak, or Josef Keller',
+  acquisition: 'Complete the Stop both Groups of Mystic Madmen mission from Andrea Mitchell, Cain Royce, Dr. Cheng, Piper Irving, Oliver Haak, or Josef Keller.',
   notes: `Mission will not appear until level 22.
   
   To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Stop the Mystic Madmen" entry with number 0.15 in the 20-24 level range.`,

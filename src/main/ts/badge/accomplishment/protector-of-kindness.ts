@@ -11,7 +11,7 @@ export const ProtectorOfKindness: BadgeData = {
   ],
   morality: 'heroic',
   badgeText: 'You saved the being known as Faathim the Kind from capture by the Circle of Thorns.',
-  acquisition: 'Complete the Justin Augustine Task Force: The Saga of Faathim',
+  acquisition: 'Complete the Justin Augustine Task Force: The Saga of Faathim.',
   links: [
     { title: 'Protector of Kindness Badge', href: 'https://homecoming.wiki/wiki/Protector_of_Kindness_Badge' },
     { title: 'Thorn Crusher Badge', href: 'https://homecoming.wiki/wiki/Thorn_Crusher_Badge' },

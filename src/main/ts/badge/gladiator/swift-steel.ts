@@ -7,7 +7,7 @@ export const SwiftSteel: BadgeData = {
   name: 'Swift Steel',
   morality: 'all',
   badgeText: 'Obedience is a virtue.',
-  acquisition: 'Defeat 300 Ancestor Spirits (Tsoo)',
+  acquisition: 'Defeat 300 Ancestor Spirits (Tsoo).',
   links: [
     { title: 'Swift Steel Badge', href: 'https://homecoming.wiki/wiki/Swift_Steel_Badge' },
   ],

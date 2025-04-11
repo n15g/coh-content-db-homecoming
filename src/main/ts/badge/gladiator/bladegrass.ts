@@ -7,7 +7,7 @@ export const Bladegrass: BadgeData = {
   name: 'Bladegrass',
   morality: 'all',
   badgeText: 'You have the respect of the natural world.',
-  acquisition: 'Defeat 300 Devouring Earth tree-creatures (Devouring Earth)',
+  acquisition: 'Defeat 300 Devouring Earth tree-creatures.',
   links: [
     { title: 'Bladegrass Badge', href: 'https://homecoming.wiki/wiki/Bladegrass_Badge' },
   ],

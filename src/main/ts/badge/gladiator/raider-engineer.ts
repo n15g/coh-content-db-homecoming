@@ -7,7 +7,7 @@ export const RaiderEngineer: BadgeData = {
   name: 'Raider Engineer',
   morality: 'all',
   badgeText: 'This will provide a good defense for your gladiators.',
-  acquisition: 'Destroy 100 Force Field Generators summoned by Sky Raider Engineers (Sky Raiders)',
+  acquisition: 'Destroy 100 Force Field Generators summoned by Sky Raider Engineers.',
   links: [
     { title: 'Raider Engineer Badge', href: 'https://homecoming.wiki/wiki/Raider_Engineer_Badge' },
   ],

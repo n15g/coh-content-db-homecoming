@@ -10,7 +10,7 @@ export const GrandLanista: BadgeData = {
     { alignment: 'hero', value: 'Continued success has earned you fame as a manager of gladiators.' },
     { alignment: 'villain', value: 'You have achieved great fame as a manager of gladiators in the Arena.' },
   ],
-  acquisition: 'Win ten Gladiator matches in the Arena (Arena)',
+  acquisition: 'Win ten Gladiator matches in the Arena.',
   links: [
     { title: 'Grand Lanista Badge', href: 'https://homecoming.wiki/wiki/Grand_Lanista_Badge' },
   ],

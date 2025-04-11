@@ -10,7 +10,7 @@ export const LucentLegacyOfLight: BadgeData = {
     { alignment: 'hero', value: 'The Legacy Chain respects you.' },
     { alignment: 'villain', value: 'These fools underestimated your true power!' },
   ],
-  acquisition: 'Defeat 200 Legacy Chain Lieutenants (Legacy Chain)',
+  acquisition: 'Defeat 200 Legacy Chain Lieutenants.',
   links: [
     { title: 'Lucent Legacy of Light Badge', href: 'https://homecoming.wiki/wiki/Lucent_Legacy_of_Light_Badge' },
   ],

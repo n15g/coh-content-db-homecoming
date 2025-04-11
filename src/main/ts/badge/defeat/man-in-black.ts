@@ -10,7 +10,7 @@ export const ManInBlack: BadgeData = {
   ],
   morality: 'all',
   badgeText: 'These creepy alien parasites are no match for you.',
-  acquisition: 'Defeat 200 Shivans',
+  acquisition: 'Defeat 200 Shivans.',
   links: [
     { title: 'Man in Black Badge', href: 'https://homecoming.wiki/wiki/Man_in_Black_Badge' },
     { title: 'Woman in Black Badge', href: 'https://homecoming.wiki/wiki/Woman_in_Black_Badge' },

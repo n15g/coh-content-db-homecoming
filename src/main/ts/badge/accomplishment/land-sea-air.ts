@@ -8,7 +8,7 @@ export const LandSeaAir: BadgeData = {
   name: 'Land, Sea & Air',
   morality: 'heroic',
   badgeText: 'You shut down the alliance between the Sky Raiders and the Praetorian Imperial Defense Force, halting an assault on Skyway City in the process.',
-  acquisition: 'Complete the Admiral Sutter Task Force',
+  acquisition: 'Complete the Admiral Sutter Task Force.',
   links: [
     { title: 'Land, Sea & Air Badge', href: 'https://homecoming.wiki/wiki/Land%2C_Sea_%26_Air_Badge' },
   ],

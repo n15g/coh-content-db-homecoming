@@ -7,7 +7,7 @@ export const MuGuardian: BadgeData = {
   name: 'Mu Guardian',
   morality: 'all',
   badgeText: 'These mystics are intrigued by you.',
-  acquisition: 'Defeat 100 Mu Guardians (Arachnos)',
+  acquisition: 'Defeat 100 Mu Guardians.',
   links: [
     { title: 'Mu Guardian Badge', href: 'https://homecoming.wiki/wiki/Mu_Guardian_Badge' },
   ],

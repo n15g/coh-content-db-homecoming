@@ -7,7 +7,7 @@ export const CrabSpiderLongfang: BadgeData = {
   name: 'Crab Spider Longfang',
   morality: 'villainous',
   badgeText: 'One fight is as good as another to the Longfangs.',
-  acquisition: 'Complete a Patron\'s story arc. (Arachnos)',
+  acquisition: 'Complete a Patron story arc.',
   links: [
     { title: 'Crab Spider Longfang Badge', href: 'https://homecoming.wiki/wiki/Crab_Spider_Longfang_Badge' },
   ],

@@ -13,7 +13,7 @@ export const Immortal: BadgeData = {
     { value: 'You are truly Immortal. You have survived one hundred million points of damage.' },
     { alignment: 'praetorian', value: `You're not even sure Emperor Cole has taken as much damage as you. Remember to ask him next time you see him.` },
   ],
-  acquisition: 'Endure 100,000,000 points of damage',
+  acquisition: 'Endure 100,000,000 points of damage.',
   links: [
     { title: 'Immortal Badge', href: 'https://homecoming.wiki/wiki/Immortal_Badge' },
     { title: 'Challenger of Gods Badge', href: 'https://homecoming.wiki/wiki/Challenger_of_Gods_Badge' },

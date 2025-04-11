@@ -8,7 +8,7 @@ export const Leviathan: BadgeData = {
   name: 'Leviathan',
   morality: 'villainous',
   badgeText: 'You have fought and defeated the awakened Eye of the Leviathan in the Temple of the Waters deep beneath Sharkhead Isle.',
-  acquisition: 'Complete the Operative Renault Strike Force: The Temple of the Waters',
+  acquisition: 'Complete the Operative Renault Strike Force: The Temple of the Waters.',
   links: [
     { title: 'Leviathan Badge', href: 'https://homecoming.wiki/wiki/Leviathan_Badge' },
   ],

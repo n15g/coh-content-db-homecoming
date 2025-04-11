@@ -8,7 +8,7 @@ export const FaceOfEvil: BadgeData = {
   name: 'Face of Evil',
   morality: 'villainous',
   badgeText: 'You gained control of the Hearts of Darkness and defeated an ancient evil bent on consuming your soul.',
-  acquisition: 'Complete the Level 15-19 Ongoing Training story arc from Dr. Graves',
+  acquisition: 'Complete the Level 15-19 Ongoing Training story arc from Dr. Graves.',
   links: [
     { title: 'Face Of Evil Badge', href: 'https://homecoming.wiki/wiki/Face_Of_Evil_Badge' },
   ],

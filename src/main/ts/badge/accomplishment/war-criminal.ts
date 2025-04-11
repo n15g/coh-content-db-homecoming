@@ -8,7 +8,7 @@ export const WarCriminal: BadgeData = {
   name: 'War Criminal',
   morality: 'villainous',
   badgeText: 'You worked together with Mr. G to break out several criminals of war from Vanguard custody.',
-  acquisition: 'Complete the first story arc from Mr. G (Primal Earth)',
+  acquisition: 'Complete the first story arc from Mr. G (Primal Earth).',
   links: [
     { title: 'War Criminal Badge', href: 'https://homecoming.wiki/wiki/War_Criminal_Badge' },
   ],

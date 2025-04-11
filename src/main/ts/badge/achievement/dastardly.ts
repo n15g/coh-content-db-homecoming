@@ -7,7 +7,7 @@ export const Dastardly: BadgeData = {
   name: 'Dastardly',
   morality: 'villainous',
   badgeText: 'The mere mention of your name causes those that hear it to shiver in fear. You have completed a Villain Morality Mission earning yourself this badge.',
-  acquisition: 'Complete a Villain Morality mission',
+  acquisition: 'Complete a Villain Morality mission.',
   links: [
     { title: 'Dastardly Badge', href: 'https://homecoming.wiki/wiki/Dastardly_Badge' },
   ],

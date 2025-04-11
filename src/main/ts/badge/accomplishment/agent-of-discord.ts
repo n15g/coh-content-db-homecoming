@@ -8,7 +8,7 @@ export const AgentOfDiscord: BadgeData = {
   name: 'Agent of Discord',
   morality: 'villainous',
   badgeText: `Obviously, Arachnos isn't as united as Lord Recluse would like the world to believe.`,
-  acquisition: 'Complete the Take out negotiator and witnesses mission from Operative Kirkland',
+  acquisition: 'Complete the Take out negotiator and witnesses mission from Operative Kirkland.',
   links: [
     { title: 'Agent of Discord Badge', href: 'https://homecoming.wiki/wiki/Agent_of_Discord_Badge' },
   ],

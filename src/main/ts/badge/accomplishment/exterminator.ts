@@ -8,7 +8,7 @@ export const Exterminator: BadgeData = {
   name: 'Exterminator',
   morality: 'villainous',
   badgeText: `The Rikti are like vermin. Good thing you were around to clean 'em out.`,
-  acquisition: 'Complete the Eliminate Kit\'Vul mission from Timothy Raymond',
+  acquisition: 'Complete the Eliminate Kit\'Vul mission from Timothy Raymond.',
   links: [
     { title: 'Exterminator Badge', href: 'https://homecoming.wiki/wiki/Exterminator_Badge' },
   ],

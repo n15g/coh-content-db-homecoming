@@ -9,7 +9,7 @@ export const MayhemsCreator: BadgeData = {
   name: `Mayhem's Creator`,
   morality: 'villainous',
   badgeText: `You were personally responsible for the creation of a new villainess, Penelope Mayhem. What she will do now is anyone's guess.`,
-  acquisition: 'Complete the third story arc from Mr. G (Primal Earth)',
+  acquisition: 'Complete the third story arc from Mr. G (Primal Earth).',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a villain can select the "The End of a Yin" entry with number 24.13 at level 50.`,
   links: [
     { title: `Mayhem's Creator Badge`, href: 'https://homecoming.wiki/wiki/Mayhem%27s_Creator_Badge' },

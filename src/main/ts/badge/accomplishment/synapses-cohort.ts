@@ -14,7 +14,7 @@ export const SynapsesCohort: BadgeData = {
     { alignment: 'hero', value: 'Synapse has awarded you this medal in recognition of your defeat of the Clockwork King.' },
     { alignment: 'villain', value: 'After you defeated the Clockwork King, Synapse honored you with this medal. What would he think now?' },
   ],
-  acquisition: 'Complete the Synapse Task Force: The Fall of the Clockwork King',
+  acquisition: 'Complete the Synapse Task Force: The Fall of the Clockwork King.',
   links: [
     { title: `Synapse's Cohort Badge`, href: 'https://homecoming.wiki/wiki/Synapse%27s_Cohort_Badge' },
     { title: `Synapse's Betrayer Badge`, href: 'https://homecoming.wiki/wiki/Synapse%27s_Betrayer_Badge' },

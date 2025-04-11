@@ -8,7 +8,7 @@ export const BrickstownsKeeper: BadgeData = {
   name: `Brickstown's Keeper`,
   morality: 'heroic',
   badgeText: 'You worked with the New Praetorians to stop the biggest breakout that Brickstown has ever seen.',
-  acquisition: 'Complete the second story arc from Provost Marchand (Primal Earth)',
+  acquisition: 'Complete the second story arc from Provost Marchand (Primal Earth).',
   links: [
     { title: `Brickstown's Keeper Badge`, href: 'https://homecoming.wiki/wiki/Brickstown%27s_Keeper_Badge' },
   ],

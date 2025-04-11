@@ -7,7 +7,7 @@ export const HordelingLasher: BadgeData = {
   name: 'Hordeling Lasher',
   morality: 'all',
   badgeText: 'You have command of infernal minions.',
-  acquisition: 'Defeat 100 Hordelings (Circle of Thorns)',
+  acquisition: 'Defeat 100 Hordelings (Circle of Thorns).',
   links: [
     { title: 'Hordeling Lasher Badge', href: 'https://homecoming.wiki/wiki/Hordeling_Lasher_Badge' },
   ],

@@ -7,7 +7,7 @@ export const FalseProphet: BadgeData = {
   name: 'False Prophet',
   morality: 'villainous',
   badgeText: `You're not above using others' beliefs to your own advantage, especially when they're as gullible as the Luddites.`,
-  acquisition: 'Complete the story arc from Brother Hammond',
+  acquisition: 'Complete the story arc from Brother Hammond.',
   links: [
     { title: 'False Prophet Badge', href: 'https://homecoming.wiki/wiki/False_Prophet_Badge' },
   ],

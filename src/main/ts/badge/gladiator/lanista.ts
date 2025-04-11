@@ -7,7 +7,7 @@ export const Lanista: BadgeData = {
   name: 'Lanista',
   morality: 'all',
   badgeText: 'You have won your first rated creature battle in the Arena!',
-  acquisition: 'Win one Gladiator match in the Arena (Arena)',
+  acquisition: 'Win one Gladiator match in the Arena.',
   links: [
     { title: 'Lanista Badge', href: 'https://homecoming.wiki/wiki/Lanista_Badge' },
   ],

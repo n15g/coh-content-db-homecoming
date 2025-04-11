@@ -13,7 +13,7 @@ export const ExArchvillain: BadgeData = {
     { alignment: 'hero', value: `The Freedom Phalanx are known for seeing the good in everyone, but in your case it took a little longer than average.` },
     { alignment: 'villain', value: 'You have claimed victory over the greatest heroes of Paragon City, the Freedom Phalanx!' },
   ],
-  acquisition: 'Defeat the Freedom Phalanx during the Lord Recluse Strike Force,',
+  acquisition: 'Defeat the Freedom Phalanx during the Lord Recluse Strike Force.',
   links: [
     { title: 'Ex-Archvillain Badge', href: 'https://homecoming.wiki/wiki/Ex-Archvillain_Badge' },
     { title: 'Archvillain Badge', href: 'https://homecoming.wiki/wiki/Archvillain_Badge' },

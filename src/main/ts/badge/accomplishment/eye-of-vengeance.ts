@@ -9,7 +9,7 @@ export const EyeOfVengeance: BadgeData = {
   morality: 'all',
   badgeText: `You fought the Knives of Vengeance within Dark Astoria and discovered that they plan to hunt down and kill whoever they deem 'worthy' for their justice.
 It appears that, coincidentally, that's just about everyone on Primal Earth.`,
-  acquisition: 'Complete the story arc from Heather Townshend',
+  acquisition: 'Complete the story arc from Heather Townshend.',
   links: [
     { title: 'Eye of Vengeance Badge', href: 'https://homecoming.wiki/wiki/Eye_of_Vengeance_Badge' },
   ],

@@ -9,7 +9,7 @@ export const Frontline: BadgeData = {
   name: 'Frontline',
   morality: 'heroic',
   badgeText: 'You stopped a battle between the Circle of Thorns and the Oranbegans from another dimension.',
-  acquisition: 'Complete the Stop the Circle of Thorns from contacting an alternate world mission from Cadao Kestrel',
+  acquisition: 'Complete the Stop the Circle of Thorns from contacting an alternate world mission from Cadao Kestrel.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "The Arrival of the Oranbegans" entry with number 0.39 in the 35-39 level range.`,
   links: [
     { title: 'Frontline Badge', href: 'https://homecoming.wiki/wiki/Frontline_Badge' },

@@ -11,7 +11,7 @@ export const CimeroranHero: BadgeData = {
   ],
   morality: 'all',
   badgeText: `You played through Marcus Valerius's personal story, witnessing the event where Marcus Valerius brought Mot to the land of Astoria and joined together with Mot, becoming his Sentinel.`,
-  acquisition: 'Complete the personal story mission from Sister Solaris',
+  acquisition: 'Complete the personal story mission from Sister Solaris.',
   links: [
     { title: 'Cimeroran Hero Badge', href: 'https://homecoming.wiki/wiki/Cimeroran_Hero_Badge' },
     { title: 'Cimeroran Heroine Badge', href: 'https://homecoming.wiki/wiki/Cimeroran_Heroine_Badge' },

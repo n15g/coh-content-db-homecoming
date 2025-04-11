@@ -7,7 +7,7 @@ export const Kleptomaniac: BadgeData = {
   name: 'Kleptomaniac',
   morality: 'all',
   badgeText: `When it comes to collecting souvenirs from your foes, you don't just take anything that's not nailed down; you take the nails, too.`,
-  acquisition: 'Collect 50 Souvenirs',
+  acquisition: 'Collect 50 Souvenirs.',
   links: [
     { title: 'Kleptomaniac Badge', href: 'https://homecoming.wiki/wiki/Kleptomaniac_Badge' },
   ],

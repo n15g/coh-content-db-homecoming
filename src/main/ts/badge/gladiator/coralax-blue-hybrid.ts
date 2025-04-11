@@ -7,7 +7,7 @@ export const CoralaxBlueHybrid: BadgeData = {
   name: 'Coralax Blue Hybrid',
   morality: 'all',
   badgeText: 'The choices of the Coralax are a mystery.',
-  acquisition: 'Defeat 100 Coralax (Coralax)',
+  acquisition: 'Defeat 100 Coralax.',
   links: [
     { title: 'Coralax Blue Hybrid Badge', href: 'https://homecoming.wiki/wiki/Coralax_Blue_Hybrid_Badge' },
   ],

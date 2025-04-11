@@ -8,7 +8,7 @@ export const EmbodimentOfLaw: BadgeData = {
   name: 'Embodiment of Law',
   morality: 'all',
   badgeText: `You played through Emperor Cole's personal story and saw him fight against the entire army of Arachnos.`,
-  acquisition: 'Complete the personal story mission from Emperor Cole',
+  acquisition: 'Complete the personal story mission from Emperor Cole.',
   links: [
     { title: 'Embodiment of Law Badge', href: 'https://homecoming.wiki/wiki/Embodiment_of_Law_Badge' },
   ],

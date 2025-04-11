@@ -8,7 +8,7 @@ export const SlayerOfMadness: BadgeData = {
   name: 'Slayer of Madness',
   morality: 'heroic',
   badgeText: 'You defeated the being known as Lanaru the Mad, sparing the people of the Shadow Shard from total destruction.',
-  acquisition: 'Complete the Faathim the Kind Task Force: The Saga of Lanaru',
+  acquisition: 'Complete the Faathim the Kind Task Force: The Saga of Lanaru.',
   links: [
     { title: 'Slayer of Madness Badge', href: 'https://homecoming.wiki/wiki/Slayer_of_Madness_Badge' },
   ],

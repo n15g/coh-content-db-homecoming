@@ -7,7 +7,7 @@ export const CreyPowerTank: BadgeData = {
   name: 'Crey Power Tank',
   morality: 'all',
   badgeText: 'An Arena battle is a good place for Crey to test their equipment.',
-  acquisition: 'Defeat 100 Crey Tanks (Crey)',
+  acquisition: 'Defeat 100 Crey Tanks.',
   links: [
     { title: 'Crey Power Tank Badge', href: 'https://homecoming.wiki/wiki/Crey_Power_Tank_Badge' },
   ],

@@ -8,7 +8,7 @@ export const HydraStomper: BadgeData = {
   name: 'Hydra Stomper',
   morality: 'all',
   badgeText: 'You went into the depths of the sewers beneath Paragon City and took down two monstrous Hydra heads!',
-  acquisition: 'Complete the Death from Below Sewer Trial',
+  acquisition: 'Complete the Death from Below Sewer Trial.',
   links: [
     { title: 'Hydra Stomper Badge', href: 'https://homecoming.wiki/wiki/Hydra_Stomper_Badge' },
   ],
