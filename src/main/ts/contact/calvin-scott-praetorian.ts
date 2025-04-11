@@ -7,5 +7,5 @@ export const CalvinScottPraetorian: ContactData = {
   title: 'Resistance Leader',
   location: { zoneKey: UndergroundNeutropolis.key, coords: [117, -1220, -1545] },
   levelRange: [4, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Calvin_Scott_(Praetorian)' }],
+  links: [{ title: 'Calvin Scott (Praetorian)', href: 'https://homecoming.wiki/wiki/Calvin_Scott_(Praetorian)' }],
 }

@@ -5,7 +5,7 @@ export const PraetorDuncan: ContactData = {
   key: 'praetor-duncan',
   name: 'Praetor Duncan',
   title: 'Praetor Duncan',
-  zoneKey: Phone.key,
+  location: { zoneKey: Phone.key },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Praetor_Duncan' }],
+  links: [{ title: 'Praetor Duncan', href: 'https://homecoming.wiki/wiki/Praetor_Duncan' }],
 }

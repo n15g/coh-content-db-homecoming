@@ -7,5 +7,5 @@ export const ChiefInterrogatorWashington: ContactData = {
   title: 'Chief Interrogator for the Ministry of Intelligence',
   location: { zoneKey: NovaPraetoria.key, coords: [-5194, 47, 296] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Chief_Interrogator_Washington' }],
+  links: [{ title: 'Chief Interrogator Washington', href: 'https://homecoming.wiki/wiki/Chief_Interrogator_Washington' }],
 }

@@ -7,5 +7,5 @@ export const JaneHallaway: ContactData = {
   title: 'Respecification Trial Contact',
   location: { zoneKey: IndependencePort.key, coords: [979.5, 64, -4711.5] },
   levelRange: [24, 33],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Jane_Hallaway' }],
+  links: [{ title: 'Jane Hallaway', href: 'https://homecoming.wiki/wiki/Jane_Hallaway' }],
 }

@@ -7,5 +7,5 @@ export const LauraBrunetti: ContactData = {
   title: 'Historian',
   location: { zoneKey: IndependencePort.key, coords: [-1808, 0, -5234] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Laura_Brunetti' }],
+  links: [{ title: 'Laura Brunetti', href: 'https://homecoming.wiki/wiki/Laura_Brunetti' }],
 }

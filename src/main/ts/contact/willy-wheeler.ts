@@ -7,5 +7,5 @@ export const WillyWheeler: ContactData = {
   title: 'Street Fixer',
   location: { zoneKey: CapAuDiable.key, coords: [828, 135, -188] },
   levelRange: [15, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Willy_Wheeler' }],
+  links: [{ title: 'Willy Wheeler', href: 'https://homecoming.wiki/wiki/Willy_Wheeler' }],
 }

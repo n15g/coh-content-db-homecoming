@@ -7,5 +7,5 @@ export const Scirocco: ContactData = {
   title: 'Arachnos Patron',
   location: { zoneKey: Grandville.key, coords: [2757, -58.9, 903] },
   levelRange: [40, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Scirocco' }],
+  links: [{ title: 'Scirocco', href: 'https://homecoming.wiki/wiki/Scirocco' }],
 }

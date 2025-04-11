@@ -7,5 +7,5 @@ export const BasseCroupier: ContactData = {
   title: 'Casino Pit Boss',
   location: { zoneKey: StMartial.key, coords: [-2065.5, -160, 2130.5] },
   levelRange: [35, 39],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Basse_Croupier' }],
+  links: [{ title: 'Basse Croupier', href: 'https://homecoming.wiki/wiki/Basse_Croupier' }],
 }

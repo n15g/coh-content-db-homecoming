@@ -7,5 +7,5 @@ export const LtColHughMcDougal: ContactData = {
   title: 'Army Super-Powered Relations Officer',
   location: { zoneKey: TalosIsland.key, coords: [205, 160, 5085] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Lt._Col._Hugh_McDougal' }],
+  links: [{ title: 'Lt. Col. Hugh McDougal', href: 'https://homecoming.wiki/wiki/Lt._Col._Hugh_McDougal' }],
 }

@@ -7,5 +7,5 @@ export const AgentG: ContactData = {
   title: 'Special Agent',
   location: { zoneKey: Faultline.key, coords: [260.5, -1336, 2338.5] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Agent_G' }],
+  links: [{ title: 'Agent G', href: 'https://homecoming.wiki/wiki/Agent_G' }],
 }

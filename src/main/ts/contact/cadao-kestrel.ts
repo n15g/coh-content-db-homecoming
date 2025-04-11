@@ -7,5 +7,5 @@ export const CadaoKestrel: ContactData = {
   title: 'Voodoo Master',
   location: { zoneKey: FoundersFalls.key, coords: [1594, -16, 925] },
   levelRange: [35, 39],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Cadao_Kestrel' }],
+  links: [{ title: 'Cadao Kestrel', href: 'https://homecoming.wiki/wiki/Cadao_Kestrel' }],
 }

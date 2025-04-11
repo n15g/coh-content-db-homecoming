@@ -7,5 +7,5 @@ export const Reese: ContactData = {
   title: `Alpha of Marauder's Top Dogs`,
   location: { zoneKey: NovaPraetoria.key, coords: [-4319, 3, 1300] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Reese' }],
+  links: [{ title: 'Reese', href: 'https://homecoming.wiki/wiki/Reese' }],
 }

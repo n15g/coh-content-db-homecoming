@@ -7,5 +7,5 @@ export const SondraCostel: ContactData = {
   title: 'Cygnus Medical Center Director',
   location: { zoneKey: AtlasPark.key, coords: [-1126, 0, -1152] },
   levelRange: [1, 7],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Sondra_Costel' }],
+  links: [{ title: 'Sondra Costel', href: 'https://homecoming.wiki/wiki/Sondra_Costel' }],
 }

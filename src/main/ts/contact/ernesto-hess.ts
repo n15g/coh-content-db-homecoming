@@ -7,5 +7,5 @@ export const ErnestoHess: ContactData = {
   title: 'Task Force Contact',
   location: { zoneKey: StrigaIsle.key, coords: [-6555.5, 79, 283] },
   levelRange: [25, 30],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ernesto_Hess' }],
+  links: [{ title: 'Ernesto Hess', href: 'https://homecoming.wiki/wiki/Ernesto_Hess' }],
 }

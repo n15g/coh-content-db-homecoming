@@ -7,5 +7,5 @@ export const AshleyMcKnight: ContactData = {
   title: 'Midnight Squad Member',
   location: { zoneKey: CapAuDiable.key, coords: [728, 15.5, -1630] },
   levelRange: [14, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ashley_McKnight' }],
+  links: [{ title: 'Ashley McKnight', href: 'https://homecoming.wiki/wiki/Ashley_McKnight' }],
 }

@@ -7,5 +7,5 @@ export const PaulaDempsey: ContactData = {
   title: 'Mechanic and Inventor',
   location: { zoneKey: KingsRow.key, coords: [-1510, -42, 525] },
   levelRange: [5, 14],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Paula_Dempsey' }],
+  links: [{ title: 'Paula Dempsey', href: 'https://homecoming.wiki/wiki/Paula_Dempsey' }],
 }

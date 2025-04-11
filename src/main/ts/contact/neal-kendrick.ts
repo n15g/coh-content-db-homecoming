@@ -7,5 +7,5 @@ export const NealKendrick: ContactData = {
   title: 'Media Watchdog',
   location: { zoneKey: Brickstown.key, coords: [376, 0, 1576] },
   levelRange: [30, 34],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Neal_Kendrick' }],
+  links: [{ title: 'Neal Kendrick', href: 'https://homecoming.wiki/wiki/Neal_Kendrick' }],
 }

@@ -8,5 +8,5 @@ export const MotherMayhem: ContactData = {
   zoneKey: Neutropolis.key,
   levelRange: [14, 20],
   notes: 'Mother Mayhem, as Praetor Tilman, does not actually deign to show herself in-zone. Instead, characters can call her directly.',
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mother_Mayhem' }],
+  links: [{ title: 'Mother Mayhem', href: 'https://homecoming.wiki/wiki/Mother_Mayhem' }],
 }

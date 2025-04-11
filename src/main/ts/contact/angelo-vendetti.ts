@@ -7,5 +7,5 @@ export const AngeloVendetti: ContactData = {
   title: 'Vengeful Fixer',
   location: { zoneKey: PortOakes.key, coords: [-423, 144, 1304] },
   levelRange: [5, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Angelo_Vendetti' }],
+  links: [{ title: 'Angelo Vendetti', href: 'https://homecoming.wiki/wiki/Angelo_Vendetti' }],
 }

@@ -7,5 +7,5 @@ export const Positron: ContactData = {
   title: 'Dr. Raymond Keyes',
   location: { zoneKey: SteelCanyon.key, coords: [-3136, -80, -501] },
   levelRange: [10, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Positron' }],
+  links: [{ title: 'Positron', href: 'https://homecoming.wiki/wiki/Positron' }],
 }

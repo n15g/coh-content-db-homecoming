@@ -7,5 +7,5 @@ export const JimTemblor: ContactData = {
   title: 'Angry Young Man',
   location: { zoneKey: Faultline.key, coords: [-330, 0.5, -1211.5] },
   levelRange: [15, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Jim_Temblor' }],
+  links: [{ title: 'Jim Temblor', href: 'https://homecoming.wiki/wiki/Jim_Temblor' }],
 }

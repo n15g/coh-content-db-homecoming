@@ -5,7 +5,7 @@ export const Max: ContactData = {
   key: 'max',
   name: 'Max',
   title: 'Malta Agent',
-  zoneKey: Phone.key,
+  location: { zoneKey: Phone.key },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Max' }],
+  links: [{ title: 'Max', href: 'https://homecoming.wiki/wiki/Max' }],
 }

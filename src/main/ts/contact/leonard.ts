@@ -7,5 +7,5 @@ export const Leonard: ContactData = {
   title: 'Bodyguard',
   location: { zoneKey: SharkheadIsle.key, coords: [-502, 107, -1273] },
   levelRange: [20, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Leonard' }],
+  links: [{ title: 'Leonard', href: 'https://homecoming.wiki/wiki/Leonard' }],
 }

@@ -7,5 +7,5 @@ export const MageKillerTatiana: ContactData = {
   title: 'Arcane Assassin',
   location: { zoneKey: StrigaIsle.key, coords: [-2640.7, 66.7, -3346.5] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mage-Killer_Tatiana' }],
+  links: [{ title: 'Mage-Killer Tatiana', href: 'https://homecoming.wiki/wiki/Mage-Killer_Tatiana' }],
 }

@@ -7,5 +7,5 @@ export const OperativeKirkland: ContactData = {
   title: 'Arachnos Operative',
   location: { zoneKey: SharkheadIsle.key, coords: [463, -2, 833] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Operative_Kirkland' }],
+  links: [{ title: 'Operative Kirkland', href: 'https://homecoming.wiki/wiki/Operative_Kirkland' }],
 }

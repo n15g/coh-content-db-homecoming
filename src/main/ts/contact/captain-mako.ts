@@ -7,5 +7,5 @@ export const CaptainMako: ContactData = {
   title: 'Arachnos Patron',
   location: { zoneKey: Grandville.key, coords: [2754, -58.9, 845] },
   levelRange: [40, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Captain_Mako' }],
+  links: [{ title: 'Captain Mako', href: 'https://homecoming.wiki/wiki/Captain_Mako' }],
 }

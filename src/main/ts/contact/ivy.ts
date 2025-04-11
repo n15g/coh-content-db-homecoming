@@ -7,5 +7,5 @@ export const IVy: ContactData = {
   title: 'Clockwork Secretary',
   location: { zoneKey: Neutropolis.key, coords: [1943, -51, -499] },
   levelRange: [14, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/IVy' }],
+  links: [{ title: 'IVy', href: 'https://homecoming.wiki/wiki/IVy' }],
 }

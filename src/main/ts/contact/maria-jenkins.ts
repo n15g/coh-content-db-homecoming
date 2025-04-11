@@ -7,5 +7,5 @@ export const MariaJenkins: ContactData = {
   title: 'Former Heroine',
   location: { zoneKey: PeregrineIsland.key, coords: [-1043, 0, -2783] },
   levelRange: [45, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Maria_Jenkins' }],
+  links: [{ title: 'Maria Jenkins', href: 'https://homecoming.wiki/wiki/Maria_Jenkins' }],
 }

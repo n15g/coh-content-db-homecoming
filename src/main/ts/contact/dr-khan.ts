@@ -7,5 +7,5 @@ export const DrKahn: ContactData = {
   title: 'Portal Corp. Historian',
   location: { zoneKey: FoundersFalls.key, coords: [1732, 0, 2482] },
   levelRange: [45, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Kahn' }],
+  links: [{ title: 'Dr. Kahn', href: 'https://homecoming.wiki/wiki/Dr._Kahn' }],
 }

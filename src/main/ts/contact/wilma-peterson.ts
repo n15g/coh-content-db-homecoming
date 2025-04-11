@@ -7,5 +7,5 @@ export const WilmaPeterson: ContactData = {
   title: 'Hazardous Waste Disposal Expert',
   location: { zoneKey: IndependencePort.key, coords: [-2184, 0, 4724] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Wilma_Peterson' }],
+  links: [{ title: 'Wilma Peterson', href: 'https://homecoming.wiki/wiki/Wilma_Peterson' }],
 }

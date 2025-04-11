@@ -7,5 +7,5 @@ export const LorenzAnsaldo: ContactData = {
   title: 'Family Associate',
   location: { zoneKey: SharkheadIsle.key, coords: [697, 32, -1060] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Lorenz_Ansaldo' }],
+  links: [{ title: 'Lorenz Ansaldo', href: 'https://homecoming.wiki/wiki/Lorenz_Ansaldo' }],
 }

@@ -7,5 +7,5 @@ export const Orpheus: ContactData = {
   title: 'Bard and Hunter of the Undead',
   location: { zoneKey: StrigaIsle.key, coords: [-2376, 0.8, -1957.3] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Orpheus' }],
+  links: [{ title: 'Orpheus', href: 'https://homecoming.wiki/wiki/Orpheus' }],
 }

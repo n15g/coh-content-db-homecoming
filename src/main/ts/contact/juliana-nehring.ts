@@ -6,5 +6,5 @@ export const JulianaNehring: ContactData = {
   name: 'Juliana Nehring',
   location: { zoneKey: SkywayCity.key, coords: [651, 35.5, -7447] },
   levelRange: [15, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Juliana_Nehring' }],
+  links: [{ title: 'Juliana Nehring', href: 'https://homecoming.wiki/wiki/Juliana_Nehring' }],
 }

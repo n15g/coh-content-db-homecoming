@@ -7,5 +7,5 @@ export const MairennMacGregor: ContactData = {
   title: 'Containment Specialist',
   location: { zoneKey: AtlasPark.key, coords: [140, 0, 1021] },
   levelRange: [38, 40],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mairenn_MacGregor' }],
+  links: [{ title: 'Mairenn MacGregor', href: 'https://homecoming.wiki/wiki/Mairenn_MacGregor' }],
 }

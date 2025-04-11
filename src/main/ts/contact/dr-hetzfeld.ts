@@ -7,5 +7,5 @@ export const DrHetzfeld: ContactData = {
   title: 'Mad Scientist',
   location: { zoneKey: Neutropolis.key, coords: [1800, -55, 1014] },
   levelRange: [14, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Hetzfeld' }],
+  links: [{ title: 'Dr. Hetzfeld', href: 'https://homecoming.wiki/wiki/Dr._Hetzfeld' }],
 }

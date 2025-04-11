@@ -7,5 +7,5 @@ export const Vagabond: ContactData = {
   title: 'Ex-Soldier',
   location: { zoneKey: UndergroundImperial.key, coords: [-851, 336, -3378] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Vagabond' }],
+  links: [{ title: 'Vagabond', href: 'https://homecoming.wiki/wiki/Vagabond' }],
 }

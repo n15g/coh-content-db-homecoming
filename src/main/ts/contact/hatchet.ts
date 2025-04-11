@@ -7,5 +7,5 @@ export const Hatchet: ContactData = {
   title: 'Ghoul Tamer',
   location: { zoneKey: UndergroundImperial.key, coords: [-977, 332, -3324] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Hatchet' }],
+  links: [{ title: 'Hatchet', href: 'https://homecoming.wiki/wiki/Hatchet' }],
 }

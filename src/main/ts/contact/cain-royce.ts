@@ -7,5 +7,5 @@ export const CainRoyce: ContactData = {
   title: 'Philanthropist',
   location: { zoneKey: TalosIsland.key, coords: [-660, 1600, 6960] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Cain_Royce' }],
+  links: [{ title: 'Cain Royce', href: 'https://homecoming.wiki/wiki/Cain_Royce' }],
 }

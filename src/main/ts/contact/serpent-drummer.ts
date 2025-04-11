@@ -7,5 +7,5 @@ export const SerpentDrummer: ContactData = {
   title: 'Leader of the Vanguard Gauntlet',
   location: { zoneKey: RiktiWarZone.key, coords: [210, -1192, -2425] },
   levelRange: [40, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Serpent_Drummer' }],
+  links: [{ title: 'Serpent Drummer', href: 'https://homecoming.wiki/wiki/Serpent_Drummer' }],
 }

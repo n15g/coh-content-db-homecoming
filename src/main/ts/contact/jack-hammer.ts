@@ -7,5 +7,5 @@ export const JackHammer: ContactData = {
   title: 'Resistance Cell Captain',
   location: { zoneKey: UndergroundNova.key, coords: [-4136, 528, -525] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Jack_Hammer' }],
+  links: [{ title: 'Jack Hammer', href: 'https://homecoming.wiki/wiki/Jack_Hammer' }],
 }

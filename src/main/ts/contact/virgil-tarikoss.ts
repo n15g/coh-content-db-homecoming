@@ -7,5 +7,5 @@ export const VirgilTarikoss: ContactData = {
   title: 'Cagey Mystic',
   location: { zoneKey: CapAuDiable.key, coords: [-2800, 238, -528] },
   levelRange: [15, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Virgil_Tarikoss' }],
+  links: [{ title: 'Virgil Tarikoss', href: 'https://homecoming.wiki/wiki/Virgil_Tarikoss' }],
 }

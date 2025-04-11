@@ -7,5 +7,5 @@ export const MiriamBloechl: ContactData = {
   title: 'Psychometrist',
   location: { zoneKey: TalosIsland.key, coords: [-909, 224, 6088] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Miriam_Bloechl' }],
+  links: [{ title: 'Miriam Bloechl', href: 'https://homecoming.wiki/wiki/Miriam_Bloechl' }],
 }

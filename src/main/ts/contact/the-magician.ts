@@ -7,5 +7,5 @@ export const TheMagician: ContactData = {
   title: 'Sage of forbidden knowledge',
   location: { zoneKey: NightWard.key, coords: [1935, 105, 1373] },
   levelRange: [30, 39],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/The_Magician_(Contact)' }],
+  links: [{ title: 'The Magician', href: 'https://homecoming.wiki/wiki/The_Magician_(Contact)' }],
 }

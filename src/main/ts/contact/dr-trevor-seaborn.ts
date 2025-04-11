@@ -7,5 +7,5 @@ export const DrTrevorSeaborn: ContactData = {
   title: 'Abnormal Psychiatrist',
   location: { zoneKey: SteelCanyon.key, coords: [-1611.5, 0, 1378] },
   levelRange: [9, 14],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Trevor_Seaborn' }],
+  links: [{ title: 'Dr. Trevor Seaborn', href: 'https://homecoming.wiki/wiki/Dr._Trevor_Seaborn' }],
 }

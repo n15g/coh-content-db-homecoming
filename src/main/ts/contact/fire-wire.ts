@@ -7,5 +7,5 @@ export const FireWire: ContactData = {
   title: 'Villain',
   location: { zoneKey: MercyIsland.key, coords: [-2726, 239, 139] },
   levelRange: [1, 7],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Fire_Wire' }],
+  links: [{ title: 'Fire Wire', href: 'https://homecoming.wiki/wiki/Fire_Wire' }],
 }

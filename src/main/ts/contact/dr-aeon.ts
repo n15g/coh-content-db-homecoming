@@ -7,5 +7,5 @@ export const DrAeon: ContactData = {
   title: 'Director of the Arachnos Quantum Structure Association',
   location: { zoneKey: CapAuDiable.key, coords: [-770, 487, -256.4] },
   levelRange: [35, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Aeon' }],
+  links: [{ title: 'Dr. Aeon', href: 'https://homecoming.wiki/wiki/Dr._Aeon' }],
 }

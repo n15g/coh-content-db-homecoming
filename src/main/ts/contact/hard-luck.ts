@@ -7,5 +7,5 @@ export const HardLuck: ContactData = {
   title: 'Casino Enforcer',
   location: { zoneKey: StMartial.key, coords: [-2133, -160, 2120] },
   levelRange: [30, 34],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Hard_Luck' }],
+  links: [{ title: 'Hard Luck', href: 'https://homecoming.wiki/wiki/Hard_Luck' }],
 }

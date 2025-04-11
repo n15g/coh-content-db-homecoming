@@ -7,5 +7,5 @@ export const MsLiberty: ContactData = {
   title: 'Leader of the Vindicators',
   location: { zoneKey: IndependencePort.key, coords: [-806, 1, -5643] },
   levelRange: [45, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ms._Liberty' }],
+  links: [{ title: 'Ms. Liberty', href: 'https://homecoming.wiki/wiki/Ms._Liberty' }],
 }

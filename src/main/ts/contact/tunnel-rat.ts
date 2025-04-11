@@ -7,5 +7,5 @@ export const TunnelRat: ContactData = {
   title: 'Human Smuggler',
   location: { zoneKey: NovaPraetoria.key, coords: [-4959, -76, 2675] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Tunnel_Rat_(Contact)' }],
+  links: [{ title: 'Tunnel Rat', href: 'https://homecoming.wiki/wiki/Tunnel_Rat_(Contact)' }],
 }

@@ -6,5 +6,5 @@ export const HaleyPhilips: ContactData = {
   name: 'Haley Philips',
   location: { zoneKey: SkywayCity.key, coords: [592, 0, -7592] },
   levelRange: [9, 14],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Haley_Philips' }],
+  links: [{ title: 'Haley Philips', href: 'https://homecoming.wiki/wiki/Haley_Philips' }],
 }

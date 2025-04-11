@@ -6,5 +6,5 @@ export const DrAnnMarieEngles: ContactData = {
   name: 'Dr. Ann-Marie Engles',
   location: { zoneKey: SkywayCity.key, coords: [-485, 16, -7104.5] },
   levelRange: [15, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Ann-Marie_Engles' }],
+  links: [{ title: 'Dr. Ann-Marie Engles', href: 'https://homecoming.wiki/wiki/Dr._Ann-Marie_Engles' }],
 }

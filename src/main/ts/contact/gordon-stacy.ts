@@ -6,5 +6,5 @@ export const GordonStacy: ContactData = {
   name: 'Gordon Stacy',
   location: { zoneKey: Brickstown.key, coords: [-2200, 0, 2680.5] },
   levelRange: [35, 39],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Gordon_Stacy' }],
+  links: [{ title: 'Gordon Stacy', href: 'https://homecoming.wiki/wiki/Gordon_Stacy' }],
 }

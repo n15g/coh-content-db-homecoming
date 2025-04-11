@@ -7,5 +7,5 @@ export const Cleopatra: ContactData = {
   title: 'PPD Liaison to the Magisterium',
   location: { zoneKey: NovaPraetoria.key, coords: [-5184, 41, -728] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Cleopatra' }],
+  links: [{ title: 'Cleopatra', href: 'https://homecoming.wiki/wiki/Cleopatra' }],
 }

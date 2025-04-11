@@ -7,5 +7,5 @@ export const ChanceMcKnight: ContactData = {
   title: 'Undercover Ministry of Intelligence operative in the Syndicate',
   location: { zoneKey: ImperialCity.key, coords: [474, -55, -295] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Chance_McKnight' }],
+  links: [{ title: 'Chance McKnight', href: 'https://homecoming.wiki/wiki/Chance_McKnight' }],
 }

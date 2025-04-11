@@ -7,5 +7,5 @@ export const MuVorkan: ContactData = {
   title: 'Mu Mystic',
   location: { zoneKey: DarkAstoria.key, coords: [3172, 51, 3392] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mu%27Vorkan' }],
+  links: [{ title: `Mu'Vorkan`, href: 'https://homecoming.wiki/wiki/Mu%27Vorkan' }],
 }

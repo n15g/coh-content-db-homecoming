@@ -6,5 +6,5 @@ export const InsideInformation: ContactData = {
   name: 'Inside Information',
   zoneKey: Grandville.key,
   levelRange: [30, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Inside_Information' }],
+  links: [{ title: 'Inside Information', href: 'https://homecoming.wiki/wiki/Inside_Information' }],
 }

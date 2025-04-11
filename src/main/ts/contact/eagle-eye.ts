@@ -7,5 +7,5 @@ export const EagleEye: ContactData = {
   title: 'Former member of The Regulators',
   location: { zoneKey: KingsRow.key, coords: [-894.5, 32, 1381.5] },
   levelRange: [7, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Eagle_Eye' }],
+  links: [{ title: 'Eagle Eye', href: 'https://homecoming.wiki/wiki/Eagle_Eye' }],
 }

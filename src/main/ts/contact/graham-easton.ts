@@ -7,5 +7,5 @@ export const GrahamEaston: ContactData = {
   title: 'Museum Curator',
   location: { zoneKey: SteelCanyon.key, coords: [-4606, 0, -980] },
   levelRange: [15, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Graham_Easton' }],
+  links: [{ title: 'Graham Easton', href: 'https://homecoming.wiki/wiki/Graham_Easton' }],
 }

@@ -7,5 +7,5 @@ export const Apex: ContactData = {
   title: 'Vanguard Commander',
   location: { zoneKey: RiktiWarZone.key, coords: [-215, 40, -2265] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Apex' }],
+  links: [{ title: 'Apex', href: 'https://homecoming.wiki/wiki/Apex' }],
 }

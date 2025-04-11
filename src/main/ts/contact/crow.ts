@@ -7,5 +7,5 @@ export const Crow: ContactData = {
   title: 'Resistance Leader',
   location: { zoneKey: UndergroundNeutropolis.key, coords: [285, -1200, -1603] },
   levelRange: [14, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Crow' }],
+  links: [{ title: 'Crow', href: 'https://homecoming.wiki/wiki/Crow' }],
 }

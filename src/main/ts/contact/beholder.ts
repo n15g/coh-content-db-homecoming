@@ -7,5 +7,5 @@ export const Beholder: ContactData = {
   title: 'Former Seer',
   location: { zoneKey: UndergroundImperial.key, coords: [-689, 352, -3377] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Beholder' }],
+  links: [{ title: 'Beholder', href: 'https://homecoming.wiki/wiki/Beholder' }],
 }

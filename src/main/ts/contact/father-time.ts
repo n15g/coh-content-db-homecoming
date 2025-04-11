@@ -8,5 +8,5 @@ export const FatherTime: ContactData = {
   location: { zoneKey: PocketD.key, coords: [858.5, 148, -983.5] },
   levelRange: [1, 50],
   notes: `Only available during Winter events.`,
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Father_Time' }],
+  links: [{ title: 'Father Time', href: 'https://homecoming.wiki/wiki/Father_Time' }],
 }

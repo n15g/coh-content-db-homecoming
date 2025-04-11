@@ -7,5 +7,5 @@ export const MrGPrimal: ContactData = {
   title: 'Advisor',
   location: { zoneKey: StMartial.key, coords: [-185, -275, 1652] },
   levelRange: [30, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mr._G_(Primal_Earth)' }],
+  links: [{ title: 'Mr. G (Primal)', href: 'https://homecoming.wiki/wiki/Mr._G_(Primal_Earth)' }],
 }

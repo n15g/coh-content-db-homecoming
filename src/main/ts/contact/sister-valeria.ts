@@ -7,5 +7,5 @@ export const SisterValeria: ContactData = {
   title: 'Follower of Bellona',
   location: { zoneKey: Cimerora.key, coords: [937, 203, 5127] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Sister_Valeria' }],
+  links: [{ title: 'Sister Valeria', href: 'https://homecoming.wiki/wiki/Sister_Valeria' }],
 }

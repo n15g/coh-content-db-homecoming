@@ -7,5 +7,5 @@ export const Numina: ContactData = {
   title: 'Tammy Arcanus',
   location: { zoneKey: FoundersFalls.key, coords: [3778, 4, 712] },
   levelRange: [35, 40],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Numina' }],
+  links: [{ title: 'Numina', href: 'https://homecoming.wiki/wiki/Numina' }],
 }

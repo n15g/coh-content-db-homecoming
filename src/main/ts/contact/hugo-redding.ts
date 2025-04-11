@@ -7,5 +7,5 @@ export const HugoRedding: ContactData = {
   title: `Physician's Assistant}`,
   location: { zoneKey: SteelCanyon.key, coords: [-2407, 0, 2523.5] },
   levelRange: [9, 14],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Hugo_Redding' }],
+  links: [{ title: 'Hugo Redding', href: 'https://homecoming.wiki/wiki/Hugo_Redding' }],
 }

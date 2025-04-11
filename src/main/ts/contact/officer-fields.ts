@@ -7,5 +7,5 @@ export const OfficerFields: ContactData = {
   title: 'PPD Officer',
   location: { zoneKey: AtlasPark.key, coords: [919, 42, -2172] },
   levelRange: [1, 7],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Officer_Fields' }],
+  links: [{ title: 'Officer Fields', href: 'https://homecoming.wiki/wiki/Officer_Fields' }],
 }

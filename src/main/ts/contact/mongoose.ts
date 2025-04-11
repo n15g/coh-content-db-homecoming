@@ -7,5 +7,5 @@ export const Mongoose: ContactData = {
   title: 'Snake Exterminator',
   location: { zoneKey: MercyIsland.key, coords: [-1180, 96, -394] },
   levelRange: [3, 8],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mongoose' }],
+  links: [{ title: 'Mongoose', href: 'https://homecoming.wiki/wiki/Mongoose' }],
 }

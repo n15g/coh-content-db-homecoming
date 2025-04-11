@@ -7,5 +7,5 @@ export const DJZero: ContactData = {
   title: 'Trans Dimensional DJ',
   location: { zoneKey: PocketD.key, coords: [-77, 22, -1057] },
   levelRange: [1, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/DJ_Zero' }],
+  links: [{ title: 'DJ Zero', href: 'https://homecoming.wiki/wiki/DJ_Zero' }],
 }

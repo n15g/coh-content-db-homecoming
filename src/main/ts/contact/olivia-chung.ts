@@ -7,5 +7,5 @@ export const OliviaChung: ContactData = {
   title: 'Publisher',
   location: { zoneKey: SteelCanyon.key, coords: [-2902, -68, -2384] },
   levelRange: [15, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Olivia_Chung' }],
+  links: [{ title: 'Olivia Chung', href: 'https://homecoming.wiki/wiki/Olivia_Chung' }],
 }

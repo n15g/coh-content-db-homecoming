@@ -7,5 +7,5 @@ export const AshwinLannister: ContactData = {
   title: 'Hero Corps Representative',
   location: { zoneKey: IndependencePort.key, coords: [-1587, -174, -5785] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ashwin_Lannister' }],
+  links: [{ title: 'Ashwin Lannister', href: 'https://homecoming.wiki/wiki/Ashwin_Lannister' }],
 }

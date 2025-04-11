@@ -8,5 +8,5 @@ export const Ganymede: ContactData = {
   location: { zoneKey: PocketD.key, coords: [-52, 0, -1014] },
   levelRange: [1, 50],
   notes: `Only available during Valentine's events.`,
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ganymede' }],
+  links: [{ title: 'Ganymede', href: 'https://homecoming.wiki/wiki/Ganymede' }],
 }

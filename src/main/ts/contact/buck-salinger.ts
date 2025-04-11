@@ -7,5 +7,5 @@ export const BuckSalinger: ContactData = {
   title: 'Midnight Squad Researcher',
   location: { zoneKey: Croatoa.key, coords: [-2094, -30, 291] },
   levelRange: [30, 34],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Buck_Salinger' }],
+  links: [{ title: 'Buck Salinger', href: 'https://homecoming.wiki/wiki/Buck_Salinger' }],
 }

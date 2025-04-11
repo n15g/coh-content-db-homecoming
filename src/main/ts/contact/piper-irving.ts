@@ -7,5 +7,5 @@ export const PiperIrving: ContactData = {
   title: 'Anthropologist',
   location: { zoneKey: TalosIsland.key, coords: [-1386, 160, 6829] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Piper_Irving' }],
+  links: [{ title: 'Piper Irving', href: 'https://homecoming.wiki/wiki/Piper_Irving' }],
 }

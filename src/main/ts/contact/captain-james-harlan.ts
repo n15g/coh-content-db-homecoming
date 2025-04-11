@@ -7,5 +7,5 @@ export const CaptainJamesHarlan: ContactData = {
   title: 'Respecification Trial Contact',
   location: { zoneKey: FoundersFalls.key, coords: [1161, 0, 1511] },
   levelRange: [34, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Major_Richard_Flagg' }],
+  links: [{ title: 'Captain James Harlan', href: 'https://homecoming.wiki/wiki/Major_Richard_Flagg' }],
 }

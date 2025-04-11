@@ -7,5 +7,5 @@ export const DarrenWade: ContactData = {
   title: 'Ex Midnighter',
   location: { zoneKey: SharkheadIsle.key, coords: [2435.5, 32, 149] },
   levelRange: [20, 30],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Darrin_Wade' }],
+  links: [{ title: 'Darrin Wade', href: 'https://homecoming.wiki/wiki/Darrin_Wade' }],
 }

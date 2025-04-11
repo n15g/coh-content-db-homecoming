@@ -7,5 +7,5 @@ export const Karsis: ContactData = {
   title: 'Coerced Circle Mage',
   location: { zoneKey: TheHollows.key, coords: [698, -32, -38.5] },
   levelRange: [12, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Karsis' }],
+  links: [{ title: 'Karsis', href: 'https://homecoming.wiki/wiki/Karsis' }],
 }

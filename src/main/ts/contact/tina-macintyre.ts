@@ -7,5 +7,5 @@ export const TinaMacintyre: ContactData = {
   title: 'Portal Corporation Research Scientist',
   location: { zoneKey: PeregrineIsland.key, coords: [-1680.5, 0, -3638.5] },
   levelRange: [40, 45],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Tina_Macintyre' }],
+  links: [{ title: 'Tina Macintyre', href: 'https://homecoming.wiki/wiki/Tina_Macintyre' }],
 }

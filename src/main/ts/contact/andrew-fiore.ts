@@ -7,5 +7,5 @@ export const AndrewFiore: ContactData = {
   title: 'Electronics Purveyor',
   location: { zoneKey: TalosIsland.key, coords: [460, 160, 7390] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Andrew_Fiore' }],
+  links: [{ title: 'Andrew Fiore', href: 'https://homecoming.wiki/wiki/Andrew_Fiore' }],
 }

@@ -7,5 +7,5 @@ export const MageKillerZuhkara: ContactData = {
   title: 'Arcane Assassin',
   location: { zoneKey: Grandville.key, coords: [2700, -65.9, 764] },
   levelRange: [40, 44],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mage-Killer_Zuhkara' }],
+  links: [{ title: 'Mage-Killer Zuhkara', href: 'https://homecoming.wiki/wiki/Mage-Killer_Zuhkara' }],
 }

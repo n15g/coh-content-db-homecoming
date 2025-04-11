@@ -7,5 +7,5 @@ export const AaronWalker: ContactData = {
   title: 'Hacker',
   location: { zoneKey: Neutropolis.key, coords: [2878, -72, -182] },
   levelRange: [14, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Aaron_Walker' }],
+  links: [{ title: 'Aaron Walker', href: 'https://homecoming.wiki/wiki/Aaron_Walker' }],
 }

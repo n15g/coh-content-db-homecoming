@@ -6,5 +6,5 @@ export const FaathimTheKind: ContactData = {
   name: 'Faathim the Kind',
   location: { zoneKey: TheChantry.key, coords: [-30.5, -1995, 4] },
   levelRange: [44, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Faathim_the_Kind' }],
+  links: [{ title: 'Faathim the Kind', href: 'https://homecoming.wiki/wiki/Faathim_the_Kind' }],
 }

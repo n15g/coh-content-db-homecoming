@@ -7,5 +7,5 @@ export const PenelopeYinFaultline: ContactData = {
   title: 'Trouble-prone Teenager',
   location: { zoneKey: Faultline.key, coords: [-900, 0, -492.5] },
   levelRange: [15, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Penelope_Yin_(Faultline)' }],
+  links: [{ title: 'Penelope Yin (Faultline)', href: 'https://homecoming.wiki/wiki/Penelope_Yin_(Faultline)' }],
 }

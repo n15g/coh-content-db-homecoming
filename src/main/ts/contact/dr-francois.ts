@@ -7,5 +7,5 @@ export const DrFrancois: ContactData = {
   title: 'Robotics Engineer',
   location: { zoneKey: StrigaIsle.key, coords: [104.5, 0, -1209.6] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Francois' }],
+  links: [{ title: 'Dr. Francois', href: 'https://homecoming.wiki/wiki/Dr._Francois' }],
 }

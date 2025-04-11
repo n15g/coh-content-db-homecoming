@@ -7,5 +7,5 @@ export const Levantera: ContactData = {
   title: 'Co-Leader of the Vanguard Shield Division',
   location: { zoneKey: RiktiWarZone.key, coords: [328, -1188, -2397.5] },
   levelRange: [35, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Levantera' }],
+  links: [{ title: 'Levantera', href: 'https://homecoming.wiki/wiki/Levantera' }],
 }

@@ -7,5 +7,5 @@ export const JosefKeller: ContactData = {
   title: 'Professor of Folklore',
   location: { zoneKey: TalosIsland.key, coords: [-80, 95, 9490] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Josef_Keller' }],
+  links: [{ title: 'Josef Keller', href: 'https://homecoming.wiki/wiki/Josef_Keller' }],
 }

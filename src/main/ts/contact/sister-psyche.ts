@@ -7,5 +7,5 @@ export const SisterPsyche: ContactData = {
   title: 'Task Force Contact',
   location: { zoneKey: IndependencePort.key, coords: [-1636, 0, -5856] },
   levelRange: [20, 25],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Sister_Psyche' }],
+  links: [{ title: 'Sister Psyche', href: 'https://homecoming.wiki/wiki/Sister_Psyche' }],
 }

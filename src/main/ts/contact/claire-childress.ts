@@ -7,5 +7,5 @@ export const ClaireChildress: ContactData = {
   title: 'Medium',
   location: { zoneKey: TalosIsland.key, coords: [-235, 95, 9140] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Claire_Childress' }],
+  links: [{ title: 'Claire Childress', href: 'https://homecoming.wiki/wiki/Claire_Childress' }],
 }

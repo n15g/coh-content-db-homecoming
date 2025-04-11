@@ -7,5 +7,5 @@ export const MatthewBurke: ContactData = {
   title: 'Mercenary',
   location: { zoneKey: MercyIsland.key, coords: [-1352, 239, 587] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Matthew_Burke' }],
+  links: [{ title: 'Matthew Burke', href: 'https://homecoming.wiki/wiki/Matthew_Burke' }],
 }

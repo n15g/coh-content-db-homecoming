@@ -7,5 +7,5 @@ export const ArchmageTarixus: ContactData = {
   title: 'Ancient Sorcerer',
   location: { zoneKey: SharkheadIsle.key, coords: [793, 16, 1780] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Archmage_Tarixus' }],
+  links: [{ title: 'Archmage Tarixus', href: 'https://homecoming.wiki/wiki/Archmage_Tarixus' }],
 }

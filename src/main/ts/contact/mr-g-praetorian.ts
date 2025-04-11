@@ -7,5 +7,5 @@ export const MrGPraetorian: ContactData = {
   title: 'Advisor',
   location: { zoneKey: ImperialCity.key, coords: [-717, -56, 197] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mr._G' }],
+  links: [{ title: 'Mr. G (Praetorian)', href: 'https://homecoming.wiki/wiki/Mr._G' }],
 }

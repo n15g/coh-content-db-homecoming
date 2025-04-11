@@ -7,5 +7,5 @@ export const TinaChung: ContactData = {
   title: 'Aberrant Science Investigator',
   location: { zoneKey: FoundersFalls.key, coords: [3823, 0, 493.5] },
   levelRange: [30, 34],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Tina_Chung' }],
+  links: [{ title: 'Tina Chung', href: 'https://homecoming.wiki/wiki/Tina_Chung' }],
 }

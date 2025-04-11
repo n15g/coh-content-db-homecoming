@@ -7,5 +7,5 @@ export const DocBuzzsaw: ContactData = {
   title: 'Freakshow Meat Doctor',
   location: { zoneKey: SharkheadIsle.key, coords: [693.5, 32, -1324.5] },
   levelRange: [25, 39],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Doc_Buzzsaw' }],
+  links: [{ title: 'Doc Buzzsaw', href: 'https://homecoming.wiki/wiki/Doc_Buzzsaw' }],
 }

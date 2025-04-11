@@ -7,5 +7,5 @@ export const BaneSpiderRuben: ContactData = {
   title: 'Arachnos Liaison',
   location: { zoneKey: CapAuDiable.key, coords: [-750, 135, -291] },
   levelRange: [15, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Bane_Spider_Ruben' }],
+  links: [{ title: 'Bane Spider Ruben', href: 'https://homecoming.wiki/wiki/Bane_Spider_Ruben' }],
 }

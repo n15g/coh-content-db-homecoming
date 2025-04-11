@@ -7,5 +7,5 @@ export const BlackScorpion: ContactData = {
   title: 'Arachnos Patron',
   location: { zoneKey: Grandville.key, coords: [2694, -58.9, 903] },
   levelRange: [40, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Black_Scorpion' }],
+  links: [{ title: 'Black Scorpion', href: 'https://homecoming.wiki/wiki/Black_Scorpion' }],
 }

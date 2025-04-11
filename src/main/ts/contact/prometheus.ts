@@ -6,5 +6,5 @@ export const Prometheus: ContactData = {
   name: 'Prometheus',
   location: { zoneKey: Ouroboros.key, coords: [495, 672, -906] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Prometheus' }],
+  links: [{ title: 'Prometheus', href: 'https://homecoming.wiki/wiki/Prometheus' }],
 }

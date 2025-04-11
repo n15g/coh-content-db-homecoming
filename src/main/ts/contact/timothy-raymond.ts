@@ -7,5 +7,5 @@ export const TimothyRaymond: ContactData = {
   title: 'Ex Lost',
   location: { zoneKey: NervaArchipelago.key, coords: [425, 40, 6588] },
   levelRange: [30, 34],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Timothy_Raymond' }],
+  links: [{ title: 'Timothy Raymond', href: 'https://homecoming.wiki/wiki/Timothy_Raymond' }],
 }

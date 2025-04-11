@@ -8,5 +8,5 @@ export const Scratch: ContactData = {
   location: { zoneKey: PocketD.key, coords: [-120, 0, -1085] },
   levelRange: [1, 50],
   notes: `Only available during Valentine's events.`,
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Scratch' }],
+  links: [{ title: 'Scratch', href: 'https://homecoming.wiki/wiki/Scratch' }],
 }

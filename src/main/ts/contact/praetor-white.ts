@@ -7,5 +7,5 @@ export const PraetorWhite: ContactData = {
   title: 'Commander of the PPD Powers Division',
   location: { zoneKey: NovaPraetoria.key, coords: [-5208, 45, -257] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Marauder' }],
+  links: [{ title: 'Praetor White', href: 'https://homecoming.wiki/wiki/Marauder' }],
 }

@@ -7,5 +7,5 @@ export const NumberSix: ContactData = {
   title: 'Super Heroic Computer Expert',
   location: { zoneKey: RiktiWarZone.key, coords: [490, -1192, -2279] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Number_Six' }],
+  links: [{ title: 'Number Six', href: 'https://homecoming.wiki/wiki/Number_Six' }],
 }

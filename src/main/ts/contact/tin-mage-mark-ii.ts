@@ -7,5 +7,5 @@ export const TinMageMarkII: ContactData = {
   title: 'Vanguard Tactician',
   location: { zoneKey: RiktiWarZone.key, coords: [-270.4, 39, -2317.5] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Tin_Mage_Mark_II' }],
+  links: [{ title: 'Tin Mage Mark II', href: 'https://homecoming.wiki/wiki/Tin_Mage_Mark_II' }],
 }

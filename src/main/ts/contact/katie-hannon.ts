@@ -7,5 +7,5 @@ export const KatieHannon: ContactData = {
   title: 'Task Force Contact',
   location: { zoneKey: Croatoa.key, coords: [1095, 108, -1095] },
   levelRange: [30, 34],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Katie_Hannon' }],
+  links: [{ title: 'Katie Hannon', href: 'https://homecoming.wiki/wiki/Katie_Hannon' }],
 }

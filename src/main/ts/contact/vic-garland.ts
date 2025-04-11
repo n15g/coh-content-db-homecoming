@@ -7,5 +7,5 @@ export const VicGarland: ContactData = {
   title: 'Civil Rights Activist',
   location: { zoneKey: TalosIsland.key, coords: [-1123, 160.5, 4620] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Vic_Garland' }],
+  links: [{ title: 'Vic Garland', href: 'https://homecoming.wiki/wiki/Vic_Garland' }],
 }

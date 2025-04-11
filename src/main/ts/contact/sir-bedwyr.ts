@@ -7,5 +7,5 @@ export const SirBedwyr: ContactData = {
   title: 'Questing Knight',
   location: { zoneKey: NightWard.key, coords: [-2014, 44, -2432] },
   levelRange: [30, 39],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Sir_Bedwyr' }],
+  links: [{ title: 'Sir Bedwyr', href: 'https://homecoming.wiki/wiki/Sir_Bedwyr' }],
 }

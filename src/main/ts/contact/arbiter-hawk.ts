@@ -8,5 +8,5 @@ export const ArbiterHawk: ContactData = {
   location: { zoneKey: PocketD.key, coords: [-198, 0, -898] },
   levelRange: [30, 50],
   notes: `Only available during Valentine's events.`,
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Arbiter_Hawk' }],
+  links: [{ title: 'Arbiter Hawk', href: 'https://homecoming.wiki/wiki/Arbiter_Hawk' }],
 }

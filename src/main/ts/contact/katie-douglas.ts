@@ -7,5 +7,5 @@ export const KatieDouglas: ContactData = {
   title: 'Renegade Seer',
   location: { zoneKey: FirstWard.key, coords: [355, 18, -1572] },
   levelRange: [20, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Katie_Douglas' }],
+  links: [{ title: 'Katie Douglas', href: 'https://homecoming.wiki/wiki/Katie_Douglas' }],
 }

@@ -7,5 +7,5 @@ export const PenelopeYinFreedomPhalanx: ContactData = {
   title: 'Task Force Contact',
   location: { zoneKey: IndependencePort.key, coords: [-1636, 0, -5856] },
   levelRange: [20, 25],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Penelope_Yin_(Freedom_Phalanx)' }],
+  links: [{ title: 'Penelope Yin (Freedom Phalanx)', href: 'https://homecoming.wiki/wiki/Penelope_Yin_(Freedom_Phalanx)' }],
 }

@@ -7,5 +7,5 @@ export const DoctorSteffard: ContactData = {
   title: 'Neurologist and Cybernetics Expert',
   location: { zoneKey: ImperialCity.key, coords: [-1789, -8, 929] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Doctor_Steffard' }],
+  links: [{ title: 'Doctor Steffard', href: 'https://homecoming.wiki/wiki/Doctor_Steffard' }],
 }

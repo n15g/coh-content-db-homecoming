@@ -7,5 +7,5 @@ export const Helix: ContactData = {
   title: 'Geneticist',
   location: { zoneKey: UndergroundNeutropolis.key, coords: [301, -1200, -1492] },
   levelRange: [14, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Helix' }],
+  links: [{ title: 'Helix', href: 'https://homecoming.wiki/wiki/Helix' }],
 }

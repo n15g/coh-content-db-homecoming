@@ -7,5 +7,5 @@ export const PraetorSinclair: ContactData = {
   title: 'Praetor',
   location: { zoneKey: ImperialCity.key, coords: [-915, 581, -1170] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Chimera' }],
+  links: [{ title: 'Praetor Sinclair', href: 'https://homecoming.wiki/wiki/Chimera' }],
 }

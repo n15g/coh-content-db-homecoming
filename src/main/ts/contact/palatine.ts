@@ -7,5 +7,5 @@ export const Palatine: ContactData = {
   title: 'Sovereign of the Compound',
   location: { zoneKey: FirstWard.key, coords: [1682, -1034, -2284] },
   levelRange: [20, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Palatine' }],
+  links: [{ title: 'Palatine', href: 'https://homecoming.wiki/wiki/Palatine' }],
 }

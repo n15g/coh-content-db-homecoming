@@ -7,5 +7,5 @@ export const Moonfire: ContactData = {
   title: 'Task Force Contact',
   location: { zoneKey: StrigaIsle.key, coords: [-3597.5, 63, -390] },
   levelRange: [23, 28],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Moonfire' }],
+  links: [{ title: 'Moonfire', href: 'https://homecoming.wiki/wiki/Moonfire' }],
 }

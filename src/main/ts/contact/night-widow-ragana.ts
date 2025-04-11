@@ -7,5 +7,5 @@ export const NightWidowRagana: ContactData = {
   title: 'Undercover Night Widow',
   location: { zoneKey: StrigaIsle.key, coords: [-507.2, 8, -1079.6] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Night_Widow_Ragana' }],
+  links: [{ title: 'Night Widow Ragana', href: 'https://homecoming.wiki/wiki/Night_Widow_Ragana' }],
 }

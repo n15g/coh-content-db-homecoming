@@ -7,5 +7,5 @@ export const MauriceFeldon: ContactData = {
   title: `Inventor's Assistant`,
   location: { zoneKey: AtlasPark.key, coords: [-119, -784, -892] },
   levelRange: [5, 14],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Maurice_Feldon' }],
+  links: [{ title: 'Maurice Feldon', href: 'https://homecoming.wiki/wiki/Maurice_Feldon' }],
 }

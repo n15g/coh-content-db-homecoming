@@ -7,5 +7,5 @@ export const OperativeKuzmin: ContactData = {
   title: 'Villain Liaison',
   location: { zoneKey: MercyIsland.key, coords: [-1216.4, 246.4, 157] },
   levelRange: [1, 7],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Operative_Kuzmin' }],
+  links: [{ title: 'Operative Kuzmin', href: 'https://homecoming.wiki/wiki/Operative_Kuzmin' }],
 }

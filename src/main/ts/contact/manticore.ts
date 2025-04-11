@@ -7,5 +7,5 @@ export const Manticore: ContactData = {
   title: 'Task Force Contact',
   location: { zoneKey: Brickstown.key, coords: [1084, 16, -1230] },
   levelRange: [30, 35],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Manticore' }],
+  links: [{ title: 'Manticore', href: 'https://homecoming.wiki/wiki/Manticore' }],
 }

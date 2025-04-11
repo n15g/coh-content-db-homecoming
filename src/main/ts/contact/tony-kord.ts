@@ -7,5 +7,5 @@ export const TonyKord: ContactData = {
   title: 'Defense Systems Entrepreneur',
   location: { zoneKey: AtlasPark.key, coords: [948, 38, -2204.5] },
   levelRange: [5, 14],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Tony_Kord' }],
+  links: [{ title: 'Tony Kord', href: 'https://homecoming.wiki/wiki/Tony_Kord' }],
 }

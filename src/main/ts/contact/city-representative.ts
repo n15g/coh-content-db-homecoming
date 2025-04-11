@@ -7,5 +7,5 @@ export const CityRepresentative: ContactData = {
   title: 'Brighid Moreira',
   location: { zoneKey: AtlasPark.key, coords: [129, -768, -640] },
   levelRange: [20, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/City_Representative' }],
+  links: [{ title: 'City Representative', href: 'https://homecoming.wiki/wiki/City_Representative' }],
 }

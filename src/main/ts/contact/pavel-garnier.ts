@@ -6,5 +6,5 @@ export const PavelGarnier: ContactData = {
   name: 'Pavel Garnier',
   location: { zoneKey: SkywayCity.key, coords: [1551, -126, -1821.5] },
   levelRange: [15, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Pavel_Garnier' }],
+  links: [{ title: 'Pavel Garnier', href: 'https://homecoming.wiki/wiki/Pavel_Garnier' }],
 }

@@ -7,5 +7,5 @@ export const TamiBaker: ContactData = {
   title: 'Secretary',
   location: { zoneKey: ImperialCity.key, coords: [-764, -46, -985] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Tami_Baker' }],
+  links: [{ title: 'Tami Baker', href: 'https://homecoming.wiki/wiki/Tami_Baker' }],
 }

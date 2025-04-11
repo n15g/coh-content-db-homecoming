@@ -7,5 +7,5 @@ export const JessicaFlores: ContactData = {
   title: 'Idealist',
   location: { zoneKey: ImperialCity.key, coords: [-1448, -13, -2074] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Jessica_Flores' }],
+  links: [{ title: 'Jessica Flores', href: 'https://homecoming.wiki/wiki/Jessica_Flores' }],
 }

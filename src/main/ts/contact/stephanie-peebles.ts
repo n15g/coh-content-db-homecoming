@@ -7,5 +7,5 @@ export const StephaniePeebles: ContactData = {
   title: 'Tavern Owner',
   location: { zoneKey: StrigaIsle.key, coords: [-245, 0, 45] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Stephanie_Peebles' }],
+  links: [{ title: 'Stephanie Peebles', href: 'https://homecoming.wiki/wiki/Stephanie_Peebles' }],
 }

@@ -7,5 +7,5 @@ export const MontagueCastanella: ContactData = {
   title: 'Member of the Midnight Squad',
   location: { zoneKey: SteelCanyon.key, coords: [-2746.5, -248, 2289] },
   levelRange: [10, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Montague_Castanella' }],
+  links: [{ title: 'Montague Castanella', href: 'https://homecoming.wiki/wiki/Montague_Castanella' }],
 }

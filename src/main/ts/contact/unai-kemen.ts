@@ -7,5 +7,5 @@ export const UnaiKemen: ContactData = {
   title: 'Portal Corp Security Chief',
   location: { zoneKey: PeregrineIsland.key, coords: [-1519.5, 0.5, -3425] },
   levelRange: [45, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Unai_Kemen' }],
+  links: [{ title: 'Unai Kemen', href: 'https://homecoming.wiki/wiki/Unai_Kemen' }],
 }

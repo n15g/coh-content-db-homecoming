@@ -7,5 +7,5 @@ export const AdaWellington: ContactData = {
   title: 'Wentworth Manager',
   location: { zoneKey: KallistiWharf.key, coords: [6842, 95, 461] },
   levelRange: [40, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ada_Wellington' }],
+  links: [{ title: 'Ada Wellington', href: 'https://homecoming.wiki/wiki/Ada_Wellington' }],
 }

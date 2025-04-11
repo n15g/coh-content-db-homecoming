@@ -7,5 +7,5 @@ export const Ractespriel: ContactData = {
   title: 'Respecification Trial Contact',
   location: { zoneKey: NervaArchipelago.key, coords: [3940, 18, 7076] },
   levelRange: [44, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ractespriel' }],
+  links: [{ title: 'Ractespriel', href: 'https://homecoming.wiki/wiki/Ractespriel' }],
 }

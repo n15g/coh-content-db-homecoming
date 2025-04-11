@@ -7,5 +7,5 @@ export const LongJack: ContactData = {
   title: 'Longshoreman',
   location: { zoneKey: StrigaIsle.key, coords: [-956, -25.5, -826.5] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Long_Jack' }],
+  links: [{ title: 'Long Jack', href: 'https://homecoming.wiki/wiki/Long_Jack' }],
 }

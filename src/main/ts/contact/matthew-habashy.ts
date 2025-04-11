@@ -7,5 +7,5 @@ export const MatthewHabashy: ContactData = {
   title: 'FBSA Agent',
   location: { zoneKey: AtlasPark.key, coords: [249, 16, -4827] },
   levelRange: [1, 7],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Matthew_Habashy' }],
+  links: [{ title: 'Matthew Habashy', href: 'https://homecoming.wiki/wiki/Matthew_Habashy' }],
 }

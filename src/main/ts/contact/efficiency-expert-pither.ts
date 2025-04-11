@@ -7,5 +7,5 @@ export const EfficiencyExpertPither: ContactData = {
   title: 'Arachnos Efficiency Expert',
   location: { zoneKey: Grandville.key, coords: [3007, 243, 1267] },
   levelRange: [45, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Efficiency_Expert_Pither' }],
+  links: [{ title: 'Efficiency Expert Pither', href: 'https://homecoming.wiki/wiki/Efficiency_Expert_Pither' }],
 }

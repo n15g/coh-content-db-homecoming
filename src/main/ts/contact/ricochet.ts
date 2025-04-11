@@ -7,5 +7,5 @@ export const Ricochet: ContactData = {
   title: 'Resistance freedom fighter',
   location: { zoneKey: UndergroundNova.key, coords: [-4092, 508, -279] },
   levelRange: [1, 10],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ricochet' }],
+  links: [{ title: 'Ricochet', href: 'https://homecoming.wiki/wiki/Ricochet' }],
 }

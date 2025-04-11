@@ -7,5 +7,5 @@ export const DoctorWeber: ContactData = {
   title: 'Villain',
   location: { zoneKey: MercyIsland.key, coords: [-1037, 239, 525] },
   levelRange: [1, 7],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Doctor_Weber' }],
+  links: [{ title: 'Doctor Weber', href: 'https://homecoming.wiki/wiki/Doctor_Weber' }],
 }

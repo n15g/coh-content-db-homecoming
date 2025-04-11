@@ -7,5 +7,5 @@ export const OliverHaak: ContactData = {
   title: 'Occultist',
   location: { zoneKey: TalosIsland.key, coords: [-940, 160, 5110] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Oliver_Haak' }],
+  links: [{ title: 'Oliver Haak', href: 'https://homecoming.wiki/wiki/Oliver_Haak' }],
 }

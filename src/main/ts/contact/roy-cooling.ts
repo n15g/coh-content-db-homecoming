@@ -7,5 +7,5 @@ export const RoyCooling: ContactData = {
   title: 'FBSA Agent',
   location: { zoneKey: TalosIsland.key, coords: [-659, 160.1, 6712.1] },
   levelRange: [20, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Roy_Cooling' }],
+  links: [{ title: 'Roy Cooling', href: 'https://homecoming.wiki/wiki/Roy_Cooling' }],
 }

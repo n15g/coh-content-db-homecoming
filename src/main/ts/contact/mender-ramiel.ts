@@ -7,5 +7,5 @@ export const MenderRamiel: ContactData = {
   title: 'Incarnate Lore Master',
   location: { zoneKey: Ouroboros.key, coords: [452, 665, -883] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Mender_Ramiel' }],
+  links: [{ title: 'Mender Ramiel', href: 'https://homecoming.wiki/wiki/Mender_Ramiel' }],
 }

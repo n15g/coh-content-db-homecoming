@@ -7,5 +7,5 @@ export const TobiasHansen: ContactData = {
   title: 'Vicar',
   location: { zoneKey: StrigaIsle.key, coords: [-2568, -32, -2384] },
   levelRange: [26, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Tobias_Hansen' }],
+  links: [{ title: 'Tobias Hansen', href: 'https://homecoming.wiki/wiki/Tobias_Hansen' }],
 }

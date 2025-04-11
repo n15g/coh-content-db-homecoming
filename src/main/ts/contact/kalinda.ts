@@ -7,5 +7,5 @@ export const Kalinda: ContactData = {
   title: 'Fortunata',
   location: { zoneKey: MercyIsland.key, coords: [-1175, 243, -76] },
   levelRange: [1, 9],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Kalinda' }],
+  links: [{ title: 'Kalinda', href: 'https://homecoming.wiki/wiki/Kalinda' }],
 }

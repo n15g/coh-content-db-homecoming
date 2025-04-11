@@ -7,5 +7,5 @@ export const MajorRichardFlagg: ContactData = {
   title: 'Respecification Trial Contact',
   location: { zoneKey: PeregrineIsland.key, coords: [-1623, 0, -3602] },
   levelRange: [44, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Major_Richard_Flagg' }],
+  links: [{ title: 'Major Richard Flagg', href: 'https://homecoming.wiki/wiki/Major_Richard_Flagg' }],
 }

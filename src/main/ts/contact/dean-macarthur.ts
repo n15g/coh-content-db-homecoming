@@ -7,5 +7,5 @@ export const DeanMacArthur: ContactData = {
   title: 'Informant',
   location: { zoneKey: SharkheadIsle.key, coords: [255, 32, -762] },
   levelRange: [20, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dean_MacArthur' }],
+  links: [{ title: 'Dean MacArthur', href: 'https://homecoming.wiki/wiki/Dean_MacArthur' }],
 }

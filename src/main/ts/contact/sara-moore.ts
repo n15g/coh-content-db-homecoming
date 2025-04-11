@@ -7,5 +7,5 @@ export const SaraMoore: ContactData = {
   title: 'Resistance Fighter',
   location: { zoneKey: CascadeArchipelago.key, coords: [-152, -1784, 2791.5] },
   levelRange: [40, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Sara_Moore' }],
+  links: [{ title: 'Sara Moore', href: 'https://homecoming.wiki/wiki/Sara_Moore' }],
 }

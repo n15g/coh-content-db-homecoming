@@ -7,5 +7,5 @@ export const GordonBower: ContactData = {
   title: 'Salamanca Mayor',
   location: { zoneKey: Croatoa.key, coords: [-767, 29, 1983] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Gordon_Bower' }],
+  links: [{ title: 'Gordon Bower', href: 'https://homecoming.wiki/wiki/Gordon_Bower' }],
 }

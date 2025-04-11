@@ -6,5 +6,5 @@ export const ShaunaBraun: ContactData = {
   name: 'Shauna Braun',
   location: { zoneKey: IndependencePort.key, coords: [-1929, 16, -2587] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Shauna_Braun' }],
+  links: [{ title: 'Shauna Braun', href: 'https://homecoming.wiki/wiki/Shauna_Braun' }],
 }

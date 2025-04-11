@@ -7,5 +7,5 @@ export const LordRecluse: ContactData = {
   title: 'Ruler of the Rogue Isles',
   location: { zoneKey: Grandville.key, coords: [2726.5, -55, 934] },
   levelRange: [45, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Black_Scorpion' }],
+  links: [{ title: 'Lord Recluse', href: 'https://homecoming.wiki/wiki/Black_Scorpion' }],
 }

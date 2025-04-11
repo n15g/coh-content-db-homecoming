@@ -7,5 +7,5 @@ export const Transmuter: ContactData = {
   title: 'Former Mage',
   location: { zoneKey: ImperialCity.key, coords: [180, -38, 453] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Transmuter' }],
+  links: [{ title: 'Transmuter', href: 'https://homecoming.wiki/wiki/Transmuter' }],
 }

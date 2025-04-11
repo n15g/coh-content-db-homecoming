@@ -7,5 +7,5 @@ export const Sparcetriel: ContactData = {
   title: 'Respecification Trial Contact',
   location: { zoneKey: NervaArchipelago.key, coords: [-1260.5, 11, 6405.5] },
   levelRange: [24, 33],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Sparcetriel' }],
+  links: [{ title: 'Sparcetriel', href: 'https://homecoming.wiki/wiki/Sparcetriel' }],
 }

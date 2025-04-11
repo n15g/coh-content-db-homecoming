@@ -7,5 +7,5 @@ export const IceMistral: ContactData = {
   title: 'Strike Force Contact',
   location: { zoneKey: StMartial.key, coords: [-1756.5, -160, 2210] },
   levelRange: [35, 40],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ice_Mistral' }],
+  links: [{ title: 'Ice Mistral', href: 'https://homecoming.wiki/wiki/Ice_Mistral' }],
 }

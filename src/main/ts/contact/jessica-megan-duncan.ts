@@ -8,5 +8,5 @@ export const JessicaMeganDuncan: ContactData = {
   location: { zoneKey: PocketD.key, coords: [-17, 0, -1211] },
   levelRange: [30, 50],
   notes: `Only available during Valentine's events.`,
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Jessica_Megan_Duncan' }],
+  links: [{ title: 'Jessica Megan Duncan', href: 'https://homecoming.wiki/wiki/Jessica_Megan_Duncan' }],
 }

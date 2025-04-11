@@ -7,5 +7,5 @@ export const InvestigatorWhitworth: ContactData = {
   title: 'Investigator for MICIR',
   location: { zoneKey: ImperialCity.key, coords: [-128, 127, 183] },
   levelRange: [8, 15],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Investigator_Whitworth' }],
+  links: [{ title: 'Investigator Whitworth', href: 'https://homecoming.wiki/wiki/Investigator_Whitworth' }],
 }

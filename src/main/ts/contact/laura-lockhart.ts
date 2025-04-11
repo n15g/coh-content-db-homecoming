@@ -7,5 +7,5 @@ export const LauraLockhart: ContactData = {
   title: 'UNSF Deprogramming Specialist',
   location: { zoneKey: SteelCanyon.key, coords: [-3743.6, -84, -522.2] },
   levelRange: [15, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Laura_Lockhart' }],
+  links: [{ title: 'Laura Lockhart', href: 'https://homecoming.wiki/wiki/Laura_Lockhart' }],
 }

@@ -7,5 +7,5 @@ export const FieldAgentKeithNance: ContactData = {
   title: 'Superpowered Activities Monitoring Field Agent',
   location: { zoneKey: TalosIsland.key, coords: [-1456, 160, 6639] },
   levelRange: [20, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Field_Agent_Keith_Nance' }],
+  links: [{ title: 'Field Agent Keith Nance', href: 'https://homecoming.wiki/wiki/Field_Agent_Keith_Nance' }],
 }

@@ -7,5 +7,5 @@ export const OberstStraxt: ContactData = {
   title: '5th Column Oberst',
   location: { zoneKey: StrigaIsle.key, coords: [-293, -25.5, -1025] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Oberst_Straxt' }],
+  links: [{ title: 'Oberst Straxt', href: 'https://homecoming.wiki/wiki/Oberst_Straxt' }],
 }

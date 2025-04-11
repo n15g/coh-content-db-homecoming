@@ -7,5 +7,5 @@ export const JohnHouston: ContactData = {
   title: 'WSPDR Journalist',
   location: { zoneKey: IndependencePort.key, coords: [-868.2, 0, -3856.4] },
   levelRange: [40, 44],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/John_Houston' }],
+  links: [{ title: 'John Houston', href: 'https://homecoming.wiki/wiki/John_Houston' }],
 }

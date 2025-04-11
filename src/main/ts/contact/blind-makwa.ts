@@ -7,5 +7,5 @@ export const BlindMakwa: ContactData = {
   title: 'Medicine Man',
   location: { zoneKey: FirstWard.key, coords: [-1493, 17, -533] },
   levelRange: [20, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Blind_Makwa' }],
+  links: [{ title: 'Blind Makwa', href: 'https://homecoming.wiki/wiki/Blind_Makwa' }],
 }

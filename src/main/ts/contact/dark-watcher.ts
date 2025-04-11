@@ -7,5 +7,5 @@ export const DarkWatcher: ContactData = {
   title: 'Mysterious Man in Black',
   zoneKey: Neutropolis.key,
   levelRange: [14, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dark_Watcher_(Praetorian)' }],
+  links: [{ title: 'Dark Watcher', href: 'https://homecoming.wiki/wiki/Dark_Watcher_(Praetorian)' }],
 }

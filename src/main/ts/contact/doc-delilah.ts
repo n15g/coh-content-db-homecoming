@@ -7,5 +7,5 @@ export const DocDelilah: ContactData = {
   title: 'Hero Historian',
   location: { zoneKey: Faultline.key, coords: [230, -180, 1042] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Doc_Delilah' }],
+  links: [{ title: 'Doc Delilah', href: 'https://homecoming.wiki/wiki/Doc_Delilah' }],
 }

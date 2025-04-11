@@ -7,5 +7,5 @@ export const SisterSolaris: ContactData = {
   title: 'Sybil Matriarch',
   location: { zoneKey: Cimerora.key, coords: [1232, 356, 4864] },
   levelRange: [50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Sister_Solaris' }],
+  links: [{ title: 'Sister Solaris', href: 'https://homecoming.wiki/wiki/Sister_Solaris' }],
 }

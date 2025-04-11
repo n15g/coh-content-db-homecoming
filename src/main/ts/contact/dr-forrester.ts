@@ -7,5 +7,5 @@ export const DrForrester: ContactData = {
   title: 'Mad Scientist',
   location: { zoneKey: Grandville.key, coords: [2920, -344, 1167] },
   levelRange: [40, 44],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Forrester' }],
+  links: [{ title: 'Dr. Forrester', href: 'https://homecoming.wiki/wiki/Dr._Forrester' }],
 }

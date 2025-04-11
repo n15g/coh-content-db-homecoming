@@ -7,5 +7,5 @@ export const LorenzoTate: ContactData = {
   title: 'Arms Dealer',
   location: { zoneKey: IndependencePort.key, coords: [2567, 0, -4971] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Lorenzo_Tate' }],
+  links: [{ title: 'Lorenzo Tate', href: 'https://homecoming.wiki/wiki/Lorenzo_Tate' }],
 }

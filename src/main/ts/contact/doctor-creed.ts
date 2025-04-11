@@ -7,5 +7,5 @@ export const DoctorCreed: ContactData = {
   title: 'Mad Scientist',
   location: { zoneKey: MercyIsland.key, coords: [-1357, 239, -16] },
   levelRange: [3, 8],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Doctor_Creed' }],
+  links: [{ title: 'Doctor Creed', href: 'https://homecoming.wiki/wiki/Doctor_Creed' }],
 }

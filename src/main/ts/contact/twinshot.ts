@@ -7,5 +7,5 @@ export const Twinshot: ContactData = {
   title: 'Pistol-Packing Powerhouse',
   location: { zoneKey: AtlasPark.key, coords: [450, 0, -417] },
   levelRange: [5, 19],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Twinshot' }],
+  links: [{ title: 'Twinshot', href: 'https://homecoming.wiki/wiki/Twinshot' }],
 }

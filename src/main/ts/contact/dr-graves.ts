@@ -7,5 +7,5 @@ export const DrGraves: ContactData = {
   title: 'The Eternal Surgeon',
   location: { zoneKey: MercyIsland.key, coords: [-1066, 239, -9] },
   levelRange: [3, 8],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Dr._Graves' }],
+  links: [{ title: 'Dr. Graves', href: 'https://homecoming.wiki/wiki/Dr._Graves' }],
 }

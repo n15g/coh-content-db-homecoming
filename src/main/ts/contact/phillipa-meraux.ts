@@ -7,5 +7,5 @@ export const PhillipaMeraux: ContactData = {
   title: 'Counter Terrorism Specialist',
   location: { zoneKey: FoundersFalls.key, coords: [3384, 0, 3924] },
   levelRange: [30, 34],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Phillipa_Meraux' }],
+  links: [{ title: 'Phillipa Meraux', href: 'https://homecoming.wiki/wiki/Phillipa_Meraux' }],
 }

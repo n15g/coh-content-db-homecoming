@@ -7,5 +7,5 @@ export const TheDarkWatcher: ContactData = {
   title: 'Mysterious Man in Black',
   location: { zoneKey: RiktiWarZone.key, coords: [282, -1175, -2113] },
   levelRange: [45, 50],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/The_Dark_Watcher_(Primal_Earth)' }],
+  links: [{ title: 'The Dark Watcher', href: 'https://homecoming.wiki/wiki/The_Dark_Watcher_(Primal_Earth)' }],
 }

@@ -7,5 +7,5 @@ export const AshlingCorlett: ContactData = {
   title: 'Retired Hero Corps Field Analyst',
   location: { zoneKey: SteelCanyon.key, coords: [-4736, 0, 395.4] },
   levelRange: [41, 49],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Ashling_Corlett' }],
+  links: [{ title: 'Ashling Corlett', href: 'https://homecoming.wiki/wiki/Ashling_Corlett' }],
 }

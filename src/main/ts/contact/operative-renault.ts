@@ -7,5 +7,5 @@ export const OperativeRenault: ContactData = {
   title: 'Arachnos Strike Force Operative',
   location: { zoneKey: SharkheadIsle.key, coords: [-160.7, 64, -1056.9] },
   levelRange: [25, 30],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Strike_Force_Operative_Renault' }],
+  links: [{ title: 'Operative Renault', href: 'https://homecoming.wiki/wiki/Strike_Force_Operative_Renault' }],
 }

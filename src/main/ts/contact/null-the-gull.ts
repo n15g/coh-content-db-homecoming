@@ -6,5 +6,5 @@ export const NullTheGull: ContactData = {
   name: 'Null the Gull',
   title: 'Time Telling Bird',
   location: { zoneKey: PocketD.key, coords: [-168, 12, -864] },
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Null_the_Gull' }],
+  links: [{ title: 'Null the Gull', href: 'https://homecoming.wiki/wiki/Null_the_Gull' }],
 }

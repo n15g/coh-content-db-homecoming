@@ -7,5 +7,5 @@ export const Woodsman: ContactData = {
   title: 'The Woodsman',
   location: { zoneKey: Eden.key, coords: [2590, 370, 3515] },
   levelRange: [39, 41],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Woodsman' }],
+  links: [{ title: 'Woodsman', href: 'https://homecoming.wiki/wiki/Woodsman' }],
 }

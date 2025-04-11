@@ -7,5 +7,5 @@ export const AaronThiery: ContactData = {
   title: 'SERAPH Scientist',
   location: { zoneKey: AtlasPark.key, coords: [2702, -32, 240] },
   levelRange: [1, 7],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Aaron_Thiery' }],
+  links: [{ title: 'Aaron Thiery', href: 'https://homecoming.wiki/wiki/Aaron_Thiery' }],
 }

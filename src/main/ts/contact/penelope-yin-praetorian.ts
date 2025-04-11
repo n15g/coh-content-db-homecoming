@@ -7,5 +7,5 @@ export const PenelopeYinPraetorian: ContactData = {
   title: 'Hospital Patient',
   zoneKey: Neutropolis.key,
   levelRange: [14, 20],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Penelope_Yin_(Praetorian)' }],
+  links: [{ title: 'Penelope Yin (Praetorian)', href: 'https://homecoming.wiki/wiki/Penelope_Yin_(Praetorian)' }],
 }

@@ -7,5 +7,5 @@ export const JakeKim: ContactData = {
   title: 'Weapons Proliferation Expert',
   location: { zoneKey: IndependencePort.key, coords: [-2184, 0, -1268] },
   levelRange: [20, 24],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Jake_Kim' }],
+  links: [{ title: 'Jake Kim', href: 'https://homecoming.wiki/wiki/Jake_Kim' }],
 }

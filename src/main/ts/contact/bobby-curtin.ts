@@ -7,5 +7,5 @@ export const BobbyCurtin: ContactData = {
   title: 'Bouncer',
   location: { zoneKey: NervaArchipelago.key, coords: [-75, 16.5, 6105] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Bobby_Curtin' }],
+  links: [{ title: 'Bobby Curtin', href: 'https://homecoming.wiki/wiki/Bobby_Curtin' }],
 }

@@ -7,5 +7,5 @@ export const ElizaThorpe: ContactData = {
   title: 'Missing Persons Investigator',
   location: { zoneKey: TalosIsland.key, coords: [-3090, 110, 9065] },
   levelRange: [25, 29],
-  links: [{ title: 'Homecoming Wiki', href: 'https://homecoming.wiki/wiki/Eliza_Thorpe' }],
+  links: [{ title: 'Eliza Thorpe', href: 'https://homecoming.wiki/wiki/Eliza_Thorpe' }],
 }
