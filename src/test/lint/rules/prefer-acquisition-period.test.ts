@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { preferAcquisitionPeriod } from '../../../main/lint/rules/prefer-acquisition-period'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should ignore anything not relevant', preferAcquisitionPeriod, {
   valid: [
@@ -22,14 +20,14 @@ export const Academic = {
     {
       name: 'a binary expression',
       code: `
-export const Academic = {
+export const Academic: BadgeData = {
   acquisition: 'An acquisition' + ' binary expression',
 }`,
     },
     {
       name: 'a function',
       code: `
-export const Academic = {
+export const Academic: BadgeData = {
   acquisition: getAcquisition(),
 }`,
     },

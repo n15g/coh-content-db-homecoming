@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { noEmptyAlternate } from '../../../main/lint/rules/no-empty-alternate'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should detect empty alternates', noEmptyAlternate, {
   valid: [],

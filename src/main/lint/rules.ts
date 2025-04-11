@@ -1,4 +1,3 @@
-import { migrateBadgeLoc } from './rules/migrate-badge-loc'
 import { migrateContactLoc } from './rules/migrate-contact-loc'
 import { migrateRequirementLoc } from './rules/migrate-requirement-loc'
 import { migrateRequirementPlaqueType } from './rules/migrate-requirement-plaque-type'
@@ -8,9 +7,10 @@ import { preferAcquisitionPeriod } from './rules/prefer-acquisition-period'
 import { preferEffectPeriod } from './rules/prefer-effect-period'
 import { preferEffectStart } from './rules/prefer-effect-start'
 import { preferSimpleAlternate } from './rules/prefer-simple-alternate'
+import { migrateContactLinkTitle } from './rules/migrate-contact-link-title'
 
 export const rules = {
-  'migrate-badge-loc': migrateBadgeLoc,
+  'migrate-contact-link-title': migrateContactLinkTitle,
   'migrate-contact-loc': migrateContactLoc,
   'migrate-requirement-loc': migrateRequirementLoc,
   'migrate-requirement-plaque-type': migrateRequirementPlaqueType,

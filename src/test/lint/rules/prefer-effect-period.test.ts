@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { preferEffectPeriod } from '../../../main/lint/rules/prefer-effect-period'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should ignore anything not relevant', preferEffectPeriod, {
   valid: [
@@ -22,14 +20,14 @@ export const Academic = {
     {
       name: 'a binary expression',
       code: `
-export const Academic = {
+export const Academic: BadgeData = {
   effect: 'An effect' + ' binary expression',
 }`,
     },
     {
       name: 'a function',
       code: `
-export const Academic = {
+export const Academic: BadgeData = {
   effect: getEffect(),
 }`,
     },

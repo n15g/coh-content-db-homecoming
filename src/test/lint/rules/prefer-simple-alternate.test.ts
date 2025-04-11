@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { preferSimpleAlternate } from '../../../main/lint/rules/prefer-simple-alternate'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should fix single values', preferSimpleAlternate, {
   valid: [],
@@ -141,14 +139,21 @@ ruleTester.run('should ignore anything not relevant', preferSimpleAlternate, {
       name: 'not BadgeData',
       code: `
 export const Zealous = {
-  name: { value: 'Zealous' },
+  name: [{ value: 'Zealous' }],
 }`,
     },
     {
-      name: 'another type',
+      name: 'no value',
+      code: `
+export const Zealous: BadgeData = {
+  name: [{}],
+}`,
+    },
+    {
+      name: 'another data type',
       code: `
 export const Zealous: ContactData = {
-  name: { value: 'Zealous' },
+  name: [{ value: 'Zealous' }],
 }`,
     },
     {

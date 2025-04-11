@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { migrateRequirementLoc } from '../../../main/lint/rules/migrate-requirement-loc'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should ignore anything not relevant', migrateRequirementLoc, {
   valid: [

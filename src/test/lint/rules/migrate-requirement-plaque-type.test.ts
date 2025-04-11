@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { migrateRequirementPlaqueType } from '../../../main/lint/rules/migrate-requirement-plaque-type'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should ignore anything not relevant', migrateRequirementPlaqueType, {
   valid: [

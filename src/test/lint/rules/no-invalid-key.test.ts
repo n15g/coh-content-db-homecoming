@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { noInvalidKey } from '../../../main/lint/rules/no-invalid-key'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should ignore anything not relevant', noInvalidKey, {
   valid: [

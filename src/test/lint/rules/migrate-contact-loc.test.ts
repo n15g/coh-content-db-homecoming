@@ -1,7 +1,5 @@
-import { RuleTester } from '@typescript-eslint/rule-tester'
+import { ruleTester } from '../utils/rule-tester'
 import { migrateContactLoc } from '../../../main/lint/rules/migrate-contact-loc'
-
-const ruleTester = new RuleTester()
 
 ruleTester.run('should ignore anything not relevant', migrateContactLoc, {
   valid: [
@@ -47,6 +45,20 @@ export const Bob: ContactData = {
       output: `
 export const Bob: ContactData = {
   location: { zoneKey: 'atlas-park', coords: [1, -2, 3.5] },
+}`,
+    },
+    {
+      name: 'missing zoneKey',
+      code: `
+export const Bob: ContactData = {
+  loc: [1, -2, 3.5],
+}`,
+      errors: [
+        { messageId: 'plsMigrate' },
+      ],
+      output: `
+export const Bob: ContactData = {
+  location: { zoneKey: setme, coords: [1, -2, 3.5] },
 }`,
     },
   ],

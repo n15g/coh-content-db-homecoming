@@ -1,6 +1,6 @@
 import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils'
 import { createRule } from '../utils/create-rule'
-import { asBadgeAlternateProperty } from '../utils/ast-utils'
+import { asBadgeAlternateProperty, getProperty } from '../utils/ast-utils'
 
 export const preferSimpleAlternate = createRule({
   name: 'prefer-simple-alternate',
@@ -29,8 +29,9 @@ export const preferSimpleAlternate = createRule({
 
         const alternateObjectLiteral = alternateField.value.elements[0]
         if (alternateObjectLiteral?.type !== AST_NODE_TYPES.ObjectExpression) return
-        const prop = alternateObjectLiteral.properties.find(x => x.type === AST_NODE_TYPES.Property && x.key.type === AST_NODE_TYPES.Identifier && x.key.name === 'value')
-        if (prop?.type !== AST_NODE_TYPES.Property) return
+
+        const prop = getProperty(alternateObjectLiteral, 'value')
+        if (!prop) return
 
         const valueText = sourceCode.getText(prop.value)
         context.report({
