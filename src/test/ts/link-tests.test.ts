@@ -1,8 +1,6 @@
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../../main/ts'
-
-const UNSAFE_CHARACTERS = /[^a-zA-Z0-9\-._~:/?#\[\]@!$&'()*+,;=%]|%(?![0-9A-Fa-f]{2})/
-const SUPPORTED_PROTOCOLS = new Set(['https:', 'badge:', 'contact:', 'mission:', 'zone:'])
+import { isValidProtocol, isValidUrl } from '../../main/ts/utils/uri-utils'
 
 const database = new CohContentDatabase(HOMECOMING)
 
@@ -23,7 +21,7 @@ describe('Metadata', () => {
     const errors: string[] = []
 
     for (const link of database.metadata.links) {
-      if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`metadata.links['${link.href}'] contains an unsupported protocol.`)
+      if (!isValidProtocol(link.href)) errors.push(`metadata.links['${link.href}'] contains an unsupported protocol.`)
     }
 
     if (errors.length > 0) {
@@ -36,7 +34,7 @@ describe('Metadata', () => {
 
     for (const link of database.metadata.links) {
       if (new URL(link.href).protocol === 'http:') errors.push(`metadata.links['${link.title}'] contains an insecure (http) link.`)
-      if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`metadata.links['${link.href}'] contains an unsafe URL character`)
+      if (!isValidUrl(link.href)) errors.push(`metadata.links['${link.href}'] contains an unsafe URL character`)
     }
 
     if (errors.length > 0) {
@@ -72,12 +70,12 @@ describe('Badge', () => {
 
       for (const badge of database.badges) {
         for (const link of badge.links) {
-          if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsupported protocol.`)
+          if (!isValidProtocol(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsupported protocol.`)
         }
 
         for (const requirement of badge?.requirements ?? []) {
           for (const link of requirement.links) {
-            if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsupported protocol.`)
+            if (!isValidProtocol(link.href)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsupported protocol.`)
           }
         }
       }
@@ -92,12 +90,12 @@ describe('Badge', () => {
 
       for (const badge of database.badges) {
         for (const link of badge.links) {
-          if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsafe URL character.`)
+          if (!isValidUrl(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsafe URL character.`)
         }
 
         for (const requirement of badge.requirements ?? []) {
           for (const link of requirement.links) {
-            if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsafe URL character.`)
+            if (!isValidUrl(link.href)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsafe URL character.`)
           }
         }
       }
@@ -129,7 +127,7 @@ describe('Contact', () => {
 
     for (const contact of database.contacts) {
       for (const link of contact.links) {
-        if (!SUPPORTED_PROTOCOLS.has(new URL(link.href).protocol)) errors.push(`links['${link.href}'] contains an unsupported protocol.`)
+        if (!isValidProtocol(link.href)) errors.push(`links['${link.href}'] contains an unsupported protocol.`)
       }
     }
 
@@ -143,7 +141,7 @@ describe('Contact', () => {
 
     for (const contact of database.contacts) {
       for (const link of contact.links) {
-        if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${contact.key}'].links['${link.href}'] contains an unsafe URL character.`)
+        if (!isValidUrl(link.href)) errors.push(`['${contact.key}'].links['${link.href}'] contains an unsafe URL character.`)
       }
     }
 
@@ -173,7 +171,7 @@ describe('Zone', () => {
 
     for (const zone of database.zones) {
       for (const link of zone.links) {
-        if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${zone.key}'].links['${link.href}'] contains an unsafe URL character.`)
+        if (!isValidUrl(link.href)) errors.push(`['${zone.key}'].links['${link.href}'] contains an unsafe URL character.`)
       }
     }
 
@@ -187,7 +185,7 @@ describe('Zone', () => {
 
     for (const zone of database.zones) {
       for (const link of zone.links) {
-        if (UNSAFE_CHARACTERS.test(link.href)) errors.push(`['${zone.key}'].links['${link.href}'] contains an unsafe URL character`)
+        if (!isValidUrl(link.href)) errors.push(`['${zone.key}'].links['${link.href}'] contains an unsafe URL character`)
       }
     }
 
