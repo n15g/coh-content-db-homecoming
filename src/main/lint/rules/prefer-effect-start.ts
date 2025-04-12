@@ -23,7 +23,7 @@ export const preferEffectStart = createRule({
         const { property: effectProp } = getDataObjectProperty(node, 'BadgeData', 'effect')
         if (!effectProp) return
 
-        if (effectProp.value.type !== AST_NODE_TYPES.Literal) return
+        if (effectProp.value.type !== AST_NODE_TYPES.Literal && effectProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
         const keyValue = sourceCode.getText(effectProp.value)
 
         const effectText = keyValue.slice(1, -1)

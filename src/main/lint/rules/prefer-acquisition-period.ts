@@ -24,17 +24,18 @@ export const preferAcquisitionPeriod = createRule({
         const { property: acquisitionProp } = getDataObjectProperty(node, 'BadgeData', 'acquisition')
         if (!acquisitionProp) return
 
-        if (acquisitionProp.value.type !== AST_NODE_TYPES.Literal) return
-        const keyValue = sourceCode.getText(acquisitionProp.value)
+        if (acquisitionProp.value.type !== AST_NODE_TYPES.Literal && acquisitionProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const template = acquisitionProp.value.type === AST_NODE_TYPES.TemplateLiteral
+        const acquisitionValue = sourceCode.getText(acquisitionProp.value)
 
-        const acquisitionText = keyValue.slice(1, -1)
+        const acquisitionText = acquisitionValue.slice(1, -1)
         if (acquisitionText.endsWith('.')) return
 
         context.report({
           node: acquisitionProp.value,
           messageId: 'error',
           fix(fixer) {
-            return fixer.replaceText(acquisitionProp.value, `'${acquisitionText}.'`)
+            return fixer.replaceText(acquisitionProp.value, template ? `\`${acquisitionText}.\`` : `'${acquisitionText}.'`)
           },
         })
       },

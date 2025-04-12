@@ -55,5 +55,15 @@ export const Academic: BadgeData = {
         { messageId: 'error' },
       ],
     },
+    {
+      name: 'simple string',
+      code: `
+export const Academic: BadgeData = {
+  effect: \`An effect\`,
+}`,
+      errors: [
+        { messageId: 'error' },
+      ],
+    },
   ],
 })

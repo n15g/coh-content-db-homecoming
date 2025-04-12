@@ -52,5 +52,19 @@ export const Academic: BadgeData = {
   acquisition: 'An acquisition.',
 }`,
     },
+    {
+      name: 'template string',
+      code: `
+export const Academic: BadgeData = {
+  acquisition: \`An \${missionLink(AMission)} acquisition\`,
+}`,
+      errors: [
+        { messageId: 'error' },
+      ],
+      output: `
+export const Academic: BadgeData = {
+  acquisition: \`An \${missionLink(AMission)} acquisition.\`,
+}`,
+    },
   ],
 })

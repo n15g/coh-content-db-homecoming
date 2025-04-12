@@ -24,17 +24,18 @@ export const preferEffectPeriod = createRule({
         const { property: effectProp } = getDataObjectProperty(node, 'BadgeData', 'effect')
         if (!effectProp) return
 
-        if (effectProp.value.type !== AST_NODE_TYPES.Literal) return
-        const keyValue = sourceCode.getText(effectProp.value)
+        if (effectProp.value.type !== AST_NODE_TYPES.Literal && effectProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const template = effectProp.value.type === AST_NODE_TYPES.TemplateLiteral
+        const effectValue = sourceCode.getText(effectProp.value)
 
-        const effectText = keyValue.slice(1, -1)
+        const effectText = effectValue.slice(1, -1)
         if (effectText.endsWith('.')) return
 
         context.report({
           node: effectProp.value,
           messageId: 'error',
           fix(fixer) {
-            return fixer.replaceText(effectProp.value, `'${effectText}.'`)
+            return fixer.replaceText(effectProp.value, template ? `\`${effectText}.\`` : `'${effectText}.'`)
           },
         })
       },

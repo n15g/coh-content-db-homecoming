@@ -52,5 +52,19 @@ export const Academic: BadgeData = {
   effect: 'An effect.',
 }`,
     },
+    {
+      name: 'template string',
+      code: `
+export const Academic: BadgeData = {
+  effect: \`An \${missionLink(AMission)} effect\`,
+}`,
+      errors: [
+        { messageId: 'error' },
+      ],
+      output: `
+export const Academic: BadgeData = {
+  effect: \`An \${missionLink(AMission)} effect.\`,
+}`,
+    },
   ],
 })
