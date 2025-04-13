@@ -59,5 +59,33 @@ export const Bob: ContactData = {
   key: 'invalid-key',
 }`,
     },
+    {
+      name: 'with numbers',
+      code: `
+export const Academic: BadgeData = {
+  key: 'Invalid Key 10',
+}`,
+      errors: [
+        { messageId: 'invalidKey' },
+      ],
+      output: `
+export const Academic: BadgeData = {
+  key: 'invalid-key-10',
+}`,
+    },
+    {
+      name: 'in template string',
+      code: `
+export const Academic: BadgeData = {
+  key: \`Invalid Key\`,
+}`,
+      errors: [
+        { messageId: 'invalidKey' },
+      ],
+      output: `
+export const Academic: BadgeData = {
+  key: \`invalid-key\`,
+}`,
+    },
   ],
 })

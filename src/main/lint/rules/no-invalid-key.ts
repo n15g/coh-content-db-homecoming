@@ -2,7 +2,7 @@ import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils'
 import { createRule } from '../utils/create-rule'
 import { getDataObjectProperty } from '../utils/ast-utils'
 
-const INVALID_CHARS = /[^a-z-0-9\-]/
+const INVALID_CHARS = /[^a-z-0-9\-]/g
 
 export const noInvalidKey = createRule({
   name: 'no-invalid-key',
@@ -26,7 +26,8 @@ export const noInvalidKey = createRule({
         const { property: keyProp } = getDataObjectProperty(node, 'all', 'key')
         if (!keyProp) return
 
-        if (keyProp.value.type !== AST_NODE_TYPES.Literal) return
+        if (keyProp.value.type !== AST_NODE_TYPES.Literal && keyProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const template = keyProp.value.type === AST_NODE_TYPES.TemplateLiteral
         const keyValue = sourceCode.getText(keyProp.value)
 
         const keyText = keyValue.slice(1, -1)
@@ -35,13 +36,13 @@ export const noInvalidKey = createRule({
         const replacementValue = keyText
           .toLowerCase()
           .replaceAll(/\s/g, '-')
-          .replaceAll(/[^a-z\-]/g, '')
+          .replaceAll(INVALID_CHARS, '')
 
         context.report({
           node: keyProp.value,
           messageId: 'invalidKey',
           fix(fixer) {
-            return fixer.replaceText(keyProp.value, `'${replacementValue}'`)
+            return fixer.replaceText(keyProp.value, template ? `\`${replacementValue}\`` : `'${replacementValue}'`)
           },
         })
       },
