@@ -1,5 +1,4 @@
 import { ContactData } from 'coh-content-db'
-import { Neutropolis } from '../zone/neutropolis'
 import { TheHollows } from '../zone/the-hollows'
 
 export const JuliusTheTroll: ContactData = {

@@ -9,6 +9,6 @@ export const DefeatMarauderAndDestroyThePortal: MissionData = {
   contactKeys: MariaJenkins.key,
   levelRange: [45],
   links: [
-    { title: 'Defeat Marauder and destroy the portal', href: 'https://homecoming.wiki/wiki/Maria_Jenkins#Defeat_Marauder_and_destroy_the_portal' }
+    { title: 'Defeat Marauder and destroy the portal', href: 'https://homecoming.wiki/wiki/Maria_Jenkins#Defeat_Marauder_and_destroy_the_portal' },
   ],
 }

@@ -14,6 +14,6 @@ export const TheShiningStarsWithFriendsLikeThese: MissionData = {
   flashback: {
     id: '21.11',
     notes: 'The Shining Stars: With Friends like These',
-    levelRange: [15, 19]
-  }
+    levelRange: [15, 19],
+  },
 }

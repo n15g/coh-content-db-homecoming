@@ -1,7 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Ouroboros } from '../../zone/ouroboros'
-import { Twinshot } from '../../contact/twinshot'
-import { JustifyingTheMeans } from '../../mission/justifying-the-means'
+import { BadgeData } from 'coh-content-db'
 import { TheShiningStarsANewDayDawning } from '../../mission/the-shining-stars-a-new-day-dawning'
 
 export const ShiningStar: BadgeData = {

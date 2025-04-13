@@ -1,5 +1,4 @@
 import { MissionData } from 'coh-content-db'
-import { Trepsarciel } from '../contact/trepsarciel'
 import { Ractespriel } from '../contact/ractespriel'
 
 export const ThirdTreeOfThornsRespecificationTrial: MissionData = {
