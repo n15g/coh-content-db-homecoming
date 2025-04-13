@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Karsis } from '../../contact/karsis'
+import { CavernOfTranscendenceTrial } from '../../mission/cavern-of-transcendence-trial'
 
 export const Transcendent: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Transcendent: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png',
   requirements: [
-    { key: 'cot', type: 'ARC', missionName: 'Cavern of Transcendence Trial', contactKey: Karsis.key },
+    { key: CavernOfTranscendenceTrial.key, type: 'mission', missionKey: CavernOfTranscendenceTrial.key },
   ],
 }

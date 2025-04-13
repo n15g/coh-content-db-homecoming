@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Sparcetriel } from '../../contact/sparcetriel'
+import { FirstTreeOfThornsRespecificationTrial } from '../../mission/first-tree-of-thorns-respecification-trial'
 
 export const ThornRobber: BadgeData = {
   type: 'accolade',
@@ -14,6 +14,6 @@ export const ThornRobber: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/thorn-robber.png',
   requirements: [
-    { key: 'first-tree-of-thorns-respecification-trial', type: 'TASK_FORCE', missionName: 'First Tree of Thorns Respecification Trial', contactKey: Sparcetriel.key },
+    { key: FirstTreeOfThornsRespecificationTrial.key, type: 'mission', missionKey: FirstTreeOfThornsRespecificationTrial.key },
   ],
 }

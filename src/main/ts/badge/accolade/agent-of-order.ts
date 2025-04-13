@@ -1,9 +1,11 @@
 import { BadgeData } from 'coh-content-db'
-import { MatthewHabashy } from '../../contact/matthew-habashy'
-import { OfficerFields } from '../../contact/officer-fields'
-import { AaronThiery } from '../../contact/aaron-thiery'
-import { SondraCostel } from '../../contact/sondra-costel'
-import { Twinshot } from '../../contact/twinshot'
+import { WhatWasLost } from '../../mission/what-was-lost'
+import { NoMoreFears } from '../../mission/no-more-fears'
+import { ReasonToFight } from '../../mission/reason-to-fight'
+import { LayDownYourBurdens } from '../../mission/lay-down-your-burdens'
+import { TheShiningStarsANewDayDawning } from '../../mission/the-shining-stars-a-new-day-dawning'
+import { TheShiningStarsBigLeagues } from '../../mission/the-shining-stars-big-leagues'
+import { TheShiningStarsWithFriendsLikeThese } from '../../mission/the-shining-stars-with-friends-like-these'
 
 export const AgentOfOrder: BadgeData = {
   type: 'accolade',
@@ -15,18 +17,17 @@ export const AgentOfOrder: BadgeData = {
     { alignment: 'hero', value: `Without heroes like you the world would fall into chaos and despair.` },
     { alignment: 'villain', value: `You leave nothing but chaos and destruction in your wake!` },
   ],
-  effect: 'Awards 20 reward merits.',
   links: [
     { title: 'Agent of Order Badge', href: 'https://homecoming.wiki/wiki/Agent_of_Order_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png',
   requirements: [
-    { key: 'what-was-lost', type: 'ARC', missionName: 'What Was Lost', contactKey: MatthewHabashy.key },
-    { key: 'no-more-fears', type: 'ARC', missionName: 'No More Fears', contactKey: OfficerFields.key },
-    { key: 'reason-to-fight', type: 'ARC', missionName: 'Reason to Fight', contactKey: AaronThiery.key },
-    { key: 'lay-down-your-burdens', type: 'ARC', missionName: 'Lay Down Your Burdens', contactKey: SondraCostel.key },
-    { key: 'the-shining-stars-a-new-day-dawning', type: 'ARC', missionName: 'The Shining Stars - A New Day Dawning', contactKey: Twinshot.key },
-    { key: 'the-shining-stars-big-leagues', type: 'ARC', missionName: 'The Shining Stars - Big Leagues', contactKey: Twinshot.key },
-    { key: 'the-shining-stars-with-friends-like-these', type: 'ARC', missionName: 'The Shining Stars - With Friends Like These', contactKey: Twinshot.key },
+    { key: WhatWasLost.key, type: 'mission', missionKey: WhatWasLost.key },
+    { key: NoMoreFears.key, type: 'mission', missionKey: NoMoreFears.key },
+    { key: ReasonToFight.key, type: 'mission', missionKey: ReasonToFight.key },
+    { key: LayDownYourBurdens.key, type: 'mission', missionKey: LayDownYourBurdens.key },
+    { key: TheShiningStarsANewDayDawning.key, type: 'mission', missionKey: TheShiningStarsANewDayDawning.key },
+    { key: TheShiningStarsBigLeagues.key, type: 'mission', missionKey: TheShiningStarsBigLeagues.key },
+    { key: TheShiningStarsWithFriendsLikeThese.key, type: 'mission', missionKey: TheShiningStarsWithFriendsLikeThese.key },
   ],
 }

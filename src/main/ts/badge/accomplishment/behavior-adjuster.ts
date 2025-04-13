@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { BehavioralAdjustmentFacilityTrial } from '../../mission/behavioral-adjustment-facility-trial'
 
 export const BehaviorAdjuster: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BehaviorAdjuster: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/behavior-adjuster.png',
   requirements: [
-    { key: 'behavioral-adjustment-facility-trial', type: 'TASK_FORCE', missionName: 'Behavioral Adjustment Facility Trial', contactKey: TeamUpTeleporter.key },
+    { key: BehavioralAdjustmentFacilityTrial.key, type: 'mission', missionKey: BehavioralAdjustmentFacilityTrial.key },
   ],
 }

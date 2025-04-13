@@ -1,6 +1,5 @@
-import { BadgeData, contactLink, zoneLink } from 'coh-content-db'
-import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
-import { Ouroboros } from '../../zone/ouroboros'
+import { BadgeData, missionLink } from 'coh-content-db'
+import { TippingTheScales } from '../../mission/tipping-the-scales'
 
 export const PendragonsAlly: BadgeData = {
   type: 'accomplishment',
@@ -9,8 +8,7 @@ export const PendragonsAlly: BadgeData = {
   name: `Pendragon's Ally`,
   morality: 'heroic',
   badgeText: 'You were able to keep Pendragon from being defeated while he was fighting Maestro by himself.',
-  acquisition: `Complete all objectives in the first mission of the third story arc from ${contactLink(ProvostMarchandPrimal)} before Pendragon is defeated.`,
-  notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Tipping the Scales" entry with number 24.08 at level 50.`,
+  acquisition: `Complete all objectives in the "Part One: The Maesro's Symphony" mission of the ${missionLink(TippingTheScales)} story arc, before Pendragon is defeated.`,
   links: [
     { title: `Pendragon's Ally Badge`, href: 'https://homecoming.wiki/wiki/Pendragon%27s_Ally_Badge' },
   ],

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { TheUndergroundTrial } from '../../mission/the-underground-trial'
 
 export const UndergroundSeeker: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const UndergroundSeeker: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/underground-seeker.png',
   requirements: [
-    { key: 'tut', type: 'TASK_FORCE', missionName: 'The Underground Trial', contactKey: TeamUpTeleporter.key },
+    { key: TheUndergroundTrial.key, type: 'mission', missionKey: TheUndergroundTrial.key },
   ],
 }

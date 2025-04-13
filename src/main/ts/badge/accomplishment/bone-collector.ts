@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MrBocor } from '../../contact/mr-bocor'
+import { RetrieveTheLoaBone } from '../../mission/retrieve-the-loa-bone'
 
 export const BoneCollector: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BoneCollector: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-1.png',
   requirements: [
-    { key: 'retrieve-the-loa-bone', type: 'MISSION', missionName: 'Retrieve the Loa Bone', contactKey: MrBocor.key },
+    { key: RetrieveTheLoaBone.key, type: 'mission', missionKey: RetrieveTheLoaBone.key },
   ],
 }

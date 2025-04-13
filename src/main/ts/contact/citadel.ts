@@ -5,6 +5,7 @@ export const Citadel: ContactData = {
   key: 'citadel',
   name: 'Citadel',
   title: 'Task Force Contact',
+  morality: 'heroic',
   location: { zoneKey: TalosIsland.key, coords: [-1100, 160, 7459] },
   levelRange: [25, 30],
   links: [{ title: 'Citadel', href: 'https://homecoming.wiki/wiki/Citadel' }],

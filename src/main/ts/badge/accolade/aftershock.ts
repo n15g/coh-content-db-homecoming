@@ -1,8 +1,9 @@
-import { BadgeData } from 'coh-content-db'
-import { JimTemblor } from '../../contact/jim-temblor'
-import { PenelopeYinFaultline } from '../../contact/penelope-yin-faultline'
-import { DocDelilah } from '../../contact/doc-delilah'
-import { AgentG } from '../../contact/agent-g'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Faultline } from '../../zone/faultline'
+import { TheRumblingsOfThePast } from '../../mission/the-rumblings-of-the-past'
+import { ILostMyDaddy } from '../../mission/i-lost-my-daddy'
+import { TheBuriedPast } from '../../mission/the-buried-past'
+import { AFaultlineInTheSandsOfTime } from '../../mission/a-faultline-in-the-sands-of-time'
 
 export const Aftershock: BadgeData = {
   type: 'accolade',
@@ -11,15 +12,15 @@ export const Aftershock: BadgeData = {
   name: 'Aftershock',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Faultline.`,
-  effect: 'Awards 20 reward merits.',
+  acquisition: `Complete every story arc within ${zoneLink(Faultline)}.`,
   links: [
     { title: 'Aftershock Badge', href: 'https://homecoming.wiki/wiki/Aftershock_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png',
   requirements: [
-    { key: 'rumblings-of-the-past', type: 'ARC', missionName: 'Rumblings of the Past', contactKey: JimTemblor.key },
-    { key: 'i-lost-my-daddy', type: 'ARC', missionName: 'I Lost My Daddy!', contactKey: PenelopeYinFaultline.key },
-    { key: 'the-buried-past', type: 'ARC', missionName: 'The Buried Past', contactKey: DocDelilah.key },
-    { key: 'a-faultline-in-the-sands-of-time', type: 'ARC', missionName: 'A Faultline in the Sands of Time', contactKey: AgentG.key },
+    { key: TheRumblingsOfThePast.key, type: 'mission', missionKey: TheRumblingsOfThePast.key },
+    { key: ILostMyDaddy.key, type: 'mission', missionKey: ILostMyDaddy.key },
+    { key: TheBuriedPast.key, type: 'mission', missionKey: TheBuriedPast.key },
+    { key: AFaultlineInTheSandsOfTime.key, type: 'mission', missionKey: AFaultlineInTheSandsOfTime.key },
   ],
 }

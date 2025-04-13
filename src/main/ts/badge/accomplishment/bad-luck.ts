@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { HardLuck } from '../../contact/hard-luck'
+import { TheUnluckyArtifact } from '../../mission/the-unlucky-artifact'
 
 export const BadLuck: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BadLuck: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-6.png',
   requirements: [
-    { key: 'the-unlucky-artifact', type: 'MISSION', missionName: 'The Unlucky Artifact', contactKey: HardLuck.key },
+    { key: TheUnluckyArtifact.key, type: 'mission', missionKey: TheUnluckyArtifact.key },
   ],
 }

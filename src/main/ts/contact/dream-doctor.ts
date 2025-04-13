@@ -5,7 +5,8 @@ export const DreamDoctor: ContactData = {
   key: 'dream-doctor',
   name: 'Dream Doctor',
   title: 'Midnighter Club Founder',
-  zoneKey: MidnighterClub.key,
+  morality: 'primal',
+  location: { zoneKey: MidnighterClub.key },
   levelRange: [50],
   links: [{ title: 'Dream Doctor', href: 'https://homecoming.wiki/wiki/Dream_Doctor' }],
 }

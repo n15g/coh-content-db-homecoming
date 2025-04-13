@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { DrGraves } from '../../contact/dr-graves'
+import { TheHeartsOfDarknessRoguesContest } from '../../mission/the-hearts-of-darkness-rogues-contest'
 
 export const DarkHeart: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const DarkHeart: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/dark-heart.png',
   requirements: [
-    { key: 'the-hearts-of-darkness-rogues-contest', type: 'ARC', missionName: `The Hearts of Darkness - Rogues' Contest`, contactKey: DrGraves.key },
+    { key: TheHeartsOfDarknessRoguesContest.key, type: 'mission', missionKey: TheHeartsOfDarknessRoguesContest.key },
   ],
 }

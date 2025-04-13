@@ -6,7 +6,7 @@ export const HamidonsIre: BadgeData = {
   type: 'exploration',
   key: 'hamidons-ire',
   setTitleId: [1865],
-  name: 'Hamidon\'s Ire',
+  name: `Hamidon's Ire`,
   morality: 'all',
   badgeText: `Apparently Hamidon hates humanity for their damage they have wrought upon the Earth's biosphere.
 Every city is like a festering sore, every clear cut forest is a scar, blah blah blah. You get it.

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { NumberSix } from '../../contact/number-six'
+import { PraetoriasLastGasp } from '../../mission/praetorias-last-gasp'
 
 export const CivilizationsSavior: BadgeData = {
   type: 'accomplishment',
@@ -8,9 +8,7 @@ export const CivilizationsSavior: BadgeData = {
   name: `Civilization's Savior`,
   morality: 'all',
   badgeText: [
-    {
-      alignment: 'hero', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.`,
-    },
+    { alignment: 'hero', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.` },
     {
       alignment: 'villain', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.
 All according to your plan, of course.`,
@@ -21,6 +19,6 @@ All according to your plan, of course.`,
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/civilizations-savior.png',
   requirements: [
-    { key: 'praetorias-last-gasp', type: 'ARC', missionName: `Praetoria's Last Gasp`, contactKey: NumberSix.key },
+    { key: PraetoriasLastGasp.key, type: 'mission', missionKey: PraetoriasLastGasp.key },
   ],
 }

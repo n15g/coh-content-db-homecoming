@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Leonard } from '../../contact/leonard'
+import { GoodVillainsNeverDie } from '../../mission/good-villains-never-die'
 
 export const ExplosiveFinale: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const ExplosiveFinale: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/explosive-finale.png',
   requirements: [
-    { key: 'good-villains-never-die', type: 'ARC', missionName: 'Good Villains Never Die', contactKey: Leonard.key },
+    { key: GoodVillainsNeverDie.key, type: 'mission', missionKey: GoodVillainsNeverDie.key },
   ],
 }

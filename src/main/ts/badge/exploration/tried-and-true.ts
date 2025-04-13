@@ -1,7 +1,7 @@
 import { BadgeData, missionLink, zoneLink } from 'coh-content-db'
 import { AtlasPark } from '../../zone/atlas-park'
 import { OmegaTeamMemorial } from '../../mission/omega-team-memorial'
-import { DrKahnTaskForce } from '../../mission/dr-khan-task-force'
+import { DrKahnTaskForce } from '../../mission/dr-kahn-task-force'
 
 export const TriedAndTrue: BadgeData = {
   type: 'exploration',

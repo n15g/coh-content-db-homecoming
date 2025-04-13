@@ -27,6 +27,7 @@ import { BlackScorpion } from './black-scorpion'
 import { BlindMakwa } from './blind-makwa'
 import { BobbyCurtin } from './bobby-curtin'
 import { Bobcat } from './bobcat'
+import { BrotherHammond } from './brother-hammond'
 import { BuckSalinger } from './buck-salinger'
 import { CadaoKestrel } from './cadao-kestrel'
 import { CainRoyce } from './cain-royce'
@@ -44,6 +45,7 @@ import { Crow } from './crow'
 import { DJZero } from './dj-zero'
 import { DarkWatcher } from './dark-watcher'
 import { DarrenWade } from './darren-wade'
+import { DavidWincott } from './david-wincott'
 import { DeanMacArthur } from './dean-macarthur'
 import { DeputyAssistantOfInformation } from './deputy-assistant-of-information'
 import { DmitriKrylov } from './dmitri-krylov'
@@ -60,7 +62,7 @@ import { DrForrester } from './dr-forrester'
 import { DrFrancois } from './dr-francois'
 import { DrGraves } from './dr-graves'
 import { DrHetzfeld } from './dr-hetzfeld'
-import { DrKahn } from './dr-khan'
+import { DrKahn } from './dr-kahn'
 import { DrQuaterfield } from './dr-quaterfield'
 import { DrShellyPercey } from './dr-shelly-percey'
 import { DrStribbling } from './dr-stribbling'
@@ -104,6 +106,7 @@ import { JimTemblor } from './jim-temblor'
 import { JohnHouston } from './john-houston'
 import { JosefKeller } from './josef-keller'
 import { JulianaNehring } from './juliana-nehring'
+import { JuliusTheTroll } from './julius-the-troll'
 import { JustinAugustine } from './justin-augustine'
 import { Kalinda } from './kalinda'
 import { Karsis } from './karsis'
@@ -132,7 +135,6 @@ import { Manticore } from './manticore'
 import { MariaJenkins } from './maria-jenkins'
 import { MatthewBurke } from './matthew-burke'
 import { MatthewHabashy } from './matthew-habashy'
-import { MauriceFeldon } from './maurice-feldon'
 import { Max } from './max'
 import { MaxwellChristopher } from './maxwell-christopher'
 import { MenderRamiel } from './mender-ramiel'
@@ -204,6 +206,7 @@ import { Splice } from './splice'
 import { StephaniePeebles } from './stephanie-peebles'
 import { StevenSheridan } from './steven-sheridan'
 import { Synapse } from './synapse'
+import { TalshakTheMystic } from './talshak-the-mystic'
 import { TamiBaker } from './tami-baker'
 import { TeamUpTeleporter } from './team-up-teleporter'
 import { TechnicianNaylor } from './technician-naylor'
@@ -262,6 +265,7 @@ export const CONTACTS: ContactData[] = [
   BlindMakwa,
   BobbyCurtin,
   Bobcat,
+  BrotherHammond,
   BuckSalinger,
   CadaoKestrel,
   CainRoyce,
@@ -279,6 +283,7 @@ export const CONTACTS: ContactData[] = [
   DJZero,
   DarkWatcher,
   DarrenWade,
+  DavidWincott,
   DeanMacArthur,
   DeputyAssistantOfInformation,
   DmitriKrylov,
@@ -339,6 +344,7 @@ export const CONTACTS: ContactData[] = [
   JohnHouston,
   JosefKeller,
   JulianaNehring,
+  JuliusTheTroll,
   JustinAugustine,
   Kalinda,
   Karsis,
@@ -367,7 +373,6 @@ export const CONTACTS: ContactData[] = [
   MariaJenkins,
   MatthewBurke,
   MatthewHabashy,
-  MauriceFeldon,
   Max,
   MaxwellChristopher,
   MenderRamiel,
@@ -439,6 +444,7 @@ export const CONTACTS: ContactData[] = [
   StephaniePeebles,
   StevenSheridan,
   Synapse,
+  TalshakTheMystic,
   TamiBaker,
   TeamUpTeleporter,
   TechnicianNaylor,

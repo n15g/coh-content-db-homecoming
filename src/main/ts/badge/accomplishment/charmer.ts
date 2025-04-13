@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MairennMacGregor } from '../../contact/mairenn-macgregor'
+import { AbandonedSewersTrial } from '../../mission/abandoned-sewers-trial'
 
 export const Charmer: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Charmer: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png',
   requirements: [
-    { key: 'abandoned-sewers-trial', type: 'TASK_FORCE', missionName: 'Abandoned Sewers Trial', contactKey: MairennMacGregor.key },
+    { key: AbandonedSewersTrial.key, type: 'mission', missionKey: AbandonedSewersTrial.key },
   ],
 }

@@ -13,14 +13,14 @@ export const WincottsAlly: BadgeData = {
   key: 'wincotts-ally',
   setTitleId: [1521],
   name: [
-    { alignment: 'hero', value: 'Wincott\'s Ally' },
-    { alignment: 'villain', value: 'Wincott\'s Betrayer' },
+    { alignment: 'hero', value: `Wincott's Ally` },
+    { alignment: 'villain', value: `Wincott's Betrayer` },
   ],
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within the Hollows.`,
   links: [
-    { title: 'Wincott\'s Ally Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Ally_Badge' },
-    { title: 'Wincott\'s Betrayer Badge', href: 'https://homecoming.wiki/wiki/Wincott%27s_Betrayer_Badge' },
+    { title: `Wincott's Ally Badge`, href: 'https://homecoming.wiki/wiki/Wincott%27s_Ally_Badge' },
+    { title: `Wincott's Betrayer Badge`, href: 'https://homecoming.wiki/wiki/Wincott%27s_Betrayer_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/hazard-acc.png',
   requirements: [

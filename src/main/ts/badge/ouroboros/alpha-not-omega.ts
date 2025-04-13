@@ -7,7 +7,7 @@ export const AlphaNotOmega: BadgeData = {
   name: 'Alpha Not Omega',
   morality: 'all',
   badgeText: `You have completed a Flashback at level 50 while only benefitting from the Incarnate Power in your Alpha Slot.`,
-  acquisition: `Complete a Flashback at level 50 with a challenge setting of "Alpha Slot Only"`,
+  acquisition: `Complete a Flashback at level 50 with a challenge setting of "Alpha Slot Only".`,
   links: [
     { title: 'Alpha Not Omega Badge', href: 'https://homecoming.wiki/wiki/Alpha_Not_Omega_Badge' },
   ],

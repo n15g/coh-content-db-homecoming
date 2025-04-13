@@ -1,8 +1,6 @@
 import { BadgeData, zoneLink } from 'coh-content-db'
 import { Ouroboros } from '../../zone/ouroboros'
-import { TonyKord } from '../../contact/tony-kord'
-import { PaulaDempsey } from '../../contact/paula-dempsey'
-import { MauriceFeldon } from '../../contact/maurice-feldon'
+import { GetTheClockworkOutOfTheWarehouseBeforeTheSkullsGetInvolved } from '../../mission/get-the-clockwork-out-of-the-warehouse-before-the-skulls-get-involved'
 
 export const Negotiator: BadgeData = {
   type: 'accomplishment',
@@ -17,6 +15,6 @@ export const Negotiator: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/negotiator.png',
   requirements: [
-    { key: 'clocks-out', type: 'MISSION', missionName: 'Get the Clockwork out of the Warehouse Before the Skulls get Involved', contactKey: [TonyKord.key, PaulaDempsey.key, MauriceFeldon.key] },
+    { key: GetTheClockworkOutOfTheWarehouseBeforeTheSkullsGetInvolved.key, type: 'mission', missionKey: GetTheClockworkOutOfTheWarehouseBeforeTheSkullsGetInvolved.key },
   ],
 }

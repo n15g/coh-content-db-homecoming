@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { TPNCampusTrial } from '../../mission/tpn-campus-trial'
 
 export const SpinDoctor: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const SpinDoctor: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/spin-doctor.png',
   requirements: [
-    { key: 'tpnct', type: 'TASK_FORCE', missionName: 'TPN Campus Trial', contactKey: TeamUpTeleporter.key },
+    { key: TPNCampusTrial.key, type: 'mission', missionKey: TPNCampusTrial.key },
   ],
 }

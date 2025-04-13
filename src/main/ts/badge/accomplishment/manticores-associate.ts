@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Manticore } from '../../contact/manticore'
+import { ManticoreTaskForce } from '../../mission/manticore-task-force'
 
 export const ManticoresAssociate: BadgeData = {
   type: 'accomplishment',
@@ -20,6 +20,6 @@ export const ManticoresAssociate: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/manticores-associate.png',
   requirements: [
-    { key: 'manticore-task-force', type: 'TASK_FORCE', missionName: 'Manticore Task Force', contactKey: Manticore.key },
+    { key: ManticoreTaskForce.key, type: 'mission', missionKey: ManticoreTaskForce.key },
   ],
 }

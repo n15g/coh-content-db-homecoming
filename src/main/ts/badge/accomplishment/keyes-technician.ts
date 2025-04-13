@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { KeyesIslandReactorTrial } from '../../mission/keyes-island-reactor-trial'
 
 export const KeyesTechnician: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const KeyesTechnician: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/keyes-technician.png',
   requirements: [
-    { key: 'keyes-island-reactor-trial', type: 'TASK_FORCE', missionName: 'Keyes Island Reactor Trial', contactKey: TeamUpTeleporter.key },
+    { key: KeyesIslandReactorTrial.key, type: 'mission', missionKey: KeyesIslandReactorTrial.key },
   ],
 }

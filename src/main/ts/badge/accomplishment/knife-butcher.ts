@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Max } from '../../contact/max'
+import { TheEndOfVengeance } from '../../mission/the-end-of-vengeance'
 
 export const KnifeButcher: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const KnifeButcher: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png',
   requirements: [
-    { key: 'the-end-of-vengeance', type: 'MISSION', missionName: 'The End of Vengeance', contactKey: Max.key },
+    { key: TheEndOfVengeance.key, type: 'mission', missionKey: TheEndOfVengeance.key },
   ],
 }

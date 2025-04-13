@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { FaathimTheKind } from '../../contact/faathim-the-kind'
+import { FaathimTheKindTaskForce } from '../../mission/faathim-the-kind-task-force'
 
 export const SlayerOfMadness: BadgeData = {
   type: 'accomplishment',
@@ -14,6 +14,6 @@ export const SlayerOfMadness: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/slayer-of-madness.png',
   requirements: [
-    { key: 'ftktf', type: 'TASK_FORCE', missionName: 'Faathim the Kind Task Force', contactKey: FaathimTheKind.key },
+    { key: FaathimTheKindTaskForce.key, type: 'mission', missionKey: FaathimTheKindTaskForce.key },
   ],
 }

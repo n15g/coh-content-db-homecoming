@@ -1,5 +1,6 @@
 import { BadgeData, contactLink } from 'coh-content-db'
 import { MuVorkan } from '../../contact/muvorkan'
+import { OneOfTheFacelessMany } from '../../mission/one-of-the-faceless-many'
 
 export const BoundForGlory: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +14,6 @@ export const BoundForGlory: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png',
   requirements: [
-    { key: 'one-of-the-faceless-many', type: 'MISSION', missionName: 'One of the Faceless Many', contactKey: MuVorkan.key },
+    { key: OneOfTheFacelessMany.key, type: 'mission', missionKey: OneOfTheFacelessMany.key },
   ],
 }

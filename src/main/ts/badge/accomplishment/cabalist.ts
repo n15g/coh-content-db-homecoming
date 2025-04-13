@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KatieHannon } from '../../contact/katie-hannon'
+import { KatieHannonTaskForce } from '../../mission/katie-hannon-task-force'
 
 export const Cabalist: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Cabalist: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/cabalist.png',
   requirements: [
-    { key: 'katie-hannon-task-force', type: 'TASK_FORCE', missionName: 'Katie Hannon Task Force', contactKey: KatieHannon.key },
+    { key: KatieHannonTaskForce.key, type: 'mission', missionKey: KatieHannonTaskForce.key },
   ],
 }

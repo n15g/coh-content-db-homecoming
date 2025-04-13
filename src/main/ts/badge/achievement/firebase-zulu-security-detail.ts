@@ -11,7 +11,7 @@ export const FirebaseZuluSecurityDetail: BadgeData = {
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have logged enough time in the Shadow Shard to be made a part of Firebase Zulu's security detail.` },
-    { alignment: 'villain', value: 'You once were part of Firebase Zulu\'s security detail, but have since abandoned them to the ravages of the Shadow Shard.' },
+    { alignment: 'villain', value: `You once were part of Firebase Zulu's security detail, but have since abandoned them to the ravages of the Shadow Shard.` },
   ],
   acquisition: 'Spend 3 minutes in the Shadow Shard.',
   links: [

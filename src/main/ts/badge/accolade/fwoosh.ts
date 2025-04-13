@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { BlackScorpion } from '../../contact/black-scorpion'
+import { ArmorWars } from '../../mission/armor-wars'
 
 export const Fwoosh: BadgeData = {
   type: 'accolade',
@@ -21,6 +21,6 @@ export const Fwoosh: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/fwoosh.png',
   requirements: [
-    { key: 'armor-wars', type: 'ARC', missionName: 'Armor Wars', contactKey: BlackScorpion.key },
+    { key: ArmorWars.key, type: 'mission', missionKey: ArmorWars.key },
   ],
 }

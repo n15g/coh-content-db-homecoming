@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { JaneHallaway } from '../../contact/jane-hallaway'
+import { FirstTerraVoltaRespecificationTrial } from '../../mission/first-terra-volta-respecification-trial'
 
 export const ReceivedTheStalwartMedallion: BadgeData = {
   type: 'accolade',
@@ -18,6 +18,6 @@ export const ReceivedTheStalwartMedallion: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/received-the-stalwart-medallion.png',
   requirements: [
-    { key: 'first-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'First Terra Volta Respecification Trial', contactKey: JaneHallaway.key },
+    { key: FirstTerraVoltaRespecificationTrial.key, type: 'mission', missionKey: FirstTerraVoltaRespecificationTrial.key },
   ],
 }

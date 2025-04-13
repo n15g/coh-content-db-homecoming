@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Scirocco } from '../../contact/scirocco'
+import { AWindCalledSerafina } from '../../mission/a-wind-called-serafina'
 
 export const FalseImage: BadgeData = {
   type: 'accolade',
@@ -21,6 +21,6 @@ export const FalseImage: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/false-image.png',
   requirements: [
-    { key: 'a-wind-called-serafina', type: 'ARC', missionName: 'A Wind Called Serafina', contactKey: Scirocco.key },
+    { key: AWindCalledSerafina.key, type: 'mission', missionKey: AWindCalledSerafina.key },
   ],
 }

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { MagisteriumTrial } from '../../mission/magisterium-trial'
 
 export const EnemyOfTheState: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const EnemyOfTheState: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/enemy-of-the-state.png',
   requirements: [
-    { key: 'magisterium-trial', type: 'TASK_FORCE', missionName: 'Magisterium Trial', contactKey: TeamUpTeleporter.key },
+    { key: MagisteriumTrial.key, type: 'mission', missionKey: MagisteriumTrial.key },
   ],
 }

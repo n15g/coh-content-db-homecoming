@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { HeatherTownshend } from '../../contact/heather-townshend'
+import { RemnantsOfThePast } from '../../mission/remnants-of-the-past'
 
 export const ArchitectWriter: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const ArchitectWriter: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png',
   requirements: [
-    { key: 'remnants-of-the-past', type: 'MISSION', missionName: 'Remnants of the Past', contactKey: HeatherTownshend.key },
+    { key: RemnantsOfThePast.key, type: 'mission', missionKey: RemnantsOfThePast.key },
   ],
 }

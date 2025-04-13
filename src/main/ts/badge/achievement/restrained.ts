@@ -12,7 +12,7 @@ export const Restrained: BadgeData = {
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have been under the influence of restraining powers such as sleeps and holds for an inordinate amount of time.' },
-    { alignment: 'villain', value: 'You\'ve been Slept, Immobilized, or Held for over ten minutes. Quit sleeping on the job!' },
+    { alignment: 'villain', value: `You've been Slept, Immobilized, or Held for over ten minutes. Quit sleeping on the job!` },
     { alignment: 'praetorian', value: 'Wait long enough and those stuns will wear off. Any minute now...' },
   ],
   acquisition: 'Be held for 10 minutes.',

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TheLadyGrey } from '../../contact/the-lady-grey'
+import { TheLadyGreyTaskForce } from '../../mission/the-lady-grey-task-force'
 
 export const Apocalyptic: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Apocalyptic: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/apocalyptic.png',
   requirements: [
-    { key: 'the-lady-grey-task-force', type: 'TASK_FORCE', missionName: 'The Lady Grey Task Force', contactKey: TheLadyGrey.key },
+    { key: TheLadyGreyTaskForce.key, type: 'mission', missionKey: TheLadyGreyTaskForce.key },
   ],
 }

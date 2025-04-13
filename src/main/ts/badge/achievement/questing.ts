@@ -11,7 +11,7 @@ export const Questing: BadgeData = {
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've experienced more in the last few years than most will in their entire lives. That said, you know you're not done yet.` },
-    { alignment: 'villain', value: 'You\'ve seen what the world has to offer, and you want it all.' },
+    { alignment: 'villain', value: `You've seen what the world has to offer, and you want it all.` },
     { alignment: 'praetorian', value: `If experience is any measure, you've accomplished enough for several lifetimes. You'd like to see any dimension, Primal or Praetorian, try to pull something you can't handle.` },
   ],
   acquisition: 'Earn 1000 badges.',

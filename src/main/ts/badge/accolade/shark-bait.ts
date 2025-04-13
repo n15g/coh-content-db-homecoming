@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CaptainMako } from '../../contact/captain-mako'
+import { KillerInstinct } from '../../mission/killer-instinct'
 
 export const SharkBait: BadgeData = {
   type: 'accolade',
@@ -21,6 +21,6 @@ export const SharkBait: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/shark-bait.png',
   requirements: [
-    { key: 'killer-instinct', type: 'ARC', missionName: 'Killer Instinct', contactKey: CaptainMako.key },
+    { key: KillerInstinct.key, type: 'mission', missionKey: KillerInstinct.key },
   ],
 }

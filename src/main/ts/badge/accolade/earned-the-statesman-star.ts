@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { CaptainJamesHarlan } from '../../contact/captain-james-harlan'
+import { SecondTerraVoltaRespecificationTrial } from '../../mission/second-terra-volta-respecification-trial'
 
 export const EarnedTheStatesmanStar: BadgeData = {
   type: 'accolade',
@@ -18,6 +18,6 @@ export const EarnedTheStatesmanStar: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/earned-the-statesman-star.png',
   requirements: [
-    { key: 'second-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'Second Terra Volta Respecification Trial', contactKey: CaptainJamesHarlan.key },
+    { key: SecondTerraVoltaRespecificationTrial.key, type: 'mission', missionKey: SecondTerraVoltaRespecificationTrial.key },
   ],
 }

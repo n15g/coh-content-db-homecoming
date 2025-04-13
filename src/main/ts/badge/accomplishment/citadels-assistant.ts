@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Citadel } from '../../contact/citadel'
+import { CitadelTaskForce } from '../../mission/citadel-task-force'
 
 export const CitadelsAssistant: BadgeData = {
   type: 'accomplishment',
@@ -20,6 +20,6 @@ export const CitadelsAssistant: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/citadels-assistant.png',
   requirements: [
-    { key: 'citadel-task-force', type: 'TASK_FORCE', missionName: 'Citadel Task Force', contactKey: Citadel.key },
+    { key: CitadelTaskForce.key, type: 'mission', missionKey: CitadelTaskForce.key },
   ],
 }

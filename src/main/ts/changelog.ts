@@ -6,6 +6,7 @@ export const CHANGELOG: Change[] = [
     date: new Date('2025-03-12'),
     description: ''
       + '* Updated to [coh-content-db:2.0.0](https://github.com/n15g/coh-content-db).\n'
+      + '* Added Mission and Contact data.\n'
       + '* Change from GNU to The Unlicense.\n'
       + '* Moved from webpack to rollup for packaging.\n'
       + '* Add eslint for linting.\n'

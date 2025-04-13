@@ -1,5 +1,6 @@
 import { BadgeData } from 'coh-content-db'
-import { Positron } from '../../contact/positron'
+import { PositronTaskForcePartTwo } from '../../mission/positron-task-force-part-two'
+import { PositronTaskForcePartOne } from '../../mission/positron-task-force-part-one'
 
 export const PositronsAlly: BadgeData = {
   type: 'accomplishment',
@@ -21,7 +22,7 @@ export const PositronsAlly: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/positrons-ally.png',
   requirements: [
-    { key: 'pt1', type: 'TASK_FORCE', missionName: 'Positron Task Force Part One', contactKey: Positron.key },
-    { key: 'pt2', type: 'TASK_FORCE', missionName: 'Positron Task Force Part Two', contactKey: Positron.key },
+    { key: PositronTaskForcePartOne.key, type: 'mission', missionKey: PositronTaskForcePartOne.key },
+    { key: PositronTaskForcePartTwo.key, type: 'mission', missionKey: PositronTaskForcePartTwo.key },
   ],
 }

@@ -1,5 +1,5 @@
-import { BadgeData, contactLink } from 'coh-content-db'
-import { DrAeon } from '../../contact/dr-aeon'
+import { BadgeData } from 'coh-content-db'
+import { DrAeonStrikeForce } from '../../mission/dr-aeon-strike-force'
 
 export const GoldStandard: BadgeData = {
   type: 'accomplishment',
@@ -7,8 +7,8 @@ export const GoldStandard: BadgeData = {
   setTitleId: [2476],
   name: 'Gold Standard',
   morality: 'villainous',
-  badgeText: `You assisted ${contactLink(DrAeon)} in finally settling the score with King Midas and his Gold Brickers who were manipulating the local gold market using unstable dimensional counterfeits in order to establish
- themselves as independent players on the Rogue Isles.
+  badgeText: `You assisted Dr. Aeon in finally settling the score with King Midas and his Gold Brickers who were
+manipulating the local gold market using unstable dimensional counterfeits in order to establish themselves as independent players on the Rogue Isles.
 You've shown them the real measure of what passes the quality standard for gold.`,
   effect: 'Unlocks access to The Crucible in the Long Range Teleporter for Villains and Rogues.',
   links: [
@@ -16,6 +16,6 @@ You've shown them the real measure of what passes the quality standard for gold.
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/gold-standard.png',
   requirements: [
-    { key: 'dr-aeon-strike-force', type: 'TASK_FORCE', missionName: 'Dr. Aeon Strike Force', contactKey: DrAeon.key },
+    { key: DrAeonStrikeForce.key, type: 'mission', missionKey: DrAeonStrikeForce.key },
   ],
 }

@@ -1,6 +1,6 @@
-import { BadgeData, contactLink } from 'coh-content-db'
-import { Ganymede } from '../../contact/ganymede'
-import { Scratch } from '../../contact/scratch'
+import { BadgeData } from 'coh-content-db'
+import { FindOutWhereArachnosIsKeepingAphroditesGirdle } from '../../mission/find-out-where-arachnos-is-keeping-aphrodites-girdle'
+import { GetAHeroToTheCauldronAndDestroyIt } from '../../mission/get-a-hero-to-the-cauldron-and-destroy-it'
 
 export const Handsome: BadgeData = {
   type: 'event',
@@ -12,14 +12,13 @@ export const Handsome: BadgeData = {
   ],
   morality: 'all',
   badgeText: 'Eros can bring out the beauty in any being',
-  acquisition: `Receive mission completion rewards for both "Retrieving the Girdle of Aphrodite" for ${contactLink(Ganymede)} and "Destroying the Mystical Cauldron" for ${contactLink(Scratch)} during a Valentine's Day Event.`,
   links: [
     { title: 'Handsome Badge', href: 'https://homecoming.wiki/wiki/Handsome_Badge' },
     { title: 'Beautiful Badge', href: 'https://homecoming.wiki/wiki/Beautiful_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/handsome.png',
   requirements: [
-    { key: 'rtg', type: 'MISSION', missionName: 'Retrieving the Girdle of Aphrodite', contactKey: Ganymede.key },
-    { key: 'dtc', type: 'MISSION', missionName: 'Destroying the Mystical Cauldron', contactKey: Scratch.key },
+    { key: FindOutWhereArachnosIsKeepingAphroditesGirdle.key, type: 'mission', missionKey: FindOutWhereArachnosIsKeepingAphroditesGirdle.key },
+    { key: GetAHeroToTheCauldronAndDestroyIt.key, type: 'mission', missionKey: GetAHeroToTheCauldronAndDestroyIt.key },
   ],
 }

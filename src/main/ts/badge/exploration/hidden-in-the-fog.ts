@@ -9,7 +9,7 @@ export const HiddenInTheFog: BadgeData = {
   morality: 'all',
   badgeText: `The Labyrinth of Fog is an endless maze constructed from the amalgamation of memories taken from those who have entered the maze.
 Some speak of finding lost secrets, long forgotten, laying hidden amongst the fog, and that those who surrender themselves to the labyrinth are in a position to glean forbidden knowledge.`,
-  acquisition: `Visit any one of the secret locations hidden within the ${zoneLink(TheLabyrinthOfFog)}`,
+  acquisition: `Visit any one of the secret locations hidden within the ${zoneLink(TheLabyrinthOfFog)}.`,
   links: [
     { title: 'Hidden In The Fog Badge', href: 'https://homecoming.wiki/wiki/Hidden_In_The_Fog_Badge' },
   ],

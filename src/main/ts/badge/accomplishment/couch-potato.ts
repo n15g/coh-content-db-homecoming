@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Television } from '../../contact/television'
+import { SureFreakishlyStylizedCartoonChildNeverGiveUp } from '../../mission/sure-freakishly-stylized-cartoon-child-never-give-up'
 
 export const CouchPotato: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const CouchPotato: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/stature-9.png',
   requirements: [
-    { key: 'sure-freakishly-stylized-cartoon-child-never-give-up', type: 'MISSION', missionName: 'Sure, freakishly stylized cartoon child! Never give up!', contactKey: Television.key },
+    { key: SureFreakishlyStylizedCartoonChildNeverGiveUp.key, type: 'mission', missionKey: SureFreakishlyStylizedCartoonChildNeverGiveUp.key },
   ],
 }

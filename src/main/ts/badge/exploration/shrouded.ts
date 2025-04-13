@@ -25,6 +25,6 @@ export const Shrouded: BadgeData = {
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hazard.png',
   requirements: [
     { key: 'loc-0', type: 'mission', missionKey: TakeDownNightstar.key, location: { zoneKey: BlackShroudDimension.key } },
-    { key: 'loc-0', type: 'mission', missionKey: BringCitizensToVahzilokSurgeons.key, location: { zoneKey: BlackShroudDimension.key } },
+    { key: 'loc-1', type: 'mission', missionKey: BringCitizensToVahzilokSurgeons.key, location: { zoneKey: BlackShroudDimension.key } },
   ],
 }

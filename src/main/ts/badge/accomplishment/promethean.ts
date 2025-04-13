@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MortimerKal } from '../../contact/mortimer-kal'
+import { MortimerKalStrikeForce } from '../../mission/mortimer-kal-strike-force'
 
 export const Promethean: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Promethean: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/promethean.png',
   requirements: [
-    { key: 'mksf', type: 'TASK_FORCE', missionName: 'Mortimer Kal Strike Force', contactKey: MortimerKal.key },
+    { key: MortimerKalStrikeForce.key, type: 'mission', missionKey: MortimerKalStrikeForce.key },
   ],
 }

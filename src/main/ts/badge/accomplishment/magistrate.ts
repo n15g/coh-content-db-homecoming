@@ -1,14 +1,17 @@
 import { BadgeData } from 'coh-content-db'
-import { PraetorWhite } from '../../contact/praetor-white'
-import { ChiefInterrogatorWashington } from '../../contact/chief-interrogator-washington'
-import { Cleopatra } from '../../contact/cleopatra'
-import { InterrogatorKang } from '../../contact/interrogator-kang'
-import { AlecParson } from '../../contact/alec-parson'
-import { InvestigatorWhitworth } from '../../contact/investigator-whitworth'
-import { ChanceMcKnight } from '../../contact/chance-mcknight'
-import { IVy } from '../../contact/ivy'
-import { MotherMayhem } from '../../contact/mother-mayhem'
-import { AntiMatter } from '../../contact/anti-matter'
+import { JoiningThePack } from '../../mission/joining-the-pack'
+import { HitList } from '../../mission/hit-list'
+import { OrganizedCrusaders } from '../../mission/organized-crusaders'
+import { NoMansLady } from '../../mission/no-mans-lady'
+import { SacrificesMustBeMade } from '../../mission/sacrifices-must-be-made'
+import { ClockFace } from '../../mission/clock-face'
+import { TheTrashCollectors } from '../../mission/the-trash-collectors'
+import { CorpWars } from '../../mission/corp-wars'
+import { OneWeakness } from '../../mission/one-weakness'
+import { TheOldRobotTheNewBody } from '../../mission/the-old-robot-the-new-body'
+import { TheWomanNamedDeVore } from '../../mission/the-woman-named-devore'
+import { ViewFromTheOtherSide } from '../../mission/view-from-the-other-side'
+import { NoSurvivors } from '../../mission/no-survivors'
 
 export const Magistrate: BadgeData = {
   type: 'accomplishment',
@@ -23,18 +26,18 @@ export const Magistrate: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_loyal.png',
   requirements: [
-    { key: 'joining-the-pack', type: 'ARC', missionName: 'Joining the Pack', contactKey: PraetorWhite.key },
-    { key: 'hit-list', type: 'ARC', missionName: 'Hit List', contactKey: ChiefInterrogatorWashington.key },
-    { key: 'organized-crusaders', type: 'ARC', missionName: 'Organized Crusaders', contactKey: Cleopatra.key },
-    { key: 'no-mans-lady', type: 'ARC', missionName: `No Man's Lady`, contactKey: Cleopatra.key },
-    { key: 'sacrifices-must-be-made', type: 'ARC', missionName: 'Sacrifices Must Be Made', contactKey: InterrogatorKang.key },
-    { key: 'clock-face', type: 'ARC', missionName: 'Clock Face', contactKey: AlecParson.key },
-    { key: 'the-trash-collectors', type: 'ARC', missionName: 'The Trash Collectors', contactKey: InvestigatorWhitworth.key },
-    { key: 'corp-wars', type: 'ARC', missionName: 'Corp Wars', contactKey: ChanceMcKnight.key },
-    { key: 'one-weakness', type: 'ARC', missionName: 'One Weakness', contactKey: ChanceMcKnight.key },
-    { key: 'the-old-robot-the-new-body', type: 'ARC', missionName: 'The Old Robot, the New Body', contactKey: IVy.key },
-    { key: 'the-woman-named-devore', type: 'ARC', missionName: 'The Woman Named DeVore', contactKey: MotherMayhem.key },
-    { key: 'view-from-the-other-side', type: 'ARC', missionName: 'View from the Other Side', contactKey: AntiMatter.key },
-    { key: 'no-survivors', type: 'ARC', missionName: 'No Survivors', contactKey: AntiMatter.key },
+    { key: JoiningThePack.key, type: 'mission', missionKey: JoiningThePack.key },
+    { key: HitList.key, type: 'mission', missionKey: HitList.key },
+    { key: OrganizedCrusaders.key, type: 'mission', missionKey: OrganizedCrusaders.key },
+    { key: NoMansLady.key, type: 'mission', missionKey: NoMansLady.key },
+    { key: SacrificesMustBeMade.key, type: 'mission', missionKey: SacrificesMustBeMade.key },
+    { key: ClockFace.key, type: 'mission', missionKey: ClockFace.key },
+    { key: TheTrashCollectors.key, type: 'mission', missionKey: TheTrashCollectors.key },
+    { key: CorpWars.key, type: 'mission', missionKey: CorpWars.key },
+    { key: OneWeakness.key, type: 'mission', missionKey: OneWeakness.key },
+    { key: TheOldRobotTheNewBody.key, type: 'mission', missionKey: TheOldRobotTheNewBody.key },
+    { key: TheWomanNamedDeVore.key, type: 'mission', missionKey: TheWomanNamedDeVore.key },
+    { key: ViewFromTheOtherSide.key, type: 'mission', missionKey: ViewFromTheOtherSide.key },
+    { key: NoSurvivors.key, type: 'mission', missionKey: NoSurvivors.key },
   ],
 }

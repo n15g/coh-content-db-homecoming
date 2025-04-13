@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { VirgilTarikoss } from '../../contact/virgil-tarikoss'
+import { VirgilTarikossStrikeForce } from '../../mission/virgil-tarikoss-strike-force'
 
 export const BinderOfBeasts: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BinderOfBeasts: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/binder-of-beasts.png',
   requirements: [
-    { key: 'virgil-tarikoss-strike-force', type: 'TASK_FORCE', missionName: 'Virgil Tarikoss Strike Force', contactKey: VirgilTarikoss.key },
+    { key: VirgilTarikossStrikeForce.key, type: 'mission', missionKey: VirgilTarikossStrikeForce.key },
   ],
 }

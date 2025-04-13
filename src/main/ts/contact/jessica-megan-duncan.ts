@@ -5,6 +5,7 @@ export const JessicaMeganDuncan: ContactData = {
   key: 'jessica-megan-duncan',
   name: 'Jessica Megan Duncan',
   title: 'Off-duty Hero',
+  morality: 'heroic',
   location: { zoneKey: PocketD.key, coords: [-17, 0, -1211] },
   levelRange: [30, 50],
   notes: `Only available during Valentine's events.`,

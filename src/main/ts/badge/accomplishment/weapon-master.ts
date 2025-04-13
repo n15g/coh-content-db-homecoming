@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Apex } from '../../contact/apex'
+import { ApexTaskForce } from '../../mission/apex-task-force'
 
 export const WeaponMaster: BadgeData = {
   type: 'accomplishment',
@@ -17,6 +17,6 @@ export const WeaponMaster: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/weapon-master.png',
   requirements: [
-    { key: 'atf', type: 'TASK_FORCE', missionName: 'Apex Task Force', contactKey: Apex.key },
+    { key: ApexTaskForce.key, type: 'mission', missionKey: ApexTaskForce.key },
   ],
 }

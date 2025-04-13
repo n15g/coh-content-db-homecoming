@@ -5,6 +5,7 @@ export const DoctorArvin: ContactData = {
   key: 'doctor-arvin',
   name: 'Doctor Arvin',
   title: 'Physician and Genetics Researcher at Cole Memorial Hospital',
+  morality: 'resistance',
   location: { zoneKey: NovaPraetoria.key, coords: [-4770, 6, -1558] },
   levelRange: [1, 10],
   links: [{ title: 'Doctor Arvin', href: 'https://homecoming.wiki/wiki/Doctor_Arvin' }],

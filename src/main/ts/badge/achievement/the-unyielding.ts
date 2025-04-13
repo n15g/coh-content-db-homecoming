@@ -12,7 +12,7 @@ export const TheUnyielding: BadgeData = {
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Continued defeats mean nothing to you.' },
-    { alignment: 'villain', value: 'They can knock you down, but they can\'t keep you down.' },
+    { alignment: 'villain', value: `They can knock you down, but they can't keep you down.` },
     { alignment: 'praetorian', value: 'Because those Hospitals can be pretty far away sometimes... Despite your many, many defeats, you press on.' },
   ],
   acquisition: 'Pay off 100,000 debt.',

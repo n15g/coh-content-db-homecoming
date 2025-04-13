@@ -13,16 +13,16 @@ export const JohnnysExBestFriend: BadgeData = {
   key: 'johnnys-ex-best-friend',
   setTitleId: [1509],
   name: [
-    { alignment: 'hero', value: 'Johnny\'s Ex-Best Friend' },
+    { alignment: 'hero', value: `Johnny's Ex-Best Friend` },
     { alignment: 'villain', sex: 'M', value: `Johnny's Go To Guy` },
     { alignment: 'villain', sex: 'F', value: `Johnny's Go To Gal` },
   ],
   morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within St. Martial.`,
   links: [
-    { title: 'Johnny\'s Ex-Best Friend Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Ex-Best_Friend_Badge' },
-    { title: 'Johnny\'s Go To Guy Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Go_To_Guy_Badge' },
-    { title: 'Johnny\'s Go To Gal Badge', href: 'https://homecoming.wiki/wiki/Johnny%27s_Go_To_Gal_Badge' },
+    { title: `Johnny's Ex-Best Friend Badge`, href: 'https://homecoming.wiki/wiki/Johnny%27s_Ex-Best_Friend_Badge' },
+    { title: `Johnny's Go To Guy Badge`, href: 'https://homecoming.wiki/wiki/Johnny%27s_Go_To_Guy_Badge' },
+    { title: `Johnny's Go To Gal Badge`, href: 'https://homecoming.wiki/wiki/Johnny%27s_Go_To_Gal_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-v.png',
   requirements: [

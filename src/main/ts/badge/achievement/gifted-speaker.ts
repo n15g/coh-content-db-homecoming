@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { BaneSpiderRuben } from '../../contact/bane-spider-ruben'
+import { DestinyFollows } from '../../mission/destiny-follows'
 
 export const GiftedSpeaker: BadgeData = {
   type: 'achievement',
@@ -13,6 +13,6 @@ export const GiftedSpeaker: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/gifted-speaker.png',
   requirements: [
-    { key: 'df', type: 'ARC', missionName: 'Destiny Follows', contactKey: BaneSpiderRuben.key },
+    { key: DestinyFollows.key, type: 'mission', missionKey: DestinyFollows.key },
   ],
 }

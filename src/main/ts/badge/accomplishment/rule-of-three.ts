@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Positron } from '../../contact/positron'
+import { PositronTaskForcePartOne } from '../../mission/positron-task-force-part-one'
 
 export const RuleOfThree: BadgeData = {
   type: 'accomplishment',
@@ -16,6 +16,6 @@ export const RuleOfThree: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/rule-of-three.png',
   requirements: [
-    { key: 'ptfpo', type: 'TASK_FORCE', missionName: 'Positron Task Force Part One', contactKey: Positron.key },
+    { key: PositronTaskForcePartOne.key, type: 'mission', missionKey: PositronTaskForcePartOne.key },
   ],
 }

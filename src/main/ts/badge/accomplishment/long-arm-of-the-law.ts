@@ -1,6 +1,5 @@
-import { BadgeData, contactLink, zoneLink } from 'coh-content-db'
-import { ProvostMarchandPrimal } from '../../contact/provost-marchand-primal'
-import { Ouroboros } from '../../zone/ouroboros'
+import { BadgeData, missionLink } from 'coh-content-db'
+import { ANewWar } from '../../mission/a-new-war'
 
 export const LongArmOfTheLaw: BadgeData = {
   type: 'accomplishment',
@@ -9,13 +8,11 @@ export const LongArmOfTheLaw: BadgeData = {
   name: 'Long Arm of the Law',
   morality: 'heroic',
   badgeText: 'You were able to stop all of the chaos that was running rampant around the bank in Brickstown.',
-  acquisition: `Properly assign the New Praetorians to handle the side missions in the first mission of the second story arc from ${contactLink(ProvostMarchandPrimal)}.`,
+  acquisition: `Properly assign the New Praetorians to handle the side missions in the "Culling the Chaos" mission of the ${missionLink(ANewWar)} story arc.`,
   notes: `
-* Pendragon handles the Freakshow
-* Aurora Pena handles the Hellions
-* Grant Creston handles Nemesis
-
-To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "A New War" entry with number 24.07 at level 50.`,
+* Pendragon handles the Freakshow.
+* Aurora Pena handles the Hellions.
+* Grant Creston handles Nemesis.`,
   links: [
     { title: 'Long Arm of the Law Badge', href: 'https://homecoming.wiki/wiki/Long_Arm_of_the_Law_Badge' },
   ],

@@ -18,7 +18,6 @@ export const TemperedThroughFire: BadgeData = {
     { title: 'Tempered Through Fire Badge', href: 'https://homecoming.wiki/wiki/Tempered_Through_Fire_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/tempered-through-fire.png',
-  effect: 'Awards 20 reward merits.',
   requirements: [
     { key: Loyalist.key, type: 'badge', badgeKey: Loyalist.key },
     { key: Magistrate.key, type: 'badge', badgeKey: Magistrate.key },

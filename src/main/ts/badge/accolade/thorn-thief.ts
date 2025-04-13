@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Trepsarciel } from '../../contact/trepsarciel'
+import { SecondTreeOfThornsRespecificationTrial } from '../../mission/second-tree-of-thorns-respecification-trial'
 
 export const ThornThief: BadgeData = {
   type: 'accolade',
@@ -14,6 +14,6 @@ export const ThornThief: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/thorn-thief.png',
   requirements: [
-    { key: 'second-tree-of-thorns-respecification-trial', type: 'TASK_FORCE', missionName: 'Second Tree of Thorns Respecification Trial', contactKey: Trepsarciel.key },
+    { key: SecondTreeOfThornsRespecificationTrial.key, type: 'mission', missionKey: SecondTreeOfThornsRespecificationTrial.key },
   ],
 }

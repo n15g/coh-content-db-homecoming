@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { LordRecluse } from '../../contact/lord-recluse'
+import { LordRecluseStrikeForce } from '../../mission/lord-recluse-strike-force'
 
 export const FormerServantOfRecluse: BadgeData = {
   type: 'accomplishment',
@@ -20,6 +20,6 @@ export const FormerServantOfRecluse: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/former-servant-of-recluse.png',
   requirements: [
-    { key: 'lord-recluse-strike-force', type: 'TASK_FORCE', missionName: 'Lord Recluse Strike Force', contactKey: LordRecluse.key },
+    { key: LordRecluseStrikeForce.key, type: 'mission', missionKey: LordRecluseStrikeForce.key },
   ],
 }

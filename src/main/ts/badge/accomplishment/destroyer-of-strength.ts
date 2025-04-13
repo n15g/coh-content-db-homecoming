@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SaraMoore } from '../../contact/sara-moore'
+import { SaraMooreTaskForce } from '../../mission/sara-moore-task-force'
 
 export const DestroyerOfStrength: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const DestroyerOfStrength: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/destroyer-of-strength.png',
   requirements: [
-    { key: 'sara-moore-task-force', type: 'TASK_FORCE', missionName: 'Sara Moore Task Force', contactKey: SaraMoore.key },
+    { key: SaraMooreTaskForce.key, type: 'mission', missionKey: SaraMooreTaskForce.key },
   ],
 }

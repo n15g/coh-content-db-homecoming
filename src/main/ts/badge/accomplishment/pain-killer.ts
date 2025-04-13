@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { CathedralOfPainTrial } from '../../mission/cathedral-of-pain-trial'
 
 export const PainKiller: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const PainKiller: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/pain-killer.png',
   requirements: [
-    { key: 'copt', type: 'TASK_FORCE', missionName: 'Cathedral of Pain Trial', contactKey: TeamUpTeleporter.key },
+    { key: CathedralOfPainTrial.key, type: 'mission', missionKey: CathedralOfPainTrial.key },
   ],
 }

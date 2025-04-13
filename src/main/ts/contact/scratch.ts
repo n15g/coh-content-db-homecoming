@@ -5,6 +5,7 @@ export const Scratch: ContactData = {
   key: 'scratch',
   name: 'Scratch',
   title: 'Guest DJ',
+  morality: 'villainous',
   location: { zoneKey: PocketD.key, coords: [-120, 0, -1085] },
   levelRange: [1, 50],
   notes: `Only available during Valentine's events.`,

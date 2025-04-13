@@ -1,5 +1,5 @@
-import { BadgeData, contactLink } from 'coh-content-db'
-import { MrGPrimal } from '../../contact/mr-g-primal'
+import { BadgeData, missionLink } from 'coh-content-db'
+import { TheEndOfAYin } from '../../mission/the-end-of-a-yin'
 
 export const Pyromaniac: BadgeData = {
   type: 'accomplishment',
@@ -8,7 +8,7 @@ export const Pyromaniac: BadgeData = {
   name: 'Pyromaniac',
   morality: 'villainous',
   badgeText: 'You set fire to one of the nicer parts of Faultline while Penelope Yin and Penelope Mayhem were still fighting elsewhere.',
-  acquisition: `Arm all five bombs before Penelope Yin and Penelope Mayhem in the "Cracking Faultline" mission from ${contactLink(MrGPrimal)}.`,
+  acquisition: `Arm all five bombs before Penelope Yin and Penelope Mayhem in the "Part Four: Cracking Faultline" mission of the ${missionLink(TheEndOfAYin)} story arc.`,
   links: [
     { title: 'Pyromaniac Badge', href: 'https://homecoming.wiki/wiki/Pyromaniac_Badge' },
     { title: 'Cracking Faultline Mission', href: 'https://homecoming.wiki/wiki/Mr._G_(Primal_Earth)#Part_Four:_Cracking_Faultline' },

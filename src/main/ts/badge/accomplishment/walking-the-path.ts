@@ -6,7 +6,7 @@ export const WalkingThePath: BadgeData = {
   setTitleId: [1424],
   name: 'Walking the Path',
   morality: 'all',
-  badgeText: 'You strove for what you believe in and, against all odds, came out on top. You\'ve earned the Walking the Path badge by completing your first Alignment Mission.',
+  badgeText: `You strove for what you believe in and, against all odds, came out on top. You've earned the Walking the Path badge by completing your first Alignment Mission.`,
   acquisition: 'Complete an alignment mission.',
   links: [
     { title: 'Walking the Path Badge', href: 'https://homecoming.wiki/wiki/Walking_the_Path_Badge' },

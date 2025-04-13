@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MuVorkan } from '../../contact/muvorkan'
+import { AnActOfMercy } from '../../mission/an-act-of-mercy'
 
 export const TheDeterminedMentor: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const TheDeterminedMentor: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png',
   requirements: [
-    { key: 'aaom', type: 'ARC', missionName: 'An Act of Mercy', contactKey: MuVorkan.key },
+    { key: AnActOfMercy.key, type: 'mission', missionKey: AnActOfMercy.key },
   ],
 }

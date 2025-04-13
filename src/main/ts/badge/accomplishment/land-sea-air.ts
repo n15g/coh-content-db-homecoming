@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { AdmiralSutter } from '../../contact/admiral-sutter'
+import { AdmiralSutterTaskForce } from '../../mission/admiral-sutter-task-force'
 
 export const LandSeaAir: BadgeData = {
   type: 'accomplishment',
@@ -14,6 +14,6 @@ export const LandSeaAir: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/land-sea-air.png',
   requirements: [
-    { key: 'admiral-sutter-task-force', type: 'ARC', missionName: 'Admiral Sutter Task Force', contactKey: AdmiralSutter.key },
+    { key: AdmiralSutterTaskForce.key, type: 'mission', missionKey: AdmiralSutterTaskForce.key },
   ],
 }

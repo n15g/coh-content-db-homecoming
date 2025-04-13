@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { LambdaSectorTrial } from '../../mission/lambda-sector-trial'
 
 export const LambdaLeader: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const LambdaLeader: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/lambda-leader.png',
   requirements: [
-    { key: 'lambda-sector-incarnate-trial', type: 'TASK_FORCE', missionName: 'Lambda Sector Incarnate Trial', contactKey: TeamUpTeleporter.key },
+    { key: LambdaSectorTrial.key, type: 'mission', missionKey: LambdaSectorTrial.key },
   ],
 }

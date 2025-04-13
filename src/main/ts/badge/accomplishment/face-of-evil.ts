@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { DrGraves } from '../../contact/dr-graves'
+import { TheHeartsOfDarknessPriceOfVictory } from '../../mission/the-hearts-of-darkness-price-of-victory'
 
 export const FaceOfEvil: BadgeData = {
   type: 'accomplishment',
@@ -8,12 +8,11 @@ export const FaceOfEvil: BadgeData = {
   name: 'Face of Evil',
   morality: 'villainous',
   badgeText: 'You gained control of the Hearts of Darkness and defeated an ancient evil bent on consuming your soul.',
-  acquisition: 'Complete the Level 15-19 Ongoing Training story arc from Dr. Graves.',
   links: [
     { title: 'Face Of Evil Badge', href: 'https://homecoming.wiki/wiki/Face_Of_Evil_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/face-of-evil.png',
   requirements: [
-    { key: 'the-hearts-of-darkness-price-of-victory', type: 'ARC', missionName: 'The Hearts of Darkness - Price of Victory', contactKey: DrGraves.key },
+    { key: TheHeartsOfDarknessPriceOfVictory.key, type: 'mission', missionKey: TheHeartsOfDarknessPriceOfVictory.key },
   ],
 }

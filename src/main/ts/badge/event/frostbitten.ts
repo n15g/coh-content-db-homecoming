@@ -7,8 +7,8 @@ export const Frostbitten: BadgeData = {
   name: 'Frostbitten',
   morality: 'all',
   badgeText: [
-    { alignment: 'hero', value: 'You have spent time in Paragon City during the winter and have felt winter\'s bite.' },
-    { alignment: 'villain', value: 'You have spent time in Rogue Isles during the winter and have felt winter\'s bite.' },
+    { alignment: 'hero', value: `You have spent time in Paragon City during the winter and have felt winter's bite.` },
+    { alignment: 'villain', value: `You have spent time in Rogue Isles during the winter and have felt winter's bite.` },
   ],
   acquisition: 'Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.',
   links: [

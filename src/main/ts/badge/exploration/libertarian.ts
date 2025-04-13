@@ -11,7 +11,7 @@ export const Libertarian: BadgeData = {
     { alignment: 'villain', value: 'Anarchist' },
   ],
   morality: 'villainous',
-  badgeText: 'It is here that the Devouring Earth nearly set off a biological bomb to infect the citizens of Founder\'s Falls.',
+  badgeText: `It is here that the Devouring Earth nearly set off a biological bomb to infect the citizens of Founder's Falls.`,
   notes: `Located under the edge of a fountain, approximately 140 yards east of the bank.
 
 Out-levelled Mayhem missions can be accessed via ${contactLink(LordSchweinzer)}.`,

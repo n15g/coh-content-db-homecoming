@@ -5,6 +5,7 @@ export const VinceDubrowski: ContactData = {
   key: 'vince-dubrowski',
   name: 'Vince Dubrowski',
   title: 'Cage Consortium Representative',
+  morality: 'villainous',
   location: { zoneKey: SharkheadIsle.key, coords: [1277, 64, -195] },
   levelRange: [20, 24],
   links: [{ title: 'Vince Dubrowski', href: 'https://homecoming.wiki/wiki/Vince_Dubrowski' }],

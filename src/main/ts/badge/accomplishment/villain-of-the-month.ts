@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MrGPrimal } from '../../contact/mr-g-primal'
+import { SweepsWeekHeroNameVsTheRogueIsles } from '../../mission/sweeps-week-heroname-vs-the-rogue-isles'
 
 export const VillainOfTheMonth: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const VillainOfTheMonth: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/st-martial-arc.png',
   requirements: [
-    { key: 'sw', type: 'ARC', missionName: 'Sweeps Week: Character vs. The Rogue Isles', contactKey: MrGPrimal.key },
+    { key: SweepsWeekHeroNameVsTheRogueIsles.key, type: 'mission', missionKey: SweepsWeekHeroNameVsTheRogueIsles.key },
   ],
 }

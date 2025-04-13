@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { DrGraves } from '../../contact/dr-graves'
+import { TheHeartsOfDarknessHeroicMeasures } from '../../mission/the-hearts-of-darkness-heroic-measures'
 
 export const BlackenedSoul: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BlackenedSoul: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/blackened-soul.png',
   requirements: [
-    { key: 'the-hearts-of-darkness-heroic-measures', type: 'ARC', missionName: 'The Hearts of Darkness - Heroic Measures', contactKey: DrGraves.key },
+    { key: TheHeartsOfDarknessHeroicMeasures.key, type: 'mission', missionKey: TheHeartsOfDarknessHeroicMeasures.key },
   ],
 }

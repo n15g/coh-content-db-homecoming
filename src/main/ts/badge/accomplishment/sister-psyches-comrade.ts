@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SisterPsyche } from '../../contact/sister-psyche'
+import { SisterPsycheTaskForce } from '../../mission/sister-psyche-task-force'
 
 export const SisterPsychesComrade: BadgeData = {
   type: 'accomplishment',
@@ -20,6 +20,6 @@ export const SisterPsychesComrade: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/tf-3.png',
   requirements: [
-    { key: 'sptf', type: 'TASK_FORCE', missionName: 'Sister Psyche Task Force', contactKey: SisterPsyche.key },
+    { key: SisterPsycheTaskForce.key, type: 'mission', missionKey: SisterPsycheTaskForce.key },
   ],
 }

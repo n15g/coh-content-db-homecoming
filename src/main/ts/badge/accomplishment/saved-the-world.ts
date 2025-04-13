@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MsLiberty } from '../../contact/ms-liberty'
+import { MsLibertyTaskForce } from '../../mission/ms-liberty-task-force'
 
 export const SavedTheWorld: BadgeData = {
   type: 'accomplishment',
@@ -20,6 +20,6 @@ export const SavedTheWorld: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/defeatrecluse.png',
   requirements: [
-    { key: 'mltf', type: 'TASK_FORCE', missionName: 'Ms. Liberty Task Force', contactKey: MsLiberty.key },
+    { key: MsLibertyTaskForce.key, type: 'mission', missionKey: MsLibertyTaskForce.key },
   ],
 }

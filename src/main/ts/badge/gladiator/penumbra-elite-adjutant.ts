@@ -7,7 +7,7 @@ export const PenumbraEliteAdjutant: BadgeData = {
   setTitleId: [492],
   name: 'Penumbra Elite Adjutant',
   morality: 'heroic',
-  badgeText: 'You\'ve beat down the Council and now they fear you.',
+  badgeText: `You've beat down the Council and now they fear you.`,
   links: [
     { title: 'Penumbra Elite Adjutant Badge', href: 'https://homecoming.wiki/wiki/Penumbra_Elite_Adjutant_Badge' },
   ],

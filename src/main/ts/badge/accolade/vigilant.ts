@@ -1,8 +1,10 @@
-import { BadgeData } from 'coh-content-db'
-import { Levantera } from '../../contact/levantera'
-import { SerpentDrummer } from '../../contact/serpent-drummer'
-import { Gaussian } from '../../contact/gaussian'
-import { TheDarkWatcher } from '../../contact/the-dark-watcher'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { RiktiWarZone } from '../../zone/rikti-war-zone'
+import { WelcomeToVanguard } from '../../mission/welcome-to-vanguard'
+import { TheStrangeCaseOfBenjaminADecker } from '../../mission/the-strange-case-of-benjamin-a-decker'
+import { DreamsOfPeaceAndActsOfWar } from '../../mission/dreams-of-peace-and-acts-of-war'
+import { TheRedAndTheBlack } from '../../mission/the-red-and-the-black'
+import { TheHorrorOfWar } from '../../mission/the-horror-of-war'
 
 export const Vigilant: BadgeData = {
   type: 'accolade',
@@ -14,7 +16,7 @@ export const Vigilant: BadgeData = {
     { alignment: 'hero', value: `You're always there when the people of Paragon City need you.` },
     { alignment: 'villain', value: `Your shadow looms over not only the Rogue Isles and Paragon City, but the entire world.` },
   ],
-  effect: 'Awards 20 reward merits.',
+  acquisition: `Complete every story arc within the ${zoneLink(RiktiWarZone)}.`,
   links: [
     { title: 'Vigilant Badge', href: 'https://homecoming.wiki/wiki/Vigilant_Badge' },
   ],
@@ -23,10 +25,10 @@ export const Vigilant: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-v.png' },
   ],
   requirements: [
-    { key: 'welcome-to-the-vanguard', type: 'ARC', missionName: 'Welcome to the Vanguard', contactKey: Levantera.key },
-    { key: 'the-strange-case-of-benjamin-a-decker', type: 'ARC', missionName: 'The Strange Case of Benjamin A. Decker', contactKey: Levantera.key },
-    { key: 'dreams-of-peace-and-acts-of-war', type: 'ARC', missionName: 'Dreams of Peace and Acts of War', contactKey: SerpentDrummer.key },
-    { key: 'the-red-and-the-black', type: 'ARC', missionName: 'The Red and the Black', contactKey: Gaussian.key },
-    { key: 'the-horror-of-war', type: 'ARC', missionName: 'The Horror of War', contactKey: TheDarkWatcher.key },
+    { key: WelcomeToVanguard.key, type: 'mission', missionKey: WelcomeToVanguard.key },
+    { key: TheStrangeCaseOfBenjaminADecker.key, type: 'mission', missionKey: TheStrangeCaseOfBenjaminADecker.key },
+    { key: DreamsOfPeaceAndActsOfWar.key, type: 'mission', missionKey: DreamsOfPeaceAndActsOfWar.key },
+    { key: TheRedAndTheBlack.key, type: 'mission', missionKey: TheRedAndTheBlack.key },
+    { key: TheHorrorOfWar.key, type: 'mission', missionKey: TheHorrorOfWar.key },
   ],
 }

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { IceMistral } from '../../contact/ice-mistral'
+import { IceMistralStrikeForce } from '../../mission/ice-mistral-strike-force'
 
 export const CrystalKeeper: BadgeData = {
   type: 'accomplishment',
@@ -8,12 +8,11 @@ export const CrystalKeeper: BadgeData = {
   name: 'Crystal Keeper',
   morality: 'villainous',
   badgeText: `You have destroyed the psychic control network the Circle grew from shards of Serafina's crystal, and recovered the crystal itself.`,
-  acquisition: 'Complete the Ice Mistral Strike Force: The Crystal of Serafina.',
   links: [
     { title: 'Crystal Keeper Badge', href: 'https://homecoming.wiki/wiki/Crystal_Keeper_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/crystal-keeper.png',
   requirements: [
-    { key: 'ice-mistral-strike-force', type: 'TASK_FORCE', missionName: 'Ice Mistral Strike Force', contactKey: IceMistral.key },
+    { key: IceMistralStrikeForce.key, type: 'mission', missionKey: IceMistralStrikeForce.key },
   ],
 }

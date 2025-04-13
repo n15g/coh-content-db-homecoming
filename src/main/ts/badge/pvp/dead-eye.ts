@@ -8,7 +8,7 @@ export const DeadEye: BadgeData = {
   name: 'Dead-eye',
   morality: 'villainous',
   badgeText: `You have helped defeat Manticore in Recluse's Victory.`,
-  acquisition: `Defeat Manticore in ${zoneLink(ReclusesVictory)}`,
+  acquisition: `Defeat Manticore in ${zoneLink(ReclusesVictory)}.`,
   links: [
     { title: 'Dead-eye Badge', href: 'https://homecoming.wiki/wiki/Dead-eye_Badge' },
   ],

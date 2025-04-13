@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MariaJenkins } from '../../contact/maria-jenkins'
+import { DefeatMarauderAndDestroyThePortal } from '../../mission/defeat-marauder-and-destroy-the-portal'
 
 export const Agent: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Agent: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/agent.png',
   requirements: [
-    { key: 'defeat-marauder-and-destroy-the-portal', type: 'MISSION', missionName: 'Defeat Marauder and destroy the portal', contactKey: MariaJenkins.key },
+    { key: DefeatMarauderAndDestroyThePortal.key, type: 'mission', missionKey: DefeatMarauderAndDestroyThePortal.key },
   ],
 }

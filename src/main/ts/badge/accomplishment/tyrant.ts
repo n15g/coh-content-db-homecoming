@@ -1,14 +1,16 @@
 import { BadgeData } from 'coh-content-db'
-import { DeputyAssistantOfInformation } from '../../contact/deputy-assistant-of-information'
-import { Warrant } from '../../contact/warrant'
-import { Reese } from '../../contact/reese'
-import { MrGPraetorian } from '../../contact/mr-g-praetorian'
-import { Transmuter } from '../../contact/transmuter'
-import { TamiBaker } from '../../contact/tami-baker'
-import { PraetorSinclair } from '../../contact/praetor-sinclair'
-import { DrHetzfeld } from '../../contact/dr-hetzfeld'
-import { Bobcat } from '../../contact/bobcat'
-import { Neuron } from '../../contact/neuron'
+import { ShrewdLessons } from '../../mission/shrewd-lessons'
+import { GunsAndMoney } from '../../mission/guns-and-money'
+import { RiseToPower } from '../../mission/rise-to-power'
+import { TheStrongSurvive } from '../../mission/the-strong-survive'
+import { PersonalMonster } from '../../mission/personal-monster'
+import { LettingGo } from '../../mission/letting-go'
+import { DestroyingTheDestroyers } from '../../mission/destroying-the-destroyers'
+import { ThePowerToControl } from '../../mission/the-power-to-control'
+import { ForTheTaking } from '../../mission/for-the-taking'
+import { BestFriendsForever } from '../../mission/best-friends-forever'
+import { AGodAmongstMen } from '../../mission/a-god-amongst-men'
+import { PrideInYourWork } from '../../mission/pride-in-your-work'
 
 export const Tyrant: BadgeData = {
   type: 'accomplishment',
@@ -23,17 +25,17 @@ export const Tyrant: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_loyal.png',
   requirements: [
-    { key: 'sl', type: 'ARC', missionName: 'Shrewd Lessons', contactKey: DeputyAssistantOfInformation.key },
-    { key: 'gam', type: 'ARC', missionName: 'Guns and Money', contactKey: Warrant.key },
-    { key: 'rtp', type: 'ARC', missionName: 'Rise to Power', contactKey: Reese.key },
-    { key: 'tss', type: 'ARC', missionName: 'The Strong Survive', contactKey: Reese.key },
-    { key: 'pm', type: 'ARC', missionName: 'Personal Monster', contactKey: MrGPraetorian.key },
-    { key: 'lg', type: 'ARC', missionName: 'Letting Go', contactKey: Transmuter.key },
-    { key: 'dtd', type: 'ARC', missionName: 'Destroying the Destroyers', contactKey: TamiBaker.key },
-    { key: 'tptc', type: 'ARC', missionName: 'The Power to Control', contactKey: PraetorSinclair.key },
-    { key: 'ftt', type: 'ARC', missionName: 'For The Taking', contactKey: DrHetzfeld.key },
-    { key: 'bff', type: 'ARC', missionName: 'Best Friends Forever', contactKey: Bobcat.key },
-    { key: 'agam', type: 'ARC', missionName: 'A God Amongst Men', contactKey: Neuron.key },
-    { key: 'piyw', type: 'ARC', missionName: 'Pride in Your Work', contactKey: Neuron.key },
+    { key: ShrewdLessons.key, type: 'mission', missionKey: ShrewdLessons.key },
+    { key: GunsAndMoney.key, type: 'mission', missionKey: GunsAndMoney.key },
+    { key: RiseToPower.key, type: 'mission', missionKey: RiseToPower.key },
+    { key: TheStrongSurvive.key, type: 'mission', missionKey: TheStrongSurvive.key },
+    { key: PersonalMonster.key, type: 'mission', missionKey: PersonalMonster.key },
+    { key: LettingGo.key, type: 'mission', missionKey: LettingGo.key },
+    { key: DestroyingTheDestroyers.key, type: 'mission', missionKey: DestroyingTheDestroyers.key },
+    { key: ThePowerToControl.key, type: 'mission', missionKey: ThePowerToControl.key },
+    { key: ForTheTaking.key, type: 'mission', missionKey: ForTheTaking.key },
+    { key: BestFriendsForever.key, type: 'mission', missionKey: BestFriendsForever.key },
+    { key: AGodAmongstMen.key, type: 'mission', missionKey: AGodAmongstMen.key },
+    { key: PrideInYourWork.key, type: 'mission', missionKey: PrideInYourWork.key },
   ],
 }

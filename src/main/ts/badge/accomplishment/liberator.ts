@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Woodsman } from '../../contact/woodsman'
+import { EdenTrial } from '../../mission/eden-trial'
 
 export const Liberator: BadgeData = {
   type: 'accomplishment',
@@ -17,6 +17,6 @@ export const Liberator: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/trial-1.png',
   requirements: [
-    { key: 'eden-trial', type: 'TASK_FORCE', missionName: 'Eden Trial', contactKey: Woodsman.key },
+    { key: EdenTrial.key, type: 'mission', missionKey: EdenTrial.key },
   ],
 }

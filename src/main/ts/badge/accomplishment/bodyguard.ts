@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Crimson } from '../../contact/crimson'
+import { TheRiktiNegotiator } from '../../mission/the-rikti-negotiator'
 
 export const Bodyguard: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Bodyguard: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/bodyguard.png',
   requirements: [
-    { key: 'rescue-rikti-negotiator-quickly', type: 'MISSION', missionName: 'Rescue Rikti Negotiator Quickly', contactKey: Crimson.key },
+    { key: TheRiktiNegotiator.key, type: 'mission', missionKey: TheRiktiNegotiator.key },
   ],
 }

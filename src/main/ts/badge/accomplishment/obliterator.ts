@@ -1,14 +1,17 @@
 import { BadgeData } from 'coh-content-db'
-import { Ricochet } from '../../contact/ricochet'
-import { Splice } from '../../contact/splice'
-import { JackHammer } from '../../contact/jack-hammer'
-import { Hatchet } from '../../contact/hatchet'
-import { Beholder } from '../../contact/beholder'
-import { Vagabond } from '../../contact/vagabond'
-import { Wardog } from '../../contact/wardog'
-import { Crow } from '../../contact/crow'
-import { Helix } from '../../contact/helix'
-import { CalvinScottPraetorian } from '../../contact/calvin-scott-praetorian'
+import { JustifyingTheMeans } from '../../mission/justifying-the-means'
+import { InsertParanoiaHere } from '../../mission/insert-paranoia-here'
+import { IDestroyThereforeIAm } from '../../mission/i-destroy-therefore-i-am'
+import { DestroyOrNotDestroyThatIsTheQuestion } from '../../mission/destroy-or-not-destroy-that-is-the-question'
+import { NoRoomForHumanity } from '../../mission/no-room-for-humanity'
+import { PowerOfTheMind } from '../../mission/power-of-the-mind'
+import { ThePriceGoodMenMustPay } from '../../mission/the-price-good-men-must-pay'
+import { ThoseWhoMakeHistory } from '../../mission/those-who-make-history'
+import { BloodOfTyrants } from '../../mission/blood-of-tyrants'
+import { HonorTheFallen } from '../../mission/honor-the-fallen'
+import { TheSurge } from '../../mission/the-surge'
+import { TheTurningPoint } from '../../mission/the-turning-point'
+import { CollapsingSupport } from '../../mission/collapsing-support'
 
 export const Obliterator: BadgeData = {
   type: 'accomplishment',
@@ -23,17 +26,18 @@ export const Obliterator: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/accomp_prae_resist.png',
   requirements: [
-    { key: 'jtm', type: 'ARC', missionName: 'Justifying the Means', contactKey: Ricochet.key },
-    { key: 'iph', type: 'ARC', missionName: 'Insert Paranoia Here', contactKey: Splice.key },
-    { key: 'idtia', type: 'ARC', missionName: 'I Destroy, Therefore I Am!', contactKey: JackHammer.key },
-    { key: 'dond', type: 'ARC', missionName: '"Destroy or Not Destroy, That is the Question"', contactKey: JackHammer.key },
-    { key: 'nrfh', type: 'ARC', missionName: 'No Room for Humanity', contactKey: Hatchet.key },
-    { key: 'potm', type: 'ARC', missionName: 'Power of the Mind', contactKey: Beholder.key },
-    { key: 'tpgmmp', type: 'ARC', missionName: 'The Price Good Men Must Pay', contactKey: Vagabond.key },
-    { key: 'twmh', type: 'ARC', missionName: 'Those Who Make History', contactKey: Wardog.key },
-    { key: 'bot', type: 'ARC', missionName: 'Blood of Tyrants', contactKey: Wardog.key },
-    { key: 'htf', type: 'ARC', missionName: 'Honor The Fallen', contactKey: Crow.key },
-    { key: 'ts', type: 'ARC', missionName: 'The Surge', contactKey: Helix.key },
-    { key: 'ttp', type: 'ARC', missionName: 'The Turning Point', contactKey: CalvinScottPraetorian.key },
+    { key: JustifyingTheMeans.key, type: 'mission', missionKey: JustifyingTheMeans.key },
+    { key: InsertParanoiaHere.key, type: 'mission', missionKey: InsertParanoiaHere.key },
+    { key: IDestroyThereforeIAm.key, type: 'mission', missionKey: IDestroyThereforeIAm.key },
+    { key: DestroyOrNotDestroyThatIsTheQuestion.key, type: 'mission', missionKey: DestroyOrNotDestroyThatIsTheQuestion.key },
+    { key: NoRoomForHumanity.key, type: 'mission', missionKey: NoRoomForHumanity.key },
+    { key: PowerOfTheMind.key, type: 'mission', missionKey: PowerOfTheMind.key },
+    { key: ThePriceGoodMenMustPay.key, type: 'mission', missionKey: ThePriceGoodMenMustPay.key },
+    { key: ThoseWhoMakeHistory.key, type: 'mission', missionKey: ThoseWhoMakeHistory.key },
+    { key: BloodOfTyrants.key, type: 'mission', missionKey: BloodOfTyrants.key },
+    { key: HonorTheFallen.key, type: 'mission', missionKey: HonorTheFallen.key },
+    { key: TheSurge.key, type: 'mission', missionKey: TheSurge.key },
+    { key: TheTurningPoint.key, type: 'mission', missionKey: TheTurningPoint.key },
+    { key: CollapsingSupport.key, type: 'mission', missionKey: CollapsingSupport.key },
   ],
 }

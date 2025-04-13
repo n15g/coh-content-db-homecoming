@@ -1,6 +1,6 @@
 import { BadgeData, zoneLink } from 'coh-content-db'
 import { Ouroboros } from '../../zone/ouroboros'
-import { Max } from '../../contact/max'
+import { ToProtectTheNation } from '../../mission/to-protect-the-nation'
 
 export const NaniteMan: BadgeData = {
   type: 'accomplishment',
@@ -19,6 +19,6 @@ export const NaniteMan: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png',
   requirements: [
-    { key: 'tptn', type: 'MISSION', missionName: 'To Protect the Nation', contactKey: Max.key },
+    { key: ToProtectTheNation.key, type: 'mission', missionKey: ToProtectTheNation.key },
   ],
 }

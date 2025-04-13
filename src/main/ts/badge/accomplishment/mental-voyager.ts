@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TeamUpTeleporter } from '../../contact/team-up-teleporter'
+import { MindsOfMayhemTrial } from '../../mission/minds-of-mayhem-trial'
 
 export const MentalVoyager: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const MentalVoyager: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/mental-voyager.png',
   requirements: [
-    { key: 'minds-of-mayhem-trial', type: 'TASK_FORCE', missionName: 'Minds of Mayhem Trial', contactKey: TeamUpTeleporter.key },
+    { key: MindsOfMayhemTrial.key, type: 'mission', missionKey: MindsOfMayhemTrial.key },
   ],
 }

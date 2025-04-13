@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TinaMacintyre } from '../../contact/tina-macintyre'
+import { TheClockworkKingsPsychicSignal } from '../../mission/the-clockwork-kings-psychic-signal'
 
 export const Emancipator: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Emancipator: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/emancipator.png',
   requirements: [
-    { key: 'the-clockwork-kings-psychic-signal', type: 'MISSION', missionName: `The Clockwork King's Psychic Signal`, contactKey: TinaMacintyre.key },
+    { key: TheClockworkKingsPsychicSignal.key, type: 'mission', missionKey: TheClockworkKingsPsychicSignal.key },
   ],
 }

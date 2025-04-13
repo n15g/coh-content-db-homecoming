@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { DeanMacArthur } from '../../contact/dean-macarthur'
+import { MeMyselfAndMyOtherSelves } from '../../mission/me-myself-and-my-other-selves'
 
 export const BaneOfAjax: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BaneOfAjax: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/bane-of-ajax.png',
   requirements: [
-    { key: 'dean-macarthur-story-arc', type: 'ARC', missionName: `Dean Macarthur's Story Arc`, contactKey: DeanMacArthur.key },
+    { key: MeMyselfAndMyOtherSelves.key, type: 'mission', missionKey: MeMyselfAndMyOtherSelves.key },
   ],
 }

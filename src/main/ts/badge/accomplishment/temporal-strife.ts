@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Imperious } from '../../contact/imperious'
+import { ImperiousTaskForce } from '../../mission/imperious-task-force'
 
 export const TemporalStrife: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const TemporalStrife: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/temporal-strife.png',
   requirements: [
-    { key: 'itf', type: 'ARC', missionName: 'Imperious Task Force', contactKey: Imperious.key },
+    { key: ImperiousTaskForce.key, type: 'mission', missionKey: ImperiousTaskForce.key },
   ],
 }

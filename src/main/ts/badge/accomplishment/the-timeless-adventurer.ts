@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { SisterSolaris } from '../../contact/sister-solaris'
+import { WhatWasBuiltUponthePast } from '../../mission/what-was-built-upon-the-past'
 
 export const TheTimelessAdventurer: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const TheTimelessAdventurer: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-arc.png',
   requirements: [
-    { key: 'wwbutp', type: 'ARC', missionName: 'What Was Built Upon the Past', contactKey: SisterSolaris.key },
+    { key: WhatWasBuiltUponthePast.key, type: 'mission', missionKey: WhatWasBuiltUponthePast.key },
   ],
 }

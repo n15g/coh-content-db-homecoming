@@ -1,16 +1,19 @@
-import { BadgeData } from 'coh-content-db'
-import { Seer1381 } from '../../contact/seer-1381'
-import { JessicaFlores } from '../../contact/jessica-flores'
-import { LukeLarson } from '../../contact/luke-larson'
-import { DoctorSteffard } from '../../contact/doctor-steffard'
-import { MrGPraetorian } from '../../contact/mr-g-praetorian'
-import { Transmuter } from '../../contact/transmuter'
-import { TamiBaker } from '../../contact/tami-baker'
-import { PraetorSinclair } from '../../contact/praetor-sinclair'
-import { InterrogatorKang } from '../../contact/interrogator-kang'
-import { InvestigatorWhitworth } from '../../contact/investigator-whitworth'
-import { ChanceMcKnight } from '../../contact/chance-mcknight'
-import { Bobcat } from '../../contact/bobcat'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { TheTruthHurts } from '../../mission/the-truth-hurts'
+import { WhoNeedsEnemies } from '../../mission/who-needs-enemies'
+import { SelfRestraint } from '../../mission/self-restraint'
+import { YouCantGoHome } from '../../mission/you-cant-go-home'
+import { MindFreedom } from '../../mission/mind-freedom'
+import { PersonalMonster } from '../../mission/personal-monster'
+import { LettingGo } from '../../mission/letting-go'
+import { DestroyingTheDestroyers } from '../../mission/destroying-the-destroyers'
+import { ThePowerToControl } from '../../mission/the-power-to-control'
+import { SacrificesMustBeMade } from '../../mission/sacrifices-must-be-made'
+import { TheTrashCollectors } from '../../mission/the-trash-collectors'
+import { CorpWars } from '../../mission/corp-wars'
+import { OneWeakness } from '../../mission/one-weakness'
+import { BestFriendsForever } from '../../mission/best-friends-forever'
+import { ImperialCity } from '../../zone/imperial-city'
 
 export const RisingStar: BadgeData = {
   type: 'accolade',
@@ -19,7 +22,7 @@ export const RisingStar: BadgeData = {
   name: 'Rising Star',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Imperial City.`,
-  effect: `Awards 20 reward merits.`,
+  acquisition: `Complete every story arc within ${zoneLink(ImperialCity)}.`,
   links: [
     { title: 'Rising Star Badge', href: 'https://homecoming.wiki/wiki/Rising_Star_Badge' },
   ],
@@ -28,19 +31,19 @@ export const RisingStar: BadgeData = {
     { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-varb-v.png' },
   ],
   requirements: [
-    { key: 'the-truth-hurts', type: 'ARC', missionName: `(Resistance Warden) The Truth Hurts`, contactKey: JessicaFlores.key },
-    { key: 'who-needs-enemies', type: 'ARC', missionName: `(Resistance Warden) Who Needs Enemies?`, contactKey: LukeLarson.key },
-    { key: 'self-restraint', type: 'ARC', missionName: `(Resistance Warden) Self Restraint`, contactKey: DoctorSteffard.key },
-    { key: 'you-cant-go-home', type: 'ARC', missionName: `(Resistance Warden) You Can't Go Home`, contactKey: Seer1381.key },
-    { key: 'mind-freedom', type: 'ARC', missionName: `(Resistance Warden) Mind Freedom`, contactKey: Seer1381.key },
-    { key: 'personal-monster', type: 'ARC', missionName: `(Loyalist Power) Personal Monster`, contactKey: MrGPraetorian.key },
-    { key: 'letting-go', type: 'ARC', missionName: `(Loyalist Power) Letting Go`, contactKey: Transmuter.key },
-    { key: 'destroying-the-destroyers', type: 'ARC', missionName: `(Loyalist Power) Destroying the Destroyers`, contactKey: TamiBaker.key },
-    { key: 'the-power-to-control', type: 'ARC', missionName: `(Loyalist Power) The Power to Control`, contactKey: PraetorSinclair.key },
-    { key: 'sacrifices-must-be-made', type: 'ARC', missionName: `(Loyalist Responsibility) Sacrifices Must Be Made`, contactKey: InterrogatorKang.key },
-    { key: 'the-trash-collectors', type: 'ARC', missionName: `(Loyalist Responsibility) The Trash Collectors`, contactKey: InvestigatorWhitworth.key },
-    { key: 'corp-wars', type: 'ARC', missionName: `(Loyalist Responsibility) Corp Wars`, contactKey: ChanceMcKnight.key },
-    { key: 'one-weakness', type: 'ARC', missionName: `(Loyalist Responsibility) One Weakness`, contactKey: ChanceMcKnight.key },
-    { key: 'best-friends-forever', type: 'ARC', missionName: `(Loyalist Power) Best Friends Forever`, contactKey: Bobcat.key },
+    { key: TheTruthHurts.key, type: 'mission', missionKey: TheTruthHurts.key },
+    { key: WhoNeedsEnemies.key, type: 'mission', missionKey: WhoNeedsEnemies.key },
+    { key: SelfRestraint.key, type: 'mission', missionKey: SelfRestraint.key },
+    { key: YouCantGoHome.key, type: 'mission', missionKey: YouCantGoHome.key },
+    { key: MindFreedom.key, type: 'mission', missionKey: MindFreedom.key },
+    { key: PersonalMonster.key, type: 'mission', missionKey: PersonalMonster.key },
+    { key: LettingGo.key, type: 'mission', missionKey: LettingGo.key },
+    { key: DestroyingTheDestroyers.key, type: 'mission', missionKey: DestroyingTheDestroyers.key },
+    { key: ThePowerToControl.key, type: 'mission', missionKey: ThePowerToControl.key },
+    { key: SacrificesMustBeMade.key, type: 'mission', missionKey: SacrificesMustBeMade.key },
+    { key: TheTrashCollectors.key, type: 'mission', missionKey: TheTrashCollectors.key },
+    { key: CorpWars.key, type: 'mission', missionKey: CorpWars.key },
+    { key: OneWeakness.key, type: 'mission', missionKey: OneWeakness.key },
+    { key: BestFriendsForever.key, type: 'mission', missionKey: BestFriendsForever.key },
   ],
 }

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { AdaWellington } from '../../contact/ada-wellington'
+import { MarketCrashTrial } from '../../mission/market-crash-trial'
 
 export const LoyalCustomer: BadgeData = {
   type: 'accomplishment',
@@ -14,6 +14,6 @@ export const LoyalCustomer: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/loyal-customer.png',
   requirements: [
-    { key: 'market-crash-trial', type: 'TASK_FORCE', missionName: 'Market Crash Trial', contactKey: AdaWellington.key },
+    { key: MarketCrashTrial.key, type: 'mission', missionKey: MarketCrashTrial.key },
   ],
 }

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { AshlingCorlett } from '../../contact/ashling-corlett'
+import { OnlyLoveCanHurtLikeThis } from '../../mission/only-love-can-hurt-like-this'
 
 export const BoundByNDA: BadgeData = {
   type: 'accomplishment',
@@ -23,6 +23,6 @@ You can legally talk about it in the Isles, but either everyone knows, or nobody
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/bound-by-nda.png',
   requirements: [
-    { key: 'only-love-can-hurt-like-this', type: 'ARC', missionName: 'Only Love Can Hurt Like This', contactKey: AshlingCorlett.key },
+    { key: OnlyLoveCanHurtLikeThis.key, type: 'mission', missionKey: OnlyLoveCanHurtLikeThis.key },
   ],
 }

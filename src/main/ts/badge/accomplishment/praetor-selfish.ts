@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { PraetorDuncan } from '../../contact/praetor-duncan'
+import { OneLooseEnd } from '../../mission/one-loose-end'
 
 export const PraetorSelfish: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const PraetorSelfish: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/da-parc.png',
   requirements: [
-    { key: 'ole', type: 'MISSION', missionName: 'One Loose End', contactKey: PraetorDuncan.key },
+    { key: OneLooseEnd.key, type: 'mission', missionKey: OneLooseEnd.key },
   ],
 }

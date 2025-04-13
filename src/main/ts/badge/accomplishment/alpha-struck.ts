@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { TinMageMarkII } from '../../contact/tin-mage-mark-ii'
+import { TinMageMarkIITaskForce } from '../../mission/tin-mage-mark-ii-task-force'
 
 export const AlphaStruck: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const AlphaStruck: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/alpha-struck.png',
   requirements: [
-    { key: 'tin-mage-mark-ii-task-force', type: 'TASK_FORCE', missionName: 'Tin Mage Mark II Task Force', contactKey: TinMageMarkII.key },
+    { key: TinMageMarkIITaskForce.key, type: 'mission', missionKey: TinMageMarkIITaskForce.key },
   ],
 }

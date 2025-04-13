@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Barracuda } from '../../contact/barracuda'
+import { BarracudaStrikeForce } from '../../mission/barracuda-strike-force'
 
 export const Arbiter: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const Arbiter: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/arbiter.png',
   requirements: [
-    { key: 'barracuda-strike-force', type: 'TASK_FORCE', missionName: 'Barracuda Strike Force', contactKey: Barracuda.key },
+    { key: BarracudaStrikeForce.key, type: 'mission', missionKey: BarracudaStrikeForce.key },
   ],
 }

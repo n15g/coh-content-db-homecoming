@@ -5,6 +5,7 @@ export const MortimerKal: ContactData = {
   key: 'mortimer-kal',
   name: 'Mortimer Kal',
   title: 'Midnighter Archmage',
+  morality: 'villainous',
   location: { zoneKey: SharkheadIsle.key, coords: [-1476.1, 0, -395.9] },
   levelRange: [20, 40],
   links: [{ title: 'Mortimer Kal', href: 'https://homecoming.wiki/wiki/Mortimer_Kal' }],

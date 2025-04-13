@@ -8,5 +8,7 @@ export const BringCitizensToVahzilokSurgeons: MissionData = {
   morality: 'villainous',
   contactKeys: DmitriKrylov.key,
   levelRange: [10, 14],
-  links: [{ title: 'Bring citizens to Vahzilok surgeons', href: 'https://homecoming.wiki/wiki/Dmitri_Krylov#Bring_citizens_to_Vahzilok_surgeons' }],
+  links: [
+    { title: 'Bring citizens to Vahzilok surgeons', href: 'https://homecoming.wiki/wiki/Dmitri_Krylov#Bring_citizens_to_Vahzilok_surgeons' },
+  ],
 }

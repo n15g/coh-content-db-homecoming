@@ -1,6 +1,6 @@
 import { BadgeData, zoneLink } from 'coh-content-db'
 import { Ouroboros } from '../../zone/ouroboros'
-import { NumberSix } from '../../contact/number-six'
+import { UnavoidableFateAntiMatter } from '../../mission/unavoidable-fate-anti-matter'
 
 export const ProudScientist: BadgeData = {
   type: 'accomplishment',
@@ -15,6 +15,6 @@ export const ProudScientist: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/proud-scientist.png',
   requirements: [
-    { key: 'uf', type: 'MISSION', missionName: 'Unavoidable Fate', contactKey: NumberSix.key },
+    { key: UnavoidableFateAntiMatter.key, type: 'mission', missionKey: UnavoidableFateAntiMatter.key },
   ],
 }

@@ -8,5 +8,7 @@ export const TheHydraDimension: MissionData = {
   morality: 'heroic',
   contactKeys: TinaMacintyre.key,
   levelRange: [45, 50],
-  links: [{ title: 'The Hydra Dimension', href: 'https://homecoming.wiki/wiki/Tina_Macintyre#The_Hydra_Dimension_(40-45)' }],
+  links: [
+    { title: 'The Hydra Dimension', href: 'https://homecoming.wiki/wiki/Tina_Macintyre#The_Hydra_Dimension_(40-45)' },
+  ],
 }

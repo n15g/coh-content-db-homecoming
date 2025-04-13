@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { LauraLockhart } from '../../contact/laura-lockhart'
+import { CollateralDamage } from '../../mission/collateral-damage'
 
 export const WarHero: BadgeData = {
   type: 'achievement',
@@ -13,6 +13,6 @@ export const WarHero: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/war-hero.png',
   requirements: [
-    { key: 'cd', type: 'ARC', missionName: 'Collateral Damage', contactKey: LauraLockhart.key },
+    { key: CollateralDamage.key, type: 'mission', missionKey: CollateralDamage.key },
   ],
 }

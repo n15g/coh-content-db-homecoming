@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Numina } from '../../contact/numina'
+import { NuminaTaskForce } from '../../mission/numina-task-force'
 
 export const NuminasCompatriot: BadgeData = {
   type: 'accomplishment',
@@ -20,6 +20,6 @@ export const NuminasCompatriot: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/numinas-compatriot.png',
   requirements: [
-    { key: 'numina-task-force', type: 'TASK_FORCE', missionName: 'Numina Task Force', contactKey: Numina.key },
+    { key: NuminaTaskForce.key, type: 'mission', missionKey: NuminaTaskForce.key },
   ],
 }

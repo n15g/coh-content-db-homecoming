@@ -11,7 +11,7 @@ export const VolunteerFirefighter: BadgeData = {
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have helped save the people of Paragon City from burning!' },
-    { alignment: 'villain', value: 'You put a stop to the Hellions\' fun with fire.' },
+    { alignment: 'villain', value: `You put a stop to the Hellions' fun with fire.` },
   ],
   acquisition: 'Defeat 10 Hellion Arsonists during a Hellion Arson event.',
   links: [

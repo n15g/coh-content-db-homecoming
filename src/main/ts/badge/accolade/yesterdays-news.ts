@@ -12,7 +12,7 @@ export const YesterdaysNews: BadgeData = {
   key: 'yesterdays-news',
   setTitleId: [533],
   name: [
-    { alignment: 'hero', value: 'Yesterday\'s News' },
+    { alignment: 'hero', value: `Yesterday's News` },
     { alignment: 'villain', value: 'Headline Stealer' },
   ],
   morality: 'villainous',
@@ -22,7 +22,7 @@ export const YesterdaysNews: BadgeData = {
   ],
   effect: `Awards the Stolen Immobilizer Ray power.`,
   links: [
-    { title: 'Yesterday\'s News Badge', href: 'https://homecoming.wiki/wiki/Yesterday%27s_News_Badge' },
+    { title: `Yesterday's News Badge`, href: 'https://homecoming.wiki/wiki/Yesterday%27s_News_Badge' },
     { title: 'Headline Stealer Badge', href: 'https://homecoming.wiki/wiki/Headline_Stealer_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/yesterdays-news.png',

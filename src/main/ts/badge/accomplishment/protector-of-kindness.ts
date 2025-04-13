@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { JustinAugustine } from '../../contact/justin-augustine'
+import { JustinAugustineTaskForce } from '../../mission/justin-augustine-task-force'
 
 export const ProtectorOfKindness: BadgeData = {
   type: 'accomplishment',
@@ -18,6 +18,6 @@ export const ProtectorOfKindness: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/protector-of-kindness.png',
   requirements: [
-    { key: 'jatf', type: 'TASK_FORCE', missionName: 'Justin Augustine Task Force', contactKey: JustinAugustine.key },
+    { key: JustinAugustineTaskForce.key, type: 'mission', missionKey: JustinAugustineTaskForce.key },
   ],
 }

@@ -6,7 +6,7 @@ export const ThePerfectHacker: BadgeData = {
   setTitleId: [2248],
   name: 'The Perfect Hacker',
   morality: 'all',
-  badgeText: 'You performed the role of the Hacker in the Summer Blockbuster \'Casino Heist\' perfectly.',
+  badgeText: `You performed the role of the Hacker in the Summer Blockbuster 'Casino Heist' perfectly.`,
   acquisition: 'In the Summer Blockbuster, perform the role of the Hacker perfectly.',
   notes: `Awarded to all team-members.
 

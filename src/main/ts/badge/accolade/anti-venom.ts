@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { GhostWidow } from '../../contact/ghost-widow'
+import { MysticMayhem } from '../../mission/mystic-mayhem'
 
 export const AntiVenom: BadgeData = {
   type: 'accolade',
@@ -21,6 +21,6 @@ export const AntiVenom: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/anti-venom.png',
   requirements: [
-    { key: 'mystic-mayhem', type: 'ARC', missionName: 'Mystic Mayhem', contactKey: GhostWidow.key },
+    { key: MysticMayhem.key, type: 'mission', missionKey: MysticMayhem.key },
   ],
 }

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MajorRichardFlagg } from '../../contact/major-richard-flagg'
+import { ThirdTerraVoltaRespecificationTrial } from '../../mission/third-terra-volta-respecification-trial'
 
 export const AwardedTheFreedomCross: BadgeData = {
   type: 'accolade',
@@ -18,6 +18,6 @@ export const AwardedTheFreedomCross: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/awarded-the-freedom-cross.png',
   requirements: [
-    { key: 'third-terra-volta-respecification-trial', type: 'TASK_FORCE', missionName: 'Third Terra Volta Respecification Trial', contactKey: MajorRichardFlagg.key },
+    { key: ThirdTerraVoltaRespecificationTrial.key, type: 'mission', missionKey: ThirdTerraVoltaRespecificationTrial.key },
   ],
 }

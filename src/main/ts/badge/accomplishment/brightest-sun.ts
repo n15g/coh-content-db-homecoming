@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { Twinshot } from '../../contact/twinshot'
+import { TheShiningStarsBigLeagues } from '../../mission/the-shining-stars-big-leagues'
 
 export const BrightestSun: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BrightestSun: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/brightest-sun.png',
   requirements: [
-    { key: 'the-shining-stars-big-leagues', type: 'ARC', missionName: 'The Shining Stars - Big Leagues', contactKey: Twinshot.key },
+    { key: TheShiningStarsBigLeagues.key, type: 'mission', missionKey: TheShiningStarsBigLeagues.key },
   ],
 }

@@ -5,6 +5,7 @@ export const Synapse: ContactData = {
   key: 'synapse',
   name: 'Synapse',
   title: 'Task Force Contact',
+  morality: 'heroic',
   location: { zoneKey: SkywayCity.key, coords: [110, -19, -5155.5] },
   levelRange: [15, 20],
   links: [{ title: 'Synapse', href: 'https://homecoming.wiki/wiki/Synapse' }],

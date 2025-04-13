@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { DrKahn } from '../../contact/dr-khan'
+import { DrKahnTaskForce } from '../../mission/dr-kahn-task-force'
 
 export const ColumnBreaker: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const ColumnBreaker: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/column-breaker.png',
   requirements: [
-    { key: 'dr-khan-task-force', type: 'TASK_FORCE', missionName: 'Dr. Khan Task Force', contactKey: DrKahn.key },
+    { key: DrKahnTaskForce.key, type: 'mission', missionKey: DrKahnTaskForce.key },
   ],
 }

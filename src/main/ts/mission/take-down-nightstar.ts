@@ -8,5 +8,7 @@ export const TakeDownNightstar: MissionData = {
   morality: 'heroic',
   contactKeys: MariaJenkins.key,
   levelRange: [45, 50],
-  links: [{ title: 'Take down Nightstar', href: 'https://homecoming.wiki/wiki/Maria_Jenkins#Take_down_Nightstar' }],
+  links: [
+    { title: 'Take down Nightstar', href: 'https://homecoming.wiki/wiki/Maria_Jenkins#Take_down_Nightstar' },
+  ],
 }

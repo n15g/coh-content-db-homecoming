@@ -6,6 +6,7 @@ export const LordSchweinzer: ContactData = {
   key: 'lord-schweinzer',
   name: 'Lord Schweinzer',
   title: 'Mayhem Deviser',
+  morality: 'villainous',
   location: { zoneKey: PortOakes.key, coords: [399.8, 126.5, -2496.7] },
   levelRange: [10, 50],
   links: [{ title: 'Lord Schweinzer', href: 'https://homecoming.wiki/wiki/Lord_Schweinzer' }],

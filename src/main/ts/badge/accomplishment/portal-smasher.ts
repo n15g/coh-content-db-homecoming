@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { DrQuaterfield } from '../../contact/dr-quaterfield'
+import { DrQuaterfieldTaskForce } from '../../mission/dr-quaterfield-task-force'
 
 export const PortalSmasher: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const PortalSmasher: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/portal-smasher.png',
   requirements: [
-    { key: 'dqtf', type: 'TASK_FORCE', missionName: 'Dr. Quaterfield Task Force', contactKey: DrQuaterfield.key },
+    { key: DrQuaterfieldTaskForce.key, type: 'mission', missionKey: DrQuaterfieldTaskForce.key },
   ],
 }

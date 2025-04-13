@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { ErnestoHess } from '../../contact/ernesto-hess'
+import { ErnestoHessTaskForce } from '../../mission/ernesto-hess-task-force'
 
 export const BurkholdersBane: BadgeData = {
   type: 'accomplishment',
@@ -13,6 +13,6 @@ export const BurkholdersBane: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/burkholders-bane.png',
   requirements: [
-    { key: 'ernesto-hess-task-force', type: 'TASK_FORCE', missionName: 'Ernesto Hess Task Force', contactKey: ErnestoHess.key },
+    { key: ErnestoHessTaskForce.key, type: 'mission', missionKey: ErnestoHessTaskForce.key },
   ],
 }

@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { MortimerKal } from '../../contact/mortimer-kal'
+import { MortimerKalStrikeForce } from '../../mission/mortimer-kal-strike-force'
 
 export const FlamesOfPrometheus: BadgeData = {
   type: 'accolade',
@@ -17,7 +17,7 @@ export const FlamesOfPrometheus: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/flames-of-prometheus.png',
   requirements: [
-    { key: 'mortimer-kal-strike-force', type: 'TASK_FORCE', missionName: 'Mortimer Kal Strike Force', contactKey: MortimerKal.key },
+    { key: MortimerKalStrikeForce.key, type: 'mission', missionKey: MortimerKalStrikeForce.key },
   ],
   ignoreInTotals: true,
 }

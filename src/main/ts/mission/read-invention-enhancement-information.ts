@@ -8,5 +8,7 @@ export const ReadInventionEnhancementInformation: MissionData = {
   morality: 'villainous',
   contactKeys: JamesBright.key,
   levelRange: [10, 50],
-  links: [{ title: 'Read Invention Enhancement Information', href: 'https://homecoming.wiki/wiki/James_Bright#Read_Invention_Enhancement_Information' }],
+  links: [
+    { title: 'Read Invention Enhancement Information', href: 'https://homecoming.wiki/wiki/James_Bright#Read_Invention_Enhancement_Information' },
+  ],
 }

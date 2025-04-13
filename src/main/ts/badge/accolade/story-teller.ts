@@ -1,8 +1,9 @@
-import { BadgeData } from 'coh-content-db'
-import { GordonBower } from '../../contact/gordon-bower'
-import { SkipperLeGrange } from '../../contact/skipper-legrange'
-import { KellyNemmers } from '../../contact/kelly-nemmers'
-import { BuckSalinger } from '../../contact/buck-salinger'
+import { BadgeData, zoneLink } from 'coh-content-db'
+import { Croatoa } from '../../zone/croatoa'
+import { PiercingTheVeil } from '../../mission/piercing-the-veil'
+import { TheWarOfTheFirBolg } from '../../mission/the-war-of-the-fir-bolg'
+import { HatredsHungryHeart } from '../../mission/hatreds-hungry-heart'
+import { CrossingOver } from '../../mission/crossing-over'
 
 export const StoryTeller: BadgeData = {
   type: 'accolade',
@@ -11,15 +12,15 @@ export const StoryTeller: BadgeData = {
   name: 'Story Teller',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Croatoa.`,
-  effect: `Awards 20 reward merits.`,
+  acquisition: `Complete every story arc within ${zoneLink(Croatoa)}.`,
   links: [
     { title: 'Story Teller Badge', href: 'https://homecoming.wiki/wiki/Story_Teller_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/storyarc-acc-vara-h.png',
   requirements: [
-    { key: 'piercing-the-veil', type: 'ARC', missionName: 'Piercing the Veil', contactKey: GordonBower.key },
-    { key: 'the-war-of-the-fir-bolg', type: 'ARC', missionName: 'The War of the Fir Bolg', contactKey: SkipperLeGrange.key },
-    { key: 'hatreds-hungry-heart', type: 'ARC', missionName: `Hatred's Hungry Heart`, contactKey: KellyNemmers.key },
-    { key: 'crossing-over', type: 'ARC', missionName: `Crossing Over`, contactKey: BuckSalinger.key },
+    { key: PiercingTheVeil.key, type: 'mission', missionKey: PiercingTheVeil.key },
+    { key: TheWarOfTheFirBolg.key, type: 'mission', missionKey: TheWarOfTheFirBolg.key },
+    { key: HatredsHungryHeart.key, type: 'mission', missionKey: HatredsHungryHeart.key },
+    { key: CrossingOver.key, type: 'mission', missionKey: CrossingOver.key },
   ],
 }

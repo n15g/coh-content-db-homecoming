@@ -7,7 +7,7 @@ export const Cog: BadgeData = {
   setTitleId: [476],
   name: 'Cog',
   morality: 'all',
-  badgeText: 'It doesn\'t take much to make these machines fight for you.',
+  badgeText: `It doesn't take much to make these machines fight for you.`,
   links: [
     { title: 'Cog Badge', href: 'https://homecoming.wiki/wiki/Cog_Badge' },
   ],
