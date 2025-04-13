@@ -28,6 +28,9 @@
     "@stylistic/eslint-plugin": "^3.1.0",
     "@stylistic/eslint-plugin-ts": "^3.1.0",
     "@types/jest": "^29.5.14",
+    "@types/valid-url": "^1.0.7",
+    "@typescript-eslint/rule-tester": "^8.29.0",
+    "@typescript-eslint/utils": "^8.29.0",
     "efate": "^1.5.1",
     "eslint": "^9.20.0",
     "eslint-plugin-unicorn": "^56.0.1",
@@ -37,11 +40,14 @@
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.2.0",
     "ts-jest": "^29.2.5",
+    "ts-mockito": "^2.6.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.0"
+    "typescript-eslint": "^8.24.0",
+    "valid-url": "^1.0.9"
   },
   "dependencies": {
-    "coh-content-db": "^2.0.0-rc.5"
+    "coh-content-db": "^2.0.0-rc.7"
   },
   "engines": {
     "node": ">=22"
