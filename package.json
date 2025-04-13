@@ -47,7 +47,7 @@
     "valid-url": "^1.0.9"
   },
   "dependencies": {
-    "coh-content-db": "^2.0.0-rc.6"
+    "coh-content-db": "^2.0.0-rc.7"
   },
   "engines": {
     "node": ">=22"
