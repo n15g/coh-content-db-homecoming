@@ -78,4 +78,8 @@ describe('isValidProtocol', () => {
   test('should return false for badge', () => {
     expect(isValidProtocol('unknown://badge-key')).toBe(false)
   })
+
+  test('should return false for not a url', () => {
+    expect(isValidProtocol('XXX')).toBe(false)
+  })
 })

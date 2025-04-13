@@ -31,14 +31,14 @@ ruleTester.run('should mark', noInvalidHrefProtocol, {
       name: 'http href',
       code: `const x = { href: 'http://nouri.com/foo/bar' }`,
       errors: [
-        { messageId: 'error', data: { protocol: 'http:' } },
+        { messageId: 'error' },
       ],
     },
     {
       name: 'unknown protocol',
       code: `const x = { href: 'unknown://nouri.com/foo/bar' }`,
       errors: [
-        { messageId: 'error', data: { protocol: 'unknown:' } },
+        { messageId: 'error' },
       ],
     },
   ],

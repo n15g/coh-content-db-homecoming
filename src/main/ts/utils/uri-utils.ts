@@ -7,5 +7,9 @@ export function isValidUrl(input: string): boolean {
 }
 
 export function isValidProtocol(input: string): boolean {
-  return SUPPORTED_PROTOCOLS.has(new URL(input).protocol)
+  try {
+    return SUPPORTED_PROTOCOLS.has(new URL(input).protocol)
+  } catch {
+    return false
+  }
 }

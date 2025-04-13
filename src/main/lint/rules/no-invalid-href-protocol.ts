@@ -10,7 +10,7 @@ export const noInvalidHrefProtocol = createRule({
       description: 'Detects urls containing invalid protocols.',
     },
     messages: {
-      error: `'{{ protocol}}' protocol is not allowed.`,
+      error: `Protocol is not allowed.`,
     },
     type: 'problem',
     schema: [],
@@ -30,7 +30,6 @@ export const noInvalidHrefProtocol = createRule({
         context.report({
           node: hrefProp.value,
           messageId: 'error',
-          data: { protocol: new URL(hrefText).protocol },
         })
       },
     }
