@@ -44,6 +44,17 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: Prepare Pages Artifact
+        run: |
+          mkdir -p pages
+          cp -r src/main/resources/* pages/
+          cp dist/bundle.json pages/
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages/
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
@@ -65,17 +76,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Prepare Pages Artifact
-        run: |
-          mkdir -p pages
-          cp -r src/main/resources/* pages/
-          cp dist/bundle.json pages/
-
-      - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: pages/
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
