@@ -1,10 +1,10 @@
 name: Release
-on:
-  push:
-    tags:
-      - "v*.*.*"
+on: [ push ]
+#  push:
+#    tags:
+#      - "v*.*.*"
 jobs:
-  Checkout:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -33,11 +33,27 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+#      - name: Upload NPM Artifact
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: 'dist'
+#          path: 'dist'
+#
+#      - name: Publish NPM
+#        run: npm publish --provenance --access public
+#        env:
+#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Prepare Pages Artifact
+        run: |
+          mkdir -p pages
+          cp -r src/main/resources/* pages/
+          cp dist/bundle.json pages/
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: 'dist'
-          path: 'dist'
+          path: pages/
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
@@ -46,7 +62,20 @@ jobs:
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           files: 'dist/*'
 
-      - name: Publish
-        run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  pages:
+    needs: 'build'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
