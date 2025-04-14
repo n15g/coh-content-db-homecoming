@@ -32,7 +32,7 @@ export default [{
 function exportBundleJson() {
   return {
     name: 'write-json',
-    async 'buildEnd'() {
+    async 'writeBundle'() {
       const bundle = await import(`./dist/${name}.mjs`)
       const bundlePath = path.resolve('dist', 'bundle.json')
       // noinspection JSUnresolvedReference
