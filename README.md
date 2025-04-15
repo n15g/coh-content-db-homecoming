@@ -16,7 +16,8 @@ Initialize a database with the homecoming data pack:
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from 'coh-content-db-homecoming'
 
-const database = new CohContentDatabase(HOMECOMING)
+const database = new CohContentDatabase()
+database.load(HOMECOMING)
 ```
 
 # Development

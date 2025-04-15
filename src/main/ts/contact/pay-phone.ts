@@ -6,7 +6,7 @@ export const PayPhone: ContactData = {
   name: 'Pay Phone',
   title: 'Outdated Tech',
   morality: 'primal',
-  location: { zoneKey: RiktiWarZone.key, coords: [3229.5, -0, -513] },
+  location: { zoneKey: RiktiWarZone.key, coords: [3229.5, 0, -513] },
   levelRange: [40, 50],
   links: [{ title: 'Pay Phone', href: 'https://homecoming.wiki/wiki/Pay_Phone' }],
 }

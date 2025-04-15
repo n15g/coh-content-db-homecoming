@@ -1,14 +1,15 @@
+import { isValidProtocol, isValidUrl } from '../../main/ts/utils/uri-utils'
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../../main/ts'
-import { isValidProtocol, isValidUrl } from '../../main/ts/utils/uri-utils'
 
-const database = new CohContentDatabase(HOMECOMING)
+const TEST_DATABASE = new CohContentDatabase()
+TEST_DATABASE.load(HOMECOMING)
 
 describe('Metadata', () => {
   test('should not contain any http links', () => {
     const errors: string[] = []
 
-    for (const link of database.metadata.links) {
+    for (const link of TEST_DATABASE.header?.links ?? []) {
       if (new URL(link.href).protocol === 'http:') errors.push(`metadata.links['${link.title}'] contains an insecure (http) link.`)
     }
 
@@ -20,7 +21,7 @@ describe('Metadata', () => {
   test('should not contain any unsupported protocols', () => {
     const errors: string[] = []
 
-    for (const link of database.metadata.links) {
+    for (const link of TEST_DATABASE.header?.links ?? []) {
       if (!isValidProtocol(link.href)) errors.push(`metadata.links['${link.href}'] contains an unsupported protocol.`)
     }
 
@@ -32,7 +33,7 @@ describe('Metadata', () => {
   test('should be URL encoded', () => {
     const errors: string[] = []
 
-    for (const link of database.metadata.links) {
+    for (const link of TEST_DATABASE.header?.links ?? []) {
       if (new URL(link.href).protocol === 'http:') errors.push(`metadata.links['${link.title}'] contains an insecure (http) link.`)
       if (!isValidUrl(link.href)) errors.push(`metadata.links['${link.href}'] contains an unsafe URL character`)
     }
@@ -48,7 +49,7 @@ describe('Badge', () => {
     test('should not contain any http links', () => {
       const errors: string[] = []
 
-      for (const badge of database.badges) {
+      for (const badge of TEST_DATABASE.badges) {
         for (const link of badge.links) {
           if (new URL(link.href).protocol === 'http:') errors.push(`['${badge.key}'].links['${link.title}'] contains an insecure (http) link.`)
         }
@@ -68,7 +69,7 @@ describe('Badge', () => {
     test('should not contain any unsupported protocols', () => {
       const errors: string[] = []
 
-      for (const badge of database.badges) {
+      for (const badge of TEST_DATABASE.badges) {
         for (const link of badge.links) {
           if (!isValidProtocol(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsupported protocol.`)
         }
@@ -88,7 +89,7 @@ describe('Badge', () => {
     test('should be URL encoded', () => {
       const errors: string[] = []
 
-      for (const badge of database.badges) {
+      for (const badge of TEST_DATABASE.badges) {
         for (const link of badge.links) {
           if (!isValidUrl(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsafe URL character.`)
         }
@@ -111,7 +112,7 @@ describe('Contact', () => {
   test('should not contain any http links', () => {
     const errors: string[] = []
 
-    for (const contact of database.contacts) {
+    for (const contact of TEST_DATABASE.contacts) {
       for (const link of contact.links) {
         if (new URL(link.href).protocol === 'http:') errors.push(`['${contact.key}'].links['${link.title}'] contains an insecure (http) link.`)
       }
@@ -125,7 +126,7 @@ describe('Contact', () => {
   test('should not contain any http links', () => {
     const errors: string[] = []
 
-    for (const contact of database.contacts) {
+    for (const contact of TEST_DATABASE.contacts) {
       for (const link of contact.links) {
         if (!isValidProtocol(link.href)) errors.push(`links['${link.href}'] contains an unsupported protocol.`)
       }
@@ -139,7 +140,7 @@ describe('Contact', () => {
   test('should be URL encoded', () => {
     const errors: string[] = []
 
-    for (const contact of database.contacts) {
+    for (const contact of TEST_DATABASE.contacts) {
       for (const link of contact.links) {
         if (!isValidUrl(link.href)) errors.push(`['${contact.key}'].links['${link.href}'] contains an unsafe URL character.`)
       }
@@ -155,7 +156,7 @@ describe('Zone', () => {
   test('should not contain any http links', () => {
     const errors: string[] = []
 
-    for (const zone of database.zones) {
+    for (const zone of TEST_DATABASE.zones) {
       for (const link of zone.links) {
         if (new URL(link.href).protocol === 'http:') errors.push(`['${zone.key}'].links['${link.href}'] contains an insecure (http) link.`)
       }
@@ -169,7 +170,7 @@ describe('Zone', () => {
   test('should not contain any unsupported protocols', () => {
     const errors: string[] = []
 
-    for (const zone of database.zones) {
+    for (const zone of TEST_DATABASE.zones) {
       for (const link of zone.links) {
         if (!isValidUrl(link.href)) errors.push(`['${zone.key}'].links['${link.href}'] contains an unsafe URL character.`)
       }
@@ -183,7 +184,7 @@ describe('Zone', () => {
   test('should be URL encoded', () => {
     const errors: string[] = []
 
-    for (const zone of database.zones) {
+    for (const zone of TEST_DATABASE.zones) {
       for (const link of zone.links) {
         if (!isValidUrl(link.href)) errors.push(`['${zone.key}'].links['${link.href}'] contains an unsafe URL character`)
       }

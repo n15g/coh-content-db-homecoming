@@ -1,18 +1,22 @@
-import { ContentBundle } from 'coh-content-db'
+import { BundleData } from 'coh-content-db'
 import { ZONES } from './zone/_zones'
 import { BADGES } from './badge/_badges'
-import { CHANGELOG } from './changelog'
 import { CONTACTS } from './contact/_contacts'
 import { MISSIONS } from './mission/_missions'
+import { BUNDLE_VERSION } from '../lint/utils/bundle-version'
 
-export const HOMECOMING: ContentBundle = {
-  name: 'Homecoming',
-  description: 'City of Heroes: Homecoming',
-  links: [
-    { title: 'Forums', href: 'https://forums.homecomingservers.com/' },
-  ],
+export const HOMECOMING: BundleData = {
+  header: {
+    name: 'Homecoming',
+    description: 'Content data for the CoH: Homecoming server.',
+    repositoryUrl: 'https://github.com/n15g/coh-content-db-homecoming',
+    changelogUrl: 'https://github.com/n15g/coh-content-db-homecoming/blob/master/CHANGELOG.md',
+    links: [
+      { title: 'Homecoming Forums', href: 'https://forums.homecomingservers.com/' },
+    ],
+    version: BUNDLE_VERSION,
+  },
   servers: ['Everlasting', 'Excelsior', 'Indomitable', 'Reunion', 'Torchbearer', 'Victory'],
-  repository: 'https://github.com/n15g/coh-content-db-homecoming',
   archetypes: [
     { key: 'arachnos-soldier', name: 'Arachnos Soldier' },
     { key: 'arachnos-widow', name: 'Arachnos Widow' },
@@ -34,5 +38,4 @@ export const HOMECOMING: ContentBundle = {
   contacts: [...CONTACTS],
   missions: [...MISSIONS],
   badges: [...BADGES],
-  changelog: CHANGELOG,
 }

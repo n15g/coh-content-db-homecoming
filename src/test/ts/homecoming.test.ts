@@ -1,6 +1,6 @@
 import * as homecoming from '../../main/ts/homecoming'
 import { HOMECOMING } from '../../main/ts'
-import { CohContentDatabase } from 'coh-content-db'
+import { BundleData, CohContentDatabase } from 'coh-content-db'
 
 describe('HOMECOMING', () => {
   test('should be defined', () => {
@@ -12,6 +12,24 @@ describe('HOMECOMING', () => {
   })
 
   test('should load into the db correctly', () => {
-    new CohContentDatabase(HOMECOMING)
+    const database = new CohContentDatabase()
+    database.load(HOMECOMING)
+
+    expect(database.header?.name).toBe('Homecoming')
+    expect(database.getBadge('received-the-atlas-medallion')?.type).toBe('accolade')
+  })
+
+  test('should support export and import via JSON', () => {
+    const jsonString = JSON.stringify(HOMECOMING)
+
+    expect(jsonString).not.toBeUndefined()
+
+    const fromJson = JSON.parse(jsonString) as BundleData
+    expect(fromJson).toStrictEqual(HOMECOMING)
+
+    const database = new CohContentDatabase()
+    database.load(fromJson)
+    expect(database.header?.name).toBe('Homecoming')
+    expect(database.getBadge('received-the-atlas-medallion')?.type).toBe('accolade')
   })
 })

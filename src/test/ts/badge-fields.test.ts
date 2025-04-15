@@ -1,14 +1,15 @@
+import { BADGES } from '../../main/ts/badge/_badges'
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../../main/ts'
-import { BADGES } from '../../main/ts/badge/_badges'
 
-const database = new CohContentDatabase(HOMECOMING)
+const TEST_DATABASE = new CohContentDatabase()
+TEST_DATABASE.load(HOMECOMING)
 
 describe('Badge Fields', () => {
   test('should have at least an acquisition or explicit requirements', () => {
     const errors: string[] = []
 
-    for (const badge of database.badges) {
+    for (const badge of TEST_DATABASE.badges) {
       if (!badge?.acquisition && !badge.requirements?.length) errors.push(`['${badge.key}'] lacks an acquisition, requirements or location.`)
     }
 
@@ -49,7 +50,7 @@ describe('Badge Fields', () => {
     test('should end with a period', () => {
       const errors: string[] = []
 
-      for (const badge of database.badges) {
+      for (const badge of TEST_DATABASE.badges) {
         if (badge.acquisition && !badge?.acquisition?.endsWith('.')) errors.push(`['${badge.key}'].acquisition does not end with a period.`)
       }
 
@@ -63,7 +64,7 @@ describe('Badge Fields', () => {
     test('should end with a period', () => {
       const errors: string[] = []
 
-      for (const badge of database.badges) {
+      for (const badge of TEST_DATABASE.badges) {
         if (badge.effect && !badge?.effect?.endsWith('.')) errors.push(`['${badge.key}'].effect does not end with a period.`)
       }
 
@@ -75,7 +76,7 @@ describe('Badge Fields', () => {
     test(`should start with 'Awards' or 'Unlocks'`, () => {
       const errors: string[] = []
 
-      for (const badge of database.badges) {
+      for (const badge of TEST_DATABASE.badges) {
         if (badge.effect && !badge?.effect?.startsWith('Awards') && !badge?.effect.startsWith('Unlocks')) errors.push(`['${badge.key}'].effect does not start with 'Awards' or 'Unlocks'.`)
       }
 
@@ -89,7 +90,7 @@ describe('Badge Fields', () => {
     test('should not contain any http links', () => {
       const errors: string[] = []
 
-      for (const badge of database.badges) {
+      for (const badge of TEST_DATABASE.badges) {
         for (const icon of badge.icon.canonical) {
           if (new URL(icon.value).protocol === 'http:') errors.push(`['${badge.key}'].links['${icon.value}'] contains an insecure (http) link.`)
         }
