@@ -48,6 +48,7 @@ jobs:
         run: |
           mkdir -p pages
           cp -r src/main/resources/* pages/
+          cp dist/bundle.head.json pages/
           cp dist/bundle.json pages/
 
       - name: Upload Pages Artifact
