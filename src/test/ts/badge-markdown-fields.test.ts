@@ -1,8 +1,7 @@
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../../main/ts'
 
-const TEST_DATABASE = new CohContentDatabase()
-TEST_DATABASE.load(HOMECOMING)
+const TEST_DATABASE = new CohContentDatabase(HOMECOMING)
 
 const LINK_PATTERN = /\((badge|zone|contact|mission):\/\/([^)]*)\)/g
 

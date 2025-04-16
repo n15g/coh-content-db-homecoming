@@ -16,8 +16,18 @@ Initialize a database with the homecoming data pack:
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from 'coh-content-db-homecoming'
 
-const database = new CohContentDatabase()
-database.load(HOMECOMING)
+const database = new CohContentDatabase(HOMECOMING)
+```
+
+or from the published JSON:
+
+```typescript
+import { BundleData, CohContentDatabase } from 'coh-content-db'
+
+const response = await fetch('https://n15g.github.io/coh-content-db-homecoming/bundle.json')
+const bundle = await response.json() as BundleData
+
+const database = new CohContentDatabase(bundle)
 ```
 
 # Development

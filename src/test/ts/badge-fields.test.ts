@@ -2,8 +2,7 @@ import { BADGES } from '../../main/ts/badge/_badges'
 import { CohContentDatabase } from 'coh-content-db'
 import { HOMECOMING } from '../../main/ts'
 
-const TEST_DATABASE = new CohContentDatabase()
-TEST_DATABASE.load(HOMECOMING)
+const TEST_DATABASE = new CohContentDatabase(HOMECOMING)
 
 describe('Badge Fields', () => {
   test('should have at least an acquisition or explicit requirements', () => {

@@ -12,8 +12,7 @@ describe('HOMECOMING', () => {
   })
 
   test('should load into the db correctly', () => {
-    const database = new CohContentDatabase()
-    database.load(HOMECOMING)
+    const database = new CohContentDatabase(HOMECOMING)
 
     expect(database.header?.name).toBe('Homecoming')
     expect(database.getBadge('received-the-atlas-medallion')?.type).toBe('accolade')
@@ -27,8 +26,7 @@ describe('HOMECOMING', () => {
     const fromJson = JSON.parse(jsonString) as BundleData
     expect(fromJson).toStrictEqual(HOMECOMING)
 
-    const database = new CohContentDatabase()
-    database.load(fromJson)
+    const database = new CohContentDatabase(fromJson)
     expect(database.header?.name).toBe('Homecoming')
     expect(database.getBadge('received-the-atlas-medallion')?.type).toBe('accolade')
   })
