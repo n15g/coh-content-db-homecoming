@@ -1,6 +1,6 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import { BadgeData } from "coh-content-db";
 
-export const Cheers: IBadgeData = {
+export const Cheers: BadgeData = {
     type: 'event',
     key: "cheers",
     setTitleId: [2552],
