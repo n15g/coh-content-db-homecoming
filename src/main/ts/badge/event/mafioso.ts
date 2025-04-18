@@ -1,4 +1,4 @@
-import { BadgeData } from "coh-content-db";
+import { BadgeData } from 'coh-content-db'
 
 export const Mafioso: BadgeData = {
     type: 'event',
