@@ -223,5 +223,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* Added [Victory] server.\n",
         "1.4.3":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/173 - Typo correction for [Down In Front].\n",
+        "1.4.4":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/176 - 2025 Anniversary event update.\n",
     };
 }

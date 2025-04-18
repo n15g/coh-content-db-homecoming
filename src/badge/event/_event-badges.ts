@@ -102,6 +102,9 @@ import {ChaosSpiel} from "./chaos-spiel";
 import {DownInFront} from "./down-in-front";
 import {Officiator} from "./officiator";
 import {WeddingCrasher} from "./wedding-crasher";
+import { Cheers } from './cheers'
+import { Mafioso } from './mafioso'
+import { SkullKiller } from './skull-killer'
 
 
 
@@ -127,8 +130,11 @@ export const EventBadges: IBadgeData[] = [
     Unforgettable,
     Reunited,
     TimeKeeper,
+    Cheers,
     Gardener,
     ZetaReticulan,
+    Mafioso,
+    SkullKiller,
     Pursuer,
     HallowSpirit,
     IronWarrior,
