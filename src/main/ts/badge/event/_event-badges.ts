@@ -103,7 +103,7 @@ import { DownInFront } from './down-in-front'
 import { Officiator } from './officiator'
 import { WeddingCrasher } from './wedding-crasher'
 import { Cheers } from './cheers'
-import { Mafioso } from './Mafioso'
+import { Mafioso } from './mafioso'
 import { SkullKiller } from './skull-killer'
 
 export const EVENT_BADGES: BadgeData[] = [
