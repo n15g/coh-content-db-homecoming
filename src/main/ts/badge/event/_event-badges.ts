@@ -132,7 +132,7 @@ export const EVENT_BADGES: BadgeData[] = [
   Gardener,
   ZetaReticulan,
   Mafioso,
-  SkullKiller
+  SkullKiller,
   Pursuer,
   HallowSpirit,
   IronWarrior,
