@@ -1,16 +1,13 @@
-import {ALIGNMENT_ANY, BadgeType, IBadgeData} from "coh-content-db";
+import { BadgeData } from "coh-content-db";
 
-export const SkullKiller: IBadgeData = {
-    type: BadgeType.EVENT,
-    key: "skull-killer",
-    setTitleId: 2554,
-    names: [
-        {value: "Skull Killer"},
+export const SkullKiller: BadgeData = {
+    type: 'event',
+    key: 'skull-killer',
+    setTitleId: p2554],
+    name: 'Skull Killer',
     ],
-    alignment: ALIGNMENT_ANY,
-    badgeText: [
-        {value: `You've relived the past by defeating 25 of the old school Skulls found during the City of Heroes Anniversary Event.`},
-    ],
+    morality: 'all',
+    badgeText: `You've relived the past by defeating 25 of the old school Skulls found during the City of Heroes Anniversary Event.`,
     acquisition: `Defeat 25 old school Skulls spawned from time capsules during the anniversary event.`,
     links: [
         {title: "Skull Killer Badge", href: "https://homecoming.wiki/wiki/Skull_Killer_Badge"}
