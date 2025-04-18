@@ -1,6 +1,6 @@
 import { BadgeData, badgeLink } from 'coh-content-db'
 
-export const ChaosSpiel: BadgeData = {
+export const Mafioso: BadgeData = {
   type: 'event',
   key: 'mafioso',
   setTitleId: [2553],
