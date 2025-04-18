@@ -128,7 +128,7 @@ export const EVENT_BADGES: BadgeData[] = [
   Unforgettable,
   Reunited,
   TimeKeeper,
-  Cheers, 
+  Cheers,
   Gardener,
   ZetaReticulan,
   Mafioso,
