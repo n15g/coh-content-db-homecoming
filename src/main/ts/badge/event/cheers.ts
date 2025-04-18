@@ -1,4 +1,4 @@
-import { BadgeData } from "coh-content-db";
+import { BadgeData } from 'coh-content-db'
 
 export const Cheers: BadgeData = {
     type: 'event',
