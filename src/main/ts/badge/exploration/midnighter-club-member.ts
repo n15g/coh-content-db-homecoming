@@ -6,6 +6,7 @@ export const MidnighterClubMember: BadgeData = {
   key: 'midnighter-club-member',
   setTitleId: [992],
   name: 'Midnighter Club Member',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Within these walls rests the greatest minds of mystic, occult, and arcane magics.',
   notes: 'Located just inside the circular chamber at the North end of the Midnighter Club between the inner columns.',

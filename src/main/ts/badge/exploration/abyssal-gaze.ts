@@ -6,6 +6,7 @@ export const AbyssalGaze: BadgeData = {
   key: 'abyssal-gaze',
   setTitleId: [1867],
   name: 'Abyssal Gaze',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `A yawning void opens before you, a testament to Hamidon's power, but you are unmoved. You have seen true darkness first hand and it has not kept you from pressing onward.
 You carry enough darkness within you and it's going to take a lot more than a big hole in the ground to impress you.

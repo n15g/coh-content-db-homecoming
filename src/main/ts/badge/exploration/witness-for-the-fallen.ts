@@ -6,6 +6,7 @@ export const WitnessForTheFallen: BadgeData = {
   key: 'witness-for-the-fallen',
   setTitleId: [2055],
   name: 'Witness for the Fallen',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The first statue ever erected in honor of Marcus Cole now stands as a mute reminder of what was lost when the Devouring Earth attacked First Ward.
 The ossified tendrils of Hamidon coil about it, but never reach it as though checked by Cole's majesty, or so his loyalists would like to think.

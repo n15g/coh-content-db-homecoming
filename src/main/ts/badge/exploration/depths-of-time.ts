@@ -6,6 +6,7 @@ export const DepthsOfTime: BadgeData = {
   key: 'depths-of-time',
   setTitleId: [990],
   name: 'Depths of Time',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have traveled back in time to the Roman era. Here is the origins of all you have come to understand as heroic and villainous.`,
   notes: 'Located next to the fountain in the central square, just in front of Marcus Valerius.',

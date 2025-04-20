@@ -8,6 +8,7 @@ export const LordOfWinter: BadgeData = {
     { sex: 'M', value: 'Lord of Winter' },
     { sex: 'F', value: 'Lady of Winter' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You helped thwart Lord Winter's scheme to turn Paragon City into an icy wasteland.` },

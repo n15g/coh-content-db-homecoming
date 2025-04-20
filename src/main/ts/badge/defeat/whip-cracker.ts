@@ -5,6 +5,7 @@ export const WhipCracker: BadgeData = {
   key: 'whip-cracker',
   setTitleId: [1436],
   name: 'Whip Cracker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You defeated Desdemona and her demons, however you saw a glimmer of good within her heart. Perhaps there's hope for her yet.` },

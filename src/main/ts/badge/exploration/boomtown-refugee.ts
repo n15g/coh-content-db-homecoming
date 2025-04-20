@@ -6,6 +6,7 @@ export const BoomtownRefugee: BadgeData = {
   key: 'boomtown-refugee',
   setTitleId: [1821],
   name: 'Boomtown Refugee',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The destruction of Baumton was a nightmare. Out of fear and desperation hundreds of its citizens fled into the relative safety of the Sewer Network.
 Through the grime and muck you can catch evidence of this perilous journey: discarded food packets and clothes, scratched messages left for loved-ones who didn't make it, crude drawings etched into

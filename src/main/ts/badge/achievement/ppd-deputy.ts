@@ -8,6 +8,7 @@ export const PPDDeputy: BadgeData = {
     { alignment: 'hero', value: 'PPD Deputy' },
     { alignment: 'villain', value: 'Disgraced Deputy' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Paragon Police officials have deputized you for rescuing several of their officers.' },

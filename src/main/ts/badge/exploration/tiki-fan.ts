@@ -6,6 +6,7 @@ export const TikiFan: BadgeData = {
   key: 'tiki-fan',
   setTitleId: [1485],
   name: 'Tiki Fan',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Larry's Tiki Lounge is known for its gambling, drinks, fun, and Tikis. And also for the occasional invasion by giant snake monsters.`,
   notes: `Located in the Mercy neighborhood, directly in front of Larry's Tiki Lounge 133 yards SE of the neighborhood marker.`,

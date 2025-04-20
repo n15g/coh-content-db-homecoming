@@ -5,6 +5,7 @@ export const TripleThreat: BadgeData = {
   key: 'triple-threat',
   setTitleId: [2221],
   name: 'Triple Threat',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `While one Praetor is a challenge for the most potent of superpowers, you and your league masterfully tackled a group of three with startling simultaneity! You are henceforth known as a Triple Threat.`,
   acquisition: `Defeat all three Archvillains during the Battle Royale stage of the Magisterium Trial within 5 seconds of the first one's defeat.`,

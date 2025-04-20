@@ -6,6 +6,7 @@ export const MayhemsCreator: BadgeData = {
   key: 'mayhems-creator',
   setTitleId: [2260],
   name: `Mayhem's Creator`,
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You were personally responsible for the creation of a new villainess, Penelope Mayhem. What she will do now is anyone's guess.`,
   acquisition: 'Complete the third story arc from Mr. G (Primal Earth).',

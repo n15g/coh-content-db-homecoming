@@ -5,6 +5,7 @@ export const Blindsider: BadgeData = {
   key: 'blindsider',
   setTitleId: [1468],
   name: 'Blindsider',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Seers never saw you coming! You defeated plenty of Seers to earn this badge.',
   acquisition: 'Defeat 100 points worth of Seers.',

@@ -5,6 +5,7 @@ export const Villainous: BadgeData = {
   key: 'villainous',
   setTitleId: [1222],
   name: 'Villainous',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've earned the "Villainous" badge by playing an Architect mission marked as Villainous content.`,
   acquisition: 'Complete one Mission Architect arc marked as Villainous content.',

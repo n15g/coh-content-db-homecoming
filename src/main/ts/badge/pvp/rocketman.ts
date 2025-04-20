@@ -8,6 +8,7 @@ export const Rocketman: BadgeData = {
     { sex: 'M', value: 'Rocketman' },
     { sex: 'F', value: 'Rocketwoman' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Supergroups everywhere quake in fear when you enter Warburg. You've launched the Warburg Rocket ten times.`,
   acquisition: 'Launch the Warburg rocket ten times.',

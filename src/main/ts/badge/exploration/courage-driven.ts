@@ -10,6 +10,7 @@ export const CourageDriven: BadgeData = {
     { alignment: 'hero', value: 'Courage Driven' },
     { alignment: 'villain', value: 'Rage Driven' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The major highway that runs alongside this warehouse is frequently used by the "Dyne-addled" Supa-Trolls.',
   notes: `Located just north of the entrance door of the southeastern warehouse building, just next to a delivery truck with a bronze colored cab.

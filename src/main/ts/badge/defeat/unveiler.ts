@@ -5,6 +5,7 @@ export const Unveiler: BadgeData = {
   key: 'unveiler',
   setTitleId: [47],
   name: 'Unveiler',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have shown great endurance in tackling the Fake Nemesis robots time and time again in your search for the real Nemesis.',
   acquisition: 'Defeat 100 Fake Nemesis robots.',

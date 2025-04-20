@@ -5,6 +5,7 @@ export const SwiftSteel: BadgeData = {
   key: 'swift-steel',
   setTitleId: [494],
   name: 'Swift Steel',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Obedience is a virtue.',
   acquisition: 'Defeat 300 Ancestor Spirits (Tsoo).',

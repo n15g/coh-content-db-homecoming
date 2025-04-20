@@ -6,6 +6,7 @@ export const ShardLeaper: BadgeData = {
   key: 'shard-leaper',
   setTitleId: [1804],
   name: 'Shard Leaper',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `It is an odd coincidence that the soldiers manning Point Sierra are composed of units drawn from Mountaineering Corps.
 One of the ways by which they welcome new recruits to their station is to take a "hop" over to the neighboring shard for a quick strike-and-fade attack against the enemy.

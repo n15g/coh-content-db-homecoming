@@ -7,6 +7,7 @@ export const PortalParter: BadgeData = {
   key: 'portal-parter',
   setTitleId: [144],
   name: 'Portal Parter',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This R&D facility suffered one too many accidents and has since fallen into ruin.`,
   notes: `Located on a small island, approx. 834 yards southwest of the ${zoneLink(TalosIsland)} Ferry,

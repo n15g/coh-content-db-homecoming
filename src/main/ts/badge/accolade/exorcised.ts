@@ -13,6 +13,7 @@ export const Exorcised: BadgeData = {
     { alignment: 'hero', value: 'Exorcised' },
     { alignment: 'villain', value: 'Demonic' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `The goodness you've let into your heart appears to have banished the spirit of a demon which once resided within.` },

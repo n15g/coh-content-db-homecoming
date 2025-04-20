@@ -5,6 +5,7 @@ export const Castigator: BadgeData = {
   key: 'castigator',
   setTitleId: [2173],
   name: 'Castigator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have punished the servants of fury for going too far in their pursuit of vengeance.',
   acquisition: 'Defeat 100 points worth of Incarnate-level Talons of Vengeance.',

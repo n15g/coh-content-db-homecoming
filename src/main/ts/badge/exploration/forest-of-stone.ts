@@ -7,6 +7,7 @@ export const ForestOfStone: BadgeData = {
   key: 'forest-of-stone',
   setTitleId: [1853],
   name: 'Forest of Stone',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Towering pillars of stone abound in this region, as they do in other areas where the Devouring Earth have launched full-scale attacks.
 It has become their unwelcome calling card.

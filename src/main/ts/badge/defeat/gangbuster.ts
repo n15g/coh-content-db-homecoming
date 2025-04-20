@@ -5,6 +5,7 @@ export const Gangbuster: BadgeData = {
   key: 'gangbuster',
   setTitleId: [309],
   name: 'Gangbuster',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: 'The Family knows better than to mess with you.',
   acquisition: 'Defeat 200 minions or lieutenants of The Family.',

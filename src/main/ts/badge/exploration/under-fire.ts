@@ -6,6 +6,7 @@ export const UnderFire: BadgeData = {
   key: 'under-fire',
   setTitleId: [751],
   name: 'Under Fire',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You just stepped into a major battle zone. Was this all that you signed up for?',
   notes: `Located next to the road.`,

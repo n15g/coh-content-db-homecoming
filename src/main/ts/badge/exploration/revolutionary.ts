@@ -10,6 +10,7 @@ export const Revolutionary: BadgeData = {
     { alignment: 'hero', value: 'Revolutionary' },
     { alignment: 'villain', value: 'Tyrannical' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `The Family doesn't make as many deals on the beach in Independance Port since you started working in Paragon.` },

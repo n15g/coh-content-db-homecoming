@@ -9,6 +9,7 @@ export const MasterOfTheLambdaSector: BadgeData = {
   key: 'master-of-lambda-sector',
   setTitleId: [1988],
   name: 'Master of the Lambda Sector',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have mastered the Incarnate Trial: Lambda Sector.',
   links: [

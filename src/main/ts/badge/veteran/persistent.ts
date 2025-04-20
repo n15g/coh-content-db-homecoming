@@ -5,6 +5,7 @@ export const Persistent: BadgeData = {
   key: 'persistent',
   setTitleId: [1613],
   name: 'Persistent',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Villains have practically given up trying to face you. Your persistence to your goals is utterly unmatched. You have attained ninety-six Veteran levels.` },

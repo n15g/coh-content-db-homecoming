@@ -6,6 +6,7 @@ export const UrbanRenewal: BadgeData = {
   key: 'urban-renewal',
   setTitleId: [1730],
   name: 'Urban Renewal',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Older sections of the city like this pre-date much of Emperor Cole's reign, and as such have not been renovated to match the rest of the city.
 Constant distractions and sabotage by the Resistance and others have delayed such work indefinitely.`,

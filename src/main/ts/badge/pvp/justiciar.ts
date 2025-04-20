@@ -9,6 +9,7 @@ export const Justiciar: BadgeData = {
     { alignment: 'hero', value: 'Justiciar' },
     { alignment: 'villain', value: 'Fallen Justiciar' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have helped defeat all the Signature Villains in Recluse's Victory, making you a Justiciar.` },

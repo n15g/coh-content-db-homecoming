@@ -9,6 +9,7 @@ export const Widower: BadgeData = {
     { sex: 'M', value: 'Widower' },
     { sex: 'F', value: 'Widow' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `They say that lonely tower is the home of Ghost Widow, Lord Recluse's phantom servant.`,
   notes: `Located outside the door of the very tall tower in the northeast corner of Fort Cerberus.`,

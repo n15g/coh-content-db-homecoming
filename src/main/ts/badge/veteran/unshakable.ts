@@ -5,6 +5,7 @@ export const Unshakable: BadgeData = {
   key: 'unshakable',
   setTitleId: [1609],
   name: 'Unshakable',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Nothing can keep a hero like you down. Try as villains might, you're just unshakable. You have attained ninety Veteran levels.` },

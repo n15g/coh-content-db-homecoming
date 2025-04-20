@@ -9,6 +9,7 @@ export const PersephoneSupplicant: BadgeData = {
   key: 'persephone-supplicant',
   setTitleId: [1828],
   name: 'Persephone Supplicant',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `There are some who can court darkness without making it a part of themselves.
 They walk with ease in the shadowy spaces, yet carry a portion of the light with them wherever they go.

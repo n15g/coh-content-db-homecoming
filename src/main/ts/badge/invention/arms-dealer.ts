@@ -5,6 +5,7 @@ export const ArmsDealer: BadgeData = {
   key: 'arms-dealer',
   setTitleId: [798],
   name: 'Arms Dealer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 35 and 40: Damage and Knockback.',
   links: [

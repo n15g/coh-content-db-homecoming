@@ -7,6 +7,7 @@ export const Negotiator: BadgeData = {
   key: 'negotiator',
   setTitleId: [71],
   name: 'Negotiator',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You were instrumental in stopping a war between the Clockwork and the Skulls.',
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero can select the "Break up the Clockwork and the Skulls" entry with number 0.01 in the 1-9 level range.`,

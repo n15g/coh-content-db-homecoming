@@ -5,6 +5,7 @@ export const Ardent: BadgeData = {
   key: 'ardent',
   setTitleId: [830],
   name: 'Ardent',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Non-stop crime fighting has earned you the respect you deserve. You have attained thirty-nine Veteran levels.` },

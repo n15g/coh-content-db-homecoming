@@ -5,6 +5,7 @@ export const DimensionalWarder: BadgeData = {
   key: 'dimensional-warder',
   setTitleId: [57],
   name: 'Dimensional Warder',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have made yourself legend by defeating the Praetorians, an evil version of the Freedom Phalanx from an alternate dimension.',
   acquisition: 'Defeat all fifteen Praetorian Archvillains.',

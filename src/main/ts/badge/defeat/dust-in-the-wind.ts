@@ -5,6 +5,7 @@ export const DUSTInTheWind: BadgeData = {
   key: 'dust-in-the-wind',
   setTitleId: [2060],
   name: 'D.U.S.T. in the Wind',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `They may be ruthless, genetically modified super-soldiers with no oversight and unlimited resources... But since when is that enough to top you? You defeated several D.U.S.T. to earn this badge.`,
   acquisition: 'Defeat 100 points worth of D.U.S.T.',

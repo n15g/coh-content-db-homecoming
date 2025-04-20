@@ -6,6 +6,7 @@ export const HighVoltage: BadgeData = {
   key: 'high-voltage',
   setTitleId: [1841],
   name: 'High Voltage!',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The air crackles with electricity and the odor of ozone fills your nostrils.
 Power fills the air here and it draws the Freakshow like moths to a flame.

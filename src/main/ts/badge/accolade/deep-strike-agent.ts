@@ -13,6 +13,7 @@ export const DeepStrikeAgent: BadgeData = {
     { alignment: 'hero', value: 'Deep Strike Agent' },
     { alignment: 'villain', value: 'Strike Force Commander' },
   ],
+  releaseDate: '2024-11-19',
   morality: 'villainous',
   badgeText: [
     {

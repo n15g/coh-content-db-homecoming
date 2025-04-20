@@ -6,6 +6,7 @@ export const ToweringInferno: BadgeData = {
   key: 'towering-inferno',
   setTitleId: [1777],
   name: 'Towering Inferno',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This tower used to be a bastion for the Trolls, providing them a good view over much of Boomtown.
 When the Outcasts moved in, they violently assaulted this tower and killed or drove out the Trolls holed up within.

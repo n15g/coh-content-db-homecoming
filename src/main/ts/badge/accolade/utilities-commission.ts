@@ -13,6 +13,7 @@ export const UtilitiesCommission: BadgeData = {
   key: 'utilities-commission',
   setTitleId: [1886],
   name: 'Utilities Commission',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Terra Volta.`,
   links: [

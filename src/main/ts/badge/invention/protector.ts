@@ -5,6 +5,7 @@ export const Protector: BadgeData = {
   key: 'protector',
   setTitleId: [772],
   name: 'Protector',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Defense Buff, Resist Damage, Intangible.',
   effect: 'Awards +2 to Invention Salvage capacity.',

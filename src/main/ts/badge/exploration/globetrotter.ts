@@ -7,6 +7,7 @@ export const Globetrotter: BadgeData = {
   key: 'globetrotter',
   setTitleId: [287],
   name: 'Globetrotter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Lord Recluse targeted the statue of Atlas first, knowing it was an important symbol to Paragon's 'heroes.'`,
   notes: `Located in Sector 5, in front of the Atlas Statue, just behind the dais that ${contactLink(MsLiberty)} stands on in the hero's version of Atlas Park.`,

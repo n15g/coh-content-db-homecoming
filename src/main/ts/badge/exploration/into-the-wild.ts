@@ -6,6 +6,7 @@ export const IntoTheWild: BadgeData = {
   key: 'into-the-wild',
   setTitleId: [1596],
   name: 'Into the Wild',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Dangers lurk beyond the secure bubble of the State. The sonic fence keeps the wilderness at bay while also protecting the careless from falling prey to it.`,
   notes: `Located along the SE edge of the island and 0.5 miles SE of the Magisterium marker, tucked into the corner of the rail by the water.`,

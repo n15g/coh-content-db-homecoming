@@ -6,6 +6,7 @@ export const Undammed: BadgeData = {
   key: 'undammed',
   setTitleId: [118],
   name: 'Undammed',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'Funding has recently been passed in an effort to stop the damage caused by the leaking Paragon City Dam.',
   notes: `Located at the northeast corner of a building in a canyon on the east side of the zone, between the Aftershock and Overflow neighborhoods.`,

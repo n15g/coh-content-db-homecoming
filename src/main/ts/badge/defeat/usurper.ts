@@ -5,6 +5,7 @@ export const Usurper: BadgeData = {
   key: 'usurper',
   setTitleId: [571],
   name: 'Usurper',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You have claimed victory over the master of villainy himself, Lord Recluse!',
   acquisition: 'Defeat Lord Recluse in the second Patron story arc.',

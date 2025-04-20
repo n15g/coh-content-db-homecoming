@@ -6,6 +6,7 @@ export const FamilyPartier: BadgeData = {
   key: 'family-partier',
   setTitleId: [1554],
   name: 'Family Partier',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Family uses this area right in the shadow of Terra Volta to conduct various parties, and the occasional hit on one of their own.
 They've also been searching for secret entrances into the reactor, though so far they have been unsuccessful.`,

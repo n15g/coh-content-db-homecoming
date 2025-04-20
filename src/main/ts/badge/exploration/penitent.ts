@@ -6,6 +6,7 @@ export const Penitent: BadgeData = {
   key: 'penitent',
   setTitleId: [1815],
   name: 'Penitent',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `It is all your fault. The lives you've ruined along your path to glory.
 That Hellion who was forced into a life of crime when all other options were spent.

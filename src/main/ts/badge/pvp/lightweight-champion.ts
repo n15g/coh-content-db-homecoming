@@ -5,6 +5,7 @@ export const LightweightChampion: BadgeData = {
   key: 'lightweight-champion',
   setTitleId: [224],
   name: 'Lightweight Champion',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have achieved the status of Champion in the Lightweight division by winning your first match in this division.`,
   acquisition: 'Win an Arena event in the Lightweight division.',

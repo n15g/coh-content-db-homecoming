@@ -6,6 +6,7 @@ export const DeadlyCombatant: BadgeData = {
   key: 'deadly-combatant',
   setTitleId: [2099],
   name: 'Deadly Combatant',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Sun Xiong learned what it meant to face you in combat. It is not a lesson he will recover from.',
   acquisition: `Choose to kill Sun Xiong after you defeat him in the ${missionLink(LastRites)} story arc.`,

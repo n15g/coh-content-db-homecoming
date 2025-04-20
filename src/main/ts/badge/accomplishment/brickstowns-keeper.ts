@@ -6,6 +6,7 @@ export const BrickstownsKeeper: BadgeData = {
   key: 'brickstowns-keeper',
   setTitleId: [2256],
   name: `Brickstown's Keeper`,
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You worked with the New Praetorians to stop the biggest breakout that Brickstown has ever seen.',
   links: [

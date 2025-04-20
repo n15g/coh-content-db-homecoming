@@ -5,6 +5,7 @@ export const Extractor: BadgeData = {
   key: 'extractor',
   setTitleId: [1240],
   name: 'Extractor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've rescued or kidnapped your first hostage during an Architect mission, earning yourself the Extractor badge.`,
   acquisition: 'Rescue one required captive while on a Mission Architect mission.',

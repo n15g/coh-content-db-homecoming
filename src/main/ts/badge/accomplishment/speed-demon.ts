@@ -5,6 +5,7 @@ export const SpeedDemon: BadgeData = {
   key: 'speed-demon',
   setTitleId: [963],
   name: 'Speed Demon',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Wow! What speed! That was amazing!',
   acquisition: 'Complete a ski run on the Expert slope in under 25 seconds during a Winter event.',

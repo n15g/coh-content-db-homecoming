@@ -5,6 +5,7 @@ export const Lawbreaker: BadgeData = {
   key: 'lawbreaker',
   setTitleId: [2216],
   name: 'Lawbreaker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The laws of the afterlife both require that no living being enter and that no dead being depart. You have defied these laws by defeating those tasked with enforcing them, the Drudges.`,
   acquisition: 'Defeat 100 points worth of Drudges.',

@@ -13,6 +13,7 @@ export const PortalCorpAnalyst: BadgeData = {
   key: 'portal-corp-analyst',
   setTitleId: [1579],
   name: 'Portal Corp Analyst',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Peregrine Island.`,
   links: [

@@ -6,6 +6,7 @@ export const ShellShocked: BadgeData = {
   key: 'shell-shocked',
   setTitleId: [2051],
   name: 'Shell Shocked',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `
 First Ward is a terrifying, dangerous place, but there is no other location within the ruins that can evoke such powerful feelings of fear and dread.

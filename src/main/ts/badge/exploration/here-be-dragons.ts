@@ -7,6 +7,7 @@ export const HereBeDragons: BadgeData = {
   key: 'here-be-dragons',
   setTitleId: [1862],
   name: 'Here Be Dragons',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This once was a place of amusement and adventure, a place for people to get up close and personal with real monsters.
 What fools. The hubris on display here is staggering and you have to suppress the urge to snicker at the fate that befell them.

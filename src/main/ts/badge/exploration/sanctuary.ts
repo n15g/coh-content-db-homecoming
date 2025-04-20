@@ -6,6 +6,7 @@ export const Sanctuary: BadgeData = {
   key: 'sanctuary',
   setTitleId: [2463],
   name: 'Sanctuary',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `The Temple of Phoebas offers refuge to wives and widows of Cimeroran soldiers, including those loyal to Romulus.
 Despite Imperious' concerns about enemy spies, Sister Solaris will only permit guards to remain at the gates as long as they are allowed entry.`,

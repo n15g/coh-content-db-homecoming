@@ -5,6 +5,7 @@ export const ColdAsIce: BadgeData = {
   key: 'cold-as-ice',
   setTitleId: [1951],
   name: 'Cold as Ice',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You successfully iced Lady Winter's plans to freeze the Earth with her Arctic powers and snowy horde!`,
   acquisition: 'Complete the "Defeat Lady Winter!" mission from Father Time during the Winter event.',

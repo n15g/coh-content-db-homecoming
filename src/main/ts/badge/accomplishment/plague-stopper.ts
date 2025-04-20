@@ -9,6 +9,7 @@ export const PlagueStopper: BadgeData = {
     { alignment: 'hero', value: 'Plague Stopper' },
     { alignment: 'villain', value: 'Deadly Virus' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You were key in stopping a plague from overtaking Paragon City.',
   links: [

@@ -6,6 +6,7 @@ export const Lifesaver: BadgeData = {
   key: 'lifesaver',
   setTitleId: [750],
   name: 'Lifesaver',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Rikti's continuous attacks on this hospital prompted Paragon City officials to shut it down.`,
   notes: `Located in the northeast corner of the Pavia neighborhood.`,

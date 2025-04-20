@@ -5,6 +5,7 @@ export const CreyPowerTank: BadgeData = {
   key: 'crey-power-tank',
   setTitleId: [507],
   name: 'Crey Power Tank',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'An Arena battle is a good place for Crey to test their equipment.',
   acquisition: 'Defeat 100 Crey Tanks.',

@@ -8,6 +8,7 @@ export const RiverRat: BadgeData = {
   key: 'river-rat',
   setTitleId: [1405],
   name: 'River Rat',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `An invigorating swim in the rich, clear waters of Praetoria always perks you up.`,
   notes: `

@@ -6,6 +6,7 @@ export const TheWolfsSnarl: BadgeData = {
   key: 'the-wolfs-snarl',
   setTitleId: [1786],
   name: `The Wolf's Snarl`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Wolf's Throat is a vital causeway for the Council, linking the outside world to the innards of the Council Base.
 When the Council goes to war they say "Let the wolf howl," indicating a massive outpouring of force from here.

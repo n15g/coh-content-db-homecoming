@@ -6,6 +6,7 @@ export const FreaksFolly: BadgeData = {
   key: 'freaks-folly',
   setTitleId: [1795],
   name: `Freak's Folly`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Crey's Folly is a toxic cesspool, and only a group as demented as the Freakshow could ever consider such a place home.
 They attribute their hearty constitutions and Crey's super-booster drugs as the means by which they are able to tolerate the noxious environment.

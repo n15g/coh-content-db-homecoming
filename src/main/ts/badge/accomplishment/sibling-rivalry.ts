@@ -6,6 +6,7 @@ export const SiblingRivalry: BadgeData = {
   key: 'sibling-rivalry',
   setTitleId: [2175],
   name: 'Sibling Rivalry',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Challenge Trial: Drowning in Blood.',
   links: [

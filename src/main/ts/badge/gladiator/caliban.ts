@@ -7,6 +7,7 @@ export const Caliban: BadgeData = {
   key: 'caliban',
   setTitleId: [481],
   name: 'Caliban',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Trolls respect your might.',
   links: [

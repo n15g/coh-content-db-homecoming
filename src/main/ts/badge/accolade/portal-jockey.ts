@@ -9,6 +9,7 @@ export const PortalJockey: BadgeData = {
   key: 'portal-jockey',
   setTitleId: [165],
   name: 'Portal Jockey',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `Your efforts to help Portal Corporation explore the vast multiverse have earned you the title of Portal Jockey. This perk comes with +5 Endurance and +5% Hit Points.` },

@@ -6,6 +6,7 @@ export const DontDrinkIt: BadgeData = {
   key: 'dont-drink-it',
   setTitleId: [1725],
   name: `Don't Drink It`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Praetoria's water is heavily filtered and sanitized here at the Water Treatment Plant, removing the contaminants of the outside world.
 Resistance propaganda says Cole adds something back at the same time.

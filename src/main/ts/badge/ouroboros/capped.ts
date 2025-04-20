@@ -5,6 +5,7 @@ export const Capped: BadgeData = {
   key: 'capped',
   setTitleId: [907],
   name: 'Capped',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not using any Temporary Powers.` },

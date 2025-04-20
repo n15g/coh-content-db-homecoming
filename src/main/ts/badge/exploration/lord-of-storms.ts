@@ -9,6 +9,7 @@ export const LordOfStorms: BadgeData = {
     { sex: 'M', value: 'Lord of Storms' },
     { sex: 'F', value: 'Lady of Storms' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Now you stand upon the apex of the Storm Palace, at the center of a vortex of destiny and mystical energy.
 So few have come as far, so many have fallen in the attempt that you deserve to be recognized as a master, of a sort, of this distant and inhospitable place.

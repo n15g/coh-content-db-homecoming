@@ -6,6 +6,7 @@ export const EyeOfTheGemini: BadgeData = {
   key: 'eye-of-the-gemini',
   setTitleId: [1523],
   name: 'Eye of the Gemini',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Gemini Park was once a popular gathering spot for people in the city, until the Hellions and Vahzilok took over.
 On some occasions many heroes could be seen relaxing in the area, daring the local gangs to try something.

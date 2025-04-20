@@ -6,6 +6,7 @@ export const Trainspotter: BadgeData = {
   key: 'trainspotter',
   setTitleId: [1641],
   name: 'Trainspotter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `In this subterranean maintenance bay the Clockwork maintain and repair Praetoria's monorail cars.
 Here you may find some of the older cars that have since gone out of service: a trainspotter's dream.`,

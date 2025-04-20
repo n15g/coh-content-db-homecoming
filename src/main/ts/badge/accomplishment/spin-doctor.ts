@@ -6,6 +6,7 @@ export const SpinDoctor: BadgeData = {
   key: 'spin-doctor',
   setTitleId: [2072],
   name: 'Spin Doctor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: TPN Campus.',
   links: [

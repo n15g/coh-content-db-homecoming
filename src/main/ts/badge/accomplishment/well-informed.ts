@@ -5,6 +5,7 @@ export const WellInformed: BadgeData = {
   key: 'well-informed',
   setTitleId: [1444],
   name: 'Well Informed',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You completed a Rogue Alignment Mission earning yourself the Well Informed badge.',
   acquisition: 'Complete a Rogue alignment mission.',

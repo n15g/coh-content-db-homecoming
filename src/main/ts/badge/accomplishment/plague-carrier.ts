@@ -6,6 +6,7 @@ export const PlagueCarrier: BadgeData = {
   key: 'plague-carrier',
   setTitleId: [332],
   name: 'Plague Carrier',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The radio told you to steal the Outbreak virus and bring it back to Port Oakes.',
   links: [

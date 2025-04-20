@@ -6,6 +6,7 @@ export const Troubleshooter: BadgeData = {
   key: 'troubleshooter',
   setTitleId: [934],
   name: 'Troubleshooter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 5 story arcs.',
   acquisition: `Complete 5 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

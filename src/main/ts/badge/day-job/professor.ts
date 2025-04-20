@@ -5,6 +5,7 @@ export const Professor: BadgeData = {
   key: 'professor',
   setTitleId: [1035],
   name: 'Professor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

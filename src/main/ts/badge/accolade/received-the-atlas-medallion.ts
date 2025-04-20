@@ -13,6 +13,7 @@ export const ReceivedTheAtlasMedallion: BadgeData = {
     { alignment: 'hero', value: 'Received the Atlas Medallion' },
     { alignment: 'villain', value: 'Atlas Shrugged' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `Through the might of Atlas, one of the greatest heroes of Paragon City's history, you have gained +5 to your maximum Endurance total.` },

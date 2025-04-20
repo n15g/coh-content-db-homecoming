@@ -6,6 +6,7 @@ export const BeingAndNothingness: BadgeData = {
   key: 'being-and-nothingness',
   setTitleId: [1807],
   name: 'Being and Nothingness',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `A sense of floating encapsulates you, a lightness of being that does not bring with it feelings of ease or contentment, but of nothingness and insignificance.
 Vertigo sends your senses reeling and the urge to leave this place is undeniable. You do not belong here, you are the alien here, and nowhere else is this feeling more acute.`,

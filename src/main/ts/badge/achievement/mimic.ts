@@ -5,6 +5,7 @@ export const Mimic: BadgeData = {
   key: 'mimic',
   setTitleId: [2500],
   name: 'Mimic',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've purchased a permanent costume power reward using the Prismatic Aether acquired from overcoming some challenges.`,
   acquisition: `Use Prismatic Aether salvage to purchase a permanent costume power from BenevoLabs vendors in any Vault Reserve location.`,

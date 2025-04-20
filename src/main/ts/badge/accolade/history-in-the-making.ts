@@ -13,6 +13,7 @@ export const HistoryInTheMaking: BadgeData = {
   key: 'history-in-the-making',
   setTitleId: [2462],
   name: 'History in the Making',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Cimerora.`,
   links: [

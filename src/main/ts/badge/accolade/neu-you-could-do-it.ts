@@ -13,6 +13,7 @@ export const NeuYouCouldDoIt: BadgeData = {
   key: 'neu-you-could-do-it',
   setTitleId: [1655],
   name: 'Neu You Could Do It',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Neutropolis's Underground.`,
   links: [

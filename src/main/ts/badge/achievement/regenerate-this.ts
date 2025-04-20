@@ -5,6 +5,7 @@ export const RegenerateThis: BadgeData = {
   key: 'regenerate-this',
   setTitleId: [1996],
   name: 'Regenerate This',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You blitzed the Self-Repairing and Lichen Infested War Walkers within 8 minutes of starting combat in the Underground.',
   acquisition: 'Defeat the Self-Repairing and Lichen Infested War Walkers within 8 minutes of starting the fight.',

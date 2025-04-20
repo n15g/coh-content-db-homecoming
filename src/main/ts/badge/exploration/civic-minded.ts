@@ -8,6 +8,7 @@ export const CivicMinded: BadgeData = {
   key: 'civic-minded',
   setTitleId: [1402],
   name: 'Civic Minded',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This is the heart of Praetoria. Emperor Cole and his Praetors have put great energy into keeping eyes and ears open for the safety of their citizens.`,
   notes: `Located in the center of the plaza between ${contactLink(PraetorDuncan)} and ${contactLink(PraetorWhite)}.`,

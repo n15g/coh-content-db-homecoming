@@ -6,6 +6,7 @@ export const OnTheShouldersOfGiants: BadgeData = {
   key: 'on-the-shoulders-of-giants',
   setTitleId: [2449],
   name: 'On the Shoulders of Giants',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `This statue was erected to pay tribute to Marcus Cole, publicly known as Statesman.
 Ms. Liberty and Longbow have refused to confirm or deny the persistent rumor that the statue was commissioned by Stefan Richter himself.`,

@@ -9,6 +9,7 @@ export const JusticeIncarnate: BadgeData = {
     { alignment: 'villain', value: 'Captain' },
     { alignment: 'praetorian', value: 'Primal Praetorian' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Positron has awarded you this badge for achieving Security Level 40.' },

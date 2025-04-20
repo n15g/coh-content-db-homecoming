@@ -6,6 +6,7 @@ export const DanceLegend: BadgeData = {
   key: 'dance-legend',
   setTitleId: [1530],
   name: 'Dance Legend',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Paragon Dance Party was a popular place for local heroes to go relax and have a good time.
 However, it was almost instantly closed when entrances to Pocket D were opened up by the owner of the Dance Party, DJ Zero, who was merely using the location

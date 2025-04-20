@@ -8,6 +8,7 @@ export const LawEnforcer: BadgeData = {
     { alignment: 'hero', value: 'Law Enforcer' },
     { alignment: 'villain', value: 'Dirty Cop' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

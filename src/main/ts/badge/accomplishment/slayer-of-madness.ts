@@ -6,6 +6,7 @@ export const SlayerOfMadness: BadgeData = {
   key: 'slayer-of-madness',
   setTitleId: [426],
   name: 'Slayer of Madness',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You defeated the being known as Lanaru the Mad, sparing the people of the Shadow Shard from total destruction.',
   acquisition: 'Complete the Faathim the Kind Task Force: The Saga of Lanaru.',

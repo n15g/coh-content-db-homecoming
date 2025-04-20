@@ -5,6 +5,7 @@ export const Illusionist: BadgeData = {
   key: 'illusionist',
   setTitleId: [56],
   name: 'Illusionist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have learned enough from fighting the Illusionists of the Carnival of Shadows to know the real from the fake.`,
   acquisition: 'Defeat 100 Illusionists, Phantasms, and Dark Servants summoned by Master Illusionists.',

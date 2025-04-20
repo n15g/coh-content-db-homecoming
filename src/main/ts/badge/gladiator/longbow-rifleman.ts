@@ -6,6 +6,7 @@ export const LongbowRifleman: BadgeData = {
   key: 'longbow-rifleman',
   setTitleId: [454],
   name: 'Longbow Rifleman',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'Longbow counts you as an ally.' },

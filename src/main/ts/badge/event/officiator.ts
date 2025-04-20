@@ -5,6 +5,7 @@ export const Officiator: BadgeData = {
   key: 'officiator',
   setTitleId: [2549],
   name: 'Officiator',
+  releaseDate: '2025-02-10',
   morality: 'all',
   badgeText: `Despite the Freedom Phalanx and Arachnos elite being dressed in their finest for a special occasion, you pulled no punches and demonstrated your prowess in combat by defeating each and every one.`,
   acquisition: `Defeat all 14 signature Heroes and Villains during the Spring event.`,

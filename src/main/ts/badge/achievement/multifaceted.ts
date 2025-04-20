@@ -5,6 +5,7 @@ export const Multifaceted: BadgeData = {
   key: 'multifaceted',
   setTitleId: [2538],
   name: 'Multifaceted',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `You've walked too many roads of life to count, and your experience affords you a position of reflection and wisdom. You've completed countless Alignment Tip missions and made many moral decisions.`,
   acquisition: 'Complete 25 Alignment [Tip](https://homecoming.wiki/wiki/Tip) missions.',

@@ -6,6 +6,7 @@ export const Unstoppable: BadgeData = {
   key: 'unstoppable',
   setTitleId: [2334],
   name: 'Unstoppable',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have helped celebrate the 10th anniversary of City of Heroes.`,
   acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,

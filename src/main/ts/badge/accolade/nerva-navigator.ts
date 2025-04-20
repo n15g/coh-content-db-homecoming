@@ -13,6 +13,7 @@ export const NervaNavigator: BadgeData = {
   key: 'nerva-navigator',
   setTitleId: [1504],
   name: 'Nerva Navigator',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Nerva Archipelago.`,
   links: [

@@ -5,6 +5,7 @@ export const Silencer: BadgeData = {
   key: 'silencer',
   setTitleId: [2172],
   name: 'Silencer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have stilled the cry of the innocent by punishing all false accusers.',
   acquisition: 'Defeat 100 points worth of Incarnate-level Knives of Vengeance.',

@@ -5,6 +5,7 @@ export const BrotherlyLove: BadgeData = {
   key: 'brotherly-love',
   setTitleId: [2176],
   name: 'Brotherly Love',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other.',
   acquisition: 'Defeat both Neo-Shivan Obliterators within 30 seconds of each other in the Drowning in Blood trial.',

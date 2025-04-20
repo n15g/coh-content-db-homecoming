@@ -6,6 +6,7 @@ export const FlyingShark: BadgeData = {
   key: 'flying-shark',
   setTitleId: [1565],
   name: 'Flying Shark',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The roof of the Zig is the site of the first breakout by Arachnos.
 Captain Mako had been captured by some heroes, only to escape, tearing a path of destruction through the Zig.

@@ -6,6 +6,7 @@ export const Leviathan: BadgeData = {
   key: 'leviathan',
   setTitleId: [514],
   name: 'Leviathan',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You have fought and defeated the awakened Eye of the Leviathan in the Temple of the Waters deep beneath Sharkhead Isle.',
   links: [

@@ -6,6 +6,7 @@ export const AvalancheShaman: BadgeData = {
   key: 'avalanche-shaman',
   setTitleId: [489],
   name: 'Avalanche Shaman',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'These shamans acknowledge your might.',
   links: [

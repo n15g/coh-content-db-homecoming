@@ -6,6 +6,7 @@ export const Arachnophobic: BadgeData = {
   key: 'arachnophobic',
   setTitleId: [580],
   name: 'Arachnophobic',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have helped defeat Lord Recluse in Recluse's Victory.`,
   acquisition: `Defeat Lord Recluse in ${zoneLink(ReclusesVictory)}.`,

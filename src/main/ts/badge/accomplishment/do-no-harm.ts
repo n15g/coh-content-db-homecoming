@@ -6,6 +6,7 @@ export const DoNoHarm: BadgeData = {
   key: 'do-no-harm',
   setTitleId: [2386],
   name: 'Do No Harm',
+  releaseDate: '2019-01-01',
   morality: 'heroic',
   badgeText: `You have delivered medical supplies to the Rikti.`,
   links: [

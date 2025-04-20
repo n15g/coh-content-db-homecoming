@@ -8,6 +8,7 @@ export const Trailblazer: BadgeData = {
     { value: 'Trailblazer' },
     { alignment: 'praetorian', value: 'Emissary' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

@@ -6,6 +6,7 @@ export const CraneEnforcer: BadgeData = {
   key: 'crane-enforcer',
   setTitleId: [478],
   name: 'Crane Enforcer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Tsoo are bound by honor to serve you.',
   links: [

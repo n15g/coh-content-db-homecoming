@@ -7,6 +7,7 @@ export const Phalanxer: BadgeData = {
   key: 'phalanxer',
   setTitleId: [114],
   name: 'Phalanxer',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Before Baumton had its 'accident,' the Freedom Phalanx called this building home.`,
   notes: `Located in The Fuse neighborhood, at the northeast corner of a building just northeast of the ${zoneLink(SteelCanyon)} entrance. The badge is approximately 230 yards from the entrance.`,

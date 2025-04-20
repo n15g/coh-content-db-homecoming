@@ -5,6 +5,7 @@ export const Encouraged: BadgeData = {
   key: 'encouraged',
   setTitleId: [1010],
   name: 'Encouraged',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `There's no denying you've got a name for yourself out there, and you're not about to have that fall into obscurity anytime soon. You have attained fifty-one Veteran levels.`,
   acquisition: 'Reach Veteran level 51.',

@@ -6,6 +6,7 @@ export const DoesntLookAtExplosions: BadgeData = {
   key: 'doesnt-look-at-explosions',
   setTitleId: [2516],
   name: `Doesn't Look At Explosions`,
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `Part of the job is knowing how to look cool, and you've mastered the art. While not intentional, when fate threw you aboard a Rikti space station, you sent it nuclear and made it out in one piece.`,
   acquisition: `Successfully complete the ending sequence of ${missionLink(TheLadyGreyTaskForce)} Advanced Mode.`,

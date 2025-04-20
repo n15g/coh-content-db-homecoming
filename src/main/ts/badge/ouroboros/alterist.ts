@@ -6,6 +6,7 @@ export const Alterist: BadgeData = {
   key: 'alterist',
   setTitleId: [937],
   name: 'Alterist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 20 story arcs.',
   acquisition: `Complete 20 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

@@ -6,6 +6,7 @@ export const Showstopper: BadgeData = {
   key: 'showstopper',
   setTitleId: [1508],
   name: 'Showstopper',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Hundreds of spectators have stood in this spot, transfixed by the eclectic performances of the Carnival of Shadows.
 Many of them are never seen again; some speculate that they've joined the troupe, while others fear they met more unpleasant fates.`,

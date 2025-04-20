@@ -6,6 +6,7 @@ export const Pollster: BadgeData = {
   key: 'pollster',
   setTitleId: [2513],
   name: 'Pollster',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You protected democracy by exposing the Council's election fraud scheme to put Alexander 'The Great' Pavlidis on the city council.`,
   acquisition: `Complete the ${missionLink(NobleIntentions)} story arc, selecting all hero responses.`,

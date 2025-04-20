@@ -6,6 +6,7 @@ export const NocturnalPilgrim: BadgeData = {
   key: 'nocturnal-pilgrim',
   setTitleId: [2226],
   name: 'Nocturnal Pilgrim',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `An arduous trek across Night Ward's misty plain has brought you at last to Lichgate's Chapel of Enduring Light.
 Your faith grows fleeting as you observe the disheartened souls around you, lying in wait to be ferried to the other side.

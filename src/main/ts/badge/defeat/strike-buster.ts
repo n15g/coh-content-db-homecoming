@@ -5,6 +5,7 @@ export const StrikeBuster: BadgeData = {
   key: 'strike-buster',
   setTitleId: [300],
   name: 'Strike Buster',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The Scrapyarders have taken to calling you the Strike Buster.',
   acquisition: 'Defeat 200 Scrapyarders.',

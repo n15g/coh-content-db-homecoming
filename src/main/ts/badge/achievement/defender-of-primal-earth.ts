@@ -5,6 +5,7 @@ export const DefenderOfPrimalEarth: BadgeData = {
   key: 'defender-of-primal-earth',
   setTitleId: [2024],
   name: 'Defender of Primal Earth',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You took part in repelling Emperor Cole's incursion into Primal Earth.`,
   acquisition: 'Earn both the Master of Apex and Master of Tin Mage task force badges.',

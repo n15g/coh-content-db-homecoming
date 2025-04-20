@@ -13,6 +13,7 @@ export const PurePraetorian: BadgeData = {
   key: 'pure-praetorian',
   setTitleId: [1597],
   name: 'Pure Praetorian',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria.`,
   links: [

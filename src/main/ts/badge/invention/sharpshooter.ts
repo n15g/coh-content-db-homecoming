@@ -5,6 +5,7 @@ export const Sharpshooter: BadgeData = {
   key: 'sharpshooter',
   setTitleId: [789],
   name: 'Sharpshooter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Recharge Rate and Interrupt Time.',
   effect: 'Awards +1 to Recipe capacity.',

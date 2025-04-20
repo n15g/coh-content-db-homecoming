@@ -9,6 +9,7 @@ export const MasterOfTheAirwaves: BadgeData = {
     { sex: 'M', value: 'Master of the Airwaves' },
     { sex: 'F', value: 'Mistress of the Airwaves' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Top of the world! You have climbed to the top of the radio tower in Grandville.`,
   notes: `Located in the Tangle neighborhood, on a ledge of the large central tower. The badge is positioned on the south face of the tower, just above the prominent Arachnos logo.`,

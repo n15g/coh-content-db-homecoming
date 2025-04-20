@@ -6,6 +6,7 @@ export const FaceTurn: BadgeData = {
   key: 'face-turn',
   setTitleId: [2521],
   name: 'Face Turn',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You witnessed what Bile swears is the truth, and navigated a recording of Piecemeal's final moments, marooned in Galaxy City amidst the beginning of a horrific invasion.`,
   links: [

@@ -10,6 +10,7 @@ export const FoundersProtector: BadgeData = {
     { alignment: 'hero', value: `Founders' Protector` },
     { alignment: 'villain', value: `Founders' Invader` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'After a hostile takeover by the Council, this was one of the last places the few 5th Column troops were seen retreating.',
   notes: `Located at the bottom of the northern ramp outside the police station, almost against the northern force field in the zone.

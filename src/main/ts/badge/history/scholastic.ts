@@ -7,6 +7,7 @@ export const Scholastic: BadgeData = {
   key: 'scholastic',
   setTitleId: [158],
   name: 'Scholastic',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of Dr. Webb smashing the Dimensional Barrier.`,
   links: [

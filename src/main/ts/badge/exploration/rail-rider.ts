@@ -8,6 +8,7 @@ export const RailRider: BadgeData = {
   key: 'rail-rider',
   setTitleId: [1411],
   name: 'Rail Rider',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `It is every Praetorian citizen's duty to preserve the environment by utilizing public transit as much as possible. Praetor Berry thanks you for your patronage.`,
   notes: `The Rail Rider Badge has three locations in Praetoria, each located inside one of the Cole Transit Authority stations.

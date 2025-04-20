@@ -5,6 +5,7 @@ export const Devilfish: BadgeData = {
   key: 'devilfish',
   setTitleId: [207],
   name: 'Devilfish',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have helped defeat the giant octopus, Lusca, from terrorizing Independence Port.',
   acquisition: 'Defeat Lusca, a monster that spawns in Independence Port.',

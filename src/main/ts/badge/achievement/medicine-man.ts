@@ -9,6 +9,7 @@ export const MedicineMan: BadgeData = {
     { sex: 'F', value: 'Medicine Woman' },
     { alignment: 'praetorian', value: 'Savior' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'You have helped your fellow heroes by healing them for five million hit points.' },

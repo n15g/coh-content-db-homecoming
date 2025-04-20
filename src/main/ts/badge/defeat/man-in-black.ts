@@ -8,6 +8,7 @@ export const ManInBlack: BadgeData = {
     { sex: 'M', value: 'Man in Black' },
     { sex: 'F', value: 'Woman in Black' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'These creepy alien parasites are no match for you.',
   acquisition: 'Defeat 200 Shivans.',

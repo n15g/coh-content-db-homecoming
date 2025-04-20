@@ -6,6 +6,7 @@ export const CreyHavoc: BadgeData = {
   key: 'crey-havoc',
   setTitleId: [122],
   name: 'Crey Havoc',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'Crey had a facility in Independence Port for several years, but an industrial accident has permanently closed it.',
   notes: `Located on the Power Island neighborhood, just north of a ruined building 256 yards northeast from the Terra Volta entrance.`,

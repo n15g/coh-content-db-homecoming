@@ -9,6 +9,7 @@ export const HeroCorpsRecruit: BadgeData = {
     { alignment: 'hero', value: 'Hero Corps Recruit' },
     { alignment: 'villain', value: 'Hero Corps Reject' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Hero Corps is not only a Corps of people, but also a Corporation, selling their super-powered services to those willing to foot the bill.`,
   notes: `Located in the Steel Canyon Medical Center neighborhood, just outside and to the right of the door to the hospital, at the southeastern corner of the building.`,

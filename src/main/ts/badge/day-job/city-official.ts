@@ -8,6 +8,7 @@ export const CityOfficial: BadgeData = {
     { alignment: 'hero', value: 'City Official' },
     { alignment: 'villain', value: 'Ousted Official' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

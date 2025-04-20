@@ -7,6 +7,7 @@ export const AmongTheGiants: BadgeData = {
   key: 'among-the-giants',
   setTitleId: [1851],
   name: 'Among the Giants',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You've never seen such hulking monstrosities this close up before, and even with the great power you've amassed in your career it is hard not to be a little intimidated.
 Their massive size blots out the sun and the roars they emit rattle the teeth and drive one close to madness.`,

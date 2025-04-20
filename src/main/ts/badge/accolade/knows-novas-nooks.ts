@@ -13,6 +13,7 @@ export const KnowsNovasNooks: BadgeData = {
   key: 'knows-novas-nooks',
   setTitleId: [1644],
   name: `Knows Nova's Nooks`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Nova Praetoria's Underground.`,
   links: [

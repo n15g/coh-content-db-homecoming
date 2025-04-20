@@ -5,6 +5,7 @@ export const HordelingLasher: BadgeData = {
   key: 'hordeling-lasher',
   setTitleId: [461],
   name: 'Hordeling Lasher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have command of infernal minions.',
   acquisition: 'Defeat 100 Hordelings (Circle of Thorns).',

@@ -5,6 +5,7 @@ export const Critic: BadgeData = {
   key: 'critic',
   setTitleId: [1187],
   name: 'Critic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've completed your first Hall of Fame mission earning yourself the Critic Badge.`,
   acquisition: 'Complete one Hall of Fame story arc.',

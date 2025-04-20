@@ -5,6 +5,7 @@ export const ThePerfectGrifter: BadgeData = {
   key: 'the-perfect-grifter',
   setTitleId: [2249],
   name: 'The Perfect Grifter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You performed the role of the Grifter in the Summer Blockbuster 'Casino Heist' perfectly.`,
   acquisition: 'In the Summer Blockbuster, perform the role of the Grifter perfectly.',

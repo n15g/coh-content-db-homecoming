@@ -6,6 +6,7 @@ export const CircleSeeker: BadgeData = {
   key: 'circle-seeker',
   setTitleId: [1519],
   name: 'Circle Seeker',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Legacy Chain have been seeking the purpose of these strange structures that have been created by the Circle.
 They have been working together with their Rogue Isles branch, who are investigating similar structures in Cap au Diable.

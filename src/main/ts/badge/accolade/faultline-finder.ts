@@ -13,6 +13,7 @@ export const FaultlineFinder: BadgeData = {
   key: 'faultline-finder',
   setTitleId: [1598],
   name: 'Faultline Finder',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Faultline.`,
   links: [

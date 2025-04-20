@@ -6,6 +6,7 @@ export const PassingFab: BadgeData = {
   key: 'passing-fab',
   setTitleId: [1510],
   name: 'Passing Fab',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `These underground tunnels are the only relatively safe way to get into the Fab.
 They are used as both an emergency exit from the Fab and as a method of sending in reinforcements straight from Grandville proper, should Longbow try to launch an offensive attack.`,

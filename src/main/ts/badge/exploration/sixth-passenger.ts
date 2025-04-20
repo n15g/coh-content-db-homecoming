@@ -6,6 +6,7 @@ export const SixthPassenger: BadgeData = {
   key: 'sixth-passenger',
   setTitleId: [1569],
   name: 'Sixth Passenger',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Sebastian Frost hid in the trunk of this old car for three days after he was broken out from the Zig.
 It was after the third day, under the cover of night, that his goons in the Family were able to come rescue him.

@@ -5,6 +5,7 @@ export const SnoozeButton: BadgeData = {
   key: 'snooze-button',
   setTitleId: [2058],
   name: 'Snooze Button',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The rejects from the Seer program could have used more training if they wanted to stand up to you. You defeated several Awakened to earn this badge.`,
   acquisition: 'Defeat 100 points worth of The Awakened.',

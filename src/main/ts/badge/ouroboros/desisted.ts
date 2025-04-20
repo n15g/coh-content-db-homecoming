@@ -5,6 +5,7 @@ export const Desisted: BadgeData = {
   key: 'desisted',
   setTitleId: [898],
   name: 'Desisted',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not using any Travel Power Power Pools.` },

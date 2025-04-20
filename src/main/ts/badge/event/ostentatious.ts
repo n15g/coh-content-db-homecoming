@@ -5,6 +5,7 @@ export const Ostentatious: BadgeData = {
   key: 'ostentatious',
   setTitleId: [840],
   name: 'Ostentatious',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've collected 50 classic costumes.`,
   acquisition: 'Collect 50 costumes during the Halloween event.',

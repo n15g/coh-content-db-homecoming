@@ -6,6 +6,7 @@ export const LabRat: BadgeData = {
   key: 'lab-rat',
   setTitleId: [2535],
   name: 'Lab Rat',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `Whilst exploring the Labyrinth of Fog, you navigated a maze known as the Endless Colonnade.
 You can't help but feel like a lab rat, running a maze for some unseen intelligence's amusement...`,

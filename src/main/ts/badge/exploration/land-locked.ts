@@ -7,6 +7,7 @@ export const LandLocked: BadgeData = {
   key: 'land-locked',
   setTitleId: [95],
   name: 'Land Locked',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'This lock holds back the waters of Eastgate Bay, and has been the target of many super criminals bent on flooding Galaxy City.',
   notes: `Located in the Gemini Park neighborhood, in the middle of the large steel doors on the eastern wall of the zone, 270 yards south of the entrance to ${zoneLink(PerezPark)}.`,

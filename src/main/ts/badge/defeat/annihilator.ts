@@ -5,6 +5,7 @@ export const Annihilator: BadgeData = {
   key: 'annihilator',
   setTitleId: [305],
   name: 'Annihilator',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `After the beating you handed them, the Freedom Phalanx is very glad that you're on their side now.` },

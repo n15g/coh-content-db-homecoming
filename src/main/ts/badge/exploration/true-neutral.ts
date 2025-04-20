@@ -6,6 +6,7 @@ export const TrueNeutral: BadgeData = {
   key: 'true-neutral',
   setTitleId: [2423],
   name: 'True Neutral',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Vanguard abandoned its Atlas Park outpost in this timeline, not willing to take sides between Freedom Corps and Arachnos. They continue to recruit metahumans of all alignments in their fight against alien threats.`,
   links: [

@@ -9,6 +9,7 @@ export const Repairman: BadgeData = {
     { sex: 'M', value: 'Repairman' },
     { sex: 'F', value: 'Repairwoman' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 35 story arcs.',
   acquisition: `Complete 35 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

@@ -6,6 +6,7 @@ export const FollysVictim: BadgeData = {
   key: 'follys-victim',
   setTitleId: [2179],
   name: `Folly's Victim`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Ever watchful of the sleeping god Mot, the Circle of Thorns have stood vigil on these grounds since its imprisonment.
 Even as the last of Mot's bonds were shattered, the Circle sought to contain its terrible power.

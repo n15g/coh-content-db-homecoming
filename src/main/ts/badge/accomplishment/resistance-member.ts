@@ -5,6 +5,7 @@ export const ResistanceMember: BadgeData = {
   key: 'resistance-member',
   setTitleId: [1754],
   name: 'Resistance Member',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have lent your support to the Praetorian Resistance to overthrow Emperor Cole, or at least appeared to do so.',
   acquisition: 'Choose a Resistance outcome in a moral choice mission.',

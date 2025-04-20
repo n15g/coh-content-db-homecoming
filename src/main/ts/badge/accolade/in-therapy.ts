@@ -13,6 +13,7 @@ export const InTherapy: BadgeData = {
     { alignment: 'hero', value: 'In Therapy' },
     { alignment: 'villain', value: 'Megalomaniac' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `In order to get along with the heroes of Paragon City, you've started to see a professional about your desires for world domination.` },

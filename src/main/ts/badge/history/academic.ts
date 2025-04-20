@@ -9,6 +9,7 @@ export const Academic: BadgeData = {
   key: 'academic',
   setTitleId: [159],
   name: 'Academic',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of the successful takeover of Washington, D.C. by Nemesis.`,
   links: [

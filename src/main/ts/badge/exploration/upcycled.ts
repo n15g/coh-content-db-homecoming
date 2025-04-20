@@ -6,6 +6,7 @@ export const Upcycled: BadgeData = {
   key: 'upcycled',
   setTitleId: [2405],
   name: 'Upcycled',
+  releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `The Ace Storage facility is where important wreckage that has been retrieved from Aftershock and Overflow is stored.
 Crates, barrels, and transport vehicles litter the large lot. The Freakshow have started upcycling some of these materials for their own purposes.`,

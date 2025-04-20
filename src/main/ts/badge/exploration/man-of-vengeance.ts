@@ -9,6 +9,7 @@ export const ManOfVengeance: BadgeData = {
     { sex: 'M', value: 'Man of Vengeance' },
     { sex: 'F', value: 'Woman of Vengeance' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This is the wreckage of a warehouse owned by the Family.
 The man who killed Blue Steel's father was rumored to be taking shelter here.

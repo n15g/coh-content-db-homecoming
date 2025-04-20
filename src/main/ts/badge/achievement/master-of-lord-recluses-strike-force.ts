@@ -5,6 +5,7 @@ export const MasterOfLordReclusesStrikeForce: BadgeData = {
   key: 'master-of-lord-recluses-strike-force',
   setTitleId: [945],
   name: `Master of Lord Recluse's Strike Force`,
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have proven yourself Master of Lord Recluse's Strike Force.`,
   acquisition: `Complete the Master of Lord Recluse's Strike Force challenge (zero defeats, temporary and incarnate powers disabled).`,

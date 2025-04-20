@@ -6,6 +6,7 @@ export const Brawler: BadgeData = {
   key: 'brawler',
   setTitleId: [93],
   name: 'Brawler',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'Back Alley Brawler fought against two Underbosses from The Family, Slow Eye Lou and Hyper Mike, on this spot.',
   notes: `Located 156 yards ESE from the Arena, on top of the Mighty Mart.

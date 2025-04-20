@@ -6,6 +6,7 @@ export const TheWolfsMaw: BadgeData = {
   key: 'the-wolfs-maw',
   setTitleId: [1789],
   name: `The Wolf's Maw`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This heavily fortified gate leads into the Council base, but in truth it is a trap: a tantalizing lure devised to lure in the overconfident and unwary.
 It used to work well against novice heroes and the more foolhardy among the Warriors, but since the Banished Pantheon arrived to dominate the field outside the Maw, its effectiveness has been blunted.

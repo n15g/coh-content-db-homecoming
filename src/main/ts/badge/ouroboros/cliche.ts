@@ -5,6 +5,7 @@ export const Cliche: BadgeData = {
   key: 'cliche',
   setTitleId: [915],
   name: 'Cliché',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using Inspirations.` },

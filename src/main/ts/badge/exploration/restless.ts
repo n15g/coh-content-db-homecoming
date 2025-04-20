@@ -6,6 +6,7 @@ export const Restless: BadgeData = {
   key: 'restless',
   setTitleId: [2414],
   name: 'Restless',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Graveyards litter the Bay, but Shivans and Banished Pantheon alike keep mourners from visiting their passed loved ones.`,
   links: [

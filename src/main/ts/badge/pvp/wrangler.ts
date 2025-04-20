@@ -6,6 +6,7 @@ export const Wrangler: BadgeData = {
   key: 'wrangler',
   setTitleId: [581],
   name: 'Wrangler',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have helped defeat Black Scorpion in Recluse's Victory.`,
   acquisition: `Defeat Black Scorpion in ${zoneLink(ReclusesVictory)}.`,

@@ -9,6 +9,7 @@ export const StatesmansPal: BadgeData = {
     { alignment: 'hero', value: `Statesman's Pal` },
     { alignment: 'villain', value: `Praetoria's Bane` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have rescued Statesman from the clutches of Praetoria.' },

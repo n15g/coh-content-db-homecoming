@@ -6,6 +6,7 @@ export const BloodMoss: BadgeData = {
   key: 'blood-moss',
   setTitleId: [1775],
   name: 'Blood Moss',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Circle of Thorns believe that mystical energy emanates from this moss covered rock, energy that draws various unscrupulous practitioners of the dark arts to this isolated corner of Perez Park.
 Whether it contributes to their magical rites is a matter of debate, as M.A.G.I. has conducted surveys that have found no evidence of any such energy. S.E.R.A.P.H., however, has detected trace amounts of exotic

@@ -5,6 +5,7 @@ export const Terror: BadgeData = {
   key: 'terror',
   setTitleId: [1369],
   name: 'Terror',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The legions of terrible spectral fiends that guarded their Banner of Terror were no match for you.',
   acquisition: 'Defeat the Banner of Terror during a Deadly Apocalypse.',

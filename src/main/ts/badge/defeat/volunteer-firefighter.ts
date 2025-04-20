@@ -8,6 +8,7 @@ export const VolunteerFirefighter: BadgeData = {
     { alignment: 'hero', value: 'Volunteer Firefighter' },
     { alignment: 'villain', value: 'Fire Bane' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have helped save the people of Paragon City from burning!' },

@@ -17,6 +17,7 @@ export const ZigWarden: BadgeData = {
     { alignment: 'villain', sex: 'M', value: 'King of the Zig' },
     { alignment: 'villain', sex: 'F', value: 'Queen of the Zig' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Brickstown.`,
   links: [

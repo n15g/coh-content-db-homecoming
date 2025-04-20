@@ -6,6 +6,7 @@ export const SomewhereInTime: BadgeData = {
   key: 'somewhere-in-time',
   setTitleId: [565],
   name: 'Somewhere in Time',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: '50 pillboxes have fallen into your hands.',
   acquisition: `Capture 50 pillboxes in ${zoneLink(ReclusesVictory)}.`,

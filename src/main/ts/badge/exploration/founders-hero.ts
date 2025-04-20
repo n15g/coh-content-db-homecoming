@@ -9,6 +9,7 @@ export const FoundersHero: BadgeData = {
     { alignment: 'hero', value: `Founders' Hero` },
     { alignment: 'villain', value: `Founders' Loss` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This area is where Michelle Harvey, a local magician, made her last stand against the Circle of Thorns, who were trying to attack the nearby hospital.
 Michelle used all of her life force to erect a protective barrier around the hospital. A group of heroes arrived to drive back the Circle, but it was too late for them to save Michelle.

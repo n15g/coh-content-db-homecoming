@@ -5,6 +5,7 @@ export const UnholyCoven: BadgeData = {
   key: 'unholy-coven',
   setTitleId: [2506],
   name: 'Unholy Coven',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have defeated 5 crone matriarchs, these ancient witches lead the Coven from the deep shadows, practicing forbidden sorcery unseen by the world.`,
   acquisition: `Defeat 5 Crone Matriarchs during the Halloween event.`,

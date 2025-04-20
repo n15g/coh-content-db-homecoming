@@ -6,6 +6,7 @@ export const Hacker: BadgeData = {
   key: 'hacker',
   setTitleId: [1761],
   name: 'Hacker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You managed to destroy the War Walkers within the secret Praetorian warehouse before the security team could be activated.',
   acquisition: `Click all 8 devices within 30 seconds of entering the warehouse in the first mission of the ${contactLink(TinMageMarkII)} Task Force.`,

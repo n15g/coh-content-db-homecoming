@@ -5,6 +5,7 @@ export const Synchronized: BadgeData = {
   key: 'synchronized',
   setTitleId: [1984],
   name: 'Synchronized',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You proved masterful coordination during a raid on Lambda Sector by your league destroying two separate objectives simultaneously.',
   acquisition: 'Destroy a Weapons Cache and a Containment Canister within 2 seconds of each other during the Lambda Sector Incarnate Trial.',

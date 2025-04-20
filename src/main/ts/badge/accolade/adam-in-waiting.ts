@@ -16,6 +16,7 @@ export const AdamInWaiting: BadgeData = {
     { sex: 'M', value: 'Adam in Waiting' },
     { sex: 'F', value: 'Eve in Waiting' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Eden.`,
   links: [

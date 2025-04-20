@@ -8,6 +8,7 @@ export const DayTrader: BadgeData = {
     { alignment: 'hero', value: 'Day Trader' },
     { alignment: 'villain', value: 'Marketeer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

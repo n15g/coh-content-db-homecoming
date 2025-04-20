@@ -5,6 +5,7 @@ export const Inquisitor: BadgeData = {
   key: 'inquisitor',
   setTitleId: [1445],
   name: 'Inquisitor',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You completed a Villain Alignment Mission earning yourself the Inquisitor badge.',
   acquisition: 'Complete a villain alignment mission.',

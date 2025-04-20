@@ -7,6 +7,7 @@ export const Abomination: BadgeData = {
   key: 'abomination',
   setTitleId: [479],
   name: 'Abomination',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Vahzilok fear you.',
   links: [

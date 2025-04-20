@@ -8,6 +8,7 @@ export const Empath: BadgeData = {
     { value: 'Empath' },
     { alignment: 'praetorian', value: `Death's Jailer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'You have helped your fellow heroes by healing them for ten million hit points.' },

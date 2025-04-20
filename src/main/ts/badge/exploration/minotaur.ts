@@ -6,6 +6,7 @@ export const Minotaur: BadgeData = {
   key: 'minotaur',
   setTitleId: [125],
   name: 'Minotaur',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `While wrestling with the Chimera in the waters of the bay, Talos tore a rift in the ocean floor.
 Although the hero never rose from the waters, the island that formed was named in his honor.`,

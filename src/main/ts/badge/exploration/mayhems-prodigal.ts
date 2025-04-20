@@ -6,6 +6,7 @@ export const MayhemsProdigal: BadgeData = {
   key: 'mayhems-prodigal',
   setTitleId: [2052],
   name: `Mayhem's Prodigal`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This is where it all started. When First Ward was still a tyrant's dream, the true Mother of Mercy Hospital was already an aging heap of Gothic masonry.
 No one is sure exactly when Praetor Tilman built this hospital, or why she built it here, but even with its crumbling edifices, weed-choked grounds, and vacant windows,

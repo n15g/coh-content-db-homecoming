@@ -6,6 +6,7 @@ export const ScrapheapOfHistory: BadgeData = {
   key: 'scrapheap-of-history',
   setTitleId: [1839],
   name: 'Scrapheap of History',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Here lie the ruins of the Number 6 Titration Plant, the first of a new design meant to streamline the process of fuel waste reconstitution.
 It was hoped that the new plant design would improve waste recapture efforts by over 13%.

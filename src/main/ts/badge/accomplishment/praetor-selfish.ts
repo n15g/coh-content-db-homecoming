@@ -6,6 +6,7 @@ export const PraetorSelfish: BadgeData = {
   key: 'praetor-selfish',
   setTitleId: [2197],
   name: 'Praetor Selfish',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You played through Praetor Duncan's personal story, witnessing the event where Duncan was confronted by her past and kidnapped by Diabolique and Mot.`,
   links: [

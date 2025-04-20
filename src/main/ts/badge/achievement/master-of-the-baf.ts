@@ -9,6 +9,7 @@ export const MasterOfTheBAF: BadgeData = {
   key: 'master-of-the-baf',
   setTitleId: [1979],
   name: 'Master of the B.A.F.',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have mastered the Incarnate Trial: Behavioral Adjustment Facility.',
   links: [

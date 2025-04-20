@@ -6,6 +6,7 @@ export const Overhauler: BadgeData = {
   key: 'overhauler',
   setTitleId: [941],
   name: 'Overhauler',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 40 story arcs.',
   acquisition: `Complete 40 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

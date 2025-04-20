@@ -10,6 +10,7 @@ export const Vanguard: BadgeData = {
   key: 'vanguard',
   setTitleId: [164],
   name: 'Vanguard',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

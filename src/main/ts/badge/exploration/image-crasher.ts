@@ -6,6 +6,7 @@ export const ImageCrasher: BadgeData = {
   key: 'image-crasher',
   setTitleId: [1511],
   name: 'Image Crasher',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This large display screen fell off its holster after a particularly rough battle between Black Scorpion and Captain Mako.
 It was supposed to be fixed, but progress kept halting as workers became too distracted by the images on the screen.`,

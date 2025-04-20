@@ -8,6 +8,7 @@ export const Epitome: BadgeData = {
     { value: 'Epitome' },
     { alignment: 'praetorian', value: 'Philosopher' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You are the Epitome of heroism, and gratefully share your knowledge with younger heroes.' },

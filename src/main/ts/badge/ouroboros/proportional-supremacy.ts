@@ -5,6 +5,7 @@ export const ProportionalSupremacy: BadgeData = {
   key: 'proportional-supremacy',
   setTitleId: [857],
   name: 'Proportional Supremacy',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "3 Defeats Allowed" for the team.` },

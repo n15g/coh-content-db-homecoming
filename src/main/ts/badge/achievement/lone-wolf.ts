@@ -6,6 +6,7 @@ export const LoneWolf: BadgeData = {
   key: 'lone-wolf',
   setTitleId: [2202],
   name: 'Lone Wolf',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You fought against the armies of the Banished Pantheon by yourself, choosing to have the other Incarnates support the rest of Astoria.',
   acquisition: `Refuse help from other Incarnate NPCs in the final mission from ${contactLink(DreamDoctor)}.`,

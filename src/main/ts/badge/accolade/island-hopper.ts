@@ -13,6 +13,7 @@ export const IslandHopper: BadgeData = {
   key: 'island-hopper',
   setTitleId: [1551],
   name: 'Island Hopper',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Talos Island.`,
   links: [

@@ -13,6 +13,7 @@ export const AnsweredTheCall: BadgeData = {
   key: 'answered-the-call',
   setTitleId: [2410],
   name: 'Answered the Call',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Siren's Call.`,
   links: [

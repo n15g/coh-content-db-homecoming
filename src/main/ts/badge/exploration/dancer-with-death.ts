@@ -6,6 +6,7 @@ export const DancerWithDeath: BadgeData = {
   key: 'dancer-with-death',
   setTitleId: [1803],
   name: 'Dancer with Death',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Point Tango has come under repeated assaults that have wrought more devastation than any of the other military installations in the Shadow Shard.
 The damage of these constant attacks is evident in the shattered concrete structures, the warped metal supports, and on the faces of the soldiers manning Point Tango.

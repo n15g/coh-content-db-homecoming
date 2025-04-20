@@ -5,6 +5,7 @@ export const Resolute: BadgeData = {
   key: 'resolute',
   setTitleId: [1437],
   name: 'Resolute',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `Against all odds, you've withstood the challenges that have been thrown your way and come out on top. You have attained seventy-five Veteran levels.`,
   acquisition: 'Reach Veteran level 75.',

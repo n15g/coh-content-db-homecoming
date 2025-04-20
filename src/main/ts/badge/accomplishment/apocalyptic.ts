@@ -6,6 +6,7 @@ export const Apocalyptic: BadgeData = {
   key: 'apocalyptic',
   setTitleId: [837],
   name: 'Apocalyptic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated the Riktified Hero 1 and fought back the Rikti invasion for the time being.',
   links: [

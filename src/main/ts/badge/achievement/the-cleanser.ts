@@ -5,6 +5,7 @@ export const TheCleanser: BadgeData = {
   key: 'the-cleanser',
   setTitleId: [2022],
   name: 'The Cleanser',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You defeated all of the Lost worshippers before tackling their leader, ensuring he had no followers to fuel his power.',
   acquisition: 'Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost Leader.',

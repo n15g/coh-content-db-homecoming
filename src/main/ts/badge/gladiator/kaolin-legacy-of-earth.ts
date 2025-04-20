@@ -6,6 +6,7 @@ export const KaolinLegacyOfEarth: BadgeData = {
   key: 'kaolin-legacy-of-earth',
   setTitleId: [466],
   name: 'Kaolin Legacy of Earth',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'The Legacy Chain respects you.' },

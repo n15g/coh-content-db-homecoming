@@ -9,6 +9,7 @@ export const Explorer: BadgeData = {
     { alignment: 'villain', value: 'Obsessed' },
     { alignment: 'praetorian', value: 'Knows the Truth' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your diligence has earned you 50 badges.' },

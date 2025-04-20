@@ -5,6 +5,7 @@ export const PowerHungry: BadgeData = {
   key: 'power-hungry',
   setTitleId: [1768],
   name: 'Power Hungry',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Malleus Mundi has real power, and you've tapped into some of its potential.`,
   acquisition: `Complete the Whispered Rumor tip mission during the Halloween event and choose the option to "Use the Malleus Mundi to gain personal power".`,

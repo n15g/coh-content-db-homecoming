@@ -8,6 +8,7 @@ export const BombSquad: BadgeData = {
     { alignment: 'hero', value: 'Bomb Squad' },
     { alignment: 'villain', value: 'Blue Wire' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You were right. It WAS the red wire first.' },

@@ -6,6 +6,7 @@ export const Plutonian: BadgeData = {
   key: 'plutonian',
   setTitleId: [1830],
   name: 'Plutonian',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The best knowledge is knowledge acquired in secret, without the filters thrown up by outside forces to edit or alter that information.
 And with information comes power, the power of dominion over all that you survey.

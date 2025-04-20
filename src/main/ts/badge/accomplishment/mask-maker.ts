@@ -6,6 +6,7 @@ export const MaskMaker: BadgeData = {
   key: 'mask-maker',
   setTitleId: [333],
   name: 'Mask Maker',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You obtained 'samples' from the notorious Facemaker.`,
   links: [

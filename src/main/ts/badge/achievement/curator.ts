@@ -5,6 +5,7 @@ export const Curator: BadgeData = {
   key: 'curator',
   setTitleId: [2366],
   name: 'Curator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You never throw anything away, lest it be the clue that unravels the next mystery of the universe. Your collection of souvenirs makes museums jealous, and you wouldn't get rid of any of them.`,
   acquisition: 'Collect 200 Souvenirs.',

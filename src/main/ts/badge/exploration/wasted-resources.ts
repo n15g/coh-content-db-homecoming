@@ -6,6 +6,7 @@ export const WastedResources: BadgeData = {
   key: 'wasted-resources',
   setTitleId: [2415],
   name: 'Wasted Resources',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `These rigs stand derelict still, waiting for the area to be secured and the great War Walls to be repaired.`,
   links: [

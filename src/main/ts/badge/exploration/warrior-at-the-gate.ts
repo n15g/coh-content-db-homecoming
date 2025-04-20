@@ -6,6 +6,7 @@ export const WarriorAtTheGate: BadgeData = {
   key: 'warrior-at-the-gate',
   setTitleId: [1643],
   name: 'Warrior at the Gate',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Here lies the impregnable door that leads to one of the strongholds of the Resistance.
 For a member of the Resistance this barrier is a comforting symbol of their defiance of State power.

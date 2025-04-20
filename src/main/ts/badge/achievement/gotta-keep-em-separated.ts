@@ -5,6 +5,7 @@ export const GottaKeepEmSeparated: BadgeData = {
   key: 'gotta-keep-em-separated',
   setTitleId: [1977],
   name: `Gotta Keep 'Em Separated`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Siege and Nightstar usually fight as a duo, but you decided to divide and conquer, defeating them in the Behavioral Adjustment Facility where they stood.',
   acquisition: 'Defeat Siege & Nightstar without moving them from their initial locations during the Behavioral Adjustment Facility Incarnate Trial.',

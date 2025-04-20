@@ -5,6 +5,7 @@ export const Fearless: BadgeData = {
   key: 'fearless',
   setTitleId: [881],
   name: 'Fearless',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while the enemies were Buffed.` },

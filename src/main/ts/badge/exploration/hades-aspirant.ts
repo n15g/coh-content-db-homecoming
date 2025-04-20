@@ -6,6 +6,7 @@ export const HadesAspirant: BadgeData = {
   key: 'hades-aspirant',
   setTitleId: [1822],
   name: 'Hades Aspirant',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `At the deepest point beneath Paragon City the sounds of the millions above and the machinery that support them filter down to this dark place as a mournful groan.
 It is not difficult to understand why this part of the Abandoned Sewer Network came to be known as the Underworld, for no where else does it feel more isolated and desolate.`,

@@ -10,6 +10,7 @@ export const BlockadeRunner: BadgeData = {
     { alignment: 'hero', value: 'Blockade Runner' },
     { alignment: 'villain', value: 'Profiteer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     {

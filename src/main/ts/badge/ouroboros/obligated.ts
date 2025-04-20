@@ -5,6 +5,7 @@ export const Obligated: BadgeData = {
   key: 'obligated',
   setTitleId: [892],
   name: 'Obligated',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while only using your Primary and Secondary powersets.` },

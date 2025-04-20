@@ -13,6 +13,7 @@ export const ForceOfJustice: BadgeData = {
     { alignment: 'hero', value: 'Force of Justice' },
     { alignment: 'villain', value: 'Force of Injustice' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have proven yourself as one of Paragon City's finest heroes by protecting all of the major banks in the city.` },

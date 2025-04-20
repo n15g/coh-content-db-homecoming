@@ -5,6 +5,7 @@ export const PocketDVipGoldClubMember: BadgeData = {
   key: 'pocket-d-vip-gold-club-member',
   setTitleId: [623],
   name: 'Pocket D VIP Gold Club Member',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You are a member of Pocket D's VIP Gold Club.`,
   acquisition: 'Spend an hour in Pocket D.',

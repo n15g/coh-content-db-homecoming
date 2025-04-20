@@ -5,6 +5,7 @@ export const TemporalWarrior: BadgeData = {
   key: 'temporal-warrior',
   setTitleId: [1629],
   name: 'Temporal Warrior',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your connection to your home timeline has been severed. Your only purpose now is eternal battle for a future you will never reach.`,
   acquisition: `Awarded on initial login of a PvP-only Temporal Warrior character.`,

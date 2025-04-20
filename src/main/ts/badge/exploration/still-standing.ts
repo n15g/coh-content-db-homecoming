@@ -6,6 +6,7 @@ export const StillStanding: BadgeData = {
   key: 'still-standing',
   setTitleId: [2417],
   name: 'Still Standing',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `This building was shaken to its foundations, but it is still standing... and so are you.`,
   links: [

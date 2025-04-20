@@ -9,6 +9,7 @@ export const FalseImage: BadgeData = {
     { alignment: 'hero', value: 'False Image' },
     { alignment: 'villain', value: 'Mirage' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Perhaps Scirocco is secretly envious of your break to the side of honor, but he still cannot brook your betrayal.` },

@@ -6,6 +6,7 @@ export const BabeInTheWoods: BadgeData = {
   key: 'babe-in-the-woods',
   setTitleId: [1848],
   name: 'Babe in the Woods',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Hulking spires of stone splinter the landscape all around you, at this, the outermost edge of The Hive.
 So this is what a world re-shaped by the Devouring Earth would look like—a place completely inhospitable to humanity, a land rendered hostile to your very presence.

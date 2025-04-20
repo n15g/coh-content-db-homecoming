@@ -5,6 +5,7 @@ export const ArenaSurvivalist: BadgeData = {
   key: 'arena-survivalist',
   setTitleId: [1351],
   name: 'Arena Survivalist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've won your first Free for All match, you're considered an Arena Survivalist.`,
   acquisition: 'Win a rated or unrated Battle Royale match in the Arena.',

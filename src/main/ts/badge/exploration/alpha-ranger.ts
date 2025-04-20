@@ -6,6 +6,7 @@ export const AlphaRanger: BadgeData = {
   key: 'alpha-ranger',
   setTitleId: [1800],
   name: 'Alpha Ranger',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The soldiers of Point Alpha man one of the most embattled posts in the Shadow Shard. They deal with skirmishes on an hourly basis and the attrition rate is very high.
 Coming here is viewed as both a blessing; the men cheer any powered assistance they can get against an enemy they can barely comprehend; and a curse, for your presence indicates

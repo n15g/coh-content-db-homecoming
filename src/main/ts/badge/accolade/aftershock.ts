@@ -10,6 +10,7 @@ export const Aftershock: BadgeData = {
   key: 'aftershock',
   setTitleId: [2373],
   name: 'Aftershock',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Faultline.`,
   acquisition: `Complete every story arc within ${zoneLink(Faultline)}.`,

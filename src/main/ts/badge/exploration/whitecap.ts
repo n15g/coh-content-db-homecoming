@@ -6,6 +6,7 @@ export const Whitecap: BadgeData = {
   key: 'whitecap',
   setTitleId: [127],
   name: 'Whitecap',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The cargo ship Alba Varden tends to be a hotbed of criminal activity.`,
   notes: `Located on a ship in the sea northeast of the main island, approximately 630 yards east of the Ithaca Island marker. The badge is on top of the cabin.`,

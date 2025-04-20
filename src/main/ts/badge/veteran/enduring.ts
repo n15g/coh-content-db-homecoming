@@ -5,6 +5,7 @@ export const Enduring: BadgeData = {
   key: 'enduring',
   setTitleId: [1279],
   name: 'Enduring',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `This world is in a state of constant change, but there's one thing people can count on: you. You have attained sixty-six Veteran levels.` },

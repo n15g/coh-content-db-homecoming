@@ -6,6 +6,7 @@ export const FirstRule: BadgeData = {
   key: 'first-rule',
   setTitleId: [1484],
   name: 'First Rule',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The first rule of Infected Fight Club is that you don't talk about it. At least that's what the RIP told you after you walked in on one of their Infected Fighting Rings in Mercy.`,
   notes: `Located in the Darwin's Landing neighborhood, in the middle of the triangular fight club arena 612 yards WSW of the neighborhood marker.`,

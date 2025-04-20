@@ -10,6 +10,7 @@ export const JusticeAvenger: BadgeData = {
     { alignment: 'hero', value: 'Justice Avenger' },
     { alignment: 'villain', value: 'Social Climber' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This fountain was a gift to the city, donated by billionaire playboy Justin Sinclair.`,
   notes: `Located in a fountain 246 yards from the ${zoneLink(SkywayCity)} entrance.`,

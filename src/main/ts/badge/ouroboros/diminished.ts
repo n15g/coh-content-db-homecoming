@@ -5,6 +5,7 @@ export const Diminished: BadgeData = {
   key: 'diminished',
   setTitleId: [904],
   name: 'Diminished',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while not using any Temporary Powers.` },

@@ -8,6 +8,7 @@ export const Student: BadgeData = {
   key: 'student',
   setTitleId: [148],
   name: 'Student',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of the Citizen Crime Fighting Act.`,
   links: [

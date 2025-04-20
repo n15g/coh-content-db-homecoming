@@ -5,6 +5,7 @@ export const Deincarnated: BadgeData = {
   key: 'deincarnated',
   setTitleId: [2475],
   name: 'Deincarnated',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have completed a Flashback at level 50 while not using any Incarnate Powers.`,
   acquisition: `Complete a Flashback at level 50 without using any Incarnate Powers.`,

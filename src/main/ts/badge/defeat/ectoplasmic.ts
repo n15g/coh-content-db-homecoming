@@ -5,6 +5,7 @@ export const Ectoplasmic: BadgeData = {
   key: 'ectoplasmic',
   setTitleId: [208],
   name: 'Ectoplasmic',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have held back the forces of the afterlife in their eternal struggle to break through to the mortal world.`,
   acquisition: 'Defeat 50 Ghosts that spawn from the Ghost Ship.',

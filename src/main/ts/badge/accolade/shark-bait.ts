@@ -9,6 +9,7 @@ export const SharkBait: BadgeData = {
     { alignment: 'hero', value: 'Shark Bait' },
     { alignment: 'villain', value: 'Bloodletter' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Captain Mako once called you an ally. Now he calls you a snack.` },

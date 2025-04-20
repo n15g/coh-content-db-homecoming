@@ -5,6 +5,7 @@ export const AllBusiness: BadgeData = {
   key: 'all-business',
   setTitleId: [890],
   name: 'All Business',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while only using your Primary and Secondary powersets.` },

@@ -5,6 +5,7 @@ export const Curtailed: BadgeData = {
   key: 'curtailed',
   setTitleId: [906],
   name: 'Curtailed',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while not using any Temporary Powers.` },

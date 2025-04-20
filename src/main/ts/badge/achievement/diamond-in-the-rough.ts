@@ -6,6 +6,7 @@ export const DiamondInTheRough: BadgeData = {
   key: 'diamond-in-the-rough',
   setTitleId: [2419],
   name: 'Diamond in the Rough',
+  releaseDate: '2019-06-01',
   morality: 'villainous',
   badgeText: 'Finding the Florentine Diamond was not as quick or simple as it first seemed.',
   links: [

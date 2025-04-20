@@ -6,6 +6,7 @@ export const DeadMansTree: BadgeData = {
   key: 'dead-mans-tree',
   setTitleId: [1505],
   name: `Dead Man's Tree`,
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This dead tree within St. Martial is said to be haunted by the ghost of a man who tried to chop it down.
 People say that if you look closely, you can see glimpses of the man's skeleton, waiting to be released from his torture...`,

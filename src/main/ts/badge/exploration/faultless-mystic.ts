@@ -6,6 +6,7 @@ export const FaultlessMystic: BadgeData = {
   key: 'faultless-mystic',
   setTitleId: [120],
   name: 'Faultless Mystic',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Ley Lines are powerful forces of mystical energy that crisscross the planet. Paragon City's proximity to Ley Line crossings makes it a prime location for magical villain groups.`,
   notes: `Located approx. 173 yrds NNE of the "Precipice" marker in the crevice next to a burn out car.`,

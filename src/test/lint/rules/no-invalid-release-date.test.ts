@@ -69,5 +69,21 @@ export const Academic: BadgeData = {
 }`,
       errors: [{ messageId: 'invalid' }],
     },
+    {
+      name: 'with prefix chars',
+      code: `
+export const Academic: BadgeData = {
+  releaseDate: 'asd2012-01-30',
+}`,
+      errors: [{ messageId: 'invalid' }],
+    },
+    {
+      name: 'with suffix chars',
+      code: `
+export const Academic: BadgeData = {
+  releaseDate: '2012-01-30efg',
+}`,
+      errors: [{ messageId: 'invalid' }],
+    },
   ],
 })

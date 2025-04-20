@@ -9,6 +9,7 @@ export const NatureLover: BadgeData = {
     { alignment: 'hero', value: 'Nature Lover' },
     { alignment: 'villain', value: 'Eco-warrior' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Mechanus was one of Woodsman's greatest enemies.
 It was on this spot that the champion of nature defeated the artificially intelligent robot for the final time.`,

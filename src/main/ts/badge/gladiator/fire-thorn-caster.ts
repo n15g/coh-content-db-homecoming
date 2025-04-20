@@ -6,6 +6,7 @@ export const FireThornCaster: BadgeData = {
   key: 'fire-thorn-caster',
   setTitleId: [486],
   name: 'Fire Thorn Caster',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Circle of Thorns fears to disobey you.',
   links: [

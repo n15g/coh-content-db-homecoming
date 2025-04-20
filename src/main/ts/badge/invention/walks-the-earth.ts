@@ -5,6 +5,7 @@ export const WalksTheEarth: BadgeData = {
   key: 'walks-the-earth',
   setTitleId: [803],
   name: 'Walks the Earth',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 35 and 40: Run Speed, Jump, Fly Speed, and Range.',
   links: [

@@ -8,6 +8,7 @@ export const ShopKeeper: BadgeData = {
     { alignment: 'hero', value: 'Shop Keeper' },
     { alignment: 'villain', value: 'Price Gouger' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

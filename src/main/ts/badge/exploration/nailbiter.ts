@@ -6,6 +6,7 @@ export const Nailbiter: BadgeData = {
   key: 'nailbiter',
   setTitleId: [1747],
   name: 'Nailbiter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This PPD interrogation and holding area is littered with the signs of harsh treatment.
 Dried bodily fluids, ripped off fingernails, and a few human teeth mark this area as a place you don't want to wind up in.`,

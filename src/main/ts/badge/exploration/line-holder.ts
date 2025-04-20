@@ -6,6 +6,7 @@ export const LineHolder: BadgeData = {
   key: 'line-holder',
   setTitleId: [1512],
   name: 'Line Holder',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Arachnos stationed here are the first line of defense against any Arachnoids trying to break out of the Gutter.
 Arachnoids foolish enough to attempt an attack from above ground never succeed, though it's well known that most Arachnoids utilize their own underground tunnels to travel.`,

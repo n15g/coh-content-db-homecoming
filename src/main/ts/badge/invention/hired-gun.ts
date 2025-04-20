@@ -5,6 +5,7 @@ export const HiredGun: BadgeData = {
   key: 'hired-gun',
   setTitleId: [786],
   name: 'Hired Gun',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 15 and 20: Recharge Rate and Interrupt Time.',
   links: [

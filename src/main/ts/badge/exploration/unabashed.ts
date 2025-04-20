@@ -6,6 +6,7 @@ export const Unabashed: BadgeData = {
   key: 'unabashed',
   setTitleId: [758],
   name: 'Unabashed',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `If you've made it onto the Rikti Ship, under the defensive shields, you're either very brave or.....`,
   notes: `Located in the center of the Rikti ship when the shields have been taken down by destroying all 20 Rikti Pylons.`,

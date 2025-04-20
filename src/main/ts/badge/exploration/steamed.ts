@@ -6,6 +6,7 @@ export const Steamed: BadgeData = {
   key: 'steamed',
   setTitleId: [272],
   name: 'Steamed',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Volcanic activity around Mount Diable causes a lot of steamy venting. Watch out or it's lobster time.`,
   notes: 'Located 88 feet southeast of the Mount Diable marker, just east of a couple of towers holding up large pipes.',

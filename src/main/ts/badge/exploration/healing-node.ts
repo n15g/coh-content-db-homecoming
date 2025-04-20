@@ -7,6 +7,7 @@ export const HealingNode: BadgeData = {
   key: 'healing-node',
   setTitleId: [113],
   name: 'Healing Node',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The MedCom is the teleportation network that can send fallen heroes directly to the hospital for treatment.
 This node is the center of the network; the other nodes are on the outskirts of the city.`,

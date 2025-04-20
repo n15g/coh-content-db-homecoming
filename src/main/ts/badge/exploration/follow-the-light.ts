@@ -6,6 +6,7 @@ export const FollowTheLight: BadgeData = {
   key: 'follow-the-light',
   setTitleId: [2231],
   name: 'Follow the Light',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have discovered the first of many lighted paths in Night Ward.
 The Carnival of Light has been working tirelessly to hold the darkness of this realm at bay by way of their protective luster.

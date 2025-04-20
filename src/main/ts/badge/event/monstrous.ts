@@ -5,6 +5,7 @@ export const Monstrous: BadgeData = {
   key: 'monstrous',
   setTitleId: [1371],
   name: 'Monstrous',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The colossal Greater Mystic Aspect proved to be no match for your might.',
   acquisition: 'Defeat the Greater Mystic Aspect during a Deadly Apocalypse.',

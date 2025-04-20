@@ -5,6 +5,7 @@ export const InterfaceUnlocked: BadgeData = {
   key: 'interface-unlocked',
   setTitleId: [1392],
   name: 'Interface Unlocked',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You unlocked your Interface Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Interface Incarnate slot.`,

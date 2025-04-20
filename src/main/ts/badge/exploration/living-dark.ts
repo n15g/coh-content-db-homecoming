@@ -6,6 +6,7 @@ export const LivingDark: BadgeData = {
   key: 'living-dark',
   setTitleId: [1827],
   name: 'Living Dark',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Far away from the light of civilization and the life of normal people, darkness can take on a life of its own.
 It flows into every corner, irresistible and tireless, as silent as death. It is the natural state of things down here where your presence is a violation.

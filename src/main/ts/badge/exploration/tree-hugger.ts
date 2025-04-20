@@ -6,6 +6,7 @@ export const TreeHugger: BadgeData = {
   key: 'tree-hugger',
   setTitleId: [278],
   name: 'Tree Hugger',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `What mysterious purpose does this twisted old tree serve?`,
   notes: `Located in the Thorn Isle neighborhood, at the northwestern base of the large thorn tree in the center of the neighborhood.`,

@@ -5,6 +5,7 @@ export const FrozenFury: BadgeData = {
   key: 'frozen-fury',
   setTitleId: [210],
   name: 'Frozen Fury',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You helped defeat a manifestation of the Winter Lord, who brought his cold wrath to Paragon City.',
   acquisition: 'Defeat a Winter Lord during the Winter Event.',

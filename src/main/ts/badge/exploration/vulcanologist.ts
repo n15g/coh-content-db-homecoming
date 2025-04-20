@@ -6,6 +6,7 @@ export const Vulcanologist: BadgeData = {
   key: 'vulcanologist',
   setTitleId: [198],
   name: 'Vulcanologist',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Council has hollowed out this dormant volcano to build a massive factory. The creations within are guarded with the utmost secrecy.`,
   notes: `Located approx. 46 yards from the Council Base marker on the southwestern lip of the large volcano.`,

@@ -5,6 +5,7 @@ export const Suspended: BadgeData = {
   key: 'suspended',
   setTitleId: [903],
   name: 'Suspended',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Travel Power Power Pools.` },

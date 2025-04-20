@@ -5,6 +5,7 @@ export const Lanista: BadgeData = {
   key: 'lanista',
   setTitleId: [473],
   name: 'Lanista',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have won your first rated creature battle in the Arena!',
   acquisition: 'Win one Gladiator match in the Arena.',

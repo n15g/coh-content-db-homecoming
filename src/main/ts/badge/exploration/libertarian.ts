@@ -10,6 +10,7 @@ export const Libertarian: BadgeData = {
     { alignment: 'hero', value: 'Libertarian' },
     { alignment: 'villain', value: 'Anarchist' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `It is here that the Devouring Earth nearly set off a biological bomb to infect the citizens of Founder's Falls.`,
   notes: `Located under the edge of a fountain, approximately 140 yards east of the bank.

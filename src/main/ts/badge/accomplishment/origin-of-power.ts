@@ -6,6 +6,7 @@ export const OriginOfPower: BadgeData = {
   key: 'origin-of-power',
   setTitleId: [989],
   name: 'Origin of Power',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You gain a deeper understanding of the power and history of origins by talking to a representative of each path.',
   links: [

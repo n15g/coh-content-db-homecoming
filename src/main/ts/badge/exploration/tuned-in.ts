@@ -6,6 +6,7 @@ export const TunedIn: BadgeData = {
   key: 'tuned-in',
   setTitleId: [1409],
   name: 'Tuned In',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Total Praetorian Network is the best source of news and entertainment. Well, the best LEGAL source for news and entertainment, anyway.`,
   notes: `Located 41 yards NW of the Logos marker.`,

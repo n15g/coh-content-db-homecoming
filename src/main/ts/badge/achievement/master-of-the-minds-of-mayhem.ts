@@ -10,6 +10,7 @@ export const MasterOfTheMindsOfMayhem: BadgeData = {
   key: 'master-of-minds-of-mayhem',
   setTitleId: [2083],
   name: 'Master of the Minds of Mayhem',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have mastered the Incarnate Trial: The Minds of Mayhem.',
   links: [

@@ -5,6 +5,7 @@ export const Sentry: BadgeData = {
   key: 'sentry',
   setTitleId: [833],
   name: 'Sentry',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated 100 of the invading Rikti hordes!',
   acquisition: 'Defeat 100 Rikti during a Rikti World Invasion.',

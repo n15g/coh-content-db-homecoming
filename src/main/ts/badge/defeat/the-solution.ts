@@ -6,6 +6,7 @@ export const TheSolution: BadgeData = {
   key: 'the-solution',
   setTitleId: [44],
   name: 'The Solution',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have bested Jurassik, the personification of the ideals of the Devouring Earth. The world sleeps safer at night due to your actions.`,
   acquisition: `Defeat Jurassik, a monster that spawns in ${zoneLink(CreysFolly)}.`,

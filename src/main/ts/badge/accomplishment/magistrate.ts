@@ -18,6 +18,7 @@ export const Magistrate: BadgeData = {
   key: 'magistrate',
   setTitleId: [2345],
   name: 'Magistrate',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You assisted the Praetorian Loyalists to enforce the law for the peace and safety of everyone in Praetoria.`,
   acquisition: 'Complete every story arc in the Praetorian [Responsibility Storyline](https://homecoming.wiki/wiki/Responsibility_Storyline).',

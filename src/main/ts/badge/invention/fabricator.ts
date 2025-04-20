@@ -5,6 +5,7 @@ export const Fabricator: BadgeData = {
   key: 'fabricator',
   setTitleId: [744],
   name: 'Fabricator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Your ingenuity knows no bounds, and after 2,000 inventions you are now a Fabricator.',
   acquisition: 'Craft 2000 items in the Invention System or Supergroup Base system.',

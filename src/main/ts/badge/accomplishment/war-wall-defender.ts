@@ -9,6 +9,7 @@ export const WarWallDefender: BadgeData = {
     { alignment: 'hero', value: 'War Wall Defender' },
     { alignment: 'villain', value: 'Saboteur' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You foiled a plot to undermine the War Walls that protect Paragon City.',
   links: [

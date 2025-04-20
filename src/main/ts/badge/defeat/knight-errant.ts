@@ -9,6 +9,7 @@ export const KnightErrant: BadgeData = {
     { alignment: 'hero', value: 'Knight Errant' },
     { alignment: 'villain', value: 'Black Knight' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have helped defeat the Clockwork Paladin, a diabolical invention of the Clockwork King.',
   acquisition: `Prevent the construction of Paladin by defeating the Monster Construction during the Paladin Construction zone event in ${zoneLink(KingsRow)}.`,

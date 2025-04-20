@@ -5,6 +5,7 @@ export const WeedWhacker: BadgeData = {
   key: 'weed-whacker',
   setTitleId: [308],
   name: 'Weed Whacker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've cut down more than your fair share of the Thorns.`,
   acquisition: 'Defeat 50 Circle of Thorns Succubi or Hellfrosts.',

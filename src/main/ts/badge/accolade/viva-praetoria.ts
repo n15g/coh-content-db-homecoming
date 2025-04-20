@@ -13,6 +13,7 @@ export const VivaPraetoria: BadgeData = {
   key: 'viva-praetoria',
   setTitleId: [1431],
   name: 'Viva Praetoria',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Long live Praetoria.  You are a well-traveled citizen.`,
   links: [

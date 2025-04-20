@@ -5,6 +5,7 @@ export const SlayerOfTheMinotaur: BadgeData = {
   key: 'slayer-of-the-minotaur',
   setTitleId: [2534],
   name: 'Slayer of the Minotaur',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `Historians insisted it couldn't be done, that The Minotaur In The Fog could not be bested in combat, but you've done just that.
 You've proven yourself worthy to stand shoulder-to-shoulder with the greatest ancient heroes of myth.`,

@@ -7,6 +7,7 @@ export const GhostHunter: BadgeData = {
   key: 'ghost-hunter',
   setTitleId: [191],
   name: 'Ghost Hunter',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the rumors behind the fabled Ghost Ship.`,
   links: [

@@ -5,6 +5,7 @@ export const EmberLegacyOfFlame: BadgeData = {
   key: 'ember-legacy-of-flame',
   setTitleId: [464],
   name: 'Ember Legacy of Flame',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'The Legacy Chain respects you.' },

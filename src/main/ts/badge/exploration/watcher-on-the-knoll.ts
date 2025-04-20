@@ -6,6 +6,7 @@ export const WatcherOnTheKnoll: BadgeData = {
   key: 'watcher-on-the-knoll',
   setTitleId: [274],
   name: 'Watcher on the Knoll',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `A failed assassination on Ms. Liberty was made from the top of this pillar.`,
   notes: `Located on the northernmost island of Crimson Cove, between the feet of the southern statue in front of the large building, atop the plinth.`,

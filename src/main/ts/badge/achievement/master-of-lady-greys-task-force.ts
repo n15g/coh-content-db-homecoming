@@ -5,6 +5,7 @@ export const MasterOfLadyGreysTaskForce: BadgeData = {
   key: 'master-of-lady-greys-task-force',
   setTitleId: [1584],
   name: `Master of Lady Grey's Task Force`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have proven yourself Master of Lady Grey's Task Force.`,
   acquisition: `Complete the Master of Lady Grey's Task Force challenge (zero defeats, temporary and incarnate powers disabled).`,

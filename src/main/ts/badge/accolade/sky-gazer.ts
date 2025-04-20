@@ -13,6 +13,7 @@ export const SkyGazer: BadgeData = {
   key: 'sky-gazer',
   setTitleId: [1539],
   name: 'Sky Gazer',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Skyway City.`,
   links: [

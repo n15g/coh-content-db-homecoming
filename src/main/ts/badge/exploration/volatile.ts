@@ -6,6 +6,7 @@ export const Volatile: BadgeData = {
   key: 'volatile',
   setTitleId: [2418],
   name: 'Volatile',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `This refinery was already under investigation for its poor handling of explosive gases when the shockwave from the Sunburst incident created a chain reaction that leveled the entire complex.`,
   links: [

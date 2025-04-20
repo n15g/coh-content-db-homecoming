@@ -6,6 +6,7 @@ export const FreakOfNature: BadgeData = {
   key: 'freak-of-nature',
   setTitleId: [297],
   name: 'Freak of Nature',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The Freakshow have managed to find utopia in this forsaken slag heap.`,
   notes: `Located just east of the center of the Freakshow shanty 295 yards north of The Crush neighborhood marker.

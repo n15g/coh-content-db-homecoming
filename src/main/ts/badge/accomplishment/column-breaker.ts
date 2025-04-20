@@ -6,6 +6,7 @@ export const ColumnBreaker: BadgeData = {
   key: 'column-breaker',
   setTitleId: [1293],
   name: 'Column Breaker',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `Even though Reichsman managed to escape, you know you've stopped his plans to form an unstoppable allegiance of evil.`,
   links: [

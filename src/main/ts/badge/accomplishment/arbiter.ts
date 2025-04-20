@@ -6,6 +6,7 @@ export const Arbiter: BadgeData = {
   key: 'arbiter',
   setTitleId: [1294],
   name: 'Arbiter',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `Taking down Reichsman and making fools out of Lord Recluse's lieutenants might just be the most profitable and satisfying job you've ever pulled.`,
   links: [

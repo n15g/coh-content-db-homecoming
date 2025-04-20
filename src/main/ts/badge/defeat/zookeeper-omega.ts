@@ -6,6 +6,7 @@ export const ZookeeperOmega: BadgeData = {
   key: 'zookeeper-omega',
   setTitleId: [2517],
   name: 'Zookeeper Omega',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You are truly the Omega of all Zookeepers! Having bested K'ong and his horde of deadly Rikti Monkeys Vultures.
 You'd like to think you've built up a tolerance to poisonous gas... Hopefully!`,

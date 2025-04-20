@@ -5,6 +5,7 @@ export const Shifter: BadgeData = {
   key: 'shifter',
   setTitleId: [187],
   name: 'Shifter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated 15 werewolves, supernatural creatures created through the disease of lycanthropy.',
   acquisition: 'Defeat 15 Werewolves during the Halloween event.',

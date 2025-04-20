@@ -8,6 +8,7 @@ export const Firefighter: BadgeData = {
     { alignment: 'hero', value: 'Firefighter' },
     { alignment: 'villain', value: 'Firestomper' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `Once again, you have risen to the call of duty and put an end to the evil arsonists that plague Paragon City.  Smokey would be proud!` },

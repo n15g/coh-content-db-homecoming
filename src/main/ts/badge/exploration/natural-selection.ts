@@ -7,6 +7,7 @@ export const NaturalSelection: BadgeData = {
   key: 'natural-selection',
   setTitleId: [1847],
   name: 'Natural Selection',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `It is difficult to remain unaffected by the display of Hamidon's might.
 How could anyone not feel a sense of awe at the majesty present in the towering spires of rock, the primeval forest you can practically watch growing before your very eyes?

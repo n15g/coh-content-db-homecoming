@@ -7,6 +7,7 @@ export const DownwardBound: BadgeData = {
   key: 'downward-bound',
   setTitleId: [1834],
   name: 'Downward Bound',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Many fledgling heroes see Atlas Park as a mere stepping stone to the city districts beyond where greater rewards await.
 Others turn their attention downwards, to the unseen avenues that underlie this famous starting location.

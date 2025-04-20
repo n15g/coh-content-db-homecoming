@@ -5,6 +5,7 @@ export const VampiricHeritage: BadgeData = {
   key: 'vampiric-heritage',
   setTitleId: [2503],
   name: 'Vampiric Heritage',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have defeated 5 ancient vampires, the eldest of the vampires in the ancestral lineage of those who thirst for blood in the darkness.`,
   acquisition: `Defeat 5 Ancient Vampires during the Halloween event.`,

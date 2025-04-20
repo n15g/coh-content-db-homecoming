@@ -5,6 +5,7 @@ export const Festive: BadgeData = {
   key: 'festive',
   setTitleId: [1376],
   name: 'Festive',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You celebrated the winter season during the annual Winter Event.',
   acquisition: `Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.`,

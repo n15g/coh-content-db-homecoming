@@ -6,6 +6,7 @@ export const LiquidMemory: BadgeData = {
   key: 'liquid-memory',
   setTitleId: [1809],
   name: 'Liquid Memory',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You look upon this pool of red fluid and your mind says "blood." But despite this another part of your mind says "drink." And you do.
 It tastes like the scent of green grass, of the metallic tang of an adrenaline rush, burnt rubber, your mother's blueberry pie, and on and on.

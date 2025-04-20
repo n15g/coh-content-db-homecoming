@@ -6,6 +6,7 @@ export const BehaviorAdjuster: BadgeData = {
   key: 'behavior-adjuster',
   setTitleId: [1974],
   name: 'Behavior Adjuster',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Behavioral Adjustment Facility.',
   links: [

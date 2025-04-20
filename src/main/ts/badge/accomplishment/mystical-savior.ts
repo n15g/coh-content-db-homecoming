@@ -9,6 +9,7 @@ export const MysticalSavior: BadgeData = {
     { alignment: 'hero', value: 'Mystical Savior' },
     { alignment: 'villain', value: 'Mystical Adept' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You saved a cabal of mystics from being used by the Banished Pantheon.',
   links: [

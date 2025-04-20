@@ -9,6 +9,7 @@ export const TemporalFighter: BadgeData = {
     { alignment: 'hero', value: 'Temporal Fighter' },
     { alignment: 'villain', value: 'Dark Victory' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Meinhoff Building was created in our current timeline to serve as an Arachnos base in this possible future.',
   notes: `Located in  Sector 1, due west of the ramp leading out of the monorail station in a narrow alleyway between two buildings.`,

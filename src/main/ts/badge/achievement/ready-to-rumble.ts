@@ -5,6 +5,7 @@ export const ReadyToRumble: BadgeData = {
   key: 'ready-to-rumble',
   setTitleId: [2222],
   name: 'Ready to Rumble',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Pendragon, Chimera, Shadowhunter, Black Swan, and a legion of IDF fell before you and your league with startling rapidity.
 By demonstrating your speed at mowing through Praetoria's last line of defense, you have proven that you are Ready to Rumble!`,

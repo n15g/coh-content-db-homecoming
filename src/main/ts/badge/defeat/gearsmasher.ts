@@ -5,6 +5,7 @@ export const Gearsmasher: BadgeData = {
   key: 'gearsmasher',
   setTitleId: [31],
   name: 'Gearsmasher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have learned that the smallest gear can power the greatest threat, and have taken steps to stop the Clockwork menace.`,
   acquisition: 'Defeat 100 Clockwork gears.',

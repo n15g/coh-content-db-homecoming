@@ -7,6 +7,7 @@ export const NoEscape: BadgeData = {
   key: 'no-escape',
   setTitleId: [1864],
   name: 'No Escape',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You'd heard a recording of the last transmission sent from this loc: a frantic helicopter pilot trying to get his whirlybird off the platform before the monsters closed in.
 You could hear the terror in his voice and it made you smile. You know what that terror is like.

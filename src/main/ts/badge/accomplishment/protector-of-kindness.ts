@@ -9,6 +9,7 @@ export const ProtectorOfKindness: BadgeData = {
     { alignment: 'hero', value: 'Protector of Kindness' },
     { alignment: 'villain', value: 'Thorn Crusher' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You saved the being known as Faathim the Kind from capture by the Circle of Thorns.',
   acquisition: 'Complete the Justin Augustine Task Force: The Saga of Faathim.',

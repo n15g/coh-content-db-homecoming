@@ -16,6 +16,7 @@ export const PPDInformant: BadgeData = {
     { alignment: 'hero', value: 'PPD Informant' },
     { alignment: 'villain', value: 'Former PPD Stoolie' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Kings Row.`,
   links: [

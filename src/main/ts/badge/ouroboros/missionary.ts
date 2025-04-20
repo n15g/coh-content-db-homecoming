@@ -5,6 +5,7 @@ export const Missionary: BadgeData = {
   key: 'missionary',
   setTitleId: [893],
   name: 'Missionary',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while only using your Primary and Secondary powersets.` },

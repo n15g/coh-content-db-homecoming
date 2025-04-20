@@ -6,6 +6,7 @@ export const Unquenchable: BadgeData = {
   key: 'unquenchable',
   setTitleId: [2493],
   name: 'Unquenchable',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'You have helped celebrate the 18th anniversary of City of Heroes.',
   acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,

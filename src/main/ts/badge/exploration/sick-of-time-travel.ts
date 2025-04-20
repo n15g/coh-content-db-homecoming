@@ -6,6 +6,7 @@ export const SickOfTimeTravel: BadgeData = {
   key: 'sick-of-time-travel',
   setTitleId: [2424],
   name: 'Sick of Time Travel',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Several investigations into food poisoning at this restaurant found no problem with the food. It was eventually discovered that the frequent dimensional reversions caused by the nearby Temporal Anchor were to blame.`,
   links: [

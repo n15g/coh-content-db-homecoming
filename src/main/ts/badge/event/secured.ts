@@ -5,6 +5,7 @@ export const Secured: BadgeData = {
   key: 'secured',
   setTitleId: [1767],
   name: 'Secured',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have kept the Malleus Mundi secure the best way you know how, by securing it yourself.',
   acquisition: `Complete the Whispered Rumor tip mission during the Halloween event and choose the option to "'"Keep the Malleus Mundi secure".`,

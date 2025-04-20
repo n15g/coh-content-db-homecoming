@@ -5,6 +5,7 @@ export const WalksTheLine: BadgeData = {
   key: 'walks-the-line',
   setTitleId: [1475],
   name: 'Walks the Line',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've earned this badge by playing an Architect mission marked as Vigilante content.`,
   acquisition: 'Complete a Mission Architect storyarc marked as Vigilante alignment.',

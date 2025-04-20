@@ -8,6 +8,7 @@ export const Marketer: BadgeData = {
     { alignment: 'hero', value: 'Marketer' },
     { alignment: 'villain', value: 'Black Marketeer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 5000 items on the Consignment House.` },

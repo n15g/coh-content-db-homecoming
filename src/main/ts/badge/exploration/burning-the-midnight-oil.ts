@@ -6,6 +6,7 @@ export const BurningTheMidnightOil: BadgeData = {
   key: 'burning-the-midnight-oil',
   setTitleId: [139],
   name: 'Burning the Midnight Oil',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The United States once held their oil reserves in Paragon City, until the reserves became an attractive target for villains trying to make names for themselves.`,
   notes: `Located on a catwalk 180 yards northwest of the Crey Factories marker.

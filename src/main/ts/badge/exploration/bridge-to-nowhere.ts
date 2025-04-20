@@ -6,6 +6,7 @@ export const BridgeToNowhere: BadgeData = {
   key: 'bridge-to-nowhere',
   setTitleId: [1538],
   name: 'Bridge to Nowhere',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The construction of Skyway's next set of bridges was halted by the first Rikti War and remains on hold.
 Citizens walking nearby constantly look at this bridge with some fear, noticing that its foundations grow weaker by the day.

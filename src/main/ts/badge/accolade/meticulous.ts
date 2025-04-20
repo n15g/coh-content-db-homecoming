@@ -10,6 +10,7 @@ export const Meticulous: BadgeData = {
   key: 'meticulous',
   setTitleId: [1773],
   name: 'Meticulous',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You are not tied to any single decision, and must pursue every course of action available to determine the consequences.`,
   notes: `Available during Halloween events.`,

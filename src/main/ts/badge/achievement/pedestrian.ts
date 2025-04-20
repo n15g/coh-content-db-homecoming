@@ -8,6 +8,7 @@ export const Pedestrian: BadgeData = {
     { alignment: 'hero', value: 'Pedestrian' },
     { alignment: 'villain', value: 'Impounder' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'No one sane lets you get anywhere close to their vehicles now.' },

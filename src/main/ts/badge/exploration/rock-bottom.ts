@@ -6,6 +6,7 @@ export const RockBottom: BadgeData = {
   key: 'rock-bottom',
   setTitleId: [2406],
   name: 'Rock Bottom',
+  releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `This dumping ground is also a hideout for The Lost, within the mounds of refuse.
 Freakshow have been known to make their way over, looking for spare parts and causing trouble for the ranks of the poor and the homeless, forcing them to accept further mutations to protect themselves.`,

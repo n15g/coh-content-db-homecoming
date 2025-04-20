@@ -6,6 +6,7 @@ export const NutrientRich: BadgeData = {
   key: 'nutrient-rich',
   setTitleId: [2541],
   name: 'Nutrient-Rich',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `Despite missing or ignoring the hazardous material warning, Blarf is now fed, although probably not in the way you anticipated...`,
   acquisition: `Click on Blarf in ${zoneLink(PocketD)} until it defeats you.`,

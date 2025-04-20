@@ -8,6 +8,7 @@ export const Adventurer: BadgeData = {
     { value: 'Adventurer' },
     { alignment: 'praetorian', value: 'Doer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've explored your world and tackled dangerous obstacles that would fell lesser heroes. However, you get the distinct impression there is still much left to do.` },

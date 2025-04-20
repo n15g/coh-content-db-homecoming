@@ -17,6 +17,7 @@ export const TrueToTheLast: BadgeData = {
   key: 'true-to-the-last',
   setTitleId: [2351],
   name: 'True to the Last',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Wherever you must go, whatever you must do, Praetoria will always & forever be your home, and to it you shall be True to the Last.`,
   acquisition: `Complete every story arc within ${zoneLink(Neutropolis)}.`,

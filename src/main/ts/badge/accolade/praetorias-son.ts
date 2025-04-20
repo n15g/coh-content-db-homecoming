@@ -8,6 +8,7 @@ export const PraetoriasSon: BadgeData = {
     { sex: 'M', value: `Praetoria's Son` },
     { sex: 'F', value: `Praetoria's Daughter` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'praetorian',
   badgeText: `Praetoria is your world, for better or worse.`,
   acquisition: `Awarded on initial login of a Praetorian-origin character.`,

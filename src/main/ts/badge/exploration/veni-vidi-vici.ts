@@ -6,6 +6,7 @@ export const VeniVidiVici: BadgeData = {
   key: 'veni-vidi-vici',
   setTitleId: [1793],
   name: 'Veni, Vidi, Vici',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This imposing structure was built to house the main administrative offices of the Venice Industrial Development Initiative (V.I.D.I.).
 When the Rikti invaded they quickly swarmed through the building and assumed complete control.

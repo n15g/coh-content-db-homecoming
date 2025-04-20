@@ -6,6 +6,7 @@ export const RazorToothed: BadgeData = {
   key: 'razor-toothed',
   setTitleId: [295],
   name: 'Razor Toothed',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This is the spot where Mako paraded Scrapyard's body after he eviscerated him. Many of the locals have seen his ghost in this area.`,
   notes: `Located in The Pit neighborhood, on a small rock outcropping at the southern end of a beach, 86 yards due south of the Magic Quartermaster.`,

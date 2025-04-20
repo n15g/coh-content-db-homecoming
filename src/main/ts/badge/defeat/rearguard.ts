@@ -5,6 +5,7 @@ export const Rearguard: BadgeData = {
   key: 'rearguard',
   setTitleId: [2488],
   name: 'Rearguard',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've fought past their advanced energy weapons and broken through their enchanted Impervium armor to reach an understanding of why Vanguard truly are one of the most powerful forces on Earth... Aside from you of course.`,
   acquisition: `Defeat 200 Vanguard Sword or Vanguard Shield.`,

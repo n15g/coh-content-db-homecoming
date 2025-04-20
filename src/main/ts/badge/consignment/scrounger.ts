@@ -5,6 +5,7 @@ export const Scrounger: BadgeData = {
   key: 'scrounger',
   setTitleId: [808],
   name: 'Scrounger',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 50 Salvage on the Consignment House.` },

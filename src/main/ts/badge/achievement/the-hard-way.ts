@@ -5,6 +5,7 @@ export const TheHardWay: BadgeData = {
   key: 'the-hard-way',
   setTitleId: [2224],
   name: 'The Hard Way',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've never been one to do things the easy way, have you?
 You've proven true mastery over your Incarnate powers and the Well of the Furies by defeating Tyrant while he maintained most of his link to the well.

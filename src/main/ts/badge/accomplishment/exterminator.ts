@@ -6,6 +6,7 @@ export const Exterminator: BadgeData = {
   key: 'exterminator',
   setTitleId: [341],
   name: 'Exterminator',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `The Rikti are like vermin. Good thing you were around to clean 'em out.`,
   acquisition: `Complete the "Eliminate Kit'Vul" mission during the ${missionLink(LostAndFoundTimothyRaymond)} story arc.`,

@@ -9,6 +9,7 @@ export const ReceivedTheStalwartMedallion: BadgeData = {
     { alignment: 'hero', value: 'Received the Stalwart Medallion' },
     { alignment: 'villain', value: 'Lost the Stalwart Medallion' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `Your battle in the reactor of Terra Volta altered your powers in a permanent way.`,
   effect: 'Awards a character respecification.',

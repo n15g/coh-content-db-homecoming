@@ -5,6 +5,7 @@ export const Hammerhead: BadgeData = {
   key: 'hammerhead',
   setTitleId: [511],
   name: 'Hammerhead',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You have taken the hammer to the followers of Scrapyard.',
   acquisition: `Defeat 200 Ghost of Scrapyard's followers.`,

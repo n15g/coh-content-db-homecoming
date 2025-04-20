@@ -5,6 +5,7 @@ export const Inhibited: BadgeData = {
   key: 'inhibited',
   setTitleId: [908],
   name: 'Inhibited',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 25 and 29 while not using any Temporary Powers.` },

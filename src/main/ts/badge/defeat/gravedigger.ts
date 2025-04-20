@@ -5,6 +5,7 @@ export const Gravedigger: BadgeData = {
   key: 'gravedigger',
   setTitleId: [33],
   name: 'Gravedigger',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have learned to put the Embalmed Cadavers in their place-- 6 feet under the ground.',
   acquisition: 'Defeat 100 Vahzilok embalmed corpses.',

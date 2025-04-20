@@ -5,6 +5,7 @@ export const Pirate: BadgeData = {
   key: 'pirate',
   setTitleId: [248],
   name: 'Pirate',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: 'You have bested the Spectral Pirates in battle and command their respect.',
   acquisition: 'Defeat 100 Spectral Pirates.',

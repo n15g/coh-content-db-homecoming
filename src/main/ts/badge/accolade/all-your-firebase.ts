@@ -13,6 +13,7 @@ export const AllYourFirebase: BadgeData = {
   key: 'all-your-firebase',
   setTitleId: [1881],
   name: 'All Your Firebase...',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Firebase Zulu.`,
   links: [

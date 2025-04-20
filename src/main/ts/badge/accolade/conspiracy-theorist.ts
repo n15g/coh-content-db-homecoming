@@ -11,6 +11,7 @@ export const ConspiracyTheorist: BadgeData = {
   key: 'conspiracy-theorist',
   setTitleId: [168],
   name: 'Conspiracy Theorist',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have uncovered Crey's conspiracy, one that has been choking Paragon City for years. As a souvenir you have kept a Crey pistol for your own personal use.` },

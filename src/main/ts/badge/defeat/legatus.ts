@@ -5,6 +5,7 @@ export const Legatus: BadgeData = {
   key: 'legatus',
   setTitleId: [2471],
   name: 'Legatus',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have proved yourself on the battlefield by defeating 100 Cimeroran Traitors empowered by the Path of the Dark.`,
   acquisition: `Defeat 100 Incarnate-level Cimeroran Traitors.`,

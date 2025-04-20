@@ -5,6 +5,7 @@ export const LtColonel: BadgeData = {
   key: 'lt-colonel',
   setTitleId: [791],
   name: 'Lt. Colonel',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 15 and 20: Accuracy and To Hit Buff.',
   links: [

@@ -6,6 +6,7 @@ export const Cluttered: BadgeData = {
   key: 'cluttered',
   setTitleId: [1742],
   name: 'Cluttered',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Praetor Berry's dizzying research speed accomplishes much, but tends to leave unfinished projects and prototypes in its wake.
 Some of those half-baked notions end up here. Occasionally, a few get up and walk away.`,

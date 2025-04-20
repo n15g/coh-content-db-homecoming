@@ -6,6 +6,7 @@ export const CommunicationsSpecialist: BadgeData = {
   key: 'communications-specialist',
   setTitleId: [2328],
   name: 'Communications Specialist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `These communications towers are critical for boosting signals with enough power to overcome Rikti jamming technology.`,
   notes: 'Next to a red and white communications tower antenna.',

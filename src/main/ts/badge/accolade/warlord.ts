@@ -13,6 +13,7 @@ export const Warlord: BadgeData = {
   key: 'warlord',
   setTitleId: [2420],
   name: 'Warlord',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Warburg.`,
   links: [

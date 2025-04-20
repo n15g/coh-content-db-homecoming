@@ -5,6 +5,7 @@ export const Retrograde: BadgeData = {
   key: 'retrograde',
   setTitleId: [764],
   name: 'Retrograde',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Defense Debuff, To Hit Debuff, Taunt, and Confuse.',
   links: [

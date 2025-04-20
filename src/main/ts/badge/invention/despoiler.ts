@@ -5,6 +5,7 @@ export const Despoiler: BadgeData = {
   key: 'despoiler',
   setTitleId: [762],
   name: 'Despoiler',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Defense Debuff, To Hit Debuff, Taunt, and Confuse.',
   effect: 'Awards +2 to Invention Salvage capacity.',

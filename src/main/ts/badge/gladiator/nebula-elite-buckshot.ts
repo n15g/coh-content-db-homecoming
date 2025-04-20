@@ -6,6 +6,7 @@ export const NebulaEliteBuckshot: BadgeData = {
   key: 'nebula-elite-buckshot',
   setTitleId: [491],
   name: 'Nebula Elite Buckshot',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'These Council will make good gladiators.',
   links: [

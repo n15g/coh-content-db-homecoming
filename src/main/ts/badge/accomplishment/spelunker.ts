@@ -6,6 +6,7 @@ export const Spelunker: BadgeData = {
   key: 'spelunker',
   setTitleId: [72],
   name: 'Spelunker',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have freed a local fortune teller from the clutches of the Circle of Thorns.',
   links: [

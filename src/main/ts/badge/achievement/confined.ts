@@ -8,6 +8,7 @@ export const Confined: BadgeData = {
     { value: 'Confined' },
     { alignment: 'praetorian', value: 'Stuck' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'You continue to be the shining example of inactivity.' },

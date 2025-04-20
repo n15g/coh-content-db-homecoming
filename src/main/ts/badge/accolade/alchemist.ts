@@ -7,6 +7,7 @@ export const Alchemist: BadgeData = {
   key: 'alchemist',
   setTitleId: [1068],
   name: 'Alchemist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

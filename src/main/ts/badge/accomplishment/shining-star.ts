@@ -6,6 +6,7 @@ export const ShiningStar: BadgeData = {
   key: 'shining-star',
   setTitleId: [2014],
   name: 'Shining Star',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You and your friends have proven your worth to Manticore, and gained a high-profile benefactor.',
   links: [

@@ -6,6 +6,7 @@ export const ImperialCitysSavior: BadgeData = {
   key: 'imperial-citys-savior',
   setTitleId: [2217],
   name: `Imperial City's Savior`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You helped the forces of Primal Earth take Imperial City from Praetor Sinclair.',
   links: [

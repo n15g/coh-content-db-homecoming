@@ -6,6 +6,7 @@ export const Reunited: BadgeData = {
   key: 'reunited',
   setTitleId: [2510],
   name: 'Reunited',
+  releaseDate: '2024-05-02',
   morality: 'all',
   badgeText: `You have helped celebrate the 20th anniversary of City of Heroes.`,
   acquisition: `Awarded upon login during May 2024, and thereafter available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,

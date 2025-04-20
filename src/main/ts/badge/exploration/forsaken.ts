@@ -6,6 +6,7 @@ export const Forsaken: BadgeData = {
   key: 'forsaken',
   setTitleId: [2399],
   name: 'Forsaken',
+  releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `Once a technological pride and joy of the city of Overbrook, the city's hydroelectric power plant was largely abandoned after the Rikti attack. It now languishes in disrepair.`,
   notes: 'On the platform between the southeast and southwest turbine towers in the dam section.',

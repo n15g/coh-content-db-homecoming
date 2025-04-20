@@ -5,6 +5,7 @@ export const Payoff: BadgeData = {
   key: 'payoff',
   setTitleId: [1234],
   name: 'Payoff',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'I spent 1000 Mission Architect tickets and all I got was this stupid badge!',
   acquisition: 'Purchase from the ticket vendor.',

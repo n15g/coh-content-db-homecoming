@@ -5,6 +5,7 @@ export const Marauder: BadgeData = {
   key: 'marauder',
   setTitleId: [2355],
   name: 'Marauder',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have inflicted one hundred thousand points of damage upon your foes.',
   acquisition: 'Deal 100,000 damage.',

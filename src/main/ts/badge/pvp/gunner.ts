@@ -6,6 +6,7 @@ export const Gunner: BadgeData = {
   key: 'gunner',
   setTitleId: [370],
   name: 'Gunner',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have been part of taking over a Firebase, earning you a new nickname: 'Gunner.'`,
   acquisition: `Deactivate a firebase in ${zoneLink(BloodyBay)}.`,

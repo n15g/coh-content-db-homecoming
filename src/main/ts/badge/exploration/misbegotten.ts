@@ -6,6 +6,7 @@ export const Misbegotten: BadgeData = {
   key: 'misbegotten',
   setTitleId: [1816],
   name: 'Misbegotten',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You're no hero. You're a thug. A super-powered bully who metes out pain and suffering in equal measure.
 What kind of person are you, who finds inspiration in the broken bodies and shattered lives you've left in your wake?

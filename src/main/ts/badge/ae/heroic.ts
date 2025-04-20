@@ -5,6 +5,7 @@ export const Heroic: BadgeData = {
   key: 'heroic',
   setTitleId: [1217],
   name: 'Heroic',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've earned the "Heroic" badge by playing an Architect mission marked as Heroic content.`,
   acquisition: 'Complete one Mission Architect arc marked as Heroic content.',

@@ -6,6 +6,7 @@ export const CallOfNature: BadgeData = {
   key: 'call-of-nature',
   setTitleId: [1842],
   name: 'Call of Nature',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `In the distance you can hear the ululating cry of the Devouring Earth and something about it speaks to a primal, ancient, part of you.
 You can understand how some might be seduced by this call and stray into their embrace to be devoured.

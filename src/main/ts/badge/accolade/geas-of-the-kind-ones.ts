@@ -14,6 +14,7 @@ export const GeasOfTheKindOnes: BadgeData = {
   key: 'geas-of-the-kind-ones',
   setTitleId: [435],
   name: 'Geas of the Kind Ones',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `Whatever spirits watch over Croatoa have bestowed their blessing upon you. Of course, sometimes a blessing can be more like a curse.` },

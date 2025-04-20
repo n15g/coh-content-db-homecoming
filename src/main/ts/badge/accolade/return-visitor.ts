@@ -17,6 +17,7 @@ export const ReturnVisitor: BadgeData = {
     { alignment: 'hero', value: 'Return Visitor' },
     { alignment: 'villain', value: 'Invader' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You've seen a lot of Paragon from the other side already, so you've got a head start on making your new life here.` },

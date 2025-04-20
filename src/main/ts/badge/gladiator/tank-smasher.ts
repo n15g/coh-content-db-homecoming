@@ -6,6 +6,7 @@ export const TankSmasher: BadgeData = {
   key: 'tank-smasher',
   setTitleId: [490],
   name: 'Tank Smasher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Tank smash!',
   acquisition: `Collect the ${badgeLink(TankBuster)} Badge.`,

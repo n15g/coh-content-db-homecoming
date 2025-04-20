@@ -6,6 +6,7 @@ export const HunterOfSpecters: BadgeData = {
   key: 'hunter-of-specters',
   setTitleId: [2191],
   name: 'Hunter of Specters',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You worked together with Praetor Duncan to put an end to Diabolique, who was discovered to be working together with Mot.',
   links: [

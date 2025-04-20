@@ -23,6 +23,7 @@ export const DestroyerOfDespair: BadgeData = {
   key: 'destroyer-of-despair',
   setTitleId: [2205],
   name: 'Destroyer of Despair',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Mot represented hatred and despair. It tried to twist the memories of all those it came across, aiming to make them believe there was no hope in their lives, that all of their hopes and dreams were meaningless.
 You fully conquered the forces of Mot and showed the creature just how wrong it was.`,

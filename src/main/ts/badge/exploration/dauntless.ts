@@ -6,6 +6,7 @@ export const Dauntless: BadgeData = {
   key: 'dauntless',
   setTitleId: [112],
   name: 'Dauntless',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Dauntless was Galaxy Girl's sidekick until he died in battle, defending his mentor with his last breath.`,
   notes: `Located at the southern end of the Hide Park neighborhood.

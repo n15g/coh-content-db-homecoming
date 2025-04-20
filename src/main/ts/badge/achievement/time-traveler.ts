@@ -5,6 +5,7 @@ export const TimeTraveler: BadgeData = {
   key: 'time-traveler',
   setTitleId: [400],
   name: 'Time Traveler',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `It seems you have mastered the recursive time flux of Lord Recluse's victory. You've spent one hour here, though it seems like much longer.`,
   acquisition: `Spend 1 hour in Recluse's Victory.`,

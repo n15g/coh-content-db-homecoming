@@ -5,6 +5,7 @@ export const StrongPretty: BadgeData = {
   key: 'strong-pretty',
   setTitleId: [1978],
   name: 'Strong & Pretty',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Siege and Nightstar are the real threat at the Behavioral Adjustment Facility, but you added insult to injury by depriving them of all their War Works allies prior to administering the final simultaneous blow.',
   acquisition: 'Defeat Siege & Nightstar while none of their reinforcements are alive during a Behavioral Adjustment Facility Incarnate Trial.',

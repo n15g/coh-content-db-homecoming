@@ -5,6 +5,7 @@ export const SuperHeavyweightChampion: BadgeData = {
   key: 'super-heavyweight-champion',
   setTitleId: [229],
   name: 'Super Heavyweight Champion',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have achieved the status of Champion in the Super Heavyweight division by winning your first match in this division.`,
   acquisition: 'Win an Arena event in the Super Heavyweight division.',

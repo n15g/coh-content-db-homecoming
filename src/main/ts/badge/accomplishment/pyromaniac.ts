@@ -6,6 +6,7 @@ export const Pyromaniac: BadgeData = {
   key: 'pyromaniac',
   setTitleId: [2269],
   name: 'Pyromaniac',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You set fire to one of the nicer parts of Faultline while Penelope Yin and Penelope Mayhem were still fighting elsewhere.',
   acquisition: `Arm all five bombs before Penelope Yin and Penelope Mayhem in the "Part Four: Cracking Faultline" mission of the ${missionLink(TheEndOfAYin)} story arc.`,

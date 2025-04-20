@@ -6,6 +6,7 @@ export const NightWidow: BadgeData = {
   key: 'night-widow',
   setTitleId: [444],
   name: 'Night Widow',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Night Widows fight for those they deem worthy.',
   links: [

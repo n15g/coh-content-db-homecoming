@@ -9,6 +9,7 @@ export const BailoutHero: BadgeData = {
     { alignment: 'hero', value: 'Bailout Hero' },
     { alignment: 'villain', value: 'Bailout Villain' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Freedom Phalanx and Vindicators were absorbed by Mot in their efforts to free Praetor Duncan.
 You worked together with a team of super powered individuals and Dream Doctor to save them and Praetor Duncan, while also destroying Diabolique once and for all.`,

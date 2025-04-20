@@ -6,6 +6,7 @@ export const FreedomCracker: BadgeData = {
   key: 'freedom-cracker',
   setTitleId: [2013],
   name: 'Freedom Cracker',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've kicked Longbow out of Fort Darwin, showing them that they don't belong in the Rogue Isles!`,
   links: [

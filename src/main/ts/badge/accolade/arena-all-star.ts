@@ -10,6 +10,7 @@ export const ArenaAllStar: BadgeData = {
   key: 'arena-all-star',
   setTitleId: [1361],
   name: 'Arena All-Star',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've earned the Arena All-Star badge by winning a variety of different Arena matches.`,
   links: [

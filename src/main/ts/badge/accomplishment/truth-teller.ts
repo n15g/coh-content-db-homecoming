@@ -6,6 +6,7 @@ export const TruthTeller: BadgeData = {
   key: 'truth-teller',
   setTitleId: [2199],
   name: 'Truth Teller',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You played through Dream Doctor's personal story, witnessing the event where Dream Doctor confronted Mender Silos and revealed why he harbors such a large hatred for Ouroboros.`,
   links: [

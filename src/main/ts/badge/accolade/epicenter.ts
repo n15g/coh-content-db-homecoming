@@ -13,6 +13,7 @@ export const Epicenter: BadgeData = {
   key: 'epicenter',
   setTitleId: [2398],
   name: 'Epicenter',
+  releaseDate: '2019-06-01',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Echo: Faultline.`,
   links: [

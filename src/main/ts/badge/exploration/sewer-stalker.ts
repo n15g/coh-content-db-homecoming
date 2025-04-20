@@ -7,6 +7,7 @@ export const SewerStalker: BadgeData = {
   key: 'sewer-stalker',
   setTitleId: [1833],
   name: 'Sewer Stalker',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `
 The sewers are full of predators.

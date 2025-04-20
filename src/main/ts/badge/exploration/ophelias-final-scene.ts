@@ -6,6 +6,7 @@ export const OpheliasFinalScene: BadgeData = {
   key: 'ophelias-final-scene',
   setTitleId: [1776],
   name: `Ophelia's Final Scene`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `When Perez Park was still a place of safe recreation, Greek tragedies and the plays of Shakespeare were a common occurrence at the nearby open-air theater.
 In productions of Hamlet, it had become tradition for Ophelia's drowning scene to be played out in the waters of Everett Lake as Queen Gertrude stood on the dock, lamenting the death of her daughter.`,

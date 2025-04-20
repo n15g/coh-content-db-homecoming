@@ -6,6 +6,7 @@ export const BrightStar: BadgeData = {
   key: 'bright-star',
   setTitleId: [109],
   name: 'Bright Star',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The first Luminary used her light-based powers to disrupt the formation of a large portal to the Rikti homeworld on this spot.`,
   notes: `Located in the Gimry Ridge neighborhood of Steel Canyon, on top of one of the perimeter buildings around the Paragon City University building.

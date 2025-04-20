@@ -5,6 +5,7 @@ export const FashionDesigner: BadgeData = {
   key: 'fashion-designer',
   setTitleId: [1045],
   name: 'Fashion Designer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You spend your free time perfecting your costume earning the Fashion Designer Day Job.
 Logging out at a Tailor will earn you a discount to Tailor fees, when you log back in, for a short time.`,

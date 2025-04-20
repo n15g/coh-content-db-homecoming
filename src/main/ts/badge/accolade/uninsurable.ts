@@ -14,6 +14,7 @@ export const Uninsurable: BadgeData = {
     { alignment: 'hero', value: 'Uninsurable' },
     { alignment: 'villain', value: 'Force of Nature' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `The massive destruction you previously wrought has made it really difficult to find anyone willing to insure you for collateral damage liability.` },

@@ -7,6 +7,7 @@ export const Brickhouse: BadgeData = {
   key: 'brickhouse',
   setTitleId: [561],
   name: 'Brickhouse',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have discovered an underground safe in Brickstown kept right under the noses of the PPD.`,
   notes: `Located in an alley behind the Paragon Police Station.

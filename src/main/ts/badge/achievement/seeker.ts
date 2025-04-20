@@ -8,6 +8,7 @@ export const Seeker: BadgeData = {
     { value: 'Seeker' },
     { alignment: 'praetorian', value: 'Overachiever' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You're a hero recognized for your wide range of accomplishments, but you're not done yet!` },

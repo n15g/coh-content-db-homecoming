@@ -5,6 +5,7 @@ export const DisappearingAct: BadgeData = {
   key: 'disappearing-act',
   setTitleId: [2057],
   name: 'Disappearing Act',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `It is somewhat difficult to discern, but you've gotten rid of a fair amount Apparitions... You think. You defeated several Apparitions to earn this badge.`,
   acquisition: 'Defeat 100 points worth of Apparitions.',

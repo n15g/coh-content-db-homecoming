@@ -10,6 +10,7 @@ export const SewerKing: BadgeData = {
     { sex: 'M', value: 'Sewer King' },
     { sex: 'F', value: 'Sewer Queen' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `
 By now you've walked so much of the Sewer Network that you know these winding corridors like the back of your hand.

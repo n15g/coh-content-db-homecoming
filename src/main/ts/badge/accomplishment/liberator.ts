@@ -9,6 +9,7 @@ export const Liberator: BadgeData = {
     { alignment: 'hero', value: 'Liberator' },
     { alignment: 'villain', value: 'Destroyer of Earth' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have freed the captured heroes, preventing them from becoming Devoured.',
   links: [

@@ -9,6 +9,7 @@ export const PositronsPal: BadgeData = {
     { alignment: 'hero', value: `Positron's Pal` },
     { alignment: 'villain', value: `Positron's Nemesis` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have rescued Positron from the clutches of Praetoria.' },

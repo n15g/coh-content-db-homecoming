@@ -6,6 +6,7 @@ export const Laureate: BadgeData = {
   key: 'laureate',
   setTitleId: [1441],
   name: 'Laureate',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have no idea what that Lucan thing was, but he will haunt your dreams forever.',
   acquisition: `Complete the The Great Escape zone event in ${zoneLink(Neutropolis)}.`,

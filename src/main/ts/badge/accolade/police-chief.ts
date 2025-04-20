@@ -10,6 +10,7 @@ export const PoliceChief: BadgeData = {
     { alignment: 'hero', value: 'Police Chief' },
     { alignment: 'villain', value: 'Corrupt Commissioner' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

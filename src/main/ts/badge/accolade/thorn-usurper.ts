@@ -6,6 +6,7 @@ export const ThornUsurper: BadgeData = {
   key: 'thorn-usurper',
   setTitleId: [518],
   name: 'Thorn Usurper',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have stolen the power of the Nexus of Thorns with the knowledge from the demon Ractespriel.`,
   effect: `Awards a character respecification.`,

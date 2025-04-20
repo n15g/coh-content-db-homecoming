@@ -5,6 +5,7 @@ export const Aloof: BadgeData = {
   key: 'aloof',
   setTitleId: [2380],
   name: 'Aloof',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `Word of your accomplishments is spreading, but you don't seem to care much about it.`,
   acquisition: 'Reject 50 inspiration drops.',

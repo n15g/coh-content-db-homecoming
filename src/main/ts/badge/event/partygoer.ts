@@ -6,6 +6,7 @@ export const Partygoer: BadgeData = {
   key: 'partygoer',
   setTitleId: [736],
   name: 'Partygoer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've celebrated the one year anniversary of Pocket D by participating in DJ Zero's recreation of the inaugural Spring Fling.`,
   acquisition: `Complete ${contactLink(DJZero)}'s mission once during a Valentine's Day Event.`,

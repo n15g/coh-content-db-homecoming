@@ -13,6 +13,7 @@ export const EmperorForADay: BadgeData = {
   key: 'emperor-for-a-day',
   setTitleId: [1635],
   name: 'Emperor for a Day',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Imperial City.`,
   links: [

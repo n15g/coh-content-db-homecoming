@@ -6,6 +6,7 @@ export const AbandonedSoul: BadgeData = {
   key: 'abandoned-soul',
   setTitleId: [2229],
   name: 'Abandoned Soul',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've managed to push your way through the teeming crowd of displaced souls in an effort to get a ticket out of Night Ward - only to find that there ain't no train a-comin'.
 Unlike the dead, however this does little to faze you. After all, if creatures keep finding ways in there must be other ways out.`,

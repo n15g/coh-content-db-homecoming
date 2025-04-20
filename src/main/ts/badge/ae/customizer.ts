@@ -5,6 +5,7 @@ export const Customizer: BadgeData = {
   key: 'customizer',
   setTitleId: [1202],
   name: 'Customizer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've saved and loaded a mission with a custom Boss, earning you the Customizer badge.`,
   acquisition: 'Create and publish mission using the Mission Architect and include a Custom Critter as a Boss.',

@@ -8,6 +8,7 @@ export const Leader: BadgeData = {
     { value: 'Leader' },
     { alignment: 'praetorian', value: 'The Chosen One' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your very name instills both hope and inspiration to the people of Paragon City, you truly are a Leader.' },

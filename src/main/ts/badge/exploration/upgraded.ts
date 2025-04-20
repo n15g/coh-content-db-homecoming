@@ -7,6 +7,7 @@ export const Upgraded: BadgeData = {
   key: 'upgraded',
   setTitleId: [97],
   name: 'Upgraded',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Kord Technologies makes its home in this building, and Tony Kord frequently uses his personal helicopter to commute to work.`,
   notes: `Located 67 Yards south of the ${zoneLink(PocketD)} entrance, in the middle of a helicopter landing pad on a rooftop just N of Freedom Plaza.`,

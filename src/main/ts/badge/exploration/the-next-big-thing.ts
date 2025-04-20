@@ -7,6 +7,7 @@ export const TheNextBigThing: BadgeData = {
   key: 'the-next-big-thing',
   setTitleId: [267],
   name: 'The Next Big Thing',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This is the good life. The higher up you get, the bigger you are.`,
   notes: `Located just inside the Mercy neighborhood at the top of the high wall surrounding it.

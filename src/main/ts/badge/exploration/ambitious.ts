@@ -6,6 +6,7 @@ export const Ambitious: BadgeData = {
   key: 'ambitious',
   setTitleId: [1400],
   name: 'Ambitious',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Even in these strange and uncertain times there are those who still reach for the sky.',
   notes: `Located on top of Emperor Cole's tower in Magisterium.`,

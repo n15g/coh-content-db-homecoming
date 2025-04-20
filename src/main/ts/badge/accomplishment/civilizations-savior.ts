@@ -6,6 +6,7 @@ export const CivilizationsSavior: BadgeData = {
   key: 'civilizations-savior',
   setTitleId: [2261],
   name: `Civilization's Savior`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You held the line in the last bastion for civilization in Praetoria. You're considered a hero now to these people, who can now establish the beginnings of a new civilization in Praetoria.` },

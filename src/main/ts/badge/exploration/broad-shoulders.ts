@@ -6,6 +6,7 @@ export const BroadShoulders: BadgeData = {
   key: 'broad-shoulders',
   setTitleId: [261],
   name: 'Broad Shoulders',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'Talos spent a good part of his childhood here.',
   notes: `Located at the base of the meteor monument just southwest of the inset corner east of the hero base.`,

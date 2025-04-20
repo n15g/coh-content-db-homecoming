@@ -9,6 +9,7 @@ export const Rescuer: BadgeData = {
     { alignment: 'hero', value: 'Rescuer' },
     { alignment: 'villain', value: 'Big Softie' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You saved Penelope Yin's father from the Lost, and now a thankful Mr. Yin has re-opened Yin's Market in Faultline. You can now shop there whenever you want.` },

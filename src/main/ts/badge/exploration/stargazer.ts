@@ -6,6 +6,7 @@ export const Stargazer: BadgeData = {
   key: 'stargazer',
   setTitleId: [2233],
   name: 'Stargazer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Throwing caution aside you reach the uppermost point of Night Ward.
 Here, scattered spirits soar overhead like shooting stars in the night sky, forever doomed to the limbo of Night Ward as she drifts ever further from the land of the dead.`,

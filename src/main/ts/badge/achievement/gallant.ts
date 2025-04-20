@@ -5,6 +5,7 @@ export const Gallant: BadgeData = {
   key: 'gallant',
   setTitleId: [1450],
   name: 'Gallant',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've proven time and time again that Paragon City can rely on you. You have completed a Hero Morality Mission earning yourself this badge.`,
   acquisition: 'Complete a Hero Morality mission.',

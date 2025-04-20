@@ -6,6 +6,7 @@ export const ThornRobber: BadgeData = {
   key: 'thorn-robber',
   setTitleId: [516],
   name: 'Thorn Robber',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have stolen the power of the Nexus of Thorns with the knowledge from the demon Sparcetriel.`,
   effect: `Awards a character respecification.`,

@@ -6,6 +6,7 @@ export const PeaceWalker: BadgeData = {
   key: 'peace-walker',
   setTitleId: [1806],
   name: 'Peace Walker',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have found a place of peace and calm in a land of madness and danger.
 High stone walls hem you in on all sides, but they grant a feeling of security and solitude and not one of confinement.

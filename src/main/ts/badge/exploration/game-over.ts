@@ -6,6 +6,7 @@ export const GameOver: BadgeData = {
   key: 'game-over',
   setTitleId: [2430],
   name: 'Game Over',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `This bunker was where the Council made their final stand against Arachnos. The battle for the bunker lasted two weeks, until Lord Recluse was forced to personally lead the final assault.`,
   links: [

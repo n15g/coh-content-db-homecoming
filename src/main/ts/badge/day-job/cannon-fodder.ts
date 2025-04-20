@@ -8,6 +8,7 @@ export const CannonFodder: BadgeData = {
     { alignment: 'hero', value: 'Cannon Fodder' },
     { alignment: 'villain', value: 'Arachnos Agent' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     {

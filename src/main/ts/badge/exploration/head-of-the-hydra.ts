@@ -6,6 +6,7 @@ export const HeadOfTheHydra: BadgeData = {
   key: 'head-of-the-hydra',
   setTitleId: [146],
   name: 'Head of the Hydra',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Hydra threatens Paragon City from the bowels of the sewer system.`,
   notes: `Located under the Hydra spawn point.`,

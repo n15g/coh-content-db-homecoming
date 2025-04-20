@@ -5,6 +5,7 @@ export const Trusting: BadgeData = {
   key: 'trusting',
   setTitleId: [1772],
   name: 'Trusting',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You've handed the Malleus Mundi over to MAGI for safekeeping. You Hope.` },

@@ -9,6 +9,7 @@ export const MysticKing: BadgeData = {
     { sex: 'M', value: 'Mystic King' },
     { sex: 'F', value: 'Mystic Queen' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Ley Lines are powerful forces of mystical energy that crisscross the planet. Where they meet is called a nexus, and all magic is stronger for miles around.`,
   notes: 'Located on a rooftop in the SW part of the Gish neighborhood, 144 yards NNW of the Pocket D entrance.',

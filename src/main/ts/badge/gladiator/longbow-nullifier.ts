@@ -6,6 +6,7 @@ export const LongbowNullifier: BadgeData = {
   key: 'longbow-nullifier',
   setTitleId: [459],
   name: 'Longbow Nullifier',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'These fools are wise to obey you.',
   links: [

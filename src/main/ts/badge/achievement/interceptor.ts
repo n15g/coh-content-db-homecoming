@@ -5,6 +5,7 @@ export const Interceptor: BadgeData = {
   key: 'interceptor',
   setTitleId: [644],
   name: 'Interceptor',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have kept several shipments of illegal weapons off of the streets.' },

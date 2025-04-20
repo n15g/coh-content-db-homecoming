@@ -6,6 +6,7 @@ export const Fortified: BadgeData = {
   key: 'fortified',
   setTitleId: [266],
   name: 'Fortified',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Arachnos built the wall around Mercy to keep it safe.`,
   notes: `Located on one of the wall supports around the Mercy neighborhood, far east of the elevator into Mercy from Darwin's Landing.

@@ -9,6 +9,7 @@ export const Swashbuckler: BadgeData = {
   key: 'swashbuckler',
   setTitleId: [315],
   name: 'Swashbuckler',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Arrgh, matey! You be a mighty scholar o' piracy!`,
   links: [

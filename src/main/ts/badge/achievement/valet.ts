@@ -5,6 +5,7 @@ export const Valet: BadgeData = {
   key: 'valet',
   setTitleId: [2391],
   name: 'Valet',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have kept Paragon City's vehicles safe during a Freakshow rampage.`,
   acquisition: `Prevent destruction of vehicles around Wentworth's building during the Market Crash Task Force.`,

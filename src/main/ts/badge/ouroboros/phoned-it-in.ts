@@ -5,6 +5,7 @@ export const PhonedItIn: BadgeData = {
   key: 'phoned-it-in',
   setTitleId: [921],
   name: 'Phoned it in',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using Inspirations.` },

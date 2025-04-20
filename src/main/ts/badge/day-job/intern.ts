@@ -8,6 +8,7 @@ export const Intern: BadgeData = {
     { alignment: 'hero', value: 'Intern' },
     { alignment: 'villain', value: 'Wage Slave' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

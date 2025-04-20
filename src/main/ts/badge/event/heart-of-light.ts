@@ -8,6 +8,7 @@ export const HeartOfLight: BadgeData = {
     { alignment: 'hero', value: 'Heart of Light' },
     { alignment: 'villain', value: 'Heart of Darkness' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Through the choices made in your life, you have been blessed with a Heart of Light.' },

@@ -6,6 +6,7 @@ export const RedCap: BadgeData = {
   key: 'red-cap',
   setTitleId: [529],
   name: 'Red Cap',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You now can summon a Red Cap Rascal in the Arena pet battles.',
   links: [

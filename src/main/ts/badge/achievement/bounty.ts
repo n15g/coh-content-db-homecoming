@@ -5,6 +5,7 @@ export const Bounty: BadgeData = {
   key: 'bounty',
   setTitleId: [2362],
   name: 'Bounty',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have held on to a few souvenirs that remind you of your interesting adventures.',
   acquisition: 'Collect 10 Souvenirs.',

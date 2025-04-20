@@ -5,6 +5,7 @@ export const VanguardRecruit: BadgeData = {
   key: 'vanguard-recruit',
   setTitleId: [1040],
   name: 'Vanguard Recruit',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have worked closely with Vanguard helping to eliminate the Rikti threat earning you the Vanguard Recruit Day Job.
 Logging out in the Vanguard Base will earn you a bonus to the number of Vanguard Merits you receive, when you log back in, each time you complete a mission for a short time.`,

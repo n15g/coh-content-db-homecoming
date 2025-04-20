@@ -6,6 +6,7 @@ export const BigTime: BadgeData = {
   key: 'big-time',
   setTitleId: [717],
   name: 'Big Time',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The 'Fambly', as Joe Young would call them, had been dipping their fingers into the RMFC for some time.
 As luck would have it, DJ Zero offered Joe and Cornelius a chance to expand their business venture. The Monkey Fight Club Arena and Pocket D are a one-two punch that will certainly be a knockout!`,

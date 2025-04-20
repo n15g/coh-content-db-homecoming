@@ -6,6 +6,7 @@ export const MonstersPlaythings: BadgeData = {
   key: 'monsters-playthings',
   setTitleId: [1871],
   name: `Monsters' Playthings`,
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `About you lies shattered heavy machinery, evidence of the power the Devouring Earth monsters possess.
 Hulks of metal weighing tons have been tossed about and shredded like a dog's chew toy.

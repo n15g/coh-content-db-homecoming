@@ -6,6 +6,7 @@ export const MageHunter: BadgeData = {
   key: 'mage-hunter',
   setTitleId: [345],
   name: 'Mage Hunter',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `That's one less creepy mystic to get in your way.`,
   links: [

@@ -5,6 +5,7 @@ export const Terminator: BadgeData = {
   key: 'terminator',
   setTitleId: [1323],
   name: 'Terminator',
+  releaseDate: '2019-01-01',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Given your past deeds, many of Paragon City's citizens are understandably wary of you.` },

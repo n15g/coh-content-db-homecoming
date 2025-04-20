@@ -6,6 +6,7 @@ export const PowerWalker: BadgeData = {
   key: 'power-walker',
   setTitleId: [1840],
   name: 'Power Walker',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Walker Energy condensate plant stands at the strategic center of the Terra Volta complex, and as such has become a hotly contested site between the Freakshow and the Sky Raiders.
 Gaining control of this building places one within ideal striking distance to any other location in Terra Volta and so the fighting here is especially fierce.`,

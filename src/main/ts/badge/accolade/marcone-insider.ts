@@ -13,6 +13,7 @@ export const MarconeInsider: BadgeData = {
   key: 'marcone-insider',
   setTitleId: [1491],
   name: 'Marcone Insider',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Port Oakes.`,
   links: [

@@ -6,6 +6,7 @@ export const ClockworkMechanic: BadgeData = {
   key: 'clockwork-mechanic',
   setTitleId: [1636],
   name: 'Clockwork Mechanic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Beneath the City Maintenance Facility lies the Maintenance & Treatment Chamber, where malfunctioning Clockwork are stored to prevent their errant code from infecting others of their kind.`,
   notes: `Located approximately 240 yards NE of City Access B.`,

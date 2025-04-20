@@ -8,6 +8,7 @@ export const PartyAnimal: BadgeData = {
   key: 'party-animal',
   setTitleId: [2522],
   name: 'Party Animal',
+  releaseDate: '2020-11-26',
   morality: 'paragon-city-access',
   badgeText: `You've always sought out the biggest parties, where you're certain to make a splash, and now you've become truly unparalleled.
 Having been to dance clubs from entirely different dimensions you are, without any doubt, a Party Animal.`,

@@ -9,6 +9,7 @@ export const PenitentOfVice: BadgeData = {
     { alignment: 'hero', value: 'Penitent of Vice' },
     { alignment: 'villain', value: 'Paragon of Vice' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Paragon City still remembers the black eye you gave it to impress Arachnos, and won't soon forget.` },

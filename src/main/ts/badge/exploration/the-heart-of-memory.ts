@@ -6,6 +6,7 @@ export const TheHeartOfMemory: BadgeData = {
   key: 'the-heart-of-memory',
   setTitleId: [1812],
   name: 'The Heart of Memory',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have found the source of the Crimson Falls. Scientists who have studied it have only theories as to its source and composition, but they are in agreement that it is not entirely of this dimension.
 Some think that perhaps it is a form of quantum foam; exotic particles and degenerate matter drawn to the Shadow Shard from other dimensions.

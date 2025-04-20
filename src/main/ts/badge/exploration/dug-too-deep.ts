@@ -6,6 +6,7 @@ export const DugTooDeep: BadgeData = {
   key: 'dug-too-deep',
   setTitleId: [2403],
   name: 'Dug Too Deep',
+  releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `Though magical runes and protection spells were once used to hide Oranbega from the rest of the world, all that ended with the Rikti War.
 Now, anyone who finds a physical entrance in the dark canyons may reach the sunken city... if they're brave or foolish enough to do so.`,

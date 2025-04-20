@@ -5,6 +5,7 @@ export const Abiding: BadgeData = {
   key: 'abiding',
   setTitleId: [1057],
   name: 'Abiding',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You're still around fighting the good fight after all this time. If one thing could be said about you, it's that you're consistent. You have attained fifty-seven Veteran levels.` },

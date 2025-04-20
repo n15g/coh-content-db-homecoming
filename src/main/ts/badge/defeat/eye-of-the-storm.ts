@@ -5,6 +5,7 @@ export const EyeOfTheStorm: BadgeData = {
   key: 'eye-of-the-storm',
   setTitleId: [1435],
   name: 'Eye of the Storm',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Maelstrom crossed the line and had to be stopped. Thankfully you were there to prevent things from getting out of hand.` },

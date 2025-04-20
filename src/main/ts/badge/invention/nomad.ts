@@ -5,6 +5,7 @@ export const Nomad: BadgeData = {
   key: 'nomad',
   setTitleId: [804],
   name: 'Nomad',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Run Speed, Jump, Fly Speed, and Range.',
   effect: 'Awards +1 to Recipe capacity.',

@@ -6,6 +6,7 @@ export const HammerOfTheRikti: BadgeData = {
   key: 'hammer-of-the-rikti',
   setTitleId: [1792],
   name: 'Hammer of the Rikti',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `When Venice was targeted by the Rikti in their initial strike, this is where their first attack was centered.
 The area was flattened and Rikti forces streamed into the area, slaying all they encountered.

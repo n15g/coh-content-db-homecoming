@@ -9,6 +9,7 @@ export const TheOnceAndFutureKing: BadgeData = {
     { sex: 'M', value: 'The Once and Future King' },
     { sex: 'F', value: 'The Once and Future Queen' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You helped set Pendragon down the path of righteousness. While he may walk the mists of Praetoria for years, his soul has been redeemed and his freedom from Night Ward ensured.',
   links: [

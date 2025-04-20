@@ -6,6 +6,7 @@ export const Gullible: BadgeData = {
   key: 'gullible',
   setTitleId: [2326],
   name: 'Gullible',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: 'Your time spent as a seagull has given you better insights into the nature of reality. One insight in particular comes to mind: be careful what you wish for.',
   acquisition: `Make ${contactLink(NullTheGull)} turn you into a seagull after asking to be more powerful.`,

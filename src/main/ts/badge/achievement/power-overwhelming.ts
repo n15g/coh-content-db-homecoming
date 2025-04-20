@@ -6,6 +6,7 @@ export const PowerOverwhelming: BadgeData = {
   key: 'power-overwhelming',
   setTitleId: [2480],
   name: 'Power Overwhelming',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You like to make demonstrations of your power, it's what makes you a cut above the rest. You didn't bat an eye in letting Ripplesurge consume environmental ripple energy,
 and empowering himself to his absolute limit before showing him why no degree of overwhelming power can stand against your own might.`,

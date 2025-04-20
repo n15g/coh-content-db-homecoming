@@ -6,6 +6,7 @@ export const EscapeArtist: BadgeData = {
   key: 'escape-artist',
   setTitleId: [636],
   name: 'Escape Artist',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: [
     { alignment: 'hero', value: `Dr. Hank Neville, foremost geologist, was attacked by Arachnos, but escaped with the help of Freedom Corps troops.` },

@@ -9,6 +9,7 @@ export const Expert: BadgeData = {
   key: 'expert',
   setTitleId: [149],
   name: 'Expert',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of the Might for Right Act.`,
   links: [

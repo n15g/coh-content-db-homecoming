@@ -6,6 +6,7 @@ export const Disassembled: BadgeData = {
   key: 'disassembled',
   setTitleId: [2426],
   name: 'Disassembled',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Whether intended or not, the structure in front of you looks like a 1980s novelty toy that has seen better days.`,
   links: [

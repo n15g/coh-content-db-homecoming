@@ -5,6 +5,7 @@ export const DividedMastery: BadgeData = {
   key: 'divided-mastery',
   setTitleId: [856],
   name: 'Divided Mastery',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "1 Defeat Allowed" for the team.` },

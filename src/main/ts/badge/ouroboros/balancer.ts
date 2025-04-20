@@ -6,6 +6,7 @@ export const Balancer: BadgeData = {
   key: 'balancer',
   setTitleId: [938],
   name: 'Balancer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 25 story arcs.',
   acquisition: `Complete 25 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

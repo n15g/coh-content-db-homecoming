@@ -8,6 +8,7 @@ export const VIP: BadgeData = {
     { alignment: 'hero', value: 'V.I.P.' },
     { alignment: 'villain', value: 'Destined One' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'primal',
   badgeText: [
     { alignment: 'hero', value: `Being a V.I.P. in Paragon City has many advantages associated with it.` },

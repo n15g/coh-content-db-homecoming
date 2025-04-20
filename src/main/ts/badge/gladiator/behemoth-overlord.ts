@@ -7,6 +7,7 @@ export const BehemothOverlord: BadgeData = {
   key: 'behemoth-overlord',
   setTitleId: [503],
   name: 'Behemoth Overlord',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Even demons obey your will.',
   links: [

@@ -6,6 +6,7 @@ export const PowderMonkey: BadgeData = {
   key: 'powder-monkey',
   setTitleId: [253],
   name: 'Powder Monkey',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The last of the pirates died at this location defending the fort against Blackbeard.`,
   notes: `Located behind three cannons in the Fort Hades neighborhood, approx. 154 yards east and slightly south of the Fort Hades marker.`,

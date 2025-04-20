@@ -5,6 +5,7 @@ export const MasterOfThePrisonersOfEden: BadgeData = {
   key: 'master-of-the-prisoners-of-eden',
   setTitleId: [2489],
   name: 'Master of the Prisoners of Eden',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `You have proven yourself Master of the Prisoners of Eden Trial.`,
   acquisition: `Complete the Master of the Prisoners of Eden challenge (zero defeats, temporary and incarnate powers disabled).`,

@@ -6,6 +6,7 @@ export const Castaway: BadgeData = {
   key: 'castaway',
   setTitleId: [1805],
   name: 'Castaway',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You stand on the brink, a psychological one, overwhelmed by a sense of dislocation and loss that is nearly impossible to shake.
 The scientists manning Firebase Zulu have codenamed this region "The Marooned Shores," and you can see why this name is appropriate.

@@ -11,6 +11,7 @@ export const Shrouded: BadgeData = {
     { alignment: 'hero', value: 'Shrouded' },
     { alignment: 'villain', value: 'Shady' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'This otherworld has been overshadowed by corrupting magic.' },

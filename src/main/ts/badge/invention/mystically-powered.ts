@@ -5,6 +5,7 @@ export const MysticallyPowered: BadgeData = {
   key: 'mystically-powered',
   setTitleId: [783],
   name: 'Mystically Powered',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 35 and 40: Endurance Modification and Endurance Reduction.',
   links: [

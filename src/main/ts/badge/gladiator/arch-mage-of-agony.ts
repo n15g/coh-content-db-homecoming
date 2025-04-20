@@ -6,6 +6,7 @@ export const ArchMageOfAgony: BadgeData = {
   key: 'arch-mage-of-agony',
   setTitleId: [509],
   name: 'Arch-Mage of Agony',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You can command the spirits of another age!',
   links: [

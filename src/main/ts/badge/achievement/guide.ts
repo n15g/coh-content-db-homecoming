@@ -9,6 +9,7 @@ export const Guide: BadgeData = {
     { alignment: 'villain', value: 'Drill Instructor' },
     { alignment: 'praetorian', value: 'Motivator' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your continued mentoring has earned you this badge.' },

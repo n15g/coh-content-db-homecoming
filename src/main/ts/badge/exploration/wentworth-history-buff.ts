@@ -6,6 +6,7 @@ export const WentworthHistoryBuff: BadgeData = {
   key: 'wentworth-history-buff',
   setTitleId: [1526],
   name: 'Wentworth History Buff',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This area was slated to be the original site for the Wentworth's Consignments in Kings Row.
 Unfortunately, constant debates over who actually owns the site, as well as the neighborhood's concern over increased traffic, halted construction.`,

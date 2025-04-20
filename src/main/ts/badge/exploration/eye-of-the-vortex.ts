@@ -6,6 +6,7 @@ export const EyeOfTheVortex: BadgeData = {
   key: 'eye-of-the-vortex',
   setTitleId: [2049],
   name: 'Eye of the Vortex',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Mystical energies seethe and whirl overhead; hypnotizing in its terrible beauty.
 Standing this close to it one feels a charge in the air: the skin tingles with barely contained energy, the teeth ache to its harmonic vibration, the mind contemplates alien thoughts.

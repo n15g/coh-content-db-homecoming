@@ -6,6 +6,7 @@ export const DimensionalSojourner: BadgeData = {
   key: 'dimensional-sojourner',
   setTitleId: [1798],
   name: 'Dimensional Sojourner',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have tread upon the soil of a parallel dimension and now are ready to expand your horizons.
 From this point, portals link Firebase Zulu to other operational bases scattered throughout the Shadow Shard.

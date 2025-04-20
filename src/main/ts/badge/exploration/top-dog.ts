@@ -6,6 +6,7 @@ export const TopDog: BadgeData = {
   key: 'top-dog',
   setTitleId: [90],
   name: 'Top Dog',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The top of Atlas' statue is the first place many flying heroes will go.`,
   notes: `Located in the Atlas Plaza neighborhood, at the apex of the globe atop the Atlas statue.`,

@@ -6,6 +6,7 @@ export const LoopHero: BadgeData = {
   key: 'loop-hero',
   setTitleId: [2514],
   name: 'Loop Hero',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `After much trial and tribulation, you were able to use Ouroboros to put an end to the Stribbling family drama. By your own count, you must have gone around at least 5 times... but the real number could be well into the thousands.`,
   acquisition: `Complete the ${missionLink(TroubledTimes)} arc four times, choosing all four outcomes and then completing the arc a final time.`,

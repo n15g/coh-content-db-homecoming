@@ -6,6 +6,7 @@ export const Correctionist: BadgeData = {
   key: 'correctionist',
   setTitleId: [939],
   name: 'Correctionist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 30 story arcs.',
   acquisition: `Complete 30 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

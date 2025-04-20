@@ -5,6 +5,7 @@ export const Ascended: BadgeData = {
   key: 'ascended',
   setTitleId: [1462],
   name: 'Ascended',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Despite your villainous beginnings you managed to redeem yourself. You have shifted your alignment from Villain to Hero earning yourself the Ascended badge.',
   acquisition: 'Shift alignment from Villain to Hero.',

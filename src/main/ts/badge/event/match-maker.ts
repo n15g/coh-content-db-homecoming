@@ -8,6 +8,7 @@ export const MatchMaker: BadgeData = {
   key: 'match-maker',
   setTitleId: [2112],
   name: 'Match Maker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `In honor of the season of Spring, you've delivered Valentines throughout the world!`,
   acquisition: 'Deliver 7 Valentines to the proper recipient.',

@@ -6,6 +6,7 @@ export const ResearchAssistant: BadgeData = {
   key: 'research-assistant',
   setTitleId: [500],
   name: 'Research Assistant',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Crey will study the results of your gladiator battles.',
   links: [

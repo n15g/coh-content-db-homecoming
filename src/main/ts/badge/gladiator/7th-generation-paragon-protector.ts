@@ -6,6 +6,7 @@ export const _7thGenerationParagonProtector: BadgeData = {
   key: '7th-generation-paragon-protector',
   setTitleId: [501],
   name: '7th Generation Paragon Protector',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'This will be a powerful gladiator in the Arena.',
   links: [

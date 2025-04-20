@@ -6,6 +6,7 @@ export const PitViper: BadgeData = {
   key: 'pit-viper',
   setTitleId: [298],
   name: 'Pit Viper',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This hole is used by the locals as a makeshift arena for fighting and wagering.`,
   notes: `Located at the bottom of the pit in The Pit neighborhood, 70 feet west of the zone marker.`,

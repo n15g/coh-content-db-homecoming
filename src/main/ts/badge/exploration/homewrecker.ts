@@ -6,6 +6,7 @@ export const Homewrecker: BadgeData = {
   key: 'homewrecker',
   setTitleId: [753],
   name: 'Homewrecker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This is the base Malta likes to call home. Your name wasn't exactly on the welcome mat.`,
   notes: `Located 345 yards south-west of the Little Round Top zone marker.`,

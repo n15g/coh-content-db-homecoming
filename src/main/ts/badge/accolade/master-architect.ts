@@ -7,6 +7,7 @@ export const MasterArchitect: BadgeData = {
   key: 'master-architect',
   setTitleId: [1082],
   name: 'Master Architect',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

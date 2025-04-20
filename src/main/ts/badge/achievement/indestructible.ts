@@ -9,6 +9,7 @@ export const Indestructible: BadgeData = {
     { alignment: 'villain', value: 'Hard Case' },
     { alignment: 'praetorian', value: 'Big Dog' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Over the course of your career, you have taken five hundred thousand points of damage.' },

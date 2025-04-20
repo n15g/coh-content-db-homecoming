@@ -8,6 +8,7 @@ export const Assistant: BadgeData = {
     { alignment: 'hero', value: 'Assistant' },
     { alignment: 'villain', value: 'Accomplice' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You helped a team complete a Weekly Strike Target even though you already received the bonus for the week.',
   acquisition: `Complete a [Weekly Strike Target](https://homecoming.wiki/wiki/Weekly_Strike_Target) after you've already completed one for the week.`,

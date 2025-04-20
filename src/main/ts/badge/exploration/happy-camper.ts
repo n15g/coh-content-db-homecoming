@@ -6,6 +6,7 @@ export const HappyCamper: BadgeData = {
   key: 'happy-camper',
   setTitleId: [2227],
   name: 'Happy Camper',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have landed in the heart of the Black Knight's encampment.
 Whether you stormed through with guns blazing or stealthily slinked past its many guards, Night Ward recognizes the bold of spirit and plays her next move accordingly.`,

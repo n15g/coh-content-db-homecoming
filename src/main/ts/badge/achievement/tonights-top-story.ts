@@ -5,6 +5,7 @@ export const TonightsTopStory: BadgeData = {
   key: 'tonights-top-story',
   setTitleId: [2076],
   name: `Tonight's Top Story`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Maelstrom arrived during the raid on TPN Campus to send a message of his own: that he would not allow the Incarnates to spread their 'lies'.
 Not only did his efforts fail, but you also managed to defeat him handily, adding his humiliating defeats to your message to the people of Praetoria.`,

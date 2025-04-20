@@ -6,6 +6,7 @@ export const SweetTooth: BadgeData = {
   key: 'sweet-tooth',
   setTitleId: [273],
   name: 'Sweet Tooth',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Lawrence Langston made his money investing in the things he personally was interested in.
 His penchant for chocolate helped him to strike gold with Gold Brick candy bars.`,

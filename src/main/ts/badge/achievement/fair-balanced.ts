@@ -5,6 +5,7 @@ export const FairBalanced: BadgeData = {
   key: 'fair-balanced',
   setTitleId: [2074],
   name: 'Fair & Balanced',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Imperial forces threw some of Mother Mayhems' mindwashing Telepathists at the populace in an effort to turn them against you, and you stepped up to shut them down.
 No Telepathist managed to convert four citizens during the raid on TPN Campus.`,

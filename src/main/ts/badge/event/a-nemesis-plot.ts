@@ -5,6 +5,7 @@ export const ANemesisPlot: BadgeData = {
   key: 'a-nemesis-plot',
   setTitleId: [2210],
   name: 'A Nemesis Plot',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've tangled with Nemesis himself (at least, you think so) during the Nemesis Plot event.`,
   acquisition: `Be in the zone when Nemesis is defeated during the Nemesis Plot event.`,

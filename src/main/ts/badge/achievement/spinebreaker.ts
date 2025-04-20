@@ -5,6 +5,7 @@ export const Spinebreaker: BadgeData = {
   key: 'spinebreaker',
   setTitleId: [2164],
   name: 'Spinebreaker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `In beginning your assault on Mot during Dilemma Diabolique, you and your league did not think it sufficient to merely destroy the Repulsive Spines and bring down the protective barrier around Mot's plateau.
 Instead, you wanted to send a message. You wanted to bring down all the Repulsive Spines at once.... and succeeded.`,

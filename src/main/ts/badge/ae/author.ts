@@ -5,6 +5,7 @@ export const Author: BadgeData = {
   key: 'author',
   setTitleId: [1118],
   name: 'Author',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've earned the Author badge from having another player experience your published Mission Architect Story Arc! This badge is awarded to all characters on your account.`,
   acquisition: 'Another player has completed your published arc.',

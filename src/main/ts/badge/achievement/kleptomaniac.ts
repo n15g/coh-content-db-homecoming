@@ -5,6 +5,7 @@ export const Kleptomaniac: BadgeData = {
   key: 'kleptomaniac',
   setTitleId: [2364],
   name: 'Kleptomaniac',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `When it comes to collecting souvenirs from your foes, you don't just take anything that's not nailed down; you take the nails, too.`,
   acquisition: 'Collect 50 Souvenirs.',

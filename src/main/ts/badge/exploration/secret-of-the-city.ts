@@ -7,6 +7,7 @@ export const SecretOfTheCity: BadgeData = {
   key: 'secret-of-the-city',
   setTitleId: [1823],
   name: 'Secret of the City',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The dislocated voices of Steel Canyon's throngs filter down to this place, echoing through the miles of pipes and corridors to reverberate here.
 If you listen long enough you can catch snippets of lost conversations.

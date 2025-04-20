@@ -9,6 +9,7 @@ export const FormerServantOfRecluse: BadgeData = {
     { alignment: 'hero', value: 'Former Servant of Recluse' },
     { alignment: 'villain', value: 'Servant of Recluse' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You have broken Paragon City's 'best,' and now must atone for those actions.` },

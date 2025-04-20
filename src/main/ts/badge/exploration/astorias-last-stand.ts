@@ -6,6 +6,7 @@ export const AstoriasLastStand: BadgeData = {
   key: 'astorias-last-stand',
   setTitleId: [1784],
   name: `Astoria's Last Stand`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `As the darkness closed in and the dead rose from their graves, this warehouse became a scene of unimaginable horror as a group of survivors fled here in the hope of rescue that never came.
 They fought valiantly, keeping the minions of the Banished Pantheon at bay for hours.

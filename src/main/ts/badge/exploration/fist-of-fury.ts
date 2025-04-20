@@ -6,6 +6,7 @@ export const FistOfFury: BadgeData = {
   key: 'fist-of-fury',
   setTitleId: [1859],
   name: 'Fist of Fury',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have come to realize that emotion is an elemental force in the Shadow Shard, that the storms that sweep through this place are composed of emotional residue.
 You have spent enough time here to gain an intrinsic sense of these emotional ebbs and flows.

@@ -8,6 +8,7 @@ export const Immortal: BadgeData = {
     { value: 'Immortal' },
     { alignment: 'praetorian', value: 'Challenger of Gods' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'You are truly Immortal. You have survived one hundred million points of damage.' },

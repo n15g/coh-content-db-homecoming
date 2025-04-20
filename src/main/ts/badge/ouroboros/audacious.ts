@@ -5,6 +5,7 @@ export const Audacious: BadgeData = {
   key: 'audacious',
   setTitleId: [877],
   name: 'Audacious',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while the enemies were Buffed.` },

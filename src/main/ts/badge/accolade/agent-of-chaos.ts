@@ -18,6 +18,7 @@ export const AgentOfChaos: BadgeData = {
   key: 'agent-of-chaos',
   setTitleId: [2344],
   name: 'Agent of Chaos',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Mercy Island.`,
   acquisition: `Complete every story arc within ${zoneLink(MercyIsland)}.`,

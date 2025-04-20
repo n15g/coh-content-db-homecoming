@@ -12,6 +12,7 @@ export const BornInBattle: BadgeData = {
   key: 'born-in-battle',
   setTitleId: [534],
   name: 'Born in Battle',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You may have proven yourself as Born in Battle, but in Paragon City other virtues matter more.` },

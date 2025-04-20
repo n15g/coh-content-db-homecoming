@@ -5,6 +5,7 @@ export const Empowered: BadgeData = {
   key: 'empowered',
   setTitleId: [1449],
   name: 'Empowered',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've crafted your first Uncommon Incarnate Ability earning yourself this badge.`,
   acquisition: 'Craft an uncommon Incarnate ability.',

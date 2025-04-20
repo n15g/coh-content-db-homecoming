@@ -7,6 +7,7 @@ export const Undefeated: BadgeData = {
   key: 'undefeated',
   setTitleId: [86],
   name: 'Undefeated',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Here is where one of the brave souls to take up the mantle of Scirocco stood against, and fell to, the Rikti invaders.`,
   notes: `Located in the Promenade neighborhood, on a lower ledge on the east side of a building, 70 yards SE of the ${zoneLink(SteelCanyon)} gate.`,

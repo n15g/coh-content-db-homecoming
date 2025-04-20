@@ -6,6 +6,7 @@ export const Piratical: BadgeData = {
   key: 'piratical',
   setTitleId: [262],
   name: 'Piratical',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'The dread pirate Randall set up this lighthouse to lure ships to their demise.',
   notes: `Located in a grassy area close the water on the villain base island, south of the base.`,

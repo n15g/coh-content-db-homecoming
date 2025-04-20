@@ -6,6 +6,7 @@ export const SilentWitness: BadgeData = {
   key: 'silent-witness',
   setTitleId: [1651],
   name: 'Silent Witness',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have seen much injustice and brutality in your journeys through Praetoria, and here beneath Precinct 4 in Imperial City you are witness to a chamber dedicated to both. Will you remain silent forever?`,
   notes: `Located in the red area 256 yds. NNE of Underground Transit.`,

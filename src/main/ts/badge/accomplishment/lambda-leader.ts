@@ -6,6 +6,7 @@ export const LambdaLeader: BadgeData = {
   key: 'lambda-leader',
   setTitleId: [1983],
   name: 'Lambda Leader',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Lambda Sector.',
   links: [

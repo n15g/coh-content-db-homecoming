@@ -6,6 +6,7 @@ export const DimensionalInvestigator: BadgeData = {
   key: 'dimensional-investigator',
   setTitleId: [2275],
   name: 'Dimensional Investigator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You found a lot of odd things during your fight to hold the last area of Praetoria. Some make sense, while others leave you with more questions than answers.`,
   acquisition: `Find all the Easter eggs in the ${missionLink(PraetoriasLastGasp.key)} story arc.`,

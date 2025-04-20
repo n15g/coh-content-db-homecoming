@@ -5,6 +5,7 @@ export const Overleveled: BadgeData = {
   key: 'overleveled',
   setTitleId: [624],
   name: 'Overleveled',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have come to understand that your experience and prowess do not peak at the highest Security Level. You have attained three Veteran levels.` },

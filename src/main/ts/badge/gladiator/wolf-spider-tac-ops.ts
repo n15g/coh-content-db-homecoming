@@ -6,6 +6,7 @@ export const WolfSpiderTacOps: BadgeData = {
   key: 'wolf-spider-tac-ops',
   setTitleId: [441],
   name: 'Wolf Spider Tac Ops',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Your leadership skills are recognized.',
   links: [

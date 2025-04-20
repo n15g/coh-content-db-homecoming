@@ -6,6 +6,7 @@ export const PraetorianOfPrivilege: BadgeData = {
   key: 'praetorian-of-privilege',
   setTitleId: [1633],
   name: 'Praetorian of Privilege',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `For those who have contributed greatly to the prosperity of Praetoria, they are given the opportunity to relocate to the rarified air of Four Gables; a place of luxury and comfort.`,
   notes: `Located 151 yards NNW of the Four Gables marker.`,

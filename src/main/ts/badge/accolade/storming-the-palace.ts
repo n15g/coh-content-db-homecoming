@@ -13,6 +13,7 @@ export const StormingThePalace: BadgeData = {
   key: 'storming-the-palace',
   setTitleId: [1889],
   name: 'Storming the Palace',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within the Storm Palace.`,
   links: [

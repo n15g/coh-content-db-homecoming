@@ -11,6 +11,7 @@ export const TheUnderlord: BadgeData = {
     { sex: 'M', value: 'The Underlord' },
     { sex: 'F', value: 'The Underlady' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `In King's Row, where life is hard and opportunities few, competition for resources can be fierce.
 But down here, someone of rare vision could carve out a niche for themselves; dominating the creatures who call this part of the sewer home or using the network's ability to touch

@@ -10,6 +10,7 @@ export const Gatekeeper: BadgeData = {
     { alignment: 'hero', value: 'Gatekeeper' },
     { alignment: 'villain', value: 'Keymaster' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The whimsical Gamester placed several presents all throughout Peregrine Island during the holidays. This block had a few of them.',
   notes: `Located in a walled-in area southeast of a Blackwell store almost in the geographic center of the missions zone. (It's the building with the radio antenna on top of it.)

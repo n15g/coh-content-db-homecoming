@@ -6,6 +6,7 @@ export const Disappeared: BadgeData = {
   key: 'disappeared',
   setTitleId: [1637],
   name: 'Disappeared',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This is where enemies of the State vanish forever. These lost souls have been brought here from the PPD Headquarters for summary execution without review or recourse.`,
   notes: `Located approx. 345 yards NNW of City Access B.`,

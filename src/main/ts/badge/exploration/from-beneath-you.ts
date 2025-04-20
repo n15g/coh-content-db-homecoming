@@ -7,6 +7,7 @@ export const FromBeneathYou: BadgeData = {
   key: 'from-beneath-you',
   setTitleId: [1826],
   name: 'From Beneath You',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Amidst the hustle and bustle of Atlas Park, with masses of super-powered individuals going to and fro, it is easy to forget the miles of tunnels and chambers that underlie that district.
 People go about their daily business unaware of the thriving ecology that takes place beneath their feet. Vahzilok, Hydra, Hellions, and worse skulk in the shadows,

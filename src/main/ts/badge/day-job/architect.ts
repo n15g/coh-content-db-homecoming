@@ -5,6 +5,7 @@ export const Architect: BadgeData = {
   key: 'architect',
   setTitleId: [1081],
   name: 'Architect',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your study of the Mission Architect system has earned you the Architect Day Job.
 Logging out in the Mission Architect will earn you 2 bonus Mission Architect Tickets, when you log back in, each time you complete a mission for a short time.`,

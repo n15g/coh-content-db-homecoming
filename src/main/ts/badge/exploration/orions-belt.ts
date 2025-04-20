@@ -6,6 +6,7 @@ export const OrionsBelt: BadgeData = {
   key: 'orions-belt',
   setTitleId: [1524],
   name: `Orion's Belt`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This statue commemorates the hero Orion, whom Orion Beltway was renamed after.
 During the first Rikti War, Orion fought valiantly against the Rikti, saving the people of this small district. He was remembered, in particular, as the hero with no real powers beyond his knowledge of martial arts.`,

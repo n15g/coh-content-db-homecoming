@@ -6,6 +6,7 @@ export const TarnishedStar: BadgeData = {
   key: 'tarnished-star',
   setTitleId: [2438],
   name: 'Tarnished Star',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `Despite all the villains you've put away, you couldn't help becoming one yourself.
 You were reminded of this when Manticore ambushed you in the Zig during Clamor and Bile's breakout, in front of the nineteen high-profile arrests you'd made yourself.

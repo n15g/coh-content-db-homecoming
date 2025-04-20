@@ -6,6 +6,7 @@ export const Valorous: BadgeData = {
   key: 'valorous',
   setTitleId: [123],
   name: 'Valorous',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'The titanic hero Atlas fell at Valor Bridge, protecting the city from invasion.',
   notes: `Located on top of the southernmost tower of the Valor Bridge, the westernmost and longest suspension bridge in the zone.

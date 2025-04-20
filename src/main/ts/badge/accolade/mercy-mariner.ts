@@ -13,6 +13,7 @@ export const MercyMariner: BadgeData = {
   key: 'mercy-mariner',
   setTitleId: [1486],
   name: 'Mercy Mariner',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Mercy Island.`,
   links: [

@@ -6,6 +6,7 @@ export const GutterBait: BadgeData = {
   key: 'gutter-bait',
   setTitleId: [1513],
   name: 'Gutter Bait',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `These dangerous catwalks have resulted in a handful of Arachnos soldiers unwittingly falling into the depths of the Gutter, disappearing forever.
 At first, search and rescue missions were initiated to attempt to recover the missing soldiers, but were soon called off.

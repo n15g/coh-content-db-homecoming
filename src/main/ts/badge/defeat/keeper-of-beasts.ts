@@ -5,6 +5,7 @@ export const KeeperOfBeasts: BadgeData = {
   key: 'keeper-of-beasts',
   setTitleId: [2214],
   name: 'Keeper of Beasts',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Vicious though they might seem, the beasts of the Spirit Stalkers proved no match for you. You defeated many members of the Spirit Stalkers to earn this badge.`,
   acquisition: 'Defeat 100 points worth of Spirit Stalkers.',

@@ -17,6 +17,7 @@ export const JohnnysExBestFriend: BadgeData = {
     { alignment: 'villain', sex: 'M', value: `Johnny's Go To Guy` },
     { alignment: 'villain', sex: 'F', value: `Johnny's Go To Gal` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within St. Martial.`,
   links: [

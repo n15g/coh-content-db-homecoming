@@ -6,6 +6,7 @@ export const Virtuous: BadgeData = {
   key: 'virtuous',
   setTitleId: [1220],
   name: 'Virtuous',
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `Throughout Atlas Park and the rest of Paragon City there are numerous statues of heroes who fell in battle while defending their beliefs.`,
   notes: `Located at the foot of the statue in Promethous Park's lake.`,

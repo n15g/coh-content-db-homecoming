@@ -8,6 +8,7 @@ export const Banker: BadgeData = {
     { alignment: 'hero', value: 'Banker' },
     { alignment: 'villain', value: 'Thief' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

@@ -6,6 +6,7 @@ export const MediaJunky: BadgeData = {
   key: 'media-junky',
   setTitleId: [270],
   name: 'Media Junky',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The top of the WSPDR building is a great place to survey Recluse's media empire.`,
   notes: `Located atop the large WSPDR tower east of the New Haven marker, next to the eastern antenna.`,

@@ -8,6 +8,7 @@ export const ArachnosTraitor: BadgeData = {
     { alignment: 'hero', value: 'Arachnos Traitor' },
     { alignment: 'villain', value: 'Arachnos Official' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [{
     alignment: 'hero', value: 'The Arbiters of Arachnos have made you a priority target. They do not like to let their secrets slip.',

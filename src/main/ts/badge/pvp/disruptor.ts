@@ -5,6 +5,7 @@ export const Disruptor: BadgeData = {
   key: 'disruptor',
   setTitleId: [366],
   name: 'Disruptor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've taken down 50 villains in PvP.` },

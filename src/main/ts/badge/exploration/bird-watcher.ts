@@ -6,6 +6,7 @@ export const BirdWatcher: BadgeData = {
   key: 'bird-watcher',
   setTitleId: [91],
   name: 'Bird Watcher',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Invisible Falcon disappeared without a trace in the mid 90's.`,
   notes: `The Bird Watcher Badge is in the Orion Beltway neighborhood, 87 yds south east of the Orion Beltway marker.

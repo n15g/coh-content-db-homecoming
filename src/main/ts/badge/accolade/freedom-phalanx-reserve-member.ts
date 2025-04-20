@@ -19,6 +19,7 @@ export const FreedomPhalanxReserveMember: BadgeData = {
     { alignment: 'hero', value: 'Freedom Phalanx Reserve Member' },
     { alignment: 'villain', value: 'Freedom Phalanx Fallen' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have earned a reserve membership into Paragon City's premier Super Group: Freedom Phalanx. This privilege comes with the added perk of +10% Hit Points.` },

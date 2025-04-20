@@ -6,6 +6,7 @@ export const UncivilWarrior: BadgeData = {
   key: 'uncivil-warrior',
   setTitleId: [2437],
   name: 'Uncivil Warrior',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `As the crescendo to a wild adventure that took you all over the city and into many life-threatening scenarios, you went straight to the heart of where the last Vahzilok
 leader was trying to navigate the complex civil war within the ranks.

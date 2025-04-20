@@ -6,6 +6,7 @@ export const MasterOfScience: BadgeData = {
   key: 'master-of-science',
   setTitleId: [1493],
   name: 'Master of Science',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: 'Dr. Aeon designed this giant globe of an atom to signify the advances that science has brought to Cap au Diable.',
   notes: 'Located on top of the globe in the Aeon City neighborhood.',

@@ -6,6 +6,7 @@ export const GraffitiCommunicator: BadgeData = {
   key: 'graffiti-communicator',
   setTitleId: [1518],
   name: 'Graffiti Communicator',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Longbow works side by side with the Legacy Chain to maintain this small outpost in the Hollows, using it to relay the activities of the Circle of Thorns in the nearby area.
 They have run into ongoing issues with the various gangs in the Hollows spray-painting the building with their logos.`,

@@ -9,6 +9,7 @@ export const ConquerorOfTheLabyrinth: BadgeData = {
   key: 'conqueror-of-the-labyrinth',
   setTitleId: [2532],
   name: 'Conqueror of the Labyrinth',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `You have proven your prowess by having not only explored, but also conquered everything that stood in your path within the maze of corridors known as the Labyrinth of Fog.`,
   effect: `Awards the Core Attunement power.`,

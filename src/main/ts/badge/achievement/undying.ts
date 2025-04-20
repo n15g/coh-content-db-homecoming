@@ -8,6 +8,7 @@ export const Undying: BadgeData = {
     { value: 'Undying' },
     { alignment: 'praetorian', value: 'Never Learns' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: `You can't be certain, but you believe that the possibility exists that you can not die.` },

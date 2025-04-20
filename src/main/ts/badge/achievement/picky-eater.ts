@@ -5,6 +5,7 @@ export const PickyEater: BadgeData = {
   key: 'picky-eater',
   setTitleId: [2392],
   name: 'Picky Eater',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `There are some recipes you just won't touch.`,
   acquisition: 'Reject 50 recipe drops.',

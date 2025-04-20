@@ -9,6 +9,7 @@ export const RedeemedBlackguard: BadgeData = {
     { alignment: 'hero', value: 'Redeemed Blackguard' },
     { alignment: 'villain', value: 'Blackguard' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Despite defeating all the Signature Heroes in Recluse's Victory, you are now considered a Redeemed Blackguard.` },

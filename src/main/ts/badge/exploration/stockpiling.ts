@@ -6,6 +6,7 @@ export const Stockpiling: BadgeData = {
   key: 'stockpiling',
   setTitleId: [1728],
   name: 'Stockpiling',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Lambda Sector is the core of the Imperial Defense Force's armaments and heavy machinery stockpile, fed daily by the anti-matter powered factories of Neutropolis.
 What is not immediately needed elsewhere is kept here for a 'rainy day.'`,

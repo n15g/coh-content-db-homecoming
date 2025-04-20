@@ -6,6 +6,7 @@ export const LongArmOfTheLaw: BadgeData = {
   key: 'long-arm-of-the-law',
   setTitleId: [2262],
   name: 'Long Arm of the Law',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You were able to stop all of the chaos that was running rampant around the bank in Brickstown.',
   acquisition: `Properly assign the New Praetorians to handle the side missions in the "Culling the Chaos" mission of the ${missionLink(ANewWar)} story arc.`,

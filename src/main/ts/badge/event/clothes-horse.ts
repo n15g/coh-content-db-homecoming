@@ -5,6 +5,7 @@ export const ClothesHorse: BadgeData = {
   key: 'clothes-horse',
   setTitleId: [838],
   name: 'Clothes Horse',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've collected 10 classic costumes.`,
   acquisition: 'Collect 10 costumes during the Halloween event.',

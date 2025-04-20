@@ -6,6 +6,7 @@ export const Powerful: BadgeData = {
   key: 'powerful',
   setTitleId: [749],
   name: 'Powerful',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'This power plant is the glue that holds the operation together. Without it, there would be chaos.',
   notes: `Located on the eastern side of the power substation, on the ground.`,

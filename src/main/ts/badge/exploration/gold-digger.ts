@@ -6,6 +6,7 @@ export const GoldDigger: BadgeData = {
   key: 'gold-digger',
   setTitleId: [1630],
   name: 'Gold Digger',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `In Aureas, ground is being broken on new office towers to support Praetoria's ever burgeoning economy.
 Witness the tireless Clockwork who labor continuously to bring the dream of Praetoria to life.`,

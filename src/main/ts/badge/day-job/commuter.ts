@@ -8,6 +8,7 @@ export const Commuter: BadgeData = {
     { alignment: 'hero', value: 'Commuter' },
     { alignment: 'villain', value: 'Fare Jumper' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

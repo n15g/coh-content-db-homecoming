@@ -5,6 +5,7 @@ export const Steadfast: BadgeData = {
   key: 'steadfast',
   setTitleId: [630],
   name: 'Steadfast',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `All this crimefighting has people calling you Steadfast. You have attained twenty-one Veteran levels.` },

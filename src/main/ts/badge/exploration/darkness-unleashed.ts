@@ -6,6 +6,7 @@ export const DarknessUnleashed: BadgeData = {
   key: 'darkness-unleashed',
   setTitleId: [2468],
   name: 'Darkness Unleashed',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `The mighty beasts that roam the hills of Cimerora guard certain cave entrances fiercely. Rumours say that 'dark ones' are the source of their power, and entering those caves is the first step in walking the Path of the Dark.`,
   notes: `Located 501 yards northwest of the Castellum Quarter neighborhood marker, between two trees along the cliffs.`,

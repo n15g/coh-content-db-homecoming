@@ -6,6 +6,7 @@ export const Agent: BadgeData = {
   key: 'agent',
   setTitleId: [85],
   name: 'Agent',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You wiped out a cell of Marauder's forces right here in Paragon City.`,
   links: [

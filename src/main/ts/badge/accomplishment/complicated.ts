@@ -6,6 +6,7 @@ export const Complicated: BadgeData = {
   key: 'complicated',
   setTitleId: [2459],
   name: 'Complicated',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `Sometimes, the line between good and evil isn't as simple as it seems.`,
   acquisition: `Complete the "Take out Frostfire" mission of the ${FluxTheOutcast} story arc.`,

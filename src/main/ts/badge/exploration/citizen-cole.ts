@@ -6,6 +6,7 @@ export const CitizenCole: BadgeData = {
   key: 'citizen-cole',
   setTitleId: [1401],
   name: 'Citizen Cole',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Citizens who appreciate all the marvelous things that Emperor Cole has done for them have the best view of Praetoria from here.` },

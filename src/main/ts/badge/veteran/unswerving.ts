@@ -5,6 +5,7 @@ export const Unswerving: BadgeData = {
   key: 'unswerving',
   setTitleId: [634],
   name: 'Unswerving',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `After paying your dues you have been recognized as 'Unswerving' by the government of Paragon City. You have attained thirty-three Veteran levels.` },

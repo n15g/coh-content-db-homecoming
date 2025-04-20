@@ -10,6 +10,7 @@ export const Traveler: BadgeData = {
     { alignment: 'hero', value: 'Traveler' },
     { alignment: 'villain', value: 'Border Crosser' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

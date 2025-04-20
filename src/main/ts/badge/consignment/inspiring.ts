@@ -5,6 +5,7 @@ export const Inspiring: BadgeData = {
   key: 'inspiring',
   setTitleId: [807],
   name: 'Inspiring',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 50 Inspirations on the Consignment House.` },

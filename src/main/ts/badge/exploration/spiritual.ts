@@ -6,6 +6,7 @@ export const Spiritual: BadgeData = {
   key: 'spiritual',
   setTitleId: [409],
   name: 'Spiritual',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `It may be in dangerous territory, but this lake, frequented by the Cabal's strange sprites, is one of the most beautiful sights near Salamanca.`,
   notes: 'Located under the wall of trees, 300 yds NE from the Misty Wood waypoint, NE of the small round pond.',

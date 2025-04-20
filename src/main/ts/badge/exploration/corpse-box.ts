@@ -6,6 +6,7 @@ export const CorpseBox: BadgeData = {
   key: 'corpse-box',
   setTitleId: [1780],
   name: 'Corpse Box',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The stench of death clings to this forlorn cargo container.
 The Vahzilok are rumored to store corpses there for later use in their blasphemous experiments.

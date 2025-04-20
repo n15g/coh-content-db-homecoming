@@ -6,6 +6,7 @@ export const PatientZero: BadgeData = {
   key: 'patient-zero',
   setTitleId: [2439],
   name: 'Patient Zero',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `Doc Buzzsaw bit off more she could chew when she called out for help against Cortex, leading you into a whole new world of mad science and pushing fringe
  Freakshow members and desperate terminal Eidolons to evolve beyond their humanity as conscripts in a new cybertech army. Piecemeal owes their existence to you.`,

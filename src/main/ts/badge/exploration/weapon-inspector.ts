@@ -9,6 +9,7 @@ export const WeaponInspector: BadgeData = {
     { alignment: 'hero', value: 'Weapon Inspector' },
     { alignment: 'villain', value: 'Weapon of Mass Destruction' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Warburg is home to many a nefarious ploy. Recluse's VENOM rocket is one of the most blatant.`,
   notes: `Located in the center of the top of the western scaffolding surrounding the missile silo.`,

@@ -6,6 +6,7 @@ export const Promethean: BadgeData = {
   key: 'promethean',
   setTitleId: [1982],
   name: 'Promethean',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You manipulated Mortimer Kal into helping you acquire some of the Flames of Prometheus from Positron!',
   links: [

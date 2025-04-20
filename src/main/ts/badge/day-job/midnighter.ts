@@ -5,6 +5,7 @@ export const Midnighter: BadgeData = {
   key: 'midnighter',
   setTitleId: [1042],
   name: 'Midnighter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your studies at the Midnighter Club has earned you the Midnighter Day Job.
 sLogging out in the Midnighter Club will earn you a random piece of Arcane Salvage, when you log back in, each time you complete a mission, for a short time.`,

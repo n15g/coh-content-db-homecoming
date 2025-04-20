@@ -9,6 +9,7 @@ export const CimeroranHero: BadgeData = {
     { sex: 'M', value: 'Cimeroran Hero' },
     { sex: 'F', value: 'Cimeroran Heroine' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You played through Marcus Valerius's personal story, witnessing the event where Marcus Valerius brought Mot to the land of Astoria and joined together with Mot, becoming his Sentinel.`,
   links: [

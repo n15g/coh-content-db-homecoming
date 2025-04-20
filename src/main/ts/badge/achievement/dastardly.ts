@@ -5,6 +5,7 @@ export const Dastardly: BadgeData = {
   key: 'dastardly',
   setTitleId: [1453],
   name: 'Dastardly',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The mere mention of your name causes those that hear it to shiver in fear. You have completed a Villain Morality Mission earning yourself this badge.',
   acquisition: 'Complete a Villain Morality mission.',

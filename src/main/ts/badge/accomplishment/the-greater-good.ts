@@ -6,6 +6,7 @@ export const TheGreaterGood: BadgeData = {
   key: 'the-greater-good',
   setTitleId: [2435],
   name: 'The Greater Good',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `You chose to sit tight and quarantine yourself, rather than jeopardize Paragon with the diseases from Pathogen's warehouse.`,
   acquisition: `Choose to quarantine during ${missionLink(TheGraveyardShift)} story arc.`,

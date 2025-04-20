@@ -5,6 +5,7 @@ export const Erasure: BadgeData = {
   key: 'erasure',
   setTitleId: [2171],
   name: 'Erasure',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have washed away the memories of the ancestors, who have no place in the world of the living.`,
   acquisition: 'Defeat 100 points worth of Incarnate-level Tsoo.',

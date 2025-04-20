@@ -6,6 +6,7 @@ export const TenTimesTheVictor: BadgeData = {
   key: 'ten-times-the-victor',
   setTitleId: [422],
   name: 'Ten Times the Victor',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have impressed Mary Macomber, leader of the Cabal, by defeating her ten times. Though some members of the Cabal may still fear you, others will work as your allies.
 As a reward, you can now use a witch hat as a costume piece.`,

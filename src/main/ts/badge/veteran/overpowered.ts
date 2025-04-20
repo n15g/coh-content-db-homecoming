@@ -5,6 +5,7 @@ export const Overpowered: BadgeData = {
   key: 'overpowered',
   setTitleId: [2027],
   name: 'Overpowered',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     {

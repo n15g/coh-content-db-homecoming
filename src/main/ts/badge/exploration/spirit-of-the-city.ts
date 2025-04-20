@@ -7,6 +7,7 @@ export const SpiritOfTheCity: BadgeData = {
   key: 'spirit-of-the-city',
   setTitleId: [1829],
   name: 'Spirit of the City',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `
 The heartbeat of the city thrums through the halls of the Sewer Network, creating a harmony all its own.

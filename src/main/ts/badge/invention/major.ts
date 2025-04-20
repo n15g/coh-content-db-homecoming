@@ -5,6 +5,7 @@ export const Major: BadgeData = {
   key: 'major',
   setTitleId: [790],
   name: 'Major',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Accuracy and To Hit Buff.',
   links: [

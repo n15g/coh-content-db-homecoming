@@ -5,6 +5,7 @@ export const Psychologist: BadgeData = {
   key: 'psychologist',
   setTitleId: [2042],
   name: 'Psychologist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have spent a great deal of time in the Mother of Mercy Hospital, earning you the Psychologist Day Job.
 Logging out in the Mother of Mercy Hospital will bolster your defenses against psionic attacks, when you log back in, for a short time.`,

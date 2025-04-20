@@ -5,6 +5,7 @@ export const Uncompromising: BadgeData = {
   key: 'uncompromising',
   setTitleId: [1603],
   name: 'Uncompromising',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You stand up for those who cannot stand up for themselves without compromise. You have attained eighty-one Veteran levels.` },

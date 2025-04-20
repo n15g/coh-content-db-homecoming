@@ -13,6 +13,7 @@ export const Archmage: BadgeData = {
   key: 'archmage',
   setTitleId: [167],
   name: 'Archmage',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

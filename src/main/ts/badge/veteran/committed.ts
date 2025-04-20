@@ -5,6 +5,7 @@ export const Committed: BadgeData = {
   key: 'committed',
   setTitleId: [633],
   name: 'Committed',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `There's no stopping your campaign to end crime and tyranny wherever it appears. You have attained thirty Veteran levels.` },

@@ -5,6 +5,7 @@ export const Temerarious: BadgeData = {
   key: 'temerarious',
   setTitleId: [876],
   name: 'Temerarious',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while under a constant Debuff.` },

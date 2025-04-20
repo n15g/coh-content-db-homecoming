@@ -9,6 +9,7 @@ export const Roleplayer: BadgeData = {
   key: 'roleplayer',
   setTitleId: [2251],
   name: 'Roleplayer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by perfecting each of the roles in the Summer Blockbuster 'Casino Heist'.`,
   acquisition: 'Acquire all 4 Summer Blockbuster perfect role badges.',

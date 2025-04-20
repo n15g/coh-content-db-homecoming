@@ -6,6 +6,7 @@ export const GanglandFury: BadgeData = {
   key: 'gangland-fury',
   setTitleId: [199],
   name: 'Gangland Fury',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Since the Hollowing, these streets have turned into a war zone between the Trolls and the Outcasts. Only the constant vigilance of heroes keeps this conflict from turning into a bloodbath.`,
   notes: '187 yards South of Four Seasons marker.',

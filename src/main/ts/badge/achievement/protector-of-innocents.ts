@@ -9,6 +9,7 @@ export const ProtectorOfInnocents: BadgeData = {
     { alignment: 'villain', value: 'Soldier' },
     { alignment: 'praetorian', value: 'Praetorian Professional' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Positron has awarded you this badge for achieving Security Level 10.' },

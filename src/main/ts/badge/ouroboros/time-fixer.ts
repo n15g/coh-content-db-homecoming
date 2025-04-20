@@ -6,6 +6,7 @@ export const TimeFixer: BadgeData = {
   key: 'time-fixer',
   setTitleId: [942],
   name: 'Time Fixer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 45 story arcs.',
   acquisition: `Complete 45 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

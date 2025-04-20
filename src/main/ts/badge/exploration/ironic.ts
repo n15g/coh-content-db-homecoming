@@ -6,6 +6,7 @@ export const Ironic: BadgeData = {
   key: 'ironic',
   setTitleId: [1520],
   name: 'Ironic',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Pinnacle Apartments were some of the most sought after apartments in Eastgate, until the Hollowing. Now all that's left to remember them is this billboard. Some say it's ironic that it would be the last thing still standing.`,
   notes: `Located in the Cherry Hills neighborhood on top of the building 433 yards ESE of the neighborhood marker.`,

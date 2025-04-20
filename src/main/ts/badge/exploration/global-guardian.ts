@@ -10,6 +10,7 @@ export const GlobalGuardian: BadgeData = {
     { alignment: 'hero', value: 'Global Guardian' },
     { alignment: 'villain', value: 'Global Threat' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'As a villain you struck at Atlas Park, the very heart of Paragon City, proving you must always be vigilant in its defense.' },

@@ -9,6 +9,7 @@ export const ArachnosRising: BadgeData = {
   key: 'arachnos-rising',
   setTitleId: [316],
   name: 'Arachnos Rising',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Know your friends -- but know your rivals even better.`,
   links: [

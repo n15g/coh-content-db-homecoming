@@ -5,6 +5,7 @@ export const Trickster: BadgeData = {
   key: 'trickster',
   setTitleId: [1456],
   name: 'Trickster',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You completed a Rogue Morality Mission and then maintained your Rogue alignment for 7 days earning yourself this badge.`,
   acquisition: 'Maintain a Rogue alignment for 7 days.',

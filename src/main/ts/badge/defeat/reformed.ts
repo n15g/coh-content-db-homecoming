@@ -8,6 +8,7 @@ export const Reformed: BadgeData = {
     { alignment: 'hero', value: 'Reformed' },
     { alignment: 'villain', value: 'Villain' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Once you were considered a villain, but now you walk the path of the straight and narrow.' },

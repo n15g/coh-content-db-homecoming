@@ -6,6 +6,7 @@ export const SkyTrader: BadgeData = {
   key: 'sky-trader',
   setTitleId: [1498],
   name: 'Sky Trader',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The Family's mansion in Villa Requin has played host to many higher ranking officials within the Sky Raiders.
 There are rumors that the two groups plot a potential take over of Sharkhead Isle within this mansion.`,

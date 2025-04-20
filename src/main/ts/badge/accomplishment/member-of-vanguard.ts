@@ -6,6 +6,7 @@ export const MemberOfVanguard: BadgeData = {
   key: 'member-of-vanguard',
   setTitleId: [832],
   name: 'Member of Vanguard',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You are now a member of Vanguard and can earn Merits for defeating Rikti.',
   acquisition: `Complete the "Join the Vanguard" mission of the ${missionLink(WelcomeToVanguard)} story arc.`,

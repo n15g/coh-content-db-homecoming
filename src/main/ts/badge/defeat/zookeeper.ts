@@ -5,6 +5,7 @@ export const Zookeeper: BadgeData = {
   key: 'zookeeper',
   setTitleId: [50],
   name: 'Zookeeper',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have earned the title Zookeeper by defeating the hordes of Ruin Monkeys that plague Paragon City.`,
   acquisition: 'Defeat 1000 Rikti monkeys.',

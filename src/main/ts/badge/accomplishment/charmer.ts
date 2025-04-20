@@ -6,6 +6,7 @@ export const Charmer: BadgeData = {
   key: 'charmer',
   setTitleId: [69],
   name: 'Charmer',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have defeated the Hydra, a major threat to the sewer network of Paragon City.',
   links: [

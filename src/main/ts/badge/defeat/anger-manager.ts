@@ -8,6 +8,7 @@ export const AngerManager: BadgeData = {
     { alignment: 'hero', value: 'Anger Manager' },
     { alignment: 'villain', value: 'Vandal' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'With time, your legendary rage towards inanimate objects will be a thing of the past.' },

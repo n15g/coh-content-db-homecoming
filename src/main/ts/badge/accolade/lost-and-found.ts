@@ -13,6 +13,7 @@ export const LostAndFound: BadgeData = {
   key: 'lost-and-found',
   setTitleId: [1564],
   name: 'Lost and Found',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Founders' Falls.`,
   links: [

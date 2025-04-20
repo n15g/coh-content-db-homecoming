@@ -5,6 +5,7 @@ export const Fervent: BadgeData = {
   key: 'fervent',
   setTitleId: [831],
   name: 'Fervent',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You stand up for what you believe in time and time again, you're considered 'Fervent' by your peers. You have attained forty-two Veteran levels.` },

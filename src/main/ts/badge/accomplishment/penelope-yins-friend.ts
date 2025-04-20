@@ -9,6 +9,7 @@ export const PenelopeYinsFriend: BadgeData = {
     { alignment: 'hero', value: `Penelope Yin's Friend` },
     { alignment: 'villain', value: `Penelope Yin's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Penelope Yin has expressed her gratitude by presenting you with this medal.' },

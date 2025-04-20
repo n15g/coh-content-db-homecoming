@@ -5,6 +5,7 @@ export const DarkFiend: BadgeData = {
   key: 'dark-fiend',
   setTitleId: [1367],
   name: 'Dark Fiend',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Your contribution in destroying the otherworldly Banner of Fiends proved to be key in thwarting the diabolic schemes of the mysterious Dark Fiends.',
   acquisition: 'Defeat the Banner of Fiends during a Deadly Apocalypse.',

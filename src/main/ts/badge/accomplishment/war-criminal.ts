@@ -6,6 +6,7 @@ export const WarCriminal: BadgeData = {
   key: 'war-criminal',
   setTitleId: [2258],
   name: 'War Criminal',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You worked together with Mr. G to break out several criminals of war from Vanguard custody.',
   links: [

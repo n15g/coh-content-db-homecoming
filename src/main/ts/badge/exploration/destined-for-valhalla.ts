@@ -6,6 +6,7 @@ export const DestinedForValhalla: BadgeData = {
   key: 'destined-for-valhalla',
   setTitleId: [117],
   name: 'Destined for Valhalla',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Valkyrie proved herself to Positron by battling the Clockwork King on this spot.
 Although she did not succeed in defeating him, he was severely damaged and Clockwork activity came to a halt for several weeks afterwards.`,

@@ -6,6 +6,7 @@ export const CourtingMadness: BadgeData = {
   key: 'courting-madness',
   setTitleId: [1854],
   name: 'Courting Madness',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `As humanity has begun expanding its interests into extra-dimensional spaces, particularly the Shadow Shard, peculiar psychological disorders have begun to infect those
 spending a large amount of time away from their home dimension.

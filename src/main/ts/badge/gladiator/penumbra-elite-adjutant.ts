@@ -6,6 +6,7 @@ export const PenumbraEliteAdjutant: BadgeData = {
   key: 'penumbra-elite-adjutant',
   setTitleId: [492],
   name: 'Penumbra Elite Adjutant',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've beat down the Council and now they fear you.`,
   links: [

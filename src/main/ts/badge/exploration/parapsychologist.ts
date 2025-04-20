@@ -6,6 +6,7 @@ export const Parapsychologist: BadgeData = {
   key: 'parapsychologist',
   setTitleId: [192],
   name: 'Parapsychologist',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `These hills are home to some of the Circle's most secret rites. Very few are allowed to leave after venturing here.`,
   notes: `Located 293 yards NW of the Eastgate Heights marker.`,

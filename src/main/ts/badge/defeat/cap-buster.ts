@@ -5,6 +5,7 @@ export const CapBuster: BadgeData = {
   key: 'cap-buster',
   setTitleId: [431],
   name: 'Cap Buster',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have shown the Red Caps you are not to be toyed with.',
   acquisition: 'Defeat 333 Red Caps.',

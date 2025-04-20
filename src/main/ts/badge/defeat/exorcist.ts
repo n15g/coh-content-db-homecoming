@@ -5,6 +5,7 @@ export const Exorcist: BadgeData = {
   key: 'exorcist',
   setTitleId: [2174],
   name: 'Exorcist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have cast down demons and ancient spirits whose names are as royalty among the legions of the netherworld.`,
   acquisition: 'Defeat 100 points worth of Incarnate-level Circle of Thorns.',

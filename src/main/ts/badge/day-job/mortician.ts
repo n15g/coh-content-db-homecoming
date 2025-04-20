@@ -5,6 +5,7 @@ export const Mortician: BadgeData = {
   key: 'mortician',
   setTitleId: [1049],
   name: 'Mortician',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your time spent studying death itself has earned you the Mortician Day Job.
 Logging out in a graveyard will earn you protection against Experience Debt, when you log back in, for a short time.`,

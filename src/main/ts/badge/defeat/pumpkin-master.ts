@@ -8,6 +8,7 @@ export const PumpkinMaster: BadgeData = {
     { sex: 'M', value: 'Pumpkin Master' },
     { sex: 'F', value: 'Pumpkin Mistress' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Fir Bolg have learned to fear your name.',
   acquisition: 'Defeat 333 Fir Bolg.',

@@ -5,6 +5,7 @@ export const LovesAChallenge: BadgeData = {
   key: 'loves-a-challenge',
   setTitleId: [1992],
   name: 'Loves a Challenge',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You successfully faced down Anti-Matter without losing anyone during the fight or destroying his regenerative terminal links during Keyes Island Reactor.',
   acquisition: 'Complete the Keyes Island Reactor Trial without anyone dying or destroying any terminals during the final battle with Anti-Matter.',

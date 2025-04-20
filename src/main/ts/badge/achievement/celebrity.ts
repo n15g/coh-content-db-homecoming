@@ -9,6 +9,7 @@ export const Celebrity: BadgeData = {
     { alignment: 'villain', value: 'Bling' },
     { alignment: 'praetorian', value: `Who's Who` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Talk shows are calling you all the time.' },

@@ -5,6 +5,7 @@ export const Isolator: BadgeData = {
   key: 'isolator',
   setTitleId: [39],
   name: 'Isolator',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You began your career on a high note, by personally ending the riots of contaminated thugs in the Outbreak Zone.` },

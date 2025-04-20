@@ -5,6 +5,7 @@ export const BatteryPowered: BadgeData = {
   key: 'battery-powered',
   setTitleId: [781],
   name: 'Battery Powered',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 15 and 20: Endurance Modification and Endurance Reduction.',
   links: [

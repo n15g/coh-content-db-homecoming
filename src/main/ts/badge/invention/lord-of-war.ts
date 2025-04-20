@@ -5,6 +5,7 @@ export const LordOfWar: BadgeData = {
   key: 'lord-of-war',
   setTitleId: [799],
   name: 'Lord of War',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Damage and Knockback.',
   effect: 'Awards +1 to Recipe capacity.',

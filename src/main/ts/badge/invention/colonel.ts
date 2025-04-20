@@ -5,6 +5,7 @@ export const Colonel: BadgeData = {
   key: 'colonel',
   setTitleId: [792],
   name: 'Colonel',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Accuracy and To Hit Buff.',
   effect: 'Awards +2 to Invention Salvage capacity.',

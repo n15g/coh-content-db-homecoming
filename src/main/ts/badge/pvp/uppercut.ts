@@ -6,6 +6,7 @@ export const Uppercut: BadgeData = {
   key: 'uppercut',
   setTitleId: [579],
   name: 'Uppercut',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have helped defeat Back Alley Brawler in Recluse's Victory.`,
   acquisition: `Defeat Back Alley Brawler in ${zoneLink(ReclusesVictory)}.`,

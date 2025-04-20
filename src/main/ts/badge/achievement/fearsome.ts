@@ -5,6 +5,7 @@ export const Fearsome: BadgeData = {
   key: 'fearsome',
   setTitleId: [1455],
   name: 'Fearsome',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You completed a Vigilante Morality Mission and then maintained your Vigilante alignment for 7 days earning yourself this badge.',
   acquisition: 'Maintain a Vigilante alignment for 7 days.',

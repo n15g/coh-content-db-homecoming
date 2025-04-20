@@ -9,6 +9,7 @@ export const Longshoreman: BadgeData = {
     { sex: 'M', value: 'Longshoreman' },
     { sex: 'F', value: 'Longshorewoman' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Praetoria is perhaps the only exporter of high tech goods still standing since the rise of the Hamidon.
 From these docks thousands of tons of weapons, heavy equipment, and humanitarian supplies leave daily.

@@ -5,6 +5,7 @@ export const SpectralAnomaly: BadgeData = {
   key: 'spectral-anomaly',
   setTitleId: [2504],
   name: 'Spectral Anomaly',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have defeated 5 spectral werewolves, lycanthropic beasts who embraced undeath in order to become one with the night eternal.`,
   acquisition: `Defeat 5 Spectral Werewolves during the Halloween event.`,

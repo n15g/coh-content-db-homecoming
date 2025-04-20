@@ -6,6 +6,7 @@ export const Guttersnipe: BadgeData = {
   key: 'guttersnipe',
   setTitleId: [285],
   name: 'Guttersnipe',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Life at the bottom is rough, and after visiting Hobo Row in the Grandville's Gutter you can agree.`,
   notes: `Located 228 yards south-southwest of the Spider City marker.`,

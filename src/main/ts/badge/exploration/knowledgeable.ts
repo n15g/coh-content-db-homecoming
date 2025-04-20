@@ -6,6 +6,7 @@ export const Knowledgeable: BadgeData = {
   key: 'knowledgeable',
   setTitleId: [2071],
   name: 'Knowledgeable',
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `Although the human genome was mapped out by many of the scientific community's brightest men and women, this library documents scores of super power related anomalies that continue to baffle genetic experts around the world.`,
   notes: 'Located in the GIFT office, between the third and fourth row of bookshelves.',

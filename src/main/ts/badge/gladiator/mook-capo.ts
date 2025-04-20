@@ -6,6 +6,7 @@ export const MookCapo: BadgeData = {
   key: 'mook-capo',
   setTitleId: [456],
   name: 'Mook Capo',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Da Mooks are on your side.',
   links: [

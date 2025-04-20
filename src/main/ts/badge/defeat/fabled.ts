@@ -5,6 +5,7 @@ export const Fabled: BadgeData = {
   key: 'fabled',
   setTitleId: [2469],
   name: 'Fabled',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have defeated 100 Cyclopes in Cimerora.`,
   acquisition: `Defeat 100 Cyclopes in Cimerora.`,

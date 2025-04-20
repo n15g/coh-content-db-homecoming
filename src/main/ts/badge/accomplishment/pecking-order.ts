@@ -6,6 +6,7 @@ export const PeckingOrder: BadgeData = {
   key: 'pecking-order',
   setTitleId: [2498],
   name: 'Pecking Order',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `You stopped a major technology theft by the Lost, and discovered they have a connection to the Rikti.`,
   links: [

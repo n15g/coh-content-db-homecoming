@@ -5,6 +5,7 @@ export const ToyCollector: BadgeData = {
   key: 'toy-collector',
   setTitleId: [522],
   name: 'Toy Collector',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have amassed a vast collection of holiday gifts!',
   acquisition: 'Open a total of 200 presents spread throughout Paragon City, the Rogue Isles, and Praetoria during the Winter Event.',

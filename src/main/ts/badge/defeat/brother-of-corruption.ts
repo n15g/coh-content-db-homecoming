@@ -8,6 +8,7 @@ export const BrotherOfCorruption: BadgeData = {
     { sex: 'M', value: 'Brother of Corruption' },
     { sex: 'F', value: 'Sister of Corruption' },
   ],
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've shone the light on those who prefer to slither in the dark. The Nictus-worshipping adherents of the Ravenna Conclave have learned to be wary of those from beyond time & space who came to Cimerora's aid.`,
   acquisition: `Defeat 100 members of the Ravenna Conclave.`,

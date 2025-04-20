@@ -8,6 +8,7 @@ export const _5thColumnist: BadgeData = {
   key: '5th-columnist',
   setTitleId: [612],
   name: '5th Columnist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'For having both the 1st and 2nd Anniversary badges on one character, or by defeating the Reichsman, you have been granted access to a 5th Column Gladiator!',
   notes: `You only need to earn either the ${badgeLink(Celebrant)} and ${badgeLink(Reveler)} badges, or earn the ${badgeLink(ColumnBreaker)} badge instead.`,

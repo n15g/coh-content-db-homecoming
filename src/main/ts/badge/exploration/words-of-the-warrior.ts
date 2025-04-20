@@ -6,6 +6,7 @@ export const WordsOfTheWarrior: BadgeData = {
   key: 'words-of-the-warrior',
   setTitleId: [1787],
   name: 'Words of the Warrior',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Two years ago when the Warriors came to Striga Isle they were eager to carve out a place for themselves; a staging area they could use to expand their holdings.
 They've largely been beaten back by the Council and other groups, but have managed to keep this lone island, the location of a radio transmission station they have co-opted for their own use.

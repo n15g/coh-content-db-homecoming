@@ -6,6 +6,7 @@ export const Underdog: BadgeData = {
   key: 'underdog',
   setTitleId: [2512],
   name: 'Underdog',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You took advantage of the Council's election fraud scheme for your personal profit, and made a mockery of the democratic process by getting the Can Man elected to the city council.`,
   acquisition: `Complete the ${missionLink(NobleIntentions)} story arc, selecting all rogue responses.`,

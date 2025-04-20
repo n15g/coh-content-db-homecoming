@@ -13,6 +13,7 @@ export const PerezParkPerfection: BadgeData = {
   key: 'perez-park-perfection',
   setTitleId: [1876],
   name: 'Perez Park Perfection',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Perez Park.`,
   links: [

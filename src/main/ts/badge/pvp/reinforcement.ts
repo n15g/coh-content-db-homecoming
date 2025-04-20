@@ -5,6 +5,7 @@ export const Reinforcement: BadgeData = {
   key: 'reinforcement',
   setTitleId: [364],
   name: 'Reinforcement',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've taken down 20 villains in PvP.` },

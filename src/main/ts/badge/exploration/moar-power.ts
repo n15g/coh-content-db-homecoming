@@ -6,6 +6,7 @@ export const MoarPower: BadgeData = {
   key: 'moar-power',
   setTitleId: [1727],
   name: 'Moar Power',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Praetor Keyes's anti-matter reactors are a boundless source of energy, once supplying all the power for the entire Eastern United States.
 It was their presence which led Emperor Cole to declare Praetoria City as the capital of the new world.

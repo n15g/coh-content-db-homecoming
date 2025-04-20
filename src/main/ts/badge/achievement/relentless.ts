@@ -5,6 +5,7 @@ export const Relentless: BadgeData = {
   key: 'relentless',
   setTitleId: [2357],
   name: 'Relentless',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have inflicted one million points of damage upon your foes.',
   acquisition: 'Deal 1,000,000 damage to earn this badge.',

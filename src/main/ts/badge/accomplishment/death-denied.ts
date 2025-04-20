@@ -6,6 +6,7 @@ export const DeathDenied: BadgeData = {
   key: 'death-denied',
   setTitleId: [2163],
   name: 'Death Denied',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Dilemma Diabolique.',
   links: [

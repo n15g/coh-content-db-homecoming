@@ -5,6 +5,7 @@ export const CadaverCounter: BadgeData = {
   key: 'cadaver-counter',
   setTitleId: [2023],
   name: 'Cadaver Counter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You took out the mad Vahzilok doctor in the sewers beneath Paragon without killing any of the Cadavers it was controlling.',
   acquisition: 'Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers.',

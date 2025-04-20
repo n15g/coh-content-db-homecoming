@@ -8,6 +8,7 @@ export const FireChief: BadgeData = {
     { alignment: 'hero', value: 'Fire Chief' },
     { alignment: 'villain', value: 'Asbestos' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `The Hellions arsonists fear your name and the people of Paragon City look to you for their fire safety tips.` },

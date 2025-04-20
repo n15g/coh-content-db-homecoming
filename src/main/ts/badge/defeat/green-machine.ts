@@ -5,6 +5,7 @@ export const GreenMachine: BadgeData = {
   key: 'green-machine',
   setTitleId: [2443],
   name: 'Green Machine',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have gone above and beyond to obliterate the Warhulks of the Nemesis army, keeping the streets safe from their steam-powered terror. Amongst the Nemesis Army, you are often deemed 'Unpopular When Irritated'.`,
   acquisition: 'Defeat 100 Nemesis Warhulks.',

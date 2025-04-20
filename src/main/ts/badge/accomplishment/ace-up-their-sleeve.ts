@@ -6,6 +6,7 @@ export const AceUpTheirSleeve: BadgeData = {
   key: 'ace-up-their-sleeve',
   setTitleId: [2271],
   name: 'Ace Up Their Sleeve',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You played the Center's personal story and saw that the Council has another ace up their sleeve for future events.`,
   links: [

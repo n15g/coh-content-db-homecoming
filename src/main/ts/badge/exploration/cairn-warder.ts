@@ -6,6 +6,7 @@ export const CairnWarder: BadgeData = {
   key: 'cairn-warder',
   setTitleId: [130],
   name: 'Cairn Warder',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Mortals erect petty monuments and cairns in the foolish pursuit of stemming the forces of Death. Mot has since sundered such vanities.`,
   notes: `Located in the far northeast corner of the zone under the northern side of a stone archway.`,

@@ -5,6 +5,7 @@ export const NewsFlash: BadgeData = {
   key: 'news-flash',
   setTitleId: [2073],
   name: 'News Flash',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You managed to successfully complete each major broadcast to the people of Praetoria within a few minutes, establishing to the world that Tyrant's Imperial forces are no obstacle to the Incarnates
 and their mission to deliver the truth to the people during the raid on TPN Campus.`,

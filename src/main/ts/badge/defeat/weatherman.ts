@@ -8,6 +8,7 @@ export const Weatherman: BadgeData = {
     { sex: 'M', value: 'Weatherman' },
     { sex: 'F', value: 'Weathergirl' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have calmed the storm by ridding the streets of the Outcasts' leaders.`,
   acquisition: 'Defeat 100 Outcasts bosses.',

@@ -5,6 +5,7 @@ export const AboveTheLaw: BadgeData = {
   key: 'above-the-law',
   setTitleId: [1451],
   name: 'Above the Law',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You are the law, you dispense your own kind of justice for the greater good. You have completed a Vigilante Morality Mission earning yourself this badge.',
   acquisition: 'Complete a Vigilante morality mission.',

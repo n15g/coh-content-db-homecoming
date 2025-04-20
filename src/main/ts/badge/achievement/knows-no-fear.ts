@@ -6,6 +6,7 @@ export const KnowsNoFear: BadgeData = {
   key: 'knows-no-fear',
   setTitleId: [2201],
   name: 'Knows No Fear',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You chose to fight against Romulus and his army of Talons by yourself, showing that you know no fear.',
   acquisition: `Refuse help from the Cimerorans in the final mission from ${contactLink(SisterSolaris)}.`,

@@ -6,6 +6,7 @@ export const ClaimDenied: BadgeData = {
   key: 'claim-denied',
   setTitleId: [2401],
   name: 'Claim Denied',
+  releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `The owner of this building tried to claim he lost the structure due to a fault line, but the insurance company was uncompromising in its definition of an event versus an individual.`,
   notes: 'Located approx. 360 yds S from the "Aftershock" marker in the canyon on top of a half buried building.',

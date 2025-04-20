@@ -9,6 +9,7 @@ export const Redeemer: BadgeData = {
     { alignment: 'hero', value: 'Redeemer' },
     { alignment: 'villain', value: 'Conqueror' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You negotiated the surrender of Alexander, a Warrior boss.',
   links: [

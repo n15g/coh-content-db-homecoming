@@ -7,6 +7,7 @@ export const Socialite: BadgeData = {
   key: 'socialite',
   setTitleId: [1070],
   name: 'Socialite',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your popularity and your fashion sense have earned you the Socialite Accolade. While logged out in Pocket D or a Tailor you will earn charges for your Beguile power.`,
   links: [

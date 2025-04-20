@@ -5,6 +5,7 @@ export const General: BadgeData = {
   key: 'general',
   setTitleId: [794],
   name: 'General',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Accuracy and To Hit Buff.',
   effect: 'Awards +1 to Recipe capacity.',

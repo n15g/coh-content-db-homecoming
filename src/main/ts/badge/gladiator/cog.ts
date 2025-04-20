@@ -6,6 +6,7 @@ export const Cog: BadgeData = {
   key: 'cog',
   setTitleId: [476],
   name: 'Cog',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `It doesn't take much to make these machines fight for you.`,
   links: [

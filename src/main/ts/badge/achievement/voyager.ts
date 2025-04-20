@@ -8,6 +8,7 @@ export const Voyager: BadgeData = {
     { value: 'Voyager' },
     { alignment: 'praetorian', value: 'No Road Not Taken' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

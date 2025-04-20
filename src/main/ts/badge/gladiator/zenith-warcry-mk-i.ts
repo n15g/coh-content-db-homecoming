@@ -6,6 +6,7 @@ export const ZenithWarcryMkI: BadgeData = {
   key: 'zenith-warcry-mk-i',
   setTitleId: [497],
   name: 'Zenith Warcry Mk I',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Gladiator program initiated.',
   links: [

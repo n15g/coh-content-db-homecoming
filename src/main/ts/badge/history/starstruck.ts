@@ -6,6 +6,7 @@ export const Starstruck: BadgeData = {
   key: 'starstruck',
   setTitleId: [1408],
   name: 'Starstruck',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Seeing the statues of the rulers of Praetoria is awe-inspiring, truly a must for any loyal citizen.`,
   links: [

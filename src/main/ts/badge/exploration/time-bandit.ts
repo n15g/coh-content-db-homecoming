@@ -6,6 +6,7 @@ export const TimeBandit: BadgeData = {
   key: 'time-bandit',
   setTitleId: [142],
   name: 'Time Bandit',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Portal Corporation had their main facility here until the Devouring Earth destroyed the area. This forced them to move their headquarters to Peregrine Island.`,
   notes: `Located in the middle of the road leading north into the abandoned structures, just before it breaks up into the grassy area.`,

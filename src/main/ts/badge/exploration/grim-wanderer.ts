@@ -6,6 +6,7 @@ export const GrimWanderer: BadgeData = {
   key: 'grim-wanderer',
   setTitleId: [408],
   name: 'Grim Wanderer',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This deadly valley is witness to some of the most brutal battles in all of Croatoa.`,
   notes: 'Located on the floor of the Grim Vale between the three standing stones.',

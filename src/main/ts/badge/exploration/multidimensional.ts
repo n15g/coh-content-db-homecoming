@@ -8,6 +8,7 @@ export const Multidimensional: BadgeData = {
   key: 'multidimensional',
   setTitleId: [172],
   name: 'Multidimensional',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Hydra that lives under Paragon City is rumored to be a refugee from this dimension.`,
   acquisition: `Spend any amount of time on the mission map in either ${missionLink(TheHydraDimension)} or ${missionLink(GetSomeSamplesOfHydraManDna)} mission.`,

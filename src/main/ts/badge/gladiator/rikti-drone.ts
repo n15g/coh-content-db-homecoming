@@ -6,6 +6,7 @@ export const RiktiDrone: BadgeData = {
   key: 'rikti-drone',
   setTitleId: [496],
   name: 'Rikti Drone',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'This unit has been programmed to serve as your gladiator in the Arena.',
   links: [

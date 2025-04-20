@@ -6,6 +6,7 @@ export const GalacticFan: BadgeData = {
   key: 'galactic-fan',
   setTitleId: [1522],
   name: 'Galactic Fan',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Galaxy Girl's sacrifice to save the people of Paragon City has not gone unnoticed, prompting this tremendous statue to be built in honor of her.
 Galaxy Girl's father visited the statue every day until he passed away at the age of 91.`,

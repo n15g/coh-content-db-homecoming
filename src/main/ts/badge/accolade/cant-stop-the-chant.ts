@@ -13,6 +13,7 @@ export const CantStopTheChant: BadgeData = {
   key: 'cant-stop-the-chant',
   setTitleId: [1883],
   name: `Can't Stop the Chant`,
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within the Chantry.`,
   links: [

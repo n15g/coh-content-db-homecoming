@@ -6,6 +6,7 @@ export const AScarInTime: BadgeData = {
   key: 'a-scar-in-time',
   setTitleId: [2422],
   name: 'A Scar in Time',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `A strange fluctuation in the time stream keeps pulling victims of an old Rikti mutation drug to this point.
 Some temporal researchers believe that this connection with the Outbreak is responsible for keeping Recluse's Victory from taking hold, but don't know why.`,

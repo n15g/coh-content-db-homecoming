@@ -5,6 +5,7 @@ export const Sniper: BadgeData = {
   key: 'sniper',
   setTitleId: [788],
   name: 'Sniper',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 35 and 40: Recharge Rate and Interrupt Time.',
   links: [

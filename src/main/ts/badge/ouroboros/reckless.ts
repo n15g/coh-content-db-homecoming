@@ -5,6 +5,7 @@ export const Reckless: BadgeData = {
   key: 'reckless',
   setTitleId: [875],
   name: 'Reckless',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while under a constant Debuff.` },

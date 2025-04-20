@@ -5,6 +5,7 @@ export const Celebrant: BadgeData = {
   key: 'celebrant',
   setTitleId: [250],
   name: 'Celebrant',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have helped celebrate the 1 year anniversary of City of Heroes.',
   acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',

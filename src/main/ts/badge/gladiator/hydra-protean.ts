@@ -6,6 +6,7 @@ export const HydraProtean: BadgeData = {
   key: 'hydra-protean',
   setTitleId: [480],
   name: 'Hydra Protean',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Mindless, yes. But yours to command.',
   links: [

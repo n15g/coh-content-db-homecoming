@@ -13,6 +13,7 @@ export const MadScienceSupporter: BadgeData = {
   key: 'mad-science-supporter',
   setTitleId: [1495],
   name: 'Mad Science Supporter',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Cap Au Diable.`,
   links: [

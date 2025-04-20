@@ -5,6 +5,7 @@ export const SafetyInNumbers: BadgeData = {
   key: 'safety-in-numbers',
   setTitleId: [1021],
   name: 'Safety in Numbers',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've taken out 33 Zombie Lieutenants, proving that there is Safety in Numbers.`,
   acquisition: 'Defeat 33 Zombie lieutenants during Zombie Apocalypses.',

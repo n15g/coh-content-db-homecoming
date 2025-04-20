@@ -5,6 +5,7 @@ export const Vagabond: BadgeData = {
   key: 'vagabond',
   setTitleId: [801],
   name: 'Vagabond',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 15 and 20: Run Speed, Jump, Fly Speed, and Range.',
   links: [

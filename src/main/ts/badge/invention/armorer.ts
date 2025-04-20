@@ -5,6 +5,7 @@ export const Armorer: BadgeData = {
   key: 'armorer',
   setTitleId: [770],
   name: 'Armorer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Defense Buff, Resist Damage, Intangible.',
   links: [

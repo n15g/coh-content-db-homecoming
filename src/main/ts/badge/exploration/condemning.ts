@@ -6,6 +6,7 @@ export const Condemning: BadgeData = {
   key: 'condemning',
   setTitleId: [1646],
   name: 'Condemning',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `It is no small thing to make the long perilous journey to the levels beneath the Behavioral Adjustment Facility.
 The route is filled with hostile PPD trained to shoot first and never ask questions.

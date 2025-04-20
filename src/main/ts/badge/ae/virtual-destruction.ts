@@ -5,6 +5,7 @@ export const VirtualDestruction: BadgeData = {
   key: 'virtual-destruction',
   setTitleId: [1255],
   name: 'Virtual Destruction',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've destroyed your first object in Test Mode, earning yourself the Virtual Destruction badge.`,
   acquisition: 'Destroy a destructible object while running an Architect mission in test mode.',

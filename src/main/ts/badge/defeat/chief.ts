@@ -5,6 +5,7 @@ export const Chief: BadgeData = {
   key: 'chief',
   setTitleId: [835],
   name: 'Chief',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated 10 Rikti Heavy Assault mechs.',
   acquisition: 'Defeat 10 Rikti Heavy Assault Suits during a Rikti World Invasion.',

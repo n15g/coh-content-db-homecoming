@@ -6,6 +6,7 @@ export const YouShouldSeeTheOtherGuy: BadgeData = {
   key: 'you-should-see-the-other-guy',
   setTitleId: [2317],
   name: 'You should see the other guy.',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You played Deadlock's personal story and learned a little bit about the man who put Back Alley Brawler in the hospital.`,
   links: [

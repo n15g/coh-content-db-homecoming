@@ -6,6 +6,7 @@ export const HateMachine: BadgeData = {
   key: 'hate-machine',
   setTitleId: [1858],
   name: 'Hate Machine',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The hatred Rularuu feels is infectious.
 It radiates from him in waves, and coming from such a powerful and otherworldly mind you have to struggle to keep it from overwhelming you.

@@ -6,6 +6,7 @@ export const PhantomRadio: BadgeData = {
   key: 'phantom-radio',
   setTitleId: [1782],
   name: 'Phantom Radio',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Since the fall of Astoria, shortwave enthusiasts in Paragon City and beyond have occasionally happened upon strange transmissions of ghostly whispers, wailing pleas, bestial shouts of rage, and haunting voices chanting in dead languages.
 Those who have heard these grim transmissions nearly always suffer for it; their lives claimed by some unexpected calamity or their minds by a sudden and inexplicable mental illness. M.A.G.I. eventually traced the transmission to this radio tower.`,

@@ -9,6 +9,7 @@ export const AntiVenom: BadgeData = {
     { alignment: 'hero', value: 'Anti-Venom' },
     { alignment: 'villain', value: `Spider's Kiss` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You've broken your ties with Ghost Widow, but you can never tell for sure. Be careful, or your former Patron may claim your spirit from afar.` },

@@ -6,6 +6,7 @@ export const VanguardOperative: BadgeData = {
   key: 'vanguard-operative',
   setTitleId: [747],
   name: 'Vanguard Operative',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have entered the Vanguard base where all your efforts will now go towards fighting the Rikti. The Vanguard and your natural enemies are now your allies.',
   notes: `Located in the Vanguard Base, about 25 feet in front of the contact Borea.

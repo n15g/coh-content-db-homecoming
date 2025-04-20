@@ -6,6 +6,7 @@ export const PainKiller: BadgeData = {
   key: 'pain-killer',
   setTitleId: [1599],
   name: 'Pain Killer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've completed the Cathedral of Pain and thwarted the Aspect of Rularuu's plans.`,
   links: [

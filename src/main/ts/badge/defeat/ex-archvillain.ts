@@ -8,6 +8,7 @@ export const ExArchvillain: BadgeData = {
     { alignment: 'hero', value: 'Ex-Archvillain' },
     { alignment: 'villain', value: 'Archvillain' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `The Freedom Phalanx are known for seeing the good in everyone, but in your case it took a little longer than average.` },

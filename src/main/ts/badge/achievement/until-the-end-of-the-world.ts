@@ -5,6 +5,7 @@ export const UntilTheEndOfTheWorld: BadgeData = {
   key: 'until-the-end-of-the-world',
   setTitleId: [2361],
   name: 'Until the End of the World',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've seen your world and others come to the brink many times, but each time you've been there to pull them back and keep things going. And you'll continue to be there, no matter what the future brings.`,
   acquisition: 'Collect 1500 badges to earn this badge.',

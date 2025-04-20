@@ -8,6 +8,7 @@ export const Invulnerable: BadgeData = {
     { value: 'Invulnerable' },
     { alignment: 'praetorian', value: 'Marvel of Modern Medicine' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'Some call you Invulnerable, based on the fact that you have survived fifty million points of damage.' },

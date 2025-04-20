@@ -6,6 +6,7 @@ export const AvatarSmasher: BadgeData = {
   key: 'avatar-smasher',
   setTitleId: [2270],
   name: 'Avatar Smasher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You faced off against the Avatars of Hamidon by yourself, showing the Hamidon that you are a force to be reckoned with.',
   acquisition: `Defeat the three Avatars of Hamidon in the "Finale: New Earth" mission of the ${missionLink(PraetoriasLastGasp)} story arc after refusing help from the Imperial Defense Force.`,

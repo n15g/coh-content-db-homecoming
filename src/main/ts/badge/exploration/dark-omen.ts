@@ -6,6 +6,7 @@ export const DarkOmen: BadgeData = {
   key: 'dark-omen',
   setTitleId: [1578],
   name: 'Dark Omen',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `These battered bones are all that remains of a foolhardy adventurer who sought to explore this island full of monsters.
 No one has tried to identify them, as the people of Peregrine Island are too terrified of this island to even go near it.`,

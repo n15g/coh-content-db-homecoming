@@ -6,6 +6,7 @@ export const FearlessInsurgent: BadgeData = {
   key: 'fearless-insurgent',
   setTitleId: [2050],
   name: 'Fearless Insurgent',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have penetrated the heart of the D.U.S.T. Ranger facility, a breach in security that the rangers will be spending many long hours analyzing, pondering,
 and adjusting procedures over.

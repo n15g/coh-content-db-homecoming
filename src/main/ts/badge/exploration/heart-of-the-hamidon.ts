@@ -6,6 +6,7 @@ export const HeartOfTheHamidon: BadgeData = {
   key: 'heart-of-the-hamidon',
   setTitleId: [143],
   name: 'Heart of the Hamidon',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Hamidon has defeated many heroes.`,
   notes: `Located in the dead center of the zone, where Hamidon spawns.`,

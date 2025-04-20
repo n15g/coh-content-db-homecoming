@@ -5,6 +5,7 @@ export const Enhancer: BadgeData = {
   key: 'enhancer',
   setTitleId: [809],
   name: 'Enhancer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 50 Enhancements on the Consignment House.` },

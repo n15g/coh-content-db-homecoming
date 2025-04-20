@@ -6,6 +6,7 @@ export const Meteorologist: BadgeData = {
   key: 'meteorologist',
   setTitleId: [83],
   name: 'Meteorologist',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have crushed Nemesis' weather controlling equipment.`,
   links: [

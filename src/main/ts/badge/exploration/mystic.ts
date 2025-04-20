@@ -7,6 +7,7 @@ export const Mystic: BadgeData = {
   key: 'mystic',
   setTitleId: [136],
   name: 'Mystic',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This nexus is the intersection of two very minor Ley Lines, almost imperceptible to those without Second Sight.`,
   notes: `Located in the Seven Gates neighborhood, 330 yards east of the ${zoneLink(CreysFolly)} exit on top of a circular grated catwalk.`,

@@ -6,6 +6,7 @@ export const WalkerOnTheProfaneAscent: BadgeData = {
   key: 'walker-on-the-profane-ascent',
   setTitleId: [2183],
   name: 'Walker on the Profane Ascent',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `
 This was once Moth Cemetery, the hallowed ground within which Mot was sealed.

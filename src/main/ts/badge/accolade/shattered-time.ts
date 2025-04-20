@@ -13,6 +13,7 @@ export const ShatteredTime: BadgeData = {
   key: 'shattered-time',
   setTitleId: [2421],
   name: 'Shattered Time',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Recluse's Victory.`,
   links: [

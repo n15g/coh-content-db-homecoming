@@ -6,6 +6,7 @@ export const SteelStrongman: BadgeData = {
   key: 'steel-strongman',
   setTitleId: [506],
   name: 'Steel Strongman',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Might is not match for your right.',
   links: [

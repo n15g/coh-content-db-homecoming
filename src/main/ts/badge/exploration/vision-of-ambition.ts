@@ -6,6 +6,7 @@ export const VisionOfAmbition: BadgeData = {
   key: 'vision-of-ambition',
   setTitleId: [2467],
   name: 'Vision of Ambition',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `Before proclaiming himself Emperor, Romulus Augustus was often seen visiting this rampart in the mountains. Always alone, he would spend hours staring out towards the open sea. Some claim this was the birthplace of his machinations to overthrow Imperious and conquer Cimerora.`,
   notes: `Located in the northeast corner of the Castellum Quarter, in the center of a tower 533 yards northeast of the neighborhood marker.`,

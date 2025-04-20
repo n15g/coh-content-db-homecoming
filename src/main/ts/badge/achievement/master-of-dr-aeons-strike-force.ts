@@ -9,6 +9,7 @@ export const MasterOfDrAeonsStrikeForce: BadgeData = {
   key: 'master-of-dr-aeons-strike-force',
   setTitleId: [2482],
   name: `Master of Dr. Aeon's Strike Force`,
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You have proven yourself Master of Dr. Aeon's Strike Force.`,
   links: [

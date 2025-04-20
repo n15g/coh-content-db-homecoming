@@ -6,6 +6,7 @@ export const BackFromTheFuture: BadgeData = {
   key: 'back-from-the-future',
   setTitleId: [566],
   name: 'Back From the Future',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: '100 pillboxes have been captured by you, you are truly a Time Bandit.',
   acquisition: `Capture 100 pillboxes in ${zoneLink(ReclusesVictory)}.`,

@@ -6,6 +6,7 @@ export const Imploding: BadgeData = {
   key: 'imploding',
   setTitleId: [257],
   name: 'Imploding',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `In this building the first of Cape Canaveral's scientists was infected and transformed by the Shiva Shard, eventually causing him to implode.`,
   notes: 'Located on a building rooftop 110 yards north and slightly east of Meteor Teen.',

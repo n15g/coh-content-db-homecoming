@@ -6,6 +6,7 @@ export const TimeMachinist: BadgeData = {
   key: 'time-machinist',
   setTitleId: [564],
   name: 'Time Machinist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have taken over 10 pillboxes in Recluse's Victory, making you a Time Machinist.`,
   acquisition: `Capture 10 pillboxes in ${zoneLink(ReclusesVictory)}.`,

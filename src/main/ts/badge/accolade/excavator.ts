@@ -10,6 +10,7 @@ export const Excavator: BadgeData = {
   key: 'excavator',
   setTitleId: [2372],
   name: 'Excavator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within The Hollows.`,
   acquisition: `Complete every story arc within ${zoneLink(TheHollows)}.`,

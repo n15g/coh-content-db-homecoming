@@ -6,6 +6,7 @@ export const DarkMystic: BadgeData = {
   key: 'dark-mystic',
   setTitleId: [128],
   name: 'Dark Mystic',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Some once claimed the reason the spirits walk the streets of Dark Astoria is the fact that there is a powerful Ley Line nexus in the middle of Moth Cemetery. They have since learned the truth.`,
   notes: `Located 309 yards due north of the Dido's View marker.`,

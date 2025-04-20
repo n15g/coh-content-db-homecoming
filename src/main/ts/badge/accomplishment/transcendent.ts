@@ -6,6 +6,7 @@ export const Transcendent: BadgeData = {
   key: 'transcendent',
   setTitleId: [70],
   name: 'Transcendent',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have become the master of the mystical gateway beneath the Hollows.',
   links: [

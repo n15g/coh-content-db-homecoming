@@ -17,6 +17,7 @@ export const Tyrant: BadgeData = {
   key: 'tyrant',
   setTitleId: [2354],
   name: 'Tyrant',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You ruthlessly took advantage of the Praetorian Loyalists in your pursuit of power, fame, and glory.`,
   acquisition: 'Complete every story arc in the Praetorian [Power Storyline](https://homecoming.wiki/wiki/Power_Storyline).',

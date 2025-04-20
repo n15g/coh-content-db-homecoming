@@ -6,6 +6,7 @@ export const PalaceOfStoneLeaves: BadgeData = {
   key: 'palace-of-stone-leaves',
   setTitleId: [2180],
   name: 'Palace of Stone Leaves',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Even with every man, woman and child in Dark Astoria slaughtered, the city never ceased to be a thriving metropolis.
 The bonds that held Mot in its torpor also prevented the spirits of the slain from passing on.

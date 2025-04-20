@@ -6,6 +6,7 @@ export const FalseProphet: BadgeData = {
   key: 'false-prophet',
   setTitleId: [2096],
   name: 'False Prophet',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You're not above using others' beliefs to your own advantage, especially when they're as gullible as the Luddites.`,
   links: [

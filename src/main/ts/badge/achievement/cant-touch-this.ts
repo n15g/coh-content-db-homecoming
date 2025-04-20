@@ -5,6 +5,7 @@ export const CantTouchThis: BadgeData = {
   key: 'cant-touch-this',
   setTitleId: [2481],
   name: `Can't Touch This`,
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You've shown King Midas that he can't touch this by defeating him without anyone on your team being hit by a single one of his Ripple Singularity attacks.`,
   acquisition: `Defeat King Midas in Challenge Mode without any members of the team being hit by a Ripple Singularity during the length of the fight in Dr. Aeon's Strike Force.`,

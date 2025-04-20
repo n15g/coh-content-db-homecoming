@@ -8,6 +8,7 @@ export const Savant: BadgeData = {
   key: 'savant',
   setTitleId: [157],
   name: 'Savant',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of the Rikti War.`,
   links: [

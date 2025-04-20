@@ -6,6 +6,7 @@ export const Tormented: BadgeData = {
   key: 'tormented',
   setTitleId: [1857],
   name: 'Tormented',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Shadow Shard is a prison created to house a powerful entity, an entity tormented by its imprisonment.
 Its sense of indignity, of injustice, has been concentrated here to such a degree that it has become part of the dimension.

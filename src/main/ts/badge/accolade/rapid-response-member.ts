@@ -10,6 +10,7 @@ export const RapidResponseMember: BadgeData = {
     { alignment: 'hero', value: 'Rapid Response Member' },
     { alignment: 'villain', value: 'Trouble Maker' },
   ],
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: [
     {

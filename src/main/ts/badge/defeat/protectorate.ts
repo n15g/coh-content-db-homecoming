@@ -8,6 +8,7 @@ export const Protectorate: BadgeData = {
     { alignment: 'hero', value: 'Protectorate' },
     { alignment: 'villain', value: 'Devourer of Earth' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have shown that you can protect the world from the energy sapping emanators used by the Devouring Earth.`,
   acquisition: 'Defeat 100 Devouring Earth emanators.',

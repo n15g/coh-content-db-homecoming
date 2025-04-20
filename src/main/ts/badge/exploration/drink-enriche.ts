@@ -6,6 +6,7 @@ export const DrinkEnriche: BadgeData = {
   key: 'drink-enriche',
   setTitleId: [1743],
   name: 'Drink Enriche!',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Careful study of the bowels of the Water Treatment Facility reveals two output pipes.
 One flows directly into the Praetorian water system. The other pipe ends at the Enriche Bottling Plant in Neutropolis. Curious...`,

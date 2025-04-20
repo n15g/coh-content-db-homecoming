@@ -5,6 +5,7 @@ export const Pilgrim: BadgeData = {
   key: 'pilgrim',
   setTitleId: [800],
   name: 'Pilgrim',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Run Speed, Jump, Fly Speed, and Range.',
   links: [

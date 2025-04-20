@@ -5,6 +5,7 @@ export const Distinguished: BadgeData = {
   key: 'distinguished',
   setTitleId: [1285],
   name: 'Distinguished',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `With a selfless history as long as yours, you gain respect wherever you go from heroes and villains alike. You have attained seventy-two Veteran levels.` },

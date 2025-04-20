@@ -5,6 +5,7 @@ export const TheSlayer: BadgeData = {
   key: 'the-slayer',
   setTitleId: [35],
   name: 'The Slayer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You are a slayer of the darkest of Vampyri.',
   acquisition: 'Defeat 200 Council Vampyri.',

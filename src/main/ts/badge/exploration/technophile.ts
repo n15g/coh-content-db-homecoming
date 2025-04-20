@@ -6,6 +6,7 @@ export const Technophile: BadgeData = {
   key: 'technophile',
   setTitleId: [1592],
   name: 'Technophile',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `It takes a certain kind of person to find affinity with the city's Clockwork; that person is you, Technophile.`,
   notes: `Located in the City Maintenance Facility 210 yards north of the southeast Elyssian Avenue marker (There are two markers for Elyssian Avenue).`,

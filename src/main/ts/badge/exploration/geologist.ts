@@ -6,6 +6,7 @@ export const Geologist: BadgeData = {
   key: 'geologist',
   setTitleId: [194],
   name: 'Geologist',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This spot marks the first sighting of the strange, rock-like creatures known as Pumicites.`,
   notes: `Located roughly 80 yards NE-E from the Grendel's Gulch's marker.`,

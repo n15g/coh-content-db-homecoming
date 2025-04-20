@@ -5,6 +5,7 @@ export const Raver: BadgeData = {
   key: 'raver',
   setTitleId: [218],
   name: 'Raver',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have helped clean up the streets of the raving Trolls.' },

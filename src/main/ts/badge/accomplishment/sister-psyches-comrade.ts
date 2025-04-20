@@ -9,6 +9,7 @@ export const SisterPsychesComrade: BadgeData = {
     { alignment: 'hero', value: `Sister Psyche's Comrade` },
     { alignment: 'villain', value: `Sister Psyche's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Sister Psyche has expressed her gratitude by presenting you with this medal.' },

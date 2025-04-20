@@ -6,6 +6,7 @@ export const GuardianOfTheVolts: BadgeData = {
   key: 'guardian-of-the-volts',
   setTitleId: [1837],
   name: 'Guardian of the Volts',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You stand along the vital corridor through which flows the power of Terra Volta's reactor.
 This place is a frequent target for attacks by those determined to cripple Paragon City and deserves protecting.

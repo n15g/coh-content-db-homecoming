@@ -9,6 +9,7 @@ export const KeeperOfPeace: BadgeData = {
     { alignment: 'villain', value: 'Insider' },
     { alignment: 'praetorian', value: 'Survivor of Praetoria' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Positron has awarded you this badge for achieving Security Level 20.' },

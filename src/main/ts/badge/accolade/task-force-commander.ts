@@ -15,6 +15,7 @@ export const TaskForceCommander: BadgeData = {
     { alignment: 'hero', value: 'Task Force Commander' },
     { alignment: 'villain', value: 'Task Force Abandoner' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have successfully completed each of the Task Forces given out by the Freedom Phalanx. This gives you +5% Hit Points, and access to military epaulets at the Tailor.` },

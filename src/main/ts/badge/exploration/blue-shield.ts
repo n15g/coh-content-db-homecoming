@@ -6,6 +6,7 @@ export const BlueShield: BadgeData = {
   key: 'blue-shield',
   setTitleId: [92],
   name: 'Blue Shield',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Blue Steel, the only hero in Paragon City who works directly for the police, arrested the Tsoo's leader Tub Ci on this spot. The charges didn't stick, and Tub Ci is free today.`,
   notes: `The Blue Shield Badge is in the Orion Beltway neighborhood. 

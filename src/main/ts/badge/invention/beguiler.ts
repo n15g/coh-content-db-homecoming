@@ -5,6 +5,7 @@ export const Beguiler: BadgeData = {
   key: 'beguiler',
   setTitleId: [776],
   name: 'Beguiler',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 15 and 20: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   links: [

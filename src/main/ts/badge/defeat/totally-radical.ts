@@ -5,6 +5,7 @@ export const TotallyRadical: BadgeData = {
   key: 'totally-radical',
   setTitleId: [2486],
   name: 'Totally Radical',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `After going toe-to-toe with more than a few of Crey's new radiation-powered combat suits, you've shown them why it'll take more than a few gamma rays to slow you down.`,
   acquisition: `Defeat 200 of Crey's Gamma Tank minions.`,

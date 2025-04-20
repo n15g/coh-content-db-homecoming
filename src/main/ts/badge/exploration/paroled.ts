@@ -9,6 +9,7 @@ export const Paroled: BadgeData = {
     { alignment: 'hero', value: 'Paroled' },
     { alignment: 'villain', value: 'Crimelord' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: [
     { alignment: 'hero', value: `Most of Paragon City agrees that you've paid your debt to society. Most, but not all.` },

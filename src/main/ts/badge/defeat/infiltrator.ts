@@ -5,6 +5,7 @@ export const Infiltrator: BadgeData = {
   key: 'infiltrator',
   setTitleId: [42],
   name: 'Infiltrator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have learned that the Paragon Protectors are an arm of Crey, and not simply an independent group hired by them.`,
   acquisition: 'Defeat 200 Crey Paragon Protectors.',

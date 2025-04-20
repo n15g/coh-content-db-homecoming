@@ -6,6 +6,7 @@ export const GoingRouge: BadgeData = {
   key: 'going-rouge',
   setTitleId: [1731],
   name: 'Going Rouge',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Rita Mayfair's cosmetic biochemistry and plastic surgery skills perfectly compliment her taste and sense of style.
 She is so good, there are rumors in shadowy corners that she even taught the elusive Doppelganger a thing or two.`,

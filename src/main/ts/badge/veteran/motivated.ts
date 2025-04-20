@@ -5,6 +5,7 @@ export const Motivated: BadgeData = {
   key: 'motivated',
   setTitleId: [970],
   name: 'Motivated',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've gone this far and the road ahead looks as bright as ever. You have attained forty-eight Veteran levels.` },

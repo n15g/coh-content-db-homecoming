@@ -9,6 +9,7 @@ export const Freedom: BadgeData = {
     { alignment: 'hero', value: 'Freedom' },
     { alignment: 'villain', value: 'Covert Operator' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This flag was crafted from Statesman's cape and was donated to Paragon City to replace the flag destroyed by the invading Rikti.
 It now flies over Paragon City Hall to honor the sacrifice made by Hero 1 and the rest of Omega Team.`,

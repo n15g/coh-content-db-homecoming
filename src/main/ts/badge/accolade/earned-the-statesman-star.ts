@@ -9,6 +9,7 @@ export const EarnedTheStatesmanStar: BadgeData = {
     { alignment: 'hero', value: 'Earned the Statesman Star' },
     { alignment: 'villain', value: 'Denied the Statesman Star' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `Your Terra Volta experience has altered your powers in ways no one could imagine.`,
   effect: 'Awards a character respecification.',

@@ -5,6 +5,7 @@ export const TankBuster: BadgeData = {
   key: 'tank-buster',
   setTitleId: [46],
   name: 'Tank Buster',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have proved your worth on the streets, and the Freakshow have learned to fear your name.',
   acquisition: 'Defeat 100 Freakshow tanks.',

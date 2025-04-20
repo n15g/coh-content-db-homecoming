@@ -6,6 +6,7 @@ export const HamidonsEnemy: BadgeData = {
   key: 'hamidons-enemy',
   setTitleId: [2266],
   name: `Hamidon's Enemy`,
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You went back to Imperial City to find anything useful, but while you were there, you decided to send the Hamidon a message about who it shouldn't mess with.`,
   acquisition: `Defeat a total combination of 40 Devouring Earth or The Infested in the ${missionLink(PraetoriasHiddenTreasure)} story arc.`,

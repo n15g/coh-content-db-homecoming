@@ -6,6 +6,7 @@ export const DeadEye: BadgeData = {
   key: 'dead-eye',
   setTitleId: [576],
   name: 'Dead-eye',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have helped defeat Manticore in Recluse's Victory.`,
   acquisition: `Defeat Manticore in ${zoneLink(ReclusesVictory)}.`,

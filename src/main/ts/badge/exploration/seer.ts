@@ -6,6 +6,7 @@ export const Seer: BadgeData = {
   key: 'seer',
   setTitleId: [1407],
   name: 'Seer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Blind yet seeing and casting judgment yet mindless of the crime; the Seer is the instrument of control and the constant threat of the Emperor's displeasure.`,
   notes: `Located 347 yards ENE of the Four Gables marker.`,

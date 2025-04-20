@@ -8,6 +8,7 @@ export const Coldblooded: BadgeData = {
     { alignment: 'hero', value: 'Coldblooded' },
     { alignment: 'villain', value: 'Coldhearted' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've defeated 100 cold demons, making you Coldblooded.` },

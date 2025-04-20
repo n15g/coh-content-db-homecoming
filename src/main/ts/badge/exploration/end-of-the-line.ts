@@ -6,6 +6,7 @@ export const EndOfTheLine: BadgeData = {
   key: 'end-of-the-line',
   setTitleId: [1779],
   name: 'End of the Line',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `On the day of the Rikti attack that wrought such devastation upon Baumton, this shattered monorail track was a scene of terror; one of many on that dark day.
 But as the four-o'clock train dangled precipitously from the rail's shorn edge, the nightly news reported the fate of the imperiled passengers minute by minute.

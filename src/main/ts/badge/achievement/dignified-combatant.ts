@@ -6,6 +6,7 @@ export const DignifiedCombatant: BadgeData = {
   key: 'dignified-combatant',
   setTitleId: [2100],
   name: 'Dignified Combatant',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You spared Sun Xiong, despite his attempts to have you killed, and have gained his grudging respect.',
   acquisition: `Choose to spare Sun Xiong after you defeat him in the in the ${missionLink(LastRites)} story arc.`,

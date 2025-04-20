@@ -10,6 +10,7 @@ export const Scientist: BadgeData = {
     { alignment: 'hero', value: 'Scientist' },
     { alignment: 'villain', value: 'Crackpot' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

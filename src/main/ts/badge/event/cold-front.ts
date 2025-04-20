@@ -5,6 +5,7 @@ export const ColdFront: BadgeData = {
   key: 'cold-front',
   setTitleId: [705],
   name: 'Cold Front',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'A winter cold front has been forecast.',
   acquisition: 'Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.',

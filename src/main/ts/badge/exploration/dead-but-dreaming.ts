@@ -6,6 +6,7 @@ export const DeadButDreaming: BadgeData = {
   key: 'dead-but-dreaming',
   setTitleId: [2230],
   name: 'Dead but Dreaming',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The final resting place of the Seed of Hamidon radiates a chill that permeates even Night Ward.
 In spite of this you take comfort in knowing that Night Ward is beyond Hamidon's reach.

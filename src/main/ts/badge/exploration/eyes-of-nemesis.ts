@@ -7,6 +7,7 @@ export const EyesOfNemesis: BadgeData = {
   key: 'eyes-of-nemesis',
   setTitleId: [1791],
   name: 'Eyes of Nemesis',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `From this non-descript perch near the Brickstown entrance, the agents of Nemesis monitor everyone who enters Crey's Folly.
 Though it would not seem so on the surface, Crey's Folly is a hotly contested area, particularly among groups with a strong scientific background such as Crey and Nemesis.`,

@@ -5,6 +5,7 @@ export const BugHunter: BadgeData = {
   key: 'bug-hunter',
   setTitleId: [215],
   name: 'Bug Hunter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your stalwart efforts in tracking down and eradicating evil bugs have been recognized by the Paragon City authorities. Thanks to you, the City of Heroes has its pests firmly under control.`,
   acquisition: `Awarded by the game developers for reporting a serious and/or game-breaking bug.`,

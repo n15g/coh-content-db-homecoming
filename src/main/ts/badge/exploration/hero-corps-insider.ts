@@ -9,6 +9,7 @@ export const HeroCorpsInsider: BadgeData = {
     { alignment: 'hero', value: 'Hero Corps Insider' },
     { alignment: 'villain', value: 'Hero Corps Infiltrator' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Hero Corps may be controversial in their methods but they can have good information for aspiring heroes.`,
   notes: `Located in the Atlas Plaza neighborhood, on the ground in front of Henry Peter Wong.

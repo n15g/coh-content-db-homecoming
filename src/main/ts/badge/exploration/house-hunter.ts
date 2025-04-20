@@ -6,6 +6,7 @@ export const HouseHunter: BadgeData = {
   key: 'house-hunter',
   setTitleId: [2228],
   name: 'House Hunter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Chance holds little sway over the fate of Night Ward's visitors, and your happening upon the Midnighter Mansion was no exception.
 Despite the gloomy facade of this old Victorian house you feel eerily at home within its walls.`,

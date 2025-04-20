@@ -5,6 +5,7 @@ export const StrawweightChampion: BadgeData = {
   key: 'strawweight-champion',
   setTitleId: [220],
   name: 'Strawweight Champion',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have achieved the status of Champion in the Strawweight division by winning your first match in this division.`,
   acquisition: 'Win an Arena event in the Strawweight division.',

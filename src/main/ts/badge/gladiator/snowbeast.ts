@@ -6,6 +6,7 @@ export const Snowbeast: BadgeData = {
   key: 'snowbeast',
   setTitleId: [530],
   name: 'Snowbeast',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You now can summon a Snowbeast minion in the Arena pet battles.',
   links: [

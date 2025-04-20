@@ -6,6 +6,7 @@ export const EyesOfTheDark: BadgeData = {
   key: 'eyes-of-the-dark',
   setTitleId: [1648],
   name: 'Eyes of the Dark',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `From this vantage point you can watch the Resistance come and go from their subterranean redoubt.
  You are the eyes in the dark, observing their movements. Are you their guardian, watching over them, or are you the predator, looking for the optimal time to strike?`,

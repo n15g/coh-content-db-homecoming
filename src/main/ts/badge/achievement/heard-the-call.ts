@@ -5,6 +5,7 @@ export const HeardTheCall: BadgeData = {
   key: 'heard-the-call',
   setTitleId: [1454],
   name: 'Heard the Call',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You completed a Hero Morality Mission and then maintained your Hero alignment for 7 days earning yourself this badge.',
   acquisition: 'Maintain a Hero alignment for 7 days.',

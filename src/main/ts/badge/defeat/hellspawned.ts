@@ -5,6 +5,7 @@ export const Hellspawned: BadgeData = {
   key: 'hellspawned',
   setTitleId: [1],
   name: 'Hellspawned',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've whupped those Hellions, but good.`,
   acquisition: 'Defeat 50 Hellions Damned bosses.',

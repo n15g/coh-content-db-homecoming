@@ -6,6 +6,7 @@ export const BoomtownTroglodyte: BadgeData = {
   key: 'boomtown-troglodyte',
   setTitleId: [1778],
   name: 'Boomtown Troglodyte',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Lost, despised and reviled by every other criminal organization and gang, have become adept at finding secure hiding places where they can plot their revenge.
 Boomtown has several subterranean transit tunnels that escaped the devastation during the Rikti attack, and in fact provided shelter to Baumton's terrified residents.

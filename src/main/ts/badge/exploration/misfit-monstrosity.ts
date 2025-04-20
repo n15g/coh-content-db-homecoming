@@ -6,6 +6,7 @@ export const MisfitMonstrosity: BadgeData = {
   key: 'misfit-monstrosity',
   setTitleId: [1874],
   name: 'Misfit Monstrosity',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `On this distant, lonely island you find some Devouring Earth monsters who seem to have separated themselves from their brethren,
 or perhaps they were relegated this isle for some reason.

@@ -5,6 +5,7 @@ export const Munitionist: BadgeData = {
   key: 'munitionist',
   setTitleId: [795],
   name: 'Munitionist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Damage and Knockback.',
   links: [

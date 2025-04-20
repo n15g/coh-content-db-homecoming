@@ -13,6 +13,7 @@ export const IPAddress: BadgeData = {
   key: 'ip-address',
   setTitleId: [1557],
   name: 'IP Address',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Independence Port.`,
   links: [

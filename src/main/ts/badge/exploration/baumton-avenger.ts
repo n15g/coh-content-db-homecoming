@@ -7,6 +7,7 @@ export const BaumtonAvenger: BadgeData = {
   key: 'baumton-avenger',
   setTitleId: [1831],
   name: 'Baumton Avenger',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `No one who lived through the Rikti Invasion of Baumton will ever forget it.
 For many this was a personal violation. They saw their homes, their lives, and those that they cared about laid to waste in mere minutes.

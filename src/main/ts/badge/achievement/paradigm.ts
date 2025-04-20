@@ -8,6 +8,7 @@ export const Paradigm: BadgeData = {
     { value: 'Paradigm' },
     { alignment: 'praetorian', value: 'Old-Timer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You are a Paradigm, that which all other heroes aspire to be.' },

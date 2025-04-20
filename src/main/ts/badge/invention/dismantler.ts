@@ -5,6 +5,7 @@ export const Dismantler: BadgeData = {
   key: 'dismantler',
   setTitleId: [763],
   name: 'Dismantler',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 35 and 40: Defense Debuff, To Hit Debuff, Taunt, and Confuse.',
   links: [

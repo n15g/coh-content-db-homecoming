@@ -6,6 +6,7 @@ export const DeathsHeadSupplicant: BadgeData = {
   key: 'deaths-head-supplicant',
   setTitleId: [2182],
   name: `Death's Head Supplicant`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Behold! Before you lies the glory of Mot.
 In this place its true body lies exposed; a vast expanse of reconstituting flesh and yawning maws, feasting on life so it can be resuscitated as it perpetually dies and rots anew.

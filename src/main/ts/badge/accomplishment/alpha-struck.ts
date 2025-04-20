@@ -6,6 +6,7 @@ export const AlphaStruck: BadgeData = {
   key: 'alpha-struck',
   setTitleId: [1938],
   name: 'Alpha Struck',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You took the fight to the Praetorians and stopped their plans for a large-scale invasion into the heart of Atlas Park and Grandville!',
   links: [

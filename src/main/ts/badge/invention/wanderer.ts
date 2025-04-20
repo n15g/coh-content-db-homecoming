@@ -5,6 +5,7 @@ export const Wanderer: BadgeData = {
   key: 'wanderer',
   setTitleId: [802],
   name: 'Wanderer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Run Speed, Jump, Fly Speed, and Range.',
   effect: 'Awards +2 to Invention Salvage capacity.',

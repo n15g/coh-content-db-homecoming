@@ -6,6 +6,7 @@ export const Engineer: BadgeData = {
   key: 'engineer',
   setTitleId: [1647],
   name: 'Engineer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Much of the important maintenance to the city's infrastructure is secreted away underground so as to not sully the pristine cityscape of Emperor Cole's utopia.
 But this place is a haven for Engineers and mechanics, stick around a while and you might learn something.`,

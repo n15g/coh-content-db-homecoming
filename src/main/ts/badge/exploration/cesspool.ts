@@ -6,6 +6,7 @@ export const Cesspool: BadgeData = {
   key: 'cesspool',
   setTitleId: [263],
   name: 'Cesspool',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Many would-be Villains have drunk their fill from the cesspool in hopes it might grant super power. Mostly they go insane.`,
   notes: `Located on a ledge between two large tanks in a pool of greenish water.

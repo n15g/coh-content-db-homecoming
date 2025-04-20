@@ -5,6 +5,7 @@ export const DownInFront: BadgeData = {
   key: 'down-in-front',
   setTitleId: [2550],
   name: 'Down In Front',
+  releaseDate: '2025-02-10',
   morality: 'all',
   badgeText: `The audience wasn't very amused when you proved yourself a nuisance during Manticore & Sister Psyche's wedding ceremony and had to be escorted off-stage.`,
   acquisition: `Stand in between Manticore and Sister Psyche during the ceremony until you are teleported away.`,

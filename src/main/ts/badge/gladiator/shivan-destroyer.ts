@@ -6,6 +6,7 @@ export const ShivanDestroyer: BadgeData = {
   key: 'shivan-destroyer',
   setTitleId: [452],
   name: 'Shivan Destroyer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have learned to control the mindless horrors from space.',
   links: [

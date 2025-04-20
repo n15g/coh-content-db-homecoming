@@ -6,6 +6,7 @@ export const Juicer: BadgeData = {
   key: 'juicer',
   setTitleId: [475],
   name: 'Juicer',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The Freaks celebrate you as a force of anarchy.',
   links: [

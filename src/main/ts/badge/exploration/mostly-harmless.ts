@@ -6,6 +6,7 @@ export const MostlyHarmless: BadgeData = {
   key: 'mostly-harmless',
   setTitleId: [2413],
   name: 'Mostly Harmless',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `The Shiva fragments that crashed here created little collateral damage. This refinery is completely intact around the impact zone.`,
   links: [

@@ -6,6 +6,7 @@ export const Adjuster: BadgeData = {
   key: 'adjuster',
   setTitleId: [935],
   name: 'Adjuster',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 10 story arcs.',
   acquisition: `Complete 10 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

@@ -8,6 +8,7 @@ export const FireMarshal: BadgeData = {
     { alignment: 'hero', value: 'Fire Marshal' },
     { alignment: 'villain', value: 'Fired' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Paragon officials recognize your efforts in thwarting arsons, and have made you an honorary Fire Marshal.' },

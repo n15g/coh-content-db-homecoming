@@ -5,6 +5,7 @@ export const ComeFullCircle: BadgeData = {
   key: 'come-full-circle',
   setTitleId: [1464],
   name: 'Come Full Circle',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You ended up back right where you started, coming full circle from Hero to Villain and back again.' },

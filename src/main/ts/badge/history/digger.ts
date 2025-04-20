@@ -8,6 +8,7 @@ export const Digger: BadgeData = {
   key: 'digger',
   setTitleId: [190],
   name: 'Digger',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history behind the Hollowing.`,
   links: [

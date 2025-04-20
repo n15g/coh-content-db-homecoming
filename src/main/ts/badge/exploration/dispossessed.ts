@@ -6,6 +6,7 @@ export const Dispossessed: BadgeData = {
   key: 'dispossessed',
   setTitleId: [1818],
   name: 'Dispossessed',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Your life as a hero takes up so much of your time. Hours day and night patrolling the streets of Paragon City, casting down one villain after the next in your quest for glory and influence.
 Can nothing else in life command such devotion? The words of loved ones drowned out by the clamor of explosions and blasts of energy, the invitations of friends forgotten the moment a new

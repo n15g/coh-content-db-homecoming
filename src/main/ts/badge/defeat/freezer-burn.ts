@@ -5,6 +5,7 @@ export const FreezerBurn: BadgeData = {
   key: 'freezer-burn',
   setTitleId: [2496],
   name: 'Freezer Burn',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `Despite not having their intended Incarnate-power batteries, the 5th Column's twin Aereus Colossi Dextro and Laeva were formidable displays of engineering.`,
   acquisition: `Defeat the 5th Column colossi Dextro and Laeva during the Imperious Task Force.`,

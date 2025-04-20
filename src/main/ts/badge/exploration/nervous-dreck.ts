@@ -6,6 +6,7 @@ export const NervousDreck: BadgeData = {
   key: 'nervous-dreck',
   setTitleId: [133],
   name: 'Nervous Dreck',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Dreck, the leader of the Freakshow, was brought to justice on this spot by Statesman. His time in jail was short, however, as he broke out just two weeks later.`,
   notes: `Located in the Raysun Petroleum neighborhood, along the west war wall near a dumpster on the ground, west and slightly south of the Coroman Manufacturing marker.`,

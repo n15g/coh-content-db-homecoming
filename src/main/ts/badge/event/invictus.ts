@@ -5,6 +5,7 @@ export const Invictus: BadgeData = {
   key: 'invictus',
   setTitleId: [2246],
   name: 'Invictus',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You forced the God-Champion to go invulnerable while all of his Champions were still alive.',
   acquisition: 'In the Summer Blockbuster, force the God-Champion to go invulnerable while all of his Champions are still alive.',

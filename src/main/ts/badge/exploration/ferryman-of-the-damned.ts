@@ -9,6 +9,7 @@ export const FerrymanOfTheDamned: BadgeData = {
     { sex: 'M', value: 'Ferryman of the Damned' },
     { sex: 'F', value: 'Ferrywoman of the Damned' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Beneath Praetoria lies the Lethe, a subterranean river that predates the founding of Emperor Cole's city.
 It has become the secret highway on which the State transports the truly condemned: Failed Experiments, convicted traitors, and those who have simply fallen from favor.`,

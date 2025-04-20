@@ -6,6 +6,7 @@ export const TimeSaver: BadgeData = {
   key: 'time-saver',
   setTitleId: [2200],
   name: 'Time Saver',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You were able to save Kadabra Kill and Sigil by defeating all the members of the Knives of Vengeance within two minutes.',
   acquisition: `Save both Sigil and Kadabra Kill within two minutes of starting the final fight in the final mission from ${contactLink(HeatherTownshend)}.`,

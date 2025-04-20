@@ -6,6 +6,7 @@ export const Misunderstood: BadgeData = {
   key: 'misunderstood',
   setTitleId: [1563],
   name: 'Misunderstood',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Voodoo practitioner Cadao Kestrel fled into these tunnels after being accused of murder.
 Agent Six tracked him here and beat him within an inch of his life before arresting him.

@@ -6,6 +6,7 @@ export const BridgeHolder: BadgeData = {
   key: 'bridge-holder',
   setTitleId: [1548],
   name: 'Bridge Holder',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The hero known as 'The Commuter' recently thwarted an attempt by the 5th Column to blow up this bridge.
 Some people in Paragon think the plot to destroy the bridge was ridiculous, but The Commuter insists that, 'this bridge means the world to all those who drive in and out of Talos everyday.'`,

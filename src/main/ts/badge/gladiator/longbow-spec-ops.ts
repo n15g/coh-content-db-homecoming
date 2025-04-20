@@ -6,6 +6,7 @@ export const LongbowSpecOps: BadgeData = {
   key: 'longbow-spec-ops',
   setTitleId: [467],
   name: 'Longbow Spec-Ops',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You demand obedience even from your enemies.',
   links: [

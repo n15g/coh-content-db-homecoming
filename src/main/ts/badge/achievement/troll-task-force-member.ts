@@ -5,6 +5,7 @@ export const TrollTaskForceMember: BadgeData = {
   key: 'troll-task-force-member',
   setTitleId: [205],
   name: 'Troll Task Force Member',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have logged enough time in the Hollows to be named an honorary member of Lt. Wincott's Trolls Task Force.`,
   acquisition: 'Spend 1 hour in The Hollows.',

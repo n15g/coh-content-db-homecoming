@@ -5,6 +5,7 @@ export const PluggedIn: BadgeData = {
   key: 'plugged-in',
   setTitleId: [1235],
   name: 'Plugged In',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `You've earned 10 Mission Architect badges!`,
   acquisition: 'Earn 10 Mission Architect badges.',

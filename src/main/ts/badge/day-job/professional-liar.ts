@@ -8,6 +8,7 @@ export const ProfessionalLiar: BadgeData = {
     { alignment: 'hero', value: 'Professional Liar' },
     { alignment: 'villain', value: 'Demagogue' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `While you're no longer interested in spreading Arachnos lies, there doesn't seem to be many opportunities in a similar vein here in Paragon City.` },

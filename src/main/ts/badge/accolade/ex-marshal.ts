@@ -14,6 +14,7 @@ export const ExMarshal: BadgeData = {
     { alignment: 'hero', value: 'Ex-Marshal' },
     { alignment: 'villain', value: 'Marshal' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You once held the title of Marshal in Arachnos. Unfortunately, the memory is all that remains of the power it once gave you.` },

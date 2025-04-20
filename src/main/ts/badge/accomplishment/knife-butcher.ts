@@ -6,6 +6,7 @@ export const KnifeButcher: BadgeData = {
   key: 'knife-butcher',
   setTitleId: [2190],
   name: 'Knife Butcher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You destroyed the source of the Knives of Vengeance, ending both their reign and also whatever was left of the Knives of Artemis.',
   links: [

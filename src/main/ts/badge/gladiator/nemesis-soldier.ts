@@ -6,6 +6,7 @@ export const NemesisSoldier: BadgeData = {
   key: 'nemesis-soldier',
   setTitleId: [495],
   name: 'Nemesis Soldier',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have a robotic warrior for the games.',
   links: [

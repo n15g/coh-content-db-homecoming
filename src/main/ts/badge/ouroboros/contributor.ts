@@ -5,6 +5,7 @@ export const Contributor: BadgeData = {
   key: 'contributor',
   setTitleId: [886],
   name: 'Contributor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 1 and 15 while only using your Primary and Secondary powersets.` },

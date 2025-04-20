@@ -5,6 +5,7 @@ export const AvoidsTheGreenStuff: BadgeData = {
   key: 'avoids-the-green-stuff',
   setTitleId: [1993],
   name: 'Avoids the Green Stuff',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You defeated Anti-Matter at the Keyes Island Reactor without letting a member of your league get caught in a Obliteration Beam.',
   acquisition: `Don't let anyone be caught by an Obliteration Beam in the final battle with Anti-Matter during the Keyes Island Reactor Trial.`,

@@ -5,6 +5,7 @@ export const MasterAtArms: BadgeData = {
   key: 'master-at-arms',
   setTitleId: [854],
   name: 'Master at Arms',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated the Rikti Master At Arms from the crashed ship in Rikti War Zone.',
   acquisition: `Defeat the Rikti Master at Arms U'Kon Gr'ai 10 times during Rikti Ship Raids.`,

@@ -6,6 +6,7 @@ export const Unlucky: BadgeData = {
   key: 'unlucky',
   setTitleId: [1556],
   name: 'Unlucky',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Every member of Freedom Corps who works in this base is considered unlucky.
 The base is out-of-the-way from everything in Paragon City and has a long daily commute.

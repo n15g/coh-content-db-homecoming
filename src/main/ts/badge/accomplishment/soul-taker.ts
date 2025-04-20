@@ -6,6 +6,7 @@ export const SoulTaker: BadgeData = {
   key: 'soul-taker',
   setTitleId: [339],
   name: 'Soul Taker',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The wizard Tarixus taught you dark secrets of the infernal realms in this mission.',
   links: [

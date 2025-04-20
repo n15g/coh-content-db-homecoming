@@ -8,6 +8,7 @@ export const MissedConnection: BadgeData = {
   key: 'missed-connection',
   setTitleId: [2113],
   name: 'Missed Connection',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've spurned the season of Spring in favor of sowing discord and heartbreak throughout the world by misdelivering Valentines!`,
   acquisition: 'Deliver 7 Valentines to the incorrect recipient.',

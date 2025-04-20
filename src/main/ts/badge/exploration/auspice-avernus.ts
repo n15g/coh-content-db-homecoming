@@ -6,6 +6,7 @@ export const AuspiceAvernus: BadgeData = {
   key: 'auspice-avernus',
   setTitleId: [2181],
   name: 'Auspice Avernus',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `As Mot rose again into the world of the living, the very earth was sundered in the passing.
 The offal of its millennial imprisonment rose with it, a mephitic concoction of the most vile nature.

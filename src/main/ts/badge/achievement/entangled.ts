@@ -9,6 +9,7 @@ export const Entangled: BadgeData = {
     { alignment: 'villain', value: 'Sleepy' },
     { alignment: 'praetorian', value: 'Locked Out' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You continue to show aptitude at missing all the action.' },

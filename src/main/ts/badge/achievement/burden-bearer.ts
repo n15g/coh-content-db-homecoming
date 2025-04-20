@@ -8,6 +8,7 @@ export const BurdenBearer: BadgeData = {
     { alignment: 'hero', value: 'Burden Bearer' },
     { alignment: 'villain', value: `Arm's Length` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Who needs the help of police drones? You let them sit on the sidelines and took care of the invasion yourself, while also making sure none of them were destroyed.' },

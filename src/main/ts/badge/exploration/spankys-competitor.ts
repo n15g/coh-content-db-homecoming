@@ -6,6 +6,7 @@ export const SpankysCompetitor: BadgeData = {
   key: 'spankys-competitor',
   setTitleId: [1550],
   name: `Spanky's Competitor`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This boardwalk was started some time ago by Robert Cooling, who was seeking to create an alternative to Spanky's Boardwalk on the other end of Talos,
 mainly because he hated the name 'Spanky's Boardwalk'. He was mentioned in the news for some time before he mysteriously 'disappeared.'

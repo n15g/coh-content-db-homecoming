@@ -6,6 +6,7 @@ export const WarHero: BadgeData = {
   key: 'war-hero',
   setTitleId: [2098],
   name: 'War Hero',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You stood in the middle of a war between the Council and the 5th Column, and emerged the victor.',
   links: [

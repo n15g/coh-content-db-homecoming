@@ -5,6 +5,7 @@ export const IronWarrior: BadgeData = {
   key: 'iron-warrior',
   setTitleId: [698],
   name: 'Iron Warrior',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated the Halloween Jack in Irons.',
   acquisition: 'Defeat Jack in Irons during the Halloween event.',

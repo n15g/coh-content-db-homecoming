@@ -8,6 +8,7 @@ export const Locksmith: BadgeData = {
     { alignment: 'hero', value: 'Locksmith' },
     { alignment: 'villain', value: 'Safecracker' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `With your knowledge of safecracking, you've given the local locksmiths a few pointers.` },

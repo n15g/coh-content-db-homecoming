@@ -5,6 +5,7 @@ export const Visionary: BadgeData = {
   key: 'visionary',
   setTitleId: [204],
   name: 'Visionary',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have been successful in a campaign to blind the Overseers in the Shadow Shard.',
   acquisition: `Defeat 500 points worth of Rularuu Sentries in the Shadow Shard.`,

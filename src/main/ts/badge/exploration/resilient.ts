@@ -6,6 +6,7 @@ export const Resilient: BadgeData = {
   key: 'resilient',
   setTitleId: [2324],
   name: 'Resilient',
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `This monument was built by a local artist with materials scavenged after the first Rikti invasion.
 Having wrought creation from destruction, it reaches skyward to represent Paragon City's unbroken spirit.`,

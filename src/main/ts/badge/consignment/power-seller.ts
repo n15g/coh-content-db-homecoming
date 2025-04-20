@@ -5,6 +5,7 @@ export const PowerSeller: BadgeData = {
   key: 'power-seller',
   setTitleId: [821],
   name: 'Power Seller',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 7000 items on the Consignment House.` },

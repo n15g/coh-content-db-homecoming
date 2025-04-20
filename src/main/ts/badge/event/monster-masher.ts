@@ -5,6 +5,7 @@ export const MonsterMasher: BadgeData = {
   key: 'monster-masher',
   setTitleId: [1370],
   name: 'Monster Masher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You helped thwart the schemes of the horrifying Abominations by destroying their Banner of Mayhem.',
   acquisition: 'Defeat the Banner of Mayhem during a Deadly Apocalypse.',

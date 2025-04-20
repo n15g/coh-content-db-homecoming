@@ -6,6 +6,7 @@ export const OutOfBounds: BadgeData = {
   key: 'out-of-bounds',
   setTitleId: [2465],
   name: 'Out of Bounds',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `The Cimeroran Traitors have kept Castellum Quarter under their control for years. The walls have proven to be nearly impossible to breach, successfully rendering the fortress unreachable to even the strongest warriors.`,
   notes: `Located 127 yards south of the Castellum Quarter neighborhood marker.`,

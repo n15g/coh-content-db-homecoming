@@ -5,6 +5,7 @@ export const Destructive: BadgeData = {
   key: 'destructive',
   setTitleId: [1250],
   name: 'Destructive',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've destroyed your first object during an Architect mission, earning yourself the Destructive badge.`,
   acquisition: 'Destroy a destructible object inside a published Mission Architect mission.',

@@ -5,6 +5,7 @@ export const Demarcated: BadgeData = {
   key: 'demarcated',
   setTitleId: [912],
   name: 'Demarcated',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while not using any Temporary Powers.` },

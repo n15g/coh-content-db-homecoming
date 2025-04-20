@@ -5,6 +5,7 @@ export const ColdWarrior: BadgeData = {
   key: 'cold-warrior',
   setTitleId: [209],
   name: 'Cold Warrior',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have defeated 100 of the living snow creatures who plague Paragon City.' },

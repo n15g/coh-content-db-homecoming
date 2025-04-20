@@ -5,6 +5,7 @@ export const NotOnMyWatch: BadgeData = {
   key: 'not-on-my-watch',
   setTitleId: [1975],
   name: 'Not On My Watch',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Not a single Mindwashed Resistance member was allowed to escape the Behavioral Adjustment Facility on your watch.',
   acquisition: 'Allow no Mindwashed Prisoners to escape during a Behavioral Adjustment Facility Incarnate Trial.',

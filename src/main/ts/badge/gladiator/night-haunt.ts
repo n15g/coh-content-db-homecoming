@@ -6,6 +6,7 @@ export const NightHaunt: BadgeData = {
   key: 'night-haunt',
   setTitleId: [448],
   name: 'Night Haunt',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'These tormented souls are bound to you.',
   links: [

@@ -6,6 +6,7 @@ export const HelpingHand: BadgeData = {
   key: 'helping-hand',
   setTitleId: [1893],
   name: 'Helping Hand',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've helped to solve the Medi-Porter crisis in Paragon and get the devices distributed to those who need them.`,
   links: [

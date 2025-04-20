@@ -9,6 +9,7 @@ export const Pupil: BadgeData = {
   key: 'pupil',
   setTitleId: [174],
   name: 'Pupil',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of the fallen hero, Atlas.`,
   links: [

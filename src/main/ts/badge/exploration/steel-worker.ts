@@ -7,6 +7,7 @@ export const SteelWorker: BadgeData = {
   key: 'steel-worker',
   setTitleId: [558],
   name: 'Steel Worker',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Not even the hardened metal made in these factories of Steel Canyon was able to protect this city from determined villains. Good thing Paragon has you now to do it.` },

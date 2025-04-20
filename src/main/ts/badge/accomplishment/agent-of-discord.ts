@@ -6,6 +6,7 @@ export const AgentOfDiscord: BadgeData = {
   key: 'agent-of-discord',
   setTitleId: [338],
   name: 'Agent of Discord',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `Obviously, Arachnos isn't as united as Lord Recluse would like the world to believe.`,
   links: [

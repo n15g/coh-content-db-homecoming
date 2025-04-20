@@ -5,6 +5,7 @@ export const Archetypical: BadgeData = {
   key: 'archetypical',
   setTitleId: [891],
   name: 'Archetypical',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while only using your Primary and Secondary powersets.` },

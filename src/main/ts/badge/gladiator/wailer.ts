@@ -6,6 +6,7 @@ export const Wailer: BadgeData = {
   key: 'wailer',
   setTitleId: [457],
   name: 'Wailer',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Your infamy has attracted supernatural notice.',
   links: [

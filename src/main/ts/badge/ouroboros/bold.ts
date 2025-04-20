@@ -5,6 +5,7 @@ export const Bold: BadgeData = {
   key: 'bold',
   setTitleId: [880],
   name: 'Bold',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while the enemies were Buffed.` },

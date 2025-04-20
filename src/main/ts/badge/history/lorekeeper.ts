@@ -9,6 +9,7 @@ export const Lorekeeper: BadgeData = {
   key: 'lorekeeper',
   setTitleId: [317],
   name: 'Lorekeeper',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `You have learned much that is hidden from the eyes of mortal men.`,
   links: [

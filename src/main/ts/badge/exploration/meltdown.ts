@@ -6,6 +6,7 @@ export const Meltdown: BadgeData = {
   key: 'meltdown',
   setTitleId: [132],
   name: 'Meltdown',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Covert Rikti strike teams have attempted to destroy the Terra Volta reactor on more than one occasion.`,
   notes: `Located on top of the main reactor, on the northeast sector of the dome just before the dropoff.`,

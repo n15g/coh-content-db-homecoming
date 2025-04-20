@@ -9,6 +9,7 @@ export const PumpkinKing: BadgeData = {
     { sex: 'M', value: 'Pumpkin King' },
     { sex: 'F', value: 'Pumpkin Queen' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The king is dead. Long live the king!',
   acquisition: `Defeat Eochai, a monster that spawns in ${zoneLink(Croatoa)}.`,

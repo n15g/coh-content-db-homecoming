@@ -6,6 +6,7 @@ export const Stonekeeper: BadgeData = {
   key: 'stonekeeper',
   setTitleId: [281],
   name: 'Stonekeeper',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `What strange purpose do these glyphs serve?`,
   notes: `Located in the Babylon neighborhood, at ground level inside the southernmost obelisk due southeast of the Golden Giza casino. The marker itself is not visible due to the obelisk.`,

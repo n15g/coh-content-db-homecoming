@@ -6,6 +6,7 @@ export const NaturalLaw: BadgeData = {
   key: 'natural-law',
   setTitleId: [1844],
   name: 'Natural Law',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Before you are the steps that once led to the Circuit Court of Woodvale, a bastion of law and order.
 But a new law rules here, one with rules as ancient as the planet's core, and in this court all of humanity has been found guilty.`,

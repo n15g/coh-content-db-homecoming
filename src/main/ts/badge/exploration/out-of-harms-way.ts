@@ -6,6 +6,7 @@ export const OutOfHarmsWay: BadgeData = {
   key: 'out-of-harms-way',
   setTitleId: [2322],
   name: `Out of Harm's Way`,
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `When the Rikti invaded, their drop ships scattered bombs from every corner of the sky. Tunnels like this one were strong enough to withstand the blasts.`,
   notes: `Located 264 yards North of the Prometheus Park marker, in an east-west traffic tunnel/underpass.`,

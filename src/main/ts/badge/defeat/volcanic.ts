@@ -5,6 +5,7 @@ export const Volcanic: BadgeData = {
   key: 'volcanic',
   setTitleId: [203],
   name: 'Volcanic',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have cracked the Igneous bosses, earning you the right to call yourself Volcanic.',
   acquisition: 'Defeat 100 Magmite Lords or Pumicite Lords.',

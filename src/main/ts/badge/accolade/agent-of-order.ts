@@ -12,6 +12,7 @@ export const AgentOfOrder: BadgeData = {
   key: 'agent-of-order',
   setTitleId: [2352],
   name: 'Agent of Order',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Without heroes like you the world would fall into chaos and despair.` },

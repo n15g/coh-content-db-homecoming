@@ -5,6 +5,7 @@ export const Warhead: BadgeData = {
   key: 'warhead',
   setTitleId: [797],
   name: 'Warhead',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Damage and Knockback.',
   effect: 'Awards +2 to Invention Salvage capacity.',

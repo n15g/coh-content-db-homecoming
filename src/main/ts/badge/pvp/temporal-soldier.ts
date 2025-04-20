@@ -6,6 +6,7 @@ export const TemporalSoldier: BadgeData = {
   key: 'temporal-soldier',
   setTitleId: [569],
   name: 'Temporal Soldier',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `50 Heavies have been at your disposal in Recluse's Victory`,
   acquisition: `Control 50 Heavies in ${zoneLink(ReclusesVictory)}.`,

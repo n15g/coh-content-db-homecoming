@@ -5,6 +5,7 @@ export const Agile: BadgeData = {
   key: 'agile',
   setTitleId: [1059],
   name: 'Agile',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have taken the silver medal in the advanced ski course!  Now try for the gold.',
   acquisition: 'Complete a ski run on the Advanced slope in under 1 minute during a Winter event.',

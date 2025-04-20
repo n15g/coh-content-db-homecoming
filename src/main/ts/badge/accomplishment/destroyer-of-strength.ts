@@ -6,6 +6,7 @@ export const DestroyerOfStrength: BadgeData = {
   key: 'destroyer-of-strength',
   setTitleId: [424],
   name: 'Destroyer of Strength',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You defeated the being known as Ruladak the Strong, freeing the people of the Shadow Shard from his tyranny.',
   links: [

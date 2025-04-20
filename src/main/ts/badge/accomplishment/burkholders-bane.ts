@@ -6,6 +6,7 @@ export const BurkholdersBane: BadgeData = {
   key: 'burkholders-bane',
   setTitleId: [202],
   name: `Burkholder's Bane`,
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have stopped the Council from launching their giant robot against Paragon City.',
   links: [

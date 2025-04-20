@@ -9,6 +9,7 @@ export const PirateHunter: BadgeData = {
     { alignment: 'hero', value: 'Pirate Hunter' },
     { alignment: 'villain', value: 'Air Pirate' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You disrupted the Sky Raiders' wave of thefts and defeated Col. Duray himself on their off-shore base.`,
   links: [

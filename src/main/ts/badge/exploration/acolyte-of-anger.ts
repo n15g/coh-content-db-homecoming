@@ -6,6 +6,7 @@ export const AcolyteOfAnger: BadgeData = {
   key: 'acolyte-of-anger',
   setTitleId: [1855],
   name: 'Acolyte of Anger',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Shadow Shard hates you. You can feel its anger pulsing in the air around you and the very ground you stand upon, throbbing up through your feet.
 The wind is a roar of anger at your very presence, echoed by the Shadow Shard's twisted inhabitants.

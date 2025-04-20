@@ -6,6 +6,7 @@ export const UnwelcomeGuest: BadgeData = {
   key: 'unwelcome-guest',
   setTitleId: [1497],
   name: 'Unwelcome Guest',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This Council base has managed to maintain its foothold within Sharkhead despite numerous attacks from several groups.
 These days, the biggest threats are the 5th Column raids and exposing sleeper agents among Council ranks.`,

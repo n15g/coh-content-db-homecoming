@@ -6,6 +6,7 @@ export const SmasherElite: BadgeData = {
   key: 'smasher-elite',
   setTitleId: [493],
   name: 'Smasher Elite',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Warriors respect those who fight.',
   links: [

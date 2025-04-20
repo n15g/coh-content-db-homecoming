@@ -6,6 +6,7 @@ export const HumanNature: BadgeData = {
   key: 'human-nature',
   setTitleId: [2466],
   name: 'Human Nature',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `Deep inside Castellum Quarter, soldiers once loyal to Imperious now plot his downfall. Despite alien and magical influence, it was just the basic nature of humanity to follow the strong, regardless of their morality, that helped swell Romulus' ranks.`,
   notes: `Located in front of the doors of a building at the center of the northern edge of Castellum Quarter, 451 yards north of the Castellum Quarter neighborhood marker.`,

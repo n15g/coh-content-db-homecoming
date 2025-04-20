@@ -9,6 +9,7 @@ export const PowerLiberator: BadgeData = {
     { alignment: 'hero', value: 'Power Liberator' },
     { alignment: 'villain', value: 'Master Thief' },
   ],
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: [
     {

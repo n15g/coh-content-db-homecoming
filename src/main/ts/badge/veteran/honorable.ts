@@ -5,6 +5,7 @@ export const Honorable: BadgeData = {
   key: 'honorable',
   setTitleId: [1277],
   name: 'Honorable',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You're revered by the people of Paragon City and are considered 'Honorable' for your many good deeds. You have attained sixty-three Veteran levels.` },

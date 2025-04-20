@@ -6,6 +6,7 @@ export const Boulder: BadgeData = {
   key: 'boulder',
   setTitleId: [488],
   name: 'Boulder',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have might over nature itself.',
   links: [

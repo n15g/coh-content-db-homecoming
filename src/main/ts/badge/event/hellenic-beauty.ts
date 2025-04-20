@@ -5,6 +5,7 @@ export const HellenicBeauty: BadgeData = {
   key: 'hellenic-beauty',
   setTitleId: [2243],
   name: 'Hellenic Beauty',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have let beauty prevail by letting Camilla and Claudia go unscathed while defeating the ugly brute Cornutus.',
   acquisition: 'In the Summer Blockbuster, defeat Cornutus, but leave both Camilla and Claudia alive.',

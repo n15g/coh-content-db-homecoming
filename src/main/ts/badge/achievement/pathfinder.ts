@@ -9,6 +9,7 @@ export const Pathfinder: BadgeData = {
     { alignment: 'praetorian', sex: 'M', value: 'Knows He Knows Not' },
     { alignment: 'praetorian', sex: 'F', value: 'Knows She Knows Not' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'Your eye for exploration and achievement is recognized. You have earned 100 badges.' },

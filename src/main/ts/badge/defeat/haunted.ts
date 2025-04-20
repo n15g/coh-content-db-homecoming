@@ -5,6 +5,7 @@ export const Haunted: BadgeData = {
   key: 'haunted',
   setTitleId: [436],
   name: 'Haunted',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have banished hundreds of Ghosts from these lands.',
   acquisition: 'Defeat 333 Croatoan Ghosts.',

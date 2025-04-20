@@ -6,6 +6,7 @@ export const Cabalist: BadgeData = {
   key: 'cabalist',
   setTitleId: [427],
   name: 'Cabalist',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You aided the Cabal in their struggle against the loathsome Red Caps.',
   links: [

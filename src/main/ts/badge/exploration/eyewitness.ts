@@ -6,6 +6,7 @@ export const Eyewitness: BadgeData = {
   key: 'eyewitness',
   setTitleId: [759],
   name: 'Eyewitness',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'This is an excellent vantage point for keeping an eye on the crash site.',
   notes: `On the top point of the tallest building overlooking the downed ship.`,

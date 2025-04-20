@@ -6,6 +6,7 @@ export const Cobra: BadgeData = {
   key: 'cobra',
   setTitleId: [451],
   name: 'Cobra',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Sssnakes ssserve you.',
   links: [

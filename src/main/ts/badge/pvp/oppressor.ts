@@ -6,6 +6,7 @@ export const Oppressor: BadgeData = {
   key: 'oppressor',
   setTitleId: [574],
   name: 'Oppressor',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have helped defeat Ms. Liberty in Recluse's Victory.`,
   acquisition: `Defeat Ms. Liberty in ${zoneLink(ReclusesVictory)}.`,

@@ -10,6 +10,7 @@ export const Sensation: BadgeData = {
     { alignment: 'villain', sex: 'F', value: 'Ms. Big' },
     { alignment: 'praetorian', value: 'Acclaimed' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Dinner at the White House is passe for you now.' },

@@ -6,6 +6,7 @@ export const SallySightseer: BadgeData = {
   key: 'sally-sightseer',
   setTitleId: [1541],
   name: 'Sally Sightseer',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Students from Croatoa University frequent this beach when it isn't being used as a battleground by the Tuatha and Cabal.
 Armed with video cameras, the students are determined to get a good look at the mythical Sally.

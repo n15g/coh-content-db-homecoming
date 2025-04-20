@@ -6,6 +6,7 @@ export const WashedUp: BadgeData = {
   key: 'washed-up',
   setTitleId: [252],
   name: 'Washed Up',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Emil Marcone's brother was found at low tide in this particular vehicle.`,
   notes: `Located in the Fort Hades neighborhood, on top of a rusted blue car near the water, directly east of the Fort Hades marker.`,

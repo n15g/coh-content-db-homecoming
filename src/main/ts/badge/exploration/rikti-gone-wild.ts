@@ -6,6 +6,7 @@ export const RiktiGoneWild: BadgeData = {
   key: 'rikti-gone-wild',
   setTitleId: [1575],
   name: 'Rikti Gone Wild',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The horde of Rikti Monkeys on Monster Island seems to have been confined to this area, supposedly by Crey.
 Investigations into what exactly went wrong have been going on for some time.

@@ -6,6 +6,7 @@ export const CreyCares: BadgeData = {
   key: 'crey-cares',
   setTitleId: [1794],
   name: 'Crey Cares',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Crey Industries has taken over this island in the Water Processing district with the intention of using its extensive collection and filtration infrastructure
 to spearhead a plan that would clear from the air and water the strange toxic element that emerged after the Rikti invasion.

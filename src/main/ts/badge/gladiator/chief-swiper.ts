@@ -6,6 +6,7 @@ export const ChiefSwiper: BadgeData = {
   key: 'chief-swiper',
   setTitleId: [483],
   name: 'Chief Swiper',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Freaks just love to fight -- even for you.',
   links: [

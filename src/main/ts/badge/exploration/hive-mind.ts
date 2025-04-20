@@ -7,6 +7,7 @@ export const HiveMind: BadgeData = {
   key: 'hive-mind',
   setTitleId: [1846],
   name: 'Hive Mind',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The buzz of the Devouring Earth hive mind is especially powerful here.
 It sets one's nerves on edge.

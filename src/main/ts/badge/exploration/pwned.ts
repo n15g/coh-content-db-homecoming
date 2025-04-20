@@ -6,6 +6,7 @@ export const Pwned: BadgeData = {
   key: 'pwned',
   setTitleId: [1527],
   name: 'Pwned',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Locals in High Park have complained to the Pawn Store owner about fixing his sign, saying that it tends to draw the Freakshow to the neighborhood for laughs.
 The owner adamantly refuses to change the sign, insisting that it is "hilarious." He can be seen speaking with the residents in High Park while wearing a shirt with the words, "LOLCOPTER" on it.`,

@@ -5,6 +5,7 @@ export const Lionhearted: BadgeData = {
   key: 'lionhearted',
   setTitleId: [884],
   name: 'Lionhearted',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while the enemies were Buffed.` },

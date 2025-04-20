@@ -5,6 +5,7 @@ export const Buster: BadgeData = {
   key: 'buster',
   setTitleId: [186],
   name: 'Buster',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated 20 ghosts, spirits who have not rested since their original death.',
   acquisition: 'Defeat 20 Spirits during the Halloween event.',

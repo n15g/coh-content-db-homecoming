@@ -10,6 +10,7 @@ export const KingsRighteousness: BadgeData = {
     { alignment: 'hero', value: `King's Righteousness` },
     { alignment: 'villain', value: `King's Capriciousness` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Clockwork Paladin, a menace to the city, was once spotted running around in this area.',
   notes: `Located between two large crates, just north of the prominent building in the southwestern part of the zone. The spot is approximately 171 yards northeast of the zone’s southwestern corner.

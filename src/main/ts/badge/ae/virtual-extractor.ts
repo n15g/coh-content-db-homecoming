@@ -5,6 +5,7 @@ export const VirtualExtractor: BadgeData = {
   key: 'virtual-extractor',
   setTitleId: [1245],
   name: 'Virtual Extractor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've rescued or kidnapped your first hostage during Test Mode, earning yourself the Virtual Extractor badge.`,
   acquisition: 'Rescue one captive while running a Architect mission in test mode.',

@@ -13,6 +13,7 @@ export const TouchedBottom: BadgeData = {
   key: 'touched-bottom',
   setTitleId: [1890],
   name: 'Touched Bottom',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within the Abyss.`,
   links: [

@@ -5,6 +5,7 @@ export const Gifted: BadgeData = {
   key: 'gifted',
   setTitleId: [967],
   name: 'Gifted',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'The Freedom Phalanx wishes you Happy Holidays!' },

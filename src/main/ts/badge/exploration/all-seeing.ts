@@ -6,6 +6,7 @@ export const AllSeeing: BadgeData = {
   key: 'all-seeing',
   setTitleId: [1577],
   name: 'All-Seeing',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Tenants on the top floor in the apartment building have constantly complained that the nearby hero statue makes them feel uneasy.
 Many say it feels as if someone is constantly watching them.

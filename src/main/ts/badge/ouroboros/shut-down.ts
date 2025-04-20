@@ -5,6 +5,7 @@ export const ShutDown: BadgeData = {
   key: 'shut-down',
   setTitleId: [897],
   name: 'Shut Down',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while not using any Travel Power Power Pools.` },

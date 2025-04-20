@@ -6,6 +6,7 @@ export const OfThingsUnclean: BadgeData = {
   key: 'of-things-unclean',
   setTitleId: [2186],
   name: 'Of Things Unclean',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The dead have always cavorted through the streets of Dark Astoria, praying and making sacrifice to their mute master, and for good reason.
 Even after its fall, Mot's shadow has terrorized the dreams of mankind through all of history, for it is the embodiment of all that is unnatural and vile; death most unclean.`,

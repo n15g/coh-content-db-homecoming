@@ -5,6 +5,7 @@ export const GoonSquad: BadgeData = {
   key: 'goon-squad',
   setTitleId: [406],
   name: 'Goon Squad',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `Nobody better strike the Consortium while you're around.`,
   acquisition: 'Defeat 333 Cage Consortium Guards.',

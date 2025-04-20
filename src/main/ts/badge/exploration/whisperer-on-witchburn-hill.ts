@@ -6,6 +6,7 @@ export const WhispererOnWitchburnHill: BadgeData = {
   key: 'whisperer-on-witchburn-hill',
   setTitleId: [1781],
   name: 'Whisperer on Witchburn Hill',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `It was rumored that in the dim past of the nation's founding, this hill was the site of witch burnings.
 Even before Astoria fell to darkness, this hill in Moth Cemetery was well known for feelings of unease it elicited in anyone brave enough to scale its heights.

@@ -6,6 +6,7 @@ export const WitnessOfOaths: BadgeData = {
   key: 'witness-of-oaths',
   setTitleId: [2184],
   name: 'Witness of Oaths',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Many false heroes over the years have claimed vindication over the events that transpired in Dark Astoria, unaware that their hollow words would one day be called to account.
 Screaming and pleading, many have been dragged into the ruined city by the Talons of Vengeance to pay the ultimate price for oath breaking.`,

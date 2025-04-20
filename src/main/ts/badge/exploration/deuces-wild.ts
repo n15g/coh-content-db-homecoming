@@ -6,6 +6,7 @@ export const DeucesWild: BadgeData = {
   key: 'deuces-wild',
   setTitleId: [279],
   name: 'Deuces Wild',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Twos are wild, but not as wild as you!`,
   notes: `Located in the doorway of the Ice Palace casino in the Jackpot neighborhood, 150 yards east of the Jackpot neighborhood marker.`,

@@ -5,6 +5,7 @@ export const IronChef: BadgeData = {
   key: 'iron-chef',
   setTitleId: [2395],
   name: 'Iron Chef',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your trained, discerning eye demands you shun most recipes.`,
   acquisition: 'Reject 1000 recipe drops.',

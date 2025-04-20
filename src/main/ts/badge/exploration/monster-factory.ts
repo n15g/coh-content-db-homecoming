@@ -6,6 +6,7 @@ export const MonsterFactory: BadgeData = {
   key: 'monster-factory',
   setTitleId: [1875],
   name: 'Monster Factory',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Mankind has a long history of creating monsters that escape their control and ultimately turn on them.
 If there is an example of the opposite in effect, it is Hamidon and his Devouring Earth monstrosities.

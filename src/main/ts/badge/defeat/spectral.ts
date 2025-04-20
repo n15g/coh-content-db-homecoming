@@ -6,6 +6,7 @@ export const Spectral: BadgeData = {
   key: 'spectral',
   setTitleId: [249],
   name: 'Spectral',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You have trapped many Spectral Pirates and they will not forget your treachery.',
   acquisition: `Trap 100 ghosts in Fort Hades, ${zoneLink(PortOakes)}.`,

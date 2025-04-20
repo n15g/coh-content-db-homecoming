@@ -6,6 +6,7 @@ export const HotDog: BadgeData = {
   key: 'hot-dog',
   setTitleId: [2416],
   name: 'Hot Dog',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Although Nick has since set up shop at a new location on Talos Island, many former residents of Siren's Call still miss the atmosphere of the old stand.`,
   links: [

@@ -6,6 +6,7 @@ export const KeepingTheLightsOn: BadgeData = {
   key: 'keeping-the-lights-on',
   setTitleId: [1745],
   name: 'Keeping the Lights On',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `While the Keyes Reactors themselves require little fuel to keep humming, the entire island is devoted to power transmission, safety, and security; the latter especially due to near-constant Resistance sabotage attempts.
 All of these functions require maintenance Clockwork and deliveries which come through this bay.`,

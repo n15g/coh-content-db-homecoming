@@ -5,6 +5,7 @@ export const Initiate: BadgeData = {
   key: 'initiate',
   setTitleId: [1448],
   name: 'Initiate',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've crafted your first Common Incarnate Ability earning yourself this badge.`,
   acquisition: 'Craft a common incarnate ability.',

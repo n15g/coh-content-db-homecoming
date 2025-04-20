@@ -5,6 +5,7 @@ export const NoAuthority: BadgeData = {
   key: 'no-authority',
   setTitleId: [1467],
   name: 'No Authority',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You're a wanted criminal according to the Praetorian Police. You defeated enough Praetorian Police Department members to earn this badge.`,
   acquisition: 'Defeat 100 points worth of Praetorian PD.',

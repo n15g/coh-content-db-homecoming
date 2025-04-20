@@ -6,6 +6,7 @@ export const TheUnnamed: BadgeData = {
   key: 'the-unnamed',
   setTitleId: [1788],
   name: 'The Unnamed',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `It was not long ago that a Council patrol reported a grave exhumation in the Bonny Morass.
 No culprits were found, and no records existed to indicate who once was laid to rest here, but many mark this incident as the start of the Banished Pantheon's presence on Striga Isle.

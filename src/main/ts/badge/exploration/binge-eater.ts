@@ -6,6 +6,7 @@ export const BingeEater: BadgeData = {
   key: 'binge-eater',
   setTitleId: [1741],
   name: 'Binge Eater',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This hospital sub-basement used to be a primary morgue, but was phased out due to the sheer number of Ghoul attacks it drew. As the Resistance say, nothing a chomper likes more than a well-stocked buffet.`,
   notes: `Located in the green segment of the NW corner of the map, 99 yards East of City Access C.`,

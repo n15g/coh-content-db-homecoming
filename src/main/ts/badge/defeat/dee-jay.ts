@@ -5,6 +5,7 @@ export const DeeJay: BadgeData = {
   key: 'dee-jay',
   setTitleId: [219],
   name: 'Dee Jay',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have defeated the enraged Trolls, hopped up on Superadine during their nightly rave.',
   acquisition: 'Defeat 50 Supa Trolls during a Troll Rave.',

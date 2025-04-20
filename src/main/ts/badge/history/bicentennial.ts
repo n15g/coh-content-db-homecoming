@@ -18,6 +18,7 @@ export const Bicentennial: BadgeData = {
   key: 'bicentennial',
   setTitleId: [2515],
   name: 'Bicentennial',
+  releaseDate: '2020-11-26',
   morality: 'paragon-city-access',
   badgeText: `Whether love, fascination or obsession, none can deny your powerful feelings for Paragon City, as evidenced by your efforts to explore the city's 200-year history.
 You've taken the time to learn about everything from infrastructure to some of the greatest crises and heroes of the city's rich legacy.`,

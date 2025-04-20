@@ -9,6 +9,7 @@ export const MasterOfTheMagisterium: BadgeData = {
   key: 'master-of-magisterium',
   setTitleId: [2225],
   name: 'Master of the Magisterium',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have mastered the Incarnate Trial: Magisterium.',
   links: [

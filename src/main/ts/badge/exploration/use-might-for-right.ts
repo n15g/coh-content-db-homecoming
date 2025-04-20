@@ -9,6 +9,7 @@ export const UseMightForRight: BadgeData = {
     { alignment: 'hero', value: 'Use Might for Right' },
     { alignment: 'villain', value: `Rookie's Mistake` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Longbow has placed various posters in Peregrine Island to attract more powerful heroes back to Atlas Park for the fight against Recluse.
 They have plenty of fresh heroes looking to join the fight, though all of them must be turned away due to inexperience,

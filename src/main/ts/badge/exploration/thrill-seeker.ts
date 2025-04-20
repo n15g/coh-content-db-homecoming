@@ -6,6 +6,7 @@ export const ThrillSeeker: BadgeData = {
   key: 'thrill-seeker',
   setTitleId: [1080],
   name: 'Thrill Seeker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You're always looking for new forms of entertainment, and it's said that the Mission Architect technology is entertainment in its purest form.`,
   notes: `Visit any Architect Entertainment Building's Main Studio floor.

@@ -5,6 +5,7 @@ export const Recognized: BadgeData = {
   key: 'recognized',
   setTitleId: [1304],
   name: 'Recognized',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Another player has rated an arc that you've published earning you the Recognized badge. This badge is awarded to all characters on your account.`,
   acquisition: 'Another player has rated your published arc.',

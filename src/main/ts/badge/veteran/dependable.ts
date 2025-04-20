@@ -5,6 +5,7 @@ export const Dependable: BadgeData = {
   key: 'dependable',
   setTitleId: [626],
   name: 'Dependable',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've achieved nine Veteran levels. Paragon City can depend on you to be there.` },

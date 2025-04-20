@@ -6,6 +6,7 @@ export const SecretPath: BadgeData = {
   key: 'secret-path',
   setTitleId: [1568],
   name: 'Secret Path',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Tub Ci used this secret path beneath the basketball courts of Brickstown to make a clean escape from the Zig.
 Officers were unable to find this well hidden location until it was too late.

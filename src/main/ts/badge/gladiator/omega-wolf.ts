@@ -6,6 +6,7 @@ export const OmegaWolf: BadgeData = {
   key: 'omega-wolf',
   setTitleId: [508],
   name: 'Omega Wolf',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'This beast is yours in the Arena.',
   links: [

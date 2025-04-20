@@ -7,6 +7,7 @@ export const BoundForGlory: BadgeData = {
   key: 'bound-for-glory',
   setTitleId: [2195],
   name: 'Bound for Glory',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You played through ${contactLink(MuVorkan)}'s personal story, witnessing the event where his quest to become a patron of Arachnos began.`,
   links: [

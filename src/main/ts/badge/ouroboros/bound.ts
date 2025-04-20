@@ -5,6 +5,7 @@ export const Bound: BadgeData = {
   key: 'bound',
   setTitleId: [910],
   name: 'Bound',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using any Temporary Powers.` },

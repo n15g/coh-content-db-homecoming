@@ -6,6 +6,7 @@ export const GroupFounder: BadgeData = {
   key: 'group-founder',
   setTitleId: [2255],
   name: 'Group Founder',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You helped Provost Marchand form the New Praetorians.',
   links: [

@@ -6,6 +6,7 @@ export const Riveting: BadgeData = {
   key: 'riveting',
   setTitleId: [2404],
   name: 'Riveting',
+  releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `The Rusty Rivet, a local tavern, caters to construction crews.
 Unfortunately, this is also where large brawls between The Lost and anyone within the area tend to break out.

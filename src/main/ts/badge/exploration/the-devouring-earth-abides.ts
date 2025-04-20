@@ -6,6 +6,7 @@ export const TheDevouringEarthAbides: BadgeData = {
   key: 'the-devouring-earth-abides',
   setTitleId: [1845],
   name: 'The Devouring Earth Abides',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `
 Strange whispers echo through this sheltered vale, a place where the Devouring Earth rest and meditate, receiving strange missives from their lord and master: Hamidon.

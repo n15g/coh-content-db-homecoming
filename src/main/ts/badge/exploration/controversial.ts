@@ -6,6 +6,7 @@ export const Controversial: BadgeData = {
   key: 'controversial',
   setTitleId: [1531],
   name: 'Controversial',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The statue of the heroine, "The Night Hammer" has been the focus of two controversies.
 The first was Night Hammer's disgust at how the statue turned out. The second was the "mysterious" disappearance of the architect who designed the statue.`,

@@ -11,6 +11,7 @@ export const Stowaway: BadgeData = {
   key: 'stowaway',
   setTitleId: [2519],
   name: 'Stowaway',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'Striga has long been a Council stronghold but recent events have upset the delicate balance and created a power vaccum for opportunistic villains to exploit.',
   acquisition: `Complete every story arc within ${zoneLink(StrigaIsle)}.`,

@@ -5,6 +5,7 @@ export const WatchesTheWatchers: BadgeData = {
   key: 'watches-the-watchers',
   setTitleId: [2213],
   name: 'Watches the Watchers',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Though they fought valiantly, even the watchkeepers of the Eternal Prison were no match for your might. You cleaved your way through a legion of Black Knights to earn this badge.`,
   acquisition: 'Defeat 100 points worth of The Black Knights.',

@@ -6,6 +6,7 @@ export const PendragonsAlly: BadgeData = {
   key: 'pendragons-ally',
   setTitleId: [2264],
   name: `Pendragon's Ally`,
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You were able to keep Pendragon from being defeated while he was fighting Maestro by himself.',
   acquisition: `Complete all objectives in the "Part One: The Maesro's Symphony" mission of the ${missionLink(TippingTheScales)} story arc, before Pendragon is defeated.`,

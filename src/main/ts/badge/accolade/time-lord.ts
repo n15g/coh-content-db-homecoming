@@ -7,6 +7,7 @@ export const TimeLord: BadgeData = {
   key: 'time-lord',
   setTitleId: [1072],
   name: 'Time Lord',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your presence in Cimerora and working with the Menders of Ouroboros has earned you the Time Lord Accolade.
  While logged out in either Cimerora or Ouroboros you will earn additional time for your Time Lord Power.`,

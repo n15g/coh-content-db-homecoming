@@ -6,6 +6,7 @@ export const SnakeCharmer: BadgeData = {
   key: 'snake-charmer',
   setTitleId: [264],
   name: 'Snake Charmer',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This is the main entrance to the Snakes' underground lair. You really don't want to go down there.`,
   notes: `Located in a snake pit approximately 507 yards due west of the Darwin's Landing marker.`,

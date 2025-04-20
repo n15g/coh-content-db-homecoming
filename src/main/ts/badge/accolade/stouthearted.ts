@@ -17,6 +17,7 @@ export const Stouthearted: BadgeData = {
     { alignment: 'hero', value: 'Stouthearted' },
     { alignment: 'villain', value: 'Stonehearted' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You've left no stone unturned in your efforts to protect Paragon City's financial infrastructure. Your diligence is greatly appreciated by all.` },

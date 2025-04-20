@@ -5,6 +5,7 @@ export const Speeder: BadgeData = {
   key: 'speeder',
   setTitleId: [1058],
   name: 'Speeder',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have taken the gold medal in the advanced ski course!',
   acquisition: 'Complete a ski run on the Advanced slope in under 50 seconds during a Winter event.',

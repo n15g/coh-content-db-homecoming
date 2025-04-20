@@ -5,6 +5,7 @@ export const CallOfTheVoid: BadgeData = {
   key: 'call-of-the-void',
   setTitleId: [2484],
   name: 'Call of the Void',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `When you stared into the void and it stared back, you demonstrated to the Nictus-empowered Void Hunters that their quarry here on Earth would not be such easy prey.`,
   acquisition: `Defeat 100 Void Hunters.`,

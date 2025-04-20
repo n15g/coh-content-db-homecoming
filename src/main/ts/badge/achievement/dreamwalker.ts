@@ -8,6 +8,7 @@ export const Dreamwalker: BadgeData = {
     { alignment: 'hero', value: 'Dreamwalker' },
     { alignment: 'villain', value: 'Dreamkiller' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Through persistence or madness, you have faced down the many nightmares of Malaise while battling him in the dreamscape of the Minds of Mayhem.',
   acquisition: `Defeat all of Malaise's possible nightmares at least once during the Minds of Mayhem Trial.`,

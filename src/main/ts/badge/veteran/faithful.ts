@@ -5,6 +5,7 @@ export const Faithful: BadgeData = {
   key: 'faithful',
   setTitleId: [625],
   name: 'Faithful',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Paragon City thanks you for your continued support in keeping the City safe. You have attained six Veteran levels.` },

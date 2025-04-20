@@ -5,6 +5,7 @@ export const TournamentVictor: BadgeData = {
   key: 'tournament-victor',
   setTitleId: [1346],
   name: 'Tournament Victor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've won your first Swiss Draw match, you're considered a Tournament Victor.`,
   acquisition: 'Win a rated or unrated Swiss Draw match in the Arena.',

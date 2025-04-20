@@ -6,6 +6,7 @@ export const Arachnoid: BadgeData = {
   key: 'arachnoid',
   setTitleId: [440],
   name: 'Arachnoid',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'These hideous creatures obey you.',
   links: [

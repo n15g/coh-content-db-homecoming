@@ -6,6 +6,7 @@ export const OneOfTheEight: BadgeData = {
   key: 'one-of-the-eight',
   setTitleId: [2237],
   name: 'One of the Eight',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You tamed the chaos and magic which ran unchecked in the Night Ward, saving the world from the would-be rampages of Sorceress Serene and the Mother of all Monsters.',
   links: [

@@ -10,6 +10,7 @@ export const HellAndBack: BadgeData = {
   key: 'hell-and-back',
   setTitleId: [1372],
   name: 'Hell and Back',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've endured the spells of witches, the might of misshapen abominations, the ghostly touch of spectral terrors and the schemes of the supernatural fiends, earning yourself this Accolade.`,
   notes: `Available during Halloween events.`,

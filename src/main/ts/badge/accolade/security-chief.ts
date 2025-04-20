@@ -10,6 +10,7 @@ export const SecurityChief: BadgeData = {
     { alignment: 'hero', value: 'Security Chief' },
     { alignment: 'villain', value: 'Security Breach' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `Your time spent protecting the banks of Paragon City has earned you the position of Security Chief.  While logged out in either a Vault or a Police Department will earn you charges of Tear Gas.` },

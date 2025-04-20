@@ -6,6 +6,7 @@ export const BrokenMind: BadgeData = {
   key: 'broken-mind',
   setTitleId: [1645],
   name: 'Broken Mind',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Deep beneath the Mother of Mercy Hospital, the moans of misbegotten Seers echo through these forgotten corridors.
 Their sorrow seeps into the minds of those who hear them, disrupting thought and disturbing the emotions. Tarry too long and your mind shall be broken as theirs.`,

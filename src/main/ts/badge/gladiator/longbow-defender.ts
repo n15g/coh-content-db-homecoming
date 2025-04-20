@@ -6,6 +6,7 @@ export const LongbowDefender: BadgeData = {
   key: 'longbow-defender',
   setTitleId: [460],
   name: 'Longbow Defender',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Longbow counts you as an ally.' },

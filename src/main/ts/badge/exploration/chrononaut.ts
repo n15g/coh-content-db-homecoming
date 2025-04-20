@@ -6,6 +6,7 @@ export const Chrononaut: BadgeData = {
   key: 'chrononaut',
   setTitleId: [947],
   name: 'Chrononaut',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Welcome to Ouroboros. You have a feeling as if there is a lot of work that needs to be done.`,
   notes: 'The Chrononaut Badge is located at the very top of the building structure.',

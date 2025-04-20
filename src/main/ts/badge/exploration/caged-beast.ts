@@ -6,6 +6,7 @@ export const CagedBeast: BadgeData = {
   key: 'caged-beast',
   setTitleId: [1863],
   name: 'Caged Beast',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The very air vibrates with the barely contained rage of the creatures that had once been penned here—relegated to servile status for the amusement of lesser beings.
 You can relate, you've been subject to incarceration for violating ridiculous laws meant for equally lesser beings, and you threw off their shackles just as these monsters did.`,

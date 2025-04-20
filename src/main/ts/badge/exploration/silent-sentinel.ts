@@ -6,6 +6,7 @@ export const SilentSentinel: BadgeData = {
   key: 'silent-sentinel',
   setTitleId: [87],
   name: 'Silent Sentinel',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `In the 1950's the hero called 'Gargoyle' would stand watch over the city from this spot.`,
   notes: `Located 216 yards east-southeast of The Promenade neighborhood marker.

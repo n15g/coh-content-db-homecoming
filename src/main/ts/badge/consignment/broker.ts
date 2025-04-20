@@ -5,6 +5,7 @@ export const Broker: BadgeData = {
   key: 'broker',
   setTitleId: [806],
   name: 'Broker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 50 Recipes on the Consignment House.` },

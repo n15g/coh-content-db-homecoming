@@ -12,6 +12,7 @@ export const Determined: BadgeData = {
   key: 'determined',
   setTitleId: [2343],
   name: 'Determined',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Dark Astoria.`,
   acquisition: `Complete every story arc within ${zoneLink(DarkAstoria)}.`,

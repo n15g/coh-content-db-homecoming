@@ -9,6 +9,7 @@ export const MasterOfTheKeyesIslandReactor: BadgeData = {
   key: 'master-of-keyes-island-reactor',
   setTitleId: [1994],
   name: 'Master of the Keyes Island Reactor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have mastered the Incarnate Trial: Keyes Island Reactor.',
   links: [

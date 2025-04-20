@@ -7,6 +7,7 @@ export const DangerDanger: BadgeData = {
   key: 'danger-danger',
   setTitleId: [1838],
   name: 'Danger! Danger!',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You stand at the border of one of the most dangerous places in all of Paragon City.
 Before you lies a seething cauldron of anger, malice, and greed centered around the pumping heart of the city: the Terra Volta Nuclear Reactor.

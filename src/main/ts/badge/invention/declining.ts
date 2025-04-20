@@ -5,6 +5,7 @@ export const Declining: BadgeData = {
   key: 'declining',
   setTitleId: [760],
   name: 'Declining',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Defense Debuff, To Hit Debuff, Taunt, and Confuse.',
   links: [

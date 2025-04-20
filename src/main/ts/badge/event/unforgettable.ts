@@ -6,6 +6,7 @@ export const Unforgettable: BadgeData = {
   key: 'unforgettable',
   setTitleId: [2509],
   name: 'Unforgettable',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'You have helped celebrate the 19th anniversary of City of Heroes.',
   acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,

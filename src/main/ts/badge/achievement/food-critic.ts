@@ -5,6 +5,7 @@ export const FoodCritic: BadgeData = {
   key: 'food-critic',
   setTitleId: [2393],
   name: 'Food Critic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You don't want the same old recipes, you want something exotic.`,
   acquisition: 'Reject 100 recipe drops.',

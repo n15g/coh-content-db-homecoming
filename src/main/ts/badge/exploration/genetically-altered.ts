@@ -6,6 +6,7 @@ export const GeneticallyAltered: BadgeData = {
   key: 'genetically-altered',
   setTitleId: [1574],
   name: 'Genetically Altered',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Scientists still aren't sure what exactly these massive bones belong to.
 Crey refuses to comment, claiming that the bones are from ancient dinosaurs, though paleontologists refute the claim, saying it looks like no dinosaur they have on record.

@@ -8,6 +8,7 @@ export const Caged: BadgeData = {
     { value: 'Caged' },
     { alignment: 'praetorian', value: `Can't Do That` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'In your efforts to be a perfect statue, your skills are unmatched.' },

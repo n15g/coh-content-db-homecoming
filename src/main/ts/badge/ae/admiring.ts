@@ -5,6 +5,7 @@ export const Admiring: BadgeData = {
   key: 'admiring',
   setTitleId: [1157],
   name: 'Admiring',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've played a "Developer's Choice" Mission Architect story arc earning the Admiring Badge.`,
   acquisition: `Complete one Developer's Choice story arc.`,

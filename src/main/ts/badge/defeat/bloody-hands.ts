@@ -8,6 +8,7 @@ export const BloodyHands: BadgeData = {
     { alignment: 'hero', value: 'Bloody Hands' },
     { alignment: 'villain', value: 'Hero Slayer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'The memory of the heroes you defeated haunts you throughout Paragon.' },

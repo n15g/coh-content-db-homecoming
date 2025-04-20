@@ -5,6 +5,7 @@ export const Mythical: BadgeData = {
   key: 'mythical',
   setTitleId: [2470],
   name: 'Mythical',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have defeated 100 Minotaurs in Cimerora.`,
   acquisition: `Defeat 100 Minotaurs in Cimerora.`,

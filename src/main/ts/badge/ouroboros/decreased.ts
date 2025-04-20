@@ -5,6 +5,7 @@ export const Decreased: BadgeData = {
   key: 'decreased',
   setTitleId: [930],
   name: 'Decreased',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not gaining bonuses from slotted Enhancements.` },

@@ -5,6 +5,7 @@ export const Decimator: BadgeData = {
   key: 'decimator',
   setTitleId: [2358],
   name: 'Decimator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have inflicted ten million points of damage upon your foes.`,
   acquisition: 'Deal 10,000,000 damage to earn this badge.',

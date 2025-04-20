@@ -5,6 +5,7 @@ export const InkMan: BadgeData = {
   key: 'ink-man',
   setTitleId: [469],
   name: 'Ink Man',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have allowed these Tsoo to fight for you.',
   acquisition: 'Defeat 100 Blue Ink Men (Tsoo) other than level 30-40 Dragon Blue Ink Men.',

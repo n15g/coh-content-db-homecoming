@@ -11,6 +11,7 @@ export const HonoraryBro: BadgeData = {
     { sex: 'M', value: 'Honorary Bro' },
     { sex: 'F', value: 'Honorary Sis' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Dean MacArthur stood up for you when Wu Yin tried to bring you down. He was captured by the Carnival of Shadows for this, but you rescued him. Dean MacArthur declared you an Honorary Bro.',
   acquisition: `Rescue ${contactLink(DeanMacArthur)} in the "Ratings" mission of the ${missionLink(SweepsWeekHeroNameVsTheRogueIsles)} story arc.`,

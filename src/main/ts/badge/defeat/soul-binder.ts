@@ -5,6 +5,7 @@ export const SoulBinder: BadgeData = {
   key: 'soul-binder',
   setTitleId: [40],
   name: 'Soul Binder',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have uncovered the secret of the Circle of Thorn mages, that they are ancient spirits who inhabit the stolen bodies of their victims.',
   acquisition: 'Defeat 100 Circle of Thorns mages.',

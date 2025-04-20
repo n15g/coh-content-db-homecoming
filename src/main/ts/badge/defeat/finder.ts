@@ -5,6 +5,7 @@ export const Finder: BadgeData = {
   key: 'finder',
   setTitleId: [51],
   name: 'Finder',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You are beginning to uncover the mystery that is the Lost.',
   acquisition: 'Defeat 100 The Lost bosses.',

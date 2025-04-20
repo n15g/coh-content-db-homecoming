@@ -8,6 +8,7 @@ export const FirebaseZuluSecurityDetail: BadgeData = {
     { alignment: 'hero', value: 'Firebase Zulu Security Detail' },
     { alignment: 'villain', value: 'Firebase Zulu Deserter' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have logged enough time in the Shadow Shard to be made a part of Firebase Zulu's security detail.` },

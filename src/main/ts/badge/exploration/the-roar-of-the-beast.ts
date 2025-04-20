@@ -7,6 +7,7 @@ export const TheRoarOfTheBeast: BadgeData = {
   key: 'the-roar-of-the-beast',
   setTitleId: [1869],
   name: 'The Roar of the Beast',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Once this island was abuzz with human inhabitants and all the noise pollution they produce, but now, as you turn your ear to the wind, the only sounds are the collection of
 screeches, howls, and bellowing roars of the monsters that now call this place home.

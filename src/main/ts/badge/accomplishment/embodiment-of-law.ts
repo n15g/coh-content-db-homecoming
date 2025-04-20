@@ -6,6 +6,7 @@ export const EmbodimentOfLaw: BadgeData = {
   key: 'embodiment-of-law',
   setTitleId: [2218],
   name: 'Embodiment of Law',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You played through Emperor Cole's personal story and saw him fight against the entire army of Arachnos.`,
   links: [

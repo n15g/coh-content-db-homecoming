@@ -5,6 +5,7 @@ export const Venturesome: BadgeData = {
   key: 'venturesome',
   setTitleId: [874],
   name: 'Venturesome',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while under a constant Debuff.` },

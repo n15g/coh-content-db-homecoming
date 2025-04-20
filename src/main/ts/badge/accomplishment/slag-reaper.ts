@@ -6,6 +6,7 @@ export const SlagReaper: BadgeData = {
   key: 'slag-reaper',
   setTitleId: [337],
   name: 'Slag Reaper',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The weird coral of Sharkhead Isle is said to have mystical properties.',
   links: [

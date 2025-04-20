@@ -6,6 +6,7 @@ export const Excelsior: BadgeData = {
   key: 'excelsior',
   setTitleId: [2396],
   name: 'Excelsior!',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You have helped celebrate the 15th anniversary of City of Heroes.`,
   acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,

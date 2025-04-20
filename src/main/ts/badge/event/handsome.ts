@@ -10,6 +10,7 @@ export const Handsome: BadgeData = {
     { sex: 'M', value: 'Handsome' },
     { sex: 'F', value: 'Beautiful' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Eros can bring out the beauty in any being',
   links: [

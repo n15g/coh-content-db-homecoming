@@ -5,6 +5,7 @@ export const LucentLegacyOfLight: BadgeData = {
   key: 'lucent-legacy-of-light',
   setTitleId: [465],
   name: 'Lucent Legacy of Light',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'The Legacy Chain respects you.' },

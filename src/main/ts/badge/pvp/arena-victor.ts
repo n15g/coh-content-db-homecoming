@@ -5,6 +5,7 @@ export const ArenaVictor: BadgeData = {
   key: 'arena-victor',
   setTitleId: [1336],
   name: 'Arena Victor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've won your first Arena match, you're considered an Arena Victor`,
   acquisition: 'Win any rated or unrated match in the Arena.',

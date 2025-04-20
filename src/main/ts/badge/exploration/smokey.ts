@@ -6,6 +6,7 @@ export const Smokey: BadgeData = {
   key: 'smokey',
   setTitleId: [100],
   name: 'Smokey',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `King Garment Works dominated the Kings Row economy for years. These smoke stacks were part of their manufacturing facility.`,
   notes: 'Located in Kings Row, in the far NE corner of the Royal Refinery neighborhood.',

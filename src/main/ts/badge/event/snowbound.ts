@@ -5,6 +5,7 @@ export const Snowbound: BadgeData = {
   key: 'snowbound',
   setTitleId: [2458],
   name: 'Snowbound',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'The snow outside made it very cozy inside during the annual Winter Event.',
   acquisition: `Purchase from the Candy Keeper for 25 Candy Canes and 30,000 inf.`,

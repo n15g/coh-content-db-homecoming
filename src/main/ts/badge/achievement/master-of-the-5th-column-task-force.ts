@@ -5,6 +5,7 @@ export const MasterOfThe5thColumnTaskForce: BadgeData = {
   key: 'master-of-the-5th-column-task-force',
   setTitleId: [1374],
   name: 'Master of the 5th Column Task Force',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have proven yourself Master of the 5th Column Task Force',
   acquisition: `Complete the Master of the 5th Column Task Force challenge (zero defeats, temporary and incarnate powers disabled).`,

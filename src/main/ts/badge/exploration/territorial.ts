@@ -7,6 +7,7 @@ export const Territorial: BadgeData = {
   key: 'territorial',
   setTitleId: [101],
   name: 'Territorial',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The territory around this bridge has been hotly contested turf between the Skulls and Hellions for some time now.`,
   notes: `Located 44 yards east of the Perez Park neighborhood marker in the maze under the trees.

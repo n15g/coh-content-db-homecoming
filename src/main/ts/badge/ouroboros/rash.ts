@@ -5,6 +5,7 @@ export const Rash: BadgeData = {
   key: 'rash',
   setTitleId: [873],
   name: 'Rash',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while under a constant Debuff.` },

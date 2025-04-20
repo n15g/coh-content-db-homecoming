@@ -9,6 +9,7 @@ export const GuardianAngel: BadgeData = {
     { alignment: 'hero', value: 'Guardian Angel' },
     { alignment: 'villain', value: 'Barely Contained' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Williams Square has always been seen as a place of safety by the people of Founders' Falls, who are constantly plagued by demons in the Circle of Thorns or the Devouring Earth.
 Unknown to the people, it is because each of the angelic statues overlooking it is embedded with a magical rune, warding off evil forces from the area.

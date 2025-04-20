@@ -5,6 +5,7 @@ export const Staunch: BadgeData = {
   key: 'staunch',
   setTitleId: [629],
   name: 'Staunch',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `With eighteen Veteran levels to show for your service, you don't see yourself stopping anytime soon.` },

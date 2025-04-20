@@ -6,6 +6,7 @@ export const Ace: BadgeData = {
   key: 'ace',
   setTitleId: [145],
   name: 'Ace',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'This statue honors Mustang, a valiant hero who fought during WWII.',
   notes: `On the outstretched hand of the statue of Mustang.`,

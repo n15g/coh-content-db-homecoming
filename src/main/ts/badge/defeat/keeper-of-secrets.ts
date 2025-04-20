@@ -5,6 +5,7 @@ export const KeeperOfSecrets: BadgeData = {
   key: 'keeper-of-secrets',
   setTitleId: [38],
   name: 'Keeper of Secrets',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have defeated the demon, Adamastor, brought forth by the Banished Pantheon to destroy the world.`,
   acquisition: 'Defeat Adamastor, a monster who can be summoned in Echo: Dark Astoria.',

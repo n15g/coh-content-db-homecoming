@@ -6,6 +6,7 @@ export const Demiurge: BadgeData = {
   key: 'demiurge',
   setTitleId: [1820],
   name: 'Demiurge',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `At last you have arrived. Every challenge faced you have cast down with blood and sweat, never once succumbing to despair or defeat.
 The Shadow Shard has tested you countless times and each time you have triumphed.

@@ -7,6 +7,7 @@ export const ArmyOfMe: BadgeData = {
   key: 'army-of-me',
   setTitleId: [1591],
   name: 'Army of Me',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You don't understand the math behind it, but you're pretty sure you're equal to or greater than eight of yourself.`,
   acquisition: `Defeat eight clones of yourself in the "Good Villains Never Die" story arc from ${contactLink(Leonard)}.`,

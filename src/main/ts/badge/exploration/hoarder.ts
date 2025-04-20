@@ -6,6 +6,7 @@ export const Hoarder: BadgeData = {
   key: 'hoarder',
   setTitleId: [1649],
   name: 'Hoarder',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Total Praetorian Network produces mounds of disposable media every minute, so much that there is precious little space to store it in or dispose of it safely.
 Beneath their sprawling campus they store leftover propaganda and obsolete entertainment, a treasure trove for the Hoarder such as yourself.`,

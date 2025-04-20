@@ -8,6 +8,7 @@ export const SeekerOfTheLost: BadgeData = {
   key: 'seeker-of-the-lost',
   setTitleId: [1836],
   name: 'Seeker of the Lost',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `
 Reviled. Spat upon. Shunned by the 'norms,' the Lost are truly a pitiable breed.

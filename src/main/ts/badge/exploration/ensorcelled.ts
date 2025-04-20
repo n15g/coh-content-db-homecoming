@@ -6,6 +6,7 @@ export const Ensorcelled: BadgeData = {
   key: 'ensorcelled',
   setTitleId: [410],
   name: 'Ensorcelled',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Cabal have developed an attachment to this old, gnarled tree. Some heroes even say they are conducting dark experiments beneath its roots.`,
   notes: 'Located on a low branch of the large leafless tree 360 yards to the west of War Witch and 76 yards north of the Sunset Ridge marker.',

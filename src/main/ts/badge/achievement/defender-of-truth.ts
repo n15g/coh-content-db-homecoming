@@ -10,6 +10,7 @@ export const DefenderOfTruth: BadgeData = {
     { alignment: 'villain', sex: 'F', value: 'Wisegal' },
     { alignment: 'praetorian', value: 'Rift Traveler' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Positron has awarded you this badge for achieving Security Level 30.' },

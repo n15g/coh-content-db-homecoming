@@ -5,6 +5,7 @@ export const Charismatic: BadgeData = {
   key: 'charismatic',
   setTitleId: [778],
   name: 'Charismatic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 35 and 40: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   links: [

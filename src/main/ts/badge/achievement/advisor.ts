@@ -9,6 +9,7 @@ export const Advisor: BadgeData = {
     { alignment: 'villain', value: 'Comrade' },
     { alignment: 'praetorian', value: 'Encourager' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have earned this badge for your time spent tutoring others.' },

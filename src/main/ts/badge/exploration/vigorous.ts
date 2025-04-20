@@ -7,6 +7,7 @@ export const Vigorous: BadgeData = {
   key: 'vigorous',
   setTitleId: [124],
   name: 'Vigorous',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Sister Psyche's greatest nemesis was the insane Malaise.
 When she finally apprehended him, she found a confused soul in search of release.

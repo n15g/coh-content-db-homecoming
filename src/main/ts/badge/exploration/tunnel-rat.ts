@@ -6,6 +6,7 @@ export const TunnelRat: BadgeData = {
   key: 'tunnel-rat',
   setTitleId: [292],
   name: 'Tunnel Rat',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The various tunnels throughout the WEB are a nasty piece of work.',
   notes: `Located in the far eastern entrance of the WEB underground missile plant (the entrance/exit of chamber three).`,

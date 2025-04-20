@@ -9,6 +9,7 @@ export const TempusFugitive: BadgeData = {
     { alignment: 'hero', value: 'Tempus Fugitive' },
     { alignment: 'villain', value: 'Destroyer of Worlds' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have battled Arachnos in a possible future and prevented Recluse's Victory.` },

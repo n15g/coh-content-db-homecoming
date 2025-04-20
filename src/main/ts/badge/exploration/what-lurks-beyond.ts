@@ -6,6 +6,7 @@ export const WhatLurksBeyond: BadgeData = {
   key: 'what-lurks-beyond',
   setTitleId: [2411],
   name: 'What Lurks Beyond',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Though this beach looks peaceful, creatures resembling the Neo-Shivans have been sighted here. Best to proceed with caution.`,
   links: [

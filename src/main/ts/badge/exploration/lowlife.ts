@@ -6,6 +6,7 @@ export const Lowlife: BadgeData = {
   key: 'lowlife',
   setTitleId: [1650],
   name: 'Lowlife',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You stand at the lowest point in the entire Praetorian Underground network, the tunnel that dips beneath the channel separating the Behavioral Adjustment Facility from the mainland.
 You are now lower than any other life form in Praetoria. Congratulations!`,

@@ -5,6 +5,7 @@ export const Pickpocket: BadgeData = {
   key: 'pickpocket',
   setTitleId: [2363],
   name: 'Pickpocket',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Not content with grabbing a few mementos in the course of your adventures, you've started going through the pockets of your defeated foes for souvenirs.`,
   acquisition: 'Collect 25 Souvenirs.',

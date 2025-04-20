@@ -6,6 +6,7 @@ export const ButtonManGunner: BadgeData = {
   key: 'button-man-gunner',
   setTitleId: [482],
   name: 'Button Man Gunner',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Family owes you a favor.',
   links: [

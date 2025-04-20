@@ -8,6 +8,7 @@ export const Diplomat: BadgeData = {
     { alignment: 'hero', value: 'Diplomat' },
     { alignment: 'villain', value: 'Breathes Easy' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have won a victory on foreign soil, defeating all of Lord Recluse's minions.` },

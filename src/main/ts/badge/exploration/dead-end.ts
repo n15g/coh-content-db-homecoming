@@ -6,6 +6,7 @@ export const DeadEnd: BadgeData = {
   key: 'dead-end',
   setTitleId: [1553],
   name: 'Dead End',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `More than one unlucky individual has met his end in this area of the 'Cargo Maze.' The Family is known for luring their victims into this area before 'icing' them.
 It's easy enough for them to get away with it, as not many heroes wander around this area.`,

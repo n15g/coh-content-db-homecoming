@@ -6,6 +6,7 @@ export const Technofreak: BadgeData = {
   key: 'technofreak',
   setTitleId: [318],
   name: 'Technofreak',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Let's all welcome a better future through the wonders of technology!`,
   links: [

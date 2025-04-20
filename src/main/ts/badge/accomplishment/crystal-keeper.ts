@@ -6,6 +6,7 @@ export const CrystalKeeper: BadgeData = {
   key: 'crystal-keeper',
   setTitleId: [515],
   name: 'Crystal Keeper',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have destroyed the psychic control network the Circle grew from shards of Serafina's crystal, and recovered the crystal itself.`,
   links: [

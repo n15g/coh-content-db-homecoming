@@ -6,6 +6,7 @@ export const SaviorOfAtlasPark: BadgeData = {
   key: 'savior-of-atlas-park',
   setTitleId: [2012],
   name: 'Savior of Atlas Park',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've saved Atlas Park from the Arachnos invasion!`,
   links: [

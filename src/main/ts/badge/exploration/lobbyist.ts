@@ -9,6 +9,7 @@ export const Lobbyist: BadgeData = {
     { alignment: 'hero', value: 'Lobbyist' },
     { alignment: 'villain', value: 'Crooked Politician' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Spanky Rabinowitz' cousin Charlie 'Big Buck' Rabinowitz owned Big Bucks Casino. It is said much of Spanky's campaign money came from the take here.`,
   notes: 'Located on top of the casino building 120 yards due east of Meteor Do.',

@@ -8,6 +8,7 @@ export const Trendsetter: BadgeData = {
     { value: 'Trendsetter' },
     { alignment: 'praetorian', value: 'Renowned' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'People look to you as a leader.' },

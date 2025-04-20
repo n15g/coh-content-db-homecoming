@@ -5,6 +5,7 @@ export const Tenacious: BadgeData = {
   key: 'tenacious',
   setTitleId: [1608],
   name: 'Tenacious',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `When you are focused on your goal, nothing can get in your way. You have attained eighty-seven Veteran levels.`,
   acquisition: 'Reach Veteran level 87.',

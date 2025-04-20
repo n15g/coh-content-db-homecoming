@@ -5,6 +5,7 @@ export const Unconcerned: BadgeData = {
   key: 'unconcerned',
   setTitleId: [2381],
   name: 'Unconcerned',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: 'Your skill and ability is recognized far and wide, but you appear quite indifferent.',
   acquisition: 'Reject 100 inspiration drops.',

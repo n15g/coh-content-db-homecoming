@@ -6,6 +6,7 @@ export const CarpingTheDiem: BadgeData = {
   key: 'carping-the-diem',
   setTitleId: [1499],
   name: 'Carping the Diem',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The Carpe Diem is the Family's 'flagship' for various overseas deals that they make. The ship is periodically grounded to deal with troublesome Scrapyarders.`,
   notes: `Located in the Port Recluse neighborhood, in front of the cabin door of the ship in dry dock, 412 yards northwest of the neighborhood marker.`,

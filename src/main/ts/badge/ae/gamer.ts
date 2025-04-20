@@ -5,6 +5,7 @@ export const Gamer: BadgeData = {
   key: 'gamer',
   setTitleId: [1106],
   name: 'Gamer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've experienced your first player created story arc in the Mission Architect.`,
   acquisition: 'Play one Mission Architect story arc.',

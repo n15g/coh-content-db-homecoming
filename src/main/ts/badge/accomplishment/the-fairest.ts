@@ -9,6 +9,7 @@ export const TheFairest: BadgeData = {
     { alignment: 'hero', value: 'The Fairest' },
     { alignment: 'villain', value: 'Turf Protector' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `Working with the government and your mirror self from another dimension, you stopped your evil doppelganger's plans to cause chaos and destruction throughout Paragon.` },

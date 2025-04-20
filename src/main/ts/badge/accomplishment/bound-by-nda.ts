@@ -9,6 +9,7 @@ export const BoundByNDA: BadgeData = {
     { alignment: 'hero', value: 'Bound by NDA' },
     { alignment: 'villain', value: `Crey's Dirty Secret` },
   ],
+  releaseDate: '2024-11-19',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You were successful in exposing ---- ---------- for having stolen ------- ---- from ---- ----- and using it to ---- ----- --- ------. You just can't legally talk about it.` },

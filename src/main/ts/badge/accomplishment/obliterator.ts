@@ -18,6 +18,7 @@ export const Obliterator: BadgeData = {
   key: 'obliterator',
   setTitleId: [2347],
   name: 'Obliterator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You joined the Praetorian Resistance in their efforts to do whatever it takes to bring down Emperor Cole.`,
   acquisition: 'Complete every story arc in the Praetorian [Crusader Storyline](https://homecoming.wiki/wiki/Crusader_Storyline).',

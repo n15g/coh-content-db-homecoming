@@ -7,6 +7,7 @@ export const JailBird: BadgeData = {
   key: 'jail-bird',
   setTitleId: [437],
   name: 'Jail Bird',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `It is rumored around the Zig that the Bug Man escaped from this location.`,
   notes: `Located in The Zig, inside the final cell on the right at the top floor of the cell block.

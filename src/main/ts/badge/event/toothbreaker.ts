@@ -7,6 +7,7 @@ export const Toothbreaker: BadgeData = {
   key: 'toothbreaker',
   setTitleId: [528],
   name: 'Toothbreaker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated Snaptooth 5 times, and are truly a Toothbreaker.',
   acquisition: 'Defeat Snaptooth 5 times.',

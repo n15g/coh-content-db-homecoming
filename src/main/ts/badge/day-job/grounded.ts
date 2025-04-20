@@ -8,6 +8,7 @@ export const Grounded: BadgeData = {
     { alignment: 'hero', value: 'Grounded' },
     { alignment: 'villain', value: 'Pilot' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'Arachnos is more likely to pound you into dust than let you near one of their fliers. And your license is no good in Paragon City, it seems.' },

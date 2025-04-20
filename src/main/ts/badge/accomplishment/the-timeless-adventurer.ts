@@ -6,6 +6,7 @@ export const TheTimelessAdventurer: BadgeData = {
   key: 'the-timeless-adventurer',
   setTitleId: [2192],
   name: 'The Timeless Adventurer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You travelled back to Cimerora and saved their civilization from certain destruction by the Talons of Vengeance, though you wonder if you only prolonged the inevitable, given that Cimerora is a lost civilization.',
   links: [

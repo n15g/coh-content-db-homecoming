@@ -5,6 +5,7 @@ export const MadeAStand: BadgeData = {
   key: 'made-a-stand',
   setTitleId: [1446],
   name: 'Made a Stand',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your morality has been demonstrated to all, at least for today. You completed a Morality Mission to earn this badge.' },

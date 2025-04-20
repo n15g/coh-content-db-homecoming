@@ -6,6 +6,7 @@ export const UndergroundSeeker: BadgeData = {
   key: 'underground-seeker',
   setTitleId: [1995],
   name: 'Underground Seeker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Underground.',
   links: [

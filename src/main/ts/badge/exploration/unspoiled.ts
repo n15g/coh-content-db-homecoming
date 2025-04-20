@@ -6,6 +6,7 @@ export const Unspoiled: BadgeData = {
   key: 'unspoiled',
   setTitleId: [141],
   name: 'Unspoiled',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The beauty that is Eden Falls came at a terrible price.`,
   notes: `Located 105 yards south of The Cascades marker.`,

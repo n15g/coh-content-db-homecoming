@@ -5,6 +5,7 @@ export const Workaholic: BadgeData = {
   key: 'workaholic',
   setTitleId: [1314],
   name: 'Workaholic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've completed your first non-required mission objective in a Architect mission. Other heroes consider you a Workaholic.` },

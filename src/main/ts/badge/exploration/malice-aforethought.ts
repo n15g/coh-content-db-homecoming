@@ -6,6 +6,7 @@ export const MaliceAforethought: BadgeData = {
   key: 'malice-aforethought',
   setTitleId: [1856],
   name: 'Malice Aforethought',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Everything about the Shadow Shard expresses the danger it represents to your home dimension.
 This is not some mere foreign power that can be reasoned with or with whom a peaceful settlement can be negotiated.

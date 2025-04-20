@@ -8,6 +8,7 @@ export const Businessman: BadgeData = {
     { sex: 'M', value: 'Businessman' },
     { sex: 'F', value: 'Businesswoman' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 4000 items on the Consignment House.` },

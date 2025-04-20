@@ -6,6 +6,7 @@ export const HeartOfHatred: BadgeData = {
   key: 'heart-of-hatred',
   setTitleId: [2193],
   name: 'Heart of Hatred',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You fought against Mot, the essence of hatred, and managed to win, saving the world from being devoured whole by the creature.',
   links: [

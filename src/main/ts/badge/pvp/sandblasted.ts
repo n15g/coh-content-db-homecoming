@@ -6,6 +6,7 @@ export const Sandblasted: BadgeData = {
   key: 'sandblasted',
   setTitleId: [583],
   name: 'Sandblasted',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have helped defeat Scirocco in Recluse's Victory.`,
   acquisition: `Defeat Scirocco in ${zoneLink(ReclusesVictory)}.`,

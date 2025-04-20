@@ -6,6 +6,7 @@ export const TheDeterminedMentor: BadgeData = {
   key: 'the-determined-mentor',
   setTitleId: [2189],
   name: 'The Determined Mentor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Ice Mistral was absorbed by Mot, but you were able to save Scirocco from the creature known as the Sentinel. Scirocco has pledged to not rest until he rescues Ice Mistral from the maw of Mot.',
   links: [

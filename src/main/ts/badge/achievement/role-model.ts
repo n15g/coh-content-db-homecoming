@@ -8,6 +8,7 @@ export const RoleModel: BadgeData = {
     { value: 'Role Model' },
     { alignment: 'praetorian', value: 'Dean of Hard Knocks' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You are looked at as a Role Model to the newest generation of Heroes.' },

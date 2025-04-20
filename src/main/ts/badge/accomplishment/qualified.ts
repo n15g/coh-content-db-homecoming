@@ -5,6 +5,7 @@ export const Qualified: BadgeData = {
   key: 'qualified',
   setTitleId: [965],
   name: 'Qualified',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Good run, but try harder, better times can be had!',
   acquisition: 'Complete a ski run on the Expert slope in under 45 seconds during a Winter event.',

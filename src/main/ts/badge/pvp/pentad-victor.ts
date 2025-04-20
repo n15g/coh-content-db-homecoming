@@ -5,6 +5,7 @@ export const PentadVictor: BadgeData = {
   key: 'pentad-victor',
   setTitleId: [1356],
   name: 'Pentad Victor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've won your first Pentad or Septad match, you're considered a Pentad Victor.`,
   acquisition: 'Win a rated or unrated Pentad or Septad match in the Arena.',

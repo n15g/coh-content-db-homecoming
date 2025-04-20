@@ -5,6 +5,7 @@ export const ArenaDuelist: BadgeData = {
   key: 'arena-duelist',
   setTitleId: [1341],
   name: 'Arena Duelist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've won your first Arena Duel match, you're considered an Arena Duelist.`,
   acquisition: 'Win a rated or unrated Duel match in the Arena.',

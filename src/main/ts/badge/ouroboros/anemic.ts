@@ -5,6 +5,7 @@ export const Anemic: BadgeData = {
   key: 'anemic',
   setTitleId: [927],
   name: 'Anemic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while not gaining bonuses from slotted Enhancements.` },

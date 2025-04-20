@@ -6,6 +6,7 @@ export const VampyriWatcher: BadgeData = {
   key: 'vampyri-watcher',
   setTitleId: [1790],
   name: 'Vampyri Watcher',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Council's Vampyri corps are a breed apart from the rest of the Council's cadre—both in appearance and temperament.
 They hold themselves above their brethren and have taken this high hilltop as their own private roost,

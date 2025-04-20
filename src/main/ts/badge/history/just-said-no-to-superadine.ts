@@ -10,6 +10,7 @@ export const JustSaidNoToSuperadine: BadgeData = {
   key: 'just-said-no-to-superadine',
   setTitleId: [152],
   name: 'Just Said No to Superadine',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of Superadine, the newest designer drug to plague Paragon City.`,
   links: [

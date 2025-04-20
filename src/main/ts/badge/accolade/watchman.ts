@@ -11,6 +11,7 @@ export const Watchman: BadgeData = {
     { sex: 'M', value: 'Watchman' },
     { sex: 'F', value: 'Watchwoman' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have defended Paragon City from the invading Rikti!` },

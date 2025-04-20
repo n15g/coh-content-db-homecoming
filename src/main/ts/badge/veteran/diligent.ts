@@ -5,6 +5,7 @@ export const Diligent: BadgeData = {
   key: 'diligent',
   setTitleId: [1611],
   name: 'Diligent',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `It's safe to say Paragon City would not be the same if it weren't for your tireless efforts. You have attained ninety-three Veteran levels.` },

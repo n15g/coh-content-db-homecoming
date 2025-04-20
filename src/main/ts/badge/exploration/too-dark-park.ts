@@ -6,6 +6,7 @@ export const TooDarkPark: BadgeData = {
   key: 'too-dark-park',
   setTitleId: [1783],
   name: 'Too Dark Park',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `In a far corner of the district lies McCraughly Park, a shadowy strip of green that had a dark reputation even before Astoria and its citizens were consumed by evil.
 Clusters of suicides, strange disappearances, and even a well-publicized multiple murder cast a dark shadow across the park.

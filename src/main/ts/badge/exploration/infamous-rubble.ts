@@ -6,6 +6,7 @@ export const InfamousRubble: BadgeData = {
   key: 'infamous-rubble',
   setTitleId: [1507],
   name: 'Infamous Rubble',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This pile of rubble used to be one of the largest skyscrapers within St. Martial.
 When the Wailers appeared, a huge battle broke out among Wailers, Arachnos and the Family, which led to the utter destruction of this building and the spread of Wailers into St. Martial.`,

@@ -5,6 +5,7 @@ export const DenialOfService: BadgeData = {
   key: 'denial-of-service',
   setTitleId: [1421],
   name: 'Denial of Service',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You crept a bit too close to the danger zone and got burned.',
   acquisition: 'Attempt to penetrate the sonic barrier surrounding the Praetorian zones.',

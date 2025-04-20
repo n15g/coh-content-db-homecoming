@@ -5,6 +5,7 @@ export const Addicted: BadgeData = {
   key: 'addicted',
   setTitleId: [635],
   name: 'Addicted',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Despite your trials and long-standing experience, you are still around fighting the good fight. You have attained thirty-six Veteran levels.` },

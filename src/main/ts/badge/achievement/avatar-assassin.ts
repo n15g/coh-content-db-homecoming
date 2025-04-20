@@ -5,6 +5,7 @@ export const AvatarAssassin: BadgeData = {
   key: 'avatar-assassin',
   setTitleId: [1999],
   name: 'Avatar Assassin',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You took a risk and managed to defeat the Avatar of Hamidon in the Underground at the same time a Detonating Seedling was about to go off.',
   acquisition: 'Defeat the Avatar of Hamidon at the same time as a Detonating Seedling in The Underground Trial.',

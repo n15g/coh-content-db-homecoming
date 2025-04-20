@@ -6,6 +6,7 @@ export const PariahAnchorite: BadgeData = {
   key: 'pariah-anchorite',
   setTitleId: [499],
   name: 'Pariah Anchorite',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Now the Lost fear your power!',
   links: [

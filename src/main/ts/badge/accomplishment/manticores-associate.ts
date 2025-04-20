@@ -9,6 +9,7 @@ export const ManticoresAssociate: BadgeData = {
     { alignment: 'hero', value: `Manticore's Associate` },
     { alignment: 'villain', value: `Manticore's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Manticore was proud to present you with this medal, in recognition of the valor and honor you showed while helping him.' },

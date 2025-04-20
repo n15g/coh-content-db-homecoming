@@ -8,6 +8,7 @@ export const Deathless: BadgeData = {
     { value: 'Deathless' },
     { alignment: 'praetorian', value: 'Impulsive' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have proven that you are Deathless in your pursuit against evil.' },

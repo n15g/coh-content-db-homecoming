@@ -6,6 +6,7 @@ export const TheShadowOutOfTime: BadgeData = {
   key: 'the-shadow-out-of-time',
   setTitleId: [2494],
   name: 'The Shadow Out Of Time',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `This small trinket was fashioned for you in gratitude by a Cimeroran blacksmith.
 Within it spins a fragment of the First Cyst, purged of its evil by the Midnighters and purified by the waters of Phoebas Point.

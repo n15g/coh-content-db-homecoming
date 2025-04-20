@@ -10,6 +10,7 @@ export const PositronsAlly: BadgeData = {
     { alignment: 'hero', value: `Positron's Ally` },
     { alignment: 'villain', value: `Positron's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Positron has awarded you this medal in recognition of services performed for him.' },

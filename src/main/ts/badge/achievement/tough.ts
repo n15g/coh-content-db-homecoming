@@ -9,6 +9,7 @@ export const Tough: BadgeData = {
     { alignment: 'villain', value: 'Stoic' },
     { alignment: 'praetorian', value: 'Slammer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have endured one hundred thousand points of damage and are still dauntless in your pursuit of justice.` },

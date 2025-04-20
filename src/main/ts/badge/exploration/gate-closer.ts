@@ -10,6 +10,7 @@ export const GateCloser: BadgeData = {
     { alignment: 'hero', value: 'Gate Closer' },
     { alignment: 'villain', value: 'Gate Crasher' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You'd hate to have to defend Portal Corps from the Arachnos Flyer should it ever return to Peregrine Island.` },

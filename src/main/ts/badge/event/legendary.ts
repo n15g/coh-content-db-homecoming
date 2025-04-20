@@ -6,6 +6,7 @@ export const Legendary: BadgeData = {
   key: 'legendary',
   setTitleId: [2460],
   name: 'Legendary',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'You have helped celebrate the 17th anniversary of City of Heroes.',
   acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,

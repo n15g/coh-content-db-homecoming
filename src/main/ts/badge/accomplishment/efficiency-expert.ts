@@ -11,6 +11,7 @@ export const EfficiencyExpert: BadgeData = {
   key: 'efficiency-expert',
   setTitleId: [346],
   name: 'Efficiency Expert',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have proven yourself efficient by succeeding at all of Mr. Pither's timed tasks.`,
   acquisition: `Complete all of ${contactLink(EfficiencyExpertPither)}'s timed missions within the time limit.`,

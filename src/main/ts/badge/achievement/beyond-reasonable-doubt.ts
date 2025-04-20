@@ -6,6 +6,7 @@ export const BeyondReasonableDoubt: BadgeData = {
   key: 'beyond-reasonable-doubt',
   setTitleId: [2408],
   name: 'Beyond Reasonable Doubt',
+  releaseDate: '2019-06-01',
   morality: 'heroic',
   badgeText: 'It is better that ten guilty persons escape than that one innocent suffer.',
   acquisition: `Kill Rider in the ${missionLink(DirtyWork)} story arc.`,

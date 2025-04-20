@@ -9,6 +9,7 @@ export const Collector: BadgeData = {
     { alignment: 'villain', value: 'Native' },
     { alignment: 'praetorian', value: 'Extractor of Secrets' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have collected 25 badges.' },

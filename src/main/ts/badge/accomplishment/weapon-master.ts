@@ -9,6 +9,7 @@ export const WeaponMaster: BadgeData = {
     { sex: 'M', value: 'Weapon Master' },
     { sex: 'F', value: 'Warrior Princess' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You repelled the initial Praetorian invasion forces from Primal Earth and saved what remained of Blyde Square from Battle Maiden!`,
   links: [

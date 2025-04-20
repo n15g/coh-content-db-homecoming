@@ -5,6 +5,7 @@ export const WalkingThePath: BadgeData = {
   key: 'walking-the-path',
   setTitleId: [1424],
   name: 'Walking the Path',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You strove for what you believe in and, against all odds, came out on top. You've earned the Walking the Path badge by completing your first Alignment Mission.`,
   acquisition: 'Complete an alignment mission.',

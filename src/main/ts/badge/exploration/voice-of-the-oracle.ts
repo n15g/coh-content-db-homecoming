@@ -6,6 +6,7 @@ export const VoiceOfTheOracle: BadgeData = {
   key: 'voice-of-the-oracle',
   setTitleId: [2464],
   name: 'Voice of the Oracle',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `Positioned toward the eastern sun from which it draws its power, the Altar of Phoebas is one of the most important monuments within Cimerora.
 The Oracle of the Seers has relied on its continued guidance in order to steer Cimerora through many of its darkest hours.`,

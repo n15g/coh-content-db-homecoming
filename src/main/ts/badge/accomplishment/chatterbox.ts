@@ -11,6 +11,7 @@ export const Chatterbox: BadgeData = {
   key: 'chatterbox',
   setTitleId: [2263],
   name: 'Chatterbox',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You were sent in to handle things on Refugee Island, but you decided to catch up with some old friends from ${zoneLink(FirstWard)}.`,
   acquisition: `Speak to ${contactLink(Nadia)}, ${contactLink(BlindMakwa)}, ${contactLink(Palatine)} and ${contactLink(KatieDouglas)} from First Ward in the "Refugees" mission of the ${missionLink(ANewDimensionANewTeam)} story arc.`,

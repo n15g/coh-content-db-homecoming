@@ -8,6 +8,7 @@ export const TriedAndTrue: BadgeData = {
   key: 'tried-and-true',
   setTitleId: [2370],
   name: 'Tried and True',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `When the Omega Team accepted their mission to the Rikti home dimension, they knew they likely wouldn't be coming back. You have protected their memorial through many trials, staying true to the end.`,
   acquisition: `Visit the Omega Team memorial plaques in ${zoneLink(AtlasPark)}, ${missionLink(OmegaTeamMemorial)} and the ${missionLink(DrKahnTaskForce)}.`,

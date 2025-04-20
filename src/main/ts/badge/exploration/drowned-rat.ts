@@ -6,6 +6,7 @@ export const DrownedRat: BadgeData = {
   key: 'drowned-rat',
   setTitleId: [637],
   name: 'Drowned Rat',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: [
     { alignment: 'hero', value: `The dam burst here due to exceptionally strong seismic activity.` },

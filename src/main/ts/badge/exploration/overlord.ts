@@ -6,6 +6,7 @@ export const Overlord: BadgeData = {
   key: 'overlord',
   setTitleId: [283],
   name: 'Overlord',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `You've visited the beach outside the Grandville city walls, where Lord Recluse viciously repelled an invasion of Longbow landing craft.`,
   notes: `Located in the Gutter neighborhood, outside the main walls.

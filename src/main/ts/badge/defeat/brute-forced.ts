@@ -5,6 +5,7 @@ export const BruteForced: BadgeData = {
   key: 'brute-forced',
   setTitleId: [2445],
   name: 'Brute Forced',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have brought eternal dishonor to Rularuu's Brutes by besting them in combat and tearing out their gems.`,
   acquisition: 'Defeat 500 points worth of Rularuu Brutes.',

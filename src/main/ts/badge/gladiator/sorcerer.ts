@@ -6,6 +6,7 @@ export const Sorcerer: BadgeData = {
   key: 'sorcerer',
   setTitleId: [470],
   name: 'Sorcerer',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The Tsoo are honored to serve you.',
   links: [

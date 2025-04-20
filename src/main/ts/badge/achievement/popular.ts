@@ -8,6 +8,7 @@ export const Popular: BadgeData = {
     { value: 'Popular' },
     { alignment: 'praetorian', value: 'Living Legend' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'The citizens of Paragon City have begun a petition to make a statue in your name.' },

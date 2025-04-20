@@ -8,6 +8,7 @@ export const MansBestFriend: BadgeData = {
     { sex: 'M', value: `Man's Best Friend` },
     { sex: 'F', value: `Woman's Best Friend` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You defeated Frank 'Hunnerd Yard' McCain within 10 seconds of defeating his dog, Killer.`,
   acquisition: `In the Summer Blockbuster, defeat Frank 'Hunnerd Yard' McCain within 10 seconds of defeating his dog, Killer.`,

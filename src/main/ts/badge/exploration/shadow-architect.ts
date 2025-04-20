@@ -6,6 +6,7 @@ export const ShadowArchitect: BadgeData = {
   key: 'shadow-architect',
   setTitleId: [1801],
   name: 'Shadow Architect',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Humanity is a creature who builds. It finds virgin territory and makes its mark. The Shadow Shard is no different.
 Even in the short time since it was discovered, a flood of construction material made its way through the dimensional membrane into the Shadow Shard and the building began.

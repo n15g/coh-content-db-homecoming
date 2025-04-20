@@ -6,6 +6,7 @@ export const CreyFish: BadgeData = {
   key: 'crey-fish',
   setTitleId: [140],
   name: 'Crey Fish',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Surprisingly it was the Devouring Earth, not Crey, that caused Woodvale to become the overrun Eden.`,
   notes: `Located 26 feet to the east of The Utopia Complex marker.`,

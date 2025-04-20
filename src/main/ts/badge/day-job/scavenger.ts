@@ -5,6 +5,7 @@ export const Scavenger: BadgeData = {
   key: 'scavenger',
   setTitleId: [2044],
   name: 'Scavenger',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your time spent scrounging in the wrecked city of First Ward has earned you the Scavenger Day Job.
 Logging out in First Ward will enable you to dig up extra Inspirations on mission complete for a short time after you log back in.`,

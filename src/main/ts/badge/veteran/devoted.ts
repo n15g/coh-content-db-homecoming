@@ -5,6 +5,7 @@ export const Devoted: BadgeData = {
   key: 'devoted',
   setTitleId: [631],
   name: 'Devoted',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Nobody can tear you and Paragon City apart. You have attained twenty-four Veteran levels.` },

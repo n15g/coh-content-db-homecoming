@@ -6,6 +6,7 @@ export const Unleasher: BadgeData = {
   key: 'unleasher',
   setTitleId: [181],
   name: 'Unleasher',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Kraken was unleashed, but your might has put it down for another day.',
   acquisition: `Defeat the Kraken, a monster that spawns in ${zoneLink(PerezPark)}.`,

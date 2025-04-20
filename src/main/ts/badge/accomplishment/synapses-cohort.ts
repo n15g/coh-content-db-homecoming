@@ -9,6 +9,7 @@ export const SynapsesCohort: BadgeData = {
     { alignment: 'hero', value: `Synapse's Cohort` },
     { alignment: 'villain', value: `Synapse's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Synapse has awarded you this medal in recognition of your defeat of the Clockwork King.' },

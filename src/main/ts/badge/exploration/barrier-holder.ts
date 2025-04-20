@@ -6,6 +6,7 @@ export const BarrierHolder: BadgeData = {
   key: 'barrier-holder',
   setTitleId: [1540],
   name: 'Barrier Holder',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Croatoa's own little Stonehenge has been the site of several battles against the supernatural powers who seek to consume this small town.
 Each attack has been foiled, though nearby residents still can't help but look at this site with some uneasiness.`,

@@ -6,6 +6,7 @@ export const MercyMissionary: BadgeData = {
   key: 'mercy-missionary',
   setTitleId: [1631],
   name: 'Mercy Missionary',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have visited the Behavioral Adjustment Facility to extend a helping hand to the lost souls housed within.
 It took great courage to enter this forbidden area, braving the sonic fence and the hordes of belligerent guards on your mission of mercy.`,

@@ -6,6 +6,7 @@ export const EggHunter: BadgeData = {
   key: 'egg-hunter',
   setTitleId: [639],
   name: 'Egg Hunter',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'Perseverance and downright determination brought you this badge. Only the most devout egg hunters will find this spot. Lucky you.',
   notes: `Located inside a small room under Freight Lift C.

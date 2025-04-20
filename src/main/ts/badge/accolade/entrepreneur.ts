@@ -10,6 +10,7 @@ export const Entrepreneur: BadgeData = {
     { alignment: 'hero', value: 'Entrepreneur' },
     { alignment: 'villain', value: 'Free Trade Advocate' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

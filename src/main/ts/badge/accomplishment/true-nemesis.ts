@@ -6,6 +6,7 @@ export const TrueNemesis: BadgeData = {
   key: 'true-nemesis',
   setTitleId: [2387],
   name: 'True Nemesis',
+  releaseDate: '2019-01-01',
   morality: 'heroic',
   badgeText: `You have stopped Nemesis Rex's incursion into Primal Earth.`,
   links: [

@@ -11,6 +11,7 @@ export const Headjuiced: BadgeData = {
   key: 'headjuiced',
   setTitleId: [1413],
   name: 'Headjuiced',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You followed all the fruity crumbs and peeped the 20 lessons brought to you by the letter 'Resistance.'
 Whether or not you chomp-a-chomp on this tasty knowing is up to you, but now you know it's time for the other half of the battle.`,

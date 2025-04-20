@@ -10,6 +10,7 @@ export const PortAuthority: BadgeData = {
   key: 'port-authority',
   setTitleId: [2374],
   name: 'Port Authority',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this accolade by completing every story arc within Striga Isle.`,
   acquisition: `Complete every story arc within ${zoneLink(StrigaIsle)}.`,

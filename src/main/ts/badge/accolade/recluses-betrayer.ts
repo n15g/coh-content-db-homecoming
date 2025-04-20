@@ -29,6 +29,7 @@ export const ReclusesBetrayer: BadgeData = {
     { alignment: 'hero', value: `Recluse's Betrayer` },
     { alignment: 'villain', value: `Recluse's Right Hand` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Lord Recluse was wrong to place his trust in you.` },

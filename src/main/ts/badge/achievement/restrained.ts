@@ -9,6 +9,7 @@ export const Restrained: BadgeData = {
     { alignment: 'villain', value: 'Slacker' },
     { alignment: 'praetorian', value: 'Waiting' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have been under the influence of restraining powers such as sleeps and holds for an inordinate amount of time.' },

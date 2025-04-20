@@ -6,6 +6,7 @@ export const JacksWrath: BadgeData = {
   key: 'jacks-wrath',
   setTitleId: [1542],
   name: `Jack's Wrath`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This path of destruction was made by Jack in Irons, who stormed all the way here from his throne deep in the forests of Croatoa.
 The witches of the Cabal were barely able to push Jack back, but not before he destroyed much of their territory.`,

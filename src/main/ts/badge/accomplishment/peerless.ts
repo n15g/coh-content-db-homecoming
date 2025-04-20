@@ -9,6 +9,7 @@ export const Peerless: BadgeData = {
     { alignment: 'hero', value: 'Peerless' },
     { alignment: 'villain', value: `Recluse's Rival` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have taken down Lord Recluse himself, something few others have been able to accomplish. One only hopes there is a prison strong enough to contain him.' },

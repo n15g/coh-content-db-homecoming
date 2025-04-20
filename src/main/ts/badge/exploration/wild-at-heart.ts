@@ -7,6 +7,7 @@ export const WildAtHeart: BadgeData = {
   key: 'wild-at-heart',
   setTitleId: [1850],
   name: 'Wild At Heart',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `In this quiet corner of the Hive, you get a sense of the age and power of the Devouring Earth.
 The forest around you feels ancient; you believe the reports that the fauna that spreads in the wake of the Devouring Earth advance are of a species that hasn't graced the planet since mankind's

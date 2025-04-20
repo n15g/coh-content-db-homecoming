@@ -6,6 +6,7 @@ export const VisionOfDespair: BadgeData = {
   key: 'vision-of-despair',
   setTitleId: [116],
   name: 'Vision of Despair',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'An unnatural feeling of dread permeates the area in what is now called the Pit of Despair.',
   notes: `Located in a dead-end pit 470 yards east of the Grenadier Village marker, between the Grenadier and Cannonade neighborhoods of Boomtown.

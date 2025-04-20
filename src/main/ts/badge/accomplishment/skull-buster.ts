@@ -6,6 +6,7 @@ export const SkullBuster: BadgeData = {
   key: 'skull-buster',
   setTitleId: [2316],
   name: 'Skull Buster',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You formed the New Regulators and put a stop to the Skulls' Superadine Ring in Kings Row. You destroyed their lab and put one of The Petrovic Brothers behind bars, leaving the Skulls scattered and weakened.`,
   links: [

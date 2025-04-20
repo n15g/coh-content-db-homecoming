@@ -5,6 +5,7 @@ export const Perpetual: BadgeData = {
   key: 'perpetual',
   setTitleId: [784],
   name: 'Perpetual',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Endurance Modification and Endurance Reduction.',
   effect: 'Awards +1 to Recipe capacity.',

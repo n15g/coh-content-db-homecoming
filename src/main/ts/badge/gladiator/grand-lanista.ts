@@ -5,6 +5,7 @@ export const GrandLanista: BadgeData = {
   key: 'grand-lanista',
   setTitleId: [474],
   name: 'Grand Lanista',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Continued success has earned you fame as a manager of gladiators.' },

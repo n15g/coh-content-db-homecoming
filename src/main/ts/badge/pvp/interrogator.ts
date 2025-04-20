@@ -6,6 +6,7 @@ export const Interrogator: BadgeData = {
   key: 'interrogator',
   setTitleId: [577],
   name: 'Interrogator',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have helped defeat Penelope Yin in Recluse's Victory.`,
   acquisition: `Defeat Penelope Yin in ${zoneLink(ReclusesVictory)}.`,

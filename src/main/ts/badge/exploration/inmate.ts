@@ -6,6 +6,7 @@ export const Inmate: BadgeData = {
   key: 'inmate',
   setTitleId: [137],
   name: 'Inmate',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Zigursky Penitentiary is where all criminals both mundane and super-powered end up.`,
   notes: `Located in The Ziggurat neighborhood, at the front entrance of the Zigursky Penitentiary on the west side of the structure.`,

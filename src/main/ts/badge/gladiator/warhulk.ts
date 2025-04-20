@@ -6,6 +6,7 @@ export const Warhulk: BadgeData = {
   key: 'warhulk',
   setTitleId: [502],
   name: 'Warhulk',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Warhulks will fight as your gladiators -- for now.',
   links: [

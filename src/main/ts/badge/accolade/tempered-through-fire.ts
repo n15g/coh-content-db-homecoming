@@ -12,6 +12,7 @@ export const TemperedThroughFire: BadgeData = {
   key: 'tempered-through-fire',
   setTitleId: [2212],
   name: 'Tempered Through Fire',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Through fire and flame your resolve has been tempered like finely forged steel.',
   links: [

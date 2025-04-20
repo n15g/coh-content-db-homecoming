@@ -6,6 +6,7 @@ export const TheLastWord: BadgeData = {
   key: 'the-last-word',
   setTitleId: [2064],
   name: 'The Last Word',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `A land of notable Firsts and Lasts, the First Ward of Praetoria is flooded not only with mire, magic, and mayhem, but also memorials to its history. You have encountered them all, earning this badge.`,
   links: [

@@ -6,6 +6,7 @@ export const BigSpider: BadgeData = {
   key: 'big-spider',
   setTitleId: [1488],
   name: 'Big Spider',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This towering skyscraper used to belong to the Marcones before Arachnos seized it for the purpose of "overseeing operations in Port Oakes." The Marcones have been bitter about it ever since.`,
   notes: `Located in the Marconeville neighborhood, at the base of the stairs in front of the Supergroup building, 54 yards north of the neighborhood marker.`,

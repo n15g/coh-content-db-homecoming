@@ -6,6 +6,7 @@ export const OnTheWaterfront: BadgeData = {
   key: 'on-the-waterfront',
   setTitleId: [1594],
   name: 'On the Waterfront',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Many retreat to the quiet of the waterfront to get away from the hustle and bustle of the Magisterium.`,
   notes: `Located on the lower ledge along the river, 211 yards south of Underground Access B.`,

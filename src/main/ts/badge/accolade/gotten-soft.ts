@@ -15,6 +15,7 @@ export const GottenSoft: BadgeData = {
     { alignment: 'hero', value: 'Gotten Soft' },
     { alignment: 'villain', value: 'High Pain Threshold' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You once had a incredibly High Pain Threshold, but it seems you've grown a little soft after coming to Paragon City.` },

@@ -5,6 +5,7 @@ export const CouldntCareLess: BadgeData = {
   key: 'couldnt-care-less',
   setTitleId: [2383],
   name: `Couldn't Care Less`,
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `No matter how amazing, stunning or incredible your actions, nothing seems to inspire you.`,
   acquisition: 'Reject 1000 inspiration drops.',

@@ -6,6 +6,7 @@ export const Ghoulish: BadgeData = {
   key: 'ghoulish',
   setTitleId: [258],
   name: 'Ghoulish',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The shards must be vibrating the very bones of the graves. You are almost sure you can hear scratching and clawing from the inside of the mausoleums.',
   notes: `Located 185 yards east and slightly north of the Ground Zero neighborhood inside a small building with a tunnel through it over the stone walkway.`,

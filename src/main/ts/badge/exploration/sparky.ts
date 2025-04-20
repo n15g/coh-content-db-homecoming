@@ -6,6 +6,7 @@ export const Sparky: BadgeData = {
   key: 'sparky',
   setTitleId: [269],
   name: 'Sparky',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `You've spent time wandering around in the Power Transport System at Mount Diable.`,
   notes: `Located in the Power Transport System station in the Mount Diable neighborhood.

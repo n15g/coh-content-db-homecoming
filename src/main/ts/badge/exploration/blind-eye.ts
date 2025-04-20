@@ -6,6 +6,7 @@ export const BlindEye: BadgeData = {
   key: 'blind-eye',
   setTitleId: [1502],
   name: 'Blind Eye',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Longbow uses these state-of-the-art facilities to perform experiments on a small group of monsters they encounter.
 Longbow policy dictates that they turn their charges in to the proper authorities back in Paragon, but Agincourt officials routinely turn a blind eye to this facility's activities.`,

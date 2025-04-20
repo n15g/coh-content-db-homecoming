@@ -6,6 +6,7 @@ export const KeeperOfCoralLore: BadgeData = {
   key: 'keeper-of-coral-lore',
   setTitleId: [1894],
   name: 'Keeper of Coral Lore',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've discovered the secret to the Blood Coral and the ancient power of the slumbering Leviathan.`,
   links: [

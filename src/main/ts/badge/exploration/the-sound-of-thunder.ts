@@ -7,6 +7,7 @@ export const TheSoundOfThunder: BadgeData = {
   key: 'the-sound-of-thunder',
   setTitleId: [1852],
   name: 'The Sound of Thunder',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Devouring Earth have gathered here in force, their stomping legs echoing off the distant hillsides like the thunder of angry gods.
 The closer your approach, the more excited they seem to grow and the louder their roars and pounding feet become, creating a deafening racket that makes even shouted speech nearly impossible to hear.`,

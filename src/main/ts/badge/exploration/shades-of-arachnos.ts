@@ -6,6 +6,7 @@ export const ShadesOfArachnos: BadgeData = {
   key: 'shades-of-arachnos',
   setTitleId: [1576],
   name: 'Shades of Arachnos',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You could swear that you just saw a submarine off the coast of this island...but it's gone now. It was probably just your imagination.`,
   notes: `Located in the Cutlass Isles neighborhood, on the northeast shore of the small northernmost island.`,

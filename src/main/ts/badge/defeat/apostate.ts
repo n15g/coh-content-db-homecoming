@@ -5,6 +5,7 @@ export const Apostate: BadgeData = {
   key: 'apostate',
   setTitleId: [2170],
   name: 'Apostate',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defied an entire pantheon by smashing the implements of their vile will.',
   acquisition: 'Defeat 100 points worth of Incarnate-level Banished Pantheon.',

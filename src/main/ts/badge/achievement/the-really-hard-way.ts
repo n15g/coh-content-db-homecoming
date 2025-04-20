@@ -5,6 +5,7 @@ export const TheReallyHardWay: BadgeData = {
   key: 'the-really-hard-way',
   setTitleId: [2238],
   name: 'The Really Hard Way',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have accomplished that which was seemingly impossible - defeating the champion of the Well of the Furies while he was at his full power!
 Congratulations to you - you are one of the strongest superpowered beings ever to walk the multiverse.`,

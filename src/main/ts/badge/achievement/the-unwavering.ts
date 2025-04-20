@@ -9,6 +9,7 @@ export const TheUnwavering: BadgeData = {
     { alignment: 'villain', value: 'Punch Drunk' },
     { alignment: 'praetorian', value: 'Repaired' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Though you have been defeated, you continue to fight for Paragon City.' },

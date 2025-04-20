@@ -6,6 +6,7 @@ export const RedFog: BadgeData = {
   key: 'red-fog',
   setTitleId: [1819],
   name: 'Red Fog',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have been manipulated by this place. It has played you like a well-tuned instrument.
 It has fed you lies and thrown your shortcomings at your face. This place, by its very existence, mocks you and your attempts to understand it.

@@ -5,6 +5,7 @@ export const Arriviste: BadgeData = {
   key: 'arriviste',
   setTitleId: [1771],
   name: 'Arriviste',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'Selling the Malleus Mundi to the highest bidder is a choice that may come back to haunt you.' },

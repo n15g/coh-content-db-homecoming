@@ -5,6 +5,7 @@ export const TelevisionAddict: BadgeData = {
   key: 'television-addict',
   setTitleId: [2075],
   name: 'Television Addict',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `During the raid on TPN Campus, H.D. offered you his assistance in delivering the truth to the world, with only his protection as his price.
 You accepted his bargain and delivered far better than would be expected with the IDF swarming the facility, thus ensuring that H.D. had the greatest chance to deliver your message with no interference.`,

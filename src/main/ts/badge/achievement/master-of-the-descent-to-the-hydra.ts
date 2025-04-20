@@ -5,6 +5,7 @@ export const MasterOfTheDescentToTheHydra: BadgeData = {
   key: 'master-of-the-descent-to-the-hydra',
   setTitleId: [2490],
   name: 'Master of the Descent to the Hydra',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: 'You have proven yourself Master of the Descent to the Hydra Trial.',
   acquisition: `Complete the Master of the Descent to the Hydra challenge (zero defeats, temporary and incarnate powers disabled).`,

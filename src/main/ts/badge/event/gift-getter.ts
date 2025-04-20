@@ -5,6 +5,7 @@ export const GiftGetter: BadgeData = {
   key: 'gift-getter',
   setTitleId: [2089],
   name: 'Gift Getter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've received a copy of the mysterious Duplicating Gift from another! Don't forget to pass it on!`,
   acquisition: `Receive a Duplicating Gift from another player when you don't already have one during the Winter event.`,

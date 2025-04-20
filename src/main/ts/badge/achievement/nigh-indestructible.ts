@@ -8,6 +8,7 @@ export const NighIndestructible: BadgeData = {
     { value: 'Nigh Indestructible' },
     { alignment: 'praetorian', value: 'Concussed' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'You have proven yourself Indestructible. You have survived twenty five million points of damage.' },

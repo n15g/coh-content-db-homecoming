@@ -6,6 +6,7 @@ export const SecretPrisoner: BadgeData = {
   key: 'secret-prisoner',
   setTitleId: [1640],
   name: 'Secret Prisoner',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have found one of the most forbidden of places in Praetoria: the secret interrogation chamber beneath the PPD Precinct where the officers take the most recalcitrant prisoners for enhanced interrogations.`,
   notes: `The Secret Prisoner Badge has two locations in ${zoneLink(UndergroundNova)}:

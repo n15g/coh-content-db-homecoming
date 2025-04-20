@@ -8,6 +8,7 @@ export const CreyTestSubject: BadgeData = {
     { alignment: 'hero', value: 'Crey Test Subject' },
     { alignment: 'villain', value: 'Crey Employee' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'Your utility to Crey Industries is now limited to your tolerance for experimental treatments.' },

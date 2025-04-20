@@ -5,6 +5,7 @@ export const Energized: BadgeData = {
   key: 'energized',
   setTitleId: [1206],
   name: 'Energized',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've earned your first Inspiration while playing an Architect Mission, earning yourself the Energized badge.`,
   acquisition: 'Earn one inspiration drop while playing a published Mission Architect mission.',

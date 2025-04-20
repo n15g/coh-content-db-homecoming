@@ -6,6 +6,7 @@ export const ForwardThinker: BadgeData = {
   key: 'forward-thinker',
   setTitleId: [1567],
   name: 'Forward Thinker',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Mashu bridge was built in Brickstown long before construction on the Zig began.
 Traffic was heavy in Brickstown, causing a need for this bridge to be constructed.

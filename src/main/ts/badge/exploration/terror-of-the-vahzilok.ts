@@ -9,6 +9,7 @@ export const TerrorOfTheVahzilok: BadgeData = {
   key: 'terror-of-the-vahzilok',
   setTitleId: [1835],
   name: 'Terror of the Vahzilok',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `They hunt the innocent and violate the dead.
 They are the name used by mothers to terrify misbehaving children.

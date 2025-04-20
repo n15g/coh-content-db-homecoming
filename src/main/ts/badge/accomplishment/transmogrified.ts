@@ -5,6 +5,7 @@ export const Transmogrified: BadgeData = {
   key: 'transmogrified',
   setTitleId: [67],
   name: 'Transmogrified',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have succeeded in preventing the destruction of the Terra Volta reactor... but at what price?`,
   acquisition: 'Complete the Terra Volta respec trial and choose the respec reward for the first time.',

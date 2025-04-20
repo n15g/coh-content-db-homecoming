@@ -5,6 +5,7 @@ export const ReaperOfSouls: BadgeData = {
   key: 'reaper-of-souls',
   setTitleId: [2507],
   name: 'Reaper of Souls',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have defeated 5 hollow reapers, the highest ranking members of the Unseelie Court who invade our world when the spirit realm is at its closest.`,
   acquisition: `Defeat 5 Hollow Reapers during the Halloween event.`,

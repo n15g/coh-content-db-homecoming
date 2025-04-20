@@ -7,6 +7,7 @@ export const Clockstopper: BadgeData = {
   key: 'clockstopper',
   setTitleId: [32],
   name: 'Clockstopper',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have defeated Babbage, one of the greatest works of the Clockwork King.',
   acquisition: `Defeat Babbage, a monster that spawns in ${zoneLink(Boomtown)} or in an ambush in the ${contactLink(Synapse)} Task Force.`,

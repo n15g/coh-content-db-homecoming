@@ -5,6 +5,7 @@ export const Vendor: BadgeData = {
   key: 'vendor',
   setTitleId: [810],
   name: 'Vendor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've sold 10 items on the Consignment House.` },

@@ -5,6 +5,7 @@ export const Packrat: BadgeData = {
   key: 'packrat',
   setTitleId: [2365],
   name: 'Packrat',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The more souvenirs you gather, the more you want. This is starting to become an obsession.`,
   acquisition: 'Collect 100 Souvenirs.',

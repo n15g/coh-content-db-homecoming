@@ -9,6 +9,7 @@ export const Tourist: BadgeData = {
     { alignment: 'villain', value: 'Visitor' },
     { alignment: 'praetorian', value: 'Lead-Follower' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have earned 10 badges. You are officially a tourist in Paragon City.' },

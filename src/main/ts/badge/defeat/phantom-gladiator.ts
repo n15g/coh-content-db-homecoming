@@ -5,6 +5,7 @@ export const PhantomGladiator: BadgeData = {
   key: 'phantom-gladiator',
   setTitleId: [2540],
   name: 'Phantom Gladiator',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `The Labyrinth's Gladiators In The Fog are a curious phenomenon.
 This legion of immortal warriors compete in an eternal blood sport to determine who is the strongest amongst them, but not one was found worthy of taking you down.`,

@@ -5,6 +5,7 @@ export const MuGuardian: BadgeData = {
   key: 'mu-guardian',
   setTitleId: [442],
   name: 'Mu Guardian',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'These mystics are intrigued by you.',
   acquisition: 'Defeat 100 Mu Guardians.',

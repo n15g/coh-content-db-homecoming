@@ -6,6 +6,7 @@ export const SkyChaser: BadgeData = {
   key: 'sky-chaser',
   setTitleId: [1496],
   name: 'Sky Chaser',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The Sky Raiders use this as one of their main bases.
 Some say that they received funding from Arachnos to build the base in Sharkhead, perhaps to serve as a balance against the Council base nearby.`,

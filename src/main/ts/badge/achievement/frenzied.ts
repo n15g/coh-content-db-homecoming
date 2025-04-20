@@ -5,6 +5,7 @@ export const Frenzied: BadgeData = {
   key: 'frenzied',
   setTitleId: [1457],
   name: 'Frenzied',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You completed a Villain Morality Mission and then maintained your Villain alignment for 7 days earning yourself this badge.',
   acquisition: 'Maintain a Villain alignment for 7 days.',

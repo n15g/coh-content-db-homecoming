@@ -5,6 +5,7 @@ export const Monkeywrencher: BadgeData = {
   key: 'monkeywrencher',
   setTitleId: [59],
   name: 'Monkeywrencher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have crushed Malta's Zeus Titans, the combination of two damaged Hercules Titan robots.`,
   acquisition: 'Defeat 50 Malta Group Zeus Titan robots.',

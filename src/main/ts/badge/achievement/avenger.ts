@@ -7,6 +7,7 @@ export const Avenger: BadgeData = {
   key: 'avenger',
   setTitleId: [2407],
   name: 'Avenger',
+  releaseDate: '2019-06-01',
   morality: 'heroic',
   badgeText: 'When the law fails to serve us, we must serve as the law.',
   acquisition: `Kill Rider in the story arc 'Dirty Work' from ${contactLink(ShaunaBraun)}.`,

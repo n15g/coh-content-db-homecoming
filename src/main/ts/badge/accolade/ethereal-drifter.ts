@@ -13,6 +13,7 @@ export const EtherealDrifter: BadgeData = {
   key: 'ethereal-drifter',
   setTitleId: [2234],
   name: 'Ethereal Drifter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Night Ward`,
   links: [

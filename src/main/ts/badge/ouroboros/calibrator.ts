@@ -6,6 +6,7 @@ export const Calibrator: BadgeData = {
   key: 'calibrator',
   setTitleId: [936],
   name: 'Calibrator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 15 story arcs.',
   acquisition: `Complete 15 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

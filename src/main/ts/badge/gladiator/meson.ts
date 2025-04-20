@@ -6,6 +6,7 @@ export const Meson: BadgeData = {
   key: 'meson',
   setTitleId: [505],
   name: 'Meson',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'This mighty foe is under your control.',
   links: [

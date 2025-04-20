@@ -6,6 +6,7 @@ export const ForciblyEvicted: BadgeData = {
   key: 'forcibly-evicted',
   setTitleId: [2427],
   name: 'Forcibly Evicted',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Arachnos 'forcibly evicted' the Council from Warburg in the late 1960s. What remains of the Council's resources has been boxed up and left to collect dust for over fifty years.`,
   links: [

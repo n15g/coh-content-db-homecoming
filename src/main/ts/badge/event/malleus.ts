@@ -5,6 +5,7 @@ export const Malleus: BadgeData = {
   key: 'malleus',
   setTitleId: [189],
   name: 'Malleus',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have defeated 75 witches, sorcerous crones who use dark magicks.',
   acquisition: 'Defeat 75 Witches during the Halloween event.',

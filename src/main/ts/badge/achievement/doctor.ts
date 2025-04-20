@@ -9,6 +9,7 @@ export const Doctor: BadgeData = {
     { alignment: 'villain', value: 'Mad Scientist' },
     { alignment: 'praetorian', value: 'Clutch' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have helped your fellow heroes by healing them for two million hit points.' },

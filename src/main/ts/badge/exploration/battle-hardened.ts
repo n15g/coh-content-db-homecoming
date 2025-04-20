@@ -6,6 +6,7 @@ export const BattleHardened: BadgeData = {
   key: 'battle-hardened',
   setTitleId: [2371],
   name: 'Battle-Hardened',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The loyal legions of Cimerora have prevailed in battle against an enemy wielding unimaginable power.`,
   notes: `Located on a rampart overlooking the location where Imperious stands, 140 yards south of the Cimerora neighborhood marker.`,

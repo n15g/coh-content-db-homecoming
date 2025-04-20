@@ -5,6 +5,7 @@ export const Frosty: BadgeData = {
   key: 'frosty',
   setTitleId: [703],
   name: 'Frosty',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'A chill down your spine makes you feel Frosty.',
   acquisition: `Select as a reward for completing Father Time's mission during the Winter Event.`,

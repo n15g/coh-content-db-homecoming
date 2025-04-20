@@ -6,6 +6,7 @@ export const ScurvyDog: BadgeData = {
   key: 'scurvy-dog',
   setTitleId: [251],
   name: 'Scurvy Dog',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The owner of Blackbeard's pub is rumored to have sent more than one patron to Davey Jones locker.`,
   notes: `Located on Blackbeard's Pub, a shack near Drea the Hook in the Dockside neighborhood, approximately 190 yards south and slightly east of the Dockside marker.

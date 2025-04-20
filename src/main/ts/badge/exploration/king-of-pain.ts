@@ -9,6 +9,7 @@ export const KingOfPain: BadgeData = {
     { sex: 'M', value: 'King of Pain' },
     { sex: 'F', value: 'Queen of Pain' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Pain! Every nerve flares with it. Your body sings with a crystalline agony that is transcendent in its intensity.
 But this is not a pain that makes you whimper like a struck animal, it makes you growl with fury at the indignity of it.

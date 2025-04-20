@@ -6,6 +6,7 @@ export const HerculesTitan: BadgeData = {
   key: 'hercules-titan',
   setTitleId: [471],
   name: 'Hercules Titan',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have unlocked a mighty Titan for your gladiator team.',
   links: [

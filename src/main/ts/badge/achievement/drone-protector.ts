@@ -5,6 +5,7 @@ export const DroneProtector: BadgeData = {
   key: 'drone-protector',
   setTitleId: [1759],
   name: 'Drone Protector',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You managed to protect all the police drones during the Praetorian's invasion of Kings Row.` },

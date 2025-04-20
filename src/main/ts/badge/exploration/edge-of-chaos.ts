@@ -7,6 +7,7 @@ export const EdgeOfChaos: BadgeData = {
   key: 'edge-of-chaos',
   setTitleId: [1515],
   name: 'Edge of Chaos',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Longbow has set up this portal in the heart of City Hall.
 It leads to a possible future where Recluse achieves his ultimate victory over Atlas Park.

@@ -8,6 +8,7 @@ export const BehindEnemyLines: BadgeData = {
   key: 'behind-enemy-lines',
   setTitleId: [2457],
   name: 'Behind Enemy Lines',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have slipped past Arachnos' defenses and thwarted their plans against Freedom Corps.` },

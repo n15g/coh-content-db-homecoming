@@ -5,6 +5,7 @@ export const CruiserweightChampion: BadgeData = {
   key: 'cruiserweight-champion',
   setTitleId: [227],
   name: 'Cruiserweight Champion',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have achieved the status of Champion in the Cruiserweight division by winning your first match in this division.`,
   acquisition: 'Win an Arena event in the Cruiserweight division.',

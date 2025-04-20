@@ -5,6 +5,7 @@ export const MummysCurse: BadgeData = {
   key: 'mummys-curse',
   setTitleId: [2505],
   name: `Mummy's Curse`,
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have defeated 5 arisen mummies, ancient embalmed zombies who had returned to life to seek their vengeance against tomb robbers.`,
   acquisition: `Defeat 5 Arisen Mummies during the Halloween event.`,

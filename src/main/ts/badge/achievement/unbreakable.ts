@@ -8,6 +8,7 @@ export const Unbreakable: BadgeData = {
     { value: 'Unbreakable' },
     { alignment: 'praetorian', value: 'Iron Willed' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'You are truly unbreakable. You have survived ten million points of damage.' },

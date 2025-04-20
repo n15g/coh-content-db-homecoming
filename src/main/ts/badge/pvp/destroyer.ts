@@ -6,6 +6,7 @@ export const Destroyer: BadgeData = {
   key: 'destroyer',
   setTitleId: [575],
   name: 'Destroyer',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have helped defeat Positron in Recluse's Victory.`,
   acquisition: `Defeat Positron in ${zoneLink(ReclusesVictory)}.`,

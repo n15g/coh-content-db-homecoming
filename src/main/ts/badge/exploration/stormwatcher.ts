@@ -6,6 +6,7 @@ export const Stormwatcher: BadgeData = {
   key: 'stormwatcher',
   setTitleId: [1799],
   name: 'Stormwatcher',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `It was here that Earth's explorers first encountered the mysterious entities of the Shadow Shard.
 Their threat was implicit and the need to keep them contained became a driving force in the establishment of Tempest Sector.

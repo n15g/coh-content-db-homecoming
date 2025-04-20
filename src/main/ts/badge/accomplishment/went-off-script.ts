@@ -6,6 +6,7 @@ export const WentOffScript: BadgeData = {
   key: 'went-off-script',
   setTitleId: [2436],
   name: 'Went Off Script',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `You chose to defy your contact and risk the lives of countless innocents to put a firm end to the Vahzilok civil war.`,
   acquisition: `Refuse to quarantine during ${missionLink(TheGraveyardShift)} story arc.`,

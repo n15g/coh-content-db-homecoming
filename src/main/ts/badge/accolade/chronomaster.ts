@@ -17,6 +17,7 @@ export const Chronomaster: BadgeData = {
   key: 'chronomaster',
   setTitleId: [946],
   name: 'Chronomaster',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You are a proven master of Time Travel.`,
   links: [

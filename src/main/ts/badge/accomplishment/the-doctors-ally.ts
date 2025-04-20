@@ -6,6 +6,7 @@ export const TheDoctorsAlly: BadgeData = {
   key: 'the-doctors-ally',
   setTitleId: [80],
   name: `The Doctor's Ally`,
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have uncovered the fate of Doctor Friedkin.',
   links: [

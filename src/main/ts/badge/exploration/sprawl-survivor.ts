@@ -8,6 +8,7 @@ export const SprawlSurvivor: BadgeData = {
   key: 'sprawl-survivor',
   setTitleId: [1824],
   name: 'Sprawl Survivor',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Many people, of a particular mindset, find they cannot tolerate the dirt and noise of Skyway City's sprawl.
 It takes someone of singular courage (or foolhardiness) to see the Abandoned Sewer Network as the place they would like to escape to.

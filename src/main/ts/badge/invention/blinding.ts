@@ -5,6 +5,7 @@ export const Blinding: BadgeData = {
   key: 'blinding',
   setTitleId: [775],
   name: 'Blinding',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   links: [

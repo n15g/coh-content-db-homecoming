@@ -6,6 +6,7 @@ export const WidowMaker: BadgeData = {
   key: 'widow-maker',
   setTitleId: [2169],
   name: 'Widow Maker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You were instrumental in the resurrection of Red Widow, Lord Recluse's love from long ago. Only time will tell if this calms Recluse down or drives him to new heights of villainy.` },

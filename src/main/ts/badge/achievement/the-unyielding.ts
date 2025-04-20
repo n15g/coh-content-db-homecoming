@@ -9,6 +9,7 @@ export const TheUnyielding: BadgeData = {
     { alignment: 'villain', value: 'Unbroken' },
     { alignment: 'praetorian', value: 'Went the Extra Mile' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Continued defeats mean nothing to you.' },

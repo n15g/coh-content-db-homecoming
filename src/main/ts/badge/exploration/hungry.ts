@@ -9,6 +9,7 @@ export const Hungry: BadgeData = {
     { alignment: 'hero', value: 'Hungry' },
     { alignment: 'villain', value: 'All Consuming' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Shiva Shard fed on the dead here, causing the trees to grow larger and stronger around the old graveyard.',
   notes: 'Located in the Forgotten Forest neighborhood, approx. 100 feet south of Meteor Panch.',

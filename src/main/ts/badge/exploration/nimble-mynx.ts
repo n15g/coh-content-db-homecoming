@@ -7,6 +7,7 @@ export const NimbleMynx: BadgeData = {
   key: 'nimble-mynx',
   setTitleId: [108],
   name: 'Nimble Mynx',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This spot is where Synapse first found Mynx and began training her.`,
   notes: `Located in the Silver Lake neighborhood, on the back right (northeastern) side of the building just west of the entrance to ${zoneLink(Boomtown)}.`,

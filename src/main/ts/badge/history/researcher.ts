@@ -9,6 +9,7 @@ export const Researcher: BadgeData = {
   key: 'researcher',
   setTitleId: [156],
   name: 'Researcher',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the sordid history of former mayor of Paragon City, Spanky Rabinowitz.`,
   links: [

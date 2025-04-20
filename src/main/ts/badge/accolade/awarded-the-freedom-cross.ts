@@ -9,6 +9,7 @@ export const AwardedTheFreedomCross: BadgeData = {
     { alignment: 'hero', value: 'Awarded the Freedom Cross' },
     { alignment: 'villain', value: 'Stripped of the Freedom Cross' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Again your Terra Volta experience has altered your powers in ways no one could imagine.',
   effect: 'Awards a character respecification.',

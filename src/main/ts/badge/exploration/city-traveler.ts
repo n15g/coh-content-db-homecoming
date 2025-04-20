@@ -6,6 +6,7 @@ export const CityTraveler: BadgeData = {
   key: 'city-traveler',
   setTitleId: [2368],
   name: 'City Traveler',
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `Whether transporting heroes on their way to a mission or civilians to their homes, the Paragon Transit Authority has a record of efficiency and safety second to none.`,
   notes: `Located inside the Paragon Transit Station, in the west alcove.`,

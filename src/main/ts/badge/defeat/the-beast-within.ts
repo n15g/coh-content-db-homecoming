@@ -5,6 +5,7 @@ export const TheBeastWithin: BadgeData = {
   key: 'the-beast-within',
   setTitleId: [2483],
   name: 'The Beast Within',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `The way they talk, their irrational paranoia, and other subtle signs can be found in the 5th Column soldiers who have undergone experimental lycanthropy treatments.
 After experiencing their transformations many times, you've become an expert at drawing out the beast within and vanquishing it.`,

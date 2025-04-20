@@ -6,6 +6,7 @@ export const LastStand: BadgeData = {
   key: 'last-stand',
   setTitleId: [290],
   name: 'Last Stand',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Lee Towers may go down in history as the place where civilization fell to Lord Recluse.',
   notes: `Located in Sector 2, beneath the monorail track behind a store roughly midway between the Foxtrot and Golf pillboxes—slightly closer to Foxtrot.`,

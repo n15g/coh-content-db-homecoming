@@ -5,6 +5,7 @@ export const AllForOneOneForAll: BadgeData = {
   key: 'all-for-one-one-for-all',
   setTitleId: [855],
   name: 'All For One, One For All',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "0 Defeats Allowed" for the team.` },

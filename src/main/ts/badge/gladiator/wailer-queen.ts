@@ -6,6 +6,7 @@ export const WailerQueen: BadgeData = {
   key: 'wailer-queen',
   setTitleId: [458],
   name: 'Wailer Queen',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'What does this creature see in you?',
   links: [

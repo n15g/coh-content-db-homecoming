@@ -5,6 +5,7 @@ export const LoreUnlocked: BadgeData = {
   key: 'lore-unlocked',
   setTitleId: [1393],
   name: 'Lore Unlocked',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You unlocked your Lore Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Lore Incarnate slot.`,

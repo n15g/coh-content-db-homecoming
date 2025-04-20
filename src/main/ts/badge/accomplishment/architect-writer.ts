@@ -6,6 +6,7 @@ export const ArchitectWriter: BadgeData = {
   key: 'architect-writer',
   setTitleId: [2194],
   name: 'Architect Writer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You played through Heather Townshend's personal story, witnessing the event where she joined the Letter Writer's team.`,
   links: [

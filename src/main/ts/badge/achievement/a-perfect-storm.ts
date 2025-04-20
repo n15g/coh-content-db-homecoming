@@ -5,6 +5,7 @@ export const APerfectStorm: BadgeData = {
   key: 'a-perfect-storm',
   setTitleId: [2080],
   name: 'A Perfect Storm',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Despite the furious typhoon of psychic energy enveloping you within Mother Yin's layer of the Minds of Mayhem, you were able to keep calm,
 efficiently using the precious Eyes of the Storm to put an end to Mother Mayhem's hold on Penelope Yin.`,

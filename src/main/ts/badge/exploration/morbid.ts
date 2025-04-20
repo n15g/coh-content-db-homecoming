@@ -6,6 +6,7 @@ export const Morbid: BadgeData = {
   key: 'morbid',
   setTitleId: [1639],
   name: 'Morbid',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have discovered the nearly forgotten sub-sub-basement of the hospital morgue, long since abandoned due to an infestation of Ghouls.
 Perhaps here you can learn something of lividity, morbidity, and the proclivities of the near dead.`,

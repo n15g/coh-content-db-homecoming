@@ -6,6 +6,7 @@ export const CircleGazer: BadgeData = {
   key: 'circle-gazer',
   setTitleId: [1494],
   name: 'Circle Gazer',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `No one is quite sure about the purpose of these odd monuments.
 Some say that Dr. Aeon sent a squad of Arachnos to decimate them long ago and though his minions managed to destroy one, spirits haunted Dr. Aeon for weeks.

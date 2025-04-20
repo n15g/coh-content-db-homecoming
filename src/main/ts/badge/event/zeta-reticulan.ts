@@ -5,6 +5,7 @@ export const ZetaReticulan: BadgeData = {
   key: 'zeta-reticulan',
   setTitleId: [2527],
   name: 'Zeta Reticulan',
+  releaseDate: '2024-05-02',
   morality: 'all',
   badgeText: `You've relived the past by defeating 25 of the old school Rikti found during the City of Heroes Anniversary Event.`,
   acquisition: `Defeat 25 old school Rikti spawned from time capsules during the anniversary event.`,

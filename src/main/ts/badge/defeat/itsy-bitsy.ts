@@ -5,6 +5,7 @@ export const ItsyBitsy: BadgeData = {
   key: 'itsy-bitsy',
   setTitleId: [2388],
   name: 'Itsy Bitsy',
+  releaseDate: '2019-01-01',
   morality: 'heroic',
   badgeText: `You have defeated the Jade Spider and protected Siren's Call from Lord Recluse's assault.`,
   acquisition: 'Defeat the Jade Spider in Trading Places (Hero version).',

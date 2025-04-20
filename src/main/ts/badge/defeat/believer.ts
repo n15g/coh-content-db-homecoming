@@ -5,6 +5,7 @@ export const Believer: BadgeData = {
   key: 'believer',
   setTitleId: [430],
   name: 'Believer',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have defeated the monster in the lake, proving to all that it is real.',
   acquisition: 'Defeat Sally, a monster that spawns in Croatoa, twice.',

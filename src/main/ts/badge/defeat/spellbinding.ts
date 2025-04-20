@@ -5,6 +5,7 @@ export const Spellbinding: BadgeData = {
   key: 'spellbinding',
   setTitleId: [434],
   name: 'Spellbinding',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `The Cabal's spells are useless against you.`,
   acquisition: 'Defeat 333 Cabal.',

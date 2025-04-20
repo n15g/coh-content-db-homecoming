@@ -5,6 +5,7 @@ export const ItsAlive: BadgeData = {
   key: 'its-alive',
   setTitleId: [2087],
   name: `It's Alive!`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You defeated the Abomination and 99 of Dr. Kane's zombies in under 12 minutes!`,
   acquisition: 'Defeat 99 zombies in the graveyard while the Abomination is alive, and then defeat the Abomination in under 12 minutes during the Halloween event.',

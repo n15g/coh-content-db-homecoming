@@ -5,6 +5,7 @@ export const Untouchable: BadgeData = {
   key: 'untouchable',
   setTitleId: [45],
   name: 'Untouchable',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `You have shown that no matter the bribe or threat, you will stand before organized criminals and take them on.`,
   acquisition: 'Defeat 100 bosses of The Family, of any kind.',

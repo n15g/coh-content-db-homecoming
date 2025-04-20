@@ -6,6 +6,7 @@ export const PetProject: BadgeData = {
   key: 'pet-project',
   setTitleId: [1532],
   name: 'Pet Project',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Officials in Steel Canyon have kept secret what exactly they've been working on here.
 There have been many speculations as to what it could be.

@@ -5,6 +5,7 @@ export const Discerning: BadgeData = {
   key: 'discerning',
   setTitleId: [1274],
   name: 'Discerning',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Your experience could outstrip even several seasoned heroes combined. You know what's what; there are no surprises for you anymore. You have attained sixty Veteran levels.` },

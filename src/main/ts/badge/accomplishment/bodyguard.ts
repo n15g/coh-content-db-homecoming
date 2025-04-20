@@ -6,6 +6,7 @@ export const Bodyguard: BadgeData = {
   key: 'bodyguard',
   setTitleId: [84],
   name: 'Bodyguard',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You stopped the assassination of a Rikti peace negotiator.',
   links: [

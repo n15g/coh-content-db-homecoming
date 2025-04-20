@@ -5,6 +5,7 @@ export const WelcomeToEarth: BadgeData = {
   key: 'welcome-to-earth',
   setTitleId: [2389],
   name: 'Welcome to Earth',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: 'You have destroyed a Rikti Drop Ship, proving that it can be done.',
   acquisition: 'Destroy a Rikti Drop Ship.',

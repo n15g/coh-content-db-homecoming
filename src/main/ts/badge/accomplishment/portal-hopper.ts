@@ -6,6 +6,7 @@ export const PortalHopper: BadgeData = {
   key: 'portal-hopper',
   setTitleId: [343],
   name: 'Portal Hopper',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Your journeys to other dimensions have earned you the Portal Hopper badge.',
   links: [

@@ -6,6 +6,7 @@ export const FlamesOfPrometheus: BadgeData = {
   key: 'flames-of-prometheus',
   setTitleId: [2003],
   name: 'Flames of Prometheus',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `Now that you have embarked upon the path of the Incarnate, you may convert the remaining effects of the Flames of Prometheus to one Notice of the Well Incarnate Component by
  clicking on the Convert button on the badge in the Badges / Accolades list.`,

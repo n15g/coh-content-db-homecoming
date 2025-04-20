@@ -5,6 +5,7 @@ export const EnergyConservationist: BadgeData = {
   key: 'energy-conservationist',
   setTitleId: [780],
   name: 'Energy Conservationist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Endurance Modification and Endurance Reduction.',
   links: [

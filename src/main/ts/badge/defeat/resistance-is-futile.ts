@@ -5,6 +5,7 @@ export const ResistanceIsFutile: BadgeData = {
   key: 'resistance-is-futile',
   setTitleId: [1471],
   name: 'Resistance is Futile',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Resistance considers you an obstacle to accomplishing their goal of overthrowing Emperor Cole. You defeated a number of Resistance members to earn this badge.`,
   acquisition: 'Defeat 100 points worth of The Resistance.',

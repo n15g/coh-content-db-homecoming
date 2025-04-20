@@ -5,6 +5,7 @@ export const MissionSeeker: BadgeData = {
   key: 'mission-seeker',
   setTitleId: [1236],
   name: 'Mission Seeker',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `You've earned 25 Mission Architect badges!`,
   acquisition: 'Earn 25 Mission Architect badges.',

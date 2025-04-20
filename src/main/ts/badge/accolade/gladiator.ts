@@ -7,6 +7,7 @@ export const Gladiator: BadgeData = {
   key: 'gladiator',
   setTitleId: [1075],
   name: 'Gladiator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your reputation as a ferocious combatant in both PvP Zones and the Arena has earned you the Gladiator Accolade.
 While logged out in either an Arena or a PvP Zone you will additional time for your Combat Shield power.`,

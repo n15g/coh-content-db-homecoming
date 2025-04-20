@@ -10,6 +10,7 @@ export const AntiArachnosActivist: BadgeData = {
     { alignment: 'hero', value: 'Anti-Arachnos Activist' },
     { alignment: 'villain', value: 'Web Weaver' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You've turned your skills at propaganda and rabble-rousing against Arachnos, bringing a glimmer of hope to those you once helped enslave.` },

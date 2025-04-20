@@ -8,6 +8,7 @@ export const Jailed: BadgeData = {
     { value: 'Jailed' },
     { alignment: 'praetorian', value: 'Lagged' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'Enemies no longer regard you as a threat.' },

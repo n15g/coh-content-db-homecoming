@@ -5,6 +5,7 @@ export const Incarnate: BadgeData = {
   key: 'incarnate',
   setTitleId: [1965],
   name: 'Incarnate',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've crafted your first Very Rare Incarnate Ability earning yourself this badge.`,
   acquisition: 'Craft a very rare incarnate ability.',

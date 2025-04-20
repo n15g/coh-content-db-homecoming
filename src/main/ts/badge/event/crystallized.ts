@@ -5,6 +5,7 @@ export const Crystallized: BadgeData = {
   key: 'crystallized',
   setTitleId: [704],
   name: 'Crystallized',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The chill of the season has strange effects.',
   acquisition: `Select as a reward for completing Father Time's mission during the Winter Event.`,

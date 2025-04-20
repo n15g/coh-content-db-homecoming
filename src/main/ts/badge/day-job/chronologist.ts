@@ -5,6 +5,7 @@ export const Chronologist: BadgeData = {
   key: 'chronologist',
   setTitleId: [1041],
   name: 'Chronologist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have spent a great deal of time working with the agents of Ouroboros earning you the Chronologist Day Job.
 Logging out in Ouroboros will earn you a bonus enhancement recipe, when you log back in, each time you complete a mission for a short time.`,

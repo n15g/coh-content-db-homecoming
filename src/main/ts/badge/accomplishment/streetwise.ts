@@ -5,6 +5,7 @@ export const Streetwise: BadgeData = {
   key: 'streetwise',
   setTitleId: [1443],
   name: 'Streetwise',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You completed a Vigilante Alignment Mission earning yourself the Streetwise badge.',
   acquisition: 'Complete a Vigilante alignment mission.',

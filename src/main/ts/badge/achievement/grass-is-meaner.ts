@@ -8,6 +8,7 @@ export const GrassIsMeaner: BadgeData = {
     { alignment: 'hero', value: 'Grass Is Meaner' },
     { alignment: 'villain', value: 'Grass Is Greener' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have traveled from the relative safety of Paragon City to the rough and tumble Rogue Isles, where it seems even the grass is meaner.' },

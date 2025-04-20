@@ -6,6 +6,7 @@ export const PreservationSpecialist: BadgeData = {
   key: 'preservation-specialist',
   setTitleId: [1998],
   name: 'Preservation Specialist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Demolition Charges sent by the IDF to take out the Underground didn't pose a threat to your league, and you were able to take all of them out without a single detonation.`,
   acquisition: `Don't let any of the IDF bombs detonate in ${missionLink(TheUndergroundTrial)}.`,

@@ -5,6 +5,7 @@ export const Zealous: BadgeData = {
   key: 'zealous',
   setTitleId: [628],
   name: 'Zealous',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've gained fifteen Veteran levels protecting Rhode Island's jewel, Paragon City.` },

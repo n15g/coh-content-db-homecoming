@@ -6,6 +6,7 @@ export const OuroborosMender: BadgeData = {
   key: 'ouroboros-mender',
   setTitleId: [943],
   name: 'Ouroboros Mender',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have flashed back to 50 story arcs.',
   acquisition: `Complete 50 Flashback story arcs from the ${contactLink(PillarOfIceAndFlame)}.`,

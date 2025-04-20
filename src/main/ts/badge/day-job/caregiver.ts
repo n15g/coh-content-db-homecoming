@@ -8,6 +8,7 @@ export const Caregiver: BadgeData = {
     { alignment: 'hero', value: 'Caregiver' },
     { alignment: 'villain', value: 'Pain Specialist' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

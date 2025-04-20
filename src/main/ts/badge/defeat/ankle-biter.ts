@@ -5,6 +5,7 @@ export const AnkleBiter: BadgeData = {
   key: 'womp-womp',
   setTitleId: [2440],
   name: 'Ankle Biter',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `Crey's Revenant Hero Project has turned out some formidable foes in your career as a super.
 But nothing was more unsettling than racking up a count on the immature clones that sometimes get deployed in extreme crises. You try not to think about the fact that Crey has child-sized suits on-hand for them.`,

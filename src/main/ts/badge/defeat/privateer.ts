@@ -5,6 +5,7 @@ export const Privateer: BadgeData = {
   key: 'privateer',
   setTitleId: [52],
   name: 'Privateer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have put a huge dent into the pocketbooks of the Sky Raiders by destroying their most expensive equipment, the Sky Skiffs.`,
   acquisition: 'Defeat 100 Sky Raiders Sky Skiffs.',

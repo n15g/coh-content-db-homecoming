@@ -6,6 +6,7 @@ export const SewerDweller: BadgeData = {
   key: 'sewer-dweller',
   setTitleId: [284],
   name: 'Sewer Dweller',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `A new low, even for a villain, you've stumbled through the very very bottom of Grandville in the area known as 'The Gutter.'`,
   notes: `Located in The Gutter neighborhood of Grandville, on top of a sewer pipe located 216 yards northeast of The Gutter marker.`,

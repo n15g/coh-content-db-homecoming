@@ -6,6 +6,7 @@ export const KeyesTechnician: BadgeData = {
   key: 'keyes-technician',
   setTitleId: [1989],
   name: 'Keyes Technician',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Keyes Island Reactor.',
   links: [

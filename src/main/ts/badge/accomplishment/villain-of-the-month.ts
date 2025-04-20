@@ -6,6 +6,7 @@ export const VillainOfTheMonth: BadgeData = {
   key: 'villain-of-the-month',
   setTitleId: [2259],
   name: 'Villain of the Month',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You publically put down every attempt on your life, and then smashed apart Wu Yin's entire operation. The public is calling you the 'Villain of the Month'.`,
   links: [

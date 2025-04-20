@@ -6,6 +6,7 @@ export const NoTurningBackNow: BadgeData = {
   key: 'no-turning-back-now',
   setTitleId: [1811],
   name: 'No Turning Back Now',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Gravity operates strangely in the Shadow Shard, but more than just the floating masses of rock, there is a gravity here of a more spiritual kind.
 You feel it drawing you inexorably forward towards an unknown destiny.

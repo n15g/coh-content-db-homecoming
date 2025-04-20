@@ -6,6 +6,7 @@ export const Wraith: BadgeData = {
   key: 'wraith',
   setTitleId: [504],
   name: 'Wraith',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The dead will fight for you.',
   links: [

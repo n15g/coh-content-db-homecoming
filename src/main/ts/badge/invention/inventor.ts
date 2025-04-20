@@ -7,6 +7,7 @@ export const Inventor: BadgeData = {
   key: 'inventor',
   setTitleId: [732],
   name: 'Inventor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have proven your skills as an Inventor at the University.',
   acquisition: 'Awarded for completing the Invention System tutorial mission.',

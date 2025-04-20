@@ -6,6 +6,7 @@ export const MidnightersPerseverance: BadgeData = {
   key: 'midnighters-perseverance',
   setTitleId: [1544],
   name: `Midnighter's Perseverance`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This bridge is the site where Mayor Bower and Buck Salinger last met; Bower informed Salinger that his trek into Red Cap territory was a suicide mission.
 Salinger ignored the warning and continued forward, insisting that his skills as a Midnighter would prevail. So far, Salinger's luck - and survival skills - haven't failed him.`,

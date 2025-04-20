@@ -13,6 +13,7 @@ export const CitizenOfSalamanca: BadgeData = {
   key: 'citizen-of-salamanca',
   setTitleId: [1545],
   name: 'Citizen of Salamanca',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Croatoa.`,
   links: [

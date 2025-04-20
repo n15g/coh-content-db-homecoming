@@ -5,6 +5,7 @@ export const SilverMedalist: BadgeData = {
   key: 'silver-medalist',
   setTitleId: [863],
   name: 'Silver Medalist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback within the Silver time allowed.` },

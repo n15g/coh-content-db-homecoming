@@ -6,6 +6,7 @@ export const DefyingGravity: BadgeData = {
   key: 'defying-gravity',
   setTitleId: [1797],
   name: 'Defying Gravity',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Visiting alien dimensions, as the briefing told you, can be a disorienting experience.
 In the Shadow Shard the rules of physics operate differently, where masses measuring in the megatonnes float unsupported in the open air.

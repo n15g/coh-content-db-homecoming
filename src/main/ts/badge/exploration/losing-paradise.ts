@@ -6,6 +6,7 @@ export const LosingParadise: BadgeData = {
   key: 'losing-paradise',
   setTitleId: [1559],
   name: 'Losing Paradise',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Devouring Earth's spread into Founders' Falls was stopped here, though it was far too late to save the city of Woodvale.
 Heroes fought the Devouring Earth menace for days before it was pushed back into Woodvale - for the most part.

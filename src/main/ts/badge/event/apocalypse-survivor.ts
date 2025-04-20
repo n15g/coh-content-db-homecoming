@@ -5,6 +5,7 @@ export const ApocalypseSurvivor: BadgeData = {
   key: 'apocalypse-survivor',
   setTitleId: [1023],
   name: 'Apocalypse Survivor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've helped take down a Zombie Elite, showing you are an Apocalypse Survivor!`,
   acquisition: 'Defeat a Zombie Elite Boss during a Zombie Apocalypse.',

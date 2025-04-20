@@ -6,6 +6,7 @@ export const WarMachine: BadgeData = {
   key: 'war-machine',
   setTitleId: [2333],
   name: 'War Machine',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Council Goliath War Walker was no match for you.',
   acquisition: `Defeat the Council War Walker in ${zoneLink(Boomtown)}.`,

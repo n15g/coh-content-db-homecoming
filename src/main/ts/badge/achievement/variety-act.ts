@@ -5,6 +5,7 @@ export const VarietyAct: BadgeData = {
   key: 'variety-act',
   setTitleId: [2523],
   name: 'Variety Act',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `In order to properly demonstrate your dominance, it's important you make sure everyone else knows you're a big deal.
 Towards that, you've elected to keep your most varied rivals close to ensure you're ready to tackle anybody who might become a threat.`,

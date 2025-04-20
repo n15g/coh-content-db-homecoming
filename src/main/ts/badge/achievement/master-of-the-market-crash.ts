@@ -5,6 +5,7 @@ export const MasterOfTheMarketCrash: BadgeData = {
   key: 'master-of-the-market-crash',
   setTitleId: [2491],
   name: 'Master of the Market Crash',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have proven yourself Master of the Market Crash Trial.`,
   acquisition: `Complete the Master of the Market Crash challenge (zero defeats, temporary and incarnate powers disabled).`,

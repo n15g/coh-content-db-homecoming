@@ -6,6 +6,7 @@ export const TheOldMe: BadgeData = {
   key: 'the-old-me',
   setTitleId: [1547],
   name: 'The Old Me',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This area is where the real Ajax was buried, after being killed by the thug Ralph Valetti, who stole his identity as well as his powers.
 After the revelation was made, officials rushed to recover Ajax's body, which is now preserved in an unknown area within the city.`,

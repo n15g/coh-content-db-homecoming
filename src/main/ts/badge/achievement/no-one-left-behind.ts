@@ -6,6 +6,7 @@ export const NoOneLeftBehind: BadgeData = {
   key: 'no-one-left-behind',
   setTitleId: [1895],
   name: 'No One Left Behind',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You helped saved the injured Rogue PPD from being killed in a burning building, showing that you're willing to lend a helping hand even to your enemies.`,
   acquisition: `Save all the Rogue PPD in the hero story arc from ${contactLink(RoyCooling)}.`,

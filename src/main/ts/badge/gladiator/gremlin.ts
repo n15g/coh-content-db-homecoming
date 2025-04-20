@@ -6,6 +6,7 @@ export const Gremlin: BadgeData = {
   key: 'gremlin',
   setTitleId: [447],
   name: 'Gremlin',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'This living spark is a capricious sort.',
   links: [

@@ -5,6 +5,7 @@ export const BrassHunter: BadgeData = {
   key: 'brass-hunter',
   setTitleId: [2442],
   name: 'Brass Hunter',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `Your ongoing efforts to root out Nemesis' influence have resulted in the destruction of at a least thousand of his Jaegers, and local bars are serving drinks in your honor.`,
   acquisition: 'Defeat 1000 Nemesis Jaegers.',

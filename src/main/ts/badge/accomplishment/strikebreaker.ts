@@ -6,6 +6,7 @@ export const Strikebreaker: BadgeData = {
   key: 'strikebreaker',
   setTitleId: [336],
   name: 'Strikebreaker',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The Scrapyarders of Sharkhead Isle have been put back to work thanks to you.',
   links: [

@@ -8,6 +8,7 @@ export const AgentProvocateur: BadgeData = {
   key: 'agent-provocateur',
   setTitleId: [369],
   name: 'Agent Provocateur',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Arachnos has put you at the top of their hit list.' },

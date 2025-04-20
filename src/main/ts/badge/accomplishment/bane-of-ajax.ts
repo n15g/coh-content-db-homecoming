@@ -6,6 +6,7 @@ export const BaneOfAjax: BadgeData = {
   key: 'bane-of-ajax',
   setTitleId: [1585],
   name: 'Bane of Ajax',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've proven to Ajax, and the world, that no one is truly invincible.`,
   links: [

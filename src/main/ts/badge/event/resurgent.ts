@@ -6,6 +6,7 @@ export const Resurgent: BadgeData = {
   key: 'resurgent',
   setTitleId: [2432],
   name: 'Resurgent',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You have helped celebrate the 16th anniversary of City of Heroes.`,
   acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,

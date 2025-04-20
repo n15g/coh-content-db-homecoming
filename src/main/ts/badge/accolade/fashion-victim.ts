@@ -5,6 +5,7 @@ export const FashionVictim: BadgeData = {
   key: 'fashion-victim',
   setTitleId: [2397],
   name: 'Fashion Victim',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `The road of excess leads to the palace of... fabulousness!`,
   acquisition: `Spend 50 million inf at the tailor.`,

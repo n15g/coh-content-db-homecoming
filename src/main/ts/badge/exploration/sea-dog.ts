@@ -6,6 +6,7 @@ export const SeaDog: BadgeData = {
   key: 'sea-dog',
   setTitleId: [197],
   name: 'Sea Dog',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Port Noble's shipping industry has declined of late, as Paragon City's manufacturing has taken a hit in the wake of the Rikti War.
 Now, with the Council plaguing Striga Isle, the situation has gone from bad to worse.`,

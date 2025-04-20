@@ -8,6 +8,7 @@ export const Pursuer: BadgeData = {
     { alignment: 'hero', value: 'Pursuer' },
     { alignment: 'villain', value: 'Elusive' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Villains have escaped from the Big Zig, and you have taken it upon yourself to track them down.' },

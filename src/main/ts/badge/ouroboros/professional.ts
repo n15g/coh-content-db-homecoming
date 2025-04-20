@@ -5,6 +5,7 @@ export const Professional: BadgeData = {
   key: 'professional',
   setTitleId: [889],
   name: 'Professional',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 20 and 24 while only using your Primary and Secondary powersets.` },

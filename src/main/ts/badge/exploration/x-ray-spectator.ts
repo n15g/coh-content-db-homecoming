@@ -6,6 +6,7 @@ export const XRaySpectator: BadgeData = {
   key: 'x-ray-spectator',
   setTitleId: [1802],
   name: 'X-Ray Spectator',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The soldiers of Point X-Ray like to call themselves the "X-Raiders."
 They are an elite squad specializing in sniper rifles and counter-insurgency and though they find themselves in a completely unfamiliar environment

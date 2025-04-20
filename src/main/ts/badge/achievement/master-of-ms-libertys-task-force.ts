@@ -5,6 +5,7 @@ export const MasterOfMsLibertysTaskForce: BadgeData = {
   key: 'master-of-ms-libertys-task-force',
   setTitleId: [944],
   name: `Master of Ms. Liberty's Task Force`,
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have proven yourself Master of Ms. Liberty's Task Force.`,
   acquisition: `Complete the Master of Ms. Liberty's Task Force challenge (zero defeats, temporary and incarnate powers disabled).`,

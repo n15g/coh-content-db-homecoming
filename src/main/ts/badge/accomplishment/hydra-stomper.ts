@@ -6,6 +6,7 @@ export const HydraStomper: BadgeData = {
   key: 'hydra-stomper',
   setTitleId: [2021],
   name: 'Hydra Stomper',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You went into the depths of the sewers beneath Paragon City and took down two monstrous Hydra heads!',
   links: [

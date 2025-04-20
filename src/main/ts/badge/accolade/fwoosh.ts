@@ -9,6 +9,7 @@ export const Fwoosh: BadgeData = {
     { alignment: 'hero', value: 'Fwoosh' },
     { alignment: 'villain', value: 'The Stinger' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `This is the sound Black Scorpion's arm cannon will make when you run into him next. Didn't you learn not to peeve the guy in powered armor?` },

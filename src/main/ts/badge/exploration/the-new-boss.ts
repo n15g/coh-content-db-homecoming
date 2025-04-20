@@ -6,6 +6,7 @@ export const TheNewBoss: BadgeData = {
   key: 'the-new-boss',
   setTitleId: [1748],
   name: 'The New Boss',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Clockwork captured or appropriated by the Resistance are reprogrammed here, using taps into the Neutropolis wide area networks to speed the process.
 Some become soldiers, others servants; a few become bombs, designed to go back to scrubbing off graffiti and tending flowers until the right trigger is sent.

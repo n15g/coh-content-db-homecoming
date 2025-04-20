@@ -9,6 +9,7 @@ export const Paragon: BadgeData = {
     { alignment: 'villain', value: 'Svengali' },
     { alignment: 'praetorian', value: 'Teacher' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'The time spent as a mentor has earned you the right to call yourself paragon.' },

@@ -5,6 +5,7 @@ export const Stemmed: BadgeData = {
   key: 'stemmed',
   setTitleId: [902],
   name: 'Stemmed',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while not using any Travel Power Power Pools.` },

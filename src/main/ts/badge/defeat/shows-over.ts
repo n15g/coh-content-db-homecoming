@@ -5,6 +5,7 @@ export const ShowsOver: BadgeData = {
   key: 'shows-over',
   setTitleId: [2059],
   name: `Show's Over`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `When you roll into town, the fractured Carnivals of Praetoria know to close up shop before you force the issue. You defeated several Carnival of Light, Vengeance, or War to earn this badge.`,
   acquisition: 'Defeat 100 points worth of Carnival of Light, Vengeance, or War.',

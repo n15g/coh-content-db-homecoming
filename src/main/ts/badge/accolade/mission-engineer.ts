@@ -13,6 +13,7 @@ export const MissionEngineer: BadgeData = {
   key: 'mission-engineer',
   setTitleId: [1134],
   name: 'Mission Engineer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your overall expertise in everything relating to the Mission Architect system has earned you the title of Mission Engineer.
 Owning this Accolade will grant you the ability to remotely create and edit Mission Architect content.`,

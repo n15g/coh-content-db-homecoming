@@ -5,6 +5,7 @@ export const CoolCustomer: BadgeData = {
   key: 'cool-customer',
   setTitleId: [2485],
   name: 'Cool Customer',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've broken the ice with Crey's new cutting-edge cryogenic scientists, proving that you're the coolest customer around and that Crey ought to chill out before somebody (probably them) gets hurt.`,
   acquisition: `Defeat 50 of Crey's Cryogenicist bosses.`,

@@ -5,6 +5,7 @@ export const Allegiant: BadgeData = {
   key: 'allegiant',
   setTitleId: [1011],
   name: 'Allegiant',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've shown the world that your allegiance is to the people and those in need. You have attained fifty-four Veteran levels.` },

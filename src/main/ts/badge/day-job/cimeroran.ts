@@ -5,6 +5,7 @@ export const Cimeroran: BadgeData = {
   key: 'cimeroran',
   setTitleId: [1046],
   name: 'Cimeroran',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

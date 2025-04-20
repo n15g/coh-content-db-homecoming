@@ -6,6 +6,7 @@ export const Emancipator: BadgeData = {
   key: 'emancipator',
   setTitleId: [82],
   name: 'Emancipator',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have defeated the Clockwork King in an alternate dimension where he realized his true potential.',
   links: [

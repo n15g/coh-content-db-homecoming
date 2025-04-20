@@ -6,6 +6,7 @@ export const CreyWatcher: BadgeData = {
   key: 'crey-watcher',
   setTitleId: [138],
   name: 'Crey Watcher',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Crey's defensive measures against the Rikti brought about an environmental nightmare in this area, turning the neighborhood once called 'Venice' into 'Crey's Folly.'`,
   notes: `Located 230 yards west of the Crey Factories marker along the south side of a ditch.`,

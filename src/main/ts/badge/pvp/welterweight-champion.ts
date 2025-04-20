@@ -5,6 +5,7 @@ export const WelterweightChampion: BadgeData = {
   key: 'welterweight-champion',
   setTitleId: [225],
   name: 'Welterweight Champion',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have achieved the status of Champion in the Welterweight division by winning your first match in this division.`,
   acquisition: 'Win an Arena event in the Welterweight division.',

@@ -5,6 +5,7 @@ export const Eradicator: BadgeData = {
   key: 'eradicator',
   setTitleId: [2359],
   name: 'Eradicator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have inflicted fifty million points of damage upon your foes.',
   acquisition: 'Deal 50,000,000 damage to earn this badge.',

@@ -6,6 +6,7 @@ export const WaylonsObserver: BadgeData = {
   key: 'waylons-observer',
   setTitleId: [1543],
   name: `Waylon's Observer`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Waylon McCrane, an infamous adventurer in Croatoa, lives in this home.
 Mayor Bower has asked Waylon to stay within the town limits due to the Fir Bolg, but Waylon insists that, 'no pumpkin-headed monster will tell ME where to live!'`,

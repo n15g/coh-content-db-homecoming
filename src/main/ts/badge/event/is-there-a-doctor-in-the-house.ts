@@ -5,6 +5,7 @@ export const IsThereADoctorInTheHouse: BadgeData = {
   key: 'is-there-a-doctor-in-the-house',
   setTitleId: [2085],
   name: 'Is There a Doctor in the House?',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You braved the haunted mansion of Dr. Kane and defeated his Abomination!',
   acquisition: `Complete Dr. Kane's House of Horror during the Halloween event.`,

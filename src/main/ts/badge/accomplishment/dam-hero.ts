@@ -9,6 +9,7 @@ export const DamHero: BadgeData = {
     { alignment: 'hero', value: 'Dam Hero' },
     { alignment: 'villain', value: 'Dam Villain' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You've saved Faultline from not one, but three separate villain groups intent on using the dam to cause carnage on a massive scale.` },

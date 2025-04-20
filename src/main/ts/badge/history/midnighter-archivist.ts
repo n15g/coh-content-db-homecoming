@@ -7,6 +7,7 @@ export const MidnighterArchivist: BadgeData = {
   key: 'midnighter-archivist',
   setTitleId: [1009],
   name: 'Midnighter Archivist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have learned the secrets of the Midnighter Club.`,
   links: [

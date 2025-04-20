@@ -6,6 +6,7 @@ export const ReadyForAnything: BadgeData = {
   key: 'ready-for-anything',
   setTitleId: [1746],
   name: 'Ready for Anything',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This training room under Lambda Sector serves as a harsh urban combat 'shoothouse' for the Imperial Defense Force and PPD TEST. Live fire exercises are also known as 'Resistance assaults.'`,
   notes: `Located in the square at the far north of the map.`,

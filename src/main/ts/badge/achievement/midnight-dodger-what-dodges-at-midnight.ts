@@ -6,6 +6,7 @@ export const MidnightDodgerWhatDodgesAtMidnight: BadgeData = {
   key: 'midnight-dodger-what-dodges-at-midnight',
   setTitleId: [1762],
   name: 'Midnight Dodger What Dodges At Midnight',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Director 11 may be a master of demolitions, but you showed him you're a master at dodging bombs.`,
   acquisition: `Set off zero proximity mines during the warehouse battle in the first mission of the ${contactLink(TinMageMarkII)} Task Force.`,

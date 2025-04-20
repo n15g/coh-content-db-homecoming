@@ -8,6 +8,7 @@ export const GuardianOfForever: BadgeData = {
   key: 'guardian-of-forever',
   setTitleId: [2390],
   name: 'Guardian of Forever',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You used the Pillar of Ice and Flame to cheat death and recruit a new member for Ouroboros.',
   acquisition: `Complete the "Collateral Damage" arc from ${contactLink(LauraLockhart)}, completing all optional objectives (see notes).`,

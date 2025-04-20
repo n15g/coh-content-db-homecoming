@@ -5,6 +5,7 @@ export const Venomous: BadgeData = {
   key: 'venomous',
   setTitleId: [538],
   name: 'Venomous',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've taken down so many Toxic Tarantulas that people call you Venomous.`,
   acquisition: 'Defeat 50 Arachnos Toxic Tarantulas.',

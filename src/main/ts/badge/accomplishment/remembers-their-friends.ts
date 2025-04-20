@@ -7,6 +7,7 @@ export const RemembersTheirFriends: BadgeData = {
   key: 'remembers-their-friends',
   setTitleId: [2268],
   name: 'Remembers Their Friends',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Vincent Ross was kidnapped by the Family after they found out he had past dealings with you. However, you beat the Family down and rescued Vincent Ross, showing the Rogue Isles that you remember your friends.',
   acquisition: `Rescue ${contactLink(VincentRoss)} in the "Part Four: All in the Family" mission of the ${missionLink(SweepsWeekHeroNameVsTheRogueIsles)} story arc.`,

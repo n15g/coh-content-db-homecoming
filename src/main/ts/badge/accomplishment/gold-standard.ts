@@ -6,6 +6,7 @@ export const GoldStandard: BadgeData = {
   key: 'gold-standard',
   setTitleId: [2476],
   name: 'Gold Standard',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You assisted Dr. Aeon in finally settling the score with King Midas and his Gold Brickers who were
 manipulating the local gold market using unstable dimensional counterfeits in order to establish themselves as independent players on the Rogue Isles.

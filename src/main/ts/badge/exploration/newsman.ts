@@ -9,6 +9,7 @@ export const Newsman: BadgeData = {
     { sex: 'M', value: 'Newsman' },
     { sex: 'F', value: 'Newsgirl' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Theodore Knight building was home to many Super Groups in the years before the Rikti War.`,
   notes: `Approx. 513 yrds. S of the "Dark Canyons" marker in front of the doors to a grey stoned high-rise that's tilting into the canyon, next to the west perimeter wall.`,

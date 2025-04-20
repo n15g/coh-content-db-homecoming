@@ -5,6 +5,7 @@ export const LostConnectionToServer: BadgeData = {
   key: 'lost-connection-to-server',
   setTitleId: [2082],
   name: 'Lost Connection to Server',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `When you finally were able to confront Shalice Tilman within the depths of the Minds of Mayhem, you found that she would not go easily, for she was strongly connected to the Seer Network.
 Despite this difficulty, you found a way to sever her connections with little trouble, never allowing her to regain her strength after being chased from Malaise's broken body.`,

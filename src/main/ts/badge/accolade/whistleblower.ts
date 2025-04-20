@@ -10,6 +10,7 @@ export const Whistleblower: BadgeData = {
     { alignment: 'hero', value: 'Whistleblower' },
     { alignment: 'villain', value: 'Crey Scientist' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `Crey Industries has been hard at work removing your name from all your research and publicly denying the corporate secrets you've revealed.` },

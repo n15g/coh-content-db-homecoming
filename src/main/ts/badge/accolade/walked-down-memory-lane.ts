@@ -13,6 +13,7 @@ export const WalkedDownMemoryLane: BadgeData = {
   key: 'walked-down-memory-lane',
   setTitleId: [2325],
   name: 'Walked Down Memory Lane',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Echo: Atlas Park.`,
   links: [

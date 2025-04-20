@@ -5,6 +5,7 @@ export const GrandGourmet: BadgeData = {
   key: 'grand-gourmet',
   setTitleId: [2394],
   name: 'Grand Gourmet',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The commonplace is not for you. Only the finest recipes will do!`,
   acquisition: 'Reject 500 recipe drops.',

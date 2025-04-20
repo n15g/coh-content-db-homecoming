@@ -6,6 +6,7 @@ export const NervaWreck: BadgeData = {
   key: 'nerva-wreck',
   setTitleId: [276],
   name: 'Nerva Wreck',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `You have visited the famous Nerva Wreck. What strange creature might have caused this disaster?`,
   notes: `Located in the Primeva neighborhood, on the lowest rock outcropping near the shipwreck at the river’s mouth, where it meets the largest island.

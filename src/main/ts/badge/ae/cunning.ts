@@ -5,6 +5,7 @@ export const Cunning: BadgeData = {
   key: 'cunning',
   setTitleId: [1476],
   name: 'Cunning',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've earned this badge by playing an Architect mission marked as Rogue content.`,
   acquisition: 'Complete a Mission Architect story arc marked as Rogue alignment.',

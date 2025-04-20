@@ -6,6 +6,7 @@ export const TraditionalistFoil: BadgeData = {
   key: 'traditionalist-foil',
   setTitleId: [2499],
   name: 'Traditionalist Foil',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `You learned about the two core Rikti factions, Traditionalist and Restructurist, while foiling a plot to mutate humans into Traditionalist conscripts.`,
   links: [

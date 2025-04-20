@@ -6,6 +6,7 @@ export const BaseJumper: BadgeData = {
   key: 'base-jumper',
   setTitleId: [752],
   name: 'Base Jumper',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Council have taken over this building as their base of operations. You might want to check your back.',
   notes: `The Base Jumper Badge is located in Pork Chop Hill neighborhood, in the foyer of a Council-owned building just southwest of the Pork Chop Hill neighborhood marker.

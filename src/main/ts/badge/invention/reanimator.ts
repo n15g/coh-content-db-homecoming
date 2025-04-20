@@ -5,6 +5,7 @@ export const Reanimator: BadgeData = {
   key: 'reanimator',
   setTitleId: [769],
   name: 'Reanimator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Heal.',
   effect: 'Awards +1 to Recipe capacity.',

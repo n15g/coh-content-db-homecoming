@@ -11,6 +11,7 @@ export const RiskTaker: BadgeData = {
     { alignment: 'hero', value: 'Risk Taker' },
     { alignment: 'villain', value: 'Most Wanted' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've contributed to the effort against the Villains by completing a patrol in a PvP zone.` },

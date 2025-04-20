@@ -6,6 +6,7 @@ export const SecretAdmirer: BadgeData = {
   key: 'secret-admirer',
   setTitleId: [106],
   name: 'Secret Admirer',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Before becoming guardian of Croatoa, War Witch shared an apartment here with her roommate Apex.`,
   notes: 'Located 119 yards south of the Wentworth Consignment House.',

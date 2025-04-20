@@ -6,6 +6,7 @@ export const OvertimeWorker: BadgeData = {
   key: 'overtime-worker',
   setTitleId: [1549],
   name: 'Overtime Worker',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `After Dark Astoria was taken over by the Banished Pantheon, the construction workers of Paragon were ordered to demolish the road leading into the cursed city.
 The construction workers put in major overtime work to make it happen, and by week's end the road was gone, symbolizing that the city had left Astoria to the works of the Banished Pantheon.`,

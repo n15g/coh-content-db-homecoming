@@ -5,6 +5,7 @@ export const SpiderSmasher: BadgeData = {
   key: 'spider-smasher',
   setTitleId: [314],
   name: 'Spider Smasher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've taken the fight to Arachnos, taking down Lord Recluse's personal soldiers.` },

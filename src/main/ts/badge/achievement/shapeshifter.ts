@@ -5,6 +5,7 @@ export const Shapeshifter: BadgeData = {
   key: 'shapeshifter',
   setTitleId: [2502],
   name: 'Shapeshifter',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've purchased ten costume powers using the Prismatic Aether you amassed from overcoming an enormous number of challenges.`,
   acquisition: `Use Prismatic Aether salvage to purchase a total of ten permanent costume powers from BenevoLabs vendors in any Vault Reserve location.`,

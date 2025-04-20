@@ -5,6 +5,7 @@ export const Electrician: BadgeData = {
   key: 'electrician',
   setTitleId: [299],
   name: 'Electrician',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The Cap au Diable demons have learned not to mess with you.',
   acquisition: 'Defeat 100 Gremlins.',

@@ -6,6 +6,7 @@ export const NebulasMemory: BadgeData = {
   key: 'nebulas-memory',
   setTitleId: [1774],
   name: `Nebula's Memory`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This statue is all that remains of a novice heroine by the name of Nebula who lost her life saving those of others when the Rikti overran Perez Park.
 Some have witnessed a lone hero brave the dangers of Perez Park to sit in quiet contemplation at the benches near her statue.

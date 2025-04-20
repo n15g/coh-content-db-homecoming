@@ -18,6 +18,7 @@ export const Survivor: BadgeData = {
   key: 'survivor',
   setTitleId: [2348],
   name: 'Survivor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You helped the Praetorian Resistance to reach their goals with as little loss of life as possible.`,
   acquisition: 'Complete every story arc in the Praetorian [Warden Storyline](https://homecoming.wiki/wiki/Warden_Storyline).',

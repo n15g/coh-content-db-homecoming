@@ -7,6 +7,7 @@ export const AroundTheBendis: BadgeData = {
   key: 'around-the-bendis',
   setTitleId: [103],
   name: 'Around the Bendis',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This old boathouse used to be a popular spot in Perez Park, but since the gangs moved in it has been abandoned.`,
   notes: `Located 343 yards northwest of the ${zoneLink(SkywayCity)} entrance.`,

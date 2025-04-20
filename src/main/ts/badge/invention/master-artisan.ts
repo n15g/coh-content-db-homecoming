@@ -5,6 +5,7 @@ export const MasterArtisan: BadgeData = {
   key: 'master-artisan',
   setTitleId: [741],
   name: 'Master Artisan',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have created 100 inventions, justifying your title of Master Artisan.',
   acquisition: 'Craft 100 items in the Invention System or Supergroup Base system.',

@@ -7,6 +7,7 @@ export const ParkStroller: BadgeData = {
   key: 'park-stroller',
   setTitleId: [2274],
   name: 'Park Stroller',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have visited all of Brickstown's parks!`,
   links: [

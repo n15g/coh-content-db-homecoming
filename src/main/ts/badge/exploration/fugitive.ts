@@ -6,6 +6,7 @@ export const Fugitive: BadgeData = {
   key: 'fugitive',
   setTitleId: [1566],
   name: 'Fugitive',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `When a fugitive escapes from the Zig, this area is the first place that the PPD patrol.
 The Freakshow frequently make deals with inmates - they'll hold off the PPD if the escapees join the Freakshow.

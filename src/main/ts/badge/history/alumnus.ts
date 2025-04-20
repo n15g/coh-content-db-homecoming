@@ -8,6 +8,7 @@ export const Alumnus: BadgeData = {
   key: 'alumnus',
   setTitleId: [411],
   name: 'Alumnus',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of Croatoa.`,
   links: [

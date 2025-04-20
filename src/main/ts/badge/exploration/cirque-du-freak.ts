@@ -6,6 +6,7 @@ export const CirqueDuFreak: BadgeData = {
   key: 'cirque-du-freak',
   setTitleId: [1796],
   name: `Cirque du'Freak`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `From this vantage point, one can get an excellent view of Carnival Town: the Freakshow community that has grown like a fungus on Venice's rotting corpse.
 This is more than a stronghold or a headquarters for the Freakshow, this is their version of a "community," a new world as seen through the filter of a violent and deranged mind.

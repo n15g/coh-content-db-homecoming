@@ -6,6 +6,7 @@ export const WatchYourBack: BadgeData = {
   key: 'watch-your-back',
   setTitleId: [2425],
   name: 'Watch Your Back',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `This tunnel leads directly to the Arachnos base. Freedom Corps used it as a staging area for surprise attacks until they were finally driven off and the tunnel entrance closed.`,
   links: [

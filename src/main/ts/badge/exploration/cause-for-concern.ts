@@ -6,6 +6,7 @@ export const CauseForConcern: BadgeData = {
   key: 'cause-for-concern',
   setTitleId: [1573],
   name: 'Cause for Concern',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Visitors to Portal Corp are usually a little concerned when they see these defensive outposts put up near the elevators down to the portals.
 Tour guides insist they are "just for show", though the occasional "all clear" heard from military radios nearby doesn't help much.`,

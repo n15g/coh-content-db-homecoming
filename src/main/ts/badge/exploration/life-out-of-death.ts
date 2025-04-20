@@ -6,6 +6,7 @@ export const LifeOutOfDeath: BadgeData = {
   key: 'life-out-of-death',
   setTitleId: [2185],
   name: 'Life out of Death',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Mot's hunger is insatiable and its power to feast upon life is prodigious.
 For sustenance, many innocent people have been spirited away into the haunted streets of Dark Astoria.

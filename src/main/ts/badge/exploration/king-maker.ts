@@ -7,6 +7,7 @@ export const KingMaker: BadgeData = {
   key: 'king-maker',
   setTitleId: [556],
   name: 'King Maker',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `This is the spot in Kings Row of a famous bloodbath where the Marcone made a vicious power play against the Verandi.`,
   notes: `Located approximately 113 yards northeast of the Bank.

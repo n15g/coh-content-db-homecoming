@@ -6,6 +6,7 @@ export const Breakneck: BadgeData = {
   key: 'breakneck',
   setTitleId: [578],
   name: 'Breakneck',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You have helped defeat Synapse in Recluse's Victory.`,
   acquisition: `Defeat Synapse in ${zoneLink(ReclusesVictory)}.`,

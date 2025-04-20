@@ -6,6 +6,7 @@ export const GiftedSpeaker: BadgeData = {
   key: 'gifted-speaker',
   setTitleId: [2095],
   name: 'Gifted Speaker',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You know how to work a crowd when you need to. With the help of a psychic suggestion device, of course.',
   links: [

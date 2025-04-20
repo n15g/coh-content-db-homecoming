@@ -6,6 +6,7 @@ export const GrimFandango: BadgeData = {
   key: 'grim-fandango',
   setTitleId: [1873],
   name: 'Grim Fandango',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `You've read the briefs describing how hordes of Rikti Monkeys had been observed taking down much, much larger game and now you have found evidence to support that thesis.
 Rikti monkeys dance among the bones, playing strange, captivating rhythms upon them, delighting in their accomplishment.

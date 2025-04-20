@@ -6,6 +6,7 @@ export const Surging: BadgeData = {
   key: 'surging',
   setTitleId: [519],
   name: 'Surging',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You have helped defeat Deathsurge.',
   acquisition: `Defeat Deathsurge, a monster that spawns in ${zoneLink(CapAuDiable)}.`,

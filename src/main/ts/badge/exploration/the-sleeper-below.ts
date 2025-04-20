@@ -6,6 +6,7 @@ export const TheSleeperBelow: BadgeData = {
   key: 'the-sleeper-below',
   setTitleId: [1785],
   name: 'The Sleeper Below',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Behold the God Mot, roused from His slumber! Behold the power of his faithful adherents, their prayers strong enough to stir Him from His dreaming!
 Behold the crucible of undoing, the maw through which all life shall soon pass so that all shall be unmade;

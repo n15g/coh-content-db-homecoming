@@ -6,6 +6,7 @@ export const OutcastSlugger: BadgeData = {
   key: 'outcast-slugger',
   setTitleId: [477],
   name: 'Outcast Slugger',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Outcasts are in awe of you.',
   links: [

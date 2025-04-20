@@ -6,6 +6,7 @@ export const BestFriendsForever: BadgeData = {
   key: 'best-friends-forever',
   setTitleId: [2477],
   name: 'Best Friends Forever',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You like, totally took Becky hostage! Giving her a much needed break from that extra super boring desk job! In return she like, so totally came to your rescue to save the day and stuff!
 Those weirdo gold guys are like, totally no match for Becky and her new BFF!`,

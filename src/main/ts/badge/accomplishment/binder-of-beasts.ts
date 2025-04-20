@@ -6,6 +6,7 @@ export const BinderOfBeasts: BadgeData = {
   key: 'binder-of-beasts',
   setTitleId: [512],
   name: 'Binder of Beasts',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You fought and defeated the dreaded demon Bat'Zul, the Beast Beneath the Mountain.`,
   links: [

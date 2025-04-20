@@ -13,6 +13,7 @@ export const ALightInDarkAstoria: BadgeData = {
   key: 'a-light-in-dark-astorias',
   setTitleId: [1878],
   name: 'A Light in Dark Astoria',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.`,
   links: [

@@ -5,6 +5,7 @@ export const DoubleFeature: BadgeData = {
   key: 'double-feature',
   setTitleId: [2242],
   name: 'Double Feature',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Summer Blockbuster Double Feature.',
   acquisition: `Complete both the "Time Gladiator" and "Casino Heist" parts of the Summer Blockbuster Event.`,

@@ -5,6 +5,7 @@ export const Genuine: BadgeData = {
   key: 'genuine',
   setTitleId: [1283],
   name: 'Genuine',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You're true to what you believe in; your peers consider you 'Genuine'. You have attained sixty-nine Veteran levels.` },

@@ -6,6 +6,7 @@ export const FaceOfEvil: BadgeData = {
   key: 'face-of-evil',
   setTitleId: [2019],
   name: 'Face of Evil',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You gained control of the Hearts of Darkness and defeated an ancient evil bent on consuming your soul.',
   links: [

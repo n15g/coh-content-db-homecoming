@@ -6,6 +6,7 @@ export const SuperSpy: BadgeData = {
   key: 'super-spy',
   setTitleId: [196],
   name: 'Super Spy',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Council's expert security forces keep most heroes from venturing this far into their base.`,
   notes: `Located on the hinge of a large set of steel doors along the NW shore of the island.`,

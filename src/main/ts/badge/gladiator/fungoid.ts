@@ -6,6 +6,7 @@ export const Fungoid: BadgeData = {
   key: 'fungoid',
   setTitleId: [498],
   name: 'Fungoid',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The mushroom men will fight for you.',
   links: [

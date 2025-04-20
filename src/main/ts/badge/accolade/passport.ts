@@ -6,6 +6,7 @@ export const Passport: BadgeData = {
   key: 'passport',
   setTitleId: [2433],
   name: 'Passport',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'Your travels have taken you to mysterious and exotic places. You have faced many dangers, but now you have returned to the place you call home.',
   acquisition: `Acquire any ten exploration badges, or earn the ${badgeLink(PocketDVipGoldClubMember)} badge.`,

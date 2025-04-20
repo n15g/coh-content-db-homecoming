@@ -6,6 +6,7 @@ export const Scarred: BadgeData = {
   key: 'scarred',
   setTitleId: [756],
   name: 'Scarred',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Rikti mother ship ripped a path through this area when it crashed into the ground.',
   notes: `Located on a broken fragment of road next to a destroyed building, a wrecked car is pointing at it.`,

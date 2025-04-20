@@ -8,6 +8,7 @@ export const MasterOfOlympus: BadgeData = {
     { sex: 'M', value: 'Master of Olympus' },
     { sex: 'F', value: 'Mistress of Olympus' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have destroyed the Kronos Titan, showing Malta that the Heroes of Paragon City defend their turf.` },

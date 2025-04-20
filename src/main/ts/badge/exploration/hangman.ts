@@ -10,6 +10,7 @@ export const Hangman: BadgeData = {
     { sex: 'M', value: 'Hangman' },
     { sex: 'F', value: 'Hangwoman' },
   ],
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'This cargo ship was left hanging on what is left of the war wall when Sunburst died in the huge explosion.',
   notes: `Located on a small rock outcropping at the very base of the northern wall of the zone, just off the western shore of the villain base, about 190 yards west of the ${zoneLink(SharkheadIsle)} transfer.`,

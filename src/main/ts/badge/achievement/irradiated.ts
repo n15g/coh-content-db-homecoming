@@ -5,6 +5,7 @@ export const Irradiated: BadgeData = {
   key: 'irradiated',
   setTitleId: [401],
   name: 'Irradiated',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've basked for more than one hour in the weird radiation of Bloody Bay.`,
   acquisition: 'Spend 1 hour in Bloody Bay.',

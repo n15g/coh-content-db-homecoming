@@ -6,6 +6,7 @@ export const ProbationDenied: BadgeData = {
   key: 'probation-denied',
   setTitleId: [2320],
   name: 'Probation Denied',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You stopped a number of prisoners from escaping from Ziggursky prison.',
   acquisition: `Complete the Prison Break zone event in ${zoneLink(Brickstown)}.`,

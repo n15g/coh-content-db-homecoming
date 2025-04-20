@@ -10,6 +10,7 @@ export const Intellectual: BadgeData = {
   key: 'intellectual',
   setTitleId: [150],
   name: 'Intellectual',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of the Lost's attempt to control the minds of Paragon City's people.`,
   links: [

@@ -8,6 +8,7 @@ export const ThinLine: BadgeData = {
     { alignment: 'hero', value: 'Thin Line' },
     { alignment: 'villain', value: 'Outlaw' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `The Paragon Police Department has an entire squad tracking you. They've let you know that you walk a Thin Line here in Paragon.` },

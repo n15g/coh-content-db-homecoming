@@ -8,6 +8,7 @@ export const TheUnbrokenSpirit: BadgeData = {
     { value: 'The Unbroken Spirit' },
     { alignment: 'praetorian', value: 'Undaunted' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your spirit can not be shattered. Though you have often been defeated, you continue to fight the good fight.' },

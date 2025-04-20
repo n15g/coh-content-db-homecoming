@@ -5,6 +5,7 @@ export const CutOff: BadgeData = {
   key: 'cut-off',
   setTitleId: [913],
   name: 'Cut-Off',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 40 and 45 while not using any Epic Power Pools.` },

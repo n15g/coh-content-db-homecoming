@@ -6,6 +6,7 @@ export const Nuclear: BadgeData = {
   key: 'nuclear',
   setTitleId: [2429],
   name: 'Nuclear',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Warburg ceased manufacturing nuclear warheads when the treaty was signed in 1982, but not before producing an enormous stockpile.`,
   links: [

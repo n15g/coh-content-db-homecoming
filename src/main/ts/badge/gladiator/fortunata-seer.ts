@@ -5,6 +5,7 @@ export const FortunataSeer: BadgeData = {
   key: 'fortunata-seer',
   setTitleId: [443],
   name: 'Fortunata Seer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The seers see victory on your side.',
   acquisition: 'Defeat 100 Fortunata Seers.',

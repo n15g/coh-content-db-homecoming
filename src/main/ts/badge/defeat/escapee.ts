@@ -5,6 +5,7 @@ export const Escapee: BadgeData = {
   key: 'escapee',
   setTitleId: [1473],
   name: 'Escapee',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Despite all of their genetic modifications and cybernetics, the Failed Experiments were no match for you. You defeated several waves of Failed Experiments to earn this badge.`,
   acquisition: 'Defeat 100 points worth of Failed Experiments.',

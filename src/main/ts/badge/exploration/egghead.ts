@@ -6,6 +6,7 @@ export const Egghead: BadgeData = {
   key: 'egghead',
   setTitleId: [271],
   name: 'Egghead',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `It's back to school for you. Aeon University is home to many of Dr. Aeon's Brighter employees.`,
   notes: 'Located on top of the university right above the front door.',

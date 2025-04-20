@@ -10,6 +10,7 @@ export const Disciple: BadgeData = {
   key: 'disciple',
   setTitleId: [153],
   name: 'Disciple',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history behind the founding of Hero Corps.`,
   links: [

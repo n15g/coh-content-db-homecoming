@@ -6,6 +6,7 @@ export const RippleRaider: BadgeData = {
   key: 'ripple-raider',
   setTitleId: [2479],
   name: 'Ripple Raider',
+  releaseDate: '2020-11-26',
   morality: 'villainous',
   badgeText: `You've shown yourself to be incredibly adaptable by overcoming every threat found in the familiar-yet-different dimensional ripples Golden Roller tossed your team into without a single defeat being suffered by your team.`,
   acquisition: `Conquer all three challenge encounters within Golden Roller's dimensional ripples in a single attempt in ${DrAeon}'s Strike Force.`,

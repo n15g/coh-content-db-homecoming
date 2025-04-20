@@ -6,6 +6,7 @@ export const Unfettered: BadgeData = {
   key: 'unfettered',
   setTitleId: [1814],
   name: 'Unfettered',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have burdened yourself with so many unnecessary attachments.
 Your friends will only disappoint you; they are best cast aside.

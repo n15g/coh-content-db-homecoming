@@ -6,6 +6,7 @@ export const ShadowWalker: BadgeData = {
   key: 'shadow-walker',
   setTitleId: [2053],
   name: 'Shadow Walker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Despite the spirit wards that safeguard your soul and the ghost lights that guide your way, traversing the Shadowed Paths can be an unnerving experience.
 The Shadowed Paths are a fragment of the world where live the very things that go 'bump' in the night; the world of disembodied spirits and the unquiet dead.

@@ -6,6 +6,7 @@ export const UsurperOfWorlds: BadgeData = {
   key: 'usurper-of-worlds',
   setTitleId: [1810],
   name: 'Usurper of Worlds',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The briefing listed this area as "Tyrant's Rock," though you are not sure why.
 Perhaps it is the growing sense of duty and entitlement that fills your chest with unbidden pride.

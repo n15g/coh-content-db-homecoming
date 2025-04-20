@@ -5,6 +5,7 @@ export const WellDrinker: BadgeData = {
   key: 'well-drinker',
   setTitleId: [1964],
   name: 'Well Drinker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've crafted your first Rare Incarnate Ability earning yourself this badge.`,
   acquisition: 'Craft a rare incarnate ability.',

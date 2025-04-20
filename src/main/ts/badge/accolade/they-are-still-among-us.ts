@@ -13,6 +13,7 @@ export const TheyAreStillAmongUs: BadgeData = {
   key: 'they-are-still-among-us',
   setTitleId: [2331],
   name: 'They Are Still Among Us',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge in the Rikti War Zone.`,
   links: [

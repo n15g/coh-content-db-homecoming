@@ -5,6 +5,7 @@ export const GiantKiller: BadgeData = {
   key: 'giant-killer',
   setTitleId: [428],
   name: 'Giant Killer',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have felled the mighty Jack in Irons, earning the title Giant Killer.',
   acquisition: 'Defeat Jack in Irons, a monster that spawns in Croatoa.',

@@ -5,6 +5,7 @@ export const MobSpecialist: BadgeData = {
   key: 'mob-specialist',
   setTitleId: [510],
   name: 'Mob Specialist',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Crey has authorized these men for your Arena teams.',
   acquisition: 'Defeat 200 Prisoner Bosses.',

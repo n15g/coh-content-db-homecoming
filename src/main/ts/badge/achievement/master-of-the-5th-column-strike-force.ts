@@ -5,6 +5,7 @@ export const MasterOfThe5thColumnStrikeForce: BadgeData = {
   key: 'master-of-the-5th-column-strike-force',
   setTitleId: [1373],
   name: 'Master of the 5th Column Strike Force',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You have proven yourself Master of the 5th Column Strike Force',
   acquisition: `Complete the Master of the 5th Column Strike Force challenge (zero defeats, temporary and incarnate powers disabled).`,

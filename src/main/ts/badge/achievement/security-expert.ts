@@ -9,6 +9,7 @@ export const SecurityExpert: BadgeData = {
     { alignment: 'villain', sex: 'M', value: 'Inside Man' },
     { alignment: 'villain', sex: 'F', value: 'Inside Woman' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'You have protected several local businesses in Paragon City, and the public loves you for it.' },

@@ -6,6 +6,7 @@ export const WarTorn: BadgeData = {
   key: 'war-torn',
   setTitleId: [2332],
   name: 'War Torn',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have torn the Council War Walkers into scrap metal.`,
   acquisition: `Defeat 100 Council War Walkers in ${zoneLink(Boomtown)}.`,

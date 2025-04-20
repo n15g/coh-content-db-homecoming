@@ -6,6 +6,7 @@ export const Luscious: BadgeData = {
   key: 'luscious',
   setTitleId: [754],
   name: 'Luscious',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Devouring Earth have chosen this spot to start bringing paradise back to a war-torn city.',
   notes: `Located in Bloody Lane neighborhood, 90 yds west of the Bloody Lane neighborhood marker.`,

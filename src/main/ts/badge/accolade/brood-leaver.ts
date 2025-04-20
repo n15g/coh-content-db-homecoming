@@ -10,6 +10,7 @@ export const BroodLeaver: BadgeData = {
     { alignment: 'hero', value: 'Brood Leaver' },
     { alignment: 'villain', value: 'Brood Leader' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     {

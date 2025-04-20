@@ -13,6 +13,7 @@ export const HonoraryMonster: BadgeData = {
   key: 'honorary-monster',
   setTitleId: [1891],
   name: 'Honorary Monster',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Monster Island.`,
   links: [

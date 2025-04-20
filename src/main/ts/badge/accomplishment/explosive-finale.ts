@@ -6,6 +6,7 @@ export const ExplosiveFinale: BadgeData = {
   key: 'explosive-finale',
   setTitleId: [1586],
   name: 'Explosive Finale',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Protean thought he could put an end to you by blowing you up - you proved him wrong.',
   links: [

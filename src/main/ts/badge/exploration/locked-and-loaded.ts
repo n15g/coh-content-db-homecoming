@@ -6,6 +6,7 @@ export const LockedAndLoaded: BadgeData = {
   key: 'locked-and-loaded',
   setTitleId: [275],
   name: 'Locked and Loaded',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: [
     { alignment: 'hero', value: `This is the spot where many Longbow Agents have trained to take villains down.` },

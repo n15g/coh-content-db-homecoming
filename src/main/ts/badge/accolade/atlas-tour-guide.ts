@@ -13,6 +13,7 @@ export const AtlasTourGuide: BadgeData = {
   key: 'atlas-tour-guide',
   setTitleId: [1517],
   name: 'Atlas Tour Guide',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Atlas Park.`,
   links: [

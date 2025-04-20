@@ -7,6 +7,7 @@ export const ConjunctionJunction: BadgeData = {
   key: 'conjunction-junction',
   setTitleId: [131],
   name: 'Conjunction Junction',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This junction was the first target of the Freakshow when they started their campaign of mayhem.
 Statesman and the rest of the Freedom Phalanx were able to stop their plan before it could be fulfilled.`,

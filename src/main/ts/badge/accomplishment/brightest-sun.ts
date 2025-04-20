@@ -6,6 +6,7 @@ export const BrightestSun: BadgeData = {
   key: 'brightest-sun',
   setTitleId: [2015],
   name: 'Brightest Sun',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You and your friends have uncovered a Praetorian plot in Galaxy City, which may strike closer to home than you thought.',
   links: [

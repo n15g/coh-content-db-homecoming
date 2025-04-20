@@ -6,6 +6,7 @@ export const EnemyOfTheState: BadgeData = {
   key: 'enemy-of-the-state',
   setTitleId: [2220],
   name: 'Enemy of the State',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: Magisterium.',
   links: [

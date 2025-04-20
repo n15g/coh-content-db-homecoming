@@ -5,6 +5,7 @@ export const MasterOfTheImperiousTaskForce: BadgeData = {
   key: 'master-of-the-imperious-task-force',
   setTitleId: [1375],
   name: 'Master of the Imperious Task Force',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have proven yourself Master of the Imperious Task Force',
   acquisition: `Complete the Master of the Imperious Task Force challenge (zero defeats, temporary and incarnate powers disabled).`,

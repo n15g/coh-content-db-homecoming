@@ -6,6 +6,7 @@ export const Trustworthy: BadgeData = {
   key: 'trustworthy',
   setTitleId: [2367],
   name: 'Trustworthy',
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `Mystics all over the world entrust MAGI with powerful artifacts.`,
   notes: 'Located next to the large green crystal in the MAGI office.',

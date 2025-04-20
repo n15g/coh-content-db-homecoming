@@ -6,6 +6,7 @@ export const Politician: BadgeData = {
   key: 'politician',
   setTitleId: [260],
   name: 'Politician',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: 'Council man John Chard announced from this location that his island would be the front lines of defense against the Rikti invasion.',
   notes: `Located to the right (north) of the doorway of the building immediately east of the hero base.`,

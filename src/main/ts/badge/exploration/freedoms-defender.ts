@@ -10,6 +10,7 @@ export const FreedomsDefender: BadgeData = {
     { alignment: 'hero', value: `Freedom's Defender` },
     { alignment: 'villain', value: `Freedom's Crusher` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Hellions attempted to burn Steel Canyon to the ground. This block is where one of the first fires was started.',
   notes: `Located in the bottom right (southwestern) cutaway corner of a four-story apartment building in the central western part of the map.

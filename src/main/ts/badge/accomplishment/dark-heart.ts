@@ -6,6 +6,7 @@ export const DarkHeart: BadgeData = {
   key: 'dark-heart',
   setTitleId: [2017],
   name: 'Dark Heart',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `Your role in this contest was irrevocably changed when you became Scirocco's spy.`,
   links: [

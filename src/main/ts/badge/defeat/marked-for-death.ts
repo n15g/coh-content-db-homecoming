@@ -5,6 +5,7 @@ export const MarkedForDeath: BadgeData = {
   key: 'marked-for-death',
   setTitleId: [1470],
   name: 'Marked for Death',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `The Syndicate has marked you for death, but if they're smart they won't get anywhere near you. You defeated several Syndicate members to earn this badge.`,
   acquisition: 'Defeat 100 points worth of Syndicate.',

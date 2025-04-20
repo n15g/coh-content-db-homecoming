@@ -6,6 +6,7 @@ export const Bereaved: BadgeData = {
   key: 'bereaved',
   setTitleId: [1817],
   name: 'Bereaved',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You live in a dangerous world. Beset on all sides by foes that wish to destroy you and all you hold dear.
 You've seen countless friends and comrades fall in battle. You've seen their bodies burnt, their minds warped, their bones broken.

@@ -10,6 +10,7 @@ export const TalosMight: BadgeData = {
     { alignment: 'hero', value: `Talos' Might` },
     { alignment: 'villain', value: `Talos' Blight` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `Years ago, Rularuu tore down the barriers between our dimensions and sent one of many invasion forces to this block.
 Heroes from all over fought back the invaders.`,

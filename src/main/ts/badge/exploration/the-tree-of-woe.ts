@@ -6,6 +6,7 @@ export const TheTreeOfWoe: BadgeData = {
   key: 'the-tree-of-woe',
   setTitleId: [1866],
   name: 'The Tree of Woe',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `
 According to the briefing, some of the facility's survivors fled to this location in a last ditch effort to avoid the inevitable.

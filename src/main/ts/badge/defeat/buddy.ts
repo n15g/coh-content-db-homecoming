@@ -5,6 +5,7 @@ export const Buddy: BadgeData = {
   key: 'buddy',
   setTitleId: [2327],
   name: 'Buddy',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `Even in defeat, Hamidon is a force to contend with. You have cleaned up the mess left behind after Hamidon's demise.`,
   acquisition: 'Defeat 100 Hamidon Buds.',

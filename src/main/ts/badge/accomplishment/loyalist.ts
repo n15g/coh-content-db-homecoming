@@ -5,6 +5,7 @@ export const Loyalist: BadgeData = {
   key: 'loyalist',
   setTitleId: [1755],
   name: 'Loyalist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You spent some effort bolstering the Praetorian regime of Emperor Cole, or at least appearing to do so.',
   acquisition: 'Choose a Loyalist outcome in a moral choice mission.',

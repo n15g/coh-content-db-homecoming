@@ -6,6 +6,7 @@ export const TiberianOverseer: BadgeData = {
   key: 'tiberian-overseer',
   setTitleId: [1634],
   name: 'Tiberian Overseer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `From this high perch the Tiberian Overseer casts their gaze across the city-state of Praetoria, taking in its beauty while seeking out the corruption that threatens it.`,
   notes: `Located 185 yards N of the Tiberian Bluff marker.`,

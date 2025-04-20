@@ -6,6 +6,7 @@ export const TemporalSpy: BadgeData = {
   key: 'temporal-spy',
   setTitleId: [568],
   name: 'Temporal Spy',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have commanded 25 Heavies in Recluse's Victory.`,
   acquisition: `Control 25 Heavies in ${zoneLink(ReclusesVictory)}.`,

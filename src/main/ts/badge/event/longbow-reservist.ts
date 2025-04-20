@@ -8,6 +8,7 @@ export const LongbowReservist: BadgeData = {
     { alignment: 'hero', value: 'Longbow Reservist' },
     { alignment: 'villain', value: 'Jet-Setter' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have been made an honorary Longbow Eagle, temporarily issued a Longbow jetpack.' },

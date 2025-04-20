@@ -6,6 +6,7 @@ export const GuardiansOfJustice: BadgeData = {
   key: 'guardians-of-justice',
   setTitleId: [1593],
   name: 'Guardians of Justice',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `From its heavily fortified bunker, the Praetorian Police Department extends the sheltering arms of Imperial Justice to all citizens.`,
   notes: `Located on top of the PPD headquarters building, 223 yards north of the Magisterium marker.`,

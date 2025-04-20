@@ -5,6 +5,7 @@ export const VirtualVictor: BadgeData = {
   key: 'virtual-victor',
   setTitleId: [1167],
   name: 'Virtual Victor',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've defeated your first enemy in Test Mode earning yourself the Virtual Victor badge.`,
   acquisition: 'Defeat one enemy while testing your Architect missions.',

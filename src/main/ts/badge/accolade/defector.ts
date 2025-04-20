@@ -10,6 +10,7 @@ export const Defector: BadgeData = {
     { alignment: 'hero', value: 'Defector' },
     { alignment: 'villain', value: 'Black Ops' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     {

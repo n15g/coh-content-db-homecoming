@@ -6,6 +6,7 @@ export const Corrupter: BadgeData = {
   key: 'corrupter',
   setTitleId: [78],
   name: 'Corrupter',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You prevented a non-aggression pact between the Circle of Thorns and Nemesis.',
   links: [

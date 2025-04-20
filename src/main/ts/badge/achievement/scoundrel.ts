@@ -5,6 +5,7 @@ export const Scoundrel: BadgeData = {
   key: 'scoundrel',
   setTitleId: [1452],
   name: 'Scoundrel',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You take consideration of all the angles and know when making deals instead of wreaking blind havoc puts you farther ahead. You have completed a Rogue Morality Mission earning yourself this badge.',
   acquisition: 'Complete a Rogue morality mission.',

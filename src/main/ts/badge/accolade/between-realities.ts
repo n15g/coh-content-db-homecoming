@@ -14,6 +14,7 @@ export const BetweenRealities: BadgeData = {
   key: 'between-realities',
   setTitleId: [2539],
   name: 'Between Realities',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `You've spent a significant amount of time shifting between the spatial overlaps of the First Ward and Night Ward.
 With experience, you've learned of a method to manipulate the magics used by the Light & Shadowed Paths to define and utilize spatial jump points of your own.`,

@@ -6,6 +6,7 @@ export const Chameleon: BadgeData = {
   key: 'chameleon',
   setTitleId: [2385],
   name: 'Chameleon',
+  releaseDate: '2019-01-01',
   morality: 'heroic',
   badgeText: `You infiltrated the Freakshow and recovered the stolen Chameleon Suit.`,
   links: [

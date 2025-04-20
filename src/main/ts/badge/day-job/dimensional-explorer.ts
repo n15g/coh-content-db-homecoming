@@ -8,6 +8,7 @@ export const DimensionalExplorer: BadgeData = {
     { alignment: 'hero', value: 'Dimensional Explorer' },
     { alignment: 'villain', value: 'Dimensional Plunderer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     {

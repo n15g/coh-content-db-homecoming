@@ -5,6 +5,7 @@ export const HallowSpirit: BadgeData = {
   key: 'hallow-spirit',
   setTitleId: [184],
   name: 'Hallow Spirit',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have helped defeat a manifestation of Eochai, king of the Fir Bolg.',
   acquisition: 'Defeat the manifestation of Eochai during the Halloween event.',

@@ -7,6 +7,7 @@ export const LastLineOfDefense: BadgeData = {
   key: 'last-line-of-defense',
   setTitleId: [1546],
   name: 'Last Line of Defense',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `During the Second Rikti War, this hill was used by heroes as a gathering point to fight off the Rikti in Talos.
 Despite the large Rikti numbers, the heroes managed to repel them time after time from this very spot, allowing the rest of Talos Island's citizens to get to safety.`,

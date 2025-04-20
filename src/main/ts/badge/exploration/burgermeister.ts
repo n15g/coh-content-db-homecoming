@@ -9,6 +9,7 @@ export const Burgermeister: BadgeData = {
     { sex: 'M', value: 'Burgermeister' },
     { sex: 'F', value: 'Burgermeisterin' },
   ],
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `Hero Burgers was once the best fast-food restaurant in Oceanview, before the island was evacuated and abandoned.`,
   links: [

@@ -6,6 +6,7 @@ export const DarkGarden: BadgeData = {
   key: 'dark-garden',
   setTitleId: [1872],
   name: 'Dark Garden',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `In this sheltered little corner, someone spent considerable time and effort to cultivate a garden of rare plants known for their reluctance to grow outside of their native soil.
 How many hours must they have spent carefully trimming their boughs, cleaning them of parasites, monitoring their nutrition and water intake?

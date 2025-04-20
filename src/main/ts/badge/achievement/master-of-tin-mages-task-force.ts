@@ -9,6 +9,7 @@ export const MasterOfTinMagesTaskForce: BadgeData = {
   key: 'master-of-tin-mages-task-force',
   setTitleId: [1940],
   name: `Master of Tin Mage's Task Force`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have gone through the Alpha and the Omega of Tin Mage's Task Force.`,
   links: [

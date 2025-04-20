@@ -6,6 +6,7 @@ export const TheThiefOfMidnight: BadgeData = {
   key: 'the-thief-of-midnight',
   setTitleId: [986],
   name: 'The Thief of Midnight',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Only you and Darrin Wade will ever know what you took from the Midnight Squad. Even now they believe the artifacts they look upon with such reverence to be authentic.',
   links: [

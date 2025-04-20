@@ -10,6 +10,7 @@ export const MasterOfTheTpnCampus: BadgeData = {
   key: 'master-of-tpn-campus',
   setTitleId: [2077],
   name: 'Master of the TPN Campus',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have mastered the Incarnate Trial: TPN Campus.',
   links: [

@@ -8,6 +8,7 @@ export const JudgeJury: BadgeData = {
     { alignment: 'hero', value: 'Judge & Jury' },
     { alignment: 'villain', value: 'Merciless' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You defeated one of the signature "Rogues Gallery" characters in an Alignment or Morality mission earning yourself this badge.`,
   acquisition: `Defeat a Rogue's Gallery character in an Alignment Mission or a Morality Mission.`,

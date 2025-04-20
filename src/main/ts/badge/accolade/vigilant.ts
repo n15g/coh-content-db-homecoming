@@ -11,6 +11,7 @@ export const Vigilant: BadgeData = {
   key: 'vigilant',
   setTitleId: [2353],
   name: 'Vigilant',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You're always there when the people of Paragon City need you.` },

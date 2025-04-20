@@ -6,6 +6,7 @@ export const Connector: BadgeData = {
   key: 'connector',
   setTitleId: [1555],
   name: 'Connector',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The Bell-Wave is the twin of the nearly destroyed Valor Bridge.
 Cynics say that the statue of the heroine at the end was built to inspire the bridge to be named after her, but the trend never took off.`,

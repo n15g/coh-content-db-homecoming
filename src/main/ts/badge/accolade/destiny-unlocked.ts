@@ -5,6 +5,7 @@ export const DestinyUnlocked: BadgeData = {
   key: 'destiny-unlocked',
   setTitleId: [1394],
   name: 'Destiny Unlocked',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You unlocked your Destiny Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Destiny Incarnate slot.`,

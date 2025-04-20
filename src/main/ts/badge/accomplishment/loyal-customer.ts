@@ -6,6 +6,7 @@ export const LoyalCustomer: BadgeData = {
   key: 'loyal-customer',
   setTitleId: [2369],
   name: 'Loyal Customer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have stopped the Sky Raiders from ransacking Wentworth's Fine Consignments.`,
   acquisition: 'Complete the Market Crash Task Force in Kallisti Wharf.',

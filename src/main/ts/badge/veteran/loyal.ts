@@ -5,6 +5,7 @@ export const Loyal: BadgeData = {
   key: 'loyal',
   setTitleId: [627],
   name: 'Loyal',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Your diligent service is recognized by the government of Paragon City. You have attained twelve Veteran levels.` },

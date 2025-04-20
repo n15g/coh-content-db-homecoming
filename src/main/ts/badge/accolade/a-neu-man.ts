@@ -16,6 +16,7 @@ export const ANeuMan: BadgeData = {
     { sex: 'M', value: 'A Neu Man' },
     { sex: 'F', value: 'A Neu Woman' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Neutropolis.`,
   links: [

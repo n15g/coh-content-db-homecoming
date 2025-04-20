@@ -6,6 +6,7 @@ export const CommutersWoe: BadgeData = {
   key: 'commuters-woe',
   setTitleId: [1489],
   name: `Commuter's Woe`,
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The Mount Diable Tunnel, destroyed following a turf war gone explosive, connected Port Oakes to Cap au Diable. Much to the chagrin of many commuters, no effort has been made to rebuild it.`,
   notes: `Located in the Oil Spill neighborhood, at the blocked off tunnel 194 yards west of the Quartermaster.`,

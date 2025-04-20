@@ -6,6 +6,7 @@ export const HiddenGetaway: BadgeData = {
   key: 'hidden-getaway',
   setTitleId: [1490],
   name: 'Hidden Getaway',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `When things became heated between rival families, heads of the Marcones have been known to hide in this cabin, sometimes using the nearby submarine to escape to better grounds.
 Some say this may even be where the first monkey fight club was started.`,

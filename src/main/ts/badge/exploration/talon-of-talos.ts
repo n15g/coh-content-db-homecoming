@@ -7,6 +7,7 @@ export const TalonOfTalos: BadgeData = {
   key: 'talon-of-talos',
   setTitleId: [560],
   name: 'Talon of Talos',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: 'You know all the possible places where criminals lurk to ambush people in Talos - knowledge that only someone from the other side could have.' },

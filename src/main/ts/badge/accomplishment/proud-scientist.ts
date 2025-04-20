@@ -7,6 +7,7 @@ export const ProudScientist: BadgeData = {
   key: 'proud-scientist',
   setTitleId: [2273],
   name: 'Proud Scientist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You played Anti-Matter's personal story and witnessed his last moments.`,
   notes: `To get this badge in ${zoneLink(Ouroboros)}, a hero or villain can select the "Anti-Matter's Personal Story" entry with number 24.16 at level 50.`,

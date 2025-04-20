@@ -5,6 +5,7 @@ export const DemonSlayer: BadgeData = {
   key: 'demon-slayer',
   setTitleId: [41],
   name: 'Demon Slayer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have defeated Baphomet, an evil spirit summoned by the upper echelon of the Circle of Thorns to destroy Paragon City.` },

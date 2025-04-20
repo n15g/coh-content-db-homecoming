@@ -5,6 +5,7 @@ export const TimeKeeper: BadgeData = {
   key: 'time-keeper',
   setTitleId: [2525],
   name: 'Time Keeper',
+  releaseDate: '2024-05-02',
   morality: 'all',
   badgeText: `The way forward into the future is paved on the efforts undertaken by those in the past.
 You've paid your respects to history by opening many of the time capsules found during the City of Heroes Anniversary Event. Time to focus your sight on the future!`,

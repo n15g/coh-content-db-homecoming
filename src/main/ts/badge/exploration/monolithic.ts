@@ -6,6 +6,7 @@ export const Monolithic: BadgeData = {
   key: 'monolithic',
   setTitleId: [2232],
   name: 'Monolithic',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `As you set foot in this peculiar stone circle you can feel ancient magics coursing through your veins.
 The source of its power remains a mystery - as well it should.

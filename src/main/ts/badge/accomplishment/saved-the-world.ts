@@ -9,6 +9,7 @@ export const SavedTheWorld: BadgeData = {
     { alignment: 'hero', value: 'Saved the World' },
     { alignment: 'villain', value: 'Saved the World... for Later' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `After defeating Lord Recluse's plan to steal the powers of all the heroes on the planet, you have been recognized as a true world-savior.` },

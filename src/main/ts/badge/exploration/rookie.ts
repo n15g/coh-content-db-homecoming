@@ -7,6 +7,7 @@ export const Rookie: BadgeData = {
   key: 'rookie',
   setTitleId: [2025],
   name: 'Rookie',
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `Newly registered heroes in Paragon City often start out in Atlas Park, where they can speak with more established heroes to receive advice and guidance.`,
   notes: `Located behind ${contactLink(MsLiberty)}, who stands in front of the new character spawn point.`,

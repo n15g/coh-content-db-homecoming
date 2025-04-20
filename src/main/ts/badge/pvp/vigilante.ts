@@ -11,6 +11,7 @@ export const Vigilante: BadgeData = {
     { alignment: 'hero', value: 'Vigilante' },
     { alignment: 'villain', value: 'Wanted' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your success in PvP missions has been noticed by the media. You are being called a Vigilante.' },

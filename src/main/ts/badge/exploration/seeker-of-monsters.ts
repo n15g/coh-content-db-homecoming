@@ -6,6 +6,7 @@ export const SeekerOfMonsters: BadgeData = {
   key: 'seeker-of-monsters',
   setTitleId: [193],
   name: 'Seeker of Monsters',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Grendel's Gulch was named after the Trolls former leader, Grendel, who was defeated by Atta in a contest of strength on this spot.`,
   notes: `Located 217 yards South West of the Grendel's Gulch marker.`,

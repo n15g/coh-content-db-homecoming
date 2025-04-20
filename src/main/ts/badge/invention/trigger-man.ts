@@ -5,6 +5,7 @@ export const TriggerMan: BadgeData = {
   key: 'trigger-man',
   setTitleId: [785],
   name: 'Trigger Man',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 10: Recharge Rate and Interrupt Time.',
   links: [

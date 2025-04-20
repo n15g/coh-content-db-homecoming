@@ -5,6 +5,7 @@ export const MasterCraftsman: BadgeData = {
   key: 'master-craftsman',
   setTitleId: [743],
   name: 'Master Craftsman',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'A Master Craftsman they call you, as you have created 1,000 inventions.',
   acquisition: 'Craft 1000 items in the Invention System or Supergroup Base system.',

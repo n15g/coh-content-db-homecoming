@@ -5,6 +5,7 @@ export const Security: BadgeData = {
   key: 'security',
   setTitleId: [773],
   name: 'Security',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 35 and 40: Defense Buff, Resist Damage, Intangible.',
   links: [

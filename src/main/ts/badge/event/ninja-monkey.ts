@@ -5,6 +5,7 @@ export const NinjaMonkey: BadgeData = {
   key: 'ninja-monkey',
   setTitleId: [2245],
   name: 'Ninja Monkey',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You defeated a total of 75 Ninjas and Monkeys during a single match in the Summer Blockbuster 'Time Gladiator'.`,
   acquisition: 'In the Summer Blockbuster, defeat a total of 75 ninjas and monkeys during a single "Time Gladiator" match.',

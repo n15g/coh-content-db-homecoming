@@ -5,6 +5,7 @@ export const Descended: BadgeData = {
   key: 'descended',
   setTitleId: [1463],
   name: 'Descended',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have shrugged off the heavy binds of morality and selflessness and have become a Villain.You have shifted your alignment from Hero to Villain earning yourself the Descended badge.',
   acquisition: 'Shift alignment from Hero to Villain.',

@@ -8,6 +8,7 @@ export const Questing: BadgeData = {
     { value: 'Questing' },
     { alignment: 'praetorian', value: 'Prepared' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've experienced more in the last few years than most will in their entire lives. That said, you know you're not done yet.` },

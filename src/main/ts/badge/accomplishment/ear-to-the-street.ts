@@ -5,6 +5,7 @@ export const EarToTheStreet: BadgeData = {
   key: 'ear-to-the-street',
   setTitleId: [1442],
   name: 'Ear to the Street',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You completed a Hero Alignment Mission earning yourself the Ear to the Street badge.',
   acquisition: 'Complete a Hero Alignment mission.',

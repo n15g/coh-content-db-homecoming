@@ -21,6 +21,7 @@ export const AgentOfPraetoria: BadgeData = {
   key: 'agent-of-praetoria',
   setTitleId: [2350],
   name: 'Agent of Praetoria',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You stand on the fragile tipping point between Order and Chaos. Which way will you go?',
   acquisition: `Complete every story arc within ${zoneLink(NovaPraetoria)}.`,

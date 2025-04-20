@@ -5,6 +5,7 @@ export const ForwardObserver: BadgeData = {
   key: 'forward-observer',
   setTitleId: [365],
   name: 'Forward Observer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You've taken down 10 villains in PvP.` },

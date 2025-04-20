@@ -5,6 +5,7 @@ export const Regenerator: BadgeData = {
   key: 'regenerator',
   setTitleId: [53],
   name: 'Regenerator',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have shown tenaciousness in taking down the leadership of the Trolls... over and over again.`,
   acquisition: 'Defeat 100 Trolls bosses.',

@@ -6,6 +6,7 @@ export const ForgedByHellfire: BadgeData = {
   key: 'forged-by-hellfire',
   setTitleId: [296],
   name: 'Forged by Hellfire',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The Hell Forge is the largest above ground furnace on the planet.`,
   notes: `Located in the Hell Forge neighborhood, just west of the Hell Forge marker there are three large silo tanks, the badge marker is on the ground just north of the northernmost tank.`,

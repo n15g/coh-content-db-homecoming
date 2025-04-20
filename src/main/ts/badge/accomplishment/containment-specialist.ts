@@ -6,6 +6,7 @@ export const ContainmentSpecialist: BadgeData = {
   key: 'containment-specialist',
   setTitleId: [2434],
   name: 'Containment Specialist',
+  releaseDate: '2020-11-26',
   morality: 'heroic',
   badgeText: `Under extreme pressure, you were cool in a crisis. With only five minutes in a warehouse engulfed in flames, you were able to disable the rigged sprinklers before the situation became a national tragedy.`,
   acquisition: `Turn off the sprinklers before the timer runs out during ${missionLink(TheGraveyardShift)} story arc.`,

@@ -5,6 +5,7 @@ export const Banisher: BadgeData = {
   key: 'banisher',
   setTitleId: [37],
   name: 'Banisher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You are a banisher of evil spirits. The Banished Pantheon fears your very name.',
   acquisition: 'Defeat 200 Banished Pantheon Spirit Masks.',

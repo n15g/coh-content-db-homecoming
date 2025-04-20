@@ -6,6 +6,7 @@ export const BoneCollector: BadgeData = {
   key: 'bone-collector',
   setTitleId: [331],
   name: 'Bone Collector',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You recovered Mr. Bocor's necromantic Loa Bone.`,
   links: [

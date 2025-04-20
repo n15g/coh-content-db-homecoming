@@ -9,6 +9,7 @@ export const CitadelsAssistant: BadgeData = {
     { alignment: 'hero', value: `Citadel's Assistant` },
     { alignment: 'villain', value: `Citadel's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Citadel has awarded you this medal for helping him rid the world of the evil robots based on his programming.' },

@@ -5,6 +5,7 @@ export const Bonecrusher: BadgeData = {
   key: 'bonecrusher',
   setTitleId: [30],
   name: 'Bonecrusher',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You're all about knocking heads and beating Skulls.`,
   acquisition: 'Defeat 50 Skulls Bone Daddies, Death Dolls, or Death Walkers.',

@@ -6,6 +6,7 @@ export const Pwnz: BadgeData = {
   key: 'pwnz',
   setTitleId: [75],
   name: 'Pwnz',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You have arrested one of the higher ranking members of the Freakshow.',
   links: [

@@ -10,6 +10,7 @@ export const HonorableCaptain: BadgeData = {
     { alignment: 'hero', value: 'Honorable Captain' },
     { alignment: 'villain', value: 'Dishonorable Captain' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Synapse has been seen speeding along the monorail tracks all throughout the city. Independence Port is one of his favorites.',
   notes: `Located in a narrow alley behind and slightly northeast of the crane on the northeastern side of the inlet. The alley sits beside a U-shaped building with two payphones, and the badge is found within.

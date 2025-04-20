@@ -7,6 +7,7 @@ export const OldFashioned: BadgeData = {
   key: 'old-fashioned',
   setTitleId: [638],
   name: 'Old Fashioned',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: [
     { alignment: 'hero', value: `Best doughnuts in all of Paragon City! You picked the ultimate bragging rights location.` },

@@ -8,6 +8,7 @@ export const Epidemiologist: BadgeData = {
   key: 'epidemiologist',
   setTitleId: [2461],
   name: 'Epidemiologist',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have made your name known to every notable Vahzilok leader (and their lackeys) you've encountered before, during, and after Dr. Vahzilok's incarceration, placing each of them in jail personally.`,
   acquisition: `Defeat Pathogen, Malady, Salamander, Newt, Cortex, Grey Matter, Dr. Vahzilok, Doc Buzzsaw, and Dr. Meinst.`,

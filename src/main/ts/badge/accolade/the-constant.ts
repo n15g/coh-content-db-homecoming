@@ -7,6 +7,7 @@ export const TheConstant: BadgeData = {
   key: 'the-constant',
   setTitleId: [2001],
   name: 'The Constant',
+  releaseDate: '2019-01-01',
   morality: 'heroic',
   badgeText: `Villains, heroes, time travel, trans-dimensional wars... Come what may, in an ever-changing multiverse, you are The Constant which remains unchanged.`,
   links: [

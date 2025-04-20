@@ -6,6 +6,7 @@ export const Supernova: BadgeData = {
   key: 'supernova',
   setTitleId: [2016],
   name: 'Supernova',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Shining Stars have stopped a Praetorian plot to destroy Paragon, but at great cost.',
   links: [

@@ -9,6 +9,7 @@ export const MasterOfTheUnderground: BadgeData = {
   key: 'master-of-the-underground',
   setTitleId: [2000],
   name: 'Master of the Underground',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have mastered the Incarnate Trial: Underground.',
   links: [

@@ -5,6 +5,7 @@ export const Redundant: BadgeData = {
   key: 'redundant',
   setTitleId: [1656],
   name: 'Redundant',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Destroying the Destroyers has destroyed their chance to cause destruction, even if saying out loud sounds a bit Redundant.
 Those big and strangely colored targets are hard to resist. You destroyed many Destroyers to earn this badge.`,

@@ -6,6 +6,7 @@ export const JunkyardDog: BadgeData = {
   key: 'junkyard-dog',
   setTitleId: [755],
   name: 'Junkyard Dog',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'This is where some military vehicles went to die.',
   notes: `Located in Heartbreak Ridge neighborhood, 118 yards east of the Heartbreak Ridge zone marker.`,

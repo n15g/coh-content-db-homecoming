@@ -6,6 +6,7 @@ export const WolfSpiderEnforcer: BadgeData = {
   key: 'wolf-spider-enforcer',
   setTitleId: [439],
   name: 'Wolf Spider Enforcer',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'These soldiers will fight for you.',
   links: [

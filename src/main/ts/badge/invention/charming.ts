@@ -5,6 +5,7 @@ export const Charming: BadgeData = {
   key: 'charming',
   setTitleId: [777],
   name: 'Charming',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   effect: 'Awards +2 to Invention Salvage capacity.',

@@ -6,6 +6,7 @@ export const Observant: BadgeData = {
   key: 'observant',
   setTitleId: [1516],
   name: 'Observant',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Vanguard only allows super-powered heroes and Vanguard officials into their compounds.
 Although Vanguard scientists become annoyed when people look in on their various Rikti experiments, it is really their own fault for not having curtains to cover up the window.`,

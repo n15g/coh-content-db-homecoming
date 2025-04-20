@@ -8,6 +8,7 @@ export const RoomForExpansion: BadgeData = {
   key: 'room-for-expansion',
   setTitleId: [1536],
   name: 'Room for Expansion',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `With Faultline gaining traffic, many people are calling for more apartments to be built in this area and for Longbow to move their Bloody Bay heli-pad to another location.
 Longbow refuses however, stating this is the safest place for them to be, and that they are also keeping the Lost of the area in check.`,

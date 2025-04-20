@@ -5,6 +5,7 @@ export const DUSTRanger: BadgeData = {
   key: 'dust-ranger',
   setTitleId: [2041],
   name: 'D.U.S.T. Ranger',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have trained with the elite D.U.S.T. of First Ward during your free time, earning the D.U.S.T. Ranger Day Job.
 Logging out in the D.U.S.T Training Facility will hone your skills further, granting you a bonus to your damage, accuracy, and range for a short time.`,

@@ -5,6 +5,7 @@ export const Radiant: BadgeData = {
   key: 'radiant',
   setTitleId: [1606],
   name: 'Radiant',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Your power is palpable and your very presence is inspiring to others. You have attained eighty-four Veteran levels.` },

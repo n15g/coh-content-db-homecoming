@@ -5,6 +5,7 @@ export const WhoSmeltItDealtIt: BadgeData = {
   key: 'who-smelt-it-dealt-it',
   setTitleId: [2487],
   name: 'Who Smelt It, Dealt It',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've endured the heat and walked away with more than a few burns, but have taught the Gold Brickers that their Smelters, even with their new high-tech Smelting Arms, can't make you sweat under pressure.`,
   acquisition: `Defeat 50 Gold Bricker Smelter bosses.`,

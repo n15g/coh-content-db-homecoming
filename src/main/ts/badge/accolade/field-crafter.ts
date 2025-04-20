@@ -46,6 +46,7 @@ export const FieldCrafter: BadgeData = {
   key: 'field-crafter',
   setTitleId: [805],
   name: 'Field Crafter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You are truly a crafting specialist, and can now summon a portable crafting station to your location for five minutes once an hour. All nearby characters can use this station.`,
   effect: `Awards the Portable Workbench power.`,

@@ -6,6 +6,7 @@ export const Asunder: BadgeData = {
   key: 'asunder',
   setTitleId: [757],
   name: 'Asunder',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `This fort is the prime location to be for surveilling Rikti activity. Unfortunately, it's also the furthest from the Vanguard base and, thus, a big target for the Rikti.`,
   notes: `On top of the pillbox.`,

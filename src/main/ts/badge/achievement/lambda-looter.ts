@@ -5,6 +5,7 @@ export const LambdaLooter: BadgeData = {
   key: 'lambda-looter',
   setTitleId: [1987],
   name: 'Lambda Looter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Perhaps you didn't know this, but the items collected in Lambda Sector can be used in the fight versus Marauder to make it easier.
 Your league, however, decided to collect a full set of both items and not use a single one. Kudos to you.`,

@@ -5,6 +5,7 @@ export const ThePerfectHitter: BadgeData = {
   key: 'the-perfect-hitter',
   setTitleId: [2247],
   name: 'The Perfect Hitter',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You performed the role of the Hitter in the Summer Blockbuster 'Casino Heist' perfectly.`,
   acquisition: 'In the Summer Blockbuster, perform the role of the Hitter perfectly.',

@@ -5,6 +5,7 @@ export const RaiderEngineer: BadgeData = {
   key: 'raider-engineer',
   setTitleId: [487],
   name: 'Raider Engineer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'This will provide a good defense for your gladiators.',
   acquisition: 'Destroy 100 Force Field Generators summoned by Sky Raider Engineers.',

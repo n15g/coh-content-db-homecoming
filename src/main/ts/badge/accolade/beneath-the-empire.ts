@@ -13,6 +13,7 @@ export const BeneathTheEmpire: BadgeData = {
   key: 'beneath-the-empire',
   setTitleId: [1653],
   name: 'Beneath the Empire',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Imperial City's Underground.`,
   links: [

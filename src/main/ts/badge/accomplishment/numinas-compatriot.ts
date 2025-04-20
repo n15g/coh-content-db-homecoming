@@ -9,6 +9,7 @@ export const NuminasCompatriot: BadgeData = {
     { alignment: 'hero', value: `Numina's Compatriot` },
     { alignment: 'villain', value: `Numina's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Numina and the spirit of the Woodsman were pleased to present you with this medal.' },

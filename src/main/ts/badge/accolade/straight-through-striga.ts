@@ -13,6 +13,7 @@ export const StraightThroughStriga: BadgeData = {
   key: 'straight-through-striga',
   setTitleId: [1879],
   name: 'Straight Through Striga',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Striga Isle.`,
   links: [

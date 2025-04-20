@@ -5,6 +5,7 @@ export const Purposeful: BadgeData = {
   key: 'purposeful',
   setTitleId: [1601],
   name: 'Purposeful',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Your drive and purpose is what keeps you going and standing up for what you believe in. You have attained seventy-eight Veteran levels.` },

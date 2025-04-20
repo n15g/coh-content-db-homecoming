@@ -6,6 +6,7 @@ export const HamidonsFury: BadgeData = {
   key: 'hamidons-fury',
   setTitleId: [1561],
   name: `Hamidon's Fury`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `The hills in this area of Founders' Falls were created almost instantly during the Devouring Earth's initial push into the city.
 A laboratory once stood here, but it was destroyed by the erupting earth that sprung up beneath it.

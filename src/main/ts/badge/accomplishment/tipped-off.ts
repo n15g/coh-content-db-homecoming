@@ -5,6 +5,7 @@ export const TippedOff: BadgeData = {
   key: 'tipped-off',
   setTitleId: [1440],
   name: 'Tipped Off',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You received your first tip earning yourself the Tipped Off badge.',
   acquisition: 'Receive your first [Tip](https://homecoming.wiki/wiki/Tip).',

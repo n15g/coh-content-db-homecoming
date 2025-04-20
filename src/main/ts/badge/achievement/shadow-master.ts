@@ -5,6 +5,7 @@ export const ShadowMaster: BadgeData = {
   key: 'shadow-master',
   setTitleId: [2223],
   name: 'Shadow Master',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Though Black Swan attempted to tear open the barrier between Shadow Earth and Praetoria, you stopped her shadowy suffusion before it could overwhelm your League and stain your souls. You are a true Shadow Master.',
   acquisition: 'Never allow Black Swan to open all six Shadow Rifts simultaneously in the Magisterium Trial.',

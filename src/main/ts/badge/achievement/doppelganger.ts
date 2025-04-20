@@ -5,6 +5,7 @@ export const Doppelganger: BadgeData = {
   key: 'doppelganger',
   setTitleId: [2501],
   name: 'Doppelganger',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You've purchased five permanent costume powers using the Prismatic Aether you assembled from overcoming many challenges.`,
   acquisition: `Use Prismatic Aether salvage to purchase a total of five permanent costume powers from BenevoLabs vendors in any Vault Reserve location.`,

@@ -5,6 +5,7 @@ export const KillSkuls: BadgeData = {
   key: 'kill-skuls',
   setTitleId: [217],
   name: 'Kill Skuls',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Go. Hunt. Kill Skuls.',
   acquisition: 'Defeat 500 Skulls minions, lieutenants, or bosses.',

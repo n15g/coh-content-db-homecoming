@@ -13,6 +13,7 @@ export const FreeAmongTheDead: BadgeData = {
   key: 'free-among-the-dead',
   setTitleId: [2187],
   name: 'Free Among the Dead',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Dark Astoria.`,
   links: [

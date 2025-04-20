@@ -6,6 +6,7 @@ export const CouchPotato: BadgeData = {
   key: 'couch-potato',
   setTitleId: [347],
   name: 'Couch Potato',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You destroyed a shipment of books on the word of the Television, and then blamed it all on video games.',
   links: [

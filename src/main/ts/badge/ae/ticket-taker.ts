@@ -5,6 +5,7 @@ export const TicketTaker: BadgeData = {
   key: 'ticket-taker',
   setTitleId: [1265],
   name: 'Ticket Taker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've earned your first Mission Architect Ticket from defeating enemies in Architect missions.`,
   acquisition: 'Defeat enemies and complete Mission Architect missions to earn a single ticket.',

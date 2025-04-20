@@ -6,6 +6,7 @@ export const Protester: BadgeData = {
   key: 'protester',
   setTitleId: [1418],
   name: 'Protester',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'Not one to stand idly by, you have made your opinions known. For better or for worse.',
   acquisition: `Complete the The Protest zone event in ${zoneLink(NovaPraetoria)}.`,

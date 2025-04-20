@@ -6,6 +6,7 @@ export const GradeF: BadgeData = {
   key: 'grade-f',
   setTitleId: [1744],
   name: 'Grade F',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `For some reason, you can usually find Failed Experiments in this area.
 Rumor has it that previously this room was used as part of their indoctrination and training phase. Maybe they still remember it in what's left of their broken minds.`,

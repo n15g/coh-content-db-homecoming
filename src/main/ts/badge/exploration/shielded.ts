@@ -6,6 +6,7 @@ export const Shielded: BadgeData = {
   key: 'shielded',
   setTitleId: [2329],
   name: 'Shielded',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Despite its crash landing, the Rikti mother ship's shields continue to function, providing the stranded Rikti with a relatively safe haven.`,
   notes: 'Located around 11:57 on the clock if the ship is the clock face, right up against the shield.',

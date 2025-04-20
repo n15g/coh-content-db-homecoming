@@ -5,6 +5,7 @@ export const LifeAndDeath: BadgeData = {
   key: 'life-and-death',
   setTitleId: [2167],
   name: 'Life and Death',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `For a woman so obsessed with becoming Death Incarnate, Diabolique sure spent a lot of energy making sure that she had a ready supply of Lifegiving Essences to keep her alive during your final battle in Dilemma Diabolique.
 In the end, though, they proved to be little more than an inconvenience for your league, as you did not allow a single one to successfully be used to heal her.`,

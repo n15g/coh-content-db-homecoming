@@ -7,6 +7,7 @@ export const TheWoundedEarth: BadgeData = {
   key: 'the-wounded-earth',
   setTitleId: [1849],
   name: 'The Wounded Earth',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You can sense a palpable anger radiating from the Devouring Earth when you stand upon this, the last remnant of mankind's creation in Hamidon's pristine garden.
 The Devouring Earth do not hold back their thoughts about this place: it is a scab, a wound, an affront.

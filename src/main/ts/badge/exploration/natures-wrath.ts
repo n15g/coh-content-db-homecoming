@@ -6,6 +6,7 @@ export const NaturesWrath: BadgeData = {
   key: 'natures-wrath',
   setTitleId: [1843],
   name: `Nature's Wrath`,
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This hill rises like a blister above the canopy that spread like a green plaque to devour Woodvale.
 This is a good vantage point to see the devastation the Devouring Earth have wrought.

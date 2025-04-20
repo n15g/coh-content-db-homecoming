@@ -6,6 +6,7 @@ export const WatchfulEyes: BadgeData = {
   key: 'watchful-eyes',
   setTitleId: [1560],
   name: 'Watchful Eyes',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `During her time in the Knives of Artemis, Agent Indigo used this spot to assassinate many of her targets.
 She now presides over the area to remind herself of her past sins and to prevent the Knives from staining this area with any more blood.`,

@@ -16,6 +16,7 @@ export const WincottsAlly: BadgeData = {
     { alignment: 'hero', value: `Wincott's Ally` },
     { alignment: 'villain', value: `Wincott's Betrayer` },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within the Hollows.`,
   links: [

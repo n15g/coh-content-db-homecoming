@@ -7,6 +7,7 @@ export const Mercenary: BadgeData = {
   key: 'mercenary',
   setTitleId: [1071],
   name: 'Mercenary',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

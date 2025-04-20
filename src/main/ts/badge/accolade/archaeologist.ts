@@ -7,6 +7,7 @@ export const Archaeologist: BadgeData = {
   key: 'archaeologist',
   setTitleId: [1073],
   name: 'Archaeologist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

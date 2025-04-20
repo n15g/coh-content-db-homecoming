@@ -5,6 +5,7 @@ export const BaneOfDannan: BadgeData = {
   key: 'bane-of-dannan',
   setTitleId: [433],
   name: 'Bane of Dannan',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The Tuatha de Dannan cannot stand before you.',
   acquisition: 'Defeat 333 Tuatha de Dannan.',

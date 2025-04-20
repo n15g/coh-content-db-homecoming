@@ -5,6 +5,7 @@ export const MonitorDuty: BadgeData = {
   key: 'monitor-duty',
   setTitleId: [1048],
   name: 'Monitor Duty',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your time spent protecting your Supergroup's base has earned you the Monitor Duty Day Job.
 Logging out in your Supergroup base will earn you charges for your Base Teleporter power.`,

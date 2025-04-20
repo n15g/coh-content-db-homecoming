@@ -6,6 +6,7 @@ export const LostSavior: BadgeData = {
   key: 'lost-savior',
   setTitleId: [988],
   name: 'Lost Savior',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `With the help of the Midnight Squad, Dawn Patrol and even a Rikti scientist, you've done the impossible. You've found a cure for the Lost.`,
   acquisition: `Complete the "Cure Lost" mission of the ${missionLink(LostAndFoundMontagueCastanella)} story arc.`,

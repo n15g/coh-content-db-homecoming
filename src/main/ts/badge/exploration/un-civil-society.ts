@@ -6,6 +6,7 @@ export const UnCivilSociety: BadgeData = {
   key: 'un-civil-society',
   setTitleId: [1595],
   name: 'Un-Civil Society',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `We live in uncertain times, where discontent sows unrest and the sheep become the wolves.`,
   notes: `Located 116 yards W of the Magisterium marker.`,

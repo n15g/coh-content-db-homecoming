@@ -6,6 +6,7 @@ export const Pristine: BadgeData = {
   key: 'pristine',
   setTitleId: [2400],
   name: 'Pristine',
+  releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `This area looks very peaceful; the perfect place for a picnic after a day of hiking around the reservoir. A nice safe spot for a bit of walking. You're not afraid of spiders... are you?`,
   notes: 'Located on the grass, south of the fence around a building in the Reservoir Area.',

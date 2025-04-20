@@ -6,6 +6,7 @@ export const Frontline: BadgeData = {
   key: 'frontline',
   setTitleId: [81],
   name: 'Frontline',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You stopped a battle between the Circle of Thorns and the Oranbegans from another dimension.',
   links: [

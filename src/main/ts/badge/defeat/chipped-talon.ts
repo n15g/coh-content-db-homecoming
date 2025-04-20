@@ -5,6 +5,7 @@ export const ChippedTalon: BadgeData = {
   key: 'chipped-talon',
   setTitleId: [2061],
   name: 'Chipped Talon',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Sorceress Serene herself has spread word that you are to be slain on sight, as vengeance for your attacks on her coven.
 Always vengeance with this lot... You defeated several Talons of Vengeance to earn this badge.`,

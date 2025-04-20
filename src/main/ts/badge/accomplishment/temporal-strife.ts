@@ -6,6 +6,7 @@ export const TemporalStrife: BadgeData = {
   key: 'temporal-strife',
   setTitleId: [993],
   name: 'Temporal Strife',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You are one of the few who has travelled back in time to face the 5th Column as they attempted to build a temporal stronghold in the ancient lands of Cimerora.',
   links: [

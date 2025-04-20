@@ -13,6 +13,7 @@ export const GalacticExplorer: BadgeData = {
   key: 'galactic-explorer',
   setTitleId: [1525],
   name: 'Galactic Explorer',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Galaxy City.`,
   links: [

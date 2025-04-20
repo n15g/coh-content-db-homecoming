@@ -7,6 +7,7 @@ export const RoadRaged: BadgeData = {
   key: 'road-raged',
   setTitleId: [557],
   name: 'Road Raged',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Hair pin risers like this road in Skyway City can incite rage even in pedestrians.',
   notes: `Located in the middle of the road, at the main switchback in the center of the map.

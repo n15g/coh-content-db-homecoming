@@ -5,6 +5,7 @@ export const Escapist: BadgeData = {
   key: 'escapist',
   setTitleId: [2349],
   name: 'Escapist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You left your mark in Praetoria before using the Rift Enclosure to travel to Primal Earth.`,
   acquisition: 'Leave Praetoria through the Rift Enclosure after completing the Crusader, Warden, Responsibility or Power story arc.',

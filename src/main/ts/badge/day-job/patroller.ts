@@ -9,6 +9,7 @@ export const Patroller: BadgeData = {
     { alignment: 'villain', value: 'Criminal' },
     { alignment: 'praetorian', value: 'Patroller' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have spent your free time making the streets of Paragon City a safer place for its citizens earning the Patroller Day Job.' },

@@ -5,6 +5,7 @@ export const TestedTheWater: BadgeData = {
   key: 'tested-the-water',
   setTitleId: [1425],
   name: 'Tested the Water',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     {

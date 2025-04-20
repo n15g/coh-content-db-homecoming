@@ -6,6 +6,7 @@ export const RiptidesComrade: BadgeData = {
   key: 'riptides-comrade',
   setTitleId: [2265],
   name: `Riptide's Comrade`,
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You were able to prevent Riptide from being defeated while he was fighting Nosferatu by himself.',
   acquisition: `Complete all objectives in the "Part Two: Nosferatu's Croatoa" mission of the ${missionLink(TippingTheScales)} story arc before Riptide is defeated.`,

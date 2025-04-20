@@ -7,6 +7,7 @@ export const ChaosSpiel: BadgeData = {
   key: 'chaos-spiel',
   setTitleId: [2551],
   name: 'Chaos Spiel',
+  releaseDate: '2025-02-10',
   morality: 'all',
   badgeText: `You think back on this moment often... Where did that chaotic impulse come from? An opportunity to test your strength?
 A chance to deviate from Ouroboros' timeline control? You may never find an answer for why you invoked Nemesis' name whilst time traveling.`,

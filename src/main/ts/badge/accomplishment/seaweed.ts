@@ -6,6 +6,7 @@ export const Seaweed: BadgeData = {
   key: 'seaweed',
   setTitleId: [335],
   name: 'Seaweed',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `The Sea Witch won't be bothering you anymore.`,
   links: [

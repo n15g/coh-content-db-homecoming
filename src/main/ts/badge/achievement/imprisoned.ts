@@ -9,6 +9,7 @@ export const Imprisoned: BadgeData = {
     { alignment: 'villain', value: 'Dazed and Confused' },
     { alignment: 'praetorian', value: 'Trapped' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Your skill at being held immobile and not being able to do anything is unmatched.' },

@@ -5,6 +5,7 @@ export const Duelist: BadgeData = {
   key: 'duelist',
   setTitleId: [1044],
   name: 'Duelist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You spend your free time battling other heroes and villains in Arena matches earning you the Duelist Day Job.
 Logging out in an Arena will earn you a bonus to your maximum Endurance, when you log back in, for a short time.`,

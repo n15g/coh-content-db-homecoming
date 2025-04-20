@@ -6,6 +6,7 @@ export const DocWhedon: BadgeData = {
   key: 'doc-whedon',
   setTitleId: [104],
   name: 'Doc Whedon',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This old dock used to be the most popular make-out spot in Paragon City. Today, however, it is more a place of violence than love.`,
   notes: `Located 292 yards due east of the Everett Lake and 216 yards north of the Gaiman Woods neighborhood markers. It is also about 145 yards southeast of the Amphitheater.`,

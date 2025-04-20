@@ -6,6 +6,7 @@ export const DearlyDeparted: BadgeData = {
   key: 'dearly-departed',
   setTitleId: [2048],
   name: 'Dearly Departed',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `When the Devouring Earth struck First Ward the attack came suddenly and without warning.
 Thousands lost their lives on that terrible day.

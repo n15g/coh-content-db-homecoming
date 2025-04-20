@@ -6,6 +6,7 @@ export const Avatar: BadgeData = {
   key: 'avatar',
   setTitleId: [102],
   name: 'Avatar',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Avatar, a hero in Paragon City in the late 1950's, had a statue erected to him after his death. The gangs have not been kind to this memorial.`,
   notes: `Located 358 yards north of the Skyway City entrance.`,

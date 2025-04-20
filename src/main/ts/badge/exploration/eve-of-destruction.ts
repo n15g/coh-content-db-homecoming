@@ -6,6 +6,7 @@ export const EveOfDestruction: BadgeData = {
   key: 'eve-of-destruction',
   setTitleId: [1860],
   name: 'Eve of Destruction',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Your destiny on the Shadow Shard is drawing very close.
 Everything you have experienced so far has been building to this point.

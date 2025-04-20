@@ -9,6 +9,7 @@ export const Historian: BadgeData = {
   key: 'historian',
   setTitleId: [154],
   name: 'Historian',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of the U.N. Special Council on Superhuman Activities.`,
   links: [

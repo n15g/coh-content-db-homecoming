@@ -5,6 +5,7 @@ export const CrabSpiderLongfang: BadgeData = {
   key: 'crab-spider-longfang',
   setTitleId: [445],
   name: 'Crab Spider Longfang',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'One fight is as good as another to the Longfangs.',
   acquisition: 'Complete a Patron story arc.',

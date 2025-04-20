@@ -5,6 +5,7 @@ export const Survivalist: BadgeData = {
   key: 'survivalist',
   setTitleId: [2043],
   name: 'Survivalist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Your time spent learning from the hearty Survivors of First Ward has earned you the Survivalist Day Job.
 Logging out in the Survivor Compound will earn you a bonus chance to earn recipes on mission complete for a short time when you log back in.`,

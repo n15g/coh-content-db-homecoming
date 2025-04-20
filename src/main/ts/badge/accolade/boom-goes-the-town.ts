@@ -13,6 +13,7 @@ export const BoomGoesTheTown: BadgeData = {
   key: 'boom-goes-the-town',
   setTitleId: [1877],
   name: 'Boom... Goes the Town',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Boomtown.`,
   links: [

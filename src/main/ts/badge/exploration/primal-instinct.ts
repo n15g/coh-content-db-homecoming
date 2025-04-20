@@ -6,6 +6,7 @@ export const PrimalInstinct: BadgeData = {
   key: 'primal-instinct',
   setTitleId: [277],
   name: 'Primal Instinct',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `This is the spot of many battles between the Circle of Thorns and their age-old enemy, the Mu.`,
   notes: `Located in the Primeva neighborhood, 266 yards north-northwest of the Primeva marker.

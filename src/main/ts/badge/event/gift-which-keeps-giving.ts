@@ -5,6 +5,7 @@ export const GiftWhichKeepsGiving: BadgeData = {
   key: 'gift-which-keeps-giving',
   setTitleId: [2088],
   name: 'Gift Which Keeps Giving',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've passed along the mysterious Duplicating Gift left by the Gamester!`,
   acquisition: `Give a Duplicating Gift to another player who doesn't already have one during the Winter event.`,

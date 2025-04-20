@@ -6,6 +6,7 @@ export const Trucker: BadgeData = {
   key: 'trucker',
   setTitleId: [731],
   name: 'Trucker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've visited the floating truck in Pocket D.`,
   notes: `On the truck floating outside of ${zoneLink(PocketD)}.

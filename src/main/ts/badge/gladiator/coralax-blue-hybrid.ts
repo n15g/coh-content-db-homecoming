@@ -5,6 +5,7 @@ export const CoralaxBlueHybrid: BadgeData = {
   key: 'coralax-blue-hybrid',
   setTitleId: [449],
   name: 'Coralax Blue Hybrid',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'The choices of the Coralax are a mystery.',
   acquisition: 'Defeat 100 Coralax.',

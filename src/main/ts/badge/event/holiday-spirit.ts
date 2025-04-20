@@ -8,6 +8,7 @@ export const HolidaySpirit: BadgeData = {
     { alignment: 'hero', value: 'Holiday Spirit' },
     { alignment: 'villain', value: 'Scrooge' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Arachnos tried to ruin the holidays, but you have done your best to stop them.' },

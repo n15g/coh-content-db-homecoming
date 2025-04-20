@@ -5,6 +5,7 @@ export const Mesmerizer: BadgeData = {
   key: 'mesmerizer',
   setTitleId: [779],
   name: 'Mesmerizer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Sleep, Snare, Hold, Stun, Immobilize, and Fear.',
   effect: 'Awards +1 to Recipe capacity.',

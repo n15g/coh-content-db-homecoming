@@ -6,6 +6,7 @@ export const MentalVoyager: BadgeData = {
   key: 'mental-voyager',
   setTitleId: [2078],
   name: 'Mental Voyager',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have completed the Incarnate Trial: The Minds of Mayhem.',
   links: [

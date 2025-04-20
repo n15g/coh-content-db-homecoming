@@ -9,6 +9,7 @@ export const Patriot: BadgeData = {
     { alignment: 'hero', value: 'Patriot' },
     { alignment: 'villain', value: 'International Spy' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have seen the statue of Cassiopeia, a Heroine recognized as a citizen of every country on Earth after she single-handedly saved the world from a rogue comet.`,
   notes: `Located just in front of the statue just left (west) of the supergroup registration desk inside City Hall.`,

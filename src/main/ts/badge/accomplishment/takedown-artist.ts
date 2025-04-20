@@ -6,6 +6,7 @@ export const TakedownArtist: BadgeData = {
   key: 'takedown-artist',
   setTitleId: [1420],
   name: 'Takedown Artist',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've taken down one of the big guys in the Syndicate. Hey, is that a bull's-eye on your back?`,
   acquisition: `Complete the Syndicate Takedown zone event in ${zoneLink(ImperialCity)}.`,

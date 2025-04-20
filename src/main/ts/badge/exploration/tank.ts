@@ -6,6 +6,7 @@ export const Tank: BadgeData = {
   key: 'tank',
   setTitleId: [94],
   name: 'Tank',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: 'M1, a hero from World War II, is honored today with a statue in Galaxy City.',
   notes: `Located 233 yards southeast of the Arena, at the far southern border of the Orion Beltway neighborhood in Echo: Galaxy City.

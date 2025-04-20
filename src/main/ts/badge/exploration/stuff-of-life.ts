@@ -6,6 +6,7 @@ export const StuffOfLife: BadgeData = {
   key: 'stuff-of-life',
   setTitleId: [1729],
   name: 'Stuff of Life',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Praetor Berry's choice of decorations always hearken back to his reason d'etre - unlocking the secrets of the flesh held in sinew, cell, and DNA.`,
   notes: `Located next to the DNA sculpture in the Neuron's Reach neighborhood, 74 yards west of Battle Maiden.`,

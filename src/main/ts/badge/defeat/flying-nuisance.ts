@@ -5,6 +5,7 @@ export const FlyingNuisance: BadgeData = {
   key: 'flying-nuisance',
   setTitleId: [2444],
   name: 'Flying Nuisance',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You have dispersed hundreds of scavenging Natterlings and sent them back empty handed to the Factory Cubes.`,
   acquisition: 'Defeat 500 Rularuu Natterlings.',

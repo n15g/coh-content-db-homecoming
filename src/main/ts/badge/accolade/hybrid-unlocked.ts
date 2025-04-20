@@ -5,6 +5,7 @@ export const HybridUnlocked: BadgeData = {
   key: 'hybrid-unlocked',
   setTitleId: [1395],
   name: 'Hybrid Unlocked',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You unlocked your Hybrid Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Hybrid Incarnate slot.`,

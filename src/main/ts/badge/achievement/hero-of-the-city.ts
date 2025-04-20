@@ -9,6 +9,7 @@ export const HeroOfTheCity: BadgeData = {
     { alignment: 'villain', value: 'Made' },
     { alignment: 'praetorian', value: 'Praetor' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'Positron has awarded you this badge for achieving Security Level 50.' },

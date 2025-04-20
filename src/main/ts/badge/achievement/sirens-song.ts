@@ -8,6 +8,7 @@ export const SirensSong: BadgeData = {
     { alignment: 'hero', value: `Siren's Song` },
     { alignment: 'villain', value: 'Raider' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Siren's Call must call to you. You've spent over one hour there.`,
   acquisition: `Spend 1 hour in Siren's Call.`,

@@ -2,7 +2,7 @@ import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils'
 import { createRule } from '../utils/create-rule'
 import { getDataObjectProperty } from '../utils/ast-utils'
 
-const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}/
+const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/
 
 export const noInvalidReleaseDate = createRule({
   name: 'no-invalid-release-date',

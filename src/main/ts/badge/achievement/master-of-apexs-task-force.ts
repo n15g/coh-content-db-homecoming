@@ -8,6 +8,7 @@ export const MasterOfApexsTaskForce: BadgeData = {
   key: 'master-of-apexs-task-force',
   setTitleId: [1939],
   name: `Master of Apex's Task Force`,
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have gone through the Alpha and the Omega of Apex's Task Force.`,
   links: [

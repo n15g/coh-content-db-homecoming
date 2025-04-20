@@ -10,6 +10,7 @@ export const Cornerstone: BadgeData = {
     { alignment: 'hero', value: 'Cornerstone' },
     { alignment: 'villain', value: 'Weak Point' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'The Freedom Phalanx and WISDOM stopped a massive Banished Pantheon attack in this area.',
   notes: `Located on the ground just left (west) of the warehouse building in the northeastern corner of the zone, between the two right (eastern) legs of a large power line tower.

@@ -5,6 +5,7 @@ export const Fashionable: BadgeData = {
   key: 'fashionable',
   setTitleId: [839],
   name: 'Fashionable',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've collected 25 classic costumes.`,
   acquisition: 'Collect 25 costumes during the Halloween event.',

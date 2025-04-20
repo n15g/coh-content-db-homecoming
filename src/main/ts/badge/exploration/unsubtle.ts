@@ -6,6 +6,7 @@ export const Unsubtle: BadgeData = {
   key: 'unsubtle',
   setTitleId: [1570],
   name: 'Unsubtle',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Clamor of the Freakshow used this warehouse as a hideout after escaping from the Zig - sort of.
 She lasted barely an hour in hiding before bursting out of the warehouse to attack PPD searching for her.

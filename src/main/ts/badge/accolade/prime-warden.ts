@@ -13,6 +13,7 @@ export const PrimeWarden: BadgeData = {
   key: 'prime-warden',
   setTitleId: [2056],
   name: 'Prime Warden',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within First Ward.`,
   links: [

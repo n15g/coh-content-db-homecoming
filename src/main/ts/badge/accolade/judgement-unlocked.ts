@@ -5,6 +5,7 @@ export const JudgementUnlocked: BadgeData = {
   key: 'judgement-unlocked',
   setTitleId: [1481],
   name: 'Judgement Unlocked',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You unlocked your Judgement Incarnate slot allowing you to create powerful new abilities that can be slotted there.`,
   acquisition: `Unlock the Judgement Incarnate slot.`,

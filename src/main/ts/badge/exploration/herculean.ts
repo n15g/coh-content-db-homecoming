@@ -6,6 +6,7 @@ export const Herculean: BadgeData = {
   key: 'herculean',
   setTitleId: [2428],
   name: 'Herculean',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `From this vantage point you can observe Malta's Hercules Titans as they prepare for deployment.`,
   links: [

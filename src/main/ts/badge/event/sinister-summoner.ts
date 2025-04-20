@@ -5,6 +5,7 @@ export const SinisterSummoner: BadgeData = {
   key: 'sinister-summoner',
   setTitleId: [2473],
   name: 'Sinister Summoner',
+  releaseDate: '2020-11-26',
   morality: 'all',
   badgeText: `You summoned and defeated the Halloween demon, Black Whip! Needless to say, the beast was stunned. Whip-crack went his whippy tail, and the beast was done.`,
   acquisition: `Summon and defeat The Black Whip, a demon in the "Dr. Kane's House of Horror" co-op trial.`,

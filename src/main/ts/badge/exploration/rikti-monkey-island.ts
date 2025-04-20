@@ -6,6 +6,7 @@ export const RiktiMonkeyIsland: BadgeData = {
   key: 'rikti-monkey-island',
   setTitleId: [1870],
   name: 'Rikti Monkey Island',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `There is a secret to this island of monkeys, that if an infinite number of Rikti Monkeys were placed before an infinite number of typewriters the smell
 they'd produce would be unbearable.

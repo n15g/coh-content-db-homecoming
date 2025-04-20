@@ -10,6 +10,7 @@ export const Scholar: BadgeData = {
   key: 'scholar',
   setTitleId: [151],
   name: 'Scholar',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of Back Alley Brawler's war on drugs in Paragon City.`,
   links: [

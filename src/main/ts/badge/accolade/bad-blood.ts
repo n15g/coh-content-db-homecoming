@@ -13,6 +13,7 @@ export const BadBlood: BadgeData = {
   key: 'bad-blood',
   setTitleId: [2409],
   name: 'Bad Blood',
+  releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Bloody Bay.`,
   links: [

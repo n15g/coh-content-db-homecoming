@@ -5,6 +5,7 @@ export const EntrustedWithTheSecret: BadgeData = {
   key: 'entrusted-with-the-secret',
   setTitleId: [933],
   name: 'Entrusted with the Secret',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have been exposed to Time Travel and have been granted access to the Ouroboros Citadel. You can find the power to summon forth a portal there in your Temporary Powers tray.',
   acquisition: 'Complete a story arc that gives a time travel-related Souvenir, or obtain any time travel-related Badges.',

@@ -6,6 +6,7 @@ export const Arachnobot: BadgeData = {
   key: 'arachnobot',
   setTitleId: [453],
   name: 'Arachnobot',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Password accepted. This unit will obey.',
   links: [

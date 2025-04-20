@@ -5,6 +5,7 @@ export const VillainDisruptor: BadgeData = {
   key: 'villain-disruptor',
   setTitleId: [645],
   name: 'Villain Disruptor',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `It doesn't matter who or where; you will stop anyone who threatens your city.` },

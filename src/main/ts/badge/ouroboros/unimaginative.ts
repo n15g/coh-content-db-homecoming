@@ -5,6 +5,7 @@ export const Unimaginative: BadgeData = {
   key: 'unimaginative',
   setTitleId: [917],
   name: 'Unimaginative',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 15 and 19 while not using Inspirations.` },

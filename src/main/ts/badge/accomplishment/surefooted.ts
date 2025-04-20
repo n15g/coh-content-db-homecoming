@@ -5,6 +5,7 @@ export const Surefooted: BadgeData = {
   key: 'surefooted',
   setTitleId: [1060],
   name: 'Surefooted',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have taken the bronze medal in the advanced ski course! Now try for the silver.',
   acquisition: 'Complete a ski run on the Advanced slope in under 1 minute and 10 seconds during a Winter event.',

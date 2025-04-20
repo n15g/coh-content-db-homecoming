@@ -7,6 +7,7 @@ export const MonsterIslander: BadgeData = {
   key: 'monster-islander',
   setTitleId: [1868],
   name: 'Monster Islander',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `You've set foot on soil now the domain of ravaging monstrosities. You take a deep breath and catch a scent of their spoor.
 It is harsh with a slaughterhouse reek. At your feet you see that you are standing in the massive footprint of one of the island's inhabitants.

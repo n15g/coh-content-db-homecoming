@@ -5,6 +5,7 @@ export const Hindered: BadgeData = {
   key: 'hindered',
   setTitleId: [909],
   name: 'Hindered',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 30 and 34 while not using any Temporary Powers.` },

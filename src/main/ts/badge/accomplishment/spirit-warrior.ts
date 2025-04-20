@@ -6,6 +6,7 @@ export const SpiritWarrior: BadgeData = {
   key: 'spirit-warrior',
   setTitleId: [74],
   name: 'Spirit Warrior',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'You stopped a war between the Banished Pantheon and the Circle of Thorns.',
   acquisition: 'Complete the Stop both Groups of Mystic Madmen mission from Andrea Mitchell, Cain Royce, Dr. Cheng, Piper Irving, Oliver Haak, or Josef Keller.',

@@ -6,6 +6,7 @@ export const ParkRanger: BadgeData = {
   key: 'park-ranger',
   setTitleId: [1632],
   name: 'Park Ranger',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `People's Park was established as a place of peace and recreation for the citizens of Praetoria. By patrolling it you do a service to Praetoria and its people.`,
   notes: `Located 144 yards NW of the People's Park marker.`,

@@ -6,6 +6,7 @@ export const SlagPile: BadgeData = {
   key: 'slag-pile',
   setTitleId: [468],
   name: 'Slag Pile',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'Hmm, maybe these reeking piles of junk are useful.',
   links: [

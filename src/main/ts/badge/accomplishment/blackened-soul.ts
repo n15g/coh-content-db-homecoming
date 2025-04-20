@@ -6,6 +6,7 @@ export const BlackenedSoul: BadgeData = {
   key: 'blackened-soul',
   setTitleId: [2018],
   name: 'Blackened Soul',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `Having won the contest by besting your rivals, you've been given the task of now dealing with them... permanently.`,
   links: [

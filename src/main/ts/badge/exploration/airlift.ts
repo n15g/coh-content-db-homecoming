@@ -6,6 +6,7 @@ export const Airlift: BadgeData = {
   key: 'airlift',
   setTitleId: [1724],
   name: 'Airlift',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `Airplanes are the only way to reach some areas with necessary supplies and materiel.
 Most jets here are much faster than they look, and must fly far out over the ocean to avoid shattering every window in the Magisterium when they accelerate past mach.`,

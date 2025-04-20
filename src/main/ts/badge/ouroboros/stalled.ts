@@ -5,6 +5,7 @@ export const Stalled: BadgeData = {
   key: 'stalled',
   setTitleId: [901],
   name: 'Stalled',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 35 and 39 while not using any Travel Power Power Pools.` },

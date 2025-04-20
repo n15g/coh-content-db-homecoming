@@ -6,6 +6,7 @@ export const Soother: BadgeData = {
   key: 'soother',
   setTitleId: [1503],
   name: 'Soother',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `The area behind this waterfall is said to be a secret spot where Scirocco goes to meditate during periods of stress.
 Marks on the wall indicate a major brawl between Scirocco and Black Scorpion (most likely due to Black Scorpion making fun of Scirocco for meditating).`,

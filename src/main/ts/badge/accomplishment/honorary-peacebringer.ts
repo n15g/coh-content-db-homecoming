@@ -9,6 +9,7 @@ export const HonoraryPeacebringer: BadgeData = {
     { alignment: 'hero', value: 'Honorary Peacebringer' },
     { alignment: 'villain', value: 'Alien Fighter' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You have stopped the Council's plan to infect the populace with Nictus aliens.`,
   links: [

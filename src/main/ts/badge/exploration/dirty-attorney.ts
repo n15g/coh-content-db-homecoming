@@ -6,6 +6,7 @@ export const DirtyAttorney: BadgeData = {
   key: 'dirty-attorney',
   setTitleId: [1533],
   name: 'Dirty Attorney',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Platinum Lake is a popular spot for people in Paragon to sit back and relax.
 There has been a long legal battle for Chris Jenkins to take down the billboard that he put up there, many saying it spoils the view.

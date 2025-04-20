@@ -5,6 +5,7 @@ export const Antacid: BadgeData = {
   key: 'antacid',
   setTitleId: [1986],
   name: 'Antacid',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You mocked the Top Dog himself by refusing to use any of the collected Molecular Acids to stop Marauder's reinforcements during a Lambda Sector raid.`,
   acquisition: 'Complete the Lambda Sector Incarnate Trial having destroyed all Containment Canisters in sabotage, but using no Molecular Acids.',

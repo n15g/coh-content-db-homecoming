@@ -5,6 +5,7 @@ export const Frostbitten: BadgeData = {
   key: 'frostbitten',
   setTitleId: [1056],
   name: 'Frostbitten',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have spent time in Paragon City during the winter and have felt winter's bite.` },

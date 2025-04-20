@@ -15,6 +15,7 @@ export const YesterdaysNews: BadgeData = {
     { alignment: 'hero', value: `Yesterday's News` },
     { alignment: 'villain', value: 'Headline Stealer' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `While rampaging in the Rogue Isles, you acquired an Immobilizer Ray. Unfortunately, it seems to require something only present there to recharge.` },

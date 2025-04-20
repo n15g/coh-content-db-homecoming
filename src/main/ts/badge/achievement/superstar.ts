@@ -9,6 +9,7 @@ export const Superstar: BadgeData = {
     { alignment: 'villain', value: 'Midas Touch' },
     { alignment: 'praetorian', value: 'Illustrious' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'The citizens of Paragon City have begun a petition to make a statue in your name.' },

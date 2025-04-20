@@ -5,6 +5,7 @@ export const Bladegrass: BadgeData = {
   key: 'bladegrass',
   setTitleId: [485],
   name: 'Bladegrass',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have the respect of the natural world.',
   acquisition: 'Defeat 300 Devouring Earth tree-creatures.',

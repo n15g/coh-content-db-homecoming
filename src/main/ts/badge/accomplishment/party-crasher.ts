@@ -6,6 +6,7 @@ export const PartyCrasher: BadgeData = {
   key: 'party-crasher',
   setTitleId: [344],
   name: 'Party Crasher',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: `You crashed a rave and stole a piece of the alloy which makes up Silver Mantis' armor.`,
   links: [

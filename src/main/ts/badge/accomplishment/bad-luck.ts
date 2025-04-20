@@ -6,6 +6,7 @@ export const BadLuck: BadgeData = {
   key: 'bad-luck',
   setTitleId: [340],
   name: 'Bad Luck',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You and Hard Luck recovered a mystical amulet designed to jinx everyone around the wearer.',
   links: [

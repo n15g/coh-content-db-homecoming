@@ -5,6 +5,7 @@ export const Defensive: BadgeData = {
   key: 'defensive',
   setTitleId: [774],
   name: 'Defensive',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 45 and 50: Defense Buff, Resist Damage, Intangible.',
   effect: 'Awards +1 to Recipe capacity.',

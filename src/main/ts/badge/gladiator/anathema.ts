@@ -6,6 +6,7 @@ export const Anathema: BadgeData = {
   key: 'anathema',
   setTitleId: [484],
   name: 'Anathema',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'These Lost serve you grudgingly.',
   links: [

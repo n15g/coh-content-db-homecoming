@@ -6,6 +6,7 @@ export const Reborn: BadgeData = {
   key: 'reborn',
   setTitleId: [745],
   name: 'Reborn',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have located where the Devouring Earth have attempted to bring forth the Hamidon outside of the prying eyes of Paragon City.`,
   notes: `Located in the northern part of the zone, beneath the center of the bowl-shaped water where Hamidon spawns.

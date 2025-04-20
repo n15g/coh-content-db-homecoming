@@ -6,6 +6,7 @@ export const UnethicalTourist: BadgeData = {
   key: 'unethical-tourist',
   setTitleId: [1501],
   name: 'Unethical Tourist',
+  releaseDate: '2012-11-30',
   morality: 'rogue-isles-access',
   badgeText: `Crey Corporation has been known to invite tourist groups to see the experiments caged in these pens. They justify their actions by claiming the research is to better understand the various subjects contained here.`,
   notes: `Located on the eastern island of the Crimson Cove neighborhood, in the middle of the southwestern specimen hangar, 597 yards east of the neighborhood marker.`,

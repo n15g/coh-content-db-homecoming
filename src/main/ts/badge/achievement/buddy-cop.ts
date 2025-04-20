@@ -7,6 +7,7 @@ export const BuddyCop: BadgeData = {
   key: 'buddy-cop',
   setTitleId: [2203],
   name: 'Buddy Cop',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You rescued Detective Hopp from the Banished Pantheon in Dark Astoria. When the time came, he remembered you and was able to stay alive long enough for you to find him. The question is, did you actually save him?',
   acquisition: `Save Detective Hopp at least once in ${zoneLink(DarkAstoria)} before your final meeting in ${contactLink(DreamDoctor)}'s story arc.`,

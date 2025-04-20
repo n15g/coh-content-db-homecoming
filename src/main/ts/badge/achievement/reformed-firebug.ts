@@ -8,6 +8,7 @@ export const ReformedFirebug: BadgeData = {
     { alignment: 'hero', value: 'Reformed Firebug' },
     { alignment: 'villain', value: 'Firebug' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `For your actions setting Paragon City ablaze, you've been prohibited from owning matches or lighters of any sort.` },

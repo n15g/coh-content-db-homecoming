@@ -9,6 +9,7 @@ export const Authority: BadgeData = {
   key: 'authority',
   setTitleId: [155],
   name: 'Authority',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `You have learned the history of Freedom Phalanx.`,
   links: [

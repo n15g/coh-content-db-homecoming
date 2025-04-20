@@ -6,6 +6,7 @@ export const AirLifter: BadgeData = {
   key: 'air-lifter',
   setTitleId: [1552],
   name: 'Air Lifter',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This is where workers in Terra Volta are air lifted in. From here, they're taken by several Longbow skiffs into the heart of the reactor.`,
   notes: `The Air Lifter Badge is in the Power Island neighborhood, 38 yards slightly northeast of the Terra Volta gate.`,

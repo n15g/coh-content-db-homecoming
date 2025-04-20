@@ -5,6 +5,7 @@ export const Apathetic: BadgeData = {
   key: 'apathetic',
   setTitleId: [2382],
   name: 'Apathetic',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: `The world looks at your achievements in awe, but you remain impassive.`,
   acquisition: 'Reject 500 inspiration drops.',

@@ -5,6 +5,7 @@ export const WebMaster: BadgeData = {
   key: 'web-master',
   setTitleId: [351],
   name: 'Web Master',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You are a well-known threat in the chaotic district of Warburg, having spent well over one hour fighting Arachnos.' },

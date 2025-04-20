@@ -6,6 +6,7 @@ export const HiddenInTheFog: BadgeData = {
   key: 'hidden-in-the-fog',
   setTitleId: [2530],
   name: 'Hidden In The Fog',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `The Labyrinth of Fog is an endless maze constructed from the amalgamation of memories taken from those who have entered the maze.
 Some speak of finding lost secrets, long forgotten, laying hidden amongst the fog, and that those who surrender themselves to the labyrinth are in a position to glean forbidden knowledge.`,

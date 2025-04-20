@@ -6,6 +6,7 @@ export const Trespasser: BadgeData = {
   key: 'trespasser',
   setTitleId: [748],
   name: 'Trespasser',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have managed to get into the Crey base of operations. Nice work. Now how do you plan to get out?',
   notes: `Located in The Bulge neighborhood, 290 yards southwest of the area marker.

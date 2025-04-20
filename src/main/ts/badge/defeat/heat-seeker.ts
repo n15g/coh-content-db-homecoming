@@ -5,6 +5,7 @@ export const HeatSeeker: BadgeData = {
   key: 'heat-seeker',
   setTitleId: [570],
   name: 'Heat Seeker',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have successfully brought down one of Lord Recluses' fliers. Lord Recluse is amused.`,
   acquisition: 'Defeat the Arachnos Flier during the Statesman Task Force or in Grandville.',

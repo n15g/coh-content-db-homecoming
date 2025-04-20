@@ -8,6 +8,7 @@ export const BestMan: BadgeData = {
     { sex: 'M', value: 'Best Man' },
     { sex: 'F', value: 'Maid of Honor' },
   ],
+  releaseDate: '2025-02-10',
   morality: 'heroic',
   badgeText: `When given the opportunity to travel back in time and experience Manticore & Sister Psyche's wedding,
 you stood with the Freedom Phalanx and successfully drive back Lord Recluse and his villains who tried to disrupt the happy occasion.`,

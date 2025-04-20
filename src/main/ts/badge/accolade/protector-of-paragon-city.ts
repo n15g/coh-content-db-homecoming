@@ -14,6 +14,7 @@ export const ProtectorOfParagonCity: BadgeData = {
     { alignment: 'hero', value: 'Protector of Paragon City' },
     { alignment: 'villain', value: 'Traitor to Paragon City' },
   ],
+  releaseDate: '2024-11-19',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have shown true dedication to the protection of Paragon City, without sacrificing the morals that the city is founded and established on.` },

@@ -5,6 +5,7 @@ export const HitMan: BadgeData = {
   key: 'hit-man',
   setTitleId: [787],
   name: 'Hit-Man',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have memorized the following recipes at level 25 and 30: Recharge Rate and Interrupt Time.',
   effect: 'Awards +2 to Invention Salvage capacity.',

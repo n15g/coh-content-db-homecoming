@@ -6,6 +6,7 @@ export const GreekPhilosopher: BadgeData = {
   key: 'greek-philosopher',
   setTitleId: [2531],
   name: 'Greek Philosopher',
+  releaseDate: '2024-11-19',
   morality: 'all',
   badgeText: `The origin behind the Labyrinth of Fog has been obscured for ages, but you've recently discovered evidence that suggests the labyrinth was created to imprison an ancient calamity that once befell the islands of Greece.`,
   links: [

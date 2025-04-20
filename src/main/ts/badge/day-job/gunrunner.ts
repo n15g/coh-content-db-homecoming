@@ -8,6 +8,7 @@ export const Gunrunner: BadgeData = {
     { alignment: 'hero', value: 'Gunrunner' },
     { alignment: 'villain', value: 'Smuggler' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: [
     { alignment: 'hero', value: `You've scored the biggest coup of all: smuggling directly into Paragon City. Unfortunately, it's a long round trip.` },

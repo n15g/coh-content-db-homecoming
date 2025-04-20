@@ -6,6 +6,7 @@ export const Condemned: BadgeData = {
   key: 'condemned',
   setTitleId: [2323],
   name: 'Condemned',
+  releaseDate: '2019-01-01',
   morality: 'paragon-city-access',
   badgeText: `The properties along Miller Street have been condemned and will be demolished and replaced with new attractions within a few years.`,
   notes: `Located on a brown brick building 289 yards NE of the Atlas Plaza marker, on the overhanging roof above a pair of double-doors.`,

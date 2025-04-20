@@ -13,6 +13,7 @@ export const CascadeCleansing: BadgeData = {
   key: 'cascade-cleansing',
   setTitleId: [1882],
   name: 'Cascade Cleansing',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge within Cascade Archipelago.`,
   links: [

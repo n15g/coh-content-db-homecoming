@@ -13,6 +13,7 @@ export const CrashLanded: BadgeData = {
   key: 'crash-landed',
   setTitleId: [2330],
   name: 'Crash Landed',
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: `You've obtained this Accolade by earning every Exploration badge in Echo: Rikti Crash Site.`,
   links: [

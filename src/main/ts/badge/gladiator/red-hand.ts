@@ -6,6 +6,7 @@ export const RedHand: BadgeData = {
   key: 'red-hand',
   setTitleId: [450],
   name: 'Red Hand',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'The spirits of the dead are at your command.',
   links: [

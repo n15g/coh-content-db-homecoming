@@ -6,6 +6,7 @@ export const BetterDays: BadgeData = {
   key: 'better-days',
   setTitleId: [1535],
   name: 'Better Days',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `This statue of the Red Tiger, aka Jake Montoya, was erected after he lost his leg fighting the Clockwork King.
 Hero Corps supplied Jake with a prosthetic limb afterwards, but he would never be able to fight crime again. Some of his friends worry that Jake spends too much time around this statue, obsessing over his better days.`,

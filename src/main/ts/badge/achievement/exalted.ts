@@ -8,6 +8,7 @@ export const Exalted: BadgeData = {
     { value: 'Exalted' },
     { alignment: 'praetorian', value: 'Infinite Lives' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { value: 'You are truly Exalted and blessed by a higher being.' },

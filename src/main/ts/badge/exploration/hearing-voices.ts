@@ -6,6 +6,7 @@ export const HearingVoices: BadgeData = {
   key: 'hearing-voices',
   setTitleId: [1808],
   name: 'Hearing Voices',
+  releaseDate: '2012-11-30',
   morality: 'paragon-city-access',
   badgeText: `Low voices vibrate the very air around you, issuing from no mouths that you can see.
 No matter where you go, you cannot escape the constant chanting of the nonsense phrase "...uuLArUUruUlaARUuaALuU..." You cover your ears but it cannot deaden the sound.

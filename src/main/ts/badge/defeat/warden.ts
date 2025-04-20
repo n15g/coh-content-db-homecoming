@@ -8,6 +8,7 @@ export const Warden: BadgeData = {
     { alignment: 'hero', value: 'Warden' },
     { alignment: 'villain', value: 'Cruel Warden' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `You have made the Ziggurat a safer place by putting the escaped convicts back on the inside, where they belong.` },

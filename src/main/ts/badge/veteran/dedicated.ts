@@ -5,6 +5,7 @@ export const Dedicated: BadgeData = {
   key: 'dedicated',
   setTitleId: [632],
   name: 'Dedicated',
+  releaseDate: '2019-01-01',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `Few can match your dedication to fighting for good and Justice. You've achieved twenty-seven Veteran levels.` },

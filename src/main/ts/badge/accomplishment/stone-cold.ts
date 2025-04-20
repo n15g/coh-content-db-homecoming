@@ -6,6 +6,7 @@ export const StoneCold: BadgeData = {
   key: 'stone-cold',
   setTitleId: [330],
   name: 'Stone Cold',
+  releaseDate: '2012-11-30',
   morality: 'villainous',
   badgeText: 'You took out a filthy traitor to the Port Oakes Vendetti Family.',
   links: [

@@ -10,6 +10,7 @@ export const Adamant: BadgeData = {
     { alignment: 'villain', sex: 'F', value: 'Ironwoman' },
     { alignment: 'praetorian', value: 'Laughs it Off' },
   ],
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: 'You have endured one million points of damage.' },

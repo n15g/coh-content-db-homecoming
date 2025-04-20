@@ -5,6 +5,7 @@ export const Intrepid: BadgeData = {
   key: 'intrepid',
   setTitleId: [885],
   name: 'Intrepid',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback between level 46 and 50 while the enemies were Buffed.` },

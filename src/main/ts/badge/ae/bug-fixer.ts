@@ -5,6 +5,7 @@ export const BugFixer: BadgeData = {
   key: 'bug-fixer',
   setTitleId: [1203],
   name: 'Bug Fixer',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've tested one of your own missions assuring that it works as intended.`,
   acquisition: 'Create a mission in the Mission Architect, and complete it in Test Mode.',

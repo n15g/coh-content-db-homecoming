@@ -5,6 +5,7 @@ export const SharedVictory: BadgeData = {
   key: 'shared-victory',
   setTitleId: [858],
   name: 'Shared Victory',
+  releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: [
     { alignment: 'hero', value: `You have completed a Task Force/Flashback under the parameter of "5 Defeats Allowed" for the team.` },
