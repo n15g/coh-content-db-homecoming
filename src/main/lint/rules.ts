@@ -11,6 +11,8 @@ import { preferEffectStart } from './rules/prefer-effect-start'
 import { preferSimpleAlternate } from './rules/prefer-simple-alternate'
 import { noInvalidHrefProtocol } from './rules/no-invalid-href-protocol'
 import { noNegZero } from './rules/no-neg-zero'
+import { noMissingReleaseDate } from './rules/no-missing-release-date'
+import { noInvalidReleaseDate } from './rules/no-invalid-release-date'
 
 export const rules = {
   'migrate-contact-link-title': migrateContactLinkTitle,
@@ -21,6 +23,8 @@ export const rules = {
   'no-invalid-href-protocol': noInvalidHrefProtocol,
   'no-invalid-href-url': noInvalidHrefUrl,
   'no-invalid-key': noInvalidKey,
+  'no-invalid-release-date': noInvalidReleaseDate,
+  'no-missing-release-date': noMissingReleaseDate,
   'no-neg-zero': noNegZero,
   'prefer-acquisition-period': preferAcquisitionPeriod,
   'prefer-effect-period': preferEffectPeriod,

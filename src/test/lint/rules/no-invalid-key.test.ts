@@ -28,7 +28,7 @@ export const Academic: BadgeData = {
   invalid: [],
 })
 
-ruleTester.run('should migrate', noInvalidKey, {
+ruleTester.run('should keyify', noInvalidKey, {
   valid: [],
   invalid: [
     {

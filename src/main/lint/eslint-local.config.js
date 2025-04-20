@@ -24,6 +24,8 @@ module.exports = {
     'local/no-invalid-href-protocol': ['error'],
     'local/no-invalid-href-url': ['error'],
     'local/no-invalid-key': ['error'],
+    'local/no-invalid-release-date': ['error'],
+    'local/no-missing-release-date': ['error'],
     'local/no-neg-zero': ['error'],
     'local/prefer-acquisition-period': ['error'],
     'local/prefer-effect-period': ['error'],
