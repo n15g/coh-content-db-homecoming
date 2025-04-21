@@ -3,18 +3,19 @@ import { ZONES } from './zone/_zones'
 import { BADGES } from './badge/_badges'
 import { CONTACTS } from './contact/_contacts'
 import { MISSIONS } from './mission/_missions'
-import { BUNDLE_VERSION } from '../lint/utils/bundle-version'
+import { BUNDLE_UPDATE_TIME, BUNDLE_VERSION } from '../lint/utils/rollup-replace'
 
 export const HOMECOMING: BundleData = {
   header: {
     name: 'Homecoming',
+    version: BUNDLE_VERSION,
+    lastUpdateTime: BUNDLE_UPDATE_TIME,
     description: 'Content data for the CoH: Homecoming server.',
     repositoryUrl: 'https://github.com/n15g/coh-content-db-homecoming',
     changelogUrl: 'https://github.com/n15g/coh-content-db-homecoming/blob/master/CHANGELOG.md',
     links: [
       { title: 'Homecoming Forums', href: 'https://forums.homecomingservers.com/' },
     ],
-    version: BUNDLE_VERSION,
   },
   servers: ['Everlasting', 'Excelsior', 'Indomitable', 'Reunion', 'Torchbearer', 'Victory'],
   archetypes: [
