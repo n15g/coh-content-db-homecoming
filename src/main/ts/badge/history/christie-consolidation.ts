@@ -65,7 +65,7 @@ export const ChristieConsolidation: BadgeData = {
     {
       key: 'chri-8',
       type: 'monument',
-      location: { zoneKey: KallistiWharf.key, coords: [1719.4, 13, -79.0], icon: 'pedestal', iconText: '?' },
+      location: { zoneKey: KallistiWharf.key, coords: [1719.4, 13, -79], icon: 'pedestal', iconText: '?' },
       monumentText: `Welcome, friend, to Kallisti Wharf! If you are reading this, then you're probably still trying to lose your sea legs after a nice relaxing boat ride from outside the walls. If you look out to the Northern walls of the district, you'll see the massive War-Wall sea gates that allow for marine trade and travel. Another district improvement that Mr. Christie lobbied for to help restore the Wharf and its community!`,
     },
   ],
