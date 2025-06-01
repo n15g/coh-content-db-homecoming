@@ -24,7 +24,7 @@ export const ChristieConsolidation: BadgeData = {
       key: 'chri-1',
       type: 'monument',
       location: { zoneKey: KallistiWharf.key, coords: [5800.6, 65, 1719.5], icon: 'pedestal', iconText: '?' },
-      monumentText: `This area of the city may look familiar to you. If you think you saw it on ClikClak as a viral meme, you're right! During a field test for self-driving cars, Christie Consolidated discovered and isolated a bug in the LIDAR recognition of its Autonomous Drive Software, but not before everyone started calling out the infamous 'Carnado' on social media. We want to reiterate that nobody was hurt, and the only damage occurred to CC's own vehicles!,
+      monumentText: `This area of the city may look familiar to you. If you think you saw it on ClikClak as a viral meme, you're right! During a field test for self-driving cars, Christie Consolidated discovered and isolated a bug in the LIDAR recognition of its Autonomous Drive Software, but not before everyone started calling out the infamous 'Carnado' on social media. We want to reiterate that nobody was hurt, and the only damage occurred to CC's own vehicles!`,
     },
     {
       key: 'chri-2',
