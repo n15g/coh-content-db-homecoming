@@ -18,7 +18,7 @@ export const BetweenRealities: BadgeData = {
   morality: 'all',
   badgeText: `You've spent a significant amount of time shifting between the spatial overlaps of the First Ward and Night Ward.
 With experience, you've learned of a method to manipulate the magics used by the Light & Shadowed Paths to define and utilize spatial jump points of your own.`,
-  effect: `Awards the Mark & Recall power.`,
+  effect: `Awards the Mark and Recall power.`,
   links: [
     { title: 'Between Realities Badge', href: 'https://homecoming.wiki/wiki/Between_Realities_Badge' },
   ],
