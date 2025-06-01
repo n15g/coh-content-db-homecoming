@@ -12,5 +12,5 @@ export const LicenseToChill: BadgeData = {
   links: [
     { title: 'License to Chill Badge', href: 'https://homecoming.wiki/wiki/License_to_Chill_Badge' },
   ],
-  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/license-to-chill.png',
 }
