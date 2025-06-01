@@ -35,7 +35,7 @@ export const FlagtownMemorialist: BadgeData = {
     {
       key: 'flag-3',
       type: 'monument',
-      location: { zoneKey: KallistiWharf.key, coords: [6977.0, 65, 3917.7], icon: 'pedestal', iconText: '?' },
+      location: { zoneKey: KallistiWharf.key, coords: [6977, 65, 3917.7], icon: 'pedestal', iconText: '?' },
       monumentText: `Before the park was built, a military base proudly stood here for almost a hundred years. Fort Steuben was named for Baron Friedrich Wilhelm von Steuben, a Prussian-American who served in the continental army during the revolutionary war and taught basic military drills and tactics. Appropriately, Fort Steuben was a training base founded in the late 19th century by the US Army. It trained many of the men who fought during both World Wars. Its chief landmark was an immense 300 foot high flag pole that could be seen from anywhere in the Wharf, from which Flagtown got its name.`,
     },
     {
