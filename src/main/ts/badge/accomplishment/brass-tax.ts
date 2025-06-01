@@ -5,7 +5,7 @@ export const BrassTax: BadgeData = {
   type: 'accomplishment',
   key: 'brass-tax',
   setTitleId: [2567],
-  name: 'Brass Tax'
+  name: 'Brass Tax',
   releaseDate: '2025-06-??',
   morality: 'villainous',
   badgeText: ` You negotiated with Nemesis, to the joyful sounds of shattering brass, on his own home turf in the Shadow Shard.`,
