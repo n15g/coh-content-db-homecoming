@@ -150,7 +150,7 @@ This plaque memorializes the citizens of Paragon City, whether powered or not, w
     {
       key: 'bicn-8',
       type: 'monument',
-      location: { zoneKey: KallistiWharf.key, coords: [5337.95, 50.95, 4543.9], icon: 'plaque', iconText: '1' },
+      location: { zoneKey: KallistiWharf.key, coords: [2380, 56, 1132], icon: 'plaque', iconText: '1' },
       monumentText: `On June 28, 1969, American police raided the gay bar known as the Stonewall Inn in Lower Manhattan, NYC.
 This would trigger a violent riot that would spark the flame of progress all across the United States of America.
 Paragon City was not excluded from this sweeping push for progress, with both civilians and heroes making a stand side-by-side and campaigning for equal rights for gay, lesbian, bisexual, and transgender individuals across the nation.
