@@ -200,6 +200,15 @@ import { DoesntLookAtExplosions } from './doesnt-look-at-explosions'
 import { FaceTurn } from './face-turn'
 import { BoundByNDA } from './bound-by-nda'
 import { NutrientRich } from './nutrient-rich'
+import { StaringIntoTheAbyss } from './staring-into-the-abyss'
+import { BusinessSavvy } from './business-savvy'
+import { FrontPerson } from './front-person'
+import { JusitifiedEnds } from './justified-ends'
+import { ThickerThanWater } from './thicker-than-water'
+import { GenerationalTrauma } from './generational-trauma'
+import { UncomfortableTruths } from './unfomfortable-truths'
+import { TruthSeeker } from './truth-seeker'
+import { BrassTax } from './brass-tax'
 
 export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
 
@@ -404,4 +413,13 @@ export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
   LoopHero,
   DoesntLookAtExplosions,
   FaceTurn,
+  StaringIntoTheAbyss,
+  BusinessSavvy,
+  FrontPerson,
+  JusitifiedEnds,
+  ThickerThanWater,
+  GenerationalTrauma,
+  UncomfortableTruths,
+  TruthSeeker,
+  BrassTax,
 ]
