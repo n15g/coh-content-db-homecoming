@@ -5,7 +5,7 @@ export const JustifiedEnds: BadgeData = {
   type: 'accomplishment',
   key: 'justified-ends',
   setTitleId: [2562],
-  name: 'Justified Ends'
+  name: 'Justified Ends',
   releaseDate: '2025-06-??',
   morality: 'heroic',
   badgeText: `Some evils can't be beaten while keeping your hands clean. You've done what was needed when others wouldn't.`,

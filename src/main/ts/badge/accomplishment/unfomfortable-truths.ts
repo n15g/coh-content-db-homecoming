@@ -5,7 +5,7 @@ export const UnfomfortableTruths: BadgeData = {
   type: 'accomplishment',
   key: 'unfomfortable-truths',
   setTitleId: [2565],
-  name: 'Unfomfortable Truths'
+  name: 'Unfomfortable Truths',
   releaseDate: '2025-06-??',
   morality: 'villainous',
   badgeText: `Sometimes the only thing it takes to completely rock a person's world is to learn a few uncomfortable truths.`,

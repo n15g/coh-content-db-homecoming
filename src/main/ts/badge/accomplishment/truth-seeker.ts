@@ -5,7 +5,7 @@ export const TruthSeeker: BadgeData = {
   type: 'accomplishment',
   key: 'truth-seeker',
   setTitleId: [2566],
-  name: 'Truth Seeker'
+  name: 'Truth Seeker',
   releaseDate: '2025-06-??',
   morality: 'villainous',
   badgeText: `No mystery is too small to intrigue you. You gave Erin West closure by uncovering the truth about her mentor's death.`,

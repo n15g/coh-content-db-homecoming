@@ -5,7 +5,7 @@ export const GenerationalTrauma: BadgeData = {
   type: 'accomplishment',
   key: 'generational-trauma',
   setTitleId: [2564],
-  name: 'Generational Trauma'
+  name: 'Generational Trauma',
   releaseDate: '2025-06-??',
   morality: 'heroic',
   badgeText: `You have discovered the consequences of helping Sister Valeria in the past - your encounter with Livia was actually the first time you met the host Nictus inside Arakhn, which now harbors milennia of hatred for you as a result. The fact that Ourboros did not mend this is telling.`,

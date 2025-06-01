@@ -5,7 +5,7 @@ export const FrontPerson: BadgeData = {
   type: 'accomplishment',
   key: 'front-person',
   setTitleId: [2561],
-  name: 'Front Person'
+  name: 'Front Person',
   releaseDate: '2025-06-??',
   morality: 'villainous',
   badgeText: `When Crey needed someone to give them a good face to recover their image, they called you.`,

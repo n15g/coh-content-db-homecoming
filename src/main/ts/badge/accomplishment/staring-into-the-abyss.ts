@@ -5,7 +5,7 @@ export const StaringIntoTheAbyss: BadgeData = {
   type: 'accomplishment',
   key: 'staring-intothe-abyss',
   setTitleId: [2559],
-  name: 'Staring Into The Abyss'
+  name: 'Staring Into The Abyss',
   releaseDate: '2025-06-??',
   morality: 'heroic',
   badgeText: `You negotiated with Nemesis, to the joyful sounds of shattering brass, on his own home turf in the Shadow Shard.`,
