@@ -15,6 +15,6 @@ export const MarkedOut: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [1891.5, 41.8, 971.7], icon: 'badge', iconText: 'x' } },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [1891.5, 41.8, 971.7], icon: 'badge', iconText: '6' } },
   ],
 }

@@ -15,6 +15,6 @@ export const ProtestTooMuch: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [5875.5, 47.9, 4979.9], icon: 'badge', iconText: 'x' } },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [5875.5, 47.9, 4979.9], icon: 'badge', iconText: '3' } },
   ],
 }

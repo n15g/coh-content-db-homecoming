@@ -15,6 +15,6 @@ export const TouristTrapped: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [5339.4, 72.1, 738.7], icon: 'badge', iconText: 'x' } },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [5339.4, 72.1, 738.7], icon: 'badge', iconText: '8' } },
   ],
 }
