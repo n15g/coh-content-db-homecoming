@@ -37,6 +37,6 @@ export const PatronOfTheArts: BadgeData = {
       type: 'monument',
       location: { zoneKey: KallistiWharf.key, coords: [1954.8, 48.5, 1685.5], icon: 'plaque', iconText: '17' },
       monumentText: `In the early 1950s, a string of corruption and tax fraud charges at the Showcase sent it spiraling into bankruptcy, tarnishing the reputation of the area. The Row began its long decline, and the street for which it was named fell fully into disrepair during the 1970s. Most of the theatres were abandoned and condemned, a haven for squatters and the criminals who preyed upon them.`,
-      },
+    },
   ],
 }
