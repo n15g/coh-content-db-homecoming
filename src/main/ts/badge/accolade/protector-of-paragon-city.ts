@@ -2,7 +2,7 @@ import { BadgeData } from 'coh-content-db'
 import { ForceOfJustice } from './force-of-justice'
 import { Gallant } from '../achievement/gallant'
 import { GuardianOfForever } from '../achievement/guardian-of-forever'
-import { BeyondReasonableDoubt } from '../achievement/beyond-reasonable-doubt'
+import { HelpingHand } from '../accomplishment/helping-hand'
 import { TheGreaterGood } from '../accomplishment/the-greater-good'
 import { Bicentennial } from '../history/bicentennial'
 
@@ -30,7 +30,7 @@ export const ProtectorOfParagonCity: BadgeData = {
     { key: ForceOfJustice.key, type: 'badge', badgeKey: ForceOfJustice.key },
     { key: Gallant.key, type: 'badge', badgeKey: Gallant.key },
     { key: GuardianOfForever.key, type: 'badge', badgeKey: GuardianOfForever.key },
-    { key: BeyondReasonableDoubt.key, type: 'badge', badgeKey: BeyondReasonableDoubt.key },
+    { key: HelpingHand.key, type: 'badge', badgeKey: HelpingHand.key },
     { key: TheGreaterGood.key, type: 'badge', badgeKey: TheGreaterGood.key },
     { key: Bicentennial.key, type: 'badge', badgeKey: Bicentennial.key },
   ],
