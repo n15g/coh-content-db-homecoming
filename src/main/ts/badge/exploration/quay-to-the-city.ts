@@ -1,5 +1,5 @@
 import { BadgeData } from 'coh-content-db'
-import { KallistiWharf } from '../../zone/kallisti-warf'
+import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const QuayToTheCity: BadgeData = {
   type: 'exploration',
