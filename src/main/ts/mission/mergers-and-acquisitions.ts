@@ -12,7 +12,7 @@ export const MergersAndAcquisitions: MissionData = {
     { title: 'Mergers and Acquisitions', href: 'https://homecoming.wiki/wiki/Dap-Dap_tha_Deal-Maka#Mergers_and_Acquisitions' },
   ],
   flashback: {
-    id: '18.43',
+    id: '28.02',
     levelRange: [40, 40],
     morality: 'villain',
   },
