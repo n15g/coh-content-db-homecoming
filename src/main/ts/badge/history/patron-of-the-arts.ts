@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const PatronOfTheArts: BadgeData = {
@@ -6,7 +6,7 @@ export const PatronOfTheArts: BadgeData = {
   key: 'patron-of-the-arts',
   setTitleId: [2556],
   name: 'Patron of the Arts',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `You are considered a Patron of the Arts for showing a vested interest in Theatre Row and its struggles through the past and present century.`,
   links: [

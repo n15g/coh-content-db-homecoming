@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const FlagtownMemorialist: BadgeData = {
@@ -6,7 +6,7 @@ export const FlagtownMemorialist: BadgeData = {
   key: 'flagtown-memorialist',
   setTitleId: [2557],
   name: 'Flagtown Memorialist',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `You are now considered an academic in the history of Flagtown in Kallisti Wharf.`,
   links: [

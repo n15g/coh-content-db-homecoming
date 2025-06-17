@@ -1,4 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const ChristieConsolidation: BadgeData = {
@@ -6,7 +6,7 @@ export const ChristieConsolidation: BadgeData = {
   key: 'christie-consolidation',
   setTitleId: [2558],
   name: 'Christie Consolidation',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `You have read up on the many gambles that Emil Christie has taken to recover the Wharf after the Rikti War.`,
   links: [
