@@ -468,7 +468,7 @@ import { VoiceOfTheOracle } from './voice-of-the-oracle'
 import { PartyAnimal } from './party-animal'
 import { LabRat } from './lab-rat'
 import { HiddenInTheFog } from './hidden-in-the-fog'
-import { FueldByGreed } from './fueled-by-greed'
+import { FueledByGreed } from './fueled-by-greed'
 import { InTheirPrime } from './in-their-prime'
 import { MarkedOut } from './marked-out'
 import { ProtestTooMuch } from './protest-too-much'
@@ -607,7 +607,7 @@ export const EXPLORATION_BADGES: BadgeData[] = [
   FlyingShark, Fugitive, ForwardThinker, SecretPath, SixthPassenger, Unsubtle,
 
   // Kallisti Wharf
-  OnTheShouldersOfGiants, FueldByGreed, InTheirPrime, MarkedOut, ProtestTooMuch, QuayToTheCity, RavingMad, TouristTrapped,
+  OnTheShouldersOfGiants, FueledByGreed, InTheirPrime, MarkedOut, ProtestTooMuch, QuayToTheCity, RavingMad, TouristTrapped,
 
   // Peregrine Island
   PortalParter, UseMightForRight, CauseForConcern, GeneticallyAltered, RiktiGoneWild, ShadesOfArachnos, AllSeeing, DarkOmen,
