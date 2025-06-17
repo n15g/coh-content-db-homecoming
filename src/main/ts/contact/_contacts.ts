@@ -236,6 +236,10 @@ import { Warrant } from './warrant'
 import { WillyWheeler } from './willy-wheeler'
 import { WilmaPeterson } from './wilma-peterson'
 import { Woodsman } from './woodsman'
+import { DapDapThaDealMaka } from './dap-dap-tha-deal-maka'
+import { ErinWest } from './erin-west'
+import { AlexanderTheGreat } from './alexander-the-great'
+import { RobertKogan } from './robert-kogan'
 
 export const CONTACTS: ContactData[] = [
   AaronThiery,
@@ -474,4 +478,8 @@ export const CONTACTS: ContactData[] = [
   WillyWheeler,
   WilmaPeterson,
   Woodsman,
+  DapDapThaDealMaka,
+  ErinWest,
+  AlexanderTheGreat,
+  RobertKogan,
 ]
