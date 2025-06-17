@@ -7,6 +7,6 @@ export const DapDapThaDealMaka: ContactData = {
   title: 'Acquisition Specialist',
   morality: 'villainous',
   location: { zoneKey: KallistiWharf.key, coords: [1578, 47, 4995] },
-  levelRange: [1, 7],
+  levelRange: [40, 50],
   links: [{ title: 'Dap-Dap tha Deal-Maka', href: 'https://homecoming.wiki/wiki/Dap-Dap_tha_Deal-Maka' }],
 }
