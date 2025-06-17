@@ -1,7 +1,7 @@
 import { MissionData } from 'coh-content-db'
 import { AlexanderTheGreat } from '../contact/alexander-the-great'
 
-export const Know Thy Enemy: MissionData = {
+export const KnowThyEnemy: MissionData = {
   key: 'know-thy-enemy',
   name: 'Know Thy Enemy',
   type: 'story-arc',
