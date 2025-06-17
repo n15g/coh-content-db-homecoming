@@ -18,4 +18,3 @@ export const JustifiedEnds: BadgeData = {
     { key: TheSunlightAndTheSpotlight.key, type: 'mission', missionKey: TheSunlightAndTheSpotlight.key },
   ],
 }
- 
