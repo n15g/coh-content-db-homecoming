@@ -4,7 +4,7 @@ import { KallistiWharf } from '../zone/kallisti-wharf'
 export const DapDapThaDealMaka: ContactData = {
   key: 'dap-dap-tha-deal-maka',
   name: 'Dap-Dap tha Deal-Maka',
-  title: 'Freakshow',
+  title: 'Acquisition Specialist',
   morality: 'villainous',
   location: { zoneKey: KallistiWharf.key, coords: [1578, 47, 4995] },
   levelRange: [1, 7],
