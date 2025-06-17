@@ -8,5 +8,5 @@ export const ErinWest: ContactData = {
   morality: 'rogue',
   location: { zoneKey: KallistiWharf.key, coords: [7213, 55, 2649] },
   levelRange: [40, 50],
-  links: [{ title: 'Dap-Dap tha Deal-Maka', href: 'https://homecoming.wiki/wiki/Dap-Dap_tha_Deal-Maka' }],
+  links: [{ title: 'Erin West', href: 'https://homecoming.wiki/wiki/Erin_West' }],
 }
