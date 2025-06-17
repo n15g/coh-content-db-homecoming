@@ -18,4 +18,3 @@ export const TruthSeeker: BadgeData = {
     { key: CuttingBackOldGrowth.key, type: 'mission', missionKey: CuttingBackOldGrowth.key },
   ],
 }
- 
