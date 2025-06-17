@@ -1,7 +1,7 @@
 import { BadgeData } from 'coh-content-db'
 import { KallistiWharf } from '../../zone/kallisti-warf'
 
-export const ProtestTooMuch: BadgeData = {
+export const QuayToTheCity: BadgeData = {
   type: 'exploration',
   key: 'quay-to-the-city',
   setTitleId: [2455],
