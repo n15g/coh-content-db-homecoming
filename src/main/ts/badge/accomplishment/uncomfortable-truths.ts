@@ -18,4 +18,3 @@ export const UncomfortableTruths: BadgeData = {
     { key: CuttingBackOldGrowth.key, type: 'mission', missionKey: CuttingBackOldGrowth.key },
   ],
 }
- 
