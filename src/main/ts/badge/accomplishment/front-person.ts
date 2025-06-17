@@ -18,4 +18,3 @@ export const FrontPerson: BadgeData = {
     { key: CuttingBackOldGrowth.key, type: 'mission', missionKey: CuttingBackOldGrowth.key },
   ],
 }
- 
