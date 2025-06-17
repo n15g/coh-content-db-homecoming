@@ -6,7 +6,7 @@ export const RavingMad: BadgeData = {
   key: 'raving-mad',
   setTitleId: [2453],
   name: 'Raving Mad',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `Before Collier Industrial Park got its much-needed renaissance, the abandoned Collier warehouses had slowly become either self-storage parks or 'criminal-chic' locations for raves that bred influence amongst the gang patrons, namely the Skulls and the Family.`,
   notes: ` ??? `,

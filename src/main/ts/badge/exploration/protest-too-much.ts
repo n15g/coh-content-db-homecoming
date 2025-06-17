@@ -6,7 +6,7 @@ export const ProtestTooMuch: BadgeData = {
   key: 'protest-too-much',
   setTitleId: [2451],
   name: 'Protest Too Much',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `At this location in June of 2018, a man by the name of Kieran Holt, who was later determined to be wrongfully detained, was assaulted by members of the PPD for resisting arrest while protesting their corruption. Holt died, hours later, in his holding cell from his injuries. The resulting media coverage led to the swift loss of public trust in the local PPD and their removal, in favor of Blackwing Industries after heated debates.`,
   notes: ` ??? `,

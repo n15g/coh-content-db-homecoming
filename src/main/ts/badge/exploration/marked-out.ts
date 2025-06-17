@@ -6,7 +6,7 @@ export const MarkedOut: BadgeData = {
   key: 'marked-out',
   setTitleId: [2454],
   name: 'Marked Out',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `This site commemorates the final protest held against developer-tycoon Mark Maxwell's aggressive demolitions of the theatres in the Row. The last theatre, named The Redwood, stood here and shielded more than 500 protestors in its final days.`,
   notes: ` ??? `,

@@ -6,7 +6,7 @@ export const ProtestTooMuch: BadgeData = {
   key: 'quay-to-the-city',
   setTitleId: [2455],
   name: 'Quay to the City',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `Kallisti Marina is all that is left of a larger harbor that originally gave Kallisti Wharf half of its name. The first half, Kallisti, is a greek word that means 'The prettiest one'. Back when it gained the moniker, there were many Greek immigrants to the area, and it was noted for its placid, beautiful waters, bright blue, full of fish and free of the pollution that would come later. Before Independence Port, this Marina was the first port of call for imports and immigrants alike`,
   notes: ` ??? `,
