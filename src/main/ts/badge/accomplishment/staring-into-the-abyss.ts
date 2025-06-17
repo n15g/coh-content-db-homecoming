@@ -18,4 +18,3 @@ export const StaringIntoTheAbyss: BadgeData = {
     { key: HuntingTheHunters.key, type: 'mission', missionKey: HuntingTheHunters.key },
   ],
 }
- 
