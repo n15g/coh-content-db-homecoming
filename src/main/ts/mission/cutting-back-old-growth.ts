@@ -3,7 +3,7 @@ import { ErinWest } from '../contact/erin-west'
 
 export const CuttingBackOldGrowth: MissionData = {
   key: 'cutting-back-old-growth',
-  name: 'Mergers and Acquisitions',
+  name: 'Cutting Back Old Growth',
   type: 'story-arc',
   morality: 'rogue',
   contactKeys: ErinWest.key,
