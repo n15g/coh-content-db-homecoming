@@ -18,4 +18,3 @@ export const BusinessSavvy: BadgeData = {
     { key: MergersAndAcquisitions.key, type: 'mission', missionKey: MergersAndAcquisitions.key },
   ],
 }
- 
