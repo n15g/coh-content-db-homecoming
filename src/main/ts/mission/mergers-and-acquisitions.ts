@@ -5,7 +5,7 @@ export const MergersAndAcquisitions: MissionData = {
   key: 'mergers-and-acquisitions',
   name: 'Mergers and Acquisitions',
   type: 'story-arc',
-  morality: 'Villain',
+  morality: 'villainous',
   contactKeys: DapDapThaDealMaka.key,
   levelRange: [40, 50],
   links: [
@@ -13,7 +13,6 @@ export const MergersAndAcquisitions: MissionData = {
   ],
   flashback: {
     id: '28.02',
-    levelRange: [40, 40],
-    morality: 'villain',
+    levelRange: [50],
   },
 }
