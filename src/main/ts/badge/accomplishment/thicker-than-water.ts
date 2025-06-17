@@ -18,4 +18,3 @@ export const ThickerThanWater: BadgeData = {
     { key: KnowThyEnemy.key, type: 'mission', missionKey: KnowThyEnemy.key },
   ],
 }
- 
