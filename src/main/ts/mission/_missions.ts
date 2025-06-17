@@ -268,6 +268,11 @@ import { WhatWasBuiltUponthePast } from './what-was-built-upon-the-past'
 import { WhatWasLost } from './what-was-lost'
 import { WhoNeedsEnemies } from './who-needs-enemies'
 import { YouCantGoHome } from './you-cant-go-home'
+import { MergersAndAcquisitions } from './mergers-and-acquisitions'
+import { CuttingBackOldGrowth } from './cutting-back-old-growth'
+import { TheSunlightAndTheSpotlight } from './the-sunlight-and-the-spotlight'
+import { KnowThyEnemy } from './know-thy-enemy'
+import { HuntingTheHunters } from './hunting-the-hunters'
 
 export const MISSIONS: MissionData[] = [
   AFaultlineInTheSandsOfTime,
@@ -538,4 +543,9 @@ export const MISSIONS: MissionData[] = [
   WhatWasLost,
   WhoNeedsEnemies,
   YouCantGoHome,
+  MergersAndAcquisitions,
+  CuttingBackOldGrowth,
+  TheSunlightAndTheSpotlight,
+  KnowThyEnemy,
+  HuntingTheHunters,
 ]
