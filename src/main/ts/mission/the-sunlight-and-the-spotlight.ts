@@ -1,7 +1,7 @@
 import { MissionData } from 'coh-content-db'
 import { RobertKogan } from '../contact/robert-kogan'
 
-export const CuttingBackOldGrowth: MissionData = {
+export const TheSunlightAndTheSpotlight: MissionData = {
   key: 'the-sunlight-and-the-spotlight',
   name: 'The Sunlight and the Spotlight',
   type: 'story-arc',
