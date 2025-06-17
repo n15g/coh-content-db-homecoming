@@ -6,7 +6,7 @@ export const StaringIntoTheAbyss: BadgeData = {
   key: 'staring-intothe-abyss',
   setTitleId: [2559],
   name: 'Staring Into The Abyss',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'heroic',
   badgeText: `You negotiated with Nemesis, to the joyful sounds of shattering brass, on his own home turf in the Shadow Shard.`,
   acquisition: `Complete Adelard Ziegler's story arc Hunting the Hunters.`,
@@ -18,3 +18,4 @@ export const StaringIntoTheAbyss: BadgeData = {
     { key: HuntingTheHunters.key, type: 'mission', missionKey: HuntingTheHunters.key },
   ],
 }
+ 

@@ -6,7 +6,7 @@ export const FrontPerson: BadgeData = {
   key: 'front-person',
   setTitleId: [2561],
   name: 'Front Person',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'villainous',
   badgeText: `When Crey needed someone to give them a good face to recover their image, they called you.`,
   acquisition: `Complete Erin West's story arc Cutting Back Old Growth.`,
@@ -18,3 +18,4 @@ export const FrontPerson: BadgeData = {
     { key: CuttingBackOldGrowth.key, type: 'mission', missionKey: CuttingBackOldGrowth.key },
   ],
 }
+ 

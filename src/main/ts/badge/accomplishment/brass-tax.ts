@@ -6,7 +6,7 @@ export const BrassTax: BadgeData = {
   key: 'brass-tax',
   setTitleId: [2567],
   name: 'Brass Tax',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'villainous',
   badgeText: ` You negotiated with Nemesis, to the joyful sounds of shattering brass, on his own home turf in the Shadow Shard.`,
   acquisition: `Complete the bonus objectives Dap-Dap the Deal-Maka's story arc Mergers and Acquisitions.`,
@@ -18,3 +18,4 @@ export const BrassTax: BadgeData = {
     { key: MergersAndAcquisitions.key, type: 'mission', missionKey: MergersAndAcquisitions.key },
   ],
 }
+ 

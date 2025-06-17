@@ -6,7 +6,7 @@ export const BusinessSavvy: BadgeData = {
   key: 'business-savvy',
   setTitleId: [2560],
   name: 'Business Savvy',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'villainous',
   badgeText: `You bumbled, hustled and crashed through a number of people and places to help Dap-Dap establish the Freaklok as an organization worthy of being taken seriously, especially by the Freakshow.`,
   acquisition: `Complete Dap-Dap the Deal-Maka's story arc Mergers and Acquisitions.`,
@@ -18,3 +18,4 @@ export const BusinessSavvy: BadgeData = {
     { key: MergersAndAcquisitions.key, type: 'mission', missionKey: MergersAndAcquisitions.key },
   ],
 }
+ 

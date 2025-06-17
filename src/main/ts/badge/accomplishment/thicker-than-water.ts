@@ -6,7 +6,7 @@ export const ThickerThanWater: BadgeData = {
   key: 'thicker-than-water',
   setTitleId: [2563],
   name: 'Thicker Than Water',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'heroic',
   badgeText: `Alexander 'the Great' Pavlidis used the full quote: 'The blood of the battlefield is thicker than the water of the womb.' His former brothers in arms among the Warriors have fallen victim to demonic trickery but he remains honorbound to try to save their souls.`,
   acquisition: `Complete Alexander the Great's story arc Know Thy Enemy.`,
@@ -18,3 +18,4 @@ export const ThickerThanWater: BadgeData = {
     { key: KnowThyEnemy.key, type: 'mission', missionKey: KnowThyEnemy.key },
   ],
 }
+ 

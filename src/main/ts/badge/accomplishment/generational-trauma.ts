@@ -6,7 +6,7 @@ export const GenerationalTrauma: BadgeData = {
   key: 'generational-trauma',
   setTitleId: [2564],
   name: 'Generational Trauma',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'heroic',
   badgeText: `You have discovered the consequences of helping Sister Valeria in the past - your encounter with Livia was actually the first time you met the host Nictus inside Arakhn, which now harbors milennia of hatred for you as a result. The fact that Ourboros did not mend this is telling.`,
   acquisition: `Complete the bonus objectives in Adelard Ziegler's story arc Hunting the Hunters.`,
@@ -18,3 +18,4 @@ export const GenerationalTrauma: BadgeData = {
     { key: HuntingTheHunters.key, type: 'mission', missionKey: HuntingTheHunters.key },
   ],
 }
+ 

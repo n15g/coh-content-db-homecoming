@@ -6,7 +6,7 @@ export const UncomfortableTruths: BadgeData = {
   key: 'uncomfortable-truths',
   setTitleId: [2565],
   name: 'Uncomfortable Truths',
-  releaseDate: '2025-06-??',
+  releaseDate: '2025-06-17',
   morality: 'villainous',
   badgeText: `Sometimes the only thing it takes to completely rock a person's world is to learn a few uncomfortable truths.`,
   acquisition: `Complete bonus objectives Erin West's story arc Cutting Back Old Growth.`,
@@ -18,3 +18,4 @@ export const UncomfortableTruths: BadgeData = {
     { key: CuttingBackOldGrowth.key, type: 'mission', missionKey: CuttingBackOldGrowth.key },
   ],
 }
+ 
