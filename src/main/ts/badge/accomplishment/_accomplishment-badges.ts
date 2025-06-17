@@ -416,7 +416,7 @@ export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
   StaringIntoTheAbyss,
   BusinessSavvy,
   FrontPerson,
-  JusitifiedEnds,
+  JustifiedEnds,
   ThickerThanWater,
   GenerationalTrauma,
   UncomfortableTruths,
