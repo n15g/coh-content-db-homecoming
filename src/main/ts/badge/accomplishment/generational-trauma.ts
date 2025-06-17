@@ -18,4 +18,3 @@ export const GenerationalTrauma: BadgeData = {
     { key: HuntingTheHunters.key, type: 'mission', missionKey: HuntingTheHunters.key },
   ],
 }
- 
