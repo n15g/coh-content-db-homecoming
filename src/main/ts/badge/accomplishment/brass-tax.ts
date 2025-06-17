@@ -18,4 +18,3 @@ export const BrassTax: BadgeData = {
     { key: MergersAndAcquisitions.key, type: 'mission', missionKey: MergersAndAcquisitions.key },
   ],
 }
- 
