@@ -3,7 +3,7 @@ import { ZONES } from './zone/_zones'
 import { BADGES } from './badge/_badges'
 import { CONTACTS } from './contact/_contacts'
 import { MISSIONS } from './mission/_missions'
-import { BUNDLE_UPDATE_TIME, BUNDLE_VERSION } from '../lint/utils/rollup-replace'
+import { BUNDLE_UPDATE_TIME, BUNDLE_VERSION } from './utils/bundle-metadata'
 
 export const HOMECOMING: BundleData = {
   header: {
