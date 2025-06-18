@@ -9,7 +9,6 @@ export const JustifiedEnds: BadgeData = {
   releaseDate: '2025-06-17',
   morality: 'heroic',
   badgeText: `Some evils can't be beaten while keeping your hands clean. You've done what was needed when others wouldn't.`,
-  acquisition: `Complete Robert Kogan's story arc TheSunlight and the Spotlight.`,
   links: [
     { title: 'Justified Ends Badge', href: 'https://homecoming.wiki/wiki/Justified_Ends_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, missionLink } from 'coh-content-db'
 import { CuttingBackOldGrowth } from '../../mission/cutting-back-old-growth'
 
 export const UncomfortableTruths: BadgeData = {
@@ -9,7 +9,7 @@ export const UncomfortableTruths: BadgeData = {
   releaseDate: '2025-06-17',
   morality: 'villainous',
   badgeText: `Sometimes the only thing it takes to completely rock a person's world is to learn a few uncomfortable truths.`,
-  acquisition: `Complete bonus objectives Erin West's story arc Cutting Back Old Growth.`,
+  acquisition: `Complete bonus objectives in the ${missionLink(CuttingBackOldGrowth)} story arc.`,
   links: [
     { title: 'Uncomfortable Truths Badge', href: 'https://homecoming.wiki/wiki/Uncomfortable_Truths_Badge' },
   ],

@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, missionLink } from 'coh-content-db'
 import { MergersAndAcquisitions } from '../../mission/mergers-and-acquisitions'
 
 export const BrassTax: BadgeData = {
@@ -8,8 +8,8 @@ export const BrassTax: BadgeData = {
   name: 'Brass Tax',
   releaseDate: '2025-06-17',
   morality: 'villainous',
-  badgeText: ` You negotiated with Nemesis, to the joyful sounds of shattering brass, on his own home turf in the Shadow Shard.`,
-  acquisition: `Complete the bonus objectives Dap-Dap the Deal-Maka's story arc Mergers and Acquisitions.`,
+  badgeText: `You negotiated with Nemesis, to the joyful sounds of shattering brass, on his own home turf in the Shadow Shard.`,
+  acquisition: `Complete the bonus objectives in the story arc ${missionLink(MergersAndAcquisitions)}.`,
   links: [
     { title: 'Brass Tax Badge', href: 'https://homecoming.wiki/wiki/Brass_Tax_Badge' },
   ],

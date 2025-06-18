@@ -9,7 +9,6 @@ export const FrontPerson: BadgeData = {
   releaseDate: '2025-06-17',
   morality: 'villainous',
   badgeText: `When Crey needed someone to give them a good face to recover their image, they called you.`,
-  acquisition: `Complete Erin West's story arc Cutting Back Old Growth.`,
   links: [
     { title: 'Front Person Badge', href: 'https://homecoming.wiki/wiki/Front_Person_Badge' },
   ],

@@ -9,7 +9,6 @@ export const ThickerThanWater: BadgeData = {
   releaseDate: '2025-06-17',
   morality: 'heroic',
   badgeText: `Alexander 'the Great' Pavlidis used the full quote: 'The blood of the battlefield is thicker than the water of the womb.' His former brothers in arms among the Warriors have fallen victim to demonic trickery but he remains honorbound to try to save their souls.`,
-  acquisition: `Complete Alexander the Great's story arc Know Thy Enemy.`,
   links: [
     { title: 'Thicker Than Water Badge', href: 'https://homecoming.wiki/wiki/Thicker_Than_Water_Badge' },
   ],
