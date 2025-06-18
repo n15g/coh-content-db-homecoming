@@ -16,6 +16,6 @@ Ms. Liberty and Longbow have refused to confirm or deny the persistent rumor tha
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [4286, 148, 2720] } },
+    { key: 'loc-0', type: 'location', location: { zoneKey: KallistiWharf.key, coords: [4286, 148, 2720], icon: 'badge', iconText: '1' } },
   ],
 }

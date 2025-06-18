@@ -142,6 +142,8 @@ import { ZookeeperOmega } from './zookeeper-omega'
 import { PhantomGladiator } from './phantom-gladiator'
 import { SlayerOfTheMinotaur } from './slayer-of-the-minotaur'
 import { MalevolentIntoxication } from './malevolent-intoxication'
+import { Peacekeeper } from './peacekeeper'
+import { TwoBirdsOneStone } from './two-birds-one-stone'
 
 export const DEFEAT_BADGES: BadgeData[] = [
   SpiderSmasher,
@@ -287,4 +289,6 @@ export const DEFEAT_BADGES: BadgeData[] = [
   MasterAtArms,
   WelcomeToEarth,
   SlayerOfTheMinotaur,
+  Peacekeeper,
+  TwoBirdsOneStone,
 ]

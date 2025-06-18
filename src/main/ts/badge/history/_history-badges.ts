@@ -26,6 +26,9 @@ import { Technofreak } from './technofreak'
 import { TheLastWord } from './the-last-word'
 import { Bicentennial } from './bicentennial'
 import { GreekPhilosopher } from './greek-philosopher'
+import { ChristieConsolidation } from './christie-consolidation'
+import { FlagtownMemorialist } from './flagtown-memorialist'
+import { PatronOfTheArts } from './patron-of-the-arts'
 
 export const HISTORY_BADGES: BadgeData[] = [
   Lorekeeper,
@@ -55,4 +58,7 @@ export const HISTORY_BADGES: BadgeData[] = [
   Alumnus,
   Bicentennial,
   GreekPhilosopher,
+  PatronOfTheArts,
+  FlagtownMemorialist,
+  ChristieConsolidation,
 ]

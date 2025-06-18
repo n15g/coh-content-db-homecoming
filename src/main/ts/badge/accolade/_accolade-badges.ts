@@ -142,6 +142,7 @@ import { BetweenRealities } from './between-realities'
 import { ProtectorOfParagonCity } from './protector-of-paragon-city'
 import { DeepStrikeAgent } from './deep-strike-agent'
 import { ConquerorOfTheLabyrinth } from './conqueror-of-the-labyrinth'
+import { ThePrettiestOne } from './the-prettiest-one'
 
 export const ACCOLADE_BADGES: BadgeData[] = [
   BugHunter,
@@ -205,6 +206,7 @@ export const ACCOLADE_BADGES: BadgeData[] = [
   IPAddress,
   LostAndFound,
   ZigWarden,
+  ThePrettiestOne,
   PortalCorpAnalyst,
   HistoryInTheMaking,
   MercyMariner,

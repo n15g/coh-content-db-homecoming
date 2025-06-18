@@ -12,5 +12,5 @@ export const Snowbound: BadgeData = {
   links: [
     { title: 'Snowbound Badge', href: 'https://homecoming.wiki/wiki/Snowbound_Badge' },
   ],
-  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/snowbound.png',
 }
