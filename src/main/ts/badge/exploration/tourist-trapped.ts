@@ -9,7 +9,6 @@ export const TouristTrapped: BadgeData = {
   releaseDate: '2025-06-17',
   morality: 'all',
   badgeText: `Many who visit the Wharf take a paddle boat out to Turtle Rock Island as a "must see" location. Known for its curious rock formations, incredible views of the Wharf, and the once-a-day alignment of One Statesman Tower with the rising sun, tourists end up here taking photos more than any other place in the Wharf.`,
-  notes: ` ??? `,
   links: [
     { title: 'Tourist Trapped Badge', href: 'https://homecoming.wiki/wiki/Tourist_Trapped_Badge' },
   ],
