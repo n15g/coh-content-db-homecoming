@@ -2,7 +2,7 @@ import { MissionData } from 'coh-content-db'
 import { AdelardZiegler } from '../contact/adelard-ziegler'
 
 export const HuntingTheHunters: MissionData = {
-  key: 'mergers-and-acquisitions',
+  key: 'hunting-the-hunters',
   name: 'Hunting the Hunters',
   type: 'story-arc',
   morality: 'heroic',
