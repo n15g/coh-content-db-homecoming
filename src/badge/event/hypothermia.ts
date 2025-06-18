@@ -15,5 +15,5 @@ export const Hypothermia: IBadgeData = {
     links: [
         {title: "Hypothermia Badge", href: "https://homecoming.wiki/wiki/Hypothermia_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/hypothermia.png"}]
 };

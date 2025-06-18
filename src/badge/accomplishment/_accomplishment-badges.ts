@@ -200,6 +200,15 @@ import {DoesntLookAtExplosions} from "./doesnt-look-at-explosions";
 import {FaceTurn} from "./face-turn";
 import {BoundByNDA} from "./bound-by-nda";
 import {NutrientRich} from "./nutrient-rich";
+import {BrassTax} from "./brass-tax";
+import {BusinessSavvy} from "./business-savvy";
+import {FrontPerson} from "./front-person";
+import {GenerationalTrauma} from "./generational-trauma";
+import {JustifiedEnds} from "./justified-ends";
+import {StaringIntoTheAbyss} from "./staring-into-the-abyss";
+import {ThickerThanWater} from "./thicker-than-water";
+import {TruthSeeker} from "./truth-seeker";
+import {UncomfortableTruths} from "./uncomfortable-truths";
 
 export const AccomplishmentBadges: IBadgeData[] = [
 
@@ -403,5 +412,14 @@ export const AccomplishmentBadges: IBadgeData[] = [
     Pollster,
     LoopHero,
     DoesntLookAtExplosions,
-    FaceTurn
+    FaceTurn,
+    StaringIntoTheAbyss,
+    BusinessSavvy,
+    FrontPerson,
+    JustifiedEnds,
+    ThickerThanWater,
+    GenerationalTrauma,
+    UncomfortableTruths,
+    TruthSeeker,
+    BrassTax,
 ];

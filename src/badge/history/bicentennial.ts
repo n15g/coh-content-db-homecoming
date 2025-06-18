@@ -95,7 +95,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${FoundersFalls.key}], roughly 271 yards west-southwest of the Hutchinson Park neighborhood marker.`,
             vidiotMapKey: "3"
         },
-		{
+        {
             key: "bicn-5",
             type: BadgePartialType.PLAQUE,
             mapKey: FoundersFalls.key,
@@ -113,7 +113,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${FoundersFalls.key}], roughly 204 yards east of The Red River neighborhood marker.`,
             vidiotMapKey: "4"
         },
-		{
+        {
             key: "bicn-6",
             type: BadgePartialType.PLAQUE,
             mapKey: IndependencePort.key,
@@ -125,7 +125,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${IndependencePort.key}], roughly 406 yards northeast of the Justice Quay neighborhood marker, near the bottom of the ramp into the tram station.`,
             vidiotMapKey: "5"
         },
-		{
+        {
             key: "bicn-7",
             type: BadgePartialType.PLAQUE,
             mapKey: IndependencePort.key,
@@ -139,19 +139,19 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${IndependencePort.key}], roughly 353 yards north of the Crey Cove neighborhood marker.`,
             vidiotMapKey: "6"
         },
-		{
+        {
             key: "bicn-8",
             type: BadgePartialType.PLAQUE,
             mapKey: KallistiWharf.key,
             plaqueType: PlaqueType.WALL_PLAQUE,
-            location: [5337.95, 50.95, 4543.9],
+            location: [2380, 56, 1132],
             inscription: `On June 28, 1969, American police raided the gay bar known as the Stonewall Inn in Lower Manhattan, NYC. This would trigger a violent riot that would spark the flame of progress all across the United States of America. Paragon City was not excluded from this sweeping push for progress, with both civilians and heroes making a stand side-by-side and campaigning for equal rights for gay, lesbian, bisexual, and transgender individuals across the nation. It was here on this street, marked by these rainbow-painted benches, that the very first annual Paragon Pride Parade was held on July 4, 1969, with future Pride events being held on the day of the Riots, June 28.
 
 			One of the lead organizers of the event was the hero Captain Indomitable, who took it upon himself at this location to publicly reveal his name and identity as Wayne Evans (1943-2004), thus coming out as Paragon City's first openly gay registered hero. Wayne would go on to campaign heavily in the public forum for better representation and true acceptance of queer minorities. We remember his important legacy in paving the way as a role model for many more members of the LGBTQ+ community to feel comfortable to be open and true to themselves. You are welcome here, you are home, and you are loved.`,
             notes: `This plaque is in [map:${KallistiWharf.key}], roughly 106 yards northeast of the Blackwing Headquarters neighborhood marker.`,
             vidiotMapKey: "1"
         },
-		{
+        {
             key: "bicn-9",
             type: BadgePartialType.PLAQUE,
             mapKey: KingsRow.key,
@@ -163,7 +163,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${KingsRow.key}], roughly 237 yards north of the Freedom Plaza neighborhood marker, on a short wall in front of Blue Steel.`,
             vidiotMapKey: "6"
         },
-		{
+        {
             key: "bicn-10",
             type: BadgePartialType.PLAQUE,
             mapKey: KingsRow.key,
@@ -175,7 +175,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${KingsRow.key}], roughly 190 yards north-northwest of the Industrial Avenue neighborhood marker, in front of Crowne Memorial Hospital.`,
             vidiotMapKey: "7"
         },
-		{
+        {
             key: "bicn-11",
             type: BadgePartialType.PLAQUE,
             mapKey: KingsRow.key,
@@ -189,7 +189,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${KingsRow.key}], roughly 246 yards southeast of the High Park neighborhood marker.`,
             vidiotMapKey: "8"
         },
-		{
+        {
             key: "bicn-12",
             type: BadgePartialType.PLAQUE,
             mapKey: PeregrineIsland.key,
@@ -205,7 +205,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${PeregrineIsland.key}], roughly 433 yards west-southwest of the Bayside Docks neighborhood marker, near the entrance ramp to the ferry.`,
             vidiotMapKey: "2"
         },
-		{
+        {
             key: "bicn-13",
             type: BadgePartialType.PLAQUE,
             mapKey: PerezPark.key,
@@ -219,7 +219,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${PerezPark.key}], roughly 349 yards south-southwest of the Boneyard neighborhood marker, on the wall next to the sealed Galaxy City gate.`,
             vidiotMapKey: "6"
         },
-		{
+        {
             key: "bicn-14",
             type: BadgePartialType.PLAQUE,
             mapKey: SkywayCity.key,
@@ -231,7 +231,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${SkywayCity.key}], roughly 100 yards north-northeast of the Aerie Plaza neighborhood marker.`,
             vidiotMapKey: "5"
         },
-		{
+        {
             key: "bicn-15",
             type: BadgePartialType.PLAQUE,
             mapKey: SteelCanyon.key,
@@ -245,7 +245,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${SteelCanyon.key}], roughly 390 yards east-southeast of the Gimry Ridge neighborhood marker.`,
             vidiotMapKey: "5"
         },
-		{
+        {
             key: "bicn-16",
             type: BadgePartialType.PLAQUE,
             mapKey: SteelCanyon.key,
@@ -261,7 +261,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${SteelCanyon.key}], roughly 273 yards southeast of the Blyde Square neighborhood marker.`,
             vidiotMapKey: "6"
         },
-		{
+        {
             key: "bicn-17",
             type: BadgePartialType.PLAQUE,
             mapKey: TalosIsland.key,
@@ -275,7 +275,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${TalosIsland.key}], roughly 761 yards southwest of the Eleusis neighborhood marker.`,
             vidiotMapKey: "6"
         },
-		{
+        {
             key: "bicn-18",
             type: BadgePartialType.PLAQUE,
             mapKey: TerraVolta.key,
@@ -287,7 +287,7 @@ export const Bicentennial: IBadgeData = {
             notes: `This plaque is in [map:${TerraVolta.key}], roughly 174 yards north of the Coroman Manufacturing neighborhood marker, along the wall near the gate to Independence Port.`,
             vidiotMapKey: "5"
         },
-		{
+        {
             key: "bicn-19",
             type: BadgePartialType.PLAQUE,
             mapKey: TheHollows.key,

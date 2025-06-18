@@ -225,5 +225,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/173 - Typo correction for [Down In Front].\n",
         "1.4.4":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/176 - 2025 Anniversary event update.\n",
+        "1.4.5":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/177 - Issue 28, Page 2.\n",
     };
 }

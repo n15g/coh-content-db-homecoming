@@ -27,7 +27,7 @@ export const BetweenRealities: IBadgeData = {
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/between-realities.png"}
     ],
-    effect: `Mark & Recall`,
+    effect: `Awards the Mark and Recall power.`,
     partials: [
         {key: GerminatorTerminator.key, type: BadgePartialType.BADGE, badgeKey: GerminatorTerminator.key},
         {key: FullSpectrum.key, type: BadgePartialType.BADGE, badgeKey: FullSpectrum.key},

@@ -468,6 +468,13 @@ import {VoiceOfTheOracle} from "./voice-of-the-oracle";
 import {PartyAnimal} from "./party-animal";
 import {LabRat} from "./lab-rat";
 import {HiddenInTheFog} from "./hidden-in-the-fog";
+import {FueledByGreed} from "./fueled-by-greed";
+import {InTheirPrime} from "./in-their-prime";
+import {MarkedOut} from "./marked-out";
+import {ProtestTooMuch} from "./protest-too-much";
+import {QuayToTheCity} from "./quay-to-the-city";
+import {RavingMad} from "./raving-mad";
+import {TouristTrapped} from "./tourist-trapped";
 
 export const ExplorationBadges: IBadgeData[] = [
     //Bloody Bay
@@ -600,7 +607,7 @@ export const ExplorationBadges: IBadgeData[] = [
     FlyingShark, Fugitive, ForwardThinker, SecretPath, SixthPassenger, Unsubtle,
 
     //Kallisti Wharf
-    OnTheShouldersOfGiants,
+    OnTheShouldersOfGiants, FueledByGreed, InTheirPrime, MarkedOut, ProtestTooMuch, QuayToTheCity, RavingMad, TouristTrapped,
 
     //Peregrine Island
     PortalParter, UseMightForRight, CauseForConcern, GeneticallyAltered, RiktiGoneWild, ShadesOfArachnos, AllSeeing, DarkOmen,
@@ -778,7 +785,7 @@ export const ExplorationBadges: IBadgeData[] = [
 
     //Pocket D, PDP, Studio 55
     PartyAnimal,
-    
+
     //Labyrinth of Fog
     HiddenInTheFog, LabRat
 ];

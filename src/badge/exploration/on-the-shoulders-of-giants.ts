@@ -16,5 +16,6 @@ export const OnTheShouldersOfGiants: IBadgeData = {
     links: [
         {title: "On the Shoulders of Giants", href: "https://homecoming.wiki/wiki/On_the_Shoulders_of_Giants_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png"}],
+    vidiotMapKey: "1"
 };

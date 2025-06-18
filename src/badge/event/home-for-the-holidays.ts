@@ -15,5 +15,5 @@ export const HomeForTheHolidays: IBadgeData = {
     links: [
         {title: "Home for the Holidays Badge", href: "https://homecoming.wiki/wiki/Home_for_the_Holidays_Badge"}
     ],
-    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-login.png"}]
+    icons: [{value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/event/home-for-the-holidays.png"}]
 };
