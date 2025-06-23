@@ -227,5 +227,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/176 - 2025 Anniversary event update.\n",
         "1.4.5":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/177 - Issue 28, Page 2.\n",
+        "1.4.6":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/178 - Fix [Two Birds, One Stone] badge title.\n",
     };
 }

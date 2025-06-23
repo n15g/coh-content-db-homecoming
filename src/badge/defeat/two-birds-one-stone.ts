@@ -5,7 +5,7 @@ export const TwoBirdsOneStone: IBadgeData = {
     key: "two-birds-one-stone",
     setTitleId: 2508,
     names: [
-        {value: "Two Birds One Stone"}
+        {value: "Two Birds, One Stone"}
     ],
     alignment: ALIGNMENT_ANY,
     badgeText: [
@@ -16,7 +16,7 @@ Now, having faced their advanced armor, weapons, and training yourself, there's 
     ],
     acquisition: "Defeat 250 Blackwing Industries enemies.",
     links: [
-        {title: 'Two Birds One Stone Badge', href: 'https://homecoming.wiki/wiki/Two_Birds_One_Stone_Badge'},
+        {title: 'Two Birds One, Stone Badge', href: 'https://homecoming.wiki/wiki/Two_Birds_One_Stone_Badge'},
     ],
     icons: [
         {value: "https://n15g.github.io/coh-content-db-homecoming/images/badges/defeat/two-birds-one-stone.png"}
