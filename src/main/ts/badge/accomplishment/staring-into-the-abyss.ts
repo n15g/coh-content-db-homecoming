@@ -13,7 +13,7 @@ What you found out was disturbing, with an ominous warning about a possible inva
   links: [
     { title: 'Staring Into The Abyss Badge', href: 'https://homecoming.wiki/wiki/Staring_Into_The_Abyss_Badge' },
   ],
-  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/staring-intothe-abyss.png',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/staring-into-the-abyss.png',
   requirements: [
     { key: HuntingTheHunters.key, type: 'mission', missionKey: HuntingTheHunters.key },
   ],
