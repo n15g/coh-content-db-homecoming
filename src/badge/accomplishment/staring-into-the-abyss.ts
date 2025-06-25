@@ -13,6 +13,6 @@ export const StaringIntoTheAbyss: IBadgeData = {
         {title: 'Staring Into The Abyss Badge', href: 'https://homecoming.wiki/wiki/Staring_Into_The_Abyss_Badge'},
     ],
     icons: [
-        {value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/staring-intothe-abyss.png'}
+        {value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/staring-into-the-abyss.png'}
     ],
 };
