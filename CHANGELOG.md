@@ -5,11 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0-rc.10] - 2025-06-19
+## [2.0.0-rc.11] - 2025-06-25
 
 ### Added
 
-- [#178](https://github.com/n15g/coh-content-db-homecoming/pull/178) - Fix Two Birds, One Stone badge title
 - [#177](https://github.com/n15g/coh-content-db-homecoming/pull/177) - Issue 28, Page 2
 - [#176](https://github.com/n15g/coh-content-db-homecoming/pull/176) - 2025 Anniversary badges
 - Mission and Contact data.
@@ -24,6 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- [#179](https://github.com/n15g/coh-content-db-homecoming/pull/179) - Icon Fixes
+- [#178](https://github.com/n15g/coh-content-db-homecoming/pull/178) - Fix Two Birds, One Stone badge title
 - Updated to [coh-content-db:2.0.0](https://github.com/n15g/coh-content-db) data model.
 - Changed license from GNU to [The Unlicense](https://unlicense.org/).
 - Switched the build system from Webpack to Rollup.
