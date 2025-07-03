@@ -212,5 +212,5 @@ export const EVENT_BADGES: BadgeData[] = [
   LordOfWinter,
   ColdAsIce,
   GiftGetter,
-  GiftWhichKeepsGiving
+  GiftWhichKeepsGiving,
 ]
