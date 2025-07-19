@@ -24,7 +24,7 @@ As one of the first directives to restoring the Wharf, Mr. Christie spent consid
     {
       key: 'chri-1',
       type: 'monument',
-      location: { zoneKey: KallistiWharf.key, coords: [5800.6, 65, 1719.5], icon: 'pedestal', iconText: '4' },
+      location: { zoneKey: KallistiWharf.key, coords: [5793.3, 66.78, 1726.2], icon: 'pedestal', iconText: '4' },
       monumentText: `This area of the city may look familiar to you. If you think you saw it on ClikClak as a viral meme, you're right!
 During a field test for self-driving cars, Christie Consolidated discovered and isolated a bug in the LIDAR recognition of its Autonomous Drive Software, but not before everyone started calling out the infamous 'Carnado' on social media.
 We want to reiterate that nobody was hurt, and the only damage occurred to CC's own vehicles!`,
