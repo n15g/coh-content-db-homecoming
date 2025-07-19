@@ -231,5 +231,7 @@ export class HomecomingChangelog implements IServerGroupData {
             "* https://github.com/n15g/coh-content-db-homecoming/pull/178 - Fix [Two Birds, One Stone] badge title.\n",
         "1.4.7":
             "* https://github.com/n15g/coh-content-db-homecoming/pull/179 - Icon fixes.\n",
+        "1.4.8":
+            "* https://github.com/n15g/coh-content-db-homecoming/pull/180 - Fix event badge ordering and monument location for [Christie Consolidation] badge.\n",
     };
 }
