@@ -23,6 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- [#180](https://github.com/n15g/coh-content-db-homecoming/pull/180) - Fix event badge ordering
+- [#180](https://github.com/n15g/coh-content-db-homecoming/pull/180) - Fix monument location in [Christie Consolidation] badge
 - [#179](https://github.com/n15g/coh-content-db-homecoming/pull/179) - Icon Fixes
 - [#178](https://github.com/n15g/coh-content-db-homecoming/pull/178) - Fix Two Birds, One Stone badge title
 - Updated to [coh-content-db:2.0.0](https://github.com/n15g/coh-content-db) data model.
