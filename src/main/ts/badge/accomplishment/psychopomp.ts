@@ -1,4 +1,5 @@
 import { BadgeData } from 'coh-content-db'
+import { DeathResurrected } from '../../mission/death-resurrected'
 
 export const Psychopomp: BadgeData = {
   type: 'accomplishment',
@@ -12,4 +13,7 @@ export const Psychopomp: BadgeData = {
     { title: 'Psychopomp Badge', href: 'https://homecoming.wiki/wiki/Psychopomp_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/psychopomp.png',
+    requirements: [
+    { key: DeathResurrected.key, type: 'mission', missionKey: DeathResurrected.key },
+  ],
 }
