@@ -3,7 +3,7 @@ import { KallistiWharf } from '../zone/kallisti-wharf'
 
 export const ZoeLangston: ContactData = {
   key: 'zoe-langston',
-  name: 'Marigold 'Zoe' Langston',
+  name: `Marigold 'Zoe' Langston`,
   title: 'Heiress to the Langston Dynasty',
   morality: 'any',
   location: { zoneKey: KallistiWharf.key, coords: [475.0, -280.0, 3899.0] },
@@ -11,3 +11,4 @@ export const ZoeLangston: ContactData = {
   links: [{ title: 'Marigold 'Zoe' Langston', href: 'https://homecoming.wiki/wiki/Zoe_Langston' }],
 
 }
+
