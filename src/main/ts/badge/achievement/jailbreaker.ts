@@ -7,10 +7,11 @@ export const Jailbreaker: BadgeData = {
   name: 'Jailbreaker',
   releaseDate: '2025-11-30',
   morality: 'any',
-  badgeText: 'Even though getting the Golden Roller out of prison didn't go entirely according to plan, you still ensured none of the other dangerous threats contained within the Arachnos Central Holding Block could escape back into the world.',
-  acquisition: 'Defeat all five unique CHB prisoner arch-villains encountered during Marigold 'Zoe' Langston's Task Force.',
+  badgeText: `Even though getting the Golden Roller out of prison didn't go entirely according to plan, you still ensured none of the other dangerous threats contained within the Arachnos Central Holding Block could escape back into the world.`,
+  acquisition: `Defeat all five unique CHB prisoner arch-villains encountered during Marigold 'Zoe' Langston's Task Force.`,
   links: [
     { title: 'Jailbreaker Badge', href: 'https://homecoming.wiki/wiki/Jailbreaker_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/tf-zoe.png',
+
 }
