@@ -144,6 +144,7 @@ import { SlayerOfTheMinotaur } from './slayer-of-the-minotaur'
 import { MalevolentIntoxication } from './malevolent-intoxication'
 import { Peacekeeper } from './peacekeeper'
 import { TwoBirdsOneStone } from './two-birds-one-stone'
+import { MutatedMarauder } from './mutated-marauder'
 
 export const DEFEAT_BADGES: BadgeData[] = [
   SpiderSmasher,
@@ -160,6 +161,7 @@ export const DEFEAT_BADGES: BadgeData[] = [
   MalevolentIntoxication,
   Terminator,
   Isolator,
+  MutatedMarauder,
   Gearsmasher,
   Coldblooded,
   SoulBinder,
