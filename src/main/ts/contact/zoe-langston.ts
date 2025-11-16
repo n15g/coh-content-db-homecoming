@@ -9,7 +9,4 @@ export const ZoeLangston: ContactData = {
   location: { zoneKey: KallistiWharf.key, coords: [475.0, -280.0, 3899.0] },
   levelRange: [40, 50],
   links: [{ title: `Marigold 'Zoe' Langston`, href: `https://homecoming.wiki/wiki/Zoe_Langston` }],
-
 }
-
-
