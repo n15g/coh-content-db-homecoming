@@ -9,6 +9,12 @@ export const DeathResurrected: MissionData = {
   contactKeys: WyllieGalloway.key,
   levelRange: [40],
   links: [
-    { title: 'Death Resurrected', href: 'https://homecoming.wiki/wiki/Wyllie_Galloway#Death_Resurrected' },
+    { title: 'Death Resurrected', href: `https://homecoming.wiki/wiki/Wyllie_Galloway#Death_Resurrected` },
+  ],
+  flashback: {
+    id: '28.04',
+    levelRange: [50],
+  },
+}
   ],
 }
