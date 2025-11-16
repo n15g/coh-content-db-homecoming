@@ -18,4 +18,3 @@ export const Psychopomp: BadgeData = {
     { key: DeathResurrected.key, type: 'mission', missionKey: DeathResurrected.key },
   ],
 }
-
