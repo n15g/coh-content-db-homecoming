@@ -5,7 +5,7 @@ export const DeathResurrected: MissionData = {
   key: 'death-resurrected',
   name: 'Death Resurrected',
   type: 'story-arc',
-  morality: 'any',
+  morality: 'heroic',
   contactKeys: WyllieGalloway.key,
   levelRange: [40],
   links: [
