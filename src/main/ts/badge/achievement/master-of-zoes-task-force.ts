@@ -14,7 +14,7 @@ export const MasterOfZoesTaskForce: BadgeData = {
   badgeText: `You have proven yourself Master of Marigold 'Zoe' Langston's Task Force.`,
   acquisition: `Achieve the following special achievements during Marigold 'Zoe' Langston's Task Force: Snow Warning, Jailbreaker, Subterranean Striker, and Knockback King/Queen.`,
   links: [
-    { title: 'Master of Zoe's Task Force Badge', href: 'https://homecoming.wiki/wiki/Master_of_Zoe's_Task_Force_Badge' },
+    { title: `Master of Zoe's Task Force Badge`, href: `https://homecoming.wiki/wiki/Master_of_Zoe's_Task_Force_Badge` },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/achievement/master-of-zoes-task-force.png',
   requirements: [
@@ -24,3 +24,4 @@ export const MasterOfZoesTaskForce: BadgeData = {
     { key: SubterraneanStriker.key, type: 'badge', badgeKey: SubterraneanStriker.key },
   ],
 }
+
