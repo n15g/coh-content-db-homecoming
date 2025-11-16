@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { TestedByCombat } from '../exploration/tested-by-combat'
-import { ChromaticCombatant } from '../achievement/chromatic-combatant
+import { ChromaticCombatant } from '../achievement/chromatic-combatant'
 
 export const Mazebreaker: BadgeData = {
   type: 'accolade',
@@ -19,4 +19,5 @@ export const Mazebreaker: BadgeData = {
     { key: TestedByCombat.key, type: 'badge', badgeKey: TestedByCombat.key },
     { key: ChromaticCombatant.key, type: 'badge', badgeKey: ChromaticCombatant.key },
   ],
+
 }
