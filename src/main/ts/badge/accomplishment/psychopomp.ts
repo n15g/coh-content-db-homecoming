@@ -9,7 +9,7 @@ export const Psychopomp: BadgeData = {
   releaseDate: '2025-11-30',
   morality: 'heroic',
   badgeText: `You discovered the source of the Skulls' new powers: mystifying pacts formed between themselves and the entities that ferry souls of the dead to the afterlife.`,
-  acquisition: `Complete Wyllie Galloway's arc ${missionLink(DeathResurrected)}.`,
+  acquisition: `Complete Wyllie Galloway's story arc ${missionLink(DeathResurrected)}.`,
   links: [
     { title: 'Psychopomp Badge', href: 'https://homecoming.wiki/wiki/Psychopomp_Badge' },
   ],
