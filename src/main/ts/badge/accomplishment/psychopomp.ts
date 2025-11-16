@@ -1,5 +1,4 @@
 import { BadgeData } from 'coh-content-db'
-import { DeathResurrected } from '../../mission/death-resurrected'
 
 export const Psychopomp: BadgeData = {
   type: 'accomplishment',
