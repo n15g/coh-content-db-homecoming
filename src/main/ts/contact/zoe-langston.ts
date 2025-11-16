@@ -10,4 +10,3 @@ export const ZoeLangston: ContactData = {
   levelRange: [40, 50],
   links: [{ title: `Marigold 'Zoe' Langston`, href: `https://homecoming.wiki/wiki/Zoe_Langston` }],
 }
-
