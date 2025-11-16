@@ -7,7 +7,7 @@ export const DeathResurrected: MissionData = {
   type: 'story-arc',
   morality: 'heroic',
   contactKeys: WyllieGalloway.key,
-  levelRange: [40],
+  levelRange: [40, 50],
   links: [
     { title: 'Death Resurrected', href: `https://homecoming.wiki/wiki/Wyllie_Galloway#Death_Resurrected` },
   ],
