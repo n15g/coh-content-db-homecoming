@@ -1,4 +1,5 @@
 import { BadgeData } from 'coh-content-db'
+import { ZoeTaskForce } from '../../mission/zoe-task-force'
 
 export const HeartOfGold: BadgeData = {
   type: 'accomplishment',
@@ -12,4 +13,7 @@ export const HeartOfGold: BadgeData = {
     { title: 'Heart of Gold Badge', href: 'https://homecoming.wiki/wiki/Heart_of_Gold_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/heart-of-gold.png',
+  requirements: [
+    { key: ZoeTaskForce.key, type: 'mission', missionKey: ZoeTaskForce.key },
+  ],
 }
