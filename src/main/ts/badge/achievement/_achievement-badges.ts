@@ -194,6 +194,11 @@ import { MirrorImage } from './mirror-image'
 import { Uncommitted } from './uncommitted'
 import { Adept } from './adept'
 import { Multifaceted } from './multifaceted'
+import { Jailbreaker } from './Jailbreaker'
+import { SubterraneanStriker } from './SubterraneanStriker'
+import { MasterOfZoesTaskForce } from './MasterOfZoesTaskForce'
+import { SnowWarning } from './SnowWarning'
+import { KnockbackKing } from './KnockbackKing'
 
 export const ACHIEVEMENT_BADGES: BadgeData[] = [
   // Levels
@@ -395,6 +400,12 @@ export const ACHIEVEMENT_BADGES: BadgeData[] = [
   PowerOverwhelming,
   CantTouchThis,
 
+  // ZoeTF
+  SnowWarning,
+  Jailbreaker,
+  SubterraneanStriker,
+  KnockbackKing,
+
   // Mothership Raid
   Demolitionist,
 
@@ -408,6 +419,7 @@ export const ACHIEVEMENT_BADGES: BadgeData[] = [
   MasterOfDrAeonsStrikeForce,
   MasterOfApexsTaskForce,
   MasterOfTinMagesTaskForce,
+  MasterOfZoesTaskForce,
   MasterOfThePrisonersOfEden,
   MasterOfTheDescentToTheHydra,
   MasterOfTheMarketCrash,
