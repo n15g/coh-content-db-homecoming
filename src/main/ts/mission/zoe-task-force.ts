@@ -5,7 +5,7 @@ export const ZoeTaskForce: MissionData = {
   key: 'zoe-task-force',
   name: 'Zoe Task Force',
   type: 'task-force',
-  morality: 'any',
+  morality: 'all',
   contactKeys: ZoeLangston.key,
   levelRange: [40],
   links: [
