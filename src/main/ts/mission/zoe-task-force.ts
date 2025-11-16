@@ -7,7 +7,7 @@ export const ZoeTaskForce: MissionData = {
   type: 'task-force',
   morality: 'all',
   contactKeys: ZoeLangston.key,
-  levelRange: [40],
+  levelRange: [40, 50],
   links: [
     { title: 'Zoe Task Force', href: 'https://homecoming.wiki/wiki/Zoe_Task_Force' },
   ],
