@@ -196,7 +196,7 @@ import { Adept } from './adept'
 import { Multifaceted } from './multifaceted'
 import { Jailbreaker } from './jailbreaker'
 import { SubterraneanStriker } from './subterranean-striker'
-import { MasterOfZoesTaskForce } from './master-of-zoes-task-torce'
+import { MasterOfZoesTaskForce } from './master-of-zoes-task-force'
 import { SnowWarning } from './snow-warning'
 import { KnockbackKing } from './knockback-king'
 
