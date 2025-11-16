@@ -1,5 +1,4 @@
 import { BadgeData } from 'coh-content-db'
-import { ZoeTaskForce } from '../../mission/zoe-task-force'
 
 export const HeartOfGold: BadgeData = {
   type: 'accomplishment',
