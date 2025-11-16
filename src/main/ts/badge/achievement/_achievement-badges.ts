@@ -194,11 +194,11 @@ import { MirrorImage } from './mirror-image'
 import { Uncommitted } from './uncommitted'
 import { Adept } from './adept'
 import { Multifaceted } from './multifaceted'
-import { Jailbreaker } from './Jailbreaker'
-import { SubterraneanStriker } from './SubterraneanStriker'
-import { MasterOfZoesTaskForce } from './MasterOfZoesTaskForce'
-import { SnowWarning } from './SnowWarning'
-import { KnockbackKing } from './KnockbackKing'
+import { Jailbreaker } from './jailbreaker'
+import { SubterraneanStriker } from './subterranean-striker'
+import { MasterOfZoesTaskForce } from './master-of-zoes-task-torce'
+import { SnowWarning } from './snow-warning'
+import { KnockbackKing } from './knockback-king'
 
 export const ACHIEVEMENT_BADGES: BadgeData[] = [
   // Levels
