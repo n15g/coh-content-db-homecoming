@@ -10,7 +10,7 @@ export const MasterOfZoesTaskForce: BadgeData = {
   setTitleId: [2581],
   name: `Master of Zoe's Task Force`,
   releaseDate: '2025-11-30',
-  morality: 'any',
+  morality: 'all',
   badgeText: `You have proven yourself Master of Marigold 'Zoe' Langston's Task Force.`,
   acquisition: `Achieve the following special achievements during Marigold 'Zoe' Langston's Task Force: Snow Warning, Jailbreaker, Subterranean Striker, and Knockback King/Queen.`,
   links: [
