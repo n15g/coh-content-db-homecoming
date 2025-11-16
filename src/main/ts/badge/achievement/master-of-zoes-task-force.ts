@@ -24,4 +24,3 @@ export const MasterOfZoesTaskForce: BadgeData = {
     { key: SubterraneanStriker.key, type: 'badge', badgeKey: SubterraneanStriker.key },
   ],
 }
-
