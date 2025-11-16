@@ -6,7 +6,7 @@ export const Jailbreaker: BadgeData = {
   setTitleId: [2578],
   name: 'Jailbreaker',
   releaseDate: '2025-11-30',
-  morality: 'any',
+  morality: 'all',
   badgeText: `Even though getting the Golden Roller out of prison didn't go entirely according to plan, you still ensured none of the other dangerous threats contained within the Arachnos Central Holding Block could escape back into the world.`,
   acquisition: `Defeat all five unique CHB prisoner arch-villains encountered during Marigold 'Zoe' Langston's Task Force.`,
   links: [
