@@ -13,8 +13,7 @@ export const DeathResurrected: MissionData = {
   ],
   flashback: {
     id: '28.04',
+    name: `Death Resurrected`,
     levelRange: [50],
   },
-}
-  ],
 }
