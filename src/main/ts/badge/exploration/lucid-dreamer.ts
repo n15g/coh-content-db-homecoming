@@ -15,6 +15,6 @@ export const LucidDreamer: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/labyrinth.png',
   requirements: [
-    { key: 'loc-0', type: 'location', location: { zoneKey: TheLabyrinthOfFog.key, coords: [7146, -802.5, 68] } },
+    { key: 'loc-0', type: 'location', location: { zoneKey: TheLabyrinthOfFog.key } },
   ],
 }
