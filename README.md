@@ -40,14 +40,17 @@ npm run test
 npm run build
 ```
 
-## Publish
+## Release
 
-Tags matching the pattern `v<X>.<Y>.<Z>` will attempt to publish to npm (this can only be achieved by the package manager (n15g)).
+1. Determine the next [Semantic Release](https://semver.org) version, i.e. `2.0.0-rc.16`
+2. Update the version and release notes in the [CHANGELOG.md](CHANGELOG.md).
+    * Commit with the comment `Changelog <semver>`
+3. `npm version <semver>` - Updates the package.json and commits + tags new version. Use semver syntax for version number.
+4. `npm run push` - Push the commit and tags to remote.
+5. GitHub will release automatically.
 
-```shell
-npm version 1.4.x
-npm run push
-```
+Tags matching the pattern `v<X>.<Y>.<Z>` will attempt to publish to npm (this can only be achieved by the package manager (n15g).
+The `npm version` command automatically prepends the `v` prefix to the version number.
 
 ## Updating Content
 
