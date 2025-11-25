@@ -2,7 +2,7 @@ import { BadgeData } from 'coh-content-db'
 import { Trustworthy } from '../exploration/trustworthy'
 import { Knowledgeable } from '../exploration/knowledgeable'
 import { Virtuous } from '../exploration/virtuous'
-import { Rookie } from '../exploration/rookie'
+import { SilentSentinel } from '../exploration/silent-sentinel'
 import { Condemned } from '../exploration/condemned'
 import { Resilient } from '../exploration/resilient'
 import { OutOfHarmsWay } from '../exploration/out-of-harms-way'
@@ -24,7 +24,7 @@ export const WalkedDownMemoryLane: BadgeData = {
     { key: Trustworthy.key, type: 'badge', badgeKey: Trustworthy.key },
     { key: Knowledgeable.key, type: 'badge', badgeKey: Knowledgeable.key },
     { key: Virtuous.key, type: 'badge', badgeKey: Virtuous.key },
-    { key: Rookie.key, type: 'badge', badgeKey: Rookie.key },
+    { key: SilentSentinel.key, type: 'badge', badgeKey: SilentSentinel.key },
     { key: Condemned.key, type: 'badge', badgeKey: Condemned.key },
     { key: Resilient.key, type: 'badge', badgeKey: Resilient.key },
     { key: OutOfHarmsWay.key, type: 'badge', badgeKey: OutOfHarmsWay.key },

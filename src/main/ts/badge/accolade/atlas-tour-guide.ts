@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 import { Undefeated } from '../exploration/undefeated'
-import { SilentSentinel } from '../exploration/silent-sentinel'
+import { Rookie } from '../exploration/rookie'
 import { HeroCorpsInsider } from '../exploration/hero-corps-insider'
 import { Patriot } from '../exploration/patriot'
 import { TopDog } from '../exploration/top-dog'
@@ -22,7 +22,7 @@ export const AtlasTourGuide: BadgeData = {
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/explore-acc-h.png',
   requirements: [
     { key: Undefeated.key, type: 'badge', badgeKey: Undefeated.key },
-    { key: SilentSentinel.key, type: 'badge', badgeKey: SilentSentinel.key },
+    { key: Rookie.key, type: 'badge', badgeKey: Rookie.key },
     { key: HeroCorpsInsider.key, type: 'badge', badgeKey: HeroCorpsInsider.key },
     { key: Patriot.key, type: 'badge', badgeKey: Patriot.key },
     { key: TopDog.key, type: 'badge', badgeKey: TopDog.key },
