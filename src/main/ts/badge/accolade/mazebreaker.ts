@@ -7,7 +7,7 @@ export const Mazebreaker: BadgeData = {
   key: 'mazebreaker',
   setTitleId: [2582],
   name: 'Mazebreaker',
-  releaseDate: '2025-11-30',
+  releaseDate: '2025-11-25',
   morality: 'all',
   badgeText: `You've become much more adept at fighting in the Labyrinth of Fog after undergoing the full spectrum of Tests of Combat offered by the Four Generals of Achlys. No matter what comes next for the dream-like maze, you'll be ready.`,
   effect: `Awards the Mazebreaker power.`,
