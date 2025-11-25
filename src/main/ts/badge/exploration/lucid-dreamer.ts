@@ -6,7 +6,7 @@ export const LucidDreamer: BadgeData = {
   key: 'lucid-dreamer',
   setTitleId: [2573],
   name: 'Lucid Dreamer',
-  releaseDate: '2025-11-30',
+  releaseDate: '2025-11-25',
   morality: 'all',
   badgeText: `You've gone much deeper into the Labyrinth of Fog, perhaps deeper than you ought to... Lurking in the darkest depths of the maze hid a shadow of Atlas Park, wreathed in nightmare. What purpose this place serves is a mystery waiting to be uncovered.`,
   notes: ` `,
