@@ -6,7 +6,7 @@ export const Psychopomp: BadgeData = {
   key: 'psychopomp',
   setTitleId: [2584],
   name: 'Psychopomp',
-  releaseDate: '2025-11-30',
+  releaseDate: '2025-11-25',
   morality: 'heroic',
   badgeText: `You discovered the source of the Skulls' new powers: mystifying pacts formed between themselves and the entities that ferry souls of the dead to the afterlife.`,
   acquisition: `Complete Wyllie Galloway's story arc.`,
