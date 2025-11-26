@@ -8,7 +8,7 @@ export const MobSpecialist: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'heroic',
   badgeText: 'Crey has authorized these men for your Arena teams.',
-  acquisition: 'Defeat 200 Prisoner Bosses.',
+  acquisition: 'Defeat 100 Prisoner Bosses.',
   links: [
     { title: 'Mob Specialist Badge', href: 'https://homecoming.wiki/wiki/Mob_Specialist_Badge' },
   ],
