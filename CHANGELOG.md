@@ -5,13 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0-rc.13] - 2025-06-25
+## [2.0.0-rc.14] - 2025-12-16
 
 ### Added
 
 - [#177](https://github.com/n15g/coh-content-db-homecoming/pull/177) - Issue 28, Page 2
 - [#176](https://github.com/n15g/coh-content-db-homecoming/pull/176) - 2025 Anniversary badges
 - Mission and Contact data.
+- Zone level ranges, morality and notes.
 - Bundle last update time added to header.
 - Badge release dates.
 - Bundle data is now available as a JSON export.
