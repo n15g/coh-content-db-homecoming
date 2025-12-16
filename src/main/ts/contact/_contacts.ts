@@ -240,11 +240,13 @@ import { DapDapThaDealMaka } from './dap-dap-tha-deal-maka'
 import { ErinWest } from './erin-west'
 import { AlexanderTheGreat } from './alexander-the-great'
 import { RobertKogan } from './robert-kogan'
+import { AdelardZiegler } from './adelard-ziegler'
 
 export const CONTACTS: ContactData[] = [
   AaronThiery,
   AaronWalker,
   AdaWellington,
+  AdelardZiegler,
   AdmiralSutter,
   AgentG,
   AgentHassell,
