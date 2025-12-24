@@ -209,6 +209,10 @@ import { GenerationalTrauma } from './generational-trauma'
 import { UncomfortableTruths } from './uncomfortable-truths'
 import { TruthSeeker } from './truth-seeker'
 import { BrassTax } from './brass-tax'
+import { ChromaticCombatant } from './chromatic-combatant'
+import { HeartOfGold } from './heart-of-gold'
+import { Psychopomp } from './psychopomp'
+import { TestedByCombat } from './tested-by-combat'
 
 export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
 
@@ -242,6 +246,7 @@ export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
   Peerless,
   MemberOfVanguard,
   Apocalyptic,
+  HeartOfGold,
   SpeedDemon,
   Accelerated,
   Qualified,
@@ -422,4 +427,7 @@ export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
   UncomfortableTruths,
   TruthSeeker,
   BrassTax,
+  Psychopomp,
+  TestedByCombat,
+  ChromaticCombatant,
 ]
