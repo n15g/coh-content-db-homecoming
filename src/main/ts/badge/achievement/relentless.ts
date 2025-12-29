@@ -8,7 +8,7 @@ export const Relentless: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have inflicted one million points of damage upon your foes.',
-  acquisition: 'Deal 1,000,000 damage to earn this badge.',
+  acquisition: 'Deal 1,000,000 damage.',
   links: [
     { title: 'Relentless Badge', href: 'https://homecoming.wiki/wiki/Relentless_Badge' },
   ],

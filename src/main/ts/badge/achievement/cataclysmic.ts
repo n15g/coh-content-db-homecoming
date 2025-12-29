@@ -8,7 +8,7 @@ export const Cataclysmic: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have inflicted one hundred million points of damage upon your foes.`,
-  acquisition: 'Deal 100,000,000 damage to earn this badge.',
+  acquisition: 'Deal 100,000,000 damage.',
   links: [
     { title: 'Cataclysmic Badge', href: 'https://homecoming.wiki/wiki/Cataclysmic_Badge' },
   ],

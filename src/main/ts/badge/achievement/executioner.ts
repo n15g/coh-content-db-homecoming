@@ -8,7 +8,7 @@ export const Executioner: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have inflicted twenty five million points of damage upon your foes.',
-  acquisition: 'Deal 25,000,000 damage to earn this badge.',
+  acquisition: 'Deal 25,000,000 damage.',
   links: [
     { title: 'Executioner Badge', href: 'https://homecoming.wiki/wiki/Executioner_Badge' },
   ],
