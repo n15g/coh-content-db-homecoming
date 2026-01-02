@@ -8,7 +8,19 @@
 
 Homecoming server data for use with [coh-content-db](https://github.com/n15g/coh-content-db).
 
-# Usage
+----
+
+# Changelog
+
+[CHANGELOG.md](CHANGELOG.md)
+
+----
+
+# Installation and Usage
+
+```
+npm install coh-content-db-homecoming
+```
 
 Initialize a database with the homecoming data pack:
 
@@ -30,17 +42,17 @@ const bundle = await response.json() as BundleData
 const database = new CohContentDatabase(bundle)
 ```
 
+----
+
 # Development
 
-## Local Build
+* `npm run lint`
+* `npm run test`
+* `npm run build`
 
-```shell
-npm run lint
-npm run test
-npm run build
-```
+----
 
-## Release
+# Release
 
 1. Determine the next [Semantic Release](https://semver.org) version, i.e. `2.0.0-rc.16`
 2. Update the version and release notes in the [CHANGELOG.md](CHANGELOG.md).
@@ -52,7 +64,9 @@ npm run build
 Tags matching the pattern `v<X>.<Y>.<Z>` will attempt to publish to npm (this can only be achieved by the package manager (n15g).
 The `npm version` command automatically prepends the `v` prefix to the version number.
 
-## Updating Content
+----
+
+# Updating Content
 
 For those familiar with Typescript, check the eslint config and existing files for style guides.
 
@@ -60,7 +74,7 @@ Since `2.0.0` a linter and set of unit tests are run on push to help locate issu
 
 For those unfamiliar with Typescript or looking to extract images, a set of instructions graciously provided by [kwsapphire](https://github.com/kwsapphire) are available below.
 
-### Needed Tools:
+### Requirements:
 
 * GitHub account
     * Badger Database on GitHub: [https://github.com/n15g/coh-content-db-homecoming](https://github.com/n15g/coh-content-db-homecoming)
