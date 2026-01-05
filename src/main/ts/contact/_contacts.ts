@@ -3,11 +3,13 @@ import { ContactData } from 'coh-content-db'
 import { AaronThiery } from './aaron-thiery'
 import { AaronWalker } from './aaron-walker'
 import { AdaWellington } from './ada-wellington'
+import { AdelardZiegler } from './adelard-ziegler'
 import { AdmiralSutter } from './admiral-sutter'
 import { AgentG } from './agent-g'
 import { AgentHassell } from './agent-hassell'
 import { AgentWatkins } from './agent-watkins'
 import { AlecParson } from './alec-parson'
+import { AlexanderTheGreat } from './alexander-the-great'
 import { AndreaMitchell } from './andrea-mitchell'
 import { AndrewFiore } from './andrew-fiore'
 import { AngeloVendetti } from './angelo-vendetti'
@@ -43,6 +45,7 @@ import { Cleopatra } from './cleopatra'
 import { Crimson } from './crimson'
 import { Crow } from './crow'
 import { DJZero } from './dj-zero'
+import { DapDapThaDealMaka } from './dap-dap-tha-deal-maka'
 import { DarkWatcher } from './dark-watcher'
 import { DarrenWade } from './darren-wade'
 import { DavidWincott } from './david-wincott'
@@ -71,6 +74,7 @@ import { DreamDoctor } from './dream-doctor'
 import { EagleEye } from './eagle-eye'
 import { EfficiencyExpertPither } from './efficiency-expert-pither'
 import { ElizaThorpe } from './eliza-thorpe'
+import { ErinWest } from './erin-west'
 import { ErnestoHess } from './ernesto-hess'
 import { FaathimTheKind } from './faathim-the-kind'
 import { FatherTime } from './father-time'
@@ -185,6 +189,7 @@ import { Ractespriel } from './ractespriel'
 import { Reese } from './reese'
 import { Ricochet } from './ricochet'
 import { RobertFlores } from './robert-flores'
+import { RobertKogan } from './robert-kogan'
 import { RoyCooling } from './roy-cooling'
 import { SaraMoore } from './sara-moore'
 import { Scirocco } from './scirocco'
@@ -236,11 +241,8 @@ import { Warrant } from './warrant'
 import { WillyWheeler } from './willy-wheeler'
 import { WilmaPeterson } from './wilma-peterson'
 import { Woodsman } from './woodsman'
-import { DapDapThaDealMaka } from './dap-dap-tha-deal-maka'
-import { ErinWest } from './erin-west'
-import { AlexanderTheGreat } from './alexander-the-great'
-import { RobertKogan } from './robert-kogan'
-import { AdelardZiegler } from './adelard-ziegler'
+import { WyllieGalloway } from './wyllie-galloway'
+import { ZoeLangston } from './zoe-langston'
 
 export const CONTACTS: ContactData[] = [
   AaronThiery,
@@ -252,6 +254,7 @@ export const CONTACTS: ContactData[] = [
   AgentHassell,
   AgentWatkins,
   AlecParson,
+  AlexanderTheGreat,
   AndreaMitchell,
   AndrewFiore,
   AngeloVendetti,
@@ -287,6 +290,7 @@ export const CONTACTS: ContactData[] = [
   Crimson,
   Crow,
   DJZero,
+  DapDapThaDealMaka,
   DarkWatcher,
   DarrenWade,
   DavidWincott,
@@ -315,6 +319,7 @@ export const CONTACTS: ContactData[] = [
   EagleEye,
   EfficiencyExpertPither,
   ElizaThorpe,
+  ErinWest,
   ErnestoHess,
   FaathimTheKind,
   FatherTime,
@@ -429,6 +434,7 @@ export const CONTACTS: ContactData[] = [
   Reese,
   Ricochet,
   RobertFlores,
+  RobertKogan,
   RoyCooling,
   SaraMoore,
   Scirocco,
@@ -480,8 +486,6 @@ export const CONTACTS: ContactData[] = [
   WillyWheeler,
   WilmaPeterson,
   Woodsman,
-  DapDapThaDealMaka,
-  ErinWest,
-  AlexanderTheGreat,
-  RobertKogan,
+  WyllieGalloway,
+  ZoeLangston,
 ]

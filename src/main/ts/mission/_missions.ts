@@ -39,7 +39,9 @@ import { CollateralDamage } from './collateral-damage'
 import { CorpWars } from './corp-wars'
 import { CriminalsOfWar } from './criminals-of-war'
 import { CrossingOver } from './crossing-over'
+import { CuttingBackOldGrowth } from './cutting-back-old-growth'
 import { DeathFromBelow } from './death-from-below'
+import { DeathResurrected } from './death-resurrected'
 import { DefeatMarauderAndDestroyThePortal } from './defeat-marauder-and-destroy-the-portal'
 import { DefeatSelestar } from './defeat-selestar'
 import { DestinyFollows } from './destiny-follows'
@@ -84,6 +86,7 @@ import { HigherPurpose } from './higher-purpose'
 import { HippocraticOath } from './hippocratic-oath'
 import { HitList } from './hit-list'
 import { HonorTheFallen } from './honor-the-fallen'
+import { HuntingTheHunters } from './hunting-the-hunters'
 import { HurtTheTraitorousVendettiRetainer } from './hurt-the-traitorous-vendetti-retainer'
 import { IDestroyThereforeIAm } from './i-destroy-therefore-i-am'
 import { ILostMyDaddy } from './i-lost-my-daddy'
@@ -102,6 +105,7 @@ import { KeyesIslandReactorTrial } from './keyes-island-reactor-trial'
 import { KickLongbowOutOfBase } from './kick-longbow-out-of-base'
 import { KidnapDiocletian } from './kidnap-diocletian'
 import { KillerInstinct } from './killer-instinct'
+import { KnowThyEnemy } from './know-thy-enemy'
 import { LambdaSectorTrial } from './lambda-sector-trial'
 import { LastRites } from './last-rites'
 import { LayDownYourBurdens } from './lay-down-your-burdens'
@@ -115,6 +119,7 @@ import { MagisteriumTrial } from './magisterium-trial'
 import { ManticoreTaskForce } from './manticore-task-force'
 import { MarketCrashTrial } from './market-crash-trial'
 import { MeMyselfAndMyOtherSelves } from './me-myself-and-my-other-selves'
+import { MergersAndAcquisitions } from './mergers-and-acquisitions'
 import { MidnightDrawsNear } from './midnight-draws-near'
 import { MidnightsHand } from './midnights-hand'
 import { MindFreedom } from './mind-freedom'
@@ -230,6 +235,7 @@ import { TheShiningStarsWithFriendsLikeThese } from './the-shining-stars-with-fr
 import { TheSpiritCityOfHequat } from './the-spirit-city-of-hequat'
 import { TheStrangeCaseOfBenjaminADecker } from './the-strange-case-of-benjamin-a-decker'
 import { TheStrongSurvive } from './the-strong-survive'
+import { TheSunlightAndTheSpotlight } from './the-sunlight-and-the-spotlight'
 import { TheSurge } from './the-surge'
 import { TheTrashCollectors } from './the-trash-collectors'
 import { TheTruthHurts } from './the-truth-hurts'
@@ -268,11 +274,7 @@ import { WhatWasBuiltUponthePast } from './what-was-built-upon-the-past'
 import { WhatWasLost } from './what-was-lost'
 import { WhoNeedsEnemies } from './who-needs-enemies'
 import { YouCantGoHome } from './you-cant-go-home'
-import { MergersAndAcquisitions } from './mergers-and-acquisitions'
-import { CuttingBackOldGrowth } from './cutting-back-old-growth'
-import { TheSunlightAndTheSpotlight } from './the-sunlight-and-the-spotlight'
-import { KnowThyEnemy } from './know-thy-enemy'
-import { HuntingTheHunters } from './hunting-the-hunters'
+import { ZoeTaskForce } from './zoe-task-force'
 
 export const MISSIONS: MissionData[] = [
   AFaultlineInTheSandsOfTime,
@@ -315,6 +317,7 @@ export const MISSIONS: MissionData[] = [
   CriminalsOfWar,
   CrossingOver,
   DeathFromBelow,
+  DeathResurrected,
   DefeatMarauderAndDestroyThePortal,
   DefeatSelestar,
   DestinyFollows,
@@ -548,4 +551,5 @@ export const MISSIONS: MissionData[] = [
   TheSunlightAndTheSpotlight,
   KnowThyEnemy,
   HuntingTheHunters,
+  ZoeTaskForce,
 ]

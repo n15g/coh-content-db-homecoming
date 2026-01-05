@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- [#177](https://github.com/n15g/coh-content-db-homecoming/pull/182) - Issue 28, Page 3
 - [#177](https://github.com/n15g/coh-content-db-homecoming/pull/177) - Issue 28, Page 2
 - [#176](https://github.com/n15g/coh-content-db-homecoming/pull/176) - 2025 Anniversary badges
 - Mission and Contact data.
