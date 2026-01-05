@@ -219,5 +219,4 @@ export const EVENT_BADGES: BadgeData[] = [
   GiftGetter,
   GiftWhichKeepsGiving,
   VeryNaughty,
-
 ]
