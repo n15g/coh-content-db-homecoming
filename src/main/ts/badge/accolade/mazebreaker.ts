@@ -14,7 +14,7 @@ export const Mazebreaker: BadgeData = {
   links: [
     { title: 'Mazebreaker Badge', href: 'https://homecoming.wiki/wiki/Mazebreaker_Badge' },
   ],
-  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mazebreaker-realities.png',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/mazebreaker.png',
   requirements: [
     { key: TestedByCombat.key, type: 'badge', badgeKey: TestedByCombat.key },
     { key: ChromaticCombatant.key, type: 'badge', badgeKey: ChromaticCombatant.key },
