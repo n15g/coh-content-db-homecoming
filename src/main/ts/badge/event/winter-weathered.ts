@@ -13,5 +13,4 @@ export const WinterWeathered: BadgeData = {
     { title: 'Winter Weathered Badge', href: 'https://homecoming.wiki/wiki/Winter_Weathered_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/winter-weathered.png',
-
 }
