@@ -475,6 +475,7 @@ import { ProtestTooMuch } from './protest-too-much'
 import { QuayToTheCity } from './quay-to-the-city'
 import { RavingMad } from './raving-mad'
 import { TouristTrapped } from './tourist-trapped'
+import { LucidDreamer } from './lucid-dreamer'
 
 export const EXPLORATION_BADGES: BadgeData[] = [
   // Bloody Bay
@@ -787,5 +788,5 @@ export const EXPLORATION_BADGES: BadgeData[] = [
   PartyAnimal,
 
   // Labyrinth of Fog
-  HiddenInTheFog, LabRat,
+  HiddenInTheFog, LabRat, LucidDreamer,
 ]
