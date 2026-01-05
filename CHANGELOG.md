@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.2] - 2026-01-06
+
+### Added
+
+- [#183](https://github.com/n15g/coh-content-db-homecoming/pull/183) - Winter Event 2025
+
 ## [2.0.1] - 2026-01-06
 
 ### Fixed
@@ -15,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- [#177](https://github.com/n15g/coh-content-db-homecoming/pull/182) - Issue 28, Page 3
+- [#182](https://github.com/n15g/coh-content-db-homecoming/pull/182) - Issue 28, Page 3
 - [#177](https://github.com/n15g/coh-content-db-homecoming/pull/177) - Issue 28, Page 2
 - [#176](https://github.com/n15g/coh-content-db-homecoming/pull/176) - 2025 Anniversary badges
 - Mission and Contact data.
