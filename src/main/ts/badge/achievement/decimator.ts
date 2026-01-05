@@ -8,7 +8,7 @@ export const Decimator: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have inflicted ten million points of damage upon your foes.`,
-  acquisition: 'Deal 10,000,000 damage to earn this badge.',
+  acquisition: 'Deal 10,000,000 damage.',
   links: [
     { title: 'Decimator Badge', href: 'https://homecoming.wiki/wiki/Decimator_Badge' },
   ],

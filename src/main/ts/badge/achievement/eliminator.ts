@@ -8,7 +8,7 @@ export const Eliminator: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have inflicted five hundred thousand points of damage upon your foes.',
-  acquisition: 'Deal 500,000 damage to earn this badge.',
+  acquisition: 'Deal 500,000 damage.',
   links: [
     { title: 'Eliminator Badge', href: 'https://homecoming.wiki/wiki/Eliminator_Badge' },
   ],

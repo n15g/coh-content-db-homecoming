@@ -122,7 +122,7 @@ describe('Contact', () => {
     }
   })
 
-  test('should not contain any http links', () => {
+  test('should not contain any unsupported protocols', () => {
     const errors: string[] = []
 
     for (const contact of TEST_DATABASE.contacts) {

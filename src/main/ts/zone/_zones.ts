@@ -55,7 +55,6 @@ import { PerezPark } from './perez-park'
 import { Phone } from './phone'
 import { PocketD } from './pocket-d'
 import { PortOakes } from './port-oakes'
-import { Praetoria } from './praetoria'
 import { ReclusesVictory } from './recluses-victory'
 import { RiktiWarZone } from './rikti-war-zone'
 import { SafeguardAtlasPark } from './safeguard-atlas-park'
@@ -144,7 +143,6 @@ export const ZONES: ZoneData[] = [
   Phone,
   PocketD,
   PortOakes,
-  Praetoria,
   ReclusesVictory,
   RiktiWarZone,
   SafeguardAtlasPark,

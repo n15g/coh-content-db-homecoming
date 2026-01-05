@@ -8,7 +8,7 @@ export const UntilTheEndOfTheWorld: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You've seen your world and others come to the brink many times, but each time you've been there to pull them back and keep things going. And you'll continue to be there, no matter what the future brings.`,
-  acquisition: 'Collect 1500 badges to earn this badge.',
+  acquisition: 'Collect 1500 badges.',
   links: [
     { title: 'Until the End of the World Badge', href: 'https://homecoming.wiki/wiki/Until_the_End_of_the_World_Badge' },
   ],

@@ -23,7 +23,7 @@ export const TriedAndTrue: BadgeData = {
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/exploration/hero.png',
   requirements: [
     { key: 'loc-0', type: 'location', location: { zoneKey: AtlasPark.key, coords: [66, -634.5, -681.9] } },
-    { key: 'loc-1', type: 'location', missionKey: OmegaTeamMemorial.key, location: { coords: [1520, -813.2, -2688.1] } },
-    { key: 'loc-2', type: 'location', missionKey: DrKahnTaskForce.key, location: { coords: [1520, -813.2, -2688.1] } },
+    { key: 'loc-1', type: 'location', location: { coords: [1520, -813.2, -2688.1] }, notes: `During the ${missionLink(OmegaTeamMemorial)} mission.` },
+    { key: 'loc-2', type: 'location', location: { coords: [1520, -813.2, -2688.1] }, notes: `During the first mission in the ${missionLink(DrKahnTaskForce)}.` },
   ],
 }

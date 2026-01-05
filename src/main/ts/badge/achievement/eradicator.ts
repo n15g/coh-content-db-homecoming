@@ -8,7 +8,7 @@ export const Eradicator: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have inflicted fifty million points of damage upon your foes.',
-  acquisition: 'Deal 50,000,000 damage to earn this badge.',
+  acquisition: 'Deal 50,000,000 damage.',
   links: [
     { title: 'Eradicator Badge', href: 'https://homecoming.wiki/wiki/Eradicator_Badge' },
   ],
