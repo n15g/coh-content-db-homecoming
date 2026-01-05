@@ -105,6 +105,9 @@ import { WeddingCrasher } from './wedding-crasher'
 import { Cheers } from './cheers'
 import { Mafioso } from './mafioso'
 import { SkullKiller } from './skull-killer'
+import { WinterWeathered } from './winter-weathered'
+import { Icebreaker } from './icebreaker'
+import { VeryNaughty } from './very-naughty'
 
 export const EVENT_BADGES: BadgeData[] = [
   Celebrant,
@@ -201,6 +204,7 @@ export const EVENT_BADGES: BadgeData[] = [
   LicenseToChill,
   HomeForTheHolidays,
   Hypothermia,
+  WinterWeathered,
   ColdWarrior,
   FrozenFury,
   HolidaySpirit,
@@ -210,7 +214,9 @@ export const EVENT_BADGES: BadgeData[] = [
   Joyful,
   Miraculous,
   LordOfWinter,
+  Icebreaker,
   ColdAsIce,
   GiftGetter,
   GiftWhichKeepsGiving,
+  VeryNaughty,
 ]
