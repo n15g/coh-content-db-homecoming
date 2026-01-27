@@ -9,7 +9,7 @@ export const BeyondReasonableDoubt: BadgeData = {
   releaseDate: '2019-06-01',
   morality: 'heroic',
   badgeText: 'It is better that ten guilty persons escape than that one innocent suffer.',
-  acquisition: `Kill Rider in the ${missionLink(DirtyWork)} story arc.`,
+  acquisition: `Spare Rider in the ${missionLink(DirtyWork)} story arc.`,
   links: [
     { title: 'Beyond Reasonable Doubt Badge', href: 'https://homecoming.wiki/wiki/Beyond_Reasonable_Doubt_Badge' },
   ],
