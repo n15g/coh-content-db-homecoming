@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- [2.0.4] [#185](https://github.com/n15g/coh-content-db-homecoming/pull/184) - [Beyond Reasonable Doubt] should be "Spare Rider", not "Kill Rider"
+- [2.0.4] [#185](https://github.com/n15g/coh-content-db-homecoming/pull/185) - [Beyond Reasonable Doubt] should be "Spare Rider", not "Kill Rider"
 - [2.0.3] [#184](https://github.com/n15g/coh-content-db-homecoming/pull/184) - Mutated Marauder spelling correction
 - [2.0.1] Broken Mazebreaker badge icon
 
