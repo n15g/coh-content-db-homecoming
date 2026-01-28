@@ -13,5 +13,4 @@ export const Icebreaker: BadgeData = {
     { title: 'Icebreaker Badge', href: 'https://homecoming.wiki/wiki/Icebreaker_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/icebreaker.png',
-
 }
