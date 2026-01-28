@@ -13,5 +13,4 @@ export const VeryNaughty: BadgeData = {
     { title: 'Very Naughty Badge', href: 'https://homecoming.wiki/wiki/Very_Naughty_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/event/very-naughty.png',
-
 }
