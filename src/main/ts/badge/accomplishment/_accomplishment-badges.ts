@@ -213,6 +213,15 @@ import { ChromaticCombatant } from './chromatic-combatant'
 import { HeartOfGold } from './heart-of-gold'
 import { Psychopomp } from './psychopomp'
 import { TestedByCombat } from './tested-by-combat'
+import { OnceTheVictor } from './once-the-victor'
+import { TwiceTheVictor } from './twice-the-victor'
+import { ThriceTheVictor } from './thrice-the-victor'
+import { FourTimesTheVictor } from './four-times-the-victor'
+import { FiveTimesTheVictor } from './five-times-the-victor'
+import { SixTimesTheVictor } from './six-times-the-victor'
+import { SevenTimesTheVictor } from './seven-times-the-victor'
+import { EightTimesTheVictor } from './eight-times-the-victor'
+import { NineTimesTheVictor } from './nine-times-the-victor'
 
 export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
 
@@ -403,6 +412,15 @@ export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
   ProtectorOfKindness,
   SlayerOfMadness,
   Cabalist,
+  OnceTheVictor,
+  TwiceTheVictor,
+  ThriceTheVictor,
+  FourTimesTheVictor,
+  FiveTimesTheVictor,
+  SixTimesTheVictor,
+  SevenTimesTheVictor,
+  EightTimesTheVictor,
+  NineTimesTheVictor,
   TenTimesTheVictor,
   ContainmentSpecialist,
   TheGreaterGood,
