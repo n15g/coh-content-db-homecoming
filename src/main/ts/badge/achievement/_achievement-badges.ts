@@ -448,7 +448,7 @@ export const ACHIEVEMENT_BADGES: BadgeData[] = [
   WebMaster,
   TimeTraveler,
   FirebaseZuluSecurityDetail,
-  
+
   // Super Group Bases Visited
   HomeSweetHome,
   Based,
