@@ -1,6 +1,6 @@
 import { BadgeData } from 'coh-content-db'
 
-export const ActuallyBased: BadgeData = {
+export const UnfathomablyBased: BadgeData = {
   type: 'achievement',
   key: 'unfathomably-based',
   setTitleId: [2590],
