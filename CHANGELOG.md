@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-02-11
+
+### Added
+
+- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - New badges for Visiting Super-group bases and the Labyrinth of Fog
+
+### Changed
+
+- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - "x-Times the Victor" badges from the Katie Hannon Task Force are now persistent
+- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - Improved images for badge-collection meta badges (Pathfinder, Adventurer, etc.)
+
+---
+
 ## [2.0.4] - 2026-01-27
 
 ### Added
@@ -26,14 +39,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- [2.0.4] [#185](https://github.com/n15g/coh-content-db-homecoming/pull/185) - [Beyond Reasonable Doubt] should be "Spare Rider", not "Kill Rider"
+- [2.0.4] [#185](https://github.com/n15g/coh-content-db-homecoming/pull/185) - Beyond Reasonable Doubt should be "Spare Rider", not "Kill Rider"
 - [2.0.3] [#184](https://github.com/n15g/coh-content-db-homecoming/pull/184) - Mutated Marauder spelling correction
 - [2.0.1] Broken Mazebreaker badge icon
 
 ### Changed
 
 - [2.0.0] [#180](https://github.com/n15g/coh-content-db-homecoming/pull/180) - Fix event badge ordering
-- [2.0.0] [#180](https://github.com/n15g/coh-content-db-homecoming/pull/180) - Fix monument location in [Christie Consolidation] badge
+- [2.0.0] [#180](https://github.com/n15g/coh-content-db-homecoming/pull/180) - Fix monument location in Christie Consolidation badge
 - [2.0.0] [#179](https://github.com/n15g/coh-content-db-homecoming/pull/179) - Icon Fixes
 - [2.0.0] [#178](https://github.com/n15g/coh-content-db-homecoming/pull/178) - Fix Two Birds, One Stone badge title
 - [2.0.0] Updated to [coh-content-db:2.0.0](https://github.com/n15g/coh-content-db) data model
