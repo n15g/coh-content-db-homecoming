@@ -145,6 +145,7 @@ import { MalevolentIntoxication } from './malevolent-intoxication'
 import { Peacekeeper } from './peacekeeper'
 import { TwoBirdsOneStone } from './two-birds-one-stone'
 import { MutatedMarauder } from './mutated-marauder'
+import { Dreamcatcher } from './dreamcatcher'
 
 export const DEFEAT_BADGES: BadgeData[] = [
   SpiderSmasher,
@@ -159,6 +160,7 @@ export const DEFEAT_BADGES: BadgeData[] = [
   Mythical,
   PhantomGladiator,
   MalevolentIntoxication,
+  Dreamcatcher,
   Terminator,
   Isolator,
   MutatedMarauder,

@@ -199,6 +199,11 @@ import { SubterraneanStriker } from './subterranean-striker'
 import { MasterOfZoesTaskForce } from './master-of-zoes-task-force'
 import { SnowWarning } from './snow-warning'
 import { KnockbackKing } from './knockback-king'
+import { HomeSweetHome } from './home-sweet-home'
+import { Based } from './based'
+import { TrulyBased } from './truly-based'
+import { ActuallyBased } from './actually-based'
+import { UnfathomablyBased } from './unfathomably-based'
 
 export const ACHIEVEMENT_BADGES: BadgeData[] = [
   // Levels
@@ -443,6 +448,13 @@ export const ACHIEVEMENT_BADGES: BadgeData[] = [
   WebMaster,
   TimeTraveler,
   FirebaseZuluSecurityDetail,
+
+  // Super Group Bases Visited
+  HomeSweetHome,
+  Based,
+  TrulyBased,
+  ActuallyBased,
+  UnfathomablyBased,
 
   // Souvenirs Collected
   Bounty,

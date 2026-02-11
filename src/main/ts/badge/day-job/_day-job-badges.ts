@@ -33,6 +33,7 @@ import { CannonFodder } from './cannon-fodder'
 import { Gunrunner } from './gunrunner'
 import { ProfessionalLiar } from './professional-liar'
 import { Grounded } from './grounded'
+import { SurveyorOfMazes } from './surveyor-of-mazes'
 
 export const DAY_JOB_BADGES: BadgeData[] = [
   Patroller,
@@ -68,4 +69,5 @@ export const DAY_JOB_BADGES: BadgeData[] = [
   Psychologist,
   Survivalist,
   ColdHandOfDeath,
+  SurveyorOfMazes,
 ]
