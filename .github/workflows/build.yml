@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: lts/jod
+          node-version: lts/krypton
           cache: 'npm'
 
       - name: Install
