@@ -8,7 +8,7 @@ export const HomeSweetHome: BadgeData = {
   releaseDate: '2026-02-10',
   morality: 'all',
   badgeText: `Every journey needs a starting point, and a place to finally rest. Be it a simple shelter or a grand fortress, there's no place quite like it.`,
-  acquisition: `Visit 50 super group bases to earn this badge.`,
+  acquisition: `Spend 60 seconds in your own Supergroup base.`,
   links: [
     { title: 'Home Sweet Home Badge', href: 'https://homecoming.wiki/wiki/Home_Sweet_Home_Badge' },
   ],

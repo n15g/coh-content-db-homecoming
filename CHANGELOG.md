@@ -9,10 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - New badges for Visiting Super-group bases and the Labyrinth of Fog
+- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - New badges for Visiting Supergroup bases and the Labyrinth of Fog
 
 ### Changed
 
+- [2.1.3] [#187](https://github.com/n15g/coh-content-db-homecoming/pull/187) - Home Sweet Home badge requirement is now "Spend 60 seconds in your own Supergroup base"
 - [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - "x-Times the Victor" badges from the Katie Hannon Task Force are now persistent
 - [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - Improved images for badge-collection meta badges (Pathfinder, Adventurer, etc.)
 
