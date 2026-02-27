@@ -1,6 +1,5 @@
 import { BadgeData } from 'coh-content-db'
 import { Regenerator } from '../defeat/regenerator'
-import { BinderOfBeasts } from '../accomplishment/binder-of-beasts'
 
 export const Caliban: BadgeData = {
   type: 'gladiator',
@@ -15,6 +14,6 @@ export const Caliban: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
-    { key: Regenerator.key, type: 'badge', badgeKey: BinderOfBeasts.key },
+    { key: Regenerator.key, type: 'badge', badgeKey: Regenerator.key },
   ],
 }

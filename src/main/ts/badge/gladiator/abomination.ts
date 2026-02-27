@@ -1,6 +1,5 @@
 import { BadgeData } from 'coh-content-db'
 import { SynapsesCohort } from '../accomplishment/synapses-cohort'
-import { BinderOfBeasts } from '../accomplishment/binder-of-beasts'
 
 export const Abomination: BadgeData = {
   type: 'gladiator',
@@ -15,6 +14,6 @@ export const Abomination: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
-    { key: SynapsesCohort.key, type: 'badge', badgeKey: BinderOfBeasts.key },
+    { key: SynapsesCohort.key, type: 'badge', badgeKey: SynapsesCohort.key },
   ],
 }
