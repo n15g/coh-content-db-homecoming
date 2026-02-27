@@ -1,6 +1,5 @@
 import { BadgeData } from 'coh-content-db'
 import { DemonSlayer } from '../defeat/demon-slayer'
-import { BinderOfBeasts } from '../accomplishment/binder-of-beasts'
 
 export const BehemothOverlord: BadgeData = {
   type: 'gladiator',
@@ -15,6 +14,6 @@ export const BehemothOverlord: BadgeData = {
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/gladiator/gladiator.png',
   requirements: [
-    { key: DemonSlayer.key, type: 'badge', badgeKey: BinderOfBeasts.key },
+    { key: DemonSlayer.key, type: 'badge', badgeKey: DemonSlayer.key },
   ],
 }
