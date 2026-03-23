@@ -12,7 +12,7 @@ export const Undying: BadgeData = {
   morality: 'all',
   badgeText: [
     { value: `You can't be certain, but you believe that the possibility exists that you can not die.` },
-    { alignment: 'praetorian', value: 'Surely at some point, you will wake up and think, "Perhaps today I will stop courting certain doom." But obviously not today.' },
+    { alignment: 'praetorian', value: `Surely at some point, you will wake up and think, "Perhaps today I will stop courting certain doom." But obviously not today.` },
   ],
   acquisition: 'Pay off 600,000 debt.',
   links: [

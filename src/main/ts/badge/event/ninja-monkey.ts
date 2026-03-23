@@ -8,7 +8,7 @@ export const NinjaMonkey: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You defeated a total of 75 Ninjas and Monkeys during a single match in the Summer Blockbuster 'Time Gladiator'.`,
-  acquisition: 'In the Summer Blockbuster, defeat a total of 75 ninjas and monkeys during a single "Time Gladiator" match.',
+  acquisition: `In the Summer Blockbuster, defeat a total of 75 ninjas and monkeys during a single "Time Gladiator" match.`,
   links: [
     { title: 'Ninja Monkey Badge', href: 'https://homecoming.wiki/wiki/Ninja_Monkey_Badge' },
   ],

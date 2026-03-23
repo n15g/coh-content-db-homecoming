@@ -22,7 +22,7 @@ export const Epidemiologist: BadgeData = {
     { key: 'sa', type: 'task', notes: `Salamander - The Graveyard Shift (20-29 Hero Story Arc - ${contactLink(AgentWatkins)})` },
     { key: 'ne', type: 'task', notes: `Newt - The Graveyard Shift (20-29 Hero Story Arc - ${contactLink(AgentWatkins)})` },
     { key: 'co', type: 'task', notes: `Cortex - ${contactLink(Positron)} Task Force Part Two, The Freakish Lab of Dr. Vahzilok (30-39 Villain Story Arc - ${contactLink(DocBuzzsaw)})` },
-    { key: 'gm', type: 'task', notes: 'Grey Matter - The Graveyard Shift (20-29 Hero Story Arc - ${contactLink(AgentWatkins)})' },
+    { key: 'gm', type: 'task', notes: `Grey Matter - The Graveyard Shift (20-29 Hero Story Arc - ${contactLink(AgentWatkins)})` },
     { key: 'dr', type: 'task', notes: `Dr. Vahzilok - ${contactLink(Positron)} Task Force Part Two` },
     { key: 'db', type: 'task', notes: `Doc Buzzsaw - ${contactLink(Positron)} Task Force Part Two` },
     { key: 'dm', type: 'task', notes: `Dr. Meinst - Death from Below, The Graveyard Shift (20-29 Hero Story Arc - ${contactLink(AgentWatkins)})` },
