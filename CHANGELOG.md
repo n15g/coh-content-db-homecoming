@@ -5,21 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.4] - 2026-02-27
+## [2.1.5] - 2026-03-28
 
 ### Added
 
-- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - New badges for Visiting Supergroup bases and the Labyrinth of Fog
+- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - New badges for visiting supergroup bases and the Labyrinth of Fog
 
 ### Fixed
 
+- [2.1.5] [#189](https://github.com/n15g/coh-content-db-homecoming/pull/189) - Fixed a contact link in the Epidemiologist badge
 - [2.1.4] [#188](https://github.com/n15g/coh-content-db-homecoming/pull/188) - Fixed badge requirements for Abomination, Behemoth Overlord and Caliban
 
 ### Changed
 
 - [2.1.3] [#187](https://github.com/n15g/coh-content-db-homecoming/pull/187) - Home Sweet Home badge requirement is now "Spend 60 seconds in your own Supergroup base"
 - [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - "x-Times the Victor" badges from the Katie Hannon Task Force are now persistent
-- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - Improved images for badge-collection meta badges (Pathfinder, Adventurer, etc.)
+- [2.1.0] [#186](https://github.com/n15g/coh-content-db-homecoming/pull/186) - Improved images for badge-collection meta-badges (Pathfinder, Adventurer, etc.)
 
 ---
 
