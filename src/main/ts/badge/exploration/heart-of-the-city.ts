@@ -12,7 +12,7 @@ export const HeartOfTheCity: BadgeData = {
   ],
   releaseDate: '2012-11-30',
   morality: 'heroic',
-  badgeText: 'Due to a glitch in the Paragon Nav System, Jose "Broken" Brogan stood here, but many heroes had trouble finding him.',
+  badgeText: `Due to a glitch in the Paragon Nav System, Jose "Broken" Brogan stood here, but many heroes had trouble finding him.`,
   notes: `Located just east of the mission entrance, next to a mailbox.
 
 Out-levelled Safeguard missions can be accessed via ${contactLink(AgentHassell)}.`,

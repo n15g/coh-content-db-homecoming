@@ -15,7 +15,7 @@ export const EfficiencyExpert: BadgeData = {
   morality: 'villainous',
   badgeText: `You have proven yourself efficient by succeeding at all of Mr. Pither's timed tasks.`,
   acquisition: `Complete all of ${contactLink(EfficiencyExpertPither)}'s timed missions within the time limit.`,
-  notes: '**Note:** This badge is not available as part of the Flashback system; However, you can earn credit towards it by doing missions with another character who has Pither as a contact, so it is not permanently missable.',
+  notes: `**Note:** This badge is not available as part of the Flashback system; However, you can earn credit towards it by doing missions with another character who has Pither as a contact, so it is not permanently missable.`,
   links: [
     { title: 'Efficiency Expert Badge', href: 'https://homecoming.wiki/wiki/Efficiency_Expert_Badge' },
   ],

@@ -13,7 +13,7 @@ export const MedicineMan: BadgeData = {
   morality: 'all',
   badgeText: [
     { value: 'You have helped your fellow heroes by healing them for five million hit points.' },
-    { alignment: 'praetorian', value: 'You might demur from the title of "Savior" for your healing prowess, but then again, yes, yes it seems to fit.' },
+    { alignment: 'praetorian', value: `You might demur from the title of "Savior" for your healing prowess, but then again, yes, yes it seems to fit.` },
   ],
   acquisition: 'Heal others for 5,000,000 hit points.',
   links: [

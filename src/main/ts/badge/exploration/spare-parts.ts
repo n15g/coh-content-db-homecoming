@@ -9,7 +9,7 @@ export const SpareParts: BadgeData = {
   releaseDate: '2019-06-01',
   morality: 'paragon-city-access',
   badgeText: `Large groups of Vahzilok roam this area, day or night. Guided by the depraved Dr. Vahzilok, they defile the very laws of nature with their never ceasing desire for human flesh.`,
-  notes: 'Located approx. 326 yrds. W from the "Reservoir" marker in a park above the crevice with the cement structures.',
+  notes: `Located approx. 326 yrds. W from the "Reservoir" marker in a park above the crevice with the cement structures.`,
   links: [
     { title: 'I25 Faultline badge changes', href: 'https://forums.homecomingservers.com/topic/931-echo-falutline-badger-hunter-helpline/' },
   ],
