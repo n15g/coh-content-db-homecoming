@@ -30,6 +30,7 @@ export default [
   {
     rules: {
       'unicorn/prevent-abbreviations': ['off'],
+      'unicorn/numeric-separators-style': ['off'],
     },
   },
   localRulesConfig,

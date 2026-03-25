@@ -8,7 +8,7 @@ export const Ragnarok: BadgeData = {
   name: 'Ragnarok',
   releaseDate: '2012-11-30',
   morality: 'all',
-  badgeText: 'Some say this battle will signal the end of civilization as we know it, and the beginning of a new history—written by Lord Recluse.',
+  badgeText: 'Some say this battle will signal the end of civilization as we know it, and the beginning of a new history-written by Lord Recluse.',
   notes: `Located in Sector 3, 418 yards due south of the Echo pillbox. The badge is at the northern end of a cobblestone walkway on the western edge of a small park.`,
   links: [
     { title: 'Ragnaraok Badge', href: 'https://homecoming.wiki/wiki/Ragnarok_Badge' },
