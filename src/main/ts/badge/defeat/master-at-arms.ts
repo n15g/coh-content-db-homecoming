@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterAtArms: BadgeData = {
   type: 'defeat',
   key: 'master-at-arms',
+  gameId: 'RWZMasterAtArms',
   setTitleId: [854],
   name: 'Master at Arms',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { DemonSlayer } from '../defeat/demon-slayer'
 export const BehemothOverlord: BadgeData = {
   type: 'gladiator',
   key: 'behemoth-overlord',
+  gameId: 'Behemoth',
   setTitleId: [503],
   name: 'Behemoth Overlord',
   releaseDate: '2012-11-30',

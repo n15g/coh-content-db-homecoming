@@ -4,6 +4,7 @@ import { MidnighterClub } from '../../zone/midnighter-club'
 export const MidnighterClubMember: BadgeData = {
   type: 'exploration',
   key: 'midnighter-club-member',
+  gameId: 'MSClubTour1',
   setTitleId: [992],
   name: 'Midnighter Club Member',
   releaseDate: '2012-11-30',

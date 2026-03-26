@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const WarriorAtTheGate: BadgeData = {
   type: 'exploration',
   key: 'warrior-at-the-gate',
+  gameId: 'P_WarriorAtTheGate',
   setTitleId: [1643],
   name: 'Warrior at the Gate',
   releaseDate: '2012-11-30',

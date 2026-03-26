@@ -11,6 +11,7 @@ import { CityTraveler } from '../exploration/city-traveler'
 export const WalkedDownMemoryLane: BadgeData = {
   type: 'accolade',
   key: 'walked-down-memory-lane',
+  gameId: 'WalkedDownMemoryLane',
   setTitleId: [2325],
   name: 'Walked Down Memory Lane',
   releaseDate: '2012-11-30',

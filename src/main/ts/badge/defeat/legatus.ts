@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Legatus: BadgeData = {
   type: 'defeat',
   key: 'legatus',
+  gameId: 'DefeatRomansEnd',
   setTitleId: [2471],
   name: 'Legatus',
   releaseDate: '2020-11-26',

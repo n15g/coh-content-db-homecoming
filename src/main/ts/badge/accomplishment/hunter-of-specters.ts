@@ -4,6 +4,7 @@ import { ToWhatEndForPower } from '../../mission/to-what-end-for-power'
 export const HunterOfSpecters: BadgeData = {
   type: 'accomplishment',
   key: 'hunter-of-specters',
+  gameId: 'Mission_DA_Arc_Complete_04',
   setTitleId: [2191],
   name: 'Hunter of Specters',
   releaseDate: '2012-11-30',

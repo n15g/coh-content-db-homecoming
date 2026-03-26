@@ -4,6 +4,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const DanceLegend: BadgeData = {
   type: 'exploration',
   key: 'dance-legend',
+  gameId: 'SteelCanyonTour5',
   setTitleId: [1530],
   name: 'Dance Legend',
   releaseDate: '2012-11-30',

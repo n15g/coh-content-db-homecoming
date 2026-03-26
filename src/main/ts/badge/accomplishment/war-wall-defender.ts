@@ -4,6 +4,7 @@ import { RescueTheEngineersAndPreventTheRiktiFromBringingDownTheForceFields } fr
 export const WarWallDefender: BadgeData = {
   type: 'accomplishment',
   key: 'war-wall-defender',
+  gameId: 'SL6MissionB',
   setTitleId: [79],
   name: [
     { alignment: 'hero', value: 'War Wall Defender' },

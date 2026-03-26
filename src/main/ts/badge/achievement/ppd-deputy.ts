@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PPDDeputy: BadgeData = {
   type: 'achievement',
   key: 'ppd-deputy',
+  gameId: 'SafeguardPPDDeputy',
   setTitleId: [642],
   name: [
     { alignment: 'hero', value: 'PPD Deputy' },

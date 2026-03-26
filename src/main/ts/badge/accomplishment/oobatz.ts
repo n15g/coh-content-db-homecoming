@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const Oobatz: BadgeData = {
   type: 'accomplishment',
   key: 'oobatz',
+  gameId: 'ZE_SM_Complete',
   setTitleId: [2319],
   name: 'Oobatz',
   releaseDate: '2012-11-30',

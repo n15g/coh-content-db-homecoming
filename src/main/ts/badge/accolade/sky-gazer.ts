@@ -11,6 +11,7 @@ import { BridgeToNowhere } from '../exploration/bridge-to-nowhere'
 export const SkyGazer: BadgeData = {
   type: 'accolade',
   key: 'sky-gazer',
+  gameId: 'SkywayCityExplorer',
   setTitleId: [1539],
   name: 'Sky Gazer',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LovesAChallenge: BadgeData = {
   type: 'achievement',
   key: 'loves-a-challenge',
+  gameId: 'IT_Keyes_Challenge',
   setTitleId: [1992],
   name: 'Loves a Challenge',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const Repairman: BadgeData = {
   type: 'ouroboros',
   key: 'repairman',
+  gameId: 'Flashback35',
   setTitleId: [940],
   name: [
     { sex: 'M', value: 'Repairman' },

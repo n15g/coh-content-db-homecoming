@@ -4,6 +4,7 @@ import { SecondTreeOfThornsRespecificationTrial } from '../../mission/second-tre
 export const ThornThief: BadgeData = {
   type: 'accolade',
   key: 'thorn-thief',
+  gameId: 'NipTuckUsed',
   setTitleId: [517],
   name: 'Thorn Thief',
   releaseDate: '2012-11-30',

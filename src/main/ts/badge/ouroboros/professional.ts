@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Professional: BadgeData = {
   type: 'ouroboros',
   key: 'professional',
+  gameId: 'ArchetypePowersOnlyatSL4',
   setTitleId: [889],
   name: 'Professional',
   releaseDate: '2012-11-30',

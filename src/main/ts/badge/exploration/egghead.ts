@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const Egghead: BadgeData = {
   type: 'exploration',
   key: 'egghead',
+  gameId: 'CapAuDiableTour3',
   setTitleId: [271],
   name: 'Egghead',
   releaseDate: '2012-11-30',

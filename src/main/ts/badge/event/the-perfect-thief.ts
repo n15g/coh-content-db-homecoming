@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ThePerfectThief: BadgeData = {
   type: 'event',
   key: 'the-perfect-thief',
+  gameId: 'SummerEvent_Pthief',
   setTitleId: [2250],
   name: 'The Perfect Thief',
   releaseDate: '2012-11-30',

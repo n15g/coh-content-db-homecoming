@@ -4,6 +4,7 @@ import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 export const NoTurningBackNow: BadgeData = {
   type: 'exploration',
   key: 'no-turning-back-now',
+  gameId: 'CascadeArchTour7',
   setTitleId: [1811],
   name: 'No Turning Back Now',
   releaseDate: '2012-11-30',

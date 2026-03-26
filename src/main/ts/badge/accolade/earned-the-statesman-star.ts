@@ -4,6 +4,7 @@ import { SecondTerraVoltaRespecificationTrial } from '../../mission/second-terra
 export const EarnedTheStatesmanStar: BadgeData = {
   type: 'accolade',
   key: 'earned-the-statesman-star',
+  gameId: 'StatesmanStarUsed',
   setTitleId: [179],
   name: [
     { alignment: 'hero', value: 'Earned the Statesman Star' },

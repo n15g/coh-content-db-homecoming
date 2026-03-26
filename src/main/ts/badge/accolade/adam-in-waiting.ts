@@ -11,6 +11,7 @@ import { Unspoiled } from '../exploration/unspoiled'
 export const AdamInWaiting: BadgeData = {
   type: 'accolade',
   key: 'adam-in-waiting',
+  gameId: 'EdenExplorer',
   setTitleId: [1887],
   name: [
     { sex: 'M', value: 'Adam in Waiting' },

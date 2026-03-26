@@ -4,6 +4,7 @@ import { CathedralOfPainTrial } from '../../mission/cathedral-of-pain-trial'
 export const PowerLiberator: BadgeData = {
   type: 'accomplishment',
   key: 'power-liberator',
+  gameId: 'MasterThief',
   setTitleId: [375],
   name: [
     { alignment: 'hero', value: 'Power Liberator' },

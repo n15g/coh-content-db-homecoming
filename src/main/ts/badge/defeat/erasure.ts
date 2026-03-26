@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Erasure: BadgeData = {
   type: 'defeat',
   key: 'erasure',
+  gameId: 'DefeatTsooEnd',
   setTitleId: [2171],
   name: 'Erasure',
   releaseDate: '2012-11-30',

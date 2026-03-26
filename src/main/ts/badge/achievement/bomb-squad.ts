@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BombSquad: BadgeData = {
   type: 'achievement',
   key: 'bomb-squad',
+  gameId: 'SafeguardBombSquad',
   setTitleId: [641],
   name: [
     { alignment: 'hero', value: 'Bomb Squad' },

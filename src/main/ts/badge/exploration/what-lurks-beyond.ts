@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const WhatLurksBeyond: BadgeData = {
   type: 'exploration',
   key: 'what-lurks-beyond',
+  gameId: 'BloodyBayTour5',
   setTitleId: [2411],
   name: 'What Lurks Beyond',
   releaseDate: '2019-06-01',

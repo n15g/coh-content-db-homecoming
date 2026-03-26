@@ -5,6 +5,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const Phalanxer: BadgeData = {
   type: 'exploration',
   key: 'phalanxer',
+  gameId: 'BoomtownTour1',
   setTitleId: [114],
   name: 'Phalanxer',
   releaseDate: '2012-11-30',

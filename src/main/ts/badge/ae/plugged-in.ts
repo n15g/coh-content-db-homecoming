@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PluggedIn: BadgeData = {
   type: 'architect-entertainment',
   key: 'plugged-in',
+  gameId: 'ArchitectBadges10',
   setTitleId: [1235],
   name: 'Plugged In',
   releaseDate: '2024-11-19',

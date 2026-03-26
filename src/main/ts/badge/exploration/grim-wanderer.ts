@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const GrimWanderer: BadgeData = {
   type: 'exploration',
   key: 'grim-wanderer',
+  gameId: 'CroatoaTour1',
   setTitleId: [408],
   name: 'Grim Wanderer',
   releaseDate: '2012-11-30',

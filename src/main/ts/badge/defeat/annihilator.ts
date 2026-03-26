@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Annihilator: BadgeData = {
   type: 'defeat',
   key: 'annihilator',
+  gameId: 'RogueHero',
   setTitleId: [305],
   name: 'Annihilator',
   releaseDate: '2012-11-30',

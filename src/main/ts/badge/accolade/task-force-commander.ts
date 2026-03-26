@@ -10,6 +10,7 @@ import { SisterPsychesComrade } from '../accomplishment/sister-psyches-comrade'
 export const TaskForceCommander: BadgeData = {
   type: 'accolade',
   key: 'task-force-commander',
+  gameId: 'TaskForceCommander',
   setTitleId: [608],
   name: [
     { alignment: 'hero', value: 'Task Force Commander' },

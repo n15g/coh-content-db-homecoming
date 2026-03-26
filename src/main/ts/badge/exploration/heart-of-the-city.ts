@@ -5,6 +5,7 @@ import { AgentHassell } from '../../contact/agent-hassell'
 export const HeartOfTheCity: BadgeData = {
   type: 'exploration',
   key: 'heart-of-the-city',
+  gameId: 'SafeguardMap1',
   setTitleId: [648],
   name: [
     { alignment: 'hero', value: 'Heart of the City' },

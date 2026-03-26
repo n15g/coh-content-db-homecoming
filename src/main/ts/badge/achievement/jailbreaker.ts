@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const Jailbreaker: BadgeData = {
   type: 'achievement',
-  key: 'jailbreaker',
+  key: 'jailbreaker',  gameId: 'ZoeTF_Challenge2',
+
   setTitleId: [2578],
   name: 'Jailbreaker',
   releaseDate: '2025-11-25',

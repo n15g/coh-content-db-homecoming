@@ -5,6 +5,7 @@ import { Commuter } from '../day-job/commuter'
 export const Traveler: BadgeData = {
   type: 'accolade',
   key: 'traveler',
+  gameId: 'DJ_Traveler',
   setTitleId: [1064],
   name: [
     { alignment: 'hero', value: 'Traveler' },

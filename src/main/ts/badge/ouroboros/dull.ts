@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Dull: BadgeData = {
   type: 'ouroboros',
   key: 'dull',
+  gameId: 'NoInspirationsatSL6',
   setTitleId: [920],
   name: 'Dull',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const VanguardOperative: BadgeData = {
   type: 'exploration',
   key: 'vanguard-operative',
+  gameId: 'RiktiWarZoneTour1',
   setTitleId: [747],
   name: 'Vanguard Operative',
   releaseDate: '2012-11-30',

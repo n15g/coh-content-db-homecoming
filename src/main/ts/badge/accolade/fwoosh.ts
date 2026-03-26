@@ -4,6 +4,7 @@ import { ArmorWars } from '../../mission/armor-wars'
 export const Fwoosh: BadgeData = {
   type: 'accolade',
   key: 'fwoosh',
+  gameId: 'TheStingerPatron',
   setTitleId: [617],
   name: [
     { alignment: 'hero', value: 'Fwoosh' },

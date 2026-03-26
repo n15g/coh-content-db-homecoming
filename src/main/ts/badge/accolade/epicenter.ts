@@ -11,6 +11,7 @@ import { DugTooDeep } from '../exploration/dug-too-deep'
 export const Epicenter: BadgeData = {
   type: 'accolade',
   key: 'epicenter',
+  gameId: 'EchoFaultlineExplorer',
   setTitleId: [2398],
   name: 'Epicenter',
   releaseDate: '2019-06-01',

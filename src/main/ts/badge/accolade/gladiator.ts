@@ -5,6 +5,7 @@ import { Predator } from '../day-job/predator'
 export const Gladiator: BadgeData = {
   type: 'accolade',
   key: 'gladiator',
+  gameId: 'DJ_Gladiator',
   setTitleId: [1075],
   name: 'Gladiator',
   releaseDate: '2012-11-30',

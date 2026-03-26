@@ -3,7 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const InTheirPrime: BadgeData = {
   type: 'exploration',
-  key: 'in-their-prime',
+  key: 'in-their-prime',  gameId: 'KallistiWharfTour2',
+
   setTitleId: [2450],
   name: 'In Their Prime',
   releaseDate: '2025-06-17',

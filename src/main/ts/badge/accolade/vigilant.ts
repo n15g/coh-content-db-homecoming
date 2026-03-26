@@ -9,6 +9,7 @@ import { TheHorrorOfWar } from '../../mission/the-horror-of-war'
 export const Vigilant: BadgeData = {
   type: 'accolade',
   key: 'vigilant',
+  gameId: 'RitkiWarZoneStoryArcs',
   setTitleId: [2353],
   name: 'Vigilant',
   releaseDate: '2012-11-30',

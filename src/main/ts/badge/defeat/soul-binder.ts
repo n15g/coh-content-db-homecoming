@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SoulBinder: BadgeData = {
   type: 'defeat',
   key: 'soul-binder',
+  gameId: 'SoulBinder',
   setTitleId: [40],
   name: 'Soul Binder',
   releaseDate: '2012-11-30',

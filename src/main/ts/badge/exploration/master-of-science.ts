@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const MasterOfScience: BadgeData = {
   type: 'exploration',
   key: 'master-of-science',
+  gameId: 'CapAuDiableTour7',
   setTitleId: [1493],
   name: 'Master of Science',
   releaseDate: '2012-11-30',

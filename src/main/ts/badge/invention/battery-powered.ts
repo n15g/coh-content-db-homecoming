@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BatteryPowered: BadgeData = {
   type: 'invention',
   key: 'battery-powered',
+  gameId: 'InventionEndurance2',
   setTitleId: [781],
   name: 'Battery Powered',
   releaseDate: '2012-11-30',

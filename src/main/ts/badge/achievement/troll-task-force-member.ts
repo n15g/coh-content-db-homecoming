@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TrollTaskForceMember: BadgeData = {
   type: 'achievement',
   key: 'troll-task-force-member',
+  gameId: 'TrollTaskForce',
   setTitleId: [205],
   name: 'Troll Task Force Member',
   releaseDate: '2012-11-30',

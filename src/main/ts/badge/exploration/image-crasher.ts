@@ -4,6 +4,7 @@ import { Grandville } from '../../zone/grandville'
 export const ImageCrasher: BadgeData = {
   type: 'exploration',
   key: 'image-crasher',
+  gameId: 'GrandvilleTour6',
   setTitleId: [1511],
   name: 'Image Crasher',
   releaseDate: '2012-11-30',

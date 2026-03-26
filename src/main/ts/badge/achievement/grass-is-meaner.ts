@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GrassIsMeaner: BadgeData = {
   type: 'achievement',
   key: 'grass-is-meaner',
+  gameId: 'P_TravelBetweenCities',
   setTitleId: [1465],
   name: [
     { alignment: 'hero', value: 'Grass Is Meaner' },

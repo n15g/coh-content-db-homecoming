@@ -11,6 +11,7 @@ import { WhispererOnWitchburnHill } from '../exploration/whisperer-on-witchburn-
 export const ALightInDarkAstoria: BadgeData = {
   type: 'accolade',
   key: 'a-light-in-dark-astorias',
+  gameId: 'DarkAstoriaExplorer',
   setTitleId: [1878],
   name: 'A Light in Dark Astoria',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Fashionable: BadgeData = {
   type: 'event',
   key: 'fashionable',
+  gameId: 'Halloween2007Badge2',
   setTitleId: [839],
   name: 'Fashionable',
   releaseDate: '2012-11-30',

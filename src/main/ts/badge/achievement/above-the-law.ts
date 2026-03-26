@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AboveTheLaw: BadgeData = {
   type: 'achievement',
   key: 'above-the-law',
+  gameId: 'P_VigilanteAlignment',
   setTitleId: [1451],
   name: 'Above the Law',
   releaseDate: '2012-11-30',

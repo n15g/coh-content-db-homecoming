@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfOlympus: BadgeData = {
   type: 'defeat',
   key: 'master-of-olympus',
+  gameId: 'MasterOfOlympus',
   setTitleId: [60],
   name: [
     { sex: 'M', value: 'Master of Olympus' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FullSpectrum: BadgeData = {
   type: 'defeat',
   key: 'full-spectrum',
+  gameId: 'DefeatSeedlings',
   setTitleId: [2063],
   name: 'Full Spectrum',
   releaseDate: '2012-11-30',

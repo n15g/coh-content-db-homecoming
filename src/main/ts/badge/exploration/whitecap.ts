@@ -4,6 +4,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const Whitecap: BadgeData = {
   type: 'exploration',
   key: 'whitecap',
+  gameId: 'TalosIslandTour3',
   setTitleId: [127],
   name: 'Whitecap',
   releaseDate: '2012-11-30',

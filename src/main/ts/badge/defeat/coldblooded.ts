@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Coldblooded: BadgeData = {
   type: 'defeat',
   key: 'coldblooded',
+  gameId: 'ThornIsle1',
   setTitleId: [306],
   name: [
     { alignment: 'hero', value: 'Coldblooded' },

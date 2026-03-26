@@ -8,6 +8,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const Intellectual: BadgeData = {
   type: 'history',
   key: 'intellectual',
+  gameId: 'PsychicFeedbackLoop',
   setTitleId: [150],
   name: 'Intellectual',
   releaseDate: '2012-11-30',

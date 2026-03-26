@@ -4,6 +4,7 @@ import { ImperiousTaskForce } from '../../mission/imperious-task-force'
 export const TemporalStrife: BadgeData = {
   type: 'accomplishment',
   key: 'temporal-strife',
+  gameId: 'TAComplete',
   setTitleId: [993],
   name: 'Temporal Strife',
   releaseDate: '2012-11-30',

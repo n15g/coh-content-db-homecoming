@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const EyeOfTheVortex: BadgeData = {
   type: 'exploration',
   key: 'eye-of-the-vortex',
+  gameId: 'FirstWardTour2',
   setTitleId: [2049],
   name: 'Eye of the Vortex',
   releaseDate: '2012-11-30',

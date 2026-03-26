@@ -4,6 +4,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const Fugitive: BadgeData = {
   type: 'exploration',
   key: 'fugitive',
+  gameId: 'BrickstownTour4',
   setTitleId: [1566],
   name: 'Fugitive',
   releaseDate: '2012-11-30',

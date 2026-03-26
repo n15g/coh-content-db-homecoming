@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GoonSquad: BadgeData = {
   type: 'defeat',
   key: 'goon-squad',
+  gameId: 'GoonSquad',
   setTitleId: [406],
   name: 'Goon Squad',
   releaseDate: '2012-11-30',

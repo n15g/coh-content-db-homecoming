@@ -4,6 +4,7 @@ import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 export const CityTraveler: BadgeData = {
   type: 'exploration',
   key: 'city-traveler',
+  gameId: 'CityTraveler',
   setTitleId: [2368],
   name: 'City Traveler',
   releaseDate: '2019-01-01',

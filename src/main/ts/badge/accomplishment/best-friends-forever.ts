@@ -4,6 +4,7 @@ import { DrAeonStrikeForce } from '../../mission/dr-aeon-strike-force'
 export const BestFriendsForever: BadgeData = {
   type: 'accomplishment',
   key: 'best-friends-forever',
+  gameId: 'AeonSF_Beckys_BFF',
   setTitleId: [2477],
   name: 'Best Friends Forever',
   releaseDate: '2020-11-26',

@@ -4,6 +4,7 @@ import { MindsOfMayhemTrial } from '../../mission/minds-of-mayhem-trial'
 export const MentalVoyager: BadgeData = {
   type: 'accomplishment',
   key: 'mental-voyager',
+  gameId: 'IT_MoM_Complete',
   setTitleId: [2078],
   name: 'Mental Voyager',
   releaseDate: '2012-11-30',

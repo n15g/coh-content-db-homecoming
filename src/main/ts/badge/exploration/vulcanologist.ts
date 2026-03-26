@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const Vulcanologist: BadgeData = {
   type: 'exploration',
   key: 'vulcanologist',
+  gameId: 'StrigaTour3',
   setTitleId: [198],
   name: 'Vulcanologist',
   releaseDate: '2012-11-30',

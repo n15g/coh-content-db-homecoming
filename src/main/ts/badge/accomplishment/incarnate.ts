@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Incarnate: BadgeData = {
   type: 'accomplishment',
   key: 'incarnate',
+  gameId: 'P_BuildVeryRareIA',
   setTitleId: [1965],
   name: 'Incarnate',
   releaseDate: '2012-11-30',

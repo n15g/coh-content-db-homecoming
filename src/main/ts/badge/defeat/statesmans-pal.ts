@@ -4,6 +4,7 @@ import { AHerosHero } from '../../mission/a-heros-hero'
 export const StatesmansPal: BadgeData = {
   type: 'defeat',
   key: 'statesmans-pal',
+  gameId: 'StatesmansPal',
   setTitleId: [58],
   name: [
     { alignment: 'hero', value: `Statesman's Pal` },

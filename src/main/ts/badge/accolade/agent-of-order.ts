@@ -10,6 +10,7 @@ import { TheShiningStarsWithFriendsLikeThese } from '../../mission/the-shining-s
 export const AgentOfOrder: BadgeData = {
   type: 'accolade',
   key: 'agent-of-order',
+  gameId: 'AtlasParkStoryArcs',
   setTitleId: [2352],
   name: 'Agent of Order',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const PhantomRadio: BadgeData = {
   type: 'exploration',
   key: 'phantom-radio',
+  gameId: 'DarkAstoriaTour5',
   setTitleId: [1782],
   name: 'Phantom Radio',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Descended: BadgeData = {
   type: 'achievement',
   key: 'descended',
+  gameId: 'P_Descended',
   setTitleId: [1463],
   name: 'Descended',
   releaseDate: '2012-11-30',

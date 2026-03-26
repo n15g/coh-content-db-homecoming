@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FairBalanced: BadgeData = {
   type: 'achievement',
   key: 'fair-balanced',
+  gameId: 'IT_TPN_TelepathistChallenge',
   setTitleId: [2074],
   name: 'Fair & Balanced',
   releaseDate: '2012-11-30',

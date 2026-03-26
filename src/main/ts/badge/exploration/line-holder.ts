@@ -4,6 +4,7 @@ import { Grandville } from '../../zone/grandville'
 export const LineHolder: BadgeData = {
   type: 'exploration',
   key: 'line-holder',
+  gameId: 'GrandvilleTour7',
   setTitleId: [1512],
   name: 'Line Holder',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Ostentatious: BadgeData = {
   type: 'event',
   key: 'ostentatious',
+  gameId: 'Halloween2007Badge3',
   setTitleId: [840],
   name: 'Ostentatious',
   releaseDate: '2012-11-30',

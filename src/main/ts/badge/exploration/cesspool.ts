@@ -4,6 +4,7 @@ import { MercyIsland } from '../../zone/mercy-island'
 export const Cesspool: BadgeData = {
   type: 'exploration',
   key: 'cesspool',
+  gameId: 'MercyIslandTour1',
   setTitleId: [263],
   name: 'Cesspool',
   releaseDate: '2012-11-30',

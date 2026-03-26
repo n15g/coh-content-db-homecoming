@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HallowSpirit: BadgeData = {
   type: 'event',
   key: 'hallow-spirit',
+  gameId: 'HallowSpirit',
   setTitleId: [184],
   name: 'Hallow Spirit',
   releaseDate: '2012-11-30',

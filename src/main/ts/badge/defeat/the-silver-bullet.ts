@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheSilverBullet: BadgeData = {
   type: 'defeat',
   key: 'the-silver-bullet',
+  gameId: 'SilverBullet',
   setTitleId: [34],
   name: 'The Silver Bullet',
   releaseDate: '2012-11-30',

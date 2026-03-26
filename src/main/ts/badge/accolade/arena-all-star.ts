@@ -8,6 +8,7 @@ import { PentadVictor } from '../pvp/pentad-victor'
 export const ArenaAllStar: BadgeData = {
   type: 'accolade',
   key: 'arena-all-star',
+  gameId: 'InitiateAllStar',
   setTitleId: [1361],
   name: 'Arena All-Star',
   releaseDate: '2012-11-30',

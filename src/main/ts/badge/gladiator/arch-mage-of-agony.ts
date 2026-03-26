@@ -4,6 +4,7 @@ import { Archmage } from '../accolade/archmage'
 export const ArchMageOfAgony: BadgeData = {
   type: 'gladiator',
   key: 'arch-mage-of-agony',
+  gameId: 'ArchMage',
   setTitleId: [509],
   name: 'Arch-Mage of Agony',
   releaseDate: '2012-11-30',

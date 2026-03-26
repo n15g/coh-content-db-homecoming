@@ -4,6 +4,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const Valorous: BadgeData = {
   type: 'exploration',
   key: 'valorous',
+  gameId: 'IndependancePortTour2',
   setTitleId: [123],
   name: 'Valorous',
   releaseDate: '2012-11-30',

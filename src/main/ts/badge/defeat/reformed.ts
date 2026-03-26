@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Reformed: BadgeData = {
   type: 'defeat',
   key: 'reformed',
+  gameId: 'Villain',
   setTitleId: [311],
   name: [
     { alignment: 'hero', value: 'Reformed' },

@@ -11,6 +11,7 @@ import { UndergroundExplorer } from '../exploration/underground-explorer'
 export const BeneathTheEmpire: BadgeData = {
   type: 'accolade',
   key: 'beneath-the-empire',
+  gameId: 'P_UndergroundImperialCityExplorer',
   setTitleId: [1653],
   name: 'Beneath the Empire',
   releaseDate: '2012-11-30',

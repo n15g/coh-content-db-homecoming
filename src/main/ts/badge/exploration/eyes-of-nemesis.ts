@@ -5,6 +5,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const EyesOfNemesis: BadgeData = {
   type: 'exploration',
   key: 'eyes-of-nemesis',
+  gameId: 'CreysFolleyTour3',
   setTitleId: [1791],
   name: 'Eyes of Nemesis',
   releaseDate: '2012-11-30',

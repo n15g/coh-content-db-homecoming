@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Revivifier: BadgeData = {
   type: 'invention',
   key: 'revivifier',
+  gameId: 'InventionHeal4',
   setTitleId: [768],
   name: 'Revivifier',
   releaseDate: '2012-11-30',

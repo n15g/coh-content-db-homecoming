@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ArtifactDestroyer: BadgeData = {
   type: 'event',
   key: 'artifact-destroyer',
+  gameId: 'Halloween2010ArtifactDestroyer',
   setTitleId: [1769],
   name: 'Artifact Destroyer',
   releaseDate: '2012-11-30',

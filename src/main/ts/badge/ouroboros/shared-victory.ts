@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SharedVictory: BadgeData = {
   type: 'ouroboros',
   key: 'shared-victory',
+  gameId: 'LivesTeamPool5',
   setTitleId: [858],
   name: 'Shared Victory',
   releaseDate: '2012-11-30',

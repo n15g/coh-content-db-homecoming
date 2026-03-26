@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AngerManager: BadgeData = {
   type: 'defeat',
   key: 'anger-manager',
+  gameId: 'MayhemVandal',
   setTitleId: [554],
   name: [
     { alignment: 'hero', value: 'Anger Manager' },

@@ -5,6 +5,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const SewerKing: BadgeData = {
   type: 'exploration',
   key: 'sewer-king',
+  gameId: 'SewerNetworkTour4',
   setTitleId: [1832],
   name: [
     { sex: 'M', value: 'Sewer King' },

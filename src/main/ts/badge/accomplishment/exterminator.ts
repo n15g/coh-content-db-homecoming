@@ -4,6 +4,7 @@ import { LostAndFoundTimothyRaymond } from '../../mission/lost-and-found-timothy
 export const Exterminator: BadgeData = {
   type: 'accomplishment',
   key: 'exterminator',
+  gameId: 'VSL6MissionB',
   setTitleId: [341],
   name: 'Exterminator',
   releaseDate: '2012-11-30',

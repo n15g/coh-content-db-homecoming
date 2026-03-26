@@ -8,6 +8,7 @@ import { Zookeeper } from '../defeat/zookeeper'
 export const Vanguard: BadgeData = {
   type: 'accolade',
   key: 'vanguard',
+  gameId: 'RiktiWarSet',
   setTitleId: [164],
   name: 'Vanguard',
   releaseDate: '2012-11-30',

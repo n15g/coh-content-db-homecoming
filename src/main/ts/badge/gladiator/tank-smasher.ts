@@ -4,6 +4,7 @@ import { TankBuster } from '../defeat/tank-buster'
 export const TankSmasher: BadgeData = {
   type: 'gladiator',
   key: 'tank-smasher',
+  gameId: 'TankSmasher',
   setTitleId: [490],
   name: 'Tank Smasher',
   releaseDate: '2012-11-30',

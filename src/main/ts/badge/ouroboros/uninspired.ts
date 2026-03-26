@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Uninspired: BadgeData = {
   type: 'ouroboros',
   key: 'uninspired',
+  gameId: 'NoInspirationsatSL9',
   setTitleId: [923],
   name: 'Uninspired',
   releaseDate: '2012-11-30',

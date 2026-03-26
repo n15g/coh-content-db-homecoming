@@ -8,6 +8,7 @@ import { Coldblooded } from '../defeat/coldblooded'
 export const Exorcised: BadgeData = {
   type: 'accolade',
   key: 'exorcised',
+  gameId: 'Demonic',
   setTitleId: [536],
   name: [
     { alignment: 'hero', value: 'Exorcised' },

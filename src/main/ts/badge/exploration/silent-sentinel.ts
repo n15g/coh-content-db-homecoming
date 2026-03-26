@@ -4,6 +4,7 @@ import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 export const SilentSentinel: BadgeData = {
   type: 'exploration',
   key: 'silent-sentinel',
+  gameId: 'AtlasParkTour2',
   setTitleId: [87],
   name: 'Silent Sentinel',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Banisher } from '../defeat/banisher'
 export const AvalancheShaman: BadgeData = {
   type: 'gladiator',
   key: 'avalanche-shaman',
+  gameId: 'Avalanche',
   setTitleId: [489],
   name: 'Avalanche Shaman',
   releaseDate: '2012-11-30',

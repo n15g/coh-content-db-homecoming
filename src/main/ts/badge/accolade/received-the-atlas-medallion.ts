@@ -8,6 +8,7 @@ import { TopDog } from '../exploration/top-dog'
 export const ReceivedTheAtlasMedallion: BadgeData = {
   type: 'accolade',
   key: 'received-the-atlas-medallion',
+  gameId: 'AtlasSet',
   setTitleId: [160],
   name: [
     { alignment: 'hero', value: 'Received the Atlas Medallion' },

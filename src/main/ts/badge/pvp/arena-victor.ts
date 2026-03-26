@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ArenaVictor: BadgeData = {
   type: 'pvp',
   key: 'arena-victor',
+  gameId: '1ArenaWin',
   setTitleId: [1336],
   name: 'Arena Victor',
   releaseDate: '2012-11-30',

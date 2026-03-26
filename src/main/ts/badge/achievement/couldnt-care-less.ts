@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CouldntCareLess: BadgeData = {
   type: 'achievement',
   key: 'couldnt-care-less',
+  gameId: 'RejectInspirations1000',
   setTitleId: [2383],
   name: `Couldn't Care Less`,
   releaseDate: '2019-01-01',

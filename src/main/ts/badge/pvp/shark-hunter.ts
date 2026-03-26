@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const SharkHunter: BadgeData = {
   type: 'pvp',
   key: 'shark-hunter',
+  gameId: 'RVCaptainMako',
   setTitleId: [584],
   name: 'Shark Hunter',
   releaseDate: '2012-11-30',

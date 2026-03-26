@@ -4,6 +4,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const OpheliasFinalScene: BadgeData = {
   type: 'exploration',
   key: 'ophelias-final-scene',
+  gameId: 'PerezParkTour8',
   setTitleId: [1776],
   name: `Ophelia's Final Scene`,
   releaseDate: '2012-11-30',

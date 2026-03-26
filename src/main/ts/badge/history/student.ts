@@ -6,6 +6,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const Student: BadgeData = {
   type: 'history',
   key: 'student',
+  gameId: 'CitizenCrimeAct',
   setTitleId: [148],
   name: 'Student',
   releaseDate: '2012-11-30',

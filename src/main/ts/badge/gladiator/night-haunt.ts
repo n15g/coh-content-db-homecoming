@@ -4,6 +4,7 @@ import { Pirate } from '../defeat/pirate'
 export const NightHaunt: BadgeData = {
   type: 'gladiator',
   key: 'night-haunt',
+  gameId: 'PirateGhost',
   setTitleId: [448],
   name: 'Night Haunt',
   releaseDate: '2012-11-30',

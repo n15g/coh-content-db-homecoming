@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BombSpecialist: BadgeData = {
   type: 'defeat',
   key: 'bomb-specialist',
+  gameId: 'RIWEDefeatUXB',
   setTitleId: [834],
   name: 'Bomb Specialist',
   releaseDate: '2012-11-30',

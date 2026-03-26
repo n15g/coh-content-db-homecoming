@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AllForOneOneForAll: BadgeData = {
   type: 'ouroboros',
   key: 'all-for-one-one-for-all',
+  gameId: 'LivesTeamPool0',
   setTitleId: [855],
   name: 'All For One, One For All',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ShowsOver: BadgeData = {
   type: 'defeat',
   key: 'shows-over',
+  gameId: 'DefeatCOL',
   setTitleId: [2059],
   name: `Show's Over`,
   releaseDate: '2012-11-30',

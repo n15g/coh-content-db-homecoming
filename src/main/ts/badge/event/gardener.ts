@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Gardener: BadgeData = {
   type: 'event',
   key: 'gardener',
+  gameId: 'Anniversary_CoT',
   setTitleId: [2526],
   name: 'Gardener',
   releaseDate: '2024-05-02',

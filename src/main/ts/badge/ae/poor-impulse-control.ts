@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PoorImpulseControl: BadgeData = {
   type: 'architect-entertainment',
   key: 'poor-impulse-control',
+  gameId: 'ArchitectClick10',
   setTitleId: [1172],
   name: 'Poor Impulse Control',
   releaseDate: '2012-11-30',

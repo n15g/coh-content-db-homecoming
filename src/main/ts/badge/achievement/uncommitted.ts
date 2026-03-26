@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Uncommitted: BadgeData = {
   type: 'achievement',
   key: 'uncommitted',
+  gameId: 'AlignmentTipMissions5',
   setTitleId: [2536],
   name: 'Uncommitted',
   releaseDate: '2024-11-19',

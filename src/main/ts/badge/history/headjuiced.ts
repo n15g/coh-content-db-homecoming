@@ -9,6 +9,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const Headjuiced: BadgeData = {
   type: 'history',
   key: 'headjuiced',
+  gameId: 'P_KnowledgeisPower',
   setTitleId: [1413],
   name: 'Headjuiced',
   releaseDate: '2012-11-30',

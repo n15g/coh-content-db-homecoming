@@ -4,6 +4,7 @@ import { UndergroundImperial } from '../../zone/underground-imperial'
 export const EyesOfTheDark: BadgeData = {
   type: 'exploration',
   key: 'eyes-of-the-dark',
+  gameId: 'P_EyesOfTheDark',
   setTitleId: [1648],
   name: 'Eyes of the Dark',
   releaseDate: '2012-11-30',

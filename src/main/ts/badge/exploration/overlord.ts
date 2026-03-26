@@ -4,6 +4,7 @@ import { Grandville } from '../../zone/grandville'
 export const Overlord: BadgeData = {
   type: 'exploration',
   key: 'overlord',
+  gameId: 'GrandvilleTour1',
   setTitleId: [283],
   name: 'Overlord',
   releaseDate: '2012-11-30',

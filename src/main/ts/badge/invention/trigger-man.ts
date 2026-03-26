@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TriggerMan: BadgeData = {
   type: 'invention',
   key: 'trigger-man',
+  gameId: 'InventionRateOfFire1',
   setTitleId: [785],
   name: 'Trigger Man',
   releaseDate: '2012-11-30',

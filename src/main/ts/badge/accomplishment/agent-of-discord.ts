@@ -4,6 +4,7 @@ import { EliminateNegotiatorAndWitnesses } from '../../mission/eliminate-negotia
 export const AgentOfDiscord: BadgeData = {
   type: 'accomplishment',
   key: 'agent-of-discord',
+  gameId: 'VSL5MissionA',
   setTitleId: [338],
   name: 'Agent of Discord',
   releaseDate: '2012-11-30',

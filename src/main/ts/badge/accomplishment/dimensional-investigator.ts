@@ -4,6 +4,7 @@ import { PraetoriasLastGasp } from '../../mission/praetorias-last-gasp'
 export const DimensionalInvestigator: BadgeData = {
   type: 'accomplishment',
   key: 'dimensional-investigator',
+  gameId: 'Mission_Incarnate_i24_Challenge_02',
   setTitleId: [2275],
   name: 'Dimensional Investigator',
   releaseDate: '2012-11-30',

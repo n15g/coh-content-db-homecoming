@@ -4,6 +4,7 @@ import { Eden } from '../../zone/eden'
 export const CreyFish: BadgeData = {
   type: 'exploration',
   key: 'crey-fish',
+  gameId: 'EdenTour1',
   setTitleId: [140],
   name: 'Crey Fish',
   releaseDate: '2012-11-30',

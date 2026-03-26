@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TankBuster: BadgeData = {
   type: 'defeat',
   key: 'tank-buster',
+  gameId: 'Blitzkrieg',
   setTitleId: [46],
   name: 'Tank Buster',
   releaseDate: '2012-11-30',

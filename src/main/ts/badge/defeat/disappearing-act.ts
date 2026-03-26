@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DisappearingAct: BadgeData = {
   type: 'defeat',
   key: 'disappearing-act',
+  gameId: 'DefeatApparitions',
   setTitleId: [2057],
   name: 'Disappearing Act',
   releaseDate: '2012-11-30',

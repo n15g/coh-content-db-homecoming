@@ -4,6 +4,7 @@ import { RevelationRiktiFactions } from '../../mission/revelation-rikti-factions
 export const TraditionalistFoil: BadgeData = {
   type: 'accomplishment',
   key: 'traditionalist-foil',
+  gameId: 'SL7MissionD',
   setTitleId: [2499],
   name: 'Traditionalist Foil',
   releaseDate: '2020-11-26',

@@ -4,6 +4,7 @@ import { IceMistralStrikeForce } from '../../mission/ice-mistral-strike-force'
 export const CrystalKeeper: BadgeData = {
   type: 'accomplishment',
   key: 'crystal-keeper',
+  gameId: 'SerafinaCrystalSF',
   setTitleId: [515],
   name: 'Crystal Keeper',
   releaseDate: '2012-11-30',

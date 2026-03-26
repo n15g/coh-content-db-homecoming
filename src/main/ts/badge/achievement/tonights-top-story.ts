@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TonightsTopStory: BadgeData = {
   type: 'achievement',
   key: 'tonights-top-story',
+  gameId: 'IT_TPN_MaelstromChallenge',
   setTitleId: [2076],
   name: `Tonight's Top Story`,
   releaseDate: '2012-11-30',

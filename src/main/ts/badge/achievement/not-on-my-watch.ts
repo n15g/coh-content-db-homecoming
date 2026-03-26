@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const NotOnMyWatch: BadgeData = {
   type: 'achievement',
   key: 'not-on-my-watch',
+  gameId: 'IT_BAF_NoEscapes',
   setTitleId: [1975],
   name: 'Not On My Watch',
   releaseDate: '2012-11-30',

@@ -6,6 +6,7 @@ import { DJZero } from '../../contact/dj-zero'
 export const MissedConnection: BadgeData = {
   type: 'event',
   key: 'missed-connection',
+  gameId: 'ValentineMisdelivery',
   setTitleId: [2113],
   name: 'Missed Connection',
   releaseDate: '2012-11-30',

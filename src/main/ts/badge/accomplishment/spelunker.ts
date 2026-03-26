@@ -4,6 +4,7 @@ import { RescueFortuneTellerFromTheCircleOfThorns } from '../../mission/rescue-f
 export const Spelunker: BadgeData = {
   type: 'accomplishment',
   key: 'spelunker',
+  gameId: 'SL2Point5Mission',
   setTitleId: [72],
   name: 'Spelunker',
   releaseDate: '2012-11-30',

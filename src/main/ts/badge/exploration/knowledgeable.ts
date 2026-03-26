@@ -4,6 +4,7 @@ import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 export const Knowledgeable: BadgeData = {
   type: 'exploration',
   key: 'knowledgeable',
+  gameId: 'N_Tutorial_Knowledgeable',
   setTitleId: [2071],
   name: 'Knowledgeable',
   releaseDate: '2019-01-01',

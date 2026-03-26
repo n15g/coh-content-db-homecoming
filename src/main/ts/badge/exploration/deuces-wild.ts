@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const DeucesWild: BadgeData = {
   type: 'exploration',
   key: 'deuces-wild',
+  gameId: 'StMartialTour1',
   setTitleId: [279],
   name: 'Deuces Wild',
   releaseDate: '2012-11-30',

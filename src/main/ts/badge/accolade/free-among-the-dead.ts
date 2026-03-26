@@ -11,6 +11,7 @@ import { DeathsHeadSupplicant } from '../exploration/deaths-head-supplicant'
 export const FreeAmongTheDead: BadgeData = {
   type: 'accolade',
   key: 'free-among-the-dead',
+  gameId: 'DarkAstoriaIncarnateExplorer',
   setTitleId: [2187],
   name: 'Free Among the Dead',
   releaseDate: '2012-11-30',

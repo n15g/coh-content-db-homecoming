@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MysticallyPowered: BadgeData = {
   type: 'invention',
   key: 'mystically-powered',
+  gameId: 'InventionEndurance4',
   setTitleId: [783],
   name: 'Mystically Powered',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Dismantler: BadgeData = {
   type: 'invention',
   key: 'dismantler',
+  gameId: 'InventionDeBuff4',
   setTitleId: [763],
   name: 'Dismantler',
   releaseDate: '2012-11-30',

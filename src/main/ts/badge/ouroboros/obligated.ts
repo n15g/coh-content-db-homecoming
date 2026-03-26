@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Obligated: BadgeData = {
   type: 'ouroboros',
   key: 'obligated',
+  gameId: 'ArchetypePowersOnlyatSL7',
   setTitleId: [892],
   name: 'Obligated',
   releaseDate: '2012-11-30',

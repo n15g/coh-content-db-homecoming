@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Executioner: BadgeData = {
   type: 'achievement',
   key: 'executioner',
+  gameId: 'P_Executioner',
   setTitleId: [2346],
   name: 'Executioner',
   releaseDate: '2012-11-30',

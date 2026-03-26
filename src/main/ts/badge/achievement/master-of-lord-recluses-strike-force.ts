@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfLordReclusesStrikeForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-lord-recluses-strike-force',
+  gameId: 'MasterofLordReclusesStrikeForce',
   setTitleId: [945],
   name: `Master of Lord Recluse's Strike Force`,
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Businessman: BadgeData = {
   type: 'consignment',
   key: 'businessman',
+  gameId: 'AuctionSeller9',
   setTitleId: [818],
   name: [
     { sex: 'M', value: 'Businessman' },

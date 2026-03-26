@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Critic: BadgeData = {
   type: 'architect-entertainment',
   key: 'critic',
+  gameId: 'ArchitectHallofFame5',
   setTitleId: [1187],
   name: 'Critic',
   releaseDate: '2012-11-30',

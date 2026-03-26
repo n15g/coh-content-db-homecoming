@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const Starstruck: BadgeData = {
   type: 'history',
   key: 'starstruck',
+  gameId: 'P_Starstruck',
   setTitleId: [1408],
   name: 'Starstruck',
   releaseDate: '2012-11-30',

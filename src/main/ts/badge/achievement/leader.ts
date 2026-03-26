@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Leader: BadgeData = {
   type: 'achievement',
   key: 'leader',
+  gameId: 'Trillionaire',
   setTitleId: [244, 1704],
   name: [
     { value: 'Leader' },

@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const Libertarian: BadgeData = {
   type: 'exploration',
   key: 'libertarian',
+  gameId: 'MayhemMap8',
   setTitleId: [562],
   name: [
     { alignment: 'hero', value: 'Libertarian' },

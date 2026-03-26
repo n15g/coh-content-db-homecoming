@@ -4,6 +4,7 @@ import { TheGraveyardShift } from '../../mission/the-graveyard-shift'
 export const WentOffScript: BadgeData = {
   type: 'accomplishment',
   key: 'went-off-script',
+  gameId: 'Mission_i27_Vigilante',
   setTitleId: [2436],
   name: 'Went Off Script',
   releaseDate: '2020-11-26',

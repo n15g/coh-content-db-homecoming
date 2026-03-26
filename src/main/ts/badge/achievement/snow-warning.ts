@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const SnowWarning: BadgeData = {
   type: 'achievement',
-  key: 'snow-warning',
+  key: 'snow-warning',  gameId: 'ZoeTF_Challenge1',
+
   setTitleId: [2577],
   name: 'Snow Warning',
   releaseDate: '2025-11-25',

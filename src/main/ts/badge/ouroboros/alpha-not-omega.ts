@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AlphaNotOmega: BadgeData = {
   type: 'ouroboros',
   key: 'alpha-not-omega',
+  gameId: 'AlphaSlotOnlyatSL9',
   setTitleId: [2474],
   name: 'Alpha Not Omega',
   releaseDate: '2020-11-26',

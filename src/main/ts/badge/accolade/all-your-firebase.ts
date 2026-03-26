@@ -11,6 +11,7 @@ import { XRaySpectator } from '../exploration/x-ray-spectator'
 export const AllYourFirebase: BadgeData = {
   type: 'accolade',
   key: 'all-your-firebase',
+  gameId: 'FirebaseZuluExplorer',
   setTitleId: [1881],
   name: 'All Your Firebase...',
   releaseDate: '2012-11-30',

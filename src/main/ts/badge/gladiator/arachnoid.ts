@@ -4,6 +4,7 @@ import { SewerDweller } from '../exploration/sewer-dweller'
 export const Arachnoid: BadgeData = {
   type: 'gladiator',
   key: 'arachnoid',
+  gameId: 'Arachnoid',
   setTitleId: [440],
   name: 'Arachnoid',
   releaseDate: '2012-11-30',

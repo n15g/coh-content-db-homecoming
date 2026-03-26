@@ -4,6 +4,7 @@ import { ThirdTerraVoltaRespecificationTrial } from '../../mission/third-terra-v
 export const AwardedTheFreedomCross: BadgeData = {
   type: 'accolade',
   key: 'awarded-the-freedom-cross',
+  gameId: 'FreedomCrossUsed',
   setTitleId: [180],
   name: [
     { alignment: 'hero', value: 'Awarded the Freedom Cross' },

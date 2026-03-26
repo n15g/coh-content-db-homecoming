@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AlarmRaiser: BadgeData = {
   type: 'achievement',
   key: 'alarm-raiser',
+  gameId: 'IT_BAF_NoTowers',
   setTitleId: [1976],
   name: 'Alarm Raiser',
   releaseDate: '2012-11-30',

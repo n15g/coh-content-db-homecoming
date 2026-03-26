@@ -4,6 +4,7 @@ import { TheShiningStarsWithFriendsLikeThese } from '../../mission/the-shining-s
 export const Supernova: BadgeData = {
   type: 'accomplishment',
   key: 'supernova',
+  gameId: 'Badge_OGTH3',
   setTitleId: [2016],
   name: 'Supernova',
   releaseDate: '2012-11-30',

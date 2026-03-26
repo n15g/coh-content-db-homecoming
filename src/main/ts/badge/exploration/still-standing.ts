@@ -4,6 +4,7 @@ import { SirensCall } from '../../zone/sirens-call'
 export const StillStanding: BadgeData = {
   type: 'exploration',
   key: 'still-standing',
+  gameId: 'SirensCallTour7',
   setTitleId: [2417],
   name: 'Still Standing',
   releaseDate: '2019-06-01',

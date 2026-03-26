@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Gravedigger: BadgeData = {
   type: 'defeat',
   key: 'gravedigger',
+  gameId: 'Gravedigger',
   setTitleId: [33],
   name: 'Gravedigger',
   releaseDate: '2012-11-30',

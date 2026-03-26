@@ -11,6 +11,7 @@ import { Misunderstood } from '../exploration/misunderstood'
 export const LostAndFound: BadgeData = {
   type: 'accolade',
   key: 'lost-and-found',
+  gameId: 'FoundersFallsExplorer',
   setTitleId: [1564],
   name: 'Lost and Found',
   releaseDate: '2012-11-30',

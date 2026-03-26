@@ -11,6 +11,7 @@ import { UrbanRenewal } from '../exploration/urban-renewal'
 export const ANeuMan: BadgeData = {
   type: 'accolade',
   key: 'a-neu-man',
+  gameId: 'P_NeutropolisExplorer',
   setTitleId: [1654],
   name: [
     { sex: 'M', value: 'A Neu Man' },

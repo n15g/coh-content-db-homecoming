@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfLadyGreysTaskForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-lady-greys-task-force',
+  gameId: 'MasterofLadyGreysTaskforce',
   setTitleId: [1584],
   name: `Master of Lady Grey's Task Force`,
   releaseDate: '2012-11-30',

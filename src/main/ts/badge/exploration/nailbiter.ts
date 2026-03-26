@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const Nailbiter: BadgeData = {
   type: 'exploration',
   key: 'nailbiter',
+  gameId: 'P_Nailbiter',
   setTitleId: [1747],
   name: 'Nailbiter',
   releaseDate: '2012-11-30',

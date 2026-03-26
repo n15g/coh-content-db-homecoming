@@ -4,6 +4,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const Avatar: BadgeData = {
   type: 'exploration',
   key: 'avatar',
+  gameId: 'PerezParkTour2',
   setTitleId: [102],
   name: 'Avatar',
   releaseDate: '2012-11-30',

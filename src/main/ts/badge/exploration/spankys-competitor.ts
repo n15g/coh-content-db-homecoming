@@ -4,6 +4,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const SpankysCompetitor: BadgeData = {
   type: 'exploration',
   key: 'spankys-competitor',
+  gameId: 'TalosIslandTour8',
   setTitleId: [1550],
   name: `Spanky's Competitor`,
   releaseDate: '2012-11-30',

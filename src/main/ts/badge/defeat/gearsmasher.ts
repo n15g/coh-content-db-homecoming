@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Gearsmasher: BadgeData = {
   type: 'defeat',
   key: 'gearsmasher',
+  gameId: 'Gearsmasher',
   setTitleId: [31],
   name: 'Gearsmasher',
   releaseDate: '2012-11-30',

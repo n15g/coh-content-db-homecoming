@@ -1,0 +1,1747 @@
+1;Hellspawned;Hellspawned
+2;Medic/Fixer;Medic
+3;Surgeon/Doc;Surgeon
+4;Doctor/Mad Scientist;Doctor
+5;Celebrity/Bling;Celebrity
+6;Sensation/Mr. Big/Ms. Big;Sensation
+7;Superstar/Midas Touch;Superstar
+8;Tough/Stoic;Tough
+9;Indestructible/Hard Case;Indestructable
+10;Adamant/Ironman/Ironwoman;Adamant
+11;Unbreakable;Unbreakable
+12;Advisor/Comrade;Advisor
+13;Guide/Drill Instructor;Guide
+14;Paragon/Svengali;Paragon
+15;The Unwavering/Punch Drunk;UnwaveringFocus
+16;The Unyielding/Unbroken;UnyieldingWill
+17;The Unbroken Spirit;UnbrokenSpirit
+18;Restrained/Slacker;Restrained
+19;Entangled/Sleepy;Entangled
+20;Imprisoned/Dazed and Confused;Imprisoned
+21;Protector of Innocents/Soldier;Level10
+22;Keeper of Peace/Insider;Level20
+23;Defender of Truth/Wiseguy/Wisegal;Level30
+24;Justice Incarnate/Captain;Level40
+25;Hero of the City/Made;Level50
+26;Tourist/Visitor;Tourist
+27;Collector/Native;Collector
+28;Explorer/Obsessed;Explorer
+29;Pathfinder;Pathfinder
+30;Bonecrusher;Bonecrusher
+31;Gearsmasher;Gearsmasher
+32;Clockstopper;Clockstopper
+33;Gravedigger;Gravedigger
+34;The Silver Bullet;SilverBullet
+35;The Slayer;Slayer
+37;Banisher;Banisher
+38;Keeper of Secrets;KeeperOfSecrets
+39;Isolator;Quarantine
+40;Soul Binder;SoulBinder
+41;Demon Slayer;DemonSlayer
+42;Infiltrator;Infiltrator
+43;Protectorate/Devourer of Earth;Protectorate
+44;The Solution;TheSolution
+45;Untouchable;Untouchable
+46;Tank Buster;Blitzkrieg
+47;Unveiler;Unveiler
+48;Weatherman/Weathergirl;Weatherman
+49;Warden/Cruel Warden;Warden
+50;Zookeeper;Zookeeper
+51;Finder;Finder
+52;Privateer;Privateer
+53;Regenerator;Regenerator
+54;Tracer;Tracer
+55;Legionnaire;Legionnaire
+56;Illusionist;Illusionist
+57;Dimensional Warder;DimensionalWarder
+58;Statesman's Pal/Praetoria's Bane;StatesmansPal
+59;Monkeywrencher;Monkeywrencher
+60;Master of Olympus/Mistress of Olympus;MasterOfOlympus
+61;Positron's Ally/Positron's Betrayer;PositronTF
+62;Synapse's Cohort/Synapse's Betrayer;SynapseTF
+63;Sister Psyche's Comrade/Sister Psyche's Betrayer;SisterPsycheTF
+64;Citadel's Assistant/Citadel's Betrayer;BastionTF
+65;Manticore's Associate/Manticore's Betrayer;ManticoreTF
+66;Numina's Compatriot/Numina's Betrayer;NuminaTF
+67;Transmogrified;TerraVoltaTR
+68;Liberator/Destroyer of Earth;EdenTR
+69;Charmer;SewerTR
+70;Transcendent;HollowsTR
+71;Negotiator;SL2Mission
+72;Spelunker;SL2Point5Mission
+73;Plague Stopper/Deadly Virus;SL3Mission
+74;Spirit Warrior;SL4MissionA
+75;Pwnz;SL4MissionB
+76;Redeemer/Conqueror;SL5MissionA
+77;Mystical Savior/Mystical Adept;SL5MissionB
+78;Corrupter;SL6MissionA
+79;War Wall Defender/Saboteur;SL6MissionB
+80;The Doctor's Ally;SL7MissionA
+81;Frontline;SL7MissionB
+82;Emancipator;SL8MissionA
+83;Meteorologist;SL8MissionB
+84;Bodyguard;SL9MissionA
+85;Agent;SL9MissionB
+86;Undefeated;AtlasParkTour1
+87;Silent Sentinel;AtlasParkTour2
+88;Hero Corps Insider/Hero Corps Infiltrator;AtlasParkTour3
+89;Patriot/International Spy;AtlasParkTour4
+90;Top Dog;AtlasParkTour5
+91;Bird Watcher;GalaxyCityTour1
+92;Blue Shield;GalaxyCityTour2
+93;Brawler;GalaxyCityTour3
+94;Tank;GalaxyCityTour4
+95;Land Locked;GalaxyCityTour5
+96;Summoned;KingsRowTour1
+97;Upgraded;KingsRowTour2
+98;Mystic King/Mystic Queen;KingsRowTour3
+99;Keen Sighted;KingsRowTour4
+100;Smokey;KingsRowTour5
+101;Territorial;PerezParkTour1
+102;Avatar;PerezParkTour2
+103;Around the Bendis;PerezParkTour3
+104;Doc Whedon;PerezParkTour4
+105;Justice Avenger/Social Climber;PerezParkTour5
+106;Secret Admirer;SteelCanyonTour1
+107;Hero Corps Recruit/Hero Corps Reject;SteelCanyonTour2
+108;Nimble Mynx;SteelCanyonTour3
+109;Bright Star;SteelCanyonTour4
+110;Purifier/Defiler;SkywayCityTour1
+111;Solace;SkywayCityTour2
+112;Dauntless;SkywayCityTour3
+113;Healing Node;SkywayCityTour4
+114;Phalanxer;BoomtownTour1
+115;Regal;BoomtownTour2
+116;Vision of Despair;BoomtownTour3
+117;Destined for Valhalla;BoomtownTour4
+118;Undammed;FaultlineTour1
+119;Newsman/Newsgirl;FaultlineTour2
+120;Faultless Mystic;FaultlineTour3
+121;Apex;FaultlineTour4
+122;Crey Havoc;IndependancePortTour1
+123;Valorous;IndependancePortTour2
+124;Vigorous;IndependancePortTour3
+125;Minotaur;TalosIslandTour1
+126;Nature Lover/Eco-warrior;TalosIslandTour2
+127;Whitecap;TalosIslandTour3
+128;Dark Mystic;DarkAstoriaTour1
+129;Seeker of the Unknown;DarkAstoriaTour2
+130;Cairn Warder;DarkAstoriaTour3
+131;Conjunction Junction;TerraVoltaTour1
+132;Meltdown;TerraVoltaTour2
+133;Nervous Dreck;TerraVoltaTour3
+134;Foggy;FoundersFallsTour1
+135;Chaotician;FoundersFallsTour2
+136;Mystic;BrickstownTour1
+137;Inmate;BrickstownTour2
+138;Crey Watcher;CreysFolleyTour1
+139;Burning the Midnight Oil;CreysFolleyTour2
+140;Crey Fish;EdenTour1
+141;Unspoiled;EdenTour2
+142;Time Bandit;TheHiveTour1
+143;Heart of the Hamidon;TheHiveTour2
+144;Portal Parter;PeregrineIslandTour1
+145;Ace;RiktiCrashSiteTour1
+146;Head of the Hydra;AbandonedSewersTour1
+148;Student;CitizenCrimeAct
+149;Expert;MightForRightAct
+150;Intellectual;PsychicFeedbackLoop
+151;Scholar;WarOnDrugs
+152;Just Said No to Superadine;Superadine
+153;Disciple;HeroCorps
+154;Historian;SpecialCouncil
+155;Authority;FreedomPhalanx
+156;Researcher;SpankyRabinowitz
+157;Savant;RiktiWar
+158;Scholastic;DimensionalBarrier
+159;Academic;NemesisSeizesControl
+160;Received the Atlas Medallion/Atlas Shrugged;AtlasSet
+161;Freedom Phalanx Reserve Member/Freedom Phalanx Fallen;FreedomPhalanxSet
+164;Vanguard;RiktiWarSet
+165;Portal Jockey;DimensionalHopperSet
+167;Archmage;MagusSet
+168;Conspiracy Theorist;CreySet
+172;Multidimensional;HydraDimension1
+173;Shrouded/Shady;BlackShroudDimension1
+174;Pupil;AtlasHistory
+178;Received the Stalwart Medallion/Lost the Stalwart Medallion;StalwartMedallionUsed
+179;Earned the Statesman Star/Denied the Statesman Star;StatesmanStarUsed
+180;Awarded the Freedom Cross/Stripped of the Freedom Cross;FreedomCrossUsed
+181;Unleasher;Unleasher
+182;Freedom/Covert Operator;AtlasParkTour6
+183;V.I.P./Destined One;DVDEdition
+184;Hallow Spirit;HallowSpirit
+185;Hunter;Hunter
+186;Buster;Buster
+187;Shifter;Shifter
+188;Dead Head;DeadHead
+189;Malleus;Malleus
+190;Digger;Hollowing
+191;Ghost Hunter;Ghostship
+192;Parapsychologist;HollowsTour1
+193;Seeker of Monsters;HollowsTour2
+194;Geologist;HollowsTour3
+195;Backwoodsman;HollowsTour4
+196;Super Spy;StrigaTour1
+197;Sea Dog;StrigaTour2
+198;Vulcanologist;StrigaTour3
+199;Gangland Fury;HollowsTour5
+200;Knight Errant/Black Knight;ClockworkPaladinEventBadge
+202;Burkholder's Bane;CouncilRobotBadge
+203;Volcanic;Volcanic
+204;Visionary;Visionary
+205;Troll Task Force Member;TrollTaskForce
+206;Firebase Zulu Security Detail/Firebase Zulu Deserter;FirebaseZuluSecurity
+207;Devilfish;OctopusEventBadge
+208;Ectoplasmic;GhostShipDefeats
+209;Cold Warrior;SnowmenDefeatBadge
+210;Frozen Fury;SnowbeastDefeatBadge
+211;Volunteer Firefighter/Fire Bane;HellionsFireBronze
+212;Firefighter/Firestomper;HellionsFireSilver
+213;Fire Chief/Asbestos;HellionsFireGold
+215;Bug Hunter;BetaTester
+217;Kill Skuls;Bonecrusher2
+218;Raver;TrollsRaveRoundup
+219;Dee Jay;TrollsRaveSmasher
+220;Strawweight Champion;Strawweight
+221;Flyweight Champion;Flyweight
+222;Bantamweight Champion;Bantamweight
+223;Featherweight Champion;Featherweight
+224;Lightweight Champion;Lightweight
+225;Welterweight Champion;Welterweight
+226;Middleweight Champion;Middleweight
+227;Cruiserweight Champion;Cruiserweight
+228;Heavyweight Champion;Heavyweight
+229;Super Heavyweight Champion;SuperHeavyweight
+230;Nigh Indestructible;NighIndestructable
+231;Invulnerable;Invulnerable
+232;Immortal;Immortal
+233;Deathless;Deathless
+234;Undying;Undying
+235;Exalted;Exalted
+236;Medical Specialist;MedicalSpecialist
+237;Medicine Man/Medicine Woman;MedicineMan
+238;Empath;Empath
+239;Confined;Confined
+240;Caged;Caged
+241;Jailed;Jailed
+242;Trendsetter;Multimillionaire
+243;Popular;Billionaire
+244;Leader;Trillionaire
+245;Role Model;RoleModel
+246;Epitome;Epitome
+247;Paradigm;Paradigm
+248;Pirate;GhostTrap50
+249;Spectral;GhostTrap100
+250;Celebrant;Anniversary1
+251;Scurvy Dog;PortOakesTour1
+252;Washed Up;PortOakesTour2
+253;Powder Monkey;PortOakesTour3
+254;Driller;PortOakesTour4
+255;Lobbyist/Crooked Politician;BloodyBayTour1
+256;Hungry/All Consuming;BloodyBayTour2
+257;Imploding;BloodyBayTour3
+258;Ghoulish;BloodyBayTour4
+259;Hangman/Hangwoman;SirensCallTour1
+260;Politician;SirensCallTour2
+261;Broad Shoulders;SirensCallTour3
+262;Piratical;SirensCallTour4
+263;Cesspool;MercyIslandTour1
+264;Snake Charmer;MercyIslandTour2
+265;Chum;MercyIslandTour3
+266;Fortified;MercyIslandTour4
+267;The Next Big Thing;MercyIslandTour5
+268;Widower/Widow;MercyIslandTour6
+269;Sparky;CapAuDiableTour1
+270;Media Junky;CapAuDiableTour2
+271;Egghead;CapAuDiableTour3
+272;Steamed;CapAuDiableTour4
+273;Sweet Tooth;CapAuDiableTour5
+274;Watcher on the Knoll;NervaTour1
+275;Locked and Loaded;NervaTour2
+276;Nerva Wreck;NervaTour3
+277;Primal Instinct;NervaTour4
+278;Tree Hugger;NervaTour5
+279;Deuces Wild;StMartialTour1
+280;Paroled/Crimelord;StMartialTour2
+281;Stonekeeper;StMartialTour3
+282;Camel Snot;StMartialTour4
+283;Overlord;GrandvilleTour1
+284;Sewer Dweller;GrandvilleTour2
+285;Guttersnipe;GrandvilleTour3
+286;Master of the Airwaves/Mistress of the Airwaves;GrandvilleTour4
+287;Globetrotter;ReclusesVictoryTour1
+288;Ragnarok;ReclusesVictoryTour2
+289;Temporal Fighter/Dark Victory;ReclusesVictoryTour3
+290;Last Stand;ReclusesVictoryTour4
+291;Weapon Inspector/Weapon of Mass Destruction;WarburgTour1
+292;Tunnel Rat;WarburgTour2
+293;Triumphant;WarburgTour3
+295;Razor Toothed;SharkheadTour1
+296;Forged by Hellfire;SharkheadTour2
+297;Freak of Nature;SharkheadTour3
+298;Pit Viper;SharkheadTour4
+299;Electrician;DeathSurge
+300;Strike Buster;StrikeBuster
+304;Hammer Down;Scrapyard
+305;Annihilator;RogueHero
+306;Coldblooded/Coldhearted;ThornIsle1
+307;Hell Bane;ThornIsle2
+308;Weed Whacker;WeedWhacker
+309;Gangbuster;Gangbuster
+310;Fort Knox;FortKnox
+311;Reformed/Villain;Villain
+312;Man in Black/Woman in Black;ManinBlack
+313;The Mongoose;TheMongoose
+314;Spider Smasher;SpiderSmasher
+315;Swashbuckler;PirateHistory
+316;Arachnos Rising;RecluseArrival
+317;Lorekeeper;CoTMu
+318;Technofreak;Experiments
+323;Former Servant of Recluse/Servant of Recluse;LordRecluseTF
+330;Stone Cold;VSL2MissionA
+331;Bone Collector;VSL2MissionB
+332;Plague Carrier;VSL2.5MissionA
+333;Mask Maker;VSL2.5MissionB
+334;Penitent of Vice/Paragon of Vice;VSL3MissionA
+335;Seaweed;VSL3MissionB
+336;Strikebreaker;VSL4MissionA
+337;Slag Reaper;VSL4MissionB
+338;Agent of Discord;VSL5MissionA
+339;Soul Taker;VSL5MissionB
+340;Bad Luck;VSL6MissionA
+341;Exterminator;VSL6MissionB
+342;Skip Tracer;VSL7MissionA
+343;Portal Hopper;VSL7MissionB
+344;Party Crasher;VSL8MissionA
+345;Mage Hunter;VSL8MissionB
+346;Efficiency Expert;VSL9MissionA
+347;Couch Potato;VSL9MissionB
+351;Web Master;Warburg
+364;Reinforcement;Ace
+365;Forward Observer;Manhunter
+366;Disruptor;HeadHunter
+367;Vigilante/Wanted;Wanted
+368;Risk Taker/Most Wanted;MostWanted
+369;Agent Provocateur;AgentProvocateur
+370;Gunner;Gunner
+371;Rocketman/Rocketwoman;Rocketman
+372;Tempus Fugitive/Destroyer of Worlds;DestroyerofWorlds
+375;Power Liberator/Master Thief;MasterThief
+398;Recluse's Betrayer/Recluse's Right Hand;ReclusesRightHand
+399;Siren's Song/Raider;Siren'sCall
+400;Time Traveler;RecluseVictory
+401;Irradiated;BloodyBay
+406;Goon Squad;GoonSquad
+407;Trailblazer;Trailblazer
+408;Grim Wanderer;CroatoaTour1
+409;Spiritual;CroatoaTour2
+410;Ensorcelled;CroatoaTour3
+411;Alumnus;CroatoaHistory
+412;Honorary Peacebringer/Alien Fighter;StrigaTF
+413;Once the Victor;Victor1
+414;Twice the Victor;Victor2
+415;Thrice the Victor;Victor3
+416;Four Times the Victor;Victor4
+417;Five Times the Victor;Victor5
+418;Six Times the Victor;Victor6
+419;Seven Times the Victor;Victor7
+420;Eight Times the Victor;Victor8
+421;Nine Times the Victor;Victor9
+422;Ten Times the Victor;Victor10
+423;Portal Smasher;ShardTF1
+424;Destroyer of Strength;ShardTF2
+425;Protector of Kindness/Thorn Crusher;ShardTF3
+426;Slayer of Madness;ShardTF4
+427;Cabalist;CroatoaTF
+428;Giant Killer;GiantKiller
+429;Pumpkin King/Pumpkin Queen;PumpkinKing
+430;Believer;Believer
+431;Cap Buster;CapBuster
+432;Pumpkin Master/Pumpkin Mistress;PumpkinMaster
+433;Bane of Dannan;BaneofDannan
+434;Spellbinding;Spellbinding
+435;Geas of the Kind Ones;GeasoftheKindOnes
+436;Haunted;Haunted
+437;Jail Bird;TutorialTour3
+438;Mook;Mook
+439;Wolf Spider Enforcer;WolfSpider
+440;Arachnoid;Arachnoid
+441;Wolf Spider Tac Ops;TacOps
+442;Mu Guardian;MuGuardian
+443;Fortunata Seer;Fortunata
+444;Night Widow;NightWidow
+445;Crab Spider Longfang;CrabSpider
+446;Tarantula;Tarantula
+447;Gremlin;Gremlin
+448;Night Haunt;PirateGhost
+449;Coralax Blue Hybrid;Coralax
+450;Red Hand;RedHand
+451;Cobra;Cobra
+452;Shivan Destroyer;ShivanDestroyer
+453;Arachnobot;Arachnobot
+454;Longbow Rifleman;LongbowRifleman
+455;Longbow Warden;LongbowTanker
+456;Mook Capo;Capo
+457;Wailer;Wailer
+458;Wailer Queen;WailerQueen
+459;Longbow Nullifier;Nullifier
+460;Longbow Defender;LongbowDefender
+461;Hordeling Lasher;Lasher
+462;Hellfrost;Hellstrike
+464;Ember Legacy of Flame;LegacyFlame
+465;Lucent Legacy of Light;LegacyLight
+466;Kaolin Legacy of Earth;LegacyEarth
+467;Longbow Spec-Ops;SpecOps
+468;Slag Pile;SlagPile
+469;Ink Man;Inkman
+470;Sorcerer;Sorcerer
+471;Hercules Titan;Titan
+473;Lanista;Lanista
+474;Grand Lanista;GrandLanista
+475;Juicer;JuicerSniper
+476;Cog;Cog
+477;Outcast Slugger;Slugger
+478;Crane Enforcer;Crane
+479;Abomination;Abomination
+480;Hydra Protean;Protean
+481;Caliban;Caliban
+482;Button Man Gunner;ButtonMan
+483;Chief Swiper;Swiper
+484;Anathema;Anathema
+485;Bladegrass;Bladegrass
+486;Fire Thorn Caster;FireCaster
+487;Raider Engineer;RaiderEngineer
+488;Boulder;Boulder
+489;Avalanche Shaman;Avalanche
+490;Tank Smasher;TankSmasher
+491;Nebula Elite Buckshot;NebulaBuckshot
+492;Penumbra Elite Adjutant;Penumbra
+493;Smasher Elite;WarriorSmasher
+494;Swift Steel;SwiftSteel
+495;Nemesis Soldier;NemesisSoldier
+496;Rikti Drone;RiktiDrone
+497;Zenith Warcry Mk I;Warcry
+498;Fungoid;Fungoid
+499;Pariah Anchorite;Anchorite
+500;Research Assistant;ResearchAsst
+501;7th Generation Paragon Protector;ParagonProtect
+502;Warhulk;Warhulk
+503;Behemoth Overlord;Behemoth
+504;Wraith;Wraith
+505;Meson;Meson
+506;Steel Strongman;Strongman
+507;Crey Power Tank;PowerTank
+508;Omega Wolf;OmegaWolf
+509;Arch-Mage of Agony;ArchMage
+510;Mob Specialist;MobSpec
+511;Hammerhead;Hammerhead
+512;Binder of Beasts;BatzulSF
+513;Pirate Hunter/Air Pirate;SkyRaiderSF
+514;Leviathan;WaterTempleSF
+515;Crystal Keeper;SerafinaCrystalSF
+516;Thorn Robber;UnderTheKnifeUsed
+517;Thorn Thief;NipTuckUsed
+518;Thorn Usurper;FaceliftedUsed
+519;Surging;Surging
+520;Longbow Reservist/Jet-Setter;Holiday2005Badge1
+521;Holiday Spirit/Scrooge;Holiday2005Badge2
+522;Toy Collector;Holiday2005Badge3
+524;Heart of Light/Heart of Darkness;ValentineLogin
+527;Handsome/Beautiful;LovePotion
+528;Toothbreaker;HuntBadge
+529;Red Cap;RedcapGladiator
+530;Snowbeast;WinterMinion
+532;Ex-Marshal/Marshal;Marshal
+533;Yesterday's News/Headline Stealer;HeadlineStealer
+534;Born in Battle;BornInBattle
+535;Gotten Soft/High Pain Threshold;HighPainThreshold
+536;Exorcised/Demonic;Demonic
+537;In Therapy/Megalomaniac;Megalomaniac
+538;Venomous;Venomous
+547;Reformed Firebug/Firebug;MayhemFirebug
+548;Uninsurable/Force of Nature;MayhemForceOfNature
+549;Bloody Hands/Hero Slayer;MayhemHeroSlayer
+550;Pedestrian/Impounder;MayhemImpounder
+551;Return Visitor/Invader;MayhemInvader
+552;Thin Line/Outlaw;MayhemOutlaw
+553;Locksmith/Safecracker;MayhemSafecracker
+554;Anger Manager/Vandal;MayhemVandal
+555;Global Guardian/Global Threat;MayhemMap1
+556;King Maker;MayhemMap2
+557;Road Raged;MayhemMap3
+558;Steel Worker;MayhemMap4
+559;Revolutionary/Tyrannical;MayhemMap5
+560;Talon of Talos;MayhemMap6
+561;Brickhouse;MayhemMap7
+562;Libertarian/Anarchist;MayhemMap8
+563;Gate Closer/Gate Crasher;MayhemMap9
+564;Time Machinist;RVPillbox10
+565;Somewhere in Time;RVPillbox100
+566;Back From the Future;RVPillbox1000
+567;Temporal Agent;RVHeavy10
+568;Temporal Spy;RVHeavy50
+569;Temporal Soldier;RVHeavy250
+570;Heat Seeker;ArachnosFlier
+571;Usurper;DefeatRecluse
+572;Ex-Archvillain/Archvillain;DefeatStatesman
+574;Oppressor;RVStatesman
+575;Destroyer;RVPositron
+576;Dead-eye;RVManticore
+577;Interrogator;RVSisterPsyche
+578;Breakneck;RVSynapse
+579;Uppercut;RVBackAlleyBrawler
+580;Arachnophobic;RVLordRecluse
+581;Wrangler;RVBlackScorpion
+582;Poltergeist;RVGhostWidow
+583;Sandblasted;RVScirocco
+584;Shark Hunter;RVCaptainMako
+585;Redeemed Blackguard/Blackguard;RVAllHeroes
+586;Justiciar/Fallen Justiciar;RVAllVillains
+608;Task Force Commander/Task Force Abandoner;TaskForceCommander
+611;Reveler;Anniversary2
+612;5th Columnist;5thGladiator
+614;False Image/Mirage;MiragePatron
+615;Shark Bait/Bloodletter;BloodInTheWaterPatron
+616;Anti-Venom/Spider's Kiss;SpidersKissPatron
+617;Fwoosh/The Stinger;TheStingerPatron
+619;Beta Tester;BetaTester2
+623;Pocket D VIP Gold Club Member;GoldClub
+624;Overleveled;Veteran3
+625;Faithful;Veteran6
+626;Dependable;Veteran9
+627;Loyal;Veteran12
+628;Zealous;Veteran15
+629;Staunch;Veteran18
+630;Steadfast;Veteran21
+631;Devoted;Veteran24
+632;Dedicated;Veteran27
+633;Committed;Veteran30
+634;Unswerving;Veteran33
+635;Addicted;Veteran36
+636;Escape Artist;FaultlineTour5
+637;Drowned Rat;FaultlineTour6
+638;Old Fashioned;FaultlineTour7
+639;Egg Hunter;FaultlineEaster
+640;Fire Marshal/Fired;SafeguardFireMarshal
+641;Bomb Squad/Blue Wire;SafeguardBombSquad
+642;PPD Deputy/Disgraced Deputy;SafeguardPPDDeputy
+643;Security Expert/Inside Man/Inside Woman;SafeguardSecurityExpert
+644;Interceptor;SafeguardInterceptor
+645;Villain Disruptor;SafeguardVillainDisruptor
+646;Force of Justice/Force of Injustice;SafeguardForceOfJustice
+647;Stouthearted/Stonehearted;SafeguardStouthearted
+648;Heart of the City/Hate of the City;SafeguardMap1
+649;King's Righteousness/King's Capriciousness;SafeguardMap2
+650;Courage Driven/Rage Driven;SafeguardMap3
+651;Freedom's Defender/Freedom's Crusher;SafeguardMap4
+652;Honorable Captain/Dishonorable Captain;SafeguardMap5
+653;Talos' Might/Talos' Blight;SafeguardMap6
+654;Cornerstone/Weak Point;SafeguardMap7
+655;Founders' Protector/Founders' Invader;SafeguardMap8
+656;Gatekeeper/Keymaster;SafeguardMap9
+696;Rescuer/Big Softie;YinBadge
+697;Ghost Touched;GhostTouched
+698;Iron Warrior;IronWarrior
+699;Pursuer/Elusive;CoVAnniversary
+701;Miraculous;Miraculous
+702;Joyful;Joyful
+703;Frosty;Frosty
+704;Crystallized;Crystallized
+705;Cold Front;ColdFront
+716;Cage Fighter;CageFighter
+717;Big Time;BigTime
+731;Trucker;TruckerTour
+732;Inventor;InventTutorial
+733;Saved the World/Saved the World... for Later;STFVictory
+734;Peerless/Recluse's Rival;STFVictory2
+735;Diplomat/Breathes Easy;STFVictory3
+736;Partygoer;Badge_PocketD_Jubilee
+740;Artisan;InventionLevel1
+741;Master Artisan;InventionLevel2
+742;Craftsman;InventionLevel3
+743;Master Craftsman;InventionLevel4
+744;Fabricator;InventionLevel5
+745;Reborn;AbyssTour1
+746;Geneticist;AbyssTour2
+747;Vanguard Operative;RiktiWarZoneTour1
+748;Trespasser;RiktiWarZoneTour2
+749;Powerful;RiktiWarZoneTour3
+750;Lifesaver;RiktiWarZoneTour4
+751;Under Fire;RiktiWarZoneTour5
+752;Base Jumper;RiktiWarZoneTour6
+753;Homewrecker;RiktiWarZoneTour7
+754;Luscious;RiktiWarZoneTour8
+755;Junkyard Dog;RiktiWarZoneTour9
+756;Scarred;RiktiWarZoneTour10
+757;Asunder;RiktiWarZoneTour11
+758;Unabashed;RiktiWarZoneTour12
+759;Eyewitness;RiktiWarZoneTour13
+760;Declining;InventionDeBuff1
+761;Decaying;InventionDeBuff2
+762;Despoiler;InventionDeBuff3
+763;Dismantler;InventionDeBuff4
+764;Retrograde;InventionDeBuff5
+765;Medicator;InventionHeal1
+766;Mender;InventionHeal2
+767;Rebuilder;InventionHeal3
+768;Revivifier;InventionHeal4
+769;Reanimator;InventionHeal5
+770;Armorer;InventionMitigation1
+771;Guardian;InventionMitigation2
+772;Protector;InventionMitigation3
+773;Security;InventionMitigation4
+774;Defensive;InventionMitigation5
+775;Blinding;InventionMez1
+776;Beguiler;InventionMez2
+777;Charming;InventionMez3
+778;Charismatic;InventionMez4
+779;Mesmerizer;InventionMez5
+780;Energy Conservationist;InventionEndurance1
+781;Battery Powered;InventionEndurance2
+782;Nuclear Powered;InventionEndurance3
+783;Mystically Powered;InventionEndurance4
+784;Perpetual;InventionEndurance5
+785;Trigger Man;InventionRateOfFire1
+786;Hired Gun;InventionRateOfFire2
+787;Hit-Man;InventionRateOfFire3
+788;Sniper;InventionRateOfFire4
+789;Sharpshooter;InventionRateOfFire5
+790;Major;InventionAccuracy1
+791;Lt. Colonel;InventionAccuracy2
+792;Colonel;InventionAccuracy3
+793;Major General;InventionAccuracy4
+794;General;InventionAccuracy5
+795;Munitionist;InventionDamage1
+796;Weaponeer;InventionDamage2
+797;Warhead;InventionDamage3
+798;Arms Dealer;InventionDamage4
+799;Lord of War;InventionDamage5
+800;Pilgrim;InventionTravel1
+801;Vagabond;InventionTravel2
+802;Wanderer;InventionTravel3
+803;Walks the Earth;InventionTravel4
+804;Nomad;InventionTravel5
+805;Field Crafter;InventorAccolade
+806;Broker;AuctionRecipes
+807;Inspiring;AuctionInspirations
+808;Scrounger;AuctionSalvage
+809;Enhancer;AuctionEnhancements
+810;Vendor;AuctionSeller1
+811;Salesman/Saleswoman;AuctionSeller2
+812;Tradesman/Tradeswoman;AuctionSeller3
+813;Merchant;AuctionSeller4
+814;Peddler;AuctionSeller5
+815;Retailer;AuctionSeller6
+816;Dealer;AuctionSeller7
+817;Auctioneer;AuctionSeller8
+818;Businessman/Businesswoman;AuctionSeller9
+819;Marketer/Black Marketeer;AuctionSeller10
+820;Proprietor;AuctionSeller11
+821;Power Seller;AuctionSeller12
+829;Merrymaker;Anniversary3
+830;Ardent;Veteran39
+831;Fervent;Veteran42
+832;Member of Vanguard;VanguardEnabled
+833;Sentry;RIWEDefeatInvaders
+834;Bomb Specialist;RIWEDefeatUXB
+835;Chief;RIWEDefeatHeavies
+836;Watchman/Watchwoman;RIWEAccolade
+837;Apocalyptic;VanguardCoOpTF
+838;Clothes Horse;Halloween2007Badge1
+839;Fashionable;Halloween2007Badge2
+840;Ostentatious;Halloween2007Badge3
+842;Demolitionist;RWZBomber
+854;Master at Arms;RWZMasterAtArms
+855;All For One, One For All;LivesTeamPool0
+856;Divided Mastery;LivesTeamPool1
+857;Proportional Supremacy;LivesTeamPool3
+858;Shared Victory;LivesTeamPool5
+862;Gold Medalist;TimeLimitGold
+863;Silver Medalist;TimeLimitSilver
+864;Bronze Medalist;TimeLimitBronze
+868;Venturous;DeBuffedPartyatSL2
+870;Headstrong;DeBuffedPartyatSL3
+871;Adventurous;DeBuffedPartyatSL4
+872;Daredevil;DeBuffedPartyatSL5
+873;Rash;DeBuffedPartyatSL6
+874;Venturesome;DeBuffedPartyatSL7
+875;Reckless;DeBuffedPartyatSL8
+876;Temerarious;DeBuffedPartyatSL9
+877;Audacious;BuffedEnemiesatSL2
+879;Courageous;BuffedEnemiesatSL3
+880;Bold;BuffedEnemiesatSL4
+881;Fearless;BuffedEnemiesatSL5
+882;Valiant;BuffedEnemiesatSL6
+883;Stalwart;BuffedEnemiesatSL7
+884;Lionhearted;BuffedEnemiesatSL8
+885;Intrepid;BuffedEnemiesatSL9
+886;Contributor;ArchetypePowersOnlyatSL2
+888;Vocational;ArchetypePowersOnlyatSL3
+889;Professional;ArchetypePowersOnlyatSL4
+890;All Business;ArchetypePowersOnlyatSL5
+891;Archetypical;ArchetypePowersOnlyatSL6
+892;Obligated;ArchetypePowersOnlyatSL7
+893;Missionary;ArchetypePowersOnlyatSL8
+894;Undertaker;ArchetypePowersOnlyatSL9
+895;Refrained;NoTravelPowersatSL2
+897;Shut Down;NoTravelPowersatSL3
+898;Desisted;NoTravelPowersatSL4
+899;Barred;NoTravelPowersatSL5
+900;Still;NoTravelPowersatSL6
+901;Stalled;NoTravelPowersatSL7
+902;Stemmed;NoTravelPowersatSL8
+903;Suspended;NoTravelPowersatSL9
+904;Diminished;NoTemporaryPowersatSL2
+906;Curtailed;NoTemporaryPowersatSL3
+907;Capped;NoTemporaryPowersatSL4
+908;Inhibited;NoTemporaryPowersatSL5
+909;Hindered;NoTemporaryPowersatSL6
+910;Bound;NoTemporaryPowersatSL7
+911;Limited;NoTemporaryPowersatSL8
+912;Demarcated;NoTemporaryPowersatSL9
+913;Cut-Off;NoEpicPowersatSL8
+914;Marginalized;NoEpicPowersatSL9
+915;Cliché;NoInspirationsatSL2
+917;Unimaginative;NoInspirationsatSL3
+918;Flat;NoInspirationsatSL4
+919;Unoriginal;NoInspirationsatSL5
+920;Dull;NoInspirationsatSL6
+921;Phoned it in;NoInspirationsatSL7
+922;Indifferent;NoInspirationsatSL8
+923;Uninspired;NoInspirationsatSL9
+924;Lessened;NoEnhancementsatSL2
+926;Debilitated;NoEnhancementsatSL3
+927;Anemic;NoEnhancementsatSL4
+928;Weakened;NoEnhancementsatSL5
+929;Deflated;NoEnhancementsatSL6
+930;Decreased;NoEnhancementsatSL7
+931;Devalued;NoEnhancementsatSL8
+932;Unenhanced;NoEnhancementsatSL9
+933;Entrusted with the Secret;OuroborosEnabled
+934;Troubleshooter;Flashback5
+935;Adjuster;Flashback10
+936;Calibrator;Flashback15
+937;Alterist;Flashback20
+938;Balancer;Flashback25
+939;Correctionist;Flashback30
+940;Repairman/Repairwoman;Flashback35
+941;Overhauler;Flashback40
+942;Time Fixer;Flashback45
+943;Ouroboros Mender;Flashback50
+944;Master of Ms. Liberty's Task Force;MasterofStatesmansTaskForce
+945;Master of Lord Recluse's Strike Force;MasterofLordReclusesStrikeForce
+946;Chronomaster;Flashbaccolade
+947;Chrononaut;OuroborosTour1
+963;Speed Demon;SlolamGold
+964;Accelerated;SlolamSilver
+965;Qualified;SlolamBronze
+967;Gifted;Winter2007Badge
+968;Eternal;Veteran45
+970;Motivated;Veteran48
+972;Entertainer;Anniversary4
+986;The Thief of Midnight;MSThief
+987;Midnight Squad;MSMember
+988;Lost Savior;MSLost
+989;Origin of Power;MSOrigin
+990;Depths of Time;CimeroraTour1
+992;Midnighter Club Member;MSClubTour1
+993;Temporal Strife;TAComplete
+994;Centurion;Cimerorans
+995;Roman;RomulusDefeated
+1009;Midnighter Archivist;Midnight_Mystery
+1010;Encouraged;Veteran51
+1011;Allegiant;Veteran54
+1020;Glimpsed the Abyss;Halloween2008Badge1
+1021;Safety in Numbers;Halloween2008Badge2
+1022;Evil's Resident;Halloween2008Badge3
+1023;Apocalypse Survivor;Halloween2008Badge4
+1028;City Official/Ousted Official;DJ_City_Official
+1029;Law Enforcer/Dirty Cop;DJ_Law_Enforcement
+1030;Commuter/Fare Jumper;DJ_Commuter
+1031;Shop Keeper/Price Gouger;DJ_Shop_Keeper
+1032;Dimensional Explorer/Dimensional Plunderer;DJ_Dimensional_Explorer
+1033;Intern/Wage Slave;DJ_Intern
+1034;Caregiver/Pain Specialist;DJ_Caregiver
+1035;Professor;DJ_Scholar
+1036;Patroller/Criminal;DJ_On_Patrol
+1037;Banker/Thief;DJ_Banker
+1038;Clubber;DJ_Clubber
+1039;Day Trader/Marketeer;DJ_Auctioneer
+1040;Vanguard Recruit;DJ_Vanguard_Recruit
+1041;Chronologist;DJ_Mender
+1042;Midnighter;DJ_Midnighter
+1043;Grounded/Pilot;DJ_Pilot
+1044;Duelist;DJ_Duelist
+1045;Fashion Designer;DJ_Clotheshorse
+1046;Cimeroran;DJ_Cimeroran
+1047;Predator;DJ_Griefer
+1048;Monitor Duty;DJ_Monitor_Duty
+1049;Mortician;DJ_Gravedigger
+1050;Crey Test Subject/Crey Employee;DJ_Crey_Employee
+1051;Arachnos Traitor/Arachnos Official;DJ_Arachnos_Official
+1052;Cannon Fodder/Arachnos Agent;DJ_Arachnos_Agent
+1054;Professional Liar/Demagogue;DJ_Demagogue
+1056;Frostbitten;Winter2008Badge
+1057;Abiding;Veteran57
+1058;Speeder;SlolamGold2
+1059;Agile;SlolamSilver2
+1060;Surefooted;SlolamBronze2
+1062;Police Chief/Corrupt Commissioner;DJ_Warden
+1063;Security Chief/Security Breach;DJ_Security_Chief
+1064;Traveler/Border Crosser;DJ_Traveler
+1065;Entrepreneur/Free Trade Advocate;DJ_Entrepreneur
+1066;Scientist/Crackpot;DJ_Scientist
+1067;Physician;DJ_Doctor
+1068;Alchemist;DJ_Alchemist
+1069;Defector/Black Ops;DJ_Black_Ops
+1070;Socialite;DJ_Trend_Setter
+1071;Mercenary;DJ_Soldier
+1072;Time Lord;DJ_Time_Traveler
+1073;Archaeologist;DJ_Archaeologist
+1074;Brood Leaver/Brood Leader;DJ_Brood_Leader
+1075;Gladiator;DJ_Gladiator
+1076;Rapid Response Member/Trouble Maker;DJ_Rapid_Response_Member
+1077;Whistleblower/Crey Scientist;DJ_Crey_Scientist
+1078;Anti-Arachnos Activist/Web Weaver;DJ_Web_Weaver
+1079;Blockade Runner/Profiteer;DJ_Black_Marketeer
+1080;Thrill Seeker;MissionArchitectTourism
+1081;Architect;DJ_Architect
+1082;Master Architect;DJ_Master_Architect
+1106;Gamer;ArchitectPlay25
+1118;Author;ArchitectAuthor50
+1134;Mission Engineer;ArchitectAccolade
+1140;Gunrunner/Smuggler;DJ_Smuggler
+1151;Early Bird;ArchitectFirstPlay
+1157;Admiring;ArchitectPlayDevChoice1
+1167;Virtual Victor;ArchitectTestKill10
+1172;Poor Impulse Control;ArchitectClick10
+1177;Virtually Impulsive;ArchitectTestClick1
+1187;Critic;ArchitectHallofFame5
+1202;Customizer;ArchitectCustomBoss
+1203;Bug Fixer;ArchitectTestOwnMission
+1206;Energized;ArchitectInspirations10
+1211;Among Friends;ArchitectTest8
+1217;Heroic;ArchitectHeroMissions10
+1220;Virtuous;ArchitectHeroMissions75
+1222;Villainous;ArchitectVillainMissions10
+1233;Virtual Victim;ArchitectDefeatedInTest
+1234;Payoff;ArchitectPurchaseBadge
+1235;Plugged In;ArchitectBadges10
+1236;Mission Seeker;ArchitectBadges25
+1240;Extractor;ArchitectRescue1
+1245;Virtual Extractor;ArchitectTestRescue1
+1250;Destructive;ArchitectDestroy1
+1255;Virtual Destruction;ArchitectTestDestroy1
+1265;Ticket Taker;ArchitectTickets100
+1274;Discerning;Veteran60
+1277;Honorable;Veteran63
+1279;Enduring;Veteran66
+1283;Genuine;Veteran69
+1285;Distinguished;Veteran72
+1293;Column Breaker;5thColumnHeroBadge
+1294;Arbiter;5thColumnVillainBadge
+1304;Recognized;ArchitectTotalStars100
+1314;Workaholic;ArchitectNonRequiredObjective25
+1319;Assassin;ArchitectCustomKills50
+1323;Terminator;ArchitectCustomKills10000
+1327;Jubilant;Anniversary5
+1336;Arena Victor;1ArenaWin
+1341;Arena Duelist;1WinDuel
+1346;Tournament Victor;1WinSwissDraw
+1351;Arena Survivalist;1WinFreeForAll
+1356;Pentad Victor;1WinPentad
+1361;Arena All-Star;InitiateAllStar
+1367;Dark Fiend;Halloween09DarkFiend
+1368;Hell Hath No Fury;Halloween09WomenScorned
+1369;Terror;Halloween09Terrors
+1370;Monster Masher;Halloween09Monster
+1371;Monstrous;Halloween09MonsterGM
+1372;Hell and Back;Halloween09Accolade
+1373;Master of the 5th Column Strike Force;MasterofReichsmansStrikeForce
+1374;Master of the 5th Column Task Force;MasterofReichsmansTaskForce
+1375;Master of the Imperious Task Force;MasterofImperiousTaskForce
+1376;Festive;Winter2009Badge
+1377;Lord of Winter/Lady of Winter;Winter2009DefeatLordWinter
+1390;Alpha Unlocked;IncarnateAlphaSlot
+1392;Interface Unlocked;IncarnateInterfaceSlot
+1393;Lore Unlocked;IncarnateLoreSlot
+1394;Destiny Unlocked;IncarnateDestinySlot
+1395;Hybrid Unlocked;IncarnateHybridSlot
+1400;Ambitious;P_Ambitious
+1401;Citizen Cole;P_CitizenCole
+1402;Civic Minded;P_CivicMinded
+1404;Eyes to the Future;P_EyesToTheFuture
+1405;River Rat;P_RiverRat
+1406;Seen;P_Seen
+1407;Seer;P_Seer
+1408;Starstruck;P_Starstruck
+1409;Tuned In;P_TunedIn
+1411;Rail Rider;P_RailRider
+1413;Headjuiced;P_KnowledgeisPower
+1418;Protester;P_Protestor
+1420;Takedown Artist;P_TakedownArtist
+1421;Denial of Service;P_DenialofService
+1423;Moral High Ground;P_5MoralChoice
+1424;Walking the Path;P_AlignmentMission
+1425;Tested the Water;P_OtherAlignmentMission
+1431;Viva Praetoria;P_VivaPraetoria
+1435;Eye of the Storm;P_DefeatMaelstrom
+1436;Whip Cracker;P_DefeatDesdemona
+1437;Resolute;Veteran75
+1440;Tipped Off;P_GotTip
+1441;Laureate;P_Antilaureate
+1442;Ear to the Street;P_HeroAlignmentMission
+1443;Streetwise;P_VigilanteAlignmentMission
+1444;Well Informed;P_RogueAlignmentMission
+1445;Inquisitor;P_VillainAlignmentMission
+1446;Made a Stand;P_MoralityMission
+1448;Initiate;P_BuildCommonIA
+1449;Empowered;P_BuildUncommonIA
+1450;Gallant;P_HeroAlignment
+1451;Above the Law;P_VigilanteAlignment
+1452;Scoundrel;P_RogueAlignment
+1453;Dastardly;P_VillainAlignment
+1454;Heard the Call;P_HeroAlignmentPower
+1455;Fearsome;P_VigilanteAlignmentPower
+1456;Trickster;P_RogueAlignmentPower
+1457;Frenzied;P_VillainAlignmentPower
+1462;Ascended;P_Ascended
+1463;Descended;P_Descended
+1464;Come Full Circle;P_ComeFullCircle
+1465;Grass Is Meaner/Grass Is Greener;P_TravelBetweenCities
+1466;Judge & Jury/Merciless;P_DefeatRGC
+1467;No Authority;P_DefeatPPD
+1468;Blindsider;P_DefeatSeers
+1469;Technophobe;P_DefeatClockwork
+1470;Marked for Death;P_DefeatSyndicate
+1471;Resistance is Futile;P_DefeatResistance
+1472;Cannibal;P_DefeatGhouls
+1473;Escapee;P_DefeatFailedExperiments
+1474;Praetorian Tourist;P_PraetorianFlashback
+1475;Walks the Line;ArchitectVigilanteMission
+1476;Cunning;ArchitectRogueMission
+1481;Judgement Unlocked;IncarnateJudgementSlot
+1482;Exultant;Anniversary6
+1484;First Rule;MercyIslandTour7
+1485;Tiki Fan;MercyIslandTour8
+1486;Mercy Mariner;MercyIslandExplorer
+1487;Long Walk;PortOakesTour5
+1488;Big Spider;PortOakesTour6
+1489;Commuter's Woe;PortOakesTour7
+1490;Hidden Getaway;PortOakesTour8
+1491;Marcone Insider;PortOakesExplorer
+1492;Doom Sayer;CapAuDiableTour6
+1493;Master of Science;CapAuDiableTour7
+1494;Circle Gazer;CapAuDiableTour8
+1495;Mad Science Supporter;CapAuDiableExplorer
+1496;Sky Chaser;SharkheadTour5
+1497;Unwelcome Guest;SharkheadTour6
+1498;Sky Trader;SharkheadTour7
+1499;Carping the Diem;SharkheadTour8
+1500;Jumped the Shark;SharkheadExplorer
+1501;Unethical Tourist;NervaTour6
+1502;Blind Eye;NervaTour7
+1503;Soother;NervaTour8
+1504;Nerva Navigator;NervaExplorer
+1505;Dead Man's Tree;StMartialTour5
+1506;Social Worker/Slumlord;StMartialTour6
+1507;Infamous Rubble;StMartialTour7
+1508;Showstopper;StMartialTour8
+1509;Johnny's Ex-Best Friend/Johnny's Go To Guy/Johnny's Go To Gal;StMartialExplorer
+1510;Passing Fab;GrandvilleTour5
+1511;Image Crasher;GrandvilleTour6
+1512;Line Holder;GrandvilleTour7
+1513;Gutter Bait;GrandvilleTour8
+1514;Eye on Arachnos/Arachnos Spymaster;GrandvilleExplorer
+1515;Edge of Chaos;AtlasParkTour7
+1516;Observant;AtlasParkTour8
+1517;Atlas Tour Guide;AtlasParkExplorer
+1518;Graffiti Communicator;HollowsTour6
+1519;Circle Seeker;HollowsTour7
+1520;Ironic;HollowsTour8
+1521;Wincott's Ally/Wincott's Betrayer;HollowsExplorer
+1522;Galactic Fan;GalaxyCityTour6
+1523;Eye of the Gemini;GalaxyCityTour7
+1524;Orion's Belt;GalaxyCityTour8
+1525;Galactic Explorer;GalaxyCityExplorer
+1526;Wentworth History Buff;KingsRowTour6
+1527;Pwned;KingsRowTour7
+1528;Man of Vengeance/Woman of Vengeance;KingsRowTour8
+1529;PPD Informant/Former PPD Stoolie;KingsRowExplorer
+1530;Dance Legend;SteelCanyonTour5
+1531;Controversial;SteelCanyonTour6
+1532;Pet Project;SteelCanyonTour7
+1533;Dirty Attorney;SteelCanyonTour8
+1534;Canyon Carver;SteelCanyonExplorer
+1535;Better Days;SkywayCityTour5
+1536;Room for Expansion;SkywayCityTour6
+1537;Left Behind;SkywayCityTour7
+1538;Bridge to Nowhere;SkywayCityTour8
+1539;Sky Gazer;SkywayCityExplorer
+1540;Barrier Holder;CroatoaTour4
+1541;Sally Sightseer;CroatoaTour5
+1542;Jack's Wrath;CroatoaTour6
+1543;Waylon's Observer;CroatoaTour7
+1544;Midnighter's Perseverance;CroatoaTour8
+1545;Citizen of Salamanca;CroatoaExplorer
+1546;Last Line of Defense;TalosIslandTour4
+1547;The Old Me;TalosIslandTour5
+1548;Bridge Holder;TalosIslandTour6
+1549;Overtime Worker;TalosIslandTour7
+1550;Spanky's Competitor;TalosIslandTour8
+1551;Island Hopper;TalosIslandExplorer
+1552;Air Lifter;IndependencePortTour4
+1553;Dead End;IndependencePortTour5
+1554;Family Partier;IndependencePortTour6
+1555;Connector;IndependencePortTour7
+1556;Unlucky;IndependencePortTour8
+1557;IP Address;IndependencePortExplorer
+1558;Guardian Angel/Barely Contained;FoundersFallsTour3
+1559;Losing Paradise;FoundersFallsTour4
+1560;Watchful Eyes;FoundersFallsTour5
+1561;Hamidon's Fury;FoundersFallsTour6
+1562;Founders' Hero/Founders' Loss;FoundersFallsTour7
+1563;Misunderstood;FoundersFallsTour8
+1564;Lost and Found;FoundersFallsExplorer
+1565;Flying Shark;BrickstownTour3
+1566;Fugitive;BrickstownTour4
+1567;Forward Thinker;BrickstownTour5
+1568;Secret Path;BrickstownTour6
+1569;Sixth Passenger;BrickstownTour7
+1570;Unsubtle;BrickstownTour8
+1571;Zig Warden/King of the Zig/Queen of the Zig;BrickstownExplorer
+1572;Use Might for Right/Rookie's Mistake;PeregrineIslandTour2
+1573;Cause for Concern;PeregrineIslandTour3
+1574;Genetically Altered;PeregrineIslandTour4
+1575;Rikti Gone Wild;PeregrineIslandTour5
+1576;Shades of Arachnos;PeregrineIslandTour6
+1577;All-Seeing;PeregrineIslandTour7
+1578;Dark Omen;PeregrineIslandTour8
+1579;Portal Corp Analyst;PeregrineIslandExplorer
+1580;Seeker;500Badges
+1581;Adventurer;750Badges
+1582;Questing;1000Badges
+1583;Voyager;1250Badges
+1584;Master of Lady Grey's Task Force;MasterofLadyGreysTaskforce
+1585;Bane of Ajax;I11VillainStoryArc1Complete
+1586;Explosive Finale;I11VillainStoryArc2Complete
+1587;The Fairest/Turf Protector;I11HeroStoryArc1Complete
+1588;Singular Vision;I11HeroStoryArc2Complete
+1589;Rule of Three;PositronRevampPart1
+1590;Dam Hero/Dam Villain;PositronRevampPart2
+1591;Army of Me;Defeat8ClonesChallenge
+1592;Technophile;P_Technophile
+1593;Guardians of Justice;P_GuardiansOfJustice
+1594;On the Waterfront;P_Waterfront
+1595;Un-Civil Society;P_UnCivilSociety
+1596;Into the Wild;P_IntoTheWild
+1597;Pure Praetorian;P_NovaPraetoriaExplorer
+1598;Faultline Finder;FaultlineExplorer
+1599;Pain Killer;CoPComplete
+1601;Purposeful;Veteran78
+1603;Uncompromising;Veteran81
+1606;Radiant;Veteran84
+1608;Tenacious;Veteran87
+1609;Unshakable;Veteran90
+1611;Diligent;Veteran93
+1613;Persistent;Veteran96
+1629;Temporal Warrior;Beta_AutoLevel50
+1630;Gold Digger;P_GoldDigger
+1631;Mercy Missionary;P_MercyMissionary
+1632;Park Ranger;P_ParkRanger
+1633;Praetorian of Privilege;P_PraetorianOfPrivilege
+1634;Tiberian Overseer;P_TiberianOverseer
+1635;Emperor for a Day;P_ImperialCityExplorer
+1636;Clockwork Mechanic;P_ClockworkMechanic
+1637;Disappeared;P_Disappeared
+1638;Ferryman of the Damned/Ferrywoman of the Damned;P_FerrymanOfTheDamned
+1639;Morbid;P_Morbid
+1640;Secret Prisoner;P_SecretPrisoner
+1641;Trainspotter;P_Trainspotter
+1642;Urban Spelunker;P_UrbanSpelunker
+1643;Warrior at the Gate;P_WarriorAtTheGate
+1644;Knows Nova's Nooks;P_UndergroundNovaPraetoriaExplorer
+1645;Broken Mind;P_BrokenMind
+1646;Condemning;P_Condemning
+1647;Engineer;P_Engineer
+1648;Eyes of the Dark;P_EyesOfTheDark
+1649;Hoarder;P_Hoarder
+1650;Lowlife;P_Lowlife
+1651;Silent Witness;P_SilentWitness
+1652;Underground Explorer;P_UndergroundExplorer
+1653;Beneath the Empire;P_UndergroundImperialCityExplorer
+1654;A Neu Man/A Neu Woman;P_NeutropolisExplorer
+1655;Neu You Could Do It;P_UndergroundNeutropolisExplorer
+1656;Redundant;P_DefeatTheDestroyers
+1658;Praetoria's Son/Praetoria's Daughter;P_DVDEdition
+1660;Lead-Follower;P_Badges_10
+1661;Extractor of Secrets;P_Badges_25
+1662;Knows the Truth;P_Badges_50
+1663;Knows He Knows Not/Knows She Knows Not;P_Badges_100
+1664;Emissary;P_Badges_200
+1665;Overachiever;P_Badges_500
+1666;Doer;P_Badges_750
+1667;Prepared;P_Badges_1000
+1668;No Road Not Taken;P_Badges_1250
+1669;Praetorian Professional;P_Level_10
+1670;Survivor of Praetoria;P_Level_20
+1671;Rift Traveler;P_Level_30
+1672;Primal Praetorian;P_Level_40
+1673;Praetor;P_Level_50
+1674;Slammer;P_Damage_100K
+1675;Big Dog;P_Damage_500K
+1676;Laughs it Off;P_Damage_1M
+1677;Iron Willed;P_Damage_10M
+1678;Concussed;P_Damage_25M
+1679;Marvel of Modern Medicine;P_Damage_50M
+1680;Challenger of Gods;P_Damage_100M
+1681;Repaired;P_Debt_50K
+1682;Went the Extra Mile;P_Debt_100K
+1683;Undaunted;P_Debt_200K
+1684;Impulsive;P_Debt_400K
+1685;Never Learns;P_Debt_600K
+1686;Infinite Lives;P_Debt_1M
+1687;Do-Gooder;P_Heal_250K
+1688;Safekeeper;P_Heal_1M
+1689;Clutch;P_Heal_2M
+1690;To the Rescue;P_Heal_3M
+1691;Savior;P_Heal_5M
+1692;Death's Jailer;P_Heal_10M
+1693;Waiting;P_Held_10Min
+1694;Locked Out;P_Held_30Min
+1695;Trapped;P_Held_60Min
+1696;Stuck;P_Held_3Hour
+1697;Can't Do That;P_Held_6Hour
+1698;Lagged;P_Held_12Hour
+1699;Who's Who;P_Money_500K
+1700;Acclaimed;P_Money_2500K
+1701;Illustrious;P_Money_10M
+1702;Renowned;P_Money_50M
+1703;Living Legend;P_Money_250M
+1704;The Chosen One;P_Money_500M
+1705;Encourager;P_Mentor_4Hour
+1706;Motivator;P_Mentor_8Hour
+1707;Teacher;P_Mentor_12Hour
+1708;Dean of Hard Knocks;P_Mentor_16Hour
+1709;Philosopher;P_Mentor_20Hour
+1710;Old-Timer;P_Mentor_24Hour
+1716;Avid Reader;P_Tutorial_Reader
+1724;Airlift;P_Airlift
+1725;Don't Drink It;P_DontDrinkIt
+1726;Longshoreman/Longshorewoman;P_Longshoreman
+1727;Moar Power;P_MorePower
+1728;Stockpiling;P_Stockpiling
+1729;Stuff of Life;P_StuffOfLife
+1730;Urban Renewal;P_UrbanRenewal
+1731;Going Rouge;P_GoingRouge
+1741;Binge Eater;P_BingeEater
+1742;Cluttered;P_Cluttered
+1743;Drink Enriche!;P_DrinkEnriche
+1744;Grade F;P_GradeF
+1745;Keeping the Lights On;P_KeepingTheLightsOn
+1746;Ready for Anything;P_ReadyForAnything
+1747;Nailbiter;P_Nailbiter
+1748;The New Boss;P_TheNewBoss
+1754;Resistance Member;P_ResistanceBadge
+1755;Loyalist;P_LoyalistBadge
+1757;Patroller;P_DJ_On_Patrol
+1759;Drone Protector;AlphaTF_DronesAlive
+1760;Burden Bearer/Arm's Length;AlphaTF_DronesUnused
+1761;Hacker;AlphaTF_ComputersQuick
+1762;Midnight Dodger What Dodges At Midnight;AlphaTF_NoProximityBombs
+1764;Already Dead;AlphaTF_BattleMaidenQuick
+1765;Kitty's Got Claws;AlphaTF_BobcatMaxed
+1766;Army of Neu;AlphaTF_NeuronClones
+1767;Secured;Halloween2010Secured
+1768;Power Hungry;Halloween2010PowerHungry
+1769;Artifact Destroyer;Halloween2010ArtifactDestroyer
+1770;Veiled;Halloween2010Veiled
+1771;Arriviste;Halloween2010Arriviste
+1772;Trusting;Halloween2010Trusting
+1773;Meticulous;Halloween2010Accolade
+1774;Nebula's Memory;PerezParkTour6
+1775;Blood Moss;PerezParkTour7
+1776;Ophelia's Final Scene;PerezParkTour8
+1777;Towering Inferno;BoomtownTour5
+1778;Boomtown Troglodyte;BoomtownTour6
+1779;End of the Line;BoomtownTour7
+1780;Corpse Box;BoomtownTour8
+1781;Whisperer on Witchburn Hill;DarkAstoriaTour4
+1782;Phantom Radio;DarkAstoriaTour5
+1783;Too Dark Park;DarkAstoriaTour6
+1784;Astoria's Last Stand;DarkAstoriaTour7
+1785;The Sleeper Below;DarkAstoriaTour8
+1786;The Wolf's Snarl;StrigaTour4
+1787;Words of the Warrior;StrigaTour5
+1788;The Unnamed;StrigaTour6
+1789;The Wolf's Maw;StrigaTour7
+1790;Vampyri Watcher;StrigaTour8
+1791;Eyes of Nemesis;CreysFolleyTour3
+1792;Hammer of the Rikti;CreysFolleyTour4
+1793;Veni, Vidi, Vici;CreysFolleyTour5
+1794;Crey Cares;CreysFolleyTour6
+1795;Freak's Folly;CreysFolleyTour7
+1796;Cirque du'Freak;CreysFolleyTour8
+1797;Defying Gravity;FirebaseZuluTour1
+1798;Dimensional Sojourner;FirebaseZuluTour2
+1799;Stormwatcher;FirebaseZuluTour3
+1800;Alpha Ranger;FirebaseZuluTour4
+1801;Shadow Architect;FirebaseZuluTour5
+1802;X-Ray Spectator;FirebaseZuluTour6
+1803;Dancer with Death;FirebaseZuluTour7
+1804;Shard Leaper;FirebaseZuluTour8
+1805;Castaway;CascadeArchTour1
+1806;Peace Walker;CascadeArchTour2
+1807;Being and Nothingness;CascadeArchTour3
+1808;Hearing Voices;CascadeArchTour4
+1809;Liquid Memory;CascadeArchTour5
+1810;Usurper of Worlds;CascadeArchTour6
+1811;No Turning Back Now;CascadeArchTour7
+1812;The Heart of Memory;CascadeArchTour8
+1813;King of Pain/Queen of Pain;ChantryTour1
+1814;Unfettered;ChantryTour2
+1815;Penitent;ChantryTour3
+1816;Misbegotten;ChantryTour4
+1817;Bereaved;ChantryTour5
+1818;Dispossessed;ChantryTour6
+1819;Red Fog;ChantryTour7
+1820;Demiurge;ChantryTour8
+1821;Boomtown Refugee;AbSewerNetworkTour1
+1822;Hades Aspirant;AbSewerNetworkTour2
+1823;Secret of the City;AbSewerNetworkTour3
+1824;Sprawl Survivor;AbSewerNetworkTour4
+1825;The Underlord/The Underlady;AbSewerNetworkTour5
+1826;From Beneath You;AbSewerNetworkTour6
+1827;Living Dark;AbSewerNetworkTour7
+1828;Persephone Supplicant;AbSewerNetworkTour8
+1829;Spirit of the City;SewerNetworkTour1
+1830;Plutonian;SewerNetworkTour2
+1831;Baumton Avenger;SewerNetworkTour3
+1832;Sewer King/Sewer Queen;SewerNetworkTour4
+1833;Sewer Stalker;SewerNetworkTour5
+1834;Downward Bound;SewerNetworkTour6
+1835;Terror of the Vahzilok;SewerNetworkTour7
+1836;Seeker of the Lost;SewerNetworkTour8
+1837;Guardian of the Volts;TerraVoltaTour4
+1838;Danger! Danger!;TerraVoltaTour5
+1839;Scrapheap of History;TerraVoltaTour6
+1840;Power Walker;TerraVoltaTour7
+1841;High Voltage!;TerraVoltaTour8
+1842;Call of Nature;EdenTour3
+1843;Nature's Wrath;EdenTour4
+1844;Natural Law;EdenTour5
+1845;The Devouring Earth Abides;EdenTour6
+1846;Hive Mind;EdenTour7
+1847;Natural Selection;EdenTour8
+1848;Babe in the Woods;TheHiveTour3
+1849;The Wounded Earth;TheHiveTour4
+1850;Wild At Heart;TheHiveTour5
+1851;Among the Giants;TheHiveTour6
+1852;The Sound of Thunder;TheHiveTour7
+1853;Forest of Stone;TheHiveTour8
+1854;Courting Madness;StormPalaceTour1
+1855;Acolyte of Anger;StormPalaceTour2
+1856;Malice Aforethought;StormPalaceTour3
+1857;Tormented;StormPalaceTour4
+1858;Hate Machine;StormPalaceTour5
+1859;Fist of Fury;StormPalaceTour6
+1860;Eve of Destruction;StormPalaceTour7
+1861;Lord of Storms/Lady of Storms;StormPalaceTour8
+1862;Here Be Dragons;AbyssTour3
+1863;Caged Beast;AbyssTour4
+1864;No Escape;AbyssTour5
+1865;Hamidon's Ire;AbyssTour6
+1866;The Tree of Woe;AbyssTour7
+1867;Abyssal Gaze;AbyssTour8
+1868;Monster Islander;MonsterIslandTour1
+1869;The Roar of the Beast;MonsterIslandTour2
+1870;Rikti Monkey Island;MonsterIslandTour3
+1871;Monsters' Playthings;MonsterIslandTour4
+1872;Dark Garden;MonsterIslandTour5
+1873;Grim Fandango;MonsterIslandTour6
+1874;Misfit Monstrosity;MonsterIslandTour7
+1875;Monster Factory;MonsterIslandTour8
+1876;Perez Park Perfection;PerezParkExplorer
+1877;Boom... Goes the Town;BoomtownExplorer
+1878;A Light in Dark Astoria;DarkAstoriaExplorer
+1879;Straight Through Striga;StrigaExplorer
+1880;Crazy for Crey's Folly;CreysFolleyExplorer
+1881;All Your Firebase...;FirebaseZuluExplorer
+1882;Cascade Cleansing;CascadeArchExplorer
+1883;Can't Stop the Chant;ChantryExplorer
+1884;Master Plumber;AbSewerNetworkExplorer
+1885;Apprentice Plumber;SewerNetworkExplorer
+1886;Utilities Commission;TerraVoltaExplorer
+1887;Adam in Waiting/Eve in Waiting;EdenExplorer
+1888;Busy, Busy Bee;TheHiveExplorer
+1889;Storming the Palace;StormPalaceExplorer
+1890;Touched Bottom;AbyssExplorer
+1891;Honorary Monster;MonsterIslandExplorer
+1893;Helping Hand;I19HeroStoryArcComplete
+1894;Keeper of Coral Lore;I19VillainStoryArcComplete
+1895;No One Left Behind;I19HeroStoryArcOptional
+1896;Connected;I19VillainStoryArcOptional
+1937;Weapon Master/Warrior Princess;AlphaTF_Complete_Apex
+1938;Alpha Struck;AlphaTF_Complete_TinMage
+1939;Master of Apex's Task Force;AlphaTF_Master_Apex
+1940;Master of Tin Mage's Task Force;AlphaTF_Master_TinMage
+1951;Cold as Ice;Holiday2010
+1964;Well Drinker;P_BuildRareIA
+1965;Incarnate;P_BuildVeryRareIA
+1966;Assistant/Accomplice;WeeklyTFHelper01
+1967;Backup/Confederate;WeeklyTFHelper02
+1968;Partner/Conspirator;WeeklyTFHelper03
+1974;Behavior Adjuster;IT_BAF_Complete
+1975;Not On My Watch;IT_BAF_NoEscapes
+1976;Alarm Raiser;IT_BAF_NoTowers
+1977;Gotta Keep 'Em Separated;IT_BAF_NoMovingAVs
+1978;Strong & Pretty;IT_BAF_NoAdds
+1979;Master of the B.A.F.;IT_BAF_Master
+1981;Land, Sea & Air;I20_HeroTFComplete
+1982;Promethean;I20_VillainTFComplete
+1983;Lambda Leader;IT_Lambda_Complete
+1984;Synchronized;IT_Lambda_Simultaneity
+1985;Well-Stocked;IT_Lambda_NoGrenades
+1986;Antacid;IT_Lambda_NoAcids
+1987;Lambda Looter;IT_Lambda_NoPowers
+1988;Master of the Lambda Sector;IT_Lambda_Master
+1989;Keyes Technician;IT_Keyes_Complete
+1990;Anti-Anti-Matter;IT_Keyes_StrongPulse
+1991;Bunker Buster;IT_Keyes_BunkerBuster
+1992;Loves a Challenge;IT_Keyes_Challenge
+1993;Avoids the Green Stuff;IT_Keyes_NoHolds
+1994;Master of the Keyes Island Reactor;IT_Keyes_Master
+1995;Underground Seeker;IT_Underground_Complete
+1996;Regenerate This;IT_Underground_FastKill
+1997;Tour Guide;IT_Underground_DesHealth
+1998;Preservation Specialist;IT_Underground_AllBombs
+1999;Avatar Assassin;IT_Underground_AvatarBomb
+2000;Master of the Underground;IT_Underground_Master
+2001;The Constant;Loyalty2011
+2002;Lucky;Anniversary7
+2003;Flames of Prometheus Conversion;FlamesConvert
+2012;Savior of Atlas Park;2100_Atlas_CompleteBadge
+2013;Freedom Cracker;2100_Mercy_CompleteBadge
+2014;Shining Star;Badge_OGTH1
+2015;Brightest Sun;Badge_OGTH2
+2016;Supernova;Badge_OGTH3
+2017;Dark Heart;Badge_OGTV1
+2018;Blackened Soul;Badge_OGTV2
+2019;Face of Evil;Badge_OGTV3
+2021;Hydra Stomper;SL1_SewerTrial_Complete
+2022;The Cleanser;SL1_SewerTrial_LostWorshippersKilled
+2023;Cadaver Counter;SL1_SewerTrial_VahzCadaversSpared
+2024;Defender of Primal Earth;PraetorianInvasion
+2025;Rookie;Rookie
+2027;Overpowered;Veteran99
+2041;D.U.S.T. Ranger;DJ_DUST_Ranger
+2042;Psychologist;DJ_Psychologist
+2043;Survivalist;DJ_Survivalist
+2044;Scavenger;DJ_Scavenger
+2048;Dearly Departed;FirstWardTour1
+2049;Eye of the Vortex;FirstWardTour2
+2050;Fearless Insurgent;FirstWardTour3
+2051;Shell Shocked;FirstWardTour4
+2052;Mayhem's Prodigal;FirstWardTour5
+2053;Shadow Walker;FirstWardTour6
+2054;Vengeance Seeker;FirstWardTour7
+2055;Witness for the Fallen;FirstWardTour8
+2056;Prime Warden;FirstWardExplorer
+2057;Disappearing Act;DefeatApparitions
+2058;Snooze Button;DefeatAwakened
+2059;Show's Over;DefeatCOL
+2060;D.U.S.T. in the Wind;DefeatDUST
+2061;Chipped Talon;DefeatTalons
+2062;Germinator Terminator;DefeatSeed
+2063;Full Spectrum;DefeatSeedlings
+2064;The Last Word;FirstWardHistory
+2071;Knowledgeable;N_Tutorial_Knowledgeable
+2072;Spin Doctor;IT_TPN_Complete
+2073;News Flash;IT_TPN_PropagandaChallenge
+2074;Fair & Balanced;IT_TPN_TelepathistChallenge
+2075;Television Addict;IT_TPN_TelevisionChallenge
+2076;Tonight's Top Story;IT_TPN_MaelstromChallenge
+2077;Master of the TPN Campus;IT_TPN_Master
+2078;Mental Voyager;IT_MoM_Complete
+2079;Dreamwalker/Dreamkiller;IT_MoM_MalaiseChallenge
+2080;A Perfect Storm;IT_MoM_PenelopeChallenge
+2081;Daylight Saver;IT_MoM_AuroraChallenge
+2082;Lost Connection to Server;IT_MoM_ShaliceChallenge
+2083;Master of the Minds of Mayhem;IT_MoM_Master
+2085;Is There a Doctor in the House?;T_H2011_HouseofHorror
+2086;Tricked Out;T_H2011_Trick
+2087;It's Alive!;T_H2011_Alive
+2088;Gift Which Keeps Giving;Holiday2011Give
+2089;Gift Getter;Holiday2011Get
+2091;Doorbuster;HeadStart
+2095;Gifted Speaker;Mission_LowLevel_CaD_GiftedSpeaker
+2096;False Prophet;Mission_LowLevel_CaD_FalseProphet
+2097;Steel Savior;Mission_LowLevel_SC_SteelSavior
+2098;War Hero;Mission_LowLevel_SC_WarHero
+2099;Deadly Combatant;Mission_LowLevel_SC_DeadlyCombatant
+2100;Dignified Combatant;Mission_LowLevel_SC_DignifiedCombatant
+2112;Match Maker;ValentineDelivery
+2113;Missed Connection;ValentineMisdelivery
+2163;Death Denied;IT_DD_Complete
+2164;Spinebreaker;IT_DD_TimeChallenge
+2165;Sentinel Smasher;IT_DD_SentinelChallenge
+2166;Sacrificial Lamb;IT_DD_NoRescueChallenge
+2167;Life and Death;IT_DD_HealingChallenge
+2168;Master of Dilemma Diabolique;IT_DD_Master
+2169;Widow Maker;ValentineWidow
+2170;Apostate;DefeatBPEnd
+2171;Erasure;DefeatTsooEnd
+2172;Silencer;DefeatKoVEnd
+2173;Castigator;DefeatTalonsEnd
+2174;Exorcist;DefeatCoTEnd
+2175;Sibling Rivalry;BloodyBayTrial_Complete
+2176;Brotherly Love;BloodyBayTrial_SimultaneousDefeat
+2177;Sidereal Researcher;BloodyBayTrial_Meteors
+2178;Cold Hand of Death;DJ_DarkAstoria
+2179;Folly's Victim;DarkAstoriaIncarnateTour1
+2180;Palace of Stone Leaves;DarkAstoriaIncarnateTour2
+2181;Auspice Avernus;DarkAstoriaIncarnateTour3
+2182;Death's Head Supplicant;DarkAstoriaIncarnateTour4
+2183;Walker on the Profane Ascent;DarkAstoriaIncarnateTour5
+2184;Witness of Oaths;DarkAstoriaIncarnateTour6
+2185;Life out of Death;DarkAstoriaIncarnateTour7
+2186;Of Things Unclean;DarkAstoriaIncarnateTour8
+2187;Free Among the Dead;DarkAstoriaIncarnateExplorer
+2188;Eye of Vengeance;Mission_DA_Arc_Complete_01
+2189;The Determined Mentor;Mission_DA_Arc_Complete_02
+2190;Knife Butcher;Mission_DA_Arc_Complete_03
+2191;Hunter of Specters;Mission_DA_Arc_Complete_04
+2192;The Timeless Adventurer;Mission_DA_Arc_Complete_05
+2193;Heart of Hatred;Mission_DA_Arc_Complete_06
+2194;Architect Writer;Mission_DA_PersonalArc_Complete_01
+2195;Bound for Glory;Mission_DA_PersonalArc_Complete_02
+2196;Nanite Man/Nanite Woman;Mission_DA_PersonalArc_Complete_03
+2197;Praetor Selfish;Mission_DA_PersonalArc_Complete_04
+2198;Cimeroran Hero/Cimeroran Heroine;Mission_DA_PersonalArc_Complete_05
+2199;Truth Teller;Mission_DA_PersonalArc_Complete_06
+2200;Time Saver;Mission_DA_Zone_Achievement_01
+2201;Knows No Fear;Mission_DA_Zone_Achievement_02
+2202;Lone Wolf;Mission_DA_Zone_Achievement_03
+2203;Buddy Cop;Mission_DA_Zone_Achievement_04
+2204;Incarnate Rival;Mission_DA_Zone_Achievement_05
+2205;Destroyer of Despair;Mission_DA_Zone_Complete
+2206;Bailout Hero/Bailout Villain;Mission_DA_Zone_Achievement_06
+2209;Rhapsodic;Anniversary8
+2210;A Nemesis Plot;NemesisPlot
+2212;Tempered Through Fire;Loyalty2012
+2213;Watches the Watchers;DefeatBlackKnights
+2214;Keeper of Beasts;DefeatNightstalkers
+2215;Sorcerer's Apprentice;DefeatAnimusArcana
+2216;Lawbreaker;DefeatDrudges
+2217;Imperial City's Savior;i23IncarnateArcComplete
+2218;Embodiment of Law;i23PersonalArcComplete
+2219;The Once and Future King/The Once and Future Queen;i23Arc4Title
+2220;Enemy of the State;IT_MAG_Complete
+2221;Triple Threat;IT_MAG_Challenge1
+2222;Ready to Rumble;IT_MAG_Challenge2
+2223;Shadow Master;IT_MAG_Challenge3
+2224;The Hard Way;IT_MAG_Challenge4
+2225;Master of the Magisterium;IT_MAG_Master
+2226;Nocturnal Pilgrim;NightWardTour1
+2227;Happy Camper;NightWardTour2
+2228;House Hunter;NightWardTour3
+2229;Abandoned Soul;NightWardTour4
+2230;Dead but Dreaming;NightWardTour5
+2231;Follow the Light;NightWardTour6
+2232;Monolithic;NightWardTour7
+2233;Stargazer;NightWardTour8
+2234;Ethereal Drifter;NightWardExplorer
+2237;One of the Eight;i23NightWardComplete
+2238;The Really Hard Way;IT_MAG_EpicChallenge
+2240;Positron's Pal/Positron's Nemesis;PositronsPal
+2241;Penelope Yin's Friend/Penelope Yin's Betrayer;PenelopeYinTF
+2242;Double Feature;SummerEvent_Complete
+2243;Hellenic Beauty;SummerEvent_Hellenic
+2244;Man's Best Friend/Woman's Best Friend;SummerEvent_BestFriend
+2245;Ninja Monkey;SummerEvent_NinjaMonkey
+2246;Invictus;SummerEvent_Invictus
+2247;The Perfect Hitter;SummerEvent_Phitter
+2248;The Perfect Hacker;SummerEvent_Phacker
+2249;The Perfect Grifter;SummerEvent_Pgrifter
+2250;The Perfect Thief;SummerEvent_Pthief
+2251;Roleplayer;SummerEvent_Roleplayer
+2255;Group Founder;Mission_BT_i24_Arc_Complete_01
+2256;Brickstown's Keeper;Mission_BT_i24_Arc_Complete_02
+2257;The Center's Nemesis;Mission_BT_i24_Arc_Complete_03
+2258;War Criminal;Mission_SM_i24_Arc_Complete_01
+2259;Villain of the Month;Mission_SM_i24_Arc_Complete_02
+2260;Mayhem's Creator;Mission_SM_i24_Arc_Complete_03
+2261;Civilization's Savior;Mission_Incarnate_i24_Arc_Complete_01
+2262;Long Arm of the Law;Mission_BT_i24_Challenge_01
+2263;Chatterbox;Mission_BT_i24_Challenge_02
+2264;Pendragon's Ally;Mission_BT_i24_Challenge_03
+2265;Riptide's Comrade;Mission_BT_i24_Challenge_04
+2266;Hamidon's Enemy;Mission_SM_i24_Challenge_01
+2267;Honorary Bro/Honorary Sis;Mission_SM_i24_Challenge_02
+2268;Remembers Their Friends;Mission_SM_i24_Challenge_03
+2269;Pyromaniac;Mission_SM_i24_Challenge_04
+2270;Avatar Smasher;Mission_Incarnate_i24_Challenge_01
+2271;Ace Up Their Sleeve;Mission_BT_i24_Personal_Story
+2272;Father;Mission_SM_i24_Personal_Story
+2273;Proud Scientist;Mission_Incarnate_i24_Personal_Story
+2274;Park Stroller;Brickstown_Parkstroller
+2275;Dimensional Investigator;Mission_Incarnate_i24_Challenge_02
+2316;Skull Buster;Mission_KR_i24_Arc_Complete_02
+2317;You should see the other guy.;Mission_KR_i24_Personal_Story
+2319;Oobatz;ZE_SM_Complete
+2320;Probation Denied;ZE_BT_Complete
+2321;Torchbearer;Anniversary9
+2322;Out of Harm's Way;OutOfHarmsWay
+2323;Condemned;Condemned
+2324;Resilient;Resilient
+2325;Walked Down Memory Lane;WalkedDownMemoryLane
+2326;Gullible;Gullible
+2327;Buddy;HamidonBuddy
+2328;Communications Specialist;CommSpecialist
+2329;Shielded;Shielded
+2330;Crash Landed;RiktiCrashSiteExplorer
+2331;They Are Still Among Us;RiktiWarZoneExplorer
+2332;War Torn;CouncilWarWalker
+2333;War Machine;CouncilGoliath
+2334;Unstoppable;Anniversary10
+2339;Perseverant;Anniversary11
+2340;Indomitable;Anniversary12
+2341;Timeless;Anniversary13
+2342;Rising Star;ImperialCityStoryArcs
+2343;Determined;DarkAstoriaStoryArcs
+2344;Agent of Chaos;MercyIslandStoryArcs
+2345;Magistrate;P_Magistrate
+2346;Executioner;P_Executioner
+2347;Obliterator;P_Obliterator
+2348;Survivor;P_Survivor
+2349;Escapist;P_Escapist
+2350;Agent of Praetoria;NovaPraetoriaStoryArcs
+2351;True to the Last;NeutropolisStoryArcs
+2352;Agent of Order;AtlasParkStoryArcs
+2353;Vigilant;RitkiWarZoneStoryArcs
+2354;Tyrant;P_Tyrant
+2355;Marauder;P_Marauder
+2356;Eliminator;P_Eliminator
+2357;Relentless;P_Relentless
+2358;Decimator;P_Decimator
+2359;Eradicator;P_Eradicator
+2360;Cataclysmic;P_Cataclysmic
+2361;Until the End of the World;1500Badges
+2362;Bounty;SouvenirCount10
+2363;Pickpocket;SouvenirCount25
+2364;Kleptomaniac;SouvenirCount50
+2365;Packrat;SouvenirCount100
+2366;Curator;SouvenirCount200
+2367;Trustworthy;Trustworthy
+2368;City Traveler;CityTraveler
+2369;Loyal Customer;LoyalCustomer
+2370;Tried and True;TriedAndTrue
+2371;Battle-Hardened;BattleHardened
+2372;Excavator;HollowsStoryArcs
+2373;Aftershock;FaultlineStoryArcs
+2374;Port Authority;StrigaStoryArcs
+2375;Story Teller;CroatoaStoryArcs
+2380;Aloof;RejectInspirations50
+2381;Unconcerned;RejectInspirations100
+2382;Apathetic;RejectInspirations500
+2383;Couldn't Care Less;RejectInspirations1000
+2384;Everlasting;Anniversary14
+2385;Chameleon;SL4MissionC
+2386;Do No Harm;SL7MissionC
+2387;True Nemesis;SL8MissionC
+2388;Itsy Bitsy;JadeSpiderBadge
+2389;Welcome to Earth;RiktiDropShip
+2390;Guardian of Forever;Mission_LowLevel_SC_Guardian
+2391;Valet;MarketCrashValet
+2392;Picky Eater;RejectRecipes50
+2393;Food Critic;RejectRecipes100
+2394;Grand Gourmet;RejectRecipes500
+2395;Iron Chef;RejectRecipes1000
+2396;Excelsior!;Anniversary15
+2397;Fashion Victim;FashionVictim
+2398;Epicenter;EchoFaultlineExplorer
+2399;Forsaken;FaultlineTour8
+2400;Pristine;FaultlineTour9
+2401;Claim Denied;FaultlineTour10
+2402;Spare Parts;FaultlineTour11
+2403;Dug Too Deep;FaultlineTour12
+2404;Riveting;FaultlineTour13
+2405;Upcycled;FaultlineTour14
+2406;Rock Bottom;FaultlineTour15
+2407;Avenger;Mission_IP_i25_Vigilante
+2408;Beyond Reasonable Doubt;Mission_IP_i25_Hero
+2409;Bad Blood;BloodyBayExplorer
+2410;Answered the Call;SirensCallExplorer
+2411;What Lurks Beyond;BloodyBayTour5
+2412;Burgermeister/Burgermeisterin;BloodyBayTour6
+2413;Mostly Harmless;BloodyBayTour7
+2414;Restless;BloodyBayTour8
+2415;Wasted Resources;SirensCallTour5
+2416;Hot Dog;SirensCallTour6
+2417;Still Standing;SirensCallTour7
+2418;Volatile;SirensCallTour8
+2419;Diamond in the Rough;Mission_NA_i25_Rogue
+2420;Warlord;WarburgExplorer
+2421;Shattered Time;ReclusesVictoryExplorer
+2422;A Scar in Time;ReclusesVictoryTour5
+2423;True Neutral;ReclusesVictoryTour6
+2424;Sick of Time Travel;ReclusesVictoryTour7
+2425;Watch Your Back;ReclusesVictoryTour8
+2426;Disassembled;WarburgTour4
+2427;Forcibly Evicted;WarburgTour5
+2428;Herculean;WarburgTour6
+2429;Nuclear;WarburgTour7
+2430;Game Over;WarburgTour8
+2432;Resurgent;Anniversary16
+2433;Passport;LRTAccolade
+2434;Containment Specialist;Mission_i27_Containment
+2435;The Greater Good;Mission_i27_Hero
+2436;Went Off Script;Mission_i27_Vigilante
+2437;Uncivil Warrior;Mission_i27_Watkins
+2438;Tarnished Star;Mission_i27_Manticore
+2439;Patient Zero;Mission_i27_Buzzsaw
+2440;Ankle Biter;DefeatCreyBobo
+2441;Running on Empty;DefeatSapper
+2442;Brass Hunter;DefeatJaeger
+2443;Green Machine;DefeatWarhulk
+2444;Flying Nuisance;DefeatNatterlings
+2445;Brute Forced;DefeatRularuuBrutes
+2446;Assault and Battery;DefeatSuperStunners
+2448;The Prettiest One;KallistiWharfExplorer
+2449;On the Shoulders of Giants;KallistiWharfTour1
+2450;In Their Prime;KallistiWharfTour2
+2451;Protest Too Much;KallistiWharfTour3
+2452;Fueled by Greed;KallistiWharfTour4
+2453;Raving Mad;KallistiWharfTour5
+2454;Marked Out;KallistiWharfTour6
+2455;Quay to the City;KallistiWharfTour7
+2456;Tourist Trapped;KallistiWharfTour8
+2457;Behind Enemy Lines;BehindEnemyLines
+2458;Snowbound;Winter2020Badge
+2459;Complicated;Badge_Frostfire
+2460;Legendary;Anniversary17
+2461;Epidemiologist;Epidemiologist
+2462;History in the Making;CimeroraExplorer
+2463;Sanctuary;CimeroraTour3
+2464;Voice of the Oracle;CimeroraTour4
+2465;Out of Bounds;CimeroraTour5
+2466;Human Nature;CimeroraTour6
+2467;Vision of Ambition;CimeroraTour7
+2468;Darkness Unleashed;CimeroraTour8
+2469;Fabled;DefeatCyclops
+2470;Mythical;DefeatMinotaur
+2471;Legatus;DefeatRomansEnd
+2472;Worthy Opponent;LordRecluseTFFlashback
+2473;Sinister Summoner;T_H2021_Black_Whip
+2474;Alpha Not Omega;AlphaSlotOnlyatSL9
+2475;Deincarnated;NoIncarnatePowersatSL9
+2476;Gold Standard;AeonSF_Complete
+2477;Best Friends Forever;AeonSF_Beckys_BFF
+2478;Unfriendly Fire;AeonSF_Challenge1
+2479;Ripple Raider;AeonSF_Challenge2
+2480;Power Overwhelming;AeonSF_Challenge3
+2481;Can't Touch This;AeonSF_Challenge4
+2482;Master of Dr. Aeon's Strike Force;MasterOfAeonStrikeForce
+2483;The Beast Within;Defeat5thLycanthropes
+2484;Call of the Void;DefeatVoidHunters
+2485;Cool Customer;DefeatCryogenicists
+2486;Totally Radical;DefeatGammaTanks
+2487;Who Smelt It, Dealt It;DefeatSmelters
+2488;Rearguard;DefeatVanguard
+2489;Master of the Prisoners of Eden;MasterofEdenTrial
+2490;Master of the Descent to the Hydra;MasterofSewerTrial
+2491;Master of the Market Crash;MasterofMarketCrash
+2492;License to Chill;Winter2021Badge
+2493;Unquenchable;Anniversary18
+2494;The Shadow Out Of Time;Mission_i27_Valeria
+2495;Brother of Corruption/Sister of Corruption;DefeatRavenna
+2496;Freezer Burn;5thColumnGoliathTwins
+2497;Hologram;AetherCostumeAccolade
+2498;Pecking Order;SL5MissionC
+2499;Traditionalist Foil;SL7MissionD
+2500;Mimic;AetherCostume1
+2501;Doppelganger;AetherCostume2
+2502;Shapeshifter;AetherCostume3
+2503;Vampiric Heritage;Halloween22EliteVampire
+2504;Spectral Anomaly;Halloween22EliteWerewolf
+2505;Mummy's Curse;Halloween22EliteZombie
+2506;Unholy Coven;Halloween22EliteWitch
+2507;Reaper of Souls;Halloween22EliteUnseelie
+2508;Two Birds, One Stone;DefeatBlackwing
+2509;Unforgettable;Anniversary19
+2510;Reunited;Anniversary20
+2511;Bound by NDA/Crey's Dirty Secret;Mission_i27_Corlett
+2512;Underdog;Mission_i27_Houston_R
+2513;Pollster;Mission_i27_Houston_H
+2514;Loop Hero;Mission_i27_Stribbling
+2515;Bicentennial;200Years
+2516;Doesn't Look At Explosions;LadyGreyTF_StationEscape
+2517;Zookeeper Omega;ZookeeperOmega
+2518;Home for the Holidays;Winter2023Badge
+2519;Stowaway;StrigaStoryArcsVillain
+2521;Face Turn;Mission_i27_Finale
+2522;Party Animal;PartyClubTour
+2523;Variety Act;RoleDiversity
+2524;Mirror Image;ATDuplication
+2525;Time Keeper;Anniversary_Capsules
+2526;Gardener;Anniversary_CoT
+2527;Zeta Reticulan;Anniversary_Rikti
+2530;Hidden In The Fog;DungeonLabyrinthTour1
+2531;Greek Philosopher;LabyrinthHistory
+2532;Conqueror of the Labyrinth;LabyrinthAccolade
+2533;Malevolent Intoxication;DefeatVolatileAether
+2534;Slayer of the Minotaur;DefeatLabyrinthMinotaur
+2535;Lab Rat;DungeonLabyrinthTour2
+2536;Uncommitted;AlignmentTipMissions5
+2537;Adept;AlignmentTipMissions10
+2538;Multifaceted;AlignmentTipMissions25
+2539;Between Realities;MarkRecallAccolade
+2540;Phantom Gladiator;DefeatFogGladiator
+2541;Nutrient-Rich;EatenByBlarf
+2542;Deep Strike Agent/Strike Force Commander;StrikeForceCommander
+2543;Protector of Paragon City/Traitor to Paragon City;ProtectorOfParagon
+2545;Hypothermia;Winter2024Badge
+2547;Best Man/Maid of Honor;ValentineWeddingHero
+2548;Wedding Crasher;ValentineWeddingVillain
+2549;Officiator;ValentineWeddingDefeats
+2550;Down In Front;ValentineWeddingNuisance
+2551;Chaos Spiel;ValentineWeddingNemesis
+2552;Cheers!;Anniversary21
+2553;Mafioso;Anniversary_Family
+2554;Skull Killer;Anniversary_Skulls
+2556;Patron of the Arts;KallistiHistory01
+2557;Flagtown Memorialist;KallistiHistory02
+2558;Christie Consolidation;KallistiHistory03
+2559;Staring Into The Abyss;Mission_i28_Ziegler
+2560;Business Savvy;Mission_i28_DapDap
+2561;Front Person;Mission_i28_ErinWest
+2562;Justified Ends;Mission_i28_RobertKogan
+2563;Thicker than Water;Mission_i28_AlexanderTheGreat
+2564;Generational Trauma;Mission_i28_Ziegler_Bonus
+2565;Uncomfortable Truths;Mission_i28_ErinWest_Bonus01
+2566;Truth Seeker;Mission_i28_ErinWest_Bonus02
+2567;Brass Tax;Mission_i28_DapDap_Bonus
+2568;Peacekeeper/Peacemaker;DefeatPEACEKeeper
+2569;Very Naughty;Winter2025Present
+2570;Icebreaker;Winter2025EssenceChallenge
+2571;Winter Weathered;Winter2025Badge
+2573;Lucid Dreamer;DungeonLabyrinthTour3
+2574;Heart of Gold;ZoeTF_Complete
+2575;Tested By Combat;Labyrinth_Test_Spectrum
+2576;Chromatic Combatant;Labyrinth_Test_Apathy
+2577;Snow Warning;ZoeTF_Challenge1
+2578;Jailbreaker;ZoeTF_Challenge2
+2579;Subterranean Striker;ZoeTF_Challenge3
+2580;Knockback King/Knockback Queen;ZoeTF_Challenge4
+2581;Master of Zoe's Task Force;MasterOfZoeTaskForce
+2582;Mazebreaker;LabyrinthAccolade2
+2583;Mutated Marauder;DefeatHydra
+2584;Psychopomp;Mission_i28_WylieGalloway
+2586;Surveyor of Mazes;DJ_Labyrinth
+2587;Based;SupergroupBaseTour1
+2588;Truly Based;SupergroupBaseTour2
+2589;Actually Based;SupergroupBaseTour3
+2590;Unfathomably Based;SupergroupBaseTour4
+2591;Dreamcatcher;DefeatLabyrinthNightmare
+2592;Home Sweet Home;SupergroupBaseHome

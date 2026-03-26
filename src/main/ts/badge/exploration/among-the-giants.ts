@@ -5,6 +5,7 @@ import { Eden } from '../../zone/eden'
 export const AmongTheGiants: BadgeData = {
   type: 'exploration',
   key: 'among-the-giants',
+  gameId: 'TheHiveTour6',
   setTitleId: [1851],
   name: 'Among the Giants',
   releaseDate: '2012-11-30',

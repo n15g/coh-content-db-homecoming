@@ -4,6 +4,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const Soother: BadgeData = {
   type: 'exploration',
   key: 'soother',
+  gameId: 'NervaTour8',
   setTitleId: [1503],
   name: 'Soother',
   releaseDate: '2012-11-30',

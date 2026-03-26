@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Security: BadgeData = {
   type: 'invention',
   key: 'security',
+  gameId: 'InventionMitigation4',
   setTitleId: [773],
   name: 'Security',
   releaseDate: '2012-11-30',

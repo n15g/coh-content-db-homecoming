@@ -4,6 +4,7 @@ import { DefenderOfTruth } from '../achievement/defender-of-truth'
 export const NightWidow: BadgeData = {
   type: 'gladiator',
   key: 'night-widow',
+  gameId: 'NightWidow',
   setTitleId: [444],
   name: 'Night Widow',
   releaseDate: '2012-11-30',

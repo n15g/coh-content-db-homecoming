@@ -4,6 +4,7 @@ import { VirgilTarikossStrikeForce } from '../../mission/virgil-tarikoss-strike-
 export const BinderOfBeasts: BadgeData = {
   type: 'accomplishment',
   key: 'binder-of-beasts',
+  gameId: 'BatzulSF',
   setTitleId: [512],
   name: 'Binder of Beasts',
   releaseDate: '2012-11-30',

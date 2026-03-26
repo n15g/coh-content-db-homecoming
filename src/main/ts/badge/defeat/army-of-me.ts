@@ -5,6 +5,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const ArmyOfMe: BadgeData = {
   type: 'defeat',
   key: 'army-of-me',
+  gameId: 'Defeat8ClonesChallenge',
   setTitleId: [1591],
   name: 'Army of Me',
   releaseDate: '2012-11-30',

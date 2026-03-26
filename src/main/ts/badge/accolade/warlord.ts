@@ -11,6 +11,7 @@ import { Herculean } from '../exploration/herculean'
 export const Warlord: BadgeData = {
   type: 'accolade',
   key: 'warlord',
+  gameId: 'WarburgExplorer',
   setTitleId: [2420],
   name: 'Warlord',
   releaseDate: '2019-06-01',

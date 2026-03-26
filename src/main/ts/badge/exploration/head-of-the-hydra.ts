@@ -4,6 +4,7 @@ import { AbandonedSewersTrial } from '../../zone/abandoned-sewers-trial'
 export const HeadOfTheHydra: BadgeData = {
   type: 'exploration',
   key: 'head-of-the-hydra',
+  gameId: 'AbandonedSewersTour1',
   setTitleId: [146],
   name: 'Head of the Hydra',
   releaseDate: '2012-11-30',

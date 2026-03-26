@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Midnighter: BadgeData = {
   type: 'day-job',
   key: 'midnighter',
+  gameId: 'DJ_Midnighter',
   setTitleId: [1042],
   name: 'Midnighter',
   releaseDate: '2012-11-30',

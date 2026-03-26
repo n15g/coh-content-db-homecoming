@@ -4,6 +4,7 @@ import { Savant } from '../history/savant'
 export const RiktiDrone: BadgeData = {
   type: 'gladiator',
   key: 'rikti-drone',
+  gameId: 'RiktiDrone',
   setTitleId: [496],
   name: 'Rikti Drone',
   releaseDate: '2012-11-30',

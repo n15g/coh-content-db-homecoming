@@ -4,6 +4,7 @@ import { PeregrineIsland } from '../../zone/peregrine-island'
 export const UseMightForRight: BadgeData = {
   type: 'exploration',
   key: 'use-might-for-right',
+  gameId: 'PeregrineIslandTour2',
   setTitleId: [1572],
   name: [
     { alignment: 'hero', value: 'Use Might for Right' },

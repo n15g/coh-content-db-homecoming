@@ -4,6 +4,7 @@ import { UnavoidableFateWuYin } from '../../mission/unavoidable-fate-wu-yin'
 export const Father: BadgeData = {
   type: 'accomplishment',
   key: 'father',
+  gameId: 'Mission_SM_i24_Personal_Story',
   setTitleId: [2272],
   name: 'Father',
   releaseDate: '2012-11-30',

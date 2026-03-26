@@ -4,6 +4,7 @@ import { Faultline } from '../../zone/faultline'
 export const EggHunter: BadgeData = {
   type: 'exploration',
   key: 'egg-hunter',
+  gameId: 'FaultlineEaster',
   setTitleId: [639],
   name: 'Egg Hunter',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { FatherTime } from '../../contact/father-time'
 export const Toothbreaker: BadgeData = {
   type: 'event',
   key: 'toothbreaker',
+  gameId: 'HuntBadge',
   setTitleId: [528],
   name: 'Toothbreaker',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const JudgementUnlocked: BadgeData = {
   type: 'accolade',
   key: 'judgement-unlocked',
+  gameId: 'IncarnateJudgementSlot',
   setTitleId: [1481],
   name: 'Judgement Unlocked',
   releaseDate: '2012-11-30',

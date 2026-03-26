@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Surefooted: BadgeData = {
   type: 'accomplishment',
   key: 'surefooted',
+  gameId: 'SlolamBronze2',
   setTitleId: [1060],
   name: 'Surefooted',
   releaseDate: '2012-11-30',

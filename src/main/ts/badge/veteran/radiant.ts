@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Radiant: BadgeData = {
   type: 'veteran',
   key: 'radiant',
+  gameId: 'Veteran84',
   setTitleId: [1606],
   name: 'Radiant',
   releaseDate: '2019-01-01',

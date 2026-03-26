@@ -11,6 +11,7 @@ import { WarriorAtTheGate } from '../exploration/warrior-at-the-gate'
 export const KnowsNovasNooks: BadgeData = {
   type: 'accolade',
   key: 'knows-novas-nooks',
+  gameId: 'P_UndergroundNovaPraetoriaExplorer',
   setTitleId: [1644],
   name: `Knows Nova's Nooks`,
   releaseDate: '2012-11-30',

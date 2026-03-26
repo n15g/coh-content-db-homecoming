@@ -4,6 +4,7 @@ import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 export const Virtuous: BadgeData = {
   type: 'exploration',
   key: 'virtuous',
+  gameId: 'ArchitectHeroMissions75',
   setTitleId: [1220],
   name: 'Virtuous',
   releaseDate: '2019-01-01',

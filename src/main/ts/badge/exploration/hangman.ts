@@ -5,6 +5,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const Hangman: BadgeData = {
   type: 'exploration',
   key: 'hangman',
+  gameId: 'SirensCallTour1',
   setTitleId: [259],
   name: [
     { sex: 'M', value: 'Hangman' },

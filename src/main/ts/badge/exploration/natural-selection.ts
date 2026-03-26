@@ -5,6 +5,7 @@ import { TheHive } from '../../zone/the-hive'
 export const NaturalSelection: BadgeData = {
   type: 'exploration',
   key: 'natural-selection',
+  gameId: 'EdenTour8',
   setTitleId: [1847],
   name: 'Natural Selection',
   releaseDate: '2012-11-30',

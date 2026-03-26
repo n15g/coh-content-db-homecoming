@@ -8,6 +8,7 @@ import { PPDDeputy } from '../achievement/ppd-deputy'
 export const ForceOfJustice: BadgeData = {
   type: 'accolade',
   key: 'force-of-justice',
+  gameId: 'SafeguardForceOfJustice',
   setTitleId: [646],
   name: [
     { alignment: 'hero', value: 'Force of Justice' },

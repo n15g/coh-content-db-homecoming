@@ -11,6 +11,7 @@ import { SocialWorker } from '../exploration/social-worker'
 export const JohnnysExBestFriend: BadgeData = {
   type: 'accolade',
   key: 'johnnys-ex-best-friend',
+  gameId: 'StMartialExplorer',
   setTitleId: [1509],
   name: [
     { alignment: 'hero', value: `Johnny's Ex-Best Friend` },

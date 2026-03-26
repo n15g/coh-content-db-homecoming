@@ -4,6 +4,7 @@ import { DrAeon } from '../../contact/dr-aeon'
 export const RippleRaider: BadgeData = {
   type: 'achievement',
   key: 'ripple-raider',
+  gameId: 'AeonSF_Challenge2',
   setTitleId: [2479],
   name: 'Ripple Raider',
   releaseDate: '2020-11-26',

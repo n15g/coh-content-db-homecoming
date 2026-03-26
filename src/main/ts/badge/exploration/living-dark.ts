@@ -4,6 +4,7 @@ import { AbandonedSewerNetwork } from '../../zone/abandoned-sewer-network'
 export const LivingDark: BadgeData = {
   type: 'exploration',
   key: 'living-dark',
+  gameId: 'AbSewerNetworkTour7',
   setTitleId: [1827],
   name: 'Living Dark',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DenialOfService: BadgeData = {
   type: 'accomplishment',
   key: 'denial-of-service',
+  gameId: 'P_DenialofService',
   setTitleId: [1421],
   name: 'Denial of Service',
   releaseDate: '2012-11-30',

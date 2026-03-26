@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ToyCollector: BadgeData = {
   type: 'event',
   key: 'toy-collector',
+  gameId: 'Holiday2005Badge3',
   setTitleId: [522],
   name: 'Toy Collector',
   releaseDate: '2012-11-30',

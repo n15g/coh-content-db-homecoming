@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const KnockbackKing: BadgeData = {
   type: 'achievement',
-  key: 'knockback-king',
+  key: 'knockback-king',  gameId: 'ZoeTF_Challenge4',
+
   setTitleId: [2580],
   name: [
     { sex: 'M', value: 'Knockback King' },

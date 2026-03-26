@@ -4,6 +4,7 @@ import { StopBothGroupsOfMysticMadmen } from '../../mission/stop-both-groups-of-
 export const SpiritWarrior: BadgeData = {
   type: 'accomplishment',
   key: 'spirit-warrior',
+  gameId: 'SL4MissionA',
   setTitleId: [74],
   name: 'Spirit Warrior',
   releaseDate: '2012-11-30',

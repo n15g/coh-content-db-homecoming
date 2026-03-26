@@ -4,6 +4,7 @@ import { RescueTheOGaffneyLawFirmFromTheCircleOfThorns } from '../../mission/res
 export const Corrupter: BadgeData = {
   type: 'accomplishment',
   key: 'corrupter',
+  gameId: 'SL6MissionA',
   setTitleId: [78],
   name: 'Corrupter',
   releaseDate: '2012-11-30',

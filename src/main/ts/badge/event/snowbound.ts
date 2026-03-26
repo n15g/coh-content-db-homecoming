@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Snowbound: BadgeData = {
   type: 'event',
   key: 'snowbound',
+  gameId: 'Winter2020Badge',
   setTitleId: [2458],
   name: 'Snowbound',
   releaseDate: '2020-11-26',

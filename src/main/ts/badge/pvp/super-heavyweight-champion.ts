@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SuperHeavyweightChampion: BadgeData = {
   type: 'pvp',
   key: 'super-heavyweight-champion',
+  gameId: 'SuperHeavyweight',
   setTitleId: [229],
   name: 'Super Heavyweight Champion',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const DarknessUnleashed: BadgeData = {
   type: 'exploration',
   key: 'darkness-unleashed',
+  gameId: 'CimeroraTour8',
   setTitleId: [2468],
   name: 'Darkness Unleashed',
   releaseDate: '2020-11-26',

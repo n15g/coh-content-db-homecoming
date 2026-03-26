@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MansBestFriend: BadgeData = {
   type: 'event',
   key: 'mans-best-friend',
+  gameId: 'SummerEvent_BestFriend',
   setTitleId: [2244],
   name: [
     { sex: 'M', value: `Man's Best Friend` },

@@ -6,6 +6,7 @@ import { AlreadyDead } from './already-dead'
 export const MasterOfApexsTaskForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-apexs-task-force',
+  gameId: 'AlphaTF_Master_Apex',
   setTitleId: [1939],
   name: `Master of Apex's Task Force`,
   releaseDate: '2012-11-30',

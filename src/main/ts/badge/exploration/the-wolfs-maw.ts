@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const TheWolfsMaw: BadgeData = {
   type: 'exploration',
   key: 'the-wolfs-maw',
+  gameId: 'StrigaTour7',
   setTitleId: [1789],
   name: `The Wolf's Maw`,
   releaseDate: '2012-11-30',

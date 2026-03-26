@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const FerrymanOfTheDamned: BadgeData = {
   type: 'exploration',
   key: 'ferryman-of-the-damned',
+  gameId: 'P_FerrymanOfTheDamned',
   setTitleId: [1638],
   name: [
     { sex: 'M', value: 'Ferryman of the Damned' },

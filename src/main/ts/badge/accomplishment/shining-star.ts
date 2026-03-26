@@ -4,6 +4,7 @@ import { TheShiningStarsANewDayDawning } from '../../mission/the-shining-stars-a
 export const ShiningStar: BadgeData = {
   type: 'accomplishment',
   key: 'shining-star',
+  gameId: 'Badge_OGTH1',
   setTitleId: [2014],
   name: 'Shining Star',
   releaseDate: '2012-11-30',

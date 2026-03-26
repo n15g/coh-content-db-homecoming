@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CoralaxBlueHybrid: BadgeData = {
   type: 'gladiator',
   key: 'coralax-blue-hybrid',
+  gameId: 'Coralax',
   setTitleId: [449],
   name: 'Coralax Blue Hybrid',
   releaseDate: '2012-11-30',

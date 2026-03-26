@@ -4,6 +4,7 @@ import { Infiltrator } from '../defeat/infiltrator'
 export const _7thGenerationParagonProtector: BadgeData = {
   type: 'gladiator',
   key: '7th-generation-paragon-protector',
+  gameId: 'ParagonProtect',
   setTitleId: [501],
   name: '7th Generation Paragon Protector',
   releaseDate: '2012-11-30',

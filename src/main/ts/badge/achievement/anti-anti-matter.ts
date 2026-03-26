@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AntiAntiMatter: BadgeData = {
   type: 'achievement',
   key: 'anti-anti-matter',
+  gameId: 'IT_Keyes_StrongPulse',
   setTitleId: [1990],
   name: 'Anti-Anti-Matter',
   releaseDate: '2012-11-30',

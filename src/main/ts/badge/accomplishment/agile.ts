@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Agile: BadgeData = {
   type: 'accomplishment',
   key: 'agile',
+  gameId: 'SlolamSilver2',
   setTitleId: [1059],
   name: 'Agile',
   releaseDate: '2012-11-30',

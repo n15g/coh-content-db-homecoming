@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Desisted: BadgeData = {
   type: 'ouroboros',
   key: 'desisted',
+  gameId: 'NoTravelPowersatSL4',
   setTitleId: [898],
   name: 'Desisted',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Pwnz } from '../accomplishment/pwnz'
 export const ChiefSwiper: BadgeData = {
   type: 'gladiator',
   key: 'chief-swiper',
+  gameId: 'Swiper',
   setTitleId: [483],
   name: 'Chief Swiper',
   releaseDate: '2012-11-30',

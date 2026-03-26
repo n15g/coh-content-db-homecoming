@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Cunning: BadgeData = {
   type: 'architect-entertainment',
   key: 'cunning',
+  gameId: 'ArchitectRogueMission',
   setTitleId: [1476],
   name: 'Cunning',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MirrorImage: BadgeData = {
   type: 'achievement',
   key: 'mirror-image',
+  gameId: 'ATDuplication',
   setTitleId: [2524],
   name: 'Mirror Image',
   releaseDate: '2020-11-26',

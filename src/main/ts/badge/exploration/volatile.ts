@@ -4,6 +4,7 @@ import { SirensCall } from '../../zone/sirens-call'
 export const Volatile: BadgeData = {
   type: 'exploration',
   key: 'volatile',
+  gameId: 'SirensCallTour8',
   setTitleId: [2418],
   name: 'Volatile',
   releaseDate: '2019-06-01',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Inquisitor: BadgeData = {
   type: 'accomplishment',
   key: 'inquisitor',
+  gameId: 'P_VillainAlignmentMission',
   setTitleId: [1445],
   name: 'Inquisitor',
   releaseDate: '2012-11-30',

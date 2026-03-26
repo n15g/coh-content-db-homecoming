@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VirtualVictim: BadgeData = {
   type: 'architect-entertainment',
   key: 'virtual-victim',
+  gameId: 'ArchitectDefeatedInTest',
   setTitleId: [1233],
   name: 'Virtual Victim',
   releaseDate: '2012-11-30',

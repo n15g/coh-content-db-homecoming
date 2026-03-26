@@ -7,6 +7,7 @@ import { SlayerOfTheMinotaur } from '../defeat/slayer-of-the-minotaur'
 export const ConquerorOfTheLabyrinth: BadgeData = {
   type: 'accolade',
   key: 'conqueror-of-the-labyrinth',
+  gameId: 'LabyrinthAccolade',
   setTitleId: [2532],
   name: 'Conqueror of the Labyrinth',
   releaseDate: '2024-11-19',

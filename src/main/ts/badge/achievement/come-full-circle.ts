@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ComeFullCircle: BadgeData = {
   type: 'achievement',
   key: 'come-full-circle',
+  gameId: 'P_ComeFullCircle',
   setTitleId: [1464],
   name: 'Come Full Circle',
   releaseDate: '2012-11-30',

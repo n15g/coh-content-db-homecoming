@@ -4,6 +4,7 @@ import { FaathimTheKindTaskForce } from '../../mission/faathim-the-kind-task-for
 export const SlayerOfMadness: BadgeData = {
   type: 'accomplishment',
   key: 'slayer-of-madness',
+  gameId: 'ShardTF4',
   setTitleId: [426],
   name: 'Slayer of Madness',
   releaseDate: '2012-11-30',

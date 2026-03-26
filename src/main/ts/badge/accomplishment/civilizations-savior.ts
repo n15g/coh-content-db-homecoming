@@ -4,6 +4,7 @@ import { PraetoriasLastGasp } from '../../mission/praetorias-last-gasp'
 export const CivilizationsSavior: BadgeData = {
   type: 'accomplishment',
   key: 'civilizations-savior',
+  gameId: 'Mission_Incarnate_i24_Arc_Complete_01',
   setTitleId: [2261],
   name: `Civilization's Savior`,
   releaseDate: '2012-11-30',

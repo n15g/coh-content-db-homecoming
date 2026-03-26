@@ -4,6 +4,7 @@ import { MercyIsland } from '../../zone/mercy-island'
 export const Widower: BadgeData = {
   type: 'exploration',
   key: 'widower',
+  gameId: 'MercyIslandTour6',
   setTitleId: [268],
   name: [
     { sex: 'M', value: 'Widower' },

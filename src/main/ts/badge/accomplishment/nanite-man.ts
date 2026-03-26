@@ -5,6 +5,7 @@ import { ToProtectTheNation } from '../../mission/to-protect-the-nation'
 export const NaniteMan: BadgeData = {
   type: 'accomplishment',
   key: 'nanite-man',
+  gameId: 'Mission_DA_PersonalArc_Complete_03',
   setTitleId: [2196],
   name: [
     { sex: 'M', value: 'Nanite Man' },

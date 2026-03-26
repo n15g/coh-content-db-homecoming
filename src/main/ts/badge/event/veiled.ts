@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Veiled: BadgeData = {
   type: 'event',
   key: 'veiled',
+  gameId: 'Halloween2010Veiled',
   setTitleId: [1770],
   name: 'Veiled',
   releaseDate: '2012-11-30',

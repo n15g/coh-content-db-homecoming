@@ -3,7 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const MarkedOut: BadgeData = {
   type: 'exploration',
-  key: 'marked-out',
+  key: 'marked-out',  gameId: 'KallistiWharfTour6',
+
   setTitleId: [2454],
   name: 'Marked Out',
   releaseDate: '2025-06-17',

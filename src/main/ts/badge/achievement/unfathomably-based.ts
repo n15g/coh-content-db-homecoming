@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const UnfathomablyBased: BadgeData = {
   type: 'achievement',
-  key: 'unfathomably-based',
+  key: 'unfathomably-based',  gameId: 'SupergroupBaseTour4',
+
   setTitleId: [2590],
   name: 'Unfathomably Based',
   releaseDate: '2026-02-10',

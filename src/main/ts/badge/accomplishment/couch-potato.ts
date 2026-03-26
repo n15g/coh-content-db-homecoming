@@ -4,6 +4,7 @@ import { SureFreakishlyStylizedCartoonChildNeverGiveUp } from '../../mission/sur
 export const CouchPotato: BadgeData = {
   type: 'accomplishment',
   key: 'couch-potato',
+  gameId: 'VSL9MissionB',
   setTitleId: [347],
   name: 'Couch Potato',
   releaseDate: '2012-11-30',

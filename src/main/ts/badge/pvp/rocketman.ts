@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Rocketman: BadgeData = {
   type: 'pvp',
   key: 'rocketman',
+  gameId: 'Rocketman',
   setTitleId: [371],
   name: [
     { sex: 'M', value: 'Rocketman' },

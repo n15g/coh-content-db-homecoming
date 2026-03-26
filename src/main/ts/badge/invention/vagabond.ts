@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Vagabond: BadgeData = {
   type: 'invention',
   key: 'vagabond',
+  gameId: 'InventionTravel2',
   setTitleId: [801],
   name: 'Vagabond',
   releaseDate: '2012-11-30',

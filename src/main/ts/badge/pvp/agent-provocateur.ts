@@ -6,6 +6,7 @@ import { Warburg } from '../../zone/warburg'
 export const AgentProvocateur: BadgeData = {
   type: 'pvp',
   key: 'agent-provocateur',
+  gameId: 'AgentProvocateur',
   setTitleId: [369],
   name: 'Agent Provocateur',
   releaseDate: '2012-11-30',

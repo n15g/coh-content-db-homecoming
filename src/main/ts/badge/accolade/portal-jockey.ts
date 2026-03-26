@@ -7,6 +7,7 @@ import { Shrouded } from '../exploration/shrouded'
 export const PortalJockey: BadgeData = {
   type: 'accolade',
   key: 'portal-jockey',
+  gameId: 'DimensionalHopperSet',
   setTitleId: [165],
   name: 'Portal Jockey',
   releaseDate: '2012-11-30',

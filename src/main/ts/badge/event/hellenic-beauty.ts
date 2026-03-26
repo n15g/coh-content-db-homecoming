@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HellenicBeauty: BadgeData = {
   type: 'event',
   key: 'hellenic-beauty',
+  gameId: 'SummerEvent_Hellenic',
   setTitleId: [2243],
   name: 'Hellenic Beauty',
   releaseDate: '2012-11-30',

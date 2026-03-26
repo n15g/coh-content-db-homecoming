@@ -4,6 +4,7 @@ import { NullTheGull } from '../../contact/null-the-gull'
 export const Gullible: BadgeData = {
   type: 'accomplishment',
   key: 'gullible',
+  gameId: 'Gullible',
   setTitleId: [2326],
   name: 'Gullible',
   releaseDate: '2019-01-01',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HammerDown: BadgeData = {
   type: 'defeat',
   key: 'hammer-down',
+  gameId: 'Scrapyard',
   setTitleId: [304],
   name: 'Hammer Down',
   releaseDate: '2012-11-30',

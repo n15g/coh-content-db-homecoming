@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const RaiderEngineer: BadgeData = {
   type: 'gladiator',
   key: 'raider-engineer',
+  gameId: 'RaiderEngineer',
   setTitleId: [487],
   name: 'Raider Engineer',
   releaseDate: '2012-11-30',

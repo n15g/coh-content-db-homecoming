@@ -5,6 +5,7 @@ import { Eden } from '../../zone/eden'
 export const WildAtHeart: BadgeData = {
   type: 'exploration',
   key: 'wild-at-heart',
+  gameId: 'TheHiveTour5',
   setTitleId: [1850],
   name: 'Wild At Heart',
   releaseDate: '2012-11-30',

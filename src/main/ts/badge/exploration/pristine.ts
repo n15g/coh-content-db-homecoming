@@ -4,6 +4,7 @@ import { EchoFaultline } from '../../zone/echo-faultline'
 export const Pristine: BadgeData = {
   type: 'exploration',
   key: 'pristine',
+  gameId: 'FaultlineTour9',
   setTitleId: [2400],
   name: 'Pristine',
   releaseDate: '2019-06-01',

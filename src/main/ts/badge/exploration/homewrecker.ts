@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const Homewrecker: BadgeData = {
   type: 'exploration',
   key: 'homewrecker',
+  gameId: 'RiktiWarZoneTour7',
   setTitleId: [753],
   name: 'Homewrecker',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const LandLocked: BadgeData = {
   type: 'exploration',
   key: 'land-locked',
+  gameId: 'GalaxyCityTour5',
   setTitleId: [95],
   name: 'Land Locked',
   releaseDate: '2012-11-30',

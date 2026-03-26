@@ -4,6 +4,7 @@ import { TheOriginOfPower } from '../../mission/the-origin-of-power'
 export const OriginOfPower: BadgeData = {
   type: 'accomplishment',
   key: 'origin-of-power',
+  gameId: 'MSOrigin',
   setTitleId: [989],
   name: 'Origin of Power',
   releaseDate: '2012-11-30',

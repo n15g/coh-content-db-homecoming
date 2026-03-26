@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const IronChef: BadgeData = {
   type: 'achievement',
   key: 'iron-chef',
+  gameId: 'RejectRecipes1000',
   setTitleId: [2395],
   name: 'Iron Chef',
   releaseDate: '2012-11-30',

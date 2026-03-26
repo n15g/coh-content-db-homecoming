@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Bladegrass: BadgeData = {
   type: 'gladiator',
   key: 'bladegrass',
+  gameId: 'Bladegrass',
   setTitleId: [485],
   name: 'Bladegrass',
   releaseDate: '2012-11-30',

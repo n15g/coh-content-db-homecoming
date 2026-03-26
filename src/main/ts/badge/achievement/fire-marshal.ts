@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FireMarshal: BadgeData = {
   type: 'achievement',
   key: 'fire-marshal',
+  gameId: 'SafeguardFireMarshal',
   setTitleId: [640],
   name: [
     { alignment: 'hero', value: 'Fire Marshal' },

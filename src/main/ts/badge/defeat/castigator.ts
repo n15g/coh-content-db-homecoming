@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Castigator: BadgeData = {
   type: 'defeat',
   key: 'castigator',
+  gameId: 'DefeatTalonsEnd',
   setTitleId: [2173],
   name: 'Castigator',
   releaseDate: '2012-11-30',

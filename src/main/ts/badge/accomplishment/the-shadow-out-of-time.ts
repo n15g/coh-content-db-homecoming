@@ -4,6 +4,7 @@ import { GloryAndDarkTidings } from '../../mission/glory-and-dark-tidings'
 export const TheShadowOutOfTime: BadgeData = {
   type: 'accomplishment',
   key: 'the-shadow-out-of-time',
+  gameId: 'Mission_i27_Valeria',
   setTitleId: [2494],
   name: 'The Shadow Out Of Time',
   releaseDate: '2020-11-26',

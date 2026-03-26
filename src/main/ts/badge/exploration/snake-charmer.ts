@@ -4,6 +4,7 @@ import { MercyIsland } from '../../zone/mercy-island'
 export const SnakeCharmer: BadgeData = {
   type: 'exploration',
   key: 'snake-charmer',
+  gameId: 'MercyIslandTour2',
   setTitleId: [264],
   name: 'Snake Charmer',
   releaseDate: '2012-11-30',

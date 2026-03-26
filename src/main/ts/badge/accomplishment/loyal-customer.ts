@@ -4,6 +4,7 @@ import { MarketCrashTrial } from '../../mission/market-crash-trial'
 export const LoyalCustomer: BadgeData = {
   type: 'accomplishment',
   key: 'loyal-customer',
+  gameId: 'LoyalCustomer',
   setTitleId: [2369],
   name: 'Loyal Customer',
   releaseDate: '2012-11-30',

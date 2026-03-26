@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const Steamed: BadgeData = {
   type: 'exploration',
   key: 'steamed',
+  gameId: 'CapAuDiableTour4',
   setTitleId: [272],
   name: 'Steamed',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { TheUndergroundTrial } from '../../mission/the-underground-trial'
 export const UndergroundSeeker: BadgeData = {
   type: 'accomplishment',
   key: 'underground-seeker',
+  gameId: 'IT_Underground_Complete',
   setTitleId: [1995],
   name: 'Underground Seeker',
   releaseDate: '2012-11-30',

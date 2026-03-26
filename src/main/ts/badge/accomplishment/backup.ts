@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Backup: BadgeData = {
   type: 'accomplishment',
   key: 'backup',
+  gameId: 'WeeklyTFHelper02',
   setTitleId: [1967],
   name: [
     { alignment: 'hero', value: 'Backup' },

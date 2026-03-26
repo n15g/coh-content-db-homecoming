@@ -4,6 +4,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const UnethicalTourist: BadgeData = {
   type: 'exploration',
   key: 'unethical-tourist',
+  gameId: 'NervaTour6',
   setTitleId: [1501],
   name: 'Unethical Tourist',
   releaseDate: '2012-11-30',

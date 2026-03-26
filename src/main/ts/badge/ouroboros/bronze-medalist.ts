@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BronzeMedalist: BadgeData = {
   type: 'ouroboros',
   key: 'bronze-medalist',
+  gameId: 'TimeLimitBronze',
   setTitleId: [864],
   name: 'Bronze Medalist',
   releaseDate: '2012-11-30',

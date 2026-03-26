@@ -4,6 +4,7 @@ import { DrowningInBlood } from '../../mission/drowning-in-blood'
 export const SiblingRivalry: BadgeData = {
   type: 'accomplishment',
   key: 'sibling-rivalry',
+  gameId: 'BloodyBayTrial_Complete',
   setTitleId: [2175],
   name: 'Sibling Rivalry',
   releaseDate: '2012-11-30',

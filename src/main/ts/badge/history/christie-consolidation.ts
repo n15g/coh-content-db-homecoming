@@ -3,7 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const ChristieConsolidation: BadgeData = {
   type: 'history',
-  key: 'christie-consolidation',
+  key: 'christie-consolidation',  gameId: 'KallistiHistory03',
+
   setTitleId: [2558],
   name: 'Christie Consolidation',
   releaseDate: '2025-06-17',

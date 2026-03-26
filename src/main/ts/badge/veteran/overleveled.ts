@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Overleveled: BadgeData = {
   type: 'veteran',
   key: 'overleveled',
+  gameId: 'Veteran3',
   setTitleId: [624],
   name: 'Overleveled',
   releaseDate: '2019-01-01',

@@ -24,6 +24,7 @@ import { LordRecluseStrikeForce } from '../../mission/lord-recluse-strike-force'
 export const ReclusesBetrayer: BadgeData = {
   type: 'accolade',
   key: 'recluses-betrayer',
+  gameId: 'ReclusesRightHand',
   setTitleId: [398],
   name: [
     { alignment: 'hero', value: `Recluse's Betrayer` },

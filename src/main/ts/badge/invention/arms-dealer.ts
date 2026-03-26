@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ArmsDealer: BadgeData = {
   type: 'invention',
   key: 'arms-dealer',
+  gameId: 'InventionDamage4',
   setTitleId: [798],
   name: 'Arms Dealer',
   releaseDate: '2012-11-30',

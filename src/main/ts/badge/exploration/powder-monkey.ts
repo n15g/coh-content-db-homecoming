@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const PowderMonkey: BadgeData = {
   type: 'exploration',
   key: 'powder-monkey',
+  gameId: 'PortOakesTour3',
   setTitleId: [253],
   name: 'Powder Monkey',
   releaseDate: '2012-11-30',

@@ -7,6 +7,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const Authority: BadgeData = {
   type: 'history',
   key: 'authority',
+  gameId: 'FreedomPhalanx',
   setTitleId: [155],
   name: 'Authority',
   releaseDate: '2012-11-30',

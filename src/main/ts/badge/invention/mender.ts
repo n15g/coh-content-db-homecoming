@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Mender: BadgeData = {
   type: 'invention',
   key: 'mender',
+  gameId: 'InventionHeal2',
   setTitleId: [766],
   name: 'Mender',
   releaseDate: '2012-11-30',

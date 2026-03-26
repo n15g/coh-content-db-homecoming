@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WalksTheLine: BadgeData = {
   type: 'architect-entertainment',
   key: 'walks-the-line',
+  gameId: 'ArchitectVigilanteMission',
   setTitleId: [1475],
   name: 'Walks the Line',
   releaseDate: '2012-11-30',

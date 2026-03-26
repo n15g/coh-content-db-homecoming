@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const Disappeared: BadgeData = {
   type: 'exploration',
   key: 'disappeared',
+  gameId: 'P_Disappeared',
   setTitleId: [1637],
   name: 'Disappeared',
   releaseDate: '2012-11-30',

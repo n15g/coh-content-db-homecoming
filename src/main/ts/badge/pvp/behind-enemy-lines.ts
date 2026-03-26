@@ -6,6 +6,7 @@ import { Warburg } from '../../zone/warburg'
 export const BehindEnemyLines: BadgeData = {
   type: 'pvp',
   key: 'behind-enemy-lines',
+  gameId: 'BehindEnemyLines',
   setTitleId: [2457],
   name: 'Behind Enemy Lines',
   releaseDate: '2020-11-26',

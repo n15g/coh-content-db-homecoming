@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const EmberLegacyOfFlame: BadgeData = {
   type: 'gladiator',
   key: 'ember-legacy-of-flame',
+  gameId: 'LegacyFlame',
   setTitleId: [464],
   name: 'Ember Legacy of Flame',
   releaseDate: '2012-11-30',

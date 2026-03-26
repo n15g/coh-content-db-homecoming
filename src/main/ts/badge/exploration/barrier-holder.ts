@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const BarrierHolder: BadgeData = {
   type: 'exploration',
   key: 'barrier-holder',
+  gameId: 'CroatoaTour4',
   setTitleId: [1540],
   name: 'Barrier Holder',
   releaseDate: '2012-11-30',

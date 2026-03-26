@@ -4,6 +4,7 @@ import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 export const BeingAndNothingness: BadgeData = {
   type: 'exploration',
   key: 'being-and-nothingness',
+  gameId: 'CascadeArchTour3',
   setTitleId: [1807],
   name: 'Being and Nothingness',
   releaseDate: '2012-11-30',

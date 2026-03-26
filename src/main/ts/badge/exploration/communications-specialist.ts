@@ -4,6 +4,7 @@ import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
 export const CommunicationsSpecialist: BadgeData = {
   type: 'exploration',
   key: 'communications-specialist',
+  gameId: 'CommSpecialist',
   setTitleId: [2328],
   name: 'Communications Specialist',
   releaseDate: '2012-11-30',

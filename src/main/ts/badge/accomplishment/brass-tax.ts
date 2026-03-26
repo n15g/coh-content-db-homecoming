@@ -3,7 +3,8 @@ import { MergersAndAcquisitions } from '../../mission/mergers-and-acquisitions'
 
 export const BrassTax: BadgeData = {
   type: 'accomplishment',
-  key: 'brass-tax',
+  key: 'brass-tax',  gameId: 'Mission_i28_DapDap_Bonus',
+
   setTitleId: [2567],
   name: 'Brass Tax',
   releaseDate: '2025-06-17',

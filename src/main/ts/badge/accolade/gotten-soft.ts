@@ -10,6 +10,7 @@ import { Technofreak } from '../history/technofreak'
 export const GottenSoft: BadgeData = {
   type: 'accolade',
   key: 'gotten-soft',
+  gameId: 'HighPainThreshold',
   setTitleId: [535],
   name: [
     { alignment: 'hero', value: 'Gotten Soft' },

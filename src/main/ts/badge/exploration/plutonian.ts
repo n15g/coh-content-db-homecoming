@@ -4,6 +4,7 @@ import { SewerNetwork } from '../../zone/sewer-network'
 export const Plutonian: BadgeData = {
   type: 'exploration',
   key: 'plutonian',
+  gameId: 'SewerNetworkTour2',
   setTitleId: [1830],
   name: 'Plutonian',
   releaseDate: '2012-11-30',

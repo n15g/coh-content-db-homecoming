@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BruteForced: BadgeData = {
   type: 'defeat',
   key: 'brute-forced',
+  gameId: 'DefeatRularuuBrutes',
   setTitleId: [2445],
   name: 'Brute Forced',
   releaseDate: '2020-11-26',

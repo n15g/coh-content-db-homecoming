@@ -4,6 +4,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const OvertimeWorker: BadgeData = {
   type: 'exploration',
   key: 'overtime-worker',
+  gameId: 'TalosIslandTour7',
   setTitleId: [1549],
   name: 'Overtime Worker',
   releaseDate: '2012-11-30',

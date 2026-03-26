@@ -4,7 +4,8 @@ import { ChromaticCombatant } from '../accomplishment/chromatic-combatant'
 
 export const Mazebreaker: BadgeData = {
   type: 'accolade',
-  key: 'mazebreaker',
+  key: 'mazebreaker',  gameId: 'LabyrinthAccolade2',
+
   setTitleId: [2582],
   name: 'Mazebreaker',
   releaseDate: '2025-11-25',

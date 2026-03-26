@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BloodyHands: BadgeData = {
   type: 'defeat',
   key: 'bloody-hands',
+  gameId: 'MayhemHeroSlayer',
   setTitleId: [549],
   name: [
     { alignment: 'hero', value: 'Bloody Hands' },

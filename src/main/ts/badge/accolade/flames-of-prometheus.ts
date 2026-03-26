@@ -4,6 +4,7 @@ import { MortimerKalStrikeForce } from '../../mission/mortimer-kal-strike-force'
 export const FlamesOfPrometheus: BadgeData = {
   type: 'accolade',
   key: 'flames-of-prometheus',
+  gameId: 'FlamesConvert',
   setTitleId: [2003],
   name: 'Flames of Prometheus',
   releaseDate: '2012-11-30',

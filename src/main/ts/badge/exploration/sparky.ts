@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const Sparky: BadgeData = {
   type: 'exploration',
   key: 'sparky',
+  gameId: 'CapAuDiableTour1',
   setTitleId: [269],
   name: 'Sparky',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Malleus: BadgeData = {
   type: 'event',
   key: 'malleus',
+  gameId: 'Malleus',
   setTitleId: [189],
   name: 'Malleus',
   releaseDate: '2012-11-30',

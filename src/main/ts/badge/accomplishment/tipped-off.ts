@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TippedOff: BadgeData = {
   type: 'accomplishment',
   key: 'tipped-off',
+  gameId: 'P_GotTip',
   setTitleId: [1440],
   name: 'Tipped Off',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const AroundTheBendis: BadgeData = {
   type: 'exploration',
   key: 'around-the-bendis',
+  gameId: 'PerezParkTour3',
   setTitleId: [103],
   name: 'Around the Bendis',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Interrogator: BadgeData = {
   type: 'pvp',
   key: 'interrogator',
+  gameId: 'RVSisterPsyche',
   setTitleId: [577],
   name: 'Interrogator',
   releaseDate: '2012-11-30',

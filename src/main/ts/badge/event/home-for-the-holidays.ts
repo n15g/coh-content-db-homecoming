@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HomeForTheHolidays: BadgeData = {
   type: 'event',
   key: 'home-for-the-holidays',
+  gameId: 'Winter2023Badge',
   setTitleId: [2518],
   name: 'Home for the Holidays',
   releaseDate: '2024-05-02',

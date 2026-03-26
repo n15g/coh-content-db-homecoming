@@ -11,6 +11,7 @@ import { UsurperOfWorlds } from '../exploration/usurper-of-worlds'
 export const CascadeCleansing: BadgeData = {
   type: 'accolade',
   key: 'cascade-cleansing',
+  gameId: 'CascadeArchExplorer',
   setTitleId: [1882],
   name: 'Cascade Cleansing',
   releaseDate: '2012-11-30',

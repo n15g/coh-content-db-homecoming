@@ -3,7 +3,8 @@ import { MergersAndAcquisitions } from '../../mission/mergers-and-acquisitions'
 
 export const BusinessSavvy: BadgeData = {
   type: 'accomplishment',
-  key: 'business-savvy',
+  key: 'business-savvy',  gameId: 'Mission_i28_DapDap',
+
   setTitleId: [2560],
   name: 'Business Savvy',
   releaseDate: '2025-06-17',

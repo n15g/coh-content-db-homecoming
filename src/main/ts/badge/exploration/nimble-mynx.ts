@@ -5,6 +5,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const NimbleMynx: BadgeData = {
   type: 'exploration',
   key: 'nimble-mynx',
+  gameId: 'SteelCanyonTour3',
   setTitleId: [108],
   name: 'Nimble Mynx',
   releaseDate: '2012-11-30',

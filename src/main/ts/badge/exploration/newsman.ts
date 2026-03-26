@@ -4,6 +4,7 @@ import { EchoFaultline } from '../../zone/echo-faultline'
 export const Newsman: BadgeData = {
   type: 'exploration',
   key: 'newsman',
+  gameId: 'FaultlineTour2',
   setTitleId: [119],
   name: [
     { sex: 'M', value: 'Newsman' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DemonSlayer: BadgeData = {
   type: 'defeat',
   key: 'demon-slayer',
+  gameId: 'DemonSlayer',
   setTitleId: [41],
   name: 'Demon Slayer',
   releaseDate: '2012-11-30',

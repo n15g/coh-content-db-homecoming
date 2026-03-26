@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ManInBlack: BadgeData = {
   type: 'defeat',
   key: 'man-in-black',
+  gameId: 'ManinBlack',
   setTitleId: [312],
   name: [
     { sex: 'M', value: 'Man in Black' },

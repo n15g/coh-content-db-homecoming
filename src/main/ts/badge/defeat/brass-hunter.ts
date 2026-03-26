@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BrassHunter: BadgeData = {
   type: 'defeat',
   key: 'brass-hunter',
+  gameId: 'DefeatJaeger',
   setTitleId: [2442],
   name: 'Brass Hunter',
   releaseDate: '2020-11-26',

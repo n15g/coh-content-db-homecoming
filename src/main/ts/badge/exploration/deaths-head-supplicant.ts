@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const DeathsHeadSupplicant: BadgeData = {
   type: 'exploration',
   key: 'deaths-head-supplicant',
+  gameId: 'DarkAstoriaIncarnateTour4',
   setTitleId: [2182],
   name: `Death's Head Supplicant`,
   releaseDate: '2012-11-30',

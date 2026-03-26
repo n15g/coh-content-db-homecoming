@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheBeastWithin: BadgeData = {
   type: 'defeat',
   key: 'the-beast-within',
+  gameId: 'Defeat5thLycanthropes',
   setTitleId: [2483],
   name: 'The Beast Within',
   releaseDate: '2020-11-26',

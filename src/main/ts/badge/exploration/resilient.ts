@@ -4,6 +4,7 @@ import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 export const Resilient: BadgeData = {
   type: 'exploration',
   key: 'resilient',
+  gameId: 'Resilient',
   setTitleId: [2324],
   name: 'Resilient',
   releaseDate: '2019-01-01',

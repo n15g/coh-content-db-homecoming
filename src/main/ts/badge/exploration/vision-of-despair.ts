@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const VisionOfDespair: BadgeData = {
   type: 'exploration',
   key: 'vision-of-despair',
+  gameId: 'BoomtownTour3',
   setTitleId: [116],
   name: 'Vision of Despair',
   releaseDate: '2012-11-30',

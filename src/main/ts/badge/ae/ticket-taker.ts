@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TicketTaker: BadgeData = {
   type: 'architect-entertainment',
   key: 'ticket-taker',
+  gameId: 'ArchitectTickets100',
   setTitleId: [1265],
   name: 'Ticket Taker',
   releaseDate: '2012-11-30',

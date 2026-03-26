@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const BackFromTheFuture: BadgeData = {
   type: 'pvp',
   key: 'back-from-the-future',
+  gameId: 'RVPillbox1000',
   setTitleId: [566],
   name: 'Back From the Future',
   releaseDate: '2012-11-30',

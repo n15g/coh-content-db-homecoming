@@ -11,6 +11,7 @@ import { Soother } from '../exploration/soother'
 export const NervaNavigator: BadgeData = {
   type: 'accolade',
   key: 'nerva-navigator',
+  gameId: 'NervaExplorer',
   setTitleId: [1504],
   name: 'Nerva Navigator',
   releaseDate: '2012-11-30',

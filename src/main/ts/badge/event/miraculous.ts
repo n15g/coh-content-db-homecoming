@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Miraculous: BadgeData = {
   type: 'event',
   key: 'miraculous',
+  gameId: 'Miraculous',
   setTitleId: [701],
   name: 'Miraculous',
   releaseDate: '2012-11-30',

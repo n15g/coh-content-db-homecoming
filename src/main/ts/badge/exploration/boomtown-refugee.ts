@@ -4,6 +4,7 @@ import { AbandonedSewerNetwork } from '../../zone/abandoned-sewer-network'
 export const BoomtownRefugee: BadgeData = {
   type: 'exploration',
   key: 'boomtown-refugee',
+  gameId: 'AbSewerNetworkTour1',
   setTitleId: [1821],
   name: 'Boomtown Refugee',
   releaseDate: '2012-11-30',

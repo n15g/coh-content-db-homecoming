@@ -4,6 +4,7 @@ import { TinMageMarkII } from '../../contact/tin-mage-mark-ii'
 export const Hacker: BadgeData = {
   type: 'achievement',
   key: 'hacker',
+  gameId: 'AlphaTF_ComputersQuick',
   setTitleId: [1761],
   name: 'Hacker',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { PriceOfFriendship } from '../../mission/price-of-friendship'
 export const FreedomCracker: BadgeData = {
   type: 'accomplishment',
   key: 'freedom-cracker',
+  gameId: '2100_Mercy_CompleteBadge',
   setTitleId: [2013],
   name: 'Freedom Cracker',
   releaseDate: '2012-11-30',

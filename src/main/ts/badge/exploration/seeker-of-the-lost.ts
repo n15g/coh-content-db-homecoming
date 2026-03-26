@@ -6,6 +6,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const SeekerOfTheLost: BadgeData = {
   type: 'exploration',
   key: 'seeker-of-the-lost',
+  gameId: 'SewerNetworkTour8',
   setTitleId: [1836],
   name: 'Seeker of the Lost',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { SirensCall } from '../../zone/sirens-call'
 export const Politician: BadgeData = {
   type: 'exploration',
   key: 'politician',
+  gameId: 'SirensCallTour2',
   setTitleId: [260],
   name: 'Politician',
   releaseDate: '2020-11-26',

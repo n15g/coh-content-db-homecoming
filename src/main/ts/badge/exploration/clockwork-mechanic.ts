@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const ClockworkMechanic: BadgeData = {
   type: 'exploration',
   key: 'clockwork-mechanic',
+  gameId: 'P_ClockworkMechanic',
   setTitleId: [1636],
   name: 'Clockwork Mechanic',
   releaseDate: '2012-11-30',

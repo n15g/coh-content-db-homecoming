@@ -4,6 +4,7 @@ import { SynapseTaskForce } from '../../mission/synapse-task-force'
 export const SynapsesCohort: BadgeData = {
   type: 'accomplishment',
   key: 'synapses-cohort',
+  gameId: 'SynapseTF',
   setTitleId: [62],
   name: [
     { alignment: 'hero', value: `Synapse's Cohort` },

@@ -5,6 +5,7 @@ import { MonitorDuty } from '../day-job/monitor-duty'
 export const RapidResponseMember: BadgeData = {
   type: 'accolade',
   key: 'rapid-response-member',
+  gameId: 'DJ_Rapid_Response_Member',
   setTitleId: [1076],
   name: [
     { alignment: 'hero', value: 'Rapid Response Member' },

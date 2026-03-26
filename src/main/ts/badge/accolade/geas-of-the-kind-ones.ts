@@ -12,6 +12,7 @@ import { Spellbinding } from '../defeat/spellbinding'
 export const GeasOfTheKindOnes: BadgeData = {
   type: 'accolade',
   key: 'geas-of-the-kind-ones',
+  gameId: 'GeasoftheKindOnes',
   setTitleId: [435],
   name: 'Geas of the Kind Ones',
   releaseDate: '2012-11-30',

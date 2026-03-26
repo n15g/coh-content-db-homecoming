@@ -4,6 +4,7 @@ import { TheHive } from '../../zone/the-hive'
 export const TimeBandit: BadgeData = {
   type: 'exploration',
   key: 'time-bandit',
+  gameId: 'TheHiveTour1',
   setTitleId: [142],
   name: 'Time Bandit',
   releaseDate: '2012-11-30',

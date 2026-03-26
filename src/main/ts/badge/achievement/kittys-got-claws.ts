@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const KittysGotClaws: BadgeData = {
   type: 'achievement',
   key: 'kittys-got-claws',
+  gameId: 'AlphaTF_BobcatMaxed',
   setTitleId: [1765],
   name: `Kitty's Got Claws`,
   releaseDate: '2012-11-30',

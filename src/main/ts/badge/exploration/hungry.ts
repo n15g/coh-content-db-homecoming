@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const Hungry: BadgeData = {
   type: 'exploration',
   key: 'hungry',
+  gameId: 'BloodyBayTour2',
   setTitleId: [256],
   name: [
     { alignment: 'hero', value: 'Hungry' },

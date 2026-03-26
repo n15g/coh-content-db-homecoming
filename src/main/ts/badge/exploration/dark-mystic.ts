@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const DarkMystic: BadgeData = {
   type: 'exploration',
   key: 'dark-mystic',
+  gameId: 'DarkAstoriaTour1',
   setTitleId: [128],
   name: 'Dark Mystic',
   releaseDate: '2012-11-30',

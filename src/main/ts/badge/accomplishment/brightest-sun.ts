@@ -4,6 +4,7 @@ import { TheShiningStarsBigLeagues } from '../../mission/the-shining-stars-big-l
 export const BrightestSun: BadgeData = {
   type: 'accomplishment',
   key: 'brightest-sun',
+  gameId: 'Badge_OGTH2',
   setTitleId: [2015],
   name: 'Brightest Sun',
   releaseDate: '2012-11-30',

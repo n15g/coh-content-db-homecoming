@@ -4,6 +4,7 @@ import { OperativeRenaultStrikeForce } from '../../mission/operative-renault-str
 export const Leviathan: BadgeData = {
   type: 'accomplishment',
   key: 'leviathan',
+  gameId: 'WaterTempleSF',
   setTitleId: [514],
   name: 'Leviathan',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FlyingNuisance: BadgeData = {
   type: 'defeat',
   key: 'flying-nuisance',
+  gameId: 'DefeatNatterlings',
   setTitleId: [2444],
   name: 'Flying Nuisance',
   releaseDate: '2020-11-26',

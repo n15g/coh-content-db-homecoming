@@ -10,7 +10,8 @@ import { TouristTrapped } from '../exploration/tourist-trapped'
 
 export const ThePrettiestOne: BadgeData = {
   type: 'accolade',
-  key: 'the-prettiest-one',
+  key: 'the-prettiest-one',  gameId: 'KallistiWharfExplorer',
+
   setTitleId: [2448],
   name: 'The Prettiest One',
   releaseDate: '2025-06-17',

@@ -10,6 +10,7 @@ import { Adamant } from '../achievement/adamant'
 export const BornInBattle: BadgeData = {
   type: 'accolade',
   key: 'born-in-battle',
+  gameId: 'BornInBattle',
   setTitleId: [534],
   name: 'Born in Battle',
   releaseDate: '2012-11-30',

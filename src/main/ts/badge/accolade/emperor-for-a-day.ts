@@ -11,6 +11,7 @@ import { Seer } from '../exploration/seer'
 export const EmperorForADay: BadgeData = {
   type: 'accolade',
   key: 'emperor-for-a-day',
+  gameId: 'P_ImperialCityExplorer',
   setTitleId: [1635],
   name: 'Emperor for a Day',
   releaseDate: '2012-11-30',

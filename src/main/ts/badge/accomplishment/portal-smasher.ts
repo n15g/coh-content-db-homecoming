@@ -4,6 +4,7 @@ import { DrQuaterfieldTaskForce } from '../../mission/dr-quaterfield-task-force'
 export const PortalSmasher: BadgeData = {
   type: 'accomplishment',
   key: 'portal-smasher',
+  gameId: 'ShardTF1',
   setTitleId: [423],
   name: 'Portal Smasher',
   releaseDate: '2012-11-30',

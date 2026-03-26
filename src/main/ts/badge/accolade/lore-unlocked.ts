@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LoreUnlocked: BadgeData = {
   type: 'accolade',
   key: 'lore-unlocked',
+  gameId: 'IncarnateLoreSlot',
   setTitleId: [1393],
   name: 'Lore Unlocked',
   releaseDate: '2012-11-30',

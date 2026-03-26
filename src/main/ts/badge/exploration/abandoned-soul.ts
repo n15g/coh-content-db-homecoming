@@ -4,6 +4,7 @@ import { NightWard } from '../../zone/night-ward'
 export const AbandonedSoul: BadgeData = {
   type: 'exploration',
   key: 'abandoned-soul',
+  gameId: 'NightWardTour4',
   setTitleId: [2229],
   name: 'Abandoned Soul',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { CannonFodder } from '../day-job/cannon-fodder'
 export const AntiArachnosActivist: BadgeData = {
   type: 'accolade',
   key: 'anti-arachnos-activist',
+  gameId: 'DJ_Web_Weaver',
   setTitleId: [1078],
   name: [
     { alignment: 'hero', value: 'Anti-Arachnos Activist' },

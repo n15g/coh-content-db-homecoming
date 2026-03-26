@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfTheMarketCrash: BadgeData = {
   type: 'achievement',
   key: 'master-of-the-market-crash',
+  gameId: 'MasterofMarketCrash',
   setTitleId: [2491],
   name: 'Master of the Market Crash',
   releaseDate: '2020-11-26',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const UnfriendlyFire: BadgeData = {
   type: 'achievement',
   key: 'unfriendly-fire',
+  gameId: 'AeonSF_Challenge1',
   setTitleId: [2478],
   name: 'Unfriendly Fire',
   releaseDate: '2020-11-26',

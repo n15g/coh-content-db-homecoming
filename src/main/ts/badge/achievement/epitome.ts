@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Epitome: BadgeData = {
   type: 'achievement',
   key: 'epitome',
+  gameId: 'Epitome',
   setTitleId: [246, 1709],
   name: [
     { value: 'Epitome' },

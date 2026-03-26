@@ -4,6 +4,7 @@ import { TheGraveyardShift } from '../../mission/the-graveyard-shift'
 export const ContainmentSpecialist: BadgeData = {
   type: 'accomplishment',
   key: 'containment-specialist',
+  gameId: 'Mission_i27_Containment',
   setTitleId: [2434],
   name: 'Containment Specialist',
   releaseDate: '2020-11-26',

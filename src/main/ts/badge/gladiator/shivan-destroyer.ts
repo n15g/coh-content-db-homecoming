@@ -4,6 +4,7 @@ import { Irradiated } from '../achievement/irradiated'
 export const ShivanDestroyer: BadgeData = {
   type: 'gladiator',
   key: 'shivan-destroyer',
+  gameId: 'ShivanDestroyer',
   setTitleId: [452],
   name: 'Shivan Destroyer',
   releaseDate: '2012-11-30',

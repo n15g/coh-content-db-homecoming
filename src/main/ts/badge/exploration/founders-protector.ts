@@ -5,6 +5,7 @@ import { AgentHassell } from '../../contact/agent-hassell'
 export const FoundersProtector: BadgeData = {
   type: 'exploration',
   key: 'founders-protector',
+  gameId: 'SafeguardMap8',
   setTitleId: [655],
   name: [
     { alignment: 'hero', value: `Founders' Protector` },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Antacid: BadgeData = {
   type: 'achievement',
   key: 'antacid',
+  gameId: 'IT_Lambda_NoAcids',
   setTitleId: [1986],
   name: 'Antacid',
   releaseDate: '2012-11-30',

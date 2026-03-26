@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ThinLine: BadgeData = {
   type: 'defeat',
   key: 'thin-line',
+  gameId: 'MayhemOutlaw',
   setTitleId: [552],
   name: [
     { alignment: 'hero', value: 'Thin Line' },

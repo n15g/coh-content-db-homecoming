@@ -4,6 +4,7 @@ import { HeatherTownshend } from '../../contact/heather-townshend'
 export const TimeSaver: BadgeData = {
   type: 'achievement',
   key: 'time-saver',
+  gameId: 'Mission_DA_Zone_Achievement_01',
   setTitleId: [2200],
   name: 'Time Saver',
   releaseDate: '2012-11-30',

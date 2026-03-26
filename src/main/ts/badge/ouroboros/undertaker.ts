@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Undertaker: BadgeData = {
   type: 'ouroboros',
   key: 'undertaker',
+  gameId: 'ArchetypePowersOnlyatSL9',
   setTitleId: [894],
   name: 'Undertaker',
   releaseDate: '2012-11-30',

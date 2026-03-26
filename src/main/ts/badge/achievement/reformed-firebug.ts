@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ReformedFirebug: BadgeData = {
   type: 'achievement',
   key: 'reformed-firebug',
+  gameId: 'MayhemFirebug',
   setTitleId: [547],
   name: [
     { alignment: 'hero', value: 'Reformed Firebug' },

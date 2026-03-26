@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const UnholyCoven: BadgeData = {
   type: 'event',
   key: 'unholy-coven',
+  gameId: 'Halloween22EliteWitch',
   setTitleId: [2506],
   name: 'Unholy Coven',
   releaseDate: '2020-11-26',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Aloof: BadgeData = {
   type: 'achievement',
   key: 'aloof',
+  gameId: 'RejectInspirations50',
   setTitleId: [2380],
   name: 'Aloof',
   releaseDate: '2019-01-01',

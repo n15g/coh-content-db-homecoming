@@ -4,6 +4,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const Controversial: BadgeData = {
   type: 'exploration',
   key: 'controversial',
+  gameId: 'SteelCanyonTour6',
   setTitleId: [1531],
   name: 'Controversial',
   releaseDate: '2012-11-30',

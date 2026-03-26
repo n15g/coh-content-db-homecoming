@@ -4,6 +4,7 @@ import { TPNCampusTrial } from '../../mission/tpn-campus-trial'
 export const SpinDoctor: BadgeData = {
   type: 'accomplishment',
   key: 'spin-doctor',
+  gameId: 'IT_TPN_Complete',
   setTitleId: [2072],
   name: 'Spin Doctor',
   releaseDate: '2012-11-30',

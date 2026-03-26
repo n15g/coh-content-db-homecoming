@@ -4,6 +4,7 @@ import { TheLabyrinthOfFog } from '../../zone/the-labyrinth-of-fog'
 export const GreekPhilosopher: BadgeData = {
   type: 'history',
   key: 'greek-philosopher',
+  gameId: 'LabyrinthHistory',
   setTitleId: [2531],
   name: 'Greek Philosopher',
   releaseDate: '2024-11-19',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Beguiler: BadgeData = {
   type: 'invention',
   key: 'beguiler',
+  gameId: 'InventionMez2',
   setTitleId: [776],
   name: 'Beguiler',
   releaseDate: '2012-11-30',

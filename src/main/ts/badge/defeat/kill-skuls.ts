@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const KillSkuls: BadgeData = {
   type: 'defeat',
   key: 'kill-skuls',
+  gameId: 'Bonecrusher2',
   setTitleId: [217],
   name: 'Kill Skuls',
   releaseDate: '2012-11-30',

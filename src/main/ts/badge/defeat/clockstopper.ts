@@ -5,6 +5,7 @@ import { Synapse } from '../../contact/synapse'
 export const Clockstopper: BadgeData = {
   type: 'defeat',
   key: 'clockstopper',
+  gameId: 'Clockstopper',
   setTitleId: [32],
   name: 'Clockstopper',
   releaseDate: '2012-11-30',

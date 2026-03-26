@@ -4,6 +4,7 @@ import { ForMyPeople } from '../../mission/for-my-people'
 export const CimeroranHero: BadgeData = {
   type: 'accomplishment',
   key: 'cimeroran-hero',
+  gameId: 'Mission_DA_PersonalArc_Complete_05',
   setTitleId: [2198],
   name: [
     { sex: 'M', value: 'Cimeroran Hero' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const InkMan: BadgeData = {
   type: 'gladiator',
   key: 'ink-man',
+  gameId: 'Inkman',
   setTitleId: [469],
   name: 'Ink Man',
   releaseDate: '2012-11-30',

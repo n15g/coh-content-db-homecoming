@@ -8,6 +8,7 @@ import { GoldStandard } from '../accomplishment/gold-standard'
 export const DeepStrikeAgent: BadgeData = {
   type: 'accolade',
   key: 'deep-strike-agent',
+  gameId: 'StrikeForceCommander',
   setTitleId: [2542],
   name: [
     { alignment: 'hero', value: 'Deep Strike Agent' },

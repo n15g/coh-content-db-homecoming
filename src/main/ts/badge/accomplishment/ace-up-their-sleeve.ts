@@ -4,6 +4,7 @@ import { Gamble } from '../../mission/gamble'
 export const AceUpTheirSleeve: BadgeData = {
   type: 'accomplishment',
   key: 'ace-up-their-sleeve',
+  gameId: 'Mission_BT_i24_Personal_Story',
   setTitleId: [2271],
   name: 'Ace Up Their Sleeve',
   releaseDate: '2012-11-30',

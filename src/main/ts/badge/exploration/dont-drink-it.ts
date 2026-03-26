@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const DontDrinkIt: BadgeData = {
   type: 'exploration',
   key: 'dont-drink-it',
+  gameId: 'P_DontDrinkIt',
   setTitleId: [1725],
   name: `Don't Drink It`,
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Valet: BadgeData = {
   type: 'achievement',
   key: 'valet',
+  gameId: 'MarketCrashValet',
   setTitleId: [2391],
   name: 'Valet',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VirtualExtractor: BadgeData = {
   type: 'architect-entertainment',
   key: 'virtual-extractor',
+  gameId: 'ArchitectTestRescue1',
   setTitleId: [1245],
   name: 'Virtual Extractor',
   releaseDate: '2012-11-30',

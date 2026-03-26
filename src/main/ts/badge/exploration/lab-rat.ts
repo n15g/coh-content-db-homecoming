@@ -4,6 +4,7 @@ import { TheLabyrinthOfFog } from '../../zone/the-labyrinth-of-fog'
 export const LabRat: BadgeData = {
   type: 'exploration',
   key: 'lab-rat',
+  gameId: 'DungeonLabyrinthTour2',
   setTitleId: [2535],
   name: 'Lab Rat',
   releaseDate: '2024-11-19',

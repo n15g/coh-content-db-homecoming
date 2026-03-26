@@ -4,6 +4,7 @@ import { Lanista } from './lanista'
 export const LongbowNullifier: BadgeData = {
   type: 'gladiator',
   key: 'longbow-nullifier',
+  gameId: 'Nullifier',
   setTitleId: [459],
   name: 'Longbow Nullifier',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const KeenSighted: BadgeData = {
   type: 'exploration',
   key: 'keen-sighted',
+  gameId: 'KingsRowTour4',
   setTitleId: [99],
   name: 'Keen Sighted',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Gallant: BadgeData = {
   type: 'achievement',
   key: 'gallant',
+  gameId: 'P_HeroAlignment',
   setTitleId: [1450],
   name: 'Gallant',
   releaseDate: '2012-11-30',

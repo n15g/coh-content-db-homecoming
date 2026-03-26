@@ -6,6 +6,7 @@ import { Positron } from '../../contact/positron'
 export const Epidemiologist: BadgeData = {
   type: 'defeat',
   key: 'epidemiologist',
+  gameId: 'Epidemiologist',
   setTitleId: [2461],
   name: 'Epidemiologist',
   releaseDate: '2020-11-26',

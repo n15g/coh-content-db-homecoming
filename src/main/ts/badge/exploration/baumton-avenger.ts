@@ -5,6 +5,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const BaumtonAvenger: BadgeData = {
   type: 'exploration',
   key: 'baumton-avenger',
+  gameId: 'SewerNetworkTour3',
   setTitleId: [1831],
   name: 'Baumton Avenger',
   releaseDate: '2012-11-30',

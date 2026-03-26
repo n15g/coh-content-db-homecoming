@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ExArchvillain: BadgeData = {
   type: 'defeat',
   key: 'ex-archvillain',
+  gameId: 'DefeatStatesman',
   setTitleId: [572],
   name: [
     { alignment: 'hero', value: 'Ex-Archvillain' },

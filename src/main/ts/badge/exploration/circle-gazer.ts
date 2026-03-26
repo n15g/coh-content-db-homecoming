@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const CircleGazer: BadgeData = {
   type: 'exploration',
   key: 'circle-gazer',
+  gameId: 'CapAuDiableTour8',
   setTitleId: [1494],
   name: 'Circle Gazer',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Grandville } from '../../zone/grandville'
 export const PassingFab: BadgeData = {
   type: 'exploration',
   key: 'passing-fab',
+  gameId: 'GrandvilleTour5',
   setTitleId: [1510],
   name: 'Passing Fab',
   releaseDate: '2012-11-30',

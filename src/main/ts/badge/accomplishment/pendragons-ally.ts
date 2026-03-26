@@ -4,6 +4,7 @@ import { TippingTheScales } from '../../mission/tipping-the-scales'
 export const PendragonsAlly: BadgeData = {
   type: 'accomplishment',
   key: 'pendragons-ally',
+  gameId: 'Mission_BT_i24_Challenge_03',
   setTitleId: [2264],
   name: `Pendragon's Ally`,
   releaseDate: '2012-11-30',

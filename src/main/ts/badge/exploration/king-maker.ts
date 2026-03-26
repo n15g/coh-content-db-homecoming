@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const KingMaker: BadgeData = {
   type: 'exploration',
   key: 'king-maker',
+  gameId: 'MayhemMap2',
   setTitleId: [556],
   name: 'King Maker',
   releaseDate: '2012-11-30',

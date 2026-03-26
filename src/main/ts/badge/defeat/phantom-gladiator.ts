@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PhantomGladiator: BadgeData = {
   type: 'defeat',
   key: 'phantom-gladiator',
+  gameId: 'DefeatFogGladiator',
   setTitleId: [2540],
   name: 'Phantom Gladiator',
   releaseDate: '2024-11-19',

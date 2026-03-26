@@ -4,6 +4,7 @@ import { NightWard } from '../../zone/night-ward'
 export const Stargazer: BadgeData = {
   type: 'exploration',
   key: 'stargazer',
+  gameId: 'NightWardTour8',
   setTitleId: [2233],
   name: 'Stargazer',
   releaseDate: '2012-11-30',

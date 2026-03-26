@@ -11,6 +11,7 @@ import { TheTreeOfWoe } from '../exploration/the-tree-of-woe'
 export const TouchedBottom: BadgeData = {
   type: 'accolade',
   key: 'touched-bottom',
+  gameId: 'AbyssExplorer',
   setTitleId: [1890],
   name: 'Touched Bottom',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Curtailed: BadgeData = {
   type: 'ouroboros',
   key: 'curtailed',
+  gameId: 'NoTemporaryPowersatSL3',
   setTitleId: [906],
   name: 'Curtailed',
   releaseDate: '2012-11-30',

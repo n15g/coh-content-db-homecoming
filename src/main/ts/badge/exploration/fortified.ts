@@ -4,6 +4,7 @@ import { MercyIsland } from '../../zone/mercy-island'
 export const Fortified: BadgeData = {
   type: 'exploration',
   key: 'fortified',
+  gameId: 'MercyIslandTour4',
   setTitleId: [266],
   name: 'Fortified',
   releaseDate: '2012-11-30',

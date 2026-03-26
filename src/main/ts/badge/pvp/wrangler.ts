@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Wrangler: BadgeData = {
   type: 'pvp',
   key: 'wrangler',
+  gameId: 'RVBlackScorpion',
   setTitleId: [581],
   name: 'Wrangler',
   releaseDate: '2012-11-30',

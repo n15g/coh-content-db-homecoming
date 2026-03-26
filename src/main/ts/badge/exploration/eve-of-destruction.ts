@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const EveOfDestruction: BadgeData = {
   type: 'exploration',
   key: 'eve-of-destruction',
+  gameId: 'StormPalaceTour7',
   setTitleId: [1860],
   name: 'Eve of Destruction',
   releaseDate: '2012-11-30',

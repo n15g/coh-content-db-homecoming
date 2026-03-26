@@ -11,6 +11,7 @@ import { Tormented } from '../exploration/tormented'
 export const StormingThePalace: BadgeData = {
   type: 'accolade',
   key: 'storming-the-palace',
+  gameId: 'StormPalaceExplorer',
   setTitleId: [1889],
   name: 'Storming the Palace',
   releaseDate: '2012-11-30',

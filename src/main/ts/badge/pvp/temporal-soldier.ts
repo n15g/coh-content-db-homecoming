@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const TemporalSoldier: BadgeData = {
   type: 'pvp',
   key: 'temporal-soldier',
+  gameId: 'RVHeavy250',
   setTitleId: [569],
   name: 'Temporal Soldier',
   releaseDate: '2012-11-30',

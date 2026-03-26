@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const VeryNaughty: BadgeData = {
   type: 'event',
-  key: 'very-naughty',
+  key: 'very-naughty',  gameId: 'Winter2025Present',
+
   setTitleId: [2569],
   name: 'Very Naughty',
   releaseDate: '2025-12-01',

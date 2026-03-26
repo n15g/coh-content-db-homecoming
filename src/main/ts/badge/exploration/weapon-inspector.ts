@@ -4,6 +4,7 @@ import { Warburg } from '../../zone/warburg'
 export const WeaponInspector: BadgeData = {
   type: 'exploration',
   key: 'weapon-inspector',
+  gameId: 'WarburgTour1',
   setTitleId: [291],
   name: [
     { alignment: 'hero', value: 'Weapon Inspector' },

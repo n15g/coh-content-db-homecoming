@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AvoidsTheGreenStuff: BadgeData = {
   type: 'achievement',
   key: 'avoids-the-green-stuff',
+  gameId: 'IT_Keyes_NoHolds',
   setTitleId: [1993],
   name: 'Avoids the Green Stuff',
   releaseDate: '2012-11-30',

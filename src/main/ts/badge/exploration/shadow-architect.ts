@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const ShadowArchitect: BadgeData = {
   type: 'exploration',
   key: 'shadow-architect',
+  gameId: 'FirebaseZuluTour5',
   setTitleId: [1801],
   name: 'Shadow Architect',
   releaseDate: '2012-11-30',

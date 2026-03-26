@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AmongFriends: BadgeData = {
   type: 'architect-entertainment',
   key: 'among-friends',
+  gameId: 'ArchitectTest8',
   setTitleId: [1211],
   name: 'Among Friends',
   releaseDate: '2012-11-30',

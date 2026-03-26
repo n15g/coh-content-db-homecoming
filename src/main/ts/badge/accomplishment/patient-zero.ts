@@ -4,6 +4,7 @@ import { TheFreakishLabOfDrVahzilokAct2 } from '../../mission/the-freakish-lab-o
 export const PatientZero: BadgeData = {
   type: 'accomplishment',
   key: 'patient-zero',
+  gameId: 'Mission_i27_Buzzsaw',
   setTitleId: [2439],
   name: 'Patient Zero',
   releaseDate: '2020-11-26',

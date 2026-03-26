@@ -4,6 +4,7 @@ import { DrAeonStrikeForce } from '../../mission/dr-aeon-strike-force'
 export const GoldStandard: BadgeData = {
   type: 'accomplishment',
   key: 'gold-standard',
+  gameId: 'AeonSF_Complete',
   setTitleId: [2476],
   name: 'Gold Standard',
   releaseDate: '2020-11-26',

@@ -4,6 +4,7 @@ import { DirtyWork } from '../../mission/dirty-work'
 export const BeyondReasonableDoubt: BadgeData = {
   type: 'achievement',
   key: 'beyond-reasonable-doubt',
+  gameId: 'Mission_IP_i25_Hero',
   setTitleId: [2408],
   name: 'Beyond Reasonable Doubt',
   releaseDate: '2019-06-01',

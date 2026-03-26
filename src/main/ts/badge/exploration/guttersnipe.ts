@@ -4,6 +4,7 @@ import { Grandville } from '../../zone/grandville'
 export const Guttersnipe: BadgeData = {
   type: 'exploration',
   key: 'guttersnipe',
+  gameId: 'GrandvilleTour3',
   setTitleId: [285],
   name: 'Guttersnipe',
   releaseDate: '2012-11-30',

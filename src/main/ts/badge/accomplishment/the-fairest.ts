@@ -4,6 +4,7 @@ import { TwistedReflections } from '../../mission/twisted-reflections'
 export const TheFairest: BadgeData = {
   type: 'accomplishment',
   key: 'the-fairest',
+  gameId: 'I11HeroStoryArc1Complete',
   setTitleId: [1587],
   name: [
     { alignment: 'hero', value: 'The Fairest' },

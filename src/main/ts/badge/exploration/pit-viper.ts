@@ -4,6 +4,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const PitViper: BadgeData = {
   type: 'exploration',
   key: 'pit-viper',
+  gameId: 'SharkheadTour4',
   setTitleId: [298],
   name: 'Pit Viper',
   releaseDate: '2012-11-30',

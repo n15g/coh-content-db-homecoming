@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const NighIndestructible: BadgeData = {
   type: 'achievement',
   key: 'nigh-indestructible',
+  gameId: 'NighIndestructable',
   setTitleId: [230, 1678],
   name: [
     { value: 'Nigh Indestructible' },

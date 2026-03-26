@@ -4,6 +4,7 @@ import { EchoFaultline } from '../../zone/echo-faultline'
 export const DugTooDeep: BadgeData = {
   type: 'exploration',
   key: 'dug-too-deep',
+  gameId: 'FaultlineTour12',
   setTitleId: [2403],
   name: 'Dug Too Deep',
   releaseDate: '2019-06-01',

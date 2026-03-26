@@ -5,6 +5,7 @@ import { Banker } from '../day-job/banker'
 export const SecurityChief: BadgeData = {
   type: 'accolade',
   key: 'security-chief',
+  gameId: 'DJ_Security_Chief',
   setTitleId: [1063],
   name: [
     { alignment: 'hero', value: 'Security Chief' },

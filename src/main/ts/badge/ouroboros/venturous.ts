@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Venturous: BadgeData = {
   type: 'ouroboros',
   key: 'venturous',
+  gameId: 'DeBuffedPartyatSL2',
   setTitleId: [868],
   name: 'Venturous',
   releaseDate: '2012-11-30',

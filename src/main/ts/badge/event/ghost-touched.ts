@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GhostTouched: BadgeData = {
   type: 'event',
   key: 'ghost-touched',
+  gameId: 'GhostTouched',
   setTitleId: [697],
   name: 'Ghost Touched',
   releaseDate: '2012-11-30',

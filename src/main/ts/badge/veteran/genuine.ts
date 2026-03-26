@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Genuine: BadgeData = {
   type: 'veteran',
   key: 'genuine',
+  gameId: 'Veteran69',
   setTitleId: [1283],
   name: 'Genuine',
   releaseDate: '2019-01-01',

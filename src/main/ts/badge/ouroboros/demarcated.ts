@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Demarcated: BadgeData = {
   type: 'ouroboros',
   key: 'demarcated',
+  gameId: 'NoTemporaryPowersatSL9',
   setTitleId: [912],
   name: 'Demarcated',
   releaseDate: '2012-11-30',

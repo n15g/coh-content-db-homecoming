@@ -4,6 +4,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const AirLifter: BadgeData = {
   type: 'exploration',
   key: 'air-lifter',
+  gameId: 'IndependencePortTour4',
   setTitleId: [1552],
   name: 'Air Lifter',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VIP: BadgeData = {
   type: 'accolade',
   key: 'vip',
+  gameId: 'DVDEdition',
   setTitleId: [183],
   name: [
     { alignment: 'hero', value: 'V.I.P.' },

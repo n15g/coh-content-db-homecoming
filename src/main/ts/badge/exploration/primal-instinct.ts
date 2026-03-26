@@ -4,6 +4,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const PrimalInstinct: BadgeData = {
   type: 'exploration',
   key: 'primal-instinct',
+  gameId: 'NervaTour4',
   setTitleId: [277],
   name: 'Primal Instinct',
   releaseDate: '2012-11-30',

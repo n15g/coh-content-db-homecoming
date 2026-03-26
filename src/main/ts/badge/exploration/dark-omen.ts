@@ -4,6 +4,7 @@ import { PeregrineIsland } from '../../zone/peregrine-island'
 export const DarkOmen: BadgeData = {
   type: 'exploration',
   key: 'dark-omen',
+  gameId: 'PeregrineIslandTour8',
   setTitleId: [1578],
   name: 'Dark Omen',
   releaseDate: '2012-11-30',

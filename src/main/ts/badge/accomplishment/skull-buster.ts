@@ -4,6 +4,7 @@ import { TheLordsOfDeath } from '../../mission/the-lords-of-death'
 export const SkullBuster: BadgeData = {
   type: 'accomplishment',
   key: 'skull-buster',
+  gameId: 'Mission_KR_i24_Arc_Complete_02',
   setTitleId: [2316],
   name: 'Skull Buster',
   releaseDate: '2012-11-30',

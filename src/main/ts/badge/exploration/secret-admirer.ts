@@ -4,6 +4,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const SecretAdmirer: BadgeData = {
   type: 'exploration',
   key: 'secret-admirer',
+  gameId: 'SteelCanyonTour1',
   setTitleId: [106],
   name: 'Secret Admirer',
   releaseDate: '2012-11-30',

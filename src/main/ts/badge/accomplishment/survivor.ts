@@ -16,6 +16,7 @@ import { ToOurHealth } from '../../mission/to-our-health'
 export const Survivor: BadgeData = {
   type: 'accomplishment',
   key: 'survivor',
+  gameId: 'P_Survivor',
   setTitleId: [2348],
   name: 'Survivor',
   releaseDate: '2012-11-30',

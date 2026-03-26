@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Justiciar: BadgeData = {
   type: 'pvp',
   key: 'justiciar',
+  gameId: 'RVAllVillains',
   setTitleId: [586],
   name: [
     { alignment: 'hero', value: 'Justiciar' },

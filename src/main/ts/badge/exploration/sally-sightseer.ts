@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const SallySightseer: BadgeData = {
   type: 'exploration',
   key: 'sally-sightseer',
+  gameId: 'CroatoaTour5',
   setTitleId: [1541],
   name: 'Sally Sightseer',
   releaseDate: '2012-11-30',

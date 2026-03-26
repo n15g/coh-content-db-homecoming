@@ -5,6 +5,7 @@ import { FashionDesigner } from '../day-job/fashion-designer'
 export const Socialite: BadgeData = {
   type: 'accolade',
   key: 'socialite',
+  gameId: 'DJ_Trend_Setter',
   setTitleId: [1070],
   name: 'Socialite',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { GoTalkWithAlexanderAndDoWhateverYouCanToBringHimIntoProtectiveCustody }
 export const Redeemer: BadgeData = {
   type: 'accomplishment',
   key: 'redeemer',
+  gameId: 'SL5MissionA',
   setTitleId: [76],
   name: [
     { alignment: 'hero', value: 'Redeemer' },

@@ -11,6 +11,7 @@ import { Unsubtle } from '../exploration/unsubtle'
 export const ZigWarden: BadgeData = {
   type: 'accolade',
   key: 'zig-warden',
+  gameId: 'BrickstownExplorer',
   setTitleId: [1571],
   name: [
     { alignment: 'hero', value: 'Zig Warden' },

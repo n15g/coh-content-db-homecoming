@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LordOfWar: BadgeData = {
   type: 'invention',
   key: 'lord-of-war',
+  gameId: 'InventionDamage5',
   setTitleId: [799],
   name: 'Lord of War',
   releaseDate: '2012-11-30',

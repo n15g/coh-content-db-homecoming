@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const StuffOfLife: BadgeData = {
   type: 'exploration',
   key: 'stuff-of-life',
+  gameId: 'P_StuffOfLife',
   setTitleId: [1729],
   name: 'Stuff of Life',
   releaseDate: '2012-11-30',

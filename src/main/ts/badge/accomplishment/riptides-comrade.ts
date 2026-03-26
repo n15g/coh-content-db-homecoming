@@ -4,6 +4,7 @@ import { TippingTheScales } from '../../mission/tipping-the-scales'
 export const RiptidesComrade: BadgeData = {
   type: 'accomplishment',
   key: 'riptides-comrade',
+  gameId: 'Mission_BT_i24_Challenge_04',
   setTitleId: [2265],
   name: `Riptide's Comrade`,
   releaseDate: '2012-11-30',

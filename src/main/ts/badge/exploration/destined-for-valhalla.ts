@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const DestinedForValhalla: BadgeData = {
   type: 'exploration',
   key: 'destined-for-valhalla',
+  gameId: 'BoomtownTour4',
   setTitleId: [117],
   name: 'Destined for Valhalla',
   releaseDate: '2012-11-30',

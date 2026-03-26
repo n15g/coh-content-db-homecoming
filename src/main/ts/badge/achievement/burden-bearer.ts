@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BurdenBearer: BadgeData = {
   type: 'achievement',
   key: 'burden-bearer',
+  gameId: 'AlphaTF_DronesUnused',
   setTitleId: [1760],
   name: [
     { alignment: 'hero', value: 'Burden Bearer' },

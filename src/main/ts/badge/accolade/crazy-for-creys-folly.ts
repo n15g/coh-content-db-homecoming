@@ -11,6 +11,7 @@ import { CirqueDuFreak } from '../exploration/cirque-du-freak'
 export const CrazyForCreysFolly: BadgeData = {
   type: 'accolade',
   key: 'crazy-for-creys-folly',
+  gameId: 'CreysFolleyExplorer',
   setTitleId: [1880],
   name: `Crazy for Crey's Folly`,
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const DirtyAttorney: BadgeData = {
   type: 'exploration',
   key: 'dirty-attorney',
+  gameId: 'SteelCanyonTour8',
   setTitleId: [1533],
   name: 'Dirty Attorney',
   releaseDate: '2012-11-30',

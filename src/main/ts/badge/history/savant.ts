@@ -6,6 +6,7 @@ import { Eden } from '../../zone/eden'
 export const Savant: BadgeData = {
   type: 'history',
   key: 'savant',
+  gameId: 'RiktiWar',
   setTitleId: [157],
   name: 'Savant',
   releaseDate: '2012-11-30',

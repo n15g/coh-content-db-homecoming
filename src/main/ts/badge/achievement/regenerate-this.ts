@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const RegenerateThis: BadgeData = {
   type: 'achievement',
   key: 'regenerate-this',
+  gameId: 'IT_Underground_FastKill',
   setTitleId: [1996],
   name: 'Regenerate This',
   releaseDate: '2012-11-30',

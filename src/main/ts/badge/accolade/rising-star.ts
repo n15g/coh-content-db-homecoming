@@ -18,6 +18,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const RisingStar: BadgeData = {
   type: 'accolade',
   key: 'rising-star',
+  gameId: 'ImperialCityStoryArcs',
   setTitleId: [2342],
   name: 'Rising Star',
   releaseDate: '2012-11-30',

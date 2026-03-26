@@ -4,6 +4,7 @@ import { MageHunter } from '../accomplishment/mage-hunter'
 export const Sorcerer: BadgeData = {
   type: 'gladiator',
   key: 'sorcerer',
+  gameId: 'Sorcerer',
   setTitleId: [470],
   name: 'Sorcerer',
   releaseDate: '2012-11-30',

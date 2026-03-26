@@ -4,6 +4,7 @@ import { TheLadyGreyTaskForce } from '../../mission/the-lady-grey-task-force'
 export const DoesntLookAtExplosions: BadgeData = {
   type: 'accomplishment',
   key: 'doesnt-look-at-explosions',
+  gameId: 'LadyGreyTF_StationEscape',
   setTitleId: [2516],
   name: `Doesn't Look At Explosions`,
   releaseDate: '2020-11-26',

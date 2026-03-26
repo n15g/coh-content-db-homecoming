@@ -5,6 +5,7 @@ import { GetAHeroToTheCauldronAndDestroyIt } from '../../mission/get-a-hero-to-t
 export const Handsome: BadgeData = {
   type: 'event',
   key: 'handsome',
+  gameId: 'LovePotion',
   setTitleId: [527],
   name: [
     { sex: 'M', value: 'Handsome' },

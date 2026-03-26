@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const Gunner: BadgeData = {
   type: 'pvp',
   key: 'gunner',
+  gameId: 'Gunner',
   setTitleId: [370],
   name: 'Gunner',
   releaseDate: '2012-11-30',

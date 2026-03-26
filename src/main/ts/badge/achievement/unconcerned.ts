@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Unconcerned: BadgeData = {
   type: 'achievement',
   key: 'unconcerned',
+  gameId: 'RejectInspirations100',
   setTitleId: [2381],
   name: 'Unconcerned',
   releaseDate: '2019-01-01',

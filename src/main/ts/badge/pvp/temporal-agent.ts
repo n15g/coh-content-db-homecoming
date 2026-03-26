@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const TemporalAgent: BadgeData = {
   type: 'pvp',
   key: 'temporal-agent',
+  gameId: 'RVHeavy10',
   setTitleId: [567],
   name: 'Temporal Agent',
   releaseDate: '2012-11-30',

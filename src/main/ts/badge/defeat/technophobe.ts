@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Technophobe: BadgeData = {
   type: 'defeat',
   key: 'technophobe',
+  gameId: 'P_DefeatClockwork',
   setTitleId: [1469],
   name: 'Technophobe',
   releaseDate: '2012-11-30',

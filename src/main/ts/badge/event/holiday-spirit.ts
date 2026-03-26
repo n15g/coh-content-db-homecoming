@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HolidaySpirit: BadgeData = {
   type: 'event',
   key: 'holiday-spirit',
+  gameId: 'Holiday2005Badge2',
   setTitleId: [521],
   name: [
     { alignment: 'hero', value: 'Holiday Spirit' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Sentry: BadgeData = {
   type: 'defeat',
   key: 'sentry',
+  gameId: 'RIWEDefeatInvaders',
   setTitleId: [833],
   name: 'Sentry',
   releaseDate: '2012-11-30',

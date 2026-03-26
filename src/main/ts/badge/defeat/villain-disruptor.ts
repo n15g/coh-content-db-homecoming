@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VillainDisruptor: BadgeData = {
   type: 'defeat',
   key: 'villain-disruptor',
+  gameId: 'SafeguardVillainDisruptor',
   setTitleId: [645],
   name: 'Villain Disruptor',
   releaseDate: '2012-11-30',

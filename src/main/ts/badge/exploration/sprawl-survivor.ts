@@ -6,6 +6,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const SprawlSurvivor: BadgeData = {
   type: 'exploration',
   key: 'sprawl-survivor',
+  gameId: 'AbSewerNetworkTour4',
   setTitleId: [1824],
   name: 'Sprawl Survivor',
   releaseDate: '2012-11-30',

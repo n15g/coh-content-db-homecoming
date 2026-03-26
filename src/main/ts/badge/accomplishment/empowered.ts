@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Empowered: BadgeData = {
   type: 'accomplishment',
   key: 'empowered',
+  gameId: 'P_BuildUncommonIA',
   setTitleId: [1449],
   name: 'Empowered',
   releaseDate: '2012-11-30',

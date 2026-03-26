@@ -5,6 +5,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const ConjunctionJunction: BadgeData = {
   type: 'exploration',
   key: 'conjunction-junction',
+  gameId: 'TerraVoltaTour1',
   setTitleId: [131],
   name: 'Conjunction Junction',
   releaseDate: '2012-11-30',

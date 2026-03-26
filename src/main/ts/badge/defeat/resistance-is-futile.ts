@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ResistanceIsFutile: BadgeData = {
   type: 'defeat',
   key: 'resistance-is-futile',
+  gameId: 'P_DefeatResistance',
   setTitleId: [1471],
   name: 'Resistance is Futile',
   releaseDate: '2012-11-30',

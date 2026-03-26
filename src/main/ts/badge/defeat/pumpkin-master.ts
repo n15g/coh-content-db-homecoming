@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PumpkinMaster: BadgeData = {
   type: 'defeat',
   key: 'pumpkin-master',
+  gameId: 'PumpkinMaster',
   setTitleId: [432],
   name: [
     { sex: 'M', value: 'Pumpkin Master' },

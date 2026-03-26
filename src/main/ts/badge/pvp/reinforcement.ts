@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Reinforcement: BadgeData = {
   type: 'pvp',
   key: 'reinforcement',
+  gameId: 'Ace',
   setTitleId: [364],
   name: 'Reinforcement',
   releaseDate: '2012-11-30',

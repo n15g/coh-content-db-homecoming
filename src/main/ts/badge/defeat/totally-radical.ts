@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TotallyRadical: BadgeData = {
   type: 'defeat',
   key: 'totally-radical',
+  gameId: 'DefeatGammaTanks',
   setTitleId: [2486],
   name: 'Totally Radical',
   releaseDate: '2020-11-26',

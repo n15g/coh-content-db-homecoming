@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const DeadEye: BadgeData = {
   type: 'pvp',
   key: 'dead-eye',
+  gameId: 'RVManticore',
   setTitleId: [576],
   name: 'Dead-eye',
   releaseDate: '2012-11-30',

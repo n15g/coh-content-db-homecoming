@@ -4,6 +4,7 @@ import { TheGateThatCannotOpen } from '../../mission/the-gate-that-cannot-open'
 export const OneOfTheEight: BadgeData = {
   type: 'accomplishment',
   key: 'one-of-the-eight',
+  gameId: 'i23NightWardComplete',
   setTitleId: [2237],
   name: 'One of the Eight',
   releaseDate: '2012-11-30',

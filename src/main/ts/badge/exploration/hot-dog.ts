@@ -4,6 +4,7 @@ import { SirensCall } from '../../zone/sirens-call'
 export const HotDog: BadgeData = {
   type: 'exploration',
   key: 'hot-dog',
+  gameId: 'SirensCallTour6',
   setTitleId: [2416],
   name: 'Hot Dog',
   releaseDate: '2019-06-01',

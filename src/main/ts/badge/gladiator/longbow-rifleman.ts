@@ -4,6 +4,7 @@ import { LockedAndLoaded } from '../exploration/locked-and-loaded'
 export const LongbowRifleman: BadgeData = {
   type: 'gladiator',
   key: 'longbow-rifleman',
+  gameId: 'LongbowRifleman',
   setTitleId: [454],
   name: 'Longbow Rifleman',
   releaseDate: '2012-11-30',

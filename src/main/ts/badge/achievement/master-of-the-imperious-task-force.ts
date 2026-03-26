@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfTheImperiousTaskForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-the-imperious-task-force',
+  gameId: 'MasterofImperiousTaskForce',
   setTitleId: [1375],
   name: 'Master of the Imperious Task Force',
   releaseDate: '2012-11-30',

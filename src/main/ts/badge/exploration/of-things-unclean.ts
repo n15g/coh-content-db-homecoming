@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const OfThingsUnclean: BadgeData = {
   type: 'exploration',
   key: 'of-things-unclean',
+  gameId: 'DarkAstoriaIncarnateTour8',
   setTitleId: [2186],
   name: 'Of Things Unclean',
   releaseDate: '2012-11-30',

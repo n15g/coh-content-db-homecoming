@@ -5,6 +5,7 @@ import { AtlasTourGuide } from './atlas-tour-guide'
 export const TheConstant: BadgeData = {
   type: 'accolade',
   key: 'the-constant',
+  gameId: 'Loyalty2011',
   setTitleId: [2001],
   name: 'The Constant',
   releaseDate: '2019-01-01',

@@ -8,6 +8,7 @@ import { CrossingOver } from '../../mission/crossing-over'
 export const StoryTeller: BadgeData = {
   type: 'accolade',
   key: 'story-teller',
+  gameId: 'CroatoaStoryArcs',
   setTitleId: [2375],
   name: 'Story Teller',
   releaseDate: '2012-11-30',

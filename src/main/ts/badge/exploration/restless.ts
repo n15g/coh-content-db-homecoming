@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const Restless: BadgeData = {
   type: 'exploration',
   key: 'restless',
+  gameId: 'BloodyBayTour8',
   setTitleId: [2414],
   name: 'Restless',
   releaseDate: '2019-06-01',

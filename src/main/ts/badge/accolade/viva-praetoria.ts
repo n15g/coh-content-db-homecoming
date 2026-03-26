@@ -11,6 +11,7 @@ import { GoingRouge } from '../exploration/going-rouge'
 export const VivaPraetoria: BadgeData = {
   type: 'accolade',
   key: 'viva-praetoria',
+  gameId: 'P_VivaPraetoria',
   setTitleId: [1431],
   name: 'Viva Praetoria',
   releaseDate: '2012-11-30',

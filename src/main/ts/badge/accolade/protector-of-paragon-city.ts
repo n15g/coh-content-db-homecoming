@@ -9,6 +9,7 @@ import { Bicentennial } from '../history/bicentennial'
 export const ProtectorOfParagonCity: BadgeData = {
   type: 'accolade',
   key: 'protector-of-paragon-city',
+  gameId: 'ProtectorOfParagon',
   setTitleId: [2543],
   name: [
     { alignment: 'hero', value: 'Protector of Paragon City' },

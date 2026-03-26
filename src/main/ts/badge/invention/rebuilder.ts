@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Rebuilder: BadgeData = {
   type: 'invention',
   key: 'rebuilder',
+  gameId: 'InventionHeal3',
   setTitleId: [767],
   name: 'Rebuilder',
   releaseDate: '2012-11-30',

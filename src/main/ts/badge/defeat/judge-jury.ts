@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const JudgeJury: BadgeData = {
   type: 'defeat',
   key: 'judge-jury',
+  gameId: 'P_DefeatRGC',
   setTitleId: [1466],
   name: [
     { alignment: 'hero', value: 'Judge & Jury' },

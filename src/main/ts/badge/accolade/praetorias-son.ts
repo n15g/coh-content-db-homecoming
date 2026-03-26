@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PraetoriasSon: BadgeData = {
   type: 'accolade',
   key: 'praetorias-son',
+  gameId: 'P_DVDEdition',
   setTitleId: [1658],
   name: [
     { sex: 'M', value: `Praetoria's Son` },

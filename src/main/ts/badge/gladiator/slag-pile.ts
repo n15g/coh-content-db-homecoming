@@ -4,6 +4,7 @@ import { SlagReaper } from '../accomplishment/slag-reaper'
 export const SlagPile: BadgeData = {
   type: 'gladiator',
   key: 'slag-pile',
+  gameId: 'SlagPile',
   setTitleId: [468],
   name: 'Slag Pile',
   releaseDate: '2012-11-30',

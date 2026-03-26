@@ -4,6 +4,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const BridgeToNowhere: BadgeData = {
   type: 'exploration',
   key: 'bridge-to-nowhere',
+  gameId: 'SkywayCityTour8',
   setTitleId: [1538],
   name: 'Bridge to Nowhere',
   releaseDate: '2012-11-30',

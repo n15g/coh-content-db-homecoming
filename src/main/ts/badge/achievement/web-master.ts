@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WebMaster: BadgeData = {
   type: 'achievement',
   key: 'web-master',
+  gameId: 'Warburg',
   setTitleId: [351],
   name: 'Web Master',
   releaseDate: '2012-11-30',

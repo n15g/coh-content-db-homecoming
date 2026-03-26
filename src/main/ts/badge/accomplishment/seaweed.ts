@@ -4,6 +4,7 @@ import { CarpeDiem } from '../../mission/carpe-diem'
 export const Seaweed: BadgeData = {
   type: 'accomplishment',
   key: 'seaweed',
+  gameId: 'VSL3MissionB',
   setTitleId: [335],
   name: 'Seaweed',
   releaseDate: '2012-11-30',

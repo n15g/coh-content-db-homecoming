@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const AScarInTime: BadgeData = {
   type: 'exploration',
   key: 'a-scar-in-time',
+  gameId: 'ReclusesVictoryTour5',
   setTitleId: [2422],
   name: 'A Scar in Time',
   releaseDate: '2019-06-01',

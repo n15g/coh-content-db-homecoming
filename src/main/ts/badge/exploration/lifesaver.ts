@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const Lifesaver: BadgeData = {
   type: 'exploration',
   key: 'lifesaver',
+  gameId: 'RiktiWarZoneTour4',
   setTitleId: [750],
   name: 'Lifesaver',
   releaseDate: '2012-11-30',

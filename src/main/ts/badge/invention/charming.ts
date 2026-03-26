@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Charming: BadgeData = {
   type: 'invention',
   key: 'charming',
+  gameId: 'InventionMez3',
   setTitleId: [777],
   name: 'Charming',
   releaseDate: '2012-11-30',

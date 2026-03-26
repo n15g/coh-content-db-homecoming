@@ -5,6 +5,7 @@ import { Grandville } from '../../zone/grandville'
 export const HamidonsIre: BadgeData = {
   type: 'exploration',
   key: 'hamidons-ire',
+  gameId: 'AbyssTour6',
   setTitleId: [1865],
   name: `Hamidon's Ire`,
   releaseDate: '2012-11-30',

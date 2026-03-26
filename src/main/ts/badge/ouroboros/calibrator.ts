@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const Calibrator: BadgeData = {
   type: 'ouroboros',
   key: 'calibrator',
+  gameId: 'Flashback15',
   setTitleId: [936],
   name: 'Calibrator',
   releaseDate: '2012-11-30',

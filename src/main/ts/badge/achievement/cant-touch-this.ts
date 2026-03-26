@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CantTouchThis: BadgeData = {
   type: 'achievement',
   key: 'cant-touch-this',
+  gameId: 'AeonSF_Challenge4',
   setTitleId: [2481],
   name: `Can't Touch This`,
   releaseDate: '2020-11-26',

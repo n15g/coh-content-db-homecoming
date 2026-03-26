@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Mimic: BadgeData = {
   type: 'achievement',
   key: 'mimic',
+  gameId: 'AetherCostume1',
   setTitleId: [2500],
   name: 'Mimic',
   releaseDate: '2020-11-26',

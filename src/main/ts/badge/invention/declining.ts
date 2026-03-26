@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Declining: BadgeData = {
   type: 'invention',
   key: 'declining',
+  gameId: 'InventionDeBuff1',
   setTitleId: [760],
   name: 'Declining',
   releaseDate: '2012-11-30',

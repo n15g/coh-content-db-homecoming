@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DestinyUnlocked: BadgeData = {
   type: 'accolade',
   key: 'destiny-unlocked',
+  gameId: 'IncarnateDestinySlot',
   setTitleId: [1394],
   name: 'Destiny Unlocked',
   releaseDate: '2012-11-30',

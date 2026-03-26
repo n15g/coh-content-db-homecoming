@@ -4,6 +4,7 @@ import { TinMageMarkII } from '../../contact/tin-mage-mark-ii'
 export const MidnightDodgerWhatDodgesAtMidnight: BadgeData = {
   type: 'achievement',
   key: 'midnight-dodger-what-dodges-at-midnight',
+  gameId: 'AlphaTF_NoProximityBombs',
   setTitleId: [1762],
   name: 'Midnight Dodger What Dodges At Midnight',
   releaseDate: '2012-11-30',

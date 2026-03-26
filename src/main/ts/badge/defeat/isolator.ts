@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Isolator: BadgeData = {
   type: 'defeat',
   key: 'isolator',
+  gameId: 'Quarantine',
   setTitleId: [39],
   name: 'Isolator',
   releaseDate: '2012-11-30',

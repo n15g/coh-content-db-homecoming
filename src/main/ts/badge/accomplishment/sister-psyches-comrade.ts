@@ -4,6 +4,7 @@ import { SisterPsycheTaskForce } from '../../mission/sister-psyche-task-force'
 export const SisterPsychesComrade: BadgeData = {
   type: 'accomplishment',
   key: 'sister-psyches-comrade',
+  gameId: 'SisterPsycheTF',
   setTitleId: [63],
   name: [
     { alignment: 'hero', value: `Sister Psyche's Comrade` },

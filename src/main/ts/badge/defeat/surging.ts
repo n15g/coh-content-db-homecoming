@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const Surging: BadgeData = {
   type: 'defeat',
   key: 'surging',
+  gameId: 'Surging',
   setTitleId: [519],
   name: 'Surging',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const MysticKing: BadgeData = {
   type: 'exploration',
   key: 'mystic-king',
+  gameId: 'KingsRowTour3',
   setTitleId: [98],
   name: [
     { sex: 'M', value: 'Mystic King' },

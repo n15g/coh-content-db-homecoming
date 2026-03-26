@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Kleptomaniac: BadgeData = {
   type: 'achievement',
   key: 'kleptomaniac',
+  gameId: 'SouvenirCount50',
   setTitleId: [2364],
   name: 'Kleptomaniac',
   releaseDate: '2012-11-30',

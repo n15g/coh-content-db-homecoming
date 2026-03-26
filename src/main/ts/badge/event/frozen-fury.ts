@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FrozenFury: BadgeData = {
   type: 'event',
   key: 'frozen-fury',
+  gameId: 'SnowbeastDefeatBadge',
   setTitleId: [210],
   name: 'Frozen Fury',
   releaseDate: '2012-11-30',

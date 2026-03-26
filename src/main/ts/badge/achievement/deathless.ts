@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Deathless: BadgeData = {
   type: 'achievement',
   key: 'deathless',
+  gameId: 'Deathless',
   setTitleId: [233, 1684],
   name: [
     { value: 'Deathless' },

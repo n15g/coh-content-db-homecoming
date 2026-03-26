@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Terminator: BadgeData = {
   type: 'defeat',
   key: 'terminator',
+  gameId: 'ArchitectCustomKills10000',
   setTitleId: [1323],
   name: 'Terminator',
   releaseDate: '2019-01-01',

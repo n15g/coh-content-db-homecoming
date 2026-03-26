@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Lanista: BadgeData = {
   type: 'gladiator',
   key: 'lanista',
+  gameId: 'Lanista',
   setTitleId: [473],
   name: 'Lanista',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const VoiceOfTheOracle: BadgeData = {
   type: 'exploration',
   key: 'voice-of-the-oracle',
+  gameId: 'CimeroraTour4',
   setTitleId: [2464],
   name: 'Voice of the Oracle',
   releaseDate: '2020-11-26',

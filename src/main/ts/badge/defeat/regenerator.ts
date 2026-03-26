@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Regenerator: BadgeData = {
   type: 'defeat',
   key: 'regenerator',
+  gameId: 'Regenerator',
   setTitleId: [53],
   name: 'Regenerator',
   releaseDate: '2012-11-30',

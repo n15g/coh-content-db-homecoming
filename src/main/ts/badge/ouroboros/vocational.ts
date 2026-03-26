@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Vocational: BadgeData = {
   type: 'ouroboros',
   key: 'vocational',
+  gameId: 'ArchetypePowersOnlyatSL3',
   setTitleId: [888],
   name: 'Vocational',
   releaseDate: '2012-11-30',

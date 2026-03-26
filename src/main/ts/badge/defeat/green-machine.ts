@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GreenMachine: BadgeData = {
   type: 'defeat',
   key: 'green-machine',
+  gameId: 'DefeatWarhulk',
   setTitleId: [2443],
   name: 'Green Machine',
   releaseDate: '2020-11-26',

@@ -4,6 +4,7 @@ import { Intellectual } from '../history/intellectual'
 export const PariahAnchorite: BadgeData = {
   type: 'gladiator',
   key: 'pariah-anchorite',
+  gameId: 'Anchorite',
   setTitleId: [499],
   name: 'Pariah Anchorite',
   releaseDate: '2012-11-30',

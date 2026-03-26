@@ -5,6 +5,7 @@ import { Eden } from '../../zone/eden'
 export const ForestOfStone: BadgeData = {
   type: 'exploration',
   key: 'forest-of-stone',
+  gameId: 'TheHiveTour8',
   setTitleId: [1853],
   name: 'Forest of Stone',
   releaseDate: '2012-11-30',

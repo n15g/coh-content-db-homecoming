@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Buster: BadgeData = {
   type: 'event',
   key: 'buster',
+  gameId: 'Buster',
   setTitleId: [186],
   name: 'Buster',
   releaseDate: '2012-11-30',

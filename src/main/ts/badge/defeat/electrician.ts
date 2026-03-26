@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Electrician: BadgeData = {
   type: 'defeat',
   key: 'electrician',
+  gameId: 'DeathSurge',
   setTitleId: [299],
   name: 'Electrician',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheMongoose: BadgeData = {
   type: 'defeat',
   key: 'the-mongoose',
+  gameId: 'TheMongoose',
   setTitleId: [313],
   name: 'The Mongoose',
   releaseDate: '2012-11-30',

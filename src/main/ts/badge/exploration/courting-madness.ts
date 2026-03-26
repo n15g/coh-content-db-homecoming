@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const CourtingMadness: BadgeData = {
   type: 'exploration',
   key: 'courting-madness',
+  gameId: 'StormPalaceTour1',
   setTitleId: [1854],
   name: 'Courting Madness',
   releaseDate: '2012-11-30',

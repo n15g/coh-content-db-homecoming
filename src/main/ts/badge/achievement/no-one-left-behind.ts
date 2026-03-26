@@ -4,6 +4,7 @@ import { RoyCooling } from '../../contact/roy-cooling'
 export const NoOneLeftBehind: BadgeData = {
   type: 'achievement',
   key: 'no-one-left-behind',
+  gameId: 'I19HeroStoryArcOptional',
   setTitleId: [1895],
   name: 'No One Left Behind',
   releaseDate: '2012-11-30',

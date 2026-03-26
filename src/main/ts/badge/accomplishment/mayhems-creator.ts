@@ -4,6 +4,7 @@ import { TheEndOfAYin } from '../../mission/the-end-of-a-yin'
 export const MayhemsCreator: BadgeData = {
   type: 'accomplishment',
   key: 'mayhems-creator',
+  gameId: 'Mission_SM_i24_Arc_Complete_03',
   setTitleId: [2260],
   name: `Mayhem's Creator`,
   releaseDate: '2012-11-30',

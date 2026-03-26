@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Marauder: BadgeData = {
   type: 'achievement',
   key: 'marauder',
+  gameId: 'P_Marauder',
   setTitleId: [2355],
   name: 'Marauder',
   releaseDate: '2012-11-30',

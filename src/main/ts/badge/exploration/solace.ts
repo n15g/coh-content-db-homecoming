@@ -4,6 +4,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const Solace: BadgeData = {
   type: 'exploration',
   key: 'solace',
+  gameId: 'SkywayCityTour2',
   setTitleId: [111],
   name: 'Solace',
   releaseDate: '2012-11-30',

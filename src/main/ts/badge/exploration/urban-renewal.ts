@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const UrbanRenewal: BadgeData = {
   type: 'exploration',
   key: 'urban-renewal',
+  gameId: 'P_UrbanRenewal',
   setTitleId: [1730],
   name: 'Urban Renewal',
   releaseDate: '2012-11-30',

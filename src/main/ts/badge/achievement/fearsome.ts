@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Fearsome: BadgeData = {
   type: 'achievement',
   key: 'fearsome',
+  gameId: 'P_VigilanteAlignmentPower',
   setTitleId: [1455],
   name: 'Fearsome',
   releaseDate: '2012-11-30',

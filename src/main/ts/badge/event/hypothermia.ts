@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Hypothermia: BadgeData = {
   type: 'event',
   key: 'hypothermia',
+  gameId: 'Winter2024Badge',
   setTitleId: [2545],
   name: 'Hypothermia',
   releaseDate: '2024-12-06',

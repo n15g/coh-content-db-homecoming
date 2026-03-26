@@ -6,6 +6,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const Digger: BadgeData = {
   type: 'history',
   key: 'digger',
+  gameId: 'Hollowing',
   setTitleId: [190],
   name: 'Digger',
   releaseDate: '2012-11-30',

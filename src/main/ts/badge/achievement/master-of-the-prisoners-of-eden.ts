@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfThePrisonersOfEden: BadgeData = {
   type: 'achievement',
   key: 'master-of-the-prisoners-of-eden',
+  gameId: 'MasterofEdenTrial',
   setTitleId: [2489],
   name: 'Master of the Prisoners of Eden',
   releaseDate: '2020-11-26',

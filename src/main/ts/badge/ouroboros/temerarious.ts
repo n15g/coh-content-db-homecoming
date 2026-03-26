@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Temerarious: BadgeData = {
   type: 'ouroboros',
   key: 'temerarious',
+  gameId: 'DeBuffedPartyatSL9',
   setTitleId: [876],
   name: 'Temerarious',
   releaseDate: '2012-11-30',

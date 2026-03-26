@@ -4,6 +4,7 @@ import { ErnestoHessTaskForce } from '../../mission/ernesto-hess-task-force'
 export const BurkholdersBane: BadgeData = {
   type: 'accomplishment',
   key: 'burkholders-bane',
+  gameId: 'CouncilRobotBadge',
   setTitleId: [202],
   name: `Burkholder's Bane`,
   releaseDate: '2012-11-30',

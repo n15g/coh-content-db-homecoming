@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const Brickhouse: BadgeData = {
   type: 'exploration',
   key: 'brickhouse',
+  gameId: 'MayhemMap7',
   setTitleId: [561],
   name: 'Brickhouse',
   releaseDate: '2012-11-30',

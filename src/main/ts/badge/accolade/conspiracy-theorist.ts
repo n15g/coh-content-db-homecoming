@@ -9,6 +9,7 @@ import { TheDoctorsAlly } from '../accomplishment/the-doctors-ally'
 export const ConspiracyTheorist: BadgeData = {
   type: 'accolade',
   key: 'conspiracy-theorist',
+  gameId: 'CreySet',
   setTitleId: [168],
   name: 'Conspiracy Theorist',
   releaseDate: '2012-11-30',

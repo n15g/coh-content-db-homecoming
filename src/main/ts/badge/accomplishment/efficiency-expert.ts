@@ -9,6 +9,7 @@ import { BeatSomeSenseIntoFortunataIverson } from '../../mission/beat-some-sense
 export const EfficiencyExpert: BadgeData = {
   type: 'accomplishment',
   key: 'efficiency-expert',
+  gameId: 'VSL9MissionA',
   setTitleId: [346],
   name: 'Efficiency Expert',
   releaseDate: '2012-11-30',

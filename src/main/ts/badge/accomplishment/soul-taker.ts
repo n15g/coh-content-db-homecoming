@@ -4,6 +4,7 @@ import { OfferSoulOfAkarist } from '../../mission/offer-soul-of-akarist'
 export const SoulTaker: BadgeData = {
   type: 'accomplishment',
   key: 'soul-taker',
+  gameId: 'VSL5MissionB',
   setTitleId: [339],
   name: 'Soul Taker',
   releaseDate: '2012-11-30',

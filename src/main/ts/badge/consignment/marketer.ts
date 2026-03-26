@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Marketer: BadgeData = {
   type: 'consignment',
   key: 'marketer',
+  gameId: 'AuctionSeller10',
   setTitleId: [819],
   name: [
     { alignment: 'hero', value: 'Marketer' },

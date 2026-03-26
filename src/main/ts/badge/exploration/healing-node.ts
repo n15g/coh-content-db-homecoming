@@ -5,6 +5,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const HealingNode: BadgeData = {
   type: 'exploration',
   key: 'healing-node',
+  gameId: 'SkywayCityTour4',
   setTitleId: [113],
   name: 'Healing Node',
   releaseDate: '2012-11-30',

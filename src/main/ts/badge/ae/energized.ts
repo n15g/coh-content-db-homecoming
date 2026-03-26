@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Energized: BadgeData = {
   type: 'architect-entertainment',
   key: 'energized',
+  gameId: 'ArchitectInspirations10',
   setTitleId: [1206],
   name: 'Energized',
   releaseDate: '2012-11-30',

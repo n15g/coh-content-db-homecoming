@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TourGuide: BadgeData = {
   type: 'achievement',
   key: 'tour-guide',
+  gameId: 'IT_Underground_DesHealth',
   setTitleId: [1997],
   name: 'Tour Guide',
   releaseDate: '2012-11-30',

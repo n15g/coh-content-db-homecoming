@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Gunrunner: BadgeData = {
   type: 'day-job',
   key: 'gunrunner',
+  gameId: 'DJ_Smuggler',
   setTitleId: [1140],
   name: [
     { alignment: 'hero', value: 'Gunrunner' },

@@ -4,6 +4,7 @@ import { DefeatMarauderAndDestroyThePortal } from '../../mission/defeat-marauder
 export const Agent: BadgeData = {
   type: 'accomplishment',
   key: 'agent',
+  gameId: 'SL9MissionB',
   setTitleId: [85],
   name: 'Agent',
   releaseDate: '2012-11-30',

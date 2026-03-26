@@ -11,6 +11,7 @@ import { TheUnderlord } from '../exploration/the-underlord'
 export const MasterPlumber: BadgeData = {
   type: 'accolade',
   key: 'master-plumber',
+  gameId: 'AbSewerNetworkExplorer',
   setTitleId: [1884],
   name: 'Master Plumber',
   releaseDate: '2012-11-30',

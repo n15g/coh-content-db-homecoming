@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const EndOfTheLine: BadgeData = {
   type: 'exploration',
   key: 'end-of-the-line',
+  gameId: 'BoomtownTour7',
   setTitleId: [1779],
   name: 'End of the Line',
   releaseDate: '2012-11-30',

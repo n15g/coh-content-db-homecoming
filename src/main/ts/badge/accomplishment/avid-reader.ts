@@ -4,6 +4,7 @@ import { Prometheus } from '../../contact/prometheus'
 export const AvidReader: BadgeData = {
   type: 'accomplishment',
   key: 'avid-reader',
+  gameId: 'P_Tutorial_Reader',
   setTitleId: [1716],
   name: 'Avid Reader',
   releaseDate: '2012-11-30',

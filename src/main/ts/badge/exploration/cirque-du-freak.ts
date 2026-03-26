@@ -4,6 +4,7 @@ import { CreysFolly } from '../../zone/creys-folly'
 export const CirqueDuFreak: BadgeData = {
   type: 'exploration',
   key: 'cirque-du-freak',
+  gameId: 'CreysFolleyTour8',
   setTitleId: [1796],
   name: `Cirque du'Freak`,
   releaseDate: '2012-11-30',

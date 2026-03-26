@@ -6,6 +6,7 @@ import { Warburg } from '../../zone/warburg'
 export const Vigilante: BadgeData = {
   type: 'pvp',
   key: 'vigilante',
+  gameId: 'Wanted',
   setTitleId: [367],
   name: [
     { alignment: 'hero', value: 'Vigilante' },

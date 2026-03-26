@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const DeadMansTree: BadgeData = {
   type: 'exploration',
   key: 'dead-mans-tree',
+  gameId: 'StMartialTour5',
   setTitleId: [1505],
   name: `Dead Man's Tree`,
   releaseDate: '2012-11-30',

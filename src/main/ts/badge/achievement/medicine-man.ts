@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MedicineMan: BadgeData = {
   type: 'achievement',
   key: 'medicine-man',
+  gameId: 'MedicineMan',
   setTitleId: [237, 1691],
   name: [
     { sex: 'M', value: 'Medicine Man' },

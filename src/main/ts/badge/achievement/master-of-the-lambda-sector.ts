@@ -7,6 +7,7 @@ import { LambdaLooter } from './lambda-looter'
 export const MasterOfTheLambdaSector: BadgeData = {
   type: 'achievement',
   key: 'master-of-lambda-sector',
+  gameId: 'IT_Lambda_Master',
   setTitleId: [1988],
   name: 'Master of the Lambda Sector',
   releaseDate: '2012-11-30',

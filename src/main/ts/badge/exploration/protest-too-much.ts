@@ -3,7 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const ProtestTooMuch: BadgeData = {
   type: 'exploration',
-  key: 'protest-too-much',
+  key: 'protest-too-much',  gameId: 'KallistiWharfTour3',
+
   setTitleId: [2451],
   name: 'Protest Too Much',
   releaseDate: '2025-06-17',

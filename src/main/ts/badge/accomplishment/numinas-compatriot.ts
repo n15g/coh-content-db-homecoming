@@ -4,6 +4,7 @@ import { NuminaTaskForce } from '../../mission/numina-task-force'
 export const NuminasCompatriot: BadgeData = {
   type: 'accomplishment',
   key: 'numinas-compatriot',
+  gameId: 'NuminaTF',
   setTitleId: [66],
   name: [
     { alignment: 'hero', value: `Numina's Compatriot` },

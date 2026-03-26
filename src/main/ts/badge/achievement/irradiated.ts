@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Irradiated: BadgeData = {
   type: 'achievement',
   key: 'irradiated',
+  gameId: 'BloodyBay',
   setTitleId: [401],
   name: 'Irradiated',
   releaseDate: '2012-11-30',

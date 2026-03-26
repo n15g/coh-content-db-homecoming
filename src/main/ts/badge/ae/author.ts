@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Author: BadgeData = {
   type: 'architect-entertainment',
   key: 'author',
+  gameId: 'ArchitectAuthor50',
   setTitleId: [1118],
   name: 'Author',
   releaseDate: '2012-11-30',

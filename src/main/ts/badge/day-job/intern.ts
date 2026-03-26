@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Intern: BadgeData = {
   type: 'day-job',
   key: 'intern',
+  gameId: 'DJ_Intern',
   setTitleId: [1033],
   name: [
     { alignment: 'hero', value: 'Intern' },

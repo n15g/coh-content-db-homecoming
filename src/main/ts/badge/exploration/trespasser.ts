@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const Trespasser: BadgeData = {
   type: 'exploration',
   key: 'trespasser',
+  gameId: 'RiktiWarZoneTour2',
   setTitleId: [748],
   name: 'Trespasser',
   releaseDate: '2012-11-30',

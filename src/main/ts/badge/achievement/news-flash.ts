@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const NewsFlash: BadgeData = {
   type: 'achievement',
   key: 'news-flash',
+  gameId: 'IT_TPN_PropagandaChallenge',
   setTitleId: [2073],
   name: 'News Flash',
   releaseDate: '2012-11-30',

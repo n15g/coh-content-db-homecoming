@@ -5,6 +5,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const Scholastic: BadgeData = {
   type: 'history',
   key: 'scholastic',
+  gameId: 'DimensionalBarrier',
   setTitleId: [158],
   name: 'Scholastic',
   releaseDate: '2012-11-30',

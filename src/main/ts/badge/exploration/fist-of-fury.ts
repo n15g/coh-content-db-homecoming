@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const FistOfFury: BadgeData = {
   type: 'exploration',
   key: 'fist-of-fury',
+  gameId: 'StormPalaceTour6',
   setTitleId: [1859],
   name: 'Fist of Fury',
   releaseDate: '2012-11-30',

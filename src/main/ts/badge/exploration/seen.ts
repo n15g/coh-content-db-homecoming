@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const Seen: BadgeData = {
   type: 'exploration',
   key: 'seen',
+  gameId: 'P_Seen',
   setTitleId: [1406],
   name: 'Seen',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const WhispererOnWitchburnHill: BadgeData = {
   type: 'exploration',
   key: 'whisperer-on-witchburn-hill',
+  gameId: 'DarkAstoriaTour4',
   setTitleId: [1781],
   name: 'Whisperer on Witchburn Hill',
   releaseDate: '2012-11-30',

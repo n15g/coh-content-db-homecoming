@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const GlobalGuardian: BadgeData = {
   type: 'exploration',
   key: 'global-guardian',
+  gameId: 'MayhemMap1',
   setTitleId: [555],
   name: [
     { alignment: 'hero', value: 'Global Guardian' },

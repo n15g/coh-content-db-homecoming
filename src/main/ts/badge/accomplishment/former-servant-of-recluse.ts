@@ -4,6 +4,7 @@ import { LordRecluseStrikeForce } from '../../mission/lord-recluse-strike-force'
 export const FormerServantOfRecluse: BadgeData = {
   type: 'accomplishment',
   key: 'former-servant-of-recluse',
+  gameId: 'LordRecluseTF',
   setTitleId: [323],
   name: [
     { alignment: 'hero', value: 'Former Servant of Recluse' },

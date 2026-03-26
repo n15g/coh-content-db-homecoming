@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const BattleHardened: BadgeData = {
   type: 'exploration',
   key: 'battle-hardened',
+  gameId: 'BattleHardened',
   setTitleId: [2371],
   name: 'Battle-Hardened',
   releaseDate: '2012-11-30',

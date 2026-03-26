@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Psychologist: BadgeData = {
   type: 'day-job',
   key: 'psychologist',
+  gameId: 'DJ_Psychologist',
   setTitleId: [2042],
   name: 'Psychologist',
   releaseDate: '2012-11-30',

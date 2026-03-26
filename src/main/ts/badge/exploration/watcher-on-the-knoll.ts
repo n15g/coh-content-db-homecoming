@@ -4,6 +4,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const WatcherOnTheKnoll: BadgeData = {
   type: 'exploration',
   key: 'watcher-on-the-knoll',
+  gameId: 'NervaTour1',
   setTitleId: [274],
   name: 'Watcher on the Knoll',
   releaseDate: '2012-11-30',

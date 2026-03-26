@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const StrikeBuster: BadgeData = {
   type: 'defeat',
   key: 'strike-buster',
+  gameId: 'StrikeBuster',
   setTitleId: [300],
   name: 'Strike Buster',
   releaseDate: '2012-11-30',

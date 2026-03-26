@@ -4,6 +4,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const HighVoltage: BadgeData = {
   type: 'exploration',
   key: 'high-voltage',
+  gameId: 'TerraVoltaTour8',
   setTitleId: [1841],
   name: 'High Voltage!',
   releaseDate: '2012-11-30',

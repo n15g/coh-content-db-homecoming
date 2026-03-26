@@ -4,6 +4,7 @@ import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 export const Trustworthy: BadgeData = {
   type: 'exploration',
   key: 'trustworthy',
+  gameId: 'Trustworthy',
   setTitleId: [2367],
   name: 'Trustworthy',
   releaseDate: '2019-01-01',

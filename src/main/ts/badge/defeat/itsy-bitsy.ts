@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ItsyBitsy: BadgeData = {
   type: 'defeat',
   key: 'itsy-bitsy',
+  gameId: 'JadeSpiderBadge',
   setTitleId: [2388],
   name: 'Itsy Bitsy',
   releaseDate: '2019-01-01',

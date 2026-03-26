@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const LordOfStorms: BadgeData = {
   type: 'exploration',
   key: 'lord-of-storms',
+  gameId: 'StormPalaceTour8',
   setTitleId: [1861],
   name: [
     { sex: 'M', value: 'Lord of Storms' },

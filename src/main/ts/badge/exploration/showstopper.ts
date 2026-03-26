@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const Showstopper: BadgeData = {
   type: 'exploration',
   key: 'showstopper',
+  gameId: 'StMartialTour8',
   setTitleId: [1508],
   name: 'Showstopper',
   releaseDate: '2012-11-30',

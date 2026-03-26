@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheReallyHardWay: BadgeData = {
   type: 'achievement',
   key: 'the-really-hard-way',
+  gameId: 'IT_MAG_EpicChallenge',
   setTitleId: [2238],
   name: 'The Really Hard Way',
   releaseDate: '2012-11-30',

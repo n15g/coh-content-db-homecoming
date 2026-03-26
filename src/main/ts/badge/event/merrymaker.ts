@@ -4,6 +4,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const Merrymaker: BadgeData = {
   type: 'event',
   key: 'merrymaker',
+  gameId: 'Anniversary3',
   setTitleId: [829],
   name: 'Merrymaker',
   releaseDate: '2012-11-30',

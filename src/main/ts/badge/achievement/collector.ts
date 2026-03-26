@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Collector: BadgeData = {
   type: 'achievement',
   key: 'collector',
+  gameId: 'Collector',
   setTitleId: [27, 1661],
   name: [
     { alignment: 'hero', value: 'Collector' },

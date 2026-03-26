@@ -4,6 +4,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const Meltdown: BadgeData = {
   type: 'exploration',
   key: 'meltdown',
+  gameId: 'TerraVoltaTour2',
   setTitleId: [132],
   name: 'Meltdown',
   releaseDate: '2012-11-30',

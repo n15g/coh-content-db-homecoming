@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FashionVictim: BadgeData = {
   type: 'accolade',
   key: 'fashion-victim',
+  gameId: 'FashionVictim',
   setTitleId: [2397],
   name: 'Fashion Victim',
   releaseDate: '2019-06-01',

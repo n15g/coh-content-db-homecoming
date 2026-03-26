@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const VengeanceSeeker: BadgeData = {
   type: 'exploration',
   key: 'vengeance-seeker',
+  gameId: 'FirstWardTour7',
   setTitleId: [2054],
   name: 'Vengeance Seeker',
   releaseDate: '2012-11-30',

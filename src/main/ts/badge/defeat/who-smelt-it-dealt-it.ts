@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WhoSmeltItDealtIt: BadgeData = {
   type: 'defeat',
   key: 'who-smelt-it-dealt-it',
+  gameId: 'DefeatSmelters',
   setTitleId: [2487],
   name: 'Who Smelt It, Dealt It',
   releaseDate: '2020-11-26',

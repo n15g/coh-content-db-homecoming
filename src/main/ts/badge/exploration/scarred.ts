@@ -4,6 +4,7 @@ import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
 export const Scarred: BadgeData = {
   type: 'exploration',
   key: 'scarred',
+  gameId: 'RiktiWarZoneTour10',
   setTitleId: [756],
   name: 'Scarred',
   releaseDate: '2012-11-30',

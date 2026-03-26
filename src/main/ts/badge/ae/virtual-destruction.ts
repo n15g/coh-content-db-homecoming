@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VirtualDestruction: BadgeData = {
   type: 'architect-entertainment',
   key: 'virtual-destruction',
+  gameId: 'ArchitectTestDestroy1',
   setTitleId: [1255],
   name: 'Virtual Destruction',
   releaseDate: '2012-11-30',

@@ -11,6 +11,7 @@ import { Observant } from '../exploration/observant'
 export const AtlasTourGuide: BadgeData = {
   type: 'accolade',
   key: 'atlas-tour-guide',
+  gameId: 'AtlasParkExplorer',
   setTitleId: [1517],
   name: 'Atlas Tour Guide',
   releaseDate: '2012-11-30',

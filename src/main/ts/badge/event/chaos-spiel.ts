@@ -5,6 +5,7 @@ import { WeddingCrasher } from './wedding-crasher'
 export const ChaosSpiel: BadgeData = {
   type: 'event',
   key: 'chaos-spiel',
+  gameId: 'ValentineWeddingNemesis',
   setTitleId: [2551],
   name: 'Chaos Spiel',
   releaseDate: '2025-02-10',

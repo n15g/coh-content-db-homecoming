@@ -4,6 +4,7 @@ import { MsLibertyTaskForce } from '../../mission/ms-liberty-task-force'
 export const Peerless: BadgeData = {
   type: 'accomplishment',
   key: 'peerless',
+  gameId: 'STFVictory2',
   setTitleId: [734],
   name: [
     { alignment: 'hero', value: 'Peerless' },

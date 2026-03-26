@@ -4,6 +4,7 @@ import { SeeWhatCrashWants } from '../../mission/see-what-crash-wants'
 export const SlagReaper: BadgeData = {
   type: 'accomplishment',
   key: 'slag-reaper',
+  gameId: 'VSL4MissionB',
   setTitleId: [337],
   name: 'Slag Reaper',
   releaseDate: '2012-11-30',

@@ -9,6 +9,7 @@ import { AngerManager } from '../defeat/anger-manager'
 export const Uninsurable: BadgeData = {
   type: 'accolade',
   key: 'uninsurable',
+  gameId: 'MayhemForceOfNature',
   setTitleId: [548],
   name: [
     { alignment: 'hero', value: 'Uninsurable' },

@@ -7,6 +7,7 @@ import { Grandville } from '../../zone/grandville'
 export const ArachnosRising: BadgeData = {
   type: 'history',
   key: 'arachnos-rising',
+  gameId: 'RecluseArrival',
   setTitleId: [316],
   name: 'Arachnos Rising',
   releaseDate: '2012-11-30',

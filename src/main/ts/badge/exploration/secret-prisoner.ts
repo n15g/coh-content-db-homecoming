@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const SecretPrisoner: BadgeData = {
   type: 'exploration',
   key: 'secret-prisoner',
+  gameId: 'P_SecretPrisoner',
   setTitleId: [1640],
   name: 'Secret Prisoner',
   releaseDate: '2012-11-30',

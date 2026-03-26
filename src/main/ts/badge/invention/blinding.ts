@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Blinding: BadgeData = {
   type: 'invention',
   key: 'blinding',
+  gameId: 'InventionMez1',
   setTitleId: [775],
   name: 'Blinding',
   releaseDate: '2012-11-30',

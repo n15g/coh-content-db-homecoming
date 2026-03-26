@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Blindsider: BadgeData = {
   type: 'defeat',
   key: 'blindsider',
+  gameId: 'P_DefeatSeers',
   setTitleId: [1468],
   name: 'Blindsider',
   releaseDate: '2012-11-30',

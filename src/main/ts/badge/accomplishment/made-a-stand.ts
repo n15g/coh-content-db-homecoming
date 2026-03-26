@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MadeAStand: BadgeData = {
   type: 'accomplishment',
   key: 'made-a-stand',
+  gameId: 'P_MoralityMission',
   setTitleId: [1446],
   name: 'Made a Stand',
   releaseDate: '2012-11-30',

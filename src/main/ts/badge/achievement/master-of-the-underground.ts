@@ -7,6 +7,7 @@ import { AvatarAssassin } from './avatar-assassin'
 export const MasterOfTheUnderground: BadgeData = {
   type: 'achievement',
   key: 'master-of-the-underground',
+  gameId: 'IT_Underground_Master',
   setTitleId: [2000],
   name: 'Master of the Underground',
   releaseDate: '2012-11-30',

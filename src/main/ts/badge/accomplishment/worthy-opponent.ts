@@ -5,6 +5,7 @@ import { LordRecluseStrikeForce } from '../../mission/lord-recluse-strike-force'
 export const WorthyOpponent: BadgeData = {
   type: 'accomplishment',
   key: 'worthy-opponent',
+  gameId: 'LordRecluseTFFlashback',
   setTitleId: [2472],
   name: 'Worthy Opponent',
   releaseDate: '2020-11-26',

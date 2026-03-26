@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Valiant: BadgeData = {
   type: 'ouroboros',
   key: 'valiant',
+  gameId: 'BuffedEnemiesatSL6',
   setTitleId: [882],
   name: 'Valiant',
   releaseDate: '2012-11-30',

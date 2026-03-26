@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Sniper: BadgeData = {
   type: 'invention',
   key: 'sniper',
+  gameId: 'InventionRateOfFire4',
   setTitleId: [788],
   name: 'Sniper',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Villainous: BadgeData = {
   type: 'architect-entertainment',
   key: 'villainous',
+  gameId: 'ArchitectVillainMissions10',
   setTitleId: [1222],
   name: 'Villainous',
   releaseDate: '2012-11-30',

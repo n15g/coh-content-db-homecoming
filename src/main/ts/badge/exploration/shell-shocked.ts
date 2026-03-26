@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const ShellShocked: BadgeData = {
   type: 'exploration',
   key: 'shell-shocked',
+  gameId: 'FirstWardTour4',
   setTitleId: [2051],
   name: 'Shell Shocked',
   releaseDate: '2012-11-30',

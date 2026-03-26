@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Duelist: BadgeData = {
   type: 'day-job',
   key: 'duelist',
+  gameId: 'DJ_Duelist',
   setTitleId: [1044],
   name: 'Duelist',
   releaseDate: '2012-11-30',

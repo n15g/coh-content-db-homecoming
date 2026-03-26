@@ -6,6 +6,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const TheUnderlord: BadgeData = {
   type: 'exploration',
   key: 'the-underlord',
+  gameId: 'AbSewerNetworkTour5',
   setTitleId: [1825],
   name: [
     { sex: 'M', value: 'The Underlord' },

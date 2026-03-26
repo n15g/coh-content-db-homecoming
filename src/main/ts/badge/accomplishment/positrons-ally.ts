@@ -5,6 +5,7 @@ import { PositronTaskForcePartOne } from '../../mission/positron-task-force-part
 export const PositronsAlly: BadgeData = {
   type: 'accomplishment',
   key: 'positrons-ally',
+  gameId: 'PositronTF',
   setTitleId: [61],
   name: [
     { alignment: 'hero', value: `Positron's Ally` },

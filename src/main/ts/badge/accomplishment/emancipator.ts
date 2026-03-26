@@ -4,6 +4,7 @@ import { TheClockworkKingsPsychicSignal } from '../../mission/the-clockwork-king
 export const Emancipator: BadgeData = {
   type: 'accomplishment',
   key: 'emancipator',
+  gameId: 'SL8MissionA',
   setTitleId: [82],
   name: 'Emancipator',
   releaseDate: '2012-11-30',

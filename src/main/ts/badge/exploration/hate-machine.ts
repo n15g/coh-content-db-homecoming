@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const HateMachine: BadgeData = {
   type: 'exploration',
   key: 'hate-machine',
+  gameId: 'StormPalaceTour5',
   setTitleId: [1858],
   name: 'Hate Machine',
   releaseDate: '2012-11-30',

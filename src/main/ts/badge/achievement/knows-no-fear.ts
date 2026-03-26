@@ -4,6 +4,7 @@ import { SisterSolaris } from '../../contact/sister-solaris'
 export const KnowsNoFear: BadgeData = {
   type: 'achievement',
   key: 'knows-no-fear',
+  gameId: 'Mission_DA_Zone_Achievement_02',
   setTitleId: [2201],
   name: 'Knows No Fear',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GottaKeepEmSeparated: BadgeData = {
   type: 'achievement',
   key: 'gotta-keep-em-separated',
+  gameId: 'IT_BAF_NoMovingAVs',
   setTitleId: [1977],
   name: `Gotta Keep 'Em Separated`,
   releaseDate: '2012-11-30',

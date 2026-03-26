@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const UntilTheEndOfTheWorld: BadgeData = {
   type: 'achievement',
   key: 'until-the-end-of-the-world',
+  gameId: '1500Badges',
   setTitleId: [2361],
   name: 'Until the End of the World',
   releaseDate: '2012-11-30',

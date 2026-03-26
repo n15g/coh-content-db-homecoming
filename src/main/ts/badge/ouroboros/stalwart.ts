@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Stalwart: BadgeData = {
   type: 'ouroboros',
   key: 'stalwart',
+  gameId: 'BuffedEnemiesatSL7',
   setTitleId: [883],
   name: 'Stalwart',
   releaseDate: '2012-11-30',

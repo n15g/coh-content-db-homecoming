@@ -4,6 +4,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const NebulasMemory: BadgeData = {
   type: 'exploration',
   key: 'nebulas-memory',
+  gameId: 'PerezParkTour6',
   setTitleId: [1774],
   name: `Nebula's Memory`,
   releaseDate: '2012-11-30',

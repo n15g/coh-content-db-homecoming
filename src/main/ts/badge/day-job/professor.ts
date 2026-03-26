@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Professor: BadgeData = {
   type: 'day-job',
   key: 'professor',
+  gameId: 'DJ_Scholar',
   setTitleId: [1035],
   name: 'Professor',
   releaseDate: '2012-11-30',

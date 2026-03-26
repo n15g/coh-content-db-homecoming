@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheUnwavering: BadgeData = {
   type: 'achievement',
   key: 'the-unwavering',
+  gameId: 'UnwaveringFocus',
   setTitleId: [15, 1681],
   name: [
     { alignment: 'hero', value: 'The Unwavering' },

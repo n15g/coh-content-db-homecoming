@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Pilgrim: BadgeData = {
   type: 'invention',
   key: 'pilgrim',
+  gameId: 'InventionTravel1',
   setTitleId: [800],
   name: 'Pilgrim',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { NobleIntentions } from '../../mission/noble-intentions'
 export const Pollster: BadgeData = {
   type: 'accomplishment',
   key: 'pollster',
+  gameId: 'Mission_i27_Houston_H',
   setTitleId: [2513],
   name: 'Pollster',
   releaseDate: '2020-11-26',

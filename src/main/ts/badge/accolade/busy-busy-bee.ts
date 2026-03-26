@@ -11,6 +11,7 @@ import { WildAtHeart } from '../exploration/wild-at-heart'
 export const BusyBusyBee: BadgeData = {
   type: 'accolade',
   key: 'busy-busy-bee',
+  gameId: 'TheHiveExplorer',
   setTitleId: [1888],
   name: 'Busy, Busy Bee',
   releaseDate: '2012-11-30',

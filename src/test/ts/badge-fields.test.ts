@@ -17,6 +17,22 @@ describe('Badge Fields', () => {
     }
   })
 
+  describe('gameId', () => {
+    test('should not contain any duplicate values', () => {
+      const errors: string[] = []
+      const gameIds = new Set<string>()
+
+      for (const badge of BADGES) {
+        if (gameIds.has(badge.gameId)) errors.push(`['${badge.key}'].gameId ['${badge.gameId}'] is a duplicate.`)
+        gameIds.add(badge.gameId)
+      }
+
+      if (errors.length > 0) {
+        throw errors.join('\n')
+      }
+    })
+  })
+
   describe('name', () => {
     test('should use direct value with no alternate values', () => {
       const errors: string[] = []

@@ -5,6 +5,7 @@ import { CreyTestSubject } from '../day-job/crey-test-subject'
 export const Whistleblower: BadgeData = {
   type: 'accolade',
   key: 'whistleblower',
+  gameId: 'DJ_Crey_Scientist',
   setTitleId: [1077],
   name: [
     { alignment: 'hero', value: 'Whistleblower' },

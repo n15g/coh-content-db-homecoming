@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const ActuallyBased: BadgeData = {
   type: 'achievement',
-  key: 'actually-based',
+  key: 'actually-based',  gameId: 'SupergroupBaseTour3',
+
   setTitleId: [2589],
   name: 'Actually Based',
   releaseDate: '2026-02-10',

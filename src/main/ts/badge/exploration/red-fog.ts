@@ -4,6 +4,7 @@ import { TheChantry } from '../../zone/the-chantry'
 export const RedFog: BadgeData = {
   type: 'exploration',
   key: 'red-fog',
+  gameId: 'ChantryTour7',
   setTitleId: [1819],
   name: 'Red Fog',
   releaseDate: '2012-11-30',

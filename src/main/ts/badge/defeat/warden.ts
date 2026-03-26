@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Warden: BadgeData = {
   type: 'defeat',
   key: 'warden',
+  gameId: 'Warden',
   setTitleId: [49],
   name: [
     { alignment: 'hero', value: 'Warden' },

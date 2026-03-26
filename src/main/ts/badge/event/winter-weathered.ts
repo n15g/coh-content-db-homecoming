@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const WinterWeathered: BadgeData = {
   type: 'event',
-  key: 'winter-weathered',
+  key: 'winter-weathered',  gameId: 'Winter2025Badge',
+
   setTitleId: [2571],
   name: 'Winter Weathered',
   releaseDate: '2025-12-01',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SlayerOfTheMinotaur: BadgeData = {
   type: 'defeat',
   key: 'slayer-of-the-minotaur',
+  gameId: 'DefeatLabyrinthMinotaur',
   setTitleId: [2534],
   name: 'Slayer of the Minotaur',
   releaseDate: '2024-11-19',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const IsThereADoctorInTheHouse: BadgeData = {
   type: 'event',
   key: 'is-there-a-doctor-in-the-house',
+  gameId: 'T_H2011_HouseofHorror',
   setTitleId: [2085],
   name: 'Is There a Doctor in the House?',
   releaseDate: '2012-11-30',

@@ -10,6 +10,7 @@ import { Escapist } from '../accomplishment/escapist'
 export const TemperedThroughFire: BadgeData = {
   type: 'accolade',
   key: 'tempered-through-fire',
+  gameId: 'Loyalty2012',
   setTitleId: [2212],
   name: 'Tempered Through Fire',
   releaseDate: '2012-11-30',

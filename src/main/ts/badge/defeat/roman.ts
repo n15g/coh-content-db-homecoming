@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Roman: BadgeData = {
   type: 'defeat',
   key: 'roman',
+  gameId: 'RomulusDefeated',
   setTitleId: [995],
   name: 'Roman',
   releaseDate: '2012-11-30',

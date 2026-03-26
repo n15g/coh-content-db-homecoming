@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const Longshoreman: BadgeData = {
   type: 'exploration',
   key: 'longshoreman',
+  gameId: 'P_Longshoreman',
   setTitleId: [1726],
   name: [
     { sex: 'M', value: 'Longshoreman' },

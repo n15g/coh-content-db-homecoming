@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Privateer: BadgeData = {
   type: 'defeat',
   key: 'privateer',
+  gameId: 'Privateer',
   setTitleId: [52],
   name: 'Privateer',
   releaseDate: '2012-11-30',

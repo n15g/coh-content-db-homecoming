@@ -4,6 +4,7 @@ import { AgentOfDiscord } from '../accomplishment/agent-of-discord'
 export const Arachnobot: BadgeData = {
   type: 'gladiator',
   key: 'arachnobot',
+  gameId: 'Arachnobot',
   setTitleId: [453],
   name: 'Arachnobot',
   releaseDate: '2012-11-30',

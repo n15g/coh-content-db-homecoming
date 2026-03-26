@@ -5,6 +5,7 @@ import { Grandville } from '../../zone/grandville'
 export const HereBeDragons: BadgeData = {
   type: 'exploration',
   key: 'here-be-dragons',
+  gameId: 'AbyssTour3',
   setTitleId: [1862],
   name: 'Here Be Dragons',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const Unabashed: BadgeData = {
   type: 'exploration',
   key: 'unabashed',
+  gameId: 'RiktiWarZoneTour12',
   setTitleId: [758],
   name: 'Unabashed',
   releaseDate: '2020-11-26',

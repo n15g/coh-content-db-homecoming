@@ -4,6 +4,7 @@ import { SirensCall } from '../../zone/sirens-call'
 export const BroadShoulders: BadgeData = {
   type: 'exploration',
   key: 'broad-shoulders',
+  gameId: 'SirensCallTour3',
   setTitleId: [261],
   name: 'Broad Shoulders',
   releaseDate: '2020-11-26',

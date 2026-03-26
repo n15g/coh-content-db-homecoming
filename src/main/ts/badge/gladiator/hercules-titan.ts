@@ -4,6 +4,7 @@ import { GrandLanista } from './grand-lanista'
 export const HerculesTitan: BadgeData = {
   type: 'gladiator',
   key: 'hercules-titan',
+  gameId: 'Titan',
   setTitleId: [471],
   name: 'Hercules Titan',
   releaseDate: '2012-11-30',

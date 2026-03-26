@@ -11,6 +11,7 @@ import { ManOfVengeance } from '../exploration/man-of-vengeance'
 export const PPDInformant: BadgeData = {
   type: 'accolade',
   key: 'ppd-informant',
+  gameId: 'KingsRowExplorer',
   setTitleId: [1529],
   name: [
     { alignment: 'hero', value: 'PPD Informant' },

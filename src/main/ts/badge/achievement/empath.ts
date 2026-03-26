@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Empath: BadgeData = {
   type: 'achievement',
   key: 'empath',
+  gameId: 'Empath',
   setTitleId: [238, 1692],
   name: [
     { value: 'Empath' },

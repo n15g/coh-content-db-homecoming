@@ -4,6 +4,7 @@ import { LostAndFoundMontagueCastanella } from '../../mission/lost-and-found-mon
 export const LostSavior: BadgeData = {
   type: 'accomplishment',
   key: 'lost-savior',
+  gameId: 'MSLost',
   setTitleId: [988],
   name: 'Lost Savior',
   releaseDate: '2012-11-30',

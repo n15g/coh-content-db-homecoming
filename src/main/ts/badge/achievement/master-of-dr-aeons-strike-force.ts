@@ -7,6 +7,7 @@ import { UnfriendlyFire } from './unfriendly-fire'
 export const MasterOfDrAeonsStrikeForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-dr-aeons-strike-force',
+  gameId: 'MasterOfAeonStrikeForce',
   setTitleId: [2482],
   name: `Master of Dr. Aeon's Strike Force`,
   releaseDate: '2020-11-26',

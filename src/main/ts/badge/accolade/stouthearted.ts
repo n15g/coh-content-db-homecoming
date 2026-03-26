@@ -12,6 +12,7 @@ import { Gatekeeper } from '../exploration/gatekeeper'
 export const Stouthearted: BadgeData = {
   type: 'accolade',
   key: 'stouthearted',
+  gameId: 'SafeguardStouthearted',
   setTitleId: [647],
   name: [
     { alignment: 'hero', value: 'Stouthearted' },

@@ -4,6 +4,7 @@ import { StealAlloyFromSilverMantis } from '../../mission/steal-alloy-from-silve
 export const PartyCrasher: BadgeData = {
   type: 'accomplishment',
   key: 'party-crasher',
+  gameId: 'VSL8MissionA',
   setTitleId: [344],
   name: 'Party Crasher',
   releaseDate: '2012-11-30',

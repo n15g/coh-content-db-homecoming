@@ -16,6 +16,7 @@ module.exports = {
     },
   },
   rules: {
+    'local/import-game-id': ['error'],
     'local/migrate-contact-link-title': ['error'],
     'local/migrate-contact-loc': ['error'],
     'local/migrate-requirement-loc': ['error'],

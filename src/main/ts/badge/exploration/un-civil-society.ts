@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const UnCivilSociety: BadgeData = {
   type: 'exploration',
   key: 'un-civil-society',
+  gameId: 'P_UnCivilSociety',
   setTitleId: [1595],
   name: 'Un-Civil Society',
   releaseDate: '2012-11-30',

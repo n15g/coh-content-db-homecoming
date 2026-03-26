@@ -5,6 +5,7 @@ import { ReadInventionEnhancementInformation } from '../../mission/read-inventio
 export const Inventor: BadgeData = {
   type: 'invention',
   key: 'inventor',
+  gameId: 'InventTutorial',
   setTitleId: [732],
   name: 'Inventor',
   releaseDate: '2012-11-30',

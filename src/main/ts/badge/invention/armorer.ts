@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Armorer: BadgeData = {
   type: 'invention',
   key: 'armorer',
+  gameId: 'InventionMitigation1',
   setTitleId: [770],
   name: 'Armorer',
   releaseDate: '2012-11-30',

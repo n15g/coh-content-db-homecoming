@@ -6,6 +6,7 @@ import { MidnightsHand } from '../../mission/midnights-hand'
 export const MidnightSquad: BadgeData = {
   type: 'accomplishment',
   key: 'midnight-squad',
+  gameId: 'MSMember',
   setTitleId: [987],
   name: 'Midnight Squad',
   releaseDate: '2012-11-30',

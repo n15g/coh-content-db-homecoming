@@ -4,6 +4,7 @@ import { LookingThroughTheGlass } from '../../mission/looking-through-the-glass'
 export const SingularVision: BadgeData = {
   type: 'accomplishment',
   key: 'singular-vision',
+  gameId: 'I11HeroStoryArc2Complete',
   setTitleId: [1588],
   name: 'Singular Vision',
   releaseDate: '2012-11-30',

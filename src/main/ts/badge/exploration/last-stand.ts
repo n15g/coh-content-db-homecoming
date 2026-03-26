@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const LastStand: BadgeData = {
   type: 'exploration',
   key: 'last-stand',
+  gameId: 'ReclusesVictoryTour4',
   setTitleId: [290],
   name: 'Last Stand',
   releaseDate: '2012-11-30',

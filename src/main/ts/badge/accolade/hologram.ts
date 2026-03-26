@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Hologram: BadgeData = {
   type: 'accolade',
   key: 'hologram',
+  gameId: 'AetherCostumeAccolade',
   setTitleId: [2497],
   name: 'Hologram',
   releaseDate: '2020-11-26',

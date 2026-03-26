@@ -4,6 +4,7 @@ import { DilemmaDiaboliqueTrial } from '../../mission/dilemma-diabolique-trial'
 export const DeathDenied: BadgeData = {
   type: 'accomplishment',
   key: 'death-denied',
+  gameId: 'IT_DD_Complete',
   setTitleId: [2163],
   name: 'Death Denied',
   releaseDate: '2012-11-30',

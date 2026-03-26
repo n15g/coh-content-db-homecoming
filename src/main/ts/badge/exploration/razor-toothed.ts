@@ -4,6 +4,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const RazorToothed: BadgeData = {
   type: 'exploration',
   key: 'razor-toothed',
+  gameId: 'SharkheadTour1',
   setTitleId: [295],
   name: 'Razor Toothed',
   releaseDate: '2012-11-30',

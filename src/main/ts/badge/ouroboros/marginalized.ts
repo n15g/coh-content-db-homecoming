@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Marginalized: BadgeData = {
   type: 'ouroboros',
   key: 'marginalized',
+  gameId: 'NoEpicPowersatSL9',
   setTitleId: [914],
   name: 'Marginalized',
   releaseDate: '2012-11-30',

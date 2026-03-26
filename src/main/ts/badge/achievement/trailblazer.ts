@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Trailblazer: BadgeData = {
   type: 'achievement',
   key: 'trailblazer',
+  gameId: 'Trailblazer',
   setTitleId: [407, 1664],
   name: [
     { value: 'Trailblazer' },

@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const PumpkinKing: BadgeData = {
   type: 'defeat',
   key: 'pumpkin-king',
+  gameId: 'PumpkinKing',
   setTitleId: [429],
   name: [
     { sex: 'M', value: 'Pumpkin King' },

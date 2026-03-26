@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HeatSeeker: BadgeData = {
   type: 'defeat',
   key: 'heat-seeker',
+  gameId: 'ArachnosFlier',
   setTitleId: [570],
   name: 'Heat Seeker',
   releaseDate: '2012-11-30',

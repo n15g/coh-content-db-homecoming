@@ -5,6 +5,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const Avenger: BadgeData = {
   type: 'achievement',
   key: 'avenger',
+  gameId: 'Mission_IP_i25_Vigilante',
   setTitleId: [2407],
   name: 'Avenger',
   releaseDate: '2019-06-01',

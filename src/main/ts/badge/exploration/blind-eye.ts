@@ -4,6 +4,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const BlindEye: BadgeData = {
   type: 'exploration',
   key: 'blind-eye',
+  gameId: 'NervaTour7',
   setTitleId: [1502],
   name: 'Blind Eye',
   releaseDate: '2012-11-30',

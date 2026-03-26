@@ -4,6 +4,7 @@ import { TheChameleonSuit } from '../../mission/the-chameleon-suit'
 export const Chameleon: BadgeData = {
   type: 'accomplishment',
   key: 'chameleon',
+  gameId: 'SL4MissionC',
   setTitleId: [2385],
   name: 'Chameleon',
   releaseDate: '2019-01-01',

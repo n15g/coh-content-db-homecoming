@@ -5,6 +5,7 @@ import { Grandville } from '../../zone/grandville'
 export const NoEscape: BadgeData = {
   type: 'exploration',
   key: 'no-escape',
+  gameId: 'AbyssTour5',
   setTitleId: [1864],
   name: 'No Escape',
   releaseDate: '2012-11-30',

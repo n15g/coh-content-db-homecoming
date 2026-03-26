@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const Technofreak: BadgeData = {
   type: 'history',
   key: 'technofreak',
+  gameId: 'Experiments',
   setTitleId: [318],
   name: 'Technofreak',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const WalkerOnTheProfaneAscent: BadgeData = {
   type: 'exploration',
   key: 'walker-on-the-profane-ascent',
+  gameId: 'DarkAstoriaIncarnateTour5',
   setTitleId: [2183],
   name: 'Walker on the Profane Ascent',
   releaseDate: '2012-11-30',

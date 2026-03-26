@@ -4,6 +4,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const SecretPath: BadgeData = {
   type: 'exploration',
   key: 'secret-path',
+  gameId: 'BrickstownTour6',
   setTitleId: [1568],
   name: 'Secret Path',
   releaseDate: '2012-11-30',

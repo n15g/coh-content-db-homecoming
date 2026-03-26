@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Monkeywrencher: BadgeData = {
   type: 'defeat',
   key: 'monkeywrencher',
+  gameId: 'Monkeywrencher',
   setTitleId: [59],
   name: 'Monkeywrencher',
   releaseDate: '2012-11-30',

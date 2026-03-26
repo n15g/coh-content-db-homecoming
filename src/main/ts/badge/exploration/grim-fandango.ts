@@ -4,6 +4,7 @@ import { MonsterIsland } from '../../zone/monster-island'
 export const GrimFandango: BadgeData = {
   type: 'exploration',
   key: 'grim-fandango',
+  gameId: 'MonsterIslandTour6',
   setTitleId: [1873],
   name: 'Grim Fandango',
   releaseDate: '2012-11-30',

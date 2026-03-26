@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Immortal: BadgeData = {
   type: 'achievement',
   key: 'immortal',
+  gameId: 'Immortal',
   setTitleId: [232, 1680],
   name: [
     { value: 'Immortal' },

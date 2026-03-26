@@ -5,6 +5,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const Vigorous: BadgeData = {
   type: 'exploration',
   key: 'vigorous',
+  gameId: 'IndependancePortTour3',
   setTitleId: [124],
   name: 'Vigorous',
   releaseDate: '2012-11-30',

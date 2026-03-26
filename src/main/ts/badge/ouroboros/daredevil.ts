@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Daredevil: BadgeData = {
   type: 'ouroboros',
   key: 'daredevil',
+  gameId: 'DeBuffedPartyatSL5',
   setTitleId: [872],
   name: 'Daredevil',
   releaseDate: '2012-11-30',

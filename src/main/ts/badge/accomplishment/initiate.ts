@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Initiate: BadgeData = {
   type: 'accomplishment',
   key: 'initiate',
+  gameId: 'P_BuildCommonIA',
   setTitleId: [1448],
   name: 'Initiate',
   releaseDate: '2012-11-30',

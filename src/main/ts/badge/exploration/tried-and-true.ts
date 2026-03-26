@@ -6,6 +6,7 @@ import { DrKahnTaskForce } from '../../mission/dr-kahn-task-force'
 export const TriedAndTrue: BadgeData = {
   type: 'exploration',
   key: 'tried-and-true',
+  gameId: 'TriedAndTrue',
   setTitleId: [2370],
   name: 'Tried and True',
   releaseDate: '2012-11-30',

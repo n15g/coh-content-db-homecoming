@@ -4,6 +4,7 @@ import { MenderRamiel } from '../../contact/mender-ramiel'
 export const AlphaUnlocked: BadgeData = {
   type: 'accolade',
   key: 'alpha-unlocked',
+  gameId: 'IncarnateAlphaSlot',
   setTitleId: [1390],
   name: 'Alpha Unlocked',
   releaseDate: '2012-11-30',

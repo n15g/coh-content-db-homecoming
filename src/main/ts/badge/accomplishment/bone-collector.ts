@@ -4,6 +4,7 @@ import { RetrieveTheLoaBone } from '../../mission/retrieve-the-loa-bone'
 export const BoneCollector: BadgeData = {
   type: 'accomplishment',
   key: 'bone-collector',
+  gameId: 'VSL2MissionB',
   setTitleId: [331],
   name: 'Bone Collector',
   releaseDate: '2012-11-30',

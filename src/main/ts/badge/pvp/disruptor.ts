@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Disruptor: BadgeData = {
   type: 'pvp',
   key: 'disruptor',
+  gameId: 'HeadHunter',
   setTitleId: [366],
   name: 'Disruptor',
   releaseDate: '2012-11-30',

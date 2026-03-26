@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Escapist: BadgeData = {
   type: 'accomplishment',
   key: 'escapist',
+  gameId: 'P_Escapist',
   setTitleId: [2349],
   name: 'Escapist',
   releaseDate: '2012-11-30',

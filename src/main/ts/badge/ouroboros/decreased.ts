@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Decreased: BadgeData = {
   type: 'ouroboros',
   key: 'decreased',
+  gameId: 'NoEnhancementsatSL7',
   setTitleId: [930],
   name: 'Decreased',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { SynapsesCohort } from '../accomplishment/synapses-cohort'
 export const Abomination: BadgeData = {
   type: 'gladiator',
   key: 'abomination',
+  gameId: 'Abomination',
   setTitleId: [479],
   name: 'Abomination',
   releaseDate: '2012-11-30',

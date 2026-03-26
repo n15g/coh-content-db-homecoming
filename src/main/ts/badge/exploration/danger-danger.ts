@@ -5,6 +5,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const DangerDanger: BadgeData = {
   type: 'exploration',
   key: 'danger-danger',
+  gameId: 'TerraVoltaTour5',
   setTitleId: [1838],
   name: 'Danger! Danger!',
   releaseDate: '2012-11-30',

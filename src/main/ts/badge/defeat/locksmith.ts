@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Locksmith: BadgeData = {
   type: 'defeat',
   key: 'locksmith',
+  gameId: 'MayhemSafecracker',
   setTitleId: [553],
   name: [
     { alignment: 'hero', value: 'Locksmith' },

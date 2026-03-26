@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Unveiler: BadgeData = {
   type: 'defeat',
   key: 'unveiler',
+  gameId: 'Unveiler',
   setTitleId: [47],
   name: 'Unveiler',
   releaseDate: '2012-11-30',

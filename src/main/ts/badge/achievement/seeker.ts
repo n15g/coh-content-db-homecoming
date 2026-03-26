@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Seeker: BadgeData = {
   type: 'achievement',
   key: 'seeker',
+  gameId: '500Badges',
   setTitleId: [1580, 1665],
   name: [
     { value: 'Seeker' },

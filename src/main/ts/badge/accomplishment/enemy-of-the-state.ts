@@ -4,6 +4,7 @@ import { MagisteriumTrial } from '../../mission/magisterium-trial'
 export const EnemyOfTheState: BadgeData = {
   type: 'accomplishment',
   key: 'enemy-of-the-state',
+  gameId: 'IT_MAG_Complete',
   setTitleId: [2220],
   name: 'Enemy of the State',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Chief: BadgeData = {
   type: 'defeat',
   key: 'chief',
+  gameId: 'RIWEDefeatHeavies',
   setTitleId: [835],
   name: 'Chief',
   releaseDate: '2012-11-30',

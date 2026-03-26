@@ -11,6 +11,7 @@ import { VisionOfDespair } from '../exploration/vision-of-despair'
 export const BoomGoesTheTown: BadgeData = {
   type: 'accolade',
   key: 'boom-goes-the-town',
+  gameId: 'BoomtownExplorer',
   setTitleId: [1877],
   name: 'Boom... Goes the Town',
   releaseDate: '2012-11-30',

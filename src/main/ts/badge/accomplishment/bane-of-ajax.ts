@@ -4,6 +4,7 @@ import { MeMyselfAndMyOtherSelves } from '../../mission/me-myself-and-my-other-s
 export const BaneOfAjax: BadgeData = {
   type: 'accomplishment',
   key: 'bane-of-ajax',
+  gameId: 'I11VillainStoryArc1Complete',
   setTitleId: [1585],
   name: 'Bane of Ajax',
   releaseDate: '2012-11-30',

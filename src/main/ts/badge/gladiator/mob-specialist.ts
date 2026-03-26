@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MobSpecialist: BadgeData = {
   type: 'gladiator',
   key: 'mob-specialist',
+  gameId: 'MobSpec',
   setTitleId: [510],
   name: 'Mob Specialist',
   releaseDate: '2012-11-30',

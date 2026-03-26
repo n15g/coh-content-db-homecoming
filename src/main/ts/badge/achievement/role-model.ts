@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const RoleModel: BadgeData = {
   type: 'achievement',
   key: 'role-model',
+  gameId: 'RoleModel',
   setTitleId: [245, 1708],
   name: [
     { value: 'Role Model' },

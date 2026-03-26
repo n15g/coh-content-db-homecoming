@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const SomewhereInTime: BadgeData = {
   type: 'pvp',
   key: 'somewhere-in-time',
+  gameId: 'RVPillbox100',
   setTitleId: [565],
   name: 'Somewhere in Time',
   releaseDate: '2012-11-30',

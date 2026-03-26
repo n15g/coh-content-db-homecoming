@@ -4,6 +4,7 @@ import { AWindCalledSerafina } from '../../mission/a-wind-called-serafina'
 export const FalseImage: BadgeData = {
   type: 'accolade',
   key: 'false-image',
+  gameId: 'MiragePatron',
   setTitleId: [614],
   name: [
     { alignment: 'hero', value: 'False Image' },

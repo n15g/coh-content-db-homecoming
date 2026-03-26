@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Indestructible: BadgeData = {
   type: 'achievement',
   key: 'indestructible',
+  gameId: 'Indestructable',
   setTitleId: [9, 1675],
   name: [
     { alignment: 'hero', value: 'Indestructible' },

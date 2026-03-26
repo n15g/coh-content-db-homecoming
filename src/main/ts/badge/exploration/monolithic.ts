@@ -4,6 +4,7 @@ import { NightWard } from '../../zone/night-ward'
 export const Monolithic: BadgeData = {
   type: 'exploration',
   key: 'monolithic',
+  gameId: 'NightWardTour7',
   setTitleId: [2232],
   name: 'Monolithic',
   releaseDate: '2012-11-30',

@@ -11,6 +11,7 @@ import { Ironic } from '../exploration/ironic'
 export const WincottsAlly: BadgeData = {
   type: 'accolade',
   key: 'wincotts-ally',
+  gameId: 'HollowsExplorer',
   setTitleId: [1521],
   name: [
     { alignment: 'hero', value: `Wincott's Ally` },

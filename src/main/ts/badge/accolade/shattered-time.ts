@@ -11,6 +11,7 @@ import { SickOfTimeTravel } from '../exploration/sick-of-time-travel'
 export const ShatteredTime: BadgeData = {
   type: 'accolade',
   key: 'shattered-time',
+  gameId: 'ReclusesVictoryExplorer',
   setTitleId: [2421],
   name: 'Shattered Time',
   releaseDate: '2019-06-01',

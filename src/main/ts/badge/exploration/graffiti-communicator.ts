@@ -4,6 +4,7 @@ import { TheHollows } from '../../zone/the-hollows'
 export const GraffitiCommunicator: BadgeData = {
   type: 'exploration',
   key: 'graffiti-communicator',
+  gameId: 'HollowsTour6',
   setTitleId: [1518],
   name: 'Graffiti Communicator',
   releaseDate: '2012-11-30',

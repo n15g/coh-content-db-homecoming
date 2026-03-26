@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const Alterist: BadgeData = {
   type: 'ouroboros',
   key: 'alterist',
+  gameId: 'Flashback20',
   setTitleId: [937],
   name: 'Alterist',
   releaseDate: '2012-11-30',

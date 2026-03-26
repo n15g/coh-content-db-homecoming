@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const EyesToTheFuture: BadgeData = {
   type: 'exploration',
   key: 'eyes-to-the-future',
+  gameId: 'P_EyesToTheFuture',
   setTitleId: [1404],
   name: 'Eyes to the Future',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Haunted } from '../defeat/haunted'
 export const Wraith: BadgeData = {
   type: 'gladiator',
   key: 'wraith',
+  gameId: 'Wraith',
   setTitleId: [504],
   name: 'Wraith',
   releaseDate: '2012-11-30',

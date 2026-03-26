@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SpectralAnomaly: BadgeData = {
   type: 'event',
   key: 'spectral-anomaly',
+  gameId: 'Halloween22EliteWerewolf',
   setTitleId: [2504],
   name: 'Spectral Anomaly',
   releaseDate: '2020-11-26',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BrotherlyLove: BadgeData = {
   type: 'achievement',
   key: 'brotherly-love',
+  gameId: 'BloodyBayTrial_SimultaneousDefeat',
   setTitleId: [2176],
   name: 'Brotherly Love',
   releaseDate: '2012-11-30',

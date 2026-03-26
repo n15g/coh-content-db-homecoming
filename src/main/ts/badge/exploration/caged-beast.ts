@@ -4,6 +4,7 @@ import { TheAbyss } from '../../zone/the-abyss'
 export const CagedBeast: BadgeData = {
   type: 'exploration',
   key: 'caged-beast',
+  gameId: 'AbyssTour4',
   setTitleId: [1863],
   name: 'Caged Beast',
   releaseDate: '2012-11-30',

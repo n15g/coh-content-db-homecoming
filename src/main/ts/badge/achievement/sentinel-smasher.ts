@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SentinelSmasher: BadgeData = {
   type: 'achievement',
   key: 'sentinel-smasher',
+  gameId: 'IT_DD_SentinelChallenge',
   setTitleId: [2165],
   name: 'Sentinel Smasher',
   releaseDate: '2012-11-30',

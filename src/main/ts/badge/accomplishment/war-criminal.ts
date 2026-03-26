@@ -4,6 +4,7 @@ import { CriminalsOfWar } from '../../mission/criminals-of-war'
 export const WarCriminal: BadgeData = {
   type: 'accomplishment',
   key: 'war-criminal',
+  gameId: 'Mission_SM_i24_Arc_Complete_01',
   setTitleId: [2258],
   name: 'War Criminal',
   releaseDate: '2012-11-30',

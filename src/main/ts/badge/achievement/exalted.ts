@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Exalted: BadgeData = {
   type: 'achievement',
   key: 'exalted',
+  gameId: 'Exalted',
   setTitleId: [235, 1686],
   name: [
     { value: 'Exalted' },

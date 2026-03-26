@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const DimensionalSojourner: BadgeData = {
   type: 'exploration',
   key: 'dimensional-sojourner',
+  gameId: 'FirebaseZuluTour2',
   setTitleId: [1798],
   name: 'Dimensional Sojourner',
   releaseDate: '2012-11-30',

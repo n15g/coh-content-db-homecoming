@@ -9,6 +9,7 @@ import { WeaponInspector } from '../exploration/weapon-inspector'
 export const ExMarshal: BadgeData = {
   type: 'accolade',
   key: 'ex-marshal',
+  gameId: 'Marshal',
   setTitleId: [532],
   name: [
     { alignment: 'hero', value: 'Ex-Marshal' },

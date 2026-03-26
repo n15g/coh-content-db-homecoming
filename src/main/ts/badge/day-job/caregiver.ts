@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Caregiver: BadgeData = {
   type: 'day-job',
   key: 'caregiver',
+  gameId: 'DJ_Caregiver',
   setTitleId: [1034],
   name: [
     { alignment: 'hero', value: 'Caregiver' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TimeTraveler: BadgeData = {
   type: 'achievement',
   key: 'time-traveler',
+  gameId: 'RecluseVictory',
   setTitleId: [400],
   name: 'Time Traveler',
   releaseDate: '2012-11-30',

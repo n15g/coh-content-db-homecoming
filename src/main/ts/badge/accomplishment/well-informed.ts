@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WellInformed: BadgeData = {
   type: 'accomplishment',
   key: 'well-informed',
+  gameId: 'P_RogueAlignmentMission',
   setTitleId: [1444],
   name: 'Well Informed',
   releaseDate: '2012-11-30',

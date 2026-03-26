@@ -4,6 +4,7 @@ import { UnavoidableFateDreamDoctor } from '../../mission/unavoidable-fate-dream
 export const TruthTeller: BadgeData = {
   type: 'accomplishment',
   key: 'truth-teller',
+  gameId: 'Mission_DA_PersonalArc_Complete_06',
   setTitleId: [2199],
   name: 'Truth Teller',
   releaseDate: '2012-11-30',

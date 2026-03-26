@@ -6,6 +6,7 @@ import { SweepsWeekHeroNameVsTheRogueIsles } from '../../mission/sweeps-week-her
 export const HonoraryBro: BadgeData = {
   type: 'accomplishment',
   key: 'honorary-bro',
+  gameId: 'Mission_SM_i24_Challenge_02',
   setTitleId: [2267],
   name: [
     { sex: 'M', value: 'Honorary Bro' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ReadyToRumble: BadgeData = {
   type: 'achievement',
   key: 'ready-to-rumble',
+  gameId: 'IT_MAG_Challenge2',
   setTitleId: [2222],
   name: 'Ready to Rumble',
   releaseDate: '2012-11-30',

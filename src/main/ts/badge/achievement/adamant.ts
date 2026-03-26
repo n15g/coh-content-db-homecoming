@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Adamant: BadgeData = {
   type: 'achievement',
   key: 'adamant',
+  gameId: 'Adamant',
   setTitleId: [10, 1676],
   name: [
     { alignment: 'hero', value: 'Adamant' },

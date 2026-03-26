@@ -5,6 +5,7 @@ import { UnavoidableFateAntiMatter } from '../../mission/unavoidable-fate-anti-m
 export const ProudScientist: BadgeData = {
   type: 'accomplishment',
   key: 'proud-scientist',
+  gameId: 'Mission_Incarnate_i24_Personal_Story',
   setTitleId: [2273],
   name: 'Proud Scientist',
   releaseDate: '2012-11-30',

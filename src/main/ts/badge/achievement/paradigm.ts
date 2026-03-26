@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Paradigm: BadgeData = {
   type: 'achievement',
   key: 'paradigm',
+  gameId: 'Paradigm',
   setTitleId: [247, 1710],
   name: [
     { value: 'Paradigm' },

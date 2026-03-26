@@ -4,6 +4,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const HeroCorpsRecruit: BadgeData = {
   type: 'exploration',
   key: 'hero-corps-recruit',
+  gameId: 'SteelCanyonTour2',
   setTitleId: [107],
   name: [
     { alignment: 'hero', value: 'Hero Corps Recruit' },

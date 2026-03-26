@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HeroOfTheCity: BadgeData = {
   type: 'achievement',
   key: 'hero-of-the-city',
+  gameId: 'Level50',
   setTitleId: [25, 1673],
   name: [
     { alignment: 'hero', value: 'Hero of the City' },

@@ -11,6 +11,7 @@ import { MasterOfTheAirwaves } from '../exploration/master-of-the-airwaves'
 export const EyeOnArachnos: BadgeData = {
   type: 'accolade',
   key: 'eye-on-arachnos',
+  gameId: 'GrandvilleExplorer',
   setTitleId: [1514],
   name: [
     { alignment: 'hero', value: 'Eye on Arachnos' },

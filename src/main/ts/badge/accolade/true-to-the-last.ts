@@ -15,6 +15,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const TrueToTheLast: BadgeData = {
   type: 'accolade',
   key: 'true-to-the-last',
+  gameId: 'NeutropolisStoryArcs',
   setTitleId: [2351],
   name: 'True to the Last',
   releaseDate: '2012-11-30',

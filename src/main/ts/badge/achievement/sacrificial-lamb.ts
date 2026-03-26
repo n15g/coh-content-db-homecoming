@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SacrificialLamb: BadgeData = {
   type: 'achievement',
   key: 'sacrificial-lamb',
+  gameId: 'IT_DD_NoRescueChallenge',
   setTitleId: [2166],
   name: 'Sacrificial Lamb',
   releaseDate: '2012-11-30',

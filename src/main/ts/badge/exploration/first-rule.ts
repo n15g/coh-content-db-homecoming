@@ -4,6 +4,7 @@ import { MercyIsland } from '../../zone/mercy-island'
 export const FirstRule: BadgeData = {
   type: 'exploration',
   key: 'first-rule',
+  gameId: 'MercyIslandTour7',
   setTitleId: [1484],
   name: 'First Rule',
   releaseDate: '2012-11-30',

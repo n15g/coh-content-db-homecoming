@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SiderealResearcher: BadgeData = {
   type: 'achievement',
   key: 'sidereal-researcher',
+  gameId: 'BloodyBayTrial_Meteors',
   setTitleId: [2177],
   name: 'Sidereal Researcher',
   releaseDate: '2012-11-30',

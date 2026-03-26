@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CallOfTheVoid: BadgeData = {
   type: 'defeat',
   key: 'call-of-the-void',
+  gameId: 'DefeatVoidHunters',
   setTitleId: [2484],
   name: 'Call of the Void',
   releaseDate: '2020-11-26',

@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const BoomtownTroglodyte: BadgeData = {
   type: 'exploration',
   key: 'boomtown-troglodyte',
+  gameId: 'BoomtownTour6',
   setTitleId: [1778],
   name: 'Boomtown Troglodyte',
   releaseDate: '2012-11-30',

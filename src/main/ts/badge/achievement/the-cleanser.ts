@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheCleanser: BadgeData = {
   type: 'achievement',
   key: 'the-cleanser',
+  gameId: 'SL1_SewerTrial_LostWorshippersKilled',
   setTitleId: [2022],
   name: 'The Cleanser',
   releaseDate: '2012-11-30',

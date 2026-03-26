@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DUSTInTheWind: BadgeData = {
   type: 'defeat',
   key: 'dust-in-the-wind',
+  gameId: 'DefeatDUST',
   setTitleId: [2060],
   name: 'D.U.S.T. in the Wind',
   releaseDate: '2012-11-30',

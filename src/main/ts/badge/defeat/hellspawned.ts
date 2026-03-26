@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Hellspawned: BadgeData = {
   type: 'defeat',
   key: 'hellspawned',
+  gameId: 'Hellspawned',
   setTitleId: [1],
   name: 'Hellspawned',
   releaseDate: '2012-11-30',

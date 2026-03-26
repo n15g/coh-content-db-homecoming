@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const TooDarkPark: BadgeData = {
   type: 'exploration',
   key: 'too-dark-park',
+  gameId: 'DarkAstoriaTour6',
   setTitleId: [1783],
   name: 'Too Dark Park',
   releaseDate: '2012-11-30',

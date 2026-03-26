@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const IntoTheWild: BadgeData = {
   type: 'exploration',
   key: 'into-the-wild',
+  gameId: 'P_IntoTheWild',
   setTitleId: [1596],
   name: 'Into the Wild',
   releaseDate: '2012-11-30',

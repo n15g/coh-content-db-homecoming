@@ -4,6 +4,7 @@ import { AdmiralSutterTaskForce } from '../../mission/admiral-sutter-task-force'
 export const LandSeaAir: BadgeData = {
   type: 'accomplishment',
   key: 'land-sea-air',
+  gameId: 'I20_HeroTFComplete',
   setTitleId: [1981],
   name: 'Land, Sea & Air',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { AbandonedSewerNetwork } from '../../zone/abandoned-sewer-network'
 export const HadesAspirant: BadgeData = {
   type: 'exploration',
   key: 'hades-aspirant',
+  gameId: 'AbSewerNetworkTour2',
   setTitleId: [1822],
   name: 'Hades Aspirant',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Visionary: BadgeData = {
   type: 'defeat',
   key: 'visionary',
+  gameId: 'Visionary',
   setTitleId: [204],
   name: 'Visionary',
   releaseDate: '2012-11-30',

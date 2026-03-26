@@ -4,6 +4,7 @@ import { FindAndDestroyTheContainersTheVahzilokAreUsingToStoreTheDisease } from 
 export const PlagueStopper: BadgeData = {
   type: 'accomplishment',
   key: 'plague-stopper',
+  gameId: 'SL3Mission',
   setTitleId: [73],
   name: [
     { alignment: 'hero', value: 'Plague Stopper' },

@@ -7,6 +7,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const Historian: BadgeData = {
   type: 'history',
   key: 'historian',
+  gameId: 'SpecialCouncil',
   setTitleId: [154],
   name: 'Historian',
   releaseDate: '2012-11-30',

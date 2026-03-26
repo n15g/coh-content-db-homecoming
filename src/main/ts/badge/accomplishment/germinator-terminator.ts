@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const GerminatorTerminator: BadgeData = {
   type: 'accomplishment',
   key: 'germinator-terminator',
+  gameId: 'DefeatSeed',
   setTitleId: [2062],
   name: 'Germinator Terminator',
   releaseDate: '2012-11-30',

@@ -2,7 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const Icebreaker: BadgeData = {
   type: 'event',
-  key: 'icebreaker',
+  key: 'icebreaker',  gameId: 'Winter2025EssenceChallenge',
+
   setTitleId: [2570],
   name: 'Icebreaker',
   releaseDate: '2025-12-01',

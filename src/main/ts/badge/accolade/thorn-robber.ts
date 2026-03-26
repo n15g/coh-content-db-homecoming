@@ -4,6 +4,7 @@ import { FirstTreeOfThornsRespecificationTrial } from '../../mission/first-tree-
 export const ThornRobber: BadgeData = {
   type: 'accolade',
   key: 'thorn-robber',
+  gameId: 'UnderTheKnifeUsed',
   setTitleId: [516],
   name: 'Thorn Robber',
   releaseDate: '2012-11-30',

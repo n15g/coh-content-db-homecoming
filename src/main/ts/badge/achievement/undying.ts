@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Undying: BadgeData = {
   type: 'achievement',
   key: 'undying',
+  gameId: 'Undying',
   setTitleId: [234, 1685],
   name: [
     { value: 'Undying' },

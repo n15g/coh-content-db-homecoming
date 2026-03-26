@@ -4,6 +4,7 @@ import { UndergroundImperial } from '../../zone/underground-imperial'
 export const SilentWitness: BadgeData = {
   type: 'exploration',
   key: 'silent-witness',
+  gameId: 'P_SilentWitness',
   setTitleId: [1651],
   name: 'Silent Witness',
   releaseDate: '2012-11-30',

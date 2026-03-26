@@ -5,6 +5,7 @@ import { Midnighter } from '../day-job/midnighter'
 export const Archaeologist: BadgeData = {
   type: 'accolade',
   key: 'archaeologist',
+  gameId: 'DJ_Archaeologist',
   setTitleId: [1073],
   name: 'Archaeologist',
   releaseDate: '2012-11-30',

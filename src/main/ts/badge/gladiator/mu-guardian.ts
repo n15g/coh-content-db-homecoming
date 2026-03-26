@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MuGuardian: BadgeData = {
   type: 'gladiator',
   key: 'mu-guardian',
+  gameId: 'MuGuardian',
   setTitleId: [442],
   name: 'Mu Guardian',
   releaseDate: '2012-11-30',

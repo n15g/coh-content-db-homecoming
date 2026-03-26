@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HeardTheCall: BadgeData = {
   type: 'achievement',
   key: 'heard-the-call',
+  gameId: 'P_HeroAlignmentPower',
   setTitleId: [1454],
   name: 'Heard the Call',
   releaseDate: '2012-11-30',

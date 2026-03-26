@@ -4,6 +4,7 @@ import { Disruptor } from '../pvp/disruptor'
 export const LongbowDefender: BadgeData = {
   type: 'gladiator',
   key: 'longbow-defender',
+  gameId: 'LongbowDefender',
   setTitleId: [460],
   name: 'Longbow Defender',
   releaseDate: '2012-11-30',

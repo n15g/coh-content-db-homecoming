@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Inspiring: BadgeData = {
   type: 'consignment',
   key: 'inspiring',
+  gameId: 'AuctionInspirations',
   setTitleId: [807],
   name: 'Inspiring',
   releaseDate: '2012-11-30',

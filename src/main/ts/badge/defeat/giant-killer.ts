@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GiantKiller: BadgeData = {
   type: 'defeat',
   key: 'giant-killer',
+  gameId: 'GiantKiller',
   setTitleId: [428],
   name: 'Giant Killer',
   releaseDate: '2012-11-30',

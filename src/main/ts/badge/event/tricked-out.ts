@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TrickedOut: BadgeData = {
   type: 'event',
   key: 'tricked-out',
+  gameId: 'T_H2011_Trick',
   setTitleId: [2086],
   name: 'Tricked Out',
   releaseDate: '2012-11-30',

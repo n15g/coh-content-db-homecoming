@@ -4,6 +4,7 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 export const BlueShield: BadgeData = {
   type: 'exploration',
   key: 'blue-shield',
+  gameId: 'GalaxyCityTour2',
   setTitleId: [92],
   name: 'Blue Shield',
   releaseDate: '2012-11-30',

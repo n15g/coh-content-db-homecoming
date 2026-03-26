@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VarietyAct: BadgeData = {
   type: 'achievement',
   key: 'variety-act',
+  gameId: 'RoleDiversity',
   setTitleId: [2523],
   name: 'Variety Act',
   releaseDate: '2020-11-26',

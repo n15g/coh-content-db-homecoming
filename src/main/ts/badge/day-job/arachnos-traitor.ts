@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ArachnosTraitor: BadgeData = {
   type: 'day-job',
   key: 'arachnos-traitor',
+  gameId: 'DJ_Arachnos_Official',
   setTitleId: [1051],
   name: [
     { alignment: 'hero', value: 'Arachnos Traitor' },

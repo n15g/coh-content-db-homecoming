@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Cliche: BadgeData = {
   type: 'ouroboros',
   key: 'cliche',
+  gameId: 'NoInspirationsatSL2',
   setTitleId: [915],
   name: 'Cliché',
   releaseDate: '2012-11-30',

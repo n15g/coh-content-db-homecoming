@@ -11,6 +11,7 @@ import { CarpingTheDiem } from '../exploration/carping-the-diem'
 export const JumpedTheShark: BadgeData = {
   type: 'accolade',
   key: 'jumped-the-shark',
+  gameId: 'SharkheadExplorer',
   setTitleId: [1500],
   name: 'Jumped the Shark',
   releaseDate: '2012-11-30',

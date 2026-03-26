@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const KeepingTheLightsOn: BadgeData = {
   type: 'exploration',
   key: 'keeping-the-lights-on',
+  gameId: 'P_KeepingTheLightsOn',
   setTitleId: [1745],
   name: 'Keeping the Lights On',
   releaseDate: '2012-11-30',

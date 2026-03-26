@@ -4,6 +4,7 @@ import { MonsterIsland } from '../../zone/monster-island'
 export const RiktiMonkeyIsland: BadgeData = {
   type: 'exploration',
   key: 'rikti-monkey-island',
+  gameId: 'MonsterIslandTour3',
   setTitleId: [1870],
   name: 'Rikti Monkey Island',
   releaseDate: '2012-11-30',

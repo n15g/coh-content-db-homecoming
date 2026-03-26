@@ -4,6 +4,7 @@ import { EchoFaultline } from '../../zone/echo-faultline'
 export const ClaimDenied: BadgeData = {
   type: 'exploration',
   key: 'claim-denied',
+  gameId: 'FaultlineTour10',
   setTitleId: [2401],
   name: 'Claim Denied',
   releaseDate: '2019-06-01',

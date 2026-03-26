@@ -16,6 +16,7 @@ import { TheHollows } from '../../zone/the-hollows'
 export const Bicentennial: BadgeData = {
   type: 'history',
   key: 'bicentennial',
+  gameId: '200Years',
   setTitleId: [2515],
   name: 'Bicentennial',
   releaseDate: '2020-11-26',

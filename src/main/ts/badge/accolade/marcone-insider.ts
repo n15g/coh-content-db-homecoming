@@ -11,6 +11,7 @@ import { HiddenGetaway } from '../exploration/hidden-getaway'
 export const MarconeInsider: BadgeData = {
   type: 'accolade',
   key: 'marcone-insider',
+  gameId: 'PortOakesExplorer',
   setTitleId: [1491],
   name: 'Marcone Insider',
   releaseDate: '2012-11-30',

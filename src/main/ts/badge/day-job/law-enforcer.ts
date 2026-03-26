@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LawEnforcer: BadgeData = {
   type: 'day-job',
   key: 'law-enforcer',
+  gameId: 'DJ_Law_Enforcement',
   setTitleId: [1029],
   name: [
     { alignment: 'hero', value: 'Law Enforcer' },

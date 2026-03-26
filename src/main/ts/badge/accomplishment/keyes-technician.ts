@@ -4,6 +4,7 @@ import { KeyesIslandReactorTrial } from '../../mission/keyes-island-reactor-tria
 export const KeyesTechnician: BadgeData = {
   type: 'accomplishment',
   key: 'keyes-technician',
+  gameId: 'IT_Keyes_Complete',
   setTitleId: [1989],
   name: 'Keyes Technician',
   releaseDate: '2012-11-30',

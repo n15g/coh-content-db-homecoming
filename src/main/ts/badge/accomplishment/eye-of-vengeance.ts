@@ -4,6 +4,7 @@ import { BurdenOfThePast } from '../../mission/burden-of-the-past'
 export const EyeOfVengeance: BadgeData = {
   type: 'accomplishment',
   key: 'eye-of-vengeance',
+  gameId: 'Mission_DA_Arc_Complete_01',
   setTitleId: [2188],
   name: 'Eye of Vengeance',
   releaseDate: '2012-11-30',

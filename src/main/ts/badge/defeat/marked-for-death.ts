@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MarkedForDeath: BadgeData = {
   type: 'defeat',
   key: 'marked-for-death',
+  gameId: 'P_DefeatSyndicate',
   setTitleId: [1470],
   name: 'Marked for Death',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SafetyInNumbers: BadgeData = {
   type: 'event',
   key: 'safety-in-numbers',
+  gameId: 'Halloween2008Badge2',
   setTitleId: [1021],
   name: 'Safety in Numbers',
   releaseDate: '2012-11-30',

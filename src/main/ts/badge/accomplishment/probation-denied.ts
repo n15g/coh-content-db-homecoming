@@ -4,6 +4,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const ProbationDenied: BadgeData = {
   type: 'accomplishment',
   key: 'probation-denied',
+  gameId: 'ZE_BT_Complete',
   setTitleId: [2320],
   name: 'Probation Denied',
   releaseDate: '2012-11-30',

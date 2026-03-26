@@ -4,6 +4,7 @@ import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 export const HearingVoices: BadgeData = {
   type: 'exploration',
   key: 'hearing-voices',
+  gameId: 'CascadeArchTour4',
   setTitleId: [1808],
   name: 'Hearing Voices',
   releaseDate: '2012-11-30',

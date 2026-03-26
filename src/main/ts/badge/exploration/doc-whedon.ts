@@ -4,6 +4,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const DocWhedon: BadgeData = {
   type: 'exploration',
   key: 'doc-whedon',
+  gameId: 'PerezParkTour4',
   setTitleId: [104],
   name: 'Doc Whedon',
   releaseDate: '2012-11-30',

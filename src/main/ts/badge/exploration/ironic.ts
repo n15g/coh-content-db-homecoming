@@ -4,6 +4,7 @@ import { TheHollows } from '../../zone/the-hollows'
 export const Ironic: BadgeData = {
   type: 'exploration',
   key: 'ironic',
+  gameId: 'HollowsTour8',
   setTitleId: [1520],
   name: 'Ironic',
   releaseDate: '2012-11-30',

@@ -11,6 +11,7 @@ import { OrionsBelt } from '../exploration/orions-belt'
 export const GalacticExplorer: BadgeData = {
   type: 'accolade',
   key: 'galactic-explorer',
+  gameId: 'GalaxyCityExplorer',
   setTitleId: [1525],
   name: 'Galactic Explorer',
   releaseDate: '2012-11-30',

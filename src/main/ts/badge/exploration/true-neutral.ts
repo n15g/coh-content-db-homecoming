@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const TrueNeutral: BadgeData = {
   type: 'exploration',
   key: 'true-neutral',
+  gameId: 'ReclusesVictoryTour6',
   setTitleId: [2423],
   name: 'True Neutral',
   releaseDate: '2019-06-01',

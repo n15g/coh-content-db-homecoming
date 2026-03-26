@@ -4,6 +4,7 @@ import { MsLibertyTaskForce } from '../../mission/ms-liberty-task-force'
 export const SavedTheWorld: BadgeData = {
   type: 'accomplishment',
   key: 'saved-the-world',
+  gameId: 'STFVictory',
   setTitleId: [733],
   name: [
     { alignment: 'hero', value: 'Saved the World' },

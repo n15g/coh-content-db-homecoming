@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const IronWarrior: BadgeData = {
   type: 'event',
   key: 'iron-warrior',
+  gameId: 'IronWarrior',
   setTitleId: [698],
   name: 'Iron Warrior',
   releaseDate: '2012-11-30',

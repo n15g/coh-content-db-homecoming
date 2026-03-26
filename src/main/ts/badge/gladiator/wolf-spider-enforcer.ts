@@ -4,6 +4,7 @@ import { ProtectorOfInnocents } from '../achievement/protector-of-innocents'
 export const WolfSpiderEnforcer: BadgeData = {
   type: 'gladiator',
   key: 'wolf-spider-enforcer',
+  gameId: 'WolfSpider',
   setTitleId: [439],
   name: 'Wolf Spider Enforcer',
   releaseDate: '2012-11-30',

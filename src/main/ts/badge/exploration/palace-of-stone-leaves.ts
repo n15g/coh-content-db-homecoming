@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const PalaceOfStoneLeaves: BadgeData = {
   type: 'exploration',
   key: 'palace-of-stone-leaves',
+  gameId: 'DarkAstoriaIncarnateTour2',
   setTitleId: [2180],
   name: 'Palace of Stone Leaves',
   releaseDate: '2012-11-30',

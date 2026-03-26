@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const Luscious: BadgeData = {
   type: 'exploration',
   key: 'luscious',
+  gameId: 'RiktiWarZoneTour8',
   setTitleId: [754],
   name: 'Luscious',
   releaseDate: '2012-11-30',

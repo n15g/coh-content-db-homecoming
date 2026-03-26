@@ -8,6 +8,7 @@ import { SewerNetwork } from '../../zone/sewer-network'
 export const Disciple: BadgeData = {
   type: 'history',
   key: 'disciple',
+  gameId: 'HeroCorps',
   setTitleId: [153],
   name: 'Disciple',
   releaseDate: '2012-11-30',

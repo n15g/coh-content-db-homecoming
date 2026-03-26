@@ -4,6 +4,7 @@ import { AtlasPark } from '../../zone/atlas-park'
 export const Observant: BadgeData = {
   type: 'exploration',
   key: 'observant',
+  gameId: 'AtlasParkTour8',
   setTitleId: [1516],
   name: 'Observant',
   releaseDate: '2012-11-30',

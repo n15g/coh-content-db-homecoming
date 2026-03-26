@@ -4,6 +4,7 @@ import { SnakeCharmer } from '../exploration/snake-charmer'
 export const Cobra: BadgeData = {
   type: 'gladiator',
   key: 'cobra',
+  gameId: 'Cobra',
   setTitleId: [451],
   name: 'Cobra',
   releaseDate: '2012-11-30',

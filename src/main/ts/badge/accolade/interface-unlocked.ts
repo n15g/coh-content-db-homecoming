@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const InterfaceUnlocked: BadgeData = {
   type: 'accolade',
   key: 'interface-unlocked',
+  gameId: 'IncarnateInterfaceSlot',
   setTitleId: [1392],
   name: 'Interface Unlocked',
   releaseDate: '2012-11-30',

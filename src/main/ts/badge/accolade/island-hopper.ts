@@ -11,6 +11,7 @@ import { SpankysCompetitor } from '../exploration/spankys-competitor'
 export const IslandHopper: BadgeData = {
   type: 'accolade',
   key: 'island-hopper',
+  gameId: 'TalosIslandExplorer',
   setTitleId: [1551],
   name: 'Island Hopper',
   releaseDate: '2012-11-30',

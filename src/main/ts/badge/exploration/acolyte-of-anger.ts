@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const AcolyteOfAnger: BadgeData = {
   type: 'exploration',
   key: 'acolyte-of-anger',
+  gameId: 'StormPalaceTour2',
   setTitleId: [1855],
   name: 'Acolyte of Anger',
   releaseDate: '2012-11-30',

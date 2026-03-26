@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Cataclysmic: BadgeData = {
   type: 'achievement',
   key: 'cataclysmic',
+  gameId: 'P_Cataclysmic',
   setTitleId: [2360],
   name: 'Cataclysmic',
   releaseDate: '2012-11-30',

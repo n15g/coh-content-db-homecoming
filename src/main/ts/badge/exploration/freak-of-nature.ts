@@ -4,6 +4,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const FreakOfNature: BadgeData = {
   type: 'exploration',
   key: 'freak-of-nature',
+  gameId: 'SharkheadTour3',
   setTitleId: [297],
   name: 'Freak of Nature',
   releaseDate: '2012-11-30',

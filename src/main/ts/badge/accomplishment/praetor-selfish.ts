@@ -4,6 +4,7 @@ import { OneLooseEnd } from '../../mission/one-loose-end'
 export const PraetorSelfish: BadgeData = {
   type: 'accomplishment',
   key: 'praetor-selfish',
+  gameId: 'Mission_DA_PersonalArc_Complete_04',
   setTitleId: [2197],
   name: 'Praetor Selfish',
   releaseDate: '2012-11-30',

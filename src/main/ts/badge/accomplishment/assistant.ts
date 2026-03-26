@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Assistant: BadgeData = {
   type: 'accomplishment',
   key: 'assistant',
+  gameId: 'WeeklyTFHelper01',
   setTitleId: [1966],
   name: [
     { alignment: 'hero', value: 'Assistant' },

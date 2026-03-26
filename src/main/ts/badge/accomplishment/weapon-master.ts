@@ -4,6 +4,7 @@ import { ApexTaskForce } from '../../mission/apex-task-force'
 export const WeaponMaster: BadgeData = {
   type: 'accomplishment',
   key: 'weapon-master',
+  gameId: 'AlphaTF_Complete_Apex',
   setTitleId: [1937],
   name: [
     { sex: 'M', value: 'Weapon Master' },

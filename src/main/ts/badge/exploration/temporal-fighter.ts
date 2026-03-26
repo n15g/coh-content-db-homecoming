@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const TemporalFighter: BadgeData = {
   type: 'exploration',
   key: 'temporal-fighter',
+  gameId: 'ReclusesVictoryTour3',
   setTitleId: [289],
   name: [
     { alignment: 'hero', value: 'Temporal Fighter' },

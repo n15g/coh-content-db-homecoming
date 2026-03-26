@@ -4,6 +4,7 @@ import { NemesisWeatherControl } from '../../mission/nemesis-weather-control'
 export const Meteorologist: BadgeData = {
   type: 'accomplishment',
   key: 'meteorologist',
+  gameId: 'SL8MissionB',
   setTitleId: [83],
   name: 'Meteorologist',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GlimpsedTheAbyss: BadgeData = {
   type: 'event',
   key: 'glimpsed-the-abyss',
+  gameId: 'Halloween2008Badge1',
   setTitleId: [1020],
   name: 'Glimpsed the Abyss',
   releaseDate: '2012-11-30',

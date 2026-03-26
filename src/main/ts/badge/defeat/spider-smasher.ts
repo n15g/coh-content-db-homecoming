@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SpiderSmasher: BadgeData = {
   type: 'defeat',
   key: 'spider-smasher',
+  gameId: 'SpiderSmasher',
   setTitleId: [314],
   name: 'Spider Smasher',
   releaseDate: '2012-11-30',

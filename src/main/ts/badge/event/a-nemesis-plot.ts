@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ANemesisPlot: BadgeData = {
   type: 'event',
   key: 'a-nemesis-plot',
+  gameId: 'NemesisPlot',
   setTitleId: [2210],
   name: 'A Nemesis Plot',
   releaseDate: '2012-11-30',

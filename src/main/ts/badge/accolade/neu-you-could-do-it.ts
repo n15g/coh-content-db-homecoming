@@ -11,6 +11,7 @@ import { TheNewBoss } from '../exploration/the-new-boss'
 export const NeuYouCouldDoIt: BadgeData = {
   type: 'accolade',
   key: 'neu-you-could-do-it',
+  gameId: 'P_UndergroundNeutropolisExplorer',
   setTitleId: [1655],
   name: 'Neu You Could Do It',
   releaseDate: '2012-11-30',

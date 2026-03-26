@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const MidnightersPerseverance: BadgeData = {
   type: 'exploration',
   key: 'midnighters-perseverance',
+  gameId: 'CroatoaTour8',
   setTitleId: [1544],
   name: `Midnighter's Perseverance`,
   releaseDate: '2012-11-30',

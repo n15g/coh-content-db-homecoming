@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CreyPowerTank: BadgeData = {
   type: 'gladiator',
   key: 'crey-power-tank',
+  gameId: 'PowerTank',
   setTitleId: [507],
   name: 'Crey Power Tank',
   releaseDate: '2012-11-30',

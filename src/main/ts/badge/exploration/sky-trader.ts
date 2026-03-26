@@ -4,6 +4,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const SkyTrader: BadgeData = {
   type: 'exploration',
   key: 'sky-trader',
+  gameId: 'SharkheadTour7',
   setTitleId: [1498],
   name: 'Sky Trader',
   releaseDate: '2012-11-30',

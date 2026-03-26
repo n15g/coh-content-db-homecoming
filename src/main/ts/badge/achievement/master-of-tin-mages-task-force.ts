@@ -7,6 +7,7 @@ import { ArmyOfNeu } from './army-of-neu'
 export const MasterOfTinMagesTaskForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-tin-mages-task-force',
+  gameId: 'AlphaTF_Master_TinMage',
   setTitleId: [1940],
   name: `Master of Tin Mage's Task Force`,
   releaseDate: '2012-11-30',

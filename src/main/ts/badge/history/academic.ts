@@ -7,6 +7,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const Academic: BadgeData = {
   type: 'history',
   key: 'academic',
+  gameId: 'NemesisSeizesControl',
   setTitleId: [159],
   name: 'Academic',
   releaseDate: '2012-11-30',

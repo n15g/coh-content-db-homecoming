@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LordOfWinter: BadgeData = {
   type: 'event',
   key: 'lord-of-winter',
+  gameId: 'Winter2009DefeatLordWinter',
   setTitleId: [1377],
   name: [
     { sex: 'M', value: 'Lord of Winter' },

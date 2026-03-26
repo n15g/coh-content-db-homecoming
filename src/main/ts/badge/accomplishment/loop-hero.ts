@@ -4,6 +4,7 @@ import { TroubledTimes } from '../../mission/troubled-times'
 export const LoopHero: BadgeData = {
   type: 'accomplishment',
   key: 'loop-hero',
+  gameId: 'Mission_i27_Stribbling',
   setTitleId: [2514],
   name: 'Loop Hero',
   releaseDate: '2020-11-26',

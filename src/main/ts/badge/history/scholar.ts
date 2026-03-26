@@ -8,6 +8,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const Scholar: BadgeData = {
   type: 'history',
   key: 'scholar',
+  gameId: 'WarOnDrugs',
   setTitleId: [151],
   name: 'Scholar',
   releaseDate: '2012-11-30',

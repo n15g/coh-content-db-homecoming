@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CityOfficial: BadgeData = {
   type: 'day-job',
   key: 'city-official',
+  gameId: 'DJ_City_Official',
   setTitleId: [1028],
   name: [
     { alignment: 'hero', value: 'City Official' },

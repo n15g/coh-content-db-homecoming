@@ -5,6 +5,7 @@ import { Eden } from '../../zone/eden'
 export const TheSoundOfThunder: BadgeData = {
   type: 'exploration',
   key: 'the-sound-of-thunder',
+  gameId: 'TheHiveTour7',
   setTitleId: [1852],
   name: 'The Sound of Thunder',
   releaseDate: '2012-11-30',

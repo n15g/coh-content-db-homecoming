@@ -4,6 +4,7 @@ import { WhatWasBuiltUponthePast } from '../../mission/what-was-built-upon-the-p
 export const TheTimelessAdventurer: BadgeData = {
   type: 'accomplishment',
   key: 'the-timeless-adventurer',
+  gameId: 'Mission_DA_Arc_Complete_05',
   setTitleId: [2192],
   name: 'The Timeless Adventurer',
   releaseDate: '2012-11-30',

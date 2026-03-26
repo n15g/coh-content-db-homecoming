@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const ToweringInferno: BadgeData = {
   type: 'exploration',
   key: 'towering-inferno',
+  gameId: 'BoomtownTour5',
   setTitleId: [1777],
   name: 'Towering Inferno',
   releaseDate: '2012-11-30',

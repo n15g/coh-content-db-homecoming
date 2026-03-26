@@ -4,6 +4,7 @@ import { InvestigateTheHackerKnownAsTheDoctor } from '../../mission/investigate-
 export const TheDoctorsAlly: BadgeData = {
   type: 'accomplishment',
   key: 'the-doctors-ally',
+  gameId: 'SL7MissionA',
   setTitleId: [80],
   name: `The Doctor's Ally`,
   releaseDate: '2012-11-30',

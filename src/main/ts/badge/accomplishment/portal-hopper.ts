@@ -4,6 +4,7 @@ import { AttackLongbowPortalBase } from '../../mission/attack-longbow-portal-bas
 export const PortalHopper: BadgeData = {
   type: 'accomplishment',
   key: 'portal-hopper',
+  gameId: 'VSL7MissionB',
   setTitleId: [343],
   name: 'Portal Hopper',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { MariaJenkins } from '../../contact/maria-jenkins'
 export const PositronsPal: BadgeData = {
   type: 'defeat',
   key: 'positrons-pal',
+  gameId: 'PositronsPal',
   setTitleId: [2240],
   name: [
     { alignment: 'hero', value: `Positron's Pal` },

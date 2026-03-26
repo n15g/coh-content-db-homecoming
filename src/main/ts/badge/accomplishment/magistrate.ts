@@ -16,6 +16,7 @@ import { NoSurvivors } from '../../mission/no-survivors'
 export const Magistrate: BadgeData = {
   type: 'accomplishment',
   key: 'magistrate',
+  gameId: 'P_Magistrate',
   setTitleId: [2345],
   name: 'Magistrate',
   releaseDate: '2012-11-30',

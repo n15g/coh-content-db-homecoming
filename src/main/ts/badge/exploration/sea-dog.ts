@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const SeaDog: BadgeData = {
   type: 'exploration',
   key: 'sea-dog',
+  gameId: 'StrigaTour2',
   setTitleId: [197],
   name: 'Sea Dog',
   releaseDate: '2012-11-30',

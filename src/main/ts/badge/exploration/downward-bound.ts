@@ -5,6 +5,7 @@ import { AtlasPark } from '../../zone/atlas-park'
 export const DownwardBound: BadgeData = {
   type: 'exploration',
   key: 'downward-bound',
+  gameId: 'SewerNetworkTour6',
   setTitleId: [1834],
   name: 'Downward Bound',
   releaseDate: '2012-11-30',

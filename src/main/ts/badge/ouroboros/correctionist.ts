@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const Correctionist: BadgeData = {
   type: 'ouroboros',
   key: 'correctionist',
+  gameId: 'Flashback30',
   setTitleId: [939],
   name: 'Correctionist',
   releaseDate: '2012-11-30',

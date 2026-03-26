@@ -5,6 +5,7 @@ import { Mongoose } from '../../contact/mongoose'
 export const TheNextBigThing: BadgeData = {
   type: 'exploration',
   key: 'the-next-big-thing',
+  gameId: 'MercyIslandTour5',
   setTitleId: [267],
   name: 'The Next Big Thing',
   releaseDate: '2012-11-30',

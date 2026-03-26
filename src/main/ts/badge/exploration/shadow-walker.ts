@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const ShadowWalker: BadgeData = {
   type: 'exploration',
   key: 'shadow-walker',
+  gameId: 'FirstWardTour6',
   setTitleId: [2053],
   name: 'Shadow Walker',
   releaseDate: '2012-11-30',

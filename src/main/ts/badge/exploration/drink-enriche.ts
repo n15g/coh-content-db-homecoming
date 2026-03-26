@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const DrinkEnriche: BadgeData = {
   type: 'exploration',
   key: 'drink-enriche',
+  gameId: 'P_DrinkEnriche',
   setTitleId: [1743],
   name: 'Drink Enriche!',
   releaseDate: '2012-11-30',

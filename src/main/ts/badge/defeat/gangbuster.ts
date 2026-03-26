@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Gangbuster: BadgeData = {
   type: 'defeat',
   key: 'gangbuster',
+  gameId: 'Gangbuster',
   setTitleId: [309],
   name: 'Gangbuster',
   releaseDate: '2019-01-01',

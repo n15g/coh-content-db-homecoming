@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HybridUnlocked: BadgeData = {
   type: 'accolade',
   key: 'hybrid-unlocked',
+  gameId: 'IncarnateHybridSlot',
   setTitleId: [1395],
   name: 'Hybrid Unlocked',
   releaseDate: '2012-11-30',
