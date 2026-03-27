@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Pathfinder: BadgeData = {
   type: 'achievement',
   key: 'pathfinder',
-  gameId: 'Pathfinder',
+  gameId: ['Pathfinder', 'P_Badges_100'],
   setTitleId: [29, 1663],
   name: [
     { value: 'Pathfinder' },

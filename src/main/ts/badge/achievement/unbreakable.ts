@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Unbreakable: BadgeData = {
   type: 'achievement',
   key: 'unbreakable',
-  gameId: 'Unbreakable',
+  gameId: ['Unbreakable', 'P_Damage_10M'],
   setTitleId: [11, 1677],
   name: [
     { value: 'Unbreakable' },

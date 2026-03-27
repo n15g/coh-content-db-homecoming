@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const RoleModel: BadgeData = {
   type: 'achievement',
   key: 'role-model',
-  gameId: 'RoleModel',
+  gameId: ['RoleModel', 'P_Mentor_16Hour'],
   setTitleId: [245, 1708],
   name: [
     { value: 'Role Model' },

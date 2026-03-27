@@ -43,42 +43,72 @@ export const importGameId = createRule({
         const badgeData = getDataObject(node, 'BadgeData')
         if (!badgeData) return
 
-        const gameIdProp = getProperty(node, 'gameId')
-        if (gameIdProp) return
-
         const keyProperty = getProperty(badgeData, 'key')
         const nameProperty = getProperty(badgeData, 'name')
         const nameAlternate = asBadgeAlternateProperty(nameProperty)
 
         if (!nameProperty) return
-        let name = ''
+        let names: [string?, string?] | undefined
         if (nameProperty.value.type === AST_NODE_TYPES.Literal || nameProperty.value.type === AST_NODE_TYPES.TemplateLiteral) {
-          name = sourceCode.getText(nameProperty.value).slice(1, -1).trim().toLowerCase()
+          names = [sourceCode.getText(nameProperty.value).slice(1, -1).trim().toLowerCase()]
         } else if (nameAlternate) {
           if (nameAlternate.value.type !== AST_NODE_TYPES.ArrayExpression) return
           if (nameAlternate.value.elements.length === 0) return
 
-          const alternateObjectLiteral = nameAlternate.value.elements[0]
-          if (alternateObjectLiteral?.type !== AST_NODE_TYPES.ObjectExpression) return
+          let primalName: string | undefined
+          let praetorianName: string | undefined
 
-          const prop = getProperty(alternateObjectLiteral, 'value')
-          if (!prop) return
-          name = sourceCode.getText(prop.value).slice(1, -1).trim().toLowerCase()
+          for (const element of nameAlternate.value.elements) {
+            if (element?.type !== AST_NODE_TYPES.ObjectExpression) continue
+
+            const valueProp = getProperty(element, 'value')
+            if (!valueProp) continue
+            const name = sourceCode.getText(valueProp.value).slice(1, -1).trim().toLowerCase()
+
+            const alignmentProp = getProperty(element, 'alignment')
+            if (alignmentProp) {
+              const alignment = sourceCode.getText(alignmentProp.value).slice(1, -1).trim()
+              if (alignment === 'praetorian') {
+                praetorianName = name
+                continue
+              }
+            }
+            primalName = name
+          }
+          names = [primalName, praetorianName]
         }
 
-        const targetProp = keyProperty ?? badgeData.properties.at(-1)
-        const range: Range = targetProp ? [targetProp.range[0], targetProp.range[1] + 2] : [badgeData.range[0], badgeData.range[0] + 2]
+        const primalId = badgeIdsByName.get(names?.[0] ?? '')?.replaceAll(`'`, String.raw`\'`)
+        if (!primalId) return
+        const praetorianId = badgeIdsByName.get(names?.[1] ?? '')?.replaceAll(`'`, String.raw`\'`)
+        const newValue = praetorianId ? `['${primalId}', '${praetorianId}']` : `'${primalId}'`
 
-        const badgeId = badgeIdsByName.get(name)?.replaceAll(`'`, String.raw`\'`)
-        if (!badgeId) return
+        const gameIdProp = getProperty(node, 'gameId')
+        if (gameIdProp) {
+          const currentValue = sourceCode.getText(gameIdProp.value)
+          if (currentValue === newValue) {
+            return
+          }
 
-        context.report({
-          node: badgeData,
-          messageId: 'importGameId',
-          fix(fixer) {
-            return fixer.insertTextAfterRange(range, `  gameId: '${badgeId}',\n`)
-          },
-        })
+          context.report({
+            node: gameIdProp.value,
+            messageId: 'importGameId',
+            fix(fixer) {
+              return fixer.replaceText(gameIdProp.value, newValue)
+            },
+          })
+        } else {
+          const targetProp = keyProperty ?? badgeData.properties.at(-1)
+          const range: Range = targetProp ? [targetProp.range[0], targetProp.range[1] + 2] : [badgeData.range[0], badgeData.range[0] + 2]
+
+          context.report({
+            node: badgeData,
+            messageId: 'importGameId',
+            fix(fixer) {
+              return fixer.insertTextAfterRange(range, `  gameId: ${newValue},\n`)
+            },
+          })
+        }
       },
     }
   },

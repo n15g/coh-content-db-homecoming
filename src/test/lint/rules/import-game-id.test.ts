@@ -57,3 +57,47 @@ export const TempusFugitive: BadgeData = {
     },
   ],
 })
+
+ruleTester.run('should include praetorian ids where appropriate', importGameId, {
+  valid: [
+    {
+      name: 'already set',
+      code: `
+export const HeroOfTheCity: BadgeData = {
+  key: 'hero-of-the-city',
+  gameId: ['Level50', 'P_Level_50'],
+  name: [
+    { alignment: 'hero', value: 'Hero of the City' },
+    { alignment: 'villain', value: 'Made' },
+    { alignment: 'praetorian', value: 'Praetor' },
+  ],
+}`,
+    },
+  ],
+  invalid: [
+    {
+      name: 'literal',
+      code: `
+export const HeroOfTheCity: BadgeData = {
+  key: 'hero-of-the-city',
+  gameId: 'Level50',
+  name: [
+    { alignment: 'hero', value: 'Hero of the City' },
+    { alignment: 'villain', value: 'Made' },
+    { alignment: 'praetorian', value: 'Praetor' },
+  ],
+}`,
+      errors: [{ messageId: 'importGameId' }],
+      output: `
+export const HeroOfTheCity: BadgeData = {
+  key: 'hero-of-the-city',
+  gameId: ['Level50', 'P_Level_50'],
+  name: [
+    { alignment: 'hero', value: 'Hero of the City' },
+    { alignment: 'villain', value: 'Made' },
+    { alignment: 'praetorian', value: 'Praetor' },
+  ],
+}`,
+    },
+  ],
+})

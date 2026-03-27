@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SirensSong: BadgeData = {
   type: 'achievement',
   key: 'sirens-song',
-  gameId: `Siren'sCall`,
+  gameId: 'Siren\'sCall',
   setTitleId: [399],
   name: [
     { alignment: 'hero', value: `Siren's Song` },

@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Sensation: BadgeData = {
   type: 'achievement',
   key: 'sensation',
-  gameId: 'Sensation',
+  gameId: ['Sensation', 'P_Money_2500K'],
   setTitleId: [6, 1700],
   name: [
     { alignment: 'hero', value: 'Sensation' },

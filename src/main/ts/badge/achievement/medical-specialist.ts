@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MedicalSpecialist: BadgeData = {
   type: 'achievement',
   key: 'medical-specialist',
-  gameId: 'MedicalSpecialist',
+  gameId: ['MedicalSpecialist', 'P_Heal_3M'],
   setTitleId: [236, 1690],
   name: [
     { value: 'Medical Specialist' },

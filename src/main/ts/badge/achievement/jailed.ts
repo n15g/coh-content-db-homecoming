@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Jailed: BadgeData = {
   type: 'achievement',
   key: 'jailed',
-  gameId: 'Jailed',
+  gameId: ['Jailed', 'P_Held_12Hour'],
   setTitleId: [241, 1698],
   name: [
     { value: 'Jailed' },

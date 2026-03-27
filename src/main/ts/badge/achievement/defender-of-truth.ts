@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DefenderOfTruth: BadgeData = {
   type: 'achievement',
   key: 'defender-of-truth',
-  gameId: 'Level30',
+  gameId: ['Level30', 'P_Level_30'],
   setTitleId: [23, 1671],
   name: [
     { alignment: 'hero', value: 'Defender of Truth' },

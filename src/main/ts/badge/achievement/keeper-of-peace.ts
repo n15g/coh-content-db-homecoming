@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const KeeperOfPeace: BadgeData = {
   type: 'achievement',
   key: 'keeper-of-peace',
-  gameId: 'Level20',
+  gameId: ['Level20', 'P_Level_20'],
   setTitleId: [22, 1670],
   name: [
     { alignment: 'hero', value: 'Keeper of Peace' },

@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Restrained: BadgeData = {
   type: 'achievement',
   key: 'restrained',
-  gameId: 'Restrained',
+  gameId: ['Restrained', 'P_Held_10Min'],
   setTitleId: [18, 1693],
   name: [
     { alignment: 'hero', value: 'Restrained' },

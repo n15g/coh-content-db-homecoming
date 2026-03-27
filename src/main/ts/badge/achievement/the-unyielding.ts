@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheUnyielding: BadgeData = {
   type: 'achievement',
   key: 'the-unyielding',
-  gameId: 'UnyieldingWill',
+  gameId: ['UnyieldingWill', 'P_Debt_100K'],
   setTitleId: [16, 1682],
   name: [
     { alignment: 'hero', value: 'The Unyielding' },
