@@ -2,8 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const Mafioso: BadgeData = {
   type: 'event',
-  key: 'mafioso',  gameId: 'Anniversary_Family',
-
+  key: 'mafioso',
+  gameId: 'Anniversary_Family',
   setTitleId: [2553],
   name: 'Mafioso',
   releaseDate: '2025-04-19',

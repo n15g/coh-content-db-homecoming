@@ -3,8 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const PatronOfTheArts: BadgeData = {
   type: 'history',
-  key: 'patron-of-the-arts',  gameId: 'KallistiHistory01',
-
+  key: 'patron-of-the-arts',
+  gameId: 'KallistiHistory01',
   setTitleId: [2556],
   name: 'Patron of the Arts',
   releaseDate: '2025-06-17',

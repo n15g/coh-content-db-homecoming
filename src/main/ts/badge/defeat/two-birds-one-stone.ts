@@ -2,8 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const TwoBirdsOneStone: BadgeData = {
   type: 'defeat',
-  key: 'two-birds-one-stone',  gameId: 'DefeatBlackwing',
-
+  key: 'two-birds-one-stone',
+  gameId: 'DefeatBlackwing',
   setTitleId: [2508],
   name: 'Two Birds, One Stone',
   releaseDate: '2025-06-17',

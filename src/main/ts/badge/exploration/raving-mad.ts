@@ -3,8 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const RavingMad: BadgeData = {
   type: 'exploration',
-  key: 'raving-mad',  gameId: 'KallistiWharfTour5',
-
+  key: 'raving-mad',
+  gameId: 'KallistiWharfTour5',
   setTitleId: [2453],
   name: 'Raving Mad',
   releaseDate: '2025-06-17',

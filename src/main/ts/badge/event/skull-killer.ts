@@ -2,8 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const SkullKiller: BadgeData = {
   type: 'event',
-  key: 'skull-killer',  gameId: 'Anniversary_Skulls',
-
+  key: 'skull-killer',
+  gameId: 'Anniversary_Skulls',
   setTitleId: [2553],
   name: 'Skull Killer',
   releaseDate: '2025-04-19',

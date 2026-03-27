@@ -39,6 +39,7 @@ export const importGameId = createRule({
     return {
       'ObjectExpression'(node: TSESTree.ObjectExpression) {
         const sourceCode = context.sourceCode
+        const eol = sourceCode.text.includes('\r\n') ? '\r\n' : '\n'
 
         const badgeData = getDataObject(node, 'BadgeData')
         if (!badgeData) return
@@ -99,13 +100,15 @@ export const importGameId = createRule({
           })
         } else {
           const targetProp = keyProperty ?? badgeData.properties.at(-1)
-          const range: Range = targetProp ? [targetProp.range[0], targetProp.range[1] + 2] : [badgeData.range[0], badgeData.range[0] + 2]
+          const range: Range = targetProp
+            ? [targetProp.range[0], targetProp.range[1]]
+            : [badgeData.range[0], badgeData.range[0] + 1]
 
           context.report({
             node: badgeData,
             messageId: 'importGameId',
             fix(fixer) {
-              return fixer.insertTextAfterRange(range, `  gameId: ${newValue},\n`)
+              return fixer.insertTextAfterRange(range, `,${eol}  gameId: ${newValue}`)
             },
           })
         }

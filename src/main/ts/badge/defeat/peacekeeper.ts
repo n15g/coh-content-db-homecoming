@@ -3,8 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const Peacekeeper: BadgeData = {
   type: 'defeat',
-  key: 'peacekeeper',  gameId: 'DefeatPEACEKeeper',
-
+  key: 'peacekeeper',
+  gameId: 'DefeatPEACEKeeper',
   setTitleId: [2568],
   name: [
     { alignment: 'hero', value: 'Peacekeeper' },

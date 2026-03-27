@@ -3,8 +3,8 @@ import { DeathResurrected } from '../../mission/death-resurrected'
 
 export const Psychopomp: BadgeData = {
   type: 'accomplishment',
-  key: 'psychopomp',  gameId: 'Mission_i28_WylieGalloway',
-
+  key: 'psychopomp',
+  gameId: 'Mission_i28_WylieGalloway',
   setTitleId: [2584],
   name: 'Psychopomp',
   releaseDate: '2025-11-25',

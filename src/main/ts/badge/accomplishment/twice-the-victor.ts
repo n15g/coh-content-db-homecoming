@@ -3,8 +3,8 @@ import { KatieHannonTaskForce } from '../../mission/katie-hannon-task-force'
 
 export const TwiceTheVictor: BadgeData = {
   type: 'accomplishment',
-  key: 'twice-the-victor',  gameId: 'Victor2',
-
+  key: 'twice-the-victor',
+  gameId: 'Victor2',
   setTitleId: [414],
   name: 'Twice the Victor',
   releaseDate: '2012-11-30',

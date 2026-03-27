@@ -2,8 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const SurveyorOfMazes: BadgeData = {
   type: 'day-job',
-  key: 'surveyor-of-mazes',  gameId: 'DJ_Labyrinth',
-
+  key: 'surveyor-of-mazes',
+  gameId: 'DJ_Labyrinth',
   setTitleId: [2586],
   name: 'Surveyor of Mazes',
   releaseDate: '2026-02-10',

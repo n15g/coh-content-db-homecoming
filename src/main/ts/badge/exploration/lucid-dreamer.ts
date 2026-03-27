@@ -3,8 +3,8 @@ import { TheLabyrinthOfFog } from '../../zone/the-labyrinth-of-fog'
 
 export const LucidDreamer: BadgeData = {
   type: 'exploration',
-  key: 'lucid-dreamer',  gameId: 'DungeonLabyrinthTour3',
-
+  key: 'lucid-dreamer',
+  gameId: 'DungeonLabyrinthTour3',
   setTitleId: [2573],
   name: 'Lucid Dreamer',
   releaseDate: '2025-11-25',

@@ -2,8 +2,8 @@ import { BadgeData } from 'coh-content-db'
 
 export const HomeSweetHome: BadgeData = {
   type: 'achievement',
-  key: 'home-sweet-home',  gameId: 'SupergroupBaseHome',
-
+  key: 'home-sweet-home',
+  gameId: 'SupergroupBaseHome',
   setTitleId: [2592],
   name: 'Home Sweet Home',
   releaseDate: '2026-02-10',

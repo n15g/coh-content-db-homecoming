@@ -3,8 +3,8 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 
 export const FlagtownMemorialist: BadgeData = {
   type: 'history',
-  key: 'flagtown-memorialist',  gameId: 'KallistiHistory02',
-
+  key: 'flagtown-memorialist',
+  gameId: 'KallistiHistory02',
   setTitleId: [2557],
   name: 'Flagtown Memorialist',
   releaseDate: '2025-06-17',
