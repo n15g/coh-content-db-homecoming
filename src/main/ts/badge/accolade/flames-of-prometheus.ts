@@ -5,6 +5,7 @@ export const FlamesOfPrometheus: BadgeData = {
   type: 'accolade',
   key: 'flames-of-prometheus',
   setTitleId: [2003],
+  gameId: 'FlamesConvert',
   name: 'Flames of Prometheus',
   releaseDate: '2012-11-30',
   morality: 'villainous',
