@@ -4,6 +4,7 @@ import { PositronTaskForcePartOne } from '../../mission/positron-task-force-part
 export const RuleOfThree: BadgeData = {
   type: 'accomplishment',
   key: 'rule-of-three',
+  gameId: 'PositronRevampPart1',
   setTitleId: [1589],
   name: 'Rule of Three',
   releaseDate: '2012-11-30',

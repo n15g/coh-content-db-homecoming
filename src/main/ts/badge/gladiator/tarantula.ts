@@ -4,6 +4,7 @@ import { Venomous } from '../defeat/venomous'
 export const Tarantula: BadgeData = {
   type: 'gladiator',
   key: 'tarantula',
+  gameId: 'Tarantula',
   setTitleId: [446],
   name: 'Tarantula',
   releaseDate: '2012-11-30',

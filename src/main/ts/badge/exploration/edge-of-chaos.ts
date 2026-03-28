@@ -5,6 +5,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const EdgeOfChaos: BadgeData = {
   type: 'exploration',
   key: 'edge-of-chaos',
+  gameId: 'AtlasParkTour7',
   setTitleId: [1515],
   name: 'Edge of Chaos',
   releaseDate: '2012-11-30',

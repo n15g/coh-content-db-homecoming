@@ -4,6 +4,7 @@ import { TheEndOfVengeance } from '../../mission/the-end-of-vengeance'
 export const KnifeButcher: BadgeData = {
   type: 'accomplishment',
   key: 'knife-butcher',
+  gameId: 'Mission_DA_Arc_Complete_03',
   setTitleId: [2190],
   name: 'Knife Butcher',
   releaseDate: '2012-11-30',

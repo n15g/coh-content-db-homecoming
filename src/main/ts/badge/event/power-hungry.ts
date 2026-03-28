@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PowerHungry: BadgeData = {
   type: 'event',
   key: 'power-hungry',
+  gameId: 'Halloween2010PowerHungry',
   setTitleId: [1768],
   name: 'Power Hungry',
   releaseDate: '2012-11-30',

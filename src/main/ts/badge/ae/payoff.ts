@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Payoff: BadgeData = {
   type: 'architect-entertainment',
   key: 'payoff',
+  gameId: 'ArchitectPurchaseBadge',
   setTitleId: [1234],
   name: 'Payoff',
   releaseDate: '2012-11-30',

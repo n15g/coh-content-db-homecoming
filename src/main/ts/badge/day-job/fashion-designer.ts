@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FashionDesigner: BadgeData = {
   type: 'day-job',
   key: 'fashion-designer',
+  gameId: 'DJ_Clotheshorse',
   setTitleId: [1045],
   name: 'Fashion Designer',
   releaseDate: '2012-11-30',

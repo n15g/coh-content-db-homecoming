@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Transmogrified: BadgeData = {
   type: 'accomplishment',
   key: 'transmogrified',
+  gameId: 'TerraVoltaTR',
   setTitleId: [67],
   name: 'Transmogrified',
   releaseDate: '2012-11-30',

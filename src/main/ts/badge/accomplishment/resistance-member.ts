@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ResistanceMember: BadgeData = {
   type: 'accomplishment',
   key: 'resistance-member',
+  gameId: 'P_ResistanceBadge',
   setTitleId: [1754],
   name: 'Resistance Member',
   releaseDate: '2012-11-30',

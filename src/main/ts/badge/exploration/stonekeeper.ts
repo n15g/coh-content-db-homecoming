@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const Stonekeeper: BadgeData = {
   type: 'exploration',
   key: 'stonekeeper',
+  gameId: 'StMartialTour3',
   setTitleId: [281],
   name: 'Stonekeeper',
   releaseDate: '2012-11-30',

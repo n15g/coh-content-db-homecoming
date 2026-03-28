@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ProtectorOfInnocents: BadgeData = {
   type: 'achievement',
   key: 'protector-of-innocents',
+  gameId: ['Level10', 'P_Level_10'],
   setTitleId: [21, 1669],
   name: [
     { alignment: 'hero', value: 'Protector of Innocents' },

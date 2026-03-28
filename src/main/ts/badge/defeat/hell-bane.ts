@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HellBane: BadgeData = {
   type: 'defeat',
   key: 'hell-bane',
+  gameId: 'ThornIsle2',
   setTitleId: [307],
   name: 'Hell Bane',
   releaseDate: '2012-11-30',

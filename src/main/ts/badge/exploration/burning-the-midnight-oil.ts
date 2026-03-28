@@ -4,6 +4,7 @@ import { CreysFolly } from '../../zone/creys-folly'
 export const BurningTheMidnightOil: BadgeData = {
   type: 'exploration',
   key: 'burning-the-midnight-oil',
+  gameId: 'CreysFolleyTour2',
   setTitleId: [139],
   name: 'Burning the Midnight Oil',
   releaseDate: '2012-11-30',

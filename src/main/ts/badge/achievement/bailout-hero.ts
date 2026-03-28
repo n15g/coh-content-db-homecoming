@@ -4,6 +4,7 @@ import { DreamDoctor } from '../../contact/dream-doctor'
 export const BailoutHero: BadgeData = {
   type: 'achievement',
   key: 'bailout-hero',
+  gameId: 'Mission_DA_Zone_Achievement_06',
   setTitleId: [2206],
   name: [
     { alignment: 'hero', value: 'Bailout Hero' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MoralHighGround: BadgeData = {
   type: 'accomplishment',
   key: 'moral-high-ground',
+  gameId: 'P_5MoralChoice',
   setTitleId: [1423],
   name: 'Moral High Ground',
   releaseDate: '2012-11-30',

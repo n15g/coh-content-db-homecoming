@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DUSTRanger: BadgeData = {
   type: 'day-job',
   key: 'dust-ranger',
+  gameId: 'DJ_DUST_Ranger',
   setTitleId: [2041],
   name: 'D.U.S.T. Ranger',
   releaseDate: '2012-11-30',

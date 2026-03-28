@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Streetwise: BadgeData = {
   type: 'accomplishment',
   key: 'streetwise',
+  gameId: 'P_VigilanteAlignmentMission',
   setTitleId: [1443],
   name: 'Streetwise',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Confined: BadgeData = {
   type: 'achievement',
   key: 'confined',
+  gameId: ['Confined', 'P_Held_3Hour'],
   setTitleId: [239, 1696],
   name: [
     { value: 'Confined' },

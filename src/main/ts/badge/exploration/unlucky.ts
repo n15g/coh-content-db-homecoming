@@ -4,6 +4,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const Unlucky: BadgeData = {
   type: 'exploration',
   key: 'unlucky',
+  gameId: 'IndependencePortTour8',
   setTitleId: [1556],
   name: 'Unlucky',
   releaseDate: '2012-11-30',

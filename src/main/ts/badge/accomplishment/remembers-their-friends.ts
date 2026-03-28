@@ -5,6 +5,7 @@ import { SweepsWeekHeroNameVsTheRogueIsles } from '../../mission/sweeps-week-her
 export const RemembersTheirFriends: BadgeData = {
   type: 'accomplishment',
   key: 'remembers-their-friends',
+  gameId: 'Mission_SM_i24_Challenge_03',
   setTitleId: [2268],
   name: 'Remembers Their Friends',
   releaseDate: '2012-11-30',

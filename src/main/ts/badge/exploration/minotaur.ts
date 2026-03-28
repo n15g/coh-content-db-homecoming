@@ -4,6 +4,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const Minotaur: BadgeData = {
   type: 'exploration',
   key: 'minotaur',
+  gameId: 'TalosIslandTour1',
   setTitleId: [125],
   name: 'Minotaur',
   releaseDate: '2012-11-30',

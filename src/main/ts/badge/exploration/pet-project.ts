@@ -4,6 +4,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const PetProject: BadgeData = {
   type: 'exploration',
   key: 'pet-project',
+  gameId: 'SteelCanyonTour7',
   setTitleId: [1532],
   name: 'Pet Project',
   releaseDate: '2012-11-30',

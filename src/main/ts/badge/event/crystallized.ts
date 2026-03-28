@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Crystallized: BadgeData = {
   type: 'event',
   key: 'crystallized',
+  gameId: 'Crystallized',
   setTitleId: [704],
   name: 'Crystallized',
   releaseDate: '2012-11-30',

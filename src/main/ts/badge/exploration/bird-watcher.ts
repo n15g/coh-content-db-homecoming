@@ -4,6 +4,7 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 export const BirdWatcher: BadgeData = {
   type: 'exploration',
   key: 'bird-watcher',
+  gameId: 'GalaxyCityTour1',
   setTitleId: [91],
   name: 'Bird Watcher',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Reformed } from '../defeat/reformed'
 export const LongbowSpecOps: BadgeData = {
   type: 'gladiator',
   key: 'longbow-spec-ops',
+  gameId: 'SpecOps',
   setTitleId: [467],
   name: 'Longbow Spec-Ops',
   releaseDate: '2012-11-30',

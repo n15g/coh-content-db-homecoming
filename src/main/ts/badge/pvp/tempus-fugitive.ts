@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const TempusFugitive: BadgeData = {
   type: 'pvp',
   key: 'tempus-fugitive',
+  gameId: 'DestroyerofWorlds',
   setTitleId: [372],
   name: [
     { alignment: 'hero', value: 'Tempus Fugitive' },

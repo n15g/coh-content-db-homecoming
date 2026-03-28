@@ -12,6 +12,7 @@ import { Revolutionary } from '../exploration/revolutionary'
 export const ReturnVisitor: BadgeData = {
   type: 'accolade',
   key: 'return-visitor',
+  gameId: 'MayhemInvader',
   setTitleId: [551],
   name: [
     { alignment: 'hero', value: 'Return Visitor' },

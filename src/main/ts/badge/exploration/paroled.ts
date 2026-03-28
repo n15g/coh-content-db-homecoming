@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const Paroled: BadgeData = {
   type: 'exploration',
   key: 'paroled',
+  gameId: 'StMartialTour2',
   setTitleId: [280],
   name: [
     { alignment: 'hero', value: 'Paroled' },

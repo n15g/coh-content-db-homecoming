@@ -11,6 +11,7 @@ import { Stargazer } from '../exploration/stargazer'
 export const EtherealDrifter: BadgeData = {
   type: 'accolade',
   key: 'ethereal-drifter',
+  gameId: 'NightWardExplorer',
   setTitleId: [2234],
   name: 'Ethereal Drifter',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { ArachnosTraitor } from '../day-job/arachnos-traitor'
 export const BroodLeaver: BadgeData = {
   type: 'accolade',
   key: 'brood-leaver',
+  gameId: 'DJ_Brood_Leader',
   setTitleId: [1074],
   name: [
     { alignment: 'hero', value: 'Brood Leaver' },

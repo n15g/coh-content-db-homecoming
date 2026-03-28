@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const MediaJunky: BadgeData = {
   type: 'exploration',
   key: 'media-junky',
+  gameId: 'CapAuDiableTour2',
   setTitleId: [270],
   name: 'Media Junky',
   releaseDate: '2012-11-30',

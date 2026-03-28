@@ -6,6 +6,7 @@ import { Warburg } from '../../zone/warburg'
 export const RiskTaker: BadgeData = {
   type: 'pvp',
   key: 'risk-taker',
+  gameId: 'MostWanted',
   setTitleId: [368],
   name: [
     { alignment: 'hero', value: 'Risk Taker' },

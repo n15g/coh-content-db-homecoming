@@ -4,6 +4,7 @@ import { KatieHannonTaskForce } from '../../mission/katie-hannon-task-force'
 export const SevenTimesTheVictor: BadgeData = {
   type: 'accomplishment',
   key: 'seven-times-the-victor',
+  gameId: 'Victor7',
   setTitleId: [419],
   name: 'Seven Times the Victor',
   releaseDate: '2012-11-30',

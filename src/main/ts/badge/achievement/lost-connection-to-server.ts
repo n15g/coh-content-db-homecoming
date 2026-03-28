@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LostConnectionToServer: BadgeData = {
   type: 'achievement',
   key: 'lost-connection-to-server',
+  gameId: 'IT_MoM_ShaliceChallenge',
   setTitleId: [2082],
   name: 'Lost Connection to Server',
   releaseDate: '2012-11-30',

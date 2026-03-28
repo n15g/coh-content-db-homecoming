@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Demolitionist: BadgeData = {
   type: 'achievement',
   key: 'demolitionist',
+  gameId: 'RWZBomber',
   setTitleId: [842],
   name: 'Demolitionist',
   releaseDate: '2012-11-30',

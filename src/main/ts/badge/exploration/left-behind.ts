@@ -5,6 +5,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const LeftBehind: BadgeData = {
   type: 'exploration',
   key: 'left-behind',
+  gameId: 'SkywayCityTour7',
   setTitleId: [1537],
   name: 'Left Behind',
   releaseDate: '2012-11-30',

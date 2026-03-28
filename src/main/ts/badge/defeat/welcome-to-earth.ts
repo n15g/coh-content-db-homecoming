@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WelcomeToEarth: BadgeData = {
   type: 'defeat',
   key: 'welcome-to-earth',
+  gameId: 'RiktiDropShip',
   setTitleId: [2389],
   name: 'Welcome to Earth',
   releaseDate: '2019-01-01',

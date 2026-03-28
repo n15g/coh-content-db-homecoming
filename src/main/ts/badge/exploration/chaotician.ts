@@ -4,6 +4,7 @@ import { FoundersFalls } from '../../zone/founders-falls'
 export const Chaotician: BadgeData = {
   type: 'exploration',
   key: 'chaotician',
+  gameId: 'FoundersFallsTour2',
   setTitleId: [135],
   name: 'Chaotician',
   releaseDate: '2012-11-30',

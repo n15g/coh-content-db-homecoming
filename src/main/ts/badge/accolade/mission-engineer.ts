@@ -11,6 +11,7 @@ import { BugFixer } from '../ae/bug-fixer'
 export const MissionEngineer: BadgeData = {
   type: 'accolade',
   key: 'mission-engineer',
+  gameId: 'ArchitectAccolade',
   setTitleId: [1134],
   name: 'Mission Engineer',
   releaseDate: '2012-11-30',

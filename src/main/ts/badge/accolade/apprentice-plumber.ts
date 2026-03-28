@@ -11,6 +11,7 @@ import { TerrorOfTheVahzilok } from '../exploration/terror-of-the-vahzilok'
 export const ApprenticePlumber: BadgeData = {
   type: 'accolade',
   key: 'apprentice-plumber',
+  gameId: 'SewerNetworkExplorer',
   setTitleId: [1885],
   name: 'Apprentice Plumber',
   releaseDate: '2012-11-30',

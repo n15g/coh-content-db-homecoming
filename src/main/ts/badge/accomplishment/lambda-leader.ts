@@ -4,6 +4,7 @@ import { LambdaSectorTrial } from '../../mission/lambda-sector-trial'
 export const LambdaLeader: BadgeData = {
   type: 'accomplishment',
   key: 'lambda-leader',
+  gameId: 'IT_Lambda_Complete',
   setTitleId: [1983],
   name: 'Lambda Leader',
   releaseDate: '2012-11-30',

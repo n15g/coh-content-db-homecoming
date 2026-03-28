@@ -5,6 +5,7 @@ import { Caregiver } from '../day-job/caregiver'
 export const Physician: BadgeData = {
   type: 'accolade',
   key: 'physician',
+  gameId: 'DJ_Doctor',
   setTitleId: [1067],
   name: 'Physician',
   releaseDate: '2012-11-30',

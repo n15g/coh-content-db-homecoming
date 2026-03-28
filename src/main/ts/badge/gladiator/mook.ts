@@ -4,6 +4,7 @@ import { WashedUp } from '../exploration/washed-up'
 export const Mook: BadgeData = {
   type: 'gladiator',
   key: 'mook',
+  gameId: 'Mook',
   setTitleId: [438],
   name: 'Mook',
   releaseDate: '2012-11-30',

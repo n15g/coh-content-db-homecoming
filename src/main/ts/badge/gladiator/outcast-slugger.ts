@@ -4,6 +4,7 @@ import { Weatherman } from '../defeat/weatherman'
 export const OutcastSlugger: BadgeData = {
   type: 'gladiator',
   key: 'outcast-slugger',
+  gameId: 'Slugger',
   setTitleId: [477],
   name: 'Outcast Slugger',
   releaseDate: '2012-11-30',

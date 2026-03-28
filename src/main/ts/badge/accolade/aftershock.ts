@@ -8,6 +8,7 @@ import { AFaultlineInTheSandsOfTime } from '../../mission/a-faultline-in-the-san
 export const Aftershock: BadgeData = {
   type: 'accolade',
   key: 'aftershock',
+  gameId: 'FaultlineStoryArcs',
   setTitleId: [2373],
   name: 'Aftershock',
   releaseDate: '2012-11-30',

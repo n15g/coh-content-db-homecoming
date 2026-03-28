@@ -4,6 +4,7 @@ import { Collector } from '../achievement/collector'
 export const KaolinLegacyOfEarth: BadgeData = {
   type: 'gladiator',
   key: 'kaolin-legacy-of-earth',
+  gameId: 'LegacyEarth',
   setTitleId: [466],
   name: 'Kaolin Legacy of Earth',
   releaseDate: '2012-11-30',

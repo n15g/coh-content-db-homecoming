@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Centurion: BadgeData = {
   type: 'defeat',
   key: 'centurion',
+  gameId: 'Cimerorans',
   setTitleId: [994],
   name: 'Centurion',
   releaseDate: '2012-11-30',

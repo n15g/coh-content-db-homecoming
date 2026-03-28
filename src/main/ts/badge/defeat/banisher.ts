@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Banisher: BadgeData = {
   type: 'defeat',
   key: 'banisher',
+  gameId: 'Banisher',
   setTitleId: [37],
   name: 'Banisher',
   releaseDate: '2012-11-30',

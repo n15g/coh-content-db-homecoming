@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const LifeOutOfDeath: BadgeData = {
   type: 'exploration',
   key: 'life-out-of-death',
+  gameId: 'DarkAstoriaIncarnateTour7',
   setTitleId: [2185],
   name: 'Life out of Death',
   releaseDate: '2012-11-30',

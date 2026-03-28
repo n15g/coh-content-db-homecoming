@@ -4,6 +4,7 @@ import { Warburg } from '../../zone/warburg'
 export const TunnelRat: BadgeData = {
   type: 'exploration',
   key: 'tunnel-rat',
+  gameId: 'WarburgTour2',
   setTitleId: [292],
   name: 'Tunnel Rat',
   releaseDate: '2012-11-30',

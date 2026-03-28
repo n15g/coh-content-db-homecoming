@@ -9,6 +9,7 @@ import { TheLastWitchOfStriga } from '../../mission/the-last-witch-of-striga'
 export const Stowaway: BadgeData = {
   type: 'accolade',
   key: 'stowaway',
+  gameId: 'StrigaStoryArcsVillain',
   setTitleId: [2519],
   name: 'Stowaway',
   releaseDate: '2020-11-26',

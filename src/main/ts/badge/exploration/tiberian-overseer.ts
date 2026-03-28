@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const TiberianOverseer: BadgeData = {
   type: 'exploration',
   key: 'tiberian-overseer',
+  gameId: 'P_TiberianOverseer',
   setTitleId: [1634],
   name: 'Tiberian Overseer',
   releaseDate: '2012-11-30',

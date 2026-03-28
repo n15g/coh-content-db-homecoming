@@ -4,6 +4,7 @@ import { Stonekeeper } from '../exploration/stonekeeper'
 export const Wailer: BadgeData = {
   type: 'gladiator',
   key: 'wailer',
+  gameId: 'Wailer',
   setTitleId: [457],
   name: 'Wailer',
   releaseDate: '2012-11-30',

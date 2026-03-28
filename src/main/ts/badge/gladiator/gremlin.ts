@@ -4,6 +4,7 @@ import { Electrician } from '../defeat/electrician'
 export const Gremlin: BadgeData = {
   type: 'gladiator',
   key: 'gremlin',
+  gameId: 'Gremlin',
   setTitleId: [447],
   name: 'Gremlin',
   releaseDate: '2012-11-30',

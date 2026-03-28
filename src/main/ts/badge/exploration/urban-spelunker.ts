@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const UrbanSpelunker: BadgeData = {
   type: 'exploration',
   key: 'urban-spelunker',
+  gameId: 'P_UrbanSpelunker',
   setTitleId: [1642],
   name: 'Urban Spelunker',
   releaseDate: '2012-11-30',

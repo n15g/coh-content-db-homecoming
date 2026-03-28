@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Protector: BadgeData = {
   type: 'invention',
   key: 'protector',
+  gameId: 'InventionMitigation3',
   setTitleId: [772],
   name: 'Protector',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { FoundersFalls } from '../../zone/founders-falls'
 export const HamidonsFury: BadgeData = {
   type: 'exploration',
   key: 'hamidons-fury',
+  gameId: 'FoundersFallsTour6',
   setTitleId: [1561],
   name: `Hamidon's Fury`,
   releaseDate: '2012-11-30',

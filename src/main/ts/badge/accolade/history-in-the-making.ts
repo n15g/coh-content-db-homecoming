@@ -11,6 +11,7 @@ import { DarknessUnleashed } from '../exploration/darkness-unleashed'
 export const HistoryInTheMaking: BadgeData = {
   type: 'accolade',
   key: 'history-in-the-making',
+  gameId: 'CimeroraExplorer',
   setTitleId: [2462],
   name: 'History in the Making',
   releaseDate: '2020-11-26',

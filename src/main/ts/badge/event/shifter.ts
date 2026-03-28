@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Shifter: BadgeData = {
   type: 'event',
   key: 'shifter',
+  gameId: 'Shifter',
   setTitleId: [187],
   name: 'Shifter',
   releaseDate: '2012-11-30',

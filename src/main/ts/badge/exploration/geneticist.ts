@@ -4,6 +4,7 @@ import { TheAbyss } from '../../zone/the-abyss'
 export const Geneticist: BadgeData = {
   type: 'exploration',
   key: 'geneticist',
+  gameId: 'AbyssTour2',
   setTitleId: [746],
   name: 'Geneticist',
   releaseDate: '2012-11-30',

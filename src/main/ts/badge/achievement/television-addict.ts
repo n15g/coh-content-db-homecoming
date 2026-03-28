@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TelevisionAddict: BadgeData = {
   type: 'achievement',
   key: 'television-addict',
+  gameId: 'IT_TPN_TelevisionChallenge',
   setTitleId: [2075],
   name: 'Television Addict',
   releaseDate: '2012-11-30',

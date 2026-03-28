@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const SocialWorker: BadgeData = {
   type: 'exploration',
   key: 'social-worker',
+  gameId: 'StMartialTour6',
   setTitleId: [1506],
   name: [
     { alignment: 'hero', value: 'Social Worker' },

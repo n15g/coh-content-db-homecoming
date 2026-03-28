@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const Spectral: BadgeData = {
   type: 'defeat',
   key: 'spectral',
+  gameId: 'GhostTrap100',
   setTitleId: [249],
   name: 'Spectral',
   releaseDate: '2012-11-30',

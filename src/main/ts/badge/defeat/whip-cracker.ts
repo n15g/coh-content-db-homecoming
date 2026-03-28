@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WhipCracker: BadgeData = {
   type: 'defeat',
   key: 'whip-cracker',
+  gameId: 'P_DefeatDesdemona',
   setTitleId: [1436],
   name: 'Whip Cracker',
   releaseDate: '2012-11-30',

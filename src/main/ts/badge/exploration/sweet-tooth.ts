@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const SweetTooth: BadgeData = {
   type: 'exploration',
   key: 'sweet-tooth',
+  gameId: 'CapAuDiableTour5',
   setTitleId: [273],
   name: 'Sweet Tooth',
   releaseDate: '2012-11-30',

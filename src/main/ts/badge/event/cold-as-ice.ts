@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ColdAsIce: BadgeData = {
   type: 'event',
   key: 'cold-as-ice',
+  gameId: 'Holiday2010',
   setTitleId: [1951],
   name: 'Cold as Ice',
   releaseDate: '2012-11-30',

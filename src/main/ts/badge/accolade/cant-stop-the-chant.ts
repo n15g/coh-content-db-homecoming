@@ -11,6 +11,7 @@ import { Unfettered } from '../exploration/unfettered'
 export const CantStopTheChant: BadgeData = {
   type: 'accolade',
   key: 'cant-stop-the-chant',
+  gameId: 'ChantryExplorer',
   setTitleId: [1883],
   name: `Can't Stop the Chant`,
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { HippocraticOath } from '../../mission/hippocratic-oath'
 export const DoNoHarm: BadgeData = {
   type: 'accomplishment',
   key: 'do-no-harm',
+  gameId: 'SL7MissionC',
   setTitleId: [2386],
   name: 'Do No Harm',
   releaseDate: '2019-01-01',

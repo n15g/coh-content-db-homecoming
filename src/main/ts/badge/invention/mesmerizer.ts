@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Mesmerizer: BadgeData = {
   type: 'invention',
   key: 'mesmerizer',
+  gameId: 'InventionMez5',
   setTitleId: [779],
   name: 'Mesmerizer',
   releaseDate: '2012-11-30',

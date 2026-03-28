@@ -4,6 +4,7 @@ import { HuntingTheHunters } from '../../mission/hunting-the-hunters'
 export const GenerationalTrauma: BadgeData = {
   type: 'accomplishment',
   key: 'generational-trauma',
+  gameId: 'Mission_i28_Ziegler_Bonus',
   setTitleId: [2564],
   name: 'Generational Trauma',
   releaseDate: '2025-06-17',

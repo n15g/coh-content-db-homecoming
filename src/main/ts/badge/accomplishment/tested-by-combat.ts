@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TestedByCombat: BadgeData = {
   type: 'accomplishment',
   key: 'tested-by-combat',
+  gameId: 'Labyrinth_Test_Spectrum',
   setTitleId: [2575],
   name: 'Tested By Combat',
   releaseDate: '2025-11-25',

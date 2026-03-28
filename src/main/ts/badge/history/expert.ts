@@ -7,6 +7,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const Expert: BadgeData = {
   type: 'history',
   key: 'expert',
+  gameId: 'MightForRightAct',
   setTitleId: [149],
   name: 'Expert',
   releaseDate: '2012-11-30',

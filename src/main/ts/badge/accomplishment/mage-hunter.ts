@@ -4,6 +4,7 @@ import { DefeatSelestar } from '../../mission/defeat-selestar'
 export const MageHunter: BadgeData = {
   type: 'accomplishment',
   key: 'mage-hunter',
+  gameId: 'VSL8MissionB',
   setTitleId: [345],
   name: 'Mage Hunter',
   releaseDate: '2012-11-30',

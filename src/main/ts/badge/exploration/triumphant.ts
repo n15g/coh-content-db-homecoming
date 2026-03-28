@@ -4,6 +4,7 @@ import { Warburg } from '../../zone/warburg'
 export const Triumphant: BadgeData = {
   type: 'exploration',
   key: 'triumphant',
+  gameId: 'WarburgTour3',
   setTitleId: [293],
   name: 'Triumphant',
   releaseDate: '2012-11-30',

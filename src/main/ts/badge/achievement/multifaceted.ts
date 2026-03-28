@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Multifaceted: BadgeData = {
   type: 'achievement',
   key: 'multifaceted',
+  gameId: 'AlignmentTipMissions25',
   setTitleId: [2538],
   name: 'Multifaceted',
   releaseDate: '2024-11-19',

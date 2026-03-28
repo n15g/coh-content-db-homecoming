@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WellStocked: BadgeData = {
   type: 'achievement',
   key: 'well-stocked',
+  gameId: 'IT_Lambda_NoGrenades',
   setTitleId: [1985],
   name: 'Well-Stocked',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CapBuster: BadgeData = {
   type: 'defeat',
   key: 'cap-buster',
+  gameId: 'CapBuster',
   setTitleId: [431],
   name: 'Cap Buster',
   releaseDate: '2012-11-30',

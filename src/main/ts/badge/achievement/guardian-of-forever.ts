@@ -6,6 +6,7 @@ import { CollateralDamage } from '../../mission/collateral-damage'
 export const GuardianOfForever: BadgeData = {
   type: 'achievement',
   key: 'guardian-of-forever',
+  gameId: 'Mission_LowLevel_SC_Guardian',
   setTitleId: [2390],
   name: 'Guardian of Forever',
   releaseDate: '2012-11-30',

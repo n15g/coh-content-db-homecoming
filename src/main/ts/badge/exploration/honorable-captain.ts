@@ -5,6 +5,7 @@ import { AgentHassell } from '../../contact/agent-hassell'
 export const HonorableCaptain: BadgeData = {
   type: 'exploration',
   key: 'honorable-captain',
+  gameId: 'SafeguardMap5',
   setTitleId: [652],
   name: [
     { alignment: 'hero', value: 'Honorable Captain' },

@@ -5,6 +5,7 @@ import { Professor } from '../day-job/professor'
 export const MasterArchitect: BadgeData = {
   type: 'accolade',
   key: 'master-architect',
+  gameId: 'DJ_Master_Architect',
   setTitleId: [1082],
   name: 'Master Architect',
   releaseDate: '2012-11-30',

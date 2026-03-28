@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Interceptor: BadgeData = {
   type: 'achievement',
   key: 'interceptor',
+  gameId: 'SafeguardInterceptor',
   setTitleId: [644],
   name: 'Interceptor',
   releaseDate: '2012-11-30',

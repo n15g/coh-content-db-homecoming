@@ -11,6 +11,7 @@ import { CircleGazer } from '../exploration/circle-gazer'
 export const MadScienceSupporter: BadgeData = {
   type: 'accolade',
   key: 'mad-science-supporter',
+  gameId: 'CapAuDiableExplorer',
   setTitleId: [1495],
   name: 'Mad Science Supporter',
   releaseDate: '2012-11-30',

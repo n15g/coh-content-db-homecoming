@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Arachnophobic: BadgeData = {
   type: 'pvp',
   key: 'arachnophobic',
+  gameId: 'RVLordRecluse',
   setTitleId: [580],
   name: 'Arachnophobic',
   releaseDate: '2012-11-30',

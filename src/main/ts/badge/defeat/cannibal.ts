@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Cannibal: BadgeData = {
   type: 'defeat',
   key: 'cannibal',
+  gameId: 'P_DefeatGhouls',
   setTitleId: [1472],
   name: 'Cannibal',
   releaseDate: '2012-11-30',

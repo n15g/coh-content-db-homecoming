@@ -4,6 +4,7 @@ import { Toothbreaker } from '../event/toothbreaker'
 export const RedCap: BadgeData = {
   type: 'gladiator',
   key: 'red-cap',
+  gameId: 'RedcapGladiator',
   setTitleId: [529],
   name: 'Red Cap',
   releaseDate: '2012-11-30',

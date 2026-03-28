@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const FollysVictim: BadgeData = {
   type: 'exploration',
   key: 'follys-victim',
+  gameId: 'DarkAstoriaIncarnateTour1',
   setTitleId: [2179],
   name: `Folly's Victim`,
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Spellbinding: BadgeData = {
   type: 'defeat',
   key: 'spellbinding',
+  gameId: 'Spellbinding',
   setTitleId: [434],
   name: 'Spellbinding',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterArtisan: BadgeData = {
   type: 'invention',
   key: 'master-artisan',
+  gameId: 'InventionLevel2',
   setTitleId: [741],
   name: 'Master Artisan',
   releaseDate: '2012-11-30',

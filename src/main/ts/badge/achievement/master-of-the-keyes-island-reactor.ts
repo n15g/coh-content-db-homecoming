@@ -7,6 +7,7 @@ import { AvoidsTheGreenStuff } from './avoids-the-green-stuff'
 export const MasterOfTheKeyesIslandReactor: BadgeData = {
   type: 'achievement',
   key: 'master-of-keyes-island-reactor',
+  gameId: 'IT_Keyes_Master',
   setTitleId: [1994],
   name: 'Master of the Keyes Island Reactor',
   releaseDate: '2012-11-30',

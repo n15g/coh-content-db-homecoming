@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const SeekerOfTheUnknown: BadgeData = {
   type: 'exploration',
   key: 'seeker-of-the-unknown',
+  gameId: 'DarkAstoriaTour2',
   setTitleId: [129],
   name: 'Seeker of the Unknown',
   releaseDate: '2012-11-30',

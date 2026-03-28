@@ -4,6 +4,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const BloodMoss: BadgeData = {
   type: 'exploration',
   key: 'blood-moss',
+  gameId: 'PerezParkTour7',
   setTitleId: [1775],
   name: 'Blood Moss',
   releaseDate: '2012-11-30',

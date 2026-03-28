@@ -4,6 +4,7 @@ import { StealOutbreakDrugFromTheLostAndThenTakeItToTheDropOffPoint } from '../.
 export const PlagueCarrier: BadgeData = {
   type: 'accomplishment',
   key: 'plague-carrier',
+  gameId: 'VSL2.5MissionA',
   setTitleId: [332],
   name: 'Plague Carrier',
   releaseDate: '2012-11-30',

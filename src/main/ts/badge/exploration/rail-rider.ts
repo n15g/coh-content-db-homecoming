@@ -6,6 +6,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const RailRider: BadgeData = {
   type: 'exploration',
   key: 'rail-rider',
+  gameId: 'P_RailRider',
   setTitleId: [1411],
   name: 'Rail Rider',
   releaseDate: '2012-11-30',

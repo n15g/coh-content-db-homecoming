@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Relentless: BadgeData = {
   type: 'achievement',
   key: 'relentless',
+  gameId: 'P_Relentless',
   setTitleId: [2357],
   name: 'Relentless',
   releaseDate: '2012-11-30',

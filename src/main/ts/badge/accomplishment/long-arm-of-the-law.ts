@@ -4,6 +4,7 @@ import { ANewWar } from '../../mission/a-new-war'
 export const LongArmOfTheLaw: BadgeData = {
   type: 'accomplishment',
   key: 'long-arm-of-the-law',
+  gameId: 'Mission_BT_i24_Challenge_01',
   setTitleId: [2262],
   name: 'Long Arm of the Law',
   releaseDate: '2012-11-30',

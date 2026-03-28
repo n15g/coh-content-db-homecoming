@@ -4,6 +4,7 @@ import { TippingTheScales } from '../../mission/tipping-the-scales'
 export const TheCentersNemesis: BadgeData = {
   type: 'accomplishment',
   key: 'the-centers-nemesis',
+  gameId: 'Mission_BT_i24_Arc_Complete_03',
   setTitleId: [2257],
   name: `The Center's Nemesis`,
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { KillerInstinct } from '../../mission/killer-instinct'
 export const SharkBait: BadgeData = {
   type: 'accolade',
   key: 'shark-bait',
+  gameId: 'BloodInTheWaterPatron',
   setTitleId: [615],
   name: [
     { alignment: 'hero', value: 'Shark Bait' },

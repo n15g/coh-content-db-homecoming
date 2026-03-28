@@ -5,6 +5,7 @@ import { MsLiberty } from '../../contact/ms-liberty'
 export const Globetrotter: BadgeData = {
   type: 'exploration',
   key: 'globetrotter',
+  gameId: 'ReclusesVictoryTour1',
   setTitleId: [287],
   name: 'Globetrotter',
   releaseDate: '2012-11-30',

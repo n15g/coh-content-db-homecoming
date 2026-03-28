@@ -15,6 +15,7 @@ import { PrideInYourWork } from '../../mission/pride-in-your-work'
 export const Tyrant: BadgeData = {
   type: 'accomplishment',
   key: 'tyrant',
+  gameId: 'P_Tyrant',
   setTitleId: [2354],
   name: 'Tyrant',
   releaseDate: '2012-11-30',

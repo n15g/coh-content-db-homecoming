@@ -4,6 +4,7 @@ import { MidnightDrawsNear } from '../../mission/midnight-draws-near'
 export const TheThiefOfMidnight: BadgeData = {
   type: 'accomplishment',
   key: 'the-thief-of-midnight',
+  gameId: 'MSThief',
   setTitleId: [986],
   name: 'The Thief of Midnight',
   releaseDate: '2012-11-30',

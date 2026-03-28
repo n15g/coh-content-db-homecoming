@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MonitorDuty: BadgeData = {
   type: 'day-job',
   key: 'monitor-duty',
+  gameId: 'DJ_Monitor_Duty',
   setTitleId: [1048],
   name: 'Monitor Duty',
   releaseDate: '2012-11-30',

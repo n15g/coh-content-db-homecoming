@@ -4,6 +4,7 @@ import { CreyHavoc } from '../exploration/crey-havoc'
 export const ResearchAssistant: BadgeData = {
   type: 'gladiator',
   key: 'research-assistant',
+  gameId: 'ResearchAsst',
   setTitleId: [500],
   name: 'Research Assistant',
   releaseDate: '2012-11-30',

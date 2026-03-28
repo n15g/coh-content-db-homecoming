@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const CamelSnot: BadgeData = {
   type: 'exploration',
   key: 'camel-snot',
+  gameId: 'StMartialTour4',
   setTitleId: [282],
   name: 'Camel Snot',
   releaseDate: '2012-11-30',

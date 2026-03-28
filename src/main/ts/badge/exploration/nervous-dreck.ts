@@ -4,6 +4,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const NervousDreck: BadgeData = {
   type: 'exploration',
   key: 'nervous-dreck',
+  gameId: 'TerraVoltaTour3',
   setTitleId: [133],
   name: 'Nervous Dreck',
   releaseDate: '2012-11-30',

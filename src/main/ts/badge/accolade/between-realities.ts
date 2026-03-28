@@ -12,6 +12,7 @@ import { Multifaceted } from '../achievement/multifaceted'
 export const BetweenRealities: BadgeData = {
   type: 'accolade',
   key: 'between-realities',
+  gameId: 'MarkRecallAccolade',
   setTitleId: [2539],
   name: 'Between Realities',
   releaseDate: '2024-11-19',

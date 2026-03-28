@@ -4,6 +4,7 @@ import { CollateralDamage } from '../../mission/collateral-damage'
 export const WarHero: BadgeData = {
   type: 'achievement',
   key: 'war-hero',
+  gameId: 'Mission_LowLevel_SC_WarHero',
   setTitleId: [2098],
   name: 'War Hero',
   releaseDate: '2012-11-30',

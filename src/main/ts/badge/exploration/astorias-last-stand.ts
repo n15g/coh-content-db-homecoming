@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const AstoriasLastStand: BadgeData = {
   type: 'exploration',
   key: 'astorias-last-stand',
+  gameId: 'DarkAstoriaTour7',
   setTitleId: [1784],
   name: `Astoria's Last Stand`,
   releaseDate: '2012-11-30',

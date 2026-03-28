@@ -4,6 +4,7 @@ import { CavernOfTranscendenceTrial } from '../../mission/cavern-of-transcendenc
 export const Transcendent: BadgeData = {
   type: 'accomplishment',
   key: 'transcendent',
+  gameId: 'HollowsTR',
   setTitleId: [70],
   name: 'Transcendent',
   releaseDate: '2012-11-30',

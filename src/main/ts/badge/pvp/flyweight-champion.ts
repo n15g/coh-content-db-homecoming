@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FlyweightChampion: BadgeData = {
   type: 'pvp',
   key: 'flyweight-champion',
+  gameId: 'Flyweight',
   setTitleId: [221],
   name: 'Flyweight Champion',
   releaseDate: '2012-11-30',

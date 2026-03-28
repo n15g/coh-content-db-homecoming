@@ -4,6 +4,7 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 export const EyeOfTheGemini: BadgeData = {
   type: 'exploration',
   key: 'eye-of-the-gemini',
+  gameId: 'GalaxyCityTour7',
   setTitleId: [1523],
   name: 'Eye of the Gemini',
   releaseDate: '2012-11-30',

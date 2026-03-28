@@ -4,6 +4,7 @@ import { KeeperOfPeace } from '../achievement/keeper-of-peace'
 export const ButtonManGunner: BadgeData = {
   type: 'gladiator',
   key: 'button-man-gunner',
+  gameId: 'ButtonMan',
   setTitleId: [482],
   name: 'Button Man Gunner',
   releaseDate: '2012-11-30',

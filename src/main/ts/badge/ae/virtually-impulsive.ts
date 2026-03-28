@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VirtuallyImpulsive: BadgeData = {
   type: 'architect-entertainment',
   key: 'virtually-impulsive',
+  gameId: 'ArchitectTestClick1',
   setTitleId: [1177],
   name: 'Virtually Impulsive',
   releaseDate: '2012-11-30',

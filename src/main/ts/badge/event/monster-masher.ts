@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MonsterMasher: BadgeData = {
   type: 'event',
   key: 'monster-masher',
+  gameId: 'Halloween09Monster',
   setTitleId: [1370],
   name: 'Monster Masher',
   releaseDate: '2012-11-30',

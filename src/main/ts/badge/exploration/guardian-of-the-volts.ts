@@ -4,6 +4,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const GuardianOfTheVolts: BadgeData = {
   type: 'exploration',
   key: 'guardian-of-the-volts',
+  gameId: 'TerraVoltaTour4',
   setTitleId: [1837],
   name: 'Guardian of the Volts',
   releaseDate: '2012-11-30',

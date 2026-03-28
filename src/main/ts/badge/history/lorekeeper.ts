@@ -7,6 +7,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const Lorekeeper: BadgeData = {
   type: 'history',
   key: 'lorekeeper',
+  gameId: 'CoTMu',
   setTitleId: [317],
   name: 'Lorekeeper',
   releaseDate: '2012-11-30',

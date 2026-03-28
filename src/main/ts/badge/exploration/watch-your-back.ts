@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const WatchYourBack: BadgeData = {
   type: 'exploration',
   key: 'watch-your-back',
+  gameId: 'ReclusesVictoryTour8',
   setTitleId: [2425],
   name: 'Watch Your Back',
   releaseDate: '2019-06-01',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Capped: BadgeData = {
   type: 'ouroboros',
   key: 'capped',
+  gameId: 'NoTemporaryPowersatSL4',
   setTitleId: [907],
   name: 'Capped',
   releaseDate: '2012-11-30',

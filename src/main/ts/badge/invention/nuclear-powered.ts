@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const NuclearPowered: BadgeData = {
   type: 'invention',
   key: 'nuclear-powered',
+  gameId: 'InventionEndurance3',
   setTitleId: [782],
   name: 'Nuclear Powered',
   releaseDate: '2012-11-30',

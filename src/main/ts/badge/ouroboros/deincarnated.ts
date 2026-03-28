@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Deincarnated: BadgeData = {
   type: 'ouroboros',
   key: 'deincarnated',
+  gameId: 'NoIncarnatePowersatSL9',
   setTitleId: [2475],
   name: 'Deincarnated',
   releaseDate: '2020-11-26',

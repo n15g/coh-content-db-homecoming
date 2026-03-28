@@ -5,6 +5,7 @@ import { SewerNetwork } from '../../zone/sewer-network'
 export const FromBeneathYou: BadgeData = {
   type: 'exploration',
   key: 'from-beneath-you',
+  gameId: 'AbSewerNetworkTour6',
   setTitleId: [1826],
   name: 'From Beneath You',
   releaseDate: '2012-11-30',

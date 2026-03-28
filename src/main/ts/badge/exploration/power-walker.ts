@@ -4,6 +4,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const PowerWalker: BadgeData = {
   type: 'exploration',
   key: 'power-walker',
+  gameId: 'TerraVoltaTour7',
   setTitleId: [1840],
   name: 'Power Walker',
   releaseDate: '2012-11-30',

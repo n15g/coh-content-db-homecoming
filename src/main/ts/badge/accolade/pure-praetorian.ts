@@ -11,6 +11,7 @@ import { OnTheWaterfront } from '../exploration/on-the-waterfront'
 export const PurePraetorian: BadgeData = {
   type: 'accolade',
   key: 'pure-praetorian',
+  gameId: 'P_NovaPraetoriaExplorer',
   setTitleId: [1597],
   name: 'Pure Praetorian',
   releaseDate: '2012-11-30',

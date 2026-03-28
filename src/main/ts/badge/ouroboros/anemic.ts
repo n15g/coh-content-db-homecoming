@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Anemic: BadgeData = {
   type: 'ouroboros',
   key: 'anemic',
+  gameId: 'NoEnhancementsatSL4',
   setTitleId: [927],
   name: 'Anemic',
   releaseDate: '2012-11-30',

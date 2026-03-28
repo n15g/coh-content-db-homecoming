@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Firefighter: BadgeData = {
   type: 'defeat',
   key: 'firefighter',
+  gameId: 'HellionsFireSilver',
   setTitleId: [212],
   name: [
     { alignment: 'hero', value: 'Firefighter' },

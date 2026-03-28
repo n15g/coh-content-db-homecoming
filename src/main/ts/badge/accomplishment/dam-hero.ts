@@ -4,6 +4,7 @@ import { PositronTaskForcePartTwo } from '../../mission/positron-task-force-part
 export const DamHero: BadgeData = {
   type: 'accomplishment',
   key: 'dam-hero',
+  gameId: 'PositronRevampPart2',
   setTitleId: [1590],
   name: [
     { alignment: 'hero', value: 'Dam Hero' },

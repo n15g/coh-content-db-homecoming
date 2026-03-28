@@ -4,6 +4,7 @@ import { FoundersFalls } from '../../zone/founders-falls'
 export const Misunderstood: BadgeData = {
   type: 'exploration',
   key: 'misunderstood',
+  gameId: 'FoundersFallsTour8',
   setTitleId: [1563],
   name: 'Misunderstood',
   releaseDate: '2012-11-30',

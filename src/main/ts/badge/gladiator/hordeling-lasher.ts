@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HordelingLasher: BadgeData = {
   type: 'gladiator',
   key: 'hordeling-lasher',
+  gameId: 'Lasher',
   setTitleId: [461],
   name: 'Hordeling Lasher',
   releaseDate: '2012-11-30',

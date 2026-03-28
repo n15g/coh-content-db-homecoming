@@ -4,6 +4,7 @@ import { ProtectorOfInnocents } from '../achievement/protector-of-innocents'
 export const NebulaEliteBuckshot: BadgeData = {
   type: 'gladiator',
   key: 'nebula-elite-buckshot',
+  gameId: 'NebulaBuckshot',
   setTitleId: [491],
   name: 'Nebula Elite Buckshot',
   releaseDate: '2012-11-30',

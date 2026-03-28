@@ -4,6 +4,7 @@ import { PocketDVipGoldClubMember } from '../achievement/pocket-d-vip-gold-club-
 export const Passport: BadgeData = {
   type: 'accolade',
   key: 'passport',
+  gameId: 'LRTAccolade',
   setTitleId: [2433],
   name: 'Passport',
   releaseDate: '2020-11-26',

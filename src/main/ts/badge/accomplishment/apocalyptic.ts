@@ -4,6 +4,7 @@ import { TheLadyGreyTaskForce } from '../../mission/the-lady-grey-task-force'
 export const Apocalyptic: BadgeData = {
   type: 'accomplishment',
   key: 'apocalyptic',
+  gameId: 'VanguardCoOpTF',
   setTitleId: [837],
   name: 'Apocalyptic',
   releaseDate: '2012-11-30',

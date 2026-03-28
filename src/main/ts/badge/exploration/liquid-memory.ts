@@ -4,6 +4,7 @@ import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 export const LiquidMemory: BadgeData = {
   type: 'exploration',
   key: 'liquid-memory',
+  gameId: 'CascadeArchTour5',
   setTitleId: [1809],
   name: 'Liquid Memory',
   releaseDate: '2012-11-30',

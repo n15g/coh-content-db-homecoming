@@ -5,6 +5,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const OldFashioned: BadgeData = {
   type: 'exploration',
   key: 'old-fashioned',
+  gameId: 'FaultlineTour7',
   setTitleId: [638],
   name: 'Old Fashioned',
   releaseDate: '2012-11-30',

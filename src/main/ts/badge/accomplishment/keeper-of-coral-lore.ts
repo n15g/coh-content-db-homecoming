@@ -4,6 +4,7 @@ import { OldFriendsNewEnemiesAndNewOpportunities } from '../../mission/old-frien
 export const KeeperOfCoralLore: BadgeData = {
   type: 'accomplishment',
   key: 'keeper-of-coral-lore',
+  gameId: 'I19VillainStoryArcComplete',
   setTitleId: [1894],
   name: 'Keeper of Coral Lore',
   releaseDate: '2012-11-30',

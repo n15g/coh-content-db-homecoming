@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const TakedownArtist: BadgeData = {
   type: 'accomplishment',
   key: 'takedown-artist',
+  gameId: 'P_TakedownArtist',
   setTitleId: [1420],
   name: 'Takedown Artist',
   releaseDate: '2012-11-30',

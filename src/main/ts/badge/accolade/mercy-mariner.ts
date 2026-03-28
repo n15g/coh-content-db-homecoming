@@ -11,6 +11,7 @@ import { Widower } from '../exploration/widower'
 export const MercyMariner: BadgeData = {
   type: 'accolade',
   key: 'mercy-mariner',
+  gameId: 'MercyIslandExplorer',
   setTitleId: [1486],
   name: 'Mercy Mariner',
   releaseDate: '2012-11-30',

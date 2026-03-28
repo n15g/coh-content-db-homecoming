@@ -5,6 +5,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const GhostHunter: BadgeData = {
   type: 'history',
   key: 'ghost-hunter',
+  gameId: 'Ghostship',
   setTitleId: [191],
   name: 'Ghost Hunter',
   releaseDate: '2012-11-30',

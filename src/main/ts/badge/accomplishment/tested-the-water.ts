@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TestedTheWater: BadgeData = {
   type: 'accomplishment',
   key: 'tested-the-water',
+  gameId: 'P_OtherAlignmentMission',
   setTitleId: [1425],
   name: 'Tested the Water',
   releaseDate: '2012-11-30',

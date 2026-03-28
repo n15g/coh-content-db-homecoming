@@ -4,6 +4,7 @@ import { AtlasPark } from '../../zone/atlas-park'
 export const TopDog: BadgeData = {
   type: 'exploration',
   key: 'top-dog',
+  gameId: 'AtlasParkTour5',
   setTitleId: [90],
   name: 'Top Dog',
   releaseDate: '2012-11-30',

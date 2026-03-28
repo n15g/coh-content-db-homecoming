@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Surgeon: BadgeData = {
   type: 'achievement',
   key: 'surgeon',
+  gameId: ['Surgeon', 'P_Heal_1M'],
   setTitleId: [3, 1688],
   name: [
     { alignment: 'hero', value: 'Surgeon' },

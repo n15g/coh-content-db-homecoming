@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CadaverCounter: BadgeData = {
   type: 'achievement',
   key: 'cadaver-counter',
+  gameId: 'SL1_SewerTrial_VahzCadaversSpared',
   setTitleId: [2023],
   name: 'Cadaver Counter',
   releaseDate: '2012-11-30',

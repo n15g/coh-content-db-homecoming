@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Decimator: BadgeData = {
   type: 'achievement',
   key: 'decimator',
+  gameId: 'P_Decimator',
   setTitleId: [2358],
   name: 'Decimator',
   releaseDate: '2012-11-30',

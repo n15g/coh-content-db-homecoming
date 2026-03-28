@@ -4,6 +4,7 @@ import { DefenderOfTruth } from '../achievement/defender-of-truth'
 export const FireThornCaster: BadgeData = {
   type: 'gladiator',
   key: 'fire-thorn-caster',
+  gameId: 'FireCaster',
   setTitleId: [486],
   name: 'Fire Thorn Caster',
   releaseDate: '2012-11-30',

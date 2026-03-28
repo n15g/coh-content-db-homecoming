@@ -5,6 +5,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const PortalParter: BadgeData = {
   type: 'exploration',
   key: 'portal-parter',
+  gameId: 'PeregrineIslandTour1',
   setTitleId: [144],
   name: 'Portal Parter',
   releaseDate: '2012-11-30',

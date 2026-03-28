@@ -4,6 +4,7 @@ import { PocketD } from '../../zone/pocket-d'
 export const BigTime: BadgeData = {
   type: 'exploration',
   key: 'big-time',
+  gameId: 'BigTime',
   setTitleId: [717],
   name: 'Big Time',
   releaseDate: '2012-11-30',

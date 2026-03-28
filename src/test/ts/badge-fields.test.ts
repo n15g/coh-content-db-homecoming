@@ -1,5 +1,5 @@
 import { BADGES } from '../../main/ts/badge/_badges'
-import { CohContentDatabase } from 'coh-content-db'
+import { CohContentDatabase, OriginBased } from 'coh-content-db'
 import { HOMECOMING } from '../../main/ts'
 
 const TEST_DATABASE = new CohContentDatabase(HOMECOMING)
@@ -15,6 +15,28 @@ describe('Badge Fields', () => {
     if (errors.length > 0) {
       throw errors.join('\n')
     }
+  })
+
+  describe('gameId', () => {
+    test('should not contain any duplicate values', () => {
+      const errors: string[] = []
+      const gameIds = new Set<string>()
+
+      for (const badge of BADGES) {
+        const ids = new OriginBased<string>(badge.gameId)
+        if (gameIds.has(ids.primal)) errors.push(`['${badge.key}'].gameId ['${badge.gameId}'] is a duplicate.`)
+        gameIds.add(ids.primal)
+
+        if (ids.praetorian) {
+          if (gameIds.has(ids.praetorian)) errors.push(`['${badge.key}'].gameId ['${badge.gameId}'] is a duplicate.`)
+          gameIds.add(ids.praetorian)
+        }
+      }
+
+      if (errors.length > 0) {
+        throw errors.join('\n')
+      }
+    })
   })
 
   describe('name', () => {

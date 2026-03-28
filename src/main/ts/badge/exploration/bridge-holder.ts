@@ -4,6 +4,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const BridgeHolder: BadgeData = {
   type: 'exploration',
   key: 'bridge-holder',
+  gameId: 'TalosIslandTour6',
   setTitleId: [1548],
   name: 'Bridge Holder',
   releaseDate: '2012-11-30',

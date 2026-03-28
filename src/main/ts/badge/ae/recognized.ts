@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Recognized: BadgeData = {
   type: 'architect-entertainment',
   key: 'recognized',
+  gameId: 'ArchitectTotalStars100',
   setTitleId: [1304],
   name: 'Recognized',
   releaseDate: '2012-11-30',

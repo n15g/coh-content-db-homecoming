@@ -5,6 +5,7 @@ import { PocketD } from '../../zone/pocket-d'
 export const Upgraded: BadgeData = {
   type: 'exploration',
   key: 'upgraded',
+  gameId: 'KingsRowTour2',
   setTitleId: [97],
   name: 'Upgraded',
   releaseDate: '2012-11-30',

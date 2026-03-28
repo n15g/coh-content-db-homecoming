@@ -5,6 +5,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const SpiritOfTheCity: BadgeData = {
   type: 'exploration',
   key: 'spirit-of-the-city',
+  gameId: 'SewerNetworkTour1',
   setTitleId: [1829],
   name: 'Spirit of the City',
   releaseDate: '2012-11-30',

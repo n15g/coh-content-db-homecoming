@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Rash: BadgeData = {
   type: 'ouroboros',
   key: 'rash',
+  gameId: 'DeBuffedPartyatSL6',
   setTitleId: [873],
   name: 'Rash',
   releaseDate: '2012-11-30',

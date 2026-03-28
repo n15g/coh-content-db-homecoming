@@ -4,6 +4,7 @@ import { EchoFaultline } from '../../zone/echo-faultline'
 export const SpareParts: BadgeData = {
   type: 'exploration',
   key: 'spare-parts',
+  gameId: 'FaultlineTour11',
   setTitleId: [2402],
   name: 'Spare Parts',
   releaseDate: '2019-06-01',

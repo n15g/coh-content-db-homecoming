@@ -4,6 +4,7 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 export const Tank: BadgeData = {
   type: 'exploration',
   key: 'tank',
+  gameId: 'GalaxyCityTour4',
   setTitleId: [94],
   name: 'Tank',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const Troubleshooter: BadgeData = {
   type: 'ouroboros',
   key: 'troubleshooter',
+  gameId: 'Flashback5',
   setTitleId: [934],
   name: 'Troubleshooter',
   releaseDate: '2012-11-30',

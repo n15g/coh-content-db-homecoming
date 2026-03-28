@@ -4,6 +4,7 @@ import { GetSamplesOfTheFacemakersChemicals } from '../../mission/get-samples-of
 export const MaskMaker: BadgeData = {
   type: 'accomplishment',
   key: 'mask-maker',
+  gameId: 'VSL2.5MissionB',
   setTitleId: [333],
   name: 'Mask Maker',
   releaseDate: '2012-11-30',

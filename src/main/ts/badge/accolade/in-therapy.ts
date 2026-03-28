@@ -8,6 +8,7 @@ import { ManInBlack } from '../defeat/man-in-black'
 export const InTherapy: BadgeData = {
   type: 'accolade',
   key: 'in-therapy',
+  gameId: 'Megalomaniac',
   setTitleId: [537],
   name: [
     { alignment: 'hero', value: 'In Therapy' },

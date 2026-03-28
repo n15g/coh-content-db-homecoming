@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FortKnox: BadgeData = {
   type: 'defeat',
   key: 'fort-knox',
+  gameId: 'FortKnox',
   setTitleId: [310],
   name: 'Fort Knox',
   releaseDate: '2012-11-30',

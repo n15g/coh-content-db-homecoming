@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CannonFodder: BadgeData = {
   type: 'day-job',
   key: 'cannon-fodder',
+  gameId: 'DJ_Arachnos_Agent',
   setTitleId: [1052],
   name: [
     { alignment: 'hero', value: 'Cannon Fodder' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Intrepid: BadgeData = {
   type: 'ouroboros',
   key: 'intrepid',
+  gameId: 'BuffedEnemiesatSL9',
   setTitleId: [885],
   name: 'Intrepid',
   releaseDate: '2012-11-30',

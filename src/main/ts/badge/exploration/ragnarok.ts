@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Ragnarok: BadgeData = {
   type: 'exploration',
   key: 'ragnarok',
+  gameId: 'ReclusesVictoryTour2',
   setTitleId: [288],
   name: 'Ragnarok',
   releaseDate: '2012-11-30',

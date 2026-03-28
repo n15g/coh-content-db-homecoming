@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Frenzied: BadgeData = {
   type: 'achievement',
   key: 'frenzied',
+  gameId: 'P_VillainAlignmentPower',
   setTitleId: [1457],
   name: 'Frenzied',
   releaseDate: '2012-11-30',

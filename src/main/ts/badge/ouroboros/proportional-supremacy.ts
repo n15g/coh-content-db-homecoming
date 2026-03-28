@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ProportionalSupremacy: BadgeData = {
   type: 'ouroboros',
   key: 'proportional-supremacy',
+  gameId: 'LivesTeamPool3',
   setTitleId: [857],
   name: 'Proportional Supremacy',
   releaseDate: '2012-11-30',

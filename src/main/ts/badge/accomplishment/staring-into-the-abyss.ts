@@ -4,6 +4,7 @@ import { HuntingTheHunters } from '../../mission/hunting-the-hunters'
 export const StaringIntoTheAbyss: BadgeData = {
   type: 'accomplishment',
   key: 'staring-into-the-abyss',
+  gameId: 'Mission_i28_Ziegler',
   setTitleId: [2559],
   name: 'Staring Into The Abyss',
   releaseDate: '2025-06-17',

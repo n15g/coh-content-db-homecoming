@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Voyager: BadgeData = {
   type: 'achievement',
   key: 'voyager',
+  gameId: ['1250Badges', 'P_Badges_1250'],
   setTitleId: [1583, 1668],
   name: [
     { value: 'Voyager' },

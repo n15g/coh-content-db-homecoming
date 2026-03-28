@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Refrained: BadgeData = {
   type: 'ouroboros',
   key: 'refrained',
+  gameId: 'NoTravelPowersatSL2',
   setTitleId: [895],
   name: 'Refrained',
   releaseDate: '2012-11-30',

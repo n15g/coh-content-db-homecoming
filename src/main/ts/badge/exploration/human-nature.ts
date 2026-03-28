@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const HumanNature: BadgeData = {
   type: 'exploration',
   key: 'human-nature',
+  gameId: 'CimeroraTour6',
   setTitleId: [2466],
   name: 'Human Nature',
   releaseDate: '2020-11-26',

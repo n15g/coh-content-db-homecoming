@@ -4,6 +4,7 @@ import { PeregrineIsland } from '../../zone/peregrine-island'
 export const RiktiGoneWild: BadgeData = {
   type: 'exploration',
   key: 'rikti-gone-wild',
+  gameId: 'PeregrineIslandTour5',
   setTitleId: [1575],
   name: 'Rikti Gone Wild',
   releaseDate: '2012-11-30',

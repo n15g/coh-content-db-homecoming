@@ -4,6 +4,7 @@ import { GoodVillainsNeverDie } from '../../mission/good-villains-never-die'
 export const ExplosiveFinale: BadgeData = {
   type: 'accomplishment',
   key: 'explosive-finale',
+  gameId: 'I11VillainStoryArc2Complete',
   setTitleId: [1586],
   name: 'Explosive Finale',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 export const OnTheShouldersOfGiants: BadgeData = {
   type: 'exploration',
   key: 'on-the-shoulders-of-giants',
+  gameId: 'KallistiWharfTour1',
   setTitleId: [2449],
   name: 'On the Shoulders of Giants',
   releaseDate: '2020-11-26',

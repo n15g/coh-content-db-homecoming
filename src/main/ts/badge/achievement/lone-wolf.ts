@@ -4,6 +4,7 @@ import { DreamDoctor } from '../../contact/dream-doctor'
 export const LoneWolf: BadgeData = {
   type: 'achievement',
   key: 'lone-wolf',
+  gameId: 'Mission_DA_Zone_Achievement_03',
   setTitleId: [2202],
   name: 'Lone Wolf',
   releaseDate: '2012-11-30',

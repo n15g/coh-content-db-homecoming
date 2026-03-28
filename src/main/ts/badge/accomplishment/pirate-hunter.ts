@@ -4,6 +4,7 @@ import { SilverMantisStrikeForce } from '../../mission/silver-mantis-strike-forc
 export const PirateHunter: BadgeData = {
   type: 'accomplishment',
   key: 'pirate-hunter',
+  gameId: 'SkyRaiderSF',
   setTitleId: [513],
   name: [
     { alignment: 'hero', value: 'Pirate Hunter' },

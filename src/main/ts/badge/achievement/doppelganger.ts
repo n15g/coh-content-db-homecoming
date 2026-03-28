@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Doppelganger: BadgeData = {
   type: 'achievement',
   key: 'doppelganger',
+  gameId: 'AetherCostume2',
   setTitleId: [2501],
   name: 'Doppelganger',
   releaseDate: '2020-11-26',

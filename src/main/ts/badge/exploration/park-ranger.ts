@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const ParkRanger: BadgeData = {
   type: 'exploration',
   key: 'park-ranger',
+  gameId: 'P_ParkRanger',
   setTitleId: [1632],
   name: 'Park Ranger',
   releaseDate: '2012-11-30',

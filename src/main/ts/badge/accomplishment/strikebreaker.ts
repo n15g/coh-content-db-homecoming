@@ -4,6 +4,7 @@ import { BustUpTheDockworkersStrike } from '../../mission/bust-up-the-dockworker
 export const Strikebreaker: BadgeData = {
   type: 'accomplishment',
   key: 'strikebreaker',
+  gameId: 'VSL4MissionA',
   setTitleId: [336],
   name: 'Strikebreaker',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { TheAbyss } from '../../zone/the-abyss'
 export const AbyssalGaze: BadgeData = {
   type: 'exploration',
   key: 'abyssal-gaze',
+  gameId: 'AbyssTour8',
   setTitleId: [1867],
   name: 'Abyssal Gaze',
   releaseDate: '2012-11-30',

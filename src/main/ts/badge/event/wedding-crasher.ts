@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WeddingCrasher: BadgeData = {
   type: 'event',
   key: 'wedding-crasher',
+  gameId: 'ValentineWeddingVillain',
   setTitleId: [2548],
   name: 'Wedding Crasher',
   releaseDate: '2025-02-10',

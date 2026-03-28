@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const OuroborosMender: BadgeData = {
   type: 'ouroboros',
   key: 'ouroboros-mender',
+  gameId: 'Flashback50',
   setTitleId: [943],
   name: 'Ouroboros Mender',
   releaseDate: '2012-11-30',

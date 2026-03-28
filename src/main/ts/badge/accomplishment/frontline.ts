@@ -4,6 +4,7 @@ import { StopTheCircleOfThornsFromContactingAnAlternateWorld } from '../../missi
 export const Frontline: BadgeData = {
   type: 'accomplishment',
   key: 'frontline',
+  gameId: 'SL7MissionB',
   setTitleId: [81],
   name: 'Frontline',
   releaseDate: '2012-11-30',

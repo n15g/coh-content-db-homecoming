@@ -4,6 +4,7 @@ import { SuperSpy } from '../exploration/super-spy'
 export const PenumbraEliteAdjutant: BadgeData = {
   type: 'gladiator',
   key: 'penumbra-elite-adjutant',
+  gameId: 'Penumbra',
   setTitleId: [492],
   name: 'Penumbra Elite Adjutant',
   releaseDate: '2012-11-30',

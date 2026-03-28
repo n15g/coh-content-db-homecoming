@@ -4,6 +4,7 @@ import { TheChantry } from '../../zone/the-chantry'
 export const KingOfPain: BadgeData = {
   type: 'exploration',
   key: 'king-of-pain',
+  gameId: 'ChantryTour1',
   setTitleId: [1813],
   name: [
     { sex: 'M', value: 'King of Pain' },

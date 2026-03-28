@@ -4,6 +4,7 @@ import { Politician } from '../exploration/politician'
 export const LongbowWarden: BadgeData = {
   type: 'gladiator',
   key: 'longbow-warden',
+  gameId: 'LongbowTanker',
   setTitleId: [455],
   name: 'Longbow Warden',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { Grandville } from '../../zone/grandville'
 export const TheRoarOfTheBeast: BadgeData = {
   type: 'exploration',
   key: 'the-roar-of-the-beast',
+  gameId: 'MonsterIslandTour2',
   setTitleId: [1869],
   name: 'The Roar of the Beast',
   releaseDate: '2012-11-30',

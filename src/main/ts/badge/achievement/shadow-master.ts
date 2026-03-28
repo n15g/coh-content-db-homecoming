@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ShadowMaster: BadgeData = {
   type: 'achievement',
   key: 'shadow-master',
+  gameId: 'IT_MAG_Challenge3',
   setTitleId: [2223],
   name: 'Shadow Master',
   releaseDate: '2012-11-30',

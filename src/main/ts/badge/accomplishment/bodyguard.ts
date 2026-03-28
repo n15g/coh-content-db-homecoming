@@ -4,6 +4,7 @@ import { TheRiktiNegotiator } from '../../mission/the-rikti-negotiator'
 export const Bodyguard: BadgeData = {
   type: 'accomplishment',
   key: 'bodyguard',
+  gameId: 'SL9MissionA',
   setTitleId: [84],
   name: 'Bodyguard',
   releaseDate: '2012-11-30',

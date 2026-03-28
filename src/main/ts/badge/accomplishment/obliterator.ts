@@ -16,6 +16,7 @@ import { CollapsingSupport } from '../../mission/collapsing-support'
 export const Obliterator: BadgeData = {
   type: 'accomplishment',
   key: 'obliterator',
+  gameId: 'P_Obliterator',
   setTitleId: [2347],
   name: 'Obliterator',
   releaseDate: '2012-11-30',

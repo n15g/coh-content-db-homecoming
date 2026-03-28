@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MissionSeeker: BadgeData = {
   type: 'architect-entertainment',
   key: 'mission-seeker',
+  gameId: 'ArchitectBadges25',
   setTitleId: [1236],
   name: 'Mission Seeker',
   releaseDate: '2024-11-19',

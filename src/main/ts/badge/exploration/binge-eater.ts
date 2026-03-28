@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const BingeEater: BadgeData = {
   type: 'exploration',
   key: 'binge-eater',
+  gameId: 'P_BingeEater',
   setTitleId: [1741],
   name: 'Binge Eater',
   releaseDate: '2012-11-30',

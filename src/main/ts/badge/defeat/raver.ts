@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Raver: BadgeData = {
   type: 'defeat',
   key: 'raver',
+  gameId: 'TrollsRaveRoundup',
   setTitleId: [218],
   name: 'Raver',
   releaseDate: '2012-11-30',

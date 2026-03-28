@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MutatedMarauder: BadgeData = {
   type: 'defeat',
   key: 'mutated-marauder',
+  gameId: 'DefeatHydra',
   setTitleId: [2583],
   name: 'Mutated Marauder',
   releaseDate: '2025-11-25',

@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const CorpseBox: BadgeData = {
   type: 'exploration',
   key: 'corpse-box',
+  gameId: 'BoomtownTour8',
   setTitleId: [1780],
   name: 'Corpse Box',
   releaseDate: '2012-11-30',

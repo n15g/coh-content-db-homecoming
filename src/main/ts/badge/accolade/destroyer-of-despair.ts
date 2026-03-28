@@ -21,6 +21,7 @@ import { LoneWolf } from '../achievement/lone-wolf'
 export const DestroyerOfDespair: BadgeData = {
   type: 'accolade',
   key: 'destroyer-of-despair',
+  gameId: 'Mission_DA_Zone_Complete',
   setTitleId: [2205],
   name: 'Destroyer of Despair',
   releaseDate: '2012-11-30',

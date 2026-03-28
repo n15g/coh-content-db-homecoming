@@ -4,6 +4,7 @@ import { AMatterOfHonor } from '../../mission/a-matter-of-honor'
 export const TheOnceAndFutureKing: BadgeData = {
   type: 'accomplishment',
   key: 'the-once-and-future-king',
+  gameId: 'i23Arc4Title',
   setTitleId: [2219],
   name: [
     { sex: 'M', value: 'The Once and Future King' },

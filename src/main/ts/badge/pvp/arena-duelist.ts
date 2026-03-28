@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ArenaDuelist: BadgeData = {
   type: 'pvp',
   key: 'arena-duelist',
+  gameId: '1WinDuel',
   setTitleId: [1341],
   name: 'Arena Duelist',
   releaseDate: '2012-11-30',

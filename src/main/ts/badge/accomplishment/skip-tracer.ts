@@ -4,6 +4,7 @@ import { CatchTheFreakshowDebtorBeforeHeSkipsTown } from '../../mission/catch-th
 export const SkipTracer: BadgeData = {
   type: 'accomplishment',
   key: 'skip-tracer',
+  gameId: 'VSL7MissionA',
   setTitleId: [342],
   name: 'Skip Tracer',
   releaseDate: '2012-11-30',

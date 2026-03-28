@@ -11,6 +11,7 @@ import { WitnessForTheFallen } from '../exploration/witness-for-the-fallen'
 export const PrimeWarden: BadgeData = {
   type: 'accolade',
   key: 'prime-warden',
+  gameId: 'FirstWardExplorer',
   setTitleId: [2056],
   name: 'Prime Warden',
   releaseDate: '2012-11-30',

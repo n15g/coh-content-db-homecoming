@@ -8,6 +8,7 @@ import { Monstrous } from '../event/monstrous'
 export const HellAndBack: BadgeData = {
   type: 'accolade',
   key: 'hell-and-back',
+  gameId: 'Halloween09Accolade',
   setTitleId: [1372],
   name: 'Hell and Back',
   releaseDate: '2012-11-30',

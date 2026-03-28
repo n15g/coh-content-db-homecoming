@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Destructive: BadgeData = {
   type: 'architect-entertainment',
   key: 'destructive',
+  gameId: 'ArchitectDestroy1',
   setTitleId: [1250],
   name: 'Destructive',
   releaseDate: '2012-11-30',

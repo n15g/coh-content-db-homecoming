@@ -4,6 +4,7 @@ import { ManticoreTaskForce } from '../../mission/manticore-task-force'
 export const ManticoresAssociate: BadgeData = {
   type: 'accomplishment',
   key: 'manticores-associate',
+  gameId: 'ManticoreTF',
   setTitleId: [65],
   name: [
     { alignment: 'hero', value: `Manticore's Associate` },

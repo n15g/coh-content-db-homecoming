@@ -8,6 +8,7 @@ import { TheHollows } from '../../zone/the-hollows'
 export const Excavator: BadgeData = {
   type: 'accolade',
   key: 'excavator',
+  gameId: 'HollowsStoryArcs',
   setTitleId: [2372],
   name: 'Excavator',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const WentworthHistoryBuff: BadgeData = {
   type: 'exploration',
   key: 'wentworth-history-buff',
+  gameId: 'KingsRowTour6',
   setTitleId: [1526],
   name: 'Wentworth History Buff',
   releaseDate: '2012-11-30',

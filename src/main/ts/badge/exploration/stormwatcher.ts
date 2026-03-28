@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const Stormwatcher: BadgeData = {
   type: 'exploration',
   key: 'stormwatcher',
+  gameId: 'FirebaseZuluTour3',
   setTitleId: [1799],
   name: 'Stormwatcher',
   releaseDate: '2012-11-30',

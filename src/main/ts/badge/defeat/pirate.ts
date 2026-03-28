@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Pirate: BadgeData = {
   type: 'defeat',
   key: 'pirate',
+  gameId: 'GhostTrap50',
   setTitleId: [248],
   name: 'Pirate',
   releaseDate: '2019-01-01',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const EarToTheStreet: BadgeData = {
   type: 'accomplishment',
   key: 'ear-to-the-street',
+  gameId: 'P_HeroAlignmentMission',
   setTitleId: [1442],
   name: 'Ear to the Street',
   releaseDate: '2012-11-30',

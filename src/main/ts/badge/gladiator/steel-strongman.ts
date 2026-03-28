@@ -4,6 +4,7 @@ import { Illusionist } from '../defeat/illusionist'
 export const SteelStrongman: BadgeData = {
   type: 'gladiator',
   key: 'steel-strongman',
+  gameId: 'Strongman',
   setTitleId: [506],
   name: 'Steel Strongman',
   releaseDate: '2012-11-30',

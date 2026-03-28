@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DefenderOfPrimalEarth: BadgeData = {
   type: 'achievement',
   key: 'defender-of-primal-earth',
+  gameId: 'PraetorianInvasion',
   setTitleId: [2024],
   name: 'Defender of Primal Earth',
   releaseDate: '2012-11-30',

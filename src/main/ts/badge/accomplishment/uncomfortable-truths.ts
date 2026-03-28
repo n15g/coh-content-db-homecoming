@@ -4,6 +4,7 @@ import { CuttingBackOldGrowth } from '../../mission/cutting-back-old-growth'
 export const UncomfortableTruths: BadgeData = {
   type: 'accomplishment',
   key: 'uncomfortable-truths',
+  gameId: 'Mission_i28_ErinWest_Bonus01',
   setTitleId: [2565],
   name: 'Uncomfortable Truths',
   releaseDate: '2025-06-17',

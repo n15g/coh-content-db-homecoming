@@ -4,6 +4,7 @@ import { TheresASuckerBornEveryMinute } from '../../mission/theres-a-sucker-born
 export const PenitentOfVice: BadgeData = {
   type: 'accomplishment',
   key: 'penitent-of-vice',
+  gameId: 'VSL3MissionA',
   setTitleId: [334],
   name: [
     { alignment: 'hero', value: 'Penitent of Vice' },

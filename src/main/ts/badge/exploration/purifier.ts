@@ -4,6 +4,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const Purifier: BadgeData = {
   type: 'exploration',
   key: 'purifier',
+  gameId: 'SkywayCityTour1',
   setTitleId: [110],
   name: [
     { alignment: 'hero', value: 'Purifier' },

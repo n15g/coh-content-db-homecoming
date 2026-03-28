@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Finder: BadgeData = {
   type: 'defeat',
   key: 'finder',
+  gameId: 'Finder',
   setTitleId: [51],
   name: 'Finder',
   releaseDate: '2012-11-30',

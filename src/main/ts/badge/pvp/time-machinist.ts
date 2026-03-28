@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const TimeMachinist: BadgeData = {
   type: 'pvp',
   key: 'time-machinist',
+  gameId: 'RVPillbox10',
   setTitleId: [564],
   name: 'Time Machinist',
   releaseDate: '2012-11-30',

@@ -7,6 +7,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const PersephoneSupplicant: BadgeData = {
   type: 'exploration',
   key: 'persephone-supplicant',
+  gameId: 'AbSewerNetworkTour8',
   setTitleId: [1828],
   name: 'Persephone Supplicant',
   releaseDate: '2012-11-30',

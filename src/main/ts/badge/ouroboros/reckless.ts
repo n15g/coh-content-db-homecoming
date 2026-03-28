@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Reckless: BadgeData = {
   type: 'ouroboros',
   key: 'reckless',
+  gameId: 'DeBuffedPartyatSL8',
   setTitleId: [875],
   name: 'Reckless',
   releaseDate: '2012-11-30',

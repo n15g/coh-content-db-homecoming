@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FreezerBurn: BadgeData = {
   type: 'defeat',
   key: 'freezer-burn',
+  gameId: '5thColumnGoliathTwins',
   setTitleId: [2496],
   name: 'Freezer Burn',
   releaseDate: '2020-11-26',

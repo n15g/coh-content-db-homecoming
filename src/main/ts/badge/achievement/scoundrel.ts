@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Scoundrel: BadgeData = {
   type: 'achievement',
   key: 'scoundrel',
+  gameId: 'P_RogueAlignment',
   setTitleId: [1452],
   name: 'Scoundrel',
   releaseDate: '2012-11-30',

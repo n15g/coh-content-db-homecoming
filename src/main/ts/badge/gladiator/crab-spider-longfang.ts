@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CrabSpiderLongfang: BadgeData = {
   type: 'gladiator',
   key: 'crab-spider-longfang',
+  gameId: 'CrabSpider',
   setTitleId: [445],
   name: 'Crab Spider Longfang',
   releaseDate: '2012-11-30',

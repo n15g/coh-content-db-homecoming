@@ -4,6 +4,7 @@ import { ILostMyDaddy } from '../../mission/i-lost-my-daddy'
 export const Rescuer: BadgeData = {
   type: 'accomplishment',
   key: 'rescuer',
+  gameId: 'YinBadge',
   setTitleId: [696],
   name: [
     { alignment: 'hero', value: 'Rescuer' },

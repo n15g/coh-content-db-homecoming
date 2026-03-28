@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const EyeOfTheStorm: BadgeData = {
   type: 'defeat',
   key: 'eye-of-the-storm',
+  gameId: 'P_DefeatMaelstrom',
   setTitleId: [1435],
   name: 'Eye of the Storm',
   releaseDate: '2012-11-30',

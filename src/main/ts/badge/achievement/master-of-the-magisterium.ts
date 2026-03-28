@@ -7,6 +7,7 @@ import { TheHardWay } from './the-hard-way'
 export const MasterOfTheMagisterium: BadgeData = {
   type: 'achievement',
   key: 'master-of-magisterium',
+  gameId: 'IT_MAG_Master',
   setTitleId: [2225],
   name: 'Master of the Magisterium',
   releaseDate: '2012-11-30',

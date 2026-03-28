@@ -4,6 +4,7 @@ import { MercyIsland } from '../../zone/mercy-island'
 export const Chum: BadgeData = {
   type: 'exploration',
   key: 'chum',
+  gameId: 'MercyIslandTour3',
   setTitleId: [265],
   name: 'Chum',
   releaseDate: '2012-11-30',

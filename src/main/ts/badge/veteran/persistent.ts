@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Persistent: BadgeData = {
   type: 'veteran',
   key: 'persistent',
+  gameId: 'Veteran96',
   setTitleId: [1613],
   name: 'Persistent',
   releaseDate: '2019-01-01',

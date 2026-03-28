@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const AlphaRanger: BadgeData = {
   type: 'exploration',
   key: 'alpha-ranger',
+  gameId: 'FirebaseZuluTour4',
   setTitleId: [1800],
   name: 'Alpha Ranger',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { PenelopeYinTaskForce } from '../../mission/penelope-yin-task-force'
 export const PenelopeYinsFriend: BadgeData = {
   type: 'accomplishment',
   key: 'penelope-yins-friend',
+  gameId: 'PenelopeYinTF',
   setTitleId: [2241],
   name: [
     { alignment: 'hero', value: `Penelope Yin's Friend` },

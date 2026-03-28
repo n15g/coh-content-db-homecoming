@@ -4,6 +4,7 @@ import { PraetoriasHiddenTreasure } from '../../mission/praetorias-hidden-treasu
 export const HamidonsEnemy: BadgeData = {
   type: 'accomplishment',
   key: 'hamidons-enemy',
+  gameId: 'Mission_SM_i24_Challenge_01',
   setTitleId: [2266],
   name: `Hamidon's Enemy`,
   releaseDate: '2012-11-30',

@@ -6,6 +6,7 @@ import { BringCitizensToVahzilokSurgeons } from '../../mission/bring-citizens-to
 export const Shrouded: BadgeData = {
   type: 'exploration',
   key: 'shrouded',
+  gameId: 'BlackShroudDimension1',
   setTitleId: [173],
   name: [
     { alignment: 'hero', value: 'Shrouded' },

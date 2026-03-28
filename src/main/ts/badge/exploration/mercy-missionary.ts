@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const MercyMissionary: BadgeData = {
   type: 'exploration',
   key: 'mercy-missionary',
+  gameId: 'P_MercyMissionary',
   setTitleId: [1631],
   name: 'Mercy Missionary',
   releaseDate: '2012-11-30',

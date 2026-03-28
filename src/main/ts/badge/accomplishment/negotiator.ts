@@ -5,6 +5,7 @@ import { GetTheClockworkOutOfTheWarehouseBeforeTheSkullsGetInvolved } from '../.
 export const Negotiator: BadgeData = {
   type: 'accomplishment',
   key: 'negotiator',
+  gameId: 'SL2Mission',
   setTitleId: [71],
   name: 'Negotiator',
   releaseDate: '2012-11-30',

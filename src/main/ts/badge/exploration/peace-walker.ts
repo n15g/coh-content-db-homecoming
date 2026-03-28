@@ -4,6 +4,7 @@ import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 export const PeaceWalker: BadgeData = {
   type: 'exploration',
   key: 'peace-walker',
+  gameId: 'CascadeArchTour2',
   setTitleId: [1806],
   name: 'Peace Walker',
   releaseDate: '2012-11-30',

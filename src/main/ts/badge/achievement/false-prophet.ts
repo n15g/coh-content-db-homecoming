@@ -4,6 +4,7 @@ import { WhatSchemesMayCome } from '../../mission/what-schemes-may-come'
 export const FalseProphet: BadgeData = {
   type: 'achievement',
   key: 'false-prophet',
+  gameId: 'Mission_LowLevel_CaD_FalseProphet',
   setTitleId: [2096],
   name: 'False Prophet',
   releaseDate: '2012-11-30',

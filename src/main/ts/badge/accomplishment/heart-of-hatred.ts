@@ -4,6 +4,7 @@ import { TheChoiceOfHopeSecondHalf } from '../../mission/the-choice-of-hope-seco
 export const HeartOfHatred: BadgeData = {
   type: 'accomplishment',
   key: 'heart-of-hatred',
+  gameId: 'Mission_DA_Arc_Complete_06',
   setTitleId: [2193],
   name: 'Heart of Hatred',
   releaseDate: '2012-11-30',

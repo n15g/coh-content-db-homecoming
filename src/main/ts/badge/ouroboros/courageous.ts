@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Courageous: BadgeData = {
   type: 'ouroboros',
   key: 'courageous',
+  gameId: 'BuffedEnemiesatSL3',
   setTitleId: [879],
   name: 'Courageous',
   releaseDate: '2012-11-30',

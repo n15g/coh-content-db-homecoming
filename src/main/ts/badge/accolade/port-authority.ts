@@ -8,6 +8,7 @@ import { AMadmansCouncil } from '../../mission/a-madmans-council'
 export const PortAuthority: BadgeData = {
   type: 'accolade',
   key: 'port-authority',
+  gameId: 'StrigaStoryArcs',
   setTitleId: [2374],
   name: 'Port Authority',
   releaseDate: '2012-11-30',

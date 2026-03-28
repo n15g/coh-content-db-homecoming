@@ -4,6 +4,7 @@ import { TheWidowInRed } from '../../mission/the-widow-in-red'
 export const WidowMaker: BadgeData = {
   type: 'event',
   key: 'widow-maker',
+  gameId: 'ValentineWidow',
   setTitleId: [2169],
   name: 'Widow Maker',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const EntrustedWithTheSecret: BadgeData = {
   type: 'ouroboros',
   key: 'entrusted-with-the-secret',
+  gameId: 'OuroborosEnabled',
   setTitleId: [933],
   name: 'Entrusted with the Secret',
   releaseDate: '2012-11-30',

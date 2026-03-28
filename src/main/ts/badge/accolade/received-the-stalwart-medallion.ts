@@ -4,6 +4,7 @@ import { FirstTerraVoltaRespecificationTrial } from '../../mission/first-terra-v
 export const ReceivedTheStalwartMedallion: BadgeData = {
   type: 'accolade',
   key: 'received-the-stalwart-medallion',
+  gameId: 'StalwartMedallionUsed',
   setTitleId: [178],
   name: [
     { alignment: 'hero', value: 'Received the Stalwart Medallion' },

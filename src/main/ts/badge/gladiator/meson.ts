@@ -4,6 +4,7 @@ import { DimensionalWarder } from '../defeat/dimensional-warder'
 export const Meson: BadgeData = {
   type: 'gladiator',
   key: 'meson',
+  gameId: 'Meson',
   setTitleId: [505],
   name: 'Meson',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { MoonfireTaskForce } from '../../mission/moonfire-task-force'
 export const HonoraryPeacebringer: BadgeData = {
   type: 'accomplishment',
   key: 'honorary-peacebringer',
+  gameId: 'StrigaTF',
   setTitleId: [412],
   name: [
     { alignment: 'hero', value: 'Honorary Peacebringer' },

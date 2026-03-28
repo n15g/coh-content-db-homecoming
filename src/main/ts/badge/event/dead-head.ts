@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DeadHead: BadgeData = {
   type: 'event',
   key: 'dead-head',
+  gameId: 'DeadHead',
   setTitleId: [188],
   name: 'Dead Head',
   releaseDate: '2012-11-30',

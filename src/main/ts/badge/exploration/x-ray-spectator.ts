@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const XRaySpectator: BadgeData = {
   type: 'exploration',
   key: 'x-ray-spectator',
+  gameId: 'FirebaseZuluTour6',
   setTitleId: [1802],
   name: 'X-Ray Spectator',
   releaseDate: '2012-11-30',

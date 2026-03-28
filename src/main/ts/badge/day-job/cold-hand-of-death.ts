@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ColdHandOfDeath: BadgeData = {
   type: 'day-job',
   key: 'cold-hand-of-death',
+  gameId: 'DJ_DarkAstoria',
   setTitleId: [2178],
   name: 'Cold Hand of Death',
   releaseDate: '2012-11-30',

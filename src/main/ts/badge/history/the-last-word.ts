@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const TheLastWord: BadgeData = {
   type: 'history',
   key: 'the-last-word',
+  gameId: 'FirstWardHistory',
   setTitleId: [2064],
   name: 'The Last Word',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const HiddenGetaway: BadgeData = {
   type: 'exploration',
   key: 'hidden-getaway',
+  gameId: 'PortOakesTour8',
   setTitleId: [1490],
   name: 'Hidden Getaway',
   releaseDate: '2012-11-30',

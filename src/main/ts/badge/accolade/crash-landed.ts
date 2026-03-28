@@ -11,6 +11,7 @@ import { Shielded } from '../exploration/shielded'
 export const CrashLanded: BadgeData = {
   type: 'accolade',
   key: 'crash-landed',
+  gameId: 'RiktiCrashSiteExplorer',
   setTitleId: [2330],
   name: 'Crash Landed',
   releaseDate: '2012-11-30',

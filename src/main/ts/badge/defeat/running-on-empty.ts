@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const RunningOnEmpty: BadgeData = {
   type: 'defeat',
   key: 'running-on-empty',
+  gameId: 'DefeatSapper',
   setTitleId: [2441],
   name: 'Running on Empty',
   releaseDate: '2020-11-26',

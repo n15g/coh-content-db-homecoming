@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Patroller: BadgeData = {
   type: 'day-job',
   key: 'patroller',
+  gameId: ['DJ_On_Patrol', 'P_DJ_On_Patrol'],
   setTitleId: [1036, 1757],
   name: [
     { alignment: 'hero', value: 'Patroller' },

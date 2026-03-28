@@ -8,6 +8,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const JustSaidNoToSuperadine: BadgeData = {
   type: 'history',
   key: 'just-said-no-to-superadine',
+  gameId: 'Superadine',
   setTitleId: [152],
   name: 'Just Said No to Superadine',
   releaseDate: '2012-11-30',

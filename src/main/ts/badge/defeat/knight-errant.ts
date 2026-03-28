@@ -4,6 +4,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const KnightErrant: BadgeData = {
   type: 'defeat',
   key: 'knight-errant',
+  gameId: 'ClockworkPaladinEventBadge',
   setTitleId: [200],
   name: [
     { alignment: 'hero', value: 'Knight Errant' },

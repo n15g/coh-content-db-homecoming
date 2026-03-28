@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Weaponeer: BadgeData = {
   type: 'invention',
   key: 'weaponeer',
+  gameId: 'InventionDamage2',
   setTitleId: [796],
   name: 'Weaponeer',
   releaseDate: '2012-11-30',

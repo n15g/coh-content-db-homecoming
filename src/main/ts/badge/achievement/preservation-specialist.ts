@@ -4,6 +4,7 @@ import { TheUndergroundTrial } from '../../mission/the-underground-trial'
 export const PreservationSpecialist: BadgeData = {
   type: 'achievement',
   key: 'preservation-specialist',
+  gameId: 'IT_Underground_AllBombs',
   setTitleId: [1998],
   name: 'Preservation Specialist',
   releaseDate: '2012-11-30',

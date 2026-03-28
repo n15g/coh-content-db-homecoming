@@ -4,6 +4,7 @@ import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
 export const Eyewitness: BadgeData = {
   type: 'exploration',
   key: 'eyewitness',
+  gameId: 'RiktiWarZoneTour13',
   setTitleId: [759],
   name: 'Eyewitness',
   releaseDate: '2012-11-30',

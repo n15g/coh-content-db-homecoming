@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Commuter: BadgeData = {
   type: 'day-job',
   key: 'commuter',
+  gameId: 'DJ_Commuter',
   setTitleId: [1030],
   name: [
     { alignment: 'hero', value: 'Commuter' },

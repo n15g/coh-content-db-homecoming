@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const NoAuthority: BadgeData = {
   type: 'defeat',
   key: 'no-authority',
+  gameId: 'P_DefeatPPD',
   setTitleId: [1467],
   name: 'No Authority',
   releaseDate: '2012-11-30',

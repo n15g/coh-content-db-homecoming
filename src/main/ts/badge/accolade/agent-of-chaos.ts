@@ -16,6 +16,7 @@ import { OhWretchedMan } from '../../mission/oh-wretched-man'
 export const AgentOfChaos: BadgeData = {
   type: 'accolade',
   key: 'agent-of-chaos',
+  gameId: 'MercyIslandStoryArcs',
   setTitleId: [2344],
   name: 'Agent of Chaos',
   releaseDate: '2012-11-30',

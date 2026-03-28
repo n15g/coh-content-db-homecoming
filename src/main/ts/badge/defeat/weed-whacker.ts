@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WeedWhacker: BadgeData = {
   type: 'defeat',
   key: 'weed-whacker',
+  gameId: 'WeedWhacker',
   setTitleId: [308],
   name: 'Weed Whacker',
   releaseDate: '2012-11-30',

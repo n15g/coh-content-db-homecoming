@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const Burgermeister: BadgeData = {
   type: 'exploration',
   key: 'burgermeister',
+  gameId: 'BloodyBayTour6',
   setTitleId: [2412],
   name: [
     { sex: 'M', value: 'Burgermeister' },

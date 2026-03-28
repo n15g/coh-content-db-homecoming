@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const BaseJumper: BadgeData = {
   type: 'exploration',
   key: 'base-jumper',
+  gameId: 'RiktiWarZoneTour6',
   setTitleId: [752],
   name: 'Base Jumper',
   releaseDate: '2012-11-30',

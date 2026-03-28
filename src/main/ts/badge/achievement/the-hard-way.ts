@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheHardWay: BadgeData = {
   type: 'achievement',
   key: 'the-hard-way',
+  gameId: 'IT_MAG_Challenge4',
   setTitleId: [2224],
   name: 'The Hard Way',
   releaseDate: '2012-11-30',

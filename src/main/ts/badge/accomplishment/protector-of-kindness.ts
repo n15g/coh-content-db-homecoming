@@ -4,6 +4,7 @@ import { JustinAugustineTaskForce } from '../../mission/justin-augustine-task-fo
 export const ProtectorOfKindness: BadgeData = {
   type: 'accomplishment',
   key: 'protector-of-kindness',
+  gameId: 'ShardTF3',
   setTitleId: [425],
   name: [
     { alignment: 'hero', value: 'Protector of Kindness' },

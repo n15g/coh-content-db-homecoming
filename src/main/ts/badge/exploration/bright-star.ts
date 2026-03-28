@@ -4,6 +4,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const BrightStar: BadgeData = {
   type: 'exploration',
   key: 'bright-star',
+  gameId: 'SteelCanyonTour4',
   setTitleId: [109],
   name: 'Bright Star',
   releaseDate: '2012-11-30',

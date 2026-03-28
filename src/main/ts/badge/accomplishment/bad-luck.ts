@@ -4,6 +4,7 @@ import { TheUnluckyArtifact } from '../../mission/the-unlucky-artifact'
 export const BadLuck: BadgeData = {
   type: 'accomplishment',
   key: 'bad-luck',
+  gameId: 'VSL6MissionA',
   setTitleId: [340],
   name: 'Bad Luck',
   releaseDate: '2012-11-30',

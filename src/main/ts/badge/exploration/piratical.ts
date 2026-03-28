@@ -4,6 +4,7 @@ import { SirensCall } from '../../zone/sirens-call'
 export const Piratical: BadgeData = {
   type: 'exploration',
   key: 'piratical',
+  gameId: 'SirensCallTour4',
   setTitleId: [262],
   name: 'Piratical',
   releaseDate: '2020-11-26',

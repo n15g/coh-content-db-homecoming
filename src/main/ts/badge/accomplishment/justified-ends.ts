@@ -4,6 +4,7 @@ import { TheSunlightAndTheSpotlight } from '../../mission/the-sunlight-and-the-s
 export const JustifiedEnds: BadgeData = {
   type: 'accomplishment',
   key: 'justified-ends',
+  gameId: 'Mission_i28_RobertKogan',
   setTitleId: [2562],
   name: 'Justified Ends',
   releaseDate: '2025-06-17',

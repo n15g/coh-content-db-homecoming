@@ -11,6 +11,7 @@ import { Unlucky } from '../exploration/unlucky'
 export const IPAddress: BadgeData = {
   type: 'accolade',
   key: 'ip-address',
+  gameId: 'IndependencePortExplorer',
   setTitleId: [1557],
   name: 'IP Address',
   releaseDate: '2012-11-30',

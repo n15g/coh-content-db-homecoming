@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const Airlift: BadgeData = {
   type: 'exploration',
   key: 'airlift',
+  gameId: 'P_Airlift',
   setTitleId: [1724],
   name: 'Airlift',
   releaseDate: '2012-11-30',

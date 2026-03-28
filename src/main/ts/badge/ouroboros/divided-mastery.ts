@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DividedMastery: BadgeData = {
   type: 'ouroboros',
   key: 'divided-mastery',
+  gameId: 'LivesTeamPool1',
   setTitleId: [856],
   name: 'Divided Mastery',
   releaseDate: '2012-11-30',

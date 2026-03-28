@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SnoozeButton: BadgeData = {
   type: 'defeat',
   key: 'snooze-button',
+  gameId: 'DefeatAwakened',
   setTitleId: [2058],
   name: 'Snooze Button',
   releaseDate: '2012-11-30',

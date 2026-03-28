@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const Cluttered: BadgeData = {
   type: 'exploration',
   key: 'cluttered',
+  gameId: 'P_Cluttered',
   setTitleId: [1742],
   name: 'Cluttered',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const SewerStalker: BadgeData = {
   type: 'exploration',
   key: 'sewer-stalker',
+  gameId: 'SewerNetworkTour5',
   setTitleId: [1833],
   name: 'Sewer Stalker',
   releaseDate: '2012-11-30',

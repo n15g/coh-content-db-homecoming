@@ -10,6 +10,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const Determined: BadgeData = {
   type: 'accolade',
   key: 'determined',
+  gameId: 'DarkAstoriaStoryArcs',
   setTitleId: [2343],
   name: 'Determined',
   releaseDate: '2012-11-30',

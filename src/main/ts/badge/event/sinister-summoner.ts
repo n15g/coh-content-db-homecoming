@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SinisterSummoner: BadgeData = {
   type: 'event',
   key: 'sinister-summoner',
+  gameId: 'T_H2021_Black_Whip',
   setTitleId: [2473],
   name: 'Sinister Summoner',
   releaseDate: '2020-11-26',

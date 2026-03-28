@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MummysCurse: BadgeData = {
   type: 'event',
   key: 'mummys-curse',
+  gameId: 'Halloween22EliteZombie',
   setTitleId: [2505],
   name: `Mummy's Curse`,
   releaseDate: '2020-11-26',

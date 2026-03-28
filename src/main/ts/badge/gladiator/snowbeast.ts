@@ -4,6 +4,7 @@ import { ToyCollector } from '../event/toy-collector'
 export const Snowbeast: BadgeData = {
   type: 'gladiator',
   key: 'snowbeast',
+  gameId: 'WinterMinion',
   setTitleId: [530],
   name: 'Snowbeast',
   releaseDate: '2012-11-30',

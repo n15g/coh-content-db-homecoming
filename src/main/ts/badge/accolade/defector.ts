@@ -5,6 +5,7 @@ import { Banker } from '../day-job/banker'
 export const Defector: BadgeData = {
   type: 'accolade',
   key: 'defector',
+  gameId: 'DJ_Black_Ops',
   setTitleId: [1069],
   name: [
     { alignment: 'hero', value: 'Defector' },

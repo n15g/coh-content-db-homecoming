@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Invulnerable: BadgeData = {
   type: 'achievement',
   key: 'invulnerable',
+  gameId: ['Invulnerable', 'P_Damage_50M'],
   setTitleId: [231, 1679],
   name: [
     { value: 'Invulnerable' },

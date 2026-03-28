@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const JacksWrath: BadgeData = {
   type: 'exploration',
   key: 'jacks-wrath',
+  gameId: 'CroatoaTour6',
   setTitleId: [1542],
   name: `Jack's Wrath`,
   releaseDate: '2012-11-30',

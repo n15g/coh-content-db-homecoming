@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Contributor: BadgeData = {
   type: 'ouroboros',
   key: 'contributor',
+  gameId: 'ArchetypePowersOnlyatSL2',
   setTitleId: [886],
   name: 'Contributor',
   releaseDate: '2012-11-30',

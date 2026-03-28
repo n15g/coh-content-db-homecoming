@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const OnTheWaterfront: BadgeData = {
   type: 'exploration',
   key: 'on-the-waterfront',
+  gameId: 'P_Waterfront',
   setTitleId: [1594],
   name: 'On the Waterfront',
   releaseDate: '2012-11-30',

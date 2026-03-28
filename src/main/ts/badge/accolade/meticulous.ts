@@ -8,6 +8,7 @@ import { Trusting } from '../event/trusting'
 export const Meticulous: BadgeData = {
   type: 'accolade',
   key: 'meticulous',
+  gameId: 'Halloween2010Accolade',
   setTitleId: [1773],
   name: 'Meticulous',
   releaseDate: '2012-11-30',

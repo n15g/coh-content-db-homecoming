@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DimensionalExplorer: BadgeData = {
   type: 'day-job',
   key: 'dimensional-explorer',
+  gameId: 'DJ_Dimensional_Explorer',
   setTitleId: [1032],
   name: [
     { alignment: 'hero', value: 'Dimensional Explorer' },

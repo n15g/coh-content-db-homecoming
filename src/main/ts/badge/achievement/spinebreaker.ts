@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Spinebreaker: BadgeData = {
   type: 'achievement',
   key: 'spinebreaker',
+  gameId: 'IT_DD_TimeChallenge',
   setTitleId: [2164],
   name: 'Spinebreaker',
   releaseDate: '2012-11-30',

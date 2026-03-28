@@ -11,6 +11,7 @@ import { ScrapheapOfHistory } from '../exploration/scrapheap-of-history'
 export const UtilitiesCommission: BadgeData = {
   type: 'accolade',
   key: 'utilities-commission',
+  gameId: 'TerraVoltaExplorer',
   setTitleId: [1886],
   name: 'Utilities Commission',
   releaseDate: '2012-11-30',

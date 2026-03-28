@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const TheNewBoss: BadgeData = {
   type: 'exploration',
   key: 'the-new-boss',
+  gameId: 'P_TheNewBoss',
   setTitleId: [1748],
   name: 'The New Boss',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const Regal: BadgeData = {
   type: 'exploration',
   key: 'regal',
+  gameId: 'BoomtownTour2',
   setTitleId: [115],
   name: 'Regal',
   releaseDate: '2012-11-30',

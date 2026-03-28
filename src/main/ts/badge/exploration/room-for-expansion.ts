@@ -6,6 +6,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const RoomForExpansion: BadgeData = {
   type: 'exploration',
   key: 'room-for-expansion',
+  gameId: 'SkywayCityTour6',
   setTitleId: [1536],
   name: 'Room for Expansion',
   releaseDate: '2012-11-30',

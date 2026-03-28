@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const WashedUp: BadgeData = {
   type: 'exploration',
   key: 'washed-up',
+  gameId: 'PortOakesTour2',
   setTitleId: [252],
   name: 'Washed Up',
   releaseDate: '2012-11-30',

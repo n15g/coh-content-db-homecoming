@@ -4,6 +4,7 @@ import { StoneCold } from '../accomplishment/stone-cold'
 export const MookCapo: BadgeData = {
   type: 'gladiator',
   key: 'mook-capo',
+  gameId: 'Capo',
   setTitleId: [456],
   name: 'Mook Capo',
   releaseDate: '2012-11-30',

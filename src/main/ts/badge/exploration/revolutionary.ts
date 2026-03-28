@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const Revolutionary: BadgeData = {
   type: 'exploration',
   key: 'revolutionary',
+  gameId: 'MayhemMap5',
   setTitleId: [559],
   name: [
     { alignment: 'hero', value: 'Revolutionary' },

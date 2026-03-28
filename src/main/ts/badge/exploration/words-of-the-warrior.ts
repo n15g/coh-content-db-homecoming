@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const WordsOfTheWarrior: BadgeData = {
   type: 'exploration',
   key: 'words-of-the-warrior',
+  gameId: 'StrigaTour5',
   setTitleId: [1787],
   name: 'Words of the Warrior',
   releaseDate: '2012-11-30',

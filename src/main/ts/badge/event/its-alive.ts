@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ItsAlive: BadgeData = {
   type: 'event',
   key: 'its-alive',
+  gameId: 'T_H2011_Alive',
   setTitleId: [2087],
   name: `It's Alive!`,
   releaseDate: '2012-11-30',

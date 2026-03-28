@@ -4,6 +4,7 @@ import { RetrieveTheStolenWeaponsFromTheFreakshow } from '../../mission/retrieve
 export const Pwnz: BadgeData = {
   type: 'accomplishment',
   key: 'pwnz',
+  gameId: 'SL4MissionB',
   setTitleId: [75],
   name: 'Pwnz',
   releaseDate: '2012-11-30',

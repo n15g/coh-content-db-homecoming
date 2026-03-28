@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Popular: BadgeData = {
   type: 'achievement',
   key: 'popular',
+  gameId: ['Billionaire', 'P_Money_250M'],
   setTitleId: [243, 1703],
   name: [
     { value: 'Popular' },

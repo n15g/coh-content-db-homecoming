@@ -4,6 +4,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const Entertainer: BadgeData = {
   type: 'event',
   key: 'entertainer',
+  gameId: 'Anniversary4',
   setTitleId: [972],
   name: 'Entertainer',
   releaseDate: '2012-11-30',

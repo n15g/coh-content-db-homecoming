@@ -7,6 +7,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const TerrorOfTheVahzilok: BadgeData = {
   type: 'exploration',
   key: 'terror-of-the-vahzilok',
+  gameId: 'SewerNetworkTour7',
   setTitleId: [1835],
   name: 'Terror of the Vahzilok',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GiftWhichKeepsGiving: BadgeData = {
   type: 'event',
   key: 'gift-which-keeps-giving',
+  gameId: 'Holiday2011Give',
   setTitleId: [2088],
   name: 'Gift Which Keeps Giving',
   releaseDate: '2012-11-30',

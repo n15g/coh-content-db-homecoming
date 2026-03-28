@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TripleThreat: BadgeData = {
   type: 'achievement',
   key: 'triple-threat',
+  gameId: 'IT_MAG_Challenge1',
   setTitleId: [2221],
   name: 'Triple Threat',
   releaseDate: '2012-11-30',

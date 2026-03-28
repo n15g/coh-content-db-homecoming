@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Entangled: BadgeData = {
   type: 'achievement',
   key: 'entangled',
+  gameId: ['Entangled', 'P_Held_30Min'],
   setTitleId: [19, 1694],
   name: [
     { alignment: 'hero', value: 'Entangled' },

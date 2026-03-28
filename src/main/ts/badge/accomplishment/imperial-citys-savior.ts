@@ -4,6 +4,7 @@ import { TheEmperorsSword } from '../../mission/the-emperors-sword'
 export const ImperialCitysSavior: BadgeData = {
   type: 'accomplishment',
   key: 'imperial-citys-savior',
+  gameId: 'i23IncarnateArcComplete',
   setTitleId: [2217],
   name: `Imperial City's Savior`,
   releaseDate: '2012-11-30',

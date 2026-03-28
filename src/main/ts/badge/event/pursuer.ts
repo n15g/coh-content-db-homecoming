@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Pursuer: BadgeData = {
   type: 'event',
   key: 'pursuer',
+  gameId: 'CoVAnniversary',
   setTitleId: [699],
   name: [
     { alignment: 'hero', value: 'Pursuer' },

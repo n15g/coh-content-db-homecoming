@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DoubleFeature: BadgeData = {
   type: 'event',
   key: 'double-feature',
+  gameId: 'SummerEvent_Complete',
   setTitleId: [2242],
   name: 'Double Feature',
   releaseDate: '2012-11-30',

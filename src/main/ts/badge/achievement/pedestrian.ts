@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Pedestrian: BadgeData = {
   type: 'achievement',
   key: 'pedestrian',
+  gameId: 'MayhemImpounder',
   setTitleId: [550],
   name: [
     { alignment: 'hero', value: 'Pedestrian' },

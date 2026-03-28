@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ChromaticCombatant: BadgeData = {
   type: 'accomplishment',
   key: 'chromatic-combatant',
+  gameId: 'Labyrinth_Test_Apathy',
   setTitleId: [2576],
   name: 'Chromatic Combatant',
   releaseDate: '2025-11-25',

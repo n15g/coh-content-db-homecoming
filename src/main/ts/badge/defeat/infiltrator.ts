@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Infiltrator: BadgeData = {
   type: 'defeat',
   key: 'infiltrator',
+  gameId: 'Infiltrator',
   setTitleId: [42],
   name: 'Infiltrator',
   releaseDate: '2012-11-30',

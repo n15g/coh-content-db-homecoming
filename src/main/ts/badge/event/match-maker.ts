@@ -6,6 +6,7 @@ import { DJZero } from '../../contact/dj-zero'
 export const MatchMaker: BadgeData = {
   type: 'event',
   key: 'match-maker',
+  gameId: 'ValentineDelivery',
   setTitleId: [2112],
   name: 'Match Maker',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const GuardiansOfJustice: BadgeData = {
   type: 'exploration',
   key: 'guardians-of-justice',
+  gameId: 'P_GuardiansOfJustice',
   setTitleId: [1593],
   name: 'Guardians of Justice',
   releaseDate: '2012-11-30',

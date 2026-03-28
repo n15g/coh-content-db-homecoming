@@ -4,6 +4,7 @@ import { TheHive } from '../../zone/the-hive'
 export const BabeInTheWoods: BadgeData = {
   type: 'exploration',
   key: 'babe-in-the-woods',
+  gameId: 'TheHiveTour3',
   setTitleId: [1848],
   name: 'Babe in the Woods',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const RoadRaged: BadgeData = {
   type: 'exploration',
   key: 'road-raged',
+  gameId: 'MayhemMap3',
   setTitleId: [557],
   name: 'Road Raged',
   releaseDate: '2012-11-30',

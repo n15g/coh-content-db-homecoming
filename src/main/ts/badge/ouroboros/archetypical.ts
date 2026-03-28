@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Archetypical: BadgeData = {
   type: 'ouroboros',
   key: 'archetypical',
+  gameId: 'ArchetypePowersOnlyatSL6',
   setTitleId: [891],
   name: 'Archetypical',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Diplomat: BadgeData = {
   type: 'defeat',
   key: 'diplomat',
+  gameId: 'STFVictory3',
   setTitleId: [735],
   name: [
     { alignment: 'hero', value: 'Diplomat' },

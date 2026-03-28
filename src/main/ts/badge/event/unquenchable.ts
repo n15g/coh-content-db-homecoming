@@ -4,6 +4,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const Unquenchable: BadgeData = {
   type: 'event',
   key: 'unquenchable',
+  gameId: 'Anniversary18',
   setTitleId: [2493],
   name: 'Unquenchable',
   releaseDate: '2020-11-26',

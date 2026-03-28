@@ -4,6 +4,7 @@ import { TheHive } from '../../zone/the-hive'
 export const HeartOfTheHamidon: BadgeData = {
   type: 'exploration',
   key: 'heart-of-the-hamidon',
+  gameId: 'TheHiveTour2',
   setTitleId: [143],
   name: 'Heart of the Hamidon',
   releaseDate: '2012-11-30',

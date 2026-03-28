@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const VampyriWatcher: BadgeData = {
   type: 'exploration',
   key: 'vampyri-watcher',
+  gameId: 'StrigaTour8',
   setTitleId: [1790],
   name: 'Vampyri Watcher',
   releaseDate: '2012-11-30',

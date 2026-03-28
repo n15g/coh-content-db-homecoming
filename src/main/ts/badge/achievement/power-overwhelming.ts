@@ -4,6 +4,7 @@ import { DrAeon } from '../../contact/dr-aeon'
 export const PowerOverwhelming: BadgeData = {
   type: 'achievement',
   key: 'power-overwhelming',
+  gameId: 'AeonSF_Challenge3',
   setTitleId: [2480],
   name: 'Power Overwhelming',
   releaseDate: '2020-11-26',

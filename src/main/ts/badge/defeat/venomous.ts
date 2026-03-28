@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Venomous: BadgeData = {
   type: 'defeat',
   key: 'venomous',
+  gameId: 'Venomous',
   setTitleId: [538],
   name: 'Venomous',
   releaseDate: '2012-11-30',

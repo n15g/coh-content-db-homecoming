@@ -4,6 +4,7 @@ import { SirensCall } from '../../zone/sirens-call'
 export const WastedResources: BadgeData = {
   type: 'exploration',
   key: 'wasted-resources',
+  gameId: 'SirensCallTour5',
   setTitleId: [2415],
   name: 'Wasted Resources',
   releaseDate: '2019-06-01',

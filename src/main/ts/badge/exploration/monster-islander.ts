@@ -5,6 +5,7 @@ import { Grandville } from '../../zone/grandville'
 export const MonsterIslander: BadgeData = {
   type: 'exploration',
   key: 'monster-islander',
+  gameId: 'MonsterIslandTour1',
   setTitleId: [1868],
   name: 'Monster Islander',
   releaseDate: '2012-11-30',

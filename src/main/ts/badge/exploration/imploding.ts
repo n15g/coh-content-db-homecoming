@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const Imploding: BadgeData = {
   type: 'exploration',
   key: 'imploding',
+  gameId: 'BloodyBayTour3',
   setTitleId: [257],
   name: 'Imploding',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { UndergroundImperial } from '../../zone/underground-imperial'
 export const Condemning: BadgeData = {
   type: 'exploration',
   key: 'condemning',
+  gameId: 'P_Condemning',
   setTitleId: [1646],
   name: 'Condemning',
   releaseDate: '2012-11-30',

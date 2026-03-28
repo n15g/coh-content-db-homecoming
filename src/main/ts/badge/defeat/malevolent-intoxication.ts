@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MalevolentIntoxication: BadgeData = {
   type: 'defeat',
   key: 'malevolent-intoxication',
+  gameId: 'DefeatVolatileAether',
   setTitleId: [2533],
   name: 'Malevolent Intoxication',
   releaseDate: '2024-11-19',

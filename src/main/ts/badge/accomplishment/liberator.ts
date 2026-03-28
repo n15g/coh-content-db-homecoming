@@ -4,6 +4,7 @@ import { EdenTrial } from '../../mission/eden-trial'
 export const Liberator: BadgeData = {
   type: 'accomplishment',
   key: 'liberator',
+  gameId: 'EdenTR',
   setTitleId: [68],
   name: [
     { alignment: 'hero', value: 'Liberator' },

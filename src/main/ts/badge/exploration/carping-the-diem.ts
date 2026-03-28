@@ -4,6 +4,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const CarpingTheDiem: BadgeData = {
   type: 'exploration',
   key: 'carping-the-diem',
+  gameId: 'SharkheadTour8',
   setTitleId: [1499],
   name: 'Carping the Diem',
   releaseDate: '2012-11-30',

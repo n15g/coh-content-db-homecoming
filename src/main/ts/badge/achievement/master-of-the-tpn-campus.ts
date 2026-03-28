@@ -8,6 +8,7 @@ import { TonightsTopStory } from './tonights-top-story'
 export const MasterOfTheTpnCampus: BadgeData = {
   type: 'achievement',
   key: 'master-of-tpn-campus',
+  gameId: 'IT_TPN_Master',
   setTitleId: [2077],
   name: 'Master of the TPN Campus',
   releaseDate: '2012-11-30',

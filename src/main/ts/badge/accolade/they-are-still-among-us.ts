@@ -11,6 +11,7 @@ import { Unabashed } from '../exploration/unabashed'
 export const TheyAreStillAmongUs: BadgeData = {
   type: 'accolade',
   key: 'they-are-still-among-us',
+  gameId: 'RiktiWarZoneExplorer',
   setTitleId: [2331],
   name: 'They Are Still Among Us',
   releaseDate: '2012-11-30',

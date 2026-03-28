@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Assassin: BadgeData = {
   type: 'architect-entertainment',
   key: 'assassin',
+  gameId: 'ArchitectCustomKills50',
   setTitleId: [1319],
   name: 'Assassin',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const PraetorianOfPrivilege: BadgeData = {
   type: 'exploration',
   key: 'praetorian-of-privilege',
+  gameId: 'P_PraetorianOfPrivilege',
   setTitleId: [1633],
   name: 'Praetorian of Privilege',
   releaseDate: '2012-11-30',

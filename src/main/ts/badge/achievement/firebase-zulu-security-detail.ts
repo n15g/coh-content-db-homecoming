@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FirebaseZuluSecurityDetail: BadgeData = {
   type: 'achievement',
   key: 'firebase-zulu-security-detail',
+  gameId: 'FirebaseZuluSecurity',
   setTitleId: [206],
   name: [
     { alignment: 'hero', value: 'Firebase Zulu Security Detail' },

@@ -5,6 +5,7 @@ import { Chronologist } from '../day-job/chronologist'
 export const TimeLord: BadgeData = {
   type: 'accolade',
   key: 'time-lord',
+  gameId: 'DJ_Time_Traveler',
   setTitleId: [1072],
   name: 'Time Lord',
   releaseDate: '2012-11-30',

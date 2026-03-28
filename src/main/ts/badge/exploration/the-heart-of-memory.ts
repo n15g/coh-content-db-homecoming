@@ -4,6 +4,7 @@ import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 export const TheHeartOfMemory: BadgeData = {
   type: 'exploration',
   key: 'the-heart-of-memory',
+  gameId: 'CascadeArchTour8',
   setTitleId: [1812],
   name: 'The Heart of Memory',
   releaseDate: '2012-11-30',

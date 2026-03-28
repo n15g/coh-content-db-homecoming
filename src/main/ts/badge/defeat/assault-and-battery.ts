@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AssaultAndBattery: BadgeData = {
   type: 'defeat',
   key: 'assault-and-battery',
+  gameId: 'DefeatSuperStunners',
   setTitleId: [2446],
   name: 'Assault and Battery',
   releaseDate: '2020-11-26',

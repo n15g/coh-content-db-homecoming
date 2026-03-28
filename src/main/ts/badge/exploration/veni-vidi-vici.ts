@@ -4,6 +4,7 @@ import { CreysFolly } from '../../zone/creys-folly'
 export const VeniVidiVici: BadgeData = {
   type: 'exploration',
   key: 'veni-vidi-vici',
+  gameId: 'CreysFolleyTour5',
   setTitleId: [1793],
   name: 'Veni, Vidi, Vici',
   releaseDate: '2012-11-30',

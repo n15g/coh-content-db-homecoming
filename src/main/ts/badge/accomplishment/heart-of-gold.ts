@@ -4,6 +4,7 @@ import { ZoeTaskForce } from '../../mission/zoe-task-force'
 export const HeartOfGold: BadgeData = {
   type: 'accomplishment',
   key: 'heart-of-gold',
+  gameId: 'ZoeTF_Complete',
   setTitleId: [2574],
   name: 'Heart of Gold',
   releaseDate: '2025-11-25',

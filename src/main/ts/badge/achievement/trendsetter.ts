@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Trendsetter: BadgeData = {
   type: 'achievement',
   key: 'trendsetter',
+  gameId: ['Multimillionaire', 'P_Money_50M'],
   setTitleId: [242, 1702],
   name: [
     { value: 'Trendsetter' },

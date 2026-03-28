@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AlreadyDead: BadgeData = {
   type: 'achievement',
   key: 'already-dead',
+  gameId: 'AlphaTF_BattleMaidenQuick',
   setTitleId: [1764],
   name: 'Already Dead',
   releaseDate: '2012-11-30',

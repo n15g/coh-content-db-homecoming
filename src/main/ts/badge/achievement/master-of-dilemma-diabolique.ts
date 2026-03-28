@@ -7,6 +7,7 @@ import { LifeAndDeath } from './life-and-death'
 export const MasterOfDilemmaDiabolique: BadgeData = {
   type: 'achievement',
   key: 'master-of-dilemma-diabolique',
+  gameId: 'IT_DD_Master',
   setTitleId: [2168],
   name: 'Master of Dilemma Diabolique',
   releaseDate: '2012-11-30',

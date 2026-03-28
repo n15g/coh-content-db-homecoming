@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DeeJay: BadgeData = {
   type: 'defeat',
   key: 'dee-jay',
+  gameId: 'TrollsRaveSmasher',
   setTitleId: [219],
   name: 'Dee Jay',
   releaseDate: '2012-11-30',

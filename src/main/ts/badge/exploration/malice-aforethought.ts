@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const MaliceAforethought: BadgeData = {
   type: 'exploration',
   key: 'malice-aforethought',
+  gameId: 'StormPalaceTour3',
   setTitleId: [1856],
   name: 'Malice Aforethought',
   releaseDate: '2012-11-30',

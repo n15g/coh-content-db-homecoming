@@ -4,6 +4,7 @@ import { CitadelTaskForce } from '../../mission/citadel-task-force'
 export const CitadelsAssistant: BadgeData = {
   type: 'accomplishment',
   key: 'citadels-assistant',
+  gameId: 'BastionTF',
   setTitleId: [64],
   name: [
     { alignment: 'hero', value: `Citadel's Assistant` },

@@ -4,6 +4,7 @@ import { KnowThyEnemy } from '../../mission/know-thy-enemy'
 export const ThickerThanWater: BadgeData = {
   type: 'accomplishment',
   key: 'thicker-than-water',
+  gameId: 'Mission_i28_AlexanderTheGreat',
   setTitleId: [2563],
   name: 'Thicker Than Water',
   releaseDate: '2025-06-17',

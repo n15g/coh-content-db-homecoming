@@ -4,6 +4,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const TheOldMe: BadgeData = {
   type: 'exploration',
   key: 'the-old-me',
+  gameId: 'TalosIslandTour5',
   setTitleId: [1547],
   name: 'The Old Me',
   releaseDate: '2012-11-30',

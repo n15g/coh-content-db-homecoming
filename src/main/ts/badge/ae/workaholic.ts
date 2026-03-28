@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Workaholic: BadgeData = {
   type: 'architect-entertainment',
   key: 'workaholic',
+  gameId: 'ArchitectNonRequiredObjective25',
   setTitleId: [1314],
   name: 'Workaholic',
   releaseDate: '2012-11-30',

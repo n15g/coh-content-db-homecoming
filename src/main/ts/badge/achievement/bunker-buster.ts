@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BunkerBuster: BadgeData = {
   type: 'achievement',
   key: 'bunker-buster',
+  gameId: 'IT_Keyes_BunkerBuster',
   setTitleId: [1991],
   name: 'Bunker Buster',
   releaseDate: '2012-11-30',

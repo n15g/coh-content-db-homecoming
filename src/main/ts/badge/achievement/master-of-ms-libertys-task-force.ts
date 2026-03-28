@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfMsLibertysTaskForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-ms-libertys-task-force',
+  gameId: 'MasterofStatesmansTaskForce',
   setTitleId: [944],
   name: `Master of Ms. Liberty's Task Force`,
   releaseDate: '2012-11-30',

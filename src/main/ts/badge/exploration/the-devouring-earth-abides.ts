@@ -4,6 +4,7 @@ import { Eden } from '../../zone/eden'
 export const TheDevouringEarthAbides: BadgeData = {
   type: 'exploration',
   key: 'the-devouring-earth-abides',
+  gameId: 'EdenTour6',
   setTitleId: [1845],
   name: 'The Devouring Earth Abides',
   releaseDate: '2012-11-30',

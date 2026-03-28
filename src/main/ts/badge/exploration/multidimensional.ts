@@ -6,6 +6,7 @@ import { GetSomeSamplesOfHydraManDna } from '../../mission/get-some-samples-of-h
 export const Multidimensional: BadgeData = {
   type: 'exploration',
   key: 'multidimensional',
+  gameId: 'HydraDimension1',
   setTitleId: [172],
   name: 'Multidimensional',
   releaseDate: '2012-11-30',

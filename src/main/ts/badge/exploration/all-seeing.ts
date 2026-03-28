@@ -4,6 +4,7 @@ import { PeregrineIsland } from '../../zone/peregrine-island'
 export const AllSeeing: BadgeData = {
   type: 'exploration',
   key: 'all-seeing',
+  gameId: 'PeregrineIslandTour7',
   setTitleId: [1577],
   name: 'All-Seeing',
   releaseDate: '2012-11-30',

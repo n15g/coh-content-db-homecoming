@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Bold: BadgeData = {
   type: 'ouroboros',
   key: 'bold',
+  gameId: 'BuffedEnemiesatSL4',
   setTitleId: [880],
   name: 'Bold',
   releaseDate: '2012-11-30',

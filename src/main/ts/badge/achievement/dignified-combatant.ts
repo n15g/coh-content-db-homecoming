@@ -4,6 +4,7 @@ import { LastRites } from '../../mission/last-rites'
 export const DignifiedCombatant: BadgeData = {
   type: 'achievement',
   key: 'dignified-combatant',
+  gameId: 'Mission_LowLevel_SC_DignifiedCombatant',
   setTitleId: [2100],
   name: 'Dignified Combatant',
   releaseDate: '2012-11-30',

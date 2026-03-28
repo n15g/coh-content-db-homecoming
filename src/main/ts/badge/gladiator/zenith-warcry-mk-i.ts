@@ -4,6 +4,7 @@ import { BurkholdersBane } from '../accomplishment/burkholders-bane'
 export const ZenithWarcryMkI: BadgeData = {
   type: 'gladiator',
   key: 'zenith-warcry-mk-i',
+  gameId: 'Warcry',
   setTitleId: [497],
   name: 'Zenith Warcry Mk I',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const Inmate: BadgeData = {
   type: 'exploration',
   key: 'inmate',
+  gameId: 'BrickstownTour2',
   setTitleId: [137],
   name: 'Inmate',
   releaseDate: '2012-11-30',

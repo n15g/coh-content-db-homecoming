@@ -4,6 +4,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const ForgedByHellfire: BadgeData = {
   type: 'exploration',
   key: 'forged-by-hellfire',
+  gameId: 'SharkheadTour2',
   setTitleId: [296],
   name: 'Forged by Hellfire',
   releaseDate: '2012-11-30',

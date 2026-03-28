@@ -5,6 +5,7 @@ import { Eden } from '../../zone/eden'
 export const TheWoundedEarth: BadgeData = {
   type: 'exploration',
   key: 'the-wounded-earth',
+  gameId: 'TheHiveTour4',
   setTitleId: [1849],
   name: 'The Wounded Earth',
   releaseDate: '2012-11-30',

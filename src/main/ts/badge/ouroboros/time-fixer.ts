@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const TimeFixer: BadgeData = {
   type: 'ouroboros',
   key: 'time-fixer',
+  gameId: 'Flashback45',
   setTitleId: [942],
   name: 'Time Fixer',
   releaseDate: '2012-11-30',

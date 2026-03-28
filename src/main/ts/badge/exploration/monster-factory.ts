@@ -4,6 +4,7 @@ import { MonsterIsland } from '../../zone/monster-island'
 export const MonsterFactory: BadgeData = {
   type: 'exploration',
   key: 'monster-factory',
+  gameId: 'MonsterIslandTour8',
   setTitleId: [1875],
   name: 'Monster Factory',
   releaseDate: '2012-11-30',

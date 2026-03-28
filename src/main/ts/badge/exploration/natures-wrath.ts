@@ -4,6 +4,7 @@ import { Eden } from '../../zone/eden'
 export const NaturesWrath: BadgeData = {
   type: 'exploration',
   key: 'natures-wrath',
+  gameId: 'EdenTour4',
   setTitleId: [1843],
   name: `Nature's Wrath`,
   releaseDate: '2012-11-30',

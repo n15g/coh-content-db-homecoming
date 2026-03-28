@@ -4,6 +4,7 @@ import { RiktiWarZone } from '../../zone/rikti-war-zone'
 export const JunkyardDog: BadgeData = {
   type: 'exploration',
   key: 'junkyard-dog',
+  gameId: 'RiktiWarZoneTour9',
   setTitleId: [755],
   name: 'Junkyard Dog',
   releaseDate: '2012-11-30',

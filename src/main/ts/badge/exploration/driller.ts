@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const Driller: BadgeData = {
   type: 'exploration',
   key: 'driller',
+  gameId: 'PortOakesTour4',
   setTitleId: [254],
   name: 'Driller',
   releaseDate: '2012-11-30',

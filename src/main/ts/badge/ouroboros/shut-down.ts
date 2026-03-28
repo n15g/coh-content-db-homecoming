@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ShutDown: BadgeData = {
   type: 'ouroboros',
   key: 'shut-down',
+  gameId: 'NoTravelPowersatSL3',
   setTitleId: [897],
   name: 'Shut Down',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { ShopKeeper } from '../day-job/shop-keeper'
 export const Entrepreneur: BadgeData = {
   type: 'accolade',
   key: 'entrepreneur',
+  gameId: 'DJ_Entrepreneur',
   setTitleId: [1065],
   name: [
     { alignment: 'hero', value: 'Entrepreneur' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Survivalist: BadgeData = {
   type: 'day-job',
   key: 'survivalist',
+  gameId: 'DJ_Survivalist',
   setTitleId: [2043],
   name: 'Survivalist',
   releaseDate: '2012-11-30',

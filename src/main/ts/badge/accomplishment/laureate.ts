@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const Laureate: BadgeData = {
   type: 'accomplishment',
   key: 'laureate',
+  gameId: 'P_Antilaureate',
   setTitleId: [1441],
   name: 'Laureate',
   releaseDate: '2012-11-30',

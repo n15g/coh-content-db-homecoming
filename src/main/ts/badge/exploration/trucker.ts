@@ -4,6 +4,7 @@ import { PocketD } from '../../zone/pocket-d'
 export const Trucker: BadgeData = {
   type: 'exploration',
   key: 'trucker',
+  gameId: 'TruckerTour',
   setTitleId: [731],
   name: 'Trucker',
   releaseDate: '2012-11-30',

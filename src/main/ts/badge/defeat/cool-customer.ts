@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CoolCustomer: BadgeData = {
   type: 'defeat',
   key: 'cool-customer',
+  gameId: 'DefeatCryogenicists',
   setTitleId: [2485],
   name: 'Cool Customer',
   releaseDate: '2020-11-26',

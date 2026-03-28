@@ -4,6 +4,7 @@ import { CapAuDiable } from '../../zone/cap-au-diable'
 export const DoomSayer: BadgeData = {
   type: 'exploration',
   key: 'doom-sayer',
+  gameId: 'CapAuDiableTour6',
   setTitleId: [1492],
   name: 'Doom Sayer',
   releaseDate: '2012-11-30',

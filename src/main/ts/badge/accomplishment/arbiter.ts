@@ -4,6 +4,7 @@ import { BarracudaStrikeForce } from '../../mission/barracuda-strike-force'
 export const Arbiter: BadgeData = {
   type: 'accomplishment',
   key: 'arbiter',
+  gameId: '5thColumnVillainBadge',
   setTitleId: [1294],
   name: 'Arbiter',
   releaseDate: '2012-11-30',

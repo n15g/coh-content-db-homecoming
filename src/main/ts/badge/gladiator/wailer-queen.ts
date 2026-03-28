@@ -4,6 +4,7 @@ import { Imprisoned } from '../achievement/imprisoned'
 export const WailerQueen: BadgeData = {
   type: 'gladiator',
   key: 'wailer-queen',
+  gameId: 'WailerQueen',
   setTitleId: [458],
   name: 'Wailer Queen',
   releaseDate: '2012-11-30',

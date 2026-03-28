@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ReaperOfSouls: BadgeData = {
   type: 'event',
   key: 'reaper-of-souls',
+  gameId: 'Halloween22EliteUnseelie',
   setTitleId: [2507],
   name: 'Reaper of Souls',
   releaseDate: '2020-11-26',

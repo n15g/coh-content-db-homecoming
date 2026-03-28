@@ -4,6 +4,7 @@ import { ASecondChanceAtAFirstImpression } from '../../mission/a-second-chance-a
 export const FaceTurn: BadgeData = {
   type: 'accomplishment',
   key: 'face-turn',
+  gameId: 'Mission_i27_Finale',
   setTitleId: [2521],
   name: 'Face Turn',
   releaseDate: '2020-11-26',

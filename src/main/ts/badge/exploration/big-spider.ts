@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const BigSpider: BadgeData = {
   type: 'exploration',
   key: 'big-spider',
+  gameId: 'PortOakesTour6',
   setTitleId: [1488],
   name: 'Big Spider',
   releaseDate: '2012-11-30',

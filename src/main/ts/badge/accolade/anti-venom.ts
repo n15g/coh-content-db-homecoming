@@ -4,6 +4,7 @@ import { MysticMayhem } from '../../mission/mystic-mayhem'
 export const AntiVenom: BadgeData = {
   type: 'accolade',
   key: 'anti-venom',
+  gameId: 'SpidersKissPatron',
   setTitleId: [616],
   name: [
     { alignment: 'hero', value: 'Anti-Venom' },

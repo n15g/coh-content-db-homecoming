@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FoodCritic: BadgeData = {
   type: 'achievement',
   key: 'food-critic',
+  gameId: 'RejectRecipes100',
   setTitleId: [2393],
   name: 'Food Critic',
   releaseDate: '2012-11-30',

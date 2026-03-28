@@ -4,6 +4,7 @@ import { TheHollows } from '../../zone/the-hollows'
 export const CircleSeeker: BadgeData = {
   type: 'exploration',
   key: 'circle-seeker',
+  gameId: 'HollowsTour7',
   setTitleId: [1519],
   name: 'Circle Seeker',
   releaseDate: '2012-11-30',

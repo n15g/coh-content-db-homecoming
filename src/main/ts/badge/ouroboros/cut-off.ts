@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CutOff: BadgeData = {
   type: 'ouroboros',
   key: 'cut-off',
+  gameId: 'NoEpicPowersatSL8',
   setTitleId: [913],
   name: 'Cut-Off',
   releaseDate: '2012-11-30',

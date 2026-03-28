@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Architect: BadgeData = {
   type: 'day-job',
   key: 'architect',
+  gameId: 'DJ_Architect',
   setTitleId: [1081],
   name: 'Architect',
   releaseDate: '2012-11-30',

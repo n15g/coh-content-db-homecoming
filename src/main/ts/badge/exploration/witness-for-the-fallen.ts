@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const WitnessForTheFallen: BadgeData = {
   type: 'exploration',
   key: 'witness-for-the-fallen',
+  gameId: 'FirstWardTour8',
   setTitleId: [2055],
   name: 'Witness for the Fallen',
   releaseDate: '2012-11-30',

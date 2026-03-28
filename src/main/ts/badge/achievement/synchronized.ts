@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Synchronized: BadgeData = {
   type: 'achievement',
   key: 'synchronized',
+  gameId: 'IT_Lambda_Simultaneity',
   setTitleId: [1984],
   name: 'Synchronized',
   releaseDate: '2012-11-30',

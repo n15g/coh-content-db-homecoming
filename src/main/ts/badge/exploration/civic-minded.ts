@@ -6,6 +6,7 @@ import { PraetorWhite } from '../../contact/praetor-white'
 export const CivicMinded: BadgeData = {
   type: 'exploration',
   key: 'civic-minded',
+  gameId: 'P_CivicMinded',
   setTitleId: [1402],
   name: 'Civic Minded',
   releaseDate: '2012-11-30',

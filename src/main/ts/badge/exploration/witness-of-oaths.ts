@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const WitnessOfOaths: BadgeData = {
   type: 'exploration',
   key: 'witness-of-oaths',
+  gameId: 'DarkAstoriaIncarnateTour6',
   setTitleId: [2184],
   name: 'Witness of Oaths',
   releaseDate: '2012-11-30',

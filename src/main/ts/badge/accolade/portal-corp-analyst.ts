@@ -11,6 +11,7 @@ import { DarkOmen } from '../exploration/dark-omen'
 export const PortalCorpAnalyst: BadgeData = {
   type: 'accolade',
   key: 'portal-corp-analyst',
+  gameId: 'PeregrineIslandExplorer',
   setTitleId: [1579],
   name: 'Portal Corp Analyst',
   releaseDate: '2012-11-30',

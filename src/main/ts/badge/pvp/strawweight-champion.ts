@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const StrawweightChampion: BadgeData = {
   type: 'pvp',
   key: 'strawweight-champion',
+  gameId: 'Strawweight',
   setTitleId: [220],
   name: 'Strawweight Champion',
   releaseDate: '2012-11-30',

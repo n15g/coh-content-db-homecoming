@@ -11,6 +11,7 @@ import { WastedResources } from '../exploration/wasted-resources'
 export const AnsweredTheCall: BadgeData = {
   type: 'accolade',
   key: 'answered-the-call',
+  gameId: 'SirensCallExplorer',
   setTitleId: [2410],
   name: 'Answered the Call',
   releaseDate: '2019-06-01',

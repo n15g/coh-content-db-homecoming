@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Fabled: BadgeData = {
   type: 'defeat',
   key: 'fabled',
+  gameId: 'DefeatCyclops',
   setTitleId: [2469],
   name: 'Fabled',
   releaseDate: '2020-11-26',

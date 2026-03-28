@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const EarlyBird: BadgeData = {
   type: 'architect-entertainment',
   key: 'early-bird',
+  gameId: 'ArchitectFirstPlay',
   setTitleId: [1151],
   name: 'Early Bird',
   releaseDate: '2012-11-30',

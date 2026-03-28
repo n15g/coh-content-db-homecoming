@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const TheUnnamed: BadgeData = {
   type: 'exploration',
   key: 'the-unnamed',
+  gameId: 'StrigaTour6',
   setTitleId: [1788],
   name: 'The Unnamed',
   releaseDate: '2012-11-30',

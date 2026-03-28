@@ -5,6 +5,7 @@ import { AtlasPark } from '../../zone/atlas-park'
 export const Territorial: BadgeData = {
   type: 'exploration',
   key: 'territorial',
+  gameId: 'PerezParkTour1',
   setTitleId: [101],
   name: 'Territorial',
   releaseDate: '2012-11-30',

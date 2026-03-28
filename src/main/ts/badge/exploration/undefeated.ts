@@ -5,6 +5,7 @@ import { SteelCanyon } from '../../zone/steel-canyon'
 export const Undefeated: BadgeData = {
   type: 'exploration',
   key: 'undefeated',
+  gameId: 'AtlasParkTour1',
   setTitleId: [86],
   name: 'Undefeated',
   releaseDate: '2012-11-30',

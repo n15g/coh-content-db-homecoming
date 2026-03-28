@@ -4,6 +4,7 @@ import { TheAbyss } from '../../zone/the-abyss'
 export const Reborn: BadgeData = {
   type: 'exploration',
   key: 'reborn',
+  gameId: 'AbyssTour1',
   setTitleId: [745],
   name: 'Reborn',
   releaseDate: '2012-11-30',

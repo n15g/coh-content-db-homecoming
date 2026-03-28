@@ -15,6 +15,7 @@ import { AllForOneOneForAll } from '../ouroboros/all-for-one-one-for-all'
 export const Chronomaster: BadgeData = {
   type: 'accolade',
   key: 'chronomaster',
+  gameId: 'Flashbaccolade',
   setTitleId: [946],
   name: 'Chronomaster',
   releaseDate: '2012-11-30',

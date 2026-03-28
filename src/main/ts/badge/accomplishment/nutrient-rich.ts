@@ -4,6 +4,7 @@ import { PocketD } from '../../zone/pocket-d'
 export const NutrientRich: BadgeData = {
   type: 'accomplishment',
   key: 'nutrient-rich',
+  gameId: 'EatenByBlarf',
   setTitleId: [2541],
   name: 'Nutrient-Rich',
   releaseDate: '2024-11-19',

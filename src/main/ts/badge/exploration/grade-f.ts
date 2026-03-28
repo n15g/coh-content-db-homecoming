@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const GradeF: BadgeData = {
   type: 'exploration',
   key: 'grade-f',
+  gameId: 'P_GradeF',
   setTitleId: [1744],
   name: 'Grade F',
   releaseDate: '2012-11-30',

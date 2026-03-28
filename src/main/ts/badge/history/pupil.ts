@@ -7,6 +7,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const Pupil: BadgeData = {
   type: 'history',
   key: 'pupil',
+  gameId: 'AtlasHistory',
   setTitleId: [174],
   name: 'Pupil',
   releaseDate: '2012-11-30',

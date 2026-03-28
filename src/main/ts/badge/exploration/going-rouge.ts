@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const GoingRouge: BadgeData = {
   type: 'exploration',
   key: 'going-rouge',
+  gameId: 'P_GoingRouge',
   setTitleId: [1731],
   name: 'Going Rouge',
   releaseDate: '2012-11-30',

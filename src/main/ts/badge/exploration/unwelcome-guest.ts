@@ -4,6 +4,7 @@ import { SharkheadIsle } from '../../zone/sharkhead-isle'
 export const UnwelcomeGuest: BadgeData = {
   type: 'exploration',
   key: 'unwelcome-guest',
+  gameId: 'SharkheadTour6',
   setTitleId: [1497],
   name: 'Unwelcome Guest',
   releaseDate: '2012-11-30',

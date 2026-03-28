@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TheUnbrokenSpirit: BadgeData = {
   type: 'achievement',
   key: 'the-unbroken-spirit',
+  gameId: ['UnbrokenSpirit', 'P_Debt_200K'],
   setTitleId: [17, 1683],
   name: [
     { value: 'The Unbroken Spirit' },

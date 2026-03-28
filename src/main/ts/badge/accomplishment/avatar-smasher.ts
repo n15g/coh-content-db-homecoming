@@ -4,6 +4,7 @@ import { PraetoriasLastGasp } from '../../mission/praetorias-last-gasp'
 export const AvatarSmasher: BadgeData = {
   type: 'accomplishment',
   key: 'avatar-smasher',
+  gameId: 'Mission_Incarnate_i24_Challenge_01',
   setTitleId: [2270],
   name: 'Avatar Smasher',
   releaseDate: '2012-11-30',

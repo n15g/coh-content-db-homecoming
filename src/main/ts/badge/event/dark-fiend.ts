@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DarkFiend: BadgeData = {
   type: 'event',
   key: 'dark-fiend',
+  gameId: 'Halloween09DarkFiend',
   setTitleId: [1367],
   name: 'Dark Fiend',
   releaseDate: '2012-11-30',

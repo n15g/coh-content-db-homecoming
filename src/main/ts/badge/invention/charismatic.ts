@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Charismatic: BadgeData = {
   type: 'invention',
   key: 'charismatic',
+  gameId: 'InventionMez4',
   setTitleId: [778],
   name: 'Charismatic',
   releaseDate: '2012-11-30',

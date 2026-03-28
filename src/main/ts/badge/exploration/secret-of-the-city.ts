@@ -5,6 +5,7 @@ import { SewerNetwork } from '../../zone/sewer-network'
 export const SecretOfTheCity: BadgeData = {
   type: 'exploration',
   key: 'secret-of-the-city',
+  gameId: 'AbSewerNetworkTour3',
   setTitleId: [1823],
   name: 'Secret of the City',
   releaseDate: '2012-11-30',

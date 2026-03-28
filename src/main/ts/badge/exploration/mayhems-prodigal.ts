@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const MayhemsProdigal: BadgeData = {
   type: 'exploration',
   key: 'mayhems-prodigal',
+  gameId: 'FirstWardTour5',
   setTitleId: [2052],
   name: `Mayhem's Prodigal`,
   releaseDate: '2012-11-30',

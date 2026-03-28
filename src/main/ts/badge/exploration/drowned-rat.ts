@@ -4,6 +4,7 @@ import { Faultline } from '../../zone/faultline'
 export const DrownedRat: BadgeData = {
   type: 'exploration',
   key: 'drowned-rat',
+  gameId: 'FaultlineTour6',
   setTitleId: [637],
   name: 'Drowned Rat',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Curator: BadgeData = {
   type: 'achievement',
   key: 'curator',
+  gameId: 'SouvenirCount200',
   setTitleId: [2366],
   name: 'Curator',
   releaseDate: '2012-11-30',

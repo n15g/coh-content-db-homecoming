@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Loyalist: BadgeData = {
   type: 'accomplishment',
   key: 'loyalist',
+  gameId: 'P_LoyalistBadge',
   setTitleId: [1755],
   name: 'Loyalist',
   releaseDate: '2012-11-30',

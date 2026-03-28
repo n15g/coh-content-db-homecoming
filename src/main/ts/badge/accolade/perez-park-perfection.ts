@@ -11,6 +11,7 @@ import { Territorial } from '../exploration/territorial'
 export const PerezParkPerfection: BadgeData = {
   type: 'accolade',
   key: 'perez-park-perfection',
+  gameId: 'PerezParkExplorer',
   setTitleId: [1876],
   name: 'Perez Park Perfection',
   releaseDate: '2012-11-30',

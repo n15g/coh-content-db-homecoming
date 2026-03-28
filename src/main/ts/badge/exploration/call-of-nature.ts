@@ -4,6 +4,7 @@ import { Eden } from '../../zone/eden'
 export const CallOfNature: BadgeData = {
   type: 'exploration',
   key: 'call-of-nature',
+  gameId: 'EdenTour3',
   setTitleId: [1842],
   name: 'Call of Nature',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const TheSleeperBelow: BadgeData = {
   type: 'exploration',
   key: 'the-sleeper-below',
+  gameId: 'DarkAstoriaTour8',
   setTitleId: [1785],
   name: 'The Sleeper Below',
   releaseDate: '2012-11-30',

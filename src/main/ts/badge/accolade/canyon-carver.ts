@@ -11,6 +11,7 @@ import { DirtyAttorney } from '../exploration/dirty-attorney'
 export const CanyonCarver: BadgeData = {
   type: 'accolade',
   key: 'canyon-carver',
+  gameId: 'SteelCanyonExplorer',
   setTitleId: [1534],
   name: 'Canyon Carver',
   releaseDate: '2012-11-30',

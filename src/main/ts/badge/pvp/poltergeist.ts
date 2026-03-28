@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Poltergeist: BadgeData = {
   type: 'pvp',
   key: 'poltergeist',
+  gameId: 'RVGhostWidow',
   setTitleId: [582],
   name: 'Poltergeist',
   releaseDate: '2012-11-30',

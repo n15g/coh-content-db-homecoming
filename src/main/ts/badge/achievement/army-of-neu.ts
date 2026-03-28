@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ArmyOfNeu: BadgeData = {
   type: 'achievement',
   key: 'army-of-neu',
+  gameId: 'AlphaTF_NeuronClones',
   setTitleId: [1766],
   name: 'Army of Neu',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const CreyTestSubject: BadgeData = {
   type: 'day-job',
   key: 'crey-test-subject',
+  gameId: 'DJ_Crey_Employee',
   setTitleId: [1050],
   name: [
     { alignment: 'hero', value: 'Crey Test Subject' },

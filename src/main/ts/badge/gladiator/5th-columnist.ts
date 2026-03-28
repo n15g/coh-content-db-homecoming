@@ -6,6 +6,7 @@ import { ColumnBreaker } from '../accomplishment/column-breaker'
 export const _5thColumnist: BadgeData = {
   type: 'gladiator',
   key: '5th-columnist',
+  gameId: '5thGladiator',
   setTitleId: [612],
   name: '5th Columnist',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { RemnantsOfThePast } from '../../mission/remnants-of-the-past'
 export const ArchitectWriter: BadgeData = {
   type: 'accomplishment',
   key: 'architect-writer',
+  gameId: 'Mission_DA_PersonalArc_Complete_01',
   setTitleId: [2194],
   name: 'Architect Writer',
   releaseDate: '2012-11-30',

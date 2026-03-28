@@ -4,6 +4,7 @@ import { PeregrineIsland } from '../../zone/peregrine-island'
 export const ShadesOfArachnos: BadgeData = {
   type: 'exploration',
   key: 'shades-of-arachnos',
+  gameId: 'PeregrineIslandTour6',
   setTitleId: [1576],
   name: 'Shades of Arachnos',
   releaseDate: '2012-11-30',

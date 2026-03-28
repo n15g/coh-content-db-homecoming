@@ -44,6 +44,7 @@ import { WalksTheEarth } from '../invention/walks-the-earth'
 export const FieldCrafter: BadgeData = {
   type: 'accolade',
   key: 'field-crafter',
+  gameId: 'InventorAccolade',
   setTitleId: [805],
   name: 'Field Crafter',
   releaseDate: '2012-11-30',

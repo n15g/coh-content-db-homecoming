@@ -4,6 +4,7 @@ import { TrackDownThePantheonAndRescueTheMystics } from '../../mission/track-dow
 export const MysticalSavior: BadgeData = {
   type: 'accomplishment',
   key: 'mystical-savior',
+  gameId: 'SL5MissionB',
   setTitleId: [77],
   name: [
     { alignment: 'hero', value: 'Mystical Savior' },

@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const Technophile: BadgeData = {
   type: 'exploration',
   key: 'technophile',
+  gameId: 'P_Technophile',
   setTitleId: [1592],
   name: 'Technophile',
   releaseDate: '2012-11-30',

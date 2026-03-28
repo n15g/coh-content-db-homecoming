@@ -4,6 +4,7 @@ import { ArchitectEntertainmentBuildings } from '../../zone/architect-entertainm
 export const ThrillSeeker: BadgeData = {
   type: 'exploration',
   key: 'thrill-seeker',
+  gameId: 'MissionArchitectTourism',
   setTitleId: [1080],
   name: 'Thrill Seeker',
   releaseDate: '2012-11-30',

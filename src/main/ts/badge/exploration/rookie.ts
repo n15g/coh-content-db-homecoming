@@ -5,6 +5,7 @@ import { MsLiberty } from '../../contact/ms-liberty'
 export const Rookie: BadgeData = {
   type: 'exploration',
   key: 'rookie',
+  gameId: 'Rookie',
   setTitleId: [2025],
   name: 'Rookie',
   releaseDate: '2019-01-01',

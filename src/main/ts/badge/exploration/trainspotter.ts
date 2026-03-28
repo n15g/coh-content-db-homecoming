@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const Trainspotter: BadgeData = {
   type: 'exploration',
   key: 'trainspotter',
+  gameId: 'P_Trainspotter',
   setTitleId: [1641],
   name: 'Trainspotter',
   releaseDate: '2012-11-30',

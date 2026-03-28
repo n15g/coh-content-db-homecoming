@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LucentLegacyOfLight: BadgeData = {
   type: 'gladiator',
   key: 'lucent-legacy-of-light',
+  gameId: 'LegacyLight',
   setTitleId: [465],
   name: 'Lucent Legacy of Light',
   releaseDate: '2012-11-30',

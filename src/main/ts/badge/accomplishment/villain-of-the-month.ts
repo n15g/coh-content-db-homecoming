@@ -4,6 +4,7 @@ import { SweepsWeekHeroNameVsTheRogueIsles } from '../../mission/sweeps-week-her
 export const VillainOfTheMonth: BadgeData = {
   type: 'accomplishment',
   key: 'villain-of-the-month',
+  gameId: 'Mission_SM_i24_Arc_Complete_02',
   setTitleId: [2259],
   name: 'Villain of the Month',
   releaseDate: '2012-11-30',

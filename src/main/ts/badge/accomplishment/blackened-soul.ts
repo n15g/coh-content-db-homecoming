@@ -4,6 +4,7 @@ import { TheHeartsOfDarknessHeroicMeasures } from '../../mission/the-hearts-of-d
 export const BlackenedSoul: BadgeData = {
   type: 'accomplishment',
   key: 'blackened-soul',
+  gameId: 'Badge_OGTV2',
   setTitleId: [2018],
   name: 'Blackened Soul',
   releaseDate: '2012-11-30',

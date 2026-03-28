@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WatchesTheWatchers: BadgeData = {
   type: 'defeat',
   key: 'watches-the-watchers',
+  gameId: 'DefeatBlackKnights',
   setTitleId: [2213],
   name: 'Watches the Watchers',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { EchoAtlasPark } from '../../zone/echo-atlas-park'
 export const Condemned: BadgeData = {
   type: 'exploration',
   key: 'condemned',
+  gameId: 'Condemned',
   setTitleId: [2323],
   name: 'Condemned',
   releaseDate: '2019-01-01',

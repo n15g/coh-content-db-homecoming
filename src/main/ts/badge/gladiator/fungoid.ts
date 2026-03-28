@@ -4,6 +4,7 @@ import { Protectorate } from '../defeat/protectorate'
 export const Fungoid: BadgeData = {
   type: 'gladiator',
   key: 'fungoid',
+  gameId: 'Fungoid',
   setTitleId: [498],
   name: 'Fungoid',
   releaseDate: '2012-11-30',

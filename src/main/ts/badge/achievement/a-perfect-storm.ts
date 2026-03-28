@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const APerfectStorm: BadgeData = {
   type: 'achievement',
   key: 'a-perfect-storm',
+  gameId: 'IT_MoM_PenelopeChallenge',
   setTitleId: [2080],
   name: 'A Perfect Storm',
   releaseDate: '2012-11-30',

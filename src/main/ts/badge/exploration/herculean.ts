@@ -4,6 +4,7 @@ import { Warburg } from '../../zone/warburg'
 export const Herculean: BadgeData = {
   type: 'exploration',
   key: 'herculean',
+  gameId: 'WarburgTour6',
   setTitleId: [2428],
   name: 'Herculean',
   releaseDate: '2019-06-01',

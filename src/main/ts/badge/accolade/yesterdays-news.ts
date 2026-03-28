@@ -10,6 +10,7 @@ import { MasterOfTheAirwaves } from '../exploration/master-of-the-airwaves'
 export const YesterdaysNews: BadgeData = {
   type: 'accolade',
   key: 'yesterdays-news',
+  gameId: 'HeadlineStealer',
   setTitleId: [533],
   name: [
     { alignment: 'hero', value: `Yesterday's News` },

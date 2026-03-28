@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Uppercut: BadgeData = {
   type: 'pvp',
   key: 'uppercut',
+  gameId: 'RVBackAlleyBrawler',
   setTitleId: [579],
   name: 'Uppercut',
   releaseDate: '2012-11-30',

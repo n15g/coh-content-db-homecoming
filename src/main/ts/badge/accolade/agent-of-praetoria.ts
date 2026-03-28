@@ -19,6 +19,7 @@ import { NoMansLady } from '../../mission/no-mans-lady'
 export const AgentOfPraetoria: BadgeData = {
   type: 'accolade',
   key: 'agent-of-praetoria',
+  gameId: 'NovaPraetoriaStoryArcs',
   setTitleId: [2350],
   name: 'Agent of Praetoria',
   releaseDate: '2012-11-30',

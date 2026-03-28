@@ -5,6 +5,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const ParkStroller: BadgeData = {
   type: 'history',
   key: 'park-stroller',
+  gameId: 'Brickstown_Parkstroller',
   setTitleId: [2274],
   name: 'Park Stroller',
   releaseDate: '2012-11-30',

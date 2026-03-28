@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const TalonOfTalos: BadgeData = {
   type: 'exploration',
   key: 'talon-of-talos',
+  gameId: 'MayhemMap6',
   setTitleId: [560],
   name: 'Talon of Talos',
   releaseDate: '2012-11-30',

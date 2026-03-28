@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PocketDVipGoldClubMember: BadgeData = {
   type: 'achievement',
   key: 'pocket-d-vip-gold-club-member',
+  gameId: 'GoldClub',
   setTitleId: [623],
   name: 'Pocket D VIP Gold Club Member',
   releaseDate: '2012-11-30',

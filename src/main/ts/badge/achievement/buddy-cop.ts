@@ -5,6 +5,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const BuddyCop: BadgeData = {
   type: 'achievement',
   key: 'buddy-cop',
+  gameId: 'Mission_DA_Zone_Achievement_04',
   setTitleId: [2203],
   name: 'Buddy Cop',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { TheLastLineOfTheLaw } from '../../mission/the-last-line-of-the-law'
 export const EmbodimentOfLaw: BadgeData = {
   type: 'accomplishment',
   key: 'embodiment-of-law',
+  gameId: 'i23PersonalArcComplete',
   setTitleId: [2218],
   name: 'Embodiment of Law',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Dastardly: BadgeData = {
   type: 'achievement',
   key: 'dastardly',
+  gameId: 'P_VillainAlignment',
   setTitleId: [1453],
   name: 'Dastardly',
   releaseDate: '2012-11-30',

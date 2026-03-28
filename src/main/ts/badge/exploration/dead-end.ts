@@ -4,6 +4,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const DeadEnd: BadgeData = {
   type: 'exploration',
   key: 'dead-end',
+  gameId: 'IndependencePortTour5',
   setTitleId: [1553],
   name: 'Dead End',
   releaseDate: '2012-11-30',

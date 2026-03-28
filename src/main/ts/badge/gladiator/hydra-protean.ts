@@ -4,6 +4,7 @@ import { Charmer } from '../accomplishment/charmer'
 export const HydraProtean: BadgeData = {
   type: 'gladiator',
   key: 'hydra-protean',
+  gameId: 'Protean',
   setTitleId: [480],
   name: 'Hydra Protean',
   releaseDate: '2012-11-30',

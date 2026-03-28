@@ -6,6 +6,7 @@ import { Chief } from '../defeat/chief'
 export const Watchman: BadgeData = {
   type: 'accolade',
   key: 'watchman',
+  gameId: 'RIWEAccolade',
   setTitleId: [836],
   name: [
     { sex: 'M', value: 'Watchman' },

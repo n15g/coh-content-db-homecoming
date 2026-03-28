@@ -4,6 +4,7 @@ import { Grandville } from '../../zone/grandville'
 export const SewerDweller: BadgeData = {
   type: 'exploration',
   key: 'sewer-dweller',
+  gameId: 'GrandvilleTour2',
   setTitleId: [284],
   name: 'Sewer Dweller',
   releaseDate: '2012-11-30',

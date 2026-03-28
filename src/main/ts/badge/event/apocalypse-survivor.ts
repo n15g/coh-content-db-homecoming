@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ApocalypseSurvivor: BadgeData = {
   type: 'event',
   key: 'apocalypse-survivor',
+  gameId: 'Halloween2008Badge4',
   setTitleId: [1023],
   name: 'Apocalypse Survivor',
   releaseDate: '2012-11-30',

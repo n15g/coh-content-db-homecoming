@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Shapeshifter: BadgeData = {
   type: 'achievement',
   key: 'shapeshifter',
+  gameId: 'AetherCostume3',
   setTitleId: [2502],
   name: 'Shapeshifter',
   releaseDate: '2020-11-26',

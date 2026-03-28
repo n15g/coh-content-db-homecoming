@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const GrandGourmet: BadgeData = {
   type: 'achievement',
   key: 'grand-gourmet',
+  gameId: 'RejectRecipes500',
   setTitleId: [2394],
   name: 'Grand Gourmet',
   releaseDate: '2012-11-30',

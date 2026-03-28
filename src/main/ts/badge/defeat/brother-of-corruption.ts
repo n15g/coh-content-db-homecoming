@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BrotherOfCorruption: BadgeData = {
   type: 'defeat',
   key: 'brother-of-corruption',
+  gameId: 'DefeatRavenna',
   setTitleId: [2495],
   name: [
     { sex: 'M', value: 'Brother of Corruption' },

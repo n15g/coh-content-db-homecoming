@@ -4,6 +4,7 @@ import { UndergroundImperial } from '../../zone/underground-imperial'
 export const BrokenMind: BadgeData = {
   type: 'exploration',
   key: 'broken-mind',
+  gameId: 'P_BrokenMind',
   setTitleId: [1645],
   name: 'Broken Mind',
   releaseDate: '2012-11-30',

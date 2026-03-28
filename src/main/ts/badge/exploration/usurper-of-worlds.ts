@@ -4,6 +4,7 @@ import { CascadeArchipelago } from '../../zone/cascade-archipelago'
 export const UsurperOfWorlds: BadgeData = {
   type: 'exploration',
   key: 'usurper-of-worlds',
+  gameId: 'CascadeArchTour6',
   setTitleId: [1810],
   name: 'Usurper of Worlds',
   releaseDate: '2012-11-30',

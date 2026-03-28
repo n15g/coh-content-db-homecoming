@@ -4,6 +4,7 @@ import { AbandonedSewersTrial } from '../../mission/abandoned-sewers-trial'
 export const Charmer: BadgeData = {
   type: 'accomplishment',
   key: 'charmer',
+  gameId: 'SewerTR',
   setTitleId: [69],
   name: 'Charmer',
   releaseDate: '2012-11-30',

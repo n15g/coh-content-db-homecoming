@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const Sandblasted: BadgeData = {
   type: 'pvp',
   key: 'sandblasted',
+  gameId: 'RVScirocco',
   setTitleId: [583],
   name: 'Sandblasted',
   releaseDate: '2012-11-30',

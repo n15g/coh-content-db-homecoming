@@ -4,6 +4,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const BetterDays: BadgeData = {
   type: 'exploration',
   key: 'better-days',
+  gameId: 'SkywayCityTour5',
   setTitleId: [1535],
   name: 'Better Days',
   releaseDate: '2012-11-30',

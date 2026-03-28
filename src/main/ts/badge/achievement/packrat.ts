@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Packrat: BadgeData = {
   type: 'achievement',
   key: 'packrat',
+  gameId: 'SouvenirCount100',
   setTitleId: [2365],
   name: 'Packrat',
   releaseDate: '2012-11-30',

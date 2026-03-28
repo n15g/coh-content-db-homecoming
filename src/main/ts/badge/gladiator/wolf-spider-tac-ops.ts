@@ -4,6 +4,7 @@ import { KeeperOfPeace } from '../achievement/keeper-of-peace'
 export const WolfSpiderTacOps: BadgeData = {
   type: 'gladiator',
   key: 'wolf-spider-tac-ops',
+  gameId: 'TacOps',
   setTitleId: [441],
   name: 'Wolf Spider Tac Ops',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { Intern } from '../day-job/intern'
 export const Scientist: BadgeData = {
   type: 'accolade',
   key: 'scientist',
+  gameId: 'DJ_Scientist',
   setTitleId: [1066],
   name: [
     { alignment: 'hero', value: 'Scientist' },

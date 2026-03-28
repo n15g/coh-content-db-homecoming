@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LicenseToChill: BadgeData = {
   type: 'event',
   key: 'license-to-chill',
+  gameId: 'Winter2021Badge',
   setTitleId: [2492],
   name: 'License to Chill',
   releaseDate: '2024-05-02',

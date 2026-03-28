@@ -4,6 +4,7 @@ import { CuttingBackOldGrowth } from '../../mission/cutting-back-old-growth'
 export const FrontPerson: BadgeData = {
   type: 'accomplishment',
   key: 'front-person',
+  gameId: 'Mission_i28_ErinWest',
   setTitleId: [2561],
   name: 'Front Person',
   releaseDate: '2025-06-17',

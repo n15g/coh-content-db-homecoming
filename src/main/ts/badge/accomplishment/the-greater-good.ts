@@ -4,6 +4,7 @@ import { TheGraveyardShift } from '../../mission/the-graveyard-shift'
 export const TheGreaterGood: BadgeData = {
   type: 'accomplishment',
   key: 'the-greater-good',
+  gameId: 'Mission_i27_Hero',
   setTitleId: [2435],
   name: 'The Greater Good',
   releaseDate: '2020-11-26',

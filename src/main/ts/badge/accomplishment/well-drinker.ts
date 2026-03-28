@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WellDrinker: BadgeData = {
   type: 'accomplishment',
   key: 'well-drinker',
+  gameId: 'P_BuildRareIA',
   setTitleId: [1964],
   name: 'Well Drinker',
   releaseDate: '2012-11-30',

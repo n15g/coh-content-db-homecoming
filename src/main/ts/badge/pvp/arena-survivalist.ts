@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ArenaSurvivalist: BadgeData = {
   type: 'pvp',
   key: 'arena-survivalist',
+  gameId: '1WinFreeForAll',
   setTitleId: [1351],
   name: 'Arena Survivalist',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Spectral } from '../defeat/spectral'
 export const RedHand: BadgeData = {
   type: 'gladiator',
   key: 'red-hand',
+  gameId: 'RedHand',
   setTitleId: [450],
   name: 'Red Hand',
   releaseDate: '2012-11-30',

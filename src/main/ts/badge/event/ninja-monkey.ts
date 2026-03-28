@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const NinjaMonkey: BadgeData = {
   type: 'event',
   key: 'ninja-monkey',
+  gameId: 'SummerEvent_NinjaMonkey',
   setTitleId: [2245],
   name: 'Ninja Monkey',
   releaseDate: '2012-11-30',

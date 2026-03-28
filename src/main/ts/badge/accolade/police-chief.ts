@@ -5,6 +5,7 @@ import { CityOfficial } from '../day-job/city-official'
 export const PoliceChief: BadgeData = {
   type: 'accolade',
   key: 'police-chief',
+  gameId: 'DJ_Warden',
   setTitleId: [1062],
   name: [
     { alignment: 'hero', value: 'Police Chief' },

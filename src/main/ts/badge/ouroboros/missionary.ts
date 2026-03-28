@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Missionary: BadgeData = {
   type: 'ouroboros',
   key: 'missionary',
+  gameId: 'ArchetypePowersOnlyatSL8',
   setTitleId: [893],
   name: 'Missionary',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Tracer: BadgeData = {
   type: 'defeat',
   key: 'tracer',
+  gameId: 'Tracer',
   setTitleId: [54],
   name: 'Tracer',
   releaseDate: '2012-11-30',

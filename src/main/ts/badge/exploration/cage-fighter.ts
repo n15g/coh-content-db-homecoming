@@ -4,6 +4,7 @@ import { ArenaCageMatch } from '../../zone/arena-cage-match'
 export const CageFighter: BadgeData = {
   type: 'exploration',
   key: 'cage-fighter',
+  gameId: 'CageFighter',
   setTitleId: [716],
   name: 'Cage Fighter',
   releaseDate: '2012-11-30',

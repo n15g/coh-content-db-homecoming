@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const TheWolfsSnarl: BadgeData = {
   type: 'exploration',
   key: 'the-wolfs-snarl',
+  gameId: 'StrigaTour4',
   setTitleId: [1786],
   name: `The Wolf's Snarl`,
   releaseDate: '2012-11-30',

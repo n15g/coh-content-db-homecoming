@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DroneProtector: BadgeData = {
   type: 'achievement',
   key: 'drone-protector',
+  gameId: 'AlphaTF_DronesAlive',
   setTitleId: [1759],
   name: 'Drone Protector',
   releaseDate: '2012-11-30',

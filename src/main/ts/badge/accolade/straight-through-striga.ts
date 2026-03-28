@@ -11,6 +11,7 @@ import { WordsOfTheWarrior } from '../exploration/words-of-the-warrior'
 export const StraightThroughStriga: BadgeData = {
   type: 'accolade',
   key: 'straight-through-striga',
+  gameId: 'StrigaExplorer',
   setTitleId: [1879],
   name: 'Straight Through Striga',
   releaseDate: '2012-11-30',

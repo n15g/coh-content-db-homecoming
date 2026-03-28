@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AnkleBiter: BadgeData = {
   type: 'defeat',
   key: 'womp-womp',
+  gameId: 'DefeatCreyBobo',
   setTitleId: [2440],
   name: 'Ankle Biter',
   releaseDate: '2020-11-26',

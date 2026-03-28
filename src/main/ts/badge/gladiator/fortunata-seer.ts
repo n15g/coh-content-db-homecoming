@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const FortunataSeer: BadgeData = {
   type: 'gladiator',
   key: 'fortunata-seer',
+  gameId: 'Fortunata',
   setTitleId: [443],
   name: 'Fortunata Seer',
   releaseDate: '2012-11-30',

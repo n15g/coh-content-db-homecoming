@@ -4,6 +4,7 @@ import { BadPeopleGoodIntentions } from '../../mission/bad-people-good-intention
 export const HelpingHand: BadgeData = {
   type: 'accomplishment',
   key: 'helping-hand',
+  gameId: 'I19HeroStoryArcComplete',
   setTitleId: [1893],
   name: 'Helping Hand',
   releaseDate: '2012-11-30',

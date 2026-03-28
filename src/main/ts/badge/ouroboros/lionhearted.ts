@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Lionhearted: BadgeData = {
   type: 'ouroboros',
   key: 'lionhearted',
+  gameId: 'BuffedEnemiesatSL8',
   setTitleId: [884],
   name: 'Lionhearted',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TemporalWarrior: BadgeData = {
   type: 'accolade',
   key: 'temporal-warrior',
+  gameId: 'Beta_AutoLevel50',
   setTitleId: [1629],
   name: 'Temporal Warrior',
   releaseDate: '2012-11-30',

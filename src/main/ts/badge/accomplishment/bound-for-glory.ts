@@ -5,6 +5,7 @@ import { OneOfTheFacelessMany } from '../../mission/one-of-the-faceless-many'
 export const BoundForGlory: BadgeData = {
   type: 'accomplishment',
   key: 'bound-for-glory',
+  gameId: 'Mission_DA_PersonalArc_Complete_02',
   setTitleId: [2195],
   name: 'Bound for Glory',
   releaseDate: '2012-11-30',

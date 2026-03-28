@@ -4,6 +4,7 @@ import { GoneInAFlash } from '../../mission/gone-in-a-flash'
 export const DiamondInTheRough: BadgeData = {
   type: 'achievement',
   key: 'diamond-in-the-rough',
+  gameId: 'Mission_NA_i25_Rogue',
   setTitleId: [2419],
   name: 'Diamond in the Rough',
   releaseDate: '2019-06-01',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Audacious: BadgeData = {
   type: 'ouroboros',
   key: 'audacious',
+  gameId: 'BuffedEnemiesatSL2',
   setTitleId: [877],
   name: 'Audacious',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Hammerhead: BadgeData = {
   type: 'defeat',
   key: 'hammerhead',
+  gameId: 'Hammerhead',
   setTitleId: [511],
   name: 'Hammerhead',
   releaseDate: '2012-11-30',

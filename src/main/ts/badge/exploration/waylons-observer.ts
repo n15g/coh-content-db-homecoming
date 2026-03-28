@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const WaylonsObserver: BadgeData = {
   type: 'exploration',
   key: 'waylons-observer',
+  gameId: 'CroatoaTour7',
   setTitleId: [1543],
   name: `Waylon's Observer`,
   releaseDate: '2012-11-30',

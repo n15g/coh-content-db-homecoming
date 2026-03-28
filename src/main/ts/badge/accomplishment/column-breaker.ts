@@ -4,6 +4,7 @@ import { DrKahnTaskForce } from '../../mission/dr-kahn-task-force'
 export const ColumnBreaker: BadgeData = {
   type: 'accomplishment',
   key: 'column-breaker',
+  gameId: '5thColumnHeroBadge',
   setTitleId: [1293],
   name: 'Column Breaker',
   releaseDate: '2012-11-30',

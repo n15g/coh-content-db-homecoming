@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ShopKeeper: BadgeData = {
   type: 'day-job',
   key: 'shop-keeper',
+  gameId: 'DJ_Shop_Keeper',
   setTitleId: [1031],
   name: [
     { alignment: 'hero', value: 'Shop Keeper' },

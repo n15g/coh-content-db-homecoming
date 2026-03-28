@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const WalkingThePath: BadgeData = {
   type: 'accomplishment',
   key: 'walking-the-path',
+  gameId: 'P_AlignmentMission',
   setTitleId: [1424],
   name: 'Walking the Path',
   releaseDate: '2012-11-30',

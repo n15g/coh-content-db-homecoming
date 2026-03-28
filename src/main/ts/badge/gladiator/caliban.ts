@@ -4,6 +4,7 @@ import { Regenerator } from '../defeat/regenerator'
 export const Caliban: BadgeData = {
   type: 'gladiator',
   key: 'caliban',
+  gameId: 'Caliban',
   setTitleId: [481],
   name: 'Caliban',
   releaseDate: '2012-11-30',

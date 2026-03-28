@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ProfessionalLiar: BadgeData = {
   type: 'day-job',
   key: 'professional-liar',
+  gameId: 'DJ_Demagogue',
   setTitleId: [1054],
   name: [
     { alignment: 'hero', value: 'Professional Liar' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Escapee: BadgeData = {
   type: 'defeat',
   key: 'escapee',
+  gameId: 'P_DefeatFailedExperiments',
   setTitleId: [1473],
   name: 'Escapee',
   releaseDate: '2012-11-30',

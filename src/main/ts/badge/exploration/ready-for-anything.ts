@@ -4,6 +4,7 @@ import { UndergroundNeutropolis } from '../../zone/underground-neutropolis'
 export const ReadyForAnything: BadgeData = {
   type: 'exploration',
   key: 'ready-for-anything',
+  gameId: 'P_ReadyForAnything',
   setTitleId: [1746],
   name: 'Ready for Anything',
   releaseDate: '2012-11-30',

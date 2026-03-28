@@ -5,6 +5,7 @@ import { Patroller } from '../day-job/patroller'
 export const Mercenary: BadgeData = {
   type: 'accolade',
   key: 'mercenary',
+  gameId: 'DJ_Soldier',
   setTitleId: [1071],
   name: 'Mercenary',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { PillarOfIceAndFlame } from '../../contact/pillar-of-ice-and-flame'
 export const Overhauler: BadgeData = {
   type: 'ouroboros',
   key: 'overhauler',
+  gameId: 'Flashback40',
   setTitleId: [941],
   name: 'Overhauler',
   releaseDate: '2012-11-30',

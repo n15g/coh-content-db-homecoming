@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Predator: BadgeData = {
   type: 'day-job',
   key: 'predator',
+  gameId: 'DJ_Griefer',
   setTitleId: [1047],
   name: 'Predator',
   releaseDate: '2012-11-30',

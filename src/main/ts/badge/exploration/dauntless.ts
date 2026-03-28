@@ -4,6 +4,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const Dauntless: BadgeData = {
   type: 'exploration',
   key: 'dauntless',
+  gameId: 'SkywayCityTour3',
   setTitleId: [112],
   name: 'Dauntless',
   releaseDate: '2012-11-30',

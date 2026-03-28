@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Customizer: BadgeData = {
   type: 'architect-entertainment',
   key: 'customizer',
+  gameId: 'ArchitectCustomBoss',
   setTitleId: [1202],
   name: 'Customizer',
   releaseDate: '2012-11-30',

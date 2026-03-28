@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Debilitated: BadgeData = {
   type: 'ouroboros',
   key: 'debilitated',
+  gameId: 'NoEnhancementsatSL3',
   setTitleId: [926],
   name: 'Debilitated',
   releaseDate: '2012-11-30',

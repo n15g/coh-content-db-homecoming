@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SecurityExpert: BadgeData = {
   type: 'achievement',
   key: 'security-expert',
+  gameId: 'SafeguardSecurityExpert',
   setTitleId: [643],
   name: [
     { alignment: 'hero', value: 'Security Expert' },

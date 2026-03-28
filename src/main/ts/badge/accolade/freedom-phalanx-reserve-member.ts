@@ -14,6 +14,7 @@ import { Vigorous } from '../exploration/vigorous'
 export const FreedomPhalanxReserveMember: BadgeData = {
   type: 'accolade',
   key: 'freedom-phalanx-reserve-member',
+  gameId: 'FreedomPhalanxSet',
   setTitleId: [161],
   name: [
     { alignment: 'hero', value: 'Freedom Phalanx Reserve Member' },

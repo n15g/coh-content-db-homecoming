@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const ShardLeaper: BadgeData = {
   type: 'exploration',
   key: 'shard-leaper',
+  gameId: 'FirebaseZuluTour8',
   setTitleId: [1804],
   name: 'Shard Leaper',
   releaseDate: '2012-11-30',

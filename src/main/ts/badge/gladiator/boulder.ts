@@ -4,6 +4,7 @@ import { Liberator } from '../accomplishment/liberator'
 export const Boulder: BadgeData = {
   type: 'gladiator',
   key: 'boulder',
+  gameId: 'Boulder',
   setTitleId: [488],
   name: 'Boulder',
   releaseDate: '2012-11-30',

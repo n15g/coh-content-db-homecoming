@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Devilfish: BadgeData = {
   type: 'defeat',
   key: 'devilfish',
+  gameId: 'OctopusEventBadge',
   setTitleId: [207],
   name: 'Devilfish',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Trickster: BadgeData = {
   type: 'achievement',
   key: 'trickster',
+  gameId: 'P_RogueAlignmentPower',
   setTitleId: [1456],
   name: 'Trickster',
   releaseDate: '2012-11-30',

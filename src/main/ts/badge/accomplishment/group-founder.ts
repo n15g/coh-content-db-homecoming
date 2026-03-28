@@ -4,6 +4,7 @@ import { ANewDimensionANewTeam } from '../../mission/a-new-dimension-a-new-team'
 export const GroupFounder: BadgeData = {
   type: 'accomplishment',
   key: 'group-founder',
+  gameId: 'Mission_BT_i24_Arc_Complete_01',
   setTitleId: [2255],
   name: 'Group Founder',
   releaseDate: '2012-11-30',

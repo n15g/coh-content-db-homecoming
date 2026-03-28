@@ -4,6 +4,7 @@ import { VincentRoss } from '../../contact/vincent-ross'
 export const Connected: BadgeData = {
   type: 'achievement',
   key: 'connected',
+  gameId: 'I19VillainStoryArcOptional',
   setTitleId: [1896],
   name: 'Connected',
   releaseDate: '2012-11-30',

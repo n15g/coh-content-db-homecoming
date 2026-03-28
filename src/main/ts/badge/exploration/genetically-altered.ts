@@ -4,6 +4,7 @@ import { PeregrineIsland } from '../../zone/peregrine-island'
 export const GeneticallyAltered: BadgeData = {
   type: 'exploration',
   key: 'genetically-altered',
+  gameId: 'PeregrineIslandTour4',
   setTitleId: [1574],
   name: 'Genetically Altered',
   releaseDate: '2012-11-30',

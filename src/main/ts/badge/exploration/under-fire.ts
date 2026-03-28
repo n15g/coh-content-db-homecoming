@@ -4,6 +4,7 @@ import { EchoRiktiCrashSite } from '../../zone/echo-rikti-crash-site'
 export const UnderFire: BadgeData = {
   type: 'exploration',
   key: 'under-fire',
+  gameId: 'RiktiWarZoneTour5',
   setTitleId: [751],
   name: 'Under Fire',
   releaseDate: '2012-11-30',

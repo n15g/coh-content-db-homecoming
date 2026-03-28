@@ -5,6 +5,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const JailBird: BadgeData = {
   type: 'exploration',
   key: 'jail-bird',
+  gameId: 'TutorialTour3',
   setTitleId: [437],
   name: 'Jail Bird',
   releaseDate: '2012-11-30',

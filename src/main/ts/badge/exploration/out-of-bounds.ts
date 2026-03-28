@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const OutOfBounds: BadgeData = {
   type: 'exploration',
   key: 'out-of-bounds',
+  gameId: 'CimeroraTour5',
   setTitleId: [2465],
   name: 'Out of Bounds',
   releaseDate: '2020-11-26',

@@ -4,6 +4,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const FlyingShark: BadgeData = {
   type: 'exploration',
   key: 'flying-shark',
+  gameId: 'BrickstownTour3',
   setTitleId: [1565],
   name: 'Flying Shark',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { ReasonToFight } from '../../mission/reason-to-fight'
 export const SaviorOfAtlasPark: BadgeData = {
   type: 'accomplishment',
   key: 'savior-of-atlas-park',
+  gameId: '2100_Atlas_CompleteBadge',
   setTitleId: [2012],
   name: 'Savior of Atlas Park',
   releaseDate: '2012-11-30',

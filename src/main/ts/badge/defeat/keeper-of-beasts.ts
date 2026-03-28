@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const KeeperOfBeasts: BadgeData = {
   type: 'defeat',
   key: 'keeper-of-beasts',
+  gameId: 'DefeatNightstalkers',
   setTitleId: [2214],
   name: 'Keeper of Beasts',
   releaseDate: '2012-11-30',

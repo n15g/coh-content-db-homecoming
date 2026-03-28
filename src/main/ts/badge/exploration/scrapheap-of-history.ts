@@ -4,6 +4,7 @@ import { TerraVolta } from '../../zone/terra-volta'
 export const ScrapheapOfHistory: BadgeData = {
   type: 'exploration',
   key: 'scrapheap-of-history',
+  gameId: 'TerraVoltaTour6',
   setTitleId: [1839],
   name: 'Scrapheap of History',
   releaseDate: '2012-11-30',

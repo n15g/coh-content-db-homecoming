@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const DepthsOfTime: BadgeData = {
   type: 'exploration',
   key: 'depths-of-time',
+  gameId: 'CimeroraTour1',
   setTitleId: [990],
   name: 'Depths of Time',
   releaseDate: '2012-11-30',

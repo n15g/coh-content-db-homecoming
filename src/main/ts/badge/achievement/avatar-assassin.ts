@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AvatarAssassin: BadgeData = {
   type: 'achievement',
   key: 'avatar-assassin',
+  gameId: 'IT_Underground_AvatarBomb',
   setTitleId: [1999],
   name: 'Avatar Assassin',
   releaseDate: '2012-11-30',

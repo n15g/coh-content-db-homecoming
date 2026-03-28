@@ -4,6 +4,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const FamilyPartier: BadgeData = {
   type: 'exploration',
   key: 'family-partier',
+  gameId: 'IndependencePortTour6',
   setTitleId: [1554],
   name: 'Family Partier',
   releaseDate: '2012-11-30',

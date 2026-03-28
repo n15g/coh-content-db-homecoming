@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Protectorate: BadgeData = {
   type: 'defeat',
   key: 'protectorate',
+  gameId: 'Protectorate',
   setTitleId: [43],
   name: [
     { alignment: 'hero', value: 'Protectorate' },

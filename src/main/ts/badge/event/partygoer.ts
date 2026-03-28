@@ -4,6 +4,7 @@ import { DJZero } from '../../contact/dj-zero'
 export const Partygoer: BadgeData = {
   type: 'event',
   key: 'partygoer',
+  gameId: 'Badge_PocketD_Jubilee',
   setTitleId: [736],
   name: 'Partygoer',
   releaseDate: '2012-11-30',

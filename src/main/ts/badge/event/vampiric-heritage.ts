@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VampiricHeritage: BadgeData = {
   type: 'event',
   key: 'vampiric-heritage',
+  gameId: 'Halloween22EliteVampire',
   setTitleId: [2503],
   name: 'Vampiric Heritage',
   releaseDate: '2020-11-26',

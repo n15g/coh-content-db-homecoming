@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfTheDescentToTheHydra: BadgeData = {
   type: 'achievement',
   key: 'master-of-the-descent-to-the-hydra',
+  gameId: 'MasterofSewerTrial',
   setTitleId: [2490],
   name: 'Master of the Descent to the Hydra',
   releaseDate: '2020-11-26',

@@ -4,6 +4,7 @@ import { EchoDarkAstoria } from '../../zone/echo-dark-astoria'
 export const CairnWarder: BadgeData = {
   type: 'exploration',
   key: 'cairn-warder',
+  gameId: 'DarkAstoriaTour3',
   setTitleId: [130],
   name: 'Cairn Warder',
   releaseDate: '2012-11-30',

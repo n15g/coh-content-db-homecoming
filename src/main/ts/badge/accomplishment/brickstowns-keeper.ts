@@ -4,6 +4,7 @@ import { ANewWar } from '../../mission/a-new-war'
 export const BrickstownsKeeper: BadgeData = {
   type: 'accomplishment',
   key: 'brickstowns-keeper',
+  gameId: 'Mission_BT_i24_Arc_Complete_02',
   setTitleId: [2256],
   name: `Brickstown's Keeper`,
   releaseDate: '2012-11-30',

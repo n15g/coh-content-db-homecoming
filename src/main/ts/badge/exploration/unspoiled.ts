@@ -4,6 +4,7 @@ import { Eden } from '../../zone/eden'
 export const Unspoiled: BadgeData = {
   type: 'exploration',
   key: 'unspoiled',
+  gameId: 'EdenTour2',
   setTitleId: [141],
   name: 'Unspoiled',
   releaseDate: '2012-11-30',

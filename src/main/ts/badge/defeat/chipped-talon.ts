@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ChippedTalon: BadgeData = {
   type: 'defeat',
   key: 'chipped-talon',
+  gameId: 'DefeatTalons',
   setTitleId: [2061],
   name: 'Chipped Talon',
   releaseDate: '2012-11-30',

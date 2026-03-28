@@ -4,6 +4,7 @@ import { Coldblooded } from '../defeat/coldblooded'
 export const Hellfrost: BadgeData = {
   type: 'gladiator',
   key: 'hellfrost',
+  gameId: 'Hellstrike',
   setTitleId: [462],
   name: 'Hellfrost',
   releaseDate: '2012-11-30',

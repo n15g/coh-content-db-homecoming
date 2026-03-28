@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const SickOfTimeTravel: BadgeData = {
   type: 'exploration',
   key: 'sick-of-time-travel',
+  gameId: 'ReclusesVictoryTour7',
   setTitleId: [2424],
   name: 'Sick of Time Travel',
   releaseDate: '2019-06-01',

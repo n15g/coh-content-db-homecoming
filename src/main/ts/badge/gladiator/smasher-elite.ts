@@ -4,6 +4,7 @@ import { Legionnaire } from '../defeat/legionnaire'
 export const SmasherElite: BadgeData = {
   type: 'gladiator',
   key: 'smasher-elite',
+  gameId: 'WarriorSmasher',
   setTitleId: [493],
   name: 'Smasher Elite',
   releaseDate: '2012-11-30',

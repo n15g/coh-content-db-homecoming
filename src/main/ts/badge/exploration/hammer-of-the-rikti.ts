@@ -4,6 +4,7 @@ import { CreysFolly } from '../../zone/creys-folly'
 export const HammerOfTheRikti: BadgeData = {
   type: 'exploration',
   key: 'hammer-of-the-rikti',
+  gameId: 'CreysFolleyTour4',
   setTitleId: [1792],
   name: 'Hammer of the Rikti',
   releaseDate: '2012-11-30',

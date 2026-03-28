@@ -4,6 +4,7 @@ import { FoundersFalls } from '../../zone/founders-falls'
 export const GuardianAngel: BadgeData = {
   type: 'exploration',
   key: 'guardian-angel',
+  gameId: 'FoundersFallsTour3',
   setTitleId: [1558],
   name: [
     { alignment: 'hero', value: 'Guardian Angel' },

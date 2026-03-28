@@ -4,6 +4,7 @@ import { KingsRow } from '../../zone/kings-row'
 export const ManOfVengeance: BadgeData = {
   type: 'exploration',
   key: 'man-of-vengeance',
+  gameId: 'KingsRowTour8',
   setTitleId: [1528],
   name: [
     { sex: 'M', value: 'Man of Vengeance' },

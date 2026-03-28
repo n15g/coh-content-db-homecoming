@@ -6,6 +6,7 @@ import { ParagonDanceParty } from '../../zone/paragon-dance-party'
 export const PartyAnimal: BadgeData = {
   type: 'exploration',
   key: 'party-animal',
+  gameId: 'PartyClubTour',
   setTitleId: [2522],
   name: 'Party Animal',
   releaseDate: '2020-11-26',

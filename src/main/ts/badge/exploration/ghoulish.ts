@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const Ghoulish: BadgeData = {
   type: 'exploration',
   key: 'ghoulish',
+  gameId: 'BloodyBayTour4',
   setTitleId: [258],
   name: 'Ghoulish',
   releaseDate: '2012-11-30',

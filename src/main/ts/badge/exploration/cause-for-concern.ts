@@ -4,6 +4,7 @@ import { PeregrineIsland } from '../../zone/peregrine-island'
 export const CauseForConcern: BadgeData = {
   type: 'exploration',
   key: 'cause-for-concern',
+  gameId: 'PeregrineIslandTour3',
   setTitleId: [1573],
   name: 'Cause for Concern',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { Gearsmasher } from '../defeat/gearsmasher'
 export const Cog: BadgeData = {
   type: 'gladiator',
   key: 'cog',
+  gameId: 'Cog',
   setTitleId: [476],
   name: 'Cog',
   releaseDate: '2012-11-30',

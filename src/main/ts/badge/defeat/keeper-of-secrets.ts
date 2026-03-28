@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const KeeperOfSecrets: BadgeData = {
   type: 'defeat',
   key: 'keeper-of-secrets',
+  gameId: 'KeeperOfSecrets',
   setTitleId: [38],
   name: 'Keeper of Secrets',
   releaseDate: '2012-11-30',

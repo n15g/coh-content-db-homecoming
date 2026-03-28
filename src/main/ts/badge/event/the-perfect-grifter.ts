@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ThePerfectGrifter: BadgeData = {
   type: 'event',
   key: 'the-perfect-grifter',
+  gameId: 'SummerEvent_Pgrifter',
   setTitleId: [2249],
   name: 'The Perfect Grifter',
   releaseDate: '2012-11-30',

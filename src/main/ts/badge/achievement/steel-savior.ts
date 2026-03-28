@@ -4,6 +4,7 @@ import { LauraLockhart } from '../../contact/laura-lockhart'
 export const SteelSavior: BadgeData = {
   type: 'achievement',
   key: 'steel-savior',
+  gameId: 'Mission_LowLevel_SC_SteelSavior',
   setTitleId: [2097],
   name: 'Steel Savior',
   releaseDate: '2012-11-30',

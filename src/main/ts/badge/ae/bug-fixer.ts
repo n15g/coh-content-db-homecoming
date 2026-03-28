@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BugFixer: BadgeData = {
   type: 'architect-entertainment',
   key: 'bug-fixer',
+  gameId: 'ArchitectTestOwnMission',
   setTitleId: [1203],
   name: 'Bug Fixer',
   releaseDate: '2012-11-30',

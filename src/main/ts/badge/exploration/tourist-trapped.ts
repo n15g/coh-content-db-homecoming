@@ -4,6 +4,7 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 export const TouristTrapped: BadgeData = {
   type: 'exploration',
   key: 'tourist-trapped',
+  gameId: 'KallistiWharfTour8',
   setTitleId: [2456],
   name: 'Tourist Trapped',
   releaseDate: '2025-06-17',

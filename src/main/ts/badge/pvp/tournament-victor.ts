@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TournamentVictor: BadgeData = {
   type: 'pvp',
   key: 'tournament-victor',
+  gameId: '1WinSwissDraw',
   setTitleId: [1346],
   name: 'Tournament Victor',
   releaseDate: '2012-11-30',

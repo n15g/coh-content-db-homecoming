@@ -4,6 +4,7 @@ import { BehavioralAdjustmentFacilityTrial } from '../../mission/behavioral-adju
 export const BehaviorAdjuster: BadgeData = {
   type: 'accomplishment',
   key: 'behavior-adjuster',
+  gameId: 'IT_BAF_Complete',
   setTitleId: [1974],
   name: 'Behavior Adjuster',
   releaseDate: '2012-11-30',

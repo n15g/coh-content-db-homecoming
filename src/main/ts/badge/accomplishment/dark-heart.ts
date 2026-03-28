@@ -4,6 +4,7 @@ import { TheHeartsOfDarknessRoguesContest } from '../../mission/the-hearts-of-da
 export const DarkHeart: BadgeData = {
   type: 'accomplishment',
   key: 'dark-heart',
+  gameId: 'Badge_OGTV1',
   setTitleId: [2017],
   name: 'Dark Heart',
   releaseDate: '2012-11-30',

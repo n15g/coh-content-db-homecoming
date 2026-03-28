@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const Protester: BadgeData = {
   type: 'accomplishment',
   key: 'protester',
+  gameId: 'P_Protestor',
   setTitleId: [1418],
   name: 'Protester',
   releaseDate: '2012-11-30',

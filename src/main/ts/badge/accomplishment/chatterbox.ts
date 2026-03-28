@@ -9,6 +9,7 @@ import { ANewDimensionANewTeam } from '../../mission/a-new-dimension-a-new-team'
 export const Chatterbox: BadgeData = {
   type: 'accomplishment',
   key: 'chatterbox',
+  gameId: 'Mission_BT_i24_Challenge_02',
   setTitleId: [2263],
   name: 'Chatterbox',
   releaseDate: '2012-11-30',

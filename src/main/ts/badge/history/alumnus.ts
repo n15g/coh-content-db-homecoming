@@ -6,6 +6,7 @@ import { SewerNetwork } from '../../zone/sewer-network'
 export const Alumnus: BadgeData = {
   type: 'history',
   key: 'alumnus',
+  gameId: 'CroatoaHistory',
   setTitleId: [411],
   name: 'Alumnus',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { AtlasPark } from '../../zone/atlas-park'
 export const Patriot: BadgeData = {
   type: 'exploration',
   key: 'patriot',
+  gameId: 'AtlasParkTour4',
   setTitleId: [89],
   name: [
     { alignment: 'hero', value: 'Patriot' },

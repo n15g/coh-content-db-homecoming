@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ZetaReticulan: BadgeData = {
   type: 'event',
   key: 'zeta-reticulan',
+  gameId: 'Anniversary_Rikti',
   setTitleId: [2527],
   name: 'Zeta Reticulan',
   releaseDate: '2024-05-02',

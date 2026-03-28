@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HeartOfLight: BadgeData = {
   type: 'event',
   key: 'heart-of-light',
+  gameId: 'ValentineLogin',
   setTitleId: [524],
   name: [
     { alignment: 'hero', value: 'Heart of Light' },

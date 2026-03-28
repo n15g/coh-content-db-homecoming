@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const DancerWithDeath: BadgeData = {
   type: 'exploration',
   key: 'dancer-with-death',
+  gameId: 'FirebaseZuluTour7',
   setTitleId: [1803],
   name: 'Dancer with Death',
   releaseDate: '2012-11-30',

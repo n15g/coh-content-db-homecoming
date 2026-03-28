@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Invictus: BadgeData = {
   type: 'event',
   key: 'invictus',
+  gameId: 'SummerEvent_Invictus',
   setTitleId: [2246],
   name: 'Invictus',
   releaseDate: '2012-11-30',

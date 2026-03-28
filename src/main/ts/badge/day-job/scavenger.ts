@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Scavenger: BadgeData = {
   type: 'day-job',
   key: 'scavenger',
+  gameId: 'DJ_Scavenger',
   setTitleId: [2044],
   name: 'Scavenger',
   releaseDate: '2012-11-30',

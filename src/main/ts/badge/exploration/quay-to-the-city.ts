@@ -4,6 +4,7 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 export const QuayToTheCity: BadgeData = {
   type: 'exploration',
   key: 'quay-to-the-city',
+  gameId: 'KallistiWharfTour7',
   setTitleId: [2455],
   name: 'Quay to the City',
   releaseDate: '2025-06-17',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Ectoplasmic: BadgeData = {
   type: 'defeat',
   key: 'ectoplasmic',
+  gameId: 'GhostShipDefeats',
   setTitleId: [208],
   name: 'Ectoplasmic',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LifeAndDeath: BadgeData = {
   type: 'achievement',
   key: 'life-and-death',
+  gameId: 'IT_DD_HealingChallenge',
   setTitleId: [2167],
   name: 'Life and Death',
   releaseDate: '2012-11-30',

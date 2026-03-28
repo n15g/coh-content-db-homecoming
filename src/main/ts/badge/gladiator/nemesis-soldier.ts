@@ -4,6 +4,7 @@ import { Corrupter } from '../accomplishment/corrupter'
 export const NemesisSoldier: BadgeData = {
   type: 'gladiator',
   key: 'nemesis-soldier',
+  gameId: 'NemesisSoldier',
   setTitleId: [495],
   name: 'Nemesis Soldier',
   releaseDate: '2012-11-30',

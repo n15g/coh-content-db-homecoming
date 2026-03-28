@@ -4,6 +4,7 @@ import { TheStormPalace } from '../../zone/the-storm-palace'
 export const Tormented: BadgeData = {
   type: 'exploration',
   key: 'tormented',
+  gameId: 'StormPalaceTour4',
   setTitleId: [1857],
   name: 'Tormented',
   releaseDate: '2012-11-30',

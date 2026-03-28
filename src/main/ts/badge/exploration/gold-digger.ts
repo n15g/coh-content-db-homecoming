@@ -4,6 +4,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const GoldDigger: BadgeData = {
   type: 'exploration',
   key: 'gold-digger',
+  gameId: 'P_GoldDigger',
   setTitleId: [1630],
   name: 'Gold Digger',
   releaseDate: '2012-11-30',

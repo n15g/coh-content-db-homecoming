@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Speeder: BadgeData = {
   type: 'accomplishment',
   key: 'speeder',
+  gameId: 'SlolamGold2',
   setTitleId: [1058],
   name: 'Speeder',
   releaseDate: '2012-11-30',

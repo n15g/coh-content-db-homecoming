@@ -5,6 +5,7 @@ import { AgentHassell } from '../../contact/agent-hassell'
 export const Cornerstone: BadgeData = {
   type: 'exploration',
   key: 'cornerstone',
+  gameId: 'SafeguardMap7',
   setTitleId: [654],
   name: [
     { alignment: 'hero', value: 'Cornerstone' },

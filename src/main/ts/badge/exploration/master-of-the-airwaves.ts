@@ -4,6 +4,7 @@ import { Grandville } from '../../zone/grandville'
 export const MasterOfTheAirwaves: BadgeData = {
   type: 'exploration',
   key: 'master-of-the-airwaves',
+  gameId: 'GrandvilleTour4',
   setTitleId: [286],
   name: [
     { sex: 'M', value: 'Master of the Airwaves' },

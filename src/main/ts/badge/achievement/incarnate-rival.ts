@@ -5,6 +5,7 @@ import { DreamDoctor } from '../../contact/dream-doctor'
 export const IncarnateRival: BadgeData = {
   type: 'achievement',
   key: 'incarnate-rival',
+  gameId: 'Mission_DA_Zone_Achievement_05',
   setTitleId: [2204],
   name: 'Incarnate Rival',
   releaseDate: '2012-11-30',

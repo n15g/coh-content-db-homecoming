@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Mortician: BadgeData = {
   type: 'day-job',
   key: 'mortician',
+  gameId: 'DJ_Gravedigger',
   setTitleId: [1049],
   name: 'Mortician',
   releaseDate: '2012-11-30',

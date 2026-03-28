@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const LongWalk: BadgeData = {
   type: 'exploration',
   key: 'long-walk',
+  gameId: 'PortOakesTour5',
   setTitleId: [1487],
   name: 'Long Walk',
   releaseDate: '2012-11-30',

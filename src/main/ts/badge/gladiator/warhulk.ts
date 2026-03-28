@@ -4,6 +4,7 @@ import { Meteorologist } from '../accomplishment/meteorologist'
 export const Warhulk: BadgeData = {
   type: 'gladiator',
   key: 'warhulk',
+  gameId: 'Warhulk',
   setTitleId: [502],
   name: 'Warhulk',
   releaseDate: '2012-11-30',

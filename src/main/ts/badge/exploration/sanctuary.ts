@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const Sanctuary: BadgeData = {
   type: 'exploration',
   key: 'sanctuary',
+  gameId: 'CimeroraTour3',
   setTitleId: [2463],
   name: 'Sanctuary',
   releaseDate: '2020-11-26',

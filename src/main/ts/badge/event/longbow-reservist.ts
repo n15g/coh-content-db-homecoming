@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LongbowReservist: BadgeData = {
   type: 'event',
   key: 'longbow-reservist',
+  gameId: 'Holiday2005Badge1',
   setTitleId: [520],
   name: [
     { alignment: 'hero', value: 'Longbow Reservist' },

@@ -4,6 +4,7 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 export const OrionsBelt: BadgeData = {
   type: 'exploration',
   key: 'orions-belt',
+  gameId: 'GalaxyCityTour8',
   setTitleId: [1524],
   name: `Orion's Belt`,
   releaseDate: '2012-11-30',

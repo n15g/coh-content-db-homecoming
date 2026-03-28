@@ -4,6 +4,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const Chrononaut: BadgeData = {
   type: 'exploration',
   key: 'chrononaut',
+  gameId: 'OuroborosTour1',
   setTitleId: [947],
   name: 'Chrononaut',
   releaseDate: '2012-11-30',

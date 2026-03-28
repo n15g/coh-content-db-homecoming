@@ -4,6 +4,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const LockedAndLoaded: BadgeData = {
   type: 'exploration',
   key: 'locked-and-loaded',
+  gameId: 'NervaTour2',
   setTitleId: [275],
   name: 'Locked and Loaded',
   releaseDate: '2012-11-30',

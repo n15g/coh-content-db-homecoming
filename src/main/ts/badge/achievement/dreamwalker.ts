@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Dreamwalker: BadgeData = {
   type: 'achievement',
   key: 'dreamwalker',
+  gameId: 'IT_MoM_MalaiseChallenge',
   setTitleId: [2079],
   name: [
     { alignment: 'hero', value: 'Dreamwalker' },

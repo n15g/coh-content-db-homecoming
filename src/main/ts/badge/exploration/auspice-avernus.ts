@@ -4,6 +4,7 @@ import { DarkAstoria } from '../../zone/dark-astoria'
 export const AuspiceAvernus: BadgeData = {
   type: 'exploration',
   key: 'auspice-avernus',
+  gameId: 'DarkAstoriaIncarnateTour3',
   setTitleId: [2181],
   name: 'Auspice Avernus',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Bounty: BadgeData = {
   type: 'achievement',
   key: 'bounty',
+  gameId: 'SouvenirCount10',
   setTitleId: [2362],
   name: 'Bounty',
   releaseDate: '2012-11-30',

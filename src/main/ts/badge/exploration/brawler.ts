@@ -4,6 +4,7 @@ import { EchoGalaxyCity } from '../../zone/echo-galaxy-city'
 export const Brawler: BadgeData = {
   type: 'exploration',
   key: 'brawler',
+  gameId: 'GalaxyCityTour3',
   setTitleId: [93],
   name: 'Brawler',
   releaseDate: '2012-11-30',

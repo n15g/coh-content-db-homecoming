@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const FearlessInsurgent: BadgeData = {
   type: 'exploration',
   key: 'fearless-insurgent',
+  gameId: 'FirstWardTour3',
   setTitleId: [2050],
   name: 'Fearless Insurgent',
   releaseDate: '2012-11-30',

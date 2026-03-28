@@ -4,6 +4,7 @@ import { TheChantry } from '../../zone/the-chantry'
 export const Bereaved: BadgeData = {
   type: 'exploration',
   key: 'bereaved',
+  gameId: 'ChantryTour5',
   setTitleId: [1817],
   name: 'Bereaved',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { MercyIsland } from '../../zone/mercy-island'
 export const TikiFan: BadgeData = {
   type: 'exploration',
   key: 'tiki-fan',
+  gameId: 'MercyIslandTour8',
   setTitleId: [1485],
   name: 'Tiki Fan',
   releaseDate: '2012-11-30',

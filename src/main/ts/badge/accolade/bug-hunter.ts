@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BugHunter: BadgeData = {
   type: 'accolade',
   key: 'bug-hunter',
+  gameId: 'BetaTester',
   setTitleId: [215],
   name: 'Bug Hunter',
   releaseDate: '2012-11-30',

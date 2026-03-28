@@ -5,6 +5,7 @@ import { TheHive } from '../../zone/the-hive'
 export const HiveMind: BadgeData = {
   type: 'exploration',
   key: 'hive-mind',
+  gameId: 'EdenTour7',
   setTitleId: [1846],
   name: 'Hive Mind',
   releaseDate: '2012-11-30',

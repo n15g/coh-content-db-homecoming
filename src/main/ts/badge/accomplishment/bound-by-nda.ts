@@ -4,6 +4,7 @@ import { OnlyLoveCanHurtLikeThis } from '../../mission/only-love-can-hurt-like-t
 export const BoundByNDA: BadgeData = {
   type: 'accomplishment',
   key: 'bound-by-nda',
+  gameId: 'Mission_i27_Corlett',
   setTitleId: [2511],
   name: [
     { alignment: 'hero', value: 'Bound by NDA' },

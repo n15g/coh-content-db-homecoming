@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const MostlyHarmless: BadgeData = {
   type: 'exploration',
   key: 'mostly-harmless',
+  gameId: 'BloodyBayTour7',
   setTitleId: [2413],
   name: 'Mostly Harmless',
   releaseDate: '2019-06-01',

@@ -4,6 +4,7 @@ import { ThirdTreeOfThornsRespecificationTrial } from '../../mission/third-tree-
 export const ThornUsurper: BadgeData = {
   type: 'accolade',
   key: 'thorn-usurper',
+  gameId: 'FaceliftedUsed',
   setTitleId: [518],
   name: 'Thorn Usurper',
   releaseDate: '2012-11-30',

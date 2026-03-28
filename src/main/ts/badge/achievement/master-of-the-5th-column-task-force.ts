@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const MasterOfThe5thColumnTaskForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-the-5th-column-task-force',
+  gameId: 'MasterofReichsmansTaskForce',
   setTitleId: [1374],
   name: 'Master of the 5th Column Task Force',
   releaseDate: '2012-11-30',

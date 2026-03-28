@@ -7,6 +7,7 @@ import { SubterraneanStriker } from './subterranean-striker'
 export const MasterOfZoesTaskForce: BadgeData = {
   type: 'achievement',
   key: 'master-of-zoes-task-force',
+  gameId: 'MasterOfZoeTaskForce',
   setTitleId: [2581],
   name: `Master of Zoe's Task Force`,
   releaseDate: '2025-11-25',

@@ -4,6 +4,7 @@ import { TheSilverBullet } from '../defeat/the-silver-bullet'
 export const OmegaWolf: BadgeData = {
   type: 'gladiator',
   key: 'omega-wolf',
+  gameId: 'OmegaWolf',
   setTitleId: [508],
   name: 'Omega Wolf',
   releaseDate: '2012-11-30',

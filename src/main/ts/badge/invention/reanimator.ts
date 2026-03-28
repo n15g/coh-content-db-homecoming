@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Reanimator: BadgeData = {
   type: 'invention',
   key: 'reanimator',
+  gameId: 'InventionHeal5',
   setTitleId: [769],
   name: 'Reanimator',
   releaseDate: '2012-11-30',

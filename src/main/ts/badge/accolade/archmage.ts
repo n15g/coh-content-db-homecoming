@@ -11,6 +11,7 @@ import { Tracer } from '../defeat/tracer'
 export const Archmage: BadgeData = {
   type: 'accolade',
   key: 'archmage',
+  gameId: 'MagusSet',
   setTitleId: [167],
   name: 'Archmage',
   releaseDate: '2012-11-30',

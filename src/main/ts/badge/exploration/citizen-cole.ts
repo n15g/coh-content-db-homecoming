@@ -4,6 +4,7 @@ import { NovaPraetoria } from '../../zone/nova-praetoria'
 export const CitizenCole: BadgeData = {
   type: 'exploration',
   key: 'citizen-cole',
+  gameId: 'P_CitizenCole',
   setTitleId: [1401],
   name: 'Citizen Cole',
   releaseDate: '2012-11-30',

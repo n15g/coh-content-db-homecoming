@@ -4,6 +4,7 @@ import { TalosIsland } from '../../zone/talos-island'
 export const NatureLover: BadgeData = {
   type: 'exploration',
   key: 'nature-lover',
+  gameId: 'TalosIslandTour2',
   setTitleId: [126],
   name: [
     { alignment: 'hero', value: 'Nature Lover' },

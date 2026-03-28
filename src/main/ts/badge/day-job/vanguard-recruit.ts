@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const VanguardRecruit: BadgeData = {
   type: 'day-job',
   key: 'vanguard-recruit',
+  gameId: 'DJ_Vanguard_Recruit',
   setTitleId: [1040],
   name: 'Vanguard Recruit',
   releaseDate: '2012-11-30',

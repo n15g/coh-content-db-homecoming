@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Dreamcatcher: BadgeData = {
   type: 'defeat',
   key: 'dreamcatcher',
+  gameId: 'DefeatLabyrinthNightmare',
   setTitleId: [2591],
   name: 'Dreamcatcher',
   releaseDate: '2026-02-10',

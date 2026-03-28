@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const JusticeIncarnate: BadgeData = {
   type: 'achievement',
   key: 'justice-incarnate',
+  gameId: ['Level40', 'P_Level_40'],
   setTitleId: [24, 1672],
   name: [
     { alignment: 'hero', value: 'Justice Incarnate' },

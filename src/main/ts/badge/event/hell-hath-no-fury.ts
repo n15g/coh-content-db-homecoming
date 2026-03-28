@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const HellHathNoFury: BadgeData = {
   type: 'event',
   key: 'hell-hath-no-fury',
+  gameId: 'Halloween09WomenScorned',
   setTitleId: [1368],
   name: 'Hell Hath No Fury',
   releaseDate: '2012-11-30',

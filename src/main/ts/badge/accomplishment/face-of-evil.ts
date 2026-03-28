@@ -4,6 +4,7 @@ import { TheHeartsOfDarknessPriceOfVictory } from '../../mission/the-hearts-of-d
 export const FaceOfEvil: BadgeData = {
   type: 'accomplishment',
   key: 'face-of-evil',
+  gameId: 'Badge_OGTV3',
   setTitleId: [2019],
   name: 'Face of Evil',
   releaseDate: '2012-11-30',

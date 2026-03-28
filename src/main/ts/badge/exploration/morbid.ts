@@ -4,6 +4,7 @@ import { UndergroundNova } from '../../zone/underground-nova'
 export const Morbid: BadgeData = {
   type: 'exploration',
   key: 'morbid',
+  gameId: 'P_Morbid',
   setTitleId: [1639],
   name: 'Morbid',
   releaseDate: '2012-11-30',

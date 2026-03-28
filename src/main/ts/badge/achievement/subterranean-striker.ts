@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SubterraneanStriker: BadgeData = {
   type: 'achievement',
   key: 'subterranean-striker',
+  gameId: 'ZoeTF_Challenge3',
   setTitleId: [2579],
   name: 'Subterranean Striker',
   releaseDate: '2025-11-25',

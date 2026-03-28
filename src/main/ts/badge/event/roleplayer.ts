@@ -7,6 +7,7 @@ import { ThePerfectThief } from './the-perfect-thief'
 export const Roleplayer: BadgeData = {
   type: 'event',
   key: 'roleplayer',
+  gameId: 'SummerEvent_Roleplayer',
   setTitleId: [2251],
   name: 'Roleplayer',
   releaseDate: '2012-11-30',

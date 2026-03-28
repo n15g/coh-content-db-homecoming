@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const Stockpiling: BadgeData = {
   type: 'exploration',
   key: 'stockpiling',
+  gameId: 'P_Stockpiling',
   setTitleId: [1728],
   name: 'Stockpiling',
   releaseDate: '2012-11-30',

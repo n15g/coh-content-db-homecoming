@@ -4,6 +4,7 @@ import { Finder } from '../defeat/finder'
 export const Anathema: BadgeData = {
   type: 'gladiator',
   key: 'anathema',
+  gameId: 'Anathema',
   setTitleId: [484],
   name: 'Anathema',
   releaseDate: '2012-11-30',

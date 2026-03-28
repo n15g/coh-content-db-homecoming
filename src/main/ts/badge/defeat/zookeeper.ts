@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Zookeeper: BadgeData = {
   type: 'defeat',
   key: 'zookeeper',
+  gameId: 'Zookeeper',
   setTitleId: [50],
   name: 'Zookeeper',
   releaseDate: '2012-11-30',

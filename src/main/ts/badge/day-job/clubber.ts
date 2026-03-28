@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Clubber: BadgeData = {
   type: 'day-job',
   key: 'clubber',
+  gameId: 'DJ_Clubber',
   setTitleId: [1038],
   name: 'Clubber',
   releaseDate: '2012-11-30',

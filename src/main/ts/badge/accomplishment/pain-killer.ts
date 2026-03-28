@@ -4,6 +4,7 @@ import { CathedralOfPainTrial } from '../../mission/cathedral-of-pain-trial'
 export const PainKiller: BadgeData = {
   type: 'accomplishment',
   key: 'pain-killer',
+  gameId: 'CoPComplete',
   setTitleId: [1599],
   name: 'Pain Killer',
   releaseDate: '2012-11-30',

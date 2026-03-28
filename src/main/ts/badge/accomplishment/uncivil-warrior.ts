@@ -4,6 +4,7 @@ import { TheGraveyardShift } from '../../mission/the-graveyard-shift'
 export const UncivilWarrior: BadgeData = {
   type: 'accomplishment',
   key: 'uncivil-warrior',
+  gameId: 'Mission_i27_Watkins',
   setTitleId: [2437],
   name: 'Uncivil Warrior',
   releaseDate: '2020-11-26',

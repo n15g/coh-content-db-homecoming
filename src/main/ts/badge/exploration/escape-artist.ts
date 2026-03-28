@@ -4,6 +4,7 @@ import { Faultline } from '../../zone/faultline'
 export const EscapeArtist: BadgeData = {
   type: 'exploration',
   key: 'escape-artist',
+  gameId: 'FaultlineTour5',
   setTitleId: [636],
   name: 'Escape Artist',
   releaseDate: '2012-11-30',

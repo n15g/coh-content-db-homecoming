@@ -4,6 +4,7 @@ import { WelcomeToVanguard } from '../../mission/welcome-to-vanguard'
 export const MemberOfVanguard: BadgeData = {
   type: 'accomplishment',
   key: 'member-of-vanguard',
+  gameId: 'VanguardEnabled',
   setTitleId: [832],
   name: 'Member of Vanguard',
   releaseDate: '2012-11-30',

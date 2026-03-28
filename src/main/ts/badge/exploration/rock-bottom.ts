@@ -4,6 +4,7 @@ import { Faultline } from '../../zone/faultline'
 export const RockBottom: BadgeData = {
   type: 'exploration',
   key: 'rock-bottom',
+  gameId: 'FaultlineTour15',
   setTitleId: [2406],
   name: 'Rock Bottom',
   releaseDate: '2019-06-01',

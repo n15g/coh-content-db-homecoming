@@ -4,6 +4,7 @@ import { StopTheLostAttack } from '../../mission/stop-the-lost-attack'
 export const PeckingOrder: BadgeData = {
   type: 'accomplishment',
   key: 'pecking-order',
+  gameId: 'SL5MissionC',
   setTitleId: [2498],
   name: 'Pecking Order',
   releaseDate: '2020-11-26',

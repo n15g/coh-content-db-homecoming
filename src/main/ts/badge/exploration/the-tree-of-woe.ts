@@ -4,6 +4,7 @@ import { TheAbyss } from '../../zone/the-abyss'
 export const TheTreeOfWoe: BadgeData = {
   type: 'exploration',
   key: 'the-tree-of-woe',
+  gameId: 'AbyssTour7',
   setTitleId: [1866],
   name: 'The Tree of Woe',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { PerezPark } from '../../zone/perez-park'
 export const Unleasher: BadgeData = {
   type: 'defeat',
   key: 'unleasher',
+  gameId: 'Unleasher',
   setTitleId: [181],
   name: 'Unleasher',
   releaseDate: '2012-11-30',

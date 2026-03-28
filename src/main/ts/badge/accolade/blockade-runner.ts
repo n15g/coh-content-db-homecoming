@@ -5,6 +5,7 @@ import { Gunrunner } from '../day-job/gunrunner'
 export const BlockadeRunner: BadgeData = {
   type: 'accolade',
   key: 'blockade-runner',
+  gameId: 'DJ_Black_Marketeer',
   setTitleId: [1079],
   name: [
     { alignment: 'hero', value: 'Blockade Runner' },

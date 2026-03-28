@@ -4,6 +4,7 @@ import { Tracer } from '../defeat/tracer'
 export const CraneEnforcer: BadgeData = {
   type: 'gladiator',
   key: 'crane-enforcer',
+  gameId: 'Crane',
   setTitleId: [478],
   name: 'Crane Enforcer',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { FoundersFalls } from '../../zone/founders-falls'
 export const LosingParadise: BadgeData = {
   type: 'exploration',
   key: 'losing-paradise',
+  gameId: 'FoundersFallsTour4',
   setTitleId: [1559],
   name: 'Losing Paradise',
   releaseDate: '2012-11-30',

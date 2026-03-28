@@ -4,6 +4,7 @@ import { IndependencePort } from '../../zone/independence-port'
 export const CreyHavoc: BadgeData = {
   type: 'exploration',
   key: 'crey-havoc',
+  gameId: 'IndependancePortTour1',
   setTitleId: [122],
   name: 'Crey Havoc',
   releaseDate: '2012-11-30',

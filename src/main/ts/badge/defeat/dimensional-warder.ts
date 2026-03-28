@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DimensionalWarder: BadgeData = {
   type: 'defeat',
   key: 'dimensional-warder',
+  gameId: 'DimensionalWarder',
   setTitleId: [57],
   name: 'Dimensional Warder',
   releaseDate: '2012-11-30',

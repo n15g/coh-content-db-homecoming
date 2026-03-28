@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SwiftSteel: BadgeData = {
   type: 'gladiator',
   key: 'swift-steel',
+  gameId: 'SwiftSteel',
   setTitleId: [494],
   name: 'Swift Steel',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { NobleIntentions } from '../../mission/noble-intentions'
 export const Underdog: BadgeData = {
   type: 'accomplishment',
   key: 'underdog',
+  gameId: 'Mission_i27_Houston_R',
   setTitleId: [2512],
   name: 'Underdog',
   releaseDate: '2020-11-26',

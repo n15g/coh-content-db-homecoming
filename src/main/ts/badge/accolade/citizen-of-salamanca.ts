@@ -11,6 +11,7 @@ import { MidnightersPerseverance } from '../exploration/midnighters-perseverance
 export const CitizenOfSalamanca: BadgeData = {
   type: 'accolade',
   key: 'citizen-of-salamanca',
+  gameId: 'CroatoaExplorer',
   setTitleId: [1545],
   name: 'Citizen of Salamanca',
   releaseDate: '2012-11-30',

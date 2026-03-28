@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Redundant: BadgeData = {
   type: 'defeat',
   key: 'redundant',
+  gameId: 'P_DefeatTheDestroyers',
   setTitleId: [1656],
   name: 'Redundant',
   releaseDate: '2012-11-30',

@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const SteelWorker: BadgeData = {
   type: 'exploration',
   key: 'steel-worker',
+  gameId: 'MayhemMap4',
   setTitleId: [558],
   name: 'Steel Worker',
   releaseDate: '2012-11-30',

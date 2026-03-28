@@ -11,6 +11,7 @@ import { RockBottom } from '../exploration/rock-bottom'
 export const FaultlineFinder: BadgeData = {
   type: 'accolade',
   key: 'faultline-finder',
+  gameId: 'FaultlineExplorer',
   setTitleId: [1598],
   name: 'Faultline Finder',
   releaseDate: '2012-11-30',

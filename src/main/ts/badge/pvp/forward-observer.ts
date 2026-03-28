@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ForwardObserver: BadgeData = {
   type: 'pvp',
   key: 'forward-observer',
+  gameId: 'Manhunter',
   setTitleId: [365],
   name: 'Forward Observer',
   releaseDate: '2012-11-30',

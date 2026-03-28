@@ -4,6 +4,7 @@ import { TheFreakishLabOfDrVahzilokAct2 } from '../../mission/the-freakish-lab-o
 export const TarnishedStar: BadgeData = {
   type: 'accomplishment',
   key: 'tarnished-star',
+  gameId: 'Mission_i27_Manticore',
   setTitleId: [2438],
   name: 'Tarnished Star',
   releaseDate: '2020-11-26',

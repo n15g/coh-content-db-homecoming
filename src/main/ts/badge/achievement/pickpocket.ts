@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Pickpocket: BadgeData = {
   type: 'achievement',
   key: 'pickpocket',
+  gameId: 'SouvenirCount25',
   setTitleId: [2363],
   name: 'Pickpocket',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { StMartial } from '../../zone/st-martial'
 export const InfamousRubble: BadgeData = {
   type: 'exploration',
   key: 'infamous-rubble',
+  gameId: 'StMartialTour7',
   setTitleId: [1507],
   name: 'Infamous Rubble',
   releaseDate: '2012-11-30',

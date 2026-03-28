@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Suspended: BadgeData = {
   type: 'ouroboros',
   key: 'suspended',
+  gameId: 'NoTravelPowersatSL9',
   setTitleId: [903],
   name: 'Suspended',
   releaseDate: '2012-11-30',

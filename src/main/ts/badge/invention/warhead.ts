@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Warhead: BadgeData = {
   type: 'invention',
   key: 'warhead',
+  gameId: 'InventionDamage3',
   setTitleId: [797],
   name: 'Warhead',
   releaseDate: '2012-11-30',

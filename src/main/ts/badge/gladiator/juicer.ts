@@ -4,6 +4,7 @@ import { WatcherOnTheKnoll } from '../exploration/watcher-on-the-knoll'
 export const Juicer: BadgeData = {
   type: 'gladiator',
   key: 'juicer',
+  gameId: 'JuicerSniper',
   setTitleId: [475],
   name: 'Juicer',
   releaseDate: '2012-11-30',

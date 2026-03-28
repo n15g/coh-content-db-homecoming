@@ -4,6 +4,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const TreeHugger: BadgeData = {
   type: 'exploration',
   key: 'tree-hugger',
+  gameId: 'NervaTour5',
   setTitleId: [278],
   name: 'Tree Hugger',
   releaseDate: '2012-11-30',

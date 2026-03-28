@@ -4,6 +4,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const PraetorianTourist: BadgeData = {
   type: 'ouroboros',
   key: 'praetorian-tourist',
+  gameId: 'P_PraetorianFlashback',
   setTitleId: [1474],
   name: 'Praetorian Tourist',
   releaseDate: '2012-11-30',

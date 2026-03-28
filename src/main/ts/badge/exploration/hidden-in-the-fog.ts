@@ -4,6 +4,7 @@ import { TheLabyrinthOfFog } from '../../zone/the-labyrinth-of-fog'
 export const HiddenInTheFog: BadgeData = {
   type: 'exploration',
   key: 'hidden-in-the-fog',
+  gameId: 'DungeonLabyrinthTour1',
   setTitleId: [2530],
   name: 'Hidden In The Fog',
   releaseDate: '2024-11-19',

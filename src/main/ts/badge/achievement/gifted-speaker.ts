@@ -4,6 +4,7 @@ import { DestinyFollows } from '../../mission/destiny-follows'
 export const GiftedSpeaker: BadgeData = {
   type: 'achievement',
   key: 'gifted-speaker',
+  gameId: 'Mission_LowLevel_CaD_GiftedSpeaker',
   setTitleId: [2095],
   name: 'Gifted Speaker',
   releaseDate: '2012-11-30',

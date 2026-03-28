@@ -5,6 +5,7 @@ import { LordSchweinzer } from '../../contact/lord-schweinzer'
 export const GateCloser: BadgeData = {
   type: 'exploration',
   key: 'gate-closer',
+  gameId: 'MayhemMap9',
   setTitleId: [563],
   name: [
     { alignment: 'hero', value: 'Gate Closer' },

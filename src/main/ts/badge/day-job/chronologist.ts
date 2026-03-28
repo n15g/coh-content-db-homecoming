@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Chronologist: BadgeData = {
   type: 'day-job',
   key: 'chronologist',
+  gameId: 'DJ_Mender',
   setTitleId: [1041],
   name: 'Chronologist',
   releaseDate: '2012-11-30',

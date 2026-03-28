@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Perpetual: BadgeData = {
   type: 'invention',
   key: 'perpetual',
+  gameId: 'InventionEndurance5',
   setTitleId: [784],
   name: 'Perpetual',
   releaseDate: '2012-11-30',

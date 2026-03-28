@@ -4,6 +4,7 @@ import { FirstWard } from '../../zone/first-ward'
 export const DearlyDeparted: BadgeData = {
   type: 'exploration',
   key: 'dearly-departed',
+  gameId: 'FirstWardTour1',
   setTitleId: [2048],
   name: 'Dearly Departed',
   releaseDate: '2012-11-30',

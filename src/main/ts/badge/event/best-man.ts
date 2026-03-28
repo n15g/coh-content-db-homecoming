@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const BestMan: BadgeData = {
   type: 'event',
   key: 'best-man',
+  gameId: 'ValentineWeddingHero',
   setTitleId: [2547],
   name: [
     { sex: 'M', value: 'Best Man' },

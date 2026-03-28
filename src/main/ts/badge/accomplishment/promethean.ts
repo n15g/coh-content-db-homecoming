@@ -4,6 +4,7 @@ import { MortimerKalStrikeForce } from '../../mission/mortimer-kal-strike-force'
 export const Promethean: BadgeData = {
   type: 'accomplishment',
   key: 'promethean',
+  gameId: 'I20_VillainTFComplete',
   setTitleId: [1982],
   name: 'Promethean',
   releaseDate: '2012-11-30',

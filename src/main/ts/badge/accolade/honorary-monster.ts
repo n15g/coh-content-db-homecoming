@@ -11,6 +11,7 @@ import { TheRoarOfTheBeast } from '../exploration/the-roar-of-the-beast'
 export const HonoraryMonster: BadgeData = {
   type: 'accolade',
   key: 'honorary-monster',
+  gameId: 'MonsterIslandExplorer',
   setTitleId: [1891],
   name: 'Honorary Monster',
   releaseDate: '2012-11-30',

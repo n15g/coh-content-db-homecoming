@@ -5,6 +5,7 @@ import { SkywayCity } from '../../zone/skyway-city'
 export const JusticeAvenger: BadgeData = {
   type: 'exploration',
   key: 'justice-avenger',
+  gameId: 'PerezParkTour5',
   setTitleId: [105],
   name: [
     { alignment: 'hero', value: 'Justice Avenger' },

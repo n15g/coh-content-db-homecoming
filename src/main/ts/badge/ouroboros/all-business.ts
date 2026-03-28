@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const AllBusiness: BadgeData = {
   type: 'ouroboros',
   key: 'all-business',
+  gameId: 'ArchetypePowersOnlyatSL5',
   setTitleId: [890],
   name: 'All Business',
   releaseDate: '2012-11-30',

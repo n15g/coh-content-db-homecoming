@@ -4,6 +4,7 @@ import { TinMageMarkIITaskForce } from '../../mission/tin-mage-mark-ii-task-forc
 export const AlphaStruck: BadgeData = {
   type: 'accomplishment',
   key: 'alpha-struck',
+  gameId: 'AlphaTF_Complete_TinMage',
   setTitleId: [1938],
   name: 'Alpha Struck',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { HurtTheTraitorousVendettiRetainer } from '../../mission/hurt-the-traito
 export const StoneCold: BadgeData = {
   type: 'accomplishment',
   key: 'stone-cold',
+  gameId: 'VSL2MissionA',
   setTitleId: [330],
   name: 'Stone Cold',
   releaseDate: '2012-11-30',

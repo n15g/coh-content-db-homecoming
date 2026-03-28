@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Volcanic: BadgeData = {
   type: 'defeat',
   key: 'volcanic',
+  gameId: 'Volcanic',
   setTitleId: [203],
   name: 'Volcanic',
   releaseDate: '2012-11-30',

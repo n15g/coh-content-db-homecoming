@@ -4,6 +4,7 @@ import { Brickstown } from '../../zone/brickstown'
 export const ForwardThinker: BadgeData = {
   type: 'exploration',
   key: 'forward-thinker',
+  gameId: 'BrickstownTour5',
   setTitleId: [1567],
   name: 'Forward Thinker',
   releaseDate: '2012-11-30',

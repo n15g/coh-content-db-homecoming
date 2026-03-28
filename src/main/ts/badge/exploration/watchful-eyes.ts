@@ -4,6 +4,7 @@ import { FoundersFalls } from '../../zone/founders-falls'
 export const WatchfulEyes: BadgeData = {
   type: 'exploration',
   key: 'watchful-eyes',
+  gameId: 'FoundersFallsTour5',
   setTitleId: [1560],
   name: 'Watchful Eyes',
   releaseDate: '2012-11-30',

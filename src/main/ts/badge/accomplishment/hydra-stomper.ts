@@ -4,6 +4,7 @@ import { DeathFromBelow } from '../../mission/death-from-below'
 export const HydraStomper: BadgeData = {
   type: 'accomplishment',
   key: 'hydra-stomper',
+  gameId: 'SL1_SewerTrial_Complete',
   setTitleId: [2021],
   name: 'Hydra Stomper',
   releaseDate: '2012-11-30',

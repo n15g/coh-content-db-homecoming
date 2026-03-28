@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Eliminator: BadgeData = {
   type: 'achievement',
   key: 'eliminator',
+  gameId: 'P_Eliminator',
   setTitleId: [2356],
   name: 'Eliminator',
   releaseDate: '2012-11-30',

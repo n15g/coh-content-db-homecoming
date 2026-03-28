@@ -4,6 +4,7 @@ import { FluxTheOutcast } from '../../mission/flux-the-outcast'
 export const Complicated: BadgeData = {
   type: 'accomplishment',
   key: 'complicated',
+  gameId: 'Badge_Frostfire',
   setTitleId: [2459],
   name: 'Complicated',
   releaseDate: '2020-11-26',

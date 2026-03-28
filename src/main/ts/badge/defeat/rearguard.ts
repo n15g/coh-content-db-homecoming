@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Rearguard: BadgeData = {
   type: 'defeat',
   key: 'rearguard',
+  gameId: 'DefeatVanguard',
   setTitleId: [2488],
   name: 'Rearguard',
   releaseDate: '2020-11-26',

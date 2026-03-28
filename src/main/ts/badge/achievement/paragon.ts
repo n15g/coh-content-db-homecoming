@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Paragon: BadgeData = {
   type: 'achievement',
   key: 'paragon',
+  gameId: ['Paragon', 'P_Mentor_12Hour'],
   setTitleId: [14, 1707],
   name: [
     { alignment: 'hero', value: 'Paragon' },

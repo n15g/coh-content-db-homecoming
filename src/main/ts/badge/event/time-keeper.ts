@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const TimeKeeper: BadgeData = {
   type: 'event',
   key: 'time-keeper',
+  gameId: 'Anniversary_Capsules',
   setTitleId: [2525],
   name: 'Time Keeper',
   releaseDate: '2024-05-02',

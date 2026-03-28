@@ -8,6 +8,7 @@ import { LostConnectionToServer } from './lost-connection-to-server'
 export const MasterOfTheMindsOfMayhem: BadgeData = {
   type: 'achievement',
   key: 'master-of-minds-of-mayhem',
+  gameId: 'IT_MoM_Master',
   setTitleId: [2083],
   name: 'Master of the Minds of Mayhem',
   releaseDate: '2012-11-30',

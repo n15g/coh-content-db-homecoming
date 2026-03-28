@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Heroic: BadgeData = {
   type: 'architect-entertainment',
   key: 'heroic',
+  gameId: 'ArchitectHeroMissions10',
   setTitleId: [1217],
   name: 'Heroic',
   releaseDate: '2012-11-30',

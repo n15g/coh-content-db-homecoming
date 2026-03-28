@@ -4,6 +4,7 @@ import { ReclusesVictory } from '../../zone/recluses-victory'
 export const RedeemedBlackguard: BadgeData = {
   type: 'pvp',
   key: 'redeemed-blackguard',
+  gameId: 'RVAllHeroes',
   setTitleId: [585],
   name: [
     { alignment: 'hero', value: 'Redeemed Blackguard' },

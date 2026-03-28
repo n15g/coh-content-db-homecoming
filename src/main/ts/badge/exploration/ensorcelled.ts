@@ -4,6 +4,7 @@ import { Croatoa } from '../../zone/croatoa'
 export const Ensorcelled: BadgeData = {
   type: 'exploration',
   key: 'ensorcelled',
+  gameId: 'CroatoaTour3',
   setTitleId: [410],
   name: 'Ensorcelled',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Grounded: BadgeData = {
   type: 'day-job',
   key: 'grounded',
+  gameId: 'DJ_Pilot',
   setTitleId: [1043],
   name: [
     { alignment: 'hero', value: 'Grounded' },

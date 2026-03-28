@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Gifted: BadgeData = {
   type: 'event',
   key: 'gifted',
+  gameId: 'Winter2007Badge',
   setTitleId: [967],
   name: 'Gifted',
   releaseDate: '2012-11-30',

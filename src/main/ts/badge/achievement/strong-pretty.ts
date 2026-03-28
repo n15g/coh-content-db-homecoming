@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const StrongPretty: BadgeData = {
   type: 'achievement',
   key: 'strong-pretty',
+  gameId: 'IT_BAF_NoAdds',
   setTitleId: [1978],
   name: 'Strong & Pretty',
   releaseDate: '2012-11-30',

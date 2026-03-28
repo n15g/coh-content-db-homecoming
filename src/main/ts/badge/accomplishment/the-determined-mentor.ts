@@ -4,6 +4,7 @@ import { AnActOfMercy } from '../../mission/an-act-of-mercy'
 export const TheDeterminedMentor: BadgeData = {
   type: 'accomplishment',
   key: 'the-determined-mentor',
+  gameId: 'Mission_DA_Arc_Complete_02',
   setTitleId: [2189],
   name: 'The Determined Mentor',
   releaseDate: '2012-11-30',

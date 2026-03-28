@@ -4,6 +4,7 @@ import { SaraMooreTaskForce } from '../../mission/sara-moore-task-force'
 export const DestroyerOfStrength: BadgeData = {
   type: 'accomplishment',
   key: 'destroyer-of-strength',
+  gameId: 'ShardTF2',
   setTitleId: [424],
   name: 'Destroyer of Strength',
   releaseDate: '2012-11-30',

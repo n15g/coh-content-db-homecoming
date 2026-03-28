@@ -4,6 +4,7 @@ import { TheEndOfAYin } from '../../mission/the-end-of-a-yin'
 export const Pyromaniac: BadgeData = {
   type: 'accomplishment',
   key: 'pyromaniac',
+  gameId: 'Mission_SM_i24_Challenge_04',
   setTitleId: [2269],
   name: 'Pyromaniac',
   releaseDate: '2012-11-30',

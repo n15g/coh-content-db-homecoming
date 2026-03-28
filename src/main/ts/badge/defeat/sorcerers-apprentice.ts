@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const SorcerersApprentice: BadgeData = {
   type: 'defeat',
   key: 'sorcerers-apprentice',
+  gameId: 'DefeatAnimusArcana',
   setTitleId: [2215],
   name: `Sorcerer's Apprentice`,
   releaseDate: '2012-11-30',

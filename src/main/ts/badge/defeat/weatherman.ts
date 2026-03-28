@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Weatherman: BadgeData = {
   type: 'defeat',
   key: 'weatherman',
+  gameId: 'Weatherman',
   setTitleId: [48],
   name: [
     { sex: 'M', value: 'Weatherman' },

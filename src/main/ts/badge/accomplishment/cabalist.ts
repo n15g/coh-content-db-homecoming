@@ -4,6 +4,7 @@ import { KatieHannonTaskForce } from '../../mission/katie-hannon-task-force'
 export const Cabalist: BadgeData = {
   type: 'accomplishment',
   key: 'cabalist',
+  gameId: 'CroatoaTF',
   setTitleId: [427],
   name: 'Cabalist',
   releaseDate: '2012-11-30',

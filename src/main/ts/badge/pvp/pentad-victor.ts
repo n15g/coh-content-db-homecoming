@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PentadVictor: BadgeData = {
   type: 'pvp',
   key: 'pentad-victor',
+  gameId: '1WinPentad',
   setTitleId: [1356],
   name: 'Pentad Victor',
   releaseDate: '2012-11-30',

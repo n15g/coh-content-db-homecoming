@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ThePerfectHitter: BadgeData = {
   type: 'event',
   key: 'the-perfect-hitter',
+  gameId: 'SummerEvent_Phitter',
   setTitleId: [2247],
   name: 'The Perfect Hitter',
   releaseDate: '2012-11-30',

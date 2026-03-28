@@ -4,6 +4,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const VisionOfAmbition: BadgeData = {
   type: 'exploration',
   key: 'vision-of-ambition',
+  gameId: 'CimeroraTour7',
   setTitleId: [2467],
   name: 'Vision of Ambition',
   releaseDate: '2020-11-26',

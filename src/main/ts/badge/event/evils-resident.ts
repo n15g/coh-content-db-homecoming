@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const EvilsResident: BadgeData = {
   type: 'event',
   key: 'evils-resident',
+  gameId: 'Halloween2008Badge3',
   setTitleId: [1022],
   name: `Evil's Resident`,
   releaseDate: '2012-11-30',

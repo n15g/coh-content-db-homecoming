@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DaylightSaver: BadgeData = {
   type: 'achievement',
   key: 'daylight-saver',
+  gameId: 'IT_MoM_AuroraChallenge',
   setTitleId: [2081],
   name: 'Daylight Saver',
   releaseDate: '2012-11-30',

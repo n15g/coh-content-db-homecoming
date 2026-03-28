@@ -5,6 +5,7 @@ import { Cimerora } from '../../zone/cimerora'
 export const MidnighterArchivist: BadgeData = {
   type: 'history',
   key: 'midnighter-archivist',
+  gameId: 'Midnight_Mystery',
   setTitleId: [1009],
   name: 'Midnighter Archivist',
   releaseDate: '2012-11-30',

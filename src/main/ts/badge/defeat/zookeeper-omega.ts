@@ -4,6 +4,7 @@ import { TheLadyGrey } from '../../contact/the-lady-grey'
 export const ZookeeperOmega: BadgeData = {
   type: 'defeat',
   key: 'zookeeper-omega',
+  gameId: 'ZookeeperOmega',
   setTitleId: [2517],
   name: 'Zookeeper Omega',
   releaseDate: '2020-11-26',

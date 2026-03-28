@@ -4,6 +4,7 @@ import { Warburg } from '../../zone/warburg'
 export const ForciblyEvicted: BadgeData = {
   type: 'exploration',
   key: 'forcibly-evicted',
+  gameId: 'WarburgTour5',
   setTitleId: [2427],
   name: 'Forcibly Evicted',
   releaseDate: '2019-06-01',

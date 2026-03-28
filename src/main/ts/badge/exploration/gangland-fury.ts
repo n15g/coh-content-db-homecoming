@@ -4,6 +4,7 @@ import { TheHollows } from '../../zone/the-hollows'
 export const GanglandFury: BadgeData = {
   type: 'exploration',
   key: 'gangland-fury',
+  gameId: 'HollowsTour5',
   setTitleId: [199],
   name: 'Gangland Fury',
   releaseDate: '2012-11-30',

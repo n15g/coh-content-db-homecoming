@@ -4,6 +4,7 @@ import { UndergroundImperial } from '../../zone/underground-imperial'
 export const Lowlife: BadgeData = {
   type: 'exploration',
   key: 'lowlife',
+  gameId: 'P_Lowlife',
   setTitleId: [1650],
   name: 'Lowlife',
   releaseDate: '2012-11-30',

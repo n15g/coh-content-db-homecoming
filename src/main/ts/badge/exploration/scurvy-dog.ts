@@ -4,6 +4,7 @@ import { PortOakes } from '../../zone/port-oakes'
 export const ScurvyDog: BadgeData = {
   type: 'exploration',
   key: 'scurvy-dog',
+  gameId: 'PortOakesTour1',
   setTitleId: [251],
   name: 'Scurvy Dog',
   releaseDate: '2012-11-30',

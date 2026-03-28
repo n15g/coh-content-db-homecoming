@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const DownInFront: BadgeData = {
   type: 'event',
   key: 'down-in-front',
+  gameId: 'ValentineWeddingNuisance',
   setTitleId: [2550],
   name: 'Down In Front',
   releaseDate: '2025-02-10',

@@ -5,6 +5,7 @@ import { Ouroboros } from '../../zone/ouroboros'
 export const LastLineOfDefense: BadgeData = {
   type: 'exploration',
   key: 'last-line-of-defense',
+  gameId: 'TalosIslandTour4',
   setTitleId: [1546],
   name: 'Last Line of Defense',
   releaseDate: '2012-11-30',

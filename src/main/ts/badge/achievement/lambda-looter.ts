@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const LambdaLooter: BadgeData = {
   type: 'achievement',
   key: 'lambda-looter',
+  gameId: 'IT_Lambda_NoPowers',
   setTitleId: [1987],
   name: 'Lambda Looter',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Bonecrusher: BadgeData = {
   type: 'defeat',
   key: 'bonecrusher',
+  gameId: 'Bonecrusher',
   setTitleId: [30],
   name: 'Bonecrusher',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PickyEater: BadgeData = {
   type: 'achievement',
   key: 'picky-eater',
+  gameId: 'RejectRecipes50',
   setTitleId: [2392],
   name: 'Picky Eater',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { BloodyBay } from '../../zone/bloody-bay'
 export const Lobbyist: BadgeData = {
   type: 'exploration',
   key: 'lobbyist',
+  gameId: 'BloodyBayTour1',
   setTitleId: [255],
   name: [
     { alignment: 'hero', value: 'Lobbyist' },

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const ColdFront: BadgeData = {
   type: 'event',
   key: 'cold-front',
+  gameId: 'ColdFront',
   setTitleId: [705],
   name: 'Cold Front',
   releaseDate: '2012-11-30',

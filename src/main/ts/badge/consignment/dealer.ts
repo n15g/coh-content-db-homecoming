@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Dealer: BadgeData = {
   type: 'consignment',
   key: 'dealer',
+  gameId: 'AuctionSeller7',
   setTitleId: [816],
   name: 'Dealer',
   releaseDate: '2012-11-30',

@@ -4,6 +4,7 @@ import { NothingPersonalJustBusiness } from '../../mission/nothing-personal-just
 export const YouShouldSeeTheOtherGuy: BadgeData = {
   type: 'accomplishment',
   key: 'you-should-see-the-other-guy',
+  gameId: 'Mission_KR_i24_Personal_Story',
   setTitleId: [2317],
   name: 'You should see the other guy.',
   releaseDate: '2012-11-30',

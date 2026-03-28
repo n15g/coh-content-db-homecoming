@@ -4,6 +4,7 @@ import { CuttingBackOldGrowth } from '../../mission/cutting-back-old-growth'
 export const TruthSeeker: BadgeData = {
   type: 'accomplishment',
   key: 'truth-seeker',
+  gameId: 'Mission_i28_ErinWest_Bonus02',
   setTitleId: [2566],
   name: 'Truth Seeker',
   releaseDate: '2025-06-17',

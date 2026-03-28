@@ -4,6 +4,7 @@ import { StrigaIsle } from '../../zone/striga-isle'
 export const SuperSpy: BadgeData = {
   type: 'exploration',
   key: 'super-spy',
+  gameId: 'StrigaTour1',
   setTitleId: [196],
   name: 'Super Spy',
   releaseDate: '2012-11-30',

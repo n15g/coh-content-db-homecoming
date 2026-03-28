@@ -4,6 +4,7 @@ import { FirebaseZulu } from '../../zone/firebase-zulu'
 export const DefyingGravity: BadgeData = {
   type: 'exploration',
   key: 'defying-gravity',
+  gameId: 'FirebaseZuluTour1',
   setTitleId: [1797],
   name: 'Defying Gravity',
   releaseDate: '2012-11-30',

@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const PhonedItIn: BadgeData = {
   type: 'ouroboros',
   key: 'phoned-it-in',
+  gameId: 'NoInspirationsatSL7',
   setTitleId: [921],
   name: 'Phoned it in',
   releaseDate: '2012-11-30',

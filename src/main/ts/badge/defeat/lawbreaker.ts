@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Lawbreaker: BadgeData = {
   type: 'defeat',
   key: 'lawbreaker',
+  gameId: 'DefeatDrudges',
   setTitleId: [2216],
   name: 'Lawbreaker',
   releaseDate: '2012-11-30',

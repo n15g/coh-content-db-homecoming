@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Mythical: BadgeData = {
   type: 'defeat',
   key: 'mythical',
+  gameId: 'DefeatMinotaur',
   setTitleId: [2470],
   name: 'Mythical',
   releaseDate: '2020-11-26',

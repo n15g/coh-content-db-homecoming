@@ -6,6 +6,7 @@ import { ImperialCity } from '../../zone/imperial-city'
 export const RiverRat: BadgeData = {
   type: 'exploration',
   key: 'river-rat',
+  gameId: 'P_RiverRat',
   setTitleId: [1405],
   name: 'River Rat',
   releaseDate: '2012-11-30',

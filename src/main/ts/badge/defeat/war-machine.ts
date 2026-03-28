@@ -4,6 +4,7 @@ import { Boomtown } from '../../zone/boomtown'
 export const WarMachine: BadgeData = {
   type: 'defeat',
   key: 'war-machine',
+  gameId: 'CouncilGoliath',
   setTitleId: [2333],
   name: 'War Machine',
   releaseDate: '2012-11-30',

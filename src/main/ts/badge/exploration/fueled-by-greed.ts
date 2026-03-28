@@ -4,6 +4,7 @@ import { KallistiWharf } from '../../zone/kallisti-wharf'
 export const FueledByGreed: BadgeData = {
   type: 'exploration',
   key: 'fueled-by-greed',
+  gameId: 'KallistiWharfTour4',
   setTitleId: [2452],
   name: 'Fueled By Greed',
   releaseDate: '2025-06-17',

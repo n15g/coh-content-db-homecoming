@@ -11,6 +11,7 @@ import { Burgermeister } from '../exploration/burgermeister'
 export const BadBlood: BadgeData = {
   type: 'accolade',
   key: 'bad-blood',
+  gameId: 'BloodyBayExplorer',
   setTitleId: [2409],
   name: 'Bad Blood',
   releaseDate: '2019-06-01',

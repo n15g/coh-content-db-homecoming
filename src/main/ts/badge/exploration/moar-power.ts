@@ -4,6 +4,7 @@ import { Neutropolis } from '../../zone/neutropolis'
 export const MoarPower: BadgeData = {
   type: 'exploration',
   key: 'moar-power',
+  gameId: 'P_MorePower',
   setTitleId: [1727],
   name: 'Moar Power',
   releaseDate: '2012-11-30',

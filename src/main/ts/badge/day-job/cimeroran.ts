@@ -3,6 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Cimeroran: BadgeData = {
   type: 'day-job',
   key: 'cimeroran',
+  gameId: 'DJ_Cimeroran',
   setTitleId: [1046],
   name: 'Cimeroran',
   releaseDate: '2012-11-30',

@@ -7,6 +7,7 @@ import { NervaArchipelago } from '../../zone/nerva-archipelago'
 export const Swashbuckler: BadgeData = {
   type: 'history',
   key: 'swashbuckler',
+  gameId: 'PirateHistory',
   setTitleId: [315],
   name: 'Swashbuckler',
   releaseDate: '2012-11-30',

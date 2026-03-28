@@ -7,6 +7,7 @@ import { StrongPretty } from './strong-pretty'
 export const MasterOfTheBAF: BadgeData = {
   type: 'achievement',
   key: 'master-of-the-baf',
+  gameId: 'IT_BAF_Master',
   setTitleId: [1979],
   name: 'Master of the B.A.F.',
   releaseDate: '2012-11-30',
