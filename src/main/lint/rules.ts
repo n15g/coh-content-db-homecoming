@@ -13,10 +13,8 @@ import { noInvalidHrefProtocol } from './rules/no-invalid-href-protocol'
 import { noNegZero } from './rules/no-neg-zero'
 import { noMissingReleaseDate } from './rules/no-missing-release-date'
 import { noInvalidReleaseDate } from './rules/no-invalid-release-date'
-import { importGameId } from './rules/import-game-id'
 
 export const rules = {
-  'import-game-id': importGameId,
   'migrate-contact-link-title': migrateContactLinkTitle,
   'migrate-contact-loc': migrateContactLoc,
   'migrate-requirement-loc': migrateRequirementLoc,
