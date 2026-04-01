@@ -5,7 +5,7 @@ export const SixTimesTheVictor: BadgeData = {
   type: 'accomplishment',
   key: 'six-times-the-victor',
   gameId: 'Victor6',
-  setTitleId: [416],
+  setTitleId: [418],
   name: 'Six Times the Victor',
   releaseDate: '2012-11-30',
   morality: 'heroic',
