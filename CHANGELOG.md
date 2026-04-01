@@ -5,10 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.2.0] - 2026-03-28
+## [2.2.1] - 2026-04-01
+
+### Fixed
+
+- [2.2.1] Fixed a handful of SetTitle ids and some badge capitalization ([#194](https://github.com/n15g/coh-content-db-homecoming/pull/194))
 
 ### Added
 
+- [2.2.1] Included an April Fool's joke in the CHANGELOG
 - [2.2.0] `gameId` added to all badges to support new `/build_save` changes ([#192](https://github.com/n15g/coh-content-db-homecoming/pull/192))
 
 ---
