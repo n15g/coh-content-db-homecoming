@@ -4,7 +4,7 @@ export const SkullKiller: BadgeData = {
   type: 'event',
   key: 'skull-killer',
   gameId: 'Anniversary_Skulls',
-  setTitleId: [2553],
+  setTitleId: [2554],
   name: 'Skull Killer',
   releaseDate: '2025-04-19',
   morality: 'all',
