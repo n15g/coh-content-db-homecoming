@@ -1,5 +1,4 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Ouroboros } from '../../zone/ouroboros'
+import { BadgeData } from 'coh-content-db'
 
 export const Resurgent: BadgeData = {
   type: 'event',
@@ -10,7 +9,7 @@ export const Resurgent: BadgeData = {
   releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You have helped celebrate the 16th anniversary of City of Heroes.`,
-  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  acquisition: `Available for purchase from Luna in Ouroboros during the anniversary event in May.`,
   links: [
     { title: 'Resurgent Badge', href: 'https://homecoming.wiki/wiki/Resurgent_Badge' },
   ],
