@@ -1,4 +1,4 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, zonelink } from 'coh-content-db'
 import { Ouroboros } from '../../zone/ouroboros'
 
 export const Exuberant: BadgeData = {
