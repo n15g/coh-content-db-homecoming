@@ -1,5 +1,5 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Ouroboros } from '../../zone/ouroboros'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { Luna } from '../../contact/luna'
 
 export const Excelsior: BadgeData = {
   type: 'event',
@@ -10,7 +10,7 @@ export const Excelsior: BadgeData = {
   releaseDate: '2019-06-01',
   morality: 'all',
   badgeText: `You have helped celebrate the 15th anniversary of City of Heroes.`,
-  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  acquisition: `Available for purchase from ${contactLink(Luna)} during the anniversary event in May.`,
   links: [
     { title: 'Excelsior! Badge', href: 'https://homecoming.wiki/wiki/Excelsior!_Badge' },
   ],

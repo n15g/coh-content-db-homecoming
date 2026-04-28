@@ -1,5 +1,5 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Ouroboros } from '../../zone/ouroboros'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { Luna } from '../../contact/luna'
 
 export const Timeless: BadgeData = {
   type: 'event',
@@ -10,7 +10,7 @@ export const Timeless: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: `You have helped celebrate the 13th anniversary of City of Heroes.`,
-  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  acquisition: `Available for purchase from ${contactLink(Luna)} during the anniversary event in May.`,
   links: [
     { title: 'Timeless Badge', href: 'https://homecoming.wiki/wiki/Timeless_Badge' },
   ],

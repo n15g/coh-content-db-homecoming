@@ -1,4 +1,5 @@
-import { BadgeData } from 'coh-content-db'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { Luna } from '../../contact/luna'
 
 export const Celebrant: BadgeData = {
   type: 'event',
@@ -9,7 +10,7 @@ export const Celebrant: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have helped celebrate the 1 year anniversary of City of Heroes.',
-  acquisition: 'Available for purchase from Luna in Ouroboros during the anniversary event in May.',
+  acquisition: `Available for purchase from ${contactLink(Luna)} during the anniversary event in May.`,
   links: [
     { title: 'Celebrant Badge', href: 'https://homecoming.wiki/wiki/Celebrant_Badge' },
   ],

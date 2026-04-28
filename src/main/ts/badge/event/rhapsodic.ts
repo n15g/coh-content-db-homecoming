@@ -1,5 +1,5 @@
-import { BadgeData, zoneLink } from 'coh-content-db'
-import { Ouroboros } from '../../zone/ouroboros'
+import { BadgeData, contactLink } from 'coh-content-db'
+import { Luna } from '../../contact/luna'
 
 export const Rhapsodic: BadgeData = {
   type: 'event',
@@ -10,7 +10,7 @@ export const Rhapsodic: BadgeData = {
   releaseDate: '2012-11-30',
   morality: 'all',
   badgeText: 'You have helped celebrate the 8th anniversary of City of Heroes/Villains. (This badge was awarded to every character who logged in during the month of May, 2012)',
-  acquisition: `Available for purchase from Luna in ${zoneLink(Ouroboros)} during the anniversary event in May.`,
+  acquisition: `Available for purchase from ${contactLink(Luna)} during the anniversary event in May.`,
   links: [
     { title: 'Rhapsodic Badge', href: 'https://homecoming.wiki/wiki/Rhapsodic_Badge' },
   ],

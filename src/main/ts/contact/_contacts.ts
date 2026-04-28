@@ -131,6 +131,7 @@ import { LorenzoTate } from './lorenzo-tate'
 import { LtColHughMcDougal } from './lt-col-hugh-mcdougal'
 import { LtHarris } from './lt-harris'
 import { LukeLarson } from './luke-larson'
+import { Luna } from './luna'
 import { MageKillerTatiana } from './mage-killer-tatiana'
 import { MageKillerZuhkara } from './mage-killer-zuhkara'
 import { MairennMacGregor } from './mairenn-macgregor'
@@ -376,6 +377,7 @@ export const CONTACTS: ContactData[] = [
   LtColHughMcDougal,
   LtHarris,
   LukeLarson,
+  Luna,
   MageKillerTatiana,
   MageKillerZuhkara,
   MairennMacGregor,
