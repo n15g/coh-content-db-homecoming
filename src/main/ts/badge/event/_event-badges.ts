@@ -108,7 +108,7 @@ import { SkullKiller } from './skull-killer'
 import { WinterWeathered } from './winter-weathered'
 import { Icebreaker } from './icebreaker'
 import { VeryNaughty } from './very-naughty'
-import { Exuberant } from './exuberant
+import { Exuberant } from './exuberant'
 
 export const EVENT_BADGES: BadgeData[] = [
   Celebrant,
