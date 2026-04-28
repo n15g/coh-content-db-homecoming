@@ -3,7 +3,7 @@ import { BadgeData } from 'coh-content-db'
 export const Exuberant: BadgeData = {
   type: 'event',
   key: 'exuberant',
-  gameID: 'Anniversary22',
+  gameId: 'Anniversary22',
   setTitleId: [2585],
   name: 'Exuberant',
   releaseDate: '2026-04-27',
