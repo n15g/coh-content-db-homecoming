@@ -1,4 +1,4 @@
-import { BadgeData, zonelink } from 'coh-content-db'
+import { BadgeData } from 'coh-content-db'
 
 export const Exuberant: BadgeData = {
   type: 'event',
