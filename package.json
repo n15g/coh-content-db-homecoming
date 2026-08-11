@@ -20,6 +20,7 @@
     "lint": "eslint",
     "test": "jest --coverage",
     "typecheck": "tsc --noEmit",
+    "validate": "npm run lint && npm run typecheck && npm run test && npm run build",
     "push": "git push && git push --tags",
     "watch": "rollup --config --watch",
     "link:db": "npm link coh-content-db",
