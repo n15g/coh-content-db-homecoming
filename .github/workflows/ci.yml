@@ -1,48 +1,56 @@
-name: Build
+name: CI
+
 on:
   push:
     branches: [ 'master' ]
+  pull_request:
 
 permissions:
   contents: read
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  build:
+  validate:
+    name: Validate
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Setup Node
+      - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
           node-version: lts/krypton
-          cache: 'npm'
+          cache: npm
 
-      - name: Install
+      - name: Install dependencies
         run: npm ci
 
       - name: Lint
         run: npm run lint
 
-      - name: Type Check
+      - name: Type check
         run: npm run typecheck
 
       - name: Test
         run: npm run test
 
-      - name: Upload coverage reports to Codecov
-        if: github.event.repository.fork != true
+      - name: Upload coverage to Codecov
+        if: github.event_name == 'push'
         uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
-      - name: Build
+      - name: Build package
         run: npm run build
 
-      - name: Upload Artifact
+      - name: Upload build artifact
         uses: actions/upload-artifact@v7
         with:
-          name: 'dist'
-          path: 'dist'
+          name: package-dist
+          path: dist
           if-no-files-found: error
