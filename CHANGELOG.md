@@ -5,27 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.3.0-beta.0] - 2026-08-11
+## [2.3.0] - 2026-08-11
 
 **Packaging and build overhaul**
 
-This release modernizes the development, validation, packaging, and release toolchain while defining the supported TypeScript and JSON package entry points. Source content, tests, raw resources, and project configuration are no longer included in the published npm package.
+This release formalizes the supported TypeScript and JSON package entry points and substantially reduces the published package contents. The content database itself is unchanged.
 
 ### Added
 
-- Added explicit TypeScript type checking and an aggregate `npm run validate` command covering lint, type checking, tests, and build.
+- Added explicit package exports for the typed `HOMECOMING` bundle, complete JSON bundle, and JSON bundle header.
 
 ### Changed
 
-- Updated the development toolchain, including TypeScript 6 and the latest lint rules.
-- Modernized and consolidated continuous integration and release workflows for Node 24, reproducible installs, explicit TypeScript validation, least-privilege permissions, and built-in GitHub authentication.
-- Configured npm publishing to use the `beta` tag for prereleases and `latest` for stable releases.
-- Simplified the build and lint toolchain by removing unused development dependencies.
-- Defined explicit JavaScript and JSON package exports and limited published files to the distributable package.
-- Simplified custom ESLint rule loading by importing the typed rule registry directly from the flat configuration.
-- Regenerated the lockfile with npm 12 to restore `npm ci` compatibility with npm 11.
 - Updated to `coh-content-db` 2.3.0 and verified downstream compatibility.
-- Restricted GitHub Pages deployments to stable releases so prereleases cannot replace the public content feed.
+- Limited the npm package to distributable bundles and supporting documentation.
+- Modernized the development, validation, continuous integration, and release toolchain for Node 24 and TypeScript 6.
+- Configured prereleases to use the npm `beta` tag without replacing the stable GitHub Pages content feed.
 
 ### Removed
 
