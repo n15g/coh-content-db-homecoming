@@ -2,7 +2,6 @@ import esbuild from 'rollup-plugin-esbuild'
 import { dts } from 'rollup-plugin-dts'
 import { writeFileSync } from 'node:fs'
 import path from 'node:path'
-import json from '@rollup/plugin-json'
 import replace from '@rollup/plugin-replace'
 import package_ from './package.json' with { type: 'json' }
 
@@ -20,7 +19,6 @@ export default [{
       },
     }),
     esbuild(), // TypeScript
-    json(), // Reading version from package.json
     exportBundleJson(), // Exporting the bundle.json
   ],
   output: [{
