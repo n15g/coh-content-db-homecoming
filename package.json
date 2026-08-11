@@ -19,6 +19,7 @@
     "build": "rollup --config",
     "lint": "eslint",
     "test": "jest --coverage",
+    "typecheck": "tsc --noEmit",
     "push": "git push && git push --tags",
     "watch": "rollup --config --watch",
     "link:db": "npm link coh-content-db",

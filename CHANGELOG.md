@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated the development toolchain, including TypeScript 6 and the latest lint rules.
+- Added explicit TypeScript validation to continuous integration and release builds.
 - Modernized continuous integration and release workflows for Node 24, reproducible installs, least-privilege permissions, and built-in GitHub authentication.
 - Configured npm publishing to use the `beta` tag for prereleases and `latest` for stable releases.
 - Simplified the build and lint toolchain by removing unused development dependencies.
