@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Modernized continuous integration and release workflows for Node 24, reproducible installs, least-privilege permissions, and built-in GitHub authentication.
 - Configured npm publishing to use the `beta` tag for prereleases and `latest` for stable releases.
 - Simplified the build and lint toolchain by removing unused development dependencies.
+- Defined explicit JavaScript and JSON package exports and limited published files to the distributable package.
 
 ---
 

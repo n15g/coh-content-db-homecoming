@@ -42,6 +42,14 @@ const bundle = await response.json() as BundleData
 const database = new CohContentDatabase(bundle)
 ```
 
+The supported package entry points are:
+
+* `coh-content-db-homecoming` for the typed `HOMECOMING` bundle
+* `coh-content-db-homecoming/bundle.json` for the complete JSON bundle
+* `coh-content-db-homecoming/bundle.head.json` for the JSON bundle header
+
+Other package paths are internal and are not part of the public API.
+
 ----
 
 # Development

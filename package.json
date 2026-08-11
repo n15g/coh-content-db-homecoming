@@ -12,6 +12,21 @@
   },
   "license": "Unlicense",
   "author": "N15g",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/coh-content-db-homecoming.d.ts",
+      "import": "./dist/coh-content-db-homecoming.mjs",
+      "require": "./dist/coh-content-db-homecoming.js"
+    },
+    "./bundle.json": "./dist/bundle.json",
+    "./bundle.head.json": "./dist/bundle.head.json"
+  },
   "main": "dist/coh-content-db-homecoming.js",
   "module": "dist/coh-content-db-homecoming.mjs",
   "types": "dist/coh-content-db-homecoming.d.ts",
