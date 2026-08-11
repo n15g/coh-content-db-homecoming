@@ -22,17 +22,17 @@ export const noInvalidReleaseDate = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        const { property: releaseDateProp } = getDataObjectProperty(node, 'BadgeData', 'releaseDate')
-        if (!releaseDateProp) return
+        const { property: releaseDateProperty } = getDataObjectProperty(node, 'BadgeData', 'releaseDate')
+        if (!releaseDateProperty) return
 
-        if (releaseDateProp.value.type !== AST_NODE_TYPES.Literal && releaseDateProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
-        const keyValue = sourceCode.getText(releaseDateProp.value)
+        if (releaseDateProperty.value.type !== AST_NODE_TYPES.Literal && releaseDateProperty.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const keyValue = sourceCode.getText(releaseDateProperty.value)
 
         const keyText = keyValue.slice(1, -1)
         if (DATE_PATTERN.test(keyText)) return
 
         context.report({
-          node: releaseDateProp.value,
+          node: releaseDateProperty.value,
           messageId: 'invalid',
         })
       },

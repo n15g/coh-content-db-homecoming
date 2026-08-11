@@ -24,13 +24,13 @@ export const noMissingReleaseDate = createRule({
         const badgeExpression = getDataObject(node, 'BadgeData')
         if (!badgeExpression) return
 
-        const releaseDateProp = getProperty(node, 'releaseDate')
-        if (releaseDateProp) return
+        const releaseDateProperty = getProperty(node, 'releaseDate')
+        if (releaseDateProperty) return
 
         const nameProperty = getProperty(node, 'name')
 
-        const targetProp = nameProperty ?? badgeExpression.properties.at(-1)
-        const range: Range = targetProp ? [targetProp.range[0], targetProp.range[1] + 2] : [badgeExpression.range[0], badgeExpression.range[0] + 2]
+        const targetProperty = nameProperty ?? badgeExpression.properties.at(-1)
+        const range: Range = targetProperty ? [targetProperty.range[0], targetProperty.range[1] + 2] : [badgeExpression.range[0], badgeExpression.range[0] + 2]
 
         const insertText = `  releaseDate: '2012-11-30',\n`
 

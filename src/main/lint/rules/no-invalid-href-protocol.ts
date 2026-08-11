@@ -21,14 +21,14 @@ export const noInvalidHrefProtocol = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        const hrefProp = getProperty(node, 'href')
-        if (hrefProp?.value.type !== AST_NODE_TYPES.Literal && hrefProp?.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const hrefProperty = getProperty(node, 'href')
+        if (hrefProperty?.value.type !== AST_NODE_TYPES.Literal && hrefProperty?.value.type !== AST_NODE_TYPES.TemplateLiteral) return
 
-        const hrefText = sourceCode.getText(hrefProp.value).slice(1, -1)
+        const hrefText = sourceCode.getText(hrefProperty.value).slice(1, -1)
         if (isValidProtocol(hrefText)) return
 
         context.report({
-          node: hrefProp.value,
+          node: hrefProperty.value,
           messageId: 'error',
         })
       },

@@ -10,8 +10,9 @@ function validateLinks(field?: string): [string, string][] {
 
   const errors: [string, string][] = []
 
-  const links = [...field.matchAll(LINK_PATTERN)]
+  const links = field.matchAll(LINK_PATTERN)
     .map(match => [match[1], match[2]])
+    .toArray()
 
   for (const [type, key] of links) {
     if (type === 'badge' && !TEST_DATABASE.getBadge(key)) errors.push(['badge', key])
@@ -32,11 +33,13 @@ describe('Markdown Links', () => {
       for (const error of validateLinks(badge.effect)) errors.push(`['${badge.key}'].effect - ['${error[0]}:${error[1]}']`)
       for (const error of validateLinks(badge.notes)) errors.push(`['${badge.key}'].notes - ['${error[0]}:${error[1]}']`)
 
-      for (const badgeText of badge.badgeText.canonical ?? []) {
+      const badgeTexts = badge.badgeText.canonical ?? []
+      for (const badgeText of badgeTexts) {
         for (const error of validateLinks(badgeText.value)) errors.push(`['${badge.key}'].badgeText - ['${error[0]}:${error[1]}']`)
       }
 
-      for (const requirement of badge.requirements ?? []) {
+      const requirements = badge.requirements ?? []
+      for (const requirement of requirements) {
         for (const error of validateLinks(requirement.monumentText)) errors.push(`['${badge.key}:${requirement.key}'].monumentText - ['${error[0]}:${error[1]}']`)
         for (const error of validateLinks(requirement.notes)) errors.push(`['${badge.key}:${requirement.key}'].notes - ['${error[0]}:${error[1]}']`)
       }

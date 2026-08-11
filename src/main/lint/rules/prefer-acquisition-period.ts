@@ -21,21 +21,21 @@ export const preferAcquisitionPeriod = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        const { property: acquisitionProp } = getDataObjectProperty(node, 'BadgeData', 'acquisition')
-        if (!acquisitionProp) return
+        const { property: acquisitionProperty } = getDataObjectProperty(node, 'BadgeData', 'acquisition')
+        if (!acquisitionProperty) return
 
-        if (acquisitionProp.value.type !== AST_NODE_TYPES.Literal && acquisitionProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
-        const template = acquisitionProp.value.type === AST_NODE_TYPES.TemplateLiteral
-        const acquisitionValue = sourceCode.getText(acquisitionProp.value)
+        if (acquisitionProperty.value.type !== AST_NODE_TYPES.Literal && acquisitionProperty.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const isTemplate = acquisitionProperty.value.type === AST_NODE_TYPES.TemplateLiteral
+        const acquisitionValue = sourceCode.getText(acquisitionProperty.value)
 
         const acquisitionText = acquisitionValue.slice(1, -1)
         if (acquisitionText.endsWith('.')) return
 
         context.report({
-          node: acquisitionProp.value,
+          node: acquisitionProperty.value,
           messageId: 'error',
           fix(fixer) {
-            return fixer.replaceText(acquisitionProp.value, template ? `\`${acquisitionText}.\`` : `'${acquisitionText}.'`)
+            return fixer.replaceText(acquisitionProperty.value, isTemplate ? `\`${acquisitionText}.\`` : `'${acquisitionText}.'`)
           },
         })
       },

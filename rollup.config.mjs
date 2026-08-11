@@ -4,7 +4,7 @@ import { writeFileSync } from 'node:fs'
 import path from 'node:path'
 import json from '@rollup/plugin-json'
 import replace from '@rollup/plugin-replace'
-import pkg from './package.json' with { type: 'json' }
+import package_ from './package.json' with { type: 'json' }
 
 const name = 'coh-content-db-homecoming'
 
@@ -15,7 +15,7 @@ export default [{
     replace({
       preventAssignment: true,
       values: {
-        __BUNDLE_VERSION__: JSON.stringify(pkg.version),
+        __BUNDLE_VERSION__: JSON.stringify(package_.version),
         __BUNDLE_UPDATE_TIME__: JSON.stringify(new Date().toISOString()),
       },
     }),

@@ -8,7 +8,8 @@ describe('Mission', () => {
     const errors: string[] = []
 
     for (const mission of TEST_DATABASE.missions) {
-      for (const contactKey of mission.contactKeys ?? []) {
+      const contactKeys = mission.contactKeys ?? []
+      for (const contactKey of contactKeys) {
         if (!TEST_DATABASE.getContact(contactKey)) errors.push(`['${mission.key}'].contactKey['${contactKey}']`)
       }
     }

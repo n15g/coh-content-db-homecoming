@@ -21,21 +21,21 @@ export const preferEffectPeriod = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        const { property: effectProp } = getDataObjectProperty(node, 'BadgeData', 'effect')
-        if (!effectProp) return
+        const { property: effectProperty } = getDataObjectProperty(node, 'BadgeData', 'effect')
+        if (!effectProperty) return
 
-        if (effectProp.value.type !== AST_NODE_TYPES.Literal && effectProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
-        const template = effectProp.value.type === AST_NODE_TYPES.TemplateLiteral
-        const effectValue = sourceCode.getText(effectProp.value)
+        if (effectProperty.value.type !== AST_NODE_TYPES.Literal && effectProperty.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const isTemplate = effectProperty.value.type === AST_NODE_TYPES.TemplateLiteral
+        const effectValue = sourceCode.getText(effectProperty.value)
 
         const effectText = effectValue.slice(1, -1)
         if (effectText.endsWith('.')) return
 
         context.report({
-          node: effectProp.value,
+          node: effectProperty.value,
           messageId: 'error',
           fix(fixer) {
-            return fixer.replaceText(effectProp.value, template ? `\`${effectText}.\`` : `'${effectText}.'`)
+            return fixer.replaceText(effectProperty.value, isTemplate ? `\`${effectText}.\`` : `'${effectText}.'`)
           },
         })
       },

@@ -20,17 +20,17 @@ export const preferEffectStart = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        const { property: effectProp } = getDataObjectProperty(node, 'BadgeData', 'effect')
-        if (!effectProp) return
+        const { property: effectProperty } = getDataObjectProperty(node, 'BadgeData', 'effect')
+        if (!effectProperty) return
 
-        if (effectProp.value.type !== AST_NODE_TYPES.Literal && effectProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
-        const keyValue = sourceCode.getText(effectProp.value)
+        if (effectProperty.value.type !== AST_NODE_TYPES.Literal && effectProperty.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const keyValue = sourceCode.getText(effectProperty.value)
 
         const effectText = keyValue.slice(1, -1)
         if (effectText.startsWith('Awards') || effectText.startsWith('Unlocks')) return
 
         context.report({
-          node: effectProp.value,
+          node: effectProperty.value,
           messageId: 'error',
         })
       },

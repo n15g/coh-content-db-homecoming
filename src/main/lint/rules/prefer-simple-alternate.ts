@@ -30,10 +30,10 @@ export const preferSimpleAlternate = createRule({
         const alternateObjectLiteral = alternateField.value.elements[0]
         if (alternateObjectLiteral?.type !== AST_NODE_TYPES.ObjectExpression) return
 
-        const prop = getProperty(alternateObjectLiteral, 'value')
-        if (!prop) return
+        const property = getProperty(alternateObjectLiteral, 'value')
+        if (!property) return
 
-        const valueText = sourceCode.getText(prop.value)
+        const valueText = sourceCode.getText(property.value)
         context.report({
           node: alternateField,
           messageId: 'replaceWithSingleValue',

@@ -23,12 +23,12 @@ export const noInvalidKey = createRule({
       'Property'(node: TSESTree.Property) {
         const sourceCode = context.sourceCode
 
-        const { property: keyProp } = getDataObjectProperty(node, 'all', 'key')
-        if (!keyProp) return
+        const { property: keyProperty } = getDataObjectProperty(node, 'all', 'key')
+        if (!keyProperty) return
 
-        if (keyProp.value.type !== AST_NODE_TYPES.Literal && keyProp.value.type !== AST_NODE_TYPES.TemplateLiteral) return
-        const template = keyProp.value.type === AST_NODE_TYPES.TemplateLiteral
-        const keyValue = sourceCode.getText(keyProp.value)
+        if (keyProperty.value.type !== AST_NODE_TYPES.Literal && keyProperty.value.type !== AST_NODE_TYPES.TemplateLiteral) return
+        const isTemplate = keyProperty.value.type === AST_NODE_TYPES.TemplateLiteral
+        const keyValue = sourceCode.getText(keyProperty.value)
 
         const keyText = keyValue.slice(1, -1)
         if (!INVALID_CHARS.test(keyText)) return
@@ -39,10 +39,10 @@ export const noInvalidKey = createRule({
           .replaceAll(INVALID_CHARS, '')
 
         context.report({
-          node: keyProp.value,
+          node: keyProperty.value,
           messageId: 'invalidKey',
           fix(fixer) {
-            return fixer.replaceText(keyProp.value, template ? `\`${replacementValue}\`` : `'${replacementValue}'`)
+            return fixer.replaceText(keyProperty.value, isTemplate ? `\`${replacementValue}\`` : `'${replacementValue}'`)
           },
         })
       },

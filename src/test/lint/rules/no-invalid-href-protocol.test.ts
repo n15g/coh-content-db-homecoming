@@ -29,6 +29,7 @@ ruleTester.run('should mark', noInvalidHrefProtocol, {
   invalid: [
     {
       name: 'http href',
+      // eslint-disable-next-line unicorn/prefer-https -- HTTP is the invalid input under test.
       code: `const x = { href: 'http://nouri.com/foo/bar' }`,
       errors: [
         { messageId: 'error' },

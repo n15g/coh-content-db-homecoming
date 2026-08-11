@@ -7,8 +7,9 @@ const TEST_DATABASE = new CohContentDatabase(HOMECOMING)
 describe('Metadata', () => {
   test('should not contain any http links', () => {
     const errors: string[] = []
+    const links = TEST_DATABASE.header?.links ?? []
 
-    for (const link of TEST_DATABASE.header?.links ?? []) {
+    for (const link of links) {
       if (new URL(link.href).protocol === 'http:') errors.push(`metadata.links['${link.title}'] contains an insecure (http) link.`)
     }
 
@@ -19,8 +20,9 @@ describe('Metadata', () => {
 
   test('should not contain any unsupported protocols', () => {
     const errors: string[] = []
+    const links = TEST_DATABASE.header?.links ?? []
 
-    for (const link of TEST_DATABASE.header?.links ?? []) {
+    for (const link of links) {
       if (!isValidProtocol(link.href)) errors.push(`metadata.links['${link.href}'] contains an unsupported protocol.`)
     }
 
@@ -31,8 +33,9 @@ describe('Metadata', () => {
 
   test('should be URL encoded', () => {
     const errors: string[] = []
+    const links = TEST_DATABASE.header?.links ?? []
 
-    for (const link of TEST_DATABASE.header?.links ?? []) {
+    for (const link of links) {
       if (new URL(link.href).protocol === 'http:') errors.push(`metadata.links['${link.title}'] contains an insecure (http) link.`)
       if (!isValidUrl(link.href)) errors.push(`metadata.links['${link.href}'] contains an unsafe URL character`)
     }
@@ -53,7 +56,8 @@ describe('Badge', () => {
           if (new URL(link.href).protocol === 'http:') errors.push(`['${badge.key}'].links['${link.title}'] contains an insecure (http) link.`)
         }
 
-        for (const requirement of badge?.requirements ?? []) {
+        const requirements = badge.requirements ?? []
+        for (const requirement of requirements) {
           for (const link of requirement.links) {
             if (new URL(link.href).protocol === 'http:') errors.push(`['${badge.key}:${requirement.key}'].links['${link.title}'] contains an insecure (http) link.`)
           }
@@ -73,7 +77,8 @@ describe('Badge', () => {
           if (!isValidProtocol(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsupported protocol.`)
         }
 
-        for (const requirement of badge?.requirements ?? []) {
+        const requirements = badge.requirements ?? []
+        for (const requirement of requirements) {
           for (const link of requirement.links) {
             if (!isValidProtocol(link.href)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsupported protocol.`)
           }
@@ -93,7 +98,8 @@ describe('Badge', () => {
           if (!isValidUrl(link.href)) errors.push(`['${badge.key}'].links['${link.href}'] contains an unsafe URL character.`)
         }
 
-        for (const requirement of badge.requirements ?? []) {
+        const requirements = badge.requirements ?? []
+        for (const requirement of requirements) {
           for (const link of requirement.links) {
             if (!isValidUrl(link.href)) errors.push(`['${badge.key}:${requirement.key}'].links['${link.href}'] contains an unsafe URL character.`)
           }

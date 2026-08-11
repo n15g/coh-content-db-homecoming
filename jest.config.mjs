@@ -1,4 +1,6 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} **/
+/**
+ * @type {import('ts-jest').JestConfigWithTsJest}
+ */
 export default {
   testEnvironment: 'node',
   transform: {

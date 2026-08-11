@@ -26,10 +26,10 @@ describe('getProperty', () => {
 
 describe('getBadgeRequirementData', () => {
   test('should return nothing if node is not an ObjectExpression', () => {
-    const nonObjectExpr = mock<TSESTree.ObjectPattern>()
-    when(nonObjectExpr.type).thenReturn(AST_NODE_TYPES.ObjectPattern)
+    const nonObjectExpression = mock<TSESTree.ObjectPattern>()
+    when(nonObjectExpression.type).thenReturn(AST_NODE_TYPES.ObjectPattern)
 
-    const result = getBadgeRequirementData(instance(nonObjectExpr))
+    const result = getBadgeRequirementData(instance(nonObjectExpression))
     expect(result).toEqual({})
   })
 

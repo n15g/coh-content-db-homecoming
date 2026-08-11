@@ -4,7 +4,9 @@ import stylistic from '@stylistic/eslint-plugin'
 import tseslint from 'typescript-eslint'
 import localRulesConfig from './src/main/lint/eslint-local.config.js'
 
-/** @type {import('eslint').Linter.Config[]} */
+/**
+ * @type {import('eslint').Linter.Config[]}
+ */
 export default [
   { files: ['**/*.{js,mjs,cjs,ts}'] },
   { ignores: ['.github/', '.idea/', 'coverage/', 'dist/'] },
@@ -31,6 +33,16 @@ export default [
     rules: {
       'unicorn/prevent-abbreviations': ['off'],
       'unicorn/numeric-separators-style': ['off'],
+      'unicorn/name-replacements': ['error', {
+        replacements: {
+          ast: false,
+          doc: false,
+          i: false,
+          mk: false,
+          uri: false,
+        },
+        ignore: [String.raw`^(?:ast|uri)-utils(?:\.test)?$`],
+      }],
     },
   },
   localRulesConfig,
