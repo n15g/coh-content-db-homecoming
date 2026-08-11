@@ -2,11 +2,8 @@ import globals from 'globals'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import stylistic from '@stylistic/eslint-plugin'
 import tseslint from 'typescript-eslint'
-import localRulesConfig from './src/main/lint/eslint-local.config.js'
+import { rules as localRules } from './src/main/lint/rules'
 
-/**
- * @type {import('eslint').Linter.Config[]}
- */
 export default [
   { files: ['**/*.{js,mjs,cjs,ts}'] },
   { ignores: ['.github/', '.idea/', 'coverage/', 'dist/'] },
@@ -23,7 +20,6 @@ export default [
   },
 
   stylistic.configs.customize({
-    flat: true,
     semi: false,
     braceStyle: '1tbs',
   }),
@@ -45,5 +41,15 @@ export default [
       }],
     },
   },
-  localRulesConfig,
+  {
+    plugins: {
+      local: {
+        meta: {
+          name: 'local',
+        },
+        rules: localRules,
+      },
+    },
+    rules: Object.fromEntries(Object.keys(localRules).map(rule => [`local/${rule}`, 'error'])),
+  },
 ]
