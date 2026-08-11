@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simplified the build and lint toolchain by removing unused development dependencies.
 - Defined explicit JavaScript and JSON package exports and limited published files to the distributable package.
 - Simplified custom ESLint rule loading by importing the typed rule registry directly from the flat configuration.
+- Regenerated the lockfile with npm 12 to restore clean-install compatibility with lts.
 
 ---
 
