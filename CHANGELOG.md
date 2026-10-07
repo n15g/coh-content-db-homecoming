@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.1] - 2026-10-08
+
+**Issue 28, Page 4**
+
+### Added
+
+- Added 15 badges for Issue 28, Page 4 ([#200](https://github.com/n15g/coh-content-db-homecoming/pull/200)):
+  - Arena Dispatcher and seven Onslaught PvP badges.
+  - Citadel's Colleague / Citadel's Folly, Positron's Recruit / Positron's Regret, and Unmasked.
+  - Commercial Connoisseur, Some Assembly Required, Dream Hunter, and Wing Clipper.
+- Added mission details for the revamped Citadel Task Force, classic Positron Task Force, and Prime Time Sublime, plus the Abandoned Robot Junk contact.
+
+### Changed
+
+- Updated Task Force Commander to document both classic and revamped Citadel and Positron completion alternatives.
+- Updated Recluse's Right Hand to require the Servant of Recluse badge.
+- Documented the classic Citadel Task Force's retirement to Ouroboros as arc 0.42, 'Citadel's Children'.
+- Removed Vanguard Recruit's obsolete level 35 restriction note.
+- Removed the trailing period from the "You should see the other guy" badge title.
+- Updated development dependencies and release workflow actions.
+
+---
+
 ## [2.3.0] - 2026-08-11
 
 **Packaging and build overhaul**
