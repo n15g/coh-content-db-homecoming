@@ -1,4 +1,5 @@
-import { BadgeData, contactLink, missionLink } from 'coh-content-db'
+import { BadgeData, badgeLink, contactLink } from 'coh-content-db'
+import { FormerServantOfRecluse } from '../accomplishment/former-servant-of-recluse'
 import { BlackScorpion } from '../../contact/black-scorpion'
 import { CaptainMako } from '../../contact/captain-mako'
 import { GhostWidow } from '../../contact/ghost-widow'
@@ -19,7 +20,6 @@ import { AWindCalledSerafina } from '../../mission/a-wind-called-serafina'
 import { TheHammerOfTheWorld } from '../../mission/the-hammer-of-the-world'
 import { TheSpiritCityOfHequat } from '../../mission/the-spirit-city-of-hequat'
 import { TimeAfterTimeScirocco } from '../../mission/time-after-time-ghost-scirocco'
-import { LordRecluseStrikeForce } from '../../mission/lord-recluse-strike-force'
 
 export const ReclusesBetrayer: BadgeData = {
   type: 'accolade',
@@ -36,9 +36,10 @@ export const ReclusesBetrayer: BadgeData = {
     { alignment: 'hero', value: `Lord Recluse was wrong to place his trust in you.` },
     { alignment: 'villain', value: `You are the most villainous of villains and I, Lord Recluse, am proud of you!` },
   ],
-  acquisition: `Complete every story arc from ${contactLink(BlackScorpion)}, ${contactLink(CaptainMako)}, ${contactLink(GhostWidow)}, ${contactLink(Scirocco)}, and the ${missionLink(LordRecluseStrikeForce)}.`,
+  acquisition: `Complete every story arc from ${contactLink(BlackScorpion)}, ${contactLink(CaptainMako)}, ${contactLink(GhostWidow)}, and ${contactLink(Scirocco)}, and earn ${badgeLink(FormerServantOfRecluse)}.`,
   links: [
     { title: `Recluse's Right Hand Badge`, href: 'https://homecoming.wiki/wiki/Recluse%27s_Right_Hand_Badge' },
+    { title: 'Issue 28, Page 4 Patch Notes — Badge Adjustments', href: 'https://forums.homecomingservers.com/patch-notes/issue-28/page-4/issue-28-page-4-r47/' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/recluses-betrayer.png',
   requirements: [
@@ -58,6 +59,6 @@ export const ReclusesBetrayer: BadgeData = {
     { key: TheHammerOfTheWorld.key, type: 'mission', missionKey: TheHammerOfTheWorld.key },
     { key: TheSpiritCityOfHequat.key, type: 'mission', missionKey: TheSpiritCityOfHequat.key },
     { key: TimeAfterTimeScirocco.key, type: 'mission', missionKey: TimeAfterTimeScirocco.key },
-    { key: LordRecluseStrikeForce.key, type: 'mission', missionKey: LordRecluseStrikeForce.key },
+    { key: FormerServantOfRecluse.key, type: 'badge', badgeKey: FormerServantOfRecluse.key },
   ],
 }
