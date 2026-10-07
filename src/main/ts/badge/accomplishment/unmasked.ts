@@ -7,7 +7,7 @@ export const Unmasked: BadgeData = {
   gameId: 'Citadel5thSecret',
   setTitleId: [2607],
   name: 'Unmasked',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: `When assisting Citadel, you exposed Vandal's true allegiance to the 5th Column and his grand scheme to play the Council's resources off of them.` },

@@ -6,7 +6,7 @@ export const OnslaughtVictor: BadgeData = {
   gameId: '1WinOnslaught',
   setTitleId: [2595],
   name: 'Onslaught Victor',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'all',
   badgeText: `You've won your first Onslaught match. You're considered an Onslaught Victor.`,
   acquisition: `Win an Arena Onslaught event.`,

@@ -10,7 +10,7 @@ export const PositronsRecruit: BadgeData = {
     { alignment: 'hero', value: `Positron's Recruit` },
     { alignment: 'villain', value: `Positron's Regret` },
   ],
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Positron personally selected you to head off a chaotic, three-way plot against the Paragon City Dam.' },

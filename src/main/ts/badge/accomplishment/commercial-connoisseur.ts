@@ -7,7 +7,7 @@ export const CommercialConnoisseur: BadgeData = {
   gameId: 'Mission_i28_MrRay',
   setTitleId: [2603],
   name: 'Commercial Connoisseur',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'villainous',
   badgeText: `You've had your fill of old television commercials after working with a robot with a TV for a head, turning it into a psychic killer robot, and unleashing an epidemic of psychotic Clockwork attacks by accident.`,
   acquisition: `Complete the ${missionLink(PrimeTimeSublime)} story arc.`,

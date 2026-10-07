@@ -7,7 +7,7 @@ export const SomeAssemblyRequired: BadgeData = {
   gameId: 'Mission_i28_MrRay_Bonus',
   setTitleId: [2604],
   name: 'Some Assembly Required',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'villainous',
   badgeText: `When given the opportunity to build your own killer robot, you threw caution to the wind and installed literally everything and even the kitchen sink. There's not much this robot CAN'T do now!`,
   acquisition: `Construct your killer robot using all 10 standard optional components in a single play through of the ${missionLink(PrimeTimeSublime)} story arc.`,

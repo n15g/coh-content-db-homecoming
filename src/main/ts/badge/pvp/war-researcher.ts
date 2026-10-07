@@ -6,7 +6,7 @@ export const WarResearcher: BadgeData = {
   gameId: 'OnslaughtResearch',
   setTitleId: [2601],
   name: 'War Researcher',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'all',
   badgeText: `War is the ultimate engine of science, often leading to breakthrough discoveries prompted by the search for means by which they might destroy their enemies.`,
   acquisition: `Donate Onslaught Credit salvage to your team's scientist during an Arena Onslaught match.`,

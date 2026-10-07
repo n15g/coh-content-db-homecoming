@@ -6,7 +6,7 @@ export const Percussionist: BadgeData = {
   gameId: 'OnslaughtCarnivalDefeat',
   setTitleId: [2600],
   name: 'Percussionist',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'all',
   badgeText: `You didn't skip a beat while putting an end to the Carnival of Shadows raves, beating down Maiden Percussion like you were playing a drum.`,
   acquisition: `Defeat the Carnival of Shadows rave's arch-villain during an Onslaught Arena match.`,

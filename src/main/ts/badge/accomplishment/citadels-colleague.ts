@@ -10,7 +10,7 @@ export const CitadelsColleague: BadgeData = {
     { alignment: 'hero', value: `Citadel's Colleague` },
     { alignment: 'villain', value: `Citadel's Folly` },
   ],
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'heroic',
   badgeText: [
     { alignment: 'hero', value: 'Citadel has bequeathed you this medal for putting an end to the new generation of Zenith Mech Men.' },

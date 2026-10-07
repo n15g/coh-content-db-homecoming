@@ -6,7 +6,7 @@ export const LeadingTheCharge: BadgeData = {
   gameId: 'OnslaughtLaneDefeats',
   setTitleId: [2596],
   name: 'Leading The Charge',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'all',
   badgeText: `You've gained an understanding of what it means to be a leader for your troops, as you've lead the charge on defeating your enemy's soldiers while playing Arena's Onslaught mode.`,
   acquisition: `Defeat 100 of the enemy team's soldiers in an Onslaught Arena match.`,

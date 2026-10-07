@@ -7,7 +7,7 @@ export const WingClipper: BadgeData = {
   gameId: 'MayhemMap10',
   setTitleId: [2602],
   name: 'Wing Clipper',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'villainous',
   badgeText: `You recall the time you tore through Kallisti Wharf and remember how driven by violence you once used to be.`,
   notes: ` `,

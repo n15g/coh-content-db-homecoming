@@ -6,7 +6,7 @@ export const OtherworldlyOffensive: BadgeData = {
   gameId: 'OnslaughtRiktiDefeats',
   setTitleId: [2597],
   name: 'Otherworldly Offensive',
-  releaseDate: '2026-12-30',
+  releaseDate: '2026-10-06',
   morality: 'all',
   badgeText: `You've taken care of plenty of invading Rikti that made their way to the surface during an Onslaught Arena match, sending them back the way they came.`,
   acquisition: 'Defeat 100 of the Rikti instigators that appear during an Onslaught Arena match.',
