@@ -222,6 +222,12 @@ import { SixTimesTheVictor } from './six-times-the-victor'
 import { SevenTimesTheVictor } from './seven-times-the-victor'
 import { EightTimesTheVictor } from './eight-times-the-victor'
 import { NineTimesTheVictor } from './nine-times-the-victor'
+import { CitadelsColleague } from './citadels-colleague'
+import { CommercialConnoisseur } from './commercial-connoisseur'
+import { DreamHunter } from './dream-hunter'
+import { PositronsRecruit } from './positrons-recruit'
+import { SomeAssemblyRequired } from './some-assembly-required'
+import { Unmasked } from './unmasked'
 
 export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
 
@@ -311,10 +317,12 @@ export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
   Partner,
   BurkholdersBane,
   PositronsAlly,
+  PositronsRecruit,
   SynapsesCohort,
   SisterPsychesComrade,
   PenelopeYinsFriend,
   CitadelsAssistant,
+  CitadelsColleague,
   ManticoresAssociate,
   NuminasCompatriot,
   Liberator,
@@ -446,6 +454,10 @@ export const ACCOMPLISHMENT_BADGES: BadgeData[] = [
   TruthSeeker,
   BrassTax,
   Psychopomp,
+  CommercialConnoisseur,
+  SomeAssemblyRequired,
   TestedByCombat,
   ChromaticCombatant,
+  DreamHunter,
+  Unmasked,
 ]

@@ -2,6 +2,7 @@ import { ContactData } from 'coh-content-db'
 
 import { AaronThiery } from './aaron-thiery'
 import { AaronWalker } from './aaron-walker'
+import { AbandonedRobotJunk } from './abandoned-robot-junk'
 import { AdaWellington } from './ada-wellington'
 import { AdelardZiegler } from './adelard-ziegler'
 import { AdmiralSutter } from './admiral-sutter'
@@ -248,6 +249,7 @@ import { ZoeLangston } from './zoe-langston'
 export const CONTACTS: ContactData[] = [
   AaronThiery,
   AaronWalker,
+  AbandonedRobotJunk,
   AdaWellington,
   AdelardZiegler,
   AdmiralSutter,

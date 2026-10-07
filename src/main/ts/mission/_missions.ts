@@ -33,6 +33,7 @@ import { CathedralOfPainTrial } from './cathedral-of-pain-trial'
 import { CavernOfTranscendenceTrial } from './cavern-of-transcendence-trial'
 import { ChinkInTheArmor } from './chink-in-the-armor'
 import { CitadelTaskForce } from './citadel-task-force'
+import { CitadelTaskForceRevamp } from './citadel-task-force-revamp'
 import { ClockFace } from './clock-face'
 import { CollapsingSupport } from './collapsing-support'
 import { CollateralDamage } from './collateral-damage'
@@ -154,6 +155,7 @@ import { OrganizedCrusaders } from './organized-crusaders'
 import { PenelopeYinTaskForce } from './penelope-yin-task-force'
 import { PersonalMonster } from './personal-monster'
 import { PiercingTheVeil } from './piercing-the-veil'
+import { PositronTaskForceClassic } from './positron-task-force-classic'
 import { PositronTaskForcePartOne } from './positron-task-force-part-one'
 import { PositronTaskForcePartTwo } from './positron-task-force-part-two'
 import { PowerOfTheMind } from './power-of-the-mind'
@@ -161,6 +163,7 @@ import { PraetoriasHiddenTreasure } from './praetorias-hidden-treasure'
 import { PraetoriasLastGasp } from './praetorias-last-gasp'
 import { PriceOfFriendship } from './price-of-friendship'
 import { PrideInYourWork } from './pride-in-your-work'
+import { PrimeTimeSublime } from './prime-time-sublime'
 import { RageQuit } from './rage-quit'
 import { ReadInventionEnhancementInformation } from './read-invention-enhancement-information'
 import { ReadTheWentworthPamphletOnMrJonesBulletinBoard } from './read-the-wentworth-pamphlet-on-mr-jones-bulletin-board'
@@ -310,6 +313,7 @@ export const MISSIONS: MissionData[] = [
   CavernOfTranscendenceTrial,
   ChinkInTheArmor,
   CitadelTaskForce,
+  CitadelTaskForceRevamp,
   ClockFace,
   CollapsingSupport,
   CollateralDamage,
@@ -427,6 +431,7 @@ export const MISSIONS: MissionData[] = [
   PenelopeYinTaskForce,
   PersonalMonster,
   PiercingTheVeil,
+  PositronTaskForceClassic,
   PositronTaskForcePartOne,
   PositronTaskForcePartTwo,
   PowerOfTheMind,
@@ -434,6 +439,7 @@ export const MISSIONS: MissionData[] = [
   PraetoriasLastGasp,
   PriceOfFriendship,
   PrideInYourWork,
+  PrimeTimeSublime,
   RageQuit,
   ReadInventionEnhancementInformation,
   ReadTheWentworthPamphletOnMrJonesBulletinBoard,

@@ -144,6 +144,7 @@ import { DeepStrikeAgent } from './deep-strike-agent'
 import { ConquerorOfTheLabyrinth } from './conqueror-of-the-labyrinth'
 import { ThePrettiestOne } from './the-prettiest-one'
 import { Mazebreaker } from './mazebreaker'
+import { ArenaDispatcher } from './arena-dispatcher'
 
 export const ACCOLADE_BADGES: BadgeData[] = [
   BugHunter,
@@ -291,4 +292,5 @@ export const ACCOLADE_BADGES: BadgeData[] = [
   ConquerorOfTheLabyrinth,
   Mazebreaker,
   BetweenRealities,
+  ArenaDispatcher,
 ]

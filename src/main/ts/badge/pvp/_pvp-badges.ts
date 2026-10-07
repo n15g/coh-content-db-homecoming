@@ -43,6 +43,13 @@ import { Vigilante } from './vigilante'
 import { WelterweightChampion } from './welterweight-champion'
 import { Wrangler } from './wrangler'
 import { BehindEnemyLines } from './behind-enemy-lines'
+import { LeadingTheCharge } from './leading-the-charge'
+import { OnslaughtVictor } from './onslaught-victor'
+import { OtherworldlyOffensive } from './otherworldly-offensive'
+import { Percussionist } from './percussionist'
+import { RegeneratingRaver } from './regenerating-raver'
+import { ShockingSaboteur } from './shocking-saboteur'
+import { WarResearcher } from './war-researcher'
 
 export const PVP_BADGES: BadgeData[] = [
   ForwardObserver,
@@ -79,6 +86,13 @@ export const PVP_BADGES: BadgeData[] = [
   TournamentVictor,
   ArenaSurvivalist,
   PentadVictor,
+  OnslaughtVictor,
+  LeadingTheCharge,
+  OtherworldlyOffensive,
+  RegeneratingRaver,
+  ShockingSaboteur,
+  Percussionist,
+  WarResearcher,
   StrawweightChampion,
   FlyweightChampion,
   BantamweightChampion,

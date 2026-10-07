@@ -476,6 +476,7 @@ import { QuayToTheCity } from './quay-to-the-city'
 import { RavingMad } from './raving-mad'
 import { TouristTrapped } from './tourist-trapped'
 import { LucidDreamer } from './lucid-dreamer'
+import { WingClipper } from './wing-clipper'
 
 export const EXPLORATION_BADGES: BadgeData[] = [
   // Bloody Bay
@@ -527,7 +528,7 @@ export const EXPLORATION_BADGES: BadgeData[] = [
   Disassembled, ForciblyEvicted, Herculean, Nuclear, GameOver,
 
   // Mayhem Missions
-  GlobalGuardian, KingMaker, RoadRaged, SteelWorker, Revolutionary, TalonOfTalos, Brickhouse, Libertarian, GateCloser,
+  GlobalGuardian, KingMaker, RoadRaged, SteelWorker, Revolutionary, TalonOfTalos, Brickhouse, Libertarian, GateCloser, WingClipper,
 
   // Safeguard Missions
   HeartOfTheCity, KingsRighteousness, CourageDriven, FreedomsDefender, HonorableCaptain, TalosMight, Cornerstone, FoundersProtector, Gatekeeper,
