@@ -19,7 +19,7 @@ export const PositronsRecruit: BadgeData = {
   acquisition: 'Complete the original Positron Task Force via Ouroboros.',
   links: [
     { title: `Positron's Recruit Badge`, href: 'https://homecoming.wiki/wiki/Positron%27s_Recruit_Badge' },
-    { title: `Positron's Betrayer Badge`, href: 'https://homecoming.wiki/wiki/Positron%27s_Regret_Badge' },
+    { title: `Positron's Regret Badge`, href: 'https://homecoming.wiki/wiki/Positron%27s_Regret_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/positrons-ally.png',
   requirements: [

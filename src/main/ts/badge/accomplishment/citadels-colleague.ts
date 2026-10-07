@@ -18,7 +18,7 @@ export const CitadelsColleague: BadgeData = {
   ],
   links: [
     { title: `Citadel's Colleague Badge`, href: 'https://homecoming.wiki/wiki/Citadel%27s_Colleague_Badge' },
-    { title: `Citadel's Folly Badge`, href: 'https://homecoming.wiki/wiki/Citadel%27s_Traitor_Badge' },
+    { title: `Citadel's Folly Badge`, href: 'https://homecoming.wiki/wiki/Citadel%27s_Folly_Badge' },
   ],
   icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accomplishment/citadels-assistant.png',
   requirements: [
