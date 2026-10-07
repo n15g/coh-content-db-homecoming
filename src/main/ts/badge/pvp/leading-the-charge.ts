@@ -14,7 +14,7 @@ export const LeadingTheCharge: BadgeData = {
     { title: 'Leading The Charge Badge', href: 'https://homecoming.wiki/wiki/Leading_The_Charge_Badge' },
   ],
   icon: [
-    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/leading-the-charg-h.png' },
-    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/leading-the-charg-v.png' },
+    { alignment: 'hero', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/leading-the-charge-h.png' },
+    { alignment: 'villain', value: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/leading-the-charge-v.png' },
   ],
 }

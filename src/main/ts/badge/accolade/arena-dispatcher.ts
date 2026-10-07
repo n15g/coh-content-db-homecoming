@@ -16,7 +16,7 @@ export const ArenaDispatcher: BadgeData = {
   links: [
     { title: 'Arena Dispatcher Badge', href: 'https://homecoming.wiki/wiki/Arena_Dispatcher_Badge' },
   ],
-  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/pvp/arena-dispatcher.png',
+  icon: 'https://n15g.github.io/coh-content-db-homecoming/images/badges/accolade/arena-dispatcher.png',
   requirements: [
     { key: OnslaughtVictor.key, type: 'badge', badgeKey: OnslaughtVictor.key },
     { key: LeadingTheCharge.key, type: 'badge', badgeKey: LeadingTheCharge.key },
