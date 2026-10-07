@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed Vanguard Recruit's obsolete level 35 restriction note.
 - Removed the trailing period from the "You should see the other guy" badge title.
 - Updated development dependencies and release workflow actions.
+- Moved development, release, and content contribution instructions from the README to CONTRIBUTING.md.
 
 ---
 
