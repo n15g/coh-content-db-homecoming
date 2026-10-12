@@ -68,5 +68,11 @@
   },
   "engines": {
     "node": ">=24"
+  },
+  "allowScripts": {
+    "@parcel/watcher": false,
+    "esbuild": false,
+    "unrs-resolver": false,
+    "fsevents": false
   }
 }
